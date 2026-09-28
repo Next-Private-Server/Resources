@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f3069a668f6d1d022bbab8db000629cf:36662b8012bc12936f92546b0078c228:ef3db43dd2fa413ba5a875fca0732fa0$ -->
+<TextureAtlas imagePath="gfx/menu/dipster_door_sheet.png" width="512" height="1024" hires="true">
+	<sprite n="egg_dipster_door_back" x="0" y="904" w="91" h="96" oX="9" oY="5" oW="105" oH="106"/>
+	<sprite n="egg_dipster_door_back_ASTRAL" x="0" y="797" w="91" h="96" oX="9" oY="5" oW="105" oH="106"/>
+	<sprite n="egg_dipster_door_back_RARE" x="0" y="695" w="91" h="96" oX="9" oY="5" oW="105" oH="106"/>
+	<sprite n="egg_dipster_door_shade" x="937" y="0" w="82" h="89" oX="12" oY="9" oW="105" oH="106"/>
+	<sprite n="egg_dipster_door_shade_ASTRAL" x="937" y="91" w="74" h="89" oX="19" oY="9" oW="105" oH="106"/>
+	<sprite n="egg_dipster_dust_01" x="648" y="575" w="130" h="118" oX="5" oY="9" oW="138" oH="143" r="y"/>
+	<sprite n="egg_dipster_dust_02" x="905" y="795" w="114" h="107" oX="10" oY="26" oW="138" oH="143" r="y"/>
+	<sprite n="egg_dipster_frame" x="0" y="404" w="210" h="204" oX="2" oY="1" oW="210" oH="212" r="y"/>
+	<sprite n="egg_dipster_frame_ASTRAL" x="725" y="0" w="210" h="204" oX="3" oY="1" oW="210" oH="212" r="y"/>
+	<sprite n="egg_dipster_frame_EPIC" x="257" y="209" w="211" h="210" oX="0" oY="0" oW="210" oH="212" r="y"/>
+	<sprite n="egg_dipster_frame_RARE" x="725" y="206" w="210" h="204" oX="2" oY="1" oW="210" oH="212" r="y"/>
+	<sprite n="egg_dipster_knock_01_01" x="213" y="266" w="41" h="39" oX="125" oY="113" oW="269" oH="256" r="y"/>
+	<sprite n="egg_dipster_knock_01_02" x="818" y="557" w="131" h="122" oX="75" oY="65" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_01_03" x="0" y="221" w="211" h="181" oX="25" oY="37" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_01_04" x="257" y="0" w="237" h="207" oX="14" oY="24" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_01_05" x="0" y="0" w="255" h="219" oX="5" oY="20" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_02_01" x="213" y="221" w="42" h="43" oX="103" oY="142" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_02_02" x="905" y="681" w="116" h="112" oX="70" oY="93" oW="269" oH="256" r="y"/>
+	<sprite n="egg_dipster_knock_02_03" x="470" y="408" w="176" h="166" oX="49" oY="53" oW="269" oH="256" r="y"/>
+	<sprite n="egg_dipster_knock_02_04" x="470" y="210" w="200" h="196" oX="36" oY="37" oW="269" oH="256" r="y"/>
+	<sprite n="egg_dipster_knock_02_05" x="496" y="0" w="227" h="208" oX="21" oY="20" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_03_01" x="213" y="307" w="34" h="31" oX="123" oY="112" oW="269" oH="256" r="y"/>
+	<sprite n="egg_dipster_knock_03_02" x="780" y="681" w="123" h="114" oX="82" oY="75" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_03_03" x="818" y="412" w="145" h="143" oX="74" oY="63" oW="269" oH="256"/>
+	<sprite n="egg_dipster_knock_03_04" x="648" y="412" w="168" h="161" oX="72" oY="51" oW="269" oH="256" r="y"/>
+	<sprite n="egg_dipster_knock_03_05" x="212" y="421" w="174" h="165" oX="67" oY="61" oW="269" oH="256"/>
+</TextureAtlas>

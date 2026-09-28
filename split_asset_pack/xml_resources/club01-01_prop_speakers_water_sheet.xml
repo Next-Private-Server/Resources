@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e75ca927dc676a90a7b02c0c262a962d:d881a6db1288fb62664ff544ee07f55b:3f6b1a075eb9a73ac770d7dcee2477fd$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_speakers_water_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="speaker_back" x="252" y="125" w="172" h="137" oX="12" oY="15" oW="161" oH="202" r="y"/>
+	<sprite n="speaker_front" x="67" y="0" w="183" h="262" oX="6" oY="9" oW="195" oH="280"/>
+	<sprite n="speaker_glow" x="308" y="264" w="46" h="45" oX="2" oY="2" oW="50" oH="50"/>
+	<sprite n="speaker_pipe_back" x="0" y="0" w="65" h="270" oX="5" oY="0" oW="75" oH="290"/>
+	<sprite n="speaker_pipe_front" x="168" y="264" w="138" h="173" oX="7" oY="0" oW="145" oH="185"/>
+	<sprite n="speaker_ring_01" x="426" y="204" w="78" h="74" oX="9" oY="10" oW="92" oH="98" r="y"/>
+	<sprite n="speaker_ring_01_inside" x="233" y="439" w="59" h="65"/>
+	<sprite n="speaker_ring_02" x="168" y="439" w="63" h="67" oX="5" oY="6" oW="73" oH="79"/>
+	<sprite n="speaker_ring_02_inside" x="370" y="264" w="52" h="56"/>
+	<sprite n="speaker_ring_03" x="426" y="125" w="86" h="77" oX="6" oY="5" oW="98" oH="87"/>
+	<sprite n="speaker_ring_03_inside" x="294" y="439" w="74" h="64"/>
+	<sprite n="speaker_support_back" x="252" y="0" w="260" h="123" oX="4" oY="0" oW="131" oH="270" r="y"/>
+	<sprite n="speaker_support_front" x="0" y="272" w="166" h="225" oX="19" oY="0" oW="185" oH="240"/>
+</TextureAtlas>

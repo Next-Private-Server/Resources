@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd164da1b522b6647cbc1bb61b0e54ad:6eb968789faa57c517d44b3386696635:29437b9039ac00ac3c41b7f2b7d255e1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AE_costume_10_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="AE_beak_01" x="185" y="330" w="83" h="108" pX="0.5" pY="0.5" oX="0" oY="0" oW="108" oH="104" r="y"/>
+	<sprite n="AE_beak_02" x="141" y="0" w="83" h="108" pX="0.5" pY="0.5" oX="0" oY="0" oW="108" oH="104" r="y"/>
+	<sprite n="AE_beak_03" x="194" y="110" w="80" h="108" pX="0.5" pY="0.5" oX="0" oY="0" oW="108" oH="104" r="y"/>
+	<sprite n="AE_beak_04" x="89" y="334" w="94" h="108" pX="0.5" pY="0.5" oX="0" oY="0" oW="108" oH="104" r="y"/>
+	<sprite n="AE_beak_05" x="98" y="172" w="94" h="108" pX="0.5" pY="0.5" oX="0" oY="0" oW="108" oH="104" r="y"/>
+	<sprite n="AE_beak_06" x="234" y="220" w="85" h="107" pX="0.5" pY="0.5" oX="1" oY="0" oW="108" oH="104" r="y"/>
+	<sprite n="AE_body" x="0" y="0" w="139" h="170" pX="0.492857" pY="0.735294" oX="1" oY="0" oW="140" oH="170"/>
+	<sprite n="AE_hat" x="0" y="172" w="96" h="160" pX="0.517647" pY="0.96" oX="5" oY="4" oW="170" oH="100" r="y"/>
+	<sprite n="AE_hat_back" x="141" y="110" w="30" h="36" pX="0.517647" pY="0.96" oX="7" oY="40" oW="170" oH="100" r="y"/>
+	<sprite n="AE_hat_drawstrings" x="0" y="334" w="87" h="111" pX="0.49" pY="0.125" oX="6" oY="4" oW="100" oH="120"/>
+	<sprite n="AE_head" x="226" y="0" w="101" h="106" pX="0.5" pY="0.5" oX="0" oY="7" oW="106" oH="108" r="y"/>
+	<sprite n="AE_left_foot" x="154" y="282" w="78" h="46" pX="0.5" pY="0.5"/>
+	<sprite n="AE_left_leg" x="98" y="282" w="54" h="49" pX="0.5" pY="0.5" oX="0" oY="0" oW="50" oH="54" r="y"/>
+	<sprite n="AE_left_lowerarm" x="124" y="444" w="87" h="67" pX="0.585714" pY="0.244444" oX="1" oY="1" oW="70" oH="90" r="y"/>
+	<sprite n="AE_left_upperarm" x="313" y="428" w="67" h="79" pX="0.614286" pY="0.2375" oX="1" oY="1" oW="70" oH="80"/>
+	<sprite n="AE_right_foot" x="0" y="447" w="66" h="56" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AE_right_leg" x="68" y="447" w="54" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="AE_right_lowerarm" x="213" y="440" w="98" h="69" pX="0.485714" pY="0.18" oX="1" oY="0" oW="70" oH="100" r="y"/>
+	<sprite n="AE_right_upperarm" x="270" y="329" w="77" h="97" pX="0.25" pY="0.22" oX="0" oY="3" oW="80" oH="100"/>
+</TextureAtlas>

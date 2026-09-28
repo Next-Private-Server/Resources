@@ -1,0 +1,35 @@
+<template name="template_storeitem_sticker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$layer" equals="Tutorial"/>
+	<defaultTemplateVar name="$text" equals="MOST_POPULAR"/>
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<!--
+	<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+	<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="-30*game.hudScale()" yOffset="-30/game.hudScale()" priorityOffset="-2" />
+	-->
+
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("menu_value_sticker_purple")
+			component("sheetName"):SetString("xml_resources/store_elements_01.xml")
+			component("layer"):SetString(element:templateVars().layer)
+			component("size"):SetFloat(0.5*game.menuScaleX())			
+		</event>
+	</spriteSheetComponent>
+	
+	<textComponent name="Text">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("font"):Set(game.getTextFont())
+			component("size"):SetFloat(0.2*game.menuScaleX())
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString(element:templateVars().text)
+			component("yOffset"):SetFloat(-3.0*game.hudScale())
+			component("layer"):SetString(element:templateVars().layer)
+		</event>
+	</textComponent>
+	
+</template>

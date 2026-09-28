@@ -1,0 +1,101 @@
+<template name="template_club_stage_editor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/template_ClubStageEd.lua" />
+
+	<size dependentOnElement="StageEditorBg0" dependentOnComponent="Sprite" />
+
+	<template type="template_club_stageEdEntry" name="StageEditorBg0">
+		<templateVar name="$buttonSpriteName" equals="button_deco_01" />
+		<templateVar name="$buttonDownSpriteName" equals="button_deco_01_pressed" />
+		<templateVar name="$buttonSpriteSheet" equals="'xml_resources/clubbox_customization_menu.xml'" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<template type="template_club_stageEdEntry" name="StageEditorBg1">
+		<templateVar name="$buttonSpriteName" equals="button_deco_02" />
+		<templateVar name="$buttonDownSpriteName" equals="button_deco_02_pressed" />
+		<templateVar name="$buttonSpriteSheet" equals="'xml_resources/clubbox_customization_menu.xml'" />
+		<position relativeTo="StageEditorBg0" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5*(lua_sys.screenHeight()/320)" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<template type="template_club_stageEdEntry" name="StageEditorBg2">
+		<templateVar name="$buttonSpriteName" equals="button_deco_03" />
+		<templateVar name="$buttonDownSpriteName" equals="button_deco_03_pressed" />
+		<templateVar name="$buttonSpriteSheet" equals="'xml_resources/clubbox_customization_menu.xml'" />
+		<position relativeTo="StageEditorBg1" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5*(lua_sys.screenHeight()/320)" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<element name="CloseButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="StageEditorBg2" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" >
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("useOffsets"):SetFloat(1)
+				component("spriteName"):SetString("button_close")
+				component("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+				component("size"):SetFloat(0.35*(lua_sys.screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				element.Sprite("spriteName"):SetString("button_close")
+				element.Sprite("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+				element:parent():closeCustomizeMenu()
+			</event>
+			<event name="onTouchDown" params="component, element, x, y">
+				element.Sprite("spriteName"):SetString("button_close_pressed")
+				element.Sprite("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				element.Sprite("spriteName"):SetString("button_close")
+				element.Sprite("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+			</event>
+		</touchComponent>
+	</element>
+	<element name="InfoButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="StageEditorBg1" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" >
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("useOffsets"):SetFloat(1)
+				component("spriteName"):SetString("button_info")
+				component("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+				component("size"):SetFloat(0.35*(lua_sys.screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				component("useOffsets"):SetFloat(1)
+				element.Sprite("spriteName"):SetString("button_info")
+				element.Sprite("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+				component("size"):SetFloat(0.35*(lua_sys.screenHeight()/320))
+				game.pushPopUp("clubbox_mixer_how_it_works")
+			</event>
+			<event name="onTouchDown" params="component, element, x, y">
+				element.Sprite("spriteName"):SetString("button_info_pressed")
+				element.Sprite("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				element.Sprite("spriteName"):SetString("button_info")
+				element.Sprite("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+			</event>
+		</touchComponent>
+	</element>
+
+</template>

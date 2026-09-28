@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:77d446e4160e63850349de43613d28fb:cffd01ab8019c54fb81273d547a99e0a:7a0226f83ad7e9cc7a1b1a7255fdafa6$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01_wubarm_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="wubarm_back" x="304" y="687" w="178" h="315" oX="46" oY="56" oW="388" oH="294" r="y"/>
+	<sprite n="wubarm_back_glow" x="877" y="137" w="135" h="230" oX="79" oY="79" oW="388" oH="294" r="y"/>
+	<sprite n="wubarm_fist" x="484" y="0" w="391" h="365" oX="39" oY="15" oW="495" oH="432"/>
+	<sprite n="wubarm_sleeve" x="0" y="0" w="420" h="685" oX="45" oY="78" oW="510" oH="840"/>
+	<sprite n="wubarm_sleeve_gem_glow" x="877" y="0" w="139" h="135" oX="6" oY="11" oW="148" oH="162"/>
+	<sprite n="wubarm_sleeve_swirl_glow" x="0" y="687" w="302" h="323" oX="52" oY="27" oW="414" oH="364" r="y"/>
+	<sprite n="wubarm_spring" x="422" y="369" w="245" h="287" oX="65" oY="44" oW="417" oH="333" r="y"/>
+</TextureAtlas>

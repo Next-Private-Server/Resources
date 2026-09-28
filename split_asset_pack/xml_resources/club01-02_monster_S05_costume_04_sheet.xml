@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e1804f892e2bfa18ddb7a39a785991d9:83a3e1bb98a8c5322424614921ae2c0f:a00ab3bad714b3f070c285ea4e33cb96$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_S05_costume_04_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="X_body" x="146" y="244" w="103" h="91" pX="0.4625" pY="0.653571" oX="2" oY="2" oW="96" oH="112" r="y"/>
+	<sprite n="X_head" x="146" y="138" w="110" h="104" pX="0.455357" pY="0.846154" oX="1" oY="0" oW="112" oH="104"/>
+	<sprite n="X_head_hat" x="0" y="138" w="144" h="132" pX="0.45" pY="0.868056" oX="14" oY="0" oW="160" oH="144" r="y"/>
+	<sprite n="X_hoop_01" x="0" y="0" w="247" h="67" pX="0.5" pY="0.5" oX="0" oY="1" oW="248" oH="132"/>
+	<sprite n="X_hoop_02" x="0" y="69" w="247" h="67" pX="0.5" pY="0.5" oX="0" oY="64" oW="248" oH="132"/>
+	<sprite n="X_skirt_clubbox" x="0" y="272" w="127" h="102" pX="0.493711" pY="0.230769" oX="12" oY="1" oW="159" oH="104"/>
+	<sprite n="X_top" x="129" y="337" w="91" h="74" pX="0.46875" pY="0.6875" oX="2" oY="3" oW="96" oH="80"/>
+</TextureAtlas>

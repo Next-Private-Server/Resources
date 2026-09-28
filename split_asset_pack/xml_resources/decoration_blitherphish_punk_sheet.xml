@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2a6ca288eee2dc2377c96bda6b6df532:adbacb17d5ebc333cda6a00a71c49612:63fec420761928f27ad1be9e97b88adf$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_blitherphish_punk_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="can_shadow" x="486" y="292" w="18" h="9"/>
+	<sprite n="cone_pylon" x="413" y="338" w="42" h="32" r="y"/>
+	<sprite n="light_glows_A_01" x="136" y="441" w="38" h="67"/>
+	<sprite n="light_glows_A_02" x="151" y="363" w="38" h="67"/>
+	<sprite n="light_glows_B_01" x="220" y="483" w="27" h="28" oX="0" oY="0" oW="28" oH="30" r="y"/>
+	<sprite n="light_glows_B_02" x="486" y="0" w="26" h="30" oX="0" oY="0" oW="28" oH="30"/>
+	<sprite n="light_glows_C_01" x="486" y="73" w="22" h="46" oX="1" oY="0" oW="47" oH="22" r="y"/>
+	<sprite n="light_glows_C_02" x="486" y="121" w="22" h="45" oX="0" oY="0" oW="47" oH="22" r="y"/>
+	<sprite n="light_glows_D_01" x="486" y="303" w="17" h="15" oX="2" oY="0" oW="19" oH="15"/>
+	<sprite n="light_glows_D_02" x="486" y="277" w="19" h="13" oX="0" oY="2" oW="19" oH="15"/>
+	<sprite n="light_glows_E_01" x="176" y="432" w="42" h="60"/>
+	<sprite n="light_glows_E_02" x="371" y="363" w="40" h="57" oX="0" oY="1" oW="42" oH="60"/>
+	<sprite n="punk_stage" x="0" y="0" w="484" h="336"/>
+	<sprite n="red_speaker" x="0" y="363" w="92" h="133"/>
+	<sprite n="skateboard" x="94" y="441" w="40" h="70"/>
+	<sprite n="speaker_cone" x="413" y="372" w="36" h="31" r="y"/>
+	<sprite n="speaker_core" x="0" y="498" w="11" h="14"/>
+	<sprite n="speaker_ring_large" x="457" y="363" w="40" h="34" r="y"/>
+	<sprite n="speaker_ring_small" x="486" y="168" w="21" h="16" r="y"/>
+	<sprite n="spraycan_green" x="0" y="338" w="43" h="15" r="y"/>
+	<sprite n="spraycan_orange" x="486" y="320" w="16" h="41"/>
+	<sprite n="spraycan_pink" x="486" y="32" w="23" h="39" r="y"/>
+	<sprite n="spraycan_pink_lid" x="486" y="257" w="19" h="18"/>
+	<sprite n="spraycan_purple" x="45" y="338" w="43" h="15" r="y"/>
+	<sprite n="spraycan_teal" x="90" y="338" w="43" h="15" r="y"/>
+	<sprite n="spraycan_yellow" x="135" y="338" w="43" h="15" r="y"/>
+	<sprite n="tall_pylon" x="486" y="186" w="20" h="69"/>
+	<sprite n="tv_layer" x="94" y="363" w="55" h="76"/>
+	<sprite n="tv_screen_0" x="191" y="363" w="58" h="58"/>
+	<sprite n="tv_screen_1" x="220" y="423" w="58" h="58"/>
+	<sprite n="tv_screen_2" x="251" y="363" w="58" h="58"/>
+	<sprite n="tv_screen_3" x="280" y="423" w="58" h="58"/>
+	<sprite n="tv_screen_4" x="311" y="363" w="58" h="58"/>
+	<sprite n="tv_screen_5" x="340" y="423" w="58" h="58"/>
+</TextureAtlas>

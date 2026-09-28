@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ebef326c56a28f268d597f1476d9686b:ee26e26585822efb8842fe801dead60c:b80a40ce884d3bcc2d69a68a5a3d67fa$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ADE_costume_07_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ADE_body" x="211" y="3" w="194" h="120" r="y"/>
+    <sprite n="ADE_drum" x="3" y="3" w="204" h="160" oX="-1" oY="-17"/>
+    <sprite n="ADE_eyeback_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_hair01_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_horns_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_left_eyeback" x="203" y="219" w="76" h="48" r="y"/>
+    <sprite n="ADE_left_eyelid_1" x="283" y="219" w="34" h="26" r="y"/>
+    <sprite n="ADE_left_eyelid_2" x="283" y="249" w="34" h="26" r="y"/>
+    <sprite n="ADE_left_eyelid_3" x="159" y="237" w="34" h="26" r="y"/>
+    <sprite n="ADE_left_eyelid_4" x="159" y="267" w="34" h="26" r="y"/>
+    <sprite n="ADE_left_eyestalk" x="83" y="305" w="56" h="30" r="y"/>
+    <sprite n="ADE_left_foot" x="409" y="91" w="90" h="104"/>
+    <sprite n="ADE_left_hand_1" x="195" y="323" w="66" h="66" oX="4" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_left_hand_2" x="3" y="235" w="74" h="66" oX="3" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_left_hand_3" x="3" y="167" w="77" h="64" oX="4" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_left_hand_4" x="321" y="127" w="84" h="61" oX="0" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_left_leg" x="321" y="192" w="82" h="88"/>
+    <sprite n="ADE_left_lowerarm" x="311" y="284" w="72" h="48"/>
+    <sprite n="ADE_left_upperarm" x="165" y="167" w="34" h="66" r="y"/>
+    <sprite n="ADE_mouth_1" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_2" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_3" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_4" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_5" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_6" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_7" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_8" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_9" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_mouth_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_pupil" x="492" y="199" w="14" h="14" oX="1" oY="1" oW="16" oH="16"/>
+    <sprite n="ADE_right_eyeback" x="197" y="271" w="74" h="48" r="y"/>
+    <sprite n="ADE_right_eyelid_1" x="159" y="297" w="32" h="26" r="y"/>
+    <sprite n="ADE_right_eyelid_2" x="275" y="279" w="32" h="26" r="y"/>
+    <sprite n="ADE_right_eyelid_3" x="275" y="309" w="32" h="26" r="y"/>
+    <sprite n="ADE_right_eyelid_4" x="3" y="463" w="26" h="32"/>
+    <sprite n="ADE_right_eyestalk" x="53" y="327" w="26" h="58"/>
+    <sprite n="ADE_right_foot" x="211" y="127" w="106" h="88" r="y"/>
+    <sprite n="ADE_right_hand_1" x="3" y="393" w="66" h="66" oX="13" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_right_hand_2" x="81" y="235" w="74" h="66" oX="6" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_right_hand_3" x="84" y="167" w="77" h="64" oX="2" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_right_hand_4" x="407" y="199" w="81" h="61" oX="0" oY="0" oW="84" oH="66"/>
+    <sprite n="ADE_right_leg" x="409" y="3" w="95" h="84" oX="0" oY="0" oW="96" oH="84"/>
+    <sprite n="ADE_right_lowerarm" x="3" y="327" w="46" h="62" r="y"/>
+    <sprite n="ADE_right_upperarm" x="407" y="264" w="80" h="34"/>
+    <sprite n="ADE_shadow" x="0" y="0" w="0" h="0"/>
+    <sprite n="ADE_wing_RARE" x="0" y="0" w="0" h="0"/>
+</TextureAtlas>

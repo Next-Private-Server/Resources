@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:21acc20cfc79546acaa8943fa9a0b687:9e639f487304756f1e9dbae79d76c904:8c598aa21345e089ce5de49715647f7b$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island01_MIRROR_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island01_MIRROR_burns" x="0" y="0" w="638" h="1158" oX="0" oY="4" oW="638" oH="1166"/>
+	<sprite n="island01_MIRROR_ear" x="793" y="1584" w="803" h="456" oX="0" oY="1" oW="456" oH="804" r="y"/>
+	<sprite n="island01_MIRROR_edge" x="793" y="1148" w="331" h="404" oX="2" oY="3" oW="414" oH="334" r="y"/>
+	<sprite n="island01_MIRROR_eyeclosed" x="0" y="1160" w="791" h="808" oX="50" oY="25" oW="870" oH="816" r="y"/>
+	<sprite n="island01_MIRROR_nose" x="1298" y="0" w="580" h="680"/>
+	<sprite n="island01_MIRROR_scarecrow" x="1126" y="1148" w="206" h="215" oX="1" oY="0" oW="208" oH="216"/>
+	<sprite n="island01_MIRROR_stumpcenter" x="640" y="723" w="984" h="423" oX="3" oY="16" oW="990" oH="460"/>
+	<sprite n="island01_MIRROR_stumpside" x="640" y="0" w="656" h="721" oX="7" oY="16" oW="728" oH="672" r="y"/>
+	<sprite n="island01_MIRROR_teleruin" x="1598" y="1584" w="406" h="388" oX="3" oY="3" oW="412" oH="392"/>
+	<sprite n="w1_cloud" x="1626" y="682" w="411" h="900" oX="0" oY="4" oW="900" oH="420" r="y"/>
+	<sprite n="w1_leaves_1" x="1880" y="0" w="114" h="106"/>
+	<sprite n="w1_leaves_2" x="1880" y="196" w="104" h="94" r="y"/>
+	<sprite n="w1_plant_bird_01" x="0" y="1970" w="94" h="44" oX="2" oY="11" oW="96" oH="56"/>
+	<sprite n="w1_plant_bird_02" x="96" y="1970" w="55" h="73" oX="12" oY="0" oW="96" oH="56" r="y"/>
+	<sprite n="w1_plant_bird_03" x="153" y="1970" w="94" h="42" oX="2" oY="13" oW="96" oH="56"/>
+	<sprite n="w1_plant_bird_04" x="333" y="1970" w="84" h="42" oX="7" oY="14" oW="96" oH="56"/>
+	<sprite n="w1_plant_bird_05" x="419" y="1970" w="40" h="41" oX="22" oY="15" oW="96" oH="56" r="y"/>
+	<sprite n="w1_vine_1" x="249" y="1970" w="82" h="46"/>
+	<sprite n="w1_vine_2" x="1880" y="108" w="140" h="86"/>
+</TextureAtlas>

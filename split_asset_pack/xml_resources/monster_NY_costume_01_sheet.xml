@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c290b24468f5ff3937be371588b19edf:d4ff8df82ac39f2efbebf4cc79543724:5bb06623d329de94e0df7b7e86599d36$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_NY_costume_01_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="monster_a_body" x="3" y="3" w="350" h="143" r="y"/>
+    <sprite n="monster_a_foot" x="119" y="643" w="105" h="69" oX="0" oY="9" oW="105" oH="78"/>
+    <sprite n="monster_a_hair_01" x="368" y="645" w="113" h="101"/>
+    <sprite n="monster_a_hair_02" x="109" y="798" w="94" h="66"/>
+    <sprite n="monster_a_hair_03" x="226" y="742" w="95" h="64"/>
+    <sprite n="monster_a_skirt" x="248" y="382" w="58" h="50" oX="0" oY="0" oW="58" oH="52"/>
+    <sprite n="monster_b_body" x="311" y="284" w="171" h="233" r="y"/>
+    <sprite n="monster_b_crown" x="248" y="508" w="47" h="76" oX="6" oY="13.4" r="y"/>
+    <sprite n="monster_b_foot_01" x="357" y="121" w="127" h="101" oX="0" oY="13" oW="143" oH="124"/>
+    <sprite n="monster_b_foot_02" x="299" y="521" w="126" h="105" oX="0" oY="13" oW="143" oH="124"/>
+    <sprite n="monster_b_foot_03" x="3" y="531" w="121" h="108" oX="0" oY="13" oW="143" oH="124"/>
+    <sprite n="monster_b_foot_04" x="246" y="630" w="118" h="108" oX="0" oY="13" oW="143" oH="124"/>
+    <sprite n="monster_b_foot_05" x="128" y="531" w="114" h="108" oX="0" oY="13" oW="143" oH="124"/>
+    <sprite n="monster_b_leg" x="311" y="150" w="41" h="55" oX="0" oY="3" oW="41" oH="58"/>
+    <sprite n="monster_b_skirt" x="248" y="436" w="48" h="68" r="y"/>
+    <sprite n="monster_c_body" x="3" y="323" w="241" h="204" r="y"/>
+    <sprite n="monster_c_crown" x="427" y="226" w="80" h="51" oX="5.4" oY="27.8"/>
+    <sprite n="monster_c_foot" x="357" y="3" w="144" h="114" oX="-62" oY="-32"/>
+    <sprite n="monster_c_hair_bg" x="429" y="521" w="79" h="120" r="y"/>
+    <sprite n="monster_c_hair_fg" x="3" y="726" w="102" h="92"/>
+    <sprite n="monster_c_leg" x="248" y="323" w="59" h="55" oX="-7.9" oY="14"/>
+    <sprite n="monster_c_skirt" x="3" y="822" w="91" h="70" oX="3" oY="7" oW="98" oH="84"/>
+    <sprite n="monster_d_body" x="3" y="150" w="304" h="169" r="y"/>
+    <sprite n="monster_d_foot" x="3" y="643" w="112" h="79" oX="35.3" oY="-16.3"/>
+    <sprite n="monster_d_hair" x="119" y="716" w="103" h="78"/>
+    <sprite n="monster_d_leg" x="311" y="209" w="39" h="71" oX="-8.15" oY="-11.6"/>
+    <sprite n="monster_d_skirt" x="354" y="226" w="69" h="53"/>
+</TextureAtlas>

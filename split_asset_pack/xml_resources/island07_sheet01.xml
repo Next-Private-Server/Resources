@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:050148961de3c4341dfc629b8d21a822:8d6d04f4cf8b3f6f65ec3d46ff7c3853:109e6b6fbac4223e1ba755c6f29f6d72$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island07_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island07_bubble01" x="1574" y="674" w="140" h="139" oX="0" oY="0" oW="140" oH="140"/>
+	<sprite n="island07_bubbler01" x="1752" y="1141" w="256" h="312" oX="15" oY="19" oW="328" oH="290" r="y"/>
+	<sprite n="island07_burns" x="0" y="1252" w="484" h="786" oX="4" oY="0" oW="488" oH="786"/>
+	<sprite n="island07_dragonfly_01" x="1716" y="796" w="86" h="96" oX="37" oY="11" oW="140" oH="100" r="y"/>
+	<sprite n="island07_dragonfly_02" x="1716" y="674" w="92" h="120" oX="13" oY="6" oW="140" oH="100" r="y"/>
+	<sprite n="island07_dragonfly_03" x="1943" y="535" w="86" h="129" oX="4" oY="12" oW="140" oH="100" r="y"/>
+	<sprite n="island07_dragonfly_04" x="1943" y="412" w="93" h="121" oX="12" oY="5" oW="140" oH="100" r="y"/>
+	<sprite n="island07_ear" x="1004" y="0" w="806" h="672" oX="8" oY="4" oW="680" oH="810" r="y"/>
+	<sprite n="island07_edge" x="1464" y="939" w="286" h="859" oX="6" oY="8" oW="298" oH="874"/>
+	<sprite n="island07_eyeclosed" x="754" y="958" w="708" h="630" oX="0" oY="2" oW="708" oH="632"/>
+	<sprite n="island07_glow" x="1752" y="1001" w="140" h="138" oX="0" oY="1" oW="140" oH="140"/>
+	<sprite n="island07_hair01" x="1812" y="0" w="129" h="578" oX="3" oY="0" oW="132" oH="578"/>
+	<sprite n="island07_hair02" x="1943" y="0" w="74" h="410"/>
+	<sprite n="island07_hair03" x="1812" y="580" w="110" h="419" oX="0" oY="3" oW="110" oH="424"/>
+	<sprite n="island07_hair04" x="1924" y="666" w="113" h="404" oX="0" oY="2" oW="114" oH="408"/>
+	<sprite n="island07_nose" x="486" y="1590" w="501" h="414" oX="0" oY="1" oW="418" oH="502" r="y"/>
+	<sprite n="island07_reeds" x="1752" y="1455" w="180" h="340" oX="2" oY="12" oW="184" oH="352"/>
+	<sprite n="island07_small_horn01" x="754" y="631" w="208" h="325" oX="0" oY="0" oW="326" oH="208" r="y"/>
+	<sprite n="island07_small_horns" x="964" y="674" w="608" h="263" oX="2" oY="0" oW="272" oH="608" r="y"/>
+	<sprite n="island07_stumpcenter" x="0" y="0" w="1002" h="629" oX="0" oY="1" oW="1002" oH="630"/>
+	<sprite n="island07_stumpside" x="0" y="631" w="752" h="619" oX="4" oY="4" oW="762" oH="628"/>
+</TextureAtlas>

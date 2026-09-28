@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:57931ac0ee10dd779c62d18877702ba8:60d679175c2cfcbcf1b7b4a3d5090b42:c35f8aa6dfd1e0390e219aaaef89bda9$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCD_RARE_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ABCD_body_RARE" x="0" y="206" w="232" h="178" pX="0.5" pY="0.804167" oX="1" oY="3" oW="180" oH="240" r="y"/>
+	<sprite n="ABCD_cymbal_vine_ring_RARE" x="141" y="519" w="65" h="30" pX="0.5" pY="0.5" oX="0" oY="0" oW="30" oH="66" r="y"/>
+	<sprite n="ABCD_earring_RARE" x="352" y="442" w="70" h="66" pX="0.5" pY="0.5"/>
+	<sprite n="ABCD_hair_RARE" x="0" y="446" w="139" h="125" pX="0.701389" pY="1.45455" oX="2" oY="3" oW="144" oH="132"/>
+	<sprite n="ABCD_head_RARE" x="259" y="0" w="238" h="167" pX="0.5" pY="0.5" oX="0" oY="0" oW="168" oH="238" r="y"/>
+	<sprite n="ABCD_hihat_stand_RARE" x="259" y="169" w="235" h="94" pX="0.5" pY="0.5" oX="0" oY="1" oW="94" oH="238" r="y"/>
+	<sprite n="ABCD_left_hand_RARE" x="0" y="386" w="158" h="58" pX="0.5" pY="0.5" oX="0" oY="0" oW="160" oH="58"/>
+	<sprite n="ABCD_left_leg_RARE" x="426" y="265" w="86" h="111" pX="0.5" pY="0.5" oX="0" oY="1" oW="86" oH="114"/>
+	<sprite n="ABCD_left_lowerarm_RARE" x="426" y="378" w="85" h="82" pX="0.5" pY="0.5" oX="0" oY="0" oW="82" oH="86" r="y"/>
+	<sprite n="ABCD_left_upperarm_RARE" x="352" y="510" w="69" h="106" pX="0.5" pY="0.5" oX="0" oY="1" oW="72" oH="108"/>
+	<sprite n="ABCD_makeup_RARE" x="424" y="462" w="83" h="51" pX="0.545455" pY="0.5" oX="2" oY="0" oW="88" oH="52"/>
+	<sprite n="ABCD_pin_RARE" x="141" y="465" w="66" h="52" pX="1.48529" pY="1.10714" oX="1" oY="2" oW="68" oH="56"/>
+	<sprite n="ABCD_right_hand_RARE" x="234" y="384" w="171" h="56" pX="0.5" pY="0.5" oX="0" oY="0" oW="56" oH="172" r="y"/>
+	<sprite n="ABCD_right_leg_RARE" x="233" y="442" w="117" h="90" pX="0.347826" pY="0.883333" oX="1" oY="1" oW="92" oH="120" r="y"/>
+	<sprite n="ABCD_right_lowerarm_RARE" x="423" y="515" w="76" h="74" pX="0.5" pY="0.5" oX="1" oY="0" oW="76" oH="78" r="y"/>
+	<sprite n="ABCD_right_upperarm" x="160" y="386" w="71" h="77" pX="0.5" pY="0.5" oX="1" oY="0" oW="74" oH="78"/>
+	<sprite n="ABCD_shell_RARE" x="0" y="0" w="257" h="204" pX="0.5" pY="0.5" oX="2" oY="3" oW="206" oH="260" r="y"/>
+	<sprite n="ABCD_snaredrum_RARE" x="234" y="265" w="190" h="117" pX="0.5" pY="0.5" oX="0" oY="0" oW="190" oH="118"/>
+	<sprite n="ABCD_stickers_RARE" x="423" y="591" w="75" h="27" pX="0.486842" pY="-0.464286" oX="0" oY="0" oW="76" oH="28"/>
+</TextureAtlas>

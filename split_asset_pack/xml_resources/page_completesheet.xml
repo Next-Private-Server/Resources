@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ba534fdd33c2ab27ec2f5a7260cc6314:31b6ac95d769973ddb96e8e0f120e590:6f7b32c6cb4ce555da0645982fe713ec$ -->
+<TextureAtlas imagePath="gfx/menu/card_album/page_completesheet.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="beam" x="0" y="623" w="43" h="237"/>
+	<sprite n="card_header_left" x="0" y="862" w="128" h="139"/>
+	<sprite n="card_header_right" x="130" y="857" w="128" h="139"/>
+	<sprite n="glow" x="45" y="623" w="231" h="232" oX="1" oY="0" oW="233" oH="231" r="y"/>
+	<sprite n="page_complete" x="0" y="0" w="512" h="519"/>
+	<sprite n="sticker_book" x="0" y="521" w="512" h="100"/>
+</TextureAtlas>

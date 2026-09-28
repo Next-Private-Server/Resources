@@ -1,0 +1,29 @@
+<template name="template_titansoul_power_level" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+	
+	<textComponent name="Text">
+		<size h="30*game.bgScale()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-1*game.bgScale()" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("autoScale"):SetInt(1)
+			component("autoScaleFactor"):SetFloat(0.01)
+			component:setColor(0.81, 0.58, 1.0)
+			component("font"):Set(game.getTitleFont())
+			component("size"):SetFloat(0.4*game.bgScale())
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_RIGHT_ALIGNED)
+			component("text"):SetString("TITANSOUL_POWER_LEVEL_BAR")
+			component("layer"):SetString("ContextBar")
+		</event>
+	</textComponent>
+	
+	<event name="setVisible" params="element">
+		element["Text"]("visible"):SetInt(1)
+	</event>
+	
+	<event name="setInvisible" params="element">
+		element["Text"]("visible"):SetInt(0)
+	</event>
+	
+</template>

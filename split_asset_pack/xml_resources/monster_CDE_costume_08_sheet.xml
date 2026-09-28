@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0e9d45e4cbd767ddc330a4db3f3aff6e:31051f9520395578524530664cd48f13:3aad8cf917207aef751b8be9efae3b9f$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CDE_costume_08_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="C_behind_jaw_1" x="280" y="207" w="90" h="50" pX="0.5" pY="0.5" oX="0" oY="2" oW="102" oH="70"/>
+	<sprite n="C_behind_jaw_2" x="220" y="424" w="57" h="87" pX="0.5" pY="0.5" oX="6" oY="3" oW="102" oH="70" r="y"/>
+	<sprite n="C_behind_jaw_3" x="347" y="419" w="83" h="63" pX="0.5" pY="0.5" oX="12" oY="2" oW="102" oH="70"/>
+	<sprite n="C_behind_jaw_4" x="351" y="352" w="83" h="66" pX="0.5" pY="0.5" oX="18" oY="0" oW="102" oH="70"/>
+	<sprite n="C_behind_jaw_5" x="278" y="417" w="68" h="80" pX="0.5" pY="0.5" oX="21" oY="2" oW="102" oH="70" r="y"/>
+	<sprite n="C_body" x="0" y="0" w="166" h="156" pX="0.511905" pY="0.525" oX="1" oY="2" oW="168" oH="160"/>
+	<sprite n="C_eyeback" x="217" y="244" w="26" h="25" pX="0.5" pY="0.5" oX="0" oY="0" oW="26" oH="26" r="y"/>
+	<sprite n="C_eyelid_1" x="347" y="483" w="29" h="29" pX="0.5" pY="0.5625" oX="1" oY="2" oW="32" oH="32"/>
+	<sprite n="C_eyelid_2" x="377" y="483" w="29" h="29" pX="0.5" pY="0.5625" oX="1" oY="2" oW="32" oH="32"/>
+	<sprite n="C_eyelid_3" x="167" y="118" w="29" h="29" pX="0.5" pY="0.5625" oX="1" oY="2" oW="32" oH="32"/>
+	<sprite n="C_eyelid_4" x="465" y="100" w="29" h="29" pX="0.5" pY="0.5625" oX="1" oY="2" oW="32" oH="32"/>
+	<sprite n="C_face" x="0" y="157" w="152" h="155" pX="0.596154" pY="0.653846" oX="2" oY="0" oW="156" oH="156"/>
+	<sprite n="C_foot_left" x="108" y="313" w="67" h="119" pX="0.491935" pY="0.444444" oX="4" oY="2" oW="124" oH="72" r="y"/>
+	<sprite n="C_foot_right" x="371" y="195" w="120" h="66" pX="0.5" pY="0.5" oX="2" oY="1" oW="124" oH="68"/>
+	<sprite n="C_jaw_1" x="176" y="298" w="67" h="125" pX="0.867188" pY="0.181818" oX="1" oY="1" oW="128" oH="88" r="y"/>
+	<sprite n="C_jaw_2" x="244" y="258" w="121" h="72" pX="0.867188" pY="0.181818" oX="5" oY="1" oW="128" oH="88"/>
+	<sprite n="C_jaw_3" x="102" y="433" w="117" h="76" pX="0.867188" pY="0.181818" oX="9" oY="1" oW="128" oH="88"/>
+	<sprite n="C_jaw_4" x="280" y="93" w="83" h="113" pX="0.867188" pY="0.181818" oX="13" oY="1" oW="128" oH="88" r="y"/>
+	<sprite n="C_jaw_5" x="244" y="331" w="106" h="85" pX="0.867188" pY="0.181818" oX="20" oY="1" oW="128" oH="88"/>
+	<sprite n="C_jaw_6" x="217" y="118" w="62" h="125" pX="0.867188" pY="0.181818" oX="1" oY="1" oW="128" oH="88" r="y"/>
+	<sprite n="C_leg1_left" x="366" y="262" w="97" h="89" pX="0.434783" pY="0.21" oX="1" oY="1" oW="92" oH="100" r="y"/>
+	<sprite n="C_leg1_right" x="0" y="419" w="101" h="93" pX="0.364583" pY="0.125" oX="1" oY="1" oW="96" oH="104" r="y"/>
+	<sprite n="C_leg2_left" x="364" y="100" w="100" h="94" pX="0.509615" pY="0.78125" oX="1" oY="2" oW="104" oH="96"/>
+	<sprite n="C_leg2_right" x="273" y="0" w="114" h="92" pX="0.516667" pY="0.76087" oX="2" oY="0" oW="120" oH="92"/>
+	<sprite n="C_pupil" x="464" y="262" w="15" h="15" pX="0.5" pY="0.5" oX="2" oY="2" oW="20" oH="20"/>
+	<sprite n="C_shadow" x="153" y="157" w="63" h="140" pX="0.5" pY="0.5" oX="0" oY="3" oW="140" oH="66" r="y"/>
+	<sprite n="C_shoulder_left" x="388" y="0" w="105" h="99" pX="0.740741" pY="0.538462" oX="1" oY="2" oW="108" oH="104"/>
+	<sprite n="C_shoulder_right" x="0" y="313" w="107" h="105" pX="0.348214" pY="0.482143" oX="2" oY="3" oW="112" oH="112"/>
+	<sprite n="C_tail1" x="167" y="0" w="105" h="117" pX="0.241071" pY="0.677419" oX="3" oY="3" oW="112" oH="124"/>
+	<sprite n="C_tail2" x="435" y="352" w="67" h="74" pX="0.319444" pY="0.625" oX="3" oY="3" oW="72" oH="80"/>
+	<sprite n="C_tail3" x="431" y="427" w="70" h="60" pX="0.234375" pY="0.736842" oX="2" oY="3" oW="64" oH="76" r="y"/>
+</TextureAtlas>

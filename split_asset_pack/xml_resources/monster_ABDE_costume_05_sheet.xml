@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:aa889901ba584ee597211184f2a19068:491379fcd87f2c4b78d297b74bae30d4:09ef216662cd41253e2eca2f9202eed0$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABDE_costume_05_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ABDE_costume_05_body" x="0" y="0" w="212" h="164" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABDE_costume_05_head" x="0" y="166" w="202" h="156" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABDE_costume_05_left_upperarm" x="204" y="166" w="44" h="86" pX="0.5" pY="0.5"/>
+	<sprite n="ABDE_costume_05_right_upperarm" x="214" y="0" w="42" h="88" pX="0.5" pY="0.5"/>
+	<sprite n="ABDE_costume_05_tree" x="0" y="324" w="83" h="93" pX="0.32" pY="0.75" oX="10" oY="13" oW="100" oH="120"/>
+</TextureAtlas>

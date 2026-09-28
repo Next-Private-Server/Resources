@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c5802f291e09f04b202ceac74ffb3c1a:25f95c9dc2ad0646818744cb82b014f3:ff2d3b24ee2c190c8836ddd7adc3cb82$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_P06_costume_01_sheet.png" width="256" height="512" hires="true">
+    <sprite n="P06_backtentacle_C_egg.png" x="201" y="200" w="33" h="32" pX="0.5" pY="0.5" oX="-12.2" oY="15.6" oW="34" oH="32"/>
+    <sprite n="P06_backtentacle_D_egg.png" x="223" y="57" w="26" h="26" pX="0.5" pY="0.5" oX="4.4" oY="-5.2" oW="29" oH="26"/>
+    <sprite n="P06_dome_egg_back.png" x="229" y="124" w="24" h="72" pX="0.5" pY="0.5" oX="38.4" oY="-3.8" r="y"/>
+    <sprite n="P06_dome_egg_front.png" x="3" y="58" w="146" h="63" pX="0.5" pY="0.5" oX="-2" oY="-5.4"/>
+    <sprite n="P06_hand_1.png" x="136" y="192" w="61" h="60" pX="0.5" pY="0.5" oX="5" oY="5" oW="66" oH="74" r="y"/>
+    <sprite n="P06_hand_2.png" x="153" y="58" w="65" h="62" pX="0.5" pY="0.5" oX="3" oY="3" oW="66" oH="74" r="y"/>
+    <sprite n="P06_hand_3.png" x="153" y="124" w="72" h="64" pX="0.5" pY="0.5" oX="1" oY="0" oW="66" oH="74" r="y"/>
+    <sprite n="P06_nest_back.png" x="3" y="3" w="216" h="51" pX="0.5" pY="0.5" oX="-14.8" oY="62"/>
+    <sprite n="P06_nest_front.png" x="3" y="125" w="129" h="261" pX="0.5" pY="0.5" oX="-45.4" oY="67.2" r="y"/>
+    <sprite n="P06_tentacle_C_DARKER_egg.png" x="222" y="87" w="31" h="33" pX="0.5" pY="0.5" oX="-12.2" oY="13.6" oW="34" oH="31" r="y"/>
+    <sprite n="P06_tentacle_C_egg.png" x="201" y="236" w="33" h="31" pX="0.5" pY="0.5" oX="-10.2" oY="11.6" oW="34" oH="31"/>
+    <sprite n="P06_tentacle_D_DARKER_egg.png" x="223" y="3" w="28" h="23" pX="0.5" pY="0.5" oX="5" oY="-6.4" oW="31" oH="29" r="y"/>
+    <sprite n="P06_tentacle_D_egg.png" x="223" y="30" w="27" h="23" pX="0.5" pY="0.5" oX="4" oY="-4.4" oW="31" oH="29" r="y"/>
+</TextureAtlas>

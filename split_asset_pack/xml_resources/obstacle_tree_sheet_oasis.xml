@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:429622c8c7c4d82bc667febc08dac28f:986bdc1706ec2bfe1037340be55dd69a:739654b13a8661d562cd2df316d0ee26$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_tree_sheet_oasis.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="obstacle_tree01_oasis" x="546" y="0" w="372" h="185" oX="29" oY="9" oW="244" oH="416" r="y"/>
+	<sprite n="obstacle_tree02_oasis" x="0" y="669" w="535" h="344" oX="71" oY="7" oW="428" oH="580" r="y"/>
+	<sprite n="obstacle_tree03_oasis" x="0" y="0" w="544" h="667" oX="12" oY="21" oW="564" oH="728"/>
+</TextureAtlas>

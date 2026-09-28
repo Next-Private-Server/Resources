@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bd0a06b4bea776d1bae9ee436fcadbb1:00f702c0b9bb3823783562a340f2f886:0eb177fe2c7c5e873a1b87f1ca18fb20$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S03_costume_02_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="V_arm_lower" x="174" y="57" w="71" h="36" pX="0.5" pY="0.5" oX="0" oY="0" oW="72" oH="36"/>
+	<sprite n="V_body_ROSE_QUARTZ" x="0" y="0" w="172" h="157" pX="0.5" pY="0.655556" oX="4" oY="7" oW="180" oH="180"/>
+	<sprite n="V_foot" x="174" y="0" w="71" h="55" pX="0.5" pY="0.5" oX="0" oY="0" oW="72" oH="56"/>
+	<sprite n="V_hand" x="169" y="196" w="60" h="44" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="V_left_glasses" x="174" y="146" w="70" h="48" pX="0.55" pY="0.814815" oX="5" oY="0" oW="80" oH="108"/>
+	<sprite n="V_left_head" x="106" y="159" w="61" h="87" pX="0.5" pY="0.5" oX="3" oY="2" oW="68" oH="108"/>
+	<sprite n="V_right_glasses" x="174" y="95" w="70" h="49" pX="0.45" pY="0.862903" oX="2" oY="5" oW="80" oH="124"/>
+	<sprite n="V_right_head" x="0" y="159" w="104" h="62" pX="0.5" pY="0.5" oX="4" oY="0" oW="68" oH="124" r="y"/>
+	<sprite n="V_wing" x="0" y="223" w="93" h="44" pX="0.5" pY="0.5" oX="1" oY="0" oW="96" oH="44"/>
+</TextureAtlas>

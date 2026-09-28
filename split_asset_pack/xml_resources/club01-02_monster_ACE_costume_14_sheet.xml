@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:da475b2be92398eba76de7eabc633f2d:445435d642fd5fdb70b8c5aa59c36b99:e2d0ca1b124ffd2c26fd8ab25ea05bdc$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_ACE_costume_14_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="ACE_dress_skirt" x="0" y="0" w="153" h="105" pX="0.475155" pY="0.0892857" oX="4" oY="4" oW="161" oH="112"/>
+	<sprite n="ACE_dress_top" x="155" y="0" w="98" h="108" pX="0.509259" pY="0.65" oX="0" oY="7" oW="108" oH="112" r="y"/>
+	<sprite n="ACE_head_top" x="198" y="110" w="48" h="59" pX="0.635417" pY="1.65625" oX="0" oY="2" oW="48" oH="64"/>
+	<sprite n="ACE_left_upperarm" x="181" y="174" w="59" h="29" pX="0.8125" pY="0.5625" oX="4" oY="2" oW="64" oH="32"/>
+	<sprite n="ACE_pom_1" x="0" y="110" w="113" h="117" pX="0.5" pY="0.5" oX="7" oY="1" oW="132" oH="114" r="y"/>
+	<sprite n="ACE_pony_left" x="148" y="110" w="48" h="62" pX="0.458333" pY="0.68125" oX="0" oY="0" oW="48" oH="80"/>
+	<sprite n="ACE_pony_right" x="115" y="177" w="64" h="71" pX="0.35" pY="0.695313" oX="9" oY="0" oW="80" oH="64" r="y"/>
+	<sprite n="ACE_ponytail_left_base" x="25" y="229" w="28" h="22" pX="0.395833" pY="0.9125" oX="10" oY="52" oW="48" oH="80" r="y"/>
+	<sprite n="ACE_ponytail_right _base" x="0" y="229" w="23" h="27" pX="0.09375" pY="0.835938" oX="0" oY="41" oW="80" oH="64" r="y"/>
+	<sprite n="ACE_right_upperarm" x="115" y="107" w="31" h="68" pX="0.222222" pY="0.5" oX="2" oY="0" oW="72" oH="32" r="y"/>
+</TextureAtlas>

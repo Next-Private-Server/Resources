@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:95bcd1552e65dfbad68d9a1127192874:ae4edd3fa3c5502d342ca648ca494c1b:94c3d1dca10fa89d14f880305fd5e768$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_djbooth_metro_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="back_glow" x="109" y="764" w="88" h="251" oX="1" oY="0" oW="260" oH="188" r="y"/>
+	<sprite n="centre_booth" x="0" y="592" w="69" h="101"/>
+	<sprite n="centre_booth_glow" x="390" y="273" w="77" h="55" oX="7" oY="9" oW="69" oH="101" r="y"/>
+	<sprite n="centre_glow" x="468" y="477" w="260" h="113" oX="0" oY="51" oW="260" oH="188"/>
+	<sprite n="dj_booth_bg" x="0" y="764" w="107" h="260" oX="0" oY="0" oW="260" oH="188" r="y"/>
+	<sprite n="dj_booth_fg" x="888" y="0" w="129" h="260" oX="0" oY="50" oW="260" oH="188" r="y"/>
+	<sprite n="light_base" x="469" y="304" w="303" h="171" oX="0" oY="46" oW="303" oH="217"/>
+	<sprite n="light_glow" x="872" y="505" w="121" h="121"/>
+	<sprite n="main_pillar_1" x="774" y="304" w="96" h="213" oX="0" oY="103" oW="213" oH="199" r="y"/>
+	<sprite n="main_pillar_2" x="730" y="519" w="113" h="243" oX="8" oY="75" oW="260" oH="188" r="y"/>
+	<sprite n="main_pillar_3" x="876" y="262" w="126" h="241" r="y"/>
+	<sprite n="ring" x="390" y="330" w="76" h="230" r="y"/>
+	<sprite n="stage_base_glow" x="479" y="139" w="395" h="163" oX="11" oY="44" oW="424" oH="224"/>
+	<sprite n="stage_base_OL" x="479" y="0" w="407" h="137" oX="6" oY="75" oW="424" oH="224"/>
+	<sprite n="stage_base_UL" x="0" y="273" w="388" h="190" oX="15" oY="3" oW="424" oH="224"/>
+	<sprite n="Stage_top" x="0" y="0" w="477" h="271" oX="4" oY="1" oW="484" oH="273"/>
+</TextureAtlas>

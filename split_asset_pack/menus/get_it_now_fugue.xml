@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/GetItNowFugue.lua"/>
+		
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="4" />
+	</template>
+
+	<element name="DiamondCounter">
+		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="-1*lua_sys.screenWidth()" yOffset="10*game.hudScale()" priorityOffset="3" />
+
+		<ninesliceComponent name="BackingSprite">
+			<size w="130*game.hudScale()" h="32*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("includeBorder"):SetInt(1)
+					component("topHeight"):SetFloat(30.0)
+					component("bottomHeight"):SetFloat(30.0)
+					component("leftWidth"):SetFloat(50.0)
+					component("rightWidth"):SetFloat(50.0)
+					component("size"):SetFloat(0.35*game.hudScale())
+					component("spriteName"):SetString("gfx/menu/BlackTitleFrame")
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</ninesliceComponent>
+
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-4*game.hudScale()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString(game.StoreContext_SPRITE_DIAMOND)
+					component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+					component("size"):SetFloat(0.5*game.hudScale())
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</spriteSheetComponent>
+
+		<textComponent name="Text">
+			<size w="65*game.hudScale()" h="100" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="10*game.hudScale()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("size"):SetFloat(0.35*game.hudScale())
+					component("text"):SetString(game.commaizeNumber(game.playerDiamonds()))
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					game.StoreContext_setCurrencyTypeColour(game.CurrencyType_Diamonds, component)
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</textComponent>
+
+	</element>
+	
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*lua_sys.screenWidth()" yOffset="-30*game.hudScale()" priorityOffset="3" />
+		<ninesliceComponent name="Sprite">
+			<size w="340*game.hudScale()" h="230*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("includeBorder"):SetInt(1)
+				component("size"):SetFloat(0.5)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("FrontPopUps")
+				component("includeBorder"):SetInt(1)
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="Flourish1">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="7" yOffset="7" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_swirl_01")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Flourish2">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="7" yOffset="10" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_swirl_02")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("rotation"):SetFloat(-0.5*math.pi)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="MonsterAnim">
+		<size w="70*game.hudScale()" h="70*game.hudScale()" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="-50*game.hudScale()" yOffset="0*game.hudScale()" priorityOffset="-1" />
+		<aeComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("offsetCenter"):SetInt(1)
+					component("animationName"):SetString("xml_bin/monster_a.bin")
+					component("animation"):SetString(game.objectStoreAnim())
+					component:setScale(Vector2(0.5*game.hudScale(), 0.5*game.hudScale()))
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="Mirror">
+		<size w="75*game.hudScale()" h="85*game.hudScale()" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="35*game.hudScale()" yOffset="0" priorityOffset="-1" />
+		<aeComponent name="Sprite" >
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("offsetCenter"):SetInt(1)
+					component("animationName"):SetString("xml_bin/fugue_timer_menu_anim.bin")
+
+					local currentMode = game.player():getActiveIsland():islandMode()
+					if currentMode == 0 then
+						component("animation"):SetString("fugue_timer_idle_MAJ")
+					else
+						component("animation"):SetString("fugue_timer_idle_MIN")
+					end
+				
+					component("offsetCenter"):SetInt(1)
+
+					local scaleFactor = element:absH() / component:absH()
+					component:setScale(Vector2(scaleFactor, scaleFactor))
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</aeComponent>
+	</element>
+	
+	<element name="Prefix">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0*game.hudScale()" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="340*game.hudScale()" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">			
+				component("textPadding"):SetInt(30)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString(game.getLocalizedText("FUGUING_GETNOW_PREFIX"))
+				component("size"):SetFloat(0.23*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</element>
+	<element name="Time">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Prefix" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="element">
+			element("update"):SetInt(0)
+		</event>
+		<textComponent name="Text">
+			<size w="340*game.hudScale()" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">			
+				component("textPadding"):SetInt(30)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				--component("text"):SetString("00:00:00")
+				component:setColor(0.31, 0.94, 0.26)
+				component("size"):SetFloat(0.23*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+		
+	</element>
+	<element name="Postfix">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Time" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="10*game.hudScale()" priorityOffset="0" />
+		<event name="onInit" params="element">
+			element("diamonds"):SetInt(0)
+		</event>
+		<textComponent name="Text">
+			<size w="300*game.hudScale()" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">			
+				component("textPadding"):SetInt(30)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				--component("text"):SetString("GETNOW_POSTFIX")
+				component("size"):SetFloat(0.23*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</element>
+	
+	<template type="template_spritesheetbutton" name="Wait">
+		<templateVar name="$text" equals="WAIT_LABEL" />
+		<templateVar name="$textYOffset" equals="-8*game.hudScale()" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-10*game.hudScale()" yOffset="-10*game.hudScale()" priorityOffset="-1" />
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+				element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+			end
+		</event>
+		<textComponent name="Text">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" />
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component("size"):SetFloat(0.25*game.hudScale())
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+				game.deselectSelectedObject()
+				manager:setContext(manager:getDefaultContext())
+				element:parent():Hide()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_wait")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("layer"):SetString("FrontPopUps")
+				component("size"):SetFloat(0.5*game.hudScale())
+			</event>
+		</spriteSheetComponent>
+	</template>	
+	
+	<template type="template_spritesheetbutton" name="GetItNow">
+		<templateVar name="$text" equals="CONTEXTBAR_SPEED_LABEL" />
+		<templateVar name="$textYOffset" equals="-8*game.hudScale()" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-10*game.hudScale()" yOffset="-10*game.hudScale()" priorityOffset="-1" />
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+				element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+			end
+		</event>
+		<textComponent name="Text">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" />
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component("size"):SetFloat(0.25*game.hudScale())
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+				game.speedUpNoPrompt()
+				game.deselectSelectedObject()
+				manager:setContext(manager:getDefaultContext())
+				element:parent():Hide()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_finish")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("layer"):SetString("FrontPopUps")
+				component("size"):SetFloat(0.5*game.hudScale())
+			</event>
+		</spriteSheetComponent>
+	</template>	
+
+</menu>

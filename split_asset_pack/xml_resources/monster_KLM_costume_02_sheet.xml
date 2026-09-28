@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:29b1e8b7371b93072c8d112b0e84bd66:a09f2ac6decbd3437f3327435b67f2bc:eb96d765cad9e9a4023e1ecdb17248a9$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_KLM_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="A_Body" x="242" y="0" w="188" h="150" pX="0.493333" pY="0.657895" oX="0" oY="2" oW="150" oH="190" r="y"/>
+	<sprite n="A_Eyelids_1" x="123" y="306" w="58" h="58" pX="0.5" pY="0.5" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="A_Eyelids_2" x="172" y="402" w="58" h="58" pX="0.5" pY="0.5" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="A_Eyelids_3" x="183" y="334" w="58" h="58" pX="0.5" pY="0.5" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="A_Eyelids_4" x="243" y="334" w="58" h="58" pX="0.5" pY="0.5" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="A_Head_Curl_L_1" x="60" y="306" w="61" h="59" pX="0.5" pY="0.5" oX="59" oY="0" oW="120" oH="60"/>
+	<sprite n="A_Head_Curl_L_2" x="0" y="266" w="57" h="65" pX="0.5" pY="0.5" oX="55" oY="3" oW="120" oH="60" r="y"/>
+	<sprite n="A_Head_Curl_L_3" x="0" y="402" w="56" h="69" pX="0.5" pY="0.5" oX="51" oY="4" oW="120" oH="60" r="y"/>
+	<sprite n="A_Head_Curl_L_4" x="421" y="275" w="89" h="48" pX="0.5" pY="0.5" oX="31" oY="10" oW="120" oH="60"/>
+	<sprite n="A_Head_Curl_L_5" x="240" y="180" w="106" h="44" pX="0.5" pY="0.5" oX="14" oY="11" oW="120" oH="60"/>
+	<sprite n="A_Head_Curl_L_6" x="0" y="179" w="114" h="26" pX="0.5" pY="0.5" oX="6" oY="29" oW="120" oH="60"/>
+	<sprite n="A_Head_Curl_L_7" x="0" y="237" w="113" h="27" pX="0.5" pY="0.5" oX="7" oY="28" oW="120" oH="60"/>
+	<sprite n="A_Head_Curl_L_8" x="0" y="207" w="113" h="28" pX="0.5" pY="0.5" oX="7" oY="28" oW="120" oH="60"/>
+	<sprite n="A_Head_Curl_R_1" x="115" y="238" w="66" h="66" pX="0.5" pY="0.5" oX="1" oY="3" oW="120" oH="70"/>
+	<sprite n="A_Head_Curl_R_2" x="58" y="402" w="63" h="64" pX="0.5" pY="0.5" oX="8" oY="4" oW="120" oH="70"/>
+	<sprite n="A_Head_Curl_R_3" x="0" y="334" w="58" h="66" pX="0.5" pY="0.5" oX="8" oY="10" oW="120" oH="70" r="y"/>
+	<sprite n="A_Head_Curl_R_4" x="186" y="132" w="52" h="82" pX="0.5" pY="0.5" oX="8" oY="16" oW="120" oH="70" r="y"/>
+	<sprite n="A_Head_Curl_R_5" x="236" y="286" w="100" h="46" pX="0.5" pY="0.5" oX="8" oY="20" oW="120" oH="70"/>
+	<sprite n="A_Head_Curl_R_6" x="240" y="152" w="107" h="26" pX="0.5" pY="0.5" oX="8" oY="40" oW="120" oH="70"/>
+	<sprite n="A_Head_Curl_R_7" x="236" y="226" w="106" h="28" pX="0.5" pY="0.5" oX="7" oY="38" oW="120" oH="70"/>
+	<sprite n="A_Head_Curl_R_8" x="236" y="256" w="106" h="28" pX="0.5" pY="0.5" oX="9" oY="38" oW="120" oH="70"/>
+	<sprite n="A_Leg_Lower_B" x="427" y="158" w="85" h="37" pX="0.5" pY="0.15555555555555556" oX="8" oY="1" oW="60" oH="90" r="y"/>
+	<sprite n="A_Leg_Lower_B2" x="427" y="197" w="85" h="37" pX="0.45" pY="0.7555555555555555" oX="8" oY="1" oW="60" oH="90" r="y"/>
+	<sprite n="A_Leg_Lower_F" x="427" y="236" w="85" h="37" pX="0.5" pY="0.15555555555555556" oX="8" oY="1" oW="60" oH="90" r="y"/>
+	<sprite n="A_Leg_Lower_F2" x="418" y="325" w="85" h="37" pX="0.45" pY="0.7555555555555555" oX="8" oY="1" oW="60" oH="90" r="y"/>
+	<sprite n="A_Leg_Mid_B" x="183" y="305" w="49" h="27" pX="0.5" pY="0.5" oX="1" oY="2" oW="50" oH="30"/>
+	<sprite n="A_Leg_Mid_F" x="60" y="266" w="49" h="27" pX="0.5" pY="0.5" oX="1" oY="2" oW="50" oH="30"/>
+	<sprite n="A_Leg_Upper_B" x="344" y="240" w="75" h="42" pX="0.5" pY="0.5" oX="3" oY="2" oW="50" oH="80" r="y"/>
+	<sprite n="A_Leg_Upper_F" x="344" y="284" w="72" h="41" pX="0.5" pY="0.5" oX="5" oY="5" oW="50" oH="80" r="y"/>
+	<sprite n="A_Tail_1" x="349" y="152" w="76" h="86" pX="0.5" pY="0.5" oX="4" oY="1" oW="80" oH="90"/>
+	<sprite n="A_Tail_2" x="116" y="179" w="67" h="57" pX="0.5" pY="0.5" oX="1" oY="0" oW="60" oH="70" r="y"/>
+	<sprite n="A_Tail_3" x="0" y="473" w="48" h="38" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="50" r="y"/>
+	<sprite n="A_Tail_Tip" x="185" y="216" w="49" h="87" pX="0.216667" pY="0.76" oX="6" oY="6" oW="60" oH="100"/>
+	<sprite n="B_Body_FEATHERS" x="0" y="0" w="240" h="130" pX="0.496" pY="0.735714" oX="6" oY="3" oW="250" oH="140"/>
+	<sprite n="B_Body_Top" x="0" y="132" w="184" h="45" pX="0.5" pY="0.5" oX="25" oY="11" oW="230" oH="110"/>
+	<sprite n="B_Eye_Base" x="432" y="118" w="78" h="38" pX="0.5" pY="0.5" oX="0" oY="2" oW="80" oH="40"/>
+	<sprite n="B_Leg_Lower_B" x="123" y="402" w="47" h="59" pX="0.5" pY="0.5" oX="7" oY="3" oW="60" oH="70"/>
+	<sprite n="B_Leg_Lower_B_foot_HUMAN" x="50" y="473" w="43" h="38" pX="0.5" pY="0.5" oX="10" oY="29" oW="60" oH="70"/>
+	<sprite n="B_Leg_Lower_L" x="432" y="0" w="80" h="58" pX="0.5" pY="0.5" oX="2" oY="4" oW="60" oH="90" r="y"/>
+	<sprite n="B_Leg_Lower_L_Foot_HUMAN" x="338" y="327" w="72" h="36" pX="0.7125" pY="0.8" oX="3" oY="3" oW="80" oH="40"/>
+	<sprite n="B_Leg_Lower_R" x="432" y="60" w="80" h="56" pX="0.5" pY="0.5" oX="8" oY="8" oW="70" oH="100" r="y"/>
+	<sprite n="B_Leg_Lower_R_Foot_HUMAN" x="412" y="364" w="72" h="36" pX="0.425" pY="0.5" oX="5" oY="4" oW="80" oH="40"/>
+</TextureAtlas>

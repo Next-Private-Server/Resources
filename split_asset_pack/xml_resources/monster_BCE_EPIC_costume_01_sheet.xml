@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ae6a53f0eca1b872c76c7a46d1daec27:1ba30d1ff28627f3a81c1209bb98d4f7:25e938aa0d5407a671ee826238ee40ee$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BCE_EPIC_costume_01_sheet.png" width="855" height="256" hires="true">
+    <sprite n="BCE_c6_beard.png" x="485" y="1" w="53" h="150" oX="41" oY="61.06" oW="76" oH="160"/>
+    <sprite n="BCE_c6_bodyA.png" x="612" y="133" w="110" h="122" oX="57" oY="27" oW="114" oH="128"/>
+    <sprite n="BCE_c6_bodyB.png" x="751" y="1" w="103" h="110" oX="-4" oY="-1" oW="104" oH="110"/>
+    <sprite n="BCE_c6_bodyC.png" x="191" y="1" w="211" h="231" oX="-35.84" oY="-3" oW="232" oH="214" r="y"/>
+    <sprite n="BCE_c6_cape.png" x="404" y="1" w="79" h="221" oX="20" oY="49" oW="86" oH="226"/>
+    <sprite n="BCE_c6_foot.png" x="761" y="113" w="72" h="104" oX="0" oY="0" oW="120" oH="80" r="y"/>
+    <sprite n="BCE_c6_gong.png" x="540" y="1" w="91" h="130" oX="9.98" oY="0.908" oW="110" oH="140"/>
+    <sprite n="BCE_c6_hat1.png" x="1" y="1" w="188" h="252" oX="-47" oY="-131.86" oW="220" oH="260"/>
+    <sprite n="BCE_c6_hat2.png" x="404" y="224" w="86" h="25" oX="109" oY="28.14" oW="220" oH="260" r="y"/>
+    <sprite n="BCE_c6_lowerarm.png" x="485" y="153" w="123" h="59" oX="-11" oY="-8" oW="128" oH="60"/>
+    <sprite n="BCE_c6_lowerarm2.png" x="633" y="1" w="55" h="124" oX="-14" oY="-12" oW="128" oH="58" r="y"/>
+    <sprite n="BCE_c6_lowerarmR.png" x="690" y="1" w="59" h="123" oX="-10" oY="-9" oW="128" oH="60" r="y"/>
+    <sprite n="BCE_c6_lowerarmR2.png" x="690" y="1" w="59" h="123" oX="-9" oY="-8" oW="128" oH="60" r="y"/>
+    <sprite n="BCE_c6_upperarm.png" x="492" y="214" w="118" h="35" oX="7" oY="5" oW="50" oH="124" r="y"/>
+    <sprite n="BCE_c6_upperarm2.png" x="492" y="214" w="118" h="35" oX="6.08" oY="4.1" oW="50" oH="124" r="y"/>
+    <sprite n="BCE_c6_upperarmR.png" x="724" y="126" w="35" h="118" oX="7" oY="5" oW="50" oH="124"/>
+    <sprite n="BCE_c6_upperarmR2.png" x="724" y="126" w="35" h="118" oX="7" oY="5" oW="50" oH="124"/>
+</TextureAtlas>

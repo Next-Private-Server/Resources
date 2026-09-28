@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:17ed3fa66c6e125164deacd2def42099:f16402974e75f4a383c3b6a3d05ca86a:3cc260108d7ff20beaf576a3b5b40567$ -->
+<TextureAtlas imagePath="gfx/menu/event_screen/stickers/multipack_sticker_album_sheet.png" width="512" height="512" hires="false" version="1">
+	<sprite n="left_corner" x="89" y="182" w="337" h="216" oX="2" oY="10" oW="355" oH="249"/>
+	<sprite n="lower_right_corner" x="0" y="182" w="87" h="310" oX="141" oY="1" oW="296" oH="438"/>
+	<sprite n="right_corner" x="0" y="0" w="347" h="180" oX="6" oY="10" oW="355" oH="249"/>
+</TextureAtlas>

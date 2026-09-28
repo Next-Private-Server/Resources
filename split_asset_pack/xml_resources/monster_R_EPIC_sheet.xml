@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ec676e5299d62c56ab9db07dfb3294bd:fe283783170f030a35c69d042f5197dd:ec73f8578a208adca4fe8b9d52a4059b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_R_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="brain outline" x="0" y="112" w="160" h="118"/>
+	<sprite n="brain_EPIC" x="207" y="0" w="200" h="138" oX="24" oY="16" oW="248" oH="170"/>
+	<sprite n="bubble 1" x="146" y="232" w="11" h="10"/>
+	<sprite n="bubble 2" x="392" y="326" w="12" h="11"/>
+	<sprite n="bubble outline 1" x="146" y="244" w="11" h="10"/>
+	<sprite n="bubble outline 2" x="392" y="339" w="11" h="12" r="y"/>
+	<sprite n="ear_l_EPIC" x="146" y="285" w="59" h="73" oX="6" oY="7" oW="71" oH="87"/>
+	<sprite n="ear_r_EPIC" x="126" y="524" w="69" h="45" oX="6" oY="9" oW="57" oH="87" r="y"/>
+	<sprite n="eyeback_EPIC" x="162" y="112" w="43" h="87" oX="1" oY="0" oW="88" oH="44" r="y"/>
+	<sprite n="eyesockets 1" x="449" y="582" w="44" h="88" r="y"/>
+	<sprite n="eyesockets 2" x="352" y="664" w="88" h="44"/>
+	<sprite n="eyesockets 3" x="303" y="685" w="44" h="88" r="y"/>
+	<sprite n="eyesockets 4" x="442" y="672" w="44" h="88" r="y"/>
+	<sprite n="finger 1a" x="366" y="211" w="39" h="19"/>
+	<sprite n="finger 1b" x="331" y="510" w="19" h="45" r="y"/>
+	<sprite n="finger 1c" x="364" y="232" w="42" h="21"/>
+	<sprite n="finger 2a" x="366" y="211" w="39" h="19"/>
+	<sprite n="finger 2b" x="337" y="464" w="20" h="44" r="y"/>
+	<sprite n="finger 2c" x="364" y="255" w="42" h="21"/>
+	<sprite n="finger 3a" x="366" y="211" w="39" h="19" oX="0" oY="0" oW="39" oH="20"/>
+	<sprite n="finger 3b" x="331" y="557" w="19" h="45" oX="0" oY="0" oW="45" oH="20" r="y"/>
+	<sprite n="finger 3c" x="364" y="278" w="42" h="21"/>
+	<sprite n="gummymouth_EPIC" x="162" y="201" w="43" h="82" r="y"/>
+	<sprite n="L foot" x="140" y="407" w="60" h="80" r="y"/>
+	<sprite n="L lower leg" x="475" y="522" w="34" h="48"/>
+	<sprite n="L upper leg" x="124" y="640" w="56" h="47" r="y"/>
+	<sprite n="lower arm" x="337" y="363" w="25" h="53" r="y"/>
+	<sprite n="lower_body_EPIC" x="409" y="0" w="102" h="117"/>
+	<sprite n="mouth 1" x="359" y="485" w="114" h="95" oX="36" oY="33" oW="169" oH="165" r="y"/>
+	<sprite n="mouth 2" x="409" y="119" w="101" h="120" oX="31" oY="30" oW="169" oH="165"/>
+	<sprite n="mouth 3" x="202" y="485" w="127" h="107" oX="28" oY="28" oW="169" oH="165" r="y"/>
+	<sprite n="mouth 4" x="203" y="363" w="132" h="120" oX="25" oY="25" oW="169" oH="165" r="y"/>
+	<sprite n="mouth 5" x="0" y="232" w="144" h="126" oX="21" oY="15" oW="169" oH="165" r="y"/>
+	<sprite n="mouth 6" x="207" y="226" w="155" h="135" oX="18" oY="10" oW="169" oH="165" r="y"/>
+	<sprite n="mouth 7" x="364" y="353" w="146" h="130" oX="19" oY="16" oW="169" oH="165" r="y"/>
+	<sprite n="mouth outline 1" x="352" y="582" w="95" h="80" oX="42" oY="40" oW="169" oH="165" r="y"/>
+	<sprite n="mouth outline 2" x="0" y="717" w="101" h="88" oX="37" oY="36" oW="169" oH="165" r="y"/>
+	<sprite n="mouth outline 3" x="196" y="594" w="105" h="94" oX="34" oY="34" oW="169" oH="165" r="y"/>
+	<sprite n="mouth outline 4" x="408" y="241" w="104" h="110" oX="31" oY="31" oW="169" oH="165"/>
+	<sprite n="mouth outline 5" x="0" y="603" w="122" h="112" oX="27" oY="21" oW="169" oH="165" r="y"/>
+	<sprite n="mouth outline 6" x="0" y="360" w="138" h="123" oX="24" oY="16" oW="169" oH="165" r="y"/>
+	<sprite n="mouth outline 7" x="0" y="485" w="124" h="116" oX="26" oY="22" oW="169" oH="165" r="y"/>
+	<sprite n="nose" x="392" y="301" w="14" h="23" r="y"/>
+	<sprite n="palm" x="124" y="689" w="48" h="44"/>
+	<sprite n="pupil_EPIC" x="475" y="485" w="37" h="35" oX="5" oY="3" oW="45" oH="43" r="y"/>
+	<sprite n="R foot" x="303" y="604" w="47" h="79" r="y"/>
+	<sprite n="R lower leg" x="366" y="176" w="39" h="33" r="y"/>
+	<sprite n="R upper leg" x="140" y="360" w="61" h="45" r="y"/>
+	<sprite n="shadow" x="207" y="140" w="157" h="84"/>
+	<sprite n="tail 1" x="364" y="301" w="26" h="50" r="y"/>
+	<sprite n="tail 2_EPIC" x="126" y="571" w="68" h="67" oX="7" oY="6" oW="81" oH="80" r="y"/>
+	<sprite n="tail 3_EPIC" x="366" y="140" w="40" h="34"/>
+	<sprite n="thumb a" x="337" y="440" w="24" h="22" r="y"/>
+	<sprite n="thumb b" x="337" y="418" w="25" h="20" r="y"/>
+	<sprite n="upper arm" x="126" y="489" w="73" h="33"/>
+	<sprite n="upper body" x="0" y="0" w="205" h="110" r="y"/>
+</TextureAtlas>

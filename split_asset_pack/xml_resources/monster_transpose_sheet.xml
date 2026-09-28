@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1d766e2f993db00722b17702a6d0fe9e:f719a9cdcf268e50abbf5666dbcdf089:4179abcc7871a0684fd3f2bd70c68080$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monster_transpose_sheet.png" width="512" height="512" hires="true">
+    <sprite n="island24_critter_01" x="2" y="418" w="104" h="92" oX="39" oY="31" oW="200" oH="150"/>
+    <sprite n="island24_critter_02" x="197" y="399" w="90" h="103" oX="39" oY="29" oW="200" oH="150" r="y"/>
+    <sprite n="island24_critter_03" x="139" y="146" w="91" h="99" oX="42" oY="26" oW="200" oH="150" r="y"/>
+    <sprite n="island24_critter_04" x="146" y="2" w="91" h="96" oX="43" oY="24" oW="200" oH="150" r="y"/>
+    <sprite n="island24_critter_05" x="108" y="418" w="87" h="92" oX="50" oY="22" oW="200" oH="150"/>
+    <sprite n="island24_critter_06" x="232" y="100" w="75" h="93" oX="59" oY="20" oW="200" oH="150"/>
+    <sprite n="island24_critter_07" x="239" y="2" w="59" h="91" oX="71" oY="21" oW="200" oH="150"/>
+    <sprite n="stair_shaper_aura" x="2" y="284" w="130" h="132" oX="22" oY="23" oW="175" oH="175" r="y"/>
+    <sprite n="stair_shaper_orb" x="2" y="2" w="142" h="142" oX="16" oY="16" oW="176" oH="176"/>
+    <sprite n="stair_shaper_spore" x="2" y="146" w="135" h="136" oX="19" oY="20" oW="176" oH="176" r="y"/>
+    <sprite n="stair_shaper_stars" x="134" y="284" w="97" h="113" oX="11" oY="3" oW="120" oH="120"/>
+</TextureAtlas>

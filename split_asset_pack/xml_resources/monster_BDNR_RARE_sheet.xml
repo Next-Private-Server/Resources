@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4fb958c3dcbb24fecafb35c882650a83:91cdb6011a7344d4cc7adc69562cf0fe:5f1650390e08cf848e34f5ed27ca1cf9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_BDNR_RARE_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="arm shine" x="138" y="611" w="35" h="15"/>
+    <sprite n="base 1" x="300" y="96" w="90" h="262" r="y"/>
+    <sprite n="base 2" x="223" y="584" w="166" h="42"/>
+    <sprite n="body 2" x="414" y="392" w="68" h="215"/>
+    <sprite n="body 3" x="0" y="628" w="230" h="161" r="y"/>
+    <sprite n="body back" x="0" y="136" w="244" h="148" r="y"/>
+    <sprite n="body shine" x="414" y="253" w="74" h="66"/>
+    <sprite n="body twig" x="414" y="321" w="73" h="69" r="y"/>
+    <sprite n="bone sticker 2" x="355" y="360" w="32" h="47"/>
+    <sprite n="bone sticker" x="389" y="683" w="21" h="44" r="y"/>
+    <sprite n="bottom instrument highlight" x="389" y="797" w="17" h="50" oX="1" oY="6" oW="51" oH="29" r="y"/>
+    <sprite n="bug sticker" x="490" y="306" w="22" h="25"/>
+    <sprite n="connect back" x="246" y="136" w="52" h="29" oX="8" oY="0" oW="44" oH="52" r="y"/>
+    <sprite n="connect front" x="246" y="167" w="52" h="27" oX="7" oY="0" oW="44" oH="52" r="y"/>
+    <sprite n="dipped arm 1" x="300" y="51" w="103" h="43"/>
+    <sprite n="dipped arm 2" x="81" y="584" w="55" h="39"/>
+    <sprite n="dipped arm 3" x="19" y="584" w="60" h="40" oX="0" oY="0" oW="41" oH="61" r="y"/>
+    <sprite n="dipped arm drip" x="0" y="584" w="17" h="42"/>
+    <sprite n="drip1" x="232" y="754" w="30" h="38" oX="0" oY="2" oW="30" oH="77"/>
+    <sprite n="drip2" x="119" y="482" w="45" h="24" oX="3" oY="2" oW="30" oH="77" r="y"/>
+    <sprite n="drip3" x="138" y="583" w="56" h="26" oX="2" oY="0" oW="30" oH="77" r="y"/>
+    <sprite n="drip4" x="414" y="609" w="67" h="21" oX="3" oY="1" oW="30" oH="77" r="y"/>
+    <sprite n="drip5" x="367" y="754" w="18" h="37" oX="5" oY="40" oW="30" oH="77"/>
+    <sprite n="eye1" x="333" y="628" w="54" h="61"/>
+    <sprite n="eye2" x="333" y="691" w="54" h="61"/>
+    <sprite n="eye3" x="333" y="793" w="54" h="61"/>
+    <sprite n="eye4" x="299" y="360" w="54" h="61"/>
+    <sprite n="eye5" x="333" y="938" w="54" h="61"/>
+    <sprite n="eye6" x="333" y="856" w="54" h="61"/>
+    <sprite n="eye7" x="389" y="938" w="54" h="61"/>
+    <sprite n="eyelid 2" x="389" y="854" w="54" h="61" oX="33" oY="37" oW="107" oH="107"/>
+    <sprite n="eyelid 3" x="177" y="443" w="57" h="63" oX="30" oY="36" oW="107" oH="107"/>
+    <sprite n="eyelid 4" x="411" y="795" w="62" h="57" oX="30" oY="36" oW="107" oH="107" r="y"/>
+    <sprite n="eyelid 5" x="58" y="443" w="59" h="62" oX="28" oY="36" oW="107" oH="107"/>
+    <sprite n="eyelid 6" x="0" y="443" w="56" h="63" oX="30" oY="36" oW="107" oH="107"/>
+    <sprite n="eyeshine" x="389" y="729" w="21" h="18" oX="4" oY="0" oW="25" oH="21"/>
+    <sprite n="fingers" x="445" y="854" w="29" h="37"/>
+    <sprite n="instrument bottom" x="414" y="0" w="93" h="251" r="y"/>
+    <sprite n="instrument top highlightshade" x="414" y="632" w="63" h="161" oX="6" oY="6" oW="298" oH="83" r="y"/>
+    <sprite n="instrument top" x="0" y="51" w="298" h="83"/>
+    <sprite n="plant sticker 2" x="489" y="333" w="23" h="47" r="y"/>
+    <sprite n="plant sticker" x="490" y="253" w="22" h="51" r="y"/>
+    <sprite n="pupil" x="489" y="382" w="22" h="19" r="y"/>
+    <sprite n="rock sticker 1" x="175" y="611" w="18" h="14" r="y"/>
+    <sprite n="rock sticker 2" x="195" y="613" w="16" h="12" r="y"/>
+    <sprite n="rock sticker 3" x="196" y="584" w="25" h="27" oX="0" oY="0" oW="27" oH="29" r="y"/>
+    <sprite n="shadow" x="0" y="0" w="412" h="49" oX="0" oY="14" oW="412" oH="77"/>
+    <sprite n="stick sticker" x="389" y="749" w="20" h="46"/>
+    <sprite n="string 1_1" x="391" y="446" w="21" h="235" oX="23" oY="0" oW="69" oH="235"/>
+    <sprite n="string 1_2" x="0" y="286" w="235" h="61" oX="8" oY="0" oW="69" oH="235" r="y"/>
+    <sprite n="string 1_3" x="246" y="196" w="51" h="234" oX="0" oY="1" oW="69" oH="235"/>
+    <sprite n="string 1_4" x="0" y="401" w="235" h="40" oX="19" oY="0" oW="69" oH="235" r="y"/>
+    <sprite n="string 1_5" x="0" y="349" w="235" h="50" oX="19" oY="0" oW="69" oH="235" r="y"/>
+    <sprite n="string 2_1" x="177" y="795" w="21" h="225" oX="20" oY="0" oW="62" oH="225"/>
+    <sprite n="string 2_2" x="479" y="711" w="33" h="225" oX="11" oY="0" oW="62" oH="225"/>
+    <sprite n="string 2_3" x="49" y="795" w="46" h="225" oX="0" oY="0" oW="62" oH="225"/>
+    <sprite n="string 2_4" x="142" y="795" w="33" h="225" oX="17" oY="0" oW="62" oH="225"/>
+    <sprite n="string 2_5" x="0" y="795" w="47" h="225" oX="15" oY="0" oW="62" oH="225"/>
+    <sprite n="string 3_1" x="200" y="795" w="21" h="225" oX="17" oY="0" oW="55" oH="225"/>
+    <sprite n="string 3_2" x="223" y="795" w="30" h="224" oX="11" oY="1" oW="55" oH="225"/>
+    <sprite n="string 3_3" x="255" y="795" w="41" h="223" oX="0" oY="2" oW="55" oH="225"/>
+    <sprite n="string 3_4" x="298" y="795" w="33" h="223" oX="14" oY="2" oW="55" oH="225"/>
+    <sprite n="string 3_5" x="97" y="795" w="43" h="225" oX="12" oY="0" oW="55" oH="225"/>
+    <sprite n="string 4_1" x="392" y="96" w="20" h="194" oX="16" oY="0" oW="51" oH="194"/>
+    <sprite n="string 4_2" x="196" y="551" w="193" h="31" oX="7" oY="1" oW="51" oH="194" r="y"/>
+    <sprite n="string 4_3" x="200" y="508" w="188" h="41" oX="0" oY="6" oW="51" oH="194" r="y"/>
+    <sprite n="string 4_4" x="0" y="549" w="194" h="32" oX="12" oY="0" oW="51" oH="194" r="y"/>
+    <sprite n="string 4_5" x="0" y="508" w="194" h="39" oX="12" oY="0" oW="51" oH="194" r="y"/>
+    <sprite n="string 5_1" x="392" y="292" w="20" h="152" oX="11" oY="0" oW="40" oH="152"/>
+    <sprite n="string 5_2" x="484" y="557" w="27" h="152" oX="5" oY="0" oW="40" oH="152"/>
+    <sprite n="string 5_3" x="237" y="432" w="152" h="34" oX="0" oY="0" oW="40" oH="152" r="y"/>
+    <sprite n="string 5_4" x="484" y="403" w="28" h="152" oX="8" oY="0" oW="40" oH="152"/>
+    <sprite n="string 5_5" x="236" y="468" w="152" h="33" oX="7" oY="0" oW="40" oH="152" r="y"/>
+    <sprite n="tube bottom 1" x="264" y="754" w="53" h="37" oX="0" oY="5" oW="37" oH="70" r="y"/>
+    <sprite n="tube mid" x="119" y="443" w="56" h="37" oX="0" oY="0" oW="37" oH="70" r="y"/>
+    <sprite n="tube top 1" x="319" y="754" w="46" h="37" oX="0" oY="0" oW="37" oH="70" r="y"/>
+</TextureAtlas>

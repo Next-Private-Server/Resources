@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e49b064c4edeccdf923d28c1bbd84445:ed4a8dd3112d3c59977d0588f5bfaf46:7b5e1db948b1aeee9bbf2d134723d8e3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/skypainting_fireworkstand_sheet.png" width="512" height="512" hires="true">
+    <sprite n="Base" x="3" y="3" w="364" h="217" oX="6" oY="10" oW="376" oH="232"/>
+    <sprite n="Big Firework" x="371" y="15" w="130" h="212" oX="4" oY="3" oW="220" oH="136" r="y"/>
+    <sprite n="Cradle Back" x="201" y="452" w="22" h="28" oX="2" oY="3" oW="32" oH="28" r="y"/>
+    <sprite n="Cradle Front" x="120" y="452" w="77" h="49" oX="1" oY="1" oW="80" oH="52"/>
+    <sprite n="Fuse" x="92" y="231" w="76" h="122" oX="0" oY="0" oW="124" oH="80" r="y"/>
+    <sprite n="glow" x="271" y="224" w="76" h="74" oX="2" oY="3" oW="80" oH="80"/>
+    <sprite n="Mini Pole" x="201" y="484" w="66" h="16" oX="2" oY="1" oW="20" oH="68" r="y"/>
+    <sprite n="Pinwheel" x="3" y="395" w="113" h="114" oX="5" oY="5" oW="124" oH="124"/>
+    <sprite n="Pipe" x="15" y="231" w="73" h="159" oX="1" oY="2" oW="76" oH="164"/>
+    <sprite n="Pole 01" x="3" y="231" w="8" h="160" oX="2" oY="2" oW="12" oH="164"/>
+    <sprite n="Pole 02" x="371" y="3" w="136" h="8" oX="2" oY="4" oW="12" oH="144" r="y"/>
+    <sprite n="spark" x="92" y="357" w="24" h="31" oX="0" oY="4" oW="32" oH="32" r="y"/>
+    <sprite n="Star" x="120" y="357" w="79" h="91" oX="0" oY="0" oW="80" oH="92"/>
+</TextureAtlas>

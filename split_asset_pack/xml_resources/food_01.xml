@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5d3943e6260ada1b515993ee3c2b57b8:ec1d0516bc84c1a0949852f1bf1f4c9e:cde960ac3cb410b63117b02f24a6396c$ -->
+<TextureAtlas imagePath="gfx/menu/food_01.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="food_11" x="1" y="519" w="110" h="105" oX="1" oY="5" oW="120" oH="120" r="y"/>
+	<sprite n="food_12" x="238" y="212" w="114" h="109" oX="0" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="food_13" x="244" y="102" w="115" h="108" oX="0" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="food_14" x="121" y="106" w="115" h="105" oX="1" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="food_15" x="229" y="323" w="111" h="104" oX="0" oY="11" oW="120" oH="120"/>
+	<sprite n="food_16" x="342" y="426" w="111" h="101" oX="9" oY="5" oW="120" oH="120" r="y"/>
+	<sprite n="food_17" x="1" y="307" w="112" h="110" oX="5" oY="4" oW="120" oH="120" r="y"/>
+	<sprite n="food_18" x="113" y="542" w="108" h="106" oX="4" oY="9" oW="120" oH="120"/>
+	<sprite n="food_19" x="1" y="100" w="118" h="105" oX="0" oY="5" oW="120" oH="120"/>
+	<sprite n="food_20" x="361" y="112" w="115" h="90" oX="12" oY="2" oW="120" oH="120" r="y"/>
+	<sprite n="food_21" x="223" y="638" w="104" h="95" oX="6" oY="12" oW="120" oH="120" r="y"/>
+	<sprite n="food_22" x="1" y="1" w="120" h="97" oX="6" oY="0" oW="120" oH="120" r="y"/>
+	<sprite n="food_23" x="123" y="1" w="119" h="103" oX="11" oY="1" oW="120" oH="120" r="y"/>
+	<sprite n="food_24" x="354" y="317" w="111" h="107" oX="1" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="food_25" x="244" y="1" w="116" h="99" oX="10" oY="4" oW="120" oH="120" r="y"/>
+	<sprite n="food_26" x="1" y="626" w="106" h="104" oX="1" oY="6" oW="120" oH="120" r="y"/>
+	<sprite n="food_27" x="106" y="754" w="102" h="96" oX="11" oY="12" oW="120" oH="120" r="y"/>
+	<sprite n="food_28" x="115" y="433" w="110" h="107" oX="5" oY="2" oW="120" oH="120" r="y"/>
+	<sprite n="food_29" x="227" y="529" w="109" h="107" oX="3" oY="9" oW="120" oH="120"/>
+	<sprite n="food_30" x="109" y="650" w="103" h="102" oX="5" oY="10" oW="120" oH="120" r="y"/>
+	<sprite n="food_31" x="338" y="529" w="105" h="102" oX="7" oY="13" oW="120" oH="120"/>
+	<sprite n="food_32" x="214" y="735" w="103" h="96" oX="5" oY="10" oW="120" oH="120" r="y"/>
+	<sprite n="food_33" x="1" y="207" w="115" h="98" oX="0" oY="13" oW="120" oH="120"/>
+	<sprite n="food_34" x="1" y="419" w="112" h="98" oX="6" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="food_35" x="338" y="633" w="104" h="103" oX="4" oY="11" oW="120" oH="120"/>
+	<sprite n="food_36" x="118" y="213" w="114" h="107" oX="5" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="food_37" x="1" y="732" w="103" h="98" oX="4" oY="12" oW="120" oH="120"/>
+	<sprite n="food_38" x="362" y="1" w="115" h="109" oX="0" oY="10" oW="120" oH="120"/>
+	<sprite n="food_39" x="361" y="204" w="114" h="111" oX="2" oY="6" oW="120" oH="120" r="y"/>
+	<sprite n="food_40" x="115" y="322" w="112" h="109" oX="3" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="food_41" x="229" y="429" w="111" h="98" oX="7" oY="12" oW="120" oH="120"/>
+</TextureAtlas>

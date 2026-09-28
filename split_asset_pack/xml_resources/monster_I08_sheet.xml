@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:dadb4fc2ab59068c4b22f72144880327:9b04009a512480021926652c713a9cd5:0e8328699be8dda440853da5dafdf657$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I08_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="I08_arm_bottom_left_01" x="269" y="365" w="112" h="31" oX="1" oY="0" oW="33" oH="112" r="y"/>
+	<sprite n="I08_arm_bottom_left_02" x="383" y="377" w="100" h="48" r="y"/>
+	<sprite n="I08_arm_bottom_left_03" x="426" y="73" w="76" h="39" oX="0" oY="0" oW="76" oH="40"/>
+	<sprite n="I08_arm_bottom_right_01" x="424" y="114" w="88" h="32"/>
+	<sprite n="I08_arm_bottom_right_02" x="202" y="473" w="38" h="47" oX="0" oY="1" oW="48" oH="40" r="y"/>
+	<sprite n="I08_arm_bottom_right_03" x="248" y="444" w="60" h="44"/>
+	<sprite n="I08_arm_top_left_01" x="147" y="407" w="99" h="42" oX="0" oY="0" oW="100" oH="44"/>
+	<sprite n="I08_arm_top_left_02" x="114" y="393" w="31" h="103" oX="1" oY="1" oW="104" oH="32" r="y"/>
+	<sprite n="I08_arm_top_left_03" x="148" y="377" w="112" h="28"/>
+	<sprite n="I08_arm_top_right_01" x="124" y="261" w="24" h="72"/>
+	<sprite n="I08_arm_top_right_02" x="414" y="238" w="73" h="28" r="y"/>
+	<sprite n="I08_arm_top_right_03" x="242" y="490" w="48" h="35" oX="0" oY="0" oW="49" oH="35"/>
+	<sprite n="I08_body_01" x="290" y="0" w="134" h="97" oX="0" oY="0" oW="135" oH="97"/>
+	<sprite n="I08_body_02" x="284" y="173" w="128" h="72"/>
+	<sprite n="I08_body_03" x="394" y="284" w="118" h="56" oX="1" oY="2" oW="120" oH="60"/>
+	<sprite n="I08_body_04" x="151" y="233" w="120" h="58" oX="0" oY="1" oW="120" oH="60"/>
+	<sprite n="I08_body_05" x="290" y="99" w="132" h="72" oX="1" oY="0" oW="133" oH="73"/>
+	<sprite n="I08_body_06" x="0" y="148" w="128" h="64"/>
+	<sprite n="I08_body_07" x="0" y="356" w="112" h="52"/>
+	<sprite n="I08_finger_bottom_right_01" x="126" y="215" w="23" h="44" r="y"/>
+	<sprite n="I08_finger_bottom_right_02" x="104" y="498" w="40" h="20"/>
+	<sprite n="I08_foot_bottom_left" x="146" y="500" w="48" h="47" oX="0" oY="0" oW="48" oH="48"/>
+	<sprite n="I08_foot_top" x="360" y="481" w="55" h="40" oX="0" oY="0" oW="56" oH="40"/>
+	<sprite n="I08_glow" x="0" y="0" w="149" h="146" oX="17" oY="19" oW="184" oH="185"/>
+	<sprite n="I08_leg_bottom_01" x="150" y="343" w="117" h="32" oX="1" oY="0" oW="36" oH="117" r="y"/>
+	<sprite n="I08_leg_bottom_02" x="0" y="214" w="124" h="36" oX="2" oY="0" oW="40" oH="124" r="y"/>
+	<sprite n="I08_leg_top_01" x="273" y="289" w="119" h="36" oX="0" oY="0" oW="36" oH="120" r="y"/>
+	<sprite n="I08_leg_top_02" x="273" y="247" w="119" h="40" oX="0" oY="1" oW="40" oH="120" r="y"/>
+	<sprite n="I08_min_arm_bottom_left_01" x="388" y="342" w="112" h="33" r="y"/>
+	<sprite n="I08_min_arm_bottom_left_02" x="0" y="410" w="110" h="48" oX="0" oY="1" oW="48" oH="112" r="y"/>
+	<sprite n="I08_min_arm_bottom_left_03" x="426" y="0" w="79" h="44" oX="0" oY="0" oW="80" oH="44"/>
+	<sprite n="I08_min_arm_bottom_right_01" x="414" y="188" w="91" h="48" oX="2" oY="0" oW="96" oH="48"/>
+	<sprite n="I08_min_arm_bottom_right_02" x="310" y="444" w="48" h="48"/>
+	<sprite n="I08_min_arm_bottom_right_03" x="364" y="427" w="60" h="52"/>
+	<sprite n="I08_min_arm_top_left_01" x="262" y="398" w="100" h="44"/>
+	<sprite n="I08_min_arm_top_left_02" x="0" y="497" w="102" h="36" oX="0" oY="0" oW="104" oH="36"/>
+	<sprite n="I08_min_arm_top_left_03" x="0" y="460" w="107" h="35" oX="0" oY="1" oW="112" oH="36"/>
+	<sprite n="I08_min_arm_top_right_01" x="426" y="46" w="77" h="25" oX="2" oY="0" oW="29" oH="77" r="y"/>
+	<sprite n="I08_min_arm_top_right_02" x="424" y="148" w="76" h="38" oX="4" oY="2" oW="44" oH="80" r="y"/>
+	<sprite n="I08_min_arm_top_right_03" x="147" y="451" w="53" h="47" oX="2" oY="0" oW="56" oH="48"/>
+	<sprite n="I08_min_body_01" x="151" y="0" w="137" h="100" oX="2" oY="0" oW="140" oH="100"/>
+	<sprite n="I08_min_body_02" x="151" y="102" w="131" h="74" oX="1" oY="1" oW="132" oH="76"/>
+	<sprite n="I08_min_finger_bottom_right_01" x="489" y="238" w="23" h="44" r="y"/>
+	<sprite n="I08_min_finger_bottom_right_02" x="202" y="451" w="40" h="20"/>
+	<sprite n="I08_min_foot_bottom_left" x="426" y="469" w="55" h="54" oX="1" oY="0" oW="56" oH="56"/>
+	<sprite n="I08_min_foot_top" x="426" y="427" w="56" h="40"/>
+	<sprite n="I08_min_leg_bottom_01" x="269" y="327" w="117" h="36" r="y"/>
+	<sprite n="I08_min_leg_bottom_02" x="151" y="178" w="127" h="53" oX="2" oY="1" oW="57" oH="128" r="y"/>
+	<sprite n="I08_min_leg_top_01" x="0" y="318" w="120" h="36" r="y"/>
+	<sprite n="I08_min_leg_top_02" x="150" y="293" w="117" h="48" oX="0" oY="1" oW="48" oH="118" r="y"/>
+	<sprite n="I08_min_toe_top_01" x="122" y="355" w="24" h="36" r="y"/>
+	<sprite n="I08_min_toe_top_02" x="484" y="435" w="28" h="18"/>
+	<sprite n="I08_min_toeA_bottom_left_01" x="196" y="522" w="37" h="22" oX="0" oY="2" oW="37" oH="24"/>
+	<sprite n="I08_min_toeA_bottom_left_02" x="485" y="377" w="27" h="20" oX="2" oY="0" oW="29" oH="20"/>
+	<sprite n="I08_min_toeB_bottom_left_01" x="130" y="179" w="18" h="34" r="y"/>
+	<sprite n="I08_min_toeB_bottom_left_02" x="414" y="268" w="24" h="14"/>
+	<sprite n="I08_min_toeC_bottom_left_01" x="483" y="475" w="24" h="18"/>
+	<sprite n="I08_min_toeC_bottom_left_02" x="122" y="335" w="26" h="18"/>
+	<sprite n="I08_shadow" x="0" y="252" w="122" h="64" oX="2" oY="0" oW="124" oH="64"/>
+	<sprite n="I08_toe_top_01" x="485" y="399" w="24" h="34" oX="1" oY="0" oW="36" oH="24" r="y"/>
+	<sprite n="I08_toe_top_02" x="484" y="455" w="28" h="18"/>
+	<sprite n="I08_toeA_bottom_left_01" x="104" y="520" w="37" h="23" oX="0" oY="1" oW="37" oH="24"/>
+	<sprite n="I08_toeA_bottom_left_02" x="130" y="148" w="19" h="29" oX="0" oY="1" oW="29" oH="20" r="y"/>
+	<sprite n="I08_toeB_bottom_left_01" x="394" y="247" w="18" h="32" r="y"/>
+	<sprite n="I08_toeB_bottom_left_02" x="440" y="268" w="24" h="14"/>
+	<sprite n="I08_toeC_bottom_left_01" x="483" y="495" w="24" h="18"/>
+	<sprite n="I08_toeC_bottom_left_02" x="483" y="515" w="24" h="18"/>
+</TextureAtlas>

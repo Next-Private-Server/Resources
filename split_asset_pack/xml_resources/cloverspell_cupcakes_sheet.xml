@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e90f444ea7bf90f0487b58215c35db8d:b2c095f9037da893bff8e786a9001f71:4f25b643d184d1d7e88586518667e717$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cloverspell_cupcakes_sheet.png" width="512" height="512" hires="true">
+    <sprite n="cloverspell_anim_deco_04_cupcakes.png" x="3" y="3" w="319" h="313" pX="0.5" pY="0.5" oX="4" oY="7" oW="328" oH="328"/>
+    <sprite n="RoClover_01.png" x="326" y="209" w="113" h="113" pX="0.5" pY="0.5" oX="5" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_02.png" x="326" y="3" w="114" h="99" pX="0.5" pY="0.5" oX="9" oY="6" oW="126" oH="126" r="y"/>
+    <sprite n="RoClover_03.png" x="3" y="353" w="76" h="113" pX="0.5" pY="0.5" oX="21" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_04.png" x="444" y="3" w="43" h="113" pX="0.5" pY="0.5" oX="37" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_05.png" x="491" y="3" w="18" h="113" pX="0.5" pY="0.5" oX="50" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_06.png" x="471" y="237" w="8" h="112" pX="0.5" pY="0.5" oX="55" oY="7" oW="126" oH="126"/>
+    <sprite n="RoClover_07.png" x="491" y="120" w="18" h="113" pX="0.5" pY="0.5" oX="53" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_08.png" x="444" y="120" w="43" h="113" pX="0.5" pY="0.5" oX="41" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_09.png" x="83" y="353" w="76" h="113" pX="0.5" pY="0.5" oX="24" oY="6" oW="126" oH="126"/>
+    <sprite n="RoClover_10.png" x="326" y="106" w="114" h="99" pX="0.5" pY="0.5" oX="13" oY="6" oW="126" oH="126" r="y"/>
+    <sprite n="RoClover_rod.png" x="443" y="237" w="24" h="98" pX="0.5" pY="0.5" oX="8" oY="3" oW="36" oH="104"/>
+</TextureAtlas>

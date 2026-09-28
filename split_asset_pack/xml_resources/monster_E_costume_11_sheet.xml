@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:03fff1bdd549119c7071257eb6acc74b:497286a2994e2b04066ba776b12065c0:3fec902d55942845a3b84af7cbb3e98f$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_E_costume_11_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="E_body_EXTENDED" x="0" y="0" w="156" h="287" pX="0.5" pY="0.646667" oX="4" oY="0" oW="160" oH="300"/>
+	<sprite n="E_eyeback" x="158" y="126" w="62" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="E_left_arm_SHARK" x="289" y="289" w="111" h="81" pX="0.7" pY="0.214286" oX="8" oY="15" oW="100" oH="140" r="y"/>
+	<sprite n="E_lefteye_1" x="468" y="129" w="41" h="39" pX="0.5" pY="0.5" oX="1" oY="1" oW="42" oH="42" r="y"/>
+	<sprite n="E_lefteye_2" x="342" y="414" w="39" h="39" pX="0.5" pY="0.5" oX="1" oY="1" oW="42" oH="42"/>
+	<sprite n="E_lefteye_3" x="382" y="455" w="38" h="39" pX="0.5" pY="0.5" oX="1" oY="1" oW="42" oH="42" r="y"/>
+	<sprite n="E_lefteye_4" x="342" y="455" w="38" h="39" pX="0.5" pY="0.5" oX="2" oY="1" oW="42" oH="42"/>
+	<sprite n="E_leftfoot_1" x="90" y="289" w="85" h="144" pX="0.5" pY="0.5" oX="1" oY="2" oW="146" oH="90" r="y"/>
+	<sprite n="E_leftfoot_2" x="368" y="0" w="139" h="85" pX="0.5" pY="0.5" oX="1" oY="0" oW="146" oH="90"/>
+	<sprite n="E_leftleg_SHARK" x="0" y="435" w="55" h="70" pX="0.491667" pY="0.364286" oX="3" oY="0" oW="60" oH="70"/>
+	<sprite n="E_mouth_1" x="402" y="308" w="107" h="38" pX="0.461538" pY="0.363636" oX="1" oY="11" oW="117" oH="132"/>
+	<sprite n="E_mouth_2" x="404" y="264" w="107" h="42" pX="0.461538" pY="0.363636" oX="1" oY="9" oW="117" oH="132"/>
+	<sprite n="E_mouth_3" x="114" y="435" w="110" h="62" pX="0.461538" pY="0.363636" oX="1" oY="6" oW="117" oH="132"/>
+	<sprite n="E_mouth_4" x="356" y="87" w="110" h="88" pX="0.461538" pY="0.363636" oX="1" oY="6" oW="117" oH="132"/>
+	<sprite n="E_mouth_5" x="284" y="177" w="118" h="110" pX="0.461538" pY="0.363636" oX="1" oY="6" oW="117" oH="132" r="y"/>
+	<sprite n="E_mouth_6" x="158" y="177" w="124" h="110" pX="0.461538" pY="0.363636" oX="1" oY="6" oW="117" oH="132" r="y"/>
+	<sprite n="E_mouth_7" x="402" y="348" w="99" h="45" pX="0.461538" pY="0.363636" oX="1" oY="7" oW="117" oH="132"/>
+	<sprite n="E_mouth_8" x="226" y="414" w="114" h="91" pX="0.461538" pY="0.363636" oX="1" oY="11" oW="117" oH="132" r="y"/>
+	<sprite n="E_mouth_9" x="177" y="289" w="110" h="123" pX="0.461538" pY="0.363636" oX="1" oY="7" oW="117" oH="132"/>
+	<sprite n="E_mouth_10" x="404" y="177" w="108" h="85" pX="0.461538" pY="0.363636" oX="1" oY="9" oW="117" oH="132"/>
+	<sprite n="E_pupil" x="114" y="499" w="13" h="13" pX="0.5" pY="0.5" oX="2" oY="1" oW="16" oH="16"/>
+	<sprite n="E_right_arm_SHARK" x="226" y="86" w="128" h="89" pX="0.5" pY="0.5" oX="10" oY="2" oW="120" oH="130" r="y"/>
+	<sprite n="E_righteye_1" x="468" y="87" w="41" h="40" pX="0.5" pY="0.5" oX="2" oY="3" oW="44" oH="44" r="y"/>
+	<sprite n="E_righteye_2" x="289" y="372" w="38" h="40" pX="0.5" pY="0.5" oX="2" oY="3" oW="44" oH="44" r="y"/>
+	<sprite n="E_righteye_3" x="329" y="372" w="38" h="40" pX="0.5" pY="0.5" oX="2" oY="3" oW="44" oH="44" r="y"/>
+	<sprite n="E_righteye_4" x="383" y="395" w="37" h="39" pX="0.5" pY="0.5" oX="4" oY="3" oW="44" oH="44"/>
+	<sprite n="E_rightfoot_1" x="0" y="289" w="88" h="144" pX="0.5" pY="0.5" oX="1" oY="2" oW="146" oH="90" r="y"/>
+	<sprite n="E_rightfoot_2" x="226" y="0" w="140" h="84" pX="0.5" pY="0.5" oX="5" oY="0" oW="146" oH="90"/>
+	<sprite n="E_rightleg_SHARK" x="57" y="435" w="55" h="70" pX="0.458333" pY="0.335714" oX="2" oY="0" oW="60" oH="70"/>
+	<sprite n="E_shadow" x="177" y="0" w="47" h="124" pX="0.5" pY="0.5" oX="1" oY="27" oW="130" oH="78" r="y"/>
+</TextureAtlas>

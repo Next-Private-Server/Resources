@@ -1,0 +1,80 @@
+<template name="template_levelupUnlock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<spriteSheetComponent name="Sprite">
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("market_frame")
+			component("sheetName"):SetString("xml_resources/store_elements.xml")
+			component("layer"):SetString("Clipping")
+			component("size"):SetFloat(0.45*game.menuScaleX())
+			component("visible"):SetInt(0)
+		</event>
+	</spriteSheetComponent>
+	
+	<element name="NameFrame">
+		<size w="146.25*game.menuScaleX()" h="64*game.menuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="500*game.hudScale()" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="16*game.menuScaleY()" priorityOffset="-1" />
+			
+			<event name="onInit" params="component, element">
+				
+				component("textPadding"):SetInt(30)
+				local itemTitle = game.getLocalizedText(element:parent().ItemTitle)
+				component("multiline"):SetInt(1)
+				
+				component("autoScale"):SetInt(1)
+				component("size"):SetFloat(0.25*game.menuScaleY())
+				component("font"):Set(game.getTextFont())
+				component:setColor(1.0, 1.0, 1.0)
+				
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				
+				component("text"):SetString(itemTitle)
+				component("layer"):SetString("Clipping")
+				component:calculatePosition()
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Portrait">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="NameFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="16*game.menuScaleY()" priorityOffset="0" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString(element:parent().AnimationName)
+				component("layer"):SetString("Clipping")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+                component:calculatePosition()
+			</event>
+		</spriteComponent>
+    </element>
+
+	
+	<event name="onPostInit" params="element">
+		element:setInvisible()
+	</event>
+
+	<event name="setVisible" params="element">
+		element["NameFrame"]["Text"]("visible"):SetInt(1)
+		element["Portrait"]["Sprite"]("visible"):SetInt(1)
+	</event>
+
+	<event name="setInvisible" params="element">
+		element["NameFrame"]["Text"]("visible"):SetInt(0)
+		element["Portrait"]["Sprite"]("visible"):SetInt(0)
+	</event>
+
+	<event name="reenableTouch" params="element">
+	</event>
+
+</template>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<template type="template_how_it_works" name="HowItWorks">
+		<templateVar name="$layer" equals="FrontPopUps" />	
+		<templateVar name="$titleText" equals="ENCORE_TUTORIAL_TITLE" />
+
+		<templateVar name="$leftAnimationName" equals="'xml_bin/encore_info.bin'" />
+		<templateVar name="$leftAnimation" equals="encore_info_08" />
+		<templateVar name="$leftText" equals="ENCORE_TUTORIAL_STEP_1" />
+
+		<templateVar name="$centerAnimationName" equals="'xml_bin/encore_info.bin'" />
+		<templateVar name="$centerAnimation" equals="encore_info_09" />
+		<templateVar name="$centerText" equals="ENCORE_TUTORIAL_STEP_2" />
+
+		<templateVar name="$rightAnimationName" equals="'xml_bin/encore_info.bin'" />
+		<templateVar name="$rightAnimation" equals="encore_info_03" />
+		<templateVar name="$rightText" equals="ENCORE_TUTORIAL_STEP_3" />
+	</template>
+
+	<event name="onPostInit" params="element">
+
+		element:E("HowItWorks").TitleFrame:relativeTo(element:C("Description"))
+
+	</event>
+
+	<textComponent name="Description">
+		<size w="300*game.windowScaleY()" h="50*game.windowScaleY()" />
+		<position relativeTo="element:E('HowItWorks'):E('Center')" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="10*game.windowScaleY()" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("autoScale"):SetInt(1)
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString("ENCORE_TUTORIAL_DESC")
+			component("size"):SetFloat(0.25*game.windowScaleY())
+			component("layer"):SetString("FrontPopUps")
+			component:calculatePosition()
+		</event>
+	</textComponent>
+
+</menu>

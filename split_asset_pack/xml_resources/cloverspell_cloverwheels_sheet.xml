@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:370f667e62158fc31da1d4dbb4c54c59:d85a0dd5ae74173252b5983f5cf4d898:c9d6511ce3406965280f7ceb508579a5$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cloverspell_cloverwheels_sheet.png" width="512" height="512" hires="true">
+    <sprite n="cloverspell_anim_deco_03_clover.png" x="292" y="3" w="196" h="233" pX="0.5" pY="0.5" oX="2" oY="3" oW="200" oH="240"/>
+    <sprite n="cloverspell_anim_deco_03_clover_base.png" x="3" y="3" w="285" h="127" pX="0.5" pY="0.5" oX="5" oY="6" oW="296" oH="140"/>
+    <sprite n="cloverspell_anim_deco_03_ring.png" x="3" y="240" w="147" h="148" pX="0.5" pY="0.5" oX="0" oY="0" oW="148" oH="148" r="y"/>
+    <sprite n="cloverspell_anim_deco_03_ring_clover.png" x="203" y="134" w="59" h="57" pX="0.5" pY="0.5" oX="1" oY="0" oW="60" oH="60" r="y"/>
+    <sprite n="cloverspell_anim_deco_03_shadow_02.png" x="56" y="203" w="39" h="22" pX="0.5" pY="0.5" oX="0" oY="1" oW="40" oH="24"/>
+    <sprite n="cloverspell_anim_deco_03_wireclover_01.png" x="3" y="134" w="49" h="83" pX="0.5" pY="0.5" oX="3" oY="2" oW="56" oH="88"/>
+    <sprite n="cloverspell_anim_deco_03_wireclover_02.png" x="56" y="134" w="143" h="65" pX="0.5" pY="0.5" oX="1" oY="4" oW="68" oH="152" r="y"/>
+</TextureAtlas>

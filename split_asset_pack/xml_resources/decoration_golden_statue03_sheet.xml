@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:aab26d3a9bc44f0481ba9656d4e78e80:a083c51d964b4e1a211007c05e8b9f91:29b48658942561ac084425383c537e77$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_golden_statue03_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="golden_statue03" x="0" y="0" w="173" h="510"/>
+</TextureAtlas>

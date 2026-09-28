@@ -1,0 +1,49 @@
+<FontInfo>
+
+	<!--
+	<SpriteFont path="font/font_no_outline" />
+	-->
+	
+	<!--
+	<SpriteFont 
+		langs="ru"
+		path="font/font_no_outline" />
+	-->
+
+	<!--
+	<TTF
+		langs="ja"
+		path="font/OpenDyslexic-Bold.ttf"
+		w="0" h="25"
+		line_spacing="48"
+		stroke_size="4"
+		character_spacing="0"
+		use_sdf="true"
+		shader="ShaderFont3"
+   />
+   -->
+
+	<!-- -->
+	<!--
+	<TTF 
+		 path="font/OpenDyslexic-Bold.ttf"
+		 w="0" h="25"
+		 line_spacing="48"
+		 stroke_size="4"
+		 character_spacing="0"
+		 use_sdf="true"
+		 shader="ShaderFont3"
+	/>
+	-->
+
+	<!-- -->
+	<SDF
+		 path="font/OpenDyslexic-Bold_sdf_font_atlas.xml"
+		 w="0" h="40"
+		 line_spacing="48"
+		 stroke_size="4"
+		 character_spacing="0"
+		 shader="ShaderFont3"
+	/>
+	
+</FontInfo>

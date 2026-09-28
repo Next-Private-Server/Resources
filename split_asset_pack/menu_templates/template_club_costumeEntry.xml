@@ -1,0 +1,164 @@
+<template name="template_club_costumeEntry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/template_ClubCostumeEntry.lua" />
+
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+
+	<size dependentOnElement="CostumeBg" dependentOnComponent="GreySprite" />
+
+	<element name="CostumeIcon">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" >
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("button_costume")
+				component("sheetName"):SetString("xml_resources/clubbox_customization_volume.xml")
+				component("size"):SetFloat(0.35*game.windowScaleY())
+				component("layer"):SetString("MidPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+		<event name="setVisible" params="element">
+			element.Sprite("visible"):SetInt(1)
+		</event>
+		<event name="setInvisible" params="element">
+			element.Sprite("visible"):SetInt(0)
+		</event>
+			
+		<event name="enable" params="element">
+			element.Sprite:setColor(1.0,1.0,1.0)
+		</event>
+
+		<event name="disable" params="element">
+			element.Sprite:setColor(0.5,0.5,0.5)
+		</event>
+	</element>
+
+	<element name="CostumeBg">
+		<size dependentOnElement="element:name()" dependentOnComponent="GreySprite" />
+		<position relativeTo="CostumeIcon" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="20*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+		<!-- used for better positioning and spacing: -->
+		<spriteSheetComponent name="GreySprite">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("selectable_bar_grey")
+					component("sheetName"):SetString("xml_resources/breeding01.xml")
+					component("size"):SetFloat(0.35*game.windowScaleY())
+					component("layer"):SetString("$layer")
+					component("visible"):SetInt(0)
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<event name="setVisible" params="element">
+			--element.GreySprite("visible"):SetInt(1)
+			if(element:parent()("disabled"):GetInt() == 0) then
+				element.Touch("enabled"):SetInt(1)
+			end
+		</event>
+		<event name="setInvisible" params="element">
+			--element.GreySprite("visible"):SetInt(0)
+			element.Touch("enabled"):SetInt(0)
+		</event>
+		<event name="disable" params="element">
+			element.Touch("enabled"):SetInt(0)
+		</event>
+		<event name="enable" params="element">
+			element.Touch("enabled"):SetInt(1)
+		</event>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()"/>
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("enabled"):SetInt(0)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					if(element:parent()("disabled"):GetInt() == 0) then
+						element:parent():parent().selectedVariantInd = element:parent().variantInd
+						element:parent():parent():selectVariant()
+					end
+				]]>
+			</event>
+		</touchComponent>
+	</element>
+
+	<element name="CostumeName">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="CostumeBg" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="100*game.windowScaleY()" h="32*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("noTranslate"):SetInt(0)
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("text"):SetString("UNAVAILABLE_COSTUME")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("$layer")
+				]]>
+			</event>
+			<event name="refresh" params="component, element">
+				<![CDATA[
+				local propInd = element:parent():parent().selectedPropInd
+				if(propInd ~= -1) then
+					local name = game.clubboxPropDisplayName(propInd, element:parent().variantInd)
+					if(name == "") then
+						name = "BATTLE_COSTUME_NONE"
+					end
+					component("text"):SetString(name)
+				end
+				]]>
+			</event>
+		</textComponent>
+		<event name="onInit" params="element">
+			local palette = include("ColourPalette")
+			element.Text:setColor(palette:getRGBFloats(palette.MONSTER_COMMON))
+		</event>
+		<event name="onPostInit" params="element">
+			element:refresh()
+		</event>
+		<event name="refresh" params="element">
+			element.Text:refresh(element)
+		</event>
+		<event name="setVisible" params="element">
+			element.Text("visible"):SetInt(1)
+		</event>
+		<event name="setInvisible" params="element">
+			element.Text("visible"):SetInt(0)
+		</event>
+			
+		<event name="enable" params="element">
+			element.Text:setColor(1.0,1.0,1.0)
+		</event>
+
+		<event name="disable" params="element">
+			element.Text:setColor(0.5,0.5,0.5)
+		</event>
+		<event name="highlight" params="element">
+			if(element:parent()("disabled"):GetInt() == 0) then
+				local palette = include("ColourPalette")
+				element.Text:setColor(palette:getRGBFloats(palette.TAB_TEXT_YELLOW_SELECTED))
+			end
+		</event>
+
+		<event name="unhighlight" params="element">
+			if(element:parent()("disabled"):GetInt() == 0) then
+				local palette = include("ColourPalette")
+				element.Text:setColor(palette:getRGBFloats(palette.MONSTER_COMMON))
+			end
+		</event>
+	</element>
+	
+</template>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<template type="template_how_it_works" name="HowItWorks">
+		<templateVar name="$layer" equals="FrontPopUps" />	
+		<templateVar name="$titleText" equals="CLUBBOX_MIXER_TUT_TITLE" />
+
+		<templateVar name="$leftAnimationName" equals="'xml_bin/clubbox_info.bin'" />
+		<templateVar name="$leftAnimation" equals="clubbox_info_01" />
+		<templateVar name="$leftText" equals="CLUBBOX_MIXER_TUT_ITEM_1" />
+
+		<templateVar name="$centerAnimationName" equals="'xml_bin/clubbox_info.bin'" />
+		<templateVar name="$centerAnimation" equals="clubbox_info_02" />
+		<templateVar name="$centerText" equals="CLUBBOX_MIXER_TUT_ITEM_2" />
+
+		<templateVar name="$rightAnimationName" equals="'xml_bin/clubbox_info.bin'" />
+		<templateVar name="$rightAnimation" equals="clubbox_info_03" />
+		<templateVar name="$rightText" equals="CLUBBOX_MIXER_TUT_ITEM_3" />
+
+		<templateVar name="$isClubbox" equals="1" />
+	</template>
+
+</menu>

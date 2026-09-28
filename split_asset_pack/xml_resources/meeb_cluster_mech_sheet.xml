@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8da5b1891d37de0e900e49e9574ae2f6:df9700c0187ec6ddcb696342a5a1b817:a0ce9624c673dba3949dc696db1bf3fa$ -->
+<TextureAtlas imagePath="gfx/dish_harmonizer/meeb_cluster_mech_sheet.png" width="256" height="256" hires="false" version="1">
+	<sprite n="meeb_01" x="194" y="60" w="53" h="53" oX="14" oY="14" oW="80" oH="80"/>
+	<sprite n="meeb_02" x="194" y="0" w="62" h="58" oX="10" oY="11" oW="80" oH="80"/>
+	<sprite n="meeb_03" x="194" y="115" w="50" h="65" oX="15" oY="8" oW="80" oH="80"/>
+	<sprite n="meeb_04" x="0" y="210" w="56" h="43" oX="19" oY="12" oW="80" oH="80" r="y"/>
+	<sprite n="meeb_cluster_01" x="0" y="0" w="107" h="108" oX="1" oY="0" oW="108" oH="108"/>
+	<sprite n="meeb_cluster_02" x="0" y="110" w="97" h="98" oX="5" oY="5" oW="108" oH="108" r="y"/>
+	<sprite n="meeb_cluster_03" x="99" y="110" w="93" h="95" oX="6" oY="7" oW="108" oH="108" r="y"/>
+	<sprite n="meeb_dot" x="58" y="210" w="38" h="39" oX="0" oY="1" oW="40" oH="40" r="y"/>
+	<sprite n="meeb_shadow" x="109" y="0" w="64" h="64"/>
+</TextureAtlas>

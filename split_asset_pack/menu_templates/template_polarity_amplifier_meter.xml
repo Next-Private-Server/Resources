@@ -1,0 +1,42 @@
+<template name="template_polarity_amplifier_meter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/PolarityAmplifierMeter.lua" />
+	
+	<defaultTemplateVar name="$layer" equals="'MidPopUps'" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="FullSprite" />
+
+	<spriteSheetComponent name="FullSprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("sheetName"):SetString("xml_resources/polarity_amplifier_HUD_sheet.xml")
+				component("spriteName"):SetString("polamp_light_full")
+
+				component("size"):SetFloat(0.45*game.menuScaleX())
+				component("layer"):SetString("$layer")
+
+				component("visible"):SetInt(0)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="FillSprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-1*game.menuScaleX()" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+		
+				component("sheetName"):SetString("xml_resources/polarity_amplifier_HUD_sheet.xml")
+				component("spriteName"):SetString("polamp_light_meter")
+
+				component("size"):SetFloat(0.45*game.menuScaleX())
+				component("layer"):SetString("$layer")
+
+				component("visible"):SetInt(1)
+
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+</template>

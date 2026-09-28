@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7ad91f7f663766f771722056543ee0a3:f0de41c89ced08e25f909b1a53e500e0:b88242071ef0b1942601c9b1e0e12887$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_stages_flower_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="flower_bg_stage" x="457" y="555" w="407" h="218" oX="10" oY="19" oW="420" oH="244">
+		<vertices>379 96 417 160 385 235 216 220 27 237 10 146 163 30 266 19</vertices>
+		<verticesUV>826 632 864 696 832 771 663 756 474 773 457 682 610 566 713 555</verticesUV>
+		<triangles>3 6 7 5 3 4 5 6 3 0 1 2 0 2 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="flower_lstage" x="0" y="0" w="949" h="573" oX="0" oY="5" oW="949" oH="580">
+		<vertices>738 50 873 120 949 239 949 376 861 487 614 568 368 578 113 509 0 415 0 231 81 107 249 33 425 7 590 5</vertices>
+		<verticesUV>738 45 873 115 949 234 949 371 861 482 614 563 368 573 113 504 0 410 0 226 81 102 249 28 425 2 590 0</verticesUV>
+		<triangles>5 12 13 6 11 12 7 10 11 9 7 8 9 10 7 6 7 11 5 6 12 0 4 5 4 0 1 4 1 2 4 2 3 0 5 13</triangles>
+	</sprite>
+	<sprite n="flower_ustage" x="0" y="542" w="459" h="276" oX="60" oY="30" oW="574" oH="338">
+		<vertices>471 73 519 197 453 276 299 306 130 283 60 205 88 75 284 30</vertices>
+		<verticesUV>411 585 459 709 393 788 239 818 70 795 0 717 28 587 224 542</verticesUV>
+		<triangles>4 6 7 4 5 6 3 4 7 2 3 7 0 1 2 0 2 7</triangles>
+	</sprite>
+</TextureAtlas>

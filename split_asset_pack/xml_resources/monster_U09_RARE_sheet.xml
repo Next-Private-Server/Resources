@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bc029a76a6fc419e099d57bfaac39ea0:2f4a04cf5bfe35f4b6eede45cf846b6b:ffbbce11efc480d517ec2dd630606fa2$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U09_RARE_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="beam" x="0" y="568" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="eyes" x="239" y="383" w="160" h="77" oX="34" oY="9" oW="212" oH="186"/>
+	<sprite n="Glow_RARE" x="404" y="288" w="253" h="239" oX="11" oY="3" oW="260" oH="260" r="y"/>
+	<sprite n="Glow_Regular" x="727" y="153" w="255" h="230" oX="15" oY="0" oW="260" oH="260" r="y"/>
+	<sprite n="glow_spot" x="314" y="1368" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="Head" x="398" y="725" w="196" h="175" oX="4" oY="4" oW="212" oH="186"/>
+	<sprite n="Left Eyelid 01" x="943" y="1192" w="81" h="52" oX="1" oY="6" oW="86" oH="64"/>
+	<sprite n="Left Eyelid 02" x="943" y="1246" w="81" h="52" oX="1" oY="6" oW="86" oH="64"/>
+	<sprite n="Left Eyelid 03" x="857" y="1399" w="81" h="52" oX="1" oY="6" oW="86" oH="64"/>
+	<sprite n="Left Eyelid 04" x="857" y="1453" w="81" h="52" oX="1" oY="6" oW="86" oH="64"/>
+	<sprite n="Left Fin" x="726" y="974" w="154" h="120" oX="38" oY="37" oW="184" oH="194" r="y"/>
+	<sprite n="Left Finger 01" x="527" y="1135" w="60" h="58" oX="5" oY="10" oW="66" oH="74"/>
+	<sprite n="Left Finger 02" x="968" y="639" w="56" h="68" oX="4" oY="8" oW="72" oH="68" r="y"/>
+	<sprite n="Left Hand" x="122" y="1330" w="79" h="69" oX="3" oY="9" oW="84" oH="84"/>
+	<sprite n="Left Lower Arm" x="617" y="586" w="108" h="153" oX="9" oY="5" oW="124" oH="158"/>
+	<sprite n="Left Lower Leg OL" x="596" y="741" w="128" h="142" oX="1" oY="2" oW="130" oH="146"/>
+	<sprite n="Left Lower Leg UL" x="596" y="885" w="128" h="142" oX="1" oY="2" oW="130" oH="146"/>
+	<sprite n="Left Shoulder" x="727" y="598" w="190" h="127" oX="12" oY="2" oW="158" oH="198" r="y"/>
+	<sprite n="Left Thumb" x="882" y="974" w="29" h="59" oX="6" oY="6" oW="70" oH="40" r="y"/>
+	<sprite n="Left Toes" x="659" y="288" w="66" h="110" oX="0" oY="1" oW="110" oH="68" r="y"/>
+	<sprite n="Left Upper Arm" x="398" y="529" w="217" h="194" oX="0" oY="17" oW="238" oH="234" r="y"/>
+	<sprite n="Left Upper Leg" x="140" y="1216" w="69" h="112" oX="3" oY="0" oW="80" oH="120"/>
+	<sprite n="Mouth 01" x="218" y="702" w="178" h="126" oX="13" oY="4" oW="206" oH="130"/>
+	<sprite n="Mouth 02" x="218" y="830" w="176" h="92" oX="17" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 03" x="396" y="902" w="190" h="97" oX="11" oY="9" oW="206" oH="130"/>
+	<sprite n="Mouth 04" x="726" y="854" w="190" h="118" oX="8" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 05" x="351" y="1204" w="118" h="93" oX="69" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 06" x="203" y="1354" w="109" h="92" oX="77" oY="12" oW="206" oH="130"/>
+	<sprite n="Mouth 07" x="588" y="1348" w="114" h="92" oX="73" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 08" x="589" y="1239" w="131" h="107" oX="55" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 09" x="0" y="1316" w="120" h="101" oX="67" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 10" x="471" y="1258" w="115" h="91" oX="71" oY="10" oW="206" oH="130"/>
+	<sprite n="Mouth 11" x="0" y="1134" w="138" h="92" oX="49" oY="10" oW="206" oH="130"/>
+	<sprite n="Pedal 01" x="723" y="1221" w="143" h="118" oX="2" oY="6" oW="150" oH="130"/>
+	<sprite n="Pedal 02" x="471" y="1204" w="54" h="52" oX="3" oY="3" oW="60" oH="60" r="y"/>
+	<sprite n="Pedal 03" x="239" y="291" w="160" h="90" oX="5" oY="5" oW="100" oH="170" r="y"/>
+	<sprite n="Pedal 04" x="985" y="140" w="36" h="30" oX="5" oY="2" oW="40" oH="40" r="y"/>
+	<sprite n="Pedal 05" x="228" y="579" w="154" h="121" oX="4" oY="3" oW="130" oH="160" r="y"/>
+	<sprite n="Pedal 06" x="211" y="1283" w="112" h="69" oX="4" oY="4" oW="120" oH="80"/>
+	<sprite n="Pedal 07" x="940" y="1483" w="79" h="98" oX="0" oY="1" oW="80" oH="100"/>
+	<sprite n="Pedal 08" x="941" y="1354" w="83" h="127" oX="4" oY="1" oW="90" oH="130"/>
+	<sprite n="Pedal 09" x="985" y="105" w="37" h="33" oX="4" oY="2" oW="40" oH="40" r="y"/>
+	<sprite n="Pedal 10" x="122" y="1401" w="78" h="67" oX="2" oY="1" oW="70" oH="80" r="y"/>
+	<sprite n="reg Back Mushroom 01" x="985" y="0" w="38" h="30" oX="10" oY="11" oW="56" oH="48"/>
+	<sprite n="reg Back Mushroom 02" x="544" y="1001" w="48" h="77" oX="9" oY="9" oW="68" oH="102"/>
+	<sprite n="reg Back Mushroom 03" x="919" y="598" w="47" h="43" oX="8" oY="5" oW="52" oH="58" r="y"/>
+	<sprite n="reg Head" x="0" y="832" w="190" h="175" oX="9" oY="4" oW="212" oH="186"/>
+	<sprite n="reg Left Eyelid 04" x="942" y="1300" w="82" h="52" oX="0" oY="6" oW="86" oH="64"/>
+	<sprite n="reg Left Fin" x="216" y="924" w="173" h="142" oX="27" oY="8" oW="184" oH="194" r="y"/>
+	<sprite n="reg Left Finger 01" x="527" y="1195" w="60" h="58" oX="5" oY="10" oW="66" oH="74"/>
+	<sprite n="reg Left Finger 02" x="967" y="709" w="56" h="67" oX="4" oY="9" oW="72" oH="68" r="y"/>
+	<sprite n="reg Left Hand" x="659" y="400" w="66" h="71" oX="8" oY="11" oW="84" oH="84" r="y"/>
+	<sprite n="reg Left Lower Arm Mushrooms" x="968" y="531" w="56" h="106" oX="9" oY="4" oW="68" oH="124"/>
+	<sprite n="reg Left Lower Arm" x="391" y="1001" w="151" h="107" oX="10" oY="7" oW="124" oH="158" r="y"/>
+	<sprite n="reg Left Lower Leg" x="0" y="1228" w="133" h="86" oX="7" oY="4" oW="98" oH="144" r="y"/>
+	<sprite n="reg Left Shoulder" x="727" y="727" w="190" h="125" oX="14" oY="2" oW="158" oH="198" r="y"/>
+	<sprite n="reg Left Thumb" x="356" y="1068" w="29" h="59" oX="6" oY="5" oW="70" oH="40" r="y"/>
+	<sprite n="reg Left Toes" x="325" y="1299" w="110" h="67" oX="0" oY="0" oW="110" oH="68"/>
+	<sprite n="reg Left Upper Arm" x="0" y="640" w="216" h="190" oX="0" oY="18" oW="238" oH="234" r="y"/>
+	<sprite n="reg Left Upper Leg" x="963" y="870" w="60" h="109" oX="3" oY="2" oW="70" oH="120"/>
+	<sprite n="reg Mouth 11" x="387" y="1110" w="138" h="92" oX="49" oY="10" oW="206" oH="130"/>
+	<sprite n="reg Right Arm Mushroom 01" x="919" y="764" w="44" h="84" oX="5" oY="5" oW="58" oH="96"/>
+	<sprite n="reg Right Arm Mushrooms 02" x="984" y="172" w="40" h="31" oX="4" oY="6" oW="38" oH="52" r="y"/>
+	<sprite n="reg Right Eyelid 04" x="544" y="1080" w="48" h="53" oX="3" oY="4" oW="58" oH="56" r="y"/>
+	<sprite n="reg Right Fin" x="239" y="462" w="157" h="115" oX="28" oY="10" oW="152" oH="172" r="y"/>
+	<sprite n="reg Right Hand" x="868" y="1329" w="71" h="68" oX="5" oY="9" oW="80" oH="80"/>
+	<sprite n="reg Right Lower Arm" x="0" y="1009" w="142" h="123" oX="9" oY="6" oW="140" oH="148" r="y"/>
+	<sprite n="reg Right Lower Leg" x="216" y="1068" w="138" h="95" oX="9" oY="2" oW="104" oH="144" r="y"/>
+	<sprite n="reg Right Toes" x="882" y="1035" w="60" h="99" oX="7" oY="4" oW="110" oH="68" r="y"/>
+	<sprite n="reg Right Upper Arm" x="0" y="291" w="237" h="205" oX="12" oY="15" oW="258" oH="234"/>
+	<sprite n="reg Right Upper Leg" x="144" y="1113" w="70" h="101" oX="6" oY="6" oW="84" oH="114"/>
+	<sprite n="reg Torso" x="0" y="0" w="402" h="289" oX="13" oY="8" oW="334" oH="416" r="y"/>
+	<sprite n="Right Eyelid 01" x="533" y="1351" w="53" h="48" oX="3" oY="4" oW="58" oH="56"/>
+	<sprite n="Right Eyelid 02" x="533" y="1401" w="53" h="48" oX="3" oY="4" oW="58" oH="56"/>
+	<sprite n="Right Eyelid 03" x="97" y="1470" w="53" h="48" oX="3" oY="4" oW="58" oH="56"/>
+	<sprite n="Right Eyelid 04" x="152" y="1470" w="48" h="53" oX="3" oY="4" oW="58" oH="56" r="y"/>
+	<sprite n="Right Fin" x="940" y="1483" w="79" h="98" oX="36" oY="38" oW="152" oH="172"/>
+	<sprite n="Right Hand" x="868" y="1258" w="72" h="69" oX="5" oY="9" oW="80" oH="80"/>
+	<sprite n="Right Lower Arm" x="724" y="1096" w="143" h="123" oX="9" oY="5" oW="140" oH="148" r="y"/>
+	<sprite n="Right Lower Leg OL" x="722" y="1341" w="133" h="116" oX="2" oY="4" oW="120" oH="140" r="y"/>
+	<sprite n="Right Lower Leg UL" x="216" y="1165" w="133" h="116" oX="2" oY="4" oW="120" oH="140" r="y"/>
+	<sprite n="Right Toes" x="968" y="420" w="56" h="109" oX="0" oY="6" oW="110" oH="68" r="y"/>
+	<sprite n="Right Upper Arm" x="727" y="385" w="239" h="211" oX="12" oY="14" oW="258" oH="234"/>
+	<sprite n="Right Upper Leg" x="144" y="1009" w="70" h="102" oX="6" oY="4" oW="84" oH="114"/>
+	<sprite n="Shadow 50-Percent" x="0" y="498" w="236" h="68" oX="9" oY="0" oW="248" oH="68"/>
+	<sprite n="Tentacles 01" x="202" y="1448" w="68" h="58" oX="12" oY="46" oW="120" oH="110"/>
+	<sprite n="Tentacles 02" x="944" y="1113" w="80" h="77" oX="4" oY="31" oW="120" oH="110"/>
+	<sprite n="Tentacles 03" x="965" y="778" w="59" h="90" oX="30" oY="20" oW="120" oH="110"/>
+	<sprite n="Tentacles 04" x="984" y="315" w="30" h="103" oX="64" oY="3" oW="120" oH="110"/>
+	<sprite n="Tentacles 05" x="192" y="832" w="23" h="78" oX="67" oY="19" oW="120" oH="110"/>
+	<sprite n="Tentacles 06" x="985" y="32" w="37" h="71" oX="68" oY="30" oW="120" oH="110"/>
+	<sprite n="Tentacles 07" x="984" y="230" w="34" h="83" oX="69" oY="21" oW="120" oH="110"/>
+	<sprite n="Tentacles 08" x="919" y="643" w="46" h="76" oX="66" oY="29" oW="120" oH="110"/>
+	<sprite n="Tentacles Left Foot" x="594" y="1029" w="128" h="87" oX="6" oY="6" oW="140" oH="100"/>
+	<sprite n="Tentacles Neck 1" x="984" y="205" w="40" h="23" oX="4" oY="16" oW="120" oH="90" r="y"/>
+	<sprite n="Tentacles Neck 2" x="617" y="529" w="26" h="52" oX="34" oY="23" oW="120" oH="90"/>
+	<sprite n="Tentacles Neck 3" x="192" y="912" w="22" h="48" oX="66" oY="21" oW="120" oH="90"/>
+	<sprite n="Tentacles Neck 4" x="918" y="972" w="30" h="27" oX="88" oY="15" oW="120" oH="90" r="y"/>
+	<sprite n="Tentacles Neck" x="659" y="473" w="60" h="111" oX="4" oY="15" oW="120" oH="90" r="y"/>
+	<sprite n="Tentacles Right Arm 1" x="919" y="850" w="42" h="120" oX="4" oY="4" oW="80" oH="130"/>
+	<sprite n="Tentacles Right Arm 2" x="919" y="721" w="45" h="41" oX="35" oY="49" oW="80" oH="130" r="y"/>
+	<sprite n="Tentacles Right Arm" x="869" y="1136" w="72" h="120" oX="4" oY="4" oW="80" oH="130"/>
+	<sprite n="Tentacles Right Foot" x="0" y="1419" w="95" h="91" oX="2" oY="4" oW="100" oH="100"/>
+	<sprite n="Tentacles Right Upper Arm 1" x="437" y="1351" w="94" h="67" oX="1" oY="4" oW="150" oH="120"/>
+	<sprite n="Tentacles Right Upper Arm 2" x="950" y="981" w="73" h="130" oX="20" oY="34" oW="150" oH="120" r="y"/>
+	<sprite n="Tentacles Right Upper Arm" x="594" y="1118" w="127" h="119" oX="1" oY="0" oW="130" oH="120"/>
+	<sprite n="Torso-OL" x="727" y="0" w="256" h="151" oX="43" oY="246" oW="334" oH="416"/>
+	<sprite n="Torso" x="404" y="0" w="321" h="286" oX="13" oY="87" oW="334" oH="416" r="y"/>
+</TextureAtlas>

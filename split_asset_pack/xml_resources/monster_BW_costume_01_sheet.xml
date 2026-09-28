@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6d3af41adcf4cd0bbb13f3411e425ae8:2f86be8b0727b411f6f6d99531399346:390ff139ec4117b8b666bbe0a8cca752$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BW_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BW_body" x="0" y="0" w="220" h="82" pX="0.5669642857142857" pY="0.3333333333333333" oX="2" oY="1" oW="224" oH="84"/>
+	<sprite n="BW_mouth_back_01" x="165" y="156" w="162" h="128" pX="0.5" pY="0.5" oX="65" oY="1" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_back_02" x="0" y="84" w="163" h="132" pX="0.5" pY="0.5" oX="62" oY="1" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_back_03" x="162" y="346" w="149" h="133" pX="0.5" pY="0.5" oX="73" oY="13" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_back_04" x="142" y="481" w="139" h="102" pX="0.5" pY="0.5" oX="73" oY="35" oW="217" oH="194"/>
+	<sprite n="BW_mouth_back_05" x="313" y="448" w="140" h="100" pX="0.5" pY="0.5" oX="72" oY="39" oW="217" oH="194"/>
+	<sprite n="BW_mouth_front_01" x="222" y="0" w="164" h="154" pX="0.5" pY="0.5" oX="28" oY="2" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_front_02" x="0" y="218" w="160" h="132" pX="0.5" pY="0.5" oX="26" oY="5" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_front_03" x="0" y="352" w="140" h="139" pX="0.5" pY="0.5" oX="12" oY="37" oW="217" oH="194"/>
+	<sprite n="BW_mouth_front_04" x="388" y="0" w="113" h="151" pX="0.5" pY="0.5" oX="3" oY="77" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_front_05" x="388" y="153" w="109" h="143" pX="0.5" pY="0.5" oX="2" oY="85" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_mid_02" x="381" y="298" w="130" h="148" pX="0.5" pY="0.5" oX="64" oY="16" oW="217" oH="194"/>
+	<sprite n="BW_mouth_mid_03" x="390" y="550" w="103" h="73" pX="0.5" pY="0.5" oX="133" oY="59" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_mid_04" x="283" y="550" w="105" h="97" pX="0.5" pY="0.5" oX="117" oY="66" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_mid_05" x="0" y="493" w="106" h="96" pX="0.5" pY="0.5" oX="119" oY="68" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_upperjaw_back_04" x="314" y="286" w="65" h="134" pX="0.5" pY="0.5" oX="12" oY="77" oW="217" oH="194" r="y"/>
+	<sprite n="BW_mouth_upperjaw_back_05" x="162" y="286" w="150" h="58" pX="0.5" pY="0.5" oX="5" oY="85" oW="217" oH="194"/>
+</TextureAtlas>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:64b9ffd3284cd0f78b3b169b2fced429:90d97bf8903508c1bf33fe687a1d9e87:3ec7702dd17f73264940a93045a5cbe1$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I02_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="I02_feathers_01" x="0" y="321" w="132" h="82" oX="1" oY="2" oW="135" oH="85"/>
+	<sprite n="I02_feathers_02" x="0" y="224" w="139" h="95" oX="0" oY="1" oW="140" oH="97"/>
+	<sprite n="I02_maj_calf" x="381" y="655" w="40" h="23" r="y"/>
+	<sprite n="I02_maj_eyelid_left" x="134" y="385" w="68" h="38"/>
+	<sprite n="I02_maj_eyelid_right" x="347" y="278" w="40" h="62" oX="0" oY="0" oW="63" oH="41" r="y"/>
+	<sprite n="I02_maj_eyewing_left" x="389" y="289" w="112" h="79" oX="1" oY="0" oW="82" oH="113" r="y"/>
+	<sprite n="I02_maj_eyewing_right" x="390" y="80" w="116" h="86" oX="0" oY="1" oW="87" oH="120" r="y"/>
+	<sprite n="I02_maj_finger_01" x="141" y="224" w="34" h="32" r="y"/>
+	<sprite n="I02_maj_finger_02" x="176" y="298" w="27" h="28" oX="1" oY="1" oW="30" oH="29" r="y"/>
+	<sprite n="I02_maj_finger_03" x="458" y="656" w="36" h="21" oX="0" oY="1" oW="37" oH="23"/>
+	<sprite n="I02_maj_foot" x="100" y="494" w="31" h="23"/>
+	<sprite n="I02_maj_head" x="205" y="0" w="183" h="162" oX="1" oY="3" oW="187" oH="167"/>
+	<sprite n="I02_maj_head_fur" x="99" y="591" w="86" h="63" oX="0" oY="1" oW="88" oH="64"/>
+	<sprite n="I02_maj_leg" x="287" y="648" w="54" h="20" oX="0" oY="0" oW="20" oH="55" r="y"/>
+	<sprite n="I02_maj_mouth" x="288" y="587" w="73" h="59" oX="0" oY="3" oW="61" oH="76" r="y"/>
+	<sprite n="I02_maj_pupil" x="483" y="679" w="21" h="21"/>
+	<sprite n="I02_maj_wing_01" x="103" y="405" w="29" h="87" oX="2" oY="0" oW="33" oH="87"/>
+	<sprite n="I02_maj_wing_02" x="300" y="539" w="81" h="46" r="y"/>
+	<sprite n="I02_maj_wing_03" x="141" y="258" w="34" h="27"/>
+	<sprite n="I02_maj_wing_04" x="383" y="581" w="75" h="72" oX="1" oY="0" oW="77" oH="72"/>
+	<sprite n="I02_maj_wing_05" x="0" y="536" w="97" h="94" oX="1" oY="1" oW="96" oH="99" r="y"/>
+	<sprite n="I02_maj_wing_06" x="0" y="450" w="98" h="84" oX="2" oY="1" oW="102" oH="86"/>
+	<sprite n="I02_min_arm" x="366" y="164" w="22" h="71" oX="1" oY="2" oW="72" oH="25" r="y"/>
+	<sprite n="I02_min_claw_back" x="458" y="679" w="23" h="19" r="y"/>
+	<sprite n="I02_min_claw_front" x="343" y="648" w="36" h="42"/>
+	<sprite n="I02_min_eye_black" x="178" y="189" w="25" h="26"/>
+	<sprite n="I02_min_eye_pupil" x="178" y="217" w="25" h="26"/>
+	<sprite n="I02_min_eye_shine" x="176" y="328" w="10" h="10"/>
+	<sprite n="I02_min_eyeband" x="332" y="342" w="55" h="89" r="y"/>
+	<sprite n="I02_min_eyelid_01" x="134" y="478" w="65" h="51" oX="12" oY="2" oW="89" oH="55"/>
+	<sprite n="I02_min_eyelid_02" x="316" y="433" w="67" h="51" oX="11" oY="2" oW="89" oH="55"/>
+	<sprite n="I02_min_eyelid_03" x="316" y="486" w="67" h="51" oX="11" oY="2" oW="89" oH="55"/>
+	<sprite n="I02_min_eyelid_04" x="134" y="425" w="67" h="51" oX="11" oY="2" oW="89" oH="55"/>
+	<sprite n="I02_min_eyewing_back" x="286" y="670" w="42" h="33" oX="1" oY="0" oW="44" oH="33"/>
+	<sprite n="I02_min_eyewing_left" x="389" y="370" w="110" h="107" oX="2" oY="1" oW="111" oH="114" r="y"/>
+	<sprite n="I02_min_eyewing_right" x="385" y="479" w="107" h="100" oX="0" oY="1" oW="107" oH="101"/>
+	<sprite n="I02_min_forearm" x="347" y="219" w="17" h="57" oX="0" oY="2" oW="57" oH="20" r="y"/>
+	<sprite n="I02_min_head" x="0" y="0" w="203" h="137" oX="2" oY="4" oW="205" oH="143"/>
+	<sprite n="I02_min_leg" x="204" y="407" w="110" h="91" r="y"/>
+	<sprite n="I02_min_mouth_claw_01" x="423" y="655" w="33" h="23" r="y"/>
+	<sprite n="I02_min_mouth_claw_02" x="100" y="519" w="29" h="24" oX="1" oY="0" oW="26" oH="29" r="y"/>
+	<sprite n="I02_min_mouth_claw_03" x="177" y="272" w="25" h="24" oX="0" oY="1" oW="24" oH="27" r="y"/>
+	<sprite n="I02_min_mouth_claw_04" x="177" y="245" w="26" h="25" oX="0" oY="0" oW="26" oH="26"/>
+	<sprite n="I02_min_mouth_lip" x="141" y="287" w="33" h="52" oX="1" oY="2" oW="54" oH="37" r="y"/>
+	<sprite n="I02_min_pipe_scratches_01" x="366" y="237" w="22" h="31" r="y"/>
+	<sprite n="I02_min_pipe_scratches_02" x="247" y="661" w="37" h="37" oX="1" oY="0" oW="39" oH="37"/>
+	<sprite n="I02_min_pupil_ring" x="247" y="621" w="38" h="38"/>
+	<sprite n="I02_min_wing_01" x="178" y="139" w="25" h="48" oX="1" oY="0" oW="27" oH="48"/>
+	<sprite n="I02_min_wing_02" x="0" y="632" w="84" h="39" r="y"/>
+	<sprite n="I02_min_wing_03" x="390" y="168" w="114" h="59" oX="1" oY="1" oW="61" oH="116" r="y"/>
+	<sprite n="I02_min_wing_04" x="205" y="311" w="125" h="94" oX="1" oY="2" oW="127" oH="98"/>
+	<sprite n="I02_min_wing_05" x="187" y="621" w="58" h="45"/>
+	<sprite n="I02_min_wing_06" x="99" y="545" w="97" h="44" oX="1" oY="1" oW="99" oH="46"/>
+	<sprite n="I02_min_wing_07" x="0" y="405" w="101" h="43" oX="1" oY="1" oW="103" oH="45"/>
+	<sprite n="I02_pipe_01_back" x="390" y="0" w="120" h="78" oX="1" oY="2" oW="80" oH="124" r="y"/>
+	<sprite n="I02_pipe_01_front" x="198" y="577" w="88" h="42" oX="2" oY="1" oW="46" oH="90" r="y"/>
+	<sprite n="I02_pipe_01_glow" x="0" y="139" w="176" h="83" oX="5" oY="4" oW="91" oH="182" r="y"/>
+	<sprite n="I02_pipe_02_back" x="205" y="164" w="159" h="53" oX="1" oY="1" oW="55" oH="161" r="y"/>
+	<sprite n="I02_pipe_02_front" x="134" y="341" w="69" h="42" oX="1" oY="0" oW="44" oH="69" r="y"/>
+	<sprite n="I02_pipe_03_back" x="201" y="500" w="97" h="75" oX="1" oY="1" oW="77" oH="99" r="y"/>
+	<sprite n="I02_pipe_03_front" x="460" y="581" w="48" h="73" oX="1" oY="1" oW="50" oH="75"/>
+	<sprite n="I02_pipe_03_glow" x="205" y="219" w="140" h="90" oX="6" oY="3" oW="99" oH="145" r="y"/>
+	<sprite n="I02_shadow" x="390" y="229" w="113" h="58"/>
+</TextureAtlas>

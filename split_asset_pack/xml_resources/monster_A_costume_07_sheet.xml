@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7528f1412a265b40497673001fda6071:20013bbf6f140127f3efdcc143738980:54a1e593330748aed444945da758cb7d$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_A_costume_07_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="A_hat" x="0" y="0" w="228" h="133" pX="0.5770833333333333" pY="1.0285714285714285" oX="6" oY="3" oW="240" oH="140"/>
+	<sprite n="A_head" x="0" y="135" w="187" h="103" pX="0.58" pY="0.75" oX="6" oY="8" oW="200" oH="120"/>
+	<sprite n="A_rippon" x="189" y="135" w="65" h="68" pX="0.25" pY="0.6142857142857143" oX="1" oY="1" oW="70" oH="70"/>
+</TextureAtlas>

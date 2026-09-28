@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e5ffbc5a4e772df2eac09264ee6e656c:3231de3c24309e359c77aeed43d435f3:bc4d885cd1c016f8d1b2818a627eb0bd$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/mirror_obstacle_tree_sheet_snow.png" width="1024" height="1024" hires="true">
+    <sprite n="obstacle_tree01_snow" x="2" y="644" w="416" h="238" oX="3" oY="0" oW="244" oH="416" r="y"/>
+    <sprite n="obstacle_tree02_snow" x="419" y="2" w="544" h="272" oX="83" oY="36" oW="428" oH="580" r="y"/>
+    <sprite n="obstacle_tree03_snow" x="2" y="2" w="415" h="640" oX="86" oY="70" oW="564" oH="728"/>
+</TextureAtlas>

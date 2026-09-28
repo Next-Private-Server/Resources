@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bcc342c28ef0c684f494378417162675:445242b57630832eeec59f1e8a35fe28:6b4d604bfa8a22f0141a20184d8d879d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/mindboggle_floatingbookcase_sheet.png" width="512" height="512" hires="true">
+    <sprite n="Book 01" x="222" y="111" w="78" h="69" oX="1" oY="1" oW="80" oH="72"/>
+    <sprite n="Book 02" x="304" y="111" w="76" h="75" oX="2" oY="2" oW="80" oH="80" r="y"/>
+    <sprite n="Book 03" x="406" y="3" w="96" h="75" oX="2" oY="2" oW="100" oH="80"/>
+    <sprite n="Book 04" x="406" y="82" w="91" h="70" oX="2" oY="1" oW="96" oH="72"/>
+    <sprite n="Shadow" x="222" y="3" w="180" h="104"/>
+    <sprite n="Shelf" x="3" y="3" w="215" h="439" oX="6" oY="4" oW="228" oH="448"/>
+</TextureAtlas>

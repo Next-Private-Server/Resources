@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:90de047487c4b6a5a2b5f4f7efd64035:cebf55e521879e5d6705394da6aab886:e5f203a9b6a298ae521a2c1a60a83d9b$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island05_sheet01_summer.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="flame01" x="2005" y="214" w="28" h="58" oX="3" oY="7" oW="36" oH="72"/>
+	<sprite n="flame02" x="2005" y="126" w="31" h="59" oX="2" oY="6" oW="36" oH="72"/>
+	<sprite n="flame03" x="2005" y="0" w="33" h="60" oX="2" oY="5" oW="36" oH="72"/>
+	<sprite n="flame04" x="2005" y="62" w="32" h="62" oX="1" oY="3" oW="36" oH="72"/>
+	<sprite n="glow" x="1979" y="539" w="66" h="78" oX="3" oY="3" oW="72" oH="84"/>
+	<sprite n="island05_burns" x="1028" y="0" w="975" h="537" oX="5" oY="7" oW="542" oH="982" r="y"/>
+	<sprite n="island05_ear" x="403" y="1216" w="504" h="776" oX="6" oY="5" oW="510" oH="784"/>
+	<sprite n="island05_edge" x="1547" y="989" w="297" h="234" oX="6" oY="0" oW="308" oH="238"/>
+	<sprite n="island05_eyeclosed" x="0" y="0" w="1026" h="740" oX="5" oY="0" oW="1036" oH="740"/>
+	<sprite n="island05_nose" x="403" y="742" w="612" h="472" oX="17" oY="0" oW="522" oH="612" r="y"/>
+	<sprite n="island05_stumpcenter" x="1028" y="539" w="949" h="448" oX="4" oY="9" oW="954" oH="458"/>
+	<sprite n="island05_stumpside" x="909" y="1216" w="636" h="738" oX="8" oY="2" oW="748" oH="642" r="y"/>
+	<sprite n="lamp" x="2005" y="274" w="26" h="172" oX="2" oY="3" oW="32" oH="180"/>
+	<sprite n="shade01" x="0" y="742" w="382" h="88" oX="9" oY="3" oW="400" oH="98"/>
+	<sprite n="shade02" x="1017" y="1031" w="246" h="123" oX="11" oY="0" oW="264" oH="126"/>
+	<sprite n="shade03" x="0" y="832" w="348" h="142" oX="3" oY="7" oW="148" oH="362" r="y"/>
+	<sprite n="shade04" x="0" y="1926" w="352" h="114" oX="9" oY="3" oW="370" oH="120"/>
+	<sprite n="shade05" x="1979" y="619" w="61" h="200" oX="5" oY="5" oW="210" oH="66" r="y"/>
+	<sprite n="w5_cloud" x="0" y="1031" w="401" h="893" oX="2" oY="8" oW="900" oH="420" r="y"/>
+	<sprite n="w5_flamedance_01" x="1979" y="976" w="54" h="53" oX="11" oY="7" oW="64" oH="64" r="y"/>
+	<sprite n="w5_flamedance_02" x="350" y="832" w="51" h="54" oX="12" oY="7" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_03" x="1979" y="924" w="55" h="50" oX="11" oY="5" oW="64" oH="64" r="y"/>
+	<sprite n="w5_flamedance_04" x="350" y="888" w="51" h="53" oX="0" oY="7" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_05" x="1979" y="821" w="56" h="48" oX="1" oY="4" oW="64" oH="64" r="y"/>
+	<sprite n="w5_flamedance_06" x="1979" y="871" w="55" h="51" oX="3" oY="6" oW="64" oH="64" r="y"/>
+	<sprite n="w5_sparks_01" x="2005" y="187" w="30" h="25" oX="3" oY="0" oW="30" oH="30" r="y"/>
+	<sprite n="w5_sparks_02" x="2005" y="448" w="23" h="20" oX="5" oY="3" oW="30" oH="30" r="y"/>
+</TextureAtlas>

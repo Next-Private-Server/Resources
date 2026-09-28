@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7e06061267df02c531ee9df869bd8e6f:bf077828e6fe3bce53f1de879872db2d:86f3fe6e903f61b73d1a210a81dc3fa9$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_K_costume_05_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="K_back_left_foot_WOOD" x="0" y="130" w="103" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="68" oH="104" r="y"/>
+	<sprite n="K_back_right_foot_WOOD" x="105" y="135" w="103" h="64" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="104" r="y"/>
+	<sprite n="K_front_left_foot_WOOD" x="134" y="0" w="104" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="68" oH="104" r="y"/>
+	<sprite n="K_front_right_foot_WOOD" x="134" y="69" w="104" h="64" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="K_leg_segment_WOOD" x="210" y="135" w="36" h="32" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="K_mech_body_WOOD" x="0" y="0" w="132" h="128" pX="0.5" pY="0.5" oX="0" oY="1" oW="128" oH="136" r="y"/>
+	<sprite n="K_pipe_left_WOOD" x="104" y="201" w="99" h="93" pX="0.5" pY="0.5" oX="7" oY="5" oW="100" oH="104" r="y"/>
+	<sprite n="K_pipe_right_WOOD" x="0" y="199" w="102" h="57" pX="0.5" pY="0.5" oX="7" oY="2" oW="64" oH="104" r="y"/>
+	<sprite n="K_tankpack_WOOD" x="205" y="201" w="51" h="60" pX="0.5" pY="0.5" oX="0" oY="2" oW="60" oH="56" r="y"/>
+</TextureAtlas>

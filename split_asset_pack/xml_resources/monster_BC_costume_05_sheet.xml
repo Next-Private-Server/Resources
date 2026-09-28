@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:61c942010419d089f04222dd94a38756:f854596de704a7445e19b65b2e888f1b:0dc63289ca88f2067b1ef01e6e853f36$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BC_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BC_beard" x="220" y="296" w="34" h="68" pX="0.47058823529411764" pY="0.08823529411764706"/>
+	<sprite n="BC_body" x="0" y="0" w="166" h="200" pX="0.6144578313253012" pY="0.85"/>
+	<sprite n="BC_eyelid1" x="172" y="296" w="46" h="68" pX="0.5" pY="0.5217391304347826" r="y"/>
+	<sprite n="BC_eyelid2" x="262" y="0" w="46" h="68" pX="0.5" pY="0.5217391304347826" r="y"/>
+	<sprite n="BC_eyelid3" x="310" y="0" w="46" h="68" pX="0.5" pY="0.5217391304347826" r="y"/>
+	<sprite n="BC_eyelid4" x="196" y="366" w="46" h="68" pX="0.5" pY="0.5217391304347826" r="y"/>
+	<sprite n="BC_head" x="172" y="194" w="96" h="100" pX="0.6" pY="0.52" oX="0" oY="4" oW="100" oH="100" r="y"/>
+	<sprite n="BC_left_finger" x="92" y="368" w="46" h="16" pX="0.15217391304347827" pY="0.375"/>
+	<sprite n="BC_left_foot" x="30" y="396" w="92" h="108" pX="0.7608695652173914" pY="0.5555555555555556"/>
+	<sprite n="BC_left_hand" x="304" y="472" w="44" h="32" pX="0.18181818181818182" pY="0.25"/>
+	<sprite n="BC_left_lower_arm" x="0" y="396" w="28" h="112" pX="0.8928571428571429" pY="0.42857142857142855" r="y"/>
+	<sprite n="BC_left_lower_leg" x="92" y="202" w="38" h="164" pX="0.9146341463414634" pY="0.47368421052631576" r="y"/>
+	<sprite n="BC_left_upper_arm" x="124" y="386" w="34" h="120" pX="0.5294117647058824" pY="0.11666666666666667"/>
+	<sprite n="BC_left_upper_leg" x="0" y="202" w="44" h="192" pX="0.09375" pY="0.5" r="y"/>
+	<sprite n="BC_mouth01" x="242" y="110" w="28" h="80" pX="0.43902439024390244" pY="0.32" oX="1" oY="3" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth02" x="168" y="110" w="33" h="82" pX="0.43902439024390244" pY="0.32" oX="0" oY="2" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth03" x="203" y="110" w="37" h="81" pX="0.43902439024390244" pY="0.32" oX="0" oY="3" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth04" x="196" y="436" w="40" h="66" pX="0.43902439024390244" pY="0.32" oX="6" oY="2" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth05" x="244" y="366" w="50" h="55" pX="0.43902439024390244" pY="0.32" oX="10" oY="0" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth06" x="268" y="423" w="45" h="47" pX="0.43902439024390244" pY="0.32" oX="13" oY="1" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth07" x="256" y="296" w="41" h="48" pX="0.43902439024390244" pY="0.32" oX="15" oY="3" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth08" x="262" y="70" w="52" h="35" pX="0.43902439024390244" pY="0.32" oX="10" oY="3" oW="82" oH="50"/>
+	<sprite n="BC_mouth09" x="268" y="472" w="34" h="40" pX="0.43902439024390244" pY="0.32" oX="17" oY="2" oW="82" oH="50" r="y"/>
+	<sprite n="BC_mouth10" x="238" y="436" w="28" h="60" pX="0.43902439024390244" pY="0.32" oX="9" oY="4" oW="82" oH="50" r="y"/>
+	<sprite n="BC_right_finger" x="140" y="368" w="46" h="16" pX="0.8478260869565217" pY="0.375"/>
+	<sprite n="BC_right_foot" x="168" y="0" w="92" h="108" pX="0.7608695652173914" pY="0.5555555555555556"/>
+	<sprite n="BC_right_hand" x="296" y="346" w="32" h="44" pX="0.8636363636363636" pY="0.25" r="y"/>
+	<sprite n="BC_right_lower_arm" x="0" y="396" w="28" h="112" pX="0.9017857142857143" pY="0.42857142857142855" r="y"/>
+	<sprite n="BC_right_lower_leg" x="132" y="202" w="38" h="164" pX="0.9146341463414634" pY="0.47368421052631576" r="y"/>
+	<sprite n="BC_right_upper_arm" x="160" y="386" w="34" h="120" pX="0.5294117647058824" pY="0.11666666666666667"/>
+	<sprite n="BC_right_upper_leg" x="46" y="202" w="44" h="192" pX="0.09375" pY="0.5" r="y"/>
+</TextureAtlas>

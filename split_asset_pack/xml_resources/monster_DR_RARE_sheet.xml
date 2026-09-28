@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a77b1bfd19e3d4440b02d062db48e4d8:d5697f43967babc712bc0a0816533b83:fc792f9f556979b4364e0c5743f62c37$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_DR_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="body" x="262" y="0" w="217" h="254" r="y"/>
+	<sprite n="bubble 1_1" x="306" y="482" w="66" h="54" oX="13" oY="14" oW="94" oH="78"/>
+	<sprite n="bubble 1_2" x="372" y="582" w="55" h="51" oX="18" oY="15" oW="94" oH="78"/>
+	<sprite n="bubble 1_3" x="340" y="343" w="89" h="69" oX="1" oY="4" oW="94" oH="78"/>
+	<sprite n="bubble 1_4" x="98" y="352" w="92" h="76" oX="0" oY="0" oW="94" oH="78"/>
+	<sprite n="bubble 2_1" x="0" y="320" w="96" h="95" oX="15" oY="11" oW="125" oH="116" r="y"/>
+	<sprite n="bubble 2_2" x="93" y="430" w="88" h="84" oX="17" oY="17" oW="125" oH="116"/>
+	<sprite n="bubble 2_3" x="127" y="102" w="119" h="107" oX="4" oY="3" oW="125" oH="116"/>
+	<sprite n="bubble 2_4" x="0" y="102" w="125" h="116"/>
+	<sprite n="bubble 3" x="183" y="462" w="49" h="45"/>
+	<sprite n="bubble 4" x="192" y="356" w="42" h="38"/>
+	<sprite n="bubble 5" x="388" y="480" w="40" h="36"/>
+	<sprite n="bubble 6_1" x="0" y="508" w="78" h="73" oX="4" oY="18" oW="101" oH="105" r="y"/>
+	<sprite n="bubble 6_2" x="234" y="473" w="70" h="67" oX="4" oY="25" oW="101" oH="105" r="y"/>
+	<sprite n="bubble 6_3" x="0" y="417" w="91" h="89" oX="2" oY="7" oW="101" oH="105" r="y"/>
+	<sprite n="bubble 6_4" x="0" y="220" w="100" h="98" oX="1" oY="2" oW="101" oH="105" r="y"/>
+	<sprite n="bubble 7" x="481" y="92" w="28" h="27" r="y"/>
+	<sprite n="bubble 8_1" x="315" y="414" w="71" h="66" oX="6" oY="15" oW="90" oH="85"/>
+	<sprite n="bubble 8_2" x="431" y="433" w="66" h="61" oX="6" oY="18" oW="90" oH="85"/>
+	<sprite n="bubble 8_3" x="431" y="345" w="80" h="86" oX="2" oY="5" oW="90" oH="85" r="y"/>
+	<sprite n="bubble 8_4" x="340" y="256" w="90" h="85"/>
+	<sprite n="bubble 9" x="202" y="314" w="34" h="40" r="y"/>
+	<sprite n="bubble 10" x="374" y="518" w="54" h="62"/>
+	<sprite n="bubble 11" x="292" y="595" w="54" h="52"/>
+	<sprite n="bubble 12_1" x="432" y="256" w="80" h="87" oX="18" oY="25" oW="114" oH="106" r="y"/>
+	<sprite n="bubble 12_2" x="235" y="399" w="78" h="72" oX="25" oY="32" oW="114" oH="106"/>
+	<sprite n="bubble 12_3" x="238" y="256" w="100" h="95" oX="9" oY="11" oW="114" oH="106"/>
+	<sprite n="bubble 12_4" x="127" y="211" w="109" h="101" oX="1" oY="4" oW="114" oH="106"/>
+	<sprite n="bubble 13" x="481" y="62" w="29" h="28"/>
+	<sprite n="eyelid 1" x="192" y="396" w="41" h="64" oX="0" oY="0" oW="64" oH="55" r="y"/>
+	<sprite n="eyelid 2" x="388" y="414" w="41" h="64" oX="0" oY="0" oW="64" oH="55" r="y"/>
+	<sprite n="eyelid 3" x="430" y="496" w="64" h="55"/>
+	<sprite n="eyelid 4" x="306" y="538" w="64" h="55"/>
+	<sprite n="eyelid 5" x="226" y="542" w="64" h="55"/>
+	<sprite n="L hand back" x="481" y="121" w="27" h="25" oX="3" oY="0" oW="32" oH="34" r="y"/>
+	<sprite n="L hand front" x="481" y="0" w="31" h="30" oX="0" oY="3" oW="32" oH="34"/>
+	<sprite n="L lower arm" x="102" y="314" w="98" h="36" oX="0" oY="0" oW="38" oH="99" r="y"/>
+	<sprite n="L upper arm" x="238" y="353" w="89" h="44" oX="1" oY="0" oW="45" oH="89" r="y"/>
+	<sprite n="pupil" x="481" y="32" w="30" h="28"/>
+	<sprite n="R hand" x="183" y="509" w="41" h="36" oX="0" oY="0" oW="37" oH="41" r="y"/>
+	<sprite n="R lower arm" x="481" y="148" w="26" h="98" oX="0" oY="2" oW="26" oH="100"/>
+	<sprite n="R upper arm" x="430" y="553" w="58" h="33" r="y"/>
+	<sprite n="shadow" x="0" y="0" w="260" h="100" oX="5" oY="0" oW="272" oH="100"/>
+</TextureAtlas>

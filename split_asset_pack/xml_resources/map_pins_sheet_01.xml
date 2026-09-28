@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4e305e7afd175fee731c0618278799a0:b7ffd8fbb40d04f4df77bd0a8c4e336c:16e4b3fa48083b58717348f7503a41b0$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_pins_sheet_01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="map_pin_island01" x="0" y="1051" w="236" h="333" oX="32" oY="15" oW="300" oH="380"/>
+	<sprite n="map_pin_island02" x="746" y="621" w="268" h="283" oX="32" oY="97" oW="300" oH="380"/>
+	<sprite n="map_pin_island03" x="238" y="701" w="268" h="330" oX="0" oY="18" oW="300" oH="380"/>
+	<sprite n="map_pin_island04" x="0" y="1386" w="236" h="332" oX="32" oY="16" oW="300" oH="380"/>
+	<sprite n="map_pin_island05" x="508" y="679" w="236" h="295" oX="32" oY="53" oW="300" oH="380"/>
+	<sprite n="map_pin_island06" x="1072" y="280" w="236" h="271" oX="32" oY="77" oW="300" oH="380"/>
+	<sprite n="map_pin_island07" x="238" y="1033" w="255" h="324" oX="29" oY="24" oW="300" oH="380"/>
+	<sprite n="map_pin_island08" x="0" y="701" w="236" h="348" oX="32" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_island09" x="802" y="293" w="268" h="281" oX="9" oY="80" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island10" x="495" y="1033" w="248" h="304" oX="29" oY="44" oW="300" oH="380"/>
+	<sprite n="map_pin_island11" x="1298" y="0" w="233" h="236" oX="32" oY="115" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island12" x="1016" y="576" w="251" h="272" oX="32" oY="76" oW="300" oH="380"/>
+	<sprite n="map_pin_island13" x="238" y="1685" w="236" h="321" oX="32" oY="27" oW="300" oH="380"/>
+	<sprite n="map_pin_island14" x="476" y="1359" w="236" h="308" oX="32" oY="40" oW="300" oH="380"/>
+	<sprite n="map_pin_island15" x="0" y="1720" w="236" h="328" oX="32" oY="20" oW="300" oH="380"/>
+	<sprite n="map_pin_island16" x="745" y="976" w="283" h="285" oX="8" oY="63" oW="300" oH="380"/>
+	<sprite n="map_pin_island17" x="1059" y="0" w="237" h="278" oX="31" oY="70" oW="300" oH="380"/>
+	<sprite n="map_pin_island18" x="296" y="350" w="236" h="327" oX="32" oY="21" oW="300" oH="380"/>
+	<sprite n="map_pin_island19" x="0" y="351" w="294" h="348" oX="2" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_island20" x="534" y="327" w="266" h="292" oX="5" oY="82" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island21" x="769" y="0" w="288" h="291" oX="4" oY="60" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island22" x="0" y="0" w="236" h="349" oX="32" oY="12" oW="300" oH="380"/>
+	<sprite n="map_pin_island23" x="516" y="0" w="251" h="325" oX="27" oY="23" oW="300" oH="380"/>
+	<sprite n="map_pin_island24" x="714" y="1339" w="236" h="290" oX="32" oY="58" oW="300" oH="380"/>
+	<sprite n="map_pin_island25" x="238" y="0" w="276" h="348" oX="13" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_island31" x="238" y="1359" w="236" h="324" oX="32" oY="24" oW="300" oH="380"/>
+	<sprite n="map_pin_island32" x="476" y="1669" w="267" h="290" oX="1" oY="58" oW="300" oH="380"/>
+	<sprite n="map_pin_pointofinterest" x="1016" y="850" w="128" h="103" oX="12" oY="0" oW="128" oH="128" r="y"/>
+</TextureAtlas>

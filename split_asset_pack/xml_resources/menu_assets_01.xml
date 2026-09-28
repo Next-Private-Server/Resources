@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:60eb19a01ea014c1ce6530af09483dd4:09d3bfe9779a1a5061518dcda27acf05:921682bbb3c943f8fee56ac831a526d6$ -->
+<TextureAtlas imagePath="gfx/menu/menu_assets_01.png" width="256" height="512" hires="false" version="1">
+	<sprite n="button_eye_closed" x="174" y="374" w="52" h="48" oX="2" oY="0" oW="52" oH="52" r="y"/>
+	<sprite n="button_eye_open" x="0" y="470" w="48" h="42" oX="2" oY="5" oW="52" oH="52"/>
+	<sprite n="menu_peeking_furcorn" x="0" y="302" w="100" h="166" r="y"/>
+	<sprite n="menu_recording_toejammer" x="0" y="0" w="250" h="300"/>
+	<sprite n="menu_switch_off" x="102" y="374" w="70" h="112" oX="0" oY="0" oW="119" oH="70" r="y"/>
+	<sprite n="menu_switch_on" x="102" y="302" w="115" h="70" oX="4" oY="0" oW="119" oH="70"/>
+</TextureAtlas>

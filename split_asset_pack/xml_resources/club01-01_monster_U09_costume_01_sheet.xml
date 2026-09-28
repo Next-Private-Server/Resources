@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:97edc4361774a237b12b1e8f63f477eb:e628ba6cf183150299f8fa893c14b1e0:e5139f2e6915cd7d178919bc3683a07b$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-01_monster_U09_costume_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="Collar" x="0" y="0" w="413" h="281" pX="0.42619" pY="0.68" oX="1" oY="8" oW="420" oH="350"/>
+	<sprite n="HAT" x="753" y="0" w="259" h="177" pX="0.4" pY="0.877778" oX="1" oY="3" oW="260" oH="180"/>
+	<sprite n="HAT_BACK" x="565" y="567" w="102" h="48" pX="0.4" pY="0.877778" oX="199" oY="76" oW="260" oH="180" r="y"/>
+	<sprite n="Head" x="410" y="284" w="190" h="176" pX="0.5" pY="0.5" oX="9" oY="4" oW="212" oH="186"/>
+	<sprite n="Left Finger 01" x="965" y="509" w="58" h="60" pX="0.5" pY="0.5" oX="4" oY="10" oW="66" oH="74" r="y"/>
+	<sprite n="Left Finger 02" x="965" y="571" w="57" h="67" pX="0.5" pY="0.5" oX="4" oY="8" oW="72" oH="68" r="y"/>
+	<sprite n="Left Hand" x="893" y="509" w="70" h="66" pX="0.5" pY="0.5" oX="9" oY="11" oW="84" oH="84"/>
+	<sprite n="Left Lower Arm" x="410" y="462" w="153" h="123" pX="0.5" pY="0.5" oX="1" oY="5" oW="124" oH="158" r="y"/>
+	<sprite n="Left Lower Leg" x="602" y="410" w="133" h="86" pX="0.5" pY="0.5" oX="7" oY="4" oW="98" oH="144" r="y"/>
+	<sprite n="Left Thumb" x="565" y="462" w="30" h="59" pX="0.5" pY="0.5" oX="6" oY="4" oW="70" oH="40" r="y"/>
+	<sprite n="Left Toes" x="597" y="498" w="110" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="110" oH="68"/>
+	<sprite n="Left Upper Arm" x="0" y="283" w="203" h="183" pX="0.5" pY="0.5" oX="7" oY="23" oW="238" oH="234" r="y"/>
+	<sprite n="Left Upper Leg" x="709" y="509" w="109" h="60" pX="0.5" pY="0.5" oX="3" oY="2" oW="70" oH="120" r="y"/>
+	<sprite n="Right Hand" x="820" y="509" w="71" h="68" pX="0.5" pY="0.5" oX="5" oY="9" oW="80" oH="80"/>
+	<sprite n="Right Lower Arm" x="602" y="284" w="143" h="124" pX="0.5" pY="0.5" oX="16" oY="2" oW="140" oH="148" r="y"/>
+	<sprite n="Right Upper Arm" x="205" y="283" w="203" h="183" pX="0.5" pY="0.5" oX="55" oY="17" oW="258" oH="234" r="y"/>
+	<sprite n="Torso" x="753" y="179" w="245" h="328" pX="0.5" pY="0.5" oX="57" oY="82" oW="334" oH="416"/>
+	<sprite n="Torso_Jacket" x="415" y="0" w="336" h="282" pX="0.547904" pY="0.665865" oX="52" oY="63" oW="334" oH="416" r="y"/>
+</TextureAtlas>

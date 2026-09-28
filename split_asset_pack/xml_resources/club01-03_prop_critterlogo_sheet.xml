@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:42c39742be1484b99f2bdc36dccf5475:8973fc23b54fa062bdd0fd58860d4206:999e5da3dc8b85961aa90e8bdc102b01$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_critterlogo_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="critter_act_03" x="0" y="0" w="210" h="204" oX="107" oY="93" oW="400" oH="400"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0f6f4727027850d71d89b0af6f7c6073:744315a0ffa0e5122764d0c00aa6015f:0ecb0b0613403ef59114cd0fe816a154$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCDE_costume_09_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BCDE_body" x="0" y="0" w="305" h="298" pX="0.5" pY="0.673333" oX="8" oY="0" oW="324" oH="300"/>
+	<sprite n="BCDE_left_upper_arm" x="165" y="610" w="108" h="147" pX="0.691667" pY="0.24375" oX="8" oY="4" oW="120" oH="160"/>
+	<sprite n="BCDE_mouth_01" x="0" y="690" w="159" h="67" pX="0.5" pY="0.5" oX="3" oY="20" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_02" x="446" y="592" w="65" h="159" pX="0.5" pY="0.5" oX="3" oY="9" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_03" x="0" y="595" w="163" h="93" pX="0.5" pY="0.5" oX="6" oY="2" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_04" x="0" y="422" w="169" h="105" pX="0.5" pY="0.5" oX="3" oY="3" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_05" x="307" y="160" w="172" h="122" pX="0.5" pY="0.5" oX="0" oY="3" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_06" x="174" y="300" w="118" h="154" pX="0.5" pY="0.5" oX="8" oY="10" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_07" x="275" y="674" w="106" h="96" pX="0.5" pY="0.5" oX="29" oY="14" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_08" x="171" y="456" w="110" h="60" pX="0.5" pY="0.5" oX="26" oY="15" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_09" x="0" y="529" w="164" h="64" pX="0.5" pY="0.5" oX="3" oY="9" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_10" x="282" y="592" w="162" h="80" pX="0.5" pY="0.5" oX="3" oY="9" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_11" x="294" y="407" w="169" h="103" pX="0.5" pY="0.5" oX="3" oY="3" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_12" x="0" y="300" w="172" h="120" pX="0.5" pY="0.5" oX="0" oY="3" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_13" x="307" y="284" w="172" h="121" pX="0.5" pY="0.5" oX="0" oY="3" oW="172" oH="128"/>
+	<sprite n="BCDE_right_upper_arm" x="307" y="0" w="189" h="158" pX="0.262195" pY="0.260417" oX="3" oY="1" oW="164" oH="192" r="y"/>
+	<sprite n="earpiece" x="171" y="518" w="109" h="90" pX="0.326142" pY="0.443015" oX="171" oY="15" oW="394" oH="272" r="y"/>
+	<sprite n="glasses" x="283" y="512" w="165" h="78" pX="0.651163" pY="1.125" oX="7" oY="2" oW="172" oH="80"/>
+</TextureAtlas>

@@ -1,0 +1,119 @@
+<template name="template_login_button" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$spritePath" equals="'email/email_button_'" />
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<spriteComponent name="Sprite">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("gfx/menu/login_buttons/" .. element:templateVars().spritePath .. game.getLanguageName())
+				component("size"):SetFloat(0.30*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+			]]>
+		</event>
+	</spriteComponent>
+
+	<spriteSheetComponent name="Bound">
+	<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+	<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5*game.hudScale()" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("button_yes")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<ninesliceComponent name="Highlight">
+		<size w="160*game.hudScale()" h="44*game.hudScale()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+			component("topHeight"):SetFloat(40.0)
+			component("bottomHeight"):SetFloat(40.0)
+			component("leftWidth"):SetFloat(40.0)
+			component("rightWidth"):SetFloat(40.0)
+			component("size"):SetFloat(0.25*game.hudScale())
+			component("includeBorder"):SetInt(1)
+			component("spriteName"):SetString("gfx/menu/blue_highlight_frame_9S")
+			component("layer"):SetString("MidPopUps")
+			component("visible"):SetInt(0)
+			]]>
+		</event>
+	</ninesliceComponent>
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("singleTouch"):SetInt(1)
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				if element.isDisabled == false then
+					element["Sprite"]:setColor(1.0, 1.0, 1.0)
+				end
+			]]>
+		</event>
+		<event name="onTouchDown" params="component, element, x, y">
+			<![CDATA[
+				if element.isDisabled == false then
+					element["Sprite"]:setColor(0.5, 0.5, 0.5)
+				end
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				if element.isDisabled == false then
+					element["Sprite"]:setColor(1.0, 1.0, 1.0)
+				end
+			]]>
+		</event>
+	</touchComponent>
+
+	<event name="onInit" params="element">
+		element:setPositionBroadcast(true)
+		element.isVisible = true
+		element.isDisabled = false
+		element.isBound = false
+	</event>
+
+	<function name="setVisible" params="element">
+		element.isVisible = true
+		element["Sprite"]("visible"):SetInt(1)
+		if element.isBound then
+			element["Bound"]("visible"):SetInt(1)
+		end
+		element["Touch"]("enabled"):SetInt(1)
+	</function>
+	
+	<function name="setInvisible" params="element">
+		element.isVisible = false
+		element["Sprite"]("visible"):SetInt(0)
+		element["Bound"]("visible"):SetInt(0)
+		element["Touch"]("enabled"):SetInt(0)
+	</function>
+
+	<function name="setDisabled" params="element">
+		element.isDisabled = true
+		element["Sprite"]:setColor(0.5, 0.5, 0.5)
+	</function>
+
+	<function name="showIsBound" params="element">
+		element.isBound = true
+		element["Bound"]("visible"):SetInt(1)
+	</function>
+
+	<function name="showHighlight" params="element">
+		element["Highlight"]("visible"):SetInt(1)
+	</function>
+
+</template>

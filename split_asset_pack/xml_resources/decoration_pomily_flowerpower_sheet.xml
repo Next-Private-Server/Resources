@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e0230b1a31c97d9c8fa44fc6ac670094:69aa47a62436e83a6b8cc1a21267fc9b:5a0c4728519fada54fb5e5ddae7b1b01$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_pomily_flowerpower_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="flower_01" x="394" y="386" w="68" h="74"/>
+	<sprite n="flower_03" x="347" y="287" w="105" h="97"/>
+	<sprite n="flower_04" x="237" y="197" w="108" h="98"/>
+	<sprite n="flower_06" x="325" y="386" w="67" h="75" r="y"/>
+	<sprite n="flower_back_petals" x="0" y="287" w="227" h="207"/>
+	<sprite n="flower_centre_front_petals" x="229" y="482" w="20" h="30" r="y"/>
+	<sprite n="flower_centre_petals" x="76" y="197" w="77" h="82" r="y"/>
+	<sprite n="flower_glow" x="155" y="197" w="80" h="80"/>
+	<sprite n="flower_middle_petals" x="351" y="0" w="157" h="184" r="y"/>
+	<sprite n="flower_pollen" x="0" y="197" w="74" h="84" oX="0" oY="1" oW="90" oH="75" r="y"/>
+	<sprite n="flower_shadow" x="351" y="186" w="149" h="99"/>
+	<sprite n="flower_stamen_1" x="329" y="463" w="95" h="26" r="y"/>
+	<sprite n="flower_stamen_2" x="454" y="287" w="51" h="22" r="y"/>
+	<sprite n="flower_stamen_3" x="251" y="482" w="76" h="29" r="y"/>
+	<sprite n="stage" x="0" y="0" w="349" h="195"/>
+	<sprite n="stage_shadow" x="229" y="297" w="94" h="183" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8823bd8a6c68e9dc1f5b993bcd9f6137:54d7a171d53fce969d68c3997fd87b98:9319e0412bf09a2885d59806c8967a3e$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_monster_Z11_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="monster_Z11_ankle" x="960" y="751" w="62" h="62" oX="1" oY="1" oW="64" oH="64"/>
+	<sprite n="monster_Z11_bling" x="409" y="1486" w="66" h="66" oX="2" oY="2" oW="70" oH="70"/>
+	<sprite n="monster_Z11_body_hips" x="739" y="640" w="249" h="109" oX="8" oY="7" oW="265" oH="125"/>
+	<sprite n="monster_Z11_cane_01" x="0" y="371" w="340" h="79" oX="148" oY="17" oW="374" oH="374" r="y"/>
+	<sprite n="monster_Z11_cane_01_GLOW" x="409" y="1554" w="55" h="68" oX="17" oY="0" oW="89" oH="68"/>
+	<sprite n="monster_Z11_cane_02_blur" x="0" y="219" w="340" h="150" oX="112" oY="18" oW="374" oH="374" r="y"/>
+	<sprite n="monster_Z11_cane_02_GLOW" x="195" y="1393" w="89" h="68"/>
+	<sprite n="monster_Z11_cane_03_spin" x="0" y="452" w="338" h="338" oX="19" oY="16" oW="374" oH="374"/>
+	<sprite n="monster_Z11_cheek" x="954" y="987" w="69" h="65" oX="4" oY="2" oW="72" oH="72" r="y"/>
+	<sprite n="monster_Z11_ear_left" x="0" y="1792" w="112" h="74" oX="1" oY="4" oW="78" oH="120" r="y"/>
+	<sprite n="monster_Z11_ear_right" x="183" y="1596" w="103" h="108" oX="2" oY="4" oW="107" oH="116"/>
+	<sprite n="monster_Z11_foot _LEFT" x="954" y="1054" w="68" h="125" oX="2" oY="0" oW="131" oH="72" r="y"/>
+	<sprite n="monster_Z11_foot" x="577" y="1329" w="125" h="68" oX="3" oY="0" oW="131" oH="72"/>
+	<sprite n="monster_Z11_hair_lock" x="577" y="1399" w="180" h="48" oX="7" oY="3" oW="62" oH="187" r="y"/>
+	<sprite n="monster_Z11_hair_strand1" x="342" y="290" w="74" h="174" oX="1" oY="6" oW="78" oH="187"/>
+	<sprite n="monster_Z11_hair_strand2" x="960" y="815" w="57" h="170" oX="4" oY="2" oW="65" oH="174"/>
+	<sprite n="monster_Z11_hair_strand3" x="750" y="1511" w="170" h="53" oX="1" oY="2" oW="56" oH="174" r="y"/>
+	<sprite n="monster_Z11_hair_strand4" x="0" y="1455" w="181" h="119" oX="4" oY="3" oW="127" oH="187" r="y"/>
+	<sprite n="monster_Z11_hand_1" x="478" y="1310" w="97" h="111" oX="23" oY="31" oW="140" oH="128" r="y"/>
+	<sprite n="monster_Z11_hand_2" x="0" y="1678" w="116" h="112" oX="20" oY="9" oW="140" oH="128"/>
+	<sprite n="monster_Z11_hand_3" x="288" y="1486" w="119" h="114" oX="10" oY="1" oW="140" oH="128" r="y"/>
+	<sprite n="monster_Z11_hand_4a" x="342" y="219" w="76" h="69" oX="24" oY="44" oW="140" oH="128" r="y"/>
+	<sprite n="monster_Z11_hand_4b" x="939" y="1181" w="81" h="90" oX="21" oY="27" oW="140" oH="128" r="y"/>
+	<sprite n="monster_Z11_hand_5" x="643" y="585" w="94" h="111" oX="23" oY="31" oW="140" oH="128" r="y"/>
+	<sprite n="monster_Z11_hand_6" x="118" y="1706" w="116" h="112" oX="20" oY="9" oW="140" oH="128"/>
+	<sprite n="monster_Z11_hand_7" x="288" y="1602" w="119" h="114" oX="10" oY="1" oW="140" oH="128" r="y"/>
+	<sprite n="monster_Z11_head" x="420" y="0" w="355" h="311" oX="74" oY="8" oW="437" oH="343"/>
+	<sprite n="monster_Z11_lowerarm" x="582" y="1119" w="143" h="103" oX="14" oY="7" oW="163" oH="118"/>
+	<sprite n="monster_Z11_lowerarm_LEFT" x="579" y="1224" w="143" h="103" oX="18" oY="7" oW="163" oH="118"/>
+	<sprite n="monster_Z11_lowerleg" x="478" y="1472" w="95" h="117" oX="0" oY="5" oW="96" oH="125"/>
+	<sprite n="monster_Z11_lowerleg_LEFT" x="643" y="466" w="94" h="117" oX="2" oY="5" oW="96" oH="125"/>
+	<sprite n="monster_Z11_medallion" x="466" y="1591" w="107" h="109" oX="0" oY="0" oW="109" oH="109"/>
+	<sprite n="monster_Z11_mouth_00" x="0" y="1082" w="288" h="198" oX="13" oY="10" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_01" x="290" y="1195" w="287" h="113" oX="18" oY="23" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_02" x="739" y="404" w="283" h="126" oX="19" oY="21" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_03" x="0" y="792" w="294" h="141" oX="9" oY="15" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_04" x="340" y="466" w="301" h="149" oX="2" oY="16" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_05" x="0" y="935" w="289" h="145" oX="12" oY="16" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_06" x="296" y="883" w="293" h="163" oX="8" oY="14" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_07" x="739" y="1109" w="198" h="288" oX="13" oY="10" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_08" x="777" y="111" w="221" h="291" oX="10" oY="10" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_09" x="639" y="698" w="98" h="221" oX="71" oY="38" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_10" x="739" y="851" w="213" h="127" oX="78" oY="40" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_11" x="591" y="921" w="146" h="196" oX="91" oY="39" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_12" x="290" y="1310" w="186" h="174" oX="98" oY="36" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_13" x="0" y="1282" w="193" h="171" oX="106" oY="36" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_14" x="935" y="1437" w="88" h="167" oX="111" oY="50" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_15" x="195" y="1282" w="93" h="109" oX="159" oY="61" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_16" x="183" y="1463" w="103" h="131" oX="164" oY="48" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_17" x="0" y="1576" w="181" h="100" oX="163" oY="38" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_mouth_18" x="739" y="532" w="272" h="106" oX="28" oY="28" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_19" x="739" y="980" w="213" h="127" oX="78" oY="40" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_20" x="291" y="1048" w="289" h="145" oX="12" oY="16" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_21" x="739" y="751" w="219" h="98" oX="71" oY="38" oW="312" oH="250"/>
+	<sprite n="monster_Z11_mouth_22" x="0" y="1868" w="106" h="109" oX="121" oY="58" oW="312" oH="250" r="y"/>
+	<sprite n="monster_Z11_necklace" x="418" y="313" w="319" h="151" oX="5" oY="9" oW="328" oH="172"/>
+	<sprite n="monster_Z11_shades" x="777" y="0" w="238" h="109" oX="68" oY="25" oW="312" oH="140"/>
+	<sprite n="monster_Z11_shadow" x="0" y="0" w="418" h="217" oX="10" oY="1" oW="437" oH="218"/>
+	<sprite n="monster_Z11_shine" x="478" y="1423" w="97" h="47" oX="1" oY="1" oW="49" oH="100" r="y"/>
+	<sprite n="monster_Z11_suit" x="340" y="617" w="297" h="264" oX="7" oY="8" oW="312" oH="281"/>
+	<sprite n="monster_Z11_upperarm" x="939" y="1273" w="74" h="162" oX="1" oY="5" oW="163" oH="85" r="y"/>
+	<sprite n="monster_Z11_upperarm_LEFT" x="575" y="1557" w="161" h="74" oX="2" oY="5" oW="163" oH="85"/>
+	<sprite n="monster_Z11_upperleg" x="577" y="1449" w="171" h="106" oX="5" oY="12" oW="116" oH="194" r="y"/>
+	<sprite n="monster_Z11_upperleg_LEFT" x="759" y="1399" w="174" h="110" oX="2" oY="12" oW="116" oH="194" r="y"/>
+</TextureAtlas>

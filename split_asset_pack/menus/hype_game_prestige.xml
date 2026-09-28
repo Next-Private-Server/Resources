@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/HypeGamePrestige.lua"/>
+
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$priority" equals="20" />
+		<templateVar name="$touchPriority" equals="-18" /> <!-- relative to priority -->
+		<templateVar name="$maxAlpha" equals="0.75" />
+		<templateVar name="$autoShow" equals="1"/>
+		<touchComponent name="Touch"/>
+	</template>
+
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" component="Anim" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-62*game.windowScaleY()" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="160*game.windowScaleY()" h="40*game.windowScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(30.0)
+				component("bottomHeight"):SetFloat(30.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5 * game.windowScaleY())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/clubbox/clubbox_currency_frame_9S")
+				component("layer"):SetString("Tutorial")
+			</event>
+		</ninesliceComponent>
+
+		<spriteSheetComponent name="RightSpeaker">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="12*game.windowScaleY()" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("header_right")
+				component("sheetName"):SetString("xml_resources/clubbox_progress_menu.xml")
+				component("size"):SetFloat(0.4*game.windowScaleY())
+				component("layer"):SetString("Tutorial")
+			</event>
+		</spriteSheetComponent>
+
+		<spriteSheetComponent name="LeftSpeaker">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-12*game.windowScaleY()" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("header_left")
+				component("sheetName"):SetString("xml_resources/clubbox_progress_menu.xml")
+				component("size"):SetFloat(0.4*game.windowScaleY())
+				component("layer"):SetString("Tutorial")
+			</event>
+		</spriteSheetComponent>
+
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(8*game.windowScaleY())
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("HYPE_GAME_COMPLETE")
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("layer"):SetString("Tutorial")
+			</event>
+		</textComponent>
+		
+		<event name="setAlpha" params="element, alpha">		
+			element["Sprite"]:V("alpha"):SetFloat(alpha)
+			element["RightSpeaker"]:V("alpha"):SetFloat(alpha)
+			element["LeftSpeaker"]:V("alpha"):SetFloat(alpha)
+			element["Text"]:V("alpha"):SetFloat(alpha)
+		</event>
+	</element>
+
+	<aeComponent name="Anim">
+		<size w="200*game.windowScaleY()" h="150*game.windowScaleY()" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-12*game.windowScaleY()" priorityOffset="19" />
+		<event name="onInit" params="component, element">
+			component("offsetCenter"):SetInt(1)
+			component("animationName"):SetString("xml_bin/clubbox_complete_anim.bin")
+			component("animation"):SetString("clubbox_complete")
+			component:setScale(Vector2(0.4*game.windowScaleY(), 0.4*game.windowScaleY()))
+			component("layer"):SetString("Tutorial")			
+
+			local curClubboxAct = game.existingClubboxAct()
+			component:AddRemap("poster_00.png", "gfx/clubbox/" .. game.getClubboxActPosterIcon(curClubboxAct))
+		</event>
+	</aeComponent>
+
+	<template type="template_nineslicebutton" name="ReturnButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+		<templateVar name="$spriteScale" equals="0.4*game.windowScaleY()" />
+		<templateVar name="$text" equals="HYPE_GAME_COMPLETE_BUTTON" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$textPadding" equals="4*game.windowScaleY()" />
+		<templateVar name="$autoScaleFactor" equals="0.01" />
+		<templateVar name="$topHeight" equals="30.0" />
+		<templateVar name="$bottomHeight" equals="30.0" />
+		<templateVar name="$leftWidth" equals="35.0" />
+		<templateVar name="$rightWidth" equals="35.0" />
+		<templateVar name="$width" equals="95*game.windowScaleY()" />
+		<templateVar name="$height" equals="28*game.windowScaleY()" />
+		<templateVar name="$includeBorder" equals="1" />	
+		<templateVar name="$layer" equals="Tutorial" />
+		<position relativeTo="PARENT" component="Anim" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="14*game.windowScaleY()" priorityOffset="-1" />
+
+		<textComponent name="Text">
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component("size"):SetFloat(0.18*game.windowScaleY())
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-18" />
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component("enabled"):SetInt(0)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element:parent():onClick()
+			</event>
+		</touchComponent>
+
+		<event name="setAlpha" params="element, alpha">		
+			element["BoundsSprite"]:V("alpha"):SetFloat(alpha)
+			element["UpSprite"]:V("alpha"):SetFloat(alpha)
+			element["DownSprite"]:V("alpha"):SetFloat(alpha)
+			element["Text"]:V("alpha"):SetFloat(alpha)
+		</event>
+	</template>
+</menu>

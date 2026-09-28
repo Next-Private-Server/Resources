@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:589bd7966f518f758643408f7db68034:0f070b6c5430c67bcc5402b323260895:bb629d473d40b9636748b00388dddce9$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_tags_sheet_01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="map_tag_clubbox" x="0" y="0" w="540" h="127" oX="0" oY="9" oW="562" oH="144"/>
+	<sprite n="map_tag_island01" x="542" y="0" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island01_cherry" x="1084" y="0" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island01_halloween" x="1626" y="0" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island01_skin01" x="1755" y="0" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island02" x="1884" y="0" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island02_christmas" x="0" y="542" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island02_skin01" x="0" y="129" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island03" x="0" y="258" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island03_skin01" x="0" y="387" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island03_valentines" x="0" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island04" x="0" y="1626" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island04_easter" x="0" y="1755" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island04_skin01" x="0" y="1884" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island05" x="542" y="129" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island05_skin01" x="1084" y="129" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island05_summersong" x="542" y="258" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island06" x="1084" y="258" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island06_anniversary" x="542" y="387" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island07" x="1084" y="387" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island07_lifeformula" x="542" y="516" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island08" x="1084" y="516" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island09" x="129" y="516" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island10" x="129" y="1058" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island11" x="258" y="516" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island12" x="387" y="516" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island13" x="258" y="1058" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island13_thanksgiving" x="387" y="1058" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island14" x="1626" y="542" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island14_perplexplore" x="516" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island15" x="1755" y="542" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island15_mindboggle" x="1884" y="542" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island16" x="542" y="1626" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island16_stpatricks" x="645" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island17" x="774" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island17_dayofthedead" x="903" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island18" x="1032" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island18_skypainting" x="542" y="1755" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island19" x="542" y="1884" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island19_newyears" x="1084" y="1626" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island20" x="1161" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island21" x="1290" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island22" x="1419" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island22_arbor" x="1548" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island23" x="1084" y="1755" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island24" x="1084" y="1884" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island25" x="1677" y="1084" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island26" x="1806" y="1084" w="127" h="540" oX="0" oY="9" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island27" x="516" y="645" w="540" h="127" oX="0" oY="9" oW="562" oH="144"/>
+	<sprite n="map_tag_island28" x="1058" y="645" w="540" h="127" oX="0" oY="9" oW="562" oH="144"/>
+	<sprite n="map_tag_island29" x="516" y="774" w="540" h="127" oX="0" oY="9" oW="562" oH="144"/>
+	<sprite n="map_tag_island31" x="1058" y="774" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island32" x="516" y="903" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+</TextureAtlas>

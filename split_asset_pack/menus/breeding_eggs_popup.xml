@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+    <script src="scripts/BreedingV2/BreedingEggsPopup.lua"/>
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.5" />
+        <templateVar name="$maxAlpha" equals="0.75" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="12" />
+	</template>
+
+	<template type="template_panel_basic" name="Panel">
+		<templateVar name="$layer" equals="MidPopUps" />
+        <templateVar name="$frame" equals="'gfx/menu/Black9SFrame50'" />
+		<!-- the panel's height is set dynamically in setup -->
+		<size w="480*BreedingMenuScaleX()" h="260*BreedingMenuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*BreedingMenuScaleX()" priorityOffset="10" />
+	</template>
+
+    <element name="Title">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Panel" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="4*BreedingMenuScaleX()" priorityOffset="-8" />
+		
+		<textComponent name="Text">
+			<size w="300*game.hudScale()" h="46*game.hudScale()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.5*BreedingMenuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString(LOC("BREEDING_POSSIBLE_RESULTS"))
+				--[[local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_GREEN))]] --TODO: set correct color?
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+
+		<ninesliceComponent name="Sprite">
+			<size w="320*game.hudScale()" h="52*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(48.0)
+				component("bottomHeight"):SetFloat(48.0)
+				component("leftWidth"):SetFloat(48.0)
+				component("rightWidth"):SetFloat(48.0)
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+
+	</element>
+
+    <element name="Description">
+        <size dependentOnElement="element:name()" dependentOnComponent="Text" />
+        <position relativeTo="Panel" vAnchor="TOP" hAnchor="HCENTER" />
+        <orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="40*BreedingMenuScaleX()" priorityOffset="-5" />
+        
+		<ninesliceComponent name="DescriptionBackground">
+			<size dependentOnElement="element:name()"/>
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("topHeight"):SetFloat(12.0)
+					component("bottomHeight"):SetFloat(12.0)
+					component("leftWidth"):SetFloat(12.0)
+					component("rightWidth"):SetFloat(12.0)
+					component("size"):SetFloat(1 * BreedingMenuScaleX())
+					component("includeBorder"):SetInt(0)
+					component("spriteName"):SetString("gfx/menu/soft_square_9s")
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</ninesliceComponent>
+		
+		<textComponent name="Text">
+			<size w="440*BreedingMenuScaleX()" h="48*BreedingMenuScaleX()"/>
+            <position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+            <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+            <event name="onInit" params="component, element">
+                component("multiline"):SetInt(1)
+                component("autoScale"):SetInt(1)
+                component("font"):Set(game.getTextFont())
+                component("size"):SetFloat(0.3*BreedingMenuScaleX())
+                component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+                component("text"):SetString("BREEDING_POSSIBLE_RESULTS_DESC")
+                component("layer"):SetString("MidPopUps")
+            </event>
+        </textComponent>
+    </element>
+    
+    <template type="template_breeding_torches" name="Torches">
+        <templateVar name="$targetWidth" equals="320*BreedingMenuScaleX()" />
+		<templateVar name="$targetHeight" equals="48*BreedingMenuScaleX()" />
+		<templateVar name="$torchScale" equals="0.45 * BreedingMenuScaleX()" />
+		<templateVar name="$torchSpacing" equals="8 * BreedingMenuScaleX()" />
+		<position relativeTo="Panel" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />		       
+	</template>
+
+    <!-- eggs... probably needs to be a scrolling list? -->
+    <element name="Eggs">
+        <size w="440*BreedingMenuScaleX()" h="170*BreedingMenuScaleX()" />
+		<position relativeTo="Panel" vAnchor="BOTTOM" hAnchor="HCENTER" />
+        <orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="8*BreedingMenuScaleX()" priorityOffset="-1" />
+		<swipeComponent name="Swiper">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("smoothMode"):SetInt(1)
+				]]>
+			</event>
+		</swipeComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onInit" params="component, element">
+				component:V("singleTouch"):SetInt(1)
+			</event>
+		</touchComponent>
+    </element>
+
+</menu>

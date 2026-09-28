@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:789d65c39d36e9db961e148c9d5bfe61:f6f4a2bdafcf57b3f4c3103c0a7ea8c7:8048177e069bd8a7d5dc9d5cfdb4416e$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island06_sheet01_ann.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="balloon01" x="1719" y="727" w="210" h="71" oX="4" oY="5" oW="80" oH="220" r="y"/>
+	<sprite n="balloon01_new" x="1933" y="727" w="74" h="100" oX="1" oY="2" oW="77" oH="104"/>
+	<sprite n="balloon02" x="1719" y="802" w="210" h="71" oX="4" oY="5" oW="80" oH="220" r="y"/>
+	<sprite n="balloon02_new" x="1622" y="801" w="93" h="68" oX="5" oY="6" oW="77" oH="104" r="y"/>
+	<sprite n="balloon03" x="1718" y="877" w="210" h="71" oX="4" oY="5" oW="80" oH="220" r="y"/>
+	<sprite n="balloon03_new" x="1842" y="1128" w="72" h="96" oX="2" oY="4" oW="77" oH="104"/>
+	<sprite n="balloon04" x="1714" y="952" w="210" h="71" oX="4" oY="5" oW="80" oH="220" r="y"/>
+	<sprite n="balloon04_new" x="1842" y="1027" w="72" h="97" oX="1" oY="2" oW="77" oH="104"/>
+	<sprite n="balloon05_new" x="1622" y="873" w="92" h="67" oX="5" oY="5" oW="77" oH="104" r="y"/>
+	<sprite n="balloon06_new" x="1933" y="831" w="73" h="99" oX="2" oY="4" oW="77" oH="104"/>
+	<sprite n="balloonrope01" x="852" y="1387" w="235" h="10" oX="2" oY="119" oW="14" oH="475" r="y"/>
+	<sprite n="balloonrope02" x="2022" y="638" w="11" h="236" oX="2" oY="117" oW="14" oH="475"/>
+	<sprite n="balloonrope03" x="2022" y="3" w="13" h="282" oX="1" oY="98" oW="14" oH="475"/>
+	<sprite n="balloonrope04" x="2022" y="289" w="12" h="345" oX="1" oY="67" oW="14" oH="475"/>
+	<sprite n="island06_burns" x="863" y="3" w="852" h="794" r="y"/>
+	<sprite n="island06_ear" x="1116" y="1387" w="402" h="646"/>
+	<sprite n="island06_edge" x="3" y="1424" w="459" h="619" oX="0" oY="3" oW="460" oH="622"/>
+	<sprite n="island06_eyeclosed" x="3" y="683" w="845" h="737" oX="0" oY="3" oW="846" oH="740"/>
+	<sprite n="island06_nose" x="466" y="1424" w="646" h="611" oX="10" oY="1" oW="666" oH="612"/>
+	<sprite n="island06_stumpcenter" x="852" y="801" w="766" h="582" oX="0" oY="3" oW="766" oH="586"/>
+	<sprite n="island06_stumpside" x="3" y="3" w="856" h="676" oX="0" oY="0" oW="858" oH="676"/>
+	<sprite n="w6_cloud" x="1719" y="3" w="299" h="720" oX="84" oY="57" oW="900" oH="420" r="y"/>
+	<sprite n="w6_fly_01" x="1932" y="934" w="110" h="123" oX="1" oY="0" oW="124" oH="110" r="y"/>
+	<sprite n="w6_fly_02" x="1714" y="1027" w="124" h="100" oX="0" oY="10" oW="124" oH="110"/>
+	<sprite n="w6_fly_03" x="1669" y="1131" w="123" h="110" oX="1" oY="0" oW="124" oH="110"/>
+	<sprite n="w6_fly_04" x="1918" y="1061" w="124" h="100" oX="0" oY="10" oW="124" oH="110"/>
+	<sprite n="w6_fly_05" x="1622" y="944" w="88" h="123" oX="1" oY="22" oW="124" oH="110" r="y"/>
+	<sprite n="w6_fly_06" x="1918" y="1165" w="124" h="100" oX="0" oY="10" oW="124" oH="110"/>
+	<sprite n="w6_green_glow" x="1622" y="1115" w="43" h="43" oX="3" oY="2" oW="48" oH="48"/>
+	<sprite n="w6_sparkle" x="1622" y="1071" w="48" h="40" oX="4" oY="0" oW="48" oH="48" r="y"/>
+</TextureAtlas>

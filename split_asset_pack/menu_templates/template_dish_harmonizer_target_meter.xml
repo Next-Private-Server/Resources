@@ -1,0 +1,110 @@
+<template name="template_dish_harmonizer_target_meter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/DishHarmonizerTargetMeter.lua" />	
+		
+	<defaultTemplateVar name="$layer" equals="'MidPopUps'" />
+	<defaultTemplateVar name="$scale" equals="0.7*game.menuScaleX()" />
+	<defaultTemplateVar name="$numGenes" equals="2" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Frame" />
+	
+	<spriteSheetComponent name="Frame">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("round_meter_frame")
+				component("sheetName"):SetString("xml_resources/dish_harmonizer_menu_sheet.xml")
+				component("visible"):SetInt(1)
+				component("size"):SetFloat(0.5*element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="CenterFull">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-3" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("button_rnd_light")
+				component("sheetName"):SetString("xml_resources/dish_harmonizer_menu_sheet.xml")
+				component("visible"):SetInt(0)
+				component("size"):SetFloat(0.5*element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="FrameFull">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-3" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("round_meter_frame_light")
+				component("sheetName"):SetString("xml_resources/dish_harmonizer_menu_sheet.xml")
+				component("visible"):SetInt(0)
+				component("size"):SetFloat(0.5*element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="Genes">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-4" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				if(tonumber(element:templateVars().numGenes) == 2) then
+					component("sheetName"):SetString("xml_resources/store_buttons01.xml")
+					component("spriteName"):SetString("decoration_filters_2gene")
+				elseif(tonumber(element:templateVars().numGenes) == 3) then
+					component("sheetName"):SetString("xml_resources/store_buttons01.xml")
+					component("spriteName"):SetString("decoration_filters_3gene")
+				else
+					local dishHarmonizer = game.SelectedObject()
+					local primordialId = dishHarmonizer:getPrimordial(game.MonsterRarity_Common)
+					local infos = include("Genes").GetGeneInfosForMonsterId(primordialId)
+					component("sheetName"):SetString(infos[1].sheet)
+					component("spriteName"):SetString(infos[1].sprite)
+				end
+				component("visible"):SetInt(1)
+				component("size"):SetFloat(0.53*element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="Fill">
+		<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="8*game.hudScale()" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("round_meter")
+				component("sheetName"):SetString("xml_resources/dish_harmonizer_menu_sheet.xml")
+				component("visible"):SetInt(1)
+				component("size"):SetFloat(0.5*element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+
+				element:V("fillMaskHeight"):SetFloat(component:V("maskHeight"):GetFloat())
+				element:V("fillMaskY"):SetFloat(component:V("maskY"):GetFloat())
+				element:V("fillSizeY"):SetFloat(component:size().y)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<textComponent name="Text">
+		<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-4*game.hudScale()" priorityOffset="-5" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("size"):SetFloat(0.3 * element:templateVars().scale)
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString("100%")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString(element:templateVars().layer)
+		</event>
+	</textComponent>
+	
+</template>

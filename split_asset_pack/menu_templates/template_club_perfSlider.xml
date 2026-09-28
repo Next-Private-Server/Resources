@@ -1,0 +1,266 @@
+<template name="template_club_perfSlider" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/template_ClubboxPerfSlider.lua" />
+
+	<size dependentOnElement="CategoryIcon" dependentOnComponent="Sprite" />
+
+	<element name="CategoryIcon">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" >
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				if(element:parent().propInd ~= -1) then
+
+					if(game.clubboxPropUnlocked(element:parent().propInd) == true) then
+						component("spriteName"):SetString(game.clubboxPropCustomizeIcon(element:parent().propInd))
+						component("sheetName"):SetString("xml_resources/"..game.clubboxPropCustomizeSheet(element:parent().propInd))
+					else
+						component("spriteName"):SetString("button_empty")
+						component("sheetName"):SetString("xml_resources/clubbox_customization_volume.xml")
+					end
+
+				else
+					component("spriteName"):SetString("button_no_monster")
+					component("sheetName"):SetString("xml_resources/clubbox_customization_volume.xml")
+				end
+
+				component("size"):SetFloat(0.3*(screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0)
+			]]>
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				local perfSlider = element:parent()
+				if perfSlider then
+					local clubPerfEdBg = perfSlider:parent()
+					if clubPerfEdBg then
+						local clubPerfEd = clubPerfEdBg:parent()
+						if clubPerfEd then
+							if element:parent().propInd == game.getDJHoolaPropInd() then
+								clubPerfEd:setOptionsView()
+								return
+							end
+
+							if clubPerfEd.CostumeView then
+								clubPerfEd.CostumeView.selectedPropInd = element:parent().propInd
+								clubPerfEd.CostumeView:selectProp()
+							end
+						end
+					end
+				end
+			</event>
+		</touchComponent>
+		<event name="setVisible" params="element">
+			<![CDATA[
+			element.Sprite("visible"):SetInt(1)
+
+			-- turn touch on?
+			
+			-- am I the dj prop?
+			local isDJ = element:parent().propInd == game.getDJHoolaPropInd()
+
+			local numVariants = game.clubboxNumVariantsInProp(element:parent().propInd, false)
+
+			if element:parent()("disabled"):GetInt() == 0 and (numVariants > 0 or isDJ) then
+				element:parent().EditIcon:setVisible()
+				element.Touch("enabled"):SetInt(1)
+				if element:parent().OptionsIcon then
+					element:parent().OptionsIcon:setVisible()
+				end
+			else
+				element:parent().EditIcon:setInvisible()
+				element.Touch("enabled"):SetInt(0)
+			end
+
+			]]>
+		</event>
+		<event name="setInvisible" params="element">
+			element.Sprite("visible"):SetInt(0)
+			element.Touch("enabled"):SetInt(0)
+			element:parent().EditIcon:setInvisible()
+			if element:parent().OptionsIcon then
+				element:parent().OptionsIcon:setInvisible()
+			end
+
+		</event>
+
+	</element>
+
+	<element name="EditIcon">
+		<position relativeTo="CategoryIcon" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-2.5*(screenHeight()/320)" yOffset="-4*(screenHeight()/320)" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite" >
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("costume_edit_icon")
+				component("sheetName"):SetString("xml_resources/clubbox_customization_volume.xml")
+				component("size"):SetFloat(0.4*(screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0)
+			]]>
+			</event>
+		</spriteSheetComponent>
+		<event name="setVisible" params="element">
+			if(element:parent().propInd ~= -1 and (game.clubboxPropUnlocked(element:parent().propInd) == true)) then
+				element.Sprite("visible"):SetInt(1)
+			end
+		</event>
+		<event name="setInvisible" params="element">
+			element.Sprite("visible"):SetInt(0)
+		</event>
+	</element>
+
+	<element name="VolumeControl">
+		<size dependentOnElement="SliderBg"/>
+		<position relativeTo="CategoryIcon" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="2*(screenHeight()/320)" priorityOffset="0" />
+		<event name="setVisible" params="element">
+			element.SliderBg:setVisible()
+		</event>
+		<event name="setInvisible" params="element">
+			element.SliderBg:setInvisible()
+		</event>
+
+		<element name="SliderBg">
+			<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+			<position relativeTo="element:parent()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="element">
+				element("FullMaskX"):SetInt(0)
+				element("FullMaskY"):SetInt(0)
+				element("FullMaskH"):SetInt(0)
+				element("FullMaskW"):SetInt(0)
+			</event>
+			<event name="setVisible" params="element">
+
+				--4 situations:
+				--	locked entities (with instrument) will have no volume bar visible:
+				--	unlocked entities (with instrument) will have volume bar visible
+				--	unlocked entities with no track will have X volume bar visible (with fg set to volume 0)
+				--	entries that have no associated prop will have X volume bar visible (with fg set to volume 0)
+				if(element:parent():parent().propInd == -1 or (game.clubboxPropUnlocked(element:parent():parent().propInd) == true)) then
+					element.bg("visible"):SetInt(1)
+					element.fg("visible"):SetInt(1)
+				end
+				if(element:parent():parent()("disabled"):GetInt() == 0) then
+					element.Touch("enabled"):SetInt(1)
+				end
+
+			</event>
+			<event name="setInvisible" params="element">
+				element.bg("visible"):SetInt(0)
+				element.fg("visible"):SetInt(0)
+				element.Touch("enabled"):SetInt(0)
+			</event>
+			
+			<spriteSheetComponent name="fg">
+				<position relativeTo="element:parent()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("volume_slider_upper")
+					component("sheetName"):SetString("xml_resources/clubbox_customization_volume.xml")
+					component("size"):SetFloat(0.4*(screenHeight()/320))
+					component("layer"):SetString("MidPopUps")
+					component("visible"):SetInt(0)
+				</event>
+			</spriteSheetComponent>
+			
+			<spriteSheetComponent name="bg">
+				<position relativeTo="element:parent()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					if(element:parent():parent().propInd ~= -1 and game.hasAudioTrack(element:parent():parent().propInd)==true) then
+						component("spriteName"):SetString("volume_slider_lower")
+					else
+						component("spriteName"):SetString("volume_slider_none")
+					end
+					component("sheetName"):SetString("xml_resources/clubbox_customization_volume.xml")
+					component("size"):SetFloat(0.4*(screenHeight()/320))
+					component("layer"):SetString("MidPopUps")
+					component("visible"):SetInt(0)
+				</event>
+				<event name="onPostInit" params="component, element">
+					element("FullMaskH"):SetInt(component("maskHeight"):GetInt())
+					element("FullMaskW"):SetInt(component("maskWidth"):GetInt())
+
+					local vol = game.clubboxPropVolume(element:parent():parent().propInd)
+					if(component("isSourceRotated"):GetInt() == 0) then
+						component("maskHeight"):SetFloat(element("FullMaskH"):GetInt() * (1.0 - vol))
+					else
+						component("maskWidth"):SetFloat(element("FullMaskW"):GetInt() * (1.0 - vol))
+					end
+				</event>
+			</spriteSheetComponent>
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+				<event name="onInit" params="component, element">
+					component.vol = 0
+				</event>
+				<event name="onTouchDown" params="component, element, x, y, relX, relY">
+					
+					local slidingHeight = element:absH()
+					--local clampedRelY = clamp(relY, 0, slidingHeight)
+					component.vol = (1.0 - relY / slidingHeight)
+					game.setClubboxPropVolume(element:parent():parent().propInd, component.vol)
+					component.vol = game.clubboxPropVolume(element:parent():parent().propInd)
+
+					component:redraw(element)
+				</event>
+				<event name="onTouchDrag" params="component, element, x, y, relX, relY">
+					<![CDATA[
+						--relY: 0 at top, 195*0.5*game.menuScaleX() at bottom (should be 97.5 with no scaling?)
+
+						local slidingHeight = element:absH()
+						--local clampedRelY = clamp(relY, 0, slidingHeight)
+						component.vol = (1.0 - relY / slidingHeight)
+						game.setClubboxPropVolume(element:parent():parent().propInd, component.vol)
+						component.vol = game.clubboxPropVolume(element:parent():parent().propInd)
+
+						component:redraw(element)
+					]]>
+				</event>
+				<event name="redraw" params="component, element">
+
+					local img = element["bg"]
+
+					if(img("isSourceRotated"):GetInt() == 0) then
+						img("maskHeight"):SetFloat(element("FullMaskH"):GetInt() * (1.0 - component.vol))
+					else
+						img("maskWidth"):SetFloat(element("FullMaskW"):GetInt() * (1.0 - component.vol))
+					end
+				</event>
+
+			</touchComponent>
+		</element>
+	</element>
+	<element name="Alert">
+		<position relativeTo="CategoryIcon" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-2.5*(screenHeight()/320)" yOffset="4*(screenHeight()/320)" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite" >
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("costume_exclamation")
+				component("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+				component("size"):SetFloat(0.4*(screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0) -- start off by default
+			</event>
+		</spriteSheetComponent>
+		<event name="setVisible" params="element">
+			element.Sprite("visible"):SetInt(1)
+		</event>
+
+		<event name="setInvisible" params="element">
+			element.Sprite("visible"):SetInt(0)
+		</event>
+	</element>
+</template>

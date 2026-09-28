@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd78b5d5491b356e6022e15f61d1f6c3:dd3bd7cb10e79e262a8dee8a40f35d81:ca45a897b30a382fc87613f73039f6e4$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCDEN_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BCDEN_back_stuff_left_BEAT" x="251" y="340" w="104" h="109" pX="0.5157894736842106" pY="0.6257142857142857" oX="23" oY="240" oW="380" oH="350"/>
+	<sprite n="BCDEN_back_stuff_right_BEAT" x="357" y="361" w="103" h="92" pX="0.5157894736842106" pY="0.6257142857142857" oX="258" oY="253" oW="380" oH="350"/>
+	<sprite n="BCDEN_head_left" x="0" y="340" w="126" h="122" pX="0.5" pY="0.5" oX="6" oY="9" oW="140" oH="140"/>
+	<sprite n="BCDEN_head_right" x="128" y="340" w="121" h="112" pX="0.5" pY="0.5" oX="9" oY="14" oW="140" oH="140"/>
+	<sprite n="BCDEN_lowerleg_left" x="365" y="181" w="97" h="178" pX="0.5" pY="0.5" oX="15" oY="5" oW="120" oH="188"/>
+	<sprite n="BCDEN_lowerleg_right" x="365" y="0" w="109" h="179" pX="0.5" pY="0.5" oX="4" oY="5" oW="120" oH="188"/>
+	<sprite n="BCDEN_torso_BEAT" x="0" y="0" w="363" h="338" pX="0.5157894736842106" pY="0.6257142857142857" oX="8" oY="7" oW="380" oH="350"/>
+</TextureAtlas>

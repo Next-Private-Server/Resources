@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:baa52c404f2711c81f176968fd427a92:36ee93ef865163ee9cb8168f311c8d85:e37357c3409a5f31e00b74ca49a36404$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_monster_T05_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="bolt01" x="0" y="546" w="148" h="73" oX="3" oY="6" oW="80" oH="160" r="y"/>
+	<sprite n="bolt02" x="158" y="420" w="76" h="152" oX="1" oY="4" oW="80" oH="160"/>
+	<sprite n="bolt03" x="0" y="471" w="150" h="73" oX="4" oY="6" oW="80" oH="160" r="y"/>
+	<sprite n="T05_beard" x="166" y="370" w="65" h="48" oX="8" oY="7" oW="60" oH="76" r="y"/>
+	<sprite n="T05_body" x="0" y="0" w="253" h="165" oX="1" oY="2" oW="168" oH="256" r="y"/>
+	<sprite n="T05_chest_fur" x="237" y="276" w="169" h="168" oX="3" oY="2" oW="172" oH="172" r="y"/>
+	<sprite n="T05_eye_01" x="380" y="446" w="21" h="50" oX="7" oY="3" oW="60" oH="76" r="y"/>
+	<sprite n="T05_eye_02" x="128" y="871" w="51" h="57" oX="2" oY="3" oW="60" oH="76" r="y"/>
+	<sprite n="T05_eye_03" x="338" y="676" w="58" h="71" oX="1" oY="3" oW="60" oH="76"/>
+	<sprite n="T05_eye_04" x="0" y="844" w="71" h="58" oX="1" oY="3" oW="60" oH="76" r="y"/>
+	<sprite n="T05_eye_05" x="0" y="904" w="58" h="71" oX="1" oY="3" oW="60" oH="76"/>
+	<sprite n="T05_eye_brow" x="102" y="621" w="40" h="65" oX="2" oY="2" oW="72" oH="44" r="y"/>
+	<sprite n="T05_finger_01" x="139" y="803" w="88" h="37" oX="2" oY="10" oW="68" oH="100" r="y"/>
+	<sprite n="T05_finger_02" x="232" y="766" w="93" h="37" oX="8" oY="7" oW="68" oH="100" r="y"/>
+	<sprite n="T05_finger_03" x="144" y="671" w="87" h="39" oX="12" oY="11" oW="68" oH="100" r="y"/>
+	<sprite n="T05_finger_04" x="77" y="968" w="61" h="54" oX="11" oY="39" oW="68" oH="100" r="y"/>
+	<sprite n="T05_finger_05" x="193" y="275" w="42" h="51" oX="11" oY="56" oW="68" oH="100" r="y"/>
+	<sprite n="T05_foot_left" x="232" y="714" w="95" h="50" oX="0" oY="1" oW="96" oH="52"/>
+	<sprite n="T05_foot_right" x="0" y="693" w="98" h="57" oX="1" oY="2" oW="100" oH="60"/>
+	<sprite n="T05_hair_left" x="0" y="407" w="156" h="62" oX="2" oY="1" oW="68" oH="160" r="y"/>
+	<sprite n="T05_hair_right" x="0" y="338" w="164" h="67" oX="1" oY="12" oW="68" oH="180" r="y"/>
+	<sprite n="T05_hand_left" x="0" y="621" w="100" h="70" oX="0" oY="2" oW="72" oH="104" r="y"/>
+	<sprite n="T05_hand_right" x="150" y="574" w="81" h="95" oX="11" oY="3" oW="92" oH="100"/>
+	<sprite n="T05_head" x="255" y="0" w="248" h="206" oX="2" oY="2" oW="208" oH="252" r="y"/>
+	<sprite n="T05_lower_arm_left" x="236" y="446" w="142" h="96" oX="1" oY="1" oW="144" oH="100"/>
+	<sprite n="T05_lower_arm_right" x="408" y="301" w="104" h="135" oX="0" oY="2" oW="136" oH="112" r="y"/>
+	<sprite n="T05_lower_leg_left" x="437" y="208" w="75" h="91" oX="0" oY="1" oW="92" oH="76" r="y"/>
+	<sprite n="T05_lower_leg_right" x="398" y="715" w="102" h="71" oX="2" oY="0" oW="104" oH="72"/>
+	<sprite n="T05_mouth_01" x="73" y="844" w="18" h="51" oX="16" oY="20" oW="72" oH="52" r="y"/>
+	<sprite n="T05_mouth_02" x="380" y="498" w="19" h="58" oX="9" oY="19" oW="72" oH="52" r="y"/>
+	<sprite n="T05_mouth_03" x="338" y="647" w="59" h="27" oX="7" oY="14" oW="72" oH="52"/>
+	<sprite n="T05_mouth_04" x="60" y="904" w="30" h="62" oX="5" oY="12" oW="72" oH="52" r="y"/>
+	<sprite n="T05_mouth_05" x="18" y="977" w="57" h="35" oX="8" oY="8" oW="72" oH="52"/>
+	<sprite n="T05_mouth_06" x="350" y="607" w="48" h="38" oX="12" oY="7" oW="72" oH="52"/>
+	<sprite n="T05_mouth_07" x="193" y="328" w="42" h="40" oX="15" oY="6" oW="72" oH="52" r="y"/>
+	<sprite n="T05_mouth_08" x="100" y="741" w="39" h="36" oX="15" oY="11" oW="72" oH="52"/>
+	<sprite n="T05_mouth_09" x="138" y="842" w="29" h="27" oX="22" oY="18" oW="72" oH="52"/>
+	<sprite n="T05_mouth_10" x="408" y="276" w="27" h="15" oX="24" oY="25" oW="72" oH="52"/>
+	<sprite n="T05_mouth_11" x="239" y="167" w="13" h="30" oX="24" oY="28" oW="72" oH="52" r="y"/>
+	<sprite n="T05_mouth_12" x="0" y="977" w="16" h="36" oX="23" oY="22" oW="72" oH="52" r="y"/>
+	<sprite n="T05_pupil" x="99" y="839" w="37" h="30" oX="4" oY="3" oW="36" oH="40" r="y"/>
+	<sprite n="T05_shadow" x="0" y="167" w="237" h="106" oX="29" oY="31" oW="288" oH="168"/>
+	<sprite n="T05_shoulder_left" x="144" y="712" w="86" h="89" oX="1" oY="3" oW="88" oH="92"/>
+	<sprite n="T05_shoulder_right" x="0" y="752" w="97" h="90" oX="1" oY="2" oW="100" oH="92"/>
+	<sprite n="T05_tail_01" x="236" y="544" w="112" h="87" oX="1" oY="0" oW="88" oH="112" r="y"/>
+	<sprite n="T05_tail_02" x="400" y="632" w="112" h="81" oX="1" oY="3" oW="116" oH="84"/>
+	<sprite n="T05_tail_03" x="233" y="633" w="103" h="79" oX="1" oY="1" oW="104" oH="80"/>
+	<sprite n="T05_thumb_01" x="92" y="897" w="34" h="61" oX="1" oY="26" oW="64" oH="60" r="y"/>
+	<sprite n="T05_thumb_02" x="329" y="749" w="64" h="37" oX="0" oY="23" oW="64" oH="60"/>
+	<sprite n="T05_thumb_03" x="99" y="779" w="38" h="58" oX="1" oY="17" oW="64" oH="60" r="y"/>
+	<sprite n="T05_thumb_04" x="350" y="558" w="49" h="47" oX="1" oY="7" oW="64" oH="60"/>
+	<sprite n="T05_thumb_05" x="102" y="688" w="40" h="51" oX="2" oY="3" oW="64" oH="60"/>
+	<sprite n="T05_upper_arm_left" x="0" y="275" w="191" h="61" oX="0" oY="3" oW="192" oH="68"/>
+	<sprite n="T05_upper_arm_right" x="239" y="208" w="196" h="66" oX="0" oY="1" oW="196" oH="68"/>
+	<sprite n="T05_upper_leg_left" x="408" y="438" w="103" h="91" oX="1" oY="2" oW="96" oH="108" r="y"/>
+	<sprite n="T05_upper_leg_right" x="401" y="531" w="107" h="99" oX="2" oY="2" oW="104" oH="112" r="y"/>
+</TextureAtlas>

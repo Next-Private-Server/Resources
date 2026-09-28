@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:57da25e59b7639f3fef958e2b34856b3:158469b1b4371a3b5845002ee5ad0135:22b1ee291d6b456b100ce5746e988ea1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/perplexplore_campfire_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="fire_sprite_1_simpleB" x="193" y="320" w="172" h="186" oX="14" oY="8" oW="200" oH="200"/>
+    <sprite n="fire_sprite_2_simpleB" x="369" y="3" w="136" h="192" oX="32" oY="4" oW="200" oH="200"/>
+    <sprite n="firepit" x="3" y="3" w="362" h="233" oX="3" oY="5" oW="368" oH="244"/>
+    <sprite n="glow_sprite_resized" x="3" y="509" w="166" h="166" oX="4" oY="4" oW="176" oH="176"/>
+    <sprite n="marshmellow_01" x="369" y="199" w="80" h="198" oX="1" oY="2" oW="84" oH="204"/>
+    <sprite n="marshmellow_02" x="3" y="240" w="199" h="76" oX="4" oY="2" oW="84" oH="204" r="y"/>
+    <sprite n="smoke_sprite" x="3" y="320" w="186" h="185" oX="8" oY="8" oW="200" oH="200"/>
+    <sprite n="spark_sprite" x="206" y="240" w="76" h="74" oX="2" oY="0" oW="80" oH="80"/>
+</TextureAtlas>

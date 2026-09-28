@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:877b7a6db7095a2d64380ba2bce1d39a:b010da3dcded97dd3e9e100f33d28c49:ac1a141f7d1bfee47e9bca59db3805a1$ -->
+<TextureAtlas imagePath="gfx/monsters/placeholder_ghost_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="base_2x2" x="858" y="596" w="146" h="70" oX="27" oY="15" oW="200" oH="100"/>
+	<sprite n="base_3x3" x="790" y="249" w="217" h="96" oX="16" oY="27" oW="250" oH="150"/>
+	<sprite n="base_4x4" x="479" y="406" w="319" h="137" oX="15" oY="6" oW="350" oH="150"/>
+	<sprite n="placeholder_MAJ_2x2" x="790" y="2" w="200" h="243" oX="0" oY="28" oW="200" oH="300"/>
+	<sprite n="placeholder_MAJ_3x3" x="479" y="2" w="307" h="400" oX="21" oY="0" oW="350" oH="400"/>
+	<sprite n="placeholder_MAJ_4x4" x="2" y="548" w="541" h="473" oX="13" oY="30" oW="500" oH="600" r="y"/>
+	<sprite n="placeholder_MIN_2x2" x="802" y="349" w="200" h="243" oX="0" oY="28" oW="200" oH="300"/>
+	<sprite n="placeholder_MIN_3x3" x="547" y="596" w="307" h="400" oX="21" oY="0" oW="350" oH="400"/>
+	<sprite n="placeholder_MIN_4x4" x="2" y="2" w="473" h="542" oX="13" oY="29" oW="500" oH="600"/>
+</TextureAtlas>

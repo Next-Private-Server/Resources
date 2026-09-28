@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5ea8d6b6d3075a9bd4e0d56ae111a05b:f6adba637d7af8361422aec92d9f5e90:9172e463480619c1c907fb63d8bdbec0$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_bg_mech_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="coakpit" x="0" y="0" w="429" h="520" oX="54" oY="139" oW="537" oH="712"/>
+	<sprite n="drone_arm" x="535" y="32" w="68" h="68" oX="18" oY="15" oW="103" oH="97"/>
+	<sprite n="drone_body" x="545" y="322" w="176" h="176" oX="26" oY="26" oW="228" oH="228"/>
+	<sprite n="drone_claw_l" x="545" y="102" w="44" h="30"/>
+	<sprite n="drone_claw_m" x="545" y="0" w="47" h="30" r="y"/>
+	<sprite n="drone_claw_r" x="499" y="90" w="30" h="36"/>
+	<sprite n="drone_cover" x="431" y="0" w="102" h="88" oX="11" oY="12" oW="110" oH="126" r="y"/>
+	<sprite n="drone_eye" x="431" y="90" w="66" h="61" r="y"/>
+	<sprite n="drone_palm" x="0" y="1005" w="18" h="18"/>
+	<sprite n="drone_upperarm" x="20" y="1005" w="33" h="10" oX="6" oY="8" oW="22" oH="49" r="y"/>
+	<sprite n="gates" x="606" y="0" w="398" h="320" oX="28" oY="35" oW="376" oH="468" r="y"/>
+	<sprite n="gates_gold" x="431" y="322" w="112" h="193" oX="14" oY="25" oW="140" oH="243"/>
+	<sprite n="sheld" x="818" y="638" w="202" h="332" oX="23" oY="39" oW="248" oH="410"/>
+	<sprite n="sheld_l" x="606" y="500" w="104" h="343" oX="19" oY="16" oW="142" oH="375"/>
+	<sprite n="sheld_r" x="712" y="638" w="104" h="343" oX="19" oY="16" oW="142" oH="375"/>
+	<sprite n="window" x="723" y="322" w="247" h="314" oX="30" oY="0" oW="307" oH="338"/>
+	<sprite n="wing_back" x="0" y="522" w="301" h="481" oX="26" oY="42" oW="353" oH="565"/>
+	<sprite n="wing_front" x="303" y="522" w="301" h="480" oX="26" oY="43" oW="353" oH="566"/>
+</TextureAtlas>

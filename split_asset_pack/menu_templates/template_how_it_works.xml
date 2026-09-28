@@ -1,0 +1,233 @@
+<template name="template_how_it_works" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/HowItWorks.lua"/>
+	
+	<defaultTemplateVar name="$layer" equals="FrontPopUps" />
+
+	<defaultTemplateVar name="$titleText" equals="ENCORE_HELP_TITLE" />
+
+	<defaultTemplateVar name="$leftAnimationName" equals="'xml_bin/encore_info.bin'" />
+	<defaultTemplateVar name="$leftAnimation" equals="encore_info_01" />
+	<defaultTemplateVar name="$leftText" equals="ENCORE_HELP_STEP_1_BAKING" />
+
+	<defaultTemplateVar name="$centerAnimationName" equals="'xml_bin/encore_info.bin'" />
+	<defaultTemplateVar name="$centerAnimation" equals="encore_info_02" />
+	<defaultTemplateVar name="$centerText" equals="ENCORE_HELP_STEP_2_BAKING" />
+
+	<defaultTemplateVar name="$rightAnimationName" equals="'xml_bin/encore_info.bin'" />
+	<defaultTemplateVar name="$rightAnimation" equals="encore_info_03" />
+	<defaultTemplateVar name="$rightText" equals="ENCORE_HELP_STEP_3" />
+
+	<defaultTemplateVar name="$isClubbox" equals="0" />
+	<defaultTemplateVar name="$showDefaultContextBarOnClose" equals="0" />
+
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="2" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.8)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+	
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Center" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="10*game.windowScaleY()" priorityOffset="0" />
+		<ninesliceComponent name="Sprite">
+			<size w="160*game.windowScaleY()" h="30*game.windowScaleY()" />
+			<event name="onInit" params="component, element">
+				component("includeBorder"):SetInt(1)
+				component("size"):SetFloat(0.25*game.windowScaleY())
+				if $isClubbox == 0 then
+					component("topHeight"):SetFloat(49.0)
+					component("bottomHeight"):SetFloat(49.0)
+					component("leftWidth"):SetFloat(50.0)
+					component("rightWidth"):SetFloat(50.0)
+					component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				else
+					component("topHeight"):SetFloat(30.0)
+					component("bottomHeight"):SetFloat(30.0)
+					component("leftWidth"):SetFloat(50.0)
+					component("rightWidth"):SetFloat(50.0)
+					component("spriteName"):SetString("gfx/clubbox/clubbox_currency_frame_9S")
+				end
+				component("layer"):SetString("$layer")
+			</event>
+		</ninesliceComponent>
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(4)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED);
+				component("text"):SetString("$titleText")
+				component("autoScaleFactor"):SetFloat(0.05)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Center">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-10*game.windowScaleY()" priorityOffset="1" />
+
+		<aeComponent name="Sprite">
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("$centerAnimationName")
+				component("animation"):SetString("$centerAnimation")
+				component:setScale(Vector2(0.25*game.windowScaleY(),0.25*game.windowScaleY()))
+				component("layer"):SetString("$layer")				
+			</event>
+		</aeComponent>
+
+		<textComponent name="Text">
+			<size w="110*game.windowScaleY()" h="50*game.windowScaleY()" />
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$centerText")
+				component("size"):SetFloat(0.2*game.windowScaleY())
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+				component:calculatePosition()
+			</event>
+		</textComponent>
+	</element>
+
+	<spriteSheetComponent name="LeftArrow">
+		<position relativeTo="Center" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="4*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("encore_arrow")
+			component("sheetName"):SetString("xml_resources/encore_info_sheet02.xml")
+			component("size"):SetFloat(0.1*game.windowScaleY())
+			component("layer"):SetString("$layer")
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="RightArrow">
+		<position relativeTo="Center" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="4*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("encore_arrow")
+			component("sheetName"):SetString("xml_resources/encore_info_sheet02.xml")
+			component("size"):SetFloat(0.1*game.windowScaleY())
+			component("layer"):SetString("$layer")
+		</event>
+	</spriteSheetComponent>
+
+	<element name="Left">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Center" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="20*game.windowScaleY()" yOffset="" priorityOffset="0" />
+
+		<aeComponent name="Sprite">
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("$leftAnimationName")
+				component("animation"):SetString("$leftAnimation")
+				component:setScale(Vector2(0.25*game.windowScaleY(),0.25*game.windowScaleY()))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+
+		<textComponent name="Text">
+			<size w="110*game.windowScaleY()" h="50*game.windowScaleY()" />
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$leftText")
+				component("size"):SetFloat(0.2*game.windowScaleY())
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+				component:calculatePosition()
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Right">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Center" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="20*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+
+		<aeComponent name="Sprite">
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("$rightAnimationName")
+				component("animation"):SetString("$rightAnimation")
+				component:setScale(Vector2(0.25*game.windowScaleY(),0.25*game.windowScaleY()))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+
+		<textComponent name="Text">
+			<size w="110*game.windowScaleY()" h="50*game.windowScaleY()" />
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$rightText")
+				component("size"):SetFloat(0.2*game.windowScaleY())
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+				component:calculatePosition()
+			</event>
+		</textComponent>
+	</element>
+		
+	<template type="template_spritesheetbutton" name="CloseButton">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$upSpriteName" equals="'button_bamboo_close'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+
+		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="3*game.hudScale()" yOffset="3*game.hudScale()" priorityOffset="0" />
+
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				if $showDefaultContextBarOnClose == 1 then
+					manager:setContext(manager:getDefaultContext())
+				end
+				element:root():popPopUp()
+			</event>
+		</touchComponent>
+	</template>
+
+	<event name="queuePop" params="element">
+		element:root():popPopUp()
+	</event>
+
+</template>

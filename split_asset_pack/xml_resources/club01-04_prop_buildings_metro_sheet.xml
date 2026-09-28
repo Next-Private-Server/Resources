@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:159e680178b307941f386c95aa79abf6:9bc7063bb2f4905b9878df58b02b4711:6f0109c11f87ccf63c982746c9b81334$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_buildings_metro_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="bellow" x="436" y="139" w="27" h="15"/>
+	<sprite n="bellow_top" x="466" y="136" w="30" h="16"/>
+	<sprite n="bulb-glow" x="436" y="109" w="28" h="28"/>
+	<sprite n="button_glow" x="436" y="156" w="19" h="18" r="y"/>
+	<sprite n="chamber" x="0" y="0" w="147" h="354"/>
+	<sprite n="chamber_framee" x="224" y="0" w="240" h="107" oX="16" oY="33" oW="147" oH="354" r="y"/>
+	<sprite n="chamber_interior" x="164" y="0" w="57" h="210"/>
+	<sprite n="eye_glow" x="465" y="154" w="29" h="21"/>
+	<sprite n="glass" x="224" y="109" w="210" h="57" r="y"/>
+	<sprite n="robot_1" x="164" y="212" w="57" h="207"/>
+	<sprite n="robot_1_glow" x="0" y="356" w="58" h="156"/>
+	<sprite n="robot_2" x="224" y="168" w="208" h="57" oX="0" oY="2" oW="57" oH="210" r="y"/>
+	<sprite n="robot_2_glow" x="434" y="177" w="57" h="196" oX="0" oY="14" oW="57" oH="210"/>
+	<sprite n="screen_01" x="466" y="36" w="33" h="23"/>
+	<sprite n="screen_02" x="466" y="61" w="33" h="23"/>
+	<sprite n="screen_03" x="466" y="86" w="33" h="23"/>
+	<sprite n="screen_04" x="466" y="111" w="33" h="23"/>
+	<sprite n="veniltor_bottom" x="60" y="475" w="81" h="34" oX="0" oY="64" oW="34" oH="145" r="y"/>
+	<sprite n="veniltor_glass" x="143" y="475" w="79" h="34" oX="0" oY="19" oW="34" oH="145" r="y"/>
+	<sprite n="veniltor_top" x="466" y="0" w="38" h="34" oX="0" oY="0" oW="34" oH="145" r="y"/>
+	<sprite n="Vent" x="60" y="356" w="102" h="117"/>
+</TextureAtlas>

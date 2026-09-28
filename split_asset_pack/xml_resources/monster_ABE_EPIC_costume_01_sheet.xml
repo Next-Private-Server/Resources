@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:0050e4e9fe6073b29c7b545aa2b79692:3b014f821cf0f6eb498b631f537b6b23:a0e74abcf22a68f99e09d4795358cc28$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_EPIC_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ABE_izit_eyeback_EPIC" x="283" y="165" w="84" h="43" pX="0.5" pY="0.5" oX="0" oY="0" oW="84" oH="46"/>
+    <sprite n="ABE_izit_eyeshape_back_EPIC" x="263" y="302" w="47" h="47" pX="0.5" pY="0.5" oX="-6" oY="-3.08" oW="52" oH="47"/>
+    <sprite n="ABE_izit_eyeshape_front_EPIC" x="283" y="212" w="77" h="43" pX="0.5" pY="0.5" oX="3" oY="1.12"/>
+    <sprite n="ABE_izit_lids01_EPIC" x="267" y="259" w="74" h="39" pX="0.5" pY="0.5" oX="0" oY="0" oW="74" oH="40"/>
+    <sprite n="ABE_izit_lids02_EPIC" x="421" y="276" w="72" h="39" pX="0.5" pY="0.5" oX="2" oY="0" oW="74" oH="40"/>
+    <sprite n="ABE_izit_lids03_EPIC" x="125" y="278" w="72" h="39" pX="0.5" pY="0.5" oX="2" oY="0" oW="74" oH="40"/>
+    <sprite n="ABE_izit_lids04_EPIC" x="345" y="262" w="72" h="40" pX="0.5" pY="0.5" oX="2" oY="0" oW="74" oH="40"/>
+    <sprite n="ABE_izit_mouth_costume_EPIC" x="371" y="208" w="79" h="50" pX="0.5" pY="0.5" oX="-29" oY="5" oW="80" oH="50"/>
+    <sprite n="ABE_izit_nose_big" x="349" y="93" w="28" h="24" pX="0.5" pY="0.5" oX="-4" oY="-12" r="y"/>
+    <sprite n="ABE_left_mushroom_stalk" x="189" y="226" w="74" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_left_mushroom_top_EPIC" x="3" y="103" w="128" h="61" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_pupil_izit_large_EPIC" x="363" y="121" w="9" h="9" pX="0.5" pY="0.5" oX="5" oY="4" oW="18" oH="18"/>
+    <sprite n="ABE_pupil_izit_small_EPIC" x="349" y="121" w="10" h="10" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_rhootz_eyeshape_EPIC" x="191" y="165" w="88" h="57" pX="0.5" pY="0.5" oX="4" oY="2" oW="100" oH="60"/>
+    <sprite n="ABE_rhootz_mouth_1_EPIC" x="125" y="227" w="59" h="47" pX="0.5" pY="0.5" oX="11" oY="1" oW="80" oH="50"/>
+    <sprite n="ABE_rhootz_mouth_2_EPIC" x="125" y="181" w="60" h="42" pX="0.5" pY="0.5" oX="10" oY="3" oW="80" oH="50"/>
+    <sprite n="ABE_rhootz_mouth_3_EPIC" x="201" y="278" w="58" h="34" pX="0.5" pY="0.5" oX="10" oY="6" oW="80" oH="50"/>
+    <sprite n="ABE_right_mushroom_stalk" x="135" y="103" w="52" h="74" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_right_mushroom_top_EPIC" x="376" y="132" w="131" h="72" pX="0.5" pY="0.5" oX="0" oY="0" oW="132" oH="72"/>
+    <sprite n="ABE_shadow_ground" x="195" y="3" w="187" h="37" pX="0.5" pY="0.5" oX="2" oY="3" oW="192" oH="40"/>
+    <sprite n="ABE_thumpie_izit" x="386" y="3" w="119" h="125" pX="0.5" pY="0.5" oX="45" oY="11" oW="210" oH="160"/>
+    <sprite n="ABE_thumpie_rhootz" x="3" y="168" w="118" h="113" pX="0.5" pY="0.5" oX="26" oY="28" oW="160" oH="160"/>
+    <sprite n="ABE_treestump" x="3" y="3" w="188" h="96" pX="0.5" pY="0.5" oX="3" oY="0" oW="206" oH="96"/>
+    <sprite n="ABE_treestump_base" x="195" y="44" w="177" h="45" pX="0.5" pY="0.5" oX="13.8" oY="71"/>
+    <sprite n="ABE_treestump_hat" x="454" y="208" w="51" h="64" pX="0.5" pY="0.5" oX="114.2" oY="60"/>
+    <sprite n="ABE_treestump_top" x="195" y="93" w="150" h="68" pX="0.5" pY="0.5"/>
+</TextureAtlas>

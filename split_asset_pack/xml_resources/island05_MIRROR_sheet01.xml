@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ce47c45e0bb66aa54d68aff923fc6515:125939b0f491e62536c35cea6171f2e8:a29f62040585c85696ac8cba267d6407$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island05_MIRROR_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island05_burns" x="0" y="0" w="638" h="1161" oX="0" oY="5" oW="638" oH="1166"/>
+	<sprite n="island05_ear" x="1098" y="341" w="804" h="456" r="y"/>
+	<sprite n="island05_edge" x="1463" y="1454" w="458" h="433" oX="9" oY="5" oW="480" oH="440"/>
+	<sprite n="island05_extra01" x="783" y="989" w="294" h="339" oX="3" oY="5" oW="344" oH="300" r="y"/>
+	<sprite n="island05_eyeclosed" x="0" y="1163" w="781" h="825" oX="39" oY="35" oW="870" oH="816" r="y"/>
+	<sprite n="island05_nose" x="783" y="1454" w="678" h="580" oX="0" oY="2" oW="580" oH="680" r="y"/>
+	<sprite n="island05_stumpcenter" x="640" y="0" w="456" h="987" oX="2" oY="4" oW="990" oH="460" r="y"/>
+	<sprite n="island05_stumpside" x="1098" y="799" w="724" h="653" oX="3" oY="13" oW="728" oH="672"/>
+	<sprite n="w5_cloud" x="1098" y="0" w="816" h="339" oX="14" oY="27" oW="855" oH="399"/>
+	<sprite n="w5_flamedance_01" x="155" y="1990" w="53" h="54" oX="11" oY="7" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_02" x="210" y="1990" w="51" h="54" oX="12" oY="7" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_03" x="103" y="1990" w="50" h="55" oX="11" oY="5" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_04" x="263" y="1990" w="51" h="53" oX="0" oY="7" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_05" x="0" y="1990" w="48" h="56" oX="1" oY="4" oW="64" oH="64"/>
+	<sprite n="w5_flamedance_06" x="50" y="1990" w="51" h="55" oX="3" oY="6" oW="64" oH="64"/>
+	<sprite n="w5_sparks_01" x="316" y="1990" w="25" h="30" oX="3" oY="0" oW="30" oH="30"/>
+	<sprite n="w5_sparks_02" x="316" y="2022" w="20" h="23" oX="5" oY="3" oW="30" oH="30"/>
+</TextureAtlas>

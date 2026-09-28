@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bc36538c39bf27e50d958d271fcfaa0a:48a37a57df568a337f220955f5ca6df4:55215d2814c350c78e2eea11ccc4e754$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_stage_decor_edm_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="centerpiece_center" x="160" y="74" w="27" h="35" r="y"/>
+	<sprite n="centerpiece_center_glow" x="160" y="111" w="27" h="35" r="y"/>
+	<sprite n="centerpiece_middle" x="0" y="74" w="158" h="125" oX="0" oY="1" oW="125" oH="159" r="y"/>
+	<sprite n="centerpiece_middle_glow_crown" x="189" y="91" w="64" h="80" r="y"/>
+	<sprite n="centerpiece_middle_glow_crown2" x="188" y="173" w="60" h="35" oX="10" oY="22" oW="80" oH="64"/>
+	<sprite n="centerpiece_middle_glow_pink" x="155" y="276" w="81" h="110" r="y"/>
+	<sprite n="centerpiece_middle_glow_white" x="189" y="0" w="66" h="89" r="y"/>
+	<sprite n="centerpiece_side_a" x="160" y="148" w="26" h="31" oX="2" oY="0" oW="28" oH="32"/>
+	<sprite n="centerpiece_side_a_glow" x="121" y="273" w="32" h="28" r="y"/>
+	<sprite n="centerpiece_side_b" x="158" y="245" w="22" h="29" oX="0" oY="1" oW="29" oH="23" r="y"/>
+	<sprite n="centerpiece_side_b_glow" x="158" y="214" w="23" h="29" r="y"/>
+	<sprite n="centerpiece_side_c" x="0" y="388" w="40" h="54" oX="2" oY="2" oW="58" oH="44" r="y"/>
+	<sprite n="centerpiece_side_c_glow" x="185" y="210" w="58" h="44"/>
+	<sprite n="cube" x="121" y="201" w="35" h="34" r="y"/>
+	<sprite n="cube2" x="121" y="237" w="35" h="34" r="y"/>
+	<sprite n="stellar energy" x="0" y="201" w="119" h="113" r="y"/>
+	<sprite n="stellar projection" x="0" y="0" w="187" h="72" r="y"/>
+	<sprite n="tecstack" x="160" y="181" w="23" h="31"/>
+</TextureAtlas>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ce71e075db3df6711e779475e230090d:5bb16175977bd604b888eb0cbda2c9c8:86cb0e527d525b5bff10ca3335e4e3f9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_GL_EPIC_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="GL_growths_01_EPIC" x="154" y="393" w="114" h="50" pX="0.5" pY="0.5" oX="2" oY="4" oW="120" oH="60"/>
+    <sprite n="GL_growths_02_EPIC" x="458" y="4" w="50" h="127" pX="0.5" pY="0.5" oX="1" oY="5" oW="130" oH="60" r="y"/>
+    <sprite n="GL_growths_03_EPIC" x="438" y="236" w="69" h="135" pX="0.5" pY="0.5" oX="2" oY="5" oW="140" oH="80" r="y"/>
+    <sprite n="GL_growths_04_EPIC" x="250" y="530" w="139" h="84" pX="0.5" pY="0.5" oX="5" oY="3" oW="150" oH="90"/>
+    <sprite n="GL_growths_05_EPIC" x="250" y="618" w="132" h="69" pX="0.5" pY="0.5" oX="4" oY="5" oW="140" oH="80"/>
+    <sprite n="GL_head_EPIC" x="4" y="4" w="266" h="208" pX="0.5" pY="0.5" oX="3" oY="4" oW="220" oH="270" r="y"/>
+    <sprite n="GL_left_back_paw_EPIC" x="332" y="801" w="83" h="85" pX="0.5" pY="0.5" oX="7" oY="12" oW="100" oH="100" r="y"/>
+    <sprite n="GL_left_ear_EPIC" x="343" y="710" w="71" h="87" pX="0.5" pY="0.5" oX="7" oY="15" oW="100" oH="100" r="y"/>
+    <sprite n="GL_left_eyeball" x="62" y="933" w="25" h="26" pX="0.5" pY="0.5" oX="1" oY="2" oW="28" oH="32"/>
+    <sprite n="GL_left_eyelid_01" x="100" y="761" w="30" h="28" pX="0.5" pY="0.5" oX="3" oY="3" oW="36" oH="36" r="y"/>
+    <sprite n="GL_left_eyelid_02" x="100" y="793" w="30" h="28" pX="0.5" pY="0.5" oX="3" oY="3" oW="36" oH="36" r="y"/>
+    <sprite n="GL_left_eyelid_03" x="100" y="825" w="30" h="28" pX="0.5" pY="0.5" oX="3" oY="3" oW="36" oH="36" r="y"/>
+    <sprite n="GL_left_eyelid_04" x="62" y="899" w="28" h="30" pX="0.5" pY="0.5" oX="3" oY="3" oW="36" oH="36"/>
+    <sprite n="GL_left_front_paw_01_EPIC" x="140" y="649" w="98" h="97" pX="0.5" pY="0.5" oX="2" oY="0" oW="100" oH="100"/>
+    <sprite n="GL_left_front_paw_02_EPIC" x="235" y="788" w="93" h="87" pX="0.5" pY="0.5" oX="7" oY="0" oW="100" oH="100"/>
+    <sprite n="GL_left_leg" x="4" y="670" w="127" h="87" pX="0.5" pY="0.5" oX="2" oY="3" oW="92" oH="132" r="y"/>
+    <sprite n="GL_left_lowerarm" x="272" y="445" w="140" h="81" pX="0.5" pY="0.5" oX="0" oY="0" oW="84" oH="144" r="y"/>
+    <sprite n="GL_left_upperarm_EPIC" x="147" y="589" w="99" h="56" pX="0.5" pY="0.5" oX="1" oY="4" oW="60" oH="108" r="y"/>
+    <sprite n="GL_lowerbody" x="4" y="216" w="170" h="138" pX="0.5" pY="0.5" oX="2" oY="1" oW="144" oH="172" r="y"/>
+    <sprite n="GL_mouth_01" x="4" y="835" w="45" h="50" pX="0.5" pY="0.5" oX="7" oY="13" oW="60" oH="80" r="y"/>
+    <sprite n="GL_mouth_02" x="455" y="184" w="51" h="48" pX="0.5" pY="0.5" oX="8" oY="10" oW="60" oH="80" r="y"/>
+    <sprite n="GL_mouth_03" x="455" y="135" w="53" h="45" pX="0.5" pY="0.5" oX="10" oY="9" oW="60" oH="80" r="y"/>
+    <sprite n="GL_mouth_04" x="4" y="971" w="61" h="48" pX="0.5" pY="0.5" oX="7" oY="6" oW="60" oH="80" r="y"/>
+    <sprite n="GL_mouth_05" x="4" y="899" w="54" h="68" pX="0.5" pY="0.5" oX="3" oY="4" oW="60" oH="80"/>
+    <sprite n="GL_mouth_06" x="434" y="375" w="74" h="57" pX="0.5" pY="0.5" oX="1" oY="2" oW="60" oH="80" r="y"/>
+    <sprite n="GL_muzzle_01" x="135" y="750" w="96" h="81" pX="0.5" pY="0.5" oX="8" oY="0" oW="104" oH="92"/>
+    <sprite n="GL_muzzle_02" x="147" y="499" w="99" h="86" pX="0.5" pY="0.5" oX="5" oY="0" oW="104" oH="92"/>
+    <sprite n="GL_muzzle_03" x="178" y="286" w="90" h="103" pX="0.5" pY="0.5" oX="1" oY="0" oW="104" oH="92" r="y"/>
+    <sprite n="GL_pupil" x="154" y="358" w="15" h="15" pX="0.5" pY="0.5" oX="2" oY="2" oW="20" oH="20"/>
+    <sprite n="GL_right_back_paw_EPIC" x="419" y="802" w="86" h="93" pX="0.5" pY="0.5" oX="0" oY="10" oW="100" oH="100" r="y"/>
+    <sprite n="GL_right_ear_EPIC" x="178" y="216" w="92" h="66" pX="0.5" pY="0.5" oX="5" oY="23" oW="100" oH="100"/>
+    <sprite n="GL_right_eyeball" x="386" y="678" w="30" h="28" pX="0.5" pY="0.5" oX="3" oY="3" oW="36" oH="36"/>
+    <sprite n="GL_right_eyelid_01" x="393" y="530" w="34" h="33" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="36"/>
+    <sprite n="GL_right_eyelid_02" x="393" y="567" w="34" h="33" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="36"/>
+    <sprite n="GL_right_eyelid_03" x="393" y="604" w="34" h="33" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="36"/>
+    <sprite n="GL_right_eyelid_04" x="386" y="641" w="34" h="33" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="36"/>
+    <sprite n="GL_right_front_paw_01_EPIC" x="242" y="691" w="97" h="93" pX="0.5" pY="0.5" oX="0" oY="5" oW="100" oH="100"/>
+    <sprite n="GL_right_front_paw_02_EPIC" x="420" y="703" w="87" h="95" pX="0.5" pY="0.5" oX="5" oY="5" oW="100" oH="100"/>
+    <sprite n="GL_right_leg" x="431" y="574" w="76" h="125" pX="0.5" pY="0.5" oX="0" oY="2" oW="76" oH="128"/>
+    <sprite n="GL_right_lowerarm" x="434" y="436" w="73" h="134" pX="0.5" pY="0.5" oX="1" oY="3" oW="76" oH="140"/>
+    <sprite n="GL_right_upperarm" x="154" y="447" w="100" h="48" pX="0.5" pY="0.5" oX="2" oY="1" oW="52" oH="104" r="y"/>
+    <sprite n="GL_shadow" x="4" y="599" w="132" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="132" oH="68"/>
+    <sprite n="GL_tail_01" x="274" y="116" w="177" h="103" pX="0.5" pY="0.5" oX="3" oY="0" oW="108" oH="180" r="y"/>
+    <sprite n="GL_tail_02" x="4" y="358" w="146" h="99" pX="0.5" pY="0.5" oX="1" oY="0" oW="100" oH="148" r="y"/>
+    <sprite n="GL_tail_03" x="274" y="223" w="160" h="107" pX="0.5" pY="0.5" oX="4" oY="1" oW="116" oH="164" r="y"/>
+    <sprite n="GL_tail_04" x="272" y="334" w="158" h="107" pX="0.5" pY="0.5" oX="0" oY="2" oW="108" oH="164" r="y"/>
+    <sprite n="GL_tail_05_EPIC" x="274" y="4" w="180" h="108" pX="0.5" pY="0.5" oX="14" oY="0" oW="200" oH="108"/>
+    <sprite n="GL_upperbody" x="4" y="461" w="139" h="134" pX="0.5" pY="0.5" oX="4" oY="1" oW="140" oH="140" r="y"/>
+    <sprite n="GL_valve" x="53" y="835" w="43" h="46" pX="0.5" pY="0.5" oX="0" oY="4" oW="44" oH="52"/>
+</TextureAtlas>

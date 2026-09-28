@@ -1,0 +1,135 @@
+<template name="template_promo_center_clubbox_item">
+
+	<script src="scripts/PromoCenterClubboxItem.lua" />
+
+	<size w="56*game.hudScale()" h="56*game.hudScale()" />
+
+	<template type="template_spritesheetbutton" name="Button">		
+		<templateVar name="$sheetName" equals="'xml_resources/hud03.xml'" />
+		<templateVar name="$upSpriteName" equals="'event_clubbox_01'" />
+		<templateVar name="$text" equals="" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$autoScaleFactor" equals="0.01" />
+		<templateVar name="$spriteScale" equals="0.34*game.hudScale()" />
+		<templateVar name="$layer" equals="PopUps" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<touchComponent name="Touch"/>
+
+		<element name="TimerBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="BG"/>
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-4*game.hudScale()" priorityOffset="-1" />
+			
+			<ninesliceComponent name="BG">
+				<size w="40*game.hudScale()" h="11*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+
+						-- this 9s is 60x28
+						-- the size should be proportional to the height
+						-- i.e. if the size is 0.5 * hudScale then
+						-- the height should be 14 * hudScale
+
+						component("includeBorder"):SetInt(1)
+						component("topHeight"):SetFloat(13.0)
+						component("bottomHeight"):SetFloat(13.0)
+						component("leftWidth"):SetFloat(13.0)
+						component("rightWidth"):SetFloat(13.0)
+						component("size"):SetFloat(0.4*game.hudScale())
+						component("spriteName"):SetString("gfx/menu/bundle_timer_bar_9s")
+						component("layer"):SetString(element:templateVars().layer)
+					]]>
+				</event>
+			</ninesliceComponent>
+
+			<textComponent name="Text">		
+				<size dependentOnElement="element:name()" />	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*game.hudScale()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("multiline"):SetInt(0)
+						component("autoScale"):SetInt(1)
+						component("font"):Set(game.getTextFont())
+						component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+						component("size"):SetFloat(0.30*game.menuScaleX())
+						component("layer"):SetString(element:templateVars().layer)
+					]]>
+				</event>
+			</textComponent>
+			
+		</element>
+		
+		<element name="TicketBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="BG"/>
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="4*game.hudScale()" priorityOffset="-1" />
+			
+			<ninesliceComponent name="BG">
+				<size w="24*game.hudScale()" h="11*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+
+						-- this 9s is 60x28
+						-- the size should be proportional to the height
+						-- i.e. if the size is 0.5 * hudScale then
+						-- the height should be 14 * hudScale
+
+						component("includeBorder"):SetInt(1)
+						component("topHeight"):SetFloat(13.0)
+						component("bottomHeight"):SetFloat(13.0)
+						component("leftWidth"):SetFloat(13.0)
+						component("rightWidth"):SetFloat(13.0)
+						component("size"):SetFloat(0.4*game.hudScale())
+						component("spriteName"):SetString("gfx/menu/bundle_timer_bar_9s")
+						component("layer"):SetString(element:templateVars().layer)
+					]]>
+				</event>
+			</ninesliceComponent>
+
+			<spriteSheetComponent name="Icon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="1*game.hudScale()" yOffset="-1*game.hudScale()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+					component("spriteName"):SetString("clubbox_token")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("layer"):SetString(element:templateVars().layer)
+					component("size"):SetFloat(0.25*game.hudScale())
+					]]>
+				</event>
+			</spriteSheetComponent>
+			
+			<textComponent name="Text">		
+				<size dependentOnElement="element:name()" />	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*game.hudScale()" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("multiline"):SetInt(0)
+						component("autoScale"):SetInt(1)
+						component("font"):Set(game.getTextFont())
+						component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+						component("size"):SetFloat(0.15*game.menuScaleX())
+						component("layer"):SetString(element:templateVars().layer)
+
+						component("text"):SetString(game.playerClubboxTokens())
+					]]>
+				</event>
+			</textComponent>
+			
+		</element>
+		
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		</spriteSheetComponent>
+
+	</template>
+
+</template>

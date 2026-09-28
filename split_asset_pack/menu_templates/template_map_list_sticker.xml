@@ -1,0 +1,29 @@
+<template name="template_map_list_status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<defaultTemplateVar name="$layer" equals="PopUps" />
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("map_tag_collect_coin")
+				component("sheetName"):SetString("xml_resources/map_icons_sheet.xml")
+				component("size"):SetFloat(0.75*game.mapScale())
+				component("layer"):SetString("$layer")
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<!-- if we want to add a tooltip maybe?
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()"/>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				print("TouchSticker!")
+			]]>
+		</event>
+	</touchComponent>
+	-->
+	
+</template>

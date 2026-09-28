@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7114ebb529dd3d6c1de7047d63179bfa:9c5accf2daaeec16d0c2a8f43efaf07a:b16c5203be36ae70ef023fdd928933ff$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_path_water_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="path" x="0" y="658" w="205" h="318" oX="51" oY="22" oW="418" oH="250" r="y"/>
+	<sprite n="path_clr" x="414" y="61" w="40" h="788"/>
+	<sprite n="path_sand" x="0" y="0" w="357" h="656" oX="561" oY="46" oW="1217" oH="403" r="y"/>
+	<sprite n="pathB" x="207" y="658" w="205" h="318" oX="51" oY="22" oW="418" oH="250" r="y"/>
+	<sprite n="rock01" x="414" y="0" w="66" h="59" oX="2" oY="2" oW="70" oH="64"/>
+	<sprite n="rock02" x="78" y="978" w="29" h="33" oX="19" oY="23" oW="70" oH="64" r="y"/>
+	<sprite n="rock03" x="59" y="978" w="17" h="36" oX="17" oY="30" oW="70" oH="64" r="y"/>
+	<sprite n="rock04" x="0" y="978" w="57" h="36" oX="6" oY="18" oW="70" oH="64"/>
+</TextureAtlas>

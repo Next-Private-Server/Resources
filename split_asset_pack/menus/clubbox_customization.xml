@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/ClubboxCustomization.lua"/>
+	
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="20" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.0)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				element:parent():closeCustomizeMenu()
+			</event>
+
+		</touchComponent>
+	</element>
+	
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-1*lua_sys.screenHeight()" priorityOffset="19" />
+		<event name="onInit" params="element">
+			element("bottomOffset"):SetInt(lua_sys.screenHeight()*0.12)
+		</event>
+		<ninesliceComponent name="Sprite">
+			<size w="(lua_sys.screenHeight()*1.5)*0.9" h="lua_sys.screenHeight()*0.6" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(55.0)
+				component("bottomHeight"):SetFloat(60.0)
+				component("leftWidth"):SetFloat(90.0)
+				component("rightWidth"):SetFloat(90.0)
+				component("size"):SetFloat(0.5*(screenHeight()/320))
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/clubbox/clubbox_panel_9slice")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+	
+	<template type="template_club_perf_editor" name="PerformerEditor">
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="25*(screenHeight()/320)" priorityOffset="-1" />
+	</template>
+
+	<template type="template_club_stage_editor" name="StageEditor">
+		<position relativeTo="PerformerEditor" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="5*(screenHeight()/320)" yOffset="2*(screenHeight()/320)" priorityOffset="0" />
+
+	</template>
+
+</menu>

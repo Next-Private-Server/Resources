@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6c24da65a9a3baa24fb07f260df46b4d:33a85e3b36d48f51244fc42dba765fe1:4682fac0654b171959f2b89c17a69683$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_VY_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="arm_01" x="0" y="788" w="372" h="217" pX="0.5" pY="0.5" oX="1" oY="4" oW="220" oH="380" r="y"/>
+	<sprite n="arm_02" x="0" y="0" w="237" h="555" pX="0.5" pY="0.5" oX="1" oY="2" oW="240" oH="560"/>
+	<sprite n="arm_03" x="327" y="0" w="152" h="284" pX="0.5" pY="0.5" oX="4" oY="3" oW="160" oH="290"/>
+	<sprite n="pouch_back" x="0" y="557" w="321" h="229" pX="0.48857142857142855" pY="0.868" oX="15" oY="11" oW="350" oH="250"/>
+	<sprite n="pouch_front" x="239" y="306" w="222" h="155" pX="0.5173913043478261" pY="0.59375" oX="4" oY="2" oW="230" oH="160"/>
+	<sprite n="shadow" x="323" y="463" w="100" h="236" pX="0.4788135593220339" pY="0.37" r="y"/>
+	<sprite n="sparkle_01" x="239" y="0" w="86" h="304" pX="0.5" pY="0.5" oX="3" oY="2" oW="310" oH="90" r="y"/>
+	<sprite n="sparkle_02" x="374" y="701" w="83" h="286" pX="0.5" pY="0.5" oX="2" oY="3" oW="290" oH="90" r="y"/>
+</TextureAtlas>

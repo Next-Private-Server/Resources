@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:44df1d4193a21c0ed5336c21d5fa79e7:1ad8dd1e2d92355f55bf60926905499f:b6674a8021a87a6b6a053e3a346659f7$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_DNR_costume_01_sheet.png" width="128" height="256" hires="true">
+    <sprite n="boot 1 R.png" x="60" y="49" w="39" h="31" oX="-6" oY="19.5" oW="48" oH="36"/>
+    <sprite n="boot 1.png" x="3" y="60" w="34" h="28" oX="0" oY="25.5" oW="36" oH="28"/>
+    <sprite n="boot 2.png" x="3" y="92" w="32" h="30" oX="0.5" oY="19.4" oW="32" oH="32"/>
+    <sprite n="boot 2 R.png" x="3" y="92" w="32" h="30" oX="0.5" oY="21.4" oW="32" oH="32"/>
+    <sprite n="boot 3.png" x="78" y="118" w="30" h="27" oX="-2" oY="16.5" oW="32" oH="28"/>
+    <sprite n="eye 1.png" x="3" y="3" w="53" h="53" oX="1" oY="1" oW="54" oH="54"/>
+    <sprite n="eye 2.png" x="41" y="84" w="33" h="33"/>
+    <sprite n="eye 3.png" x="78" y="84" w="31" h="30"/>
+    <sprite n="eye 4.png" x="60" y="3" w="49" h="42" r="y"/>
+</TextureAtlas>

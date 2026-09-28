@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c44fecedb28b644ad50cf9ef68ddaa4b:ae5e37f7c6d7401d7d8794c3506d0eee:3c94452a9f4ba7b9b52a78e7c8078092$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island17_MIRROR_sheet02.png" width="2048" height="2048" hires="true">
+	<sprite n="bg_horns" x="1568" y="1031" w="258" h="914" oX="5" oY="0" oW="922" oH="260" r="y"/>
+	<sprite n="bg_horns_M" x="494" y="1644" w="1070" h="353" oX="0" oY="11" oW="1086" oH="364"/>
+	<sprite n="cheek" x="1237" y="3" w="746" h="1024"/>
+	<sprite n="ear_M" x="3" y="862" w="487" h="1179"/>
+	<sprite n="eye_M" x="3" y="3" w="1230" h="855" oX="6" oY="9" oW="1236" oH="864"/>
+	<sprite n="head_bg_01_M" x="1201" y="1031" w="262" h="400"/>
+	<sprite n="head_bg_02_M" x="494" y="862" w="703" h="778" oX="14" oY="10" oW="802" oH="713" r="y"/>
+</TextureAtlas>

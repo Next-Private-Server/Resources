@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fff950a3f79667111e79604e5bad9f7c:a85aa53a774b92f141df629a6d5b172c:5a5e70e7e11686806c35fc3f0f0d7137$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island18_skypainting_sheet03.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="eye_glow" x="758" y="899" w="398" h="383" oX="1" oY="0" oW="400" oH="400"/>
+	<sprite n="eye_ring_highlight" x="802" y="0" w="600" h="537" oX="0" oY="17" oW="600" oH="570"/>
+	<sprite n="eye_shadow" x="1404" y="0" w="592" h="592" oX="1" oY="1" oW="596" oH="596"/>
+	<sprite n="eyelid_bottom" x="0" y="799" w="502" h="285" oX="22" oY="11" oW="530" oH="300"/>
+	<sprite n="eyelid_bottom_edge" x="1829" y="594" w="154" h="489" oX="8" oY="0" oW="504" oH="156" r="y"/>
+	<sprite n="eyelid_bottom_edge_highlight" x="0" y="1086" w="475" h="150" oX="16" oY="2" oW="504" oH="156"/>
+	<sprite n="eyelid_top" x="802" y="539" w="519" h="358" oX="10" oY="10" oW="562" oH="378"/>
+	<sprite n="eyelid_top_edge" x="1323" y="594" w="504" h="179" oX="14" oY="20" oW="530" oH="200"/>
+	<sprite n="eyelid_top_edge_highlight" x="1323" y="775" w="504" h="126" oX="14" oY="73" oW="530" oH="200"/>
+	<sprite n="firework_1" x="1124" y="1662" w="351" h="358" oX="13" oY="28" oW="400" oH="400" r="y"/>
+	<sprite n="firework_1_glow" x="1158" y="903" w="383" h="381" oX="0" oY="12" oW="400" oH="400"/>
+	<sprite n="firework_2" x="764" y="1662" w="358" h="363" oX="11" oY="23" oW="400" oH="400" r="y"/>
+	<sprite n="firework_2_glow" x="0" y="1334" w="387" h="386" oX="0" oY="11" oW="400" oH="400"/>
+	<sprite n="firework_3" x="1142" y="1286" w="349" h="357" oX="13" oY="29" oW="400" oH="400" r="y"/>
+	<sprite n="firework_3_glow" x="389" y="1596" w="373" h="385" oX="0" oY="17" oW="400" oH="400" r="y"/>
+	<sprite n="glow" x="764" y="1284" w="376" h="376" oX="13" oY="13" oW="400" oH="400"/>
+	<sprite n="pupil" x="0" y="0" w="800" h="797" oX="0" oY="0" oW="800" oH="800"/>
+	<sprite n="sparkle" x="427" y="1255" w="301" h="339" oX="42" oY="25" oW="400" oH="400"/>
+	<sprite n="Tail_1" x="660" y="799" w="96" h="451" oX="49" oY="113" oW="200" oH="600"/>
+	<sprite n="Tail_2" x="0" y="1238" w="425" h="94" oX="51" oY="113" oW="200" oH="600" r="y"/>
+	<sprite n="Tail_3" x="504" y="799" w="154" h="454" oX="13" oY="79" oW="200" oH="600"/>
+</TextureAtlas>

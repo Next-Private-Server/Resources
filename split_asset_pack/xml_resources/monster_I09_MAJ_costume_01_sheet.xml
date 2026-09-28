@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:08f0db109fd5cf48741edd94c76c6f2c:07af4590c4f1cffd08ca86f463d0d78a:5e145b23a239c1026267440b3186580b$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_I09_MAJ_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ear_l" x="383" y="653" w="96" h="37" pX="0.76" pY="0.775" oX="5" oY="10" oW="50" oH="120" r="y"/>
+	<sprite n="ear_r" x="0" y="536" w="94" h="74" pX="0.0375" pY="0.77" oX="6" oY="3" oW="80" oH="100" r="y"/>
+	<sprite n="hair_01" x="461" y="348" w="50" h="61" pX="0.5" pY="0.5" oX="21" oY="0" oW="71" oH="61"/>
+	<sprite n="hair_01_tail" x="69" y="612" w="25" h="27" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="hair_02" x="96" y="574" w="81" h="79" pX="0.5" pY="0.5" oX="0" oY="8" oW="105" oH="87"/>
+	<sprite n="hair_02_tail" x="179" y="651" w="34" h="29" pX="0.5" pY="0.5"/>
+	<sprite n="hair_03" x="206" y="467" w="44" h="56" pX="0.5" pY="0.5" oX="0" oY="0" oW="65" oH="44" r="y"/>
+	<sprite n="hair_03_tail" x="499" y="567" w="12" h="16" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="hair_04" x="461" y="411" w="49" h="27" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="33"/>
+	<sprite n="hair_04_tail" x="44" y="662" w="22" h="21" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_arm" x="0" y="0" w="251" h="210" pX="0.5" pY="0.5" oX="22" oY="0" oW="252" oH="251" r="y"/>
+	<sprite n="MAJ_arm_light_NOTINT" x="253" y="0" w="251" h="102" pX="0.5" pY="0.5" oX="74" oY="0" oW="252" oH="251" r="y"/>
+	<sprite n="MAJ_eyetear_l_NOTINT" x="471" y="157" w="37" h="112" pX="0.396552" pY="0.917355" oX="10" oY="9" oW="58" oH="121"/>
+	<sprite n="MAJ_eyetear_r_NOTINT" x="386" y="621" w="109" h="30" pX="0.5" pY="0.918182" oX="0" oY="0" oW="30" oH="110" r="y"/>
+	<sprite n="MAJ_face" x="252" y="550" w="111" h="96" pX="0.5" pY="0.5" oX="0" oY="0" oW="114" oH="96"/>
+	<sprite n="MAJ_face_connector" x="387" y="440" w="120" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_face_light_NOTINT" x="96" y="536" w="86" h="36" pX="0.5" pY="0.5" oX="9" oY="55" oW="114" oH="96"/>
+	<sprite n="MAJ_faceback" x="481" y="653" w="31" h="88" pX="0.5" pY="0.5" oX="113" oY="87" oW="150" oH="203"/>
+	<sprite n="MAJ_forehead" x="253" y="104" w="216" h="127" pX="0.5" pY="0.5" oX="0" oY="34" oW="130" oH="250" r="y"/>
+	<sprite n="MAJ_forehead_FRONT" x="0" y="212" w="216" h="117" pX="0.5" pY="0.5" oX="0" oY="34" oW="130" oH="250" r="y"/>
+	<sprite n="MAJ_forehead_lightwires_NOTINT" x="206" y="351" w="44" h="114" pX="0.5" pY="0.5" oX="68" oY="13" oW="130" oH="250"/>
+	<sprite n="MAJ_hair_base" x="461" y="271" w="50" h="75" pX="0.5" pY="0.5" oX="12" oY="0" oW="93" oH="52" r="y"/>
+	<sprite n="MAJ_hair_base_frill_A" x="0" y="612" w="67" h="48" pX="0.45" pY="0.5" oX="48" oY="9" oW="120" oH="60"/>
+	<sprite n="MAJ_hair_base_frill_B" x="471" y="104" w="38" h="51" pX="0.45" pY="0.5" oX="9" oY="3" oW="120" oH="60" r="y"/>
+	<sprite n="MAJ_joint" x="218" y="212" w="33" h="33" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_lowerleg" x="252" y="438" w="133" h="110" pX="0.5" pY="0.5" oX="4" oY="27" oW="119" oH="187" r="y"/>
+	<sprite n="MAJ_lowerleg_light_NOTINT" x="387" y="556" w="110" h="63" pX="0.5" pY="0.5" oX="4" oY="77" oW="119" oH="187"/>
+	<sprite n="MAJ_palm" x="253" y="233" w="206" h="203" pX="0.5" pY="0.5" oX="25" oY="21" oW="252" oH="251" r="y"/>
+	<sprite n="MAJ_skirt_A" x="0" y="662" w="42" h="23" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="MAJ_skirt_B" x="218" y="302" w="32" h="25" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="MAJ_skirt_C" x="218" y="266" w="32" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_skirt_D" x="241" y="648" w="37" h="28" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="MAJ_skirt_E" x="365" y="602" w="19" h="35" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_tear_02" x="501" y="498" w="11" h="67" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_upperjaw_A" x="365" y="550" w="20" h="28" pX="0.5" pY="0.5" oX="0" oY="2" oW="20" oH="30"/>
+	<sprite n="MAJ_upperjaw_B" x="69" y="641" w="24" h="27" pX="0.5" pY="0.5" oX="0" oY="3" oW="24" oH="30"/>
+	<sprite n="MAJ_upperjaw_C" x="215" y="651" w="24" h="21" pX="0.5" pY="0.5" oX="0" oY="3" oW="21" oH="29" r="y"/>
+	<sprite n="MAJ_upperjaw_D" x="365" y="639" w="16" h="23" pX="0.5" pY="0.5" oX="0" oY="0" oW="16" oH="25"/>
+	<sprite n="MAJ_upperleg" x="206" y="525" w="44" h="44" pX="0.5" pY="0.5"/>
+	<sprite n="MIN_arm_l" x="0" y="331" w="204" h="203" pX="0.5" pY="0.5" oX="24" oY="24" oW="252" oH="252"/>
+	<sprite n="MIN_hair_base" x="184" y="571" w="55" h="78" pX="0.5" pY="0.5" oX="21" oY="6" oW="121" oH="68" r="y"/>
+	<sprite n="MIN_hair_stretch" x="387" y="498" w="112" h="56" pX="0.5" pY="0.5" oX="8" oY="0" oW="72" oH="112" r="y"/>
+	<sprite n="MIN_knee" x="365" y="580" w="20" h="20" pX="0.5" pY="0.5"/>
+	<sprite n="pupil" x="206" y="331" w="9" h="14" pX="0.5" pY="0.5"/>
+	<sprite n="toe_01" x="218" y="247" w="33" h="17" pX="0.5" pY="0.5" oX="3" oY="1" oW="39" oH="19"/>
+	<sprite n="toe_02" x="218" y="329" w="32" h="20" pX="0.5" pY="0.5" oX="4" oY="3" oW="28" oH="38" r="y"/>
+	<sprite n="toe_03" x="215" y="674" w="21" h="27" pX="0.5" pY="0.5" oX="6" oY="4" oW="40" oH="29" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0fa873d848c98cacd39c212e1bb41867:4e4868209009b2a9ced7357b5ec4ca56:a1ea8e64e0f4efdf31fb758822d096ed$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_AE_costume_08_sheet.png" width="512" height="512" hires="true">
+    <sprite n="AE_beak_01" x="3" y="403" w="108" h="104"/>
+    <sprite n="AE_beak_02" x="115" y="403" w="108" h="102" oX="0" oY="0" oW="108" oH="104"/>
+    <sprite n="AE_beak_03" x="117" y="165" w="98" h="108" oX="0" oY="0" oW="108" oH="104" r="y"/>
+    <sprite n="AE_beak_04" x="133" y="3" w="97" h="108" oX="0" oY="0" oW="108" oH="104" r="y"/>
+    <sprite n="AE_beak_05" x="234" y="3" w="94" h="108" oX="0" oY="0" oW="108" oH="104" r="y"/>
+    <sprite n="AE_beak_06" x="113" y="291" w="104" h="108" r="y"/>
+    <sprite n="AE_body" x="3" y="3" w="126" h="158"/>
+    <sprite n="AE_head" x="3" y="291" w="106" h="108"/>
+    <sprite n="AE_left_eyeback" x="289" y="435" w="24" h="24"/>
+    <sprite n="AE_left_eyelid_01" x="253" y="259" w="26" h="28"/>
+    <sprite n="AE_left_eyelid_02" x="227" y="463" w="26" h="28"/>
+    <sprite n="AE_left_eyelid_03" x="257" y="463" w="26" h="28"/>
+    <sprite n="AE_left_eyelid_04" x="287" y="463" w="26" h="28"/>
+    <sprite n="AE_left_foot" x="133" y="115" w="78" h="46"/>
+    <sprite n="AE_left_leg" x="289" y="149" w="50" h="54"/>
+    <sprite n="AE_left_lowerarm" x="227" y="381" w="58" h="78"/>
+    <sprite n="AE_left_pupil" x="215" y="149" w="12" h="12"/>
+    <sprite n="AE_left_upperarm" x="283" y="259" w="62" h="72"/>
+    <sprite n="AE_right_eyeback" x="283" y="335" w="24" h="26" r="y"/>
+    <sprite n="AE_right_eyelid_01" x="215" y="115" w="28" h="30"/>
+    <sprite n="AE_right_eyelid_02" x="219" y="259" w="30" h="28" r="y"/>
+    <sprite n="AE_right_eyelid_03" x="247" y="115" w="28" h="30"/>
+    <sprite n="AE_right_eyelid_04" x="279" y="115" w="28" h="30"/>
+    <sprite n="AE_right_foot" x="289" y="365" w="56" h="66"/>
+    <sprite n="AE_right_leg" x="317" y="435" w="54" h="56"/>
+    <sprite n="AE_right_lowerarm" x="221" y="291" w="58" h="86"/>
+    <sprite n="AE_right_upperarm" x="219" y="165" w="66" h="90"/>
+    <sprite n="AE_scarf" x="3" y="165" w="110" h="122" r="y"/>
+</TextureAtlas>

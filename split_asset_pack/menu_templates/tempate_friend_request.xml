@@ -1,0 +1,146 @@
+<template name="tempate_friend_request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<size dependentOnElement="Container" />
+
+	<element name="Container" debug="1,1,0">
+		<size w="512" h="100" />
+		<position relativeTo="PARENT" hAnchor="LEFT" vAnchor="TOP" />
+		<orientation hAnchor="LEFT" vAnchor="TOP" priorityOffset="15" />
+
+		<spriteComponent name="Sprite" inline="true" layer="MidPopUps">
+			<size w="512" h="100" />
+			<position relativeTo="PARENT" hAnchor="LEFT" vAnchor="TOP" />
+			<orientation hAnchor="LEFT" vAnchor="TOP" priorityOffset="1" />
+
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(512*0.25, 100*0.25))
+				component:setColor(0.2, 0.0, 00.2) 
+				component("alpha"):SetFloat(0.5)
+				component("visible"):SetInt(1) 
+			</event>
+		</spriteComponent>
+
+		<textComponent name="From" inline="true" layer="MidPopUps" font="game.getTextFont()" size="0.3*game.hudScale()">
+			<size w="512" h="50" />
+			<position relativeTo="PARENT" hAnchor="LEFT" vAnchor="TOP" />
+			<orientation hAnchor="LEFT" vAnchor="TOP" />
+		</textComponent>
+
+		<template type="template_spritesheetbutton" name="YesButton">
+			<hudScale scale="game.hudScale()" />
+			<templateVar name="$text" equals="" />
+			<templateVar name="$spriteScale" equals="0.25" />
+			<templateVar name="$layer" equals="FrontPopUps" />
+			<templateVar name="$buttonMapping" equals="game.confirmButton()" />
+			
+			<position relativeTo="PARENT" component="From" vAnchor="BOTTOM" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+
+			<touchComponent name="Touch">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onTouchDown" params="component, element">
+					onTouchDown(component, element)
+					element["Overlay"]:setColor(0.5, 0.5, 0.5)
+				</event>
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					element["Overlay"]:setColor(1.0, 1.0, 1.0)
+					element:parent()("transitionState"):SetInt(2)
+					element:parent()("choice"):SetString("true")
+
+					game.acceptFriendRequest(element:parent():parent().id)
+				</event>
+				<event name="onTouchRelease" params="component, element">
+					onTouchRelease(component, element)
+					element["Overlay"]:setColor(1.0, 1.0, 1.0)
+				</event>
+			</touchComponent>
+			<spriteSheetComponent name="Overlay">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("button_yes")
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("layer"):SetString("FrontPopUps")
+					component("size"):SetFloat(0.5)
+				</event>
+			</spriteSheetComponent>
+			<event name="onTick" params="element, dt">
+				onTick(element, dt)
+				if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+					element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+				end
+			</event>
+			<event name="hide" params="element">
+				element:setInvisible()
+				element["Overlay"]("visible"):SetInt(0)
+				element["Touch"]("enabled"):SetInt(0)
+			</event>
+		</template>
+
+		<template type="template_spritesheetbutton" name="NoButton">
+			<hudScale scale="game.hudScale()" />
+			<templateVar name="$text" equals="" />
+			<templateVar name="$spriteScale" equals="0.25" />
+			<templateVar name="$layer" equals="FrontPopUps" />
+			<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+
+			<position relativeTo="YesButton" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+
+			<touchComponent name="Touch">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onTouchDown" params="component, element">
+					onTouchDown(component, element)
+					element["Overlay"]:setColor(0.5, 0.5, 0.5)
+				</event>
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					element["Overlay"]:setColor(1.0, 1.0, 1.0)
+					element:parent()("transitionState"):SetInt(2)
+					element:parent()("choice"):SetString("false")
+
+					game.cancelFriendRequest(element:parent():parent().id)
+				</event>
+				<event name="onTouchRelease" params="component, element">
+					onTouchRelease(component, element)
+					element["Overlay"]:setColor(1.0, 1.0, 1.0)
+				</event>
+			</touchComponent>
+			<spriteSheetComponent name="Overlay">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("button_no")
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("layer"):SetString("FrontPopUps")
+					component("size"):SetFloat(0.5)
+				</event>
+			</spriteSheetComponent>
+			<event name="onTick" params="element, dt">
+				onTick(element, dt)
+				if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+					element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+				end
+			</event>
+			<event name="hide" params="element">
+				element:setInvisible()
+				element["Overlay"]("visible"):SetInt(0)
+				element["Touch"]("enabled"):SetInt(0)
+			</event>
+		</template>
+	</element>
+
+	<event name="setup" params="element, id">
+		element.id = id
+		local request = game.getFriendRequestById(element.id)
+		if request.type == "follow" then
+			element:E("Container"):E("YesButton"):hide()
+		end
+		element:E("Container"):C("From")("text"):SetString(string.format("%s: %s", request.display_name, request.type)) 
+	</event>
+</template>

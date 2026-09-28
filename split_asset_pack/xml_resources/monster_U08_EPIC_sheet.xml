@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ebd9514bd986765f484b9274d066c2cc:e98f6679d49ea63bd65de85309cba838:574f2bd39b4d18c04b5e8e09d749f9e9$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U08_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="beam" x="0" y="266" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="glow_spot" x="365" y="150" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U08_1_foot" x="127" y="472" w="22" h="32" r="y"/>
+	<sprite n="U08_1_lowerleg" x="314" y="480" w="62" h="32" r="y"/>
+	<sprite n="U08_1_upperleg" x="469" y="0" w="40" h="46" r="y"/>
+	<sprite n="U08_2_foot" x="445" y="373" w="24" h="18" r="y"/>
+	<sprite n="U08_2_lowerleg" x="378" y="483" w="62" h="22" r="y"/>
+	<sprite n="U08_2_upperleg" x="292" y="215" w="24" h="48"/>
+	<sprite n="U08_3_foot" x="151" y="497" w="32" h="14"/>
+	<sprite n="U08_3_lowerleg" x="442" y="483" w="56" h="24" r="y"/>
+	<sprite n="U08_3_upperleg" x="318" y="229" w="44" h="28" oX="0" oY="2" oW="44" oH="30"/>
+	<sprite n="U08_4_foot" x="469" y="88" w="28" h="16"/>
+	<sprite n="U08_4_lowerleg" x="240" y="215" w="50" h="22" r="y"/>
+	<sprite n="U08_4_upperleg" x="240" y="239" w="42" h="24"/>
+	<sprite n="U08_body_epic" x="0" y="0" w="238" h="264"/>
+	<sprite n="U08_body_epic_fg" x="159" y="413" w="61" h="82" oX="0" oY="0" oW="96" oH="66" r="y"/>
+	<sprite n="U08_drumhead" x="240" y="117" w="79" h="96" oX="6" oY="10" oW="92" oH="116"/>
+	<sprite n="U08_face_front" x="228" y="266" w="215" h="151" oX="12" oY="8" oW="176" oH="232" r="y"/>
+	<sprite n="U08_L_lowerarm_bg" x="445" y="341" w="30" h="30"/>
+	<sprite n="U08_L_lowerarm_epic" x="445" y="241" w="44" h="98" r="y"/>
+	<sprite n="U08_left_claw" x="365" y="0" w="54" h="148" oX="7" oY="8" oW="164" oH="68" r="y"/>
+	<sprite n="U08_nail_1" x="0" y="338" w="219" h="73" oX="0" oY="1" oW="74" oH="222" r="y"/>
+	<sprite n="U08_nail_2" x="0" y="472" w="125" h="38" oX="0" oY="0" oW="38" oH="126" r="y"/>
+	<sprite n="U08_nail_3" x="222" y="419" w="154" h="59" oX="0" oY="3" oW="60" oH="160" r="y"/>
+	<sprite n="U08_nail_4" x="321" y="117" w="42" h="110"/>
+	<sprite n="U08_pupil" x="469" y="48" w="36" h="38" oX="1" oY="2" oW="40" oH="40" r="y"/>
+	<sprite n="U08_R_lowerarm_bg" x="421" y="115" w="48" h="32"/>
+	<sprite n="U08_R_lowerarm_epic" x="421" y="0" w="46" h="113" oX="1" oY="4" oW="114" oH="58" r="y"/>
+	<sprite n="U08_right_claw_epic" x="0" y="413" w="157" h="57" oX="0" oY="0" oW="158" oH="58"/>
+	<sprite n="U08_shadow" x="378" y="419" w="120" h="62" oX="9" oY="9" oW="140" oH="80"/>
+	<sprite n="U08_upperarm" x="222" y="480" w="90" h="28" oX="13" oY="18" oW="116" oH="56"/>
+	<sprite n="U12_glow_02" x="240" y="0" w="123" h="115" oX="7" oY="6" oW="150" oH="143" r="y"/>
+</TextureAtlas>

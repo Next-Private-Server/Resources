@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9226d3fc6395c84ab67068a79d695e82:c87d9b7691e47a93b0eb829437897e2c:2212741488e33bfe22ce40b5f06736d1$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island23_sheet02.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="cloud_anim_lrg" x="1174" y="0" w="831" h="656" oX="0" oY="82" oW="868" oH="868"/>
+	<sprite n="side" x="0" y="0" w="1172" h="1344"/>
+	<sprite n="side_back" x="0" y="1346" w="740" h="667" oX="0" oY="0" oW="668" oH="740" r="y"/>
+	<sprite n="side_platform" x="1509" y="658" w="458" h="329" oX="3" oY="1" oW="464" oH="332"/>
+	<sprite n="side_platform_base" x="1359" y="1836" w="148" h="208"/>
+	<sprite n="side_platform_disk" x="1174" y="1008" w="149" h="318" oX="1" oY="1" oW="320" oH="152" r="y"/>
+	<sprite n="side_platform_edge" x="920" y="1346" w="227" h="579" oX="0" oY="2" oW="580" oH="232" r="y"/>
+	<sprite n="spire_01" x="1149" y="1346" w="225" h="488" oX="1" oY="0" oW="228" oH="488"/>
+	<sprite n="spire_01_glow" x="1376" y="658" w="124" h="240"/>
+	<sprite n="spire_02" x="1325" y="1105" w="315" h="149" oX="1" oY="0" oW="152" oH="316" r="y"/>
+	<sprite n="spire_02_glow" x="1174" y="882" w="180" h="124" r="y"/>
+	<sprite n="spire_03" x="1509" y="1256" w="297" h="730" oX="1" oY="1" oW="300" oH="732"/>
+	<sprite n="spire_03_glow" x="1206" y="1836" w="151" h="212" oX="0" oY="0" oW="152" oH="212"/>
+	<sprite n="spire_04" x="742" y="1346" w="176" h="612"/>
+	<sprite n="spire_04_glow" x="1376" y="900" w="124" h="203" oX="0" oY="0" oW="124" oH="204"/>
+	<sprite n="spire_05" x="1174" y="658" w="200" h="104" r="y"/>
+	<sprite n="spire_06" x="1969" y="658" w="72" h="240"/>
+	<sprite n="spire_07" x="742" y="1960" w="244" h="72" r="y"/>
+	<sprite n="spire_08" x="988" y="1927" w="216" h="117" r="y"/>
+	<sprite n="spire_08_glow" x="1174" y="764" w="191" h="116" oX="0" oY="0" oW="116" oH="192" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<template name="template_contextbar_buffs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<size dependentOnElement="Buffs" />
+		
+	<element name="Buffs">
+		<script src="scripts/BuffWidget.lua"/>
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.menuScaleX()" yOffset="0" priorityOffset="-1" />		
+	</element>
+
+	<event name="setVisible" params="element">
+		element.Buffs:setVisible()
+	</event>
+	
+	<event name="setInvisible" params="element">
+		element.Buffs:setInvisible()
+	</event>
+	
+</template>

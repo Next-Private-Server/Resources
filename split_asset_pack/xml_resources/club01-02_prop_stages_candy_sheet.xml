@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cad803adda5d7215af2e38a348aa132b:6d34a7122bfadbc295bd07b64541cfb8:f6265a9c1b475d05b9fb6b4ea31339f4$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_stages_candy_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="candypop_bg_stage" x="0" y="759" w="403" h="234" oX="5" oY="2" oW="420" oH="244">
+		<vertices>372 75 408 142 394 236 276 220 51 234 5 176 29 131 192 2</vertices>
+		<verticesUV>367 832 403 899 389 993 271 977 46 991 0 933 24 888 187 759</verticesUV>
+		<triangles>3 6 7 4 5 6 3 4 6 1 2 3 0 1 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="candypop_bg_stage_glow" x="550" y="475" w="400" h="199" oX="9" oY="18" oW="420" oH="244">
+		<vertices>318 37 397 116 409 217 60 207 9 134 181 18</vertices>
+		<verticesUV>859 494 938 573 950 674 601 664 550 591 722 475</verticesUV>
+		<triangles>3 4 5 0 2 3 0 1 2 0 3 5</triangles>
+	</sprite>
+	<sprite n="candypop_lstage" x="0" y="0" w="936" h="519" oX="2" oY="0" oW="949" oH="526">
+		<vertices>697 21 883 95 938 195 938 365 752 466 522 519 238 487 102 417 2 340 18 150 166 39 351 3 407 0 584 0</vertices>
+		<verticesUV>695 21 881 95 936 195 936 365 750 466 520 519 236 487 100 417 0 340 16 150 164 39 349 3 405 0 582 0</verticesUV>
+		<triangles>5 12 13 6 12 5 6 10 11 7 9 10 7 8 9 6 7 10 6 11 12 4 5 13 4 0 1 4 2 3 4 1 2 0 4 13</triangles>
+	</sprite>
+	<sprite n="candypop_ustage" x="0" y="492" w="462" h="278" oX="56" oY="29" oW="574" oH="338">
+		<vertices>475 68 518 195 464 257 314 307 146 275 72 222 56 150 129 58 310 29</vertices>
+		<verticesUV>419 531 462 658 408 720 258 770 90 738 16 685 0 613 73 521 254 492</verticesUV>
+		<triangles>4 7 8 5 6 7 4 5 7 3 4 8 2 3 8 0 1 2 0 2 8</triangles>
+	</sprite>
+	<sprite n="stage_glow" x="388" y="666" w="306" h="314" oX="11" oY="6" oW="320" oH="320">
+		<vertices>317 113 298 258 174 320 44 284 11 187 12 111 74 15 223 6</vertices>
+		<verticesUV>694 773 675 918 551 980 421 944 388 847 389 771 451 675 600 666</verticesUV>
+		<triangles>5 6 7 4 5 7 0 4 7 2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+</TextureAtlas>

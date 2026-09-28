@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:353c483d4bcacd5f546c891de980dff2:53474d08a296a487f1843f480933bc59:28f1423d228c48bdd61805c5acc71820$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_E_costume_13_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="E_body" x="0" y="0" w="184" h="248" pX="0.5" pY="0.822581"/>
+	<sprite n="E_glasses" x="268" y="0" w="54" h="144" pX="0.534722" pY="3.16071" oX="0" oY="1" oW="144" oH="56" r="y"/>
+	<sprite n="E_lefteye_1" x="160" y="398" w="46" h="40" pX="0.738636" pY="0.258333" oX="2" oY="1" oW="44" oH="48" r="y"/>
+	<sprite n="E_lefteye_2" x="464" y="279" w="44" h="40" pX="0.738636" pY="0.258333" oX="2" oY="2" oW="44" oH="48" r="y"/>
+	<sprite n="E_lefteye_3" x="208" y="398" w="46" h="40" pX="0.738636" pY="0.258333" oX="2" oY="1" oW="44" oH="48" r="y"/>
+	<sprite n="E_lefteye_4" x="464" y="237" w="46" h="40" pX="0.738636" pY="0.258333" oX="2" oY="1" oW="44" oH="48" r="y"/>
+	<sprite n="E_leftfingers_1" x="398" y="237" w="64" h="45" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="46"/>
+	<sprite n="E_leftfoot_1" x="160" y="250" w="80" h="146" pX="0.5" pY="0.5" oX="0" oY="9" oW="146" oH="90" r="y"/>
+	<sprite n="E_leftfoot_2" x="242" y="245" w="89" h="143" pX="0.5" pY="0.5" oX="0" oY="0" oW="146" oH="90" r="y"/>
+	<sprite n="E_leftlarm" x="86" y="250" w="72" h="190" pX="1.15278" pY="0.1875" oX="0" oY="2" oW="72" oH="192"/>
+	<sprite n="E_leftleg" x="333" y="243" w="60" h="56" pX="0.516071" pY="0.178333" r="y"/>
+	<sprite n="E_lip" x="398" y="186" w="106" h="19" pX="0.574074" pY="6.65" oX="1" oY="0" oW="108" oH="20"/>
+	<sprite n="E_mouth_1" x="398" y="207" w="95" h="28" pX="0.49" pY="0.284091" oX="2" oY="2" oW="100" oH="88"/>
+	<sprite n="E_mouth_2" x="186" y="148" w="38" h="96" pX="0.49" pY="0.284091" oX="2" oY="2" oW="100" oH="88" r="y"/>
+	<sprite n="E_mouth_3" x="0" y="459" w="95" h="46" pX="0.493" pY="0.284091" oX="2" oY="2" oW="100" oH="88"/>
+	<sprite n="E_mouth_4" x="415" y="77" w="95" h="59" pX="0.49" pY="0.284091" oX="2" oY="2" oW="100" oH="88"/>
+	<sprite n="E_mouth_5" x="415" y="0" w="95" h="75" pX="0.493" pY="0.284091" oX="2" oY="2" oW="100" oH="88"/>
+	<sprite n="E_mouth_6" x="226" y="148" w="84" h="95" pX="0.493" pY="0.284091" oX="2" oY="2" oW="100" oH="88" r="y"/>
+	<sprite n="E_mouth_7" x="398" y="207" w="95" h="28" pX="0.493" pY="0.284091" oX="2" oY="2" oW="100" oH="88"/>
+	<sprite n="E_mouth_8" x="97" y="442" w="73" h="67" pX="0.493" pY="0.284091" oX="13" oY="2" oW="100" oH="88"/>
+	<sprite n="E_mouth_9" x="312" y="146" w="84" h="95" pX="0.493" pY="0.284091" oX="2" oY="2" oW="100" oH="88" r="y"/>
+	<sprite n="E_mouth_10" x="415" y="138" w="95" h="46" pX="0.493" pY="0.284091" oX="2" oY="2" oW="100" oH="88"/>
+	<sprite n="E_pupil" x="457" y="321" w="22" h="19" pX="0.875" pY="0.0416667" oX="2" oY="1" oW="24" oH="24" r="y"/>
+	<sprite n="E_pupil_left" x="457" y="321" w="22" h="19" pX="0.166667" pY="0.25" oX="2" oY="1" oW="24" oH="24" r="y"/>
+	<sprite n="E_rightarm" x="0" y="250" w="84" h="207" pX="0.178571" pY="0.15566" oX="0" oY="5" oW="84" oH="212"/>
+	<sprite n="E_righteye_1" x="160" y="398" w="46" h="40" pX="0.363636" pY="0.385417" oX="2" oY="1" oW="44" oH="48" r="y"/>
+	<sprite n="E_righteye_2" x="464" y="279" w="44" h="40" pX="0.363636" pY="0.385417" oX="2" oY="2" oW="44" oH="48" r="y"/>
+	<sprite n="E_righteye_3" x="208" y="398" w="46" h="40" pX="0.363636" pY="0.385417" oX="2" oY="1" oW="44" oH="48" r="y"/>
+	<sprite n="E_righteye_4" x="464" y="237" w="46" h="40" pX="0.363636" pY="0.385417" oX="2" oY="1" oW="44" oH="48" r="y"/>
+	<sprite n="E_rightfingers_1" x="172" y="440" w="82" h="64" pX="0.5" pY="0.5"/>
+	<sprite n="E_rightfoot_1" x="186" y="0" w="80" h="146" pX="0.5" pY="0.5" oX="0" oY="9" oW="146" oH="90" r="y"/>
+	<sprite n="E_rightfoot_2" x="324" y="0" w="89" h="143" pX="0.5" pY="0.5" oX="3" oY="0" oW="146" oH="90" r="y"/>
+	<sprite n="E_rightleg" x="395" y="284" w="60" h="56" pX="0.407143" pY="0.171667" r="y"/>
+</TextureAtlas>

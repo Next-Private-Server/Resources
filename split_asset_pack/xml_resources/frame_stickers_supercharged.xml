@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:218ed7e04020aae32e0a53143f56aa60:866b528118105f8fbb085280a7ce111b:28730ea517c21542ce6d27e118ee3e9c$ -->
+<TextureAtlas imagePath="gfx/menu/frame_stickers_supercharged.png" width="256" height="512" hires="false" version="1">
+	<sprite n="lightning_01" x="201" y="220" w="53" h="148"/>
+	<sprite n="lightning_02" x="0" y="436" w="154" h="68" r="y"/>
+	<sprite n="lightning_03" x="0" y="220" w="199" h="214"/>
+	<sprite n="lightning_04" x="0" y="0" w="203" h="218"/>
+</TextureAtlas>

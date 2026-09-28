@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:889c10fb24e6a458f69ed808da6255f5:8c5e1587123cb83e42bf551829469512:d9aec32ae5fa9f24d627437b26cc5f2d$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island07_sheet02_lifeformula.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island07_burns_hand" x="927" y="724" w="112" h="220" oX="2" oY="2" oW="116" oH="224"/>
+	<sprite n="island07_edge_whisp_01" x="1101" y="0" w="788" h="173" oX="11" oY="2" oW="192" oH="792" r="y"/>
+	<sprite n="island07_edge_whisp_02" x="691" y="1017" w="164" h="433" oX="4" oY="5" oW="172" oH="444"/>
+	<sprite n="island07_edge_whisp_03" x="691" y="603" w="360" h="119" oX="6" oY="6" oW="132" oH="372" r="y"/>
+	<sprite n="island07_eyeblueprint_left" x="1053" y="656" w="687" h="612" oX="4" oY="8" oW="696" oH="628"/>
+	<sprite n="island07_eyeblueprint_right" x="0" y="1452" w="443" h="550" oX="3" oY="4" oW="556" oH="452" r="y"/>
+	<sprite n="island07_floor_full" x="0" y="0" w="1099" h="601" oX="3" oY="1" oW="1106" oH="604"/>
+	<sprite n="island07_hand" x="1742" y="751" w="302" h="600" oX="13" oY="0" oW="328" oH="600"/>
+	<sprite n="island07_stone_bellowfish" x="691" y="889" w="174" h="126" oX="13" oY="7" oW="200" oH="140"/>
+	<sprite n="island07_stone_boodoo" x="1846" y="471" w="190" h="136" oX="6" oY="3" oW="148" oH="196" r="y"/>
+	<sprite n="island07_stone_dragong" x="691" y="724" w="234" h="163" oX="6" oY="9" oW="176" oH="252" r="y"/>
+	<sprite n="island07_stone_kazilleon" x="1846" y="303" w="197" h="166" oX="7" oY="5" oW="180" oH="208" r="y"/>
+	<sprite n="island07_stone_nebulob" x="867" y="946" w="167" h="162" oX="6" oY="9" oW="180" oH="180"/>
+	<sprite n="island07_stone_reebro" x="1891" y="0" w="149" h="301" oX="2" oY="5" oW="306" oH="160" r="y"/>
+	<sprite n="island07_stone_sox" x="1846" y="609" w="176" h="140" oX="6" oY="12" oW="152" oH="200" r="y"/>
+	<sprite n="island07_stumpside_statue_01" x="1101" y="175" w="743" h="479" oX="10" oY="6" oW="500" oH="756" r="y"/>
+	<sprite n="island07_stumpside_statue_02" x="0" y="603" w="689" h="427" oX="4" oY="5" oW="436" oH="700" r="y"/>
+</TextureAtlas>

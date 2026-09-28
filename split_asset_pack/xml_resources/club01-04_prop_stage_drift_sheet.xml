@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1db1a589162be24465d86838206c4b7c:8cef52f6e55d45b70b6139b0b8dbae60:bc8466928e3f7d58abaab089d99195fa$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_stage_drift_sheet.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="phonk_stage_base" x="0" y="0" w="949" h="528" oX="0" oY="2" oW="949" oH="530"/>
+	<sprite n="phonk_stage_base_glow_01" x="951" y="488" w="893" h="466" oX="26" oY="11" oW="949" oH="530"/>
+	<sprite n="phonk_stage_base_glow_02" x="951" y="0" w="926" h="486" oX="9" oY="9" oW="949" oH="530"/>
+	<sprite n="phonk_stage_base_shadow" x="441" y="987" w="401" h="860" oX="43" oY="50" oW="949" oH="530" r="y"/>
+	<sprite n="phonk_stage_base_top" x="0" y="530" w="883" h="455" oX="28" oY="13" oW="949" oH="530"/>
+	<sprite n="phonk_stage_base_top_glow" x="0" y="987" w="439" h="862" oX="42" oY="13" oW="949" oH="530" r="y"/>
+	<sprite n="phonk_stage_glow" x="1879" y="0" w="71" h="180" oX="0" oY="4" oW="180" oH="80" r="y"/>
+	<sprite n="phonk_stage_ring_01" x="844" y="987" w="420" h="423" oX="52" oY="23" oW="475" oH="530" r="y"/>
+	<sprite n="phonk_stage_ring_02" x="844" y="1412" w="384" h="389" oX="86" oY="49" oW="475" oH="530" r="y"/>
+	<sprite n="phonk_stage_ring_03" x="1230" y="1412" w="361" h="364" oX="114" oY="76" oW="475" oH="530"/>
+	<sprite n="phonk_stage_ring_04" x="1266" y="956" w="331" h="333" oX="144" oY="101" oW="475" oH="530"/>
+	<sprite n="phonk_stage_ring_05" x="1599" y="956" w="309" h="305" oX="170" oY="125" oW="475" oH="530" r="y"/>
+	<sprite n="phonk_stage_ring_06" x="1599" y="1263" w="278" h="276" oX="197" oY="152" oW="475" oH="530"/>
+	<sprite n="phonk_stage_ring_07" x="1230" y="1778" w="252" h="256" oX="223" oY="177" oW="475" oH="530"/>
+	<sprite n="phonk_stage_ring_08" x="844" y="1803" w="226" h="226" oX="249" oY="207" oW="475" oH="530"/>
+</TextureAtlas>

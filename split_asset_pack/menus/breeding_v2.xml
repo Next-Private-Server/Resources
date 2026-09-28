@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<script src="scripts/BreedingV2/BreedingMenu_v2.lua"/>
+	<!--
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="30" />
+		<templateVar name="$maxAlpha" equals="0.75" />
+	</template>
+	-->
+
+	<element name="TouchBlocker">
+		<size w="screenWidth()" h="screenHeight()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onInit" params="component, element">
+				component("singleTouch"):SetInt(1)
+				component("enabled"):SetInt(0)
+			</event>
+		</touchComponent>
+	</element>
+
+	<template type="template_breeding_monsterlist" name="LeftMonsterSelect">
+		<templateVar name="$title" equals="game.getLocalizedText('MONSTER')..' 1'" />
+		<size w="200*BreedingMenuScaleX()" h="360*BreedingMenuScaleY()" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="(4+lua_sys.deviceMarginX())*BreedingMenuScaleX()" yOffset="48*BreedingMenuScaleY()" priorityOffset="25" />
+		<element name="Handle">
+			<!-- a little handle that allows opening and closing the list-->
+			<size dependentOnElement="element:name()" dependentOnComponent="BG" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-32*BreedingMenuScaleX()" yOffset="-64*BreedingMenuScaleY()" priorityOffset="1" />
+				
+			<ninesliceComponent name="BG">
+				<size w="80*BreedingMenuScaleX()" h="48*BreedingMenuScaleY()" />
+				<event name="onInit" params="component, element">
+					component("topHeight"):SetFloat(59.0)
+					component("bottomHeight"):SetFloat(59.0)
+					component("leftWidth"):SetFloat(74.0)
+					component("rightWidth"):SetFloat(74.0)
+					component("size"):SetFloat(0.4*BreedingMenuScaleX())
+					component("includeBorder"):SetInt(1)
+					component("spriteName"):SetString("gfx/menu/Button_Frame")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</ninesliceComponent>
+
+			<spriteSheetComponent name="Icon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="12*BreedingMenuScaleX()" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("blue_arrow")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("size"):SetFloat(0.35*BreedingMenuScaleX())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<touchComponent name="Touch">
+				<size w="48*BreedingMenuScaleX()" h="48*BreedingMenuScaleY()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			</touchComponent>	
+
+		</element>
+	</template>
+
+	<template type="template_breeding_monsterlist" name="RightMonsterSelect" >
+		<templateVar name="$title" equals="game.getLocalizedText('MONSTER')..' 2'" />
+		<size w="200*BreedingMenuScaleX()" h="360*BreedingMenuScaleY()" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="(4+lua_sys.deviceMarginX())*BreedingMenuScaleX()" yOffset="48*BreedingMenuScaleY()" priorityOffset="25" />
+		<element name="Handle">
+			<!-- a little handle that allows opening and closing the list-->
+			<size dependentOnElement="element:name()" dependentOnComponent="BG" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-32*BreedingMenuScaleX()" yOffset="-64*BreedingMenuScaleY()" priorityOffset="1" />
+				
+			<ninesliceComponent name="BG">
+				<size w="80*BreedingMenuScaleX()" h="48*BreedingMenuScaleY()" />
+				<event name="onInit" params="component, element">
+					component("topHeight"):SetFloat(59.0)
+					component("bottomHeight"):SetFloat(59.0)
+					component("leftWidth"):SetFloat(74.0)
+					component("rightWidth"):SetFloat(74.0)
+					component("size"):SetFloat(0.4*BreedingMenuScaleX())
+					component("includeBorder"):SetInt(1)
+					component("spriteName"):SetString("gfx/menu/Button_Frame")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</ninesliceComponent>
+
+			<spriteSheetComponent name="Icon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="12*BreedingMenuScaleX()" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("blue_arrow")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("size"):SetFloat(0.35*BreedingMenuScaleX())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<touchComponent name="Touch">
+				<size w="48*BreedingMenuScaleX()" h="48*BreedingMenuScaleY()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			</touchComponent>	
+
+		</element>
+	</template>
+
+	<!-- Middle Area -->
+	<element name="MiddleArea">
+		<size dependentOnElement="PARENT" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-48*BreedingMenuScaleX()" priorityOffset="0" />
+
+		<element name="LeftMonsterAnim">
+			<size w="150*BreedingMenuScaleX()" h="150*BreedingMenuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-90*BreedingMenuScaleX()" yOffset="0*BreedingMenuScaleX()" priorityOffset="35" />
+			<aeComponent name="Sprite">
+				<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			
+				<event name="onInit" params="component, element">
+					component("offsetCenter"):SetInt(1)
+					--component("animationName"):SetString("xml_bin/monster_a.bin")
+					--component("animation"):SetString("Store")
+					component:setScale(Vector2(1*BreedingMenuScaleX(), 1*BreedingMenuScaleY()))
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</aeComponent>
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("singleTouch"):SetInt(1)
+				</event>
+			</touchComponent>
+			<!-- Left Monster Bubbles-->
+			<effectComponent name="Effect">				
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					component("magnification"):SetFloat(6.0*BreedingMenuScaleX())
+					component("layer"):SetString("MidPopUps")
+					component("effect"):SetString("particles/Menus/BreedingMenu/FX_BreedingSpores.efkefc")
+				</event>
+			</effectComponent>
+			<!-- Left Monster Spore -->
+			<spriteSheetComponent name="Spore">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					local sporeGfx = "spore_A"
+					component("spriteName"):SetString(sporeGfx)
+					component("sheetName"):SetString("xml_resources/"..sporeGfx..".xml")
+					component("size"):SetFloat(0.8*BreedingMenuScaleX())
+					component("visible"):SetInt(0)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+		</element>
+
+		<element name="RightMonsterAnim">
+			<size w="150*BreedingMenuScaleX()" h="150*BreedingMenuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="90*BreedingMenuScaleX()" yOffset="0*BreedingMenuScaleX()" priorityOffset="35" />
+			<aeComponent name="Sprite">
+				<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("offsetCenter"):SetInt(1)                
+					--component("animationName"):SetString("xml_bin/monster_a.bin")
+					--component("animation"):SetString("Store")
+					component("hFlip"):SetInt(1)
+					component:setScale(Vector2(1*BreedingMenuScaleX(), 1*BreedingMenuScaleY()))
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</aeComponent>
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("singleTouch"):SetInt(1)
+				</event>
+			</touchComponent>
+			<!-- Right Monster Bubbles-->
+			<effectComponent name="Effect">				
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					component("magnification"):SetFloat(6.0*BreedingMenuScaleX())
+					component("layer"):SetString("MidPopUps")
+					component("effect"):SetString("particles/Menus/BreedingMenu/FX_BreedingSpores.efkefc")
+				</event>
+			</effectComponent>
+			<!-- Right Monster Spore -->
+			<spriteSheetComponent name="Spore">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					local sporeGfx = "spore_A"
+					component("spriteName"):SetString(sporeGfx)
+					component("sheetName"):SetString("xml_resources/"..sporeGfx..".xml")
+					component("size"):SetFloat(0.8*BreedingMenuScaleX())
+					component("visible"):SetInt(0)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+		</element>
+
+		<element name="HeartButton">
+			<size w="150*BreedingMenuScaleX()" h="150*BreedingMenuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="20" />
+
+			<spriteSheetComponent name="Sprite">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("breed_button_off")
+					component("sheetName"):SetString("xml_resources/breeding_menu.xml")
+					component("size"):SetFloat(0.5*BreedingMenuScaleX())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="Text">
+				<size dependentOnElement="element:name()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(1)
+					component("autoScale"):SetInt(1)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.5*BreedingMenuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)				
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("singleTouch"):SetInt(1)
+				</event>
+			</touchComponent>
+		</element>
+	</element>
+
+    <!--- fancy stuff for fun -->
+	<element name="BGGradient">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="49" />
+		<spriteComponent name="Sprite"/>
+	</element>
+
+	<element name="BGPattern">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="48" />
+		<spriteComponent name="Sprite"/>
+	</element>
+
+    <!-- Possible Eggs / Spores -->
+
+	<element name="PossibleEggsFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="48*BreedingMenuScaleX()" priorityOffset="4" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("tray_frame")
+                component("sheetName"):SetString("xml_resources/breeding_menu.xml")
+                component("size"):SetFloat(0.5*BreedingMenuScaleX())
+                component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="PossibleEggsBg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="PossibleEggsFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-8*BreedingMenuScaleY()" priorityOffset="10" />
+		<ninesliceComponent name="Sprite">
+			<size w="300*BreedingMenuScaleX()" h="64*BreedingMenuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.25*BreedingMenuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrameBG")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		</touchComponent>
+	</element>
+
+	<template type="template_breeding_torches" name="PossibleEggsTorches">
+		<templateVar name="$targetWidth" equals="220*BreedingMenuScaleX()" />
+		<templateVar name="$targetHeight" equals="32*BreedingMenuScaleX()" />    
+		<templateVar name="$torchScale" equals="0.35 * BreedingMenuScaleX()" />
+		<templateVar name="$torchSpacing" equals="4 * BreedingMenuScaleX()" />
+        <position relativeTo="PossibleEggsFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-16*BreedingMenuScaleX()" priorityOffset="1" />
+    </template>
+
+	<element name="PossibleEggsText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="PossibleEggsTorches" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-4*BreedingMenuScaleX()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size h="35" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.4*BreedingMenuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString(LOC("BREEDING_POSSIBLE_RESULTS"))
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="PossibleEggsList">
+		<size dependentOnElement="PossibleEggsBg" />
+		<position relativeTo="PossibleEggsBg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<swipeComponent name="Swiper"/>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onInit" params="component, element">
+				component:V("singleTouch"):SetInt(1)
+			</event>
+		</touchComponent>
+	</element>
+
+	<!-- Unique Monster Toggle -->
+
+	<template type="template_toggle" name="UniqueToggle">
+		<templateVar name="$layer" equals="MidPopUps"/>
+		<templateVar name="$label" equals="LOC('BREEDING_HIGHEST_LEVEL')" />
+		<size w="180*BreedingMenuScaleX()" h="36*BreedingMenuScaleY()" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="(4+lua_sys.deviceMarginX())*BreedingMenuScaleX()" yOffset="(4+lua_sys.deviceMarginY())*BreedingMenuScaleY()" priorityOffset="3" />
+	</template>
+		
+</menu>

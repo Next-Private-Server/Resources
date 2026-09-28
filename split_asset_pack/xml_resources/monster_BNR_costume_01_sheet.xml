@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:30b4624b301cb8a94ac76920712ec102:5ee2e2d5d7933ad39f9f559ee05c7e7f:ab12465a3e125f73da65fc5dbe719fa8$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BNR_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BNR_boots_l" x="0" y="77" w="102" h="78" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BNR_boots_r" x="28" y="157" w="74" h="101" pX="0.5" pY="0.5" oX="1" oY="2" oW="76" oH="104"/>
+	<sprite n="BNR_bow" x="0" y="157" w="26" h="336" pX="0.79972" pY="0.460317" oX="11" oY="19" oW="357" oH="63" r="y"/>
+	<sprite n="BNR_cap" x="0" y="0" w="124" h="75" pX="0.64" pY="0.5" oX="13" oY="7" oW="150" oH="89"/>
+	<sprite n="BNR_coat" x="104" y="106" w="102" h="77" pX="0.5" pY="0.794118" oX="6" oY="4" oW="114" oH="85"/>
+	<sprite n="BNR_skirt" x="126" y="0" w="111" h="104" pX="0.5" pY="0.350877" oX="5" oY="5" oW="121" oH="114"/>
+	<sprite n="BNR_sleeve_l" x="28" y="260" w="64" h="46" pX="0.346154" pY="0.188312" oX="3" oY="5" oW="52" oH="77" r="y"/>
+	<sprite n="BNR_sleeve_l_back" x="141" y="261" w="22" h="43" pX="0.31" pY="-1.70455" oX="4" oY="0" oW="50" oH="22" r="y"/>
+	<sprite n="BNR_sleeve_r" x="208" y="106" w="48" h="60" pX="0.363636" pY="0.252688" oX="3" oY="10" oW="66" oH="93"/>
+	<sprite n="BNR_sleeve_r_back" x="94" y="261" w="45" h="21" pX="0.447368" pY="-0.764706" oX="6" oY="7" oW="57" oH="34"/>
+	<sprite n="L foot" x="196" y="194" w="53" h="33" pX="0.5" pY="0.5"/>
+	<sprite n="L lower arm" x="208" y="168" w="48" h="24" pX="0.5" pY="0.5" oX="0" oY="24" oW="24" oH="72" r="y"/>
+	<sprite n="L upper arm" x="104" y="185" w="90" h="25" pX="0.5" pY="0.5" oX="0" oY="0" oW="26" oH="90" r="y"/>
+	<sprite n="L upper leg" x="104" y="212" w="74" h="23" pX="0.5" pY="0.5" oX="1" oY="0" oW="24" oH="74" r="y"/>
+	<sprite n="R foot" x="176" y="254" w="62" h="38" pX="0.5" pY="0.5"/>
+	<sprite n="R lower arm" x="94" y="284" w="42" h="22" pX="0.5" pY="0.5" oX="0" oY="14" oW="22" oH="56" r="y"/>
+	<sprite n="R upper arm" x="180" y="229" w="70" h="23" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="R upper leg" x="104" y="237" w="70" h="22" pX="0.5" pY="0.5" oX="1" oY="0" oW="24" oH="70" r="y"/>
+</TextureAtlas>

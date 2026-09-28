@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:eba5b6fbd5140bc223ce6b1ac7c581ff:8484bcfc361b44fafd503bd8e388b968:9d2b86f15316d34c1743db1828d1399c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_E_costume_15_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="E_body" x="0" y="0" w="231" h="116" pX="0.5" pY="0.840517" oX="1" oY="0" oW="120" oH="232" r="y"/>
+	<sprite n="E_hat_back" x="156" y="236" w="59" h="44" pX="1.13333" pY="4.72727" oX="1" oY="0" oW="60" oH="44"/>
+	<sprite n="E_hat_front" x="156" y="118" w="62" h="116" pX="0.568966" pY="3.42188" oX="0" oY="1" oW="116" oH="64" r="y"/>
+	<sprite n="E_jersey" x="0" y="118" w="154" h="120" pX="0.5" pY="0.788462" oX="0" oY="1" oW="120" oH="156" r="y"/>
+	<sprite n="E_jersey_top" x="108" y="240" w="40" h="40" pX="-0.5625" pY="3.125"/>
+	<sprite n="E_rightupperarm" x="0" y="240" w="106" h="50" pX="0.5" pY="0.5" oX="0" oY="1" oW="50" oH="110" r="y"/>
+</TextureAtlas>

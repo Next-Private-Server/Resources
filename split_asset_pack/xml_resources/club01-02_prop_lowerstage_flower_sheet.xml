@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2d540088ad9bb558cb584ca97cb4bfa0:ad14c96537b3277dd4ef4c6d08b714e0:cfa8dc9bc47aab9839211052d2fc08a9$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_lowerstage_flower_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="lstage_azalea_1" x="753" y="0" w="183" h="167" oX="31" oY="49" oW="296" oH="274">
+		<vertices>214 52 214 215 31 216 40 119 81 49</vertices>
+		<verticesUV>936 3 936 166 753 167 762 70 803 0</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_azalea_2" x="693" y="280" w="163" h="153" oX="7" oY="23" oW="180" oH="182">
+		<vertices>170 55 132 151 75 176 7 87 80 23</vertices>
+		<verticesUV>856 312 818 408 761 433 693 344 766 280</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_butterfly_body_large" x="609" y="774" w="89" h="207" oX="123" oY="61" oW="306" oH="300">
+		<vertices>161 268 125 159 123 63 212 61</vertices>
+		<verticesUV>647 981 611 872 609 776 698 774</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_butterfly_wing_large" x="282" y="719" w="177" h="230" oX="69" oY="30" oW="306" oH="300">
+		<vertices>246 43 168 249 97 260 69 136 177 30</vertices>
+		<verticesUV>459 732 381 938 310 949 282 825 390 719</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_carnation_1" x="395" y="92" w="197" h="193" oX="53" oY="18" oW="314" oH="246">
+		<vertices>234 43 250 155 171 211 88 191 53 125 76 44 145 18</vertices>
+		<verticesUV>576 117 592 229 513 285 430 265 395 199 418 118 487 92</verticesUV>
+		<triangles>4 5 6 2 4 6 2 3 4 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="lstage_carnation_2" x="434" y="734" w="175" h="180" oX="43" oY="36" oW="304" oH="258">
+		<vertices>218 101 210 189 154 216 62 188 43 117 65 44 183 36</vertices>
+		<verticesUV>609 799 601 887 545 914 453 886 434 815 456 742 574 734</verticesUV>
+		<triangles>4 5 6 0 4 6 2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="lstage_carnation_3" x="504" y="432" w="146" h="172" oX="93" oY="39" oW="334" oH="262">
+		<vertices>239 117 204 211 93 177 93 65 197 39</vertices>
+		<verticesUV>650 510 615 604 504 570 504 458 608 432</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_carnation_4" x="0" y="343" w="211" h="223" oX="77" oY="29" oW="380" oH="308">
+		<vertices>237 60 288 123 269 201 178 252 98 209 77 134 133 29</vertices>
+		<verticesUV>160 374 211 437 192 515 101 566 21 523 0 448 56 343</verticesUV>
+		<triangles>4 2 3 0 2 4 0 1 2 0 4 5 0 5 6</triangles>
+	</sprite>
+	<sprite n="lstage_chrys_1" x="560" y="0" w="200" h="170" oX="59" oY="70" oW="308" oH="308">
+		<vertices>259 151 199 211 83 240 59 73 204 70</vertices>
+		<verticesUV>760 81 700 141 584 170 560 3 705 0</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_chrys_2" x="191" y="611" w="197" h="213" oX="50" oY="66" oW="320" oH="342">
+		<vertices>217 90 247 172 141 279 50 188 66 109 132 66</vertices>
+		<verticesUV>358 635 388 717 282 824 191 733 207 654 273 611</verticesUV>
+		<triangles>1 4 5 1 2 3 1 3 4 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_chrys_3" x="190" y="0" w="231" h="204" oX="99" oY="88" oW="444" oH="408">
+		<vertices>330 196 300 292 135 281 99 173 166 98 293 88</vertices>
+		<verticesUV>421 108 391 204 226 193 190 85 257 10 384 0</verticesUV>
+		<triangles>2 0 1 2 3 4 2 4 0 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_chrys_4" x="694" y="639" w="145" h="135" oX="79" oY="42" oW="306" oH="238">
+		<vertices>224 177 79 177 79 42 224 42</vertices>
+		<verticesUV>839 774 694 774 694 639 839 639</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_chrys_5" x="584" y="149" w="191" h="162" oX="46" oY="43" oW="284" oH="250">
+		<vertices>208 70 237 127 202 196 74 205 46 65 136 43</vertices>
+		<verticesUV>746 176 775 233 740 302 612 311 584 171 674 149</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="lstage_chrys_6" x="828" y="316" w="155" h="131" oX="53" oY="40" oW="270" oH="230">
+		<vertices>208 137 91 171 53 108 80 52 173 40</vertices>
+		<verticesUV>983 413 866 447 828 384 855 328 948 316</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_daisy" x="0" y="785" w="211" h="198" oX="89" oY="60" oW="358" oH="302">
+		<vertices>300 177 249 245 171 258 89 211 95 111 143 60 241 60</vertices>
+		<verticesUV>211 902 160 970 82 983 0 936 6 836 54 785 152 785</verticesUV>
+		<triangles>2 5 6 2 4 5 2 3 4 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="lstage_freesia_1" x="215" y="197" w="183" h="217" oX="67" oY="58" oW="348" oH="324">
+		<vertices>250 66 250 200 175 275 103 238 67 160 95 58</vertices>
+		<verticesUV>398 205 398 339 323 414 251 377 215 299 243 197</verticesUV>
+		<triangles>1 2 3 1 3 4 1 4 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_freesia_2" x="202" y="438" w="205" h="191" oX="41" oY="54" oW="303" oH="290">
+		<vertices>246 101 226 245 68 219 41 93 145 54</vertices>
+		<verticesUV>407 485 387 629 229 603 202 477 306 438</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="lstage_freesia_3" x="755" y="167" w="190" h="155" oX="33" oY="53" oW="285" oH="257">
+		<vertices>187 56 223 107 174 208 33 162 85 53</vertices>
+		<verticesUV>909 170 945 221 896 322 755 276 807 167</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="lstage_large_butterfly_trail" x="0" y="0" w="246" h="395" oX="13" oY="10" oW="260" oH="440">
+		<vertices>203 66 203 250 259 384 214 405 128 360 54 249 13 142 26 73 140 28 214 33 210 44 176 10</vertices>
+		<verticesUV>190 56 190 240 246 374 201 395 115 350 41 239 0 132 13 63 127 18 201 23 197 34 163 0</verticesUV>
+		<triangles>6 7 8 0 6 8 6 0 1 1 3 4 1 2 3 1 4 5 6 1 5 9 10 11</triangles>
+	</sprite>
+	<sprite n="lstage_marigold_1" x="395" y="273" w="186" h="196" oX="48" oY="28" oW="274" oH="280">
+		<vertices>206 48 234 114 208 200 100 224 50 172 48 99 98 28</vertices>
+		<verticesUV>553 293 581 359 555 445 447 469 397 417 395 344 445 273</verticesUV>
+		<triangles>4 2 3 4 5 2 1 2 5 0 1 5 0 5 6</triangles>
+	</sprite>
+	<sprite n="lstage_marigold_2" x="694" y="500" w="140" h="139" oX="52" oY="49" oW="250" oH="232">
+		<vertices>192 188 52 188 52 49 192 49</vertices>
+		<verticesUV>834 639 694 639 694 500 834 500</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_right_freesia_1" x="374" y="549" w="188" h="188" oX="56" oY="22" oW="306" oH="290">
+		<vertices>208 50 244 113 210 210 109 198 56 141 96 22</vertices>
+		<verticesUV>526 577 562 640 528 737 427 725 374 668 414 549</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_small_butterfly" x="553" y="613" w="141" h="162" oX="11" oY="4" oW="180" oH="180">
+		<vertices>152 54 108 166 54 165 11 57 152 4</vertices>
+		<verticesUV>694 663 650 775 596 774 553 666 694 613</verticesUV>
+		<triangles>0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="lstage_small_butterfly_trail" x="668" y="774" w="88" h="155" oX="2" oY="1" oW="90" oH="156">
+		<vertices>72 156 2 156 2 136 33 1 90 1</vertices>
+		<verticesUV>738 929 668 929 668 909 699 774 756 774</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="lstage_sunflower" x="0" y="562" w="207" h="223" oX="17" oY="29" oW="263" oH="273">
+		<vertices>184 48 224 115 208 200 110 252 17 199 22 82 100 29</vertices>
+		<verticesUV>167 581 207 648 191 733 93 785 0 732 5 615 83 562</verticesUV>
+		<triangles>2 3 5 3 4 5 1 2 5 1 5 6 0 1 6</triangles>
+	</sprite>
+</TextureAtlas>

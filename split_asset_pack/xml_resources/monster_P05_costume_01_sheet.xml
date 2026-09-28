@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ac22c7976b2b35ef25868195fae05950:c061093b90eac59400c63127c18a1113:39d36a9d2cef9e05719f438f78530801$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_P05_costume_01_sheet.png" width="256" height="512" hires="true">
+    <sprite n="monster_P05_costume_01_goggles.png" x="2" y="2" w="132" h="122" oX="-16" oY="-49" oW="134" oH="138" r="y"/>
+    <sprite n="monster_P05_costume_01_hips.png" x="2" y="304" w="103" h="100" oX="4" oY="4" oW="108" oH="116" r="y"/>
+    <sprite n="monster_P05_costume_01_Lankle.png" x="125" y="196" w="119" h="38" oX="1" oY="3" oW="44" oH="124" r="y"/>
+    <sprite n="monster_P05_costume_01_Larm.png" x="2" y="223" w="111" h="79" oX="-6" oY="2" oW="82" oH="116" r="y"/>
+    <sprite n="monster_P05_costume_01_Lflipper.png" x="136" y="82" w="115" h="70" oX="-26" oY="3" oW="122" oH="82"/>
+    <sprite n="monster_P05_costume_01_LlowerLeg.png" x="45" y="406" w="38" h="88" oX="2" oY="2" oW="48" oH="92"/>
+    <sprite n="monster_P05_costume_01_LupperLeg.png" x="2" y="178" w="121" h="43" oX="8" oY="4" oW="58" oH="128" r="y"/>
+    <sprite n="monster_P05_costume_01_Rankle.png" x="127" y="154" w="122" h="40" oX="3" oY="4" oW="48" oH="128" r="y"/>
+    <sprite n="monster_P05_costume_01_Rarm.png" x="115" y="236" w="111" h="79" oX="-4" oY="2" oW="80" oH="116" r="y"/>
+    <sprite n="monster_P05_costume_01_Rflipper.png" x="136" y="2" w="116" h="78" oX="-25" oY="3" oW="122" oH="82"/>
+    <sprite n="monster_P05_costume_01_RlowerLeg.png" x="2" y="406" w="41" h="92" oX="1" oY="0" oW="48" oH="92"/>
+    <sprite n="monster_P05_costume_01_RupperLeg.png" x="2" y="126" w="123" h="50" oX="2" oY="2" oW="52" oH="128" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d22b4708a5b6a04c1e5ac6bebeec1d06:89504486c2609868bd846a688d19a38a:28de674076f0c79f3e8b0db46f8d29dc$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S09_RARE_costume_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="S09_bubble_maker" x="0" y="194" w="191" h="70" pX="0.48840000000000006" pY="0.90035" oX="14" oY="4" oW="100" oH="200" r="y"/>
+	<sprite n="S09_bubble_maker_right" x="0" y="266" w="191" h="70" pX="0.4592" pY="0.8371" oX="14" oY="4" oW="100" oH="200" r="y"/>
+	<sprite n="S09_candle_B_icing_RARE" x="935" y="111" w="77" h="38" pX="0.5" pY="0.5" oX="11" oY="11" oW="100" oH="60"/>
+	<sprite n="S09_candle_C_icing_RARE" x="992" y="436" w="32" h="54" pX="0.5" pY="0.5" oX="13" oY="14" oW="80" oH="60" r="y"/>
+	<sprite n="S09_candle_E_icing_RARE" x="193" y="309" w="147" h="56" pX="0.5" pY="0.5" oX="6" oY="12" oW="160" oH="80"/>
+	<sprite n="S09_candle_F_icing_01_RARE" x="0" y="338" w="171" h="58" pX="0.5" pY="0.5" oX="14" oY="11" oW="200" oH="80"/>
+	<sprite n="S09_candle_F_icing_02_RARE" x="935" y="151" w="73" h="59" pX="0.5" pY="0.5" oX="10" oY="3" oW="80" oH="80" r="y"/>
+	<sprite n="S09_eye_A_icing_RARE" x="992" y="492" w="31" h="69" pX="0.5" pY="0.5" oX="15" oY="14" oW="100" oH="60" r="y"/>
+	<sprite n="S09_eye_B_icing_RARE" x="935" y="0" w="86" h="32" pX="0.5" pY="0.5" oX="7" oY="14" oW="100" oH="60"/>
+	<sprite n="S09_eye_F_icing_RARE" x="935" y="34" w="82" h="75" pX="0.5" pY="0.5" oX="12" oY="9" oW="100" oH="100" r="y"/>
+	<sprite n="S09_eye_F_icing_top_RARE" x="992" y="365" w="32" h="69" pX="0.5" pY="0.5" oX="5" oY="4" oW="80" oH="40" r="y"/>
+	<sprite n="S09_head_icing_RARE" x="698" y="0" w="235" h="162" pX="0.5" pY="0.5" oX="62" oY="39" oW="360" oH="240"/>
+	<sprite n="S09_head_RARE" x="691" y="303" w="225" h="219" pX="0.5" pY="0.5" oX="67" oY="70" oW="360" oH="360"/>
+	<sprite n="S09_left_arm_01_RARE" x="918" y="314" w="96" h="49" pX="0.5" pY="0.5" oX="16" oY="12" oW="80" oH="120" r="y"/>
+	<sprite n="S09_left_arm_02_RARE" x="680" y="524" w="69" h="48" pX="0.5" pY="0.5" oX="6" oY="5" oW="60" oH="80" r="y"/>
+	<sprite n="S09_left_arm_03_RARE" x="933" y="273" w="73" h="39" pX="0.5" pY="0.5" oX="10" oY="13" oW="60" oH="100" r="y"/>
+	<sprite n="S09_left_arm_04_RARE" x="624" y="387" w="61" h="42" pX="0.5" pY="0.5" oX="9" oY="9" oW="60" oH="80" r="y"/>
+	<sprite n="S09_left_arm_05_RARE" x="933" y="212" w="73" h="59" pX="0.5" pY="0.5" oX="21" oY="14" oW="100" oH="100" r="y"/>
+	<sprite n="S09_left_leg_RARE" x="193" y="194" w="157" h="113" pX="0.5" pY="0.5" oX="43" oY="21" oW="200" oH="200" r="y"/>
+	<sprite n="S09_right_arm_01_RARE" x="173" y="367" w="166" h="71" pX="0.5" pY="0.5" oX="14" oY="7" oW="100" oH="180" r="y"/>
+	<sprite n="S09_right_arm_02_RARE" x="624" y="472" w="59" h="44" pX="0.5" pY="0.5" oX="8" oY="10" oW="60" oH="80" r="y"/>
+	<sprite n="S09_right_arm_03_RARE" x="439" y="503" w="36" h="53" pX="0.5" pY="0.5" oX="12" oY="13" oW="60" oH="80"/>
+	<sprite n="S09_right_arm_04_RARE" x="624" y="431" w="60" h="39" pX="0.5" pY="0.5" oX="10" oY="10" oW="60" oH="80" r="y"/>
+	<sprite n="S09_right_arm_05_RARE" x="622" y="518" w="56" h="72" pX="0.5" pY="0.5" oX="22" oY="14" oW="100" oH="100"/>
+	<sprite n="S09_right_leg_RARE" x="0" y="398" w="161" h="119" pX="0.5" pY="0.5" oX="40" oY="19" oW="200" oH="200" r="y"/>
+	<sprite n="S09_sparkler_01" x="486" y="387" w="136" h="112" pX="0.5" pY="0.8333333333333334" oX="38" oY="26" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_02" x="341" y="387" w="143" h="114" pX="0.5" pY="0.8333333333333334" oX="34" oY="20" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_03" x="0" y="519" w="136" h="116" pX="0.5" pY="0.8333333333333334" oX="39" oY="27" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_04" x="163" y="440" w="140" h="113" pX="0.5" pY="0.8333333333333334" oX="39" oY="22" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_RIGHT_01" x="0" y="637" w="129" h="112" pX="0.5" pY="0.8333333333333334" oX="46" oY="33" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_RIGHT_02" x="486" y="501" w="134" h="110" pX="0.5" pY="0.8333333333333334" oX="45" oY="28" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_RIGHT_03" x="138" y="555" w="131" h="119" pX="0.5" pY="0.5" oX="45" oY="32" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sparkler_RIGHT_04" x="305" y="503" w="132" h="112" pX="0.5" pY="0.8333333333333334" oX="46" oY="30" oW="186" oH="186" r="y"/>
+	<sprite n="S09_sprinkles_bottom_RARE" x="354" y="0" w="342" h="163" pX="0.5" pY="0.5" oX="91" oY="73" oW="500" oH="260"/>
+	<sprite n="S09_sprinkles_top_RARE" x="698" y="164" w="233" h="137" pX="0.5" pY="0.5" oX="153" oY="86" oW="500" oH="260"/>
+	<sprite n="S09_torso_icing_drip_RARE" x="918" y="365" w="72" h="179" pX="0.5" pY="0.5" oX="14" oY="10" oW="100" oH="200"/>
+	<sprite n="S09_torso_icing_RARE" x="0" y="0" w="352" h="192" pX="0.5" pY="0.5" oX="34" oY="44" oW="420" oH="280"/>
+	<sprite n="S09_torso_RARE" x="354" y="165" w="335" h="220" pX="0.5" pY="0.5" oX="81" oY="40" oW="500" oH="300"/>
+</TextureAtlas>

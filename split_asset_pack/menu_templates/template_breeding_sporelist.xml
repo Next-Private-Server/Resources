@@ -1,0 +1,22 @@
+	<template name="template_breeding_spore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">		
+        
+        <size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		
+        <spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				local sporeGfx = "spore_A"
+				component("spriteName"):SetString(sporeGfx)
+				component("sheetName"):SetString("xml_resources/"..sporeGfx..".xml")
+				component("size"):SetFloat(0.8*game.hudScale())
+				component("visible"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+
+	</template>

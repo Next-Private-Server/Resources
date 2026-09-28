@@ -1,0 +1,121 @@
+<template name="template_storeitem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/CardAlbumStoreItem.lua"/>
+	
+	<defaultTemplateVar name="$storeItemId" equals="1" />
+	<defaultTemplateVar name="$spriteName" equals="button_mystery_box_small" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+
+	<ninesliceComponent name="Bg">
+		<size w="95*game.windowScaleY()" h="105*game.windowScaleY()" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="8*game.windowScaleY()" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5*game.windowScaleY())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/BlackSolid9SFrame50")
+				component("layer"):SetString("MidFrontPopUps")
+			]]>
+		</event>
+	</ninesliceComponent>
+
+	<aeComponent name="Beams">
+		<position relativeTo="element:name()" component="Bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-5*game.windowScaleY()" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("offsetCenter"):SetInt(1)
+				component("animationName"):SetString("xml_bin/beam_rotation.bin")
+				component("animation"):SetString("beam_burst_01")
+				component("visible"):SetInt(1)
+				component:setScale(Vector2(0.5*game.windowScaleY(), 0.5*game.windowScaleY()))
+				component("layer"):SetString("MidFrontPopUps")
+			]]>
+		</event>
+	</aeComponent>
+
+	<spriteSheetComponent name="Icon">
+		<position relativeTo="element:name()" component="Bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString(element:templateVars().spriteName)
+				component("sheetName"):SetString("xml_resources/battle_buttons.xml")
+				component("layer"):SetString("MidFrontPopUps")
+				component("size"):SetFloat(0.4*game.windowScaleY())
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<template type="template_nineslicebutton" name="BuyButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+		<templateVar name="$spriteScale" equals="0.4*game.windowScaleY()" />
+		<templateVar name="$text" equals="" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$textPadding" equals="4*game.windowScaleY()" />
+		<templateVar name="$autoScaleFactor" equals="0.01" />
+		<templateVar name="$topHeight" equals="30.0" />
+		<templateVar name="$bottomHeight" equals="30.0" />
+		<templateVar name="$leftWidth" equals="35.0" />
+		<templateVar name="$rightWidth" equals="35.0" />
+		<templateVar name="$width" equals="80*game.windowScaleY()" />
+		<templateVar name="$height" equals="25*game.windowScaleY()" />
+		<templateVar name="$includeBorder" equals="1" />	
+		<templateVar name="$layer" equals="MidFrontPopUps" />
+		<position relativeTo="PARENT" component="Bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-5*game.windowScaleY()" priorityOffset="-1" />
+
+
+		<element name="CurrencyAmount">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<textComponent name="Text">
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.25*game.windowScaleY())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("100")
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidFrontPopUps")
+				</event>
+			</textComponent>
+			<spriteSheetComponent name="Sprite">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("sticker_star")
+					component("sheetName"):SetString("xml_resources/hud03.xml")
+					component("size"):SetFloat(0.25*game.windowScaleY())
+					component("layer"):SetString("MidFrontPopUps")
+				</event>
+			</spriteSheetComponent>
+			<event name="onPostInit" params="element">
+				<![CDATA[
+	
+					local MenuHelpers = include("MenuHelpers")
+					MenuHelpers.CenterHorizontally({
+						element:GetComponent("Sprite"),
+						element:GetComponent("Text"),
+					})
+					element:setSize(Vector2(element:C("Text"):absW() + element:C("Sprite"):absW(), element:C("Sprite"):absH()))
+				]]>
+			</event>
+		</element>
+	
+	</template>
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-5" />
+	</touchComponent>
+	
+</template>

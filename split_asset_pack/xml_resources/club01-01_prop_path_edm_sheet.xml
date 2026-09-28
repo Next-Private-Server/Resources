@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9cc6a96f0b3e5cbe10f2a11fe2f47ec4:f473db59bf791d879611daf8c7ea5128:17ea007ad979ce1cbd791f5d7768a203$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_path_edm_sheet.png" width="64" height="512" hires="true" version="1">
+	<sprite n="side light" x="0" y="0" w="44" h="373" oX="162" oY="0" oW="698" oH="44" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fec290a236e7d117c37005387fa4f283:bcc00a2d2bfd66fa28053762309842fe:ed82c9031dc78139b640bb0a0e9a3a40$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island16_sheet03_clover.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="eye_glow" x="0" y="800" w="782" h="763" oX="20" oY="34" oW="812" oH="820" r="y"/>
+	<sprite n="pupil" x="0" y="0" w="800" h="798" oX="0" oY="1" oW="800" oH="800"/>
+</TextureAtlas>

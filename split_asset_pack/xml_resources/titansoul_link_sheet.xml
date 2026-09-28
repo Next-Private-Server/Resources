@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:869b366dad2f1695b321382dd86e3222:4db4336e056aeb329cf9bf730484d63d:44a0caa30413f18d4deda7488d6f2b4a$ -->
+<TextureAtlas imagePath="gfx/titansoul/titansoul_link_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="titan_sigial_ball" x="102" y="0" w="26" h="26" oX="37" oY="62" oW="100" oH="150"/>
+	<sprite n="titan_sigial_fill" x="136" y="0" w="115" h="74" oX="12" oY="16" oW="100" oH="150" r="y"/>
+	<sprite n="titan_sigial_fill_glow" x="0" y="0" w="100" h="143" oX="0" oY="2" oW="100" oH="150"/>
+	<sprite n="titan_sigial_outline" x="0" y="145" w="134" h="94" oX="2" oY="6" oW="100" oH="150" r="y"/>
+	<sprite n="titan_sigial_outline_glow" x="136" y="76" w="80" h="121" oX="9" oY="13" oW="100" oH="150"/>
+</TextureAtlas>

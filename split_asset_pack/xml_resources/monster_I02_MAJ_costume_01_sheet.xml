@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:408d277d977425f1da41387691c7f58d:2c4a04982266914022ccbfff64c0e971:34b2b7a37b95ceec8058c9902256a117$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_I02_MAJ_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="I02_maj_eyelid_left" x="92" y="415" w="38" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="68" oH="38" r="y"/>
+	<sprite n="I02_maj_eyelid_left_back_01" x="76" y="0" w="103" h="129" pX="1.12121" pY="1.70192" oX="1" oY="0" oW="132" oH="104" r="y"/>
+	<sprite n="I02_maj_eyelid_left_back_02" x="386" y="0" w="112" h="99" pX="1.68" pY="0.9375" oX="0" oY="0" oW="100" oH="112" r="y"/>
+	<sprite n="I02_maj_eyelid_right" x="92" y="359" w="63" h="40" pX="0.5" pY="0.5" oX="0" oY="0" oW="63" oH="41"/>
+	<sprite n="I02_maj_eyewing_left" x="384" y="202" w="112" h="80" pX="0.5" pY="0.5" oX="1" oY="0" oW="82" oH="113" r="y"/>
+	<sprite n="I02_maj_eyewing_right" x="181" y="0" w="87" h="116" pX="0.5" pY="0.5" oX="0" oY="1" oW="87" oH="120"/>
+	<sprite n="I02_maj_head_right_01" x="270" y="0" w="114" h="115" pX="-0.146552" pY="1.63793" oX="1" oY="0" oW="116" oH="116"/>
+	<sprite n="I02_maj_head_right_02" x="386" y="101" w="112" h="99" pX="-0.71" pY="0.9375" oX="0" oY="0" oW="100" oH="112" r="y"/>
+	<sprite n="I02_maj_head_vine" x="297" y="290" w="83" h="43" pX="-1.3863636363636365" pY="0.4809523809523809" oX="0" oY="0" oW="44" oH="84" r="y"/>
+	<sprite n="I02_maj_head_vine_left" x="286" y="370" w="83" h="43" pX="2.2954545454545454" pY="0.48214285714285715" oX="0" oY="0" oW="44" oH="84" r="y"/>
+	<sprite n="I02_maj_wing_01" x="286" y="335" w="87" h="33" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="I02_maj_wing_02" x="112" y="131" w="81" h="45" pX="0.5" pY="0.5" oX="0" oY="0" oW="46" oH="81" r="y"/>
+	<sprite n="I02_maj_wing_03" x="164" y="302" w="26" h="34" pX="0.5" pY="0.5" oX="0" oY="0" oW="34" oH="27" r="y"/>
+	<sprite n="I02_maj_wing_04" x="310" y="117" w="72" h="72" pX="0.5" pY="0.5" oX="2" oY="0" oW="77" oH="72"/>
+	<sprite n="I02_maj_wing_05" x="384" y="284" w="96" h="96" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="99"/>
+	<sprite n="I02_maj_wing_06" x="298" y="191" w="84" h="97" pX="0.5" pY="0.5" oX="2" oY="2" oW="102" oH="86" r="y"/>
+	<sprite n="I02_pipe_01_back" x="85" y="180" w="111" h="120" pX="0.205357" pY="0.879032" oX="0" oY="2" oW="112" oH="124"/>
+	<sprite n="I02_pipe_01_front" x="198" y="178" w="98" h="70" pX="0.291667" pY="0.82" oX="1" oY="1" oW="72" oH="100" r="y"/>
+	<sprite n="I02_pipe_01_glow" x="0" y="181" w="83" h="176" pX="0.5" pY="0.5" oX="5" oY="4" oW="91" oH="182"/>
+	<sprite n="I02_pipe_02_back" x="0" y="0" w="74" h="179" pX="0.657895" pY="0.922222" oX="1" oY="0" oW="76" oH="180"/>
+	<sprite n="I02_pipe_02_front" x="85" y="302" w="77" h="55" pX="0.517857" pY="0.8125" oX="0" oY="1" oW="56" oH="80" r="y"/>
+	<sprite n="I02_pipe_03_back" x="198" y="250" w="97" h="75" pX="0.798701" pY="0.873737" oX="1" oY="1" oW="77" oH="99" r="y"/>
+	<sprite n="I02_pipe_03_back_mushrooms" x="76" y="131" w="34" h="47" pX="1.61111" pY="1.9375" oX="1" oY="0" oW="36" oH="48"/>
+	<sprite n="I02_pipe_03_front" x="192" y="327" w="92" h="63" pX="0.605263" pY="0.635417" oX="0" oY="3" oW="76" oH="96" r="y"/>
+	<sprite n="I02_pipe_03_glow" x="0" y="359" w="90" h="140" pX="0.5" pY="0.5" oX="6" oY="3" oW="99" oH="145"/>
+	<sprite n="I02_shadow" x="195" y="118" w="113" h="58" pX="0.5" pY="0.5"/>
+</TextureAtlas>

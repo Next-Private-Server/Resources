@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d9554bf14852f8cc5063febf0d0358a0:b4984453d8bf1e5605ad284584585523:119c2f4524301c96273edacdd6191f86$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_LM_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="LM_claw_LEFT_EPIC" x="0" y="0" w="221" h="51" oX="9" oY="2" oW="240" oH="60" />
+  <sprite n="LM_claw_RIGHT_EPIC" x="223" y="0" w="221" h="49" oX="9" oY="4" oW="240" oH="60" />
+  <sprite n="LM_hair_LEFT" x="0" y="150" w="120" h="88" oX="9" oY="6" oW="140" oH="100" />
+  <sprite n="LM_hair_RIGHT" x="145" y="53" w="76" h="102" oX="10" oY="11" oW="120" oH="100" r="y" />
+  <sprite n="LM_head_EPIC" x="118" y="279" w="82" h="67" oX="5" oY="3" oW="96" oH="76" />
+  <sprite n="LM_leafpad" x="223" y="51" w="159" h="81" oX="0" oY="1" oW="160" oH="84" />
+  <sprite n="LM_left_eyeball" x="263" y="443" w="40" h="44" oX="6" oY="1" oW="50" oH="70" />
+  <sprite n="LM_left_eyelid_01" x="224" y="447" w="37" h="45" oX="5" oY="26" oW="50" oH="70" r="y" />
+  <sprite n="LM_left_eyelid_02" x="184" y="398" w="46" h="47" oX="4" oY="16" oW="50" oH="70" />
+  <sprite n="LM_left_eyelid_03" x="384" y="109" w="59" h="44" oX="3" oY="4" oW="50" oH="70" r="y" />
+  <sprite n="LM_left_eyelid_04" x="36" y="371" w="44" h="63" oX="4" oY="0" oW="50" oH="70" />
+  <sprite n="LM_left_lowerarm_EPIC" x="0" y="240" w="116" h="44" oX="1" oY="9" oW="120" oH="60" />
+  <sprite n="LM_left_upperarm_EPIC" x="0" y="333" w="104" h="36" oX="9" oY="1" oW="120" oH="40" />
+  <sprite n="LM_lowerbody_EPIC" x="0" y="53" w="143" h="95" oX="0" oY="1" oW="100" oH="144" r="y" />
+  <sprite n="LM_mouth_01" x="436" y="227" w="73" h="30" oX="3" oY="0" oW="80" oH="40" />
+  <sprite n="LM_mouth_02" x="432" y="285" w="71" h="36" oX="4" oY="0" oW="80" oH="40" />
+  <sprite n="LM_mouth_03" x="446" y="0" w="65" h="35" oX="8" oY="2" oW="80" oH="40" />
+  <sprite n="LM_mushroom_01" x="407" y="284" w="23" h="28" oX="1" oY="3" oW="30" oH="30" r="y" />
+  <sprite n="LM_mushroom_02" x="232" y="397" w="41" h="44" oX="4" oY="6" oW="50" oH="50" r="y" />
+  <sprite n="LM_mushroom_03" x="136" y="157" w="84" h="70" oX="18" oY="5" oW="100" oH="100" r="y" />
+  <sprite n="LM_mushroom_04" x="223" y="134" w="117" h="106" oX="6" oY="14" oW="130" oH="130" />
+  <sprite n="LM_mushroom_05" x="445" y="140" w="67" h="85" oX="3" oY="9" oW="90" oH="90" r="y" />
+  <sprite n="LM_mushroom_06" x="217" y="242" w="114" h="68" oX="2" oY="11" oW="120" oH="90" />
+  <sprite n="LM_neck" x="122" y="229" w="93" h="48" oX="4" oY="1" oW="52" oH="96" r="y" />
+  <sprite n="LM_neck_ruff_EPIC" x="384" y="51" w="59" h="56" oX="1" oY="1" oW="60" oH="60" r="y" />
+  <sprite n="LM_pupil" x="122" y="150" w="12" h="12" />
+  <sprite n="LM_right_eyeball" x="272" y="323" w="39" h="44" oX="6" oY="2" oW="50" oH="70" />
+  <sprite n="LM_right_eyelid_01" x="184" y="447" w="38" h="45" oX="1" oY="25" oW="50" oH="70" r="y" />
+  <sprite n="LM_right_eyelid_02" x="224" y="348" w="46" h="47" oX="1" oY="16" oW="50" oH="70" />
+  <sprite n="LM_right_eyelid_03" x="82" y="371" w="44" h="59" oX="4" oY="4" oW="50" oH="70" />
+  <sprite n="LM_right_eyelid_04" x="45" y="436" w="44" h="63" oX="3" oY="0" oW="50" oH="70" />
+  <sprite n="LM_right_lowerarm_EPIC" x="0" y="286" w="114" h="45" oX="5" oY="7" oW="120" oH="60" />
+  <sprite n="LM_right_upperarm_EPIC" x="342" y="155" w="101" h="31" oX="10" oY="7" oW="120" oH="40" />
+  <sprite n="LM_roots_01" x="342" y="188" w="92" h="46" oX="0" oY="1" oW="100" oH="50" />
+  <sprite n="LM_roots_02" x="0" y="371" w="34" h="71" oX="2" oY="1" oW="80" oH="40" r="y" />
+  <sprite n="LM_roots_03" x="91" y="432" w="49" h="57" oX="5" oY="3" oW="60" oH="60" />
+  <sprite n="LM_roots_04" x="0" y="444" w="43" h="67" oX="8" oY="10" oW="60" oH="80" />
+  <sprite n="LM_roots_05" x="142" y="431" w="40" h="50" r="y" />
+  <sprite n="LM_roots_06" x="202" y="314" w="38" h="32" oX="0" oY="3" oW="40" oH="40" />
+  <sprite n="LM_roots_07" x="128" y="348" w="46" h="50" oX="1" oY="0" oW="50" oH="50" />
+  <sprite n="LM_shadow" x="342" y="236" w="92" h="46" oX="0" oY="1" oW="92" oH="48" />
+  <sprite n="LM_stock_01" x="128" y="400" w="38" h="29" oX="1" oY="2" oW="30" oH="40" r="y" />
+  <sprite n="LM_stock_02" x="436" y="259" w="73" h="24" oX="8" oY="3" oW="40" oH="80" r="y" />
+  <sprite n="LM_stock_03" x="333" y="284" w="72" h="26" oX="7" oY="3" oW="40" oH="80" r="y" />
+  <sprite n="LM_stock_04" x="176" y="348" w="46" h="48" oX="1" oY="2" oW="50" oH="50" r="y" />
+  <sprite n="LM_upperbody" x="446" y="37" w="63" h="101" oX="0" oY="0" oW="64" oH="104" />
+</TextureAtlas>

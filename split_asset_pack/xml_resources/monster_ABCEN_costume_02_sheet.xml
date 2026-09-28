@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:20fe7fd88b4b70fc5df5956571c9679e:97c23ec238e990cdcaa59e48ebf7601c:098a03209dfbac03de362cc11db4fa43$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCEN_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABCEN_drummidary_drum_a" x="175" y="0" w="138" h="100" pX="0.5" pY="0.5" oX="2" oY="2" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_drummidary_drum_b" x="315" y="90" w="133" h="101" pX="0.5" pY="0.5" oX="37" oY="4" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_drummidary_drum_stick" x="315" y="0" w="135" h="88" pX="0.5" pY="0.5" oX="0" oY="15" oW="140" oH="120"/>
+	<sprite n="ABCEN_drummidary_drumhead_01" x="0" y="356" w="97" h="123" pX="0.5" pY="0.5" oX="11" oY="2" oW="120" oH="130"/>
+	<sprite n="ABCEN_drummidary_drumhead_02" x="175" y="102" w="123" h="99" pX="0.5" pY="0.5" oX="11" oY="2" oW="120" oH="130" r="y"/>
+	<sprite n="ABCEN_drummidary_drumhead_03" x="300" y="193" w="123" h="99" pX="0.5" pY="0.5" oX="11" oY="2" oW="120" oH="130" r="y"/>
+	<sprite n="ABCEN_drummidary_head" x="0" y="0" w="173" h="171" pX="0.5" pY="0.5" oX="15" oY="10" oW="200" oH="200"/>
+	<sprite n="ABCEN_drummidary_left_claw" x="36" y="294" w="90" h="50" pX="0.5" pY="0.5" oX="4" oY="3" oW="60" oH="100" r="y"/>
+	<sprite n="ABCEN_drummidary_left_thumb" x="481" y="260" w="29" h="46" pX="0.5" pY="0.5" oX="5" oY="0" oW="40" oH="50"/>
+	<sprite n="ABCEN_drummidary_left_wrist" x="99" y="356" w="99" h="100" pX="0.5" pY="0.5" oX="0" oY="1" oW="100" oH="100" r="y"/>
+	<sprite n="ABCEN_drummidary_right_claw" x="425" y="260" w="54" h="94" pX="0.5" pY="0.5" oX="12" oY="1" oW="80" oH="100"/>
+	<sprite n="ABCEN_drummidary_right_thumb" x="0" y="294" w="34" h="51" pX="0.5" pY="0.5" oX="12" oY="3" oW="60" oH="60"/>
+	<sprite n="ABCEN_drummidary_right_wrist" x="0" y="173" w="99" h="104" pX="0.5" pY="0.5" oX="18" oY="21" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_drummidary_wheel_01" x="425" y="196" w="79" h="62" pX="0.5" pY="0.5" oX="9" oY="11" oW="80" oH="100" r="y"/>
+	<sprite n="ABCEN_drummidary_wheel_02" x="452" y="0" w="60" h="78" pX="0.5" pY="0.5" oX="11" oY="11" oW="80" oH="100"/>
+	<sprite n="ABCEN_drummidary_wheel_03" x="450" y="113" w="62" h="81" pX="0.5" pY="0.5" oX="9" oY="9" oW="80" oH="100"/>
+	<sprite n="ABCEN_drummidary_wheel_foot" x="452" y="80" w="59" h="31" pX="0.5" pY="0.5" oX="6" oY="4" oW="70" oH="40"/>
+</TextureAtlas>

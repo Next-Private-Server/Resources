@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6d481291914848da0442bb38d6b51626:c45330366e6aea0ee99e5d906c76d542:a0e74abcf22a68f99e09d4795358cc28$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_costume_10_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABE_fur_eyeback" x="150" y="259" w="43" h="83" pX="0.5" pY="0.5" oX="1" oY="4" oW="88" oH="48" r="y"/>
+	<sprite n="ABE_fur_eyelids_1" x="170" y="384" w="34" h="72" pX="0.5" pY="0.5" oX="8" oY="8" oW="88" oH="48" r="y"/>
+	<sprite n="ABE_fur_eyelids_2" x="201" y="337" w="72" h="34" pX="0.5" pY="0.5" oX="8" oY="8" oW="88" oH="48"/>
+	<sprite n="ABE_fur_mouth_1" x="163" y="344" w="36" h="38" pX="0.5" pY="0.5" oX="2" oY="0" oW="40" oH="36" r="y"/>
+	<sprite n="ABE_fur_mouth_2" x="379" y="42" w="31" h="40" pX="0.5" pY="0.5" oX="0" oY="2" oW="40" oH="36" r="y"/>
+	<sprite n="ABE_fur_mouth_3" x="132" y="344" w="29" h="40" pX="0.5" pY="0.5" oX="0" oY="3" oW="40" oH="36" r="y"/>
+	<sprite n="ABE_fur_mouth_4" x="170" y="458" w="25" h="25" pX="0.5" pY="0.5" oX="10" oY="3" oW="40" oH="36"/>
+	<sprite n="ABE_fur_nose" x="497" y="48" w="12" h="16" pX="0.5625" pY="0.5" r="y"/>
+	<sprite n="ABE_left_mushroom_stalk" x="158" y="152" w="52" h="79" pX="0.5" pY="0.5" oX="0" oY="0" oW="52" oH="80"/>
+	<sprite n="ABE_left_mushroom_top" x="0" y="335" w="130" h="70" pX="0.5" pY="0.5"/>
+	<sprite n="ABE_pink_eyeback" x="85" y="407" w="83" h="104" pX="0.490741" pY="0.522727" oX="2" oY="2" oW="108" oH="88" r="y"/>
+	<sprite n="ABE_pink_eyelids_1" x="412" y="0" w="83" h="105" pX="0.490741" pY="0.522727" oX="1" oY="2" oW="108" oH="88" r="y"/>
+	<sprite n="ABE_pink_eyelids_2" x="0" y="407" w="83" h="105" pX="0.5" pY="0.5" oX="1" oY="2" oW="108" oH="88" r="y"/>
+	<sprite n="ABE_pupil" x="497" y="0" w="15" h="14" pX="0.633333" pY="0.5"/>
+	<sprite n="ABE_pupil_02" x="497" y="16" w="15" h="14" pX="1.76667" pY="-0.928571"/>
+	<sprite n="ABE_pupil_03" x="497" y="32" w="15" h="14" pX="0.9" pY="-1.07143"/>
+	<sprite n="ABE_right_mushroom_stalk" x="195" y="271" w="76" h="64" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABE_right_mushroom_top" x="212" y="196" w="146" h="73" pX="0.5" pY="0.5" oX="0" oY="1" oW="146" oH="76"/>
+	<sprite n="ABE_shadow" x="150" y="233" w="48" h="24" pX="0.5" pY="0.5"/>
+	<sprite n="ABE_shadow_ground" x="218" y="0" w="192" h="40" pX="0.5" pY="0.5"/>
+	<sprite n="ABE_thumpie_fur" x="379" y="107" w="132" h="128" pX="0.507576" pY="0.492188"/>
+	<sprite n="ABE_thumpie_glitch" x="0" y="185" w="148" h="148" pX="0.5" pY="0.5"/>
+	<sprite n="ABE_thumpie_pink" x="218" y="42" w="159" h="152" pX="0.394737" pY="0.64375" oX="0" oY="0" oW="152" oH="160" r="y"/>
+	<sprite n="ABE_thumpie_pink_mask" x="158" y="105" w="55" h="45" pX="1.03571" pY="1" oX="0" oY="1" oW="56" oH="48"/>
+	<sprite n="ABE_treestump" x="0" y="0" w="216" h="103" pX="0.50463" pY="0.461538" oX="0" oY="0" oW="216" oH="104"/>
+	<sprite n="ABE_treestump_top" x="0" y="105" w="156" h="78" pX="0.49359" pY="0.4625" oX="0" oY="1" oW="156" oH="80"/>
+</TextureAtlas>

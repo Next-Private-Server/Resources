@@ -1,0 +1,153 @@
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/ClubboxUnlockFanfare.lua" />
+	
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="8" />
+		<templateVar name="$touchPriority" equals="-4" />
+		<templateVar name="$maxAlpha" equals="0.25"/>
+	</template>
+
+	<element name="BorderTop">
+		<size w="screenWidth()" h="128*game.hudScale()"/>
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-128*game.hudScale()" priorityOffset="4" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+					component:setScale(
+						Vector2( element:absW() / 4.0, element:absH() / 4.0))
+					component:setColor(0.0, 0.0, 0.0)
+					component("layer"):SetString("FrontPopUps")
+					component("visible"):SetInt(1)
+				]]>
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="BorderBottom">
+		<size w="screenWidth()" h="128*game.hudScale()"/>
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="128*game.hudScale()" priorityOffset="4" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+					component:setScale(
+						Vector2( element:absW() / 4.0, element:absH() / 4.0))
+					component:setColor(0.0, 0.0, 0.0)
+					component("layer"):SetString("FrontPopUps")
+					component("visible"):SetInt(1)
+				]]>
+			</event>
+		</spriteComponent>
+	</element>
+
+
+	<element name="BGGradient">
+		<size w="screenWidth()" h="screenHeight()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="7" />
+		<spriteComponent name="Sprite"/>
+	</element>
+
+	<element name="BGPattern">
+		<size w="screenWidth()" h="screenHeight()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="6" />
+		<spriteComponent name="Sprite"/>
+	</element>
+
+	<element name="MonsterAnim">
+		<size w ="300*game.menuScaleX()" h="300*game.menuScaleX()"/>
+		<!--<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />-->
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="lua_sys.screenWidth() * 2" yOffset="0" priorityOffset="4" />
+		<aeComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("animationName"):SetString("xml_bin/monster_b.bin")
+					component("animation"):SetString( "Store" )
+					component:setScale(Vector2(game.menuScaleX(),game.menuScaleX()))
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</aeComponent>
+		<particleComponent name="Particles">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+						component("layer"):SetString("FrontPopUps")
+						component("psi"):SetString("particles/particle_growing_stars.psi")
+						component("image"):SetString("gfx/particles/particle_star")
+						component:setScale(Vector2(game.menuScaleX(), game.menuScaleX()))
+						component("prewarm"):SetFloat(5.0)
+					]]>
+			</event>
+		</particleComponent>
+		<!--
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+		</touchComponent>
+		-->
+	</element>
+
+	<element name="MonsterName">
+		<size w="200*game.menuScaleX()" h="48*game.menuScaleX()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="lua_sys.screenWidth() * 1/3" yOffset="-20*game.menuScaleX()" priorityOffset="3" />
+
+		<textComponent name="Text">
+			<size w="200*game.menuScaleX()" h="48*game.menuScaleX()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("autoScale"):SetInt(1)
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.6*game.hudScale())
+					component("layer"):SetString("FrontPopUps")
+
+					component("text"):SetString("Hoola")
+				]]>
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="MonsterInfo">
+		<size w="200*game.menuScaleX()" h="48*game.menuScaleX()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="lua_sys.screenWidth() * 1/3" yOffset="20*game.menuScaleX()" priorityOffset="3" />
+
+		<textComponent name="Text">
+			<size w="200*game.menuScaleX()" h="48*game.menuScaleX()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("autoScale"):SetInt(1)
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.6*game.hudScale())
+					component("layer"):SetString("FrontPopUps")
+
+					component("text"):SetString("New Costume Unlocked")
+				]]>
+			</event>
+		</textComponent>
+	</element>
+
+</menu>

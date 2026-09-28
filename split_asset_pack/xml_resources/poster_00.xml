@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="gfx/clubbox/poster_00.png" width="256" height="358" hires="false">
+    <sprite n="poster_00" x="0" y="0" w="256" h="358"/>
+</TextureAtlas>

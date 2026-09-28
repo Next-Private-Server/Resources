@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0301383221b7e20e37157c0d9ef78610:b8d8934bbba5d18dad2b1f57239e9f4a:46f82618ebb0b48055a2ce1b4d914080$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCDE_EPIC_costume_01_sheet.png" width="1024" height="1024" hires="true"  version="1">
+	<sprite n="BCDE_body" x="512" y="0" w="296" h="280" pX="0.5" pY="0.6756756756756757" r="y"/>
+	<sprite n="BCDE_brow" x="0" y="517" w="147" h="64" pX="0.9391891891891891" pY="0.25" oX="1" oY="0" oW="148" oH="64"/>
+	<sprite n="BCDE_eye_back" x="984" y="62" w="36" h="96" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCDE_eyelids_1" x="464" y="330" w="42" h="100" pX="0.5" pY="0.5238095238095238" r="y"/>
+	<sprite n="BCDE_eyelids_2" x="464" y="432" w="42" h="100" pX="0.5" pY="0.5238095238095238" r="y"/>
+	<sprite n="BCDE_eyelids_3" x="449" y="534" w="42" h="100" pX="0.5" pY="0.5238095238095238" r="y"/>
+	<sprite n="BCDE_eyelids_4" x="295" y="725" w="42" h="100" pX="0.5" pY="0.5238095238095238" r="y"/>
+	<sprite n="BCDE_horns_EPIC" x="0" y="0" w="510" h="328" pX="0.5095419847328244" pY="0.5" oX="12" oY="0" oW="524" oH="328"/>
+	<sprite n="BCDE_leaves_back_lower_left_EPIC" x="984" y="0" w="40" h="60" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCDE_leaves_back_lower_right_EPIC" x="984" y="160" w="36" h="75" pX="0.5" pY="0.5" oX="2" oY="2" oW="80" oH="40" r="y"/>
+	<sprite n="BCDE_leaves_back_upper_left_EPIC" x="984" y="341" w="33" h="19" pX="0.5" pY="0.5" oX="4" oY="1" oW="40" oH="20"/>
+	<sprite n="BCDE_leaves_floor_EPIC" x="512" y="282" w="260" h="127" pX="0.5" pY="0.5" oX="0" oY="1" oW="260" oH="130"/>
+	<sprite n="BCDE_leaves_orange_right_EPIC" x="984" y="237" w="35" h="50" pX="0.16666666666666666" pY="0.075" oX="5" oY="2" oW="60" oH="40" r="y"/>
+	<sprite n="BCDE_leaves_red_right_EPIC" x="984" y="289" w="33" h="50" pX="0.625" pY="0.16666666666666666" oX="3" oY="5" oW="40" oH="60"/>
+	<sprite n="BCDE_leaves_yellow_right_EPIC" x="984" y="362" w="31" h="54" pX="0.18333333333333332" pY="0.325" oX="3" oY="4" oW="60" oH="40" r="y"/>
+	<sprite n="BCDE_left_foot" x="679" y="411" w="91" h="167" pX="0.5166666666666667" pY="0.37" oX="8" oY="6" oW="180" oH="100" r="y"/>
+	<sprite n="BCDE_left_hand_1" x="149" y="524" w="137" h="111" pX="0.46551724137931033" pY="0.34285714285714286" oX="0" oY="0" oW="116" oH="140" r="y"/>
+	<sprite n="BCDE_left_hand_2" x="121" y="768" w="110" h="130" pX="0.46551724137931033" pY="0.34285714285714286" oX="0" oY="0" oW="116" oH="140"/>
+	<sprite n="BCDE_left_hand_3" x="0" y="900" w="109" h="123" pX="0.46551724137931033" pY="0.34285714285714286" oX="0" oY="0" oW="116" oH="140"/>
+	<sprite n="BCDE_left_leg" x="171" y="402" w="116" h="120" pX="0.39655172413793105" pY="0.8333333333333334"/>
+	<sprite n="BCDE_left_lower_arm" x="339" y="725" w="61" h="98" pX="0.5227272727272727" pY="0.1171875" oX="8" oY="4" oW="88" oH="128"/>
+	<sprite n="BCDE_mouth_01" x="288" y="529" w="159" h="66" pX="0.47674418604651164" pY="0.390625" oX="10" oY="5" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_02" x="948" y="418" w="72" h="164" pX="0.47674418604651164" pY="0.390625" oX="7" oY="2" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_03" x="508" y="520" w="160" h="87" pX="0.47674418604651164" pY="0.390625" oX="9" oY="2" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_04" x="508" y="411" w="169" h="107" pX="0.47674418604651164" pY="0.390625" oX="3" oY="1" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_05" x="810" y="137" w="172" h="125" pX="0.47674418604651164" pY="0.390625" oX="0" oY="0" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_06" x="0" y="758" w="119" h="140" pX="0.47674418604651164" pY="0.390625" oX="11" oY="9" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_07" x="260" y="880" w="103" h="106" pX="0.47674418604651164" pY="0.390625" oX="29" oY="14" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_08" x="233" y="768" w="60" h="110" pX="0.47674418604651164" pY="0.390625" oX="26" oY="15" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_09" x="0" y="330" w="165" h="71" pX="0.47674418604651164" pY="0.390625" oX="7" oY="2" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_10" x="289" y="440" w="160" h="87" pX="0.47674418604651164" pY="0.390625" oX="9" oY="2" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_11" x="0" y="411" w="169" h="104" pX="0.47674418604651164" pY="0.390625" oX="3" oY="2" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_12" x="0" y="584" w="122" h="172" pX="0.47674418604651164" pY="0.390625" oX="0" oY="1" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_13" x="774" y="391" w="172" h="124" pX="0.47674418604651164" pY="0.390625" oX="0" oY="0" oW="172" oH="128"/>
+	<sprite n="BCDE_pupil" x="774" y="282" w="15" h="15" pX="0.5" pY="0.5" oX="0" oY="0" oW="16" oH="16"/>
+	<sprite n="BCDE_right_foot" x="111" y="900" w="147" h="111" pX="0.5067567567567568" pY="0.3706896551724138" oX="0" oY="4" oW="148" oH="116"/>
+	<sprite n="BCDE_right_hand_1" x="810" y="0" w="172" h="135" pX="0.46111111111111114" pY="0.20833333333333334" oX="7" oY="0" oW="180" oH="144"/>
+	<sprite n="BCDE_right_hand_2" x="810" y="264" w="172" h="125" pX="0.46111111111111114" pY="0.20833333333333334" oX="7" oY="0" oW="180" oH="144"/>
+	<sprite n="BCDE_right_hand_3" x="290" y="330" w="172" h="108" pX="0.46111111111111114" pY="0.20833333333333334" oX="7" oY="0" oW="180" oH="144"/>
+	<sprite n="BCDE_right_leg" x="124" y="637" w="156" h="129" pX="0.5116279069767442" pY="0.8717948717948718" r="y"/>
+	<sprite n="BCDE_right_lower_arm" x="167" y="330" w="121" h="70" pX="0.4067796610169492" pY="0.16455696202531644" oX="24" oY="0" oW="118" oH="158" r="y"/>
+	<sprite n="BCDE_right_upper_arm" x="288" y="597" w="157" h="126" pX="0.2236842105263158" pY="0.2391304347826087" oX="2" oY="0" oW="152" oH="184" r="y"/>
+</TextureAtlas>

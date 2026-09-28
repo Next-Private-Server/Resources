@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9c94b11967e1de96800ab2fba12d4d1e:89be62b06a089e96c3a3c10ccef272ec:863b634092870b97eb17ac3cf5d5e4d2$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_G_costume_04_sheet.png" width="256" height="512" hires="true" version="1">
+    <sprite n="G_hat_OL" x="3" y="3" w="194" h="251" pX="0.557" pY="1.060769230769231" oX="4" oY="3" oW="200" oH="260"/>
+    <sprite n="G_hat_UL" x="3" y="258" w="191" h="71" pX="0.557" pY="1.060769230769231" oX="4" oY="186" oW="200" oH="260"/>
+    <sprite n="G_left_hand" x="191" y="333" w="59" h="65" pX="0.5661764705882353" pY="0.38" oX="0" oY="0" oW="68" oH="60" r="y"/>
+    <sprite n="G_left_lowerarm" x="113" y="333" w="74" h="63" pX="0.7432432432432432" pY="0.29375" oX="0" oY="0" oW="74" oH="64"/>
+    <sprite n="G_right_hand" x="187" y="402" w="59" h="59" pX="0.5883333333333333" pY="0.3233333333333333" oX="0" oY="1" oW="60" oH="60"/>
+    <sprite n="G_right_lowerarm" x="113" y="400" w="70" h="70" pX="0.7328571428571428" pY="0.22837837837837835" oX="0" oY="2" oW="70" oH="74"/>
+    <sprite n="G_tie" x="3" y="333" w="106" h="140" pX="0.7121428571428572" pY="0.7927272727272727" oX="0" oY="1" oW="140" oH="110" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:589837f1a2fa8d9e4544902876863e75:d2e5e0fb2d14801467bcb77341941e37:a277bb1bf445ba3d4ffab633b55790a3$ -->
+<TextureAtlas imagePath="gfx/monster_transpose_paironormal_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="fugue_finger_01" x="484" y="0" w="22" h="78" oX="7" oY="7" oW="91" oH="33" r="y"/>
+	<sprite n="fugue_fingertip" x="479" y="80" w="22" h="64" oX="4" oY="7" oW="76" oH="35" r="y"/>
+	<sprite n="fugue_limb_01" x="0" y="244" w="34" h="255" oX="12" oY="7" oW="278" oH="52" r="y"/>
+	<sprite n="fugue_limb_03" x="273" y="0" w="209" h="30" oX="8" oY="8" oW="225" oH="48"/>
+	<sprite n="fugue_palm" x="478" y="220" w="34" h="44" oX="4" oY="7" oW="52" oH="47" r="y"/>
+	<sprite n="portal_hexagon_1" x="273" y="32" w="204" h="186" oX="0" oY="5" oW="204" oH="192"/>
+	<sprite n="portal_hexagon_2" x="273" y="220" w="203" h="191" oX="0" oY="1" oW="204" oH="192"/>
+	<sprite n="portal_hexagon_3" x="36" y="244" w="203" h="188" oX="0" oY="3" oW="204" oH="192"/>
+	<sprite n="portal_inside_01" x="0" y="0" w="271" h="120" oX="1" oY="0" oW="272" oH="122"/>
+	<sprite n="portal_inside_02" x="0" y="122" w="271" h="120" oX="1" oY="0" oW="272" oH="122"/>
+	<sprite n="portal_small_hexagon" x="36" y="434" w="56" h="64" r="y"/>
+</TextureAtlas>

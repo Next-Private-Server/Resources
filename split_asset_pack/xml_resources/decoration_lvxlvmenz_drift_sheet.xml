@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3f390acde594b7194c50817ac518fed4:2789e17f21258aa916c0fce0d3e807fa:beb912d5e10a19eeb0f5300dc9cbb769$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_lvxlvmenz_drift_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="booth_drift_center" x="263" y="206" w="201" h="143" oX="4" oY="35" oW="150" oH="250" r="y"/>
+	<sprite n="booth_drift_center_blue_01" x="466" y="206" w="35" h="91" oX="30" oY="98" oW="150" oH="250" r="y"/>
+	<sprite n="booth_drift_center_blue_02" x="466" y="299" w="29" h="119" oX="16" oY="118" oW="150" oH="250" r="y"/>
+	<sprite n="booth_drift_center_blue_03" x="431" y="420" w="65" h="129" oX="9" oY="143" oW="150" oH="250" r="y"/>
+	<sprite n="booth_drift_center_blue_04" x="487" y="0" w="24" h="103" oX="24" oY="202" oW="150" oH="250" r="y"/>
+	<sprite n="booth_drift_center_yellow_01" x="323" y="693" w="138" h="125" oX="13" oY="93" oW="150" oH="250" r="y"/>
+	<sprite n="booth_drift_left" x="0" y="0" w="261" h="208" oX="42" oY="39" oW="250" oH="300" r="y"/>
+	<sprite n="booth_drift_left_blue_01" x="168" y="654" w="153" h="127" oX="65" oY="107" oW="250" oH="300"/>
+	<sprite n="booth_drift_left_blue_02" x="170" y="509" w="167" h="143" oX="51" oY="138" oW="250" oH="300"/>
+	<sprite n="booth_drift_left_yellow_01" x="175" y="210" w="82" h="140" oX="78" oY="114" oW="250" oH="300" r="y"/>
+	<sprite n="booth_drift_left_yellow_02" x="259" y="351" w="170" h="156" oX="48" oY="97" oW="250" oH="300"/>
+	<sprite n="booth_drift_left_yellow_03" x="0" y="210" w="173" h="150" oX="46" oY="145" oW="250" oH="300"/>
+	<sprite n="booth_drift_right" x="263" y="0" w="222" h="204" oX="0" oY="78" oW="250" oH="300" r="y"/>
+	<sprite n="booth_drift_right_blue_01" x="0" y="672" w="147" h="127" oX="33" oY="101" oW="250" oH="300"/>
+	<sprite n="booth_drift_right_blue_02" x="339" y="551" w="162" h="140" oX="33" oY="140" oW="250" oH="300"/>
+	<sprite n="booth_drift_right_yellow_01" x="149" y="783" w="136" h="108" oX="33" oY="87" oW="250" oH="300"/>
+	<sprite n="booth_drift_right_yellow_02" x="0" y="514" w="166" h="156" oX="33" oY="96" oW="250" oH="300"/>
+	<sprite n="booth_drift_right_yellow_03" x="0" y="362" w="168" h="150" oX="33" oY="144" oW="250" oH="300"/>
+</TextureAtlas>

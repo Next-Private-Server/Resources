@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e35a4b712fd8487cfcb3feaca83d49cc:d04de67a2407a68e43cf986d5139dfb2:0d59c0fd1d8cd3cc4dd9e5baa274a115$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_C_costume_07_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="C_bandana" x="0" y="0" w="246" h="96" pX="0.5" pY="0.5" oX="1" oY="0" oW="248" oH="96"/>
+	<sprite n="C_beard" x="248" y="0" w="210" h="117" pX="0.5" pY="0.5" oX="1" oY="1" oW="212" oH="120"/>
+	<sprite n="C_brows" x="460" y="0" w="48" h="135" pX="0.5" pY="0.5" oX="0" oY="0" oW="136" oH="48" r="y"/>
+	<sprite n="C_cloud" x="0" y="332" w="131" h="131" pX="0.5" pY="0.5" oX="10" oY="8" oW="150" oH="150"/>
+	<sprite n="C_flash" x="0" y="188" w="143" h="142" pX="0.5" pY="0.5" oX="4" oY="5" oW="150" oH="150"/>
+	<sprite n="C_glasses" x="0" y="98" w="167" h="88" pX="0.5" pY="0.5" oX="0" oY="0" oW="168" oH="88"/>
+	<sprite n="C_moustache" x="235" y="119" w="161" h="90" pX="0.5" pY="0.5" oX="1" oY="1" oW="164" oH="92"/>
+	<sprite n="C_nose" x="169" y="98" w="64" h="84" pX="0.5" pY="0.5"/>
+	<sprite n="C_tie" x="398" y="137" w="92" h="128" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

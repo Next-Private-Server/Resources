@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c5587162e7e5871f5e0b358a1157b120:c5fca6bb7dfbf515cdf03d4d028b4fb4:9372e52b76bd025733c851450ff5d1f7$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_frontstage_punk_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="punk_fg_eye_glow" x="0" y="336" w="112" h="112"/>
+	<sprite n="punk_fg_prop" x="0" y="0" w="448" h="334"/>
+	<sprite n="punk_fg_prop_nossle" x="114" y="336" w="64" h="85" oX="0" oY="3" oW="64" oH="88"/>
+</TextureAtlas>

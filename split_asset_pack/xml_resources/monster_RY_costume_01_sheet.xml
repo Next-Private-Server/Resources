@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3f0ca14a096e19e5f29e3df57bd0b6e2:0464c10ea231e91be20efd0a9400a966:ccf35b716211eaf31a751ef968c2106f$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_RY_costume_01_sheet.png" width="256" height="256" hires="true">
+    <sprite n="RY_fan_left" x="2" y="138" w="84" h="115" pX="0.5" pY="0.5" oX="-7" oY="-3.5" oW="100" oH="120"/>
+    <sprite n="RY_fan_right" x="88" y="138" w="36" h="88" pX="0.5" pY="0.5" oX="26.9" oY="12.6" oW="40" oH="100"/>
+    <sprite n="RY_mask" x="2" y="2" w="160" h="134" pX="0.5" pY="0.5" oX="-15" oY="-12" oW="160" oH="140"/>
+    <sprite n="RY_rock_05" x="126" y="201" w="74" h="51" pX="0.5" pY="0.5" oX="5" oY="3" oW="84" oH="58"/>
+    <sprite n="RY_rock_06" x="202" y="201" w="43" h="46" pX="0.5" pY="0.5" oX="3" oY="4" oW="52" oH="52" r="y"/>
+    <sprite n="RY_top_rock" x="164" y="2" w="87" h="197" pX="0.5" pY="0.5" oX="4" oY="3" oW="96" oH="204"/>
+</TextureAtlas>

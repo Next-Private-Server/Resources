@@ -1,0 +1,69 @@
+<template name="template_dish_harmonizer_results_egg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/DishHarmonizerResultsEgg.lua" />
+		
+	<!--defaultTemplateVar name="$Layer" equals="'FrontPopUps'" /-->
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<aeComponent name="Beams">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="-3*game.hudScale()" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("animationName"):SetString("xml_bin/beam_rotation.bin")
+				component("animation"):SetString("beam_burst_01")
+				component("visible"):SetInt(1)
+				component:setScale(Vector2(0.7*game.hudScale(), 0.7*game.hudScale()))
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</aeComponent>
+	
+	<spriteComponent name="MysteryEgg">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("gfx/spore_A")
+				component("visible"):SetInt(1)
+				component:setScale(Vector2(0.5*game.hudScale(), 0.5*game.hudScale()))
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</spriteComponent>
+
+	<aeComponent name="Sprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-3" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("animationName"):SetString("xml_bin/meeb_cluster.bin")
+				component("animation"):SetString("idle")
+				component("visible"):SetInt(1)
+				component:setScale(Vector2(0.5*game.hudScale(), 0.5*game.hudScale()))
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</aeComponent>
+
+	<aeComponent name="TapParticles">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-4" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("animationName"):SetString("xml_bin/meeb_cluster.bin")
+				component("animation"):SetString("idle")
+				component:setScale(Vector2(0.5*game.hudScale(),0.5*game.hudScale()))
+				component("visible"):SetInt(0)
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</aeComponent>
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="MysteryEgg" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-18" />
+	</touchComponent>
+	
+</template>

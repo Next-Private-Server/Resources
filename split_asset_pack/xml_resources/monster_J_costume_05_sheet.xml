@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3be9d7c11df3a9f0af2448530b7478cb:d82f445842c78b13f3693088185287fe:7d20117e94a3137353703f8f1598e036$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_J_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="J_balloon" x="0" y="0" w="193" h="223" pX="0.464286" pY="0.361607" oX="1" oY="0" oW="196" oH="224"/>
+	<sprite n="J_body" x="0" y="225" w="167" h="177" pX="0.47619" pY="0.427778" oX="0" oY="2" oW="168" oH="180"/>
+	<sprite n="J_wing_01" x="299" y="137" w="147" h="132" pX="0.5" pY="0.5" oX="1" oY="4" oW="168" oH="136"/>
+	<sprite n="J_wing_02" x="299" y="0" w="165" h="135" pX="0.5" pY="0.5" oX="1" oY="1" oW="168" oH="136"/>
+	<sprite n="J_wing_03" x="169" y="225" w="128" h="167" pX="0.5" pY="0.5" oX="1" oY="0" oW="168" oH="136" r="y"/>
+	<sprite n="J_wing_arm" x="0" y="404" w="33" h="60" pX="0.1875" pY="0.444444" oX="1" oY="1" oW="64" oH="36" r="y"/>
+</TextureAtlas>

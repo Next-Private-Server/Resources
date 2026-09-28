@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0aee1d64fbfd50d46ccf660ecd93d595:096f76ac0bbfb27d1c65984bcb0975ad:0541f96cdbe30660cb48c56d6b4894c6$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U04_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="beam" x="0" y="0" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="glow_spot" x="0" y="631" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U04_body" x="219" y="254" w="188" h="132" oX="9" oY="6" oW="152" oH="200" r="y"/>
+	<sprite n="U04_drip_01" x="366" y="555" w="29" h="38" oX="0" oY="1" oW="29" oH="68"/>
+	<sprite n="U04_drip_02" x="170" y="441" w="46" h="24" oX="3" oY="2" oW="29" oH="68" r="y"/>
+	<sprite n="U04_drip_03" x="448" y="76" w="58" h="27" oX="2" oY="0" oW="29" oH="68" r="y"/>
+	<sprite n="U04_drip_04" x="340" y="535" w="24" h="67" oX="2" oY="1" oW="29" oH="68"/>
+	<sprite n="U04_eye" x="370" y="445" w="33" h="28" oX="5" oY="15" oW="42" oH="64" r="y"/>
+	<sprite n="U04_eyelid_01_09" x="186" y="262" w="30" h="38" oX="5" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_02" x="186" y="302" w="30" h="38" oX="5" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_03" x="186" y="342" w="30" h="38" oX="5" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_04" x="366" y="595" w="29" h="38" oX="6" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_05" x="335" y="615" w="29" h="38" oX="6" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_06" x="366" y="635" w="27" h="38" oX="7" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_07" x="368" y="475" w="30" h="38" oX="5" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_eyelid_08" x="368" y="515" w="30" h="38" oX="6" oY="13" oW="42" oH="64"/>
+	<sprite n="U04_glow_01" x="446" y="260" w="66" h="104"/>
+	<sprite n="U04_glow_02" x="155" y="573" w="54" h="107"/>
+	<sprite n="U04_head" x="0" y="440" w="153" h="139" oX="8" oY="13" oW="156" oH="180" r="y"/>
+	<sprite n="U04_horn_left" x="211" y="615" w="122" h="77" oX="0" oY="1" oW="88" oH="123" r="y"/>
+	<sprite n="U04_horn_right" x="0" y="262" w="184" h="95" oX="0" oY="0" oW="96" oH="184" r="y"/>
+	<sprite n="U04_left_fingers_01" x="150" y="694" w="85" h="67" oX="25" oY="32" oW="124" oH="108"/>
+	<sprite n="U04_left_fingers_02" x="446" y="366" w="66" h="100" oX="19" oY="35" oW="124" oH="108" r="y"/>
+	<sprite n="U04_left_foot" x="95" y="622" w="53" h="77" oX="1" oY="0" oW="80" oH="54" r="y"/>
+	<sprite n="U04_left_hand_01" x="237" y="694" w="70" h="70" oX="44" oY="10" oW="136" oH="112"/>
+	<sprite n="U04_left_hand_02" x="213" y="535" w="125" h="78" oX="5" oY="9" oW="136" oH="112"/>
+	<sprite n="U04_left_hand_03" x="391" y="697" w="97" h="91" oX="14" oY="6" oW="136" oH="112" r="y"/>
+	<sprite n="U04_left_neckbolt_01" x="95" y="581" w="54" h="39" oX="14" oY="10" oW="80" oH="60"/>
+	<sprite n="U04_left_neckbolt_02" x="409" y="372" w="35" h="55" oX="13" oY="12" oW="80" oH="60" r="y"/>
+	<sprite n="U04_left_neckbolt_03" x="155" y="520" w="56" h="25" oX="12" oY="17" oW="80" oH="60"/>
+	<sprite n="U04_left_neckbolt_04" x="155" y="547" w="56" h="24" oX="12" oY="18" oW="80" oH="60"/>
+	<sprite n="U04_left_neckbolt_05" x="370" y="388" w="35" h="55" oX="13" oY="12" oW="80" oH="60" r="y"/>
+	<sprite n="U04_lowerarm" x="218" y="388" w="150" h="68" oX="12" oY="7" oW="172" oH="84"/>
+	<sprite n="U04_lowerleg_EPIC" x="218" y="458" w="148" h="75" r="y"/>
+	<sprite n="U04_pupil" x="155" y="440" w="13" h="13" oX="11" oY="11" oW="36" oH="36"/>
+	<sprite n="U04_right_foot_EPIC" x="448" y="0" w="58" h="74" oX="0" oY="0" oW="74" oH="63" r="y"/>
+	<sprite n="U04_right_hand_01" x="397" y="578" w="111" h="117" oX="9" oY="11" oW="120" oH="128"/>
+	<sprite n="U04_right_hand_02" x="405" y="468" w="107" h="108" oX="11" oY="20" oW="120" oH="128" r="y"/>
+	<sprite n="U04_right_neckbolt_01" x="177" y="382" w="39" h="57" oX="9" oY="10" oW="76" oH="60" r="y"/>
+	<sprite n="U04_right_neckbolt_02" x="409" y="254" w="35" h="57" oX="9" oY="12" oW="76" oH="60" r="y"/>
+	<sprite n="U04_right_neckbolt_03" x="155" y="467" w="57" h="25" oX="9" oY="17" oW="76" oH="60"/>
+	<sprite n="U04_right_neckbolt_04" x="155" y="494" w="57" h="24" oX="9" oY="18" oW="76" oH="60"/>
+	<sprite n="U04_right_neckbolt_05" x="409" y="313" w="35" h="57" oX="9" oY="12" oW="76" oH="60" r="y"/>
+	<sprite n="U04_right_neckbolt_cover" x="407" y="429" w="35" h="29" r="y"/>
+	<sprite n="U04_shadow" x="335" y="675" w="54" h="106" oX="11" oY="10" oW="128" oH="76" r="y"/>
+	<sprite n="U04_tongue_01" x="0" y="222" w="217" h="38" oX="14" oY="32" oW="244" oH="104"/>
+	<sprite n="U04_tongue_02" x="0" y="180" w="217" h="40" oX="13" oY="33" oW="244" oH="104"/>
+	<sprite n="U04_tongue_03" x="0" y="72" w="218" h="48" oX="13" oY="33" oW="244" oH="104"/>
+	<sprite n="U04_tongue_04" x="228" y="0" w="218" h="56" oX="17" oY="33" oW="244" oH="104"/>
+	<sprite n="U04_tongue_05" x="0" y="122" w="217" h="56" oX="14" oY="24" oW="244" oH="104"/>
+	<sprite n="U04_tongue_06" x="219" y="163" w="217" h="48" oX="16" oY="28" oW="244" oH="104"/>
+	<sprite n="U04_tongue_07" x="219" y="213" w="217" h="39" oX="14" oY="30" oW="244" oH="104"/>
+	<sprite n="U04_tongue_08" x="220" y="115" w="218" h="46" oX="15" oY="23" oW="244" oH="104"/>
+	<sprite n="U04_tongue_09" x="228" y="58" w="218" h="55" oX="13" oY="14" oW="244" oH="104"/>
+	<sprite n="U04_tongue_end" x="448" y="105" w="57" h="153" oX="6" oY="11" oW="76" oH="164"/>
+	<sprite n="U04_upperarm_EPIC" x="0" y="359" w="175" h="79"/>
+	<sprite n="U04_upperleg_EPIC" x="0" y="581" w="93" h="48" r="y"/>
+</TextureAtlas>

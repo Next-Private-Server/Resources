@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a0ba213f1d6e3e7e616d7d79cd5fd7cb:83819b8b8d59038adf31418e5fcfad49:aba7f7229a1bb8244126221ea69f137c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BD_costume_08_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="leaves_01" x="0" y="0" w="203" h="162" pX="0.7019230769230769" pY="0.8511904761904762" oX="2" oY="3" oW="208" oH="168" />
+  <sprite n="leaves_02" x="0" y="164" w="150" h="135" pX="0.3235294117647059" pY="0.9736842105263158" oX="0" oY="1" oW="136" oH="152" r="y" />
+</TextureAtlas>

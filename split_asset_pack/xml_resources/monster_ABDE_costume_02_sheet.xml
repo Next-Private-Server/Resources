@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0f20b965b68b345f8b8b851f1c5bb91e:1925d15dc4176ab569b780628b358912:87ddb8d7f862831cbf301b4d34f379e5$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABDE_costume_02_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ABDE_speaker_70s" x="0" y="0" w="160" h="333" pX="0.5125" pY="0.6617647058823529" oX="0" oY="3" oW="160" oH="340"/>
+</TextureAtlas>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7d24bf6cd0a7b898c41d07349e04d0ef:c51eba8a6959f0289fd693c701029055:c4a14b068313e835ea7f1527656c2dc0$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_box_drift_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="bg_timer" x="0" y="0" w="191" h="137" oX="1" oY="0" oW="140" oH="192" r="y"/>
+	<sprite n="bg_timer_box_neon" x="0" y="424" w="144" h="88" r="y"/>
+	<sprite n="bg_timer_box_neon_01" x="171" y="285" w="83" h="137" oX="3" oY="4" oW="88" oH="144"/>
+	<sprite n="bg_timer_box_neon_02" x="193" y="0" w="49" h="85" oX="30" oY="36" oW="88" oH="144"/>
+	<sprite n="bg_timer_led_01" x="34" y="382" w="30" h="40" oX="86" oY="157" oW="140" oH="192" r="y"/>
+	<sprite n="bg_timer_led_02" x="66" y="382" w="29" h="40" oX="86" oY="149" oW="140" oH="192" r="y"/>
+	<sprite n="bg_timer_led_03" x="97" y="382" w="29" h="40" oX="86" oY="140" oW="140" oH="192" r="y"/>
+	<sprite n="bg_timer_led_04" x="0" y="382" w="32" h="40" oX="86" oY="128" oW="140" oH="192" r="y"/>
+	<sprite n="bg_timer_led_05" x="191" y="250" w="40" h="33" oX="85" oY="114" oW="140" oH="192"/>
+	<sprite n="bg_timer_led_06" x="191" y="175" w="44" h="36" oX="80" oY="95" oW="140" oH="192"/>
+	<sprite n="bg_timer_led_07" x="191" y="213" w="44" h="35" oX="75" oY="77" oW="140" oH="192"/>
+	<sprite n="bg_timer_led_08" x="193" y="87" w="47" h="43" oX="67" oY="51" oW="140" oH="192"/>
+	<sprite n="bg_timer_led_09" x="193" y="132" w="47" h="41" oX="58" oY="27" oW="140" oH="192"/>
+	<sprite n="bg_timer_led_10" x="0" y="269" w="169" h="111" oX="15" oY="7" oW="140" oH="192" r="y"/>
+	<sprite n="bg_timer_neon" x="0" y="139" w="189" h="128" oX="6" oY="3" oW="140" oH="192" r="y"/>
+</TextureAtlas>

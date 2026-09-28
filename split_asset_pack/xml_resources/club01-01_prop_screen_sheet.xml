@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fa6e58613aa08131ae2000e0e220137d:dc483e4577e49f37a97f1e2d5a41116f:c033d8089345758b5d5b4147e2de17dc$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_screen_sheet.png" width="512" height="256" hires="true" version="1">
+	<sprite n="screen_bg" x="0" y="0" w="412" h="140" oX="27" oY="32" oW="466" oH="208"/>
+</TextureAtlas>

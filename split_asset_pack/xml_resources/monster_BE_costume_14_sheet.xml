@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d6eacacf6cffe9616e574f301af5b51e:3e913b4a1ca8485a792448f0e91c20bb:4c19f8f3acb90d65143971fc9240d9c7$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BE_costume_14_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="BE_body" x="0" y="0" w="112" h="132" pX="0.5" pY="0.5" oX="0" oY="0" oW="112" oH="140"/>
+	<sprite n="BE_leaves" x="0" y="134" w="97" h="116" pX="0.525" pY="0.76" oX="2" oY="1" oW="120" oH="100" r="y"/>
+	<sprite n="BE_leg_bending" x="99" y="134" w="21" h="62" pX="0.5" pY="0.5" oX="2" oY="0" oW="32" oH="64"/>
+	<sprite n="BE_leg_bent" x="114" y="0" w="26" h="60" pX="0.5" pY="0.5" oX="3" oY="1" oW="32" oH="64"/>
+	<sprite n="BE_leg_straight" x="143" y="0" w="61" h="14" pX="0.5" pY="0.5" oX="3" oY="0" oW="32" oH="64" r="y"/>
+	<sprite n="BE_mouth_closing" x="114" y="71" w="32" h="42" pX="0.5" pY="0.5" oX="11" oY="4" oW="60" oH="60" r="y"/>
+	<sprite n="BE_mouth_eee" x="143" y="16" w="51" h="29" pX="0.5" pY="0.5" oX="3" oY="0" oW="60" oH="60"/>
+	<sprite n="BE_mouth_mmm" x="143" y="47" w="45" h="22" pX="0.5" pY="0.5" oX="9" oY="0" oW="60" oH="60"/>
+	<sprite n="BE_mouth_ooo" x="190" y="48" w="37" h="35" pX="0.5" pY="0.5" oX="11" oY="10" oW="60" oH="60"/>
+	<sprite n="BE_mouth_open" x="99" y="198" w="42" h="55" pX="0.5" pY="0.5" oX="10" oY="5" oW="60" oH="60"/>
+	<sprite n="BE_mouth_shut" x="206" y="0" w="49" h="46" pX="0.5" pY="0.5" oX="2" oY="0" oW="60" oH="60"/>
+</TextureAtlas>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="5" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.5)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("singleTouch"):SetInt(1)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				menu:popPopUp()
+			</event>
+		</touchComponent>
+	</element>
+	
+	<element name="Frame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-5*game.menuScaleY()" priorityOffset="4" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="250*game.menuScaleY()" />
+			<event name="onInit" params="component, element">			
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5*game.menuScaleY())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+			<event name="onPostInit" params="component, element">			
+				game.setClipping("Clipping", 0, 
+				(element:absY() + element:parent():GetElement("TitleFrame"):absH())*lua_sys.deviceScaleY(), 
+				lua_sys.screenWidth()*lua_sys.deviceScaleX(), 
+				(element:absH() - element:parent():GetElement("TitleFrame"):absH() - 10*game.menuScaleY())*lua_sys.deviceScaleY())
+			</event>
+		</ninesliceComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onTouchUp" params="component, element">
+			</event>
+		</touchComponent>
+	</element>
+	
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Frame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="50*game.menuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5*game.menuScaleY())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="TitleText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="205*game.menuScaleX()" h="40*game.menuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("autoScale"):SetInt(1)
+				component("multiline"):SetInt(0)
+				component("size"):SetFloat(0.5*game.menuScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_GREEN))
+				component("text"):SetString("CONTEXTBAR_OPTIONS_LABEL")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="FadeSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="TitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-1*game.menuScaleY()" priorityOffset="0" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/fade_sprite")
+				component("layer"):SetString("MidPopUps")
+				component:setScale(Vector2(13.5*game.menuScaleX(), 0.66*game.menuScaleY()))
+			</event>
+		</spriteComponent>
+	</element>
+	
+	<element name="BotFadeSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Frame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="10*game.menuScaleY()" priorityOffset="0" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/fade_sprite")
+				component("layer"):SetString("MidPopUps")
+				component("vFlip"):SetInt(1)
+				component:setScale(Vector2(12.5*game.menuScaleX(), 0.66*game.menuScaleY()))
+			</event>
+		</spriteComponent>
+	</element>
+	
+	<element name="SliderValue">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="SliderBg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="4*game.menuScaleY()" priorityOffset="0" />
+		<textComponent name="Text">
+			<size w="120*game.menuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*game.menuScaleY())
+				component("text"):SetString((math.floor(game.recordingDelayAdjust() * 100 + 0.5) / 100).."s")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("ContextBar")
+			</event>
+		</textComponent>
+	</element>
+	
+	<element name="SliderLabel">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="SliderBg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.menuScaleY()" priorityOffset="0" />
+		<textComponent name="Text">
+			<size w="120*game.menuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*game.menuScaleY())
+				component("text"):SetString("RECORDING_DELAY_ADJUST")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("ContextBar")
+			</event>
+		</textComponent>
+	</element>
+	
+	<element name="SliderBg">
+		<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+		<position relativeTo="TitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="15*game.menuScaleY()" priorityOffset="-1" />
+		<spriteSheetComponent name="bg">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("time_slider_frame")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")				
+				component("size"):SetFloat(0.2*game.menuScaleY())
+				component("layer"):SetString("ContextBar")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="minus">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="11*game.menuScaleY()" yOffset="7.5*game.menuScaleY()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("time_minus")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.15*game.menuScaleY())
+				component("layer"):SetString("ContextBar")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="plus">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="9*game.menuScaleY()" yOffset="7.5*game.menuScaleY()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("time_plus")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.15*game.menuScaleY())
+				component("layer"):SetString("ContextBar")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="Slider">
+		<size w="145*game.menuScaleY()" h="30*game.menuScaleY()" />
+		<position relativeTo="SliderBg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-2.9*game.menuScaleY()" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+					component("spriteName"):SetString("time_slider")
+					component("sheetName"):SetString("xml_resources/buttons01.xml")
+					component("size"):SetFloat(0.25*game.menuScaleY())
+					component("layer"):SetString("ContextBar")
+					component("xOffset"):SetFloat((element:absW() * 0.65) * game.recordingDelayAdjust())
+			</event>
+		</spriteSheetComponent>
+		
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:name()" component="Sprite" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchDrag" params="component, element, x, y, relX, relY">
+				<![CDATA[
+					local slider = element:GetComponent("Sprite")
+					local slidingWidth = element:absW() * 0.65
+					
+					local newOffset = math.min(math.max(slider("xOffset"):GetFloat() - slider:absW()/2 + relX, -slidingWidth*0.5), slidingWidth*0.5)
+					
+					slider("xOffset"):SetFloat(newOffset)
+					local sliderPos = slider("xOffset"):GetInt() / slidingWidth
+					element:parent()["SliderValue"]["Text"]("text"):SetString((math.floor(sliderPos * 100 + 0.5) / 100).."s")
+					game.setRecordingDelayAdjust(sliderPos)
+				]]>
+			</event>
+		</touchComponent>
+	</element>
+	
+	<event name="queuePop" params="element">
+		element:root():popPopUp()
+	</event>
+	
+</menu>

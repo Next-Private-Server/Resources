@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:53229d434c9c29cbdaa8c62ddd81eef0:e9982e43d71161f8880584e08b367c70:ac33ab27bfacd71e4aaa87ebf64236c5$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_U20_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="U20_body" x="0" y="0" w="279" h="172" pX="0.5" pY="0.5" oX="22" oY="11" oW="308" oH="204"/>
+	<sprite n="U20_hair" x="281" y="0" w="226" h="172" pX="0.9525862068965517" pY="0.7159090909090909" oX="3" oY="2" oW="232" oH="176"/>
+	<sprite n="U20_hair2_fur" x="0" y="420" w="43" h="88" pX="0.613636" pY="0.814815" oX="21" oY="2" oW="88" oH="108"/>
+	<sprite n="U20_hair3_fur" x="108" y="420" w="94" h="76" pX="0.0520833" pY="0.892857" oX="1" oY="4" oW="96" oH="84"/>
+	<sprite n="U20_head_leaf_fur" x="243" y="174" w="64" h="98" pX="0.06" pY="0.911765" oX="1" oY="2" oW="100" oH="68" r="y"/>
+	<sprite n="U20_mouth1" x="121" y="287" w="72" h="103" pX="0.5" pY="0.5" oX="21" oY="21" oW="144" oH="108" r="y"/>
+	<sprite n="U20_mouth1A" x="195" y="287" w="60" h="102" pX="0.5" pY="0.5" oX="20" oY="27" oW="144" oH="108" r="y"/>
+	<sprite n="U20_mouth2" x="198" y="174" w="43" h="99" pX="0.5" pY="0.5" oX="23" oY="20" oW="144" oH="84" r="y"/>
+	<sprite n="U20_mouth2A" x="204" y="391" w="43" h="98" pX="0.5" pY="0.5" oX="24" oY="20" oW="144" oH="84" r="y"/>
+	<sprite n="U20_mouth2B" x="249" y="391" w="63" h="96" pX="0.5" pY="0.5" oX="23" oY="21" oW="144" oH="84" r="y"/>
+	<sprite n="U20_mouth2C" x="257" y="274" w="60" h="93" pX="0.5" pY="0.5" oX="25" oY="21" oW="144" oH="84" r="y"/>
+	<sprite n="U20_mouth2D" x="45" y="420" w="61" h="86" pX="0.5" pY="0.5" oX="27" oY="22" oW="144" oH="84" r="y"/>
+	<sprite n="U20_mouth2E" x="309" y="174" w="59" h="68" pX="0.5" pY="0.5" oX="34" oY="25" oW="144" oH="84" r="y"/>
+	<sprite n="U20_tail1" x="0" y="299" w="119" h="119" pX="0.5" pY="0.5" oX="10" oY="27" oW="148" oH="172"/>
+	<sprite n="U20_tail1A" x="0" y="299" w="119" h="119" pX="0.5" pY="0.5" oX="10" oY="27" oW="148" oH="172"/>
+	<sprite n="U20_tail2" x="99" y="174" w="97" h="111" pX="0.5" pY="0.5" oX="17" oY="29" oW="132" oH="164"/>
+	<sprite n="U20_tail3" x="0" y="174" w="97" h="123" pX="0.5" pY="0.5" oX="26" oY="20" oW="144" oH="160"/>
+</TextureAtlas>

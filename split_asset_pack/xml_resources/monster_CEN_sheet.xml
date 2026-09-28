@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:77b09c3d397805facc358012ea9004a3:ac388d9928090c41231e5e8e137928a2:ac24c91c34df4daefe8bcf9243ac2a28$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CEN_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="CEN_adult_bigclaw_01" x="369" y="612" w="78" h="58" oX="0" oY="9" oW="79" oH="77"/>
+	<sprite n="CEN_adult_bigclaw_01_sr" x="285" y="622" w="78" h="58" oX="0" oY="9" oW="79" oH="77"/>
+	<sprite n="CEN_adult_bigclaw_02" x="449" y="629" w="63" h="76" oX="1" oY="6" oW="79" oH="77" r="y"/>
+	<sprite n="CEN_adult_bigclaw_02_sr" x="80" y="555" w="63" h="76" oX="1" oY="6" oW="79" oH="77" r="y"/>
+	<sprite n="CEN_adult_bigclaw_03" x="0" y="815" w="72" h="68" oX="7" oY="4" oW="79" oH="77"/>
+	<sprite n="CEN_adult_bigclaw_03_sr" x="356" y="721" w="72" h="68" oX="7" oY="4" oW="79" oH="77"/>
+	<sprite n="CEN_adult_bigclaw_04" x="139" y="664" w="73" h="69" oX="10" oY="1" oW="79" oH="77" r="y"/>
+	<sprite n="CEN_adult_bigclaw_04_sr" x="0" y="744" w="73" h="69" oX="9" oY="1" oW="79" oH="77" r="y"/>
+	<sprite n="CEN_adult_biglowerarm" x="409" y="97" w="91" h="41"/>
+	<sprite n="CEN_adult_biglowerarm_RARE" x="400" y="140" w="91" h="41"/>
+	<sprite n="CEN_adult_biglowerarm_sr" x="400" y="183" w="91" h="41"/>
+	<sprite n="CEN_adult_biglowerarm_sr_RARE" x="400" y="226" w="91" h="41"/>
+	<sprite n="CEN_adult_bigupperarm" x="292" y="414" w="86" h="30"/>
+	<sprite n="CEN_adult_bigupperarm_RARE" x="292" y="446" w="86" h="30"/>
+	<sprite n="CEN_adult_bigupperarm_sr" x="292" y="478" w="86" h="30"/>
+	<sprite n="CEN_adult_bigupperarm_sr_RARE" x="146" y="507" w="86" h="30"/>
+	<sprite n="CEN_adult_body_lower" x="209" y="0" w="198" h="116"/>
+	<sprite n="CEN_adult_body_lower_RARE" x="0" y="106" w="198" h="116"/>
+	<sprite n="CEN_adult_body_lowerback" x="200" y="118" w="198" h="73"/>
+	<sprite n="CEN_adult_body_lowerback_RARE" x="200" y="193" w="198" h="73"/>
+	<sprite n="CEN_adult_body_middle_01" x="0" y="224" w="144" h="90"/>
+	<sprite n="CEN_adult_body_middle_02" x="146" y="268" w="144" h="90"/>
+	<sprite n="CEN_adult_body_middle_03" x="0" y="316" w="144" h="90"/>
+	<sprite n="CEN_adult_body_middle_back" x="146" y="452" w="144" h="53"/>
+	<sprite n="CEN_adult_body_middle_back_RARE" x="0" y="500" w="144" h="53"/>
+	<sprite n="CEN_adult_body_top_01" x="409" y="0" w="103" h="95"/>
+	<sprite n="CEN_adult_body_top_01_RARE" x="380" y="435" w="126" h="114" oX="14" oY="14" oW="140" oH="140" r="y"/>
+	<sprite n="CEN_adult_eyeball" x="384" y="269" w="37" h="39"/>
+	<sprite n="CEN_adult_eyeball_RARE" x="423" y="269" w="37" h="39"/>
+	<sprite n="CEN_adult_eyelid_01" x="260" y="795" w="47" h="47"/>
+	<sprite n="CEN_adult_eyelid_02" x="209" y="798" w="47" h="47"/>
+	<sprite n="CEN_adult_eyelid_03" x="126" y="809" w="47" h="47"/>
+	<sprite n="CEN_adult_eyelid_04" x="74" y="826" w="47" h="47"/>
+	<sprite n="CEN_adult_foot" x="234" y="527" w="54" h="25" r="y"/>
+	<sprite n="CEN_adult_foot_RARE" x="233" y="554" w="54" h="25" r="y"/>
+	<sprite n="CEN_adult_mouth_01" x="365" y="672" w="78" h="47" oX="3" oY="2" oW="85" oH="60"/>
+	<sprite n="CEN_adult_mouth_02" x="458" y="551" w="50" h="76" oX="5" oY="1" oW="85" oH="60" r="y"/>
+	<sprite n="CEN_adult_mouth_03" x="76" y="714" w="57" h="71" oX="8" oY="1" oW="85" oH="60" r="y"/>
+	<sprite n="CEN_adult_mouth_blur" x="291" y="510" w="85" h="49" oX="0" oY="0" oW="85" oH="60"/>
+	<sprite n="CEN_adult_pupil" x="462" y="269" w="20" h="20"/>
+	<sprite n="CEN_adult_pupil_RARE" x="502" y="97" w="9" h="20" oX="4" oY="0" oW="20" oH="20"/>
+	<sprite n="CEN_adult_shadow" x="0" y="0" w="207" h="104"/>
+	<sprite n="CEN_adult_smallclaw_01" x="75" y="787" w="49" h="37" oX="0" oY="4" oW="49" oH="45"/>
+	<sprite n="CEN_adult_smallclaw_01_sr" x="273" y="756" w="49" h="37" oX="0" oY="4" oW="49" oH="45"/>
+	<sprite n="CEN_adult_smallclaw_02" x="324" y="791" w="48" h="41" oX="1" oY="2" oW="49" oH="45"/>
+	<sprite n="CEN_adult_smallclaw_02_sr" x="175" y="847" w="47" h="41" oX="2" oY="2" oW="49" oH="45"/>
+	<sprite n="CEN_adult_smallclaw_03" x="74" y="875" w="45" h="43" oX="4" oY="2" oW="49" oH="45"/>
+	<sprite n="CEN_adult_smallclaw_03_sr" x="46" y="974" w="43" h="44" oX="5" oY="1" oW="49" oH="45" r="y"/>
+	<sprite n="CEN_adult_smallclaw_04" x="172" y="890" w="45" h="43" oX="6" oY="0" oW="49" oH="45" r="y"/>
+	<sprite n="CEN_adult_smallclaw_04_sr" x="121" y="901" w="45" h="42" oX="7" oY="0" oW="49" oH="45" r="y"/>
+	<sprite n="CEN_adult_smalllowerarm" x="221" y="659" w="59" h="25"/>
+	<sprite n="CEN_adult_smalllowerarm_RARE" x="78" y="633" w="59" h="25"/>
+	<sprite n="CEN_adult_smalllowerarm_sr" x="78" y="660" w="59" h="25"/>
+	<sprite n="CEN_adult_smalllowerarm_sr_RARE" x="76" y="687" w="59" h="25"/>
+	<sprite n="CEN_adult_smallupperarm" x="493" y="140" w="18" h="55" r="y"/>
+	<sprite n="CEN_adult_smallupperarm_RARE" x="493" y="197" w="18" h="55" r="y"/>
+	<sprite n="CEN_adult_smallupperarm_sr" x="493" y="254" w="18" h="55" r="y"/>
+	<sprite n="CEN_adult_smallupperarm_sr_RARE" x="234" y="507" w="55" h="18"/>
+	<sprite n="CEN_adult_upperleg" x="146" y="224" w="51" h="20" r="y"/>
+	<sprite n="CEN_adult_upperleg_RARE" x="146" y="246" w="51" h="20" r="y"/>
+	<sprite n="RARE_CEN_adult_bigclaw_01" x="378" y="551" w="78" h="59" oX="0" oY="8" oW="79" oH="77"/>
+	<sprite n="RARE_CEN_adult_bigclaw_01_sr" x="289" y="561" w="78" h="59" oX="0" oY="8" oW="79" oH="77"/>
+	<sprite n="RARE_CEN_adult_bigclaw_02" x="445" y="707" w="67" h="76" oX="1" oY="2" oW="79" oH="77" r="y"/>
+	<sprite n="RARE_CEN_adult_bigclaw_02_sr" x="0" y="604" w="76" h="67" oX="1" oY="2" oW="79" oH="77"/>
+	<sprite n="RARE_CEN_adult_bigclaw_03" x="282" y="682" w="72" h="72" oX="7" oY="0" oW="79" oH="77"/>
+	<sprite n="RARE_CEN_adult_bigclaw_03_sr" x="135" y="735" w="72" h="72" oX="7" oY="0" oW="79" oH="77"/>
+	<sprite n="RARE_CEN_adult_bigclaw_04" x="0" y="673" w="74" h="69" oX="10" oY="0" oW="79" oH="77" r="y"/>
+	<sprite n="RARE_CEN_adult_bigclaw_04_sr" x="145" y="590" w="74" h="72" oX="6" oY="0" oW="79" oH="77" r="y"/>
+	<sprite n="RARE_CEN_adult_body_middle_01" x="292" y="268" w="90" h="144" r="y"/>
+	<sprite n="RARE_CEN_adult_body_middle_02" x="146" y="360" w="144" h="90"/>
+	<sprite n="RARE_CEN_adult_body_middle_03" x="0" y="408" w="144" h="90"/>
+	<sprite n="RARE_CEN_adult_eyelid_01" x="424" y="824" w="47" h="47"/>
+	<sprite n="RARE_CEN_adult_eyelid_02" x="309" y="834" w="47" h="47"/>
+	<sprite n="RARE_CEN_adult_eyelid_03" x="258" y="844" w="47" h="47"/>
+	<sprite n="RARE_CEN_adult_eyelid_04" x="358" y="834" w="47" h="47"/>
+	<sprite n="RARE_CEN_adult_mouth_01" x="0" y="555" w="78" h="47" oX="3" oY="2" oW="85" oH="60"/>
+	<sprite n="RARE_CEN_adult_mouth_02" x="233" y="581" w="50" h="76" oX="5" oY="1" oW="85" oH="60" r="y"/>
+	<sprite n="RARE_CEN_adult_mouth_03" x="214" y="686" w="57" h="71" oX="8" oY="1" oW="85" oH="60" r="y"/>
+	<sprite n="RARE_CEN_adult_mouth_blur" x="146" y="539" w="85" h="49" oX="0" oY="0" oW="85" oH="60"/>
+	<sprite n="RARE_CEN_adult_smallclaw_01" x="209" y="759" w="49" h="37" oX="0" oY="4" oW="49" oH="45"/>
+	<sprite n="RARE_CEN_adult_smallclaw_01_sr" x="430" y="785" w="49" h="37" oX="0" oY="4" oW="49" oH="45"/>
+	<sprite n="RARE_CEN_adult_smallclaw_02" x="374" y="791" w="48" h="41" oX="1" oY="2" oW="49" oH="45"/>
+	<sprite n="RARE_CEN_adult_smallclaw_02_sr" x="123" y="858" w="47" h="41" oX="2" oY="2" oW="49" oH="45"/>
+	<sprite n="RARE_CEN_adult_smallclaw_03" x="0" y="885" w="45" h="43" oX="4" oY="2" oW="49" oH="45"/>
+	<sprite n="RARE_CEN_adult_smallclaw_03_sr" x="0" y="974" w="44" h="44" oX="5" oY="1" oW="49" oH="45"/>
+	<sprite n="RARE_CEN_adult_smallclaw_04" x="47" y="920" w="45" h="42" oX="7" oY="0" oW="49" oH="45" r="y"/>
+	<sprite n="RARE_CEN_adult_smallclaw_04_sr" x="0" y="930" w="45" h="42" oX="7" oY="0" oW="49" oH="45" r="y"/>
+	<sprite n="spore_CEN" x="384" y="311" w="127" h="122" oX="22" oY="34" oW="172" oH="172"/>
+</TextureAtlas>

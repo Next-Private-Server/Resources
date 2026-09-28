@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:de88a45547aec1770d91560e495522bf:446f629c614bcf8db4c5c5d7909aa3e2:c67cb9a21a0dc41542ff299b919e61f1$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-01_monster_U09_costume_02_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="monster_U09_coat" x="0" y="0" w="325" h="364" pX="0.5481927710843374" pY="0.592391304347826" oX="4" oY="2" oW="332" oH="368"/>
+	<sprite n="monster_U09_collar" x="0" y="706" w="331" h="260" pX="0.39015151515151514" pY="0.5512051204819277" oX="2" oY="1" oW="264" oH="332" r="y"/>
+	<sprite n="monster_U09_head" x="532" y="705" w="176" h="190" pX="0.376415" pY="0.618817" oX="9" oY="4" oW="212" oH="186" r="y"/>
+	<sprite n="monster_U09_left_fin" x="327" y="217" w="172" h="141" pX="0.669565" pY="0.706186" oX="28" oY="9" oW="184" oH="194" r="y"/>
+	<sprite n="monster_U09_left_finger_01" x="443" y="0" w="60" h="58" pX="0.275758" pY="0.312162" oX="5" oY="10" oW="66" oH="74"/>
+	<sprite n="monster_U09_left_finger_02" x="0" y="968" w="67" h="56" pX="0.2625" pY="0.307353" oX="4" oY="9" oW="72" oH="68"/>
+	<sprite n="monster_U09_left_lower_arm" x="604" y="161" w="131" h="148" pX="0.481618" pY="0.306962" oX="0" oY="10" oW="136" oH="158"/>
+	<sprite n="monster_U09_left_thumb" x="69" y="968" w="59" h="29" pX="0.294286" pY="0.4125" oX="6" oY="5" oW="70" oH="40"/>
+	<sprite n="monster_U09_left_upper_arm" x="333" y="705" w="197" h="208" pX="0.689076" pY="0.358974" oX="0" oY="19" oW="238" oH="234"/>
+	<sprite n="monster_U09_mouth_01" x="559" y="897" w="177" h="126" pX="0.376214" pY="0.618462" oX="14" oY="4" oW="206" oH="130"/>
+	<sprite n="monster_U09_mouth_02" x="552" y="68" w="175" h="91" pX="0.376214" pY="0.618462" oX="18" oY="10" oW="206" oH="130"/>
+	<sprite n="monster_U09_mouth_03" x="738" y="0" w="190" h="96" pX="0.376214" pY="0.618462" oX="11" oY="10" oW="206" oH="130"/>
+	<sprite n="monster_U09_mouth_04" x="738" y="98" w="189" h="117" pX="0.376214" pY="0.618462" oX="9" oY="11" oW="206" oH="130"/>
+	<sprite n="monster_U09_mouth_05" x="929" y="116" w="92" h="117" pX="0.376214" pY="0.618462" oX="70" oY="10" oW="206" oH="130" r="y"/>
+	<sprite n="monster_U09_mouth_06" x="333" y="915" w="91" h="108" pX="0.376214" pY="0.618462" oX="78" oY="12" oW="206" oH="130" r="y"/>
+	<sprite n="monster_U09_mouth_07" x="930" y="0" w="93" h="114" pX="0.376214" pY="0.618462" oX="73" oY="10" oW="206" oH="130" r="y"/>
+	<sprite n="monster_U09_mouth_08" x="426" y="915" w="131" h="107" pX="0.376214" pY="0.618462" oX="56" oY="10" oW="206" oH="130"/>
+	<sprite n="monster_U09_mouth_09" x="501" y="235" w="101" h="119" pX="0.376214" pY="0.618462" oX="68" oY="10" oW="206" oH="130" r="y"/>
+	<sprite n="monster_U09_mouth_10" x="435" y="610" w="115" h="93" pX="0.376214" pY="0.618462" oX="72" oY="10" oW="206" oH="130"/>
+	<sprite n="monster_U09_mouth_11" x="296" y="610" w="137" h="93" pX="0.376214" pY="0.618462" oX="50" oY="10" oW="206" oH="130"/>
+	<sprite n="monster_U09_right_fin" x="327" y="0" w="114" h="157" pX="0.5" pY="0.697674" oX="28" oY="10" oW="152" oH="172"/>
+	<sprite n="monster_U09_right_hand" x="501" y="161" w="68" h="71" pX="0.65" pY="0.3275" oX="5" oY="9" oW="80" oH="80" r="y"/>
+	<sprite n="monster_U09_right_lower_arm" x="738" y="217" w="148" h="131" pX="0.501429" pY="0.335135" oX="3" oY="0" oW="140" oH="148" r="y"/>
+	<sprite n="monster_U09_right_upper_arm" x="296" y="366" w="222" h="242" pX="0.344574" pY="0.331197" oX="9" oY="0" oW="258" oH="234" r="y"/>
+	<sprite n="monster_U09_shades" x="552" y="0" w="180" h="66" pX="0.27027" pY="1.52778" oX="3" oY="4" oW="185" oH="72"/>
+	<sprite n="monster_U09_torso" x="0" y="366" w="294" h="338" pX="0.550898" pY="0.675481" oX="12" oY="72" oW="334" oH="416"/>
+</TextureAtlas>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<template name="template_hype_reward_track_bar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+  	<script src="scripts/HypeRewardTrackBar.lua" />
+
+	<defaultTemplateVar name="$layer" equals="PopUps" />
+	<defaultTemplateVar name="$scale" equals="game.hudScale()" />
+	<defaultTemplateVar name="$touchEnabled" equals="1" />
+	<defaultTemplateVar name="$sfxEnabled" equals="1" />
+
+	<size w="450*element:templateVars().scale" h="60*element:templateVars().scale" />
+
+  	<template type="template_reward_track_bar" name="RewardBar">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$scale" equals="element:templateVars().scale" />
+		<templateVar name="$backingSpriteName" equals="'hype_meter_frame'" />
+		<templateVar name="$backingSheetName" equals="'xml_resources/hype_meter.xml'" />
+		<templateVar name="$barSpriteName" equals="'hype_meter_bar'" />
+		<templateVar name="$barSheetName" equals="'xml_resources/hype_meter.xml'" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<touchComponent name="Touch">
+		<size w="450*element:templateVars().scale" h="60*element:templateVars().scale" />
+		<position relativeTo="RewardBar" component="BarBackingSprite" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("enabled"):SetInt($touchEnabled)
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+			if (not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1) then
+				element:setColorPercent(0.5)
+				element.buttonState = game.BUTTON_PRESSED
+				element.tickTimer = 0.0
+			end
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+			if (element.touchCooldown == 0 and not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1) then
+			
+				playSoundFx("audio/sfx/menu_click_small.wav")	
+				game.pushPopUp("clubbox_progress")
+
+				element:setColorPercent(1)
+				element.buttonState = game.BUTTON_RELEASED
+				element.tickTimer = 0.0
+				element.touchCooldown = 1.0
+			end
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				if (not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1) then
+					element:setColorPercent(1)
+					element.buttonState = game.BUTTON_RELEASED
+					element.tickTimer = 0.0
+				end
+			]]>
+		</event>
+	</touchComponent>
+
+	<event name="hide" params="element">
+		element:E("RewardBar"):DoStoredScript("hide")
+		element:C("Touch")("enabled"):SetInt(0)
+		element.isVisible = 0
+	</event>
+
+	<event name="show" params="element">
+		<![CDATA[
+		element:E("RewardBar"):DoStoredScript("show")
+		element:E("RewardBar"):C("RewardText1")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt($touchEnabled)
+		element.isVisible = 1
+		]]>
+	</event>
+
+	<event name="setInvisibleOnIsland" params="element">
+		element.visibleOnIsland = 0
+		element:DoStoredScript("hide")
+	</event>
+
+	<event name="setVisibleOnIsland" params="element">
+		element.visibleOnIsland = 1
+		element:DoStoredScript("show")
+	</event>
+
+	<event name="startTutorialDisplay" params="element">
+		element.RewardBar:startTutorialDisplay()
+	</event>
+	<event name="endTutorialDisplay" params="element">
+		element.RewardBar:endTutorialDisplay()
+	</event>
+
+</template>

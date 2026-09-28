@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f29e904b1e5560c22121b58b95c9993f:a6c0535c24b1824895ed0280a167f856:d2ea01730f08ba8757f3ec728293a2a1$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U09_EPIC_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="beam" x="644" y="791" w="70" h="226" oX="1" oY="1" oW="72" oH="228"/>
+	<sprite n="Glow_EPIC" x="293" y="651" w="233" h="291" oX="2" oY="2" oW="237" oH="295"/>
+	<sprite n="Glow_RARE" x="561" y="537" w="261" h="252" oX="2" oY="2" oW="266" oH="256"/>
+	<sprite n="glow_spot" x="895" y="912" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="iris" x="0" y="533" w="19" h="38" oX="1" oY="0" oW="40" oH="20" r="y"/>
+	<sprite n="rare_sleep" x="0" y="0" w="471" h="451" oX="0" oY="0" oW="472" oH="452"/>
+	<sprite n="U09_epic_dermit_arm_lower" x="335" y="453" w="132" h="96" r="y"/>
+	<sprite n="U09_epic_dermit_arm_lower_small" x="528" y="791" w="89" h="53" oX="2" oY="2" oW="92" oH="56"/>
+	<sprite n="U09_epic_dermit_arm_upper" x="846" y="269" w="178" h="176" oX="2" oY="0" oW="180" oH="180" r="y"/>
+	<sprite n="U09_epic_dermit_arm_upper_small" x="238" y="537" w="76" h="109" oX="2" oY="1" oW="80" oH="112"/>
+	<sprite n="U09_epic_dermit_body" x="473" y="234" w="371" h="301" oX="2" oY="11" oW="304" oH="392" r="y"/>
+	<sprite n="U09_epic_dermit_eyelid_01" x="449" y="581" w="54" h="64" oX="4" oY="3" oW="72" oH="60" r="y"/>
+	<sprite n="U09_epic_dermit_eyelid_02" x="505" y="581" w="54" h="63" oX="5" oY="3" oW="72" oH="60" r="y"/>
+	<sprite n="U09_epic_dermit_eyelid_03" x="824" y="637" w="63" h="54" oX="5" oY="3" oW="72" oH="60"/>
+	<sprite n="U09_epic_dermit_eyelid_04" x="880" y="714" w="54" h="63" oX="5" oY="3" oW="72" oH="60" r="y"/>
+	<sprite n="U09_epic_dermit_finger_01" x="218" y="453" w="64" h="77" oX="0" oY="1" oW="64" oH="80"/>
+	<sprite n="U09_epic_dermit_finger_02" x="284" y="453" w="49" h="77" oX="3" oY="3" oW="56" oH="81"/>
+	<sprite n="U09_epic_dermit_finger_03" x="981" y="579" w="42" h="70" oX="5" oY="2" oW="80" oH="44" r="y"/>
+	<sprite n="U09_epic_dermit_finger_small" x="936" y="714" w="53" h="55" oX="1" oY="3" oW="56" oH="56" r="y"/>
+	<sprite n="U09_epic_dermit_glow" x="528" y="846" w="48" h="48"/>
+	<sprite n="U09_epic_dermit_hair" x="473" y="0" w="404" h="232" oX="1" oY="5" oW="408" oH="240"/>
+	<sprite n="U09_epic_dermit_head" x="0" y="651" w="291" h="343" oX="22" oY="1" oW="320" oH="344"/>
+	<sprite n="U09_epic_dermit_leg_foot" x="981" y="513" w="43" h="64" oX="0" oY="3" oW="64" oH="48" r="y"/>
+	<sprite n="U09_epic_dermit_leg_lower_left" x="824" y="714" w="54" h="70" oX="1" oY="1" oW="56" oH="72"/>
+	<sprite n="U09_epic_dermit_leg_lower_right" x="824" y="581" w="69" h="54" oX="0" oY="1" oW="56" oH="72" r="y"/>
+	<sprite n="U09_epic_dermit_leg_upper_left" x="879" y="0" w="141" h="77" oX="2" oY="0" oW="80" oH="144" r="y"/>
+	<sprite n="U09_epic_dermit_leg_upper_right" x="879" y="79" w="141" h="77" oX="2" oY="2" oW="81" oH="144" r="y"/>
+	<sprite n="U09_epic_dermit_mouth_01" x="0" y="453" w="216" h="78" oX="4" oY="6" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_mouth_02" x="810" y="791" w="83" h="216" oX="4" oY="16" oW="224" oH="140" r="y"/>
+	<sprite n="U09_epic_dermit_mouth_03" x="716" y="791" w="92" h="216" oX="4" oY="19" oW="224" oH="140" r="y"/>
+	<sprite n="U09_epic_dermit_mouth_04" x="293" y="944" w="216" h="74" oX="4" oY="2" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_mouth_05" x="846" y="513" w="133" h="66" oX="51" oY="18" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_mouth_06" x="316" y="581" w="131" h="64" oX="57" oY="12" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_mouth_07" x="511" y="944" w="131" h="73" oX="51" oY="18" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_mouth_08" x="879" y="158" w="134" h="109" oX="53" oY="18" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_mouth_09" x="895" y="779" w="115" h="131" oX="52" oY="18" oW="224" oH="140" r="y"/>
+	<sprite n="U09_epic_dermit_mouth_10" x="895" y="581" w="83" h="131" oX="55" oY="18" oW="224" oH="140" r="y"/>
+	<sprite n="U09_epic_dermit_mouth_11" x="846" y="447" w="165" h="64" oX="29" oY="12" oW="224" oH="140"/>
+	<sprite n="U09_epic_dermit_toe_left_01" x="21" y="533" w="29" h="32" oX="2" oY="0" oW="32" oH="32"/>
+	<sprite n="U09_epic_dermit_toe_left_02" x="0" y="996" w="23" h="28" oX="2" oY="1" oW="32" oH="24" r="y"/>
+	<sprite n="U09_epic_dermit_toe_left_03" x="25" y="996" w="21" h="28" oX="2" oY="1" oW="24" oH="31"/>
+	<sprite n="U09_epic_dermit_toe_right_01" x="70" y="996" w="20" h="27" oX="2" oY="3" oW="24" oH="32"/>
+	<sprite n="U09_epic_dermit_toe_right_02" x="846" y="234" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="U09_epic_dermit_toe_right_03" x="48" y="996" w="20" h="28" oX="2" oY="2" oW="33" oH="24" r="y"/>
+	<sprite n="U09_shadow" x="0" y="581" w="236" h="68" oX="9" oY="0" oW="248" oH="68"/>
+</TextureAtlas>

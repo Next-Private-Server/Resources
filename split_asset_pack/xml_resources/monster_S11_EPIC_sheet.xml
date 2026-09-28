@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:de11e6ec7214222295e1020932f3fb7f:d71cb12e3a2dbb2d66b08fc22d5b871e:32ece275cf32f27c9cfe730ee17660fb$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_S11_EPIC_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="arm_section01" x="990" y="419" w="23" h="46" oX="5" oY="2" oW="32" oH="48"/>
+    <sprite n="arm_section02" x="674" y="728" w="23" h="45" oX="4" oY="2" oW="32" oH="48"/>
+    <sprite n="arm_section03" x="990" y="368" w="24" h="47" oX="4" oY="1" oW="32" oH="48"/>
+    <sprite n="arm_section04" x="674" y="678" w="23" h="46" oX="5" oY="2" oW="32" oH="48"/>
+    <sprite n="firework" x="715" y="469" w="305" h="291" oX="54" oY="38" oW="400" oH="400" r="y"/>
+    <sprite n="firework_cluster1" x="370" y="3" w="357" h="349"/>
+    <sprite n="firework_cluster2" x="3" y="321" w="357" h="349"/>
+    <sprite n="firework_glow" x="364" y="356" w="347" h="318" oX="41" oY="26" oW="400" oH="400" r="y"/>
+    <sprite n="firework_small" x="315" y="1340" w="220" h="199" oX="0" oY="0" oW="200" oH="220" r="y"/>
+    <sprite n="firework_small_glow" x="3" y="1083" w="236" h="214" r="y"/>
+    <sprite n="firework_stars" x="3" y="3" w="363" h="314" oX="42" oY="8" oW="400" oH="400" r="y"/>
+    <sprite n="firework_stars_01" x="697" y="995" w="233" h="210" oX="93" oY="88" oW="400" oH="400"/>
+    <sprite n="firework_stars_02" x="854" y="1615" w="160" h="151" oX="124" oY="119" oW="400" oH="400" r="y"/>
+    <sprite n="glow" x="313" y="1543" w="189" h="189" oX="6" oY="6" oW="200" oH="200"/>
+    <sprite n="s11__all_over_sparkle_01" x="731" y="117" w="255" h="329" oX="4" oY="40" oW="337" oH="296" r="y"/>
+    <sprite n="s11__all_over_sparkle_02" x="3" y="674" w="337" h="198" oX="0" oY="98" oW="337" oH="296"/>
+    <sprite n="s11__centre_star_sparkle_01" x="3" y="1822" w="174" h="112" oX="88" oY="0" oW="337" oH="296"/>
+    <sprite n="s11__centre_star_sparkle_02" x="701" y="764" w="320" h="227" oX="0" oY="0" oW="337" oH="296"/>
+    <sprite n="s11__left_star_sparkle_01" x="550" y="1108" w="138" h="171" oX="8" oY="4" oW="337" oH="296"/>
+    <sprite n="s11__left_star_sparkle_02" x="3" y="876" w="308" h="203" oX="0" oY="24" oW="337" oH="296"/>
+    <sprite n="s11__right_star_sparkle_01" x="3" y="1301" w="229" h="163" oX="88" oY="3" oW="337" oH="296"/>
+    <sprite n="s11__right_star_sparkle_02" x="344" y="678" w="326" h="237" oX="0" oY="1" oW="337" oH="296"/>
+    <sprite n="s11_body" x="692" y="1209" w="221" h="192" oX="13" oY="13" oW="260" oH="216"/>
+    <sprite n="s11_body_bgclouds" x="731" y="3" w="266" h="110"/>
+    <sprite n="s11_body_bgclouds_glow" x="852" y="1770" w="152" h="180"/>
+    <sprite n="s11_body_bgclouds_sparkle_01" x="315" y="919" w="252" h="91"/>
+    <sprite n="s11_body_bgclouds_sparkle_02" x="315" y="1014" w="251" h="87"/>
+    <sprite n="s11_body_sparkle_01" x="664" y="1405" w="195" h="170" oX="32" oY="23" oW="260" oH="216"/>
+    <sprite n="s11_body_sparkle_02" x="664" y="1649" w="184" h="169" oX="38" oY="23" oW="260" oH="216"/>
+    <sprite n="s11_bottom_cheek_glow" x="220" y="1609" w="77" h="74" oX="36" oY="7" oW="148" oH="87"/>
+    <sprite n="s11_cheeks" x="664" y="1579" w="186" h="66"/>
+    <sprite n="s11_crown_centre_star" x="66" y="1736" w="94" h="71" r="y"/>
+    <sprite n="s11_crown_centre_star_glow" x="917" y="1251" w="101" h="101"/>
+    <sprite n="s11_crown_circle" x="3" y="1468" w="213" h="213"/>
+    <sprite n="s11_crown_circle_glow" x="315" y="1105" w="231" h="231"/>
+    <sprite n="s11_crown_side_stars" x="3" y="1954" w="57" h="74"/>
+    <sprite n="s11_crown_side_stars_glow" x="236" y="1342" w="75" h="75"/>
+    <sprite n="s11_eyelids_1" x="917" y="1356" w="98" h="146" oX="5" oY="1" oW="156" oH="106" r="y"/>
+    <sprite n="s11_eyelids_2" x="506" y="1674" w="153" h="106"/>
+    <sprite n="s11_eyelids_3" x="863" y="1506" w="155" h="105"/>
+    <sprite n="s11_eyelids_4" x="506" y="1565" w="154" h="105"/>
+    <sprite n="s11_hand_left_back" x="64" y="1954" w="55" h="58" oX="19" oY="41" oW="96" oH="180" r="y"/>
+    <sprite n="s11_hand_left_front" x="243" y="1216" w="68" h="122" oX="15" oY="54" oW="96" oH="180"/>
+    <sprite n="s11_hand_left_glow" x="539" y="1402" w="121" h="93" oX="1" oY="0" oW="96" oH="180" r="y"/>
+    <sprite n="s11_hand_left_sparkles_01" x="3" y="1736" w="59" h="73" oX="18" oY="64" oW="96" oH="180"/>
+    <sprite n="s11_hand_left_sparkles_02" x="236" y="1421" w="75" h="58" oX="18" oY="68" oW="96" oH="180" r="y"/>
+    <sprite n="s11_hand_right_back" x="220" y="1687" w="62" h="60" oX="22" oY="37" oW="96" oH="180" r="y"/>
+    <sprite n="s11_hand_right_front" x="243" y="1083" w="68" h="129" oX="16" oY="48" oW="96" oH="180"/>
+    <sprite n="s11_hand_right_glow" x="570" y="1016" w="122" h="88" oX="8" oY="0" oW="96" oH="180" r="y"/>
+    <sprite n="s11_hand_right_sparkles_01" x="220" y="1552" w="81" h="53" oX="26" oY="68" oW="96" oH="180" r="y"/>
+    <sprite n="s11_hand_right_sparkles_02" x="164" y="1685" w="52" h="96" oX="25" oY="59" oW="96" oH="180"/>
+    <sprite n="s11_mouth" x="990" y="270" w="27" h="45" oX="6" oY="3" oW="60" oH="40" r="y"/>
+    <sprite n="s11_mouth_1" x="1001" y="115" w="13" h="40" oX="11" oY="5" oW="60" oH="40" r="y"/>
+    <sprite n="s11_mouth_2" x="1001" y="3" w="19" h="47" oX="6" oY="4" oW="60" oH="40" r="y"/>
+    <sprite n="s11_mouth_3" x="990" y="319" w="27" h="45" oX="6" oY="3" oW="60" oH="40" r="y"/>
+    <sprite n="s11_mouth_4" x="990" y="237" w="30" h="29" oX="15" oY="6" oW="60" oH="40" r="y"/>
+    <sprite n="s11_mouth_5" x="1001" y="95" w="16" h="16" oX="23" oY="11" oW="60" oH="40"/>
+    <sprite n="s11_mouth_6" x="1001" y="54" w="18" h="37" oX="11" oY="8" oW="60" oH="40" r="y"/>
+    <sprite n="s11_rebuild_1" x="571" y="919" w="122" h="93" oX="5" oY="19" oW="132" oH="132"/>
+    <sprite n="s11_rebuild_2" x="990" y="159" w="31" h="74" oX="9" oY="20" oW="92" oH="72" r="y"/>
+    <sprite n="s11_rebuild_3" x="550" y="1283" w="131" h="115" oX="0" oY="0" oW="132" oH="132"/>
+    <sprite n="s11_rebuild_4" x="934" y="1115" w="83" h="132" oX="0" oY="27" oW="132" oH="132" r="y"/>
+    <sprite n="s11_rebuild_5" x="934" y="1056" w="86" h="55" oX="3" oY="8" oW="92" oH="72"/>
+    <sprite n="s11_rebuild_6" x="220" y="1483" w="89" h="65" oX="2" oY="3" oW="92" oH="72"/>
+    <sprite n="s11_shadow" x="539" y="1499" w="116" h="62"/>
+    <sprite n="s11_top_cheek_glow" x="934" y="995" w="86" h="57" oX="34" oY="17" oW="148" oH="87"/>
+</TextureAtlas>

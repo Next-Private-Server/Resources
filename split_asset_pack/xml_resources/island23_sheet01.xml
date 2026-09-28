@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ffc3ab325b1cb3a4a5ab6427739ffcb2:33c059247b609f26f630a20507b4ab9c:7746b32fe4ac36586afe73b3cb31a279$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island23_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="back_clouds_01" x="780" y="1174" w="474" h="423" oX="1" oY="0" oW="476" oH="424"/>
+	<sprite n="back_clouds_02" x="1728" y="1378" w="312" h="144"/>
+	<sprite n="back_clouds_03" x="1422" y="1378" w="304" h="212"/>
+	<sprite n="back_rays" x="1853" y="1152" w="192" h="192"/>
+	<sprite n="centre_platform" x="0" y="1152" w="324" h="600" r="y"/>
+	<sprite n="centre_platform_base" x="1653" y="1592" w="68" h="180"/>
+	<sprite n="centre_platform_edge" x="1467" y="1048" w="384" h="169" oX="0" oY="1" oW="384" oH="172"/>
+	<sprite n="cloud_anim" x="781" y="865" w="312" h="307" oX="2" oY="0" oW="312" oH="312" r="y"/>
+	<sprite n="disk" x="1126" y="390" w="730" h="656" oX="1" oY="2" oW="732" oH="660"/>
+	<sprite n="disk_base" x="1858" y="390" w="188" h="236"/>
+	<sprite n="disk_broken" x="1467" y="1219" w="383" h="157"/>
+	<sprite n="disk_shine_01" x="1256" y="1378" w="164" h="215" oX="0" oY="0" oW="164" oH="216"/>
+	<sprite n="disk_shine_02" x="326" y="1604" w="224" h="148"/>
+	<sprite n="disk_shine_03" x="350" y="865" w="227" h="259" oX="0" oY="2" oW="260" oH="232" r="y"/>
+	<sprite n="disk_shine_04" x="0" y="1754" w="216" h="277" oX="1" oY="0" oW="280" oH="216" r="y"/>
+	<sprite n="disk_shine_05" x="781" y="1752" w="143" h="116" oX="0" oY="0" oW="116" oH="144" r="y"/>
+	<sprite n="disk_shine_06" x="579" y="865" w="196" h="220" r="y"/>
+	<sprite n="disk_shine_07" x="0" y="865" w="348" h="284" r="y"/>
+	<sprite n="double_moon" x="1065" y="1599" w="400" h="408"/>
+	<sprite n="eye" x="0" y="0" w="1124" h="863" oX="0" oY="37" oW="1124" oH="900"/>
+	<sprite n="eye_edge" x="1126" y="0" w="885" h="388" oX="1" oY="0" oW="888" oH="388"/>
+	<sprite n="eye_glow" x="928" y="1599" w="135" h="445" oX="1" oY="2" oW="448" oH="140" r="y"/>
+	<sprite n="moon" x="326" y="1151" w="452" h="451" oX="0" oY="0" oW="452" oH="452"/>
+	<sprite n="moon_phase_01" x="2013" y="0" w="3" h="3" oX="0" oY="0" oW="200" oH="200"/>
+	<sprite n="moon_phase_02" x="1723" y="1652" w="182" h="104" oX="7" oY="9" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_03" x="1467" y="1592" w="184" h="108" oX="7" oY="8" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_04" x="1095" y="1048" w="184" h="112" oX="7" oY="8" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_05" x="1728" y="1524" w="186" h="126" oX="7" oY="7" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_06" x="552" y="1604" w="186" h="146" oX="7" oY="7" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_07" x="1858" y="816" w="186" h="166" oX="7" oY="7" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_08" x="1858" y="628" w="186" h="186" oX="7" oY="7" oW="200" oH="200"/>
+	<sprite n="moon_phase_09" x="1858" y="984" w="186" h="166" oX="27" oY="7" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_10" x="740" y="1604" w="186" h="146" oX="47" oY="7" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_11" x="1916" y="1524" w="126" h="186" oX="67" oY="7" oW="200" oH="200"/>
+	<sprite n="moon_phase_12" x="1281" y="1048" w="184" h="112" oX="81" oY="8" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_13" x="1467" y="1702" w="184" h="108" oX="85" oY="8" oW="200" oH="200" r="y"/>
+	<sprite n="moon_phase_14" x="1907" y="1712" w="104" h="182" oX="89" oY="9" oW="200" oH="200"/>
+	<sprite n="moon_phase_glow" x="1256" y="1162" w="202" h="202"/>
+	<sprite n="nose" x="218" y="1754" w="561" h="270" oX="1" oY="1" oW="272" oH="564" r="y"/>
+</TextureAtlas>

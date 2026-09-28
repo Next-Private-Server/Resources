@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e8144d636f4d973640521d70a9b069a9:bbcd80d2264157a14672c27742cbdf49:8c50167c2a1f4fea3e51e90529fc36b3$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BDR_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="body lower" x="0" y="110" w="212" h="113" pX="0.679245" pY="0.439655" oX="0" oY="0" oW="212" oH="116" />
+  <sprite n="body mid" x="0" y="225" w="179" h="135" pX="0.345588" pY="0.655556" oX="0" oY="0" oW="136" oH="180" r="y" />
+  <sprite n="skirt" x="0" y="0" w="224" h="108" pX="0.48283261802575106" pY="0.8267967320261438" oX="0" oY="41" oW="233" oH="153" />
+</TextureAtlas>

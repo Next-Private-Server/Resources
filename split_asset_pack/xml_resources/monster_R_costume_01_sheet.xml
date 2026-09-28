@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:44d3ea108712f859ca622aa8f46f1fcd:325c8284c9495e2b8d52be71ce331738:3db444bafa71bb3d2cb8d1faba1258bf$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_R_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="plant_back" x="0" y="178" w="169" h="72" pX="0.561111" pY="0.59" oX="6" oY="2" oW="180" oH="100"/>
+	<sprite n="plant_can" x="158" y="252" w="86" h="128" pX="0.492188" pY="0.730769" oX="0" oY="5" oW="128" oH="91" r="y"/>
+	<sprite n="plant_front" x="0" y="252" w="156" h="92" pX="0.566667" pY="0.56" oX="18" oY="6" oW="180" oH="100"/>
+	<sprite n="plant_head" x="0" y="0" w="203" h="176" pX="0.547619" pY="0.905556" oX="3" oY="2" oW="210" oH="180"/>
+</TextureAtlas>

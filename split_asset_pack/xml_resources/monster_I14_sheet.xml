@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b139882f49defd8ab71b4b0c7d95d7ff:700d7c040c522fb5e693492951ff5fba:4e805efa4f403b1fee9875e4356564e7$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I14_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="I14_arm_left" x="294" y="221" w="68" h="159" oX="0" oY="1" oW="68" oH="160"/>
+	<sprite n="I14_arm_right" x="826" y="367" w="116" h="69" oX="0" oY="3" oW="72" oH="120" r="y"/>
+	<sprite n="I14_body" x="0" y="0" w="239" h="394" oX="24" oY="18" oW="281" oH="416"/>
+	<sprite n="I14_body_back" x="0" y="396" w="269" h="315" oX="6" oY="4" oW="281" oH="416"/>
+	<sprite n="I14_eye_left" x="593" y="216" w="92" h="130" oX="3" oY="4" oW="136" oH="100" r="y"/>
+	<sprite n="I14_eyelid_left_01" x="826" y="438" w="115" h="75" oX="3" oY="3" oW="121" oH="81"/>
+	<sprite n="I14_eyelid_left_02" x="826" y="515" w="115" h="75" oX="3" oY="3" oW="121" oH="81"/>
+	<sprite n="I14_eyelid_left_03" x="817" y="592" w="115" h="75" oX="3" oY="3" oW="121" oH="81"/>
+	<sprite n="I14_eyelid_left_04" x="583" y="671" w="115" h="75" oX="3" oY="3" oW="121" oH="81"/>
+	<sprite n="I14_eyelid_right_01" x="705" y="651" w="94" h="74" oX="1" oY="2" oW="96" oH="76"/>
+	<sprite n="I14_eyelid_right_02" x="951" y="0" w="73" h="93" oX="1" oY="3" oW="96" oH="76" r="y"/>
+	<sprite n="I14_eyelid_right_03" x="951" y="95" w="73" h="93" oX="1" oY="3" oW="96" oH="76" r="y"/>
+	<sprite n="I14_eyelid_right_04" x="951" y="190" w="73" h="93" oX="1" oY="3" oW="96" oH="76" r="y"/>
+	<sprite n="I14_finger_a" x="678" y="394" w="32" h="42" oX="3" oY="3" oW="46" oH="36" r="y"/>
+	<sprite n="I14_finger_b" x="687" y="298" w="28" h="39" oX="0" oY="0" oW="40" oH="28" r="y"/>
+	<sprite n="I14_foot" x="830" y="104" w="119" h="87" oX="1" oY="1" oW="121" oH="89"/>
+	<sprite n="I14_iris_A_01" x="538" y="671" w="43" h="44" oX="4" oY="1" oW="48" oH="48" r="y"/>
+	<sprite n="I14_iris_A_02" x="686" y="968" w="39" h="45" oX="1" oY="3" oW="48" oH="48" r="y"/>
+	<sprite n="I14_iris_A_03" x="729" y="762" w="38" h="43" oX="1" oY="4" oW="48" oH="48" r="y"/>
+	<sprite n="I14_iris_A_04" x="700" y="807" w="40" h="43" oX="2" oY="4" oW="48" oH="48" r="y"/>
+	<sprite n="I14_iris_A_05" x="642" y="969" w="42" h="46" oX="1" oY="4" oW="48" oH="48" r="y"/>
+	<sprite n="I14_iris_A_06" x="684" y="762" w="43" h="43" oX="5" oY="3" oW="48" oH="48"/>
+	<sprite n="I14_iris_B_01" x="255" y="969" w="61" h="55" oX="0" oY="7" oW="68" oH="64"/>
+	<sprite n="I14_iris_B_02" x="656" y="907" w="56" h="59" oX="4" oY="0" oW="68" oH="64" r="y"/>
+	<sprite n="I14_iris_B_03" x="535" y="920" w="58" h="47" oX="8" oY="5" oW="68" oH="64"/>
+	<sprite n="I14_iris_B_04" x="595" y="918" w="59" h="49" oX="9" oY="6" oW="68" oH="64"/>
+	<sprite n="I14_iris_B_05" x="376" y="969" w="56" h="54" oX="8" oY="6" oW="68" oH="64"/>
+	<sprite n="I14_iris_B_06" x="318" y="969" w="56" h="55" oX="4" oY="9" oW="68" oH="64"/>
+	<sprite n="I14_leg" x="589" y="0" w="48" h="136" oX="6" oY="0" oW="60" oH="136"/>
+	<sprite n="I14_min_arm_left_a" x="717" y="185" w="108" h="69" oX="4" oY="6" oW="112" oH="80"/>
+	<sprite n="I14_min_arm_left_b" x="712" y="609" w="102" h="40" oX="2" oY="0" oW="104" oH="40"/>
+	<sprite n="I14_min_arm_right_a" x="639" y="0" w="69" h="131" oX="2" oY="3" oW="140" oH="80" r="y"/>
+	<sprite n="I14_min_arm_right_b" x="618" y="832" w="38" h="73" oX="1" oY="3" oW="40" oH="80"/>
+	<sprite n="I14_min_body" x="229" y="713" w="228" h="254" oX="7" oY="7" oW="264" oH="240" r="y"/>
+	<sprite n="I14_min_body_left" x="0" y="713" w="227" h="267" oX="6" oY="8" oW="240" oH="280"/>
+	<sprite n="I14_min_body_right" x="241" y="0" w="213" h="219" oX="3" oY="5" oW="224" oH="224" r="y"/>
+	<sprite n="I14_min_body_string_a" x="538" y="586" w="62" h="83" oX="0" oY="3" oW="64" oH="88"/>
+	<sprite n="I14_min_body_string_b" x="644" y="762" w="38" h="58" oX="1" oY="1" oW="60" oH="40" r="y"/>
+	<sprite n="I14_min_eye_left" x="584" y="358" w="92" h="130" oX="4" oY="3" oW="100" oH="136"/>
+	<sprite n="I14_min_eyelid_left_01" x="945" y="285" w="75" h="115" oX="3" oY="2" oW="80" oH="120"/>
+	<sprite n="I14_min_eyelid_left_02" x="944" y="402" w="75" h="115" oX="3" oY="2" oW="80" oH="120"/>
+	<sprite n="I14_min_eyelid_left_03" x="943" y="519" w="75" h="115" oX="3" oY="2" oW="80" oH="120"/>
+	<sprite n="I14_min_eyelid_left_04" x="459" y="713" w="75" h="115" oX="3" oY="2" oW="80" oH="120"/>
+	<sprite n="I14_min_eyelid_right_01" x="318" y="382" w="131" h="150" oX="5" oY="4" oW="140" oH="160"/>
+	<sprite n="I14_min_eyelid_right_02" x="364" y="221" w="131" h="150" oX="5" oY="4" oW="140" oH="160"/>
+	<sprite n="I14_min_eyelid_right_03" x="451" y="373" w="131" h="150" oX="5" oY="4" oW="140" oH="160"/>
+	<sprite n="I14_min_eyelid_right_04" x="456" y="0" w="131" h="150" oX="5" oY="4" oW="140" oH="160"/>
+	<sprite n="I14_min_finger_a" x="584" y="490" w="43" h="32" oX="0" oY="2" oW="43" oH="35"/>
+	<sprite n="I14_min_finger_b" x="678" y="438" w="31" h="40" oX="0" oY="3" oW="40" oH="36" r="y"/>
+	<sprite n="I14_min_foot" x="827" y="193" w="119" h="87" oX="1" oY="1" oW="121" oH="88"/>
+	<sprite n="I14_min_iris_A_01" x="717" y="297" w="107" h="112" oX="15" oY="24" oW="141" oH="160"/>
+	<sprite n="I14_min_iris_A_02" x="830" y="0" w="119" h="102" oX="9" oY="38" oW="141" oH="160" r="y"/>
+	<sprite n="I14_min_iris_A_03" x="437" y="586" w="99" h="125" oX="11" oY="18" oW="141" oH="160"/>
+	<sprite n="I14_min_iris_A_04" x="271" y="588" w="98" h="122" oX="23" oY="5" oW="141" oH="160"/>
+	<sprite n="I14_min_iris_A_05" x="710" y="0" w="118" h="121" oX="19" oY="4" oW="141" oH="160"/>
+	<sprite n="I14_min_iris_A_06" x="712" y="411" w="112" h="103" oX="11" oY="26" oW="141" oH="160"/>
+	<sprite n="I14_min_iris_B_01" x="271" y="395" w="45" h="191" oX="3" oY="3" oW="48" oH="200"/>
+	<sprite n="I14_min_iris_B_02" x="547" y="218" w="44" h="138" oX="3" oY="56" oW="48" oH="200"/>
+	<sprite n="I14_min_iris_B_03" x="658" y="822" w="40" h="70" oX="5" oY="124" oW="48" oH="200"/>
+	<sprite n="I14_min_iris_B_04" x="629" y="490" w="81" h="41" oX="3" oY="113" oW="48" oH="200" r="y"/>
+	<sprite n="I14_min_iris_B_05" x="602" y="620" w="101" h="44" oX="1" oY="93" oW="48" oH="200" r="y"/>
+	<sprite n="I14_min_iris_B_06" x="0" y="982" w="154" h="42" oX="4" oY="40" oW="48" oH="200" r="y"/>
+	<sprite n="I14_min_iris_C_01" x="434" y="969" w="147" h="53" oX="9" oY="26" oW="64" oH="176" r="y"/>
+	<sprite n="I14_min_iris_C_02" x="241" y="221" w="51" h="172" oX="5" oY="2" oW="64" oH="176"/>
+	<sprite n="I14_min_iris_C_03" x="717" y="256" w="108" h="39" oX="10" oY="65" oW="64" oH="176" r="y"/>
+	<sprite n="I14_min_iris_C_04" x="546" y="152" w="34" h="64" oX="7" oY="109" oW="64" oH="176"/>
+	<sprite n="I14_min_iris_C_05" x="678" y="348" w="37" h="44" oX="4" oY="129" oW="64" oH="176"/>
+	<sprite n="I14_min_iris_C_06" x="156" y="982" w="97" h="42" oX="7" oY="76" oW="64" oH="176" r="y"/>
+	<sprite n="I14_min_leg" x="497" y="221" w="48" h="145" oX="6" oY="0" oW="59" oH="145"/>
+	<sprite n="I14_min_mouth_left_01" x="827" y="282" w="116" h="83" oX="2" oY="4" oW="120" oH="88"/>
+	<sprite n="I14_min_mouth_left_02" x="459" y="830" w="74" h="114" oX="3" oY="7" oW="120" oH="88" r="y"/>
+	<sprite n="I14_min_mouth_left_03" x="717" y="123" w="111" h="60" oX="5" oY="10" oW="120" oH="88"/>
+	<sprite n="I14_min_mouth_left_04" x="318" y="534" w="111" h="51" oX="5" oY="12" oW="120" oH="88"/>
+	<sprite n="I14_min_mouth_right_01" x="456" y="152" w="88" h="67"/>
+	<sprite n="I14_min_mouth_right_02" x="518" y="525" w="87" h="59" oX="0" oY="1" oW="88" oH="67"/>
+	<sprite n="I14_min_mouth_right_03" x="431" y="534" w="85" h="50" oX="0" oY="3" oW="88" oH="67"/>
+	<sprite n="I14_min_mouth_right_04" x="535" y="832" w="39" h="86" oX="1" oY="0" oW="88" oH="67" r="y"/>
+	<sprite n="I14_min_spring" x="607" y="533" w="103" h="85" oX="1" oY="1" oW="88" oH="104" r="y"/>
+	<sprite n="I14_mouth_left_01" x="801" y="669" w="115" h="56" oX="2" oY="21" oW="120" oH="87"/>
+	<sprite n="I14_mouth_left_02" x="536" y="717" w="45" h="113" oX="3" oY="25" oW="120" oH="87" r="y"/>
+	<sprite n="I14_mouth_left_03" x="712" y="516" w="112" h="46" oX="4" oY="27" oW="120" oH="87"/>
+	<sprite n="I14_mouth_left_04" x="712" y="564" w="103" h="43" oX="8" oY="30" oW="120" oH="87"/>
+	<sprite n="I14_mouth_left_05" x="687" y="216" w="28" h="80" oX="25" oY="32" oW="120" oH="87" r="y"/>
+	<sprite n="I14_mouth_left_06" x="583" y="969" w="57" h="53" oX="33" oY="19" oW="120" oH="87"/>
+	<sprite n="I14_mouth_left_07" x="583" y="748" w="59" h="82" oX="30" oY="2" oW="120" oH="87"/>
+	<sprite n="I14_mouth_left_08" x="576" y="832" w="40" h="84" oX="19" oY="26" oW="120" oH="87" r="y"/>
+	<sprite n="I14_mouth_right_01" x="918" y="691" w="86" h="69" oX="8" oY="3" oW="101" oH="79"/>
+	<sprite n="I14_mouth_right_02" x="582" y="152" w="87" h="62" oX="6" oY="4" oW="101" oH="79"/>
+	<sprite n="I14_mouth_right_03" x="934" y="636" w="87" h="53" oX="6" oY="4" oW="101" oH="79"/>
+	<sprite n="I14_mouth_right_04" x="671" y="133" w="44" h="81" oX="8" oY="5" oW="101" oH="79" r="y"/>
+	<sprite n="I14_shadow" x="371" y="587" w="64" h="122" oX="2" oY="0" oW="124" oH="64" r="y"/>
+</TextureAtlas>

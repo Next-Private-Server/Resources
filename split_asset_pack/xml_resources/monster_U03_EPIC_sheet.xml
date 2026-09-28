@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:adad997eb89af16b6bbacba9738455c4:db81b2455cfbb1991a5bc91ea8829f1e:a092247782f0ca49bbff0339d5b96ccf$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U03_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="beam" x="203" y="688" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="glow_spot" x="311" y="0" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U03_back" x="203" y="455" w="157" h="135" r="y"/>
+	<sprite n="U03_body_epic" x="373" y="277" w="112" h="50" oX="0" oY="2" oW="116" oH="52"/>
+	<sprite n="U03_chest" x="431" y="688" w="75" h="60"/>
+	<sprite n="U03_eyelights_epic" x="133" y="976" w="57" h="40"/>
+	<sprite n="U03_flame" x="450" y="71" w="41" h="44"/>
+	<sprite n="U03_foot_epic" x="311" y="91" w="137" h="51" r="y"/>
+	<sprite n="U03_glow_01" x="222" y="217" w="149" h="127"/>
+	<sprite n="U03_glow_02" x="242" y="760" w="167" h="133"/>
+	<sprite n="U03_hand_epic" x="311" y="144" w="148" h="49" r="y"/>
+	<sprite n="U03_head_epic" x="0" y="455" w="201" h="306"/>
+	<sprite n="U03_key_glow" x="461" y="117" w="34" h="64" oX="9" oY="11" oW="84" oH="56" r="y"/>
+	<sprite n="U03_keypad_epic" x="0" y="0" w="220" h="453" oX="0" oY="0" oW="453" oH="224" r="y"/>
+	<sprite n="U03_keypad_epic_mask2" x="402" y="0" w="85" h="69"/>
+	<sprite n="U03_keypad_epic_mask3" x="373" y="195" w="78" h="80"/>
+	<sprite n="U03_lowerarm" x="222" y="407" w="126" h="44" oX="0" oY="1" oW="52" oH="129" r="y"/>
+	<sprite n="U03_lowerleg" x="387" y="988" w="120" h="36"/>
+	<sprite n="U03_pipe_a" x="203" y="592" w="237" h="94" oX="11" oY="12" oW="108" oH="264" r="y"/>
+	<sprite n="U03_pipe_a_R" x="0" y="763" w="240" h="101" oX="0" oY="12" oW="108" oH="264" r="y"/>
+	<sprite n="U03_pipe_b" x="194" y="895" w="191" h="108" oX="0" oY="1" oW="108" oH="192" r="y"/>
+	<sprite n="U03_pipe_b_R" x="0" y="866" w="192" h="108" r="y"/>
+	<sprite n="U03_pipe_c" x="362" y="346" w="76" h="168" oX="0" oY="4" oW="76" oH="172"/>
+	<sprite n="U03_pipe_d_epic" x="442" y="578" w="54" h="93"/>
+	<sprite n="U03_pipe_e" x="411" y="760" w="92" h="226" oX="0" oY="10" oW="92" oH="236"/>
+	<sprite n="U03_pipe_e_R" x="222" y="0" w="87" h="215" oX="2" oY="14" oW="92" oH="236"/>
+	<sprite n="U03_pipe_f" x="453" y="195" w="59" h="73"/>
+	<sprite n="U03_pipe_f_R" x="440" y="329" w="59" h="73"/>
+	<sprite n="U03_rock" x="440" y="462" w="37" h="35" r="y"/>
+	<sprite n="U03_shadow" x="222" y="346" w="112" h="59" oX="8" oY="8" oW="128" oH="76"/>
+	<sprite n="U03_tail_epic_1" x="387" y="895" w="17" h="54"/>
+	<sprite n="U03_tail_epic_2" x="194" y="866" w="26" h="22"/>
+	<sprite n="U03_tail_epic_3" x="222" y="866" w="10" h="23" r="y"/>
+	<sprite n="U03_tail_epic_4" x="440" y="404" w="29" h="56" r="y"/>
+	<sprite n="U03_upperarm_epic" x="0" y="976" w="131" h="47" r="y"/>
+	<sprite n="U03_upperleg_epic" x="362" y="516" w="147" h="60" oX="0" oY="0" oW="60" oH="148" r="y"/>
+</TextureAtlas>

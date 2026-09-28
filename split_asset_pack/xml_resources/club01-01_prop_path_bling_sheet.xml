@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:77d08f1017d7efc6fa4791f367d70c5e:343eb7da394c70b06ccf5974d35b18ff:e5a3e9adac3103f8d261f304fc7b0b6e$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_path_bling_sheet.png" width="256" height="1024" hires="true" version="1">
+	<sprite n="path" x="0" y="0" w="205" h="318" oX="51" oY="22" oW="418" oH="250" r="y"/>
+	<sprite n="path_clr" x="207" y="0" w="40" h="788"/>
+</TextureAtlas>

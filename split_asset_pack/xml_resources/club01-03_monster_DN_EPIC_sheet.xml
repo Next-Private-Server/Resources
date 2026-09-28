@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0ff108fddff8fa4bb64c23ce3e774c91:115322c54397fa85999ddde4f92d9f78:b1f7d8eb77aabc1b214a223fb85b1421$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_monster_DN_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="DN_adult_big_anglefin_1_EPIC" x="224" y="369" w="146" h="41" r="y"/>
+	<sprite n="DN_adult_big_anglefin_2_EPIC" x="224" y="323" w="152" h="44"/>
+	<sprite n="DN_adult_big_anglefin_3_EPIC" x="478" y="615" w="33" h="115"/>
+	<sprite n="DN_adult_big_phone_Epic" x="226" y="848" w="49" h="85"/>
+	<sprite n="DN_adult_body_Epic" x="227" y="175" w="178" h="146"/>
+	<sprite n="DN_adult_Eye_Left" x="0" y="937" w="83" h="87" oX="0" oY="0" oW="90" oH="83" r="y"/>
+	<sprite n="DN_adult_Eye_Right" x="277" y="910" w="63" h="47" oX="0" oY="0" oW="50" oH="63" r="y"/>
+	<sprite n="DN_adult_filter" x="343" y="829" w="70" h="58" r="y"/>
+	<sprite n="DN_adult_glow_small" x="328" y="959" w="45" h="45"/>
+	<sprite n="DN_adult_jaw_EPIC" x="0" y="239" w="168" h="60" oX="0" oY="0" oW="168" oH="78"/>
+	<sprite n="DN_adult_large_glow_EPIC" x="0" y="301" w="158" h="117" r="y"/>
+	<sprite n="DN_adult_left_eyelid_1" x="132" y="477" w="90" h="83"/>
+	<sprite n="DN_adult_left_eyelid_2" x="132" y="562" w="90" h="83"/>
+	<sprite n="DN_adult_left_eyelid_3" x="132" y="647" w="90" h="83"/>
+	<sprite n="DN_adult_left_eyelid_back1" x="277" y="959" w="49" h="51" oX="0" oY="0" oW="90" oH="83" r="y"/>
+	<sprite n="DN_adult_left_eyelid_back2" x="170" y="278" w="52" h="49" oX="0" oY="0" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_back3" x="456" y="732" w="52" h="49" oX="0" oY="0" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_front1" x="378" y="323" w="27" h="49" oX="63" oY="21" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_front2" x="407" y="175" w="28" h="49" oX="62" oY="21" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_front3" x="421" y="782" w="28" h="49" oX="62" oY="21" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_medium1" x="451" y="783" w="61" h="71" oX="8" oY="12" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_medium2" x="160" y="329" w="62" h="72" oX="8" oY="11" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_eyelid_medium3" x="160" y="403" w="62" h="72" oX="8" oY="11" oW="90" oH="83"/>
+	<sprite n="DN_adult_left_fin_EPIC" x="227" y="0" w="217" h="173" r="y"/>
+	<sprite n="DN_adult_left_foot_EPIC" x="407" y="237" w="103" h="95"/>
+	<sprite n="DN_adult_lowerleg_EPIC" x="188" y="138" w="37" h="68"/>
+	<sprite n="DN_adult_lowerleg_EPIC_right" x="188" y="208" w="37" h="68"/>
+	<sprite n="DN_adult_mouth_01" x="355" y="615" w="121" h="63" oX="9" oY="15" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_02" x="446" y="0" w="66" h="127" oX="0" oY="13" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_mouth_03" x="0" y="656" w="126" h="73" oX="1" oY="7" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_04" x="224" y="652" w="119" h="82" oX="8" oY="3" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_05" x="0" y="842" w="116" h="93" oX="11" oY="1" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_06" x="168" y="936" w="107" h="86" oX="14" oY="6" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_07" x="446" y="129" w="66" h="106" oX="15" oY="10" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_mouth_08" x="85" y="937" w="50" h="87" oX="38" oY="15" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_mouth_09" x="345" y="680" w="109" h="65" oX="17" oY="14" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_10" x="220" y="736" w="78" h="110" oX="20" oY="7" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_mouth_11" x="124" y="732" w="94" h="117" oX="12" oY="0" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_Right_eyelid_1" x="277" y="859" w="63" h="49" oX="0" oY="0" oW="50" oH="63" r="y"/>
+	<sprite n="DN_adult_right_eyelid_2" x="415" y="856" w="63" h="49" oX="0" oY="0" oW="50" oH="63" r="y"/>
+	<sprite n="DN_adult_right_eyelid_3" x="342" y="889" w="63" h="49" oX="0" oY="0" oW="50" oH="63" r="y"/>
+	<sprite n="DN_adult_right_eyelid_front1" x="407" y="334" w="45" h="38" oX="11" oY="18" oW="50" oH="63" r="y"/>
+	<sprite n="DN_adult_right_eyelid_front2" x="454" y="334" w="45" h="38" oX="11" oY="18" oW="50" oH="63" r="y"/>
+	<sprite n="DN_adult_right_eyelid_front3" x="375" y="940" w="38" h="45" oX="11" oY="18" oW="50" oH="63"/>
+	<sprite n="DN_adult_right_eyelid_medium1" x="300" y="736" w="41" h="39" oX="0" oY="0" oW="50" oH="63"/>
+	<sprite n="DN_adult_right_eyelid_medium2" x="300" y="777" w="41" h="39" oX="0" oY="0" oW="50" oH="63"/>
+	<sprite n="DN_adult_right_eyelid_medium3" x="300" y="818" w="41" h="39" oX="0" oY="0" oW="50" oH="63"/>
+	<sprite n="DN_adult_right_fin_EPIC" x="0" y="0" w="225" h="136" r="y"/>
+	<sprite n="DN_adult_right_foot_EPIC" x="118" y="851" w="106" h="83"/>
+	<sprite n="DN_adult_shadow" x="0" y="138" w="186" h="99"/>
+	<sprite n="DN_adult_small_anglefin_1_Epic" x="343" y="747" w="91" h="33" r="y"/>
+	<sprite n="DN_adult_small_anglefin_2_Epic" x="137" y="936" w="29" h="88" r="y"/>
+	<sprite n="DN_adult_small_anglefin_3_Epic" x="490" y="497" w="20" h="63"/>
+	<sprite n="DN_adult_topfin_EPIC" x="0" y="731" w="122" h="109" r="y"/>
+	<sprite n="DN_adult_upperleg_EPIC" x="343" y="782" w="76" h="45" r="y"/>
+	<sprite n="ring01" x="358" y="497" w="130" h="116" oX="5" oY="12" oW="140" oH="140"/>
+	<sprite n="ring02" x="0" y="420" w="130" h="116" oX="5" oY="12" oW="140" oH="140"/>
+	<sprite n="ring03" x="0" y="538" w="130" h="116" oX="5" oY="12" oW="140" oH="140"/>
+	<sprite n="ring04" x="372" y="374" w="132" h="121" oX="4" oY="9" oW="140" oH="140"/>
+	<sprite n="ring05" x="224" y="412" w="132" h="119" oX="4" oY="10" oW="140" oH="140"/>
+	<sprite n="ring06" x="224" y="533" w="129" h="117" oX="6" oY="11" oW="140" oH="140"/>
+</TextureAtlas>

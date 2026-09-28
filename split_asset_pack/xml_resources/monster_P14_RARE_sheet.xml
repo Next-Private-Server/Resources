@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:77dab16d29896d8328dc811c61c5cc90:ffd099f817d4ad93f8cfe2f6744a8a65:85e78eea6ae329964091c7bbd5d97746$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P14_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="m_P14_Antenna_L" x="482" y="735" w="27" h="47" oX="0" oY="0" oW="28" oH="47" />
+  <sprite n="m_P14_Antenna_R" x="475" y="135" w="28" h="46" />
+  <sprite n="m_P14_Body" x="0" y="0" w="251" h="246" oX="5" oY="3" oW="256" oH="256" />
+  <sprite n="m_P14_Clr_Wheel" x="442" y="183" w="69" h="69" oX="1" oY="1" oW="70" oH="70" />
+  <sprite n="m_P14_Eyelid_R_1" x="107" y="753" w="48" h="46" oX="1" oY="0" oW="48" oH="48" r="y" />
+  <sprite n="m_P14_Eyelid_R_2" x="104" y="849" w="47" h="45" oX="1" oY="1" oW="48" oH="48" r="y" />
+  <sprite n="m_P14_Eyelid_R_3" x="323" y="825" w="47" h="45" oX="1" oY="1" oW="48" oH="48" r="y" />
+  <sprite n="m_P14_Eyelid_R_4" x="104" y="801" w="47" h="46" oX="1" oY="1" oW="48" oH="48" r="y" />
+  <sprite n="m_P14_Eyelid_R_5" x="153" y="886" w="47" h="45" oX="1" oY="1" oW="48" oH="48" r="y" />
+  <sprite n="m_P14_Eyelid_R_6" x="459" y="831" w="47" h="45" oX="1" oY="1" oW="48" oH="48" r="y" />
+  <sprite n="m_P14_Eyelig_L_1" x="335" y="698" w="43" h="41" oX="0" oY="1" oW="44" oH="44" />
+  <sprite n="m_P14_Eyelig_L_2" x="335" y="783" w="42" h="40" oX="1" oY="2" oW="44" oH="44" />
+  <sprite n="m_P14_Eyelig_L_3" x="202" y="890" w="42" h="40" oX="1" oY="2" oW="44" oH="44" />
+  <sprite n="m_P14_Eyelig_L_4" x="246" y="890" w="42" h="40" oX="1" oY="2" oW="44" oH="44" />
+  <sprite n="m_P14_Eyelig_L_5" x="290" y="890" w="42" h="40" oX="1" oY="2" oW="44" oH="44" />
+  <sprite n="m_P14_Eyelig_L_6" x="459" y="878" w="42" h="40" oX="1" oY="2" oW="44" oH="44" />
+  <sprite n="m_P14_Foot_Sleep2" x="114" y="591" w="53" h="64" oX="0" oY="7" oW="64" oH="60" r="y" />
+  <sprite n="m_P14_Forehead_1" x="221" y="795" w="100" h="93" oX="0" oY="7" oW="100" oH="100" />
+  <sprite n="m_P14_Forehead_2" x="380" y="735" w="100" h="94" oX="0" oY="6" oW="100" oH="100" />
+  <sprite n="m_P14_Forehead_3" x="233" y="698" w="100" h="95" oX="0" oY="5" oW="100" oH="100" />
+  <sprite n="m_P14_Glow" x="185" y="334" w="65" h="65" oX="4" oY="4" oW="70" oH="70" />
+  <sprite n="m_P14_Head" x="253" y="332" w="172" h="139" oX="0" oY="0" oW="144" oH="176" r="y" />
+  <sprite n="m_P14_Jowel_L" x="114" y="657" w="48" h="94" oX="1" oY="0" oW="50" oH="94" />
+  <sprite n="m_P14_Jowel_R" x="427" y="376" w="85" h="100" oX="1" oY="0" oW="86" oH="100" />
+  <sprite n="m_P14_L_Ear" x="157" y="762" w="62" h="60" r="y" />
+  <sprite n="m_P14_Leg_Over_1" x="0" y="652" w="112" h="57" oX="5" oY="8" oW="72" oH="120" r="y" />
+  <sprite n="m_P14_Leg_Over_2" x="245" y="639" w="115" h="57" oX="4" oY="5" oW="72" oH="120" r="y" />
+  <sprite n="m_P14_Leg_Over_3" x="0" y="591" w="112" h="59" oX="5" oY="8" oW="72" oH="120" r="y" />
+  <sprite n="m_P14_Leg_Over_4" x="403" y="478" w="109" h="58" oX="5" oY="11" oW="72" oH="120" r="y" />
+  <sprite n="m_P14_Leg_Over_5" x="0" y="711" w="105" h="61" oX="5" oY="15" oW="72" oH="120" r="y" />
+  <sprite n="m_P14_Leg_Over_6" x="164" y="663" w="67" h="97" oX="5" oY="22" oW="72" oH="120" />
+  <sprite n="m_P14_Leg_Over_7" x="442" y="254" w="68" h="120" oX="0" oY="0" oW="72" oH="120" />
+  <sprite n="m_P14_Mouth_1" x="0" y="865" w="98" h="83" oX="15" oY="1" oW="100" oH="106" r="y" />
+  <sprite n="m_P14_Mouth_2" x="191" y="933" w="96" h="89" oX="10" oY="4" oW="100" oH="106" r="y" />
+  <sprite n="m_P14_Mouth_3" x="289" y="932" w="93" h="92" oX="6" oY="9" oW="100" oH="106" />
+  <sprite n="m_P14_Mouth_4" x="172" y="446" w="79" h="99" oX="0" oY="25" oW="100" oH="106" r="y" />
+  <sprite n="m_P14_neck_fluff" x="0" y="425" w="170" h="164" r="y" />
+  <sprite n="m_P14_Pupil_1" x="482" y="784" w="22" h="22" oX="8" oY="8" oW="34" oH="38" />
+  <sprite n="m_P14_Pupil_2" x="442" y="146" w="24" h="21" oX="8" oY="7" oW="34" oH="38" r="y" />
+  <sprite n="m_P14_Pupil_3" x="475" y="107" w="29" h="26" oX="5" oY="4" oW="34" oH="38" r="y" />
+  <sprite n="m_P14_Pupil_4" x="475" y="74" w="33" h="31" oX="3" oY="3" oW="34" oH="38" r="y" />
+  <sprite n="m_P14_Pupil_5" x="475" y="0" w="36" h="32" oX="1" oY="1" oW="34" oH="38" r="y" />
+  <sprite n="m_P14_Pupil_6" x="475" y="34" w="34" h="38" />
+  <sprite n="m_P14_R_Ear" x="153" y="824" w="60" h="60" oX="0" oY="2" oW="60" oH="62" />
+  <sprite n="m_P14_shoulder" x="335" y="741" w="43" h="40" oX="0" oY="0" oW="44" oH="42" />
+  <sprite n="m_P14_Stache" x="172" y="547" w="71" h="114" oX="0" oY="0" oW="114" oH="72" r="y" />
+  <sprite n="m_P14_Stache_OL" x="185" y="401" w="65" h="43" oX="71" oY="6" oW="114" oH="72" r="y" />
+  <sprite n="m_P14_Tail" x="253" y="0" w="220" h="144" oX="6" oY="0" oW="150" oH="220" r="y" />
+  <sprite n="m_P14_Tail_2" x="185" y="248" w="66" h="84" r="y" />
+  <sprite n="m_P14_Tail_End_1" x="372" y="831" w="85" h="97" oX="62" oY="12" oW="148" oH="110" />
+  <sprite n="m_P14_Tail_End_2" x="0" y="774" w="102" h="89" oX="58" oY="7" oW="148" oH="110" r="y" />
+  <sprite n="m_P14_Tail_End_3" x="403" y="538" w="105" h="98" oX="49" oY="4" oW="148" oH="110" r="y" />
+  <sprite n="m_P14_Tail_End_4" x="381" y="638" w="120" h="95" oX="27" oY="14" oW="148" oH="110" />
+  <sprite n="m_P14_Tail_End_5" x="245" y="551" w="134" h="86" oX="13" oY="23" oW="148" oH="110" />
+  <sprite n="m_P14_waterring_A" x="0" y="248" w="183" h="175" r="y" />
+  <sprite n="m_P14_waterring_B" x="253" y="146" w="187" h="184" oX="2" oY="0" oW="190" oH="184" />
+  <sprite n="m_P14_waterring_C" x="100" y="933" w="89" h="91" />
+  <sprite n="P14_Shadow" x="253" y="473" w="148" h="76" />
+</TextureAtlas>

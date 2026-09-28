@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:946c9677e47f5145b5d108dc4d8d3d80:9de27c306153c9e47c2307204bdb9d8a:26fb62126503360ec1726c3540509691$ -->
+<TextureAtlas imagePath="gfx/menu/currency_sheet03.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="air_island_special" x="581" y="456" w="134" h="127" oX="20" oY="0" oW="180" oH="130"/>
+	<sprite n="bundle_14th_anniversary" x="841" y="454" w="136" h="136"/>
+	<sprite n="bundle_bill" x="443" y="384" w="136" h="136"/>
+	<sprite n="bundle_summersong_01" x="173" y="398" w="133" h="130" oX="24" oY="0" oW="180" oH="130"/>
+	<sprite n="cold_island_special" x="684" y="192" w="155" h="130" oX="18" oY="0" oW="180" oH="130"/>
+	<sprite n="diamonds_tokens_01" x="707" y="0" w="219" h="190" oX="5" oY="18" oW="228" oH="217"/>
+	<sprite n="diamonds_tokens_02" x="478" y="0" w="227" h="183" oX="4" oY="3" oW="234" oH="191"/>
+	<sprite n="diamonds_tokens_03" x="241" y="0" w="235" h="215" oX="6" oY="2" oW="247" oH="220"/>
+	<sprite n="diamonds_tokens_04" x="0" y="0" w="239" h="224" oX="0" oY="1" oW="243" oH="238"/>
+	<sprite n="earth_island_special" x="0" y="226" w="172" h="127" oX="0" oY="2" oW="180" oH="130"/>
+	<sprite n="fire_haven_special" x="841" y="192" w="155" h="130" oX="11" oY="0" oW="180" oH="130"/>
+	<sprite n="mini_game_special" x="841" y="324" w="143" h="128" oX="19" oY="0" oW="180" oH="130"/>
+	<sprite n="plant_island_special" x="0" y="355" w="171" h="124" oX="3" oY="0" oW="180" oH="130"/>
+	<sprite n="tokens_01" x="717" y="456" w="121" h="114" oX="54" oY="90" oW="228" oH="217"/>
+	<sprite n="tokens_02" x="241" y="217" w="200" h="179" oX="18" oY="9" oW="228" oH="217" r="y"/>
+	<sprite n="tokens_03" x="478" y="185" w="204" h="197" oX="12" oY="8" oW="228" oH="217"/>
+	<sprite n="water_island_special" x="684" y="324" w="155" h="130" oX="15" oY="0" oW="180" oH="130"/>
+</TextureAtlas>

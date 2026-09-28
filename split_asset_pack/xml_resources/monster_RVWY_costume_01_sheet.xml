@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:61f72f61d2d3120aa2081d9bad3f123c:890593290946b0fb0bd37c3692f992db:df1a328dbcee64765e214b298cdbae5e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_RVWY_costume_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="RVWY_back_left_foot" x="376" y="632" w="112" h="108" pX="0.5" pY="0.5" oX="3" oY="1" oW="116" oH="116" r="y"/>
+	<sprite n="RVWY_back_left_lowerleg" x="849" y="672" w="104" h="72" pX="0.5" pY="0.5" oX="4" oY="4" oW="112" oH="76"/>
+	<sprite n="RVWY_back_right_foot" x="360" y="742" w="109" h="102" pX="0.5" pY="0.5" oX="8" oY="2" oW="112" oH="112" r="y"/>
+	<sprite n="RVWY_back_right_furcover" x="670" y="469" w="61" h="89" pX="0.780899" pY="0.0409836" r="y"/>
+	<sprite n="RVWY_back_right_lowerleg" x="731" y="738" w="103" h="72" pX="0.5" pY="0.5" oX="5" oY="4" oW="112" oH="76"/>
+	<sprite n="RVWY_backdress" x="433" y="0" w="363" h="149" pX="-0.385906" pY="0.694215" r="y"/>
+	<sprite n="RVWY_front_left_foot" x="647" y="578" w="82" h="100" pX="0.5" pY="0.5" oX="0" oY="0" oW="100" oH="88" r="y"/>
+	<sprite n="RVWY_front_left_furcover" x="555" y="407" w="127" h="60" pX="0.507874" pY="0.55"/>
+	<sprite n="RVWY_front_left_lowerleg" x="76" y="844" w="103" h="118" pX="0.5" pY="0.5" oX="0" oY="5" oW="104" oH="124"/>
+	<sprite n="RVWY_front_left_toes_01" x="278" y="467" w="126" h="77" pX="0.5" pY="0.5" oX="8" oY="15" oW="140" oH="104"/>
+	<sprite n="RVWY_front_left_toes_02" x="404" y="555" w="122" h="75" pX="0.5" pY="0.5" oX="11" oY="10" oW="140" oH="104"/>
+	<sprite n="RVWY_front_left_toes_03" x="0" y="844" w="74" h="119" pX="0.5" pY="0.5" oX="15" oY="6" oW="140" oH="104" r="y"/>
+	<sprite n="RVWY_front_left_toes_04" x="283" y="309" w="135" h="77" pX="0.5" pY="0.5" oX="5" oY="8" oW="140" oH="104"/>
+	<sprite n="RVWY_front_left_toes_05" x="283" y="388" w="133" h="77" pX="0.5" pY="0.5" oX="2" oY="16" oW="140" oH="104"/>
+	<sprite n="RVWY_front_right_foot" x="647" y="680" w="82" h="100" pX="0.5" pY="0.5" oX="0" oY="0" oW="100" oH="88" r="y"/>
+	<sprite n="RVWY_front_right_furcover" x="958" y="202" w="64" h="118" pX="0.542373" pY="0.609375" r="y"/>
+	<sprite n="RVWY_front_right_lowerleg" x="254" y="629" w="120" h="104" pX="0.5" pY="0.5" oX="0" oY="4" oW="104" oH="124" r="y"/>
+	<sprite n="RVWY_front_right_toes_01" x="278" y="546" w="124" h="81" pX="0.5" pY="0.5" oX="10" oY="13" oW="140" oH="104"/>
+	<sprite n="RVWY_front_right_toes_02" x="0" y="764" w="119" h="78" pX="0.5" pY="0.5" oX="15" oY="5" oW="140" oH="104"/>
+	<sprite n="RVWY_front_right_toes_03" x="856" y="593" w="119" h="77" pX="0.5" pY="0.5" oX="17" oY="3" oW="140" oH="104"/>
+	<sprite n="RVWY_front_right_toes_04" x="944" y="322" w="78" h="126" pX="0.5" pY="0.5" oX="12" oY="8" oW="140" oH="104" r="y"/>
+	<sprite n="RVWY_front_right_toes_05" x="420" y="368" w="133" h="86" pX="0.5" pY="0.5" oX="4" oY="15" oW="140" oH="104"/>
+	<sprite n="RVWY_left_hand_01" x="490" y="688" w="111" h="106" pX="0.5" pY="0.5" oX="34" oY="32" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_02" x="246" y="735" w="112" h="106" pX="0.5" pY="0.5" oX="34" oY="32" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_03" x="528" y="578" w="117" h="108" pX="0.5" pY="0.5" oX="34" oY="30" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_04" x="144" y="439" w="132" h="124" pX="0.5" pY="0.5" oX="25" oY="6" oW="172" oH="148" r="y"/>
+	<sprite n="RVWY_left_hand_05" x="0" y="309" w="142" h="134" pX="0.5" pY="0.5" oX="9" oY="4" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_06" x="585" y="275" w="149" h="130" pX="0.5" pY="0.5" oX="6" oY="8" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_07" x="592" y="151" w="155" h="122" pX="0.5" pY="0.5" oX="4" oY="16" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_08" x="433" y="151" w="157" h="106" pX="0.5" pY="0.5" oX="7" oY="32" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_09" x="433" y="259" w="150" h="107" pX="0.5" pY="0.5" oX="12" oY="32" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_10" x="736" y="406" w="144" h="111" pX="0.5" pY="0.5" oX="18" oY="32" oW="172" oH="148"/>
+	<sprite n="RVWY_left_hand_11" x="125" y="677" w="119" h="112" pX="0.5" pY="0.5" oX="19" oY="32" oW="172" oH="148"/>
+	<sprite n="RVWY_left_lowerarm" x="731" y="623" w="116" h="113" pX="0.5" pY="0.5" oX="4" oY="10" oW="124" oH="132"/>
+	<sprite n="RVWY_legdress" x="0" y="678" w="119" h="84" pX="-0.902174" pY="0.975" oX="3" oY="0" oW="92" oH="120" r="y"/>
+	<sprite n="RVWY_lionhead" x="0" y="0" w="431" h="307" pX="0.316705" pY="0.527687"/>
+	<sprite n="RVWY_orb_01" x="749" y="151" w="42" h="91" pX="0.5" pY="0.5" oX="2" oY="3" oW="48" oH="96"/>
+	<sprite n="RVWY_orb_02" x="965" y="0" w="51" h="76" pX="0.5" pY="0.5" oX="2" oY="7" oW="56" oH="88"/>
+	<sprite n="RVWY_orb_03" x="749" y="244" w="42" h="90" pX="0.5" pY="0.5" oX="1" oY="4" oW="44" oH="96"/>
+	<sprite n="RVWY_orb_04" x="965" y="78" w="44" h="122" pX="0.5" pY="0.5" oX="4" oY="5" oW="52" oH="132"/>
+	<sprite n="RVWY_right_hand_01" x="546" y="469" w="122" h="107" pX="0.5" pY="0.5" oX="36" oY="29" oW="172" oH="164" r="y"/>
+	<sprite n="RVWY_right_hand_02" x="0" y="566" w="123" h="110" pX="0.5" pY="0.5" oX="35" oY="28" oW="172" oH="164" r="y"/>
+	<sprite n="RVWY_right_hand_03" x="144" y="309" w="137" h="128" pX="0.5" pY="0.5" oX="28" oY="14" oW="172" oH="164" r="y"/>
+	<sprite n="RVWY_right_hand_04" x="882" y="450" w="142" h="141" pX="0.5" pY="0.5" oX="18" oY="9" oW="172" oH="164" r="y"/>
+	<sprite n="RVWY_right_hand_05" x="798" y="137" w="158" h="136" pX="0.5" pY="0.5" oX="6" oY="15" oW="172" oH="164"/>
+	<sprite n="RVWY_right_hand_06" x="798" y="0" w="165" h="135" pX="0.5" pY="0.5" oX="4" oY="16" oW="172" oH="164"/>
+	<sprite n="RVWY_right_hand_07" x="793" y="275" w="149" h="129" pX="0.5" pY="0.5" oX="13" oY="22" oW="172" oH="164"/>
+	<sprite n="RVWY_right_hand_08" x="0" y="445" w="127" h="119" pX="0.5" pY="0.5" oX="21" oY="24" oW="172" oH="164" r="y"/>
+	<sprite n="RVWY_right_hand_09" x="129" y="565" w="123" h="110" pX="0.5" pY="0.5" oX="17" oY="41" oW="172" oH="164"/>
+	<sprite n="RVWY_right_hand_10" x="733" y="519" w="121" h="102" pX="0.5" pY="0.5" oX="19" oY="49" oW="172" oH="164"/>
+	<sprite n="RVWY_right_hand_fur" x="603" y="782" w="98" h="82" pX="1.0365853658536586" pY="0.6122448979591837" r="y"/>
+	<sprite n="RVWY_right_lowerarm" x="418" y="456" w="126" h="97" pX="0.5" pY="0.5" oX="11" oY="10" oW="144" oH="116"/>
+	<sprite n="RVWY_tail" x="471" y="796" w="93" h="93" pX="-1.34946" pY="0.951613"/>
+</TextureAtlas>

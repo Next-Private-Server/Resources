@@ -1,0 +1,164 @@
+<template name="template_nucleus_rarity_sets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<defaultTemplateVar name="$layer" equals="'MidPopUps'" />
+	<defaultTemplateVar name="$setRarity" equals="'common'" />
+
+	<size w="130*game.menuScaleX()" h="250*game.menuScaleX()"/>
+
+	<element name="Text">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Nebula" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-10*game.menuScaleX()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="100*game.menuScaleX()" h="60*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("layer"):SetString("MidPopUps")
+				component("autoScale"):SetInt(1)
+
+				local rarity = "$setRarity"
+				if(rarity == 'common') then
+					component("text"):SetString("COMMON_LABEL")
+				elseif(rarity == 'rare') then
+					component("text"):SetString("RARE_LABEL")
+				elseif(rarity == 'epic') then
+					component("text"):SetString("EPIC_LABEL")
+				end
+				]]>
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Nebula">
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+	<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+
+					local rarity = "$setRarity"
+					local numSets = 0
+					if(rarity == 'common') then
+						numSets = game.numNucleusMonsterSets(game.MonsterRarity_Common)
+					elseif(rarity == 'rare') then
+						numSets = game.numNucleusMonsterSets(game.MonsterRarity_Rare)
+					elseif(rarity == 'epic') then
+						numSets = game.numNucleusMonsterSets(game.MonsterRarity_Epic)
+					end
+
+					component("spriteName"):SetString("gfx/nucleus/nebula/nebula_" .. rarity ..  "_0" .. (numSets + 1))
+					component("size"):SetFloat(0.45*game.menuScaleX())
+					component("layer"):SetString("$layer")
+				]]>
+			</event>
+		</spriteComponent>
+	</element>
+
+	<template type="template_nucleus_set_progress_meter" name="OneGene">
+	<templateVar name="$layer" equals="MidPopUps" />
+	<templateVar name="$rarity" equals="'$setRarity'" />
+	<templateVar name="$numGenes" equals="1" />
+	<position relativeTo="Nebula" vAnchor="BOTTOM" hAnchor="HCENTER" />
+	<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-30*game.menuScaleX()" priorityOffset="-1" />
+	</template>
+
+	<template type="template_nucleus_set_progress_meter" name="FourGene">
+	<templateVar name="$layer" equals="MidPopUps" />
+	<templateVar name="$rarity" equals="'$setRarity'" />
+	<templateVar name="$numGenes" equals="4" />
+	<position relativeTo="OneGene" vAnchor="BOTTOM" hAnchor="HCENTER" />
+	<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-4*game.menuScaleX()" priorityOffset="-3" />
+	</template>
+
+	<template type="template_nucleus_set_progress_meter" name="TwoGene">
+	<templateVar name="$layer" equals="MidPopUps" />
+	<templateVar name="$rarity" equals="'$setRarity'" />
+	<templateVar name="$numGenes" equals="2" />
+	<position relativeTo="OneGene" vAnchor="BOTTOM" hAnchor="LEFT" />
+	<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="1*game.menuScaleX()" yOffset="-2*game.menuScaleX()" priorityOffset="-2" />
+	</template>
+
+	<template type="template_nucleus_set_progress_meter" name="ThreeGene">
+	<templateVar name="$layer" equals="MidPopUps" />
+	<templateVar name="$rarity" equals="'$setRarity'" />
+	<templateVar name="$numGenes" equals="3" />
+	<position relativeTo="OneGene" vAnchor="BOTTOM" hAnchor="RIGHT" />
+	<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*game.menuScaleX()" yOffset="-2*game.menuScaleX()" priorityOffset="-2" />
+	</template>
+
+	<spriteSheetComponent name="Lock">
+		<position relativeTo="FourGene" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-5*game.menuScaleX()" priorityOffset="-3" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):Set("button_lock")
+			component("sheetName"):Set("xml_resources/buttons01.xml")
+			component("size"):SetFloat(0.4*game.menuScaleX())
+			component("layer"):SetString("$layer")
+			component("visible"):SetInt(0)
+		</event> 
+	</spriteSheetComponent>
+	
+	<touchComponent name="Touch">
+		<size w="100*game.menuScaleX()" h="140*game.menuScaleX()"/>
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			component("singleTouch"):SetInt(1)
+			component("enabled"):SetInt(0)
+		</event>
+		<event name="onTouchUp" params="component, element, x, y">
+			<![CDATA[
+				if(element.locked) then
+					local rarity = "$setRarity"
+					if(rarity == 'epic') then
+						game.displayNotification("NOTIFICATION_NUCLEUS_EPIC_UPGRADE_REQUIRED")
+					else
+						game.displayNotification("NOTIFICATION_NUCLEUS_UPGRADE_REQUIRED")
+					end					
+				end
+			]]>
+		</event>
+	</touchComponent>	
+
+
+	<event name="onInit" params="element">
+		<![CDATA[
+			element.locked = false
+		]]>
+	</event>
+
+	<event name="setDisabled" params="element">
+		<![CDATA[
+			element.OneGene:setDisabled()
+			element.TwoGene:setDisabled()
+			element.ThreeGene:setDisabled()
+			element.FourGene:setDisabled()
+
+			element:E("Nebula"):C("Sprite"):V("spriteName"):SetString("gfx/nucleus/nebula/nebula_" .. "$setRarity" .. "_black")
+		]]>
+	</event>
+
+	<event name="setLocked" params="element">
+		<![CDATA[
+			element.locked = true
+
+			element.OneGene:setLocked()
+			element.TwoGene:setLocked()
+			element.ThreeGene:setLocked()
+			element.FourGene:setLocked()
+
+			element.Lock("visible"):SetInt(1)
+
+			element.Touch("enabled"):SetInt(1)
+	
+			element:E("Nebula"):C("Sprite"):V("spriteName"):SetString("gfx/nucleus/nebula/nebula_" .. "$setRarity" .. "_black")
+		]]>
+	</event>
+
+</template>

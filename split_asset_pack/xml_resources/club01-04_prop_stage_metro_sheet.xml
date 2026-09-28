@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e57a259a3edae7a47736a7607a151e4f:bb2fa228a934f2dd849fec4804592dcc:03d2dacb2a0088e93bd13046a2cc4cbd$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_stage_metro_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="big_stage_glow" x="888" y="514" w="64" h="64"/>
+	<sprite n="pole" x="1008" y="0" w="15" h="91"/>
+	<sprite n="stage_backing" x="0" y="514" w="149" h="328" r="y"/>
+	<sprite n="stage_bg" x="0" y="844" w="726" h="178" oX="141" oY="19" oW="1006" oH="583"/>
+	<sprite n="stage_fg" x="0" y="0" w="1006" h="512" oX="0" oY="71" oW="1006" oH="583"/>
+	<sprite n="stage_ring_glow" x="151" y="514" w="735" h="274" oX="137" oY="136" oW="1006" oH="583"/>
+</TextureAtlas>

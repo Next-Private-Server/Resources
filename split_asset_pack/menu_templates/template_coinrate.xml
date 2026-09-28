@@ -1,0 +1,68 @@
+<template name="template_coinrate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<defaultTemplateVar name="$Layer" equals="MidFrontPopUps"/>
+
+	<size w="75*game.menuScaleX()" h="20*game.menuScaleX()" />
+	
+	<element name="Value">
+		<size w="75*game.menuScaleX()" h="20*game.menuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="CoinSprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString(game.objectRateUnitCurrencySprite())
+				component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("$Layer")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Suffix">
+			<position relativeTo="PARENT" component="CoinSprite" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.22*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString(game.objectRateUnit())
+				component("layer"):SetString("$Layer")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+			</event>
+		</textComponent>
+		<textComponent name="Text">
+			<position relativeTo="PARENT" component="Suffix" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.22*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					print ("monster id " .. element:parent():parent()("MonsterID"):GetInt())
+					component("text"):SetString(game.commaizeNumber(game.effectiveResourceRate(element:parent():parent()("MonsterID"):GetInt())))
+					component("layer"):SetString("$Layer")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					
+					if(game.effectiveObjectResourceRate() > game.objectResourceRate()) then
+						local palette = include("ColourPalette")
+						component:setColor(palette:getRGBFloats(palette.MODIFIER_APPLIED_COLOUR))
+					end
+				]]>
+			</event>
+		</textComponent>
+	</element>
+	
+	<event name="setVisible" params="element">
+		element["Value"]["Text"]("visible"):SetInt(1)
+		element["Value"]["CoinSprite"]("visible"):SetInt(1)
+		element["Value"]["Suffix"]("visible"):SetInt(1)
+	</event>
+	
+	<event name="setInvisible" params="element">
+		element["Value"]["Text"]("visible"):SetInt(0)
+		element["Value"]["CoinSprite"]("visible"):SetInt(0)
+		element["Value"]["Suffix"]("visible"):SetInt(0)
+	</event>
+	
+</template>

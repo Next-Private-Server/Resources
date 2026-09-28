@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6235fb1c6c7b3b7f8c91fb2264365710:bb40a98a8a095f07ee5c5debef903ba6:d3dffad2ad6c174b53af46cf24a30678$ -->
+<TextureAtlas imagePath="gfx/menu/card_album/stickers_album_sheet_03.png" width="1024" height="2048" hires="false" version="1">
+	<sprite n="album_banner_03" x="0" y="0" w="396" h="194" oX="57" oY="30" oW="512" oH="256"/>
+	<sprite n="album_page_01" x="477" y="571" w="236" h="190" oX="0" oY="10" oW="256" oH="200"/>
+	<sprite n="album_page_02" x="475" y="763" w="235" h="194" oX="13" oY="6" oW="256" oH="200"/>
+	<sprite n="album_page_03" x="237" y="789" w="233" h="200" oX="17" oY="0" oW="256" oH="200"/>
+	<sprite n="album_page_04" x="239" y="391" w="236" h="194" oX="4" oY="6" oW="256" oH="200"/>
+	<sprite n="album_page_05" x="0" y="538" w="236" h="194" oX="4" oY="6" oW="256" oH="200"/>
+	<sprite n="album_page_06" x="398" y="194" w="247" h="195" oX="3" oY="5" oW="256" oH="200"/>
+	<sprite n="album_page_07" x="0" y="375" w="237" h="161" oX="4" oY="23" oW="256" oH="200"/>
+	<sprite n="album_page_08" x="472" y="959" w="223" h="191" oX="21" oY="9" oW="256" oH="200"/>
+	<sprite n="album_page_09" x="656" y="181" w="250" h="187" oX="3" oY="7" oW="256" oH="200"/>
+	<sprite n="album_page_10" x="656" y="0" w="251" h="179" oX="3" oY="6" oW="256" oH="200"/>
+	<sprite n="album_page_11" x="0" y="933" w="231" h="185" oX="17" oY="5" oW="256" oH="200"/>
+	<sprite n="album_page_12" x="238" y="587" w="235" h="200" oX="15" oY="0" oW="256" oH="200"/>
+	<sprite n="album_page_13" x="233" y="991" w="222" h="188" oX="11" oY="1" oW="256" oH="200"/>
+	<sprite n="album_page_14" x="712" y="781" w="230" h="193" oX="12" oY="7" oW="256" oH="200"/>
+	<sprite n="album_page_15" x="398" y="0" w="256" h="192" oX="0" oY="8" oW="256" oH="200"/>
+	<sprite n="album_page_16" x="0" y="196" w="244" h="177" oX="5" oY="23" oW="256" oH="200"/>
+	<sprite n="album_page_17" x="0" y="1120" w="219" h="174" oX="16" oY="16" oW="256" oH="200"/>
+	<sprite n="album_page_18" x="647" y="370" w="246" h="199" oX="0" oY="1" oW="256" oH="200"/>
+	<sprite n="album_page_banner_01" x="909" y="0" w="89" h="239" r="y"/>
+	<sprite n="album_page_banner_02" x="908" y="241" w="89" h="239" r="y"/>
+	<sprite n="album_page_banner_complete" x="895" y="482" w="89" h="239" r="y"/>
+	<sprite n="album_page_frame_01" x="0" y="734" w="235" h="197"/>
+	<sprite n="album_page_frame_bg_01" x="715" y="571" w="178" h="208" r="y"/>
+	<sprite n="new_sticker" x="246" y="196" w="76" h="74" r="y"/>
+</TextureAtlas>

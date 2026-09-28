@@ -1,0 +1,19 @@
+<!-- goal rewards -->
+<template name="template_rewardentry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/template_rewardentry.lua"/>
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+	
+	<textComponent name="Text"/>
+	
+	<spriteSheetComponent name="Sprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="2*game.menuScaleX()" yOffset="0" priorityOffset="0" />
+	</spriteSheetComponent>
+	
+	<aeComponent name="AnimSprite">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="40*game.hudScale()" yOffset="70*game.hudScale()" priorityOffset="0" />
+	</aeComponent>
+
+</template>

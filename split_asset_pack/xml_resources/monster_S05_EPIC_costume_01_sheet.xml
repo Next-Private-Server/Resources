@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a5c21052d27aede34bf1ea9189d79027:ec3055f142113a5737c2a45a6f3ae29d:25eafeba89bf70b53b9ca135e8aeab4b$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S05_EPIC_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="RARE_X_hips" x="145" y="98" w="100" h="125" pX="0.5" pY="0.5" oX="20" oY="0" oW="156" oH="100" r="y"/>
+	<sprite n="X_body" x="145" y="0" w="110" h="96" pX="0.5" pY="0.5" oX="0" oY="2" oW="96" oH="112" r="y"/>
+	<sprite n="X_eyepaint" x="135" y="225" w="74" h="44" pX="0.486842" pY="1.15909" oX="1" oY="0" oW="76" oH="44"/>
+	<sprite n="X_hand_01" x="133" y="271" w="66" h="58" pX="0.529412" pY="0.181818" oX="2" oY="0" oW="68" oH="66" r="y"/>
+	<sprite n="X_hand_02" x="0" y="279" w="65" h="61" pX="0.529412" pY="0.181818" oX="5" oY="0" oW="68" oH="66" r="y"/>
+	<sprite n="X_hand_03" x="201" y="285" w="51" h="65" pX="0.529412" pY="0.181818" oX="15" oY="0" oW="68" oH="66"/>
+	<sprite n="X_hand_04" x="67" y="316" w="62" h="48" pX="0.529412" pY="0.181818" oX="15" oY="0" oW="68" oH="66" r="y"/>
+	<sprite n="X_hand_05" x="211" y="225" w="44" h="58" pX="0.529412" pY="0.181818" oX="15" oY="0" oW="68" oH="66"/>
+	<sprite n="X_hand_06" x="79" y="247" w="52" h="44" pX="0.529412" pY="0.181818" oX="15" oY="0" oW="68" oH="66" r="y"/>
+	<sprite n="X_helmet" x="0" y="0" w="143" h="115" pX="0.439655" pY="1.04861" oX="0" oY="1" oW="116" oH="144" r="y"/>
+	<sprite n="X_left_foot" x="189" y="352" w="48" h="44" pX="0.519231" pY="0.416667" oX="1" oY="3" oW="52" oH="48"/>
+	<sprite n="X_left_lowerarm" x="131" y="357" w="48" h="20" pX="0.5" pY="0.5"/>
+	<sprite n="X_left_lowerleg" x="0" y="183" w="98" h="60" pX="0.333333" pY="0.73" oX="0" oY="1" oW="60" oH="100" r="y"/>
+	<sprite n="X_left_upperarm" x="131" y="331" w="56" h="24" pX="0.5" pY="0.5"/>
+	<sprite n="X_left_upperleg" x="100" y="167" w="33" h="78" pX="0.5" pY="0.9125" oX="1" oY="1" oW="36" oH="80"/>
+	<sprite n="X_right_foot" x="100" y="117" w="42" h="48" pX="0.461538" pY="0.454545" oX="1" oY="1" oW="52" oH="44" r="y"/>
+	<sprite n="X_right_lowerarm" x="67" y="293" w="63" h="21" pX="0.5" pY="0.5" oX="0" oY="1" oW="64" oH="24"/>
+	<sprite n="X_right_lowerleg" x="0" y="117" w="98" h="64" pX="0.4375" pY="0.75" oX="0" oY="1" oW="64" oH="100" r="y"/>
+	<sprite n="X_right_upperarm" x="0" y="342" w="60" h="24" pX="0.5" pY="0.5"/>
+	<sprite n="X_right_upperleg" x="0" y="245" w="77" h="32" pX="0.6875" pY="0.925" oX="0" oY="1" oW="32" oH="80" r="y"/>
+</TextureAtlas>

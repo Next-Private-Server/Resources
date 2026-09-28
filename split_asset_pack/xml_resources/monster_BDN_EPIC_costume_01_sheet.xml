@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:59d1e2b60148a326e64b36f4db67ad88:3d5545813999b769bb4ecd70dbb7d225:8876b909e93282f91b2573b58e19d156$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BDN_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="brow_left_EPIC" x="125" y="253" w="42" h="34" pX="1.18182" pY="3.19444" oX="1" oY="1" oW="44" oH="36"/>
+	<sprite n="brow_right_EPIC" x="65" y="268" w="37" h="29" pX="0" pY="3.36111" oX="3" oY="4" oW="44" oH="36"/>
+	<sprite n="ear_EPIC" x="144" y="204" w="58" h="47" pX="1.91667" pY="1.76667" oX="0" oY="1" oW="48" oH="60" r="y"/>
+	<sprite n="ear_right_EPIC" x="65" y="219" w="58" h="47" pX="-0.25" pY="1.93333" oX="1" oY="1" oW="48" oH="60" r="y"/>
+	<sprite n="hair_back_EPIC" x="0" y="0" w="205" h="150" pX="0.613208" pY="1.47436" oX="3" oY="3" oW="212" oH="156"/>
+	<sprite n="hair_front_EPIC" x="204" y="202" w="116" h="86" pX="0.625" pY="1.89773" oX="2" oY="1" oW="120" oH="88"/>
+	<sprite n="left_finger_inner_EPIC" x="74" y="299" w="28" h="34" pX="0.5" pY="0.5" oX="67" oY="39" oW="100" oH="100"/>
+	<sprite n="left_finger_outer_EPIC" x="37" y="299" w="35" h="28" pX="0.5" pY="0.5" oX="35" oY="64" oW="100" oH="100"/>
+	<sprite n="left_knuckle_inner_EPIC" x="142" y="289" w="25" h="31" pX="0.5" pY="0.5" oX="50" oY="32" oW="100" oH="100" r="y"/>
+	<sprite n="left_knuckle_outer_EPIC" x="0" y="277" w="35" h="31" pX="0.5" pY="0.5" oX="33" oY="44" oW="100" oH="100"/>
+	<sprite n="lower_arm_left_EPIC" x="0" y="219" w="63" h="56" pX="0.5" pY="0.5" oX="0" oY="3" oW="100" oH="100"/>
+	<sprite n="lower_arm_right_EPIC" x="144" y="152" w="58" h="50" pX="0.5" pY="0.5" oX="35" oY="6" oW="100" oH="100" r="y"/>
+	<sprite n="lower_body" x="207" y="0" w="191" h="160" pX="0.449688" pY="0.479167" oX="0" oY="0" oW="160" oH="192" r="y"/>
+	<sprite n="lower_body_back" x="204" y="162" w="121" h="38" pX="0.466613" pY="2.7" oX="1" oY="1" oW="124" oH="40"/>
+	<sprite n="pipe B_RARE" x="391" y="250" w="103" h="45" pX="0.5" pY="0.5" oX="0" oY="0" oW="50" oH="114" r="y"/>
+	<sprite n="pipe C" x="391" y="297" w="95" h="54" pX="0.5" pY="0.5" oX="0" oY="3" oW="58" oH="110" r="y"/>
+	<sprite n="right_finger_inner_EPIC" x="169" y="253" w="33" h="33" pX="0.5" pY="0.5" oX="7" oY="50" oW="100" oH="100"/>
+	<sprite n="right_finger_outer_EPIC" x="104" y="289" w="36" h="27" pX="0.5" pY="0.5" oX="37" oY="70" oW="100" oH="100"/>
+	<sprite n="right_knuckle_inner_EPIC" x="0" y="310" w="31" h="31" pX="0.5" pY="0.5" oX="18" oY="37" oW="100" oH="100"/>
+	<sprite n="right_knuckle_outer_EPIC" x="169" y="288" w="33" h="29" pX="0.5" pY="0.5" oX="38" oY="48" oW="100" oH="100" r="y"/>
+	<sprite n="tail_EPIC" x="0" y="152" w="142" h="65" pX="1.88235" pY="0.5625" oX="1" oY="1" oW="68" oH="144" r="y"/>
+	<sprite n="tail_tip_EPIC" x="400" y="148" w="107" h="100" pX="1.96154" pY="1.20536" oX="2" oY="2" oW="104" oH="112" r="y"/>
+	<sprite n="upper_arm_left_EPIC" x="322" y="242" w="67" h="78" pX="0.5" pY="0.5" oX="15" oY="10" oW="100" oH="100"/>
+	<sprite n="upper_arm_right_EPIC" x="327" y="162" w="68" h="78" pX="0.5" pY="0.5" oX="14" oY="10" oW="100" oH="100"/>
+	<sprite n="upper_body_EPIC" x="400" y="0" w="109" h="146" pX="0.5" pY="0.5" oX="10" oY="3" oW="140" oH="152"/>
+</TextureAtlas>

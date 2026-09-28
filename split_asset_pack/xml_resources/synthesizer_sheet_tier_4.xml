@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:811cce231a47596d8664f921b1f32c93:2338cfc9e788b13d1719c7ca52a525eb:dde6b123156bd95f4364790dfbcbc73e$ -->
+<TextureAtlas imagePath="gfx/structures/synthesizer_sheet_tier_4.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="glow_blue" x="937" y="0" w="79" h="79" oX="5" oY="5" oW="88" oH="88"/>
+	<sprite n="star" x="188" y="1749" w="200" h="200"/>
+	<sprite n="synthesizer_base_04" x="0" y="0" w="935" h="839" oX="36" oY="145" oW="900" oH="1100" r="y"/>
+	<sprite n="synthesizer_critter_01" x="937" y="150" w="75" h="56" r="y"/>
+	<sprite n="synthesizer_critter_02" x="937" y="307" w="59" h="44" r="y"/>
+	<sprite n="synthesizer_critter_03" x="937" y="353" w="36" h="32" r="y"/>
+	<sprite n="synthesizer_off_04" x="0" y="1194" w="350" h="345" oX="134" oY="621" oW="900" oH="1100" r="y"/>
+	<sprite n="synthesizer_starter_04" x="732" y="1158" w="236" h="306" oX="4" oY="24" oW="250" oH="350"/>
+	<sprite n="synthesizer_starter_04_back" x="347" y="1547" w="126" h="145" oX="94" oY="201" oW="250" oH="350" r="y"/>
+	<sprite n="synthesizer_starter_UL_04" x="937" y="208" w="64" h="97" oX="140" oY="103" oW="250" oH="350" r="y"/>
+	<sprite n="synthesizer_tier4_bubbles" x="745" y="841" w="266" h="315" oX="2" oY="2" oW="320" oH="270" r="y"/>
+	<sprite n="synthesizer_tier4_glass_01" x="237" y="1541" w="108" h="105" oX="6" oY="8" oW="120" oH="120"/>
+	<sprite n="synthesizer_tier4_glow" x="373" y="1013" w="357" h="341" oX="30" oY="21" oW="400" oH="400" r="y"/>
+	<sprite n="synthesizer_tier4_spore_01" x="937" y="81" w="77" h="67" oX="134" oY="175" oW="300" oH="300"/>
+	<sprite n="synthesizer_tier4_spore_02" x="0" y="1541" w="235" h="206" oX="33" oY="43" oW="300" oH="300"/>
+	<sprite n="synthesizer_tier4_spore_03" x="0" y="1749" w="186" h="203" oX="60" oY="54" oW="300" oH="300"/>
+	<sprite n="synthesizer_tier4_woodcover" x="373" y="841" w="370" h="170" oX="326" oY="246" oW="900" oH="1100"/>
+	<sprite n="synthesizer_tier4_woodcover2" x="352" y="1356" w="293" h="189" oX="399" oY="684" oW="900" oH="1100" r="y"/>
+	<sprite n="synthesizer_veincover_04" x="0" y="841" w="371" h="351" oX="25" oY="15" oW="400" oH="400" r="y"/>
+</TextureAtlas>

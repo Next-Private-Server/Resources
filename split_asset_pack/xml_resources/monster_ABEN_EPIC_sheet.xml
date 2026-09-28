@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:dd9283c0218beb46f7bce03fdade3bcc:2aa52e7f9ee4d92322f79dfd8140581e:c943dc5890c6218cbb3a7774176b0ef2$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABEN_EPIC_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ABEN_arm_l_01" x="707" y="232" w="26" h="25" oX="17" oY="17" oW="60" oH="60" r="y"/>
+	<sprite n="ABEN_arm_l_02" x="496" y="973" w="50" h="50" oX="5" oY="5" oW="60" oH="60"/>
+	<sprite n="ABEN_arm_l_03" x="786" y="530" w="75" h="75" oX="2" oY="2" oW="80" oH="80"/>
+	<sprite n="ABEN_arm_r_01" x="469" y="986" w="25" h="28" oX="16" oY="17" oW="60" oH="60" r="y"/>
+	<sprite n="ABEN_arm_r_02" x="278" y="644" w="45" h="56" oX="0" oY="8" oW="60" oH="60" r="y"/>
+	<sprite n="ABEN_arm_r_03" x="884" y="521" w="76" h="65" oX="2" oY="7" oW="80" oH="80"/>
+	<sprite n="ABEN_back_flipper_01" x="964" y="463" w="59" h="70" oX="13" oY="4" oW="88" oH="68" r="y"/>
+	<sprite n="ABEN_back_flipper_02" x="964" y="393" w="60" h="68" oX="15" oY="4" oW="88" oH="68" r="y"/>
+	<sprite n="ABEN_back_flipper_03" x="548" y="973" w="69" h="49" oX="14" oY="4" oW="88" oH="68"/>
+	<sprite n="ABEN_back_flipper_04" x="962" y="535" w="46" h="75" oX="8" oY="3" oW="88" oH="68" r="y"/>
+	<sprite n="ABEN_back_flipper_05" x="681" y="973" w="79" h="48" oX="4" oY="4" oW="88" oH="68"/>
+	<sprite n="ABEN_back_flipper_06" x="408" y="644" w="74" h="54" oX="9" oY="4" oW="88" oH="68"/>
+	<sprite n="ABEN_behind_flipper_01" x="731" y="585" w="46" h="83" oX="2" oY="19" oW="92" oH="68" r="y"/>
+	<sprite n="ABEN_behind_flipper_02" x="484" y="644" w="82" h="47" oX="4" oY="17" oW="92" oH="68"/>
+	<sprite n="ABEN_behind_flipper_03" x="484" y="404" w="47" h="84" oX="4" oY="11" oW="92" oH="68" r="y"/>
+	<sprite n="ABEN_behind_flipper_04" x="707" y="103" w="53" h="82" oX="4" oY="5" oW="92" oH="68" r="y"/>
+	<sprite n="ABEN_behind_flipper_05" x="325" y="644" w="81" h="55" oX="4" oY="3" oW="92" oH="68"/>
+	<sprite n="ABEN_behind_flipper_06" x="740" y="479" w="44" h="82" oX="4" oY="17" oW="92" oH="68" r="y"/>
+	<sprite n="ABEN_body" x="539" y="245" w="161" h="233" oX="9" oY="9" oW="252" oH="180" r="y"/>
+	<sprite n="ABEN_chin" x="216" y="644" w="60" h="57" oX="5" oY="4" oW="68" oH="68" r="y"/>
+	<sprite n="ABEN_claw_l_01" x="532" y="601" w="40" h="40" oX="10" oY="10" oW="60" oH="60"/>
+	<sprite n="ABEN_claw_l_02" x="863" y="588" w="45" h="45" oX="7" oY="7" oW="60" oH="60"/>
+	<sprite n="ABEN_claw_l_03" x="380" y="986" w="44" h="32" oX="14" oY="8" oW="60" oH="60" r="y"/>
+	<sprite n="ABEN_claw_r_01" x="426" y="986" w="41" h="28" oX="9" oY="13" oW="60" oH="60"/>
+	<sprite n="ABEN_claw_r_02" x="707" y="187" w="48" h="43" oX="7" oY="11" oW="60" oH="60"/>
+	<sprite n="ABEN_claw_r_03" x="294" y="986" w="43" h="35" oX="13" oY="15" oW="60" oH="60" r="y"/>
+	<sprite n="ABEN_eye" x="443" y="336" w="88" h="66" oX="11" oY="8" oW="88" oH="104" r="y"/>
+	<sprite n="ABEN_eyelid_01" x="0" y="1020" w="3" h="3" oX="0" oY="0" oW="72" oH="88"/>
+	<sprite n="ABEN_eyelid_02" x="884" y="393" w="78" h="63" oX="4" oY="5" oW="72" oH="88" r="y"/>
+	<sprite n="ABEN_eyelid_03" x="884" y="458" w="78" h="61" oX="6" oY="5" oW="72" oH="88" r="y"/>
+	<sprite n="ABEN_eyelid_04" x="804" y="467" w="78" h="61" oX="6" oY="5" oW="72" oH="88" r="y"/>
+	<sprite n="ABEN_front_flipper_01" x="702" y="393" w="100" h="84" oX="18" oY="9" oW="124" oH="100"/>
+	<sprite n="ABEN_front_flipper_02" x="574" y="601" w="85" h="95" oX="21" oY="9" oW="124" oH="100" r="y"/>
+	<sprite n="ABEN_front_flipper_03" x="661" y="585" w="68" h="101" oX="15" oY="9" oW="124" oH="100" r="y"/>
+	<sprite n="ABEN_front_flipper_04" x="596" y="480" w="60" h="105" oX="11" oY="7" oW="124" oH="100" r="y"/>
+	<sprite n="ABEN_front_flipper_05" x="532" y="490" w="62" h="109" oX="7" oY="8" oW="124" oH="100" r="y"/>
+	<sprite n="ABEN_front_flipper_06" x="658" y="480" w="80" h="103" oX="13" oY="9" oW="124" oH="100" r="y"/>
+	<sprite n="ABEN_head_01" x="216" y="356" w="225" h="286" oX="45" oY="86" oW="312" oH="392"/>
+	<sprite n="ABEN_head_02" x="228" y="703" w="242" h="281" oX="37" oY="96" oW="312" oH="392"/>
+	<sprite n="ABEN_head_03" x="472" y="700" w="269" h="271" oX="22" oY="108" oW="312" oH="392"/>
+	<sprite n="ABEN_head_04" x="0" y="703" w="226" h="315" oX="42" oY="56" oW="312" oH="392"/>
+	<sprite n="ABEN_head_05" x="0" y="358" w="214" h="343" oX="47" oY="26" oW="312" oH="392"/>
+	<sprite n="ABEN_head_06" x="0" y="0" w="210" h="356" oX="51" oY="11" oW="312" oH="392"/>
+	<sprite n="ABEN_helmet_EPIC" x="212" y="0" w="325" h="334" oX="23" oY="28" oW="380" oH="380" r="y"/>
+	<sprite n="ABEN_mouth_01" x="245" y="336" w="44" h="17" oX="53" oY="151" oW="152" oH="264"/>
+	<sprite n="ABEN_mouth_02" x="212" y="336" w="31" h="18" oX="62" oY="145" oW="152" oH="264"/>
+	<sprite n="ABEN_mouth_03" x="339" y="986" w="39" h="35" oX="66" oY="149" oW="152" oH="264" r="y"/>
+	<sprite n="ABEN_mouth_04" x="228" y="986" w="64" h="35" oX="46" oY="153" oW="152" oH="264"/>
+	<sprite n="ABEN_mouth_05" x="804" y="393" w="78" h="72" oX="34" oY="133" oW="152" oH="264"/>
+	<sprite n="ABEN_mouth_06" x="443" y="490" w="87" h="152" oX="25" oY="81" oW="152" oH="264"/>
+	<sprite n="ABEN_mouth_07" x="539" y="0" w="208" h="101" oX="15" oY="42" oW="152" oH="264" r="y"/>
+	<sprite n="ABEN_mouth_08" x="539" y="0" w="208" h="101" oX="15" oY="42" oW="152" oH="264" r="y"/>
+	<sprite n="ABEN_mouth_09" x="762" y="0" w="254" h="112" oX="7" oY="7" oW="152" oH="264" r="y"/>
+	<sprite n="ABEN_mouth_10" x="762" y="114" w="253" h="136" oX="7" oY="7" oW="152" oH="264" r="y"/>
+	<sprite n="ABEN_pupil_epic" x="619" y="973" w="60" h="49" oX="5" oY="0" oW="60" oH="60" r="y"/>
+	<sprite n="ABEN_shadow" x="743" y="252" w="268" h="139" oX="2" oY="2" oW="272" oH="144"/>
+	<sprite n="ABEN_sigil_01" x="539" y="103" w="166" h="140" oX="19" oY="16" oW="180" oH="200" r="y"/>
+</TextureAtlas>

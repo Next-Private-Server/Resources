@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c245388f39f6ccb8525ecbda4342d4b2:d0c85f1f7abffcdcf05b37cc85d28fa8:703fb249bad2b3d7d21d56e7fbae7b26$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AE_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="AE_beak_01" x="0" y="236" w="121" h="107" pX="0.5" pY="0.5" oX="9" oY="3" oW="130" oH="110"/>
+	<sprite n="AE_beak_02" x="0" y="127" w="122" h="107" pX="0.5" pY="0.5" oX="8" oY="3" oW="130" oH="110"/>
+	<sprite n="AE_beak_03" x="183" y="128" w="122" h="104" pX="0.5" pY="0.5" oX="8" oY="3" oW="130" oH="110"/>
+	<sprite n="AE_beak_04" x="363" y="101" w="123" h="101" pX="0.5" pY="0.5" oX="7" oY="4" oW="130" oH="110"/>
+	<sprite n="AE_beak_05" x="363" y="0" w="124" h="99" pX="0.5" pY="0.5" oX="6" oY="3" oW="130" oH="110"/>
+	<sprite n="AE_beak_06" x="0" y="345" w="107" h="121" pX="0.5" pY="0.5" oX="9" oY="3" oW="130" oH="110" r="y"/>
+	<sprite n="AE_body_RARE" x="203" y="0" w="158" h="126" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AE_head_EPIC" x="0" y="0" w="201" h="125" pX="0.5" pY="0.5" oX="1" oY="3" oW="204" oH="130"/>
+	<sprite n="AE_left_foot_RARE" x="124" y="209" w="55" h="86" pX="0.5" pY="0.5" oX="10" oY="0" oW="96" oH="60" r="y"/>
+	<sprite n="AE_right_foot_RARE" x="124" y="127" w="57" h="80" pX="0.5" pY="0.5" oX="3" oY="0" oW="60" oH="80"/>
+</TextureAtlas>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:92cbb5010b6d650a706e6e5147ad7f05:ed6d90317384d72b969cfad491f36523:05bff4be428cc942b26a4ed701da6c68$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_JL_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="JL_bell" x="159" y="480" w="22" h="32" oX="3" oY="0" oW="28" oH="32"/>
+	<sprite n="JL_body" x="0" y="261" w="136" h="136" oX="4" oY="0" oW="144" oH="136"/>
+	<sprite n="JL_Collar" x="406" y="80" w="98" h="168" r="y"/>
+	<sprite n="JL_eye" x="390" y="464" w="35" h="35" oX="12" oY="12" oW="60" oH="60"/>
+	<sprite n="JL_eye_reflection" x="204" y="369" w="28" h="22" oX="19" oY="16" oW="60" oH="60" r="y"/>
+	<sprite n="JL_eyelid_01" x="145" y="163" w="59" h="59" oX="0" oY="0" oW="60" oH="60"/>
+	<sprite n="JL_eyelid_02" x="145" y="224" w="59" h="59" oX="0" oY="0" oW="60" oH="60"/>
+	<sprite n="JL_eyelid_03" x="331" y="323" w="59" h="59" oX="0" oY="0" oW="60" oH="60"/>
+	<sprite n="JL_feather_Rare" x="210" y="0" w="194" h="190" oX="23" oY="6" oW="242" oH="202"/>
+	<sprite n="JL_hand_01Epic" x="364" y="384" w="74" h="78" oX="7" oY="17" oW="96" oH="102" r="y"/>
+	<sprite n="JL_hand_02Epic" x="159" y="394" w="77" h="84" oX="3" oY="18" oW="96" oH="102"/>
+	<sprite n="JL_hand_03Epic" x="238" y="393" w="76" h="84" oX="18" oY="16" oW="96" oH="102"/>
+	<sprite n="JL_headdressEpic" x="0" y="0" w="208" h="161" oX="19" oY="10" oW="242" oH="202"/>
+	<sprite n="JL_left_foot_epic" x="406" y="0" w="103" h="78" oX="0" oY="0" oW="104" oH="78"/>
+	<sprite n="JL_left_lowerleg_epic" x="206" y="192" w="138" h="122" oX="0" oY="0" oW="144" oH="128"/>
+	<sprite n="JL_lowerarm" x="138" y="285" w="64" h="107" oX="0" oY="0" oW="116" oH="64" r="y"/>
+	<sprite n="JL_mask" x="0" y="163" w="143" h="96" oX="17" oY="3" oW="126" oH="156" r="y"/>
+	<sprite n="JL_pupil_Epic" x="256" y="369" w="16" h="20"/>
+	<sprite n="JL_right_foot_Epic" x="406" y="250" w="92" h="72" oX="0" oY="0" oW="92" oH="74"/>
+	<sprite n="JL_right_lowerleg_Epic" x="50" y="399" w="107" h="111" oX="0" oY="2" oW="112" oH="118" r="y"/>
+	<sprite n="JL_shadow" x="204" y="316" w="125" h="51" oX="1" oY="1" oW="128" oH="52"/>
+	<sprite n="JL_shaker_handle_Epic" x="183" y="480" w="76" h="31" oX="20" oY="168" oW="72" oH="246" r="y"/>
+	<sprite n="JL_shaker_head_Epic" x="346" y="192" w="58" h="129" oX="9" oY="41" oW="72" oH="246"/>
+	<sprite n="JL_sparkle_Epic" x="234" y="369" w="20" h="22" oX="1" oY="0" oW="24" oH="24"/>
+	<sprite n="JL_Teeth_L" x="338" y="469" w="50" h="35" oX="1" oY="1" oW="38" oH="52" r="y"/>
+	<sprite n="JL_Teeth_mid" x="312" y="479" w="24" h="28" r="y"/>
+	<sprite n="JL_Teeth_R" x="261" y="479" w="49" h="30" oX="0" oY="0" oW="32" oH="50" r="y"/>
+	<sprite n="JL_upperarm" x="316" y="384" w="46" h="83" oX="1" oY="1" oW="84" oH="48" r="y"/>
+	<sprite n="JL_upperleg" x="0" y="399" w="48" h="112"/>
+</TextureAtlas>

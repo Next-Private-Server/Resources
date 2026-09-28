@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e83f47657e6050f2b48147a8a6e79d6b:202aacd83acdc57d94d61f7a5b176440:0daf772505ab1c494751c72d3ea5254b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_RY_RARE_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="RY_back_lowerarm_RARE" x="350" y="286" w="88" h="151" oX="0" oY="6" oW="88" oH="164"/>
+	<sprite n="RY_back_lowerarm_sleep_RARE" x="173" y="771" w="159" h="80" oX="5" oY="5" oW="88" oH="164" r="y"/>
+	<sprite n="RY_back_upperarm" x="211" y="232" w="82" h="53" oX="3" oY="5" oW="56" oH="92" r="y"/>
+	<sprite n="RY_body_RARE" x="185" y="0" w="199" h="230" oX="0" oY="1" oW="230" oH="200" r="y"/>
+	<sprite n="RY_chinshard" x="596" y="282" w="30" h="65" oX="0" oY="2" oW="30" oH="70"/>
+	<sprite n="RY_claw_01_l" x="618" y="199" w="28" h="60"/>
+	<sprite n="RY_claw_01_r" x="596" y="349" w="24" h="60"/>
+	<sprite n="RY_claw_02_l" x="568" y="352" w="26" h="67" oX="2" oY="1" oW="30" oH="70"/>
+	<sprite n="RY_claw_02_r" x="185" y="232" w="24" h="54" oX="4" oY="1" oW="30" oH="56"/>
+	<sprite n="RY_claw_03_l" x="393" y="232" w="19" h="52" oX="0" oY="0" oW="20" oH="52"/>
+	<sprite n="RY_claw_03_r" x="386" y="210" w="40" h="20" oX="3" oY="0" oW="26" oH="40" r="y"/>
+	<sprite n="RY_eyelid_01" x="603" y="457" w="29" h="30" oX="1" oY="0" oW="32" oH="32" r="y"/>
+	<sprite n="RY_eyelid_02" x="622" y="349" w="29" h="30" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="RY_eyelid_03" x="628" y="261" w="29" h="30" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="RY_eyelid_04" x="628" y="293" w="29" h="30" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="RY_front_lowerarm_RARE" x="344" y="851" w="92" h="153" oX="0" oY="3" oW="92" oH="156"/>
+	<sprite n="RY_front_upperarm_RARE" x="334" y="766" w="77" h="83" oX="0" oY="4" oW="80" oH="92"/>
+	<sprite n="RY_glow" x="386" y="0" w="205" h="208" oX="1" oY="0" oW="208" oH="208"/>
+	<sprite n="RY_mask" x="350" y="439" w="138" h="113" oX="0" oY="0" oW="140" oH="120"/>
+	<sprite n="RY_mind_eyelid_01" x="88" y="1018" w="3" h="3" oX="0" oY="0" oW="50" oH="50"/>
+	<sprite n="RY_mind_eyelid_02" x="515" y="510" w="44" h="41" oX="4" oY="3" oW="50" oH="50" r="y"/>
+	<sprite n="RY_mind_eyelid_03" x="561" y="509" w="44" h="41" oX="4" oY="3" oW="50" oH="50" r="y"/>
+	<sprite n="RY_mind_eyelid_04" x="603" y="411" w="41" h="44" oX="4" oY="3" oW="50" oH="50"/>
+	<sprite n="RY_mouth_01" x="295" y="232" w="96" h="52" oX="11" oY="3" oW="116" oH="88"/>
+	<sprite n="RY_mouth_02" x="402" y="652" w="59" h="89" oX="15" oY="3" oW="116" oH="88" r="y"/>
+	<sprite n="RY_mouth_03" x="463" y="554" w="65" h="83" oX="20" oY="1" oW="116" oH="88" r="y"/>
+	<sprite n="RY_mouth_04" x="490" y="432" w="64" h="76" oX="25" oY="4" oW="116" oH="88" r="y"/>
+	<sprite n="RY_mouth_05" x="530" y="553" w="66" h="69" oX="29" oY="3" oW="116" oH="88" r="y"/>
+	<sprite n="RY_mouth_06" x="413" y="743" w="68" h="83" oX="19" oY="3" oW="116" oH="88" r="y"/>
+	<sprite n="RY_mouth_07" x="593" y="100" w="79" h="97" oX="9" oY="5" oW="116" oH="88" r="y"/>
+	<sprite n="RY_mouth_08" x="428" y="210" w="93" h="71" oX="12" oY="5" oW="116" oH="88"/>
+	<sprite n="RY_mouth_09" x="523" y="210" w="93" h="70" oX="11" oY="2" oW="116" oH="88"/>
+	<sprite n="RY_mouth_10" x="402" y="554" w="59" h="96" oX="11" oY="2" oW="116" oH="88" r="y"/>
+	<sprite n="RY_pupil" x="622" y="381" w="27" h="27" oX="2" oY="2" oW="32" oH="32"/>
+	<sprite n="RY_rock_01" x="593" y="0" w="79" h="98" oX="3" oY="13" oW="104" oH="104" r="y"/>
+	<sprite n="RY_rock_02_RARE" x="463" y="639" w="76" h="80" oX="12" oY="14" oW="104" oH="104" r="y"/>
+	<sprite n="RY_rockcover" x="556" y="432" w="45" h="75" oX="2" oY="2" oW="80" oH="50" r="y"/>
+	<sprite n="RY_shadow" x="0" y="855" w="86" h="167" r="y"/>
+	<sprite n="RY_top_crystal_RARE" x="290" y="561" w="110" h="203" oX="5" oY="3" oW="120" oH="210"/>
+	<sprite n="RY_top_rock_lines_01" x="173" y="561" w="115" h="208" oX="36" oY="45" oW="200" oH="290"/>
+	<sprite n="RY_top_rock_lines_02" x="88" y="855" w="254" h="161" oX="17" oY="16" oW="200" oH="290" r="y"/>
+	<sprite n="RY_top_rock_lines_03" x="173" y="291" w="175" h="268" oX="10" oY="14" oW="200" oH="290"/>
+	<sprite n="RY_top_rock_lines_04" x="0" y="578" w="171" h="275" oX="12" oY="4" oW="200" oH="290"/>
+	<sprite n="RY_top_rock_lines_05" x="0" y="291" w="171" h="285" oX="16" oY="3" oW="200" oH="290"/>
+	<sprite n="RY_top_rock_lines_06" x="0" y="0" w="183" h="289" oX="8" oY="1" oW="200" oH="290"/>
+	<sprite n="RY_top_rock_RARE" x="440" y="283" w="126" h="147" oX="2" oY="1" oW="130" oH="150"/>
+	<sprite n="thumb_l" x="490" y="510" w="23" h="42"/>
+	<sprite n="thumb_r" x="568" y="282" w="26" h="68"/>
+</TextureAtlas>

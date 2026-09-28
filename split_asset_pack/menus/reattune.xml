@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/Reattune.lua" />	
+		
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="22" />
+		<templateVar name="$maxAlpha" equals="0.75" />
+	</template>
+
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="lua_sys.screenHeight() * 2.0" priorityOffset="16" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="230*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.45*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			]]>
+			</event>
+		</ninesliceComponent>
+	</element>
+
+	<element name="LeftFrameDeco">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="-5*game.menuScaleX()" yOffset="-5*game.menuScaleX()" priorityOffset="-6" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("attunement_frame_decoration3")
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="RightFrameDeco">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0*game.menuScaleX()" yOffset="-5*game.menuScaleX()" priorityOffset="-6" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("attunement_frame_decoration2")
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-15*game.menuScaleX()" priorityOffset="-7" />
+		<ninesliceComponent name="Sprite">
+			<size w="160*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(44.0)
+				component("bottomHeight"):SetFloat(44.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.40*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="Title">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text"/>
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="140*game.menuScaleX()" h="25*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTitleFont())
+				component("multiline"):SetInt(0)
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+				component("text"):SetString("REATTUNE_MENU_TITLE")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Description">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-5" />
+		<textComponent name="Text">
+			<size w="210*game.menuScaleX()" h="15*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.2*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("layer"):SetString("MidPopUps")
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("text"):SetString("REATTUNE_DESC")
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="ConfirmButton">
+		<templateVar name="$upSpriteName" equals="'button_long_green@2x'" />
+		<templateVar name="$downSpriteName" equals="'button_long_grey@2x'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="bg" component="" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0*game.menuScaleX()" yOffset="5*game.menuScaleX()" priorityOffset="-6" />
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" dependentOnComponent="UpSprite" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.25*game.menuScaleX())
+					component("textPadding"):SetFloat(4.0*game.hudScale())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("CONTEXTBAR_CONFIRM_LABEL")
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("ContextBar")
+				]]>
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Text"]:setColor(1.0, 1.0, 1.0)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					onTouchUp(component, element)
+					element:parent():updateMonster()
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					onTouchRelease(component, element)
+				]]>
+			</event>
+		</touchComponent>
+		<event name="setEnable" params="HCENTER">
+			<![CDATA[
+				element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+				element["Label"]:setColor(1.0, 1.0, 1.0)
+				if(element["UpSprite"]("visible"):GetInt() == 1) then
+					element["Touch"]("enabled"):SetInt(1)
+				end
+			]]>
+		</event>
+		<event name="setDisable" params="element">
+			<![CDATA[
+				element["UpSprite"]:setColor(0.5, 0.5, 0.5)
+				element["Label"]:setColor(0.5, 0.5, 0.5)
+				element["Touch"]("enabled"):SetInt(0)
+			]]>
+		</event>
+		<event name="setVisible" params="element">
+			<![CDATA[
+				element["UpSprite"]("visible"):SetInt(1)
+				element["Label"]("visible"):SetInt(1)
+				element["Touch"]("enabled"):SetInt(1)
+			]]>
+		</event>
+		<event name="setInvisible" params="element">
+			<![CDATA[
+				element["UpSprite"]("visible"):SetInt(0)
+				element["Label"]("visible"):SetInt(0)
+				element["Touch"]("enabled"):SetInt(0)
+			]]>
+		</event>
+	</template>
+
+	<element name="MonsterSelect">
+
+		<size w="215*game.menuScaleX()" h="180*game.menuScaleX()"/>
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0*game.menuScaleX()" yOffset="15*game.menuScaleX()" priorityOffset="-1" />
+
+		<ninesliceComponent name="TopFade">			
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-4" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("topHeight"):SetFloat(12.0)
+					component("bottomHeight"):SetFloat(12.0)
+					component("leftWidth"):SetFloat(12.0)
+					component("rightWidth"):SetFloat(12.0)
+					component("size"):SetFloat(1 * game.menuScaleX())
+					component("includeBorder"):SetInt(0)
+					component("spriteName"):SetString("gfx/menu/soft_square_9s")
+					component("layer"):SetString("MidPopUps")	
+                    component:setSize(lua_sys.Vector2(element:absW() - 12 * game.menuScaleX(),  25 * game.menuScaleX()))				
+				]]>
+			</event>
+		</ninesliceComponent>
+
+		<element name="List">
+			<size w="195*game.menuScaleX()" h="180*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="25*game.menuScaleX()" priorityOffset="0" />
+
+			<swipeComponent name="Swiper">
+			</swipeComponent>
+
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" />
+				<event name="onInit" params="component, element">
+					component("singleTouch"):SetInt(1)
+				</event>
+			</touchComponent>
+
+			<event name="populate" params="element">
+				<![CDATA[
+					element:parent():ListPopulate(element)
+				]]>
+			</event>
+
+			<event name="selectNewEntry" params="element">
+				<![CDATA[
+					element:ListSelectNewEntry(element)
+				]]>
+			</event>
+			<event name="selectDisabledEntry" params="element">
+				<![CDATA[
+					element:ListSelectDisabledEntry(element)
+				]]>
+			</event>
+
+		</element>
+
+		<element name="BottomFade">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="List" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-4" />
+			<spriteComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("gfx/fade_sprite")
+					component:setScale(Vector2(12.0*game.menuScaleX(), 0.5*game.menuScaleX()))
+					component("layer"):SetString("MidPopUps")
+					component("vFlip"):SetFloat(1)
+				</event>
+			</spriteComponent>
+		</element>
+
+		<element name="ScrollBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="List" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-5*game.menuScaleX()" yOffset="0" priorityOffset="-1" />
+			<spriteSheetComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("spriteName"):SetString("scroll_bar_01")
+						component("sheetName"):SetString("xml_resources/buttons01.xml")
+						component("size"):SetFloat(0.5*(game.menuScaleX()))
+						component("layer"):SetString("MidPopUps")
+					]]>
+				</event>
+			</spriteSheetComponent>
+		</element>
+
+		<element name="ScrollMarker">
+			<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
+			<position relativeTo="ScrollBar" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="5*game.menuScaleX()" priorityOffset="-1" />
+
+			<spriteSheetComponent name="Marker">
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("useOffsets"):SetInt(1)
+						component("spriteName"):SetString("scroll_bar_dot")
+						component("sheetName"):SetString("xml_resources/buttons01.xml")
+						component("size"):SetFloat(0.5*game.menuScaleX())
+						component("layer"):SetString("MidPopUps")
+					]]>
+				</event>
+			</spriteSheetComponent>
+
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
+				<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="1" />
+			</touchComponent>
+
+		</element>
+	</element>
+
+	<element name="RightPanel">
+
+		<size w="235*game.menuScaleX()" h="230*game.menuScaleX()" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="4" />
+
+		<element name="Gradient">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<spriteComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("gfx/menu/gradient")
+					component:setScale(Vector2(2.0*game.menuScaleX(), 2.0*game.menuScaleX()))
+					component("layer"):SetString("MidPopUps")
+					component("alpha"):SetFloat(0.6)
+				</event>
+			</spriteComponent>
+		</element>
+
+		<element name="StructureAnim">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="15*game.menuScaleX()" priorityOffset="-2" />
+			<aeComponent name="Sprite">
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("offsetCenter"):SetInt(1)
+						component("animationName"):SetString("xml_bin/tuneup_menu_anim.bin")
+						component("animation"):SetString("idle")
+						component:setScale(Vector2(0.25*game.menuScaleX(), 0.25*game.menuScaleX()))
+						component("layer"):SetString("MidPopUps")
+						component("visible"):SetInt(1)
+					]]>
+				</event>
+			</aeComponent>
+		</element>
+
+		<element name="MonsterAnim">
+			<size w="150*game.menuScaleX()" h="150*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-70*game.menuScaleX()" yOffset="75*game.menuScaleX()" priorityOffset="-1" />
+			<aeComponent name="Sprite">
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("offsetCenter"):SetInt(1)
+						component("animationName"):SetString("xml_bin/monster_a.bin")
+						component("animation"):SetString(game.objectStoreAnim())
+						component:setScale(Vector2(0.75*game.menuScaleX(), 0.75*game.menuScaleX()))
+						component("layer"):SetString("MidPopUps")
+						component("visible"):SetInt(0)
+					]]>
+				</event>
+			</aeComponent>
+		</element>
+
+		<element name="Spotlight">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="70*game.menuScaleX()" yOffset="-15*game.menuScaleX()" priorityOffset="-1" />
+			<spriteComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("gfx/menu/spotlight_attunement")
+					component:setScale(Vector2(1*game.menuScaleX(), 1*game.menuScaleX()))
+					component("layer"):SetString("MidPopUps")
+					component("visible"):SetInt(0)
+				</event>
+			</spriteComponent>
+		</element>
+
+		<element name="MonsterSilhouette">
+			<size w="150*game.menuScaleX()" h="150*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="70*game.menuScaleX()" yOffset="75*game.menuScaleX()" priorityOffset="-2" />
+			<aeComponent name="Sprite">
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("offsetCenter"):SetInt(1)
+						component("animationName"):SetString("xml_bin/monster_a.bin")
+						component("animation"):SetString(game.objectStoreAnim())
+						component:setScale(Vector2(0.75*game.menuScaleX(), 0.75*game.menuScaleX()))
+						component("layer"):SetString("MidPopUps")
+						component("visible"):SetInt(0)
+						component:setColor(0,0,0);
+					]]>
+				</event>
+			</aeComponent>
+		</element>
+
+		<element name="TunableGenes">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0*game.menuScaleX()" yOffset="0* game.menuScaleX()" priorityOffset="-1" />
+			<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("gfx/menu/wooden_plank")
+					component("visible"):SetInt(1)
+					component:setScale(Vector2(0.36*game.menuScaleX(), 0.35*game.menuScaleX()))
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+			</spriteComponent>
+			<textComponent name="Text">
+				<size w="125*game.menuScaleX()" h="30*game.menuScaleX()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5*game.menuScaleX()" yOffset="-2*game.menuScaleX()" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("layer"):SetString("MidPopUps")
+					component("text"):SetString("REATTUNABLE_GENES")
+					component("autoScale"):SetInt(1)
+				</event>
+			</textComponent>
+			<textComponent name="NoneAvailableText">
+				<size w="200*game.menuScaleX()" h="30*game.menuScaleX()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.menuScaleX()" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("layer"):SetString("MidPopUps")
+					component("text"):SetString("NO_REATTUNABLE_GENES_AVAILABLE")
+					component("autoScale"):SetInt(1)
+					component("visible"):SetInt(0)
+				</event>
+			</textComponent>
+
+			<element name="Genes">
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="5*game.menuScaleX()" yOffset="-2*game.menuScaleX()" priorityOffset="-1" />
+				<event name="onInit" params="element">
+					<![CDATA[			
+						element("layer"):SetString("MidPopUps")
+						element("size"):SetString(0.5*game.menuScaleX())
+					]]>
+				</event>
+			</element>
+		</element>
+		
+		<element name="AvailableForText" >
+			<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+			<position relativeTo="TunableGenes" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="5*game.menuScaleX()" yOffset="0" priorityOffset="0" />
+			<textComponent name="Text">
+				<size w="125*game.menuScaleX()" h="30*game.menuScaleX()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("layer"):SetString("MidPopUps")
+					component("text"):SetString("REATTUNE_AVAILABLE_FOR")
+					component("autoScale"):SetInt(1)
+				</event>
+			</textComponent>
+		</element>
+
+		<element name="TimerText" >
+			<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+			<position relativeTo="TunableGenes" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="5*game.menuScaleX()" yOffset="0" priorityOffset="0" />
+			<textComponent name="Text">
+				<size w="190*game.menuScaleX()" h="30*game.menuScaleX()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("layer"):SetString("MidPopUps")
+					local palette = include("ColourPalette")
+					component:setColor(palette:getRGBFloats(palette.AVAILABILITY_TIMER_COLOUR))
+					component("text"):SetString("19h 37m 20s")
+					component("autoScale"):SetInt(1)
+				</event>
+			</textComponent>
+		</element>
+
+	</element>
+</menu>

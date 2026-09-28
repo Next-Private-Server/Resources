@@ -1,0 +1,19 @@
+<template name="template_indicator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/Indicator.lua" />
+	
+	<defaultTemplateVar name="$layer" equals="'ContextBar'" />
+	<defaultTemplateVar name="$scale" equals="0.6*game.hudScale()" />
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("goal_exclaim")
+			component("sheetName"):SetString("xml_resources/hud01.xml")
+			component("size"):SetFloat(element:templateVars().scale)
+			component("layer"):SetString(element:templateVars().layer)
+			component("hFlip"):SetInt(1)
+		</event>
+	</spriteSheetComponent>
+
+</template>

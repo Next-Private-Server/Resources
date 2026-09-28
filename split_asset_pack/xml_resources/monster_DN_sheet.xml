@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c3437763fde5d8ef81a34b3e1d4c2239:8aac4c90b1fe357c473543ed9ac77ccd:850d7b2739e9dc3049c7543dcc72843a$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_DN_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="DN_adult_big_anglefin_1" x="191" y="295" w="146" h="41" r="y"/>
+	<sprite n="DN_adult_big_anglefin_1_RARE" x="339" y="319" w="146" h="41" r="y"/>
+	<sprite n="DN_adult_big_anglefin_2" x="192" y="249" w="152" h="44"/>
+	<sprite n="DN_adult_big_anglefin_2_RARE" x="346" y="273" w="152" h="44"/>
+	<sprite n="DN_adult_big_anglefin_3" x="311" y="502" w="115" h="33" r="y"/>
+	<sprite n="DN_adult_big_anglefin_3_RARE" x="311" y="537" w="115" h="33" r="y"/>
+	<sprite n="DN_adult_big_phone" x="145" y="372" w="42" h="57"/>
+	<sprite n="DN_adult_big_phone_RARE" x="145" y="431" w="42" h="57"/>
+	<sprite n="DN_adult_body" x="192" y="101" w="178" h="146"/>
+	<sprite n="DN_adult_body_RARE" x="0" y="0" w="190" h="146"/>
+	<sprite n="DN_adult_jaw" x="0" y="148" w="168" h="78"/>
+	<sprite n="DN_adult_jaw_RARE" x="0" y="228" w="168" h="70" oX="0" oY="0" oW="168" oH="78"/>
+	<sprite n="DN_adult_large_glow" x="0" y="502" w="119" h="92" r="y"/>
+	<sprite n="DN_adult_left_eyelid_01" x="129" y="490" w="56" h="53" r="y"/>
+	<sprite n="DN_adult_left_eyelid_02" x="121" y="667" w="56" h="53" r="y"/>
+	<sprite n="DN_adult_left_eyelid_03" x="180" y="774" w="56" h="53" r="y"/>
+	<sprite n="DN_adult_left_eyelid_04" x="90" y="809" w="56" h="53" r="y"/>
+	<sprite n="DN_adult_left_foot" x="286" y="666" w="87" h="86"/>
+	<sprite n="DN_adult_left_foot_RARE" x="414" y="690" w="87" h="86"/>
+	<sprite n="DN_adult_lower_arm_RARE" x="189" y="464" w="120" h="110" r="y"/>
+	<sprite n="DN_adult_lowerleg" x="442" y="473" w="68" h="37" r="y"/>
+	<sprite n="DN_adult_lowerleg_RARE" x="375" y="666" w="37" h="68"/>
+	<sprite n="DN_adult_mouth_01" x="319" y="437" w="121" h="63" oX="9" oY="15" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_02" x="0" y="434" w="127" h="66" oX="0" oY="13" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_03" x="319" y="362" w="126" h="73" oX="1" oY="7" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_04" x="0" y="596" w="119" h="82" oX="8" oY="3" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_05" x="311" y="572" w="107" h="92" oX="20" oY="1" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_06" x="100" y="722" w="78" h="85" oX="43" oY="6" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_07" x="121" y="545" w="66" h="73" oX="48" oY="10" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_mouth_08" x="410" y="778" w="87" h="50" oX="38" oY="15" oW="130" oH="94"/>
+	<sprite n="DN_adult_mouth_09" x="447" y="362" w="65" h="109" oX="17" oY="14" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_mouth_10" x="428" y="512" w="78" h="106" oX="20" oY="7" oW="130" oH="94" r="y"/>
+	<sprite n="DN_adult_pupil" x="170" y="278" w="19" h="19"/>
+	<sprite n="DN_adult_pupil_RARE" x="346" y="249" w="19" h="19"/>
+	<sprite n="DN_adult_right_eyelid_01" x="148" y="809" w="29" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="DN_adult_right_eyelid_02" x="375" y="736" w="33" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="DN_adult_right_eyelid_03" x="336" y="754" w="33" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="DN_adult_right_eyelid_04" x="371" y="785" w="33" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="DN_adult_right_foot" x="186" y="652" w="98" h="73"/>
+	<sprite n="DN_adult_right_foot_RARE" x="0" y="680" w="98" h="73"/>
+	<sprite n="DN_adult_shadow" x="192" y="0" w="186" h="99"/>
+	<sprite n="DN_adult_small_anglefin_1" x="420" y="620" w="91" h="33" r="y"/>
+	<sprite n="DN_adult_small_anglefin_1_RARE" x="420" y="655" w="91" h="33" r="y"/>
+	<sprite n="DN_adult_small_anglefin_2" x="0" y="755" w="88" h="29"/>
+	<sprite n="DN_adult_small_anglefin_2_RARE" x="0" y="786" w="88" h="29"/>
+	<sprite n="DN_adult_small_anglefin_3" x="170" y="148" w="20" h="63"/>
+	<sprite n="DN_adult_small_anglefin_3_RARE" x="170" y="213" w="20" h="63"/>
+	<sprite n="DN_adult_small_glow" x="189" y="576" w="103" h="74" r="y"/>
+	<sprite n="DN_adult_small_phone" x="145" y="300" w="43" h="34" r="y"/>
+	<sprite n="DN_adult_small_phone_RARE" x="145" y="336" w="43" h="34" r="y"/>
+	<sprite n="DN_adult_tail" x="190" y="338" w="127" h="124"/>
+	<sprite n="DN_adult_topfin" x="380" y="0" w="132" h="143"/>
+	<sprite n="DN_adult_topfin_RARE" x="0" y="300" w="143" h="132" r="y"/>
+	<sprite n="DN_adult_upper_arm_RARE" x="121" y="620" w="63" h="45" oX="1" oY="2" oW="64" oH="48"/>
+	<sprite n="DN_adult_upperleg" x="180" y="727" w="76" h="45" r="y"/>
+	<sprite n="DN_adult_upperleg_RARE" x="258" y="754" w="76" h="45" r="y"/>
+	<sprite n="RARE_DN_adult_left_eyelid_01" x="0" y="817" w="56" h="53" r="y"/>
+	<sprite n="RARE_DN_adult_left_eyelid_02" x="238" y="801" w="56" h="53" r="y"/>
+	<sprite n="RARE_DN_adult_left_eyelid_03" x="179" y="829" w="56" h="53" r="y"/>
+	<sprite n="RARE_DN_adult_left_eyelid_04" x="237" y="856" w="56" h="53" r="y"/>
+	<sprite n="RARE_DN_adult_right_eyelid_01" x="58" y="817" w="29" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="RARE_DN_adult_right_eyelid_02" x="296" y="801" w="33" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="RARE_DN_adult_right_eyelid_03" x="331" y="803" w="33" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="RARE_DN_adult_right_eyelid_04" x="296" y="850" w="33" h="47" oX="0" oY="0" oW="33" oH="48"/>
+	<sprite n="spore_DF" x="372" y="145" w="133" h="126" oX="21" oY="21" oW="172" oH="172" r="y"/>
+</TextureAtlas>

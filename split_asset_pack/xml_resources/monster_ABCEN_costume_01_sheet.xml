@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9726228f823761b7ef1aee8d602e0a9b:2467696b0aa09a8b7f96f7b764917b32:a3ac910ff089d4a907e19f50a66d9238$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCEN_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ABCEN_C1_back_foot" x="480" y="308" w="25" h="53" pX="0.116667" pY="0.5" oX="2" oY="8" oW="60" oH="40" r="y"/>
+	<sprite n="ABCEN_C1_back_midleg" x="480" y="257" w="28" h="49" pX="0.328571" pY="0.56" oX="16" oY="11" oW="70" oH="50" r="y"/>
+	<sprite n="ABCEN_C1_back_upper_leg" x="187" y="458" w="77" h="50" pX="0.266667" pY="0.5" oX="7" oY="4" oW="90" oH="60"/>
+	<sprite n="ABCEN_C1_body" x="0" y="0" w="206" h="178" pX="0.5" pY="0.5" oX="28" oY="22" oW="260" oH="220"/>
+	<sprite n="ABCEN_C1_drum_A" x="361" y="127" w="134" h="128" pX="0.5" pY="0.5" oX="7" oY="3" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_C1_drum_B" x="208" y="130" w="134" h="128" pX="0.5" pY="0.5" oX="7" oY="3" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_C1_drum_C" x="344" y="257" w="134" h="128" pX="0.5" pY="0.5" oX="7" oY="3" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_C1_drum_D" x="0" y="180" w="134" h="128" pX="0.5" pY="0.5" oX="7" oY="3" oW="140" oH="140" r="y"/>
+	<sprite n="ABCEN_C1_drum_stick" x="420" y="387" w="88" h="84" pX="0.5" pY="0.5" oX="29" oY="16" oW="140" oH="120" r="y"/>
+	<sprite n="ABCEN_C1_drumhead_01" x="203" y="260" w="124" h="91" pX="0.4875" pY="0.496154" oX="10" oY="1" oW="120" oH="130" r="y"/>
+	<sprite n="ABCEN_C1_drumhead_02" x="0" y="310" w="124" h="91" pX="0.4875" pY="0.496154" oX="10" oY="1" oW="120" oH="130" r="y"/>
+	<sprite n="ABCEN_C1_drumhead_03" x="0" y="403" w="124" h="91" pX="0.4875" pY="0.496154" oX="10" oY="1" oW="120" oH="130" r="y"/>
+	<sprite n="ABCEN_C1_eyepatch" x="317" y="387" w="101" h="87" pX="0.5" pY="0.5" oX="52" oY="78" oW="200" oH="200"/>
+	<sprite n="ABCEN_C1_left_forearm" x="126" y="348" w="73" h="91" pX="0.88" pY="0.48" oX="6" oY="13" oW="100" oH="100" r="y"/>
+	<sprite n="ABCEN_C1_left_middle_lower_leg" x="126" y="441" w="59" h="54" pX="0.8" pY="0.566667" oX="0" oY="2" oW="60" oH="60"/>
+	<sprite n="ABCEN_C1_left_upper_arm" x="105" y="497" w="76" h="53" pX="0.55" pY="0.825" oX="5" oY="2" oW="60" oH="80" r="y"/>
+	<sprite n="ABCEN_C1_left_wrist" x="201" y="353" w="114" h="103" pX="0.6" pY="0.516667" oX="17" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="ABCEN_C1_middle_leg_lower_right" x="136" y="180" w="70" h="55" pX="0.225" pY="0.5" oX="13" oY="0" oW="80" oH="80" r="y"/>
+	<sprite n="ABCEN_C1_neck" x="208" y="0" w="151" h="128" pX="0.421429" pY="0.45" oX="4" oY="3" oW="140" oH="160" r="y"/>
+	<sprite n="ABCEN_C1_right_forearm" x="136" y="237" w="65" h="61" pX="0.64" pY="0.54" oX="17" oY="23" oW="100" oH="100"/>
+	<sprite n="ABCEN_C1_right_middle_upper_leg" x="420" y="473" w="79" h="48" pX="0.1875" pY="0.466667" oX="1" oY="5" oW="80" oH="60"/>
+	<sprite n="ABCEN_C1_right_upperarm" x="136" y="300" w="65" h="46" pX="0.5125" pY="0.85" oX="18" oY="7" oW="80" oH="80" r="y"/>
+	<sprite n="ABCEN_C1_right_wrist" x="361" y="0" w="137" h="125" pX="0.585714" pY="0.607143" oX="0" oY="9" oW="140" oH="140"/>
+	<sprite n="ABCEN_C1_wheel" x="0" y="496" w="103" h="90" pX="0.6375" pY="0.52" oX="9" oY="10" oW="120" oH="100"/>
+</TextureAtlas>

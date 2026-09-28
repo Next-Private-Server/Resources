@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c6553ae0be18a00b3f3f4ef45db32b99:0eb90640b0481f359740229e3c4b16f5:2487883923300d665b9654fcb62ed4e8$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_PRM_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="PRIM_01_body" x="602" y="422" w="215" h="154" oX="12" oY="53" oW="240" oH="260"/>
+	<sprite n="PRIM_01_body_glow" x="890" y="93" w="132" h="190" r="y"/>
+	<sprite n="PRIM_01_eyelid_01" x="501" y="366" w="42" h="64" r="y"/>
+	<sprite n="PRIM_01_eyelid_02" x="501" y="432" w="42" h="64" r="y"/>
+	<sprite n="PRIM_01_eyelid_03" x="454" y="460" w="42" h="64" r="y"/>
+	<sprite n="PRIM_01_eyelid_04" x="454" y="526" w="42" h="64" r="y"/>
+	<sprite n="PRIM_01_foot" x="440" y="592" w="50" h="34" oX="3" oY="4" oW="40" oH="60" r="y"/>
+	<sprite n="PRIM_01_fruit1_shell_glow" x="312" y="460" w="140" h="72" r="y"/>
+	<sprite n="PRIM_01_fruit3_shell_glow" x="93" y="517" w="90" h="65" oX="5" oY="2" oW="70" oH="94" r="y"/>
+	<sprite n="PRIM_01_fruit_1_body" x="604" y="223" w="244" h="197" oX="13" oY="16" oW="270" oH="230"/>
+	<sprite n="PRIM_01_Fruit_1_foot" x="546" y="316" w="56" h="40" oX="2" oY="1" oW="46" oH="60" r="y"/>
+	<sprite n="PRIM_01_fruit_1_shell" x="0" y="351" w="189" h="141" oX="15" oY="9" oW="220" oH="160"/>
+	<sprite n="PRIM_01_fruit_2_body" x="604" y="0" w="284" h="221" oX="8" oY="19" oW="300" oH="260"/>
+	<sprite n="PRIM_01_Fruit_2_foot" x="87" y="647" w="72" h="49" oX="3" oY="0" oW="56" oH="72" r="y"/>
+	<sprite n="PRIM_01_fruit_2_shell" x="848" y="438" w="175" h="208" oX="21" oY="22" oW="250" oH="220" r="y"/>
+	<sprite n="PRIM_01_fruit_3_body" x="318" y="0" w="284" h="224" oX="18" oY="18" oW="320" oH="260"/>
+	<sprite n="PRIM_01_Fruit_3_foot" x="206" y="601" w="72" h="69" oX="5" oY="4" oW="80" oH="80" r="y"/>
+	<sprite n="PRIM_01_fruit_3_shell" x="0" y="230" w="206" h="119" oX="7" oY="5" oW="220" oH="130"/>
+	<sprite n="PRIM_01_Fruit_4_body" x="0" y="0" w="316" h="228" oX="12" oY="16" oW="340" oH="260"/>
+	<sprite n="PRIM_01_fruit_4_shell" x="318" y="226" w="226" h="138" oX="7" oY="21" oW="240" oH="180"/>
+	<sprite n="PRIM_01_fruit_eyelid_01" x="819" y="533" w="24" h="54" oX="0" oY="7" oW="54" oH="36" r="y"/>
+	<sprite n="PRIM_01_fruit_eyelid_02" x="819" y="478" w="27" h="53" oX="0" oY="5" oW="54" oH="36" r="y"/>
+	<sprite n="PRIM_01_fruit_eyelid_03" x="819" y="422" w="27" h="54" oX="0" oY="5" oW="54" oH="36" r="y"/>
+	<sprite n="PRIM_01_fruit_pupil" x="866" y="255" w="12" h="12"/>
+	<sprite n="PRIM_01_leaves" x="163" y="584" w="41" h="40" oX="9" oY="10" oW="60" oH="60"/>
+	<sprite n="PRIM_01_leg" x="850" y="223" w="37" h="30" oX="1" oY="3" oW="40" oH="36"/>
+	<sprite n="PRIM_01_mouth" x="186" y="494" w="18" h="32"/>
+	<sprite n="PRIM_01_Pupil" x="866" y="269" w="12" h="12"/>
+	<sprite n="PRIM_01_seed_glow" x="208" y="230" w="108" h="110" r="y"/>
+	<sprite n="PRIM_01_seed_large" x="0" y="578" w="85" h="84" oX="8" oY="7" oW="100" oH="100" r="y"/>
+	<sprite n="PRIM_01_seed_medium" x="87" y="584" w="74" h="61" oX="7" oY="8" oW="76" oH="90" r="y"/>
+	<sprite n="PRIM_01_seed_small" x="545" y="440" w="50" h="62" oX="5" oY="4" oW="60" oH="70"/>
+	<sprite n="PRIM_01_shadow" x="316" y="366" w="183" h="92"/>
+	<sprite n="PRIM_01_shell_Back" x="93" y="494" w="91" h="21" oX="0" oY="9" oW="92" oH="40"/>
+	<sprite n="PRIM_01_shell_front" x="206" y="431" w="104" h="168" oX="6" oY="8" oW="180" oH="120" r="y"/>
+	<sprite n="PRIM_01_stem" x="191" y="351" w="13" h="84" oX="1" oY="3" oW="16" oH="90"/>
+	<sprite n="PRIM_01_tree_branch" x="850" y="285" w="173" h="151" oX="3" oY="4" oW="180" oH="160"/>
+	<sprite n="PRIM_01_tree_branch_back" x="498" y="504" w="100" h="90" oX="1" oY="2" oW="92" oH="104" r="y"/>
+	<sprite n="PRIM_01_tree_branch_centre" x="546" y="226" w="56" h="88" oX="5" oY="6" oW="98" oH="68" r="y"/>
+	<sprite n="PRIM_01_tree_root_back_left" x="890" y="0" w="133" h="91" oX="6" oY="2" oW="146" oH="96"/>
+	<sprite n="PRIM_01_Tree_root_back_right" x="546" y="358" w="54" h="80" oX="2" oY="3" oW="84" oH="60" r="y"/>
+	<sprite n="PRIM_01_tree_root_front" x="208" y="342" w="106" h="87" oX="4" oY="7" oW="96" oH="120" r="y"/>
+	<sprite n="PRIM_01_Tree_root_right" x="0" y="494" w="91" h="82" oX="2" oY="3" oW="96" oH="88"/>
+	<sprite n="PRIM_01_Tree_stem" x="850" y="255" w="14" h="25" r="y"/>
+	<sprite n="PRIM_01_tree_trunk" x="312" y="534" w="126" h="103" oX="7" oY="8" oW="140" oH="120"/>
+</TextureAtlas>

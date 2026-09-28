@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:40f1485502ab91c5c95fdf993a66e5ff:c8b06a13b91257517a7bc3dcbadf3b20:8b25218f8d20dd4c780d877c46143076$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_E_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="E_body" x="0" y="0" w="230" h="114" r="y"/>
+	<sprite n="E_eyeback" x="79" y="541" w="62" h="34"/>
+	<sprite n="E_lefteye_1" x="258" y="590" w="39" h="38" oX="1" oY="4" oW="42" oH="42"/>
+	<sprite n="E_lefteye_2" x="71" y="577" w="39" h="36" oX="1" oY="4" oW="42" oH="42"/>
+	<sprite n="E_lefteye_3" x="0" y="609" w="39" h="35" oX="1" oY="4" oW="42" oH="42"/>
+	<sprite n="E_lefteye_4" x="184" y="597" w="37" h="36" oX="2" oY="4" oW="42" oH="42"/>
+	<sprite n="E_leftfingers_1" x="466" y="420" w="46" h="64" r="y"/>
+	<sprite n="E_leftfingers_2" x="365" y="543" w="48" h="42" oX="9" oY="0" oW="64" oH="46"/>
+	<sprite n="E_leftfingers_3" x="259" y="553" w="41" h="35" oX="12" oY="0" oW="64" oH="46"/>
+	<sprite n="E_leftfoot_1" x="0" y="212" w="145" h="80" oX="1" oY="9" oW="146" oH="90"/>
+	<sprite n="E_leftfoot_2" x="231" y="268" w="143" h="89" oX="1" oY="0" oW="146" oH="90"/>
+	<sprite n="E_leftleg" x="307" y="504" w="56" h="50" r="y"/>
+	<sprite n="E_leftlowerarm" x="389" y="226" w="93" h="52" oX="0" oY="1" oW="52" oH="94" r="y"/>
+	<sprite n="E_leftupperarm" x="389" y="182" w="100" h="42" r="y"/>
+	<sprite n="E_mouth_1" x="484" y="226" w="28" h="77" oX="0" oY="3" oW="78" oH="88" r="y"/>
+	<sprite n="E_mouth_2" x="0" y="521" w="77" h="31" oX="0" oY="1" oW="78" oH="88"/>
+	<sprite n="E_mouth_3" x="144" y="462" w="78" h="49" oX="0" oY="0" oW="78" oH="88"/>
+	<sprite n="E_mouth_4" x="0" y="456" w="78" h="63" oX="0" oY="0" oW="78" oH="88"/>
+	<sprite n="E_mouth_5" x="0" y="376" w="84" h="78" oX="0" oY="0" oW="78" oH="88" r="y"/>
+	<sprite n="E_mouth_6" x="147" y="372" w="78" h="88"/>
+	<sprite n="E_mouth_7" x="158" y="204" w="71" h="33" oX="0" oY="0" oW="78" oH="88"/>
+	<sprite n="E_mouth_8" x="147" y="239" w="82" h="65" oX="0" oY="3" oW="78" oH="88" r="y"/>
+	<sprite n="E_mouth_9" x="376" y="420" w="88" h="78" r="y"/>
+	<sprite n="E_mouth_10" x="227" y="450" w="78" h="63" oX="0" oY="0" oW="78" oH="88"/>
+	<sprite n="E_pupil" x="491" y="182" w="15" h="14" oX="1" oY="0" oW="16" oH="16" r="y"/>
+	<sprite n="E_righteye_1" x="216" y="515" w="41" h="40" oX="2" oY="3" oW="44" oH="44" r="y"/>
+	<sprite n="E_righteye_2" x="216" y="557" w="40" h="38" oX="2" oY="3" oW="44" oH="44"/>
+	<sprite n="E_righteye_3" x="302" y="556" w="40" h="38" oX="2" oY="3" oW="44" oH="44"/>
+	<sprite n="E_righteye_4" x="143" y="569" w="39" h="37" oX="4" oY="3" oW="44" oH="44" r="y"/>
+	<sprite n="E_rightfingers_1" x="147" y="306" w="82" h="64"/>
+	<sprite n="E_rightfingers_2" x="144" y="513" w="70" h="54" oX="0" oY="0" oW="82" oH="64"/>
+	<sprite n="E_rightfingers_3" x="375" y="500" w="64" h="41" oX="0" oY="0" oW="82" oH="64"/>
+	<sprite n="E_rightfoot_1" x="0" y="294" w="145" h="80" oX="0" oY="9" oW="146" oH="90"/>
+	<sprite n="E_rightfoot_2" x="231" y="359" w="143" h="89" oX="2" oY="0" oW="146" oH="90"/>
+	<sprite n="E_rightleg" x="86" y="376" w="58" h="52" r="y"/>
+	<sprite n="E_rightlowerarm" x="376" y="354" w="90" h="64" r="y"/>
+	<sprite n="E_rightshoulder" x="466" y="486" w="46" h="42" r="y"/>
+	<sprite n="E_rightupperarm" x="393" y="130" w="105" h="50" oX="0" oY="0" oW="50" oH="110" r="y"/>
+	<sprite n="E_shadow" x="376" y="305" w="124" h="47" oX="3" oY="26" oW="130" oH="78"/>
+	<sprite n="EPIC_E_ear_left" x="80" y="502" w="62" h="37" oX="2" oY="16" oW="70" oH="70"/>
+	<sprite n="EPIC_E_ear_right" x="307" y="450" w="66" h="52" oX="2" oY="9" oW="70" oH="70"/>
+	<sprite n="EPIC_E_horns01" x="393" y="0" w="106" h="128" oX="1" oY="1" oW="130" oH="110" r="y"/>
+	<sprite n="EPIC_E_leftfingers_1" x="0" y="554" w="69" h="53" oX="14" oY="26" oW="100" oH="100"/>
+	<sprite n="EPIC_E_leftfingers_2" x="441" y="530" w="48" h="45" oX="27" oY="26" oW="100" oH="100"/>
+	<sprite n="EPIC_E_leftfingers_3" x="259" y="515" w="41" h="36" oX="30" oY="26" oW="100" oH="100"/>
+	<sprite n="EPIC_E_leftfoot_1" x="232" y="0" w="159" h="84" oX="15" oY="14" oW="200" oH="100"/>
+	<sprite n="EPIC_E_leftfoot_2" x="0" y="116" w="156" h="94" oX="15" oY="4" oW="200" oH="100"/>
+	<sprite n="EPIC_E_rightfingers_1" x="158" y="116" w="71" h="86" oX="8" oY="17" oW="100" oH="100" r="y"/>
+	<sprite n="EPIC_E_rightfingers_2" x="86" y="430" w="56" h="70" oX="9" oY="17" oW="100" oH="100" r="y"/>
+	<sprite n="EPIC_E_rightfingers_3" x="468" y="354" w="42" h="64" oX="9" oY="17" oW="100" oH="100" r="y"/>
+	<sprite n="EPIC_E_rightfoot_1" x="232" y="86" w="159" h="84" oX="26" oY="14" oW="200" oH="100"/>
+	<sprite n="EPIC_E_rightfoot_2" x="231" y="172" w="156" h="94" oX="29" oY="4" oW="200" oH="100"/>
+</TextureAtlas>

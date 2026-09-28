@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f4e788eff5f0ea3d3d7af67136658240:d445c0396220477dbd7d13446457a6d7:59afee8de22b41e8d13204e6d0b68018$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CNV_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="CNV_body_ring_rare" x="387" y="210" w="125" h="107" oX="3" oY="0" oW="116" oH="130" r="y" />
+  <sprite n="CNV_eye" x="50" y="489" w="24" h="23" />
+  <sprite n="CNV_eye_rims" x="0" y="335" w="53" h="68" r="y" />
+  <sprite n="CNV_head_inside" x="142" y="312" w="74" h="73" r="y" />
+  <sprite n="CNV_head_rare" x="0" y="123" w="151" h="120" oX="3" oY="1" oW="126" oH="156" r="y" />
+  <sprite n="CNV_jaw_rare" x="153" y="244" w="79" h="66" oX="1" oY="7" oW="70" oH="88" r="y" />
+  <sprite n="CNV_left_claw_01" x="15" y="309" w="43" h="24" r="y" />
+  <sprite n="CNV_left_claw_02" x="96" y="292" w="44" h="32" r="y" />
+  <sprite n="CNV_left_claw_03" x="482" y="319" w="30" h="41" />
+  <sprite n="CNV_left_finger_01" x="96" y="245" w="46" h="45" />
+  <sprite n="CNV_left_finger_02" x="0" y="245" w="38" h="62" r="y" />
+  <sprite n="CNV_left_finger_03" x="60" y="303" w="34" h="72" r="y" />
+  <sprite n="CNV_left_horn" x="235" y="171" w="150" h="125" r="y" />
+  <sprite n="CNV_left_lowerarm" x="234" y="298" w="140" h="35" />
+  <sprite n="CNV_left_upperarm" x="423" y="72" w="88" h="52" />
+  <sprite n="CNV_neck_01_rare" x="0" y="408" w="48" h="94" oX="0" oY="0" oW="48" oH="96" />
+  <sprite n="CNV_neck_02_rare" x="376" y="319" w="104" h="78" r="y" />
+  <sprite n="CNV_neck_03_rare" x="153" y="123" w="80" h="66" r="y" />
+  <sprite n="CNV_neck_04" x="423" y="126" w="87" h="82" />
+  <sprite n="CNV_neck_05" x="423" y="0" w="88" h="70" />
+  <sprite n="CNV_neck_06" x="40" y="245" w="54" h="56" r="y" />
+  <sprite n="CNV_pupil_01" x="0" y="312" w="13" h="14" r="y" />
+  <sprite n="CNV_pupil_02" x="387" y="198" w="14" h="8" oX="0" oY="3" oW="14" oH="13" />
+  <sprite n="CNV_right_claw_01" x="55" y="377" w="38" h="35" r="y" />
+  <sprite n="CNV_right_claw_02" x="482" y="362" w="28" h="44" />
+  <sprite n="CNV_right_claw_03" x="89" y="414" w="27" h="38" oX="0" oY="0" oW="39" oH="27" r="y" />
+  <sprite n="CNV_right_finger_01" x="96" y="326" w="42" h="40" r="y" />
+  <sprite n="CNV_right_finger_02" x="387" y="171" w="31" h="25" />
+  <sprite n="CNV_right_finger_03" x="96" y="368" w="41" h="37" r="y" />
+  <sprite n="CNV_right_horn" x="235" y="0" w="186" h="169" r="y" />
+  <sprite n="CNV_right_lowerarm" x="153" y="191" w="80" h="51" r="y" />
+  <sprite n="CNV_right_upperarm" x="50" y="414" w="37" h="73" />
+  <sprite n="CNV_shadow" x="0" y="0" w="233" h="121" oX="0" oY="11" oW="233" oH="142" />
+  <sprite n="CNV_tooth" x="218" y="312" w="12" h="26" oX="5" oY="1" oW="23" oH="30" />
+</TextureAtlas>

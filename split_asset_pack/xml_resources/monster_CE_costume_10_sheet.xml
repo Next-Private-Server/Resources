@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c99d995b6452f27a61f18649a3f956f5:15d0307f95b78f438f4186d757dd5fc6:be4887d7cebf89f4ad9106a753b8f7c1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CE_costume_10_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="CE_belly" x="0" y="151" w="146" h="90" pX="0.5" pY="0.5" oX="0" oY="34" oW="146" oH="132"/>
+	<sprite n="CE_body" x="0" y="0" w="240" h="149" pX="0.5" pY="0.5" oX="5" oY="2" oW="162" oH="260" r="y"/>
+	<sprite n="CE_body_CHIN_OVERLAP_FIX" x="148" y="184" w="88" h="128" pX="0.5" pY="0.5" oX="12" oY="55" oW="162" oH="260" r="y"/>
+	<sprite n="CE_eyeback" x="114" y="243" w="32" h="74" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CE_eyelid1" x="0" y="338" w="74" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="CE_eyelid2" x="0" y="374" w="74" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="CE_eyelid3" x="0" y="410" w="34" h="74" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CE_eyelid4" x="36" y="410" w="34" h="74" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CE_left_arm" x="208" y="416" w="34" h="54" pX="0.5" pY="0.5" oX="30" oY="21" oW="84" oH="82" r="y"/>
+	<sprite n="CE_left_foot" x="84" y="319" w="54" h="70" pX="0.5" pY="0.5" oX="14" oY="0" oW="70" oH="70"/>
+	<sprite n="CE_left_hand" x="148" y="314" w="87" h="48" pX="0.5" pY="0.5" oX="37" oY="8" oW="124" oH="62"/>
+	<sprite n="CE_left_leg" x="108" y="472" w="64" h="33" pX="0.5" pY="0.5" oX="21" oY="1" oW="56" oH="68" r="y"/>
+	<sprite n="CE_mouth1" x="148" y="151" w="94" h="31" pX="0.5" pY="0.5" oX="0" oY="1" oW="94" oH="32"/>
+	<sprite n="CE_mouth2" x="0" y="308" w="82" h="28" pX="0.5" pY="0.5" oX="3" oY="4" oW="94" oH="32"/>
+	<sprite n="CE_right_arm" x="208" y="364" w="43" h="50" pX="0.296875" pY="0.37234" oX="6" oY="32" oW="64" oH="94"/>
+	<sprite n="CE_right_foot" x="140" y="364" w="66" h="54" pX="0.5" pY="0.5" oX="2" oY="0" oW="70" oH="76" r="y"/>
+	<sprite n="CE_right_hand" x="0" y="243" w="112" h="63" pX="0.5" pY="0.5" oX="3" oY="4" oW="142" oH="70"/>
+	<sprite n="CE_right_leg" x="72" y="410" w="34" h="68" pX="0.5" pY="0.5" oX="1" oY="17" oW="58" oH="86"/>
+</TextureAtlas>

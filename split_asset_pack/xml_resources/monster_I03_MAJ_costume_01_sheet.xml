@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:19e5285db17975b8f6eee58c1f7940e1:b51aff2e2263567b246bfb0383b088ff:af17e4efb497eac91ec59e983da4d743$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_I03_MAJ_costume_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="I03_body_inside" x="644" y="127" w="246" h="182" pX="0.5" pY="0.5" oX="7" oY="7" oW="260" oH="196"/>
+	<sprite n="I03_body_outer_shell" x="331" y="0" w="311" h="159" pX="0.5" pY="0.5" oX="3" oY="13" oW="320" oH="240"/>
+	<sprite n="I03_body_outer_shell_frontpiece" x="331" y="161" w="204" h="158" pX="0.5" pY="0.5" oX="78" oY="27" oW="320" oH="240" r="y"/>
+	<sprite n="I03_collar_back" x="643" y="311" w="192" h="95" pX="0.5" pY="0.5" oX="14" oY="9" oW="220" oH="104"/>
+	<sprite n="I03_collar_front_BEAT" x="644" y="0" w="293" h="125" pX="0.5" pY="0.506667" oX="4" oY="16" oW="300" oH="150"/>
+	<sprite n="I03_eye_BEAT" x="892" y="127" w="44" h="42" pX="0.5" pY="0.49" oX="2" oY="4" oW="50" oH="50"/>
+	<sprite n="I03_hand_backleft_01" x="285" y="440" w="134" h="95" pX="0.5" pY="0.5" oX="18" oY="5" oW="128" oH="144" r="y"/>
+	<sprite n="I03_hand_backleft_02" x="149" y="432" w="134" h="107" pX="0.5" pY="0.5" oX="11" oY="5" oW="128" oH="144" r="y"/>
+	<sprite n="I03_hand_backleft_03" x="295" y="321" w="134" h="117" pX="0.5" pY="0.5" oX="4" oY="5" oW="128" oH="144" r="y"/>
+	<sprite n="I03_hand_backleft_glow_01" x="939" y="93" w="85" h="80" pX="0.5" pY="0.5" oX="31" oY="44" oW="128" oH="144" r="y"/>
+	<sprite n="I03_hand_backleft_glow_02" x="939" y="0" w="85" h="91" pX="0.5" pY="0.5" oX="24" oY="43" oW="128" oH="144" r="y"/>
+	<sprite n="I03_hand_backleft_glow_03" x="537" y="579" w="100" h="86" pX="0.5" pY="0.5" oX="19" oY="42" oW="128" oH="144"/>
+	<sprite n="I03_hand_backright_01" x="285" y="537" w="124" h="92" pX="0.5" pY="0.5" oX="16" oY="5" oW="120" oH="132" r="y"/>
+	<sprite n="I03_hand_backright_02" x="124" y="541" w="119" h="106" pX="0.5" pY="0.5" oX="8" oY="5" oW="120" oH="132" r="y"/>
+	<sprite n="I03_hand_backright_03" x="0" y="452" w="122" h="116" pX="0.5" pY="0.5" oX="2" oY="5" oW="120" oH="132" r="y"/>
+	<sprite n="I03_hand_backright_glow_01" x="639" y="617" w="79" h="77" pX="0.5" pY="0.5" oX="18" oY="41" oW="120" oH="132"/>
+	<sprite n="I03_hand_backright_glow_02" x="743" y="527" w="80" h="93" pX="0.5" pY="0.5" oX="10" oY="39" oW="120" oH="132" r="y"/>
+	<sprite n="I03_hand_backright_glow_03" x="431" y="425" w="104" h="79" pX="0.5" pY="0.5" oX="4" oY="39" oW="120" oH="132"/>
+	<sprite n="I03_hand_frontleft_01" x="643" y="408" w="155" h="117" pX="0.5" pY="0.5" oX="21" oY="4" oW="160" oH="164" r="y"/>
+	<sprite n="I03_hand_frontleft_02" x="0" y="313" w="147" h="137" pX="0.5" pY="0.5" oX="10" oY="9" oW="160" oH="164" r="y"/>
+	<sprite n="I03_hand_frontleft_03" x="837" y="396" w="155" h="149" pX="0.5" pY="0.5" oX="3" oY="4" oW="160" oH="164"/>
+	<sprite n="I03_hand_frontleft_glow_01" x="431" y="321" w="104" h="102" pX="0.5" pY="0.5" oX="21" oY="46" oW="160" oH="164"/>
+	<sprite n="I03_hand_frontleft_glow_02" x="537" y="451" w="102" h="126" pX="0.5" pY="0.5" oX="10" oY="44" oW="160" oH="164" r="y"/>
+	<sprite n="I03_hand_frontleft_glow_03" x="537" y="309" w="104" h="140" pX="0.5" pY="0.5" oX="7" oY="44" oW="160" oH="164" r="y"/>
+	<sprite n="I03_hand_frontright_01" x="537" y="161" w="104" h="146" pX="0.5" pY="0.5" oX="20" oY="4" oW="140" oH="156"/>
+	<sprite n="I03_hand_frontright_02" x="149" y="313" w="144" h="117" pX="0.5" pY="0.5" oX="14" oY="4" oW="140" oH="156" r="y"/>
+	<sprite n="I03_hand_frontright_03" x="892" y="175" w="132" h="144" pX="0.5" pY="0.5" oX="4" oY="4" oW="140" oH="156"/>
+	<sprite n="I03_hand_frontright_glow_01" x="641" y="527" w="100" h="88" pX="0.5" pY="0.5" oX="35" oY="41" oW="140" oH="156" r="y"/>
+	<sprite n="I03_hand_frontright_glow_02" x="0" y="570" w="102" h="101" pX="0.5" pY="0.5" oX="28" oY="39" oW="140" oH="156"/>
+	<sprite n="I03_hand_frontright_glow_03" x="421" y="506" w="114" h="99" pX="0.5" pY="0.5" oX="18" oY="41" oW="140" oH="156"/>
+	<sprite n="I03_head_hat_BEAT" x="0" y="0" w="329" h="311" pX="0.441176" pY="0.796875" oX="3" oY="4" oW="340" oH="320"/>
+	<sprite n="I03_neck" x="837" y="321" w="182" h="73" pX="0.5" pY="0.5" oX="7" oY="6" oW="192" oH="80"/>
+</TextureAtlas>

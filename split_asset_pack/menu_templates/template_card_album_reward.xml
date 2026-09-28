@@ -1,0 +1,136 @@
+<template name="template_card_album_reward" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/CardAlbumReward.lua"/>
+		
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$scale" equals="0.5*game.windowScaleY()" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("market_frame")
+				component("sheetName"):SetString("xml_resources/store_elements.xml")
+				component("layer"):SetString(element:templateVars().layer)
+				component("size"):SetFloat(0.36* element:templateVars().scale)
+				component("visible"):SetInt(0)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<element name="NameFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="8 * element:templateVars().scale" priorityOffset="-3" />
+
+		<textComponent name="Text">
+			<size w="120 * element:templateVars().scale" h="36 * element:templateVars().scale" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					local parent = element:parent()
+					component("textPadding"):SetInt(3 * element:templateVars().scale)
+					component("size"):SetFloat(0.4 * element:templateVars().scale)
+					component("autoScale"):SetInt(1)
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("multiline"):SetInt(1)
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("")
+					component("layer"):SetString(element:templateVars().layer)
+
+					]]>
+			</event>
+		</textComponent>
+
+		<spriteComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-8* element:templateVars().scale" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("visible"):SetInt(0)
+				]]>
+			</event>
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("gfx/menu/gradient")
+					local targetW = element.Text:absW() + 32 * element:templateVars().scale
+					local targetH = element.Text:absH() + 16 * element:templateVars().scale
+					local scaleX = targetW / 150
+					local scaleY = targetH / 110
+					component:setScale(Vector2(scaleX, scaleY))
+					component("alpha"):SetFloat(0.8)
+					component("layer"):SetString(element:templateVars().layer)
+				]]>
+			</event>
+		</spriteComponent>
+
+	</element>
+
+	<element name="Anim">
+		<size dependentOnElement="PARENT" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<aeComponent name="SpriteBG">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+						component("offsetCenter"):SetInt(1)
+						local scale = 0.75 * element:templateVars().scale;
+						component:setScale(Vector2(scale, scale))
+						component("layer"):SetString(element:templateVars().layer)
+					]]>
+			</event>
+		</aeComponent>
+		<aeComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("offsetCenter"):SetInt(1)
+					local scale = 0.75 * element:templateVars().scale;
+					component:setScale(Vector2(scale, scale))
+					component("layer"):SetString(element:templateVars().layer)
+				]]>
+			</event>
+		</aeComponent>
+		<spriteSheetComponent name="ForcedSpriteSheet">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[					
+					component("size"):SetFloat(0.35 * element:templateVars().scale)
+					component("layer"):SetString(element:templateVars().layer)
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<spriteComponent name="ForcedSprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("size"):SetFloat(0.35 * element:templateVars().scale)
+					component("layer"):SetString(element:templateVars().layer)
+				]]>
+			</event>
+		</spriteComponent>
+		<textComponent name="ForcedText">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("")
+					component("layer"):SetString(element:templateVars().layer)
+				]]>
+			</event>
+		</textComponent>
+	</element>
+
+</template>

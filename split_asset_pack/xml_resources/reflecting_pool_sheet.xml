@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:db25ad9d23edda031c58e094b52ee127:2db39be350fbe39fc90190262a069321:d1596b0effb6825b2d86bfd033f724fb$ -->
+<TextureAtlas imagePath="gfx/structures/reflecting_pool_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="reflecting_pool" x="0" y="0" w="201" h="377"/>
+</TextureAtlas>

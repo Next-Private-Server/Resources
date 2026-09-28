@@ -1,0 +1,50 @@
+<template name="template_notification_alert" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/NotificationAlert.lua"/>
+
+	<defaultTemplateVar name="$layer" equals="FrontClipping" />
+	<defaultTemplateVar name="$growDirection" equals="DOWN" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Base" />
+
+	<ninesliceComponent name="Base">
+		<size w="100*game.windowScaleY()" h="40*game.windowScaleY()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />		
+		<event name="onInit" params="component, element">
+			component("includeBorder"):SetInt(1)
+			component("topHeight"):SetFloat(50.0)
+			component("bottomHeight"):SetFloat(50.0)
+			component("leftWidth"):SetFloat(50.0)
+			component("rightWidth"):SetFloat(50.0)
+			component("size"):SetFloat(0.3*game.windowScaleY())
+			component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+			component("layer"):SetString("$layer")
+		</event>
+	</ninesliceComponent>
+
+	<template type="template_dynamic_sprite" name="Icon">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$targetSize" equals="24*game.windowScaleY()" />
+		<templateVar name="$sizeMode" equals="max" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="10*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+	</template>
+	
+	<textComponent name="Text">
+		<size w="38*game.windowScaleY()" h="24*game.windowScaleY()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="10*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(1)
+			component("font"):Set(game.getTextFont())
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString("1000x Coins")
+			component("size"):SetFloat(0.3*game.windowScaleY())
+			component("layer"):SetString("$layer")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+		</event>
+	</textComponent>
+
+</template>

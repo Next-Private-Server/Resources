@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1ed41ebdc08c427bf76f1d658e44e0ac:6343382bccfd67efc7e2c355820501a5:c55094ecb8453b44c9fd07a63281ce7f$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_EN_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="EN_adult_back_foot" x="318" y="188" w="107" h="76" r="y"/>
+	<sprite n="EN_adult_back_lowerleg" x="473" y="264" w="37" h="74"/>
+	<sprite n="EN_adult_back_upperleg" x="357" y="393" w="123" h="72" r="y"/>
+	<sprite n="EN_adult_body_behind" x="127" y="353" w="101" h="64" r="y"/>
+	<sprite n="EN_adult_body_front_EPIC" x="0" y="152" w="238" h="124" oX="1" oY="0" oW="240" oH="124"/>
+	<sprite n="EN_adult_eyelids_01" x="458" y="0" w="47" h="92" r="y"/>
+	<sprite n="EN_adult_eyelids_02" x="458" y="94" w="47" h="92" r="y"/>
+	<sprite n="EN_adult_eyelids_03" x="126" y="497" w="92" h="47"/>
+	<sprite n="EN_adult_eyelids_04" x="124" y="546" w="92" h="47"/>
+	<sprite n="EN_adult_front_foot" x="319" y="0" w="137" h="92" r="y"/>
+	<sprite n="EN_adult_front_foot_RIGHT" x="319" y="94" w="137" h="92" r="y"/>
+	<sprite n="EN_adult_front_lowerleg" x="473" y="188" w="38" h="74"/>
+	<sprite n="EN_adult_front_upperleg" x="0" y="544" w="122" h="69" r="y"/>
+	<sprite n="EN_adult_head_EPIC" x="0" y="0" w="317" h="150" oX="7" oY="8" oW="330" oH="160"/>
+	<sprite n="EN_adult_mouth_01" x="230" y="393" w="125" h="61" oX="0" oY="2" oW="125" oH="77"/>
+	<sprite n="EN_adult_mouth_02" x="0" y="278" w="125" h="66" oX="0" oY="1" oW="125" oH="77"/>
+	<sprite n="EN_adult_mouth_03" x="222" y="456" w="122" h="70" oX="0" oY="1" oW="125" oH="77"/>
+	<sprite n="EN_adult_mouth_04" x="240" y="152" w="76" h="116" oX="2" oY="1" oW="125" oH="77" r="y"/>
+	<sprite n="EN_adult_mouth_05" x="0" y="346" w="125" h="66" oX="0" oY="0" oW="125" oH="77"/>
+	<sprite n="EN_adult_mouth_06" x="346" y="467" w="121" h="61" oX="1" oY="0" oW="125" oH="77"/>
+	<sprite n="EN_adult_mouth_07" x="0" y="478" w="124" h="64" oX="0" oY="0" oW="125" oH="77"/>
+	<sprite n="EN_adult_mouth_08" x="0" y="414" w="125" h="62" oX="0" oY="1" oW="125" oH="77"/>
+	<sprite n="EN_adult_nose_01" x="220" y="528" w="112" h="72" oX="3" oY="0" oW="83" oH="112" r="y"/>
+	<sprite n="EN_adult_nose_02" x="0" y="615" w="112" h="72" oX="3" oY="0" oW="83" oH="112" r="y"/>
+	<sprite n="EN_adult_nose_03" x="127" y="278" w="104" h="73" oX="3" oY="0" oW="83" oH="112" r="y"/>
+	<sprite n="EN_adult_nose_04" x="127" y="419" w="93" h="76" oX="0" oY="0" oW="83" oH="112" r="y"/>
+	<sprite n="EN_adult_nose_05" x="124" y="595" w="86" h="76" oX="0" oY="0" oW="83" oH="112" r="y"/>
+	<sprite n="EN_adult_pupil" x="495" y="340" w="16" h="15"/>
+	<sprite n="EN_adult_pupil_EPIC" x="473" y="340" w="20" h="13" oX="3" oY="0" oW="20" oH="20" r="y"/>
+	<sprite n="EN_adult_shadow" x="240" y="270" w="231" h="121"/>
+</TextureAtlas>

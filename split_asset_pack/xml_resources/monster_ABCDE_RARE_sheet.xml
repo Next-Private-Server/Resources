@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cc1c93f96b5a8180704e29b2ca53a2a2:9b62915e157153696dc589ca1d663204:1d9be6497f98d9633c1e39f13f15cd9b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABCDE_RARE_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ABCDE_mimic_beak_bottom" x="418" y="286" w="67" h="63" oX="3" oY="3" oW="72" oH="72" r="y"/>
+	<sprite n="ABCDE_mimic_beak_top" x="418" y="184" w="79" h="100" oX="0" oY="1" oW="79" oH="103"/>
+	<sprite n="ABCDE_mimic_body" x="291" y="0" w="206" h="182" oX="8" oY="6" oW="199" oH="218" r="y"/>
+	<sprite n="ABCDE_mimic_eyeball_back" x="616" y="441" w="46" h="51" oX="2" oY="2" oW="64" oH="59" r="y"/>
+	<sprite n="ABCDE_mimic_eyeball_front" x="372" y="409" w="54" h="50" oX="7" oY="5" oW="67" oH="67"/>
+	<sprite n="ABCDE_mimic_eyelid_back_01" x="308" y="389" w="62" h="57" oX="1" oY="1" oW="64" oH="59"/>
+	<sprite n="ABCDE_mimic_eyelid_back_02" x="243" y="389" w="63" h="58" oX="0" oY="0" oW="64" oH="59"/>
+	<sprite n="ABCDE_mimic_eyelid_back_03" x="172" y="441" w="62" h="58" oX="1" oY="0" oW="64" oH="59"/>
+	<sprite n="ABCDE_mimic_eyelid_back_04" x="100" y="448" w="62" h="58" oX="1" oY="0" oW="64" oH="59"/>
+	<sprite n="ABCDE_mimic_eyelid_back_05" x="0" y="494" w="62" h="58" oX="1" oY="0" oW="64" oH="59"/>
+	<sprite n="ABCDE_mimic_eyelid_front_01" x="0" y="431" w="67" h="61" oX="0" oY="4" oW="67" oH="67"/>
+	<sprite n="ABCDE_mimic_eyelid_front_02" x="110" y="315" w="62" h="67" oX="0" oY="3" oW="67" oH="67" r="y"/>
+	<sprite n="ABCDE_mimic_eyelid_front_03" x="0" y="367" w="67" h="62" oX="0" oY="4" oW="67" oH="67"/>
+	<sprite n="ABCDE_mimic_eyelid_front_04" x="174" y="377" w="67" h="62" oX="0" oY="4" oW="67" oH="67"/>
+	<sprite n="ABCDE_mimic_eyelid_front_05" x="103" y="384" w="67" h="62" oX="0" oY="4" oW="67" oH="67"/>
+	<sprite n="ABCDE_mimic_feathers_row1" x="174" y="158" w="113" h="116" oX="0" oY="104" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row2" x="0" y="158" w="172" h="155" oX="4" oY="54" oW="218" oH="235" r="y"/>
+	<sprite n="ABCDE_mimic_feathers_row3" x="499" y="0" w="170" h="156" oX="0" oY="58" oW="218" oH="235" r="y"/>
+	<sprite n="ABCDE_mimic_feathers_row4_01" x="630" y="250" w="38" h="75" oX="0" oY="52" oW="223" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row4_02" x="627" y="327" w="37" h="112" oX="23" oY="14" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row4_03" x="289" y="184" w="127" h="57" oX="50" oY="0" oW="218" oH="235" r="y"/>
+	<sprite n="ABCDE_mimic_feathers_row4_04" x="959" y="0" w="64" h="128" oX="67" oY="88" oW="218" oH="235" r="y"/>
+	<sprite n="ABCDE_mimic_feathers_row4_05" x="924" y="554" w="99" h="106" oX="72" oY="39" oW="218" oH="235" r="y"/>
+	<sprite n="ABCDE_mimic_feathers_row4_06" x="174" y="276" w="113" h="99" oX="90" oY="139" oW="218" oH="238"/>
+	<sprite n="ABCDE_mimic_feathers_row5_01" x="793" y="465" w="123" h="43" oX="39" oY="6" oW="218" oH="235" r="y"/>
+	<sprite n="ABCDE_mimic_feathers_row5_02" x="630" y="158" w="39" h="90" oX="3" oY="41" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row5_03" x="664" y="472" w="112" h="85" oX="74" oY="67" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row5_04" x="951" y="130" w="73" h="126" oX="59" oY="16" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row5_05" x="816" y="85" w="135" h="43" oX="81" oY="131" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_feathers_row5_06" x="932" y="337" w="88" h="70" oX="94" oY="157" oW="218" oH="235"/>
+	<sprite n="ABCDE_mimic_foot_back_01" x="289" y="302" w="118" h="85" oX="3" oY="4" oW="146" oH="94"/>
+	<sprite n="ABCDE_mimic_foot_back_02" x="497" y="401" w="117" h="84" oX="3" oY="4" oW="146" oH="94"/>
+	<sprite n="ABCDE_mimic_foot_back_03" x="800" y="395" w="128" h="68" oX="4" oY="19" oW="146" oH="94"/>
+	<sprite n="ABCDE_mimic_foot_back_04" x="816" y="0" w="141" h="83" oX="2" oY="7" oW="146" oH="94"/>
+	<sprite n="ABCDE_mimic_foot_back_05" x="671" y="139" w="133" h="85" oX="3" oY="5" oW="146" oH="94"/>
+	<sprite n="ABCDE_mimic_foot_left_01" x="670" y="323" w="128" h="76" oX="12" oY="28" oW="149" oH="139"/>
+	<sprite n="ABCDE_mimic_foot_left_02" x="802" y="316" w="128" h="77" oX="10" oY="28" oW="149" oH="139"/>
+	<sprite n="ABCDE_mimic_foot_left_03" x="806" y="223" w="130" h="91" oX="10" oY="26" oW="149" oH="139"/>
+	<sprite n="ABCDE_mimic_foot_left_04" x="816" y="130" w="133" h="91" oX="7" oY="26" oW="149" oH="139"/>
+	<sprite n="ABCDE_mimic_foot_left_05" x="671" y="226" w="129" h="95" oX="12" oY="25" oW="149" oH="139"/>
+	<sprite n="ABCDE_mimic_foot_right_01" x="930" y="445" w="93" h="107" oX="14" oY="9" oW="144" oH="144" r="y"/>
+	<sprite n="ABCDE_mimic_foot_right_02" x="923" y="662" w="96" h="108" oX="15" oY="9" oW="144" oH="144" r="y"/>
+	<sprite n="ABCDE_mimic_foot_right_03" x="778" y="510" w="108" h="105" oX="19" oY="10" oW="144" oH="144" r="y"/>
+	<sprite n="ABCDE_mimic_foot_right_04" x="499" y="279" w="126" h="120" oX="0" oY="9" oW="144" oH="144" r="y"/>
+	<sprite n="ABCDE_mimic_foot_right_05" x="499" y="158" w="129" h="119" oX="0" oY="9" oW="144" oH="144" r="y"/>
+	<sprite n="ABCDE_mimic_head" x="671" y="0" w="143" h="137" oX="8" oY="5" oW="158" oH="147"/>
+	<sprite n="ABCDE_mimic_lowerleg_back" x="888" y="510" w="34" h="84" oX="0" oY="0" oW="36" oH="84"/>
+	<sprite n="ABCDE_mimic_lowerleg_left" x="888" y="596" w="33" h="80" oX="1" oY="4" oW="38" oH="84"/>
+	<sprite n="ABCDE_mimic_lowerleg_patch_left" x="69" y="367" w="32" h="53" oX="0" oY="2" oW="34" oH="55"/>
+	<sprite n="ABCDE_mimic_lowerleg_right" x="930" y="409" w="94" h="34" oX="6" oY="0" oW="48" oH="96" r="y"/>
+	<sprite n="ABCDE_mimic_pupil" x="69" y="422" w="29" h="27" oX="1" oY="2" oW="31" oH="31"/>
+	<sprite n="ABCDE_mimic_shadow" x="0" y="0" w="289" h="156" oX="19" oY="4" oW="338" oH="164"/>
+	<sprite n="ABCDE_mimic_tail" x="938" y="258" w="86" h="77" oX="16" oY="14" oW="118" oH="105"/>
+	<sprite n="ABCDE_mimic_upperleg_back" x="0" y="315" w="108" h="50" oX="0" oY="0" oW="50" oH="110" r="y"/>
+	<sprite n="ABCDE_mimic_upperleg_left" x="289" y="243" w="127" h="57" oX="5" oY="0" oW="62" oH="127" r="y"/>
+	<sprite n="ABCDE_mimic_upperleg_right" x="666" y="401" w="125" h="69" oX="5" oY="1" oW="74" oH="130" r="y"/>
+	<sprite n="ABCDE_mimic_wing" x="409" y="351" w="86" h="56" oX="112" oY="81" oW="199" oH="218" r="y"/>
+</TextureAtlas>

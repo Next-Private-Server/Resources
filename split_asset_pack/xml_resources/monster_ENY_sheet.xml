@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e0655d8e75802b628f003b9308c9f8f9:b48e5ae52c5debee29c339d5f1310ab8:69aefadd7c44b1ed75c732a956f2ad9d$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ENY_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="Antenai_1" x="74" y="159" w="28" h="36"/>
+	<sprite n="Antenai_1_front" x="80" y="487" w="15" h="25" oX="13" oY="0" oW="28" oH="36"/>
+	<sprite n="Antenai_2" x="295" y="465" w="20" h="46"/>
+	<sprite n="Antenai_2_front" x="253" y="306" w="23" h="20" oX="0" oY="0" oW="20" oH="46" r="y"/>
+	<sprite n="Ball_Back_Dim" x="215" y="80" w="66" h="66"/>
+	<sprite n="Ball_Back_lit" x="283" y="80" w="66" h="66"/>
+	<sprite n="Ball_Front_Dim" x="215" y="0" w="78" h="78"/>
+	<sprite n="Ball_Front_lit" x="253" y="192" w="78" h="78"/>
+	<sprite n="Body" x="0" y="386" w="78" h="112"/>
+	<sprite n="Eyeback" x="232" y="148" w="42" h="42"/>
+	<sprite n="Eyeball" x="270" y="272" w="30" h="30"/>
+	<sprite n="Eyelid_01" x="246" y="329" w="32" h="32"/>
+	<sprite n="Eyelid_02" x="296" y="148" w="32" h="32"/>
+	<sprite n="Eyelid_03" x="330" y="148" w="21" h="32" oX="0" oY="11" oW="32" oH="32" r="y"/>
+	<sprite n="Eyelid_04" x="253" y="272" w="15" h="32" oX="0" oY="17" oW="32" oH="32" r="y"/>
+	<sprite n="Eyelid_05" x="64" y="370" w="32" h="14" oX="0" oY="18" oW="32" oH="32"/>
+	<sprite n="Eyelid_06" x="24" y="500" w="3" h="3" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="Eyeshine" x="16" y="500" w="6" h="8"/>
+	<sprite n="Leaf1" x="253" y="363" w="76" h="100" r="y"/>
+	<sprite n="Leaf2" x="104" y="159" w="22" h="35" oX="0" oY="0" oW="36" oH="22" r="y"/>
+	<sprite n="Leaf3" x="80" y="428" w="16" h="30" oX="0" oY="0" oW="32" oH="16" r="y"/>
+	<sprite n="Leaf4" x="244" y="475" w="49" h="34" oX="0" oY="0" oW="34" oH="50" r="y"/>
+	<sprite n="Leaf5" x="222" y="475" w="20" h="35" oX="1" oY="0" oW="36" oH="20" r="y"/>
+	<sprite n="Leaf6" x="154" y="334" w="54" h="34" r="y"/>
+	<sprite n="Leaf7" x="158" y="484" w="42" h="28" r="y"/>
+	<sprite n="Leaf8" x="80" y="460" w="16" h="25" oX="1" oY="0" oW="26" oH="16" r="y"/>
+	<sprite n="Leaf9" x="202" y="484" w="18" h="26" r="y"/>
+	<sprite n="Leaf10" x="295" y="0" w="64" h="77" oX="0" oY="0" oW="78" oH="64" r="y"/>
+	<sprite n="Leg_Spike_1" x="206" y="198" w="45" h="129" oX="3" oY="0" oW="134" oH="46" r="y"/>
+	<sprite n="Leg_Spike_2" x="158" y="370" w="46" h="112" oX="2" oY="0" oW="114" oH="48" r="y"/>
+	<sprite n="Leg_Spike_3" x="154" y="198" w="50" h="134" r="y"/>
+	<sprite n="Leg_Spike_4" x="206" y="370" w="45" h="103" oX="1" oY="1" oW="104" oH="46" r="y"/>
+	<sprite n="Leg_Thigh_1" x="229" y="329" w="15" h="34" oX="1" oY="0" oW="36" oH="16" r="y"/>
+	<sprite n="Leg_Thigh_2" x="212" y="156" w="18" h="40" r="y"/>
+	<sprite n="Leg_Thigh_3" x="317" y="465" w="18" h="45" oX="1" oY="0" oW="48" oH="18" r="y"/>
+	<sprite n="Leg_Thigh_4" x="210" y="329" w="17" h="38" oX="0" oY="0" oW="38" oH="18" r="y"/>
+	<sprite n="Mouth" x="276" y="148" w="18" h="42" r="y"/>
+	<sprite n="Pupil" x="278" y="304" w="18" h="18"/>
+	<sprite n="shadow" x="64" y="198" w="88" h="170" oX="0" oY="1" oW="170" oH="90" r="y"/>
+	<sprite n="Sprig1" x="121" y="0" w="92" h="154"/>
+	<sprite n="Sprig2" x="74" y="0" w="45" h="157" oX="1" oY="1" oW="48" oH="158"/>
+	<sprite n="Sprig3" x="0" y="0" w="72" h="196"/>
+	<sprite n="Sprig4" x="98" y="370" w="28" h="136" r="y"/>
+	<sprite n="Sprig5" x="128" y="370" w="28" h="136" r="y"/>
+	<sprite n="Sprig6" x="0" y="198" w="62" h="186"/>
+	<sprite n="Stalk_1" x="80" y="386" w="16" h="40"/>
+	<sprite n="Stalk_2" x="182" y="156" w="28" h="40"/>
+	<sprite n="Stalk_3" x="0" y="500" w="14" h="12" r="y"/>
+	<sprite n="Wing_1" x="351" y="79" w="56" h="62"/>
+	<sprite n="Wing_2" x="128" y="156" w="52" h="40" r="y"/>
+</TextureAtlas>

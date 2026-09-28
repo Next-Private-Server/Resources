@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:445b00b24e786151f4d91287ca41c490:04473e34d5cbd295bf41f5a0e4f59605:cecf4457c91c85dc249c6b4f888c4552$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/anim_BT-02_Cold_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Battle_Notes_00.png" x="0" y="820" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_01.png" x="0" y="899" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_02.png" x="79" y="820" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_03.png" x="79" y="899" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_04.png" x="158" y="820" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_05.png" x="158" y="899" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_06.png" x="220" y="600" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_07.png" x="220" y="679" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_08.png" x="299" y="600" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_09.png" x="378" y="600" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_10.png" x="299" y="679" w="79" h="79" pX="0.5" pY="0.5"/>
+    <sprite n="Battle_Notes_Glow.png" x="0" y="600" w="220" h="220" pX="0.5" pY="0.5"/>
+    <sprite n="BT-02_Cold.png" x="0" y="0" w="480" h="600" pX="0.5" pY="0.5"/>
+</TextureAtlas>

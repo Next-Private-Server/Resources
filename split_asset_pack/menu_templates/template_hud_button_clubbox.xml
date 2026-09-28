@@ -1,0 +1,184 @@
+<template name="template_hud_button_clubbox" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/HudButtonClubbox.lua" />
+
+	<template type="template_spritesheetbutton" name="Button">
+		<templateVar name="$layer" equals="PopUps" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("spriteName"):Set("button_clubbox")
+					component("size"):SetFloat(element["UpSprite"]("size"):GetFloat() * 1.0)
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+			<event name="onTick" params="component, element, dt">
+				<![CDATA[
+					component("size"):SetFloat(element["UpSprite"]("size"):GetFloat() * 1.0)
+				]]>
+			</event>
+		</spriteSheetComponent>
+
+
+		<element name="TimerBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="BG"/>
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*game.hudScale()" priorityOffset="-1" />
+			
+			<ninesliceComponent name="BG">
+				<size w="64*game.hudScale()" h="17*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+
+						-- this 9s is 60x28
+						-- the size should be proportional to the height
+						-- i.e. if the size is 0.5 * hudScale then
+						-- the height should be 14 * hudScale
+
+						component("includeBorder"):SetInt(1)
+						component("topHeight"):SetFloat(13.0)
+						component("bottomHeight"):SetFloat(13.0)
+						component("leftWidth"):SetFloat(13.0)
+						component("rightWidth"):SetFloat(13.0)
+						component("size"):SetFloat(0.6*game.hudScale())
+						component("spriteName"):SetString("gfx/menu/bundle_timer_bar_9s")
+						component("layer"):SetString("PopUps")
+						component("visible"):SetInt(0)
+					]]>
+				</event>
+			</ninesliceComponent>
+
+			<textComponent name="Text">		
+				<size w="56*game.hudScale()" h="17*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*game.hudScale()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("multiline"):SetInt(0)
+						component("autoScale"):SetInt(1)
+						component("font"):Set(game.getTitleFont())
+						component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+						component("size"):SetFloat(0.30*game.menuScaleX())
+						component("layer"):SetString("PopUps")
+					]]>
+				</event>
+			</textComponent>
+			
+		</element>
+		
+		<element name="TicketBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="BG"/>
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="4*game.hudScale()" priorityOffset="-1" />
+			
+			<ninesliceComponent name="BG">
+				<size w="24*game.hudScale()" h="11*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+
+						-- this 9s is 60x28
+						-- the size should be proportional to the height
+						-- i.e. if the size is 0.5 * hudScale then
+						-- the height should be 14 * hudScale
+
+						component("includeBorder"):SetInt(1)
+						component("topHeight"):SetFloat(13.0)
+						component("bottomHeight"):SetFloat(13.0)
+						component("leftWidth"):SetFloat(13.0)
+						component("rightWidth"):SetFloat(13.0)
+						component("size"):SetFloat(0.4*game.hudScale())
+						component("spriteName"):SetString("gfx/menu/bundle_timer_bar_9s")
+						component("layer"):SetString("PopUps")
+					]]>
+				</event>
+			</ninesliceComponent>
+
+			<spriteSheetComponent name="Icon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="1*game.hudScale()" yOffset="-1*game.hudScale()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+					component("spriteName"):SetString("clubbox_token")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("layer"):SetString("PopUps")
+					component("size"):SetFloat(0.25*game.hudScale())
+					]]>
+				</event>
+			</spriteSheetComponent>
+			
+			<textComponent name="Text">		
+				<size dependentOnElement="element:name()" />	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*game.hudScale()" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("multiline"):SetInt(0)
+						component("autoScale"):SetInt(1)
+						component("font"):Set(game.getTextFont())
+						component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+						component("size"):SetFloat(0.15*game.menuScaleX())
+						component("layer"):SetString("PopUps")
+
+						component("text"):SetString(game.playerClubboxTokens())
+					]]>
+				</event>
+			</textComponent>
+			
+		</element>
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)	
+
+				--if its dragging, ignore click
+				if element:parent().isDragging then
+					element:parent().isDragging = false
+					return
+				end
+
+				if (game.popUpLevel() > 1) or (game.getContextBar():getQueuedContext() ~= "") then
+					return
+				end
+
+				--open clubbox
+				if game.existingClubboxAct() == 0 or game.inAdminViewMode() then
+					if game.getPopUp() ~= "clubbox_act_select" then
+						game.pushPopUp("clubbox_act_select")
+					end
+				else
+					game.goToClubbox(0,0)
+				end	
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+
+		<template type="template_indicator" name="Indicator">
+			<templateVar name="$layer" equals="'PopUps'" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-22*game.hudScale()" yOffset="6*game.hudScale()" priorityOffset="-3" />
+		</template>
+
+	</template>
+
+</template>

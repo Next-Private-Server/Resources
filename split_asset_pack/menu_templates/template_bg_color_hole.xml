@@ -1,0 +1,22 @@
+<template name="template_bg_hole" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/BGColorHole.lua" />
+	
+	<defaultTemplateVar name="$layer" equals="'HUD'" />
+
+	<element name="BGColorSprite">
+		<size w="screenWidth()" h="screenHeight()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="6" />
+		<spriteComponent name="Sprite"/>
+	</element>
+
+	<event name="onInit" params="element">
+		<![CDATA[
+			element.layer = "$layer"
+			
+			-- start hidden
+			element.BGColorSprite.Sprite:GetVar("visible"):SetInt(0)
+		]]>
+	</event>
+
+</template>

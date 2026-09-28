@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9492f16e8c5ccc583366894a38ae8016:996724113e0f4a11edd06ed7ad457e8b:ae1d5ed96bdf533a65742d327ed16fdb$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P03_EPIC_sheet.png" width="1024" height="512" hires="true" version="1">
+	<sprite n="P03_back_foot_behind_EPIC" x="890" y="333" w="75" h="65" oX="7" oY="8" oW="88" oH="80"/>
+	<sprite n="P03_back_foot_EPIC" x="790" y="403" w="75" h="65" oX="7" oY="8" oW="88" oH="80"/>
+	<sprite n="P03_back_lowerleg_behind_EPIC" x="692" y="156" w="103" h="80" oX="6" oY="5" oW="86" oH="108" r="y"/>
+	<sprite n="P03_back_lowerleg_EPIC" x="581" y="130" w="107" h="79" oX="7" oY="0" oW="86" oH="108" r="y"/>
+	<sprite n="P03_back_shell_EPIC" x="414" y="305" w="110" h="100"/>
+	<sprite n="P03_back_upperleg_behind_EPIC" x="692" y="240" w="96" h="75" oX="0" oY="0" oW="80" oH="96" r="y"/>
+	<sprite n="P03_back_upperleg_EPIC" x="690" y="319" w="96" h="75" oX="0" oY="0" oW="80" oH="96" r="y"/>
+	<sprite n="P03_body_segment1_EPIC" x="274" y="182" w="136" h="144"/>
+	<sprite n="P03_body_segment2_EPIC" x="411" y="3" w="166" h="124" oX="1" oY="4" oW="168" oH="132"/>
+	<sprite n="P03_body_segment3_EPIC" x="581" y="3" w="137" h="123" oX="1" oY="3" oW="138" oH="128"/>
+	<sprite n="P03_body_segment4" x="414" y="214" w="128" h="87" oX="0" oY="1" oW="128" oH="88"/>
+	<sprite n="P03_eyeball" x="865" y="480" w="24" h="24" oX="2" oY="2" oW="28" oH="28"/>
+	<sprite n="P03_eyelid_01" x="969" y="369" w="26" h="27" oX="1" oY="1" oW="28" oH="28"/>
+	<sprite n="P03_eyelid_02" x="763" y="476" w="26" h="28" oX="1" oY="0" oW="28" oH="28"/>
+	<sprite n="P03_eyelid_03" x="833" y="472" w="28" h="27" oX="0" oY="0" oW="28" oH="28" r="y"/>
+	<sprite n="P03_hair_01_EPIC" x="596" y="312" w="90" h="84" oX="2" oY="4" oW="94" oH="92"/>
+	<sprite n="P03_hair_02_EPIC" x="371" y="432" w="70" h="77" oX="2" oY="5" oW="80" oH="80" r="y"/>
+	<sprite n="P03_head_EPIC" x="3" y="329" w="196" h="153" oX="5" oY="14" oW="162" oH="224" r="y"/>
+	<sprite n="P03_horn_base_EPIC" x="596" y="213" w="92" h="95" oX="7" oY="0" oW="116" oH="98" r="y"/>
+	<sprite n="P03_horn_EPIC" x="3" y="3" w="267" h="322" oX="8" oY="14" oW="282" oH="349"/>
+	<sprite n="P03_horn_inside_EPIC" x="274" y="3" w="133" h="175" oX="9" oY="5" oW="150" oH="184"/>
+	<sprite n="P03_left_front_foot_EPIC" x="869" y="403" w="59" h="73" oX="4" oY="1" oW="80" oH="60" r="y"/>
+	<sprite n="P03_left_hand_EPIC" x="203" y="453" w="64" h="56" r="y"/>
+	<sprite n="P03_left_lowerarm_EPIC" x="790" y="339" w="96" h="60"/>
+	<sprite n="P03_left_lowerleg_EPIC" x="792" y="240" w="75" h="95" oX="0" oY="0" oW="77" oH="97"/>
+	<sprite n="P03_left_shoulderplate_EPIC" x="799" y="156" w="80" h="80"/>
+	<sprite n="P03_left_upperarm_EPIC" x="871" y="267" w="95" h="62" oX="6" oY="7" oW="106" oH="76"/>
+	<sprite n="P03_left_upperleg_EPIC" x="271" y="432" w="96" h="77" oX="0" oY="0" oW="80" oH="96" r="y"/>
+	<sprite n="P03_mouth_01" x="793" y="472" w="36" h="24" oX="2" oY="4" oW="40" oH="32"/>
+	<sprite n="P03_mouth_02" x="984" y="179" w="37" h="28" oX="1" oY="2" oW="40" oH="32"/>
+	<sprite n="P03_mouth_03" x="984" y="211" w="32" h="38" oX="1" oY="0" oW="40" oH="32" r="y"/>
+	<sprite n="P03_puffcheek" x="726" y="476" w="33" h="33" oX="2" oY="2" oW="36" oH="36"/>
+	<sprite n="P03_pupil" x="562" y="131" w="15" h="14" oX="1" oY="1" oW="16" oH="16"/>
+	<sprite n="P03_right_front_foot_EPIC" x="726" y="398" w="60" h="74" oX="0" oY="0" oW="80" oH="60" r="y"/>
+	<sprite n="P03_right_hand_EPIC" x="970" y="267" w="44" h="54" oX="2" oY="0" oW="48" oH="54"/>
+	<sprite n="P03_right_lowerarm_EPIC" x="514" y="409" w="63" h="100" oX="0" oY="1" oW="100" oH="64" r="y"/>
+	<sprite n="P03_right_lowerleg_EPIC" x="581" y="408" w="76" h="97" oX="1" oY="0" oW="77" oH="97"/>
+	<sprite n="P03_right_upperarm_EPIC" x="528" y="305" w="64" h="99" oX="1" oY="5" oW="100" oH="74" r="y"/>
+	<sprite n="P03_right_upperleg_EPIC" x="445" y="409" w="65" h="100" oX="6" oY="2" oW="84" oH="104"/>
+	<sprite n="P03_shadow" x="203" y="329" w="64" h="120" oX="6" oY="1" oW="132" oH="66" r="y"/>
+	<sprite n="P03_slug_ear_EPIC" x="546" y="280" w="38" h="17" oX="7" oY="2" oW="30" oH="42" r="y"/>
+	<sprite n="P03_snail_eye" x="893" y="480" w="20" h="20"/>
+	<sprite n="P03_snail_eyestalk" x="3" y="486" w="42" h="16" oX="0" oY="3" oW="16" oH="48" r="y"/>
+	<sprite n="P03_snailbody_01" x="883" y="179" w="97" h="84" oX="78" oY="0" oW="176" oH="84"/>
+	<sprite n="P03_snailbody_02" x="900" y="3" w="113" h="84" oX="62" oY="0" oW="176" oH="84"/>
+	<sprite n="P03_snailbody_03" x="884" y="91" w="129" h="84" oX="47" oY="0" oW="176" oH="84"/>
+	<sprite n="P03_snailbody_04" x="414" y="131" w="144" h="79" oX="32" oY="1" oW="176" oH="84"/>
+	<sprite n="P03_snailbody_05" x="722" y="76" w="158" h="76" oX="17" oY="2" oW="176" oH="84"/>
+	<sprite n="P03_snailbody_06" x="722" y="3" w="174" h="69" oX="1" oY="5" oW="176" oH="84"/>
+	<sprite n="P03_snailmouth_01" x="692" y="130" w="25" h="18" oX="20" oY="43" oW="64" oH="100"/>
+	<sprite n="P03_snailmouth_02" x="970" y="325" w="43" h="40" oX="17" oY="29" oW="64" oH="100" r="y"/>
+	<sprite n="P03_snailmouth_03" x="546" y="214" w="46" h="62" oX="15" oY="20" oW="64" oH="100"/>
+	<sprite n="P03_snailmouth_04" x="932" y="402" w="53" h="80" oX="8" oY="10" oW="64" oH="100"/>
+	<sprite n="P03_snailmouth_05" x="661" y="400" w="61" h="96" oX="1" oY="2" oW="64" oH="100"/>
+	<sprite n="P03_tail_01_EPIC" x="271" y="330" w="130" h="98" oX="6" oY="0" oW="110" oH="130" r="y"/>
+</TextureAtlas>

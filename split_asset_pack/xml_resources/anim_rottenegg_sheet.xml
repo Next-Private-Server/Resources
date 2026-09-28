@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:60302ad7a8576de31836205444994e92:df0db54006412529cfd833b9e9c1f7da:53d4fc349d652ab6b179349c88f45c56$ -->
+<TextureAtlas imagePath="gfx/structures/anim_rottenegg_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="egg front" x="0" y="0" w="277" h="248" oX="1" oY="1" oW="250" oH="278" r="y"/>
+	<sprite n="egg top" x="279" y="0" w="230" h="239" oX="0" oY="2" oW="240" oH="232" r="y"/>
+	<sprite n="stink 1" x="279" y="241" w="81" h="242" oX="0" oY="17" oW="82" oH="262"/>
+	<sprite n="stink 2" x="362" y="241" w="76" h="242" oX="3" oY="17" oW="82" oH="262"/>
+	<sprite n="stink 3" x="248" y="543" w="244" h="76" oX="3" oY="11" oW="82" oH="262" r="y"/>
+	<sprite n="stink 4" x="0" y="306" w="250" h="77" oX="5" oY="5" oW="82" oH="262" r="y"/>
+	<sprite n="stink 5" x="0" y="455" w="248" h="66" oX="7" oY="9" oW="82" oH="262" r="y"/>
+	<sprite n="stink 6" x="440" y="241" w="63" h="242" oX="9" oY="13" oW="82" oH="262"/>
+	<sprite n="stink 7" x="0" y="523" w="246" h="72" oX="7" oY="11" oW="82" oH="262" r="y"/>
+	<sprite n="stink 8" x="0" y="597" w="238" h="60" oX="11" oY="17" oW="82" oH="262" r="y"/>
+	<sprite n="stink 9" x="0" y="659" w="234" h="60" oX="11" oY="21" oW="82" oH="262" r="y"/>
+	<sprite n="stink 10" x="240" y="621" w="238" h="60" oX="11" oY="17" oW="82" oH="262" r="y"/>
+	<sprite n="stink 11" x="0" y="250" w="251" h="54" oX="13" oY="11" oW="82" oH="262" r="y"/>
+	<sprite n="stink 12" x="250" y="485" w="248" h="56" oX="15" oY="13" oW="82" oH="262" r="y"/>
+	<sprite n="stink 13" x="0" y="385" w="249" h="68" oX="7" oY="13" oW="82" oH="262" r="y"/>
+</TextureAtlas>

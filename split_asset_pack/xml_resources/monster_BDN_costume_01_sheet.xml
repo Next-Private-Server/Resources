@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:115b2554bc6f8069dbd5c022a29c206e:8de176807fad2943167c1e9f1926fb38:11e96cfd79b441962337e06c81935158$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BDN_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="leaf 1" x="229" y="203" w="26" h="53" pX="0.9" pY="0.40625" oX="3" oY="1" oW="60" oH="32" r="y" />
+  <sprite n="leaf 2" x="116" y="127" w="29" h="54" pX="0.783333" pY="0.3125" oX="2" oY="1" oW="60" oH="32" r="y" />
+  <sprite n="leaf 3" x="82" y="223" w="54" h="29" pX="0.833333" pY="0.3125" oX="2" oY="1" oW="60" oH="32" />
+  <sprite n="left foot" x="0" y="169" w="80" h="77" pX="0.5" pY="0.5" oX="5" oY="3" oW="86" oH="86" r="y" />
+  <sprite n="lower body" x="0" y="0" w="146" h="125" pX="0.5" pY="0.5" oX="3" oY="0" oW="128" oH="146" r="y" />
+  <sprite n="lower leg right" x="78" y="254" w="66" h="38" pX="0.5" pY="0.5" r="y" />
+  <sprite n="lower leg" x="82" y="183" w="63" h="38" pX="0.5" pY="0.5" oX="0" oY="0" oW="38" oH="66" r="y" />
+  <sprite n="pipe B" x="0" y="127" w="114" h="40" pX="0.5" pY="0.5" oX="2" oY="0" oW="44" oH="114" r="y" />
+  <sprite n="pipe C" x="148" y="0" w="107" h="53" pX="0.5" pY="0.5" oX="3" oY="3" oW="58" oH="110" r="y" />
+  <sprite n="pipe D" x="147" y="203" w="80" h="50" pX="0.5" pY="0.5" oX="2" oY="4" oW="52" oH="84" r="y" />
+  <sprite n="upper body" x="148" y="55" w="97" h="146" pX="0.5" pY="0.5" oX="2" oY="3" oW="102" oH="152" />
+  <sprite n="upperleg left" x="0" y="248" w="76" h="48" pX="0.5" pY="0.5" r="y" />
+  <sprite n="upperleg right" x="146" y="255" w="76" h="48" pX="0.5" pY="0.5" r="y" />
+</TextureAtlas>

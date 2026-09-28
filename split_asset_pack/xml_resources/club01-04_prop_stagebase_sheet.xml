@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:099d3cdf309365b7bfb5e6a54423bf15:78e9baa013815a3346a7e7ed0e3656e4:f84e07dfdab9b601cd52a78050a84b54$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_stagebase_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="stagebase_pillar" x="213" y="529" w="190" h="268" oX="36" oY="0" oW="340" oH="190" r="y"/>
+	<sprite n="stagebase_street" x="0" y="0" w="949" h="527" oX="0" oY="3" oW="949" oH="530"/>
+	<sprite n="stagebase_street_center" x="0" y="529" w="211" h="388" oX="283" oY="102" oW="949" oH="530" r="y"/>
+</TextureAtlas>

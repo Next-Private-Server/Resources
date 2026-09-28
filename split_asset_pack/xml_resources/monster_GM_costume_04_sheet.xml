@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3f8458ad34f89223ac84c4dc7648273c:383d6ede25e7c5fec5e7cb8f7d216d61:a581a10b40c4e726f85d4cdc0f0af2e3$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_GM_costume_04_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="GM_jellybody_cybopped" x="0" y="0" w="235" h="170" pX="0.5495" pY="0.706538" oX="14" oY="4" oW="200" oH="260" r="y"/>
+	<sprite n="GM_left_hand_cybopped" x="167" y="348" w="89" h="65" pX="0.262222" pY="0.155556" oX="9" oY="0" oW="90" oH="90" r="y"/>
+	<sprite n="GM_left_wing_cybopped" x="0" y="172" w="192" h="174" pX="0.761" pY="0.376" oX="5" oY="20" oW="200" oH="200"/>
+	<sprite n="GM_right_hand_cybopped" x="167" y="415" w="85" h="72" pX="0.231111" pY="0.157778" oX="10" oY="4" oW="90" oH="90" r="y"/>
+	<sprite n="GM_right_wing_cybopped" x="0" y="348" w="165" h="163" pX="0.146667" pY="0.562222" oX="8" oY="1" oW="180" oH="180" r="y"/>
+</TextureAtlas>

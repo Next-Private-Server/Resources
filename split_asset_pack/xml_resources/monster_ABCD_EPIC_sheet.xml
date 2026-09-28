@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:12482d67af518ce26a20ef381c3d0b9e:ebfacb01b53d9bbdb8217975569d7e9e:448242483e8abb1a7ae0a3fb9861145e$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABCD_EPIC_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ABCD_beak01" x="691" y="220" w="79" h="86" oX="0" oY="1" oW="86" oH="80" r="y"/>
+	<sprite n="ABCD_beak02" x="863" y="203" w="86" h="79" oX="0" oY="1" oW="86" oH="80"/>
+	<sprite n="ABCD_beak03" x="772" y="260" w="86" h="79" oX="0" oY="1" oW="86" oH="80"/>
+	<sprite n="ABCD_body" x="338" y="311" w="169" h="232" oX="0" oY="0" oW="170" oH="234"/>
+	<sprite n="ABCD_chair" x="561" y="172" w="128" h="134" oX="1" oY="0" oW="136" oH="130" r="y"/>
+	<sprite n="ABCD_cymbal_lower" x="586" y="0" w="55" h="133" oX="0" oY="1" oW="134" oH="58" r="y"/>
+	<sprite n="ABCD_cymbal_upper" x="509" y="483" w="132" h="57" oX="0" oY="1" oW="134" oH="58"/>
+	<sprite n="ABCD_cymbal_vine" x="586" y="135" w="65" h="29" oX="0" oY="0" oW="30" oH="66" r="y"/>
+	<sprite n="ABCD_ear_EPIC" x="775" y="0" w="131" h="93" r="y"/>
+	<sprite n="ABCD_eyeback" x="938" y="327" w="70" h="40" oX="1" oY="0" oW="72" oH="42"/>
+	<sprite n="ABCD_eyelids_1" x="426" y="236" w="43" h="73" oX="3" oY="4" oW="80" oH="52" r="y"/>
+	<sprite n="ABCD_eyelids_2" x="471" y="236" w="43" h="73" oX="3" oY="4" oW="80" oH="52" r="y"/>
+	<sprite n="ABCD_eyelids_3" x="516" y="236" w="43" h="73" oX="3" oY="4" oW="80" oH="52" r="y"/>
+	<sprite n="ABCD_eyelids_4" x="951" y="203" w="73" h="43" oX="3" oY="4" oW="80" oH="52"/>
+	<sprite n="ABCD_head" x="643" y="0" w="130" h="131" oX="1" oY="1" oW="132" oH="132"/>
+	<sprite n="ABCD_hihat_stand" x="265" y="0" w="92" h="237" oX="1" oY="1" oW="94" oH="238"/>
+	<sprite n="ABCD_left_foot" x="774" y="181" w="87" h="77" oX="1" oY="0" oW="90" oH="78"/>
+	<sprite n="ABCD_left_hand_EPIC" x="265" y="239" w="159" h="70" oX="0" oY="0" oW="160" oH="70"/>
+	<sprite n="ABCD_left_leg" x="908" y="0" w="111" h="84" oX="0" oY="1" oW="86" oH="114" r="y"/>
+	<sprite n="ABCD_left_lowerarm" x="691" y="133" w="81" h="85" oX="0" oY="0" oW="82" oH="86"/>
+	<sprite n="ABCD_left_upperarm" x="908" y="86" w="106" h="70" oX="1" oY="1" oW="72" oH="108" r="y"/>
+	<sprite n="ABCD_pupil" x="313" y="997" w="15" h="16" oX="0" oY="1" oW="16" oH="16" r="y"/>
+	<sprite n="ABCD_pupil2" x="295" y="997" w="16" h="16"/>
+	<sprite n="ABCD_right_foot" x="894" y="158" w="89" h="43" oX="0" oY="1" oW="90" oH="46"/>
+	<sprite n="ABCD_right_hand_EPIC" x="523" y="0" w="61" h="170" oX="1" oY="0" oW="64" oH="172"/>
+	<sprite n="ABCD_right_leg" x="775" y="95" w="117" h="84" oX="0" oY="0" oW="86" oH="118" r="y"/>
+	<sprite n="ABCD_right_lowerarm" x="860" y="284" w="76" h="74" oX="1" oY="0" oW="76" oH="78" r="y"/>
+	<sprite n="ABCD_right_upperarm" x="951" y="248" w="71" h="77" oX="1" oY="0" oW="74" oH="78"/>
+	<sprite n="ABCD_shadow" x="377" y="545" w="86" h="230" r="y"/>
+	<sprite n="ABCD_shell_EPIC" x="0" y="0" w="263" h="309" oX="8" oY="7" oW="280" oH="320"/>
+	<sprite n="ABCD_snare_base" x="509" y="311" w="149" h="170" oX="2" oY="0" oW="154" oH="170"/>
+	<sprite n="ABCD_snaredrum" x="295" y="807" w="118" h="188" oX="0" oY="0" oW="190" oH="118" r="y"/>
+	<sprite n="ABCD_splash_base" x="211" y="814" w="82" h="206" oX="1" oY="0" oW="88" oH="206"/>
+	<sprite n="ABCD_tail_01" x="148" y="563" w="108" h="249" oX="10" oY="132" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_02" x="234" y="311" w="102" h="249" oX="10" oY="141" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_03" x="258" y="562" w="117" h="243" oX="16" oY="155" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_04" x="0" y="311" w="94" h="256" oX="3" oY="155" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_05" x="0" y="569" w="146" h="251" oX="8" oY="76" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_06" x="465" y="545" w="163" h="224" oX="96" oY="1" oW="260" oH="272"/>
+	<sprite n="ABCD_tail_07" x="415" y="777" w="150" h="227" oX="109" oY="0" oW="260" oH="272"/>
+	<sprite n="ABCD_tail_08" x="0" y="822" w="209" h="188" oX="50" oY="41" oW="260" oH="272"/>
+	<sprite n="ABCD_tail_09" x="359" y="0" w="162" h="234" oX="25" oY="69" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_10" x="96" y="311" w="136" h="250" oX="9" oY="97" oW="260" oH="272" r="y"/>
+</TextureAtlas>

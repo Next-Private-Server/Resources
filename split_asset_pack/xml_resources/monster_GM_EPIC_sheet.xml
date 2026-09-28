@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7057e75f60c923049493c1b914b4cbda:60eae909519885b58bf75614f1a6824c:5e144af0ce5fe024025c9e2d70b2627a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_GM_EPIC_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="GM_eyeball" x="178" y="428" w="59" h="61" pX="0.5" pY="0.5" oX="2" oY="1" oW="64" oH="64"/>
+    <sprite n="GM_eyelid_01" x="52" y="673" w="70" h="64" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="72" r="y"/>
+    <sprite n="GM_eyelid_02" x="4" y="592" w="64" h="70" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="72"/>
+    <sprite n="GM_eyelid_03" x="59" y="514" w="64" h="70" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="72"/>
+    <sprite n="GM_eyelid_04" x="72" y="588" w="64" h="70" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="72"/>
+    <sprite n="GM_head_fins_left_EPIC" x="367" y="395" w="87" h="274" pX="0.5" pY="0.5" oX="10" oY="12" oW="100" oH="300"/>
+    <sprite n="GM_head_fins_right_EPIC" x="4" y="344" w="278" h="80" pX="0.5" pY="0.5" oX="5" oY="12" oW="100" oH="300" r="y"/>
+    <sprite n="GM_jellybody_EPIC" x="4" y="4" w="360" h="172" pX="0.5" pY="0.5" oX="59" oY="21" oW="280" oH="400" r="y"/>
+    <sprite n="GM_jellybody_EPIC_spots" x="4" y="180" w="359" h="160" pX="0.5" pY="0.5" oX="68" oY="22" oW="280" oH="400" r="y"/>
+    <sprite n="GM_left_fin" x="4" y="743" w="80" h="166" pX="0.5" pY="0.5" oX="9" oY="6" oW="176" oH="88" r="y"/>
+    <sprite n="GM_left_hand" x="458" y="669" w="44" h="70" pX="0.5" pY="0.5" oX="0" oY="2" oW="44" oH="72"/>
+    <sprite n="GM_left_hand_BACK" x="4" y="673" w="44" h="66" pX="0.5" pY="0.5" oX="0" oY="1" oW="44" oH="72"/>
+    <sprite n="GM_left_moustache" x="367" y="231" w="90" h="68" pX="0.5" pY="0.5" oX="1" oY="0" oW="92" oH="68"/>
+    <sprite n="GM_lowerarm" x="368" y="4" w="105" h="61" pX="0.5" pY="0.5" oX="1" oY="2" oW="64" oH="108" r="y"/>
+    <sprite n="GM_lowerarm_BACK" x="368" y="69" w="105" h="61" pX="0.5" pY="0.5" oX="1" oY="2" oW="64" oH="108" r="y"/>
+    <sprite n="GM_mouth_01" x="66" y="913" w="38" h="82" pX="0.5" pY="0.5" oX="5" oY="2" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_02" x="367" y="303" w="90" h="40" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="68"/>
+    <sprite n="GM_mouth_03" x="367" y="347" w="89" h="44" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="68"/>
+    <sprite n="GM_mouth_04" x="458" y="498" w="49" h="84" pX="0.5" pY="0.5" oX="4" oY="1" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_05" x="4" y="913" w="58" h="82" pX="0.5" pY="0.5" oX="5" oY="0" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_06" x="127" y="514" w="60" h="70" pX="0.5" pY="0.5" oX="12" oY="3" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_07" x="4" y="428" w="58" h="64" pX="0.5" pY="0.5" oX="19" oY="4" oW="92" oH="68"/>
+    <sprite n="GM_mouth_08" x="191" y="493" w="57" h="52" pX="0.5" pY="0.5" oX="23" oY="5" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_09" x="461" y="259" w="47" h="51" pX="0.5" pY="0.5" oX="27" oY="6" oW="92" oH="68"/>
+    <sprite n="GM_mouth_10" x="467" y="218" w="41" h="37" pX="0.5" pY="0.5" oX="31" oY="7" oW="92" oH="68"/>
+    <sprite n="GM_mouth_11" x="241" y="428" w="36" h="61" pX="0.5" pY="0.5" oX="19" oY="5" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_12" x="458" y="586" w="44" h="79" pX="0.5" pY="0.5" oX="7" oY="3" oW="92" oH="68" r="y"/>
+    <sprite n="GM_mouth_13" x="4" y="514" w="51" h="74" pX="0.5" pY="0.5" oX="10" oY="4" oW="92" oH="68" r="y"/>
+    <sprite n="GM_pupil" x="477" y="4" w="28" h="28" pX="0.5" pY="0.5"/>
+    <sprite n="GM_right_fin" x="368" y="134" w="95" h="93" pX="0.5" pY="0.5" oX="0" oY="1" oW="96" oH="96" r="y"/>
+    <sprite n="GM_right_hand" x="66" y="428" w="52" h="64" pX="0.5" pY="0.5" oX="0" oY="1" oW="52" oH="68"/>
+    <sprite n="GM_right_hand_BACK" x="122" y="428" w="52" h="62" pX="0.5" pY="0.5" oX="0" oY="3" oW="52" oH="68"/>
+    <sprite n="GM_right_moustache" x="458" y="415" w="50" h="79" pX="0.5" pY="0.5" oX="0" oY="1" oW="80" oH="52" r="y"/>
+    <sprite n="GM_shadow" x="286" y="344" w="77" h="166" pX="0.5" pY="0.5" oX="10" oY="7" oW="184" oH="92" r="y"/>
+    <sprite n="GM_upperarm" x="477" y="36" w="20" h="87" pX="0.5" pY="0.5" oX="0" oY="0" oW="20" oH="88"/>
+    <sprite n="GM_upperarm_BACK" x="477" y="127" w="20" h="87" pX="0.5" pY="0.5" oX="0" oY="0" oW="20" oH="88"/>
+    <sprite n="GM_weird_hand" x="461" y="314" w="45" h="50" pX="0.5" pY="0.5" oX="1" oY="2" oW="52" oH="68"/>
+    <sprite n="GM_weird_hand_BACK" x="460" y="368" w="45" h="43" pX="0.5" pY="0.5" oX="2" oY="2" oW="52" oH="68"/>
+</TextureAtlas>

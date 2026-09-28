@@ -1,0 +1,71 @@
+<template name="template_map_button_indicator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<template type="template_tribe_context_alert" name="TribeIndicator">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	
+	<template type="template_saleindicator" name="SaleIndicator">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+	
+	<event name="onInit" params="element">
+		element("setNewScale"):SetFloat(game.hudScale())
+	</event>
+	<event name="onPostInit" params="element">
+		local showTribalAlert = (game.numIslands() > 1 or game.playerLevel() >= 10) and (game.newTribalInviteNotice() or game.newTribalRequestNotice())
+		local showColdIslandAlert = game.playerLevel() >= 6 and not game.isIslandOwned(2) and game.playerCanAffordIsland(2)
+
+		if( showTribalAlert or showColdIslandAlert or game.activeEventForCategory(game.StoreCategories_TYPE_ISLAND)) then
+			element:SetVisible()
+		else
+			element:SetInvisible()
+		end		
+	</event>
+	
+	<event name="SetVisible" params="element">
+		local showTribalAlert = (game.numIslands() > 1 or game.playerLevel() >= 10) and (game.newTribalInviteNotice() or game.newTribalRequestNotice())
+		local showColdIslandAlert = game.playerLevel() >= 6 and not game.isIslandOwned(2) and game.playerCanAffordIsland(2)
+
+		if( showTribalAlert or showColdIslandAlert) then
+			element["TribeIndicator"]:SetVisible()
+		else
+			element["TribeIndicator"]:SetInvisible()
+		end
+
+		if(game.activeEventForCategory(game.StoreCategories_TYPE_ISLAND)) then
+			element["SaleIndicator"]("setNewScale"):SetFloat(element("setNewScale"):GetFloat())
+			element["SaleIndicator"]:SetVisible()
+		else
+			element["SaleIndicator"]:SetInvisible()
+		end
+	</event>
+	
+	<event name="SetInvisible" params="element">
+		element["TribeIndicator"]:SetInvisible()
+		element["SaleIndicator"]:SetInvisible()
+	</event>
+	
+	<event name="SetEnabled" params="element">
+		local showTribalAlert = (game.numIslands() > 1 or game.playerLevel() >= 10) and (game.newTribalInviteNotice() or game.newTribalRequestNotice())
+		local showColdIslandAlert = game.playerLevel() >= 6 and not game.isIslandOwned(2) and game.playerCanAffordIsland(2)
+
+		if( showTribalAlert or showColdIslandAlert) then
+			element["TribeIndicator"]:SetEnabled()
+		end
+
+		if(game.activeEventForCategory(game.StoreCategories_TYPE_ISLAND)) then
+			element["SaleIndicator"]:SetEnabled()
+		end
+	</event>
+	
+	<event name="SetDisabled" params="element">
+		element["TribeIndicator"]:SetDisabled()
+		element["SaleIndicator"]:SetDisabled()
+	</event>
+	
+</template>

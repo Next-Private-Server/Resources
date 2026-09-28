@@ -1,0 +1,29 @@
+<template name="template_promo_center_item">
+
+	<script src="scripts/PromoCenterItem.lua" />
+
+	<size w="56*game.hudScale()" h="56*game.hudScale()" />
+
+	<template type="template_spritesheetbutton" name="Button">		
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$upSpriteName" equals="'button_anniversary_warmup_pack'" />
+		<templateVar name="$text" equals="" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$autoScaleFactor" equals="0.01" />
+		<templateVar name="$spriteScale" equals="0.34*game.hudScale()" />
+		<templateVar name="$layer" equals="PopUps" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<touchComponent name="Touch"/>				
+		<textComponent name="Text">
+			<size w="56*game.hudScale()" />	
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.hudScale()" priorityOffset="-1" />
+		</textComponent>
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		</spriteSheetComponent>
+	</template>
+
+</template>

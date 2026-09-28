@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6efe9557f1e310412f58bf1d34a72f1b:cffd01ab8019c54fb81273d547a99e0a:9c7ff8f53b17e24ef6baafe2e20de7f3$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_wubarm_kpop_sheet.png" width="512" height="2048" hires="true" version="1">
+	<sprite n="wubarm_back" x="0" y="1602" w="332" h="199" oX="41" oY="51" oW="388" oH="294">
+		<vertices>373 90 352 197 233 250 57 210 41 103 95 61 232 51</vertices>
+		<verticesUV>332 1641 311 1748 192 1801 16 1761 0 1654 54 1612 191 1602</verticesUV>
+		<triangles>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="wubarm_back_glow" x="0" y="1327" w="267" h="176" oX="59" oY="59" oW="388" oH="294">
+		<vertices>301 109 326 183 167 235 59 163 90 101 205 59</vertices>
+		<verticesUV>242 1377 267 1451 108 1503 0 1431 31 1369 146 1327</verticesUV>
+		<triangles>2 4 5 2 3 4 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="wubarm_fist" x="0" y="699" w="404" h="388" oX="34" oY="2" oW="495" oH="432">
+		<vertices>418 121 438 290 367 373 173 390 34 321 48 94 178 19 313 2 379 20 379 50 365 10</vertices>
+		<verticesUV>384 818 404 987 333 1070 139 1087 0 1018 14 791 144 716 279 699 345 717 345 747 331 707</verticesUV>
+		<triangles>0 1 2 3 5 6 3 4 5 3 6 0 3 0 2 0 6 7 8 9 10</triangles>
+	</sprite>
+	<sprite n="wubarm_sleeve" x="0" y="0" w="431" h="711" oX="43" oY="70" oW="510" oH="840">
+		<vertices>428 81 434 358 474 656 384 746 210 781 90 723 55 656 72 419 43 272 77 85 146 101 182 240 197 235 220 83 284 82 344 219 351 70</vertices>
+		<verticesUV>385 11 391 288 431 586 341 676 167 711 47 653 12 586 29 349 0 202 34 15 103 31 139 170 154 165 177 13 241 12 301 149 308 0</verticesUV>
+		<triangles>12 14 15 12 13 14 1 12 15 8 10 11 8 9 10 7 11 12 7 8 11 7 2 3 6 7 3 6 4 5 6 3 4 7 1 2 1 7 12 0 1 15 0 15 16</triangles>
+	</sprite>
+	<sprite n="wubarm_sleeve_gem_glow" x="0" y="1189" w="141" h="145" oX="6" oY="2" oW="148" oH="162">
+		<vertices>147 97 123 147 6 147 6 11 128 2</vertices>
+		<verticesUV>141 1284 117 1334 0 1334 0 1198 122 1189</verticesUV>
+		<triangles>0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="wubarm_sleeve_swirl_glow" x="157" y="1072" w="339" h="319" oX="43" oY="18" oW="414" oH="364">
+		<vertices>341 80 382 143 364 246 257 323 155 337 74 286 43 190 92 30 220 18</vertices>
+		<verticesUV>455 1134 496 1197 478 1300 371 1377 269 1391 188 1340 157 1244 206 1084 334 1072</verticesUV>
+		<triangles>6 7 8 3 6 8 4 5 6 3 4 6 0 2 3 0 1 2 0 3 8</triangles>
+	</sprite>
+	<sprite n="wubarm_spring" x="0" y="1786" w="307" h="262" oX="45" oY="38" oW="417" oH="333">
+		<vertices>352 68 352 277 138 300 45 207 74 38</vertices>
+		<verticesUV>307 1816 307 2025 93 2048 0 1955 29 1786</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+</TextureAtlas>

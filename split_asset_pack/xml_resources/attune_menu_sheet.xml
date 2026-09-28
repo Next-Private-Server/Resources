@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:10dbe027044445f26d21b35a42ff69b1:0e4ac37a2cd7759165db1f4b0b987a4b:3ae4321762c449701cc50941c28f6a97$ -->
+<TextureAtlas imagePath="gfx/menu/attune_menu_sheet.png" width="1024" height="256" hires="false" version="1">
+	<sprite n="attune_arrow_01" x="905" y="131" w="34" h="50" oX="0" oY="0" oW="51" oH="34" r="y"/>
+	<sprite n="attune_arrow_02" x="529" y="205" w="34" h="51" r="y"/>
+	<sprite n="attune_arrow_03" x="463" y="136" w="93" h="67"/>
+	<sprite n="attune_aura" x="801" y="0" w="135" h="129" oX="5" oY="0" oW="150" oH="138"/>
+	<sprite n="attune_dot_crystal" x="558" y="136" w="49" h="50" oX="1" oY="1" oW="52" oH="52"/>
+	<sprite n="attune_dot_mech" x="801" y="131" w="50" h="49" oX="1" oY="1" oW="52" oH="52" r="y"/>
+	<sprite n="attune_dot_normal" x="853" y="131" w="50" h="49" oX="1" oY="1" oW="52" oH="52" r="y"/>
+	<sprite n="attune_dot_plasma" x="565" y="188" w="49" h="50" oX="1" oY="1" oW="52" oH="52"/>
+	<sprite n="attune_dot_poison" x="941" y="107" w="49" h="50" oX="1" oY="1" oW="52" oH="52"/>
+	<sprite n="attune_dot_shadow" x="616" y="172" w="49" h="50" oX="1" oY="1" oW="52" oH="52"/>
+	<sprite n="attune_frame" x="0" y="0" w="624" h="134" oX="8" oY="9" oW="640" oH="152"/>
+	<sprite n="attune_island_shadow" x="0" y="136" w="234" h="98" oX="9" oY="10" oW="252" oH="120"/>
+	<sprite n="attunement_arrow" x="463" y="205" w="64" h="51" oX="4" oY="9" oW="72" oH="72"/>
+	<sprite n="attunement_frame_decoration1" x="938" y="0" w="59" h="105" r="y"/>
+	<sprite n="attunement_frame_decoration2" x="236" y="136" w="143" h="90" oX="0" oY="0" oW="148" oH="90"/>
+	<sprite n="attunement_frame_decoration3" x="626" y="0" w="173" h="170"/>
+	<sprite n="atunement_turbine_01" x="718" y="172" w="36" h="44" oX="9" oY="4" oW="50" oH="50"/>
+	<sprite n="atunement_turbine_02" x="843" y="182" w="41" h="37" oX="6" oY="8" oW="50" oH="50" r="y"/>
+	<sprite n="atunement_turbine_03" x="756" y="172" w="39" h="40" oX="5" oY="9" oW="50" oH="50"/>
+	<sprite n="atunement_turbine_04" x="793" y="218" w="41" h="37" oX="4" oY="7" oW="50" oH="50" r="y"/>
+	<sprite n="atunement_turbine_05" x="756" y="214" w="35" h="42" oX="6" oY="4" oW="50" oH="50"/>
+	<sprite n="atunement_turbine_06" x="886" y="183" w="39" h="36" oX="7" oY="3" oW="50" oH="50" r="y"/>
+	<sprite n="atunement_turbine_07" x="381" y="219" w="43" h="37" oX="9" oY="1" oW="50" oH="50" r="y"/>
+	<sprite n="atunement_turbine_08" x="797" y="182" w="44" h="34" oX="12" oY="2" oW="50" oH="50" r="y"/>
+	<sprite n="glow_blue" x="941" y="159" w="40" h="39" oX="3" oY="3" oW="44" oH="44"/>
+	<sprite n="Rare_glowframe" x="381" y="136" w="80" h="81"/>
+	<sprite n="rarity_circle_backing" x="667" y="172" w="49" h="49"/>
+</TextureAtlas>

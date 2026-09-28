@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0713090cb82b118687134776fb5c1a16:25809973538347721105a0520083b179:3c4791afbbc1ec42facf510bbb4e5285$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_shadow_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="obstacle_rock01_shadow" x="0" y="274" w="136" h="148" r="y"/>
+	<sprite n="obstacle_tree01_shadow" x="0" y="0" w="168" h="272"/>
+</TextureAtlas>

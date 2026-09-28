@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f500318561f7528de97ff31fda15a7b5:aab23661c5601e86dc9f31d89b9c11ea:7ed2836f60e3094410859a4cab7e9b86$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_JKLM_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="JKLM_back_flipper" x="72" y="590" w="74" h="41" oX="3" oY="5" oW="48" oH="84" r="y"/>
+    <sprite n="JKLM_back_lowerarm" x="527" y="819" w="22" h="61" oX="3" oY="3" oW="28" oH="68"/>
+    <sprite n="JKLM_back_shoulder" x="232" y="762" w="71" h="81" oX="3" oY="4" oW="88" oH="80" r="y"/>
+    <sprite n="JKLM_body" x="461" y="3" w="332" h="271" oX="0" oY="10" oW="280" oH="352" r="y"/>
+    <sprite n="JKLM_colorspot_A" x="979" y="469" w="42" h="50" oX="3" oY="1" oW="48" oH="52"/>
+    <sprite n="JKLM_colorspot_B" x="540" y="674" w="25" h="32" oX="2" oY="2" oW="30" oH="36"/>
+    <sprite n="JKLM_colorspot_C" x="569" y="674" w="71" h="67" oX="2" oY="4" oW="76" oH="76"/>
+    <sprite n="JKLM_colorspot_D" x="557" y="814" w="61" h="58" oX="1" oY="3" oW="64" oH="64"/>
+    <sprite n="JKLM_colorspot_E" x="261" y="678" w="31" h="33" oX="2" oY="1" oW="36" oH="36"/>
+    <sprite n="JKLM_colorspot_F" x="72" y="635" w="39" h="35" oX="2" oY="0" oW="40" oH="40" r="y"/>
+    <sprite n="JKLM_colorspot_G" x="425" y="716" w="36" h="41" oX="2" oY="1" oW="40" oH="44"/>
+    <sprite n="JKLM_colorspot_H" x="644" y="701" w="29" h="26" oX="2" oY="0" oW="30" oH="30" r="y"/>
+    <sprite n="JKLM_colorspot_I" x="391" y="716" w="30" h="42" oX="3" oY="1" oW="36" oH="44"/>
+    <sprite n="JKLM_drool_01" x="446" y="838" w="62" h="164" oX="5" oY="2" oW="72" oH="180"/>
+    <sprite n="JKLM_drool_02" x="785" y="695" w="176" h="63" oX="5" oY="2" oW="72" oH="180" r="y"/>
+    <sprite n="JKLM_drool_03" x="194" y="856" w="63" h="164" oX="4" oY="2" oW="72" oH="180"/>
+    <sprite n="JKLM_drool_04" x="328" y="839" w="62" h="173" oX="5" oY="2" oW="72" oH="180"/>
+    <sprite n="JKLM_drool_05" x="3" y="879" w="64" h="134" oX="4" oY="2" oW="72" oH="180"/>
+    <sprite n="JKLM_drool_06" x="181" y="508" w="154" h="64" oX="3" oY="2" oW="72" oH="180" r="y"/>
+    <sprite n="JKLM_drool_07" x="127" y="856" w="63" h="165" oX="4" oY="2" oW="72" oH="180"/>
+    <sprite n="JKLM_drool_08" x="261" y="847" w="63" h="173" oX="4" oY="2" oW="72" oH="180"/>
+    <sprite n="JKLM_drop_01" x="644" y="731" w="28" h="28" oX="10" oY="10" oW="48" oH="48"/>
+    <sprite n="JKLM_drop_02" x="356" y="724" w="22" h="34" oX="7" oY="13" oW="48" oH="48" r="y"/>
+    <sprite n="JKLM_drop_03" x="465" y="714" w="19" h="40" oX="4" oY="15" oW="48" oH="48" r="y"/>
+    <sprite n="JKLM_eyeballs_L" x="3" y="857" w="47" h="18" oX="3" oY="2" oW="24" oH="52" r="y"/>
+    <sprite n="JKLM_eyeballs_R" x="181" y="676" w="46" h="54" oX="3" oY="3" oW="60" oH="52" r="y"/>
+    <sprite n="JKLM_eyelids_L_01" x="339" y="654" w="48" h="20" oX="2" oY="2" oW="24" oH="52" r="y"/>
+    <sprite n="JKLM_eyelids_L_02" x="566" y="879" w="20" h="48" oX="2" oY="2" oW="24" oH="52"/>
+    <sprite n="JKLM_eyelids_L_03" x="566" y="931" w="20" h="48" oX="2" oY="2" oW="24" oH="52"/>
+    <sprite n="JKLM_eyelids_R_01" x="391" y="654" w="50" h="58" oX="1" oY="3" oW="60" oH="56" r="y"/>
+    <sprite n="JKLM_eyelids_R_02" x="512" y="884" w="50" h="58" oX="1" oY="3" oW="60" oH="56" r="y"/>
+    <sprite n="JKLM_eyelids_R_03" x="512" y="946" w="50" h="58" oX="1" oY="3" oW="60" oH="56" r="y"/>
+    <sprite n="JKLM_face_eyesockets_left" x="527" y="762" w="26" h="53" oX="2" oY="3" oW="30" oH="60"/>
+    <sprite n="JKLM_face_eyesockets_left_overlay" x="629" y="788" w="23" h="55" oX="2" oY="2" oW="28" oH="60"/>
+    <sprite n="JKLM_face_eyesockets_right" x="557" y="745" w="68" h="65" oX="2" oY="3" oW="72" oH="72"/>
+    <sprite n="JKLM_foot_left_01" x="796" y="290" w="184" h="78" oX="8" oY="14" oW="200" oH="100"/>
+    <sprite n="JKLM_foot_left_02" x="796" y="458" w="179" h="49" oX="11" oY="27" oW="200" oH="100"/>
+    <sprite n="JKLM_foot_left_03" x="984" y="290" w="37" h="175" oX="15" oY="31" oW="200" oH="100" r="y"/>
+    <sprite n="JKLM_foot_left_04" x="394" y="838" w="48" h="172" oX="18" oY="26" oW="200" oH="100" r="y"/>
+    <sprite n="JKLM_foot_left_05" x="3" y="674" w="174" h="81" oX="16" oY="7" oW="200" oH="100"/>
+    <sprite n="JKLM_foot_right" x="796" y="372" w="182" h="82" oX="9" oY="9" oW="200" oH="100"/>
+    <sprite n="JKLM_footsplash_B1" x="181" y="576" w="152" h="55" oX="48" oY="56" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_B2" x="785" y="606" w="177" h="85" oX="41" oY="26" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_B3" x="797" y="197" w="203" h="89" oX="30" oY="17" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_B4" x="797" y="3" w="219" h="87" oX="21" oY="9" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_B5" x="710" y="278" w="82" h="242" oX="8" oY="3" oW="255" oH="150" r="y"/>
+    <sprite n="JKLM_footsplash_B6" x="449" y="358" w="242" h="77" oX="7" oY="8" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_B7" x="460" y="278" w="246" h="76" oX="6" oY="13" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_F1" x="3" y="508" w="65" h="162" oX="44" oY="82" oW="255" oH="150" r="y"/>
+    <sprite n="JKLM_footsplash_F2" x="796" y="511" w="177" h="91" oX="35" oY="56" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_F3" x="797" y="94" w="212" h="99" oX="16" oY="42" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_F4" x="689" y="524" w="92" h="230" oX="6" oY="35" oW="255" oH="150" r="y"/>
+    <sprite n="JKLM_footsplash_F5" x="446" y="596" w="237" h="74" oX="4" oY="41" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_F6" x="446" y="516" w="239" h="76" oX="3" oY="44" oW="255" oH="150"/>
+    <sprite n="JKLM_footsplash_F7" x="449" y="439" w="240" h="73" oX="2" oY="54" oW="255" oH="150"/>
+    <sprite n="JKLM_jaw_bottomleft_A" x="516" y="674" w="20" h="33" oX="2" oY="1" oW="24" oH="36"/>
+    <sprite n="JKLM_jaw_bottomleft_B" x="158" y="634" w="19" h="28" oX="2" oY="2" oW="32" oH="24" r="y"/>
+    <sprite n="JKLM_jaw_bottomleft_C" x="356" y="678" w="31" h="42" oX="0" oY="1" oW="32" oH="44"/>
+    <sprite n="JKLM_jaw_bottomright_A" x="477" y="674" w="35" h="35" oX="3" oY="2" oW="40" oH="40"/>
+    <sprite n="JKLM_jaw_bottomright_B" x="644" y="674" w="32" h="23" oX="2" oY="2" oW="36" oH="28"/>
+    <sprite n="JKLM_jaw_bottomright_C" x="977" y="523" w="44" h="43" oX="2" oY="2" oW="48" oH="48" r="y"/>
+    <sprite n="JKLM_jaw_topleft_A" x="445" y="674" w="28" h="36" oX="2" oY="2" oW="40" oH="32" r="y"/>
+    <sprite n="JKLM_jaw_topleft_B" x="150" y="590" w="27" h="40" oX="2" oY="2" oW="44" oH="32" r="y"/>
+    <sprite n="JKLM_jaw_topright_A" x="232" y="676" w="25" h="35" oX="5" oY="4" oW="32" oH="40"/>
+    <sprite n="JKLM_jaw_topright_B" x="181" y="734" w="46" h="24" oX="1" oY="2" oW="48" oH="28"/>
+    <sprite n="JKLM_leg_lower_left" x="977" y="570" w="43" h="154" oX="4" oY="7" oW="52" oH="164"/>
+    <sprite n="JKLM_leg_lower_right" x="351" y="762" w="172" h="72" oX="4" oY="6" oW="80" oH="184" r="y"/>
+    <sprite n="JKLM_leg_upper_left" x="71" y="879" w="52" h="129" oX="2" oY="0" oW="60" oH="144"/>
+    <sprite n="JKLM_leg_upper_right" x="965" y="728" w="56" h="147" oX="4" oY="6" oW="64" oH="160"/>
+    <sprite n="JKLM_poisonpool" x="3" y="3" w="454" h="255" oX="3" oY="2" oW="460" oH="260"/>
+    <sprite n="JKLM_pupil" x="1004" y="197" w="15" h="14" oX="1" oY="1" oW="16" oH="16" r="y"/>
+    <sprite n="JKLM_shadow" x="339" y="262" w="117" h="62" oX="5" oY="1" oW="128" oH="64"/>
+    <sprite n="JKLM_shell_back" x="3" y="262" w="332" h="242" oX="9" oY="10" oW="260" oH="352" r="y"/>
+    <sprite n="JKLM_shell_spike_L" x="339" y="357" w="106" h="120" oX="7" oY="6" oW="120" oH="132"/>
+    <sprite n="JKLM_shell_spike_R" x="339" y="481" w="103" h="169" oX="0" oY="5" oW="108" oH="180"/>
+    <sprite n="JKLM_slimedrop_01" x="115" y="555" w="42" h="31" oX="23" oY="14" oW="84" oH="56"/>
+    <sprite n="JKLM_slimedrop_02" x="231" y="715" w="46" h="42" oX="19" oY="3" oW="84" oH="56"/>
+    <sprite n="JKLM_slimedrop_03" x="115" y="508" w="62" h="43" oX="10" oY="3" oW="84" oH="56"/>
+    <sprite n="JKLM_slimedrop_04" x="307" y="762" w="40" h="73" oX="4" oY="6" oW="84" oH="56" r="y"/>
+    <sprite n="JKLM_slimedrop_05" x="72" y="508" w="39" h="78" oX="3" oY="10" oW="84" oH="56" r="y"/>
+    <sprite n="JKLM_slimedrop_06" x="181" y="635" w="76" h="37" oX="3" oY="15" oW="84" oH="56"/>
+    <sprite n="JKLM_slimerope" x="339" y="328" w="116" h="25" oX="1" oY="4" oW="28" oH="124" r="y"/>
+    <sprite n="JKLM_splatter_01" x="115" y="635" w="39" h="35" oX="2" oY="27" oW="100" oH="100" r="y"/>
+    <sprite n="JKLM_splatter_02" x="676" y="758" w="66" h="55" oX="14" oY="9" oW="100" oH="100" r="y"/>
+    <sprite n="JKLM_splatter_03" x="296" y="678" w="56" h="79" oX="25" oY="3" oW="100" oH="100"/>
+    <sprite n="JKLM_splatter_04" x="117" y="762" w="58" h="90" oX="33" oY="1" oW="100" oH="100"/>
+    <sprite n="JKLM_splatter_05" x="3" y="762" w="55" h="91" oX="40" oY="4" oW="100" oH="100"/>
+    <sprite n="JKLM_splatter_06" x="62" y="762" w="51" h="91" oX="47" oY="6" oW="100" oH="100"/>
+    <sprite n="JKLM_splatter_07" x="179" y="762" w="49" h="90" oX="50" oY="9" oW="100" oH="100"/>
+    <sprite n="JKLM_teeth_top_L" x="261" y="635" w="74" h="39" oX="2" oY="3" oW="44" oH="80" r="y"/>
+    <sprite n="JKLM_teeth_top_R" x="488" y="713" w="65" h="45" oX="1" oY="1" oW="48" oH="68" r="y"/>
+    <sprite n="JKLM_tinyarm_A" x="629" y="763" w="25" h="21" oX="1" oY="1" oW="24" oH="28" r="y"/>
+    <sprite n="JKLM_tinyarm_B" x="746" y="758" w="28" h="23" oX="2" oY="2" oW="28" oH="32" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ec5bb102d561cc1254bba41c1473804a:87e7c64cfc33ac6533531fbec440e2c9:39a65c659c4315373040460d0b03db24$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BR_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="branch 1" x="110" y="371" w="50" h="89" oX="2" oY="0" oW="94" oH="50" r="y"/>
+	<sprite n="branch 2" x="356" y="102" w="148" h="46" oX="1" oY="0" oW="150" oH="52"/>
+	<sprite n="eyeshine" x="204" y="420" w="12" h="12"/>
+	<sprite n="grass 1" x="110" y="324" w="56" h="14" r="y"/>
+	<sprite n="grass 2" x="315" y="509" w="16" h="82"/>
+	<sprite n="grass 3" x="162" y="390" w="48" h="12" r="y"/>
+	<sprite n="grass 4" x="162" y="404" w="40" h="72"/>
+	<sprite n="grass 5" x="172" y="260" w="50" h="94"/>
+	<sprite n="grass 6" x="348" y="333" w="50" h="20" r="y"/>
+	<sprite n="grass 7" x="306" y="665" w="86" h="80" r="y"/>
+	<sprite n="L body 1" x="174" y="691" w="80" h="69" oX="0" oY="1" oW="80" oH="70"/>
+	<sprite n="L body 2" x="224" y="282" w="122" h="80" r="y"/>
+	<sprite n="L body 3" x="0" y="567" w="94" h="74" r="y"/>
+	<sprite n="L body fold" x="165" y="356" w="52" h="32"/>
+	<sprite n="L head 1" x="423" y="596" w="88" h="80" oX="18" oY="0" oW="100" oH="96" r="y"/>
+	<sprite n="L head 2" x="0" y="731" w="80" h="80" oX="20" oY="8" oW="100" oH="96"/>
+	<sprite n="L head 3" x="0" y="491" w="100" h="74" oX="0" oY="18" oW="100" oH="96"/>
+	<sprite n="L head 4" x="394" y="678" w="82" h="78" oX="18" oY="18" oW="100" oH="96"/>
+	<sprite n="L head 5" x="217" y="539" w="90" h="76" oX="24" oY="5" oW="100" oH="96" r="y"/>
+	<sprite n="L head 6" x="82" y="737" w="79" h="78" oX="22" oY="15" oW="100" oH="96" r="y"/>
+	<sprite n="L_buried" x="138" y="580" w="76" h="74"/>
+	<sprite n="leaf" x="103" y="462" w="40" h="62" oX="2" oY="1" oW="66" oH="44" r="y"/>
+	<sprite n="lump" x="485" y="150" w="27" h="28" oX="0" oY="0" oW="28" oH="28"/>
+	<sprite n="Lw L eyelid 1" x="485" y="325" w="23" h="28" oX="0" oY="11" oW="28" oH="34" r="y"/>
+	<sprite n="Lw L eyelid 2" x="321" y="364" w="23" h="28" oX="0" oY="11" oW="28" oH="34" r="y"/>
+	<sprite n="Lw L eyelid 3" x="315" y="473" w="28" h="34"/>
+	<sprite n="Lw L eyelid 4" x="102" y="526" w="34" h="28" r="y"/>
+	<sprite n="Lw L eyelid 5" x="102" y="556" w="34" h="28" r="y"/>
+	<sprite n="Lw R eyelid 1" x="321" y="394" w="23" h="13" oX="1" oY="19" oW="26" oH="32"/>
+	<sprite n="Lw R eyelid 2" x="485" y="282" w="25" h="20" oX="1" oY="12" oW="26" oH="32"/>
+	<sprite n="Lw R eyelid 3" x="485" y="180" w="26" h="32"/>
+	<sprite n="Lw R eyelid 4" x="485" y="214" w="26" h="32"/>
+	<sprite n="Lw R eyelid 5" x="485" y="248" w="26" h="32"/>
+	<sprite n="pupil" x="145" y="462" w="11" h="10" oX="0" oY="1" oW="12" oH="12"/>
+	<sprite n="R body 1" x="356" y="0" w="149" h="100" oX="0" oY="3" oW="100" oH="152" r="y"/>
+	<sprite n="R body 2" x="145" y="484" w="70" h="94" r="y"/>
+	<sprite n="R body 3" x="0" y="324" w="108" h="74" r="y"/>
+	<sprite n="R body 4" x="216" y="617" w="88" h="72"/>
+	<sprite n="R body 5" x="345" y="498" w="90" h="82" r="y"/>
+	<sprite n="R body fold" x="110" y="340" w="53" h="29" oX="0" oY="1" oW="54" oH="30"/>
+	<sprite n="R head 1" x="218" y="454" w="95" h="83" oX="4" oY="0" oW="100" oH="122" r="y"/>
+	<sprite n="R head 2" x="0" y="643" w="89" h="86" oX="1" oY="10" oW="100" oH="122" r="y"/>
+	<sprite n="R head 3" x="219" y="364" w="100" h="88" oX="0" oY="24" oW="100" oH="122"/>
+	<sprite n="R head 4" x="91" y="656" w="81" h="79" oX="0" oY="30" oW="100" oH="122"/>
+	<sprite n="R head 5" x="345" y="417" w="98" h="79" oX="0" oY="18" oW="100" oH="122" r="y"/>
+	<sprite n="R head 6" x="333" y="582" w="88" h="81" oX="3" oY="17" oW="100" oH="122" r="y"/>
+	<sprite n="R_buried" x="437" y="513" w="74" h="81" oX="0" oY="1" oW="74" oH="82"/>
+	<sprite n="rock 1" x="204" y="434" w="12" h="10" oX="0" oY="0" oW="12" oH="12"/>
+	<sprite n="rock 2" x="485" y="304" w="25" h="19" oX="2" oY="1" oW="28" oH="20"/>
+	<sprite n="rock 3" x="145" y="474" w="10" h="8" oX="0" oY="2" oW="10" oH="10"/>
+	<sprite n="rock 4" x="321" y="409" w="22" h="30" r="y"/>
+	<sprite n="rock 5" x="461" y="333" w="13" h="17" oX="1" oY="0" oW="18" oH="14" r="y"/>
+	<sprite n="rock 6" x="204" y="466" w="8" h="8"/>
+	<sprite n="rock 7" x="204" y="456" w="10" h="8"/>
+	<sprite n="rock 8" x="400" y="333" w="28" h="20"/>
+	<sprite n="rock 9" x="204" y="404" w="12" h="14" r="y"/>
+	<sprite n="rock 10" x="204" y="446" w="12" h="8"/>
+	<sprite n="root 1" x="348" y="355" w="162" h="60"/>
+	<sprite n="root 2" x="224" y="146" w="129" h="134" oX="0" oY="1" oW="136" oH="132" r="y"/>
+	<sprite n="root 3" x="0" y="260" w="170" h="62" oX="1" oY="0" oW="174" oH="62"/>
+	<sprite n="Rw L eyelid 1" x="430" y="333" w="29" h="19" oX="1" oY="13" oW="30" oH="32"/>
+	<sprite n="Rw L eyelid 2" x="321" y="441" w="22" h="30" oX="0" oY="10" oW="30" oH="32" r="y"/>
+	<sprite n="Rw L eyelid 3" x="480" y="417" w="32" h="30" r="y"/>
+	<sprite n="Rw L eyelid 4" x="480" y="449" w="32" h="30" r="y"/>
+	<sprite n="Rw L eyelid 5" x="480" y="481" w="32" h="30" r="y"/>
+	<sprite n="Rw R eyelid 1" x="96" y="586" w="30" h="29" oX="0" oY="5" oW="30" oH="34"/>
+	<sprite n="Rw R eyelid 2" x="96" y="617" w="30" h="29" oX="0" oY="5" oW="30" oH="34"/>
+	<sprite n="Rw R eyelid 3" x="445" y="417" w="33" h="30" oX="0" oY="1" oW="30" oH="34" r="y"/>
+	<sprite n="Rw R eyelid 4" x="445" y="449" w="33" h="30" oX="0" oY="1" oW="30" oH="34" r="y"/>
+	<sprite n="Rw R eyelid 5" x="445" y="481" w="33" h="30" oX="0" oY="1" oW="30" oH="34" r="y"/>
+	<sprite n="shadow" x="0" y="0" w="354" h="144"/>
+	<sprite n="tree base" x="355" y="150" w="128" h="181" oX="0" oY="2" oW="128" oH="184"/>
+	<sprite n="tree intersection" x="0" y="400" w="101" h="89" oX="1" oY="1" oW="104" oH="92"/>
+	<sprite n="tree top" x="0" y="146" w="222" h="112" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<script src="scripts/GhostInfo.lua"/>
+	
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.5" />
+		<templateVar name="$layer" equals="PopUps" />
+		<templateVar name="$priority" equals="10" />
+	</template>
+	
+	<element name="InfoFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="9" />
+		<ninesliceComponent name="Sprite">
+			<size w="291*game.menuScaleX()" h="180*game.menuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</ninesliceComponent>
+	</element>
+	
+	<element name="InfoContent" >
+		<size w="225*game.menuScaleX()" h="104*game.menuScaleY()" />
+		<position relativeTo="InfoFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="225*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component:setColor(0.9, 0.9, 0.9)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.25*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("PAIRONORMAL_GHOST_INFO_DESC")
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+		</textComponent>
+	</element>
+		
+	<template type="template_panel_decorated" name="ImageFrame">
+		<templateVar name="$layer" equals="PopUps" />
+		<size w="140*game.menuScaleX()" h="180*game.menuScaleY()" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="lua_sys.screenWidth()" yOffset="-37*game.menuScaleY()" priorityOffset="9" />
+		<event name="onInit" params="element"/>
+		<event name="onDoneHide" params="element"/>
+	</template>
+	
+	<element name="Animation">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="ImageFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="32*game.hudScale()" priorityOffset="-3" />
+		<aeComponent name="Sprite"/>
+		<touchComponent name="Touch">
+			<size w="100*game.menuScaleX()" h="100*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="-50*game.menuScaleX()" yOffset="-50*game.menuScaleX()" priorityOffset="0" />
+		</touchComponent>
+	</element>
+	
+	<element name="ImageTitle">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="ImageFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="10*game.hudScale()" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="114*game.menuScaleX()" h="30*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("size"):SetFloat(0.35*game.hudScale())
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("PAIRONORMAL_GHOST_INFO_TITLE")
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+		</textComponent>
+	</element>
+	
+
+
+</menu>

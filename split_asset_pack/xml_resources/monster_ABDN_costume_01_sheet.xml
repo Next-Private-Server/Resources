@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4724feda3245e2ae2034928dc08b9785:a74b22a8dae862711f22659f64549d98:8824d773b99237d10e4e1c2f36ad89d3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABDN_costume_01_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="ABDN_Body" x="3" y="3" w="367" h="336" pX="0.5" pY="0.5"/>
+    <sprite n="ABDN_forearmB_hearts" x="260" y="343" w="60" h="53" pX="0.5" pY="0.5" oX="40" oY="-6"/>
+    <sprite n="ABDN_forearmF_hearts" x="931" y="3" w="81" h="36" pX="0.5" pY="0.5" oX="32" oY="-5"/>
+    <sprite n="ABDN_Head" x="374" y="3" w="281" h="251" pX="0.5" pY="0.5" oX="1" oY="0" oW="282" oH="251"/>
+    <sprite n="ABDN_Heartbox_bottom" x="200" y="737" w="116" h="172" pX="0.5" pY="0.5" r="y" oX="10.12521798113" oY="-43.47478201887"/>
+    <sprite n="ABDN_Heartbox_Top" x="320" y="658" w="111" h="164" pX="0.5" pY="0.5" r="y" oX="55.32521798113" oY="-77.47478201887"/>
+    <sprite n="ABDN_HornB_bow" x="931" y="141" w="73" h="73" pX="0.5" pY="0.5" oX="-23" oY="-4"/>
+    <sprite n="ABDN_HornF_bow" x="924" y="218" w="72" h="142" pX="0.5" pY="0.5" oX="27" oY="-4"/>
+    <sprite n="ABDN_KneeB_hearts" x="924" y="364" w="60" h="56" pX="0.5" pY="0.5" r="y" oX="10" oY="3"/>
+    <sprite n="ABDN_Mini_Head" x="888" y="424" w="124" h="204" pX="0.5" pY="0.5" oX="0" oY="0" oW="204" oH="125" r="y"/>
+    <sprite n="ABDN_Mouth_01" x="374" y="258" w="253" h="199" pX="0.5" pY="0.5" oX="15" oY="6" oW="269" oH="227"/>
+    <sprite n="ABDN_Mouth_02" x="631" y="397" w="253" h="193" pX="0.5" pY="0.5" oX="15" oY="12" oW="269" oH="227"/>
+    <sprite n="ABDN_Mouth_03" x="3" y="343" w="253" h="193" pX="0.5" pY="0.5" oX="15" oY="12" oW="269" oH="227"/>
+    <sprite n="ABDN_Mouth_04" x="260" y="461" w="253" h="193" pX="0.5" pY="0.5" oX="15" oY="12" oW="269" oH="227"/>
+    <sprite n="ABDN_Mouth_05" x="3" y="540" w="251" h="193" pX="0.5" pY="0.5" oX="16" oY="12" oW="269" oH="227"/>
+    <sprite n="ABDN_Mouth_06" x="3" y="737" w="193" h="250" pX="0.5" pY="0.5" oX="18" oY="12" oW="269" oH="227" r="y"/>
+    <sprite n="ABDN_Mouth_07" x="659" y="200" w="261" h="193" pX="0.5" pY="0.5" oX="7" oY="12" oW="269" oH="227"/>
+    <sprite n="ABDN_Mouth_08" x="659" y="3" w="268" h="193" pX="0.5" pY="0.5" oX="0" oY="12" oW="269" oH="227"/>
+    <sprite n="ABDN_Nose_Hearts" x="988" y="364" w="33" h="32" pX="0.5" pY="0.5" r="y" oX="18" oY="-3"/>
+    <sprite n="ABDN_ShoulderF" x="931" y="43" w="76" h="94" pX="0.5" pY="0.5" oX="1" oY="0" oW="77" oH="94"/>
+    <sprite n="ABDN_Tail_03_Bow" x="324" y="343" w="44" h="57" pX="0.5" pY="0.5" r="y" oX="2.60919771412216" oY="-25.3908022858778"/>
+</TextureAtlas>

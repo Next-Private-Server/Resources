@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c7f193ccb9e6f48a51a95f8fafb30477:7f00b59b9fe60da7493fc7f46ff74ae1:60225aa8285f29d42243e69904bf6b28$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABDE_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ABDE_beard_strapped" x="121" y="154" w="94" h="82" pX="0.5" pY="0.5"/>
+	<sprite n="ABDE_head_shorter" x="0" y="154" w="119" h="113" pX="0.5" pY="0.5" oX="22" oY="89" oW="156" oH="202"/>
+	<sprite n="ABDE_helmet" x="0" y="0" w="174" h="152" pX="0.5333333333333333" pY="0.95" oX="3" oY="4" oW="180" oH="160"/>
+</TextureAtlas>

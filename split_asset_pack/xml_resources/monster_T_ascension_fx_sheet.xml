@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:529825375ebc5ec3c0373f69322ddd23:fbb67e8dc8f7066c2ac8ef4ba497106c:53792123fa62620ad7fca58d160383f5$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_T_ascension_fx_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="constellation_attmoz_01.png" x="498" y="481" w="242" h="227" oX="6" oY="13" oW="252" oH="252"/>
+    <sprite n="constellation_blassom_01.png" x="553" y="242" w="242" h="235" oX="6" oY="8" oW="252" oH="252"/>
+    <sprite n="constellation_furnoss_01.png" x="3" y="290" w="243" h="238" oX="9" oY="3" oW="252" oH="252" r="y"/>
+    <sprite n="constellation_galvana_01.png" x="744" y="490" w="241" h="225" oX="15" oY="4" oW="252" oH="252" r="y"/>
+    <sprite n="constellation_glaishur_01.png" x="242" y="690" w="239" h="229" oX="6" oY="10" oW="252" oH="252"/>
+    <sprite n="constellation_hornacle_01.png" x="305" y="210" w="244" h="240" oX="2" oY="5" oW="252" oH="252"/>
+    <sprite n="constellation_loodvigg_01.png" x="728" y="719" w="239" h="206" oX="8" oY="22" oW="252" oH="252"/>
+    <sprite n="constellation_plixie_01.png" x="3" y="532" w="235" h="234" oX="9" oY="11" oW="252" oH="252" r="y"/>
+    <sprite n="constellation_scaratar_01.png" x="668" y="3" w="252" h="235" oX="0" oY="7" oW="252" oH="252"/>
+    <sprite n="constellation_syncopite_01.png" x="485" y="712" w="239" h="224" oX="6" oY="7" oW="252" oH="252"/>
+    <sprite n="constellation_torrt_01.png" x="799" y="242" w="213" h="244" oX="3" oY="16" oW="252" oH="252" r="y"/>
+    <sprite n="constellation_vhamp_01.png" x="3" y="770" w="230" h="236" oX="9" oY="5" oW="252" oH="252" r="y"/>
+    <sprite n="light_particles.png" x="3" y="3" w="298" h="283" oX="11" oY="15" oW="324" oH="324"/>
+    <sprite n="lightball.png" x="924" y="3" w="72" h="72"/>
+    <sprite n="lightbeam.png" x="305" y="3" w="359" h="203" oX="7" oY="4" oW="216" oH="367" r="y"/>
+    <sprite n="stars_01.png" x="250" y="454" w="244" h="232" oX="20" oY="23" oW="288" oH="288" r="y"/>
+</TextureAtlas>

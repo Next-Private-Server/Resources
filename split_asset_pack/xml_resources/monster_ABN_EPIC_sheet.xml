@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2036f5d5ecfa4679ea1f5beb54c2182e:3e11f691ef1990db996712ec2d74edaa:e57d3abaf6f38c7907a4e8d1b3722009$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABN_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABN_body" x="171" y="0" w="156" h="136"/>
+	<sprite n="ABN_eyelid1" x="135" y="294" w="94" h="37" oX="0" oY="7" oW="94" oH="44"/>
+	<sprite n="ABN_eyelid2" x="231" y="279" w="94" h="37" oX="0" oY="7" oW="94" oH="44"/>
+	<sprite n="ABN_eyelid3" x="416" y="213" w="94" h="37" oX="0" oY="7" oW="94" oH="44"/>
+	<sprite n="ABN_eyelid4" x="416" y="252" w="94" h="37" oX="0" oY="7" oW="94" oH="44"/>
+	<sprite n="ABN_face_EPIC" x="0" y="336" w="92" h="129" oX="6" oY="0" oW="140" oH="92" r="y"/>
+	<sprite n="ABN_head" x="0" y="204" w="133" h="130" oX="17" oY="35" oW="154" oH="168" r="y"/>
+	<sprite n="ABN_leaffrill" x="0" y="0" w="169" h="120" oX="14" oY="0" oW="186" oH="138"/>
+	<sprite n="ABN_left_foot" x="148" y="436" w="54" h="76" r="y"/>
+	<sprite n="ABN_left_hand" x="94" y="336" w="74" h="98" r="y"/>
+	<sprite n="ABN_left_lowerarm" x="327" y="274" w="86" h="83" oX="0" oY="1" oW="86" oH="84"/>
+	<sprite n="ABN_left_lowerleg" x="154" y="210" w="70" h="82"/>
+	<sprite n="ABN_left_upperarm" x="416" y="0" w="94" h="58"/>
+	<sprite n="ABN_left_upperleg" x="260" y="418" w="58" h="88"/>
+	<sprite n="ABN_mouth01" x="155" y="122" w="14" h="86" oX="2" oY="5" oW="90" oH="40" r="y"/>
+	<sprite n="ABN_mouth02" x="135" y="204" w="17" h="88" oX="1" oY="4" oW="90" oH="40" r="y"/>
+	<sprite n="ABN_mouth03" x="415" y="357" w="88" h="27" oX="1" oY="2" oW="90" oH="40"/>
+	<sprite n="ABN_mouth04" x="58" y="467" w="88" h="38" oX="1" oY="0" oW="90" oH="40"/>
+	<sprite n="ABN_mouth05" x="346" y="88" w="59" h="33" oX="15" oY="4" oW="90" oH="40"/>
+	<sprite n="ABN_mouth06" x="346" y="153" w="34" h="36" oX="27" oY="3" oW="90" oH="40" r="y"/>
+	<sprite n="ABN_mouth07" x="326" y="386" w="21" h="22" oX="34" oY="9" oW="90" oH="40"/>
+	<sprite n="ABN_mouth08" x="94" y="436" w="51" h="19" oX="19" oY="9" oW="90" oH="40"/>
+	<sprite n="ABN_neckleaf_a" x="0" y="467" w="56" h="42" oX="0" oY="0" oW="42" oH="64" r="y"/>
+	<sprite n="ABN_petal_1" x="255" y="138" w="89" h="67" oX="3" oY="5" oW="70" oH="100" r="y"/>
+	<sprite n="ABN_petal_2" x="260" y="318" w="64" h="98" oX="6" oY="1" oW="70" oH="100"/>
+	<sprite n="ABN_petal_3" x="415" y="291" w="97" h="64" oX="6" oY="3" oW="70" oH="100" r="y"/>
+	<sprite n="ABN_petal_4" x="226" y="210" w="97" h="67" oX="3" oY="2" oW="70" oH="100" r="y"/>
+	<sprite n="ABN_petal_5" x="325" y="207" w="89" h="65" oX="5" oY="1" oW="70" oH="90" r="y"/>
+	<sprite n="ABN_pupil_1" x="329" y="88" w="14" h="14"/>
+	<sprite n="ABN_pupil_2" x="329" y="104" w="14" h="14"/>
+	<sprite n="ABN_right_foot" x="204" y="433" w="54" h="76" r="y"/>
+	<sprite n="ABN_right_hand" x="170" y="333" w="74" h="98" r="y"/>
+	<sprite n="ABN_right_lowerarm" x="329" y="0" w="84" h="86" r="y"/>
+	<sprite n="ABN_right_lowerleg" x="171" y="138" w="82" h="70" r="y"/>
+	<sprite n="ABN_right_upperarm" x="416" y="153" w="94" h="58"/>
+	<sprite n="ABN_right_upperleg" x="320" y="418" w="58" h="88"/>
+	<sprite n="ABN_shadow" x="0" y="122" w="153" h="80" oX="2" oY="0" oW="158" oH="80"/>
+	<sprite n="ABN_smoke_01" x="415" y="60" w="97" h="91" oX="3" oY="0" oW="100" oH="100" r="y"/>
+</TextureAtlas>

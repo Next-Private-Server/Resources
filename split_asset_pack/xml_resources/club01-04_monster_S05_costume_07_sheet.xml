@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:30fda583672955745b27a9055f0c34a5:87ff2f2476543737f5bd3d0f0ad95ae5:4b000b5f081253d43a81dd808dc61d05$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-04_monster_S05_costume_07_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="S05_body_mesh" x="130" y="171" w="117" h="101" pX="0.5" pY="0.5" oX="9" oY="2" oW="120" oH="120" r="y"/>
+	<sprite n="S05_eye_L" x="188" y="51" w="62" h="58" pX="0.5" pY="0.5" oX="4" oY="9" oW="72" oH="72"/>
+	<sprite n="S05_eye_R" x="188" y="111" w="62" h="58" pX="0.5" pY="0.5" oX="5" oY="9" oW="72" oH="72"/>
+	<sprite n="S05_head" x="0" y="153" w="128" h="128" pX="0.5" pY="0.5"/>
+	<sprite n="S05_head_back" x="0" y="0" w="186" h="151" pX="0.5" pY="1.0328947368421053" oX="1" oY="0" oW="188" oH="152"/>
+	<sprite n="S05_hips_mesh" x="130" y="274" w="109" h="87" pX="0.5" pY="0.5" oX="5" oY="6" oW="120" oH="100"/>
+	<sprite n="S05_left_upperarm_mesh" x="93" y="323" w="24" h="60" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="S05_midline" x="0" y="283" w="127" h="38" pX="0.5" pY="0.5" oX="0" oY="9" oW="128" oH="47"/>
+	<sprite n="S05_mouth" x="0" y="323" w="91" h="44" pX="0.5" pY="0.5" oX="0" oY="4" oW="94" oH="48"/>
+	<sprite n="S05_right_upperarm_mesh" x="93" y="323" w="24" h="60" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="S05_topline" x="188" y="0" w="64" h="49" pX="0.5" pY="0.5" oX="0" oY="5" oW="64" oH="54"/>
+</TextureAtlas>

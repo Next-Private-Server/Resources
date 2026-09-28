@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:782f5868474ce40f56d297f1338ab22e:e2b45fc798ee5dd40be761f56a0d0824:ea4872a195c7e75507b9d8f63bb7834a$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_interest_sheet_01.png" width="512" height="512" hires="true" version="1">
+	<sprite n="map_interest_aurora" x="340" y="465" w="105" h="45"/>
+	<sprite n="map_interest_beyond" x="364" y="223" w="134" h="100"/>
+	<sprite n="map_interest_calligraphy" x="287" y="134" w="182" h="87"/>
+	<sprite n="map_interest_clouds" x="248" y="425" w="90" h="66"/>
+	<sprite n="map_interest_dreamspace" x="155" y="436" w="91" h="68"/>
+	<sprite n="map_interest_higherplane" x="378" y="325" w="95" h="138" r="y"/>
+	<sprite n="map_interest_jammerland" x="447" y="465" w="50" h="39"/>
+	<sprite n="map_interest_livingcore" x="471" y="192" w="41" h="18"/>
+	<sprite n="map_interest_livingocean" x="287" y="0" w="192" h="132" oX="0" oY="0" oW="192" oH="146"/>
+	<sprite n="map_interest_mirror" x="217" y="223" w="145" h="107"/>
+	<sprite n="map_interest_pocketdim" x="218" y="332" w="158" h="91"/>
+	<sprite n="map_interest_seam" x="0" y="0" w="285" h="207"/>
+	<sprite n="map_interest_shanty" x="0" y="209" w="215" h="140"/>
+	<sprite n="map_interest_storm" x="471" y="134" w="41" h="56" r="y"/>
+	<sprite n="map_interest_trench" x="0" y="436" w="153" h="72"/>
+	<sprite n="map_interest_underground" x="0" y="351" w="216" h="83"/>
+</TextureAtlas>

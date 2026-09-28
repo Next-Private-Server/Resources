@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:69548ea7761d7ca36f2a7d73a4dfb892:a3be38eaa2bd019afaaddf8cafd40f53:aa5704f42303def4a065b3d53432dc66$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABEN_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="Hat Back" x="0" y="268" w="134" h="212" pX="0.4852941176470588" pY="0.785155859375" oX="31" oY="104" oW="272" oH="256" r="y" />
+  <sprite n="Hat" x="0" y="0" w="248" h="266" pX="0.4852941176470588" pY="0.785155859375" oX="3" oY="5" oW="272" oH="256" r="y" />
+</TextureAtlas>

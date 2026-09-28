@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:501aadab79815fb11df4bad64474f80c:41296e18a1124b4dc53a6603cca4ce5f:ff82ee17acf22f4445781dd9d4544a94$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_crystal_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="obstacle_rock01_crystal" x="0" y="318" w="121" h="138" oX="12" oY="12" oW="150" oH="150"/>
+	<sprite n="obstacle_tree01_crystal" x="0" y="0" w="181" h="316" oX="15" oY="3" oW="196" oH="320"/>
+</TextureAtlas>

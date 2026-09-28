@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7fa787e2c3d17a50bc90dd808a5f3ed4:1bbbb1608700b00fdcc6dab006c6e861:7a092446070135fdf815ebfc6f1b48de$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ACE_costume_09_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ACE_body" x="3" y="3" w="108" h="156"/>
+    <sprite n="ACE_eyelids_1" x="137" y="402" w="35" h="64" oX="0" oY="1" oW="64" oH="36" r="y"/>
+    <sprite n="ACE_eyelids_2" x="169" y="334" w="35" h="64" oX="0" oY="1" oW="64" oH="36" r="y"/>
+    <sprite n="ACE_eyelids_3" x="176" y="402" w="35" h="64" oX="0" oY="1" oW="64" oH="36" r="y"/>
+    <sprite n="ACE_eyelids_4" x="177" y="258" w="35" h="64" oX="0" oY="1" oW="64" oH="36" r="y"/>
+    <sprite n="ACE_head" x="121" y="162" w="82" h="92"/>
+    <sprite n="ACE_left_foot" x="164" y="470" w="26" h="38" r="y"/>
+    <sprite n="ACE_left_lowerarm" x="267" y="3" w="18" h="44" r="y"/>
+    <sprite n="ACE_left_lowerleg" x="73" y="409" w="60" h="96"/>
+    <sprite n="ACE_left_upperarm" x="216" y="252" w="20" h="50" r="y"/>
+    <sprite n="ACE_left_upperleg" x="233" y="3" w="30" h="82"/>
+    <sprite n="ACE_mouth_01" x="264" y="89" w="41" h="20" oX="6" oY="3" oW="56" oH="38"/>
+    <sprite n="ACE_mouth_02" x="207" y="162" w="27" h="56" oX="0" oY="0" oW="56" oH="38" r="y"/>
+    <sprite n="ACE_mouth_03" x="201" y="126" w="55" h="32" oX="0" oY="0" oW="56" oH="38"/>
+    <sprite n="ACE_mouth_04" x="194" y="470" w="53" h="36" oX="1" oY="0" oW="56" oH="38"/>
+    <sprite n="ACE_mouth_05" x="238" y="162" w="35" h="44" oX="4" oY="2" oW="56" oH="38" r="y"/>
+    <sprite n="ACE_mouth_06" x="260" y="121" w="35" h="36" oX="6" oY="3" oW="56" oH="38" r="y"/>
+    <sprite n="ACE_mouth_07" x="233" y="89" w="27" h="28" oX="10" oY="4" oW="56" oH="38"/>
+    <sprite n="ACE_mouth_08" x="207" y="222" w="18" h="26" oX="11" oY="5" oW="56" oH="38" r="y"/>
+    <sprite n="ACE_mouth_09" x="267" y="51" w="19" h="34" oX="8" oY="4" oW="56" oH="38" r="y"/>
+    <sprite n="ACE_mouth_10" x="137" y="470" w="23" h="39" oX="6" oY="4" oW="56" oH="38" r="y"/>
+    <sprite n="ACE_pom_1" x="3" y="288" w="114" h="117" oX="6" oY="0" oW="132" oH="114" r="y"/>
+    <sprite n="ACE_pom_2" x="3" y="163" w="114" h="121" oX="0" oY="0" oW="132" oH="114" r="y"/>
+    <sprite n="ACE_pom_3" x="115" y="3" w="114" h="119" oX="13" oY="0" oW="132" oH="114" r="y"/>
+    <sprite n="ACE_ponytail_left" x="121" y="334" w="44" h="64"/>
+    <sprite n="ACE_ponytail_right" x="121" y="258" w="52" h="72" r="y"/>
+    <sprite n="ACE_right_foot" x="229" y="222" w="42" h="24"/>
+    <sprite n="ACE_right_lowerarm" x="208" y="326" w="20" h="64" r="y"/>
+    <sprite n="ACE_right_lowerleg" x="3" y="409" w="66" h="96"/>
+    <sprite n="ACE_right_upperarm" x="215" y="394" w="20" h="58" r="y"/>
+    <sprite n="ACE_right_upperleg" x="115" y="126" w="82" h="32" r="y"/>
+</TextureAtlas>

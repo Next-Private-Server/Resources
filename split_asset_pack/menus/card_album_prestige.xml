@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/CardAlbumPrestige.lua"/>
+
+	<template type="template_event_screen" name="EventScreen">
+		<templateVar name="$layer" equals="Tutorial" />
+
+		<templateVar name="$titleSprite" equals="'gfx/menu/event_screen/card_album/seasonal_text_sticker_album'"/>
+		<templateVar name="$stickerSpriteSheet" equals="'xml_resources/multipack_sticker_album_sheet.xml'"/>
+		<templateVar name="$monsterSprite" equals="'gfx/menu/event_screen/card_album/event_screen_monster'"/>
+		<templateVar name="$mainSprite" equals="'gfx/menu/event_screen/card_album/sticker_event_image'"/>
+		<templateVar name="$glowSprite" equals="'gfx/menu/event_screen/card_album/event_screen_glow'"/>
+
+		<templateVar name="$subtitle_refid" equals=""/>
+
+		<templateVar name="$text1_color" equals="'#ffba00'"/>
+		<templateVar name="$text1_refid" equals="CARD_ALBUM_PRESTIGE_MENU_TITLE"/>
+		<templateVar name="$text2_refid" equals="CARD_ALBUM_PRESTIGE_DESC"/>
+
+		<templateVar name="$button_text_refid" equals="CARD_ALBUM_PRESTIGE_CONFIRM"/>
+
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+	
+</menu>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:eee39f81371fd339e543daaf885181aa:086c8e2b0f9644172e53677c0a5fe40e:9e52cc139549336e9c1bc50bc793dfae$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CEY_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="Arm_Bottom_B" x="0" y="580" w="34" h="22" />
+  <sprite n="Arm_Bottom_B_GLOW" x="87" y="579" w="34" h="22" />
+  <sprite n="Arm_Bottom_F" x="468" y="518" w="36" h="24" r="y" />
+  <sprite n="Arm_Bottom_F_GLOW" x="468" y="544" w="36" h="24" r="y" />
+  <sprite n="Arm_Top_B" x="474" y="107" w="37" h="22" oX="0" oY="1" oW="22" oH="38" r="y" />
+  <sprite n="Arm_Top_B_GLOW" x="50" y="568" w="35" h="22" oX="0" oY="3" oW="22" oH="38" r="y" />
+  <sprite n="Arm_Top_F" x="462" y="591" w="49" h="28" oX="0" oY="0" oW="50" oH="28" />
+  <sprite n="Arm_Top_F_GLOW" x="104" y="549" w="47" h="28" oX="1" oY="0" oW="50" oH="28" />
+  <sprite n="Big_Head_Cap_B_EPIC" x="251" y="0" w="221" h="128" oX="4" oY="7" oW="230" oH="140" />
+  <sprite n="Big_Head_Cap_F_EPIC" x="0" y="0" w="249" h="198" oX="1" oY="1" oW="250" oH="200" />
+  <sprite n="Big_Head_Cap_F_EPIC_GLOW" x="236" y="483" w="114" h="68" oX="88" oY="125" oW="250" oH="200" />
+  <sprite n="Big_Head_Eyeback" x="0" y="502" w="67" h="28" oX="1" oY="0" oW="68" oH="28" />
+  <sprite n="Big_Head_Eyeballs" x="412" y="212" w="60" h="20" />
+  <sprite n="Big_Head_Eyelids_01" x="352" y="547" w="22" h="61" oX="1" oY="0" oW="62" oH="22" r="y" />
+  <sprite n="Big_Head_Eyelids_02" x="352" y="483" w="22" h="62" r="y" />
+  <sprite n="Big_Head_Eyelids_03" x="313" y="610" w="61" h="22" oX="1" oY="0" oW="62" oH="22" />
+  <sprite n="Big_Head_Eyelids_04" x="412" y="234" w="59" h="22" oX="2" oY="0" oW="62" oH="22" />
+  <sprite n="Big_Head_Eyelids_05" x="402" y="247" w="3" h="3" oX="0" oY="0" oW="62" oH="22" />
+  <sprite n="Big_Head_Face" x="379" y="258" w="92" h="116" />
+  <sprite n="Big_Head_Face_GLOW" x="377" y="376" w="90" h="108" oX="1" oY="2" oW="92" oH="116" />
+  <sprite n="Big_Head_Neck_01" x="474" y="187" w="36" h="54" r="y" />
+  <sprite n="Big_Head_Neck_01_GLOW" x="473" y="275" w="36" h="53" oX="0" oY="0" oW="54" oH="36" r="y" />
+  <sprite n="Big_Head_Neck_02" x="376" y="486" w="90" h="64" r="y" />
+  <sprite n="Big_Head_Neck_02_GLOW" x="234" y="553" w="77" h="64" oX="0" oY="11" oW="64" oH="90" r="y" />
+  <sprite n="Body" x="122" y="374" w="112" h="108" r="y" />
+  <sprite n="Body_GLOW" x="142" y="200" w="107" h="104" oX="2" oY="3" oW="108" oH="112" r="y" />
+  <sprite n="Hand_B" x="45" y="618" w="17" h="16" oX="1" oY="0" oW="18" oH="16" />
+  <sprite n="Hand_B_GLOW" x="0" y="626" w="18" h="16" />
+  <sprite n="Hand_F" x="186" y="611" w="26" h="24" />
+  <sprite n="Hand_F_GLOW" x="36" y="592" w="26" h="24" />
+  <sprite n="Mouth_Big_01" x="236" y="383" w="11" h="30" oX="9" oY="16" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Big_02" x="474" y="49" w="38" h="30" oX="8" oY="0" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Big_03" x="123" y="579" w="27" h="32" oX="11" oY="4" oW="56" oH="38" />
+  <sprite n="Mouth_Big_04" x="313" y="553" w="27" h="54" oX="1" oY="2" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Big_05" x="203" y="510" w="29" h="52" oX="1" oY="1" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Big_06" x="201" y="564" w="27" h="45" oX="3" oY="4" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Big_07" x="468" y="490" w="36" h="26" oX="8" oY="8" oW="56" oH="38" />
+  <sprite n="Mouth_Big_08" x="214" y="611" w="18" h="20" oX="15" oY="12" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Big_09" x="474" y="0" w="38" h="47" oX="3" oY="0" oW="56" oH="38" r="y" />
+  <sprite n="Mouth_Small_01" x="236" y="306" w="12" h="33" oX="10" oY="12" oW="50" oH="36" r="y" />
+  <sprite n="Mouth_Small_02" x="24" y="618" w="19" h="16" oX="19" oY="7" oW="50" oH="36" />
+  <sprite n="Mouth_Small_03" x="152" y="591" w="32" h="21" oX="12" oY="5" oW="50" oH="36" />
+  <sprite n="Mouth_Small_04" x="474" y="81" w="37" h="24" oX="9" oY="5" oW="50" oH="36" />
+  <sprite n="Mouth_Small_05" x="153" y="571" w="45" h="18" oX="5" oY="7" oW="50" oH="36" />
+  <sprite n="Mouth_Small_06" x="69" y="502" w="48" h="20" oX="2" oY="7" oW="50" oH="36" />
+  <sprite n="Mouth_Small_07" x="462" y="570" w="50" h="19" oX="0" oY="6" oW="50" oH="36" />
+  <sprite n="Mouth_Small_08" x="203" y="484" w="31" h="24" oX="16" oY="2" oW="50" oH="36" r="y" />
+  <sprite n="Mouth_Small_09" x="469" y="461" w="36" h="27" oX="14" oY="0" oW="50" oH="36" r="y" />
+  <sprite n="New_Head_Cap_B" x="0" y="445" w="118" h="55" oX="36" oY="62" oW="180" oH="150" />
+  <sprite n="New_Head_Cap_F" x="0" y="200" w="140" h="85" oX="40" oY="11" oW="180" oH="150" />
+  <sprite n="New_Head_Cap_F_GLOW" x="376" y="618" w="77" h="25" oX="50" oY="71" oW="180" oH="150" />
+  <sprite n="New_Head_Eyeball" x="64" y="616" w="20" h="20" />
+  <sprite n="New_Head_Eyelids_01" x="64" y="592" w="20" h="22" oX="0" oY="0" oW="48" oH="20" r="y" />
+  <sprite n="New_Head_Eyelids_02" x="0" y="604" w="22" h="20" oX="0" oY="0" oW="48" oH="20" />
+  <sprite n="New_Head_Eyelids_03" x="86" y="603" w="22" h="20" oX="0" oY="0" oW="48" oH="20" />
+  <sprite n="New_Head_Eyelids_04" x="379" y="247" w="21" h="8" oX="0" oY="12" oW="48" oH="20" />
+  <sprite n="New_Head_Eyelids_05" x="402" y="247" w="3" h="3" oX="0" oY="0" oW="48" oH="20" />
+  <sprite n="New_Head_Face" x="249" y="406" w="116" h="75" oX="13" oY="63" oW="180" oH="150" />
+  <sprite n="New_Head_Face_GLOW" x="250" y="322" w="125" h="82" oX="8" oY="59" oW="180" oH="150" />
+  <sprite n="Overlap_piece_A" x="455" y="621" w="55" h="51" oX="3" oY="5" oW="60" oH="60" />
+  <sprite n="Pupil_Big" x="236" y="341" w="12" h="12" />
+  <sprite n="Pupil_New" x="236" y="355" w="12" h="12" />
+  <sprite n="Pupil_Small" x="236" y="369" w="12" h="12" />
+  <sprite n="Shadow" x="0" y="369" w="120" h="74" />
+  <sprite n="Shrooms_A" x="412" y="130" w="60" h="80" oX="0" oY="0" oW="86" oH="60" r="y" />
+  <sprite n="Shrooms_B" x="142" y="306" w="92" h="66" oX="4" oY="1" oW="100" oH="70" />
+  <sprite n="Shrooms_D" x="0" y="287" w="140" h="80" />
+  <sprite n="Shrooms_E" x="473" y="243" w="39" h="30" oX="1" oY="0" oW="40" oH="30" />
+  <sprite n="Small_Head_Cap_B_EPIC" x="251" y="247" w="126" h="73" oX="1" oY="5" oW="130" oH="80" />
+  <sprite n="Small_Head_Cap_F_EPIC" x="251" y="130" w="159" h="115" oX="5" oY="2" oW="170" oH="120" />
+  <sprite n="Small_Head_Cap_F_EPIC_GLOW" x="469" y="380" w="42" h="79" oX="37" oY="74" oW="170" oH="120" r="y" />
+  <sprite n="Small_Head_Eyeback" x="0" y="532" w="52" h="24" />
+  <sprite n="Small_Head_Eyeballs" x="153" y="549" w="46" h="20" />
+  <sprite n="Small_Head_Eyelids_01" x="69" y="524" w="48" h="20" />
+  <sprite n="Small_Head_Eyelids_02" x="54" y="546" w="48" h="20" />
+  <sprite n="Small_Head_Eyelids_03" x="0" y="558" w="48" h="20" />
+  <sprite n="Small_Head_Eyelids_04" x="236" y="415" w="9" h="48" oX="0" oY="11" oW="48" oH="20" r="y" />
+  <sprite n="Small_Head_Eyelids_05" x="402" y="247" w="3" h="3" oX="0" oY="0" oW="48" oH="20" />
+  <sprite n="Small_Head_Face" x="376" y="552" w="84" h="64" r="y" />
+  <sprite n="Small_Head_Face_GLOW" x="120" y="484" w="81" h="63" oX="0" oY="1" oW="64" oH="84" r="y" />
+  <sprite n="Small_Head_Neck_01" x="474" y="131" w="36" h="54" />
+  <sprite n="Small_Head_Neck_01_GLOW" x="473" y="330" w="36" h="48" oX="0" oY="3" oW="36" oH="54" />
+</TextureAtlas>

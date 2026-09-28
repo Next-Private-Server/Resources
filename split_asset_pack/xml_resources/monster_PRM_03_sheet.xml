@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ab0e0521a20d4255063a7ce0e0a3e588:cf3a023360851c906ddf4f00845c227b:47e72230890484c0059aff6627e083a0$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_PRM_03_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="PRM_03_body_base" x="399" y="423" w="109" h="157" oX="5" oY="5" oW="168" oH="120" r="y"/>
+	<sprite n="PRM_03_body_base_large" x="235" y="354" w="162" h="142" oX="5" oY="12" oW="168" oH="160"/>
+	<sprite n="PRM_03_cheekballoon_L_big" x="387" y="738" w="70" h="65" oX="7" oY="5" oW="80" oH="80" r="y"/>
+	<sprite n="PRM_03_cheekballoon_L_small" x="110" y="939" w="54" h="55" oX="15" oY="16" oW="80" oH="80"/>
+	<sprite n="PRM_03_cheekballoon_R_big" x="100" y="864" w="54" h="56" oX="5" oY="4" oW="64" oH="64"/>
+	<sprite n="PRM_03_cheekballoon_R_small" x="190" y="706" w="42" h="47" oX="11" oY="8" oW="64" oH="64"/>
+	<sprite n="PRM_03_cheekfeathers_L_lower" x="234" y="710" w="76" h="75" oX="4" oY="4" oW="84" oH="84"/>
+	<sprite n="PRM_03_cheekfeathers_L_upper" x="156" y="860" w="48" h="51" oX="6" oY="8" oW="64" oH="64" r="y"/>
+	<sprite n="PRM_03_cheekfeathers_R_upper" x="166" y="939" w="47" h="49" oX="7" oY="8" oW="64" oH="64" r="y"/>
+	<sprite n="PRM_03_chin_fingers" x="190" y="654" w="42" h="50" oX="4" oY="11" oW="56" oH="56" r="y"/>
+	<sprite n="PRM_03_eye_pupil" x="408" y="277" w="23" h="17" oX="3" oY="0" oW="24" oH="24" r="y"/>
+	<sprite n="PRM_03_eyeball_L" x="459" y="738" w="52" h="61" oX="4" oY="5" oW="60" oH="72"/>
+	<sprite n="PRM_03_eyeball_R" x="189" y="755" w="38" h="53" oX="3" oY="3" oW="44" oH="60"/>
+	<sprite n="PRM_03_eyelid_L_01" x="438" y="68" w="73" h="65" oX="4" oY="3" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_eyelid_L_02" x="165" y="447" w="68" h="62" oX="4" oY="8" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_eyelid_L_03" x="312" y="710" w="73" h="63" oX="4" oY="3" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_eyelid_L_04" x="438" y="135" w="73" h="64" oX="4" oY="3" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_eyelid_R_01" x="61" y="939" w="47" h="60" oX="3" oY="2" oW="56" oH="64"/>
+	<sprite n="PRM_03_eyelid_R_02" x="459" y="801" w="51" h="60" oX="0" oY="2" oW="56" oH="64"/>
+	<sprite n="PRM_03_eyelid_R_03" x="0" y="867" w="48" h="60" oX="4" oY="2" oW="56" oH="64"/>
+	<sprite n="PRM_03_eyelid_R_04" x="50" y="867" w="48" h="60" oX="4" oY="2" oW="56" oH="64"/>
+	<sprite n="PRM_03_face" x="235" y="199" w="171" h="153" oX="5" oY="4" oW="164" oH="180" r="y"/>
+	<sprite n="PRM_03_headballoon_A" x="0" y="339" w="163" h="132" oX="2" oY="8" oW="136" oH="180" r="y"/>
+	<sprite n="PRM_03_headballoon_B" x="0" y="0" w="233" h="228" oX="7" oY="10" oW="248" oH="248"/>
+	<sprite n="PRM_03_headballoon_C" x="235" y="0" w="201" h="197" oX="9" oY="11" oW="220" oH="220"/>
+	<sprite n="PRM_03_mouth_01" x="408" y="296" w="22" h="59" oX="17" oY="4" oW="80" oH="40" r="y"/>
+	<sprite n="PRM_03_mouth_02" x="155" y="800" w="32" h="58" oX="20" oY="5" oW="80" oH="40" r="y"/>
+	<sprite n="PRM_03_mouth_03" x="408" y="199" w="25" h="76" oX="0" oY="0" oW="80" oH="40" r="y"/>
+	<sprite n="PRM_03_shadow" x="0" y="473" w="162" h="85" oX="4" oY="0" oW="170" oH="85"/>
+	<sprite n="PRM_03_smallsegment_D_01" x="169" y="318" w="64" h="60" oX="4" oY="4" oW="72" oH="68"/>
+	<sprite n="PRM_03_smallsegment_D_02" x="164" y="511" w="69" h="63" oX="3" oY="4" oW="76" oH="72"/>
+	<sprite n="PRM_03_tentacle_claw_A_01" x="435" y="201" w="76" h="113" oX="2" oY="3" oW="80" oH="124"/>
+	<sprite n="PRM_03_tentacle_claw_A_02" x="396" y="582" w="100" h="76" oX="2" oY="16" oW="80" oH="124" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_A_03" x="396" y="660" w="97" h="76" oX="2" oY="20" oW="80" oH="124" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_B_01" x="432" y="316" w="78" h="105" oX="5" oY="5" oW="92" oH="116"/>
+	<sprite n="PRM_03_tentacle_claw_B_02" x="0" y="654" w="96" h="78" oX="6" oY="15" oW="92" oH="116" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_B_03" x="234" y="630" w="98" h="78" oX="6" oY="15" oW="92" oH="116" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_C_01" x="384" y="805" w="67" h="65" oX="3" oY="5" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_C_02" x="229" y="787" w="67" h="62" oX="6" oY="6" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_C_03" x="298" y="839" w="67" h="61" oX="7" oY="6" oW="72" oH="80" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_D_01" x="312" y="775" w="70" h="62" oX="3" oY="3" oW="68" oH="76" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_D_02" x="367" y="872" w="66" h="65" oX="3" oY="7" oW="68" oH="76" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_D_03" x="453" y="863" w="59" h="66" oX="3" oY="7" oW="68" oH="76"/>
+	<sprite n="PRM_03_tentacle_claw_E_01" x="98" y="654" w="90" h="72" oX="5" oY="2" oW="84" oH="96" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_E_02" x="0" y="734" w="78" h="70" oX="5" oY="13" oW="84" oH="96" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_E_03" x="98" y="728" w="89" h="70" oX="5" oY="3" oW="84" oH="96" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_F_01" x="165" y="380" w="68" h="65" oX="3" oY="4" oW="76" oH="76" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_F_02" x="435" y="931" w="63" h="63" oX="3" oY="8" oW="76" oH="76"/>
+	<sprite n="PRM_03_tentacle_claw_F_03" x="0" y="939" w="59" h="63" oX="3" oY="12" oW="76" oH="76" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_G_01" x="334" y="630" w="60" h="78" oX="1" oY="1" oW="64" oH="80"/>
+	<sprite n="PRM_03_tentacle_claw_G_02" x="0" y="806" w="72" h="59" oX="2" oY="6" oW="64" oH="80" r="y"/>
+	<sprite n="PRM_03_tentacle_claw_G_03" x="80" y="800" w="73" h="62" oX="1" oY="5" oW="64" oH="80" r="y"/>
+	<sprite n="PRM_03_tentacle_segment" x="139" y="576" w="93" h="76" oX="0" oY="6" oW="76" oH="108" r="y"/>
+	<sprite n="PRM_03_tentacleloop_back" x="0" y="560" w="137" h="92" oX="10" oY="5" oW="112" oH="148" r="y"/>
+	<sprite n="PRM_03_tentacleloop_base_left" x="438" y="0" w="73" h="66" oX="3" oY="7" oW="80" oH="80"/>
+	<sprite n="PRM_03_tentacleloop_base_right" x="169" y="230" w="64" h="86" oX="8" oY="0" oW="80" oH="92"/>
+	<sprite n="PRM_03_tentacleloop_chin" x="0" y="230" w="167" h="107" oX="5" oY="3" oW="180" oH="116"/>
+	<sprite n="PRM_03_tentacleloop_front" x="235" y="498" w="159" h="130" oX="7" oY="7" oW="140" oH="176" r="y"/>
+</TextureAtlas>

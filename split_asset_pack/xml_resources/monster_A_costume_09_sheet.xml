@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c8c985d7b32e3050202ff1c1502fcec4:4d159cfe7e6b4235fac0bb9206bad792:86542a299afbdbdd1c1883f125183a1e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_A_costume_09_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="A_body" x="0" y="118" w="124" h="118" pX="0.5" pY="0.5" oX="2" oY="14" oW="126" oH="132"/>
+	<sprite n="A_eyeback" x="123" y="238" w="38" h="92" pX="0.5" pY="0.5" oX="4" oY="7" oW="100" oH="48" r="y"/>
+	<sprite n="A_eyelids_1" x="126" y="118" w="41" h="95" pX="0.5" pY="0.5" oX="2" oY="3" oW="100" oH="48" r="y"/>
+	<sprite n="A_eyelids_2" x="169" y="86" w="41" h="95" pX="0.5" pY="0.5" oX="2" oY="3" oW="100" oH="48" r="y"/>
+	<sprite n="A_eyelids_3" x="122" y="332" w="41" h="95" pX="0.5" pY="0.5" oX="2" oY="3" oW="100" oH="48" r="y"/>
+	<sprite n="A_eyelids_4" x="165" y="317" w="41" h="95" pX="0.5" pY="0.5" oX="2" oY="3" oW="100" oH="48" r="y"/>
+	<sprite n="A_head" x="0" y="0" w="149" h="116" pX="0.5" pY="0.5" oX="19" oY="10" oW="168" oH="126"/>
+	<sprite n="A_left_foot" x="169" y="183" w="41" h="27" pX="0.5" pY="0.5" oX="11" oY="0" oW="52" oH="74" r="y"/>
+	<sprite n="A_mouth_01" x="126" y="215" w="45" h="21" pX="0.5" pY="0.5" oX="24" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_02" x="208" y="317" w="48" h="20" pX="0.5" pY="0.5" oX="22" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_03" x="212" y="178" w="44" h="23" pX="0.5" pY="0.5" oX="24" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_04" x="208" y="339" w="38" h="27" pX="0.5" pY="0.5" oX="27" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_05" x="208" y="368" w="30" h="26" pX="0.5" pY="0.5" oX="31" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_06" x="208" y="396" w="25" h="25" pX="0.5" pY="0.5" oX="34" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_07" x="173" y="212" w="23" h="24" pX="0.5" pY="0.5" oX="35" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_08" x="211" y="423" w="25" h="25" pX="0.5" pY="0.5" oX="34" oY="11" oW="92" oH="50"/>
+	<sprite n="A_mouth_09" x="223" y="0" w="33" h="22" pX="0.5" pY="0.5" oX="30" oY="11" oW="92" oH="50"/>
+	<sprite n="A_right_foot" x="223" y="24" w="32" h="38" pX="0.5" pY="0.5" oX="5" oY="0" oW="58" oH="68"/>
+	<sprite n="A_wing_01" x="141" y="429" w="68" h="78" pX="0.5" pY="0.5" oX="88" oY="80" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_02" x="151" y="0" w="70" h="84" pX="0.5" pY="0.5" oX="96" oY="61" oW="166" oH="250"/>
+	<sprite n="A_wing_03" x="163" y="238" w="74" h="77" pX="0.5" pY="0.5" oX="89" oY="72" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_04" x="69" y="238" w="52" h="88" pX="0.5" pY="0.5" oX="78" oY="106" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_05" x="61" y="429" w="78" h="72" pX="0.5" pY="0.5" oX="88" oY="106" oW="166" oH="250"/>
+	<sprite n="A_wing_06" x="212" y="86" w="44" h="90" pX="0.5" pY="0.5" oX="122" oY="109" oW="166" oH="250"/>
+	<sprite n="A_wing_07" x="62" y="328" w="58" h="82" pX="0.5" pY="0.5" oX="108" oY="107" oW="166" oH="250"/>
+	<sprite n="A_wing_08" x="0" y="416" w="59" h="85" pX="0.5" pY="0.5" oX="81" oY="104" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_09" x="0" y="325" w="60" h="89" pX="0.5" pY="0.5" oX="77" oY="89" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_fold" x="0" y="238" w="67" h="85" pX="0.6829268292682927" pY="0.2826086956521739" oX="14" oY="8" oW="82" oH="138"/>
+</TextureAtlas>

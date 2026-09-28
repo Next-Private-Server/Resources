@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:35e4b2fa6373881de0b56b6baea473c3:f591b5ee78948f138eac0644da0a2905:323cee7a0e94d4fbc93dedda95668279$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_DEN_costume_02_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="body" x="0" y="316" w="282" h="204" pX="0.471831" pY="0.431373" oX="1" oY="0" oW="284" oH="204" />
+  <sprite n="DEN_adult_eyelid1" x="348" y="0" w="97" h="89" pX="1.5978260869565217" pY="0.7244897959183674" oX="1" oY="1" oW="92" oH="98" r="y" />
+  <sprite n="DEN_adult_eyelid2" x="348" y="91" w="95" h="89" pX="1.5978260869565217" pY="0.7244897959183674" oX="1" oY="1" oW="92" oH="98" r="y" />
+  <sprite n="DEN_adult_eyelid3" x="348" y="182" w="91" h="89" pX="1.5978260869565217" pY="0.7244897959183674" oX="1" oY="1" oW="92" oH="98" r="y" />
+  <sprite n="DEN_adult_eyelid4" x="348" y="273" w="91" h="89" pX="1.5978260869565217" pY="0.7244897959183674" oX="1" oY="1" oW="92" oH="98" r="y" />
+  <sprite n="DEN_adult_eyelid5" x="284" y="364" w="91" h="89" pX="1.5978260869565217" pY="0.7244897959183674" oX="1" oY="1" oW="92" oH="98" r="y" />
+  <sprite n="DEN_adult_pupil" x="447" y="0" w="45" h="45" pX="2.811111111111111" pY="0.9222222222222223" />
+  <sprite n="helmet" x="0" y="0" w="346" h="314" pX="0.576705" pY="1.17813" oX="5" oY="3" oW="352" oH="320" />
+</TextureAtlas>

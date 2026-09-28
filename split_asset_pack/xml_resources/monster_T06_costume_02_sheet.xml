@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:35b37c1d347f0ff1b5db57c287760a34:2f6a6adec2f4a00a17861e36f5703a3b:19c3565f485f17b74b7037d7adbb1f86$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_T06_costume_02_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="T06_glasses" x="138" y="0" w="79" h="46" pX="0.5" pY="0.958333" oX="0" oY="1" oW="80" oH="48"/>
+	<sprite n="T06_hand_right_cuff" x="186" y="130" w="42" h="31" pX="0.6" pY="0.435484"/>
+	<sprite n="T06_head" x="0" y="0" w="136" h="108" pX="0.47931" pY="0.821429" oX="5" oY="2" oW="145" oH="112"/>
+	<sprite n="T06_horn_end_left" x="194" y="48" w="20" h="32" pX="0.484375" pY="0.395" r="y"/>
+	<sprite n="T06_horn_end_mid" x="82" y="110" w="46" h="30" pX="0.5" pY="0.383333"/>
+	<sprite n="T06_horn_end_right" x="219" y="28" w="36" h="22" pX="0.486111" pY="0.318182"/>
+	<sprite n="T06_horn_left" x="219" y="0" w="36" h="26" pX="0.423077" pY="0.0944444" r="y"/>
+	<sprite n="T06_horn_mid" x="194" y="86" w="52" h="42" pX="0.5" pY="0.0384615" r="y"/>
+	<sprite n="T06_horn_right" x="216" y="52" w="39" h="32" pX="0.484375" pY="0.045" oX="0" oY="0" oW="32" oH="40" r="y"/>
+	<sprite n="T06_jacket" x="0" y="110" w="80" h="126" pX="0.46124" pY="0.925" oX="1" oY="0" oW="129" oH="80" r="y"/>
+	<sprite n="T06_lower_arm_right" x="138" y="90" w="46" h="44" pX="0.259091" pY="0.282609" r="y"/>
+	<sprite n="T06_upper_arm_right" x="138" y="48" w="54" h="40" pX="0.12037" pY="0.2675"/>
+</TextureAtlas>

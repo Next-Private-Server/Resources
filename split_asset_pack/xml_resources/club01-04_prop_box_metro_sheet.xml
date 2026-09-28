@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:68fe87ab03e93d5e8c77a76300bb8da5:6086f6d4a42419a3c0797a49f53025c3:153ee1dad88c6b1eb04298d404cfdb64$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_box_metro_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="Lightbox_bg" x="0" y="126" w="176" h="139" oX="0" oY="29" oW="140" oH="220" r="y"/>
+	<sprite n="Lightbox_fg" x="0" y="0" w="188" h="124" oX="7" oY="1" oW="140" oH="220" r="y"/>
+	<sprite n="Lightbox_glow" x="0" y="267" w="155" h="79" oX="61" oY="31" oW="140" oH="220" r="y"/>
+	<sprite n="Smallbox_bg" x="157" y="304" w="99" h="122"/>
+	<sprite n="Smallbox_fg" x="190" y="0" w="65" h="103" oX="29" oY="9" oW="99" oH="122"/>
+	<sprite n="Smallbox_glow_1" x="110" y="348" w="41" h="35" oX="55" oY="79" oW="99" oH="122"/>
+	<sprite n="Smallbox_glow_2" x="190" y="105" w="60" h="42" oX="54" oY="54" oW="99" oH="122" r="y"/>
+	<sprite n="Smallbox_glow_3" x="178" y="259" w="73" h="43" oX="53" oY="41" oW="99" oH="122" r="y"/>
+	<sprite n="Smallbox_glow_4" x="0" y="348" w="100" h="47" oX="49" oY="14" oW="99" oH="122" r="y"/>
+	<sprite n="Smallbox_glow_5" x="0" y="428" w="108" h="54" oX="42" oY="6" oW="99" oH="122" r="y"/>
+	<sprite n="Smallbox_glow_6" x="178" y="149" w="74" h="108" oX="23" oY="6" oW="99" oH="122"/>
+</TextureAtlas>

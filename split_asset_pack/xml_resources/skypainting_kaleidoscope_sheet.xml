@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:115cbc8682e0167bef8385dc0190570f:f1719513022a43c8842c848411dac3d5:06a39114ff73a7eb6333c9797b0c93fc$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/skypainting_kaleidoscope_sheet.png" width="512" height="512" hires="true">
+    <sprite n="Base" x="3" y="338" w="260" h="166" oX="2" oY="1" oW="264" oH="168"/>
+    <sprite n="Center" x="363" y="150" w="59" h="59" oX="0" oY="0" oW="60" oH="60"/>
+    <sprite n="Glass Panel" x="3" y="3" w="356" h="331" oX="2" oY="2" oW="360" oH="336"/>
+    <sprite n="Pot Rim" x="426" y="150" w="45" h="69" oX="1" oY="3" oW="72" oH="52" r="y"/>
+    <sprite n="Pot" x="363" y="248" w="104" h="84" oX="4" oY="2" oW="92" oH="108" r="y"/>
+    <sprite n="Reed 01" x="267" y="338" w="206" h="153" oX="1" oY="1" oW="156" oH="208" r="y"/>
+    <sprite n="Reed 02" x="363" y="3" w="92" h="143" oX="2" oY="4" oW="148" oH="100" r="y"/>
+    <sprite n="Stem" x="477" y="3" w="26" h="241" oX="3" oY="1" oW="32" oH="244"/>
+</TextureAtlas>

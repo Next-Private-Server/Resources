@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2ac62394f19d9bafe907b941c561b785:1ca0ea8a086c0c93573b1c9c4e11015a:76161e9731d481a28a333f0e4c7c7164$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S03_RARE_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="V_arm_upper_PAULDRON_LEFT" x="0" y="142" w="107" h="60" pX="0.7166666666666667" pY="0.8727272727272727" oX="0" oY="1" oW="60" oH="110" r="y"/>
+	<sprite n="V_arm_upper_PAULDRON_RIGHT" x="0" y="317" w="43" h="59" pX="0.65" pY="0.74" oX="0" oY="3" oW="60" oH="50" r="y"/>
+	<sprite n="V_body" x="0" y="0" w="167" h="140" pX="0.5" pY="0.5" oX="0" oY="0" oW="176" oH="140"/>
+	<sprite n="V_body_LONE_ARROW" x="0" y="257" w="71" h="58" pX="0.5" pY="0.5" oX="0" oY="1" oW="176" oH="140"/>
+	<sprite n="V_GLOVE_and_MACE" x="338" y="0" w="157" h="77" pX="0.28125" pY="0.325" oX="2" oY="3" oW="160" oH="80"/>
+	<sprite n="V_left_head" x="88" y="237" w="71" h="60" pX="0.5" pY="0.5" oX="4" oY="5" oW="68" oH="108" r="y"/>
+	<sprite n="V_left_head_HELM" x="169" y="131" w="129" h="123" pX="0.7307692307692307" pY="0.9230769230769231" oX="0" oY="3" oW="130" oH="130"/>
+	<sprite n="V_leg_ARMORED" x="109" y="142" w="58" h="93" pX="0.5" pY="0.5" oX="0" oY="2" oW="60" oH="96"/>
+	<sprite n="V_right_head" x="0" y="204" w="86" h="51" pX="0.5" pY="0.5" oX="7" oY="9" oW="68" oH="124" r="y"/>
+	<sprite n="V_right_head_HELM" x="169" y="0" w="167" h="129" pX="0.3" pY="0.9235294117647059" oX="0" oY="0" oW="130" oH="170" r="y"/>
+	<sprite n="V_SHIELD" x="338" y="79" w="150" h="146" pX="0.41333333333333333" pY="0.6466666666666666" oX="1" oY="0" oW="150" oH="150" r="y"/>
+</TextureAtlas>

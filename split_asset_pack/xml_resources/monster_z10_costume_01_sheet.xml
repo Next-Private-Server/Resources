@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:63a4a8a9c24da6940cc60b25ea4071c7:187f221cf7700e90268e0675bd341756:a3a19995e3c272fd39551ff4a0458b89$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_z10_costume_01_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="z10_body_lower" x="0" y="0" w="120" h="140" pX="0.5" pY="0.8892857142857142"/>
+	<sprite n="z10_body_mid" x="0" y="142" w="124" h="112" pX="0.5" pY="0.8515625" oX="8" oY="1" oW="128" oH="128" r="y"/>
+	<sprite n="z10_glasses" x="162" y="137" w="77" h="39" pX="0.5" pY="1.141025641025641"/>
+	<sprite n="z10_hair" x="122" y="0" w="122" h="135" pX="0.5327868852459017" pY="0.3962962962962963"/>
+	<sprite n="z10_hair_back_left" x="162" y="185" w="35" h="40" pX="1.2142857142857142" pY="-0.8724999999999999"/>
+	<sprite n="z10_hair_back_right" x="199" y="178" w="40" h="35" pX="0.8428571428571429" pY="-0.825" r="y"/>
+	<sprite n="z10_mid_arm" x="126" y="137" w="34" h="112" pX="0.8448275862068966" pY="0.5" oX="2" oY="0" oW="116" oH="36" r="y"/>
+	<sprite n="z10_moustache" x="241" y="137" w="13" h="46" pX="0.45652173913043476" pY="1.1538461538461537" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:efe72569084118a9486494b993a07f33:2dac0fd05a966779d3bfcbe849f95635:a616b6035eafa0e4ae2150c756a0ef3e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AD_RARE_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="AD_body" x="0" y="0" w="161" h="137" pX="0.5113636363636364" pY="0.6773049645390071" oX="8" oY="2" oW="176" oH="141" />
+  <sprite n="AD_eggs_left" x="163" y="99" w="84" h="94" pX="1.7446808510638299" pY="1.2261904761904763" r="y" />
+  <sprite n="AD_eggs_right" x="0" y="139" w="120" h="94" pX="-0.6" pY="1.1117021276595744" />
+  <sprite n="AD_hat_A" x="163" y="0" w="89" h="97" pX="0.48314606741573035" pY="0.5814432989690721" />
+  <sprite n="AD_hat_B" x="110" y="251" w="106" h="75" pX="0.44716981132075473" pY="0.35733333333333334" />
+  <sprite n="AD_keyboard_a" x="0" y="357" w="98" h="70" pX="0.5" pY="0.5" />
+  <sprite n="AD_keyboard_b" x="0" y="291" w="106" h="64" pX="0.5" pY="0.5" />
+  <sprite n="AD_keyboard_c1" x="122" y="195" w="108" h="54" pX="0.5" pY="0.5" />
+  <sprite n="AD_keyboard_c2" x="0" y="235" w="108" h="54" pX="0.5" pY="0.5" />
+  <sprite n="AD_keyboard_d" x="108" y="328" w="106" h="64" pX="0.5" pY="0.5" />
+  <sprite n="AD_keyboard_e" x="148" y="394" w="98" h="70" pX="0.5" pY="0.5" />
+  <sprite n="AD_keyboard_f" x="0" y="429" w="72" h="78" pX="0.5" pY="0.5" r="y" />
+  <sprite n="AD_keyboard_g" x="74" y="429" w="72" h="78" pX="0.5" pY="0.5" r="y" />
+</TextureAtlas>

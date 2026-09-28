@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:694723bcf8aee140d9df710945d01a03:77802fcd4ce88224a650088ecca8cbe8:49d6a8e4813fe6614226bca4155724e4$ -->
+<TextureAtlas imagePath="gfx/structures/dishharmonizer_sheet_tier_2.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="bowl_arm" x="0" y="956" w="173" h="155" oX="13" oY="4" oW="180" oH="180" r="y"/>
+	<sprite n="bowl_arm_01" x="927" y="264" w="95" h="151" oX="2" oY="4" oW="100" oH="160"/>
+	<sprite n="bowl_arm_02 _overlap" x="410" y="1060" w="52" h="46" oX="97" oY="156" oW="200" oH="260"/>
+	<sprite n="bowl_arm_02" x="0" y="645" w="254" h="187" oX="7" oY="3" oW="200" oH="260" r="y"/>
+	<sprite n="bowl_arm_03" x="256" y="645" w="233" h="135" oX="2" oY="3" oW="140" oH="240" r="y"/>
+	<sprite n="bowl_arm_tier2_02 _overlap" x="193" y="948" w="54" h="65" oX="95" oY="137" oW="200" oH="260"/>
+	<sprite n="bowl_armglow_center" x="103" y="1518" w="44" h="43" oX="8" oY="9" oW="60" oH="60"/>
+	<sprite n="bowl_armglow_petal" x="429" y="930" w="24" h="63" oX="3" oY="3" oW="30" oH="70"/>
+	<sprite n="bowl_back" x="0" y="0" w="581" h="382" oX="5" oY="19" oW="590" oH="420"/>
+	<sprite n="bowl_blob" x="491" y="717" w="90" h="58" oX="0" oY="1" oW="90" oH="60"/>
+	<sprite n="bowl_ear" x="927" y="417" w="93" h="129" oX="6" oY="4" oW="140" oH="100" r="y"/>
+	<sprite n="bowl_ear_01" x="927" y="548" w="93" h="129" oX="20" oY="56" oW="160" oH="160" r="y"/>
+	<sprite n="bowl_ear_02" x="491" y="777" w="82" h="141" oX="7" oY="57" oW="160" oH="160" r="y"/>
+	<sprite n="bowl_ear_03" x="175" y="1093" w="66" h="145" oX="2" oY="54" oW="160" oH="160" r="y"/>
+	<sprite n="bowl_ear_04" x="151" y="1383" w="66" h="141" oX="7" oY="37" oW="160" oH="160" r="y"/>
+	<sprite n="bowl_ear_05" x="894" y="679" w="130" h="89" oX="17" oY="7" oW="160" oH="160"/>
+	<sprite n="bowl_earplugged" x="894" y="861" w="129" h="93" oX="6" oY="4" oW="140" oH="100"/>
+	<sprite n="bowl_earplugged_01" x="894" y="861" w="129" h="93" oX="20" oY="56" oW="160" oH="160"/>
+	<sprite n="bowl_earplugged_02" x="151" y="1240" w="82" h="141" oX="7" oY="57" oW="160" oH="160" r="y"/>
+	<sprite n="bowl_earplugged_03" x="395" y="1249" w="66" h="145" oX="2" oY="54" oW="160" oH="160" r="y"/>
+	<sprite n="bowl_earplugged_04" x="0" y="1450" w="141" h="66" oX="7" oY="37" oW="160" oH="160"/>
+	<sprite n="bowl_earplugged_05" x="894" y="770" w="130" h="89" oX="17" oY="7" oW="160" oH="160"/>
+	<sprite n="bowl_eye_01" x="894" y="575" w="28" h="27" oX="2" oY="1" oW="30" oH="30" r="y"/>
+	<sprite n="bowl_eye_02" x="894" y="604" w="27" h="26" oX="1" oY="2" oW="30" oH="30"/>
+	<sprite n="bowl_eye_tier2_01" x="894" y="575" w="28" h="27" oX="2" oY="1" oW="30" oH="30" r="y"/>
+	<sprite n="bowl_eye_tier2_02" x="894" y="604" w="27" h="26" oX="1" oY="2" oW="30" oH="30"/>
+	<sprite n="bowl_eyelida_01" x="410" y="1108" w="51" h="45" oX="5" oY="4" oW="60" oH="50"/>
+	<sprite n="bowl_eyelida_02" x="410" y="1155" w="51" h="45" oX="5" oY="4" oW="60" oH="50"/>
+	<sprite n="bowl_eyelida_03" x="410" y="1202" w="51" h="45" oX="5" oY="4" oW="60" oH="50"/>
+	<sprite n="bowl_eyelida_04" x="0" y="1518" w="51" h="45" oX="5" oY="4" oW="60" oH="50"/>
+	<sprite n="bowl_eyelidb_01" x="53" y="1518" w="48" h="41" oX="7" oY="3" oW="60" oH="50"/>
+	<sprite n="bowl_eyelidb_02" x="53" y="1561" w="48" h="41" oX="7" oY="3" oW="60" oH="50"/>
+	<sprite n="bowl_eyelidb_03" x="0" y="1565" w="48" h="41" oX="7" oY="3" oW="60" oH="50"/>
+	<sprite n="bowl_eyelidb_04" x="730" y="1153" w="48" h="41" oX="7" oY="3" oW="60" oH="50"/>
+	<sprite n="bowl_face" x="583" y="264" w="342" h="309" oX="4" oY="5" oW="350" oH="320"/>
+	<sprite n="bowl_front" x="0" y="384" w="581" h="259" oX="4" oY="0" oW="590" oH="260"/>
+	<sprite n="bowl_front_left_hole" x="175" y="1015" w="76" h="76" oX="150" oY="141" oW="590" oH="260"/>
+	<sprite n="bowl_glow" x="256" y="782" w="209" h="146" oX="20" oY="2" oW="250" oH="150"/>
+	<sprite n="bowl_glowb_01" x="0" y="1338" w="149" h="110" oX="45" oY="35" oW="200" oH="220" r="y"/>
+	<sprite n="bowl_glowb_02" x="467" y="920" w="113" h="150" oX="43" oY="35" oW="200" oH="220"/>
+	<sprite n="bowl_glowb_03" x="0" y="1113" w="150" h="110" oX="45" oY="35" oW="200" oH="220" r="y"/>
+	<sprite n="bowl_glowb_04" x="464" y="1072" w="113" h="150" oX="43" oY="35" oW="200" oH="220"/>
+	<sprite n="bowl_glowb_05" x="579" y="1153" w="149" h="110" oX="45" oY="35" oW="200" oH="220" r="y"/>
+	<sprite n="bowl_glowb_06" x="243" y="1217" w="150" h="113" oX="43" oY="35" oW="200" oH="220" r="y"/>
+	<sprite n="bowl_glowb_07" x="0" y="1225" w="149" h="111" oX="44" oY="35" oW="200" oH="220" r="y"/>
+	<sprite n="bowl_godhand" x="583" y="575" w="309" h="576" oX="0" oY="0" oW="310" oH="580"/>
+	<sprite n="bowl_shine" x="583" y="0" w="441" h="262" oX="102" oY="0" oW="500" oH="500" r="y"/>
+	<sprite n="bowl_shockwave" x="894" y="956" w="128" h="201" oX="50" oY="86" oW="300" oH="300" r="y"/>
+	<sprite n="bowl_shoulder" x="491" y="645" w="90" h="70" oX="5" oY="5" oW="80" oH="100" r="y"/>
+	<sprite n="bowl_smoke" x="0" y="834" w="191" h="120" oX="54" oY="91" oW="300" oH="300"/>
+	<sprite n="bowl_spark_01" x="193" y="834" w="58" h="112" oX="71" oY="44" oW="200" oH="200"/>
+	<sprite n="bowl_spark_02" x="235" y="1332" w="148" h="100" oX="50" oY="26" oW="200" oH="200" r="y"/>
+	<sprite n="bowl_spark_03" x="253" y="930" w="174" h="128" oX="36" oY="13" oW="200" oH="200" r="y"/>
+	<sprite n="bowl_spark_04" x="463" y="1224" w="104" h="104" oX="48" oY="48" oW="200" oH="200"/>
+	<sprite n="bowl_spark_05" x="253" y="1060" w="155" h="155" oX="23" oY="23" oW="200" oH="200"/>
+</TextureAtlas>

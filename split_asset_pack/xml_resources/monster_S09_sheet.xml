@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9b615a3a3897244f17d2911cfcb436d6:d3565c12a7bb9802e2cefff65b500379:9dc86c3bb8a789f1cd1d01d0621f1f3e$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_S09_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="S09_cake_lips" x="525" y="516" w="79" h="89" oX="9" oY="7" oW="100" oH="100">
+		<vertices>88 42 88 96 9 73 12 21 61 7</vertices>
+		<verticesUV>604 551 604 605 525 582 528 530 577 516</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_cake_lips_RARE" x="473" y="147" w="79" h="89" oX="9" oY="7" oW="100" oH="100">
+		<vertices>88 42 88 96 9 73 12 21 61 7</vertices>
+		<verticesUV>552 182 552 236 473 213 476 161 525 147</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_A" x="377" y="227" w="63" h="115" oX="13" oY="14" oW="100" oH="160">
+		<vertices>76 41 76 127 13 129 24 44 49 14</vertices>
+		<verticesUV>440 254 440 340 377 342 388 257 413 227</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_eyelids_01" x="0" y="1866" w="33" h="29" oX="15" oY="29" oW="60" oH="100">
+		<vertices>48 58 15 58 15 29 48 29</vertices>
+		<verticesUV>33 1895 0 1895 0 1866 33 1866</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_eyelids_02" x="450" y="334" w="32" h="29" oX="16" oY="29" oW="60" oH="100">
+		<vertices>48 58 16 58 16 29 48 29</vertices>
+		<verticesUV>482 363 450 363 450 334 482 334</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_eyelids_03" x="55" y="1843" w="39" h="75" oX="9" oY="10" oW="60" oH="100">
+		<vertices>48 85 9 46 48 10</vertices>
+		<verticesUV>94 1918 55 1879 94 1843</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_mouth_01" x="706" y="4" w="38" h="32" oX="5" oY="49" oW="60" oH="100">
+		<vertices>43 62 5 81 37 49</vertices>
+		<verticesUV>744 17 706 36 738 4</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_mouth_02" x="49" y="880" w="36" h="26" oX="20" oY="48" oW="60" oH="100">
+		<vertices>56 72 20 74 32 48</vertices>
+		<verticesUV>85 904 49 906 61 880</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_mouth_03" x="233" y="407" w="37" h="53" oX="14" oY="30" oW="60" oH="100">
+		<vertices>51 67 35 83 14 30</vertices>
+		<verticesUV>270 444 254 460 233 407</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_mouth_04" x="364" y="1191" w="37" h="56" oX="18" oY="34" oW="60" oH="100">
+		<vertices>55 71 35 90 18 34</vertices>
+		<verticesUV>401 1228 381 1247 364 1191</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_mouth_05" x="456" y="496" w="21" h="34" oX="26" oY="52" oW="60" oH="100">
+		<vertices>47 86 26 86 26 52 47 52</vertices>
+		<verticesUV>477 530 456 530 456 496 477 496</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_A_RARE" x="487" y="254" w="60" h="124" oX="19" oY="14" oW="100" oH="160">
+		<vertices>79 40 72 138 19 123 22 45 49 14</vertices>
+		<verticesUV>547 280 540 378 487 363 490 285 517 254</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_candle_B" x="640" y="369" w="55" h="152" oX="22" oY="1" oW="100" oH="160">
+		<vertices>77 153 22 153 22 1 77 1</vertices>
+		<verticesUV>695 521 640 521 640 369 695 369</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_eyelids_01" x="0" y="436" w="46" h="55" oX="8" oY="6" oW="60" oH="100">
+		<vertices>54 34 20 61 8 30 24 6 49 6</vertices>
+		<verticesUV>46 464 12 491 0 460 16 436 41 436</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_eyelids_02" x="191" y="1758" w="38" h="47" oX="13" oY="6" oW="60" oH="100">
+		<vertices>51 53 13 53 13 6 51 6</vertices>
+		<verticesUV>229 1805 191 1805 191 1758 229 1758</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_eyelids_03" x="916" y="1185" w="39" h="47" oX="12" oY="6" oW="60" oH="100">
+		<vertices>51 53 12 53 12 6 51 6</vertices>
+		<verticesUV>955 1232 916 1232 916 1185 955 1185</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_icing" x="725" y="1172" w="77" h="38" oX="11" oY="11" oW="100" oH="60">
+		<vertices>88 49 11 49 11 11 88 11</vertices>
+		<verticesUV>802 1210 725 1210 725 1172 802 1172</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_icing_RARE" x="154" y="408" w="77" h="38" oX="11" oY="11" oW="100" oH="60">
+		<vertices>88 49 11 49 11 11 88 11</vertices>
+		<verticesUV>231 446 154 446 154 408 231 408</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_mouth_01" x="669" y="2004" w="23" h="42" oX="28" oY="30" oW="60" oH="100">
+		<vertices>51 72 28 71 28 30</vertices>
+		<verticesUV>692 2046 669 2045 669 2004</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_mouth_02" x="556" y="1211" w="37" h="23" oX="23" oY="48" oW="60" oH="100">
+		<vertices>60 71 23 71 33 48</vertices>
+		<verticesUV>593 1234 556 1234 566 1211</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_mouth_03" x="755" y="1847" w="34" h="34" oX="22" oY="46" oW="60" oH="100">
+		<vertices>56 71 22 80 31 46</vertices>
+		<verticesUV>789 1872 755 1881 764 1847</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_mouth_04" x="11" y="830" w="48" h="80" oX="4" oY="19" oW="60" oH="100">
+		<vertices>52 67 35 99 4 19</vertices>
+		<verticesUV>59 878 42 910 11 830</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_mouth_05" x="0" y="0" w="22" h="31" oX="26" oY="56" oW="60" oH="100">
+		<vertices>48 87 26 87 26 56 48 56</vertices>
+		<verticesUV>22 31 0 31 0 0 22 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_mouth_06" x="574" y="1112" w="23" h="39" oX="26" oY="56" oW="60" oH="100">
+		<vertices>49 95 26 95 26 56 49 56</vertices>
+		<verticesUV>597 1151 574 1151 574 1112 597 1112</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_B_RARE" x="669" y="207" w="59" h="159" oX="18" oY="1" oW="100" oH="160">
+		<vertices>77 156 40 160 24 151 18 1 77 1</vertices>
+		<verticesUV>728 362 691 366 675 357 669 207 728 207</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_C" x="577" y="369" w="61" h="145" oX="19" oY="2" oW="100" oH="160">
+		<vertices>80 147 19 147 19 2 80 2</vertices>
+		<verticesUV>638 514 577 514 577 369 638 369</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_eyelids_01" x="649" y="1830" w="46" h="45" oX="8" oY="16" oW="60" oH="100">
+		<vertices>54 32 54 61 18 61 8 37 25 16</vertices>
+		<verticesUV>695 1846 695 1875 659 1875 649 1851 666 1830</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_eyelids_02" x="957" y="1193" w="41" h="39" oX="13" oY="22" oW="60" oH="100">
+		<vertices>54 61 13 61 13 22 54 22</vertices>
+		<verticesUV>998 1232 957 1232 957 1193 998 1193</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_eyelids_03" x="221" y="2009" w="41" h="39" oX="13" oY="22" oW="60" oH="100">
+		<vertices>54 61 13 61 13 22 54 22</vertices>
+		<verticesUV>262 2048 221 2048 221 2009 262 2009</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_icing" x="590" y="1722" w="54" h="32" oX="13" oY="14" oW="80" oH="60">
+		<vertices>67 46 13 46 13 14 67 14</vertices>
+		<verticesUV>644 1754 590 1754 590 1722 644 1722</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_icing_RARE" x="646" y="1715" w="54" h="32" oX="13" oY="14" oW="80" oH="60">
+		<vertices>67 46 13 46 13 14 67 14</vertices>
+		<verticesUV>700 1747 646 1747 646 1715 700 1715</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_mouth_01" x="264" y="2023" w="25" h="25" oX="16" oY="48" oW="60" oH="100">
+		<vertices>41 73 16 73 16 48</vertices>
+		<verticesUV>289 2048 264 2048 264 2023</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_mouth_02" x="224" y="1552" w="22" h="50" oX="17" oY="46" oW="60" oH="100">
+		<vertices>39 68 17 96 17 46</vertices>
+		<verticesUV>246 1574 224 1602 224 1552</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_mouth_03" x="959" y="0" w="18" h="21" oX="16" oY="61" oW="60" oH="100">
+		<vertices>34 82 16 82 16 61 34 61</vertices>
+		<verticesUV>977 21 959 21 959 0 977 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_mouth_04" x="31" y="70" w="21" h="26" oX="13" oY="61" oW="60" oH="100">
+		<vertices>34 87 13 87 13 61 34 61</vertices>
+		<verticesUV>52 96 31 96 31 70 52 70</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_mouth_05" x="191" y="1807" w="23" h="33" oX="12" oY="58" oW="60" oH="100">
+		<vertices>35 91 12 91 12 58 35 58</vertices>
+		<verticesUV>214 1840 191 1840 191 1807 214 1807</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_C_RARE" x="606" y="222" w="61" h="145" oX="18" oY="2" oW="100" oH="160">
+		<vertices>79 147 18 147 18 2 79 2</vertices>
+		<verticesUV>667 367 606 367 606 222 667 222</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_D" x="636" y="1220" w="55" h="141" oX="23" oY="0" oW="100" oH="160">
+		<vertices>78 48 73 139 24 141 23 14 45 0</vertices>
+		<verticesUV>691 1268 686 1359 637 1361 636 1234 658 1220</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_eyelids_01" x="102" y="1770" w="33" h="35" oX="21" oY="30" oW="60" oH="100">
+		<vertices>54 65 21 65 21 30 54 30</vertices>
+		<verticesUV>135 1805 102 1805 102 1770 135 1770</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_eyelids_02" x="48" y="425" w="33" h="35" oX="21" oY="30" oW="60" oH="100">
+		<vertices>54 65 21 65 21 30 54 30</vertices>
+		<verticesUV>81 460 48 460 48 425 81 425</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_eyelids_03" x="749" y="300" w="33" h="35" oX="21" oY="30" oW="60" oH="100">
+		<vertices>54 65 21 65 21 30 54 30</vertices>
+		<verticesUV>782 335 749 335 749 300 782 300</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_mouth_01" x="158" y="1320" w="29" h="25" oX="9" oY="47" oW="60" oH="100">
+		<vertices>38 60 32 72 9 63 21 47</vertices>
+		<verticesUV>187 1333 181 1345 158 1336 170 1320</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_mouth_02" x="830" y="400" w="32" h="50" oX="5" oY="30" oW="60" oH="100">
+		<vertices>37 62 23 80 5 30</vertices>
+		<verticesUV>862 432 848 450 830 400</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_mouth_03" x="343" y="936" w="30" h="44" oX="9" oY="34" oW="60" oH="100">
+		<vertices>39 64 16 78 9 34</vertices>
+		<verticesUV>373 966 350 980 343 936</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_mouth_04" x="0" y="1506" w="30" h="65" oX="9" oY="31" oW="60" oH="100">
+		<vertices>39 61 9 96 9 31</vertices>
+		<verticesUV>30 1536 0 1571 0 1506</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_mouth_05" x="88" y="2018" w="26" h="28" oX="8" oY="52" oW="60" oH="100">
+		<vertices>34 80 8 80 8 52 34 52</vertices>
+		<verticesUV>114 2046 88 2046 88 2018 114 2018</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_mouth_06" x="19" y="1069" w="38" h="98" oX="2" oY="2" oW="60" oH="100">
+		<vertices>40 62 5 100 2 2</vertices>
+		<verticesUV>57 1129 22 1167 19 1069</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_D_RARE" x="549" y="227" w="55" h="140" oX="22" oY="1" oW="100" oH="160">
+		<vertices>77 46 77 141 22 139 22 14 45 1</vertices>
+		<verticesUV>604 272 604 367 549 365 549 240 572 227</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_candle_E" x="479" y="445" w="44" h="136" oX="28" oY="6" oW="100" oH="160">
+		<vertices>72 30 72 132 28 142 28 32 54 6</vertices>
+		<verticesUV>523 469 523 571 479 581 479 471 505 445</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_eyes_01" x="448" y="1840" w="33" h="27" oX="11" oY="18" oW="60" oH="100">
+		<vertices>44 45 11 45 11 18 44 18</vertices>
+		<verticesUV>481 1867 448 1867 448 1840 481 1840</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_eyes_02" x="0" y="40" w="33" h="27" oX="11" oY="18" oW="60" oH="100">
+		<vertices>44 45 11 45 11 18 44 18</vertices>
+		<verticesUV>33 67 0 67 0 40 33 40</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_eyes_03" x="371" y="1789" w="31" h="26" oX="12" oY="19" oW="60" oH="100">
+		<vertices>43 45 12 45 12 19 43 19</vertices>
+		<verticesUV>402 1815 371 1815 371 1789 402 1789</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_icing" x="613" y="803" w="151" h="69" oX="2" oY="4" oW="160" oH="80">
+		<vertices>153 34 153 73 19 66 2 44 8 30 60 4</vertices>
+		<verticesUV>764 833 764 872 630 865 613 843 619 829 671 803</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_icing_RARE" x="577" y="135" w="151" h="69" oX="2" oY="4" oW="160" oH="80">
+		<vertices>153 34 153 73 19 66 2 44 8 30 60 4</vertices>
+		<verticesUV>728 165 728 204 594 197 577 175 583 161 635 135</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_01" x="697" y="1854" w="24" h="18" oX="26" oY="43" oW="60" oH="100">
+		<vertices>50 53 26 61 26 43</vertices>
+		<verticesUV>721 1864 697 1872 697 1854</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_02" x="0" y="1361" w="26" h="42" oX="23" oY="41" oW="60" oH="100">
+		<vertices>49 51 28 83 23 41</vertices>
+		<verticesUV>26 1371 5 1403 0 1361</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_03" x="373" y="426" w="39" h="55" oX="18" oY="28" oW="60" oH="100">
+		<vertices>57 67 29 83 18 28</vertices>
+		<verticesUV>412 465 384 481 373 426</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_04" x="595" y="519" w="51" h="73" oX="6" oY="16" oW="60" oH="100">
+		<vertices>57 67 33 89 6 16</vertices>
+		<verticesUV>646 570 622 592 595 519</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_05" x="804" y="1172" w="25" h="36" oX="26" oY="46" oW="60" oH="100">
+		<vertices>51 82 26 82 26 46 51 46</vertices>
+		<verticesUV>829 1208 804 1208 804 1172 829 1172</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_06" x="52" y="208" w="27" h="42" oX="26" oY="44" oW="60" oH="100">
+		<vertices>53 86 26 86 26 44 53 44</vertices>
+		<verticesUV>79 250 52 250 52 208 79 208</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_mouth_07" x="702" y="0" w="31" h="19" oX="23" oY="46" oW="60" oH="100">
+		<vertices>23 65 23 46 54 46</vertices>
+		<verticesUV>702 19 702 0 733 0</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_E_RARE" x="525" y="368" w="50" h="137" oX="26" oY="6" oW="100" oH="160">
+		<vertices>72 29 76 143 29 133 26 36 53 6</vertices>
+		<verticesUV>571 391 575 505 528 495 525 398 552 368</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_candle_F" x="838" y="1319" w="45" h="94" oX="27" oY="27" oW="100" oH="160">
+		<vertices>72 121 27 121 27 27 72 27</vertices>
+		<verticesUV>883 1413 838 1413 838 1319 883 1319</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_eyelids_01" x="216" y="0" w="38" h="25" oX="17" oY="28" oW="60" oH="100">
+		<vertices>55 53 17 53 17 28 55 28</vertices>
+		<verticesUV>254 25 216 25 216 0 254 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_eyelids_02" x="114" y="415" w="38" h="25" oX="17" oY="28" oW="60" oH="100">
+		<vertices>55 53 17 53 17 28 55 28</vertices>
+		<verticesUV>152 440 114 440 114 415 152 415</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_eyelids_03" x="405" y="354" w="43" h="92" oX="12" oY="8" oW="60" oH="100">
+		<vertices>55 100 12 35 55 8</vertices>
+		<verticesUV>448 446 405 381 448 354</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_icing_01" x="373" y="1165" w="187" h="69" oX="2" oY="6" oW="200" oH="80">
+		<vertices>189 45 182 75 40 54 2 34 34 21 138 6</vertices>
+		<verticesUV>560 1204 553 1234 411 1213 373 1193 405 1180 509 1165</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_icing_01_RARE" x="789" y="0" w="187" h="69" oX="2" oY="6" oW="200" oH="80">
+		<vertices>189 45 182 75 40 54 2 34 34 21 138 6</vertices>
+		<verticesUV>976 39 969 69 827 48 789 28 821 15 925 0</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_icing_02" x="837" y="1240" w="63" h="77" oX="9" oY="1" oW="80" oH="80">
+		<vertices>49 4 72 55 51 76 9 78 11 12 38 1</vertices>
+		<verticesUV>877 1243 900 1294 879 1315 837 1317 839 1251 866 1240</verticesUV>
+		<triangles>1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_icing_02_RARE" x="598" y="1153" w="63" h="77" oX="9" oY="1" oW="80" oH="80">
+		<vertices>49 4 72 55 51 76 9 78 11 12 38 1</vertices>
+		<verticesUV>638 1156 661 1207 640 1228 598 1230 600 1164 627 1153</verticesUV>
+		<triangles>1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_mouth_01" x="525" y="498" w="38" h="16" oX="19" oY="42" oW="60" oH="100">
+		<vertices>57 58 19 58 22 42</vertices>
+		<verticesUV>563 514 525 514 528 498</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_mouth_02" x="452" y="126" w="26" h="46" oX="14" oY="26" oW="60" oH="100">
+		<vertices>40 52 24 72 14 26</vertices>
+		<verticesUV>478 152 462 172 452 126</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_mouth_03" x="654" y="1363" w="33" h="52" oX="8" oY="22" oW="60" oH="100">
+		<vertices>41 51 23 74 8 22</vertices>
+		<verticesUV>687 1392 669 1415 654 1363</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_mouth_04" x="574" y="1546" w="36" h="38" oX="7" oY="27" oW="60" oH="100">
+		<vertices>43 64 7 65 28 27</vertices>
+		<verticesUV>610 1583 574 1584 595 1546</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_mouth_05" x="0" y="848" w="31" h="67" oX="12" oY="12" oW="60" oH="100">
+		<vertices>43 54 15 79 12 12</vertices>
+		<verticesUV>31 890 3 915 0 848</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_F_RARE" x="955" y="605" w="47" h="94" oX="25" oY="27" oW="100" oH="160">
+		<vertices>72 121 25 121 25 27 72 27</vertices>
+		<verticesUV>1002 699 955 699 955 605 1002 605</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_01" x="725" y="974" w="31" h="76" oX="45" oY="23" oW="120" oH="120">
+		<vertices>76 99 45 99 45 23 76 23</vertices>
+		<verticesUV>756 1050 725 1050 725 974 756 974</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_02" x="0" y="1257" w="45" h="90" oX="38" oY="18" oW="120" oH="120">
+		<vertices>83 87 48 108 38 37 53 18</vertices>
+		<verticesUV>45 1326 10 1347 0 1276 15 1257</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_03" x="323" y="409" w="55" h="92" oX="30" oY="17" oW="120" oH="120">
+		<vertices>85 80 54 109 30 42 55 17</vertices>
+		<verticesUV>378 472 347 501 323 434 348 409</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_04" x="871" y="1706" w="41" h="90" oX="39" oY="16" oW="120" oH="120">
+		<vertices>80 73 66 106 39 86 57 16</vertices>
+		<verticesUV>912 1763 898 1796 871 1776 889 1706</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_05" x="347" y="1206" w="50" h="95" oX="38" oY="4" oW="120" oH="120">
+		<vertices>88 99 38 99 56 4</vertices>
+		<verticesUV>397 1301 347 1301 365 1206</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_06" x="427" y="139" w="44" h="94" oX="40" oY="15" oW="120" oH="120">
+		<vertices>84 78 56 109 40 75 60 15</vertices>
+		<verticesUV>471 202 443 233 427 199 447 139</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_07" x="782" y="1670" w="48" h="93" oX="37" oY="13" oW="120" oH="120">
+		<vertices>85 87 53 106 37 65 62 13</vertices>
+		<verticesUV>830 1744 798 1763 782 1722 807 1670</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_flame_08" x="0" y="74" w="46" h="98" oX="37" oY="13" oW="120" oH="120">
+		<vertices>83 80 52 111 37 57 57 13</vertices>
+		<verticesUV>46 141 15 172 0 118 20 74</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_G" x="777" y="400" w="75" h="114" oX="8" oY="8" oW="100" oH="160">
+		<vertices>83 122 28 122 8 54 58 8</vertices>
+		<verticesUV>852 514 797 514 777 446 827 400</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_eyelids_01" x="554" y="199" w="36" h="25" oX="15" oY="26" oW="60" oH="100">
+		<vertices>51 51 15 51 15 26 51 26</vertices>
+		<verticesUV>590 224 554 224 554 199 590 199</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_eyelids_02" x="544" y="135" w="35" h="25" oX="15" oY="26" oW="60" oH="100">
+		<vertices>50 51 15 51 15 26 50 26</vertices>
+		<verticesUV>579 160 544 160 544 135 579 135</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_eyelids_03" x="189" y="1324" w="36" h="25" oX="15" oY="26" oW="60" oH="100">
+		<vertices>51 51 15 51 15 26 51 26</vertices>
+		<verticesUV>225 1349 189 1349 189 1324 225 1324</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_mouth_01" x="755" y="485" w="38" h="26" oX="7" oY="37" oW="60" oH="100">
+		<vertices>45 61 7 63 33 37</vertices>
+		<verticesUV>793 509 755 511 781 485</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_mouth_02" x="477" y="1087" w="42" h="21" oX="8" oY="40" oW="60" oH="100">
+		<vertices>50 61 8 61 29 40</vertices>
+		<verticesUV>519 1108 477 1108 498 1087</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_mouth_03" x="459" y="1126" w="42" h="37" oX="17" oY="28" oW="60" oH="100">
+		<vertices>59 65 17 65 17 28</vertices>
+		<verticesUV>501 1163 459 1163 459 1126</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_mouth_04" x="228" y="628" w="50" h="34" oX="9" oY="35" oW="60" oH="100">
+		<vertices>59 69 9 67 25 35</vertices>
+		<verticesUV>278 662 228 660 244 628</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_mouth_05" x="599" y="1124" w="27" h="26" oX="14" oY="47" oW="60" oH="100">
+		<vertices>41 73 14 73 14 47 41 47</vertices>
+		<verticesUV>626 1150 599 1150 599 1124 626 1124</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_G_RARE" x="596" y="1395" w="65" h="103" oX="15" oY="19" oW="100" oH="160">
+		<vertices>80 20 80 122 24 122 15 19</vertices>
+		<verticesUV>661 1396 661 1498 605 1498 596 1395</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_glow" x="450" y="365" w="73" h="77" oX="4" oY="0" oW="78" oH="78">
+		<vertices>64 8 77 33 65 75 4 77 4 12 39 0</vertices>
+		<verticesUV>510 373 523 398 511 440 450 442 450 377 485 365</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_01" x="967" y="1470" w="38" h="88" oX="24" oY="8" oW="80" oH="100">
+		<vertices>62 79 24 96 25 23 37 8</vertices>
+		<verticesUV>1005 1541 967 1558 968 1485 980 1470</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_02" x="758" y="975" w="30" h="75" oX="25" oY="12" oW="80" oH="100">
+		<vertices>55 87 25 87 25 12 55 12</vertices>
+		<verticesUV>788 1050 758 1050 758 975 788 975</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_03" x="988" y="1708" w="31" h="76" oX="25" oY="10" oW="80" oH="100">
+		<vertices>56 86 25 86 25 10 56 10</vertices>
+		<verticesUV>1019 1784 988 1784 988 1708 1019 1708</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_04" x="285" y="1482" w="42" h="73" oX="26" oY="12" oW="80" oH="100">
+		<vertices>68 85 27 85 26 14 38 12</vertices>
+		<verticesUV>327 1555 286 1555 285 1484 297 1482</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_05" x="833" y="1052" w="31" h="72" oX="25" oY="11" oW="80" oH="100">
+		<vertices>56 83 25 83 25 11 56 11</vertices>
+		<verticesUV>864 1124 833 1124 833 1052 864 1052</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_06" x="976" y="525" w="47" h="72" oX="22" oY="13" oW="80" oH="100">
+		<vertices>69 85 22 85 26 13 41 13</vertices>
+		<verticesUV>1023 597 976 597 980 525 995 525</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_07" x="751" y="1711" w="43" h="98" oX="16" oY="1" oW="80" oH="100">
+		<vertices>59 64 37 99 16 53 41 1</vertices>
+		<verticesUV>794 1774 772 1809 751 1763 776 1711</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_candle_smoke_08" x="637" y="1024" w="35" h="73" oX="23" oY="13" oW="80" oH="100">
+		<vertices>58 86 23 86 23 13 58 13</vertices>
+		<verticesUV>672 1097 637 1097 637 1024 672 1024</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_candle_stick" x="885" y="1320" w="10" h="34" oX="3" oY="3" oW="16" oH="40">
+		<vertices>13 37 3 37 3 3 13 3</vertices>
+		<verticesUV>895 1354 885 1354 885 1320 895 1320</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eye_A_icing" x="161" y="618" w="69" h="31" oX="15" oY="14" oW="100" oH="60">
+		<vertices>84 45 15 45 15 14 84 14</vertices>
+		<verticesUV>230 649 161 649 161 618 230 618</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eye_A_icing_RARE" x="0" y="644" w="69" h="31" oX="15" oY="14" oW="100" oH="60">
+		<vertices>84 45 15 45 15 14 84 14</vertices>
+		<verticesUV>69 675 0 675 0 644 69 644</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eye_B_icing" x="73" y="632" w="86" h="32" oX="7" oY="14" oW="100" oH="60">
+		<vertices>93 46 7 46 7 14 93 14</vertices>
+		<verticesUV>159 664 73 664 73 632 159 632</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eye_B_icing_RARE" x="256" y="0" w="86" h="32" oX="7" oY="14" oW="100" oH="60">
+		<vertices>93 46 7 46 7 14 93 14</vertices>
+		<verticesUV>342 32 256 32 256 0 342 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eye_F_icing" x="464" y="62" w="92" h="87" oX="2" oY="7" oW="100" oH="100">
+		<vertices>76 9 94 50 75 88 21 94 2 52 22 7</vertices>
+		<verticesUV>538 64 556 105 537 143 483 149 464 107 484 62</verticesUV>
+		<triangles>1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_eye_F_icing_RARE" x="312" y="1466" w="92" h="87" oX="2" oY="7" oW="100" oH="100">
+		<vertices>76 9 94 50 75 88 21 94 2 52 22 7</vertices>
+		<verticesUV>386 1468 404 1509 385 1547 331 1553 312 1511 332 1466</verticesUV>
+		<triangles>1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_eye_F_icing_top" x="589" y="2011" w="77" h="37" oX="1" oY="0" oW="80" oH="40">
+		<vertices>70 10 78 29 70 37 5 32 1 10 42 0</vertices>
+		<verticesUV>658 2021 666 2040 658 2048 593 2043 589 2021 630 2011</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="S09_eye_F_icing_top_RARE" x="351" y="2011" w="77" h="37" oX="1" oY="0" oW="80" oH="40">
+		<vertices>70 10 78 29 70 37 5 32 1 10 42 0</vertices>
+		<verticesUV>420 2021 428 2040 420 2048 355 2043 351 2021 392 2011</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_A" x="789" y="685" w="48" h="48" oX="37" oY="37" oW="120" oH="120">
+		<vertices>85 85 37 85 37 37 85 37</vertices>
+		<verticesUV>837 733 789 733 789 685 837 685</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_A_RARE" x="398" y="1827" w="48" h="48" oX="37" oY="37" oW="120" oH="120">
+		<vertices>85 85 37 85 37 37 85 37</vertices>
+		<verticesUV>446 1875 398 1875 398 1827 446 1827</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_B" x="725" y="1052" w="55" h="55" oX="32" oY="33" oW="120" oH="120">
+		<vertices>87 88 32 88 32 33 87 33</vertices>
+		<verticesUV>780 1107 725 1107 725 1052 780 1052</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_B_RARE" x="776" y="1115" w="55" h="55" oX="32" oY="33" oW="120" oH="120">
+		<vertices>87 88 32 88 32 33 87 33</vertices>
+		<verticesUV>831 1170 776 1170 776 1115 831 1115</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_C" x="924" y="1708" w="62" h="62" oX="31" oY="31" oW="120" oH="120">
+		<vertices>93 93 31 93 31 31 93 31</vertices>
+		<verticesUV>986 1770 924 1770 924 1708 986 1708</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_C_RARE" x="344" y="0" w="62" h="62" oX="31" oY="31" oW="120" oH="120">
+		<vertices>93 93 31 93 31 31 93 31</vertices>
+		<verticesUV>406 62 344 62 344 0 406 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_D" x="766" y="1212" w="70" h="70" oX="25" oY="25" oW="120" oH="120">
+		<vertices>95 95 25 95 25 25 95 25</vertices>
+		<verticesUV>836 1282 766 1282 766 1212 836 1212</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_D_RARE" x="694" y="1212" w="70" h="70" oX="25" oY="25" oW="120" oH="120">
+		<vertices>95 95 25 95 25 25 95 25</vertices>
+		<verticesUV>764 1282 694 1282 694 1212 764 1212</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_E" x="871" y="1128" w="38" h="51" oX="38" oY="34" oW="120" oH="120">
+		<vertices>76 85 38 85 38 34 76 34</vertices>
+		<verticesUV>909 1179 871 1179 871 1128 909 1128</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_E_RARE" x="876" y="1181" w="38" h="51" oX="38" oY="34" oW="120" oH="120">
+		<vertices>76 85 38 85 38 34 76 34</vertices>
+		<verticesUV>914 1232 876 1232 876 1181 914 1181</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_F" x="657" y="718" w="113" h="111" oX="0" oY="1" oW="120" oH="120">
+		<vertices>113 112 0 79 78 1</vertices>
+		<verticesUV>770 829 657 796 735 718</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_eyeball_F_RARE" x="673" y="619" w="113" h="111" oX="0" oY="1" oW="120" oH="120">
+		<vertices>113 112 0 79 78 1</vertices>
+		<verticesUV>786 730 673 697 751 619</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_01" x="664" y="1151" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>723 1210 664 1210 664 1151 723 1151</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_01_RARE" x="938" y="1833" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>997 1892 938 1892 938 1833 997 1833</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_02" x="963" y="1234" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>1022 1293 963 1293 963 1234 1022 1234</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_02_RARE" x="902" y="1234" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>961 1293 902 1293 902 1234 961 1234</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_03" x="964" y="1295" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>1023 1354 964 1354 964 1295 1023 1295</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_03_RARE" x="955" y="1356" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>1014 1415 955 1415 955 1356 1014 1356</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_04" x="903" y="1295" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>962 1354 903 1354 903 1295 962 1295</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_A_04_RARE" x="918" y="1772" w="59" h="59" oX="31" oY="31" oW="120" oH="120">
+		<vertices>90 90 31 90 31 31 90 31</vertices>
+		<verticesUV>977 1831 918 1831 918 1772 977 1772</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_01" x="617" y="1642" w="69" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>94 93 25 93 25 27 94 27</vertices>
+		<verticesUV>686 1708 617 1708 617 1642 686 1642</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_01_RARE" x="546" y="1654" w="69" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>94 93 25 93 25 27 94 27</vertices>
+		<verticesUV>615 1720 546 1720 546 1654 615 1654</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_02" x="540" y="1586" w="69" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>94 93 25 93 25 27 94 27</vertices>
+		<verticesUV>609 1652 540 1652 540 1586 609 1586</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_02_RARE" x="897" y="1566" w="69" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>94 93 25 93 25 27 94 27</vertices>
+		<verticesUV>966 1632 897 1632 897 1566 966 1566</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_03" x="613" y="1574" w="70" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>95 93 25 93 25 27 95 27</vertices>
+		<verticesUV>683 1640 613 1640 613 1574 683 1574</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_03_RARE" x="685" y="1572" w="70" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>95 93 25 93 25 27 95 27</vertices>
+		<verticesUV>755 1638 685 1638 685 1572 755 1572</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_04" x="808" y="1428" w="71" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>96 93 25 93 25 27 96 27</vertices>
+		<verticesUV>879 1494 808 1494 808 1428 879 1428</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_B_04_RARE" x="408" y="0" w="71" h="66" oX="25" oY="27" oW="120" oH="120">
+		<vertices>96 93 25 93 25 27 96 27</vertices>
+		<verticesUV>479 66 408 66 408 0 479 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_01" x="765" y="1284" w="70" h="70" oX="27" oY="27" oW="120" oH="120">
+		<vertices>97 97 27 97 27 27 97 27</vertices>
+		<verticesUV>835 1354 765 1354 765 1284 835 1284</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_01_RARE" x="765" y="1356" w="70" h="70" oX="27" oY="27" oW="120" oH="120">
+		<vertices>97 97 27 97 27 27 97 27</vertices>
+		<verticesUV>835 1426 765 1426 765 1356 835 1356</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_02" x="682" y="1500" w="71" h="70" oX="26" oY="27" oW="120" oH="120">
+		<vertices>97 97 26 97 26 27 97 27</vertices>
+		<verticesUV>753 1570 682 1570 682 1500 753 1500</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_02_RARE" x="663" y="1428" w="71" h="70" oX="26" oY="27" oW="120" oH="120">
+		<vertices>97 97 26 97 26 27 97 27</vertices>
+		<verticesUV>734 1498 663 1498 663 1428 734 1428</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_03" x="693" y="1284" w="70" h="70" oX="27" oY="27" oW="120" oH="120">
+		<vertices>97 97 27 97 27 27 97 27</vertices>
+		<verticesUV>763 1354 693 1354 693 1284 763 1284</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_03_RARE" x="689" y="1356" w="70" h="70" oX="27" oY="27" oW="120" oH="120">
+		<vertices>97 97 27 97 27 27 97 27</vertices>
+		<verticesUV>759 1426 689 1426 689 1356 759 1356</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_04" x="755" y="1500" w="70" h="70" oX="27" oY="27" oW="120" oH="120">
+		<vertices>97 97 27 97 27 27 97 27</vertices>
+		<verticesUV>825 1570 755 1570 755 1500 825 1500</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_C_04_RARE" x="736" y="1428" w="70" h="70" oX="27" oY="27" oW="120" oH="120">
+		<vertices>97 97 27 97 27 27 97 27</vertices>
+		<verticesUV>806 1498 736 1498 736 1428 806 1428</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_01" x="774" y="605" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>851 683 774 683 774 605 851 605</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_01_RARE" x="897" y="525" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>974 603 897 603 897 525 974 525</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_02" x="818" y="525" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>895 603 818 603 818 525 895 525</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_02_RARE" x="739" y="516" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>816 594 739 594 739 516 816 516</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_03" x="660" y="550" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>737 628 660 628 660 550 737 550</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_03_RARE" x="934" y="445" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>1011 523 934 523 934 445 1011 445</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_04" x="855" y="445" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>932 523 855 523 855 445 932 445</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_D_04_RARE" x="871" y="365" w="77" h="78" oX="21" oY="21" oW="120" oH="120">
+		<vertices>98 99 21 99 21 21 98 21</vertices>
+		<verticesUV>948 443 871 443 871 365 948 365</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_01" x="438" y="236" w="79" h="92" oX="27" oY="27" oW="120" oH="120">
+		<vertices>106 30 48 119 27 27</vertices>
+		<verticesUV>517 239 459 328 438 236</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_01_RARE" x="315" y="1848" w="79" h="92" oX="27" oY="27" oW="120" oH="120">
+		<vertices>106 30 48 119 27 27</vertices>
+		<verticesUV>394 1851 336 1940 315 1848</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_02" x="744" y="720" w="82" h="98" oX="22" oY="15" oW="120" oH="120">
+		<vertices>104 46 47 113 22 15</vertices>
+		<verticesUV>826 751 769 818 744 720</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_02_RARE" x="16" y="1757" w="82" h="98" oX="22" oY="15" oW="120" oH="120">
+		<vertices>104 46 47 113 22 15</vertices>
+		<verticesUV>98 1788 41 1855 16 1757</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_03" x="675" y="1025" w="48" h="61" oX="33" oY="29" oW="120" oH="120">
+		<vertices>81 90 33 90 33 29 81 29</vertices>
+		<verticesUV>723 1086 675 1086 675 1025 723 1025</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_03_RARE" x="782" y="1052" w="48" h="61" oX="33" oY="29" oW="120" oH="120">
+		<vertices>81 90 33 90 33 29 81 29</vertices>
+		<verticesUV>830 1113 782 1113 782 1052 830 1052</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_04" x="674" y="1088" w="49" h="61" oX="33" oY="29" oW="120" oH="120">
+		<vertices>82 90 33 90 33 29 82 29</vertices>
+		<verticesUV>723 1149 674 1149 674 1088 723 1088</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_E_04_RARE" x="725" y="1109" w="49" h="61" oX="33" oY="29" oW="120" oH="120">
+		<vertices>82 90 33 90 33 29 82 29</vertices>
+		<verticesUV>774 1170 725 1170 725 1109 774 1109</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_01" x="757" y="1572" w="68" h="68" oX="29" oY="28" oW="120" oH="120">
+		<vertices>97 96 29 96 29 28 97 28</vertices>
+		<verticesUV>825 1640 757 1640 757 1572 825 1572</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_01_RARE" x="827" y="1566" w="68" h="68" oX="29" oY="28" oW="120" oH="120">
+		<vertices>97 96 29 96 29 28 97 28</vertices>
+		<verticesUV>895 1634 827 1634 827 1566 895 1566</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_02" x="897" y="1496" w="68" h="68" oX="29" oY="28" oW="120" oH="120">
+		<vertices>97 96 29 96 29 28 97 28</vertices>
+		<verticesUV>965 1564 897 1564 897 1496 965 1496</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_02_RARE" x="885" y="1356" w="68" h="68" oX="29" oY="28" oW="120" oH="120">
+		<vertices>97 96 29 96 29 28 97 28</vertices>
+		<verticesUV>953 1424 885 1424 885 1356 953 1356</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_03" x="881" y="1426" w="68" h="68" oX="29" oY="28" oW="120" oH="120">
+		<vertices>97 96 29 96 29 28 97 28</vertices>
+		<verticesUV>949 1494 881 1494 881 1426 949 1426</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_03_RARE" x="827" y="1496" w="68" h="68" oX="29" oY="28" oW="120" oH="120">
+		<vertices>97 96 29 96 29 28 97 28</vertices>
+		<verticesUV>895 1564 827 1564 827 1496 895 1496</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_04" x="609" y="1500" w="71" h="72" oX="27" oY="26" oW="120" oH="120">
+		<vertices>98 98 27 98 27 26 98 26</vertices>
+		<verticesUV>680 1572 609 1572 609 1500 680 1500</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_eyelids_F_04_RARE" x="950" y="365" w="71" h="72" oX="27" oY="26" oW="120" oH="120">
+		<vertices>98 98 27 98 27 26 98 26</vertices>
+		<verticesUV>1021 437 950 437 950 365 1021 365</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_head" x="235" y="1554" w="236" h="232" oX="60" oY="64" oW="360" oH="360">
+		<vertices>276 77 296 264 215 296 60 279 81 79 173 64</vertices>
+		<verticesUV>451 1567 471 1754 390 1786 235 1769 256 1569 348 1554</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="S09_head_icing" x="333" y="1875" w="257" h="173" oX="46" oY="29" oW="360" oH="240">
+		<vertices>284 54 303 201 169 202 134 151 65 169 46 113 83 48 169 29</vertices>
+		<verticesUV>571 1900 590 2047 456 2048 421 1997 352 2015 333 1959 370 1894 456 1875</verticesUV>
+		<triangles>3 6 7 5 3 4 5 6 3 0 1 2 0 2 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="S09_head_icing_RARE" x="589" y="1874" w="246" h="174" oX="57" oY="29" oW="360" oH="240">
+		<vertices>284 55 303 193 170 203 134 151 57 172 73 52 179 29</vertices>
+		<verticesUV>816 1900 835 2038 702 2048 666 1996 589 2017 605 1897 711 1874</verticesUV>
+		<triangles>3 5 6 3 4 5 2 0 1 2 3 0 0 3 6</triangles>
+	</sprite>
+	<sprite n="S09_head_RARE" x="0" y="1538" w="236" h="232" oX="60" oY="64" oW="360" oH="360">
+		<vertices>276 77 296 264 215 296 60 279 81 79 173 64</vertices>
+		<verticesUV>216 1551 236 1738 155 1770 0 1753 21 1553 113 1538</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_01" x="904" y="605" w="49" h="96" oX="16" oY="12" oW="80" oH="120">
+		<vertices>65 108 16 108 16 12 65 12</vertices>
+		<verticesUV>953 701 904 701 904 605 953 605</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_01_RARE" x="853" y="605" w="49" h="96" oX="16" oY="12" oW="80" oH="120">
+		<vertices>65 108 16 108 16 12 65 12</vertices>
+		<verticesUV>902 701 853 701 853 605 902 605</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_02" x="888" y="1634" w="50" h="79" oX="4" oY="1" oW="60" oH="80">
+		<vertices>54 11 54 60 31 80 6 70 4 14 26 1</vertices>
+		<verticesUV>938 1644 938 1693 915 1713 890 1703 888 1647 910 1634</verticesUV>
+		<triangles>3 1 2 3 4 1 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_02_RARE" x="0" y="195" w="50" h="79" oX="4" oY="1" oW="60" oH="80">
+		<vertices>54 11 54 60 31 80 6 70 4 14 26 1</vertices>
+		<verticesUV>50 205 50 254 27 274 2 264 0 208 22 195</verticesUV>
+		<triangles>3 1 2 3 4 1 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_03" x="968" y="1894" w="39" h="73" oX="10" oY="13" oW="60" oH="100">
+		<vertices>49 86 10 86 10 13 49 13</vertices>
+		<verticesUV>1007 1967 968 1967 968 1894 1007 1894</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_03_RARE" x="980" y="1975" w="39" h="73" oX="10" oY="13" oW="60" oH="100">
+		<vertices>49 86 10 86 10 13 49 13</vertices>
+		<verticesUV>1019 2048 980 2048 980 1975 1019 1975</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_04" x="979" y="0" w="42" h="61" oX="9" oY="9" oW="60" oH="80">
+		<vertices>51 70 9 70 9 9 51 9</vertices>
+		<verticesUV>1021 61 979 61 979 0 1021 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_04_RARE" x="635" y="961" w="42" h="61" oX="9" oY="9" oW="60" oH="80">
+		<vertices>51 70 9 70 9 9 51 9</vertices>
+		<verticesUV>677 1022 635 1022 635 961 677 961</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_05" x="827" y="1636" w="59" h="73" oX="21" oY="14" oW="100" oH="100">
+		<vertices>80 87 21 87 21 14 80 14</vertices>
+		<verticesUV>886 1709 827 1709 827 1636 886 1636</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_arm_05_RARE" x="688" y="1640" w="59" h="73" oX="21" oY="14" oW="100" oH="100">
+		<vertices>80 87 21 87 21 14 80 14</vertices>
+		<verticesUV>747 1713 688 1713 688 1640 747 1640</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_leg" x="521" y="1236" w="113" h="157" oX="43" oY="21" oW="200" oH="200">
+		<vertices>156 178 43 178 43 21 156 21</vertices>
+		<verticesUV>634 1393 521 1393 521 1236 634 1236</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_left_leg_RARE" x="406" y="1236" w="113" h="157" oX="43" oY="21" oW="200" oH="200">
+		<vertices>156 178 43 178 43 21 156 21</vertices>
+		<verticesUV>519 1393 406 1393 406 1236 519 1236</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_01" x="342" y="339" w="89" h="121" oX="84" oY="62" oW="234" oH="234">
+		<vertices>173 149 166 183 84 123 114 62</vertices>
+		<verticesUV>431 426 424 460 342 400 372 339</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_01_RARE" x="177" y="1869" w="89" h="121" oX="84" oY="62" oW="234" oH="234">
+		<vertices>173 149 166 183 84 123 114 62</vertices>
+		<verticesUV>266 1956 259 1990 177 1930 207 1869</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_02" x="538" y="1008" w="109" h="117" oX="72" oY="60" oW="234" oH="234">
+		<vertices>181 177 141 171 72 102 127 60</vertices>
+		<verticesUV>647 1125 607 1119 538 1050 593 1008</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_02_RARE" x="676" y="1727" w="109" h="117" oX="72" oY="60" oW="234" oH="234">
+		<vertices>181 177 141 171 72 102 127 60</vertices>
+		<verticesUV>785 1844 745 1838 676 1769 731 1727</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_03" x="436" y="1025" w="140" h="112" oX="34" oY="72" oW="234" oH="234">
+		<vertices>174 140 164 184 34 83 104 72</vertices>
+		<verticesUV>576 1093 566 1137 436 1036 506 1025</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_03_RARE" x="457" y="1110" w="140" h="112" oX="34" oY="72" oW="234" oH="234">
+		<vertices>174 140 164 184 34 83 104 72</vertices>
+		<verticesUV>597 1178 587 1222 457 1121 527 1110</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_04" x="606" y="1756" w="153" h="125" oX="20" oY="54" oW="234" oH="234">
+		<vertices>173 154 165 179 20 80 71 54</vertices>
+		<verticesUV>759 1856 751 1881 606 1782 657 1756</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_04_RARE" x="494" y="1726" w="153" h="125" oX="20" oY="54" oW="234" oH="234">
+		<vertices>173 154 165 179 20 80 71 54</vertices>
+		<verticesUV>647 1826 639 1851 494 1752 545 1726</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_05" x="447" y="1751" w="169" h="130" oX="21" oY="66" oW="234" oH="234">
+		<vertices>158 132 190 196 21 84 56 66</vertices>
+		<verticesUV>584 1817 616 1881 447 1769 482 1751</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sl_05_RARE" x="405" y="1769" w="169" h="130" oX="21" oY="66" oW="234" oH="234">
+		<vertices>158 132 190 196 21 84 56 66</vertices>
+		<verticesUV>542 1835 574 1899 405 1787 440 1769</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_01" x="784" y="1726" w="86" h="118" oX="58" oY="64" oW="234" oH="234">
+		<vertices>144 124 62 182 58 133 126 64</vertices>
+		<verticesUV>870 1786 788 1844 784 1795 852 1726</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_01_RARE" x="698" y="420" w="86" h="118" oX="58" oY="64" oW="234" oH="234">
+		<vertices>144 124 62 182 58 133 126 64</vertices>
+		<verticesUV>784 480 702 538 698 489 766 420</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_02" x="698" y="339" w="84" h="128" oX="61" oY="55" oW="234" oH="234">
+		<vertices>145 121 61 183 63 94 145 55</vertices>
+		<verticesUV>782 405 698 467 700 378 782 339</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_02_RARE" x="785" y="300" w="84" h="128" oX="61" oY="55" oW="234" oH="234">
+		<vertices>145 121 61 183 63 94 145 55</vertices>
+		<verticesUV>869 366 785 428 787 339 869 300</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_03" x="822" y="1814" w="113" h="140" oX="59" oY="44" oW="234" oH="234">
+		<vertices>172 100 70 184 59 157 144 44</vertices>
+		<verticesUV>935 1870 833 1954 822 1927 907 1814</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_03_RARE" x="433" y="891" w="113" h="140" oX="59" oY="44" oW="234" oH="234">
+		<vertices>172 100 70 184 59 157 144 44</vertices>
+		<verticesUV>546 947 444 1031 433 1004 518 891</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_04" x="548" y="631" w="159" h="131" oX="47" oY="51" oW="234" oH="234">
+		<vertices>206 80 87 182 47 167 159 51</vertices>
+		<verticesUV>707 660 588 762 548 747 660 631</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_04_RARE" x="332" y="1060" w="159" h="131" oX="47" oY="51" oW="234" oH="234">
+		<vertices>206 80 87 182 47 167 159 51</vertices>
+		<verticesUV>491 1089 372 1191 332 1176 444 1060</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_05" x="416" y="595" w="176" h="135" oX="33" oY="66" oW="234" oH="234">
+		<vertices>209 84 33 201 75 131 173 66</vertices>
+		<verticesUV>592 613 416 730 458 660 556 595</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_party_blower_sr_05_RARE" x="347" y="686" w="176" h="135" oX="33" oY="66" oW="234" oH="234">
+		<vertices>209 84 33 201 75 131 173 66</vertices>
+		<verticesUV>523 704 347 821 389 751 487 686</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_01" x="588" y="699" w="133" h="116" oX="84" oY="23" oW="234" oH="234">
+		<vertices>217 40 134 139 84 89 165 23</vertices>
+		<verticesUV>721 716 638 815 588 765 669 699</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_01_RARE" x="485" y="934" w="133" h="116" oX="84" oY="23" oW="234" oH="234">
+		<vertices>217 40 134 139 84 89 165 23</vertices>
+		<verticesUV>618 951 535 1050 485 1000 566 934</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_02" x="348" y="445" w="137" h="115" oX="78" oY="31" oW="234" oH="234">
+		<vertices>215 39 134 146 78 90 189 31</vertices>
+		<verticesUV>485 453 404 560 348 504 459 445</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_02_RARE" x="774" y="1795" w="137" h="115" oX="78" oY="31" oW="234" oH="234">
+		<vertices>215 39 134 146 78 90 189 31</vertices>
+		<verticesUV>911 1803 830 1910 774 1854 885 1795</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_03" x="380" y="826" w="132" h="130" oX="88" oY="31" oW="234" oH="234">
+		<vertices>220 40 142 134 88 161 88 92 188 31</vertices>
+		<verticesUV>512 835 434 929 380 956 380 887 480 826</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_03_RARE" x="355" y="919" w="132" h="130" oX="88" oY="31" oW="234" oH="234">
+		<vertices>220 40 142 134 88 161 88 92 188 31</vertices>
+		<verticesUV>487 928 409 1022 355 1049 355 980 455 919</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_04" x="266" y="1010" w="165" h="141" oX="39" oY="17" oW="234" oH="234">
+		<vertices>204 77 123 158 39 133 204 17</vertices>
+		<verticesUV>431 1070 350 1151 266 1126 431 1010</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_04_RARE" x="493" y="570" w="165" h="141" oX="39" oY="17" oW="234" oH="234">
+		<vertices>204 77 123 158 39 133 204 17</vertices>
+		<verticesUV>658 630 577 711 493 686 658 570</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_05" x="617" y="0" w="182" h="152" oX="32" oY="29" oW="234" oH="234">
+		<vertices>214 39 111 181 32 154 184 29</vertices>
+		<verticesUV>799 10 696 152 617 125 769 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_05_RARE" x="268" y="776" w="182" h="152" oX="32" oY="29" oW="234" oH="234">
+		<vertices>214 39 111 181 32 154 184 29</vertices>
+		<verticesUV>450 786 347 928 268 901 420 776</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_06" x="338" y="580" w="167" h="194" oX="50" oY="27" oW="234" oH="234">
+		<vertices>217 40 81 221 50 173 179 27</vertices>
+		<verticesUV>505 593 369 774 338 726 467 580</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_partyblower_fg_06_RARE" x="308" y="527" w="167" h="194" oX="50" oY="27" oW="234" oH="234">
+		<vertices>217 40 81 221 50 173 179 27</vertices>
+		<verticesUV>475 540 339 721 308 673 437 527</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_A" x="357" y="277" w="22" h="22" oX="48" oY="48" oW="120" oH="120">
+		<vertices>70 70 48 70 48 48 70 48</vertices>
+		<verticesUV>379 299 357 299 357 277 379 277</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_A_RARE" x="847" y="385" w="22" h="22" oX="48" oY="48" oW="120" oH="120">
+		<vertices>70 70 48 70 48 48 70 48</vertices>
+		<verticesUV>869 407 847 407 847 385 869 385</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_B" x="671" y="1212" w="21" h="21" oX="47" oY="48" oW="120" oH="120">
+		<vertices>68 69 47 69 47 48 68 48</vertices>
+		<verticesUV>692 1233 671 1233 671 1212 692 1212</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_B_RARE" x="0" y="1897" w="21" h="21" oX="47" oY="48" oW="120" oH="120">
+		<vertices>68 69 47 69 47 48 68 48</vertices>
+		<verticesUV>21 1918 0 1918 0 1897 21 1897</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_C" x="0" y="2020" w="28" h="28" oX="46" oY="46" oW="120" oH="120">
+		<vertices>74 74 46 74 46 46 74 46</vertices>
+		<verticesUV>28 2048 0 2048 0 2020 28 2020</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_C_RARE" x="620" y="1857" w="28" h="28" oX="46" oY="46" oW="120" oH="120">
+		<vertices>74 74 46 74 46 46 74 46</vertices>
+		<verticesUV>648 1885 620 1885 620 1857 648 1857</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_D" x="59" y="2018" w="27" h="27" oX="47" oY="47" oW="120" oH="120">
+		<vertices>74 74 47 74 47 47 74 47</vertices>
+		<verticesUV>86 2045 59 2045 59 2018 86 2018</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_D_RARE" x="30" y="2018" w="27" h="27" oX="47" oY="47" oW="120" oH="120">
+		<vertices>74 74 47 74 47 47 74 47</vertices>
+		<verticesUV>57 2045 30 2045 30 2018 57 2018</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_E" x="33" y="1512" w="34" h="35" oX="51" oY="43" oW="120" oH="120">
+		<vertices>85 60 51 78 51 43</vertices>
+		<verticesUV>67 1529 33 1547 33 1512</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_pupil_E_RARE" x="513" y="579" w="34" h="35" oX="51" oY="43" oW="120" oH="120">
+		<vertices>85 60 51 78 51 43</vertices>
+		<verticesUV>547 596 513 614 513 579</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_pupil_F" x="629" y="523" w="27" h="27" oX="47" oY="47" oW="120" oH="120">
+		<vertices>74 74 47 74 47 47 74 47</vertices>
+		<verticesUV>656 550 629 550 629 523 656 523</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_pupil_F_RARE" x="85" y="419" w="27" h="27" oX="47" oY="47" oW="120" oH="120">
+		<vertices>74 74 47 74 47 47 74 47</vertices>
+		<verticesUV>112 446 85 446 85 419 112 419</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_01" x="944" y="197" w="71" h="166" oX="14" oY="7" oW="100" oH="180">
+		<vertices>85 173 14 173 14 7 85 7</vertices>
+		<verticesUV>1015 363 944 363 944 197 1015 197</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_01_RARE" x="871" y="197" w="71" h="166" oX="14" oY="7" oW="100" oH="180">
+		<vertices>85 173 14 173 14 7 85 7</vertices>
+		<verticesUV>942 363 871 363 871 197 942 197</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_02" x="679" y="964" w="44" h="59" oX="8" oY="10" oW="60" oH="80">
+		<vertices>52 69 8 69 8 10 52 10</vertices>
+		<verticesUV>723 1023 679 1023 679 964 723 964</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_02_RARE" x="790" y="991" w="44" h="59" oX="8" oY="10" oW="60" oH="80">
+		<vertices>52 69 8 69 8 10 52 10</vertices>
+		<verticesUV>834 1050 790 1050 790 991 834 991</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_03" x="838" y="1181" w="36" h="53" oX="12" oY="13" oW="60" oH="80">
+		<vertices>48 66 12 66 12 13 48 13</vertices>
+		<verticesUV>874 1234 838 1234 838 1181 874 1181</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_03_RARE" x="833" y="1126" w="36" h="53" oX="12" oY="13" oW="60" oH="80">
+		<vertices>48 66 12 66 12 13 48 13</vertices>
+		<verticesUV>869 1179 833 1179 833 1126 869 1126</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_04" x="836" y="990" w="39" h="60" oX="10" oY="10" oW="60" oH="80">
+		<vertices>49 70 10 70 10 10 49 10</vertices>
+		<verticesUV>875 1050 836 1050 836 990 875 990</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_04_RARE" x="749" y="1642" w="39" h="60" oX="10" oY="10" oW="60" oH="80">
+		<vertices>49 70 10 70 10 10 49 10</vertices>
+		<verticesUV>788 1702 749 1702 749 1642 788 1642</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_05" x="968" y="1560" w="56" h="72" oX="22" oY="14" oW="100" oH="100">
+		<vertices>78 86 22 86 22 14 78 14</vertices>
+		<verticesUV>1024 1632 968 1632 968 1560 1024 1560</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_arm_05_RARE" x="940" y="1634" w="56" h="72" oX="22" oY="14" oW="100" oH="100">
+		<vertices>78 86 22 86 22 14 78 14</vertices>
+		<verticesUV>996 1706 940 1706 940 1634 996 1634</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_leg" x="406" y="1395" w="119" h="161" oX="40" oY="19" oW="200" oH="200">
+		<vertices>159 180 40 180 40 19 159 19</vertices>
+		<verticesUV>525 1556 406 1556 406 1395 525 1395</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_right_leg_RARE" x="285" y="1303" w="119" h="161" oX="40" oY="19" oW="200" oH="200">
+		<vertices>159 180 40 180 40 19 159 19</vertices>
+		<verticesUV>404 1464 285 1464 285 1303 404 1303</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_shadow" x="0" y="1127" w="348" h="194" oX="0" oY="2" oW="360" oH="200">
+		<vertices>348 67 348 159 206 196 39 180 0 92 56 12 264 2</vertices>
+		<verticesUV>348 1192 348 1284 206 1321 39 1305 0 1217 56 1137 264 1127</verticesUV>
+		<triangles>2 5 6 3 4 5 2 3 5 0 1 2 0 2 6</triangles>
+	</sprite>
+	<sprite n="S09_sparkle" x="43" y="98" w="29" h="29" oX="2" oY="2" oW="34" oH="34">
+		<vertices>31 31 2 31 2 2 31 2</vertices>
+		<verticesUV>72 127 43 127 43 98 72 98</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_sparkler_01" x="749" y="37" w="120" h="135" oX="31" oY="17" oW="186" oH="186">
+		<vertices>151 44 151 151 34 152 31 66 65 17</vertices>
+		<verticesUV>869 64 869 171 752 172 749 86 783 37</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="S09_sparkler_02" x="871" y="72" w="127" h="123" oX="29" oY="34" oW="186" oH="186">
+		<vertices>156 157 29 157 29 34 156 34</vertices>
+		<verticesUV>998 195 871 195 871 72 998 72</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_sparkler_03" x="750" y="175" w="119" h="123" oX="39" oY="32" oW="186" oH="186">
+		<vertices>158 155 39 155 39 32 158 32</vertices>
+		<verticesUV>869 298 750 298 750 175 869 175</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_sparkler_04" x="829" y="1906" w="148" h="142" oX="12" oY="13" oW="186" oH="186">
+		<vertices>160 152 52 155 12 80 48 38 139 13</vertices>
+		<verticesUV>977 2045 869 2048 829 1973 865 1931 956 1906</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_sparkler_holder" x="0" y="1059" w="17" h="128" oX="12" oY="1" oW="40" oH="140">
+		<vertices>29 9 24 129 12 129 12 1</vertices>
+		<verticesUV>17 1067 12 1187 0 1187 0 1059</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="S09_sprinkles_bottom" x="0" y="1804" w="322" h="174" oX="99" oY="69" oW="500" oH="260">
+		<vertices>421 155 369 243 369 103 277 127 277 164 198 150 195 96 181 116 151 139 132 128 171 101 129 99 101 126 99 69</vertices>
+		<verticesUV>322 1890 270 1978 270 1838 178 1862 178 1899 99 1885 96 1831 82 1851 52 1874 33 1863 72 1836 30 1834 2 1861 0 1804</verticesUV>
+		<triangles>0 1 2 3 4 5 3 5 6 8 9 10 7 8 10 11 12 13</triangles>
+	</sprite>
+	<sprite n="S09_sprinkles_bottom_RARE" x="0" y="1889" w="354" h="159" oX="77" oY="40" oW="500" oH="260">
+		<vertices>431 199 376 199 333 149 398 75 153 99 181 68 311 133 253 191 234 167 92 166 77 106 121 40</vertices>
+		<verticesUV>354 2048 299 2048 256 1998 321 1924 76 1948 104 1917 234 1982 176 2040 157 2016 15 2015 0 1955 44 1889</verticesUV>
+		<triangles>1 2 3 0 1 3 4 10 11 6 7 8 8 4 5 8 5 6 4 9 10 4 8 9</triangles>
+	</sprite>
+	<sprite n="S09_sprinkles_top" x="84" y="1778" w="315" h="147" oX="105" oY="78" oW="500" oH="260">
+		<vertices>261 132 289 161 289 225 242 186 241 118 278 78 420 124 347 141 288 121 287 92 210 127 105 127 210 92</vertices>
+		<verticesUV>240 1832 268 1861 268 1925 221 1886 220 1818 257 1778 399 1824 326 1841 267 1821 266 1792 189 1827 84 1827 189 1792</verticesUV>
+		<triangles>0 4 5 1 2 3 0 1 3 0 3 4 7 8 9 6 7 9 10 11 12</triangles>
+	</sprite>
+	<sprite n="S09_sprinkles_top_RARE" x="428" y="0" w="279" h="176" oX="106" oY="84" oW="500" oH="260">
+		<vertices>110 260 106 260 106 258 110 258 385 132 264 213 213 140 174 140 174 97 372 84</vertices>
+		<verticesUV>432 176 428 176 428 174 432 174 707 48 586 129 535 56 496 56 496 13 694 0</verticesUV>
+		<triangles>1 2 3 0 1 3 6 8 9 6 7 8 4 6 9 4 5 6</triangles>
+	</sprite>
+	<sprite n="S09_stick" x="730" y="109" w="17" h="208" oX="11" oY="5" oW="40" oH="220">
+		<vertices>28 213 11 213 11 5 28 5</vertices>
+		<verticesUV>747 317 730 317 730 109 747 109</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="S09_torso" x="0" y="891" w="352" h="242" oX="75" oY="30" oW="500" oH="300">
+		<vertices>389 58 427 128 413 211 347 254 160 272 83 193 75 57 291 30</vertices>
+		<verticesUV>314 919 352 989 338 1072 272 1115 85 1133 8 1054 0 918 216 891</verticesUV>
+		<triangles>5 6 7 4 5 7 3 4 7 1 2 3 0 1 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="S09_torso_icing" x="0" y="444" w="377" h="236" oX="30" oY="27" oW="420" oH="280">
+		<vertices>345 57 407 119 332 263 255 189 34 223 30 83 155 27</vertices>
+		<verticesUV>315 474 377 536 302 680 225 606 4 640 0 500 125 444</verticesUV>
+		<triangles>4 5 6 3 4 6 1 2 3 0 1 3 0 3 6</triangles>
+	</sprite>
+	<sprite n="S09_torso_icing_drip" x="527" y="1395" w="79" h="188" oX="11" oY="2" oW="100" oH="200">
+		<vertices>69 16 90 123 56 189 26 190 11 27 37 2</vertices>
+		<verticesUV>585 1409 606 1516 572 1582 542 1583 527 1420 553 1395</verticesUV>
+		<triangles>3 1 2 3 4 1 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="S09_torso_icing_drip_RARE" x="454" y="1559" w="89" h="194" oX="8" oY="4" oW="100" oH="200">
+		<vertices>97 147 44 198 25 179 8 12 66 4</vertices>
+		<verticesUV>543 1702 490 1753 471 1734 454 1567 512 1559</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="S09_torso_icing_RARE" x="0" y="233" w="377" h="236" oX="30" oY="27" oW="420" oH="280">
+		<vertices>345 57 407 119 332 263 255 189 34 223 30 83 155 27</vertices>
+		<verticesUV>315 263 377 325 302 469 225 395 4 429 0 289 125 233</verticesUV>
+		<triangles>4 5 6 3 4 6 1 2 3 0 1 3 0 3 6</triangles>
+	</sprite>
+	<sprite n="S09_torso_RARE" x="0" y="659" w="352" h="242" oX="75" oY="30" oW="500" oH="300">
+		<vertices>389 58 427 128 413 211 347 254 160 272 83 193 75 57 291 30</vertices>
+		<verticesUV>314 687 352 757 338 840 272 883 85 901 8 822 0 686 216 659</verticesUV>
+		<triangles>5 6 7 4 5 7 3 4 7 1 2 3 0 1 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="S09_year" x="0" y="1304" w="283" h="258" oX="40" oY="54" oW="400" oH="400">
+		<vertices>323 312 40 253 74 96 137 63 253 112 323 54</vertices>
+		<verticesUV>283 1562 0 1503 34 1346 97 1313 213 1362 283 1304</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4 5 0 4</triangles>
+	</sprite>
+	<sprite n="S09_year_RARE" x="0" y="0" w="478" h="274" oX="1" oY="104" oW="500" oH="500">
+		<vertices>351 173 479 174 376 378 1 291 90 221 28 131 127 104</vertices>
+		<verticesUV>350 69 478 70 375 274 0 187 89 117 27 27 126 0</verticesUV>
+		<triangles>4 5 6 2 3 4 0 2 4 0 1 2 0 4 6</triangles>
+	</sprite>
+</TextureAtlas>

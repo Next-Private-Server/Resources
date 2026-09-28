@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2e98105cd17b0bd0cc067cf634c17028:0ac138f793033ae69cb4f30bee51312d:34889e35810f66a5ffdea45734cc4701$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BNR_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="body" x="190" y="62" w="103" h="103" oX="0" oY="0" oW="104" oH="106" />
+  <sprite n="bow" x="0" y="0" w="294" h="60" oX="5" oY="1" oW="306" oH="64" />
+  <sprite n="hair strings 1" x="295" y="230" w="172" h="78" oX="11" oY="4" oW="188" oH="88" />
+  <sprite n="hair strings 2" x="0" y="256" w="183" h="80" oX="0" oY="5" oW="188" oH="88" />
+  <sprite n="hair strings 3" x="0" y="564" w="162" h="81" oX="22" oY="3" oW="188" oH="88" />
+  <sprite n="hair strings 4" x="0" y="420" w="163" h="70" oX="22" oY="4" oW="188" oH="88" />
+  <sprite n="hair strings a" x="219" y="864" w="37" h="46" oX="7" oY="0" oW="44" oH="46" />
+  <sprite n="hair strings b" x="469" y="244" w="43" h="46" oX="1" oY="0" oW="44" oH="46" />
+  <sprite n="hair top" x="185" y="316" w="106" h="127" oX="4" oY="0" oW="134" oH="108" r="y" />
+  <sprite n="hair top_back" x="51" y="982" w="66" h="40" oX="1" oY="22" oW="134" oH="108" r="y" />
+  <sprite n="hairtip 1" x="465" y="373" w="47" h="90" oX="45" oY="13" oW="93" oH="103" />
+  <sprite n="hairtip 2" x="426" y="634" w="86" h="48" oX="44" oY="13" oW="93" oH="103" r="y" />
+  <sprite n="hairtip 3" x="413" y="804" w="79" h="59" oX="34" oY="13" oW="93" oH="103" r="y" />
+  <sprite n="hairtip 4" x="155" y="795" w="77" h="67" oX="26" oY="13" oW="93" oH="103" r="y" />
+  <sprite n="hairtip 5" x="444" y="553" w="67" h="79" oX="25" oY="12" oW="93" oH="103" />
+  <sprite n="hairtip 6" x="414" y="684" w="93" h="44" oX="0" oY="7" oW="93" oH="103" />
+  <sprite n="hairtip 7" x="158" y="745" w="91" h="48" oX="2" oY="13" oW="93" oH="103" />
+  <sprite n="hairtip 8" x="414" y="730" w="93" h="44" oX="0" oY="9" oW="93" oH="103" />
+  <sprite n="head" x="161" y="668" w="95" h="75" oX="0" oY="1" oW="75" oH="97" r="y" />
+  <sprite n="L foot" x="142" y="864" w="75" h="48" oX="2" oY="0" oW="79" oH="48" />
+  <sprite n="L hand 1" x="218" y="914" w="53" h="60" oX="0" oY="0" oW="61" oH="66" r="y" />
+  <sprite n="L hand 2" x="161" y="914" w="55" h="60" oX="0" oY="0" oW="61" oH="66" r="y" />
+  <sprite n="L hand 3" x="357" y="891" w="54" h="53" oX="4" oY="0" oW="61" oH="66" />
+  <sprite n="L hand 4" x="25" y="914" w="50" h="66" oX="6" oY="0" oW="61" oH="66" />
+  <sprite n="L hand 5" x="301" y="949" w="54" h="56" oX="6" oY="0" oW="61" oH="66" />
+  <sprite n="L hand 6" x="273" y="891" w="55" h="56" oX="3" oY="1" oW="61" oH="66" />
+  <sprite n="L hand 7" x="77" y="914" w="57" h="64" oX="3" oY="0" oW="61" oH="66" />
+  <sprite n="L lower arm" x="487" y="865" w="24" h="72" />
+  <sprite n="L lower leg" x="186" y="226" w="107" h="88" oX="0" oY="1" oW="88" oH="108" r="y" />
+  <sprite n="L upper arm" x="413" y="776" w="90" h="26" r="y" />
+  <sprite n="L upper leg" x="488" y="0" w="24" h="74" />
+  <sprite n="L wrist" x="119" y="980" w="38" h="40" oX="2" oY="0" oW="40" oH="40" />
+  <sprite n="L_HairDown1" x="0" y="62" w="188" h="65" oX="1" oY="3" oW="78" oH="196" r="y" />
+  <sprite n="L_HairDown2" x="295" y="103" w="185" h="64" oX="3" oY="3" oW="78" oH="196" r="y" />
+  <sprite n="L_HairDown3" x="296" y="51" w="189" h="50" oX="18" oY="3" oW="78" oH="196" r="y" />
+  <sprite n="L_HairDown4" x="0" y="193" w="184" h="61" oX="15" oY="3" oW="78" oH="196" r="y" />
+  <sprite n="L_HairDown5" x="295" y="169" w="185" h="59" oX="15" oY="3" oW="78" oH="196" r="y" />
+  <sprite n="L_HairDown6" x="296" y="0" w="190" h="49" oX="15" oY="3" oW="78" oH="196" r="y" />
+  <sprite n="L_HairDownTop" x="190" y="167" w="103" h="57" oX="3" oY="0" oW="60" oH="104" r="y" />
+  <sprite n="mouth1" x="249" y="976" w="50" h="31" oX="0" oY="0" oW="52" oH="32" />
+  <sprite n="mouth2" x="482" y="115" w="30" h="32" oX="8" oY="2" oW="52" oH="32" r="y" />
+  <sprite n="mouth3" x="487" y="76" w="25" h="37" oX="7" oY="3" oW="52" oH="32" r="y" />
+  <sprite n="mouth4" x="482" y="191" w="28" h="51" oX="1" oY="0" oW="52" oH="32" r="y" />
+  <sprite n="mouth5" x="273" y="949" w="23" h="23" oX="12" oY="6" oW="52" oH="32" />
+  <sprite n="R foot" x="469" y="292" w="42" h="79" oX="0" oY="1" oW="79" oH="44" r="y" />
+  <sprite n="R hand 1" x="460" y="465" w="52" h="44" oX="2" oY="0" oW="46" oH="52" r="y" />
+  <sprite n="R hand 2" x="460" y="511" w="51" h="40" oX="4" oY="1" oW="46" oH="52" r="y" />
+  <sprite n="R hand 3" x="197" y="976" w="50" h="39" oX="0" oY="2" oW="46" oH="52" r="y" />
+  <sprite n="R hand 4" x="0" y="986" w="49" h="38" oX="0" oY="2" oW="46" oH="52" r="y" />
+  <sprite n="R lower arm" x="136" y="914" w="23" h="64" />
+  <sprite n="R lower leg" x="164" y="571" w="102" h="95" oX="1" oY="1" oW="96" oH="104" r="y" />
+  <sprite n="R upper arm" x="0" y="914" w="23" h="70" />
+  <sprite n="R upper leg" x="487" y="939" w="24" h="70" />
+  <sprite n="R wrist1" x="159" y="980" w="36" h="40" />
+  <sprite n="R wrist2" x="482" y="149" w="29" h="40" oX="1" oY="0" oW="30" oH="40" />
+  <sprite n="R_HairBack1" x="413" y="865" w="72" h="152" oX="2" oY="1" oW="100" oH="160" />
+  <sprite n="R_HairBack2" x="268" y="605" w="156" h="62" oX="13" oY="2" oW="100" oH="160" r="y" />
+  <sprite n="R_HairBack3" x="0" y="710" w="156" h="58" oX="21" oY="0" oW="100" oH="160" r="y" />
+  <sprite n="R_HairBack4" x="0" y="770" w="153" h="79" oX="21" oY="1" oW="100" oH="160" r="y" />
+  <sprite n="R_HairBack5" x="258" y="669" w="154" h="73" oX="21" oY="2" oW="100" oH="160" r="y" />
+  <sprite n="R_HairBack6" x="0" y="647" w="159" h="61" oX="19" oY="0" oW="100" oH="160" r="y" />
+  <sprite n="R_HairBackTop" x="165" y="445" w="122" h="55" oX="0" oY="0" oW="56" oH="124" r="y" />
+  <sprite n="R_HairFront1" x="293" y="440" w="165" h="71" oX="0" oY="1" oW="107" oH="170" r="y" />
+  <sprite n="R_HairFront2" x="293" y="374" w="166" h="64" oX="13" oY="1" oW="107" oH="170" r="y" />
+  <sprite n="R_HairFront3" x="0" y="492" w="163" h="70" oX="15" oY="1" oW="107" oH="170" r="y" />
+  <sprite n="R_HairFront4" x="283" y="513" w="159" h="90" oX="17" oY="1" oW="107" oH="170" r="y" />
+  <sprite n="R_HairFront5" x="0" y="338" w="163" h="80" oX="14" oY="1" oW="107" oH="170" r="y" />
+  <sprite n="R_HairFront6" x="295" y="310" w="168" h="62" oX="12" oY="1" oW="107" oH="170" r="y" />
+  <sprite n="R_HairFrontTop" x="0" y="851" w="140" h="55" oX="1" oY="0" oW="56" oH="140" r="y" />
+  <sprite n="shadow" x="0" y="129" w="188" h="62" oX="0" oY="2" oW="188" oH="64" />
+  <sprite n="skirt" x="258" y="744" w="153" h="145" oX="1" oY="2" oW="146" oH="155" r="y" />
+  <sprite n="skirt_back" x="165" y="502" w="116" h="67" oX="18" oY="0" oW="104" oH="116" r="y" />
+</TextureAtlas>

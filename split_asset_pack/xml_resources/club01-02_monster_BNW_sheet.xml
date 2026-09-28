@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:70980b8a38ec33010b9f8d996230a41a:b6f4aca6f4a39acb2faaf49576792634:96909ed60bdc1a5739576cafd9e008ed$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_monster_BNW_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BNW_body" x="0" y="163" w="175" h="79" r="y"/>
+	<sprite n="BNW_dress_back_01" x="349" y="368" w="147" h="59" oX="3" oY="0" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_02" x="0" y="400" w="155" h="57" oX="1" oY="2" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_03" x="349" y="215" w="162" h="49" oX="0" oY="11" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_04" x="349" y="313" w="150" h="53" oX="3" oY="0" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_05" x="349" y="266" w="152" h="45" oX="3" oY="0" oW="162" oH="61"/>
+	<sprite n="BNW_dress_front_01" x="177" y="165" w="170" h="83" oX="4" oY="4" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_02" x="187" y="0" w="177" h="82" oX="2" oY="10" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_03" x="0" y="0" w="185" h="83" oX="0" oY="11" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_04" x="187" y="84" w="176" h="79" oX="2" oY="3" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_05" x="0" y="85" w="176" h="76" oX="2" oY="1" oW="186" oH="94"/>
+	<sprite n="BNW_eyelid_01" x="0" y="579" w="37" h="37"/>
+	<sprite n="BNW_eyelid_02" x="39" y="597" w="37" h="37"/>
+	<sprite n="BNW_eyelid_03" x="0" y="618" w="37" h="37"/>
+	<sprite n="BNW_eyelid_04" x="78" y="597" w="37" h="37"/>
+	<sprite n="BNW_finger" x="319" y="400" w="24" h="17"/>
+	<sprite n="BNW_foot_left" x="0" y="507" w="64" h="46" r="y"/>
+	<sprite n="BNW_foot_right" x="347" y="429" w="64" h="46" r="y"/>
+	<sprite n="BNW_horn_left" x="319" y="250" w="28" h="73"/>
+	<sprite n="BNW_horn_right" x="319" y="325" w="28" h="73"/>
+	<sprite n="BNW_lowerarm_left" x="264" y="467" w="64" h="44"/>
+	<sprite n="BNW_lowerarm_right" x="413" y="429" w="64" h="44"/>
+	<sprite n="BNW_lowerleg_left" x="264" y="419" w="81" h="46" r="y"/>
+	<sprite n="BNW_lowerleg_right" x="0" y="459" w="81" h="46" r="y"/>
+	<sprite n="BNW_mouth_01" x="479" y="464" w="32" h="59" oX="2" oY="2" oW="63" oH="39" r="y"/>
+	<sprite n="BNW_mouth_02" x="66" y="529" w="60" h="35" oX="2" oY="2" oW="63" oH="39"/>
+	<sprite n="BNW_mouth_03" x="330" y="477" w="61" h="37" oX="1" oY="2" oW="63" oH="39"/>
+	<sprite n="BNW_mouth_04" x="413" y="475" w="63" h="39"/>
+	<sprite n="BNW_mouth_05" x="153" y="532" w="56" h="30" oX="3" oY="4" oW="63" oH="39"/>
+	<sprite n="BNW_mouth_06" x="58" y="566" w="46" h="29" oX="7" oY="5" oW="63" oH="39"/>
+	<sprite n="BNW_mouth_07" x="218" y="507" w="40" h="30" oX="9" oY="5" oW="63" oH="39"/>
+	<sprite n="BNW_mouth_08" x="323" y="516" w="35" h="32" oX="11" oY="4" oW="63" oH="39"/>
+	<sprite n="BNW_pupil" x="349" y="165" w="14" h="13"/>
+	<sprite n="BNW_shadow" x="365" y="137" w="147" h="76"/>
+	<sprite n="BNW_star_01" x="83" y="459" w="70" h="68" oX="47" oY="47" oW="163" oH="163"/>
+	<sprite n="BNW_star_02" x="157" y="403" w="105" h="102" oX="29" oY="30" oW="163" oH="163"/>
+	<sprite n="BNW_star_03" x="366" y="0" w="140" h="135" oX="12" oY="12" oW="163" oH="163"/>
+	<sprite n="BNW_star_04" x="161" y="250" w="156" h="151" oX="4" oY="4" oW="163" oH="163"/>
+	<sprite n="BNW_star_05" x="0" y="244" w="159" h="154" oX="2" oY="2" oW="163" oH="163"/>
+	<sprite n="BNW_thumb" x="128" y="529" w="23" h="22" r="y"/>
+	<sprite n="BNW_upperarm_left" x="128" y="553" w="22" h="56" r="y"/>
+	<sprite n="BNW_upperarm_right" x="0" y="555" w="56" h="22"/>
+	<sprite n="BNW_upperleg_left" x="155" y="507" w="61" h="23" r="y"/>
+	<sprite n="BNW_upperleg_right" x="260" y="513" w="61" h="23" r="y"/>
+	<sprite n="eyeball" x="479" y="429" w="33" h="33"/>
+</TextureAtlas>

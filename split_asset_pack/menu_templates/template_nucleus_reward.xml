@@ -1,0 +1,86 @@
+<template name="template_nucleus_reward" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$layer" equals="FrontPopUps" />
+
+	<size dependentOnElement="Value"/>
+
+	<element name="Value">
+
+		<size w="40*game.menuScaleX()" h="20*game.menuScaleX()" />
+
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+
+					local storeItemType = element:parent()("CurrencyType"):GetString()
+					local currencyType = game.StoreContext_StoreTypeToCurrency(storeItemType)
+					local currencyProps = require("Currencies"):getProps(currencyType)
+					currencyProps:applyToSpriteSheet(component)
+					currencyProps:normalizeSizeW(component, 0.35*game.hudScale())
+
+					component("layer"):SetString("$layer")
+
+					if(element:parent().isAnimated) then
+						component("visible"):SetInt(0)
+					end
+				]]>
+			</event>
+		</spriteSheetComponent>
+
+		<aeComponent name="AnimatedIcon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-4*game.hudScale()+65*game.hudScale()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/Relic_confetti01.bin")
+				component("animation"):SetString("wild card rotation")
+				component:setScale(Vector2(0.15*game.hudScale(), 0.15*game.hudScale()))
+				component("layer"):SetString("$layer")
+
+				if(element:parent().isAnimated == false) then
+					component("visible"):SetInt(0)
+				end
+			</event>
+		</aeComponent>
+
+		<textComponent name="Text">
+			<size w="54*game.menuScaleX()" h="20*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("font"):Set(game.getTitleFont())
+					component("size"):SetFloat(0.4*game.menuScaleX())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("?")
+
+					local currencyType = element:parent()("CurrencyType"):GetString();
+					if(currencyType ~= "") then
+						game.StoreContext_setCurrencyTypeColour(currencyType, component)
+					end
+
+					component("layer"):SetString("$layer")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+				]]>
+			</event>
+		</textComponent>
+
+		<event name="onPostInit" params="element">
+			<![CDATA[
+				local MenuHelpers = include("MenuHelpers")
+				MenuHelpers.CenterHorizontally({
+					element:GetComponent("Icon"),
+					MenuHelpers.CreateSpacer(2*game.menuScaleX(), 0),
+					element:GetComponent("Text")
+				})
+			]]>
+		</event>
+
+	</element>
+
+</template>

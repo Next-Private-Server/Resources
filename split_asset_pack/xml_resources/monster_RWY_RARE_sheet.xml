@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ef9dfdca1501087753367c69daa8275e:40a775934d648ddcb0e9266ae2d27b9c:2cb3b60c956690e7ded1d2cfb7baf48c$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_RWY_RARE_sheet.png" width="1024" height="2048" hires="true" version="1">
+  <sprite n="RWY_body_BG_rare" x="470" y="82" w="34" h="20" />
+  <sprite n="RWY_body_rare" x="198" y="432" w="190" h="189" oX="0" oY="0" oW="190" oH="190" r="y" />
+  <sprite n="RWY_body_rare_FG" x="381" y="1187" w="129" h="106" oX="39" oY="20" oW="190" oH="190" r="y" />
+  <sprite n="RWY_coconut" x="146" y="1147" w="112" h="103" oX="0" oY="0" oW="106" oH="112" r="y" />
+  <sprite n="RWY_eye" x="330" y="949" w="57" h="60" />
+  <sprite n="RWY_eye_glow" x="524" y="1102" w="129" h="127" />
+  <sprite n="RWY_eyelid_01_rare" x="97" y="1252" w="76" h="75" oX="0" oY="0" oW="76" oH="76" />
+  <sprite n="RWY_eyelid_02_rare" x="0" y="1270" w="73" h="73" oX="1" oY="0" oW="76" oH="76" />
+  <sprite n="RWY_eyelid_03_rare" x="251" y="1290" w="73" h="73" oX="1" oY="0" oW="76" oH="76" />
+  <sprite n="RWY_eyelid_04_rare" x="175" y="1303" w="73" h="73" oX="1" oY="0" oW="76" oH="76" />
+  <sprite n="RWY_eyelid_05_rare" x="75" y="1329" w="73" h="73" oX="1" oY="0" oW="76" oH="76" />
+  <sprite n="RWY_eyelid_06_rare" x="656" y="275" w="72" h="72" oX="2" oY="0" oW="76" oH="76" />
+  <sprite n="RWY_hair_B_01_rare" x="507" y="0" w="234" h="95" oX="71" oY="0" oW="166" oH="234" r="y" />
+  <sprite n="RWY_hair_B_02_rare" x="237" y="82" w="231" h="109" oX="57" oY="0" oW="166" oH="234" r="y" />
+  <sprite n="RWY_hair_B_03_rare" x="728" y="543" w="191" h="134" oX="32" oY="0" oW="166" oH="234" r="y" />
+  <sprite n="RWY_hair_B_04_rare" x="0" y="858" w="166" h="163" oX="3" oY="0" oW="166" oH="234" r="y" />
+  <sprite n="RWY_hair_B_05_rare" x="390" y="730" w="166" h="161" oX="0" oY="0" oW="166" oH="234" />
+  <sprite n="RWY_hair_B_06_rare" x="168" y="861" w="160" h="144" oX="6" oY="0" oW="166" oH="234" />
+  <sprite n="RWY_hair_B_07_rare" x="390" y="577" w="179" h="151" oX="15" oY="0" oW="166" oH="234" r="y" />
+  <sprite n="RWY_hair_B_08_rare" x="743" y="0" w="224" h="95" oX="71" oY="0" oW="166" oH="234" r="y" />
+  <sprite n="RWY_hair_back_1" x="506" y="97" w="222" h="72" oX="0" oY="1" oW="222" oH="73" />
+  <sprite n="RWY_hair_back_2" x="969" y="0" w="54" h="184" oX="0" oY="28" oW="186" oH="82" r="y" />
+  <sprite n="RWY_hair_back_3" x="609" y="426" w="45" h="130" oX="2" oY="5" oW="134" oH="58" r="y" />
+  <sprite n="RWY_hair_back_4" x="934" y="401" w="90" h="40" r="y" />
+  <sprite n="RWY_hair_back_5" x="390" y="511" w="184" h="64" />
+  <sprite n="RWY_hair_back_6" x="0" y="256" w="213" h="64" />
+  <sprite n="RWY_hair_C_01_rare" x="0" y="0" w="254" h="72" oX="77" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_02_rare" x="256" y="0" w="249" h="80" oX="69" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_03_rare" x="228" y="193" w="213" h="135" oX="14" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_04_rare" x="730" y="293" w="202" h="140" oX="9" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_05_rare" x="0" y="397" w="196" h="145" oX="4" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_06_rare" x="443" y="275" w="211" h="149" oX="0" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_07_rare" x="730" y="156" w="219" h="135" oX="13" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_C_08_rare" x="0" y="74" w="235" h="83" oX="66" oY="0" oW="149" oH="254" r="y" />
+  <sprite n="RWY_hair_D_01_rare" x="730" y="97" w="221" h="57" oX="0" oY="134" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_02_rare" x="951" y="186" w="73" h="213" oX="9" oY="134" oW="165" oH="357" />
+  <sprite n="RWY_hair_D_03_rare" x="174" y="726" w="171" h="133" oX="17" oY="133" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_04_rare" x="891" y="945" w="132" h="135" oX="30" oY="47" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_05_rare" x="921" y="597" w="103" h="125" oX="31" oY="19" oW="165" oH="357" />
+  <sprite n="RWY_hair_D_06_rare" x="384" y="1086" w="138" h="99" oX="18" oY="5" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_07_rare" x="533" y="998" w="141" h="102" oX="9" oY="0" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_08_rare" x="934" y="443" w="89" h="152" oX="21" oY="1" oW="165" oH="357" />
+  <sprite n="RWY_hair_D_09_rare" x="0" y="1120" w="144" h="85" oX="23" oY="134" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_10_rare" x="414" y="426" w="193" h="83" oX="1" oY="134" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_D_11_rare" x="0" y="322" w="212" h="73" oX="0" oY="134" oW="165" oH="357" r="y" />
+  <sprite n="RWY_hair_E_01_rare" x="727" y="679" w="179" h="60" oX="0" oY="116" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_02_rare" x="724" y="741" w="178" h="67" oX="0" oY="116" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_03_rare" x="0" y="754" w="170" h="102" oX="0" oY="116" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_04_rare" x="571" y="715" w="151" h="135" oX="0" oY="96" oW="151" oH="295" />
+  <sprite n="RWY_hair_E_05_rare" x="0" y="1023" w="146" h="95" oX="0" oY="56" oW="151" oH="295" />
+  <sprite n="RWY_hair_E_06_rare" x="908" y="724" w="114" h="126" oX="0" oY="5" oW="151" oH="295" />
+  <sprite n="RWY_hair_E_07_rare" x="723" y="1000" w="131" h="113" oX="0" oY="0" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_08_rare" x="389" y="978" w="142" h="106" oX="0" oY="5" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_09_rare" x="903" y="852" w="114" h="91" oX="0" oY="116" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_10_rare" x="390" y="893" w="151" h="83" oX="0" oY="116" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_E_11_rare" x="724" y="810" w="177" h="58" oX="0" oY="116" oW="151" oH="295" r="y" />
+  <sprite n="RWY_hair_F_01_rare" x="0" y="159" w="226" h="95" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_02_rare" x="470" y="171" w="217" h="102" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_03_rare" x="0" y="544" w="189" h="120" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_04_rare" x="724" y="870" w="165" h="128" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_05_rare" x="558" y="852" w="164" h="144" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_06_rare" x="168" y="1007" w="146" h="138" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_07_rare" x="576" y="569" w="149" h="144" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_hair_F_08_rare" x="730" y="435" w="202" h="106" oX="0" oY="0" oW="144" oH="226" r="y" />
+  <sprite n="RWY_head_rare" x="0" y="666" w="172" h="86" r="y" />
+  <sprite n="RWY_mouth_01" x="676" y="998" w="45" h="77" oX="12" oY="13" oW="100" oH="64" r="y" />
+  <sprite n="RWY_mouth_02" x="175" y="1252" w="74" h="49" oX="13" oY="9" oW="100" oH="64" />
+  <sprite n="RWY_mouth_03" x="656" y="461" w="71" h="52" oX="15" oY="6" oW="100" oH="64" />
+  <sprite n="RWY_mouth_04" x="347" y="726" w="41" h="89" oX="5" oY="17" oW="100" oH="64" r="y" />
+  <sprite n="RWY_mouth_05" x="676" y="1077" w="43" h="83" oX="8" oY="15" oW="100" oH="64" r="y" />
+  <sprite n="RWY_neck_rare" x="191" y="623" w="174" h="101" oX="1" oY="0" oW="102" oH="174" r="y" />
+  <sprite n="RWY_pupil" x="470" y="104" w="22" h="38" oX="9" oY="1" oW="40" oH="40" />
+  <sprite n="RWY_shadow" x="214" y="330" w="198" h="100" />
+  <sprite n="RWY_toeA_01" x="656" y="349" w="72" h="54" oX="7" oY="1" oW="83" oH="55" />
+  <sprite n="RWY_toeA_02" x="260" y="1224" w="50" h="57" oX="7" oY="7" oW="64" oH="64" r="y" />
+  <sprite n="RWY_toeA_base_02" x="347" y="817" w="40" h="64" oX="0" oY="24" oW="64" oH="64" r="y" />
+  <sprite n="RWY_toeB_01_rare" x="315" y="1194" w="62" h="94" r="y" />
+  <sprite n="RWY_toeB_02_base_rare" x="316" y="1011" w="69" h="56" oX="0" oY="14" oW="69" oH="72" />
+  <sprite n="RWY_toeB_02_rare" x="316" y="1069" w="66" h="60" oX="3" oY="0" oW="69" oH="72" />
+  <sprite n="RWY_toeC_01_rare" x="260" y="1147" w="53" h="75" />
+  <sprite n="RWY_toeC_02_base_rare" x="656" y="405" w="72" h="54" oX="0" oY="12" oW="72" oH="66" />
+  <sprite n="RWY_toeC_02_rare" x="330" y="883" w="58" h="64" oX="9" oY="0" oW="72" oH="66" />
+  <sprite n="RWY_toeD_01_rare" x="0" y="1207" w="95" h="61" />
+  <sprite n="RWY_toeD_02_base_rare" x="656" y="515" w="70" h="52" oX="1" oY="21" oW="71" oH="73" />
+  <sprite n="RWY_toeD_02_rare" x="316" y="1131" w="63" h="61" oX="0" oY="0" oW="71" oH="73" r="y" />
+</TextureAtlas>

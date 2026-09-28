@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:23f152150f5fc90e63acdc161ac0dd46:217d3fe20a81b74ba63cbf34d0928030:3eb03f0e6cac04b3fae4519bb5caf7c9$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_O_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="O_ankle" x="809" y="921" w="67" h="96" oX="3" oY="2" oW="72" oH="100"/>
+	<sprite n="O_beam_1" x="632" y="433" w="200" h="92" oX="0" oY="3" oW="200" oH="100"/>
+	<sprite n="O_beam_2" x="632" y="230" w="200" h="96" oX="0" oY="0" oW="200" oH="100"/>
+	<sprite n="O_beam_3" x="632" y="619" w="200" h="89" oX="0" oY="5" oW="200" oH="100"/>
+	<sprite n="O_beam_4" x="632" y="527" w="200" h="90" oX="0" oY="7" oW="200" oH="100"/>
+	<sprite n="O_castle" x="0" y="0" w="496" h="529" oX="8" oY="31" oW="504" oH="560"/>
+	<sprite n="O_castleglow" x="0" y="531" w="256" h="278" oX="0" oY="10" oW="256" oH="288"/>
+	<sprite n="O_chest" x="0" y="811" w="253" h="213" oX="3" oY="2" oW="256" oH="216"/>
+	<sprite n="O_eyeball_1" x="597" y="710" w="56" h="56" oX="18" oY="18" oW="92" oH="92"/>
+	<sprite n="O_eyeball_2" x="849" y="809" w="88" h="88" oX="2" oY="2" oW="92" oH="92"/>
+	<sprite n="O_eyelid_1" x="533" y="997" w="54" h="24" oX="2" oY="35" oW="60" oH="60"/>
+	<sprite n="O_eyelid_2" x="994" y="495" w="28" h="57" oX="1" oY="31" oW="60" oH="60" r="y"/>
+	<sprite n="O_eyelid_3" x="498" y="264" w="58" h="58" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="O_eyelid_4" x="558" y="264" w="58" h="58" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="O_eyesockets" x="834" y="495" w="158" h="55" oX="0" oY="0" oW="160" oH="56"/>
+	<sprite n="O_fist_1" x="834" y="552" w="153" h="112" oX="41" oY="0" oW="196" oH="112"/>
+	<sprite n="O_fist_2" x="498" y="373" w="108" h="154" oX="40" oY="2" oW="196" oH="112" r="y"/>
+	<sprite n="O_foot" x="841" y="187" w="160" h="184" oX="3" oY="0" oW="164" oH="184"/>
+	<sprite n="O_foot_pad" x="837" y="373" w="184" h="120" oX="4" oY="0" oW="188" oH="120"/>
+	<sprite n="O_fxray" x="335" y="793" w="70" h="226" oX="0" oY="1" oW="72" oH="228"/>
+	<sprite n="O_knee" x="632" y="940" w="75" h="80" oX="2" oY="2" oW="80" oH="84"/>
+	<sprite n="O_lowerarm" x="632" y="0" w="207" h="113" oX="1" oY="3" oW="208" oH="120"/>
+	<sprite n="O_lowerarm02" x="632" y="115" w="207" h="113" oX="1" oY="3" oW="208" oH="120"/>
+	<sprite n="O_mouth_01" x="255" y="811" w="78" h="211" oX="25" oY="3" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_02" x="258" y="531" w="95" h="260" oX="0" oY="2" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_03" x="505" y="770" w="125" h="225" oX="17" oY="4" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_04" x="841" y="0" w="164" h="185" oX="34" oY="7" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_05" x="498" y="0" w="132" h="153" oX="61" oY="10" oW="260" oH="244"/>
+	<sprite n="O_mouth_06" x="498" y="155" w="132" h="107" oX="74" oY="11" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_07" x="709" y="940" w="98" h="79" oX="89" oY="13" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_08" x="834" y="666" w="139" h="68" oX="60" oY="12" oW="260" oH="244"/>
+	<sprite n="O_mouth_09" x="655" y="710" w="135" h="110" oX="60" oY="10" oW="260" oH="244"/>
+	<sprite n="O_mouth_10" x="407" y="788" w="96" h="232" oX="13" oY="0" oW="260" oH="244" r="y"/>
+	<sprite n="O_mouth_11" x="460" y="531" w="135" h="237" oX="61" oY="7" oW="260" oH="244"/>
+	<sprite n="O_mouth_12" x="355" y="531" w="103" h="255" oX="2" oY="4" oW="260" oH="244" r="y"/>
+	<sprite n="O_neck" x="608" y="367" w="35" h="64" oX="1" oY="5" oW="68" oH="44" r="y"/>
+	<sprite n="O_pupil" x="505" y="997" w="26" h="26" oX="1" oY="1" oW="28" oH="28"/>
+	<sprite n="O_record" x="632" y="822" w="116" h="116" oX="2" oY="2" oW="120" oH="120"/>
+	<sprite n="O_record_needle" x="498" y="328" w="88" h="40" oX="2" oY="0" oW="44" oH="88" r="y"/>
+	<sprite n="O_shadow" x="648" y="328" w="187" h="83" oX="3" oY="3" oW="192" oH="88"/>
+	<sprite n="O_shock" x="750" y="822" w="97" h="97" oX="3" oY="4" oW="104" oH="104"/>
+	<sprite n="O_upperarm" x="792" y="736" w="64" h="71" oX="0" oY="0" oW="64" oH="72"/>
+	<sprite n="O_upperleg" x="588" y="328" w="58" h="37" oX="2" oY="0" oW="64" oH="40"/>
+</TextureAtlas>

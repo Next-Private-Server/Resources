@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f9d2aa621287c54151c419e5b5cb6438:501b542250d1346d5438874aa49c4117:425f37d28e5b9adf7b6d348e91cf37f2$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_JLM_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="JLM_bubble_00" x="38" y="413" w="30" h="16" pX="0.5" pY="0.5" oX="27" oY="30" oW="84" oH="64"/>
+	<sprite n="JLM_bubble_01" x="0" y="405" w="36" h="21" pX="0.5" pY="0.5" oX="24" oY="26" oW="84" oH="64"/>
+	<sprite n="JLM_bubble_02" x="0" y="351" w="28" h="38" pX="0.5" pY="0.5" oX="23" oY="21" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_bubble_03" x="0" y="309" w="31" h="40" pX="0.5" pY="0.5" oX="22" oY="19" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_bubble_04" x="470" y="0" w="42" h="46" pX="0.5" pY="0.5" oX="19" oY="7" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_bubble_05" x="468" y="123" w="43" h="62" pX="0.5" pY="0.5" oX="10" oY="7" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_bubble_06" x="470" y="48" w="40" h="73" pX="0.5" pY="0.5" oX="4" oY="10" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_bubble_07" x="91" y="431" w="39" h="78" pX="0.5" pY="0.5" oX="3" oY="14" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_bubble_08" x="132" y="431" w="37" h="76" pX="0.5" pY="0.5" oX="3" oY="19" oW="84" oH="64" r="y"/>
+	<sprite n="JLM_goop" x="280" y="0" w="188" h="97" pX="0.5" pY="0.5" oX="7" oY="5" oW="200" oH="108"/>
+	<sprite n="JLM_handle_left" x="398" y="431" w="47" h="56" pX="2.92188" pY="0.896552" oX="8" oY="1" oW="64" oH="58"/>
+	<sprite n="JLM_handle_right" x="346" y="431" w="50" h="63" pX="-1.85938" pY="1.34483" oX="0" oY="4" oW="64" oH="58" r="y"/>
+	<sprite n="JLM_head" x="38" y="309" w="127" h="102" pX="0.5" pY="0.5" oX="4" oY="7" oW="136" oH="116"/>
+	<sprite n="JLM_insidejaw" x="267" y="171" w="159" h="258" pX="0.5" pY="0.5" oX="11" oY="5" oW="280" oH="164" r="y"/>
+	<sprite n="JLM_lowerjaw" x="0" y="0" w="278" h="140" pX="0.5" pY="0.5" oX="0" oY="5" oW="280" oH="148"/>
+	<sprite n="JLM_pot_peel" x="280" y="99" w="186" h="70" pX="0.478723" pY="1.06944" oX="1" oY="1" oW="188" oH="72"/>
+	<sprite n="JLM_smoke" x="171" y="309" w="94" h="94" pX="0.5" pY="0.5" oX="7" oY="7" oW="108" oH="108"/>
+	<sprite n="JLM_tongue_01" x="428" y="268" w="84" h="58" pX="0.5" pY="0.5" oX="2" oY="34" oW="92" oH="96"/>
+	<sprite n="JLM_tongue_02" x="171" y="405" w="86" h="62" pX="0.5" pY="0.5" oX="2" oY="29" oW="92" oH="96"/>
+	<sprite n="JLM_tongue_03" x="259" y="431" w="85" h="69" pX="0.5" pY="0.5" oX="2" oY="22" oW="92" oH="96"/>
+	<sprite n="JLM_tongue_04" x="428" y="187" w="84" h="79" pX="0.5" pY="0.5" oX="2" oY="12" oW="92" oH="96"/>
+	<sprite n="JLM_tongue_05" x="0" y="431" w="89" h="78" pX="0.5" pY="0.5" oX="2" oY="2" oW="92" oH="96" r="y"/>
+	<sprite n="JLM_upperjaw" x="0" y="142" w="265" h="165" pX="0.5" pY="0.505952" oX="1" oY="0" oW="268" oH="168"/>
+</TextureAtlas>

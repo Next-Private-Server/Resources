@@ -1,0 +1,469 @@
+<template name="template_social_card" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/SocialCard.lua" />
+
+	<defaultTemplateVar name="$scale" equals="1.1*game.windowScaleY()" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+
+	<event name="onTick" params="element, dt">
+		<![CDATA[							
+			element:onTickLua(dt)
+		]]>
+	</event>
+
+	<spriteComponent name="bg">
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+		<event name="onInit" params="component, element">			
+			component("size"):SetFloat(0.25*$scale)
+			component("spriteName"):SetString("gfx/menu/social/Cards/profile_card_back_000")
+			component("layer"):SetString("MidPopUps")
+		</event>
+	</spriteComponent>
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	
+		<event name="onTouchUp" params="component, element">
+			element:OnCardClicked()
+		</event>
+	</touchComponent>
+
+	<element name="DisplayName">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="9*element:templateVars().scale" priorityOffset="-1" />
+
+		<textComponent name="Text">
+			<size w="60*element:templateVars().scale" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.3*$scale)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("Monster Hunter Joe")
+				component("noTranslate"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+
+		<touchComponent name="Touch">
+            <size dependentOnElement="element:name()"/>
+			<event name="onInit" params="component, element">
+				component("enabled"):SetInt(0)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				game.checkGamePermission("DISPLAY_NAME", "popup_permission_name")
+			</event>
+		</touchComponent>
+
+		<event name="hide" params="element">
+			element:C("Text")("visible"):SetInt(0)
+			element:C("Touch")("enabled"):SetInt(0)
+		</event>
+
+		<event name="show" params="element">
+			element:C("Text")("visible"):SetInt(1)
+		</event>
+	</element>
+
+	<element name="FavoriteToggleButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="2*element:parent():templateVars().scale" yOffset="4*element:parent():templateVars().scale" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("favoritestar_off")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.25*$scale)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+            <size dependentOnElement="element:name()"/>
+            <event name="onTouchUp" params="component, element">
+				element:parent():OnFavouriteButton()
+			</event>
+        </touchComponent>
+		<function name="setVisible" params="element">
+			element:C("Touch")("enabled"):SetInt(1)
+			element:C("Sprite")("visible"):SetInt(1)
+		</function>
+		<function name="setInvisible" params="element">
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Sprite")("visible"):SetInt(0)
+		</function>
+	</element>
+
+	<element name="EditIcon">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="6*element:parent():templateVars().scale" yOffset="3*element:parent():templateVars().scale" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("editprofile_icon")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("size"):SetFloat(0.25*$scale)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+            <size dependentOnElement="element:name()"/>
+            <event name="onTouchUp" params="component, element">
+				game.checkGamePermission("DISPLAY_NAME", "popup_permission_name")
+			</event>
+        </touchComponent>
+		<function name="setVisible" params="element">
+			element:C("Touch")("enabled"):SetInt(1)
+			element:C("Sprite")("visible"):SetInt(1)
+		</function>
+		<function name="setInvisible" params="element">
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Sprite")("visible"):SetInt(0)
+		</function>
+	</element>
+
+	<template type="template_user_avatar" name="ProfilePic">
+		<templateVar name="$layer" equals="MidPopUps" />
+
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="14*element:parent():templateVars().scale" priorityOffset="0" />
+
+		<event name="onPostInit" params="element">
+			onPostInit(element)
+			element:SetScale($scale)
+		</event>
+	</template>
+
+	<element name="Phrase">
+		<size dependentOnElement="element:name()" dependentOnComponent="backdrop" />
+
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="20*element:parent():templateVars().scale" priorityOffset="0" />
+
+		<spriteComponent name="backdrop">
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("size"):SetFloat(0.25*$scale)
+				component("spriteName"):SetString("gfx/menu/social/PurpleBanner")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+
+		<textComponent name="Text">
+			<size w="66*element:parent():templateVars().scale" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*$scale)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("Meebs are cute")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+
+		<event name="hide" params="element">
+			element:C("backdrop")("visible"):SetInt(0)
+			element:C("Text")("visible"):SetInt(0)
+		</event>
+
+		<event name="show" params="element">
+			element:C("backdrop")("visible"):SetInt(1)
+			element:C("Text")("visible"):SetInt(1)
+		</event>
+	</element>
+
+	<element name="Activity">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Phrase" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="4*element:parent():templateVars().scale" priorityOffset="-1" />
+
+		<textComponent name="Text">
+			<size w="72*element:parent():templateVars().scale" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.2*$scale)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("Logged in: 2 days")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_nineslicebutton" name="SmallLeftButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_vert_square01_purple'" />
+		<templateVar name="$spriteScale" equals="0.25*game.windowScaleY()" />
+		<templateVar name="$layer" equals="'MidPopUps'" />
+		<templateVar name="$topHeight" equals="17.0" />
+		<templateVar name="$bottomHeight" equals="17.0" />
+		<templateVar name="$leftWidth" equals="17.0" />
+		<templateVar name="$rightWidth" equals="17.0" />
+
+		<templateVar name="$width" equals="36*game.windowScaleY()" />
+		<templateVar name="$height" equals="24*game.windowScaleY()" />
+
+		<templateVar name="$includeBorder" equals="1" />
+
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="1*element:parent():templateVars().scale" yOffset="4*element:parent():templateVars().scale" priorityOffset="-1" />
+
+		<event name="onPostInit" params="element">
+			element.scaleRatio = element:C("Overlay")("size"):GetFloat() / element:C("UpSprite")("width"):GetFloat()
+		</event>
+
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element:C("Overlay")("size"):GetFloat()/element:C("UpSprite")("width"):GetFloat() ~= element.scaleRatio) then
+				element:C("Overlay")("size"):SetFloat(element.scaleRatio * element:C("UpSprite")("width"):GetFloat())
+			end
+		</event>
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_light_torch_smaller")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("size"):SetFloat(0.2*$scale)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				if (element.enabled) then
+					onTouchDown(component, element)
+					element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+				end
+			</event>
+			<event name="onTouchUp" params="component, element">
+				if (element.enabled) then
+					onTouchUp(component, element)
+					element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				end
+
+				element:parent():OnSmallLeftButtonUp()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				if (element.enabled) then
+					onTouchRelease(component, element)
+					element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				end
+			</event>
+		</touchComponent>
+
+		<function name="setVisible" params="element">
+			setVisible(element)
+			element:C("Overlay")("visible"):SetInt(1)
+		</function>
+
+		<function name="setInvisible" params="element">
+			setInvisible(element)
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Overlay")("visible"):SetInt(0)
+		</function>
+
+		<function name="enable" params="element">
+			enable(element)
+			element:C("Touch")("enabled"):SetInt(1)
+			element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+		</function>
+
+		<function name="disable" params="element">
+			disable(element)
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+		</function>
+	</template>
+
+	<template type="template_nineslicebutton" name="SmallRightButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_vert_square01_purple'" />
+		<templateVar name="$spriteScale" equals="0.25*game.windowScaleY()" />
+		<templateVar name="$layer" equals="'MidPopUps'" />
+		<templateVar name="$topHeight" equals="17.0" />
+		<templateVar name="$bottomHeight" equals="17.0" />
+		<templateVar name="$leftWidth" equals="17.0" />
+		<templateVar name="$rightWidth" equals="17.0" />
+
+		<templateVar name="$width" equals="36*game.windowScaleY()" />
+		<templateVar name="$height" equals="24*game.windowScaleY()" />
+
+		<templateVar name="$includeBorder" equals="1" />
+
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="1*element:parent():templateVars().scale" yOffset="4*element:parent():templateVars().scale" priorityOffset="-1" />
+
+		<event name="onPostInit" params="element">
+			element.scaleRatio = element:C("Overlay")("size"):GetFloat() / element:C("UpSprite")("width"):GetFloat()
+		</event>
+
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element:C("Overlay")("size"):GetFloat()/element:C("UpSprite")("width"):GetFloat() ~= element.scaleRatio) then
+				element:C("Overlay")("size"):SetFloat(element.scaleRatio * element:C("UpSprite")("width"):GetFloat())
+			end
+		</event>
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_light_torch_smaller")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.4*$scale)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				if (element.enabled) then
+					onTouchDown(component, element)
+					element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+				end
+			</event>
+			<event name="onTouchUp" params="component, element">
+				if (element.enabled) then
+					onTouchUp(component, element)
+					element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				end
+
+				element:parent():OnSmallRightButton()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				if (element.enabled) then
+					onTouchRelease(component, element)
+					element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				end
+			</event>
+		</touchComponent>
+
+		<function name="setVisible" params="element">
+			setVisible(element)
+			element:C("Overlay")("visible"):SetInt(1)
+		</function>
+
+		<function name="setInvisible" params="element">
+			setInvisible(element)
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Overlay")("visible"):SetInt(0)
+		</function>
+
+		<function name="enable" params="element">
+			enable(element)
+			element:C("Touch")("enabled"):SetInt(1)
+			element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+		</function>
+
+		<function name="disable" params="element">
+			disable(element)
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+		</function>
+	</template>
+
+	<template type="template_nineslicebutton" name="LargeButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_vert_square01_purple'" />
+		<templateVar name="$spriteScale" equals="0.3*game.windowScaleY()" />
+		<templateVar name="$layer" equals="'MidPopUps'" />
+		<templateVar name="$font" equals="'game.getTextFont()'" />
+		<templateVar name="$textPadding" equals="4*game.windowScaleY()" />
+		<templateVar name="$topHeight" equals="17.0" />
+		<templateVar name="$bottomHeight" equals="17.0" />
+		<templateVar name="$leftWidth" equals="17.0" />
+		<templateVar name="$rightWidth" equals="17.0" />
+		<templateVar name="$width" equals="74*game.windowScaleY()" />
+		<templateVar name="$height" equals="28*game.windowScaleY()" />
+
+		<templateVar name="$includeBorder" equals="1" />
+
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="4*element:parent():templateVars().scale" priorityOffset="-1" />
+
+		<event name="onPostInit" params="element">
+			element.scaleRatio = element:C("Overlay")("size"):GetFloat() / element:C("UpSprite")("width"):GetFloat()
+		</event>
+
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element:C("Overlay")("size"):GetFloat()/element:C("UpSprite")("width"):GetFloat() ~= element.scaleRatio) then
+				element:C("Overlay")("size"):SetFloat(element.scaleRatio * element:C("UpSprite")("width"):GetFloat())
+			end
+		</event>
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="1*element:parent():templateVars().scale" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_light_torch_smaller")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.4*$scale)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				if (element.enabled) then
+					onTouchDown(component, element)
+					element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+				end
+			</event>
+			<event name="onTouchUp" params="component, element">
+				if (element.enabled) then
+					onTouchUp(component, element)
+					element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				end
+
+				element:parent():OnLargeButton()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				if (element.enabled) then
+					onTouchRelease(component, element)
+					element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				end
+			</event>
+		</touchComponent>
+
+		<function name="setVisible" params="element">
+			setVisible(element)
+			element:C("Overlay")("visible"):SetInt(1)
+		</function>
+
+		<function name="setInvisible" params="element">
+			setInvisible(element)
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Overlay")("visible"):SetInt(0)
+		</function>
+
+		<function name="enable" params="element">
+			enable(element)
+			element:C("Touch")("enabled"):SetInt(1)
+			element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+		</function>
+
+		<function name="disable" params="element">
+			disable(element)
+			element:C("Touch")("enabled"):SetInt(0)
+			element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+		</function>
+	</template>
+
+</template>

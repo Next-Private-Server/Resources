@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f6a05b0fdff90f9e8dbb85a3cc222073:7c0b81da31932a4817dd33f980d7abc8:9daa1df7aedfebf67f1a283a0b829b23$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P10_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="P10_back_foot" x="218" y="387" w="42" h="42" oX="7" oY="5" oW="56" oH="52"/>
+	<sprite n="P10_back_foot_2" x="0" y="885" w="52" h="56" oX="18" oY="18" oW="88" oH="92"/>
+	<sprite n="P10_back_lower_leg_2" x="376" y="632" w="100" h="66" oX="7" oY="2" oW="84" oH="104" r="y"/>
+	<sprite n="P10_back_upper_leg_2" x="0" y="718" w="96" h="70" oX="7" oY="4" oW="84" oH="104" r="y"/>
+	<sprite n="P10_eye" x="98" y="769" w="68" h="59" oX="4" oY="5" oW="68" oH="76" r="y"/>
+	<sprite n="P10_eyelid_01" x="0" y="790" w="68" h="58" oX="4" oY="8" oW="72" oH="80" r="y"/>
+	<sprite n="P10_eyelid_02" x="394" y="770" w="67" h="60" oX="4" oY="8" oW="72" oH="80" r="y"/>
+	<sprite n="P10_eyelid_03" x="303" y="823" w="66" h="60" oX="4" oY="9" oW="72" oH="80" r="y"/>
+	<sprite n="P10_eyelid_04" x="447" y="700" w="60" h="68" oX="4" oY="8" oW="72" oH="80"/>
+	<sprite n="P10_front_foot" x="218" y="431" w="42" h="42" oX="7" oY="5" oW="56" oH="52"/>
+	<sprite n="P10_front_foot_2" x="0" y="943" w="52" h="56" oX="18" oY="18" oW="88" oH="92"/>
+	<sprite n="P10_front_lower_leg_2" x="247" y="643" w="100" h="65" oX="7" oY="2" oW="84" oH="104" r="y"/>
+	<sprite n="P10_front_upper_leg_2" x="115" y="697" w="97" h="70" oX="7" oY="4" oW="84" oH="104" r="y"/>
+	<sprite n="P10_horn" x="0" y="0" w="279" h="198" oX="0" oY="1" oW="198" oH="282" r="y"/>
+	<sprite n="P10_horn_2" x="262" y="250" w="219" h="106" oX="3" oY="8" oW="124" oH="234" r="y"/>
+	<sprite n="P10_horn_back" x="0" y="200" w="260" h="185" oX="9" oY="7" oW="198" oH="282" r="y"/>
+	<sprite n="P10_lower_back_leg" x="210" y="619" w="35" h="59" oX="10" oY="3" oW="52" oH="72"/>
+	<sprite n="P10_lower_front_leg" x="218" y="558" w="36" h="59" oX="9" oY="4" oW="52" oH="72"/>
+	<sprite n="P10_mouth_01" x="260" y="478" w="216" h="94" oX="8" oY="21" oW="232" oH="118"/>
+	<sprite n="P10_mouth_02" x="0" y="498" w="216" h="101" oX="8" oY="14" oW="232" oH="118"/>
+	<sprite n="P10_mouth_03" x="0" y="387" w="216" h="109" oX="8" oY="4" oW="232" oH="118"/>
+	<sprite n="P10_mouth_04" x="262" y="358" w="216" h="118" oX="7" oY="0" oW="232" oH="118"/>
+	<sprite n="P10_mouth_back" x="256" y="574" w="118" h="67" oX="15" oY="17" oW="152" oH="84"/>
+	<sprite n="P10_mouth_inside_01" x="480" y="396" w="30" h="81" oX="12" oY="32" oW="106" oH="66" r="y"/>
+	<sprite n="P10_mouth_inside_02" x="218" y="475" w="40" h="81" oX="7" oY="21" oW="106" oH="66" r="y"/>
+	<sprite n="P10_mouth_inside_03" x="131" y="601" w="77" h="45" oX="7" oY="12" oW="106" oH="66"/>
+	<sprite n="P10_mouth_inside_04" x="131" y="648" w="71" h="47" oX="8" oY="5" oW="106" oH="66"/>
+	<sprite n="P10_pupil" x="480" y="358" w="32" h="36" oX="9" oY="3" oW="44" oH="44"/>
+	<sprite n="P10_shadow" x="0" y="601" w="129" h="66" oX="5" oY="5" oW="140" oH="76"/>
+	<sprite n="P10_tongue_01" x="214" y="768" w="87" h="68" oX="5" oY="2" oW="124" oH="80"/>
+	<sprite n="P10_tongue_02" x="349" y="700" w="96" h="64" oX="11" oY="6" oW="124" oH="80"/>
+	<sprite n="P10_tongue_03" x="376" y="574" w="108" h="56" oX="9" oY="19" oW="124" oH="80"/>
+	<sprite n="P10_tongue_04" x="0" y="669" w="113" h="47" oX="7" oY="27" oW="124" oH="80"/>
+	<sprite n="P10_torso" x="281" y="0" w="231" h="248" oX="1" oY="0" oW="232" oH="248"/>
+	<sprite n="P10_upper_back_leg" x="214" y="710" w="88" h="56" oX="0" oY="1" oW="56" oH="96" r="y"/>
+	<sprite n="P10_upper_front_leg" x="304" y="766" w="88" h="55" oX="1" oY="1" oW="56" oH="96" r="y"/>
+</TextureAtlas>

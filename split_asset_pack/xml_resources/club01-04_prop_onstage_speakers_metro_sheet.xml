@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d307381457a13c916cf69165e3c3e503:dd89177f369717902c6f65230b6c10e0:3624700a161501cbd3a045f81bb0c8a1$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_onstage_speakers_metro_sheet.png" width="512" height="256" hires="true" version="1">
+	<sprite n="speaker_bg" x="287" y="118" w="108" h="100"/>
+	<sprite n="speaker_fg" x="397" y="104" w="73" h="102" r="y"/>
+	<sprite n="speaker_ring_1" x="467" y="67" w="28" h="16" oX="2" oY="4" oW="32" oH="24"/>
+	<sprite n="speaker_ring_2" x="168" y="219" w="48" h="27" oX="3" oY="2" oW="54" oH="32"/>
+	<sprite n="speaker_ring_3" x="467" y="0" w="39" h="65" oX="3" oY="4" oW="72" oH="48" r="y"/>
+	<sprite n="sub_base" x="0" y="0" w="168" h="150" oX="0" oY="0" oW="171" oH="153"/>
+	<sprite n="sub_base_fg" x="170" y="0" w="167" h="116" oX="1" oY="29" oW="171" oH="153"/>
+	<sprite n="sub_glow" x="0" y="152" w="166" h="98" oX="0" oY="36" oW="171" oH="153"/>
+	<sprite n="sub_hat" x="170" y="118" w="115" h="99" oX="35" oY="4" oW="171" oH="153" r="y"/>
+	<sprite n="sub_middle glow" x="339" y="0" w="126" h="102" r="y"/>
+</TextureAtlas>

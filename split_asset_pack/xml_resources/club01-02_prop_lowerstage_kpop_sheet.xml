@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:12a8f570785131de1ea96827d0d440d9:fea92b599fe215a3aafd3bb0f0b9fe11:ed8dcac66b69e2b89404a55fd6075acf$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_lowerstage_kpop_sheet.png" width="2048" height="1024" hires="true" version="1">
+	<sprite n="lstage_back_bballoon_1" x="0" y="239" w="230" h="238" oX="107" oY="91" oW="444" oH="408">
+		<vertices>306 107 337 189 311 269 211 329 142 285 107 166 207 91</vertices>
+		<verticesUV>199 255 230 337 204 417 104 477 35 433 0 314 100 239</verticesUV>
+		<triangles>4 5 6 2 3 4 2 4 6 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="lstage_back_bballoon_2" x="1389" y="89" w="233" h="246" oX="98" oY="64" oW="400" oH="366">
+		<vertices>331 190 263 310 137 266 98 186 108 87 257 64</vertices>
+		<verticesUV>1622 215 1554 335 1428 291 1389 211 1399 112 1548 89</verticesUV>
+		<triangles>3 4 5 0 3 5 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_back_bballoon_3" x="551" y="664" w="156" h="168" oX="46" oY="28" oW="246" oH="234">
+		<vertices>202 141 138 196 64 183 46 101 81 46 179 28</vertices>
+		<verticesUV>707 777 643 832 569 819 551 737 586 682 684 664</verticesUV>
+		<triangles>0 4 5 3 1 2 3 4 0 3 0 1</triangles>
+	</sprite>
+	<sprite n="lstage_back_bballoon_4" x="350" y="708" w="187" h="195" oX="37" oY="34" oW="276" oH="284">
+		<vertices>224 83 224 171 164 229 56 214 37 77 154 34</vertices>
+		<verticesUV>537 757 537 845 477 903 369 888 350 751 467 708</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_bballoon_5" x="1176" y="494" w="180" h="174" oX="54" oY="33" oW="285" oH="257">
+		<vertices>181 58 234 107 206 194 98 207 54 112 104 33</vertices>
+		<verticesUV>1303 519 1356 568 1328 655 1220 668 1176 573 1226 494</verticesUV>
+		<triangles>0 1 2 3 4 0 3 0 2 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_bheart_1" x="1604" y="197" w="246" h="228" oX="32" oY="10" oW="314" oH="246">
+		<vertices>278 117 195 238 64 209 32 61 237 10</vertices>
+		<verticesUV>1850 304 1767 425 1636 396 1604 248 1809 197</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="lstage_back_gballoon_1" x="1534" y="758" w="166" h="189" oX="55" oY="31" oW="278" oH="260">
+		<vertices>221 78 221 171 158 220 77 204 55 138 73 69 160 31</vertices>
+		<verticesUV>1700 805 1700 898 1637 947 1556 931 1534 865 1552 796 1639 758</verticesUV>
+		<triangles>0 5 6 0 1 4 2 3 4 1 2 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_gballoon_2" x="475" y="852" w="162" h="156" oX="22" oY="35" oW="218" oH="238">
+		<vertices>184 136 142 191 66 181 22 119 52 59 141 35</vertices>
+		<verticesUV>637 953 595 1008 519 998 475 936 505 876 594 852</verticesUV>
+		<triangles>2 0 1 2 3 4 2 4 0 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_gballoon_3" x="754" y="517" w="175" h="182" oX="31" oY="41" oW="254" oH="254">
+		<vertices>206 174 143 223 31 201 60 51 206 41</vertices>
+		<verticesUV>929 650 866 699 754 677 783 527 929 517</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_back_gballoon_4" x="1843" y="709" w="205" h="219" oX="34" oY="36" oW="274" oH="280">
+		<vertices>222 52 239 156 176 255 73 222 34 96 134 36</vertices>
+		<verticesUV>2031 725 2048 829 1985 928 1882 895 1843 769 1943 709</verticesUV>
+		<triangles>3 4 5 1 2 3 1 3 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_gballoon_5" x="369" y="385" w="186" h="203" oX="65" oY="42" oW="314" oH="296">
+		<vertices>251 104 251 192 196 245 103 244 65 185 82 77 186 42</vertices>
+		<verticesUV>555 447 555 535 500 588 407 587 369 528 386 420 490 385</verticesUV>
+		<triangles>0 5 6 1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_gstar_1" x="0" y="474" w="196" h="205" oX="64" oY="26" oW="320" oH="278">
+		<vertices>260 128 197 231 75 231 64 82 174 26</vertices>
+		<verticesUV>196 576 133 679 11 679 0 530 110 474</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="lstage_back_gstar_2" x="1785" y="306" w="228" h="215" oX="19" oY="38" oW="263" oH="273">
+		<vertices>247 98 209 222 87 253 39 200 19 131 98 38</vertices>
+		<verticesUV>2013 366 1975 490 1853 521 1805 468 1785 399 1864 306</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_pballoon_1" x="184" y="709" w="176" h="206" oX="56" oY="47" oW="288" oH="266">
+		<vertices>216 67 232 166 145 253 71 194 56 97 127 47</vertices>
+		<verticesUV>344 729 360 828 273 915 199 856 184 759 255 709</verticesUV>
+		<triangles>3 4 5 1 2 3 1 3 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_pballoon_2" x="1605" y="410" w="206" h="218" oX="44" oY="50" oW="306" oH="290">
+		<vertices>233 73 250 173 207 234 91 268 44 118 136 50</vertices>
+		<verticesUV>1794 433 1811 533 1768 594 1652 628 1605 478 1697 410</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_pballoon_3" x="1355" y="348" w="210" h="200" oX="48" oY="56" oW="308" oH="308">
+		<vertices>221 88 258 153 219 256 118 237 48 164 80 79 156 56</vertices>
+		<verticesUV>1528 380 1565 445 1526 548 1425 529 1355 456 1387 371 1463 348</verticesUV>
+		<triangles>3 5 6 3 4 5 1 2 3 0 1 3 0 3 6</triangles>
+	</sprite>
+	<sprite n="lstage_back_pballoon_4" x="765" y="829" w="165" h="168" oX="63" oY="51" oW="304" oH="280">
+		<vertices>228 95 228 201 93 219 63 89 168 51</vertices>
+		<verticesUV>930 873 930 979 795 997 765 867 870 829</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="lstage_back_pballoon_5" x="728" y="346" w="197" h="173" oX="28" oY="34" oW="257" oH="242">
+		<vertices>164 60 225 117 187 207 95 203 28 126 85 34</vertices>
+		<verticesUV>864 372 925 429 887 519 795 515 728 438 785 346</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_pheart_1" x="1800" y="95" w="248" h="222" oX="31" oY="32" oW="304" oH="258">
+		<vertices>279 73 234 190 125 254 66 201 31 94 83 32</vertices>
+		<verticesUV>2048 136 2003 253 1894 317 1835 264 1800 157 1852 95</verticesUV>
+		<triangles>3 4 5 1 2 3 1 3 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_star_1" x="288" y="102" w="113" h="125" oX="17" oY="6" oW="142" oH="136">
+		<vertices>130 66 72 131 17 63 68 7 80 6</vertices>
+		<verticesUV>401 162 343 227 288 159 339 103 351 102</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="lstage_back_star_2" x="120" y="441" w="85" h="96" oX="6" oY="7" oW="98" oH="108">
+		<vertices>91 53 50 103 6 51 50 7</vertices>
+		<verticesUV>205 487 164 537 120 485 164 441</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_back_star_3" x="245" y="166" w="89" h="106" oX="33" oY="26" oW="158" oH="156">
+		<vertices>122 77 78 132 33 78 77 26</vertices>
+		<verticesUV>334 217 290 272 245 218 289 166</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_back_star_4" x="282" y="850" w="109" h="128" oX="23" oY="13" oW="152" oH="156">
+		<vertices>132 78 76 141 23 75 79 13</vertices>
+		<verticesUV>391 915 335 978 282 912 338 850</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="lstage_back_startrail_1" x="1060" y="733" w="99" h="200" oX="11" oY="19" oW="110" oH="234">
+		<vertices>85 21 110 90 42 219 11 218 48 19</vertices>
+		<verticesUV>1134 735 1159 804 1091 933 1060 932 1097 733</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_back_startrail_2" x="1100" y="606" w="80" h="146" oX="2" oY="0" oW="90" oH="156">
+		<vertices>46 16 82 146 21 118 2 0</vertices>
+		<verticesUV>1144 622 1180 752 1119 724 1100 606</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_back_startrail_3" x="182" y="161" w="74" h="163" oX="10" oY="11" oW="98" oH="182">
+		<vertices>84 174 46 154 10 56 28 13 58 11</vertices>
+		<verticesUV>256 324 218 304 182 206 200 163 230 161</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_back_startrail_4" x="1560" y="312" w="71" h="219" oX="19" oY="0" oW="102" oH="232">
+		<vertices>90 106 54 186 19 219 32 22 76 0</vertices>
+		<verticesUV>1631 418 1595 498 1560 531 1573 334 1617 312</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_back_wballoon_1" x="701" y="677" w="169" h="171" oX="88" oY="46" oW="334" oH="262">
+		<vertices>228 65 257 198 159 217 98 178 88 91 141 46</vertices>
+		<verticesUV>841 696 870 829 772 848 711 809 701 722 754 677</verticesUV>
+		<triangles>3 4 5 0 2 3 0 1 2 0 3 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_wballoon_2" x="1566" y="0" w="238" h="239" oX="57" oY="31" oW="380" oH="308">
+		<vertices>279 86 295 162 251 235 129 270 57 150 131 67 204 31</vertices>
+		<verticesUV>1788 55 1804 131 1760 204 1638 239 1566 119 1640 36 1713 0</verticesUV>
+		<triangles>1 2 5 3 4 5 2 3 5 0 1 5 0 5 6</triangles>
+	</sprite>
+	<sprite n="lstage_back_wballoon_3" x="1658" y="593" w="194" h="228" oX="57" oY="58" oW="320" oH="342">
+		<vertices>235 104 251 178 223 249 147 286 71 248 57 150 98 87 170 58</vertices>
+		<verticesUV>1836 639 1852 713 1824 784 1748 821 1672 783 1658 685 1699 622 1771 593</verticesUV>
+		<triangles>5 1 2 4 5 2 5 6 1 4 2 3 0 1 6 0 6 7</triangles>
+	</sprite>
+	<sprite n="lstage_back_wballoon_4" x="1831" y="491" w="217" h="218" oX="44" oY="26" oW="303" oH="290">
+		<vertices>261 99 244 199 183 244 86 242 44 164 80 72 186 26</vertices>
+		<verticesUV>2048 564 2031 664 1970 709 1873 707 1831 629 1867 537 1973 491</verticesUV>
+		<triangles>0 1 5 4 5 2 4 2 3 1 2 5 0 5 6</triangles>
+	</sprite>
+	<sprite n="lstage_back_wballoon_5" x="1699" y="797" w="166" h="189" oX="48" oY="28" oW="266" oH="248">
+		<vertices>214 75 214 168 151 217 70 201 48 135 66 66 153 28</vertices>
+		<verticesUV>1865 844 1865 937 1802 986 1721 970 1699 904 1717 835 1804 797</verticesUV>
+		<triangles>0 5 6 0 1 4 2 3 4 1 2 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_back_wstar_1" x="1156" y="295" w="234" h="209" oX="27" oY="34" oW="296" oH="274">
+		<vertices>261 87 210 243 69 230 27 123 67 56 151 34</vertices>
+		<verticesUV>1390 348 1339 504 1198 491 1156 384 1196 317 1280 295</verticesUV>
+		<triangles>3 4 5 2 3 5 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_floor_glitter" x="0" y="0" w="642" h="239">
+		<vertices>604 39 642 140 642 226 469 219 430 134 343 98 214 134 162 239 0 239 0 130 32 66 171 10 264 0 398 0</vertices>
+		<verticesUV>604 39 642 140 642 226 469 219 430 134 343 98 214 134 162 239 0 239 0 130 32 66 171 10 264 0 398 0</verticesUV>
+		<triangles>5 12 13 6 11 12 6 10 11 9 7 8 9 6 7 9 10 6 5 6 12 4 5 13 1 2 3 1 3 4 0 1 4 0 4 13</triangles>
+	</sprite>
+	<sprite n="lstage_floor_light_section" x="934" y="0" w="315" h="314" oX="5" oY="0" oW="320" oH="320">
+		<vertices>320 58 276 314 210 300 255 146 243 138 159 276 106 235 177 111 64 193 32 134 129 59 10 80 5 14 217 0 320 0</vertices>
+		<verticesUV>1249 58 1205 314 1139 300 1184 146 1172 138 1088 276 1035 235 1106 111 993 193 961 134 1058 59 939 80 934 14 1146 0 1249 0</verticesUV>
+		<triangles>0 13 14 12 10 11 12 13 10 7 10 13 9 7 8 9 10 7 4 7 13 5 6 7 4 5 7 0 4 13 0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_floor_light_section_glow" x="614" y="0" w="320" h="314" oX="0" oY="0" oW="320" oH="320">
+		<vertices>320 144 286 314 200 300 87 227 15 105 0 2 74 0 320 0</vertices>
+		<verticesUV>934 144 900 314 814 300 701 227 629 105 614 2 688 0 934 0</verticesUV>
+		<triangles>0 6 7 4 5 6 3 4 6 0 3 6 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="lstage_left_bballoon_1" x="193" y="347" w="189" h="210" oX="57" oY="42" oW="304" oH="296">
+		<vertices>219 72 246 140 222 213 160 252 86 223 57 146 83 66 156 42</vertices>
+		<verticesUV>355 377 382 445 358 518 296 557 222 528 193 451 219 371 292 347</verticesUV>
+		<triangles>5 6 7 4 2 3 4 5 2 1 2 5 0 1 5 0 5 7</triangles>
+	</sprite>
+	<sprite n="lstage_left_gballoon_1" x="1016" y="417" w="194" h="201" oX="76" oY="43" oW="328" oH="296">
+		<vertices>270 145 200 244 97 213 76 138 120 72 224 43</vertices>
+		<verticesUV>1210 519 1140 618 1037 587 1016 512 1060 446 1164 417</verticesUV>
+		<triangles>0 4 5 2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="lstage_left_gstarballoon_1" x="875" y="235" w="225" h="236" oX="63" oY="41" oW="358" oH="302">
+		<vertices>288 87 278 243 140 277 63 154 147 41</vertices>
+		<verticesUV>1100 281 1090 437 952 471 875 348 959 235</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="lstage_left_pballoon_1" x="245" y="537" w="188" h="198" oX="79" oY="61" oW="348" oH="324">
+		<vertices>267 130 227 259 117 239 79 166 94 102 165 61</vertices>
+		<verticesUV>433 606 393 735 283 715 245 642 260 578 331 537</verticesUV>
+		<triangles>3 4 5 0 3 5 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_left_star_1" x="1536" y="0" w="84" h="102" oX="30" oY="26" oW="144" oH="149">
+		<vertices>114 84 71 128 30 87 30 26 114 26</vertices>
+		<verticesUV>1620 58 1577 102 1536 61 1536 0 1620 0</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="lstage_left_startrail_1" x="929" y="505" w="69" h="185" oX="32" oY="19" oW="114" oH="218">
+		<vertices>75 21 101 99 32 204 32 19</vertices>
+		<verticesUV>972 507 998 585 929 690 929 505</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_left_wballoon_1" x="930" y="820" w="140" h="160" oX="25" oY="19" oW="180" oH="182">
+		<vertices>165 76 147 151 93 179 27 142 25 56 92 19</vertices>
+		<verticesUV>1070 877 1052 952 998 980 932 943 930 857 997 820</verticesUV>
+		<triangles>0 4 5 1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="lstage_right_bballoon_1" x="1494" y="595" w="164" h="187" oX="75" oY="35" oW="306" oH="290">
+		<vertices>239 130 215 199 144 222 85 187 75 104 113 50 219 35</vertices>
+		<verticesUV>1658 690 1634 759 1563 782 1504 747 1494 664 1532 610 1638 595</verticesUV>
+		<triangles>0 5 6 3 4 0 4 5 0 0 1 2 3 0 2</triangles>
+	</sprite>
+	<sprite n="lstage_right_bballoon_2" x="71" y="823" w="164" h="191" oX="94" oY="63" oW="348" oH="310">
+		<vertices>239 111 258 180 218 240 142 254 94 180 109 110 179 63</vertices>
+		<verticesUV>216 871 235 940 195 1000 119 1014 71 940 86 870 156 823</verticesUV>
+		<triangles>0 5 6 1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="lstage_right_bballoon_3" x="1278" y="807" w="121" h="121" oX="59" oY="51" oW="230" oH="218">
+		<vertices>180 172 59 172 59 51 180 51</vertices>
+		<verticesUV>1399 928 1278 928 1278 807 1399 807</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_right_gballoon_1" x="1341" y="658" w="166" h="149" oX="35" oY="28" oW="244" oH="206">
+		<vertices>188 34 201 165 81 177 35 93 69 28</vertices>
+		<verticesUV>1494 664 1507 795 1387 807 1341 723 1375 658</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="lstage_right_gballoon_2" x="587" y="449" w="186" h="179" oX="37" oY="44" oW="270" oH="266">
+		<vertices>223 85 223 169 165 223 37 203 63 60 169 44</vertices>
+		<verticesUV>773 490 773 574 715 628 587 608 613 465 719 449</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_right_gheart_1" x="0" y="679" w="194" h="199" oX="51" oY="45" oW="284" oH="250">
+		<vertices>245 75 226 170 125 244 53 153 51 76 98 45</vertices>
+		<verticesUV>194 709 175 804 74 878 2 787 0 710 47 679</verticesUV>
+		<triangles>3 4 5 1 2 3 1 3 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="lstage_right_gstar_1" x="544" y="213" w="241" h="236" oX="68" oY="48" oW="376" oH="342">
+		<vertices>309 161 246 284 103 278 68 118 213 48</vertices>
+		<verticesUV>785 326 722 449 579 443 544 283 689 213</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="lstage_right_pballoon_1" x="601" y="805" w="164" h="167" oX="57" oY="32" oW="306" oH="238">
+		<vertices>221 81 221 158 170 199 95 185 57 79 161 32</vertices>
+		<verticesUV>765 854 765 931 714 972 639 958 601 852 705 805</verticesUV>
+		<triangles>3 4 5 0 1 2 0 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="lstage_right_pballoon_2" x="961" y="582" w="157" h="164" oX="50" oY="41" oW="250" oH="232">
+		<vertices>189 65 207 187 118 205 65 169 50 102 93 41</vertices>
+		<verticesUV>1100 606 1118 728 1029 746 976 710 961 643 1004 582</verticesUV>
+		<triangles>0 4 5 0 2 3 0 1 2 0 3 4</triangles>
+	</sprite>
+	<sprite n="lstage_right_star_1" x="148" y="596" w="103" h="120" oX="23" oY="18" oW="148" oH="162">
+		<vertices>126 76 76 138 23 77 75 18</vertices>
+		<verticesUV>251 654 201 716 148 655 200 596</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="lstage_right_startrail_1" x="0" y="832" w="90" h="185" oX="8" oY="12" oW="116" oH="208">
+		<vertices>53 22 98 197 49 185 13 92 8 12</vertices>
+		<verticesUV>45 842 90 1017 41 1005 5 912 0 832</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="lstage_right_wballoon_1" x="848" y="687" w="162" h="171" oX="28" oY="33" oW="208" oH="216">
+		<vertices>175 69 190 149 107 204 50 175 28 61 120 33</vertices>
+		<verticesUV>995 723 1010 803 927 858 870 829 848 715 940 687</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="lstage_right_wballoon_2" x="1399" y="806" w="135" h="126" oX="64" oY="49" oW="270" oH="230">
+		<vertices>199 175 64 175 64 49 199 49</vertices>
+		<verticesUV>1534 932 1399 932 1399 806 1534 806</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_star_large" x="292" y="155" w="259" h="257" oX="9" oY="13" oW="306" oH="300">
+		<vertices>187 80 268 81 247 243 147 243 94 270 9 130 143 13</vertices>
+		<verticesUV>470 222 551 223 530 385 430 385 377 412 292 272 426 155</verticesUV>
+		<triangles>0 3 5 3 4 5 0 2 3 0 1 2 0 5 6</triangles>
+	</sprite>
+	<sprite n="lstage_star_large_glow" x="1383" y="0" w="83" h="101" oX="34" oY="25" oW="153" oH="150">
+		<vertices>117 37 117 126 56 102 34 53 69 25</vertices>
+		<verticesUV>1466 12 1466 101 1405 77 1383 28 1418 0</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="lstage_star_small_glow" x="1556" y="521" w="74" h="78" oX="1" oY="0" oW="76" oH="78">
+		<vertices>67 15 75 39 72 49 47 78 15 77 1 34 28 1 44 0</vertices>
+		<verticesUV>1622 536 1630 560 1627 570 1602 599 1570 598 1556 555 1583 522 1599 521</verticesUV>
+		<triangles>5 0 2 2 3 5 3 4 5 5 6 0 0 1 2 0 6 7</triangles>
+	</sprite>
+	<sprite n="lstage_startrail_glow" x="1894" y="0" w="154" h="91" oX="2" oY="28" oW="161" oH="154">
+		<vertices>156 119 2 119 2 28 156 28</vertices>
+		<verticesUV>2048 91 1894 91 1894 0 2048 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="lstage_startrail_large" x="1247" y="0" w="203" h="350" oX="14" oY="37" oW="225" oH="413">
+		<vertices>169 109 156 248 217 387 114 363 14 193 18 61 118 37</vertices>
+		<verticesUV>1402 72 1389 211 1450 350 1347 326 1247 156 1251 24 1351 0</verticesUV>
+		<triangles>0 5 6 0 1 4 1 2 3 1 3 4 0 4 5</triangles>
+	</sprite>
+</TextureAtlas>

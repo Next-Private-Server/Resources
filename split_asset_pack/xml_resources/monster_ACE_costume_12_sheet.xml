@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:98719a0163301f5531c798f523f84a93:92ed3f0a8e4166181cca4f4c7e34f429:d223d9e3d8b05e5448abb3fb507758ba$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACE_costume_12_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ACE_boot_l" x="241" y="190" w="96" h="65" pX="0.353846" pY="0.916667" r="y"/>
+	<sprite n="ACE_boot_r" x="241" y="116" w="97" h="72" pX="0.475" pY="0.8627450980392157" oX="0" oY="0" oW="80" oH="102" r="y"/>
+	<sprite n="ACE_boottoe_l" x="340" y="116" w="46" h="55" pX="0.421127" pY="0.615517" oX="8" oY="6" oW="71" oH="58" r="y"/>
+	<sprite n="ACE_boottoe_r" x="0" y="286" w="59" h="49" pX="0.6190476190476191" pY="0.660377358490566" oX="2" oY="2" oW="63" oH="53"/>
+	<sprite n="ACE_pom_1" x="123" y="114" w="116" h="113" pX="0.5" pY="0.5" oX="9" oY="0" oW="132" oH="114"/>
+	<sprite n="ACE_pom_2" x="0" y="89" w="121" h="114" pX="0.5" pY="0.5" oX="11" oY="0" oW="132" oH="114"/>
+	<sprite n="ACE_pom_3" x="389" y="0" w="120" h="113" pX="0.5" pY="0.5" oX="1" oY="1" oW="132" oH="114"/>
+	<sprite n="ACE_pom_l_1" x="389" y="115" w="119" h="114" pX="0.5" pY="0.5" oX="6" oY="0" oW="132" oH="114"/>
+	<sprite n="ACE_pom_l_2" x="267" y="0" w="120" h="114" pX="0.5" pY="0.5" oX="10" oY="0" oW="132" oH="114"/>
+	<sprite n="ACE_pom_l_3" x="143" y="0" w="122" h="112" pX="0.5" pY="0.5" oX="0" oY="2" oW="132" oH="114"/>
+	<sprite n="ACE_ponytail_l" x="184" y="229" w="53" h="71" pX="0.6119402985074627" pY="0.46703296703296704" oX="7" oY="10" oW="67" oH="91"/>
+	<sprite n="ACE_ponytail_r" x="107" y="229" w="75" h="68" pX="0.3" pY="0.49382716049382713" oX="11" oY="3" oW="90" oH="81" r="y"/>
+	<sprite n="ACE_skirt" x="0" y="0" w="141" h="87" pX="0.508475" pY="0.353211" oX="18" oY="11" oW="177" oH="109"/>
+	<sprite n="ACE_top" x="0" y="205" w="105" h="79" pX="0.491935" pY="1.06522" oX="10" oY="8" oW="124" oH="92"/>
+	<sprite n="ACE_top_back" x="123" y="89" w="13" h="20" pX="2.25" pY="4.75" oX="3" oY="0" oW="20" oH="20"/>
+</TextureAtlas>

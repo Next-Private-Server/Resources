@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bb7758ce4ad7b5d51f87b8d626ca6d48:14981fd4784c12cd5ab497357e20fd03:862fe49ccbe8a9bc80bf0d5989bf7ac8$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/lifeformula_gravenghazt_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="Base Glow Back" x="3" y="3" w="732" h="547" oX="4" oY="6" oW="556" oH="744" r="y"/>
+    <sprite n="Base Glow Front" x="3" y="554" w="683" h="506" oX="7" oY="8" oW="520" oH="700" r="y"/>
+    <sprite n="Base" x="3" y="1064" w="504" h="682" oX="2" oY="3" oW="508" oH="688"/>
+    <sprite n="Orb" x="840" y="3" w="81" h="80" oX="2" oY="2" oW="84" oH="84"/>
+    <sprite n="Tail Glow Front" x="925" y="3" w="54" h="37" oX="1" oY="3" oW="40" oH="60" r="y"/>
+    <sprite n="Tail" x="739" y="3" w="97" h="54" oX="1" oY="1" oW="100" oH="56"/>
+</TextureAtlas>

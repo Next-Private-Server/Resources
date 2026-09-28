@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:52f8af25b1a49fb707ce9a1d867f1ee3:e94598f6fbd902077edf5c5ba4a2cd80:02d64c069f8a92ac7a1642f4b060ae6b$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_mech_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="obstacle_rock01_mech" x="0" y="327" w="130" h="147" oX="2" oY="16" oW="150" oH="146" r="y"/>
+	<sprite n="obstacle_tree01_mech" x="0" y="0" w="284" h="325" oX="0" oY="14" oW="284" oH="352"/>
+</TextureAtlas>

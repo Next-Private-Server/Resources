@@ -1,0 +1,146 @@
+<template name="template_paintmodebottombutton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$baseSheetName" equals="'xml_resources/store_buttons01.xml'" />
+	<defaultTemplateVar name="$baseUpSpriteName" equals="'decoration_filters_base'" />
+	<defaultTemplateVar name="$baseDownSpriteName" equals="''" />
+	<defaultTemplateVar name="$baseSpriteScale" equals="0.4*game.windowScaleX()" />
+	<defaultTemplateVar name="$upSpriteName" equals="'button_rnd_base'" />
+	<defaultTemplateVar name="$baseSfx" equals="[[audio/sfx/menu_click.wav]]" />
+	<defaultTemplateVar name="$baseLayer" equals="HUD" />
+	<defaultTemplateVar name="$actionName" equals="plant" />
+	<defaultTemplateVar name="$overlaySprite" equals="'button_move'" />
+	<defaultTemplateVar name="$overlaySpriteSheet" equals="'xml_resources/context_buttons.xml'" />
+	<defaultTemplateVar name="$selectBaseSprite" equals="'button_rnd_base_green'" />
+	<defaultTemplateVar name="$selectBaseSpriteSheet" equals="'xml_resources/store_buttons01.xml'" />
+	<defaultTemplateVar name="$text" equals="MOVE" />
+	
+	<size dependentOnElement="ActionButton" />
+
+	<event name="setVisible" params="element">
+		element["ActionButton"]:DoStoredScript("setVisible")
+	</event>
+	
+	<event name="setInvisible" params="element">
+		element["ActionButton"]:DoStoredScript("setInvisible")
+	</event>
+	
+	<event name="disable" params="element">
+		element["ActionButton"]:DoStoredScript("disable")
+	</event>
+	
+	<event name="enable" params="element">
+		element["ActionButton"]:DoStoredScript("enable")
+	</event>
+	
+	<event name="select" params="element">
+		element["ActionButton"]:DoStoredScript("select")
+	</event>
+
+	<event name="deselect" params="element">
+		element["ActionButton"]:DoStoredScript("deselect")
+	</event>
+		
+	<template type="template_spritesheetbutton" name="ActionButton">
+		<templateVar name="$sheetName" equals="'$baseSheetName'" />
+		<templateVar name="$upSpriteName" equals="'$baseUpSpriteName'" />
+		<templateVar name="$downSpriteName" equals="'$baseDownSpriteName'" />
+		<templateVar name="$spriteScale" equals="'$baseSpriteScale'" />
+		<templateVar name="$sfx" equals="'$baseSfx'" />
+		<templateVar name="$layer" equals="'$baseLayer'" />
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:parent()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("$overlaySprite")
+				component("sheetName"):SetString("$overlaySpriteSheet")
+				component("size"):SetFloat(0.6*$baseSpriteScale)
+				component("layer"):SetString("$baseLayer")
+			</event>	
+		</spriteSheetComponent>
+		<textComponent name="BelowText">		
+			<size w="50*game.hudScale()" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$text")
+				component("size"):SetFloat(0.35*$baseSpriteScale)
+				component("autoScaleFactor"):SetFloat(0.005)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$baseLayer")
+			</event>
+		</textComponent>
+		<event name="onPostInit" params="element">
+			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
+		</event>
+		<event name="select" params="element">
+			element["UpSprite"]("spriteName"):SetString("$selectBaseSprite")
+			element["UpSprite"]("sheetName"):SetString("$selectBaseSpriteSheet")
+			element["UpSprite"]("size"):SetFloat($baseSpriteScale)			
+			element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+			element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			element.isSelected = true
+		</event>
+		<event name="deselect" params="element">
+			element["UpSprite"]("spriteName"):SetString("$upSpriteName")
+			element["UpSprite"]("sheetName"):SetString("$baseSheetName")
+			element["UpSprite"]("size"):SetFloat($baseSpriteScale)
+			element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+			element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			element.isSelected = false
+		</event>
+		<event name="setVisible" params="element">
+			setVisible(element)
+			element["Overlay"]("visible"):SetInt(1)
+		</event>
+		<event name="setInvisible" params="element">
+			setInvisible(element)
+			element["Overlay"]("visible"):SetInt(0)
+		</event>
+		<event name="disable" params="element">
+			disable(element)
+			element["BelowText"]:setColor(0.5, 0.5, 0.5)
+			element["Overlay"]:setColor(0.5, 0.5, 0.5)
+		</event>
+		<event name="enable" params="element">
+			enable(element)
+			element["BelowText"]:setColor(1.0, 1.0, 1.0)
+			element["Overlay"]:setColor(1.0, 1.0, 1.0)
+		</event>
+		<touchComponent name="Touch">			
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			
+			<event name="onTouchUp" params="component, element">
+				local paintScript = element:parent():parent();
+				if(paintScript:getMode() == "$actionName") then
+					paintScript:setMode("")
+					element:DoStoredScript("deselect")
+				else
+					onTouchUp(component, element)
+					paintScript:setMode("$actionName")
+					paintScript:DoStoredScript("deselectAll");
+					element:DoStoredScript("select")
+				end
+			</event>
+
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				
+				element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element["Overlay"]("size"):GetFloat()/element["UpSprite"]("size"):GetFloat() ~= element.scaleRatio) then
+				element["Overlay"]("size"):SetFloat(element.scaleRatio * element["UpSprite"]("size"):GetFloat())
+			end
+		</event>
+	</template>	
+
+</template>

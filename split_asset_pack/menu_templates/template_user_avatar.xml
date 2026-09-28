@@ -1,0 +1,126 @@
+<template name="template_user_avatar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/UserAvatar.lua" />
+
+	<defaultTemplateVar name="$scale" equals="1*game.windowScaleY()" />
+	<defaultTemplateVar name="$layer" equals="HUD" />
+	<defaultTemplateVar name="$backgroundSpriteName" equals="'gfx/menu/social/Backgrounds/bg1'" />
+	<defaultTemplateVar name="$avatarSpriteName" equals="'gfx/menu/social/Avatars/Avatar0'" />
+	<defaultTemplateVar name="$frameSpriteName" equals="'gfx/menu/social/Frames/profile_frame_001'" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="BackgroundSprite" />
+
+	<spriteComponent name="BackgroundSprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("$backgroundSpriteName")
+
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+	</spriteComponent>
+
+	<spriteComponent name="AvatarSprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-0.1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("$avatarSpriteName")
+
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+	</spriteComponent>
+
+	<spriteComponent name="FrameSprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-0.2" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("$frameSpriteName")
+
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+	</spriteComponent>
+
+	<element name="Level">
+		<size dependentOnElement="element:name()" dependentOnComponent="Icon" />
+
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-0.3" />
+
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("PlayerLevel_Star")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("size"):SetFloat(0.25*$scale)
+
+				local layer = "$layer"
+				if element:HasVar("layer") then
+					layer = element("layer"):GetString()
+				end
+				component("layer"):SetString(layer)
+			</event>
+		</spriteSheetComponent>
+
+		<textComponent name="Text">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-0.1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTutorialFont())
+				component("size"):SetFloat(0.2*$scale)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("99")
+				component("autoScale"):SetInt(1)
+
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.XP_STAR_LEVEL_HUD))
+				
+				local layer = "$layer"
+				if element:HasVar("layer") then
+					layer = element("layer"):GetString()
+				end
+				component("layer"):SetString(layer)
+			</event>
+		</textComponent>
+
+		<event name="hide" params="element">
+			element:C("Icon")("visible"):SetInt(0)
+			element:C("Text")("visible"):SetInt(0)
+		</event>
+
+		<event name="show" params="element">
+			element:C("Icon")("visible"):SetInt(1)
+			element:C("Text")("visible"):SetInt(1)
+		</event>
+	</element>
+
+	<event name="hide" params="element">
+		element:C("BackgroundSprite")("visible"):SetInt(0)
+		element:C("AvatarSprite")("visible"):SetInt(0)
+		element:C("FrameSprite")("visible"):SetInt(0)
+		element:E("Level"):DoStoredScript("hide")
+		element("isVisible"):SetInt(0)
+	</event>
+
+	<event name="show" params="element">
+		element:C("BackgroundSprite")("visible"):SetInt(1)
+		element:C("AvatarSprite")("visible"):SetInt(1)
+		element:C("FrameSprite")("visible"):SetInt(1)
+		element:E("Level"):DoStoredScript("show")
+		element("isVisible"):SetInt(1)
+	</event>
+
+</template>

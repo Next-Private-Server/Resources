@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a37000670319fefe93c04b125b162bda:b6df72e05a26002c39a7413833d91d33:c401b40f63bdcad6357a39fa0a7eb83e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_RARE_costume_03_shared_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ABE_left_mushroom_heart" x="198" y="75" w="120" h="92" oX="7" oY="6" oW="132" oH="110"/>
+    <sprite n="ABE_left_mushroom_peg" x="468" y="133" w="40" h="60" oX="5" oY="0" oW="66" oH="40" r="y"/>
+    <sprite n="ABE_left_mushroom_ribbon" x="195" y="171" w="80" h="71" oX="1" oY="0" oW="80" oH="80" r="y"/>
+    <sprite n="ABE_pink_beak_RARE" x="279" y="171" w="39" h="35" oX="26" oY="26.4" r="y"/>
+    <sprite n="ABE_pink_eyeback_RARE" x="119" y="172" w="71" h="35" oX="9" oY="8" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyelids_1_RARE" x="119" y="211" w="71" h="35" oX="9" oY="8" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyelids_2_RARE" x="279" y="210" w="35" h="71" oX="9" oY="8" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_pink_eyeshape_RARE" x="441" y="197" w="52" h="85" r="y"/>
+    <sprite n="ABE_pink_horns_RARE" x="344" y="89" w="120" h="55"/>
+    <sprite n="ABE_pupil_large" x="322" y="75" w="18" h="18"/>
+    <sprite n="ABE_right_mushroom_heart" x="322" y="148" w="115" h="94" oX="6" oY="0" oW="142" oH="94"/>
+    <sprite n="ABE_right_mushroom_peg" x="468" y="89" w="41" h="40" oX="3" oY="7" oW="44" oH="51"/>
+    <sprite n="ABE_right_mushroom_ribbon" x="119" y="98" w="72" h="70" oX="1" oY="0" oW="74" oH="70"/>
+    <sprite n="ABE_Stump_ribbon" x="3" y="3" w="191" h="91" oX="8" oY="8" oW="207" oH="108"/>
+    <sprite n="ABE_thumpie_pink_feathers_RARE" x="352" y="3" w="148" h="82" oX="-14" oY="19"/>
+    <sprite n="ABE_thumpie_pink_RARE" x="3" y="98" w="112" h="111" oX="0" oY="1" oW="112" oH="112"/>
+    <sprite n="ABE_treestump_top" x="198" y="3" w="150" h="68"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2888e89011011291be477f5fba16856e:b8a704248d269ab1b4fdbb083ed3fa10:80506758a5f007ab300bbd0475b38423$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/echoesofeco_goldmonkey_sheet.png" width="512" height="512" hires="true">
+    <sprite n="eoe_animated_deco_04_base.png" x="3" y="3" w="290" h="355" pX="0.5" pY="0.5" oX="3" oY="6" oW="296" oH="368"/>
+    <sprite n="eoe_animated_deco_04_monkey.png" x="3" y="362" w="318" h="145" pX="0.5" pY="0.5" oX="3" oY="3" oW="152" oH="324" r="y"/>
+    <sprite n="eoe_animated_deco_04_monkey_tail.png" x="325" y="3" w="143" h="91" pX="0.5" pY="0.5" oX="4" oY="2" oW="152" oH="96"/>
+    <sprite n="eoe_animated_deco_04_sparkle.png" x="325" y="98" w="86" h="50" pX="0.5" pY="0.5" oX="1" oY="1" oW="52" oH="88" r="y"/>
+</TextureAtlas>

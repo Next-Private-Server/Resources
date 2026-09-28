@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:70c2718039f3116a2cc6eb7fa69f8f54:4d3c4bf094c143d3badd9be295a3509e:5817812341026839bdd436614ca2a26d$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U18_EPIC_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="beam" x="273" y="772" w="70" h="226" oX="1" oY="2" oW="72" oH="228"/>
+	<sprite n="glow_spot" x="452" y="440" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U18_Back_orb" x="618" y="0" w="42" h="42"/>
+	<sprite n="U18_back_star" x="598" y="994" w="33" h="27" r="y"/>
+	<sprite n="U18_BackSpiral_1" x="493" y="531" w="152" h="154"/>
+	<sprite n="U18_BackSpiral_2" x="449" y="753" w="152" h="154"/>
+	<sprite n="U18_BackSpiral_3" x="603" y="743" w="152" h="154"/>
+	<sprite n="U18_BackSpiral_star" x="612" y="84" w="42" h="34" r="y"/>
+	<sprite n="U18_belly" x="196" y="0" w="242" h="274" oX="1" oY="22" oW="280" oH="270" r="y"/>
+	<sprite n="U18_belly_spiral" x="543" y="36" w="67" h="66" oX="13" oY="28" oW="92" oH="112" r="y"/>
+	<sprite n="U18_belly_spiral_glow" x="612" y="120" w="34" h="34"/>
+	<sprite n="U18_belly_stars" x="0" y="835" w="146" h="168" r="y"/>
+	<sprite n="U18_body_star_1" x="196" y="276" w="28" h="24" r="y"/>
+	<sprite n="U18_body_star_2" x="562" y="994" w="34" h="28" r="y"/>
+	<sprite n="U18_body_star_3" x="148" y="1001" w="20" h="22"/>
+	<sprite n="U18_body_star_4" x="621" y="687" w="40" h="48"/>
+	<sprite n="U18_bottomjaw_1" x="224" y="876" w="44" h="126" oX="8" oY="32" oW="134" oH="76" r="y"/>
+	<sprite n="U18_bottomjaw_2" x="715" y="899" w="53" h="124" oX="0" oY="19" oW="134" oH="76" r="y"/>
+	<sprite n="U18_bottomjaw_3" x="646" y="899" w="67" h="125" oX="0" oY="0" oW="134" oH="76" r="y"/>
+	<sprite n="U18_chest" x="307" y="542" w="114" h="218" oX="5" oY="4" oW="228" oH="124" r="y"/>
+	<sprite n="U18_chest_stars" x="423" y="537" w="68" h="158" r="y"/>
+	<sprite n="U18_Crown_Largestar" x="663" y="0" w="78" h="76"/>
+	<sprite n="U18_Crown_smallstar" x="449" y="909" w="43" h="50" oX="13" oY="14" oW="78" oH="76"/>
+	<sprite n="U18_eyeball" x="224" y="830" w="46" h="44"/>
+	<sprite n="U18_face" x="770" y="0" w="128" h="80"/>
+	<sprite n="U18_face_stars" x="543" y="0" w="73" h="34" oX="6" oY="32" oW="128" oH="80"/>
+	<sprite n="U18_glow_01" x="0" y="579" w="207" h="254" oX="9" oY="0" oW="275" oH="207" r="y"/>
+	<sprite n="U18_glow_02" x="0" y="302" w="207" h="275" r="y"/>
+	<sprite n="U18_Hand_orb" x="562" y="909" w="82" h="83" oX="6" oY="19" oW="92" oH="112" r="y"/>
+	<sprite n="U18_Hand_orb_spiral" x="543" y="104" w="67" h="66" oX="13" oY="28" oW="92" oH="112" r="y"/>
+	<sprite n="U18_HeadBack" x="332" y="440" w="118" h="95" oX="5" oY="7" oW="252" oH="102"/>
+	<sprite n="U18_helmet" x="332" y="276" w="121" h="162" oX="0" oY="0" oW="162" oH="124" r="y"/>
+	<sprite n="U18_helmet_UL" x="535" y="687" w="84" h="54" oX="5" oY="70" oW="162" oH="124"/>
+	<sprite n="U18_leftHand" x="209" y="772" w="62" h="56"/>
+	<sprite n="U18_leftleg1" x="423" y="697" w="110" h="54" oX="6" oY="8" oW="118" oH="70"/>
+	<sprite n="U18_LowerBack" x="0" y="0" w="194" h="300" oX="0" oY="18" oW="196" oH="320"/>
+	<sprite n="U18_LowerBack_stars" x="209" y="302" w="121" h="238" oX="40" oY="58" oW="196" oH="320"/>
+	<sprite n="U18_MidBack" x="345" y="762" w="102" h="208" oX="43" oY="0" oW="252" oH="102" r="y"/>
+	<sprite n="U18_MidBack_stars" x="209" y="542" w="96" h="228" oX="5" oY="6" oW="252" oH="102" r="y"/>
+	<sprite n="U18_pupil" x="0" y="1005" w="16" h="16"/>
+	<sprite n="U18_RightHand" x="424" y="972" w="68" h="50" r="y"/>
+	<sprite n="U18_RightLowerLeg" x="663" y="78" w="77" h="41" oX="8" oY="0" oW="56" oH="78" r="y"/>
+	<sprite n="U18_RightLowerLeg_stars" x="612" y="44" w="42" h="38" oX="11" oY="19" oW="56" oH="78" r="y"/>
+	<sprite n="U18_RightUpperLeg" x="494" y="909" w="66" h="110" oX="14" oY="1" oW="88" oH="114"/>
+	<sprite n="U18_RightUpperLeg_stars" x="345" y="972" w="77" h="51" oX="19" oY="11" oW="88" oH="114" r="y"/>
+	<sprite n="U18_shadow" x="148" y="835" w="74" h="164" oX="4" oY="5" oW="172" oH="84" r="y"/>
+</TextureAtlas>

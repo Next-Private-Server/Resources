@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bf67a0b144948637521078b3444e412c:905a872e1316c9a9b9a68a2dd9128c02:aedd416e3e1771f9c44ea3b7d502d4f9$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I11_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="I11_abdomen_01" x="0" y="151" w="279" h="172" oX="22" oY="111" oW="307" oH="290"/>
+	<sprite n="I11_abdomen_02" x="346" y="139" w="302" h="176" oX="5" oY="58" oW="307" oH="290"/>
+	<sprite n="I11_abdomen_03" x="692" y="267" w="283" h="165" oX="11" oY="27" oW="307" oH="290"/>
+	<sprite n="I11_abdomen_04" x="0" y="325" w="275" h="129" oX="8" oY="7" oW="307" oH="290"/>
+	<sprite n="I11_abdomen_bg" x="688" y="660" w="99" h="90"/>
+	<sprite n="I11_balloon_1" x="0" y="456" w="188" h="126"/>
+	<sprite n="I11_balloon_2" x="335" y="559" w="92" h="82"/>
+	<sprite n="I11_balloon_3" x="930" y="661" w="94" h="92" r="y"/>
+	<sprite n="I11_balloon_4" x="832" y="644" w="96" h="94"/>
+	<sprite n="I11_branch_bottom" x="691" y="434" w="140" h="96"/>
+	<sprite n="I11_branch_middle" x="0" y="584" w="142" h="44" r="y"/>
+	<sprite n="I11_branch_top" x="830" y="740" w="96" h="76"/>
+	<sprite n="I11_bubble_bg" x="336" y="391" w="196" h="166"/>
+	<sprite n="I11_eye" x="650" y="269" w="40" h="39" oX="5" oY="5" oW="48" oH="48" r="y"/>
+	<sprite n="I11_eyelid_left_01" x="144" y="584" w="44" h="25" oX="23" oY="2" oW="48" oH="48" r="y"/>
+	<sprite n="I11_eyelid_left_02" x="977" y="358" w="47" h="41" oX="6" oY="1" oW="48" oH="48" r="y"/>
+	<sprite n="I11_eyelid_left_03" x="51" y="725" w="48" h="48"/>
+	<sprite n="I11_eyelid_right_01" x="650" y="310" w="40" h="23" oX="5" oY="5" oW="48" oH="48" r="y"/>
+	<sprite n="I11_eyelid_right_02" x="611" y="636" w="30" h="42" oX="5" oY="4" oW="48" oH="48"/>
+	<sprite n="I11_eyelid_right_03" x="649" y="335" w="41" h="43" oX="6" oY="4" oW="48" oH="48"/>
+	<sprite n="I11_head" x="690" y="532" w="130" h="100" oX="1" oY="0" oW="132" oH="207"/>
+	<sprite n="I11_leg_left" x="277" y="502" w="57" h="30"/>
+	<sprite n="I11_leg_right" x="806" y="634" w="24" h="47" oX="0" oY="0" oW="48" oH="24" r="y"/>
+	<sprite n="I11_mnr_abdomen_01" x="692" y="0" w="321" h="149" oX="8" oY="179" oW="348" oH="332"/>
+	<sprite n="I11_mnr_abdomen_02" x="0" y="0" w="344" h="149" oX="3" oY="105" oW="348" oH="332"/>
+	<sprite n="I11_mnr_abdomen_03" x="346" y="0" w="344" h="137" oX="2" oY="63" oW="348" oH="332"/>
+	<sprite n="I11_mnr_abdomen_04" x="692" y="151" w="298" h="114" oX="26" oY="24" oW="348" oH="332"/>
+	<sprite n="I11_mnr_abdomen_05" x="341" y="317" w="226" h="72" oX="78" oY="18" oW="348" oH="332"/>
+	<sprite n="I11_mnr_abdomen_bg" x="992" y="249" w="30" h="59" oX="0" oY="0" oW="60" oH="30" r="y"/>
+	<sprite n="I11_mnr_eye" x="140" y="685" w="39" h="38" oX="7" oY="6" oW="50" oH="50" r="y"/>
+	<sprite n="I11_mnr_hair" x="833" y="434" w="134" h="84"/>
+	<sprite n="I11_mnr_hair_mask" x="0" y="630" w="64" h="48" oX="86" oY="13" oW="134" oH="84" r="y"/>
+	<sprite n="I11_mnr_head" x="833" y="520" w="131" h="122" oX="0" oY="3" oW="122" oH="152" r="y"/>
+	<sprite n="I11_mnr_L_eyelid_1" x="232" y="714" w="35" h="48" oX="2" oY="1" oW="50" oH="50" r="y"/>
+	<sprite n="I11_mnr_L_eyelid_2" x="181" y="714" w="49" h="48" oX="1" oY="0" oW="50" oH="50"/>
+	<sprite n="I11_mnr_L_eyelid_3" x="273" y="676" w="49" h="49" oX="1" oY="0" oW="50" oH="50"/>
+	<sprite n="I11_mnr_L_eyelid_4" x="66" y="674" w="49" h="49" oX="1" oY="0" oW="50" oH="50"/>
+	<sprite n="I11_mnr_L_eyelid_5" x="0" y="680" w="49" h="49" oX="1" oY="0" oW="50" oH="50"/>
+	<sprite n="I11_mnr_L_eyestock" x="966" y="525" w="54" h="50"/>
+	<sprite n="I11_mnr_pupil" x="151" y="725" w="26" h="26"/>
+	<sprite n="I11_mnr_R_eyelid_1" x="977" y="401" w="47" h="40" oX="2" oY="0" oW="50" oH="50"/>
+	<sprite n="I11_mnr_R_eyelid_2" x="277" y="590" w="50" h="48" oX="0" oY="1" oW="50" oH="50"/>
+	<sprite n="I11_mnr_R_eyelid_3" x="0" y="731" w="48" h="48" oX="0" oY="1" oW="50" oH="50"/>
+	<sprite n="I11_mnr_R_eyelid_4" x="101" y="725" w="48" h="48" oX="0" oY="1" oW="50" oH="50"/>
+	<sprite n="I11_mnr_R_eyelid_5" x="977" y="310" w="47" h="46" oX="1" oY="1" oW="50" oH="50" r="y"/>
+	<sprite n="I11_mnr_R_eyestock" x="277" y="534" w="56" h="54" r="y"/>
+	<sprite n="I11_mnr_seed_frame_01" x="521" y="636" w="88" h="23" oX="23" oY="6" oW="66" oH="96" r="y"/>
+	<sprite n="I11_mnr_seed_frame_02" x="190" y="456" w="85" h="66" oX="0" oY="5" oW="66" oH="96" r="y"/>
+	<sprite n="I11_mnr_seed_frame_03" x="188" y="666" w="83" h="46" oX="11" oY="9" oW="66" oH="96" r="y"/>
+	<sprite n="I11_mnr_seed_frame_04" x="429" y="559" w="90" h="48" oX="11" oY="5" oW="66" oH="96" r="y"/>
+	<sprite n="I11_mnr_seed_frame_05" x="277" y="332" w="57" h="83" oX="6" oY="9" oW="66" oH="96"/>
+	<sprite n="I11_mnr_seed_frame_06" x="646" y="524" w="42" h="89" oX="13" oY="2" oW="66" oH="96"/>
+	<sprite n="I11_mnr_seed_frame_07" x="144" y="611" w="42" h="72" oX="13" oY="4" oW="66" oH="96"/>
+	<sprite n="I11_mnr_seed_frame_08" x="608" y="680" w="30" h="37" oX="16" oY="0" oW="66" oH="96" r="y"/>
+	<sprite n="I11_mnr_seed_frame_09" x="977" y="267" w="10" h="21" oX="25" oY="6" oW="66" oH="96" r="y"/>
+	<sprite n="I11_mnr_trunk_3" x="281" y="292" w="58" h="38"/>
+	<sprite n="I11_mnr_trunk_4" x="66" y="630" w="64" h="42" r="y"/>
+	<sprite n="I11_mnr_trunk_5" x="992" y="151" w="32" h="20" r="y"/>
+	<sprite n="I11_mnr_trunk_a" x="966" y="607" w="52" h="52" oX="2" oY="2" oW="56" oH="54"/>
+	<sprite n="I11_mnr_trunk_b" x="789" y="683" w="39" h="73" oX="7" oY="0" oW="46" oH="74"/>
+	<sprite n="I11_mnr_trunk_c" x="966" y="577" w="54" h="28" oX="2" oY="1" oW="33" oH="56" r="y"/>
+	<sprite n="I11_mnr_trunk_d" x="275" y="640" w="50" h="34" oX="0" oY="2" oW="38" oH="52" r="y"/>
+	<sprite n="I11_mnr_vine_1" x="584" y="661" w="22" h="66"/>
+	<sprite n="I11_mnr_vine_2" x="647" y="380" w="42" h="142"/>
+	<sprite n="I11_mnr_vine_3" x="650" y="139" w="40" h="128"/>
+	<sprite n="I11_mnr_vine_4" x="688" y="634" w="116" h="24" r="y"/>
+	<sprite n="I11_mnr_vine_5" x="534" y="502" w="110" h="34" r="y"/>
+	<sprite n="I11_mnr_vine_6" x="281" y="151" w="60" h="24" r="y"/>
+	<sprite n="I11_mouth" x="569" y="317" w="78" h="37" oX="0" oY="0" oW="39" oH="78" r="y"/>
+	<sprite n="I11_nose" x="684" y="752" w="69" h="42" r="y"/>
+	<sprite n="I11_nose_base" x="569" y="356" w="76" h="144"/>
+	<sprite n="I11_plant_1" x="969" y="443" w="54" h="80" r="y"/>
+	<sprite n="I11_plant_2" x="928" y="755" w="96" h="68"/>
+	<sprite n="I11_plant_3" x="755" y="758" w="68" h="48"/>
+	<sprite n="I11_pupil" x="117" y="674" w="21" h="21"/>
+	<sprite n="I11_seed_frame_01" x="418" y="659" w="88" h="23" oX="23" oY="6" oW="66" oH="96" r="y"/>
+	<sprite n="I11_seed_frame_02" x="190" y="524" w="85" h="66" oX="0" oY="5" oW="66" oH="96" r="y"/>
+	<sprite n="I11_seed_frame_03" x="327" y="668" w="83" h="46" oX="11" oY="9" oW="66" oH="96" r="y"/>
+	<sprite n="I11_seed_frame_04" x="429" y="609" w="90" h="48" oX="11" oY="5" oW="66" oH="96" r="y"/>
+	<sprite n="I11_seed_frame_05" x="277" y="417" w="57" h="83" oX="6" oY="9" oW="66" oH="96"/>
+	<sprite n="I11_seed_frame_06" x="644" y="615" w="42" h="89" oX="13" oY="2" oW="66" oH="96"/>
+	<sprite n="I11_seed_frame_07" x="640" y="706" w="42" h="72" oX="13" oY="4" oW="66" oH="96"/>
+	<sprite n="I11_seed_frame_08" x="608" y="719" w="30" h="37" oX="16" oY="0" oW="66" oH="96" r="y"/>
+	<sprite n="I11_seed_frame_09" x="534" y="483" w="21" h="10" oX="25" oY="6" oW="66" oH="96"/>
+	<sprite n="I11_shadow" x="281" y="177" w="58" h="113" r="y"/>
+	<sprite n="I11_torso" x="534" y="538" w="108" h="96"/>
+	<sprite n="I11_waist" x="190" y="592" w="83" h="72" oX="3" oY="8" oW="75" oH="93" r="y"/>
+	<sprite n="I11_wing_left_01" x="327" y="643" w="89" h="23" oX="0" oY="5" oW="90" oH="33"/>
+	<sprite n="I11_wing_left_02" x="534" y="391" w="33" h="90" r="y"/>
+	<sprite n="I11_wing_right_01" x="508" y="661" w="74" h="21" oX="0" oY="4" oW="74" oH="30"/>
+	<sprite n="I11_wing_right_02" x="992" y="173" w="30" h="74" r="y"/>
+</TextureAtlas>

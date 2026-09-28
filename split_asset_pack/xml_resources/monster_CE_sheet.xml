@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d94176c9241ff0436a53280d7e0716a1:29a1d410ecab2219c5a7bb9c11d80a48:137fd396a23956c68b3bfa27c273541d$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CE_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="CE_belly" x="164" y="0" w="132" h="146" r="y"/>
+	<sprite n="CE_body" x="0" y="0" w="162" h="260"/>
+	<sprite n="CE_eyeback" x="324" y="479" w="74" h="32"/>
+	<sprite n="CE_eyelid1" x="248" y="482" w="74" h="18" oX="0" oY="16" oW="74" oH="34"/>
+	<sprite n="CE_eyelid2" x="465" y="0" w="34" h="74" r="y"/>
+	<sprite n="CE_eyelid3" x="298" y="211" w="74" h="34"/>
+	<sprite n="CE_eyelid4" x="400" y="275" w="74" h="34"/>
+	<sprite n="CE_head_RARE" x="104" y="262" w="126" h="158" r="y"/>
+	<sprite n="CE_left_arm" x="164" y="422" w="82" h="84" r="y"/>
+	<sprite n="CE_left_foot" x="367" y="311" w="70" h="70"/>
+	<sprite n="CE_left_foot_RARE" x="439" y="311" w="70" h="70"/>
+	<sprite n="CE_left_hand" x="374" y="211" w="124" h="62"/>
+	<sprite n="CE_left_hand_RARE" x="304" y="275" w="61" h="124" oX="0" oY="0" oW="124" oH="62" r="y"/>
+	<sprite n="CE_left_leg" x="454" y="76" w="56" h="68"/>
+	<sprite n="CE_mouth1" x="230" y="148" w="32" h="94" r="y"/>
+	<sprite n="CE_mouth1_RARE" x="164" y="244" w="58" h="14"/>
+	<sprite n="CE_mouth2" x="264" y="148" w="32" h="93" oX="1" oY="0" oW="94" oH="32" r="y"/>
+	<sprite n="CE_mouth2_RARE" x="224" y="244" w="53" h="14" oX="1" oY="0" oW="58" oH="14"/>
+	<sprite n="CE_pupil" x="0" y="499" w="10" h="10" oX="1" oY="1" oW="12" oH="12"/>
+	<sprite n="CE_right_arm" x="164" y="148" w="64" h="94"/>
+	<sprite n="CE_right_foot" x="248" y="404" w="70" h="76"/>
+	<sprite n="CE_right_foot_RARE" x="320" y="401" w="70" h="76"/>
+	<sprite n="CE_right_hand" x="232" y="260" w="70" h="142" r="y"/>
+	<sprite n="CE_right_hand_RARE" x="324" y="0" w="139" h="69" oX="1" oY="0" oW="142" oH="70"/>
+	<sprite n="CE_right_leg" x="104" y="422" w="58" h="86"/>
+	<sprite n="CE_shadow" x="0" y="262" w="102" h="235" oX="2" oY="0" oW="240" oH="102" r="y"/>
+	<sprite n="CE_tail" x="324" y="71" w="128" h="68"/>
+	<sprite n="CE_tail_RARE" x="324" y="141" w="126" h="68" oX="0" oY="0" oW="128" oH="68"/>
+</TextureAtlas>

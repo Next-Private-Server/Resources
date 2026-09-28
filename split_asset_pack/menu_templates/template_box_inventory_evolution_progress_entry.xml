@@ -1,0 +1,98 @@
+<template type="template_box_inventory_evolution_progress_entry">
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<spriteSheetComponent name="Sprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString(element.icon)
+				component("sheetName"):SetString("xml_resources/flags01.xml")
+				component("size"):SetFloat(0.5*game.windowScaleY())
+				component("layer"):SetString("MidFrontPopUps")
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<element name="Checkmark">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("button_yes")
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("size"):SetFloat(0.25*game.hudScale())
+					component("layer"):SetString("MidFrontPopUps")
+					component("visible"):SetInt(0)
+				]]>
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<!-- timed touch -->
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-10" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				element.touchTimer = 0
+				element.isTooltipShowing = false
+				element.shouldShowTooltip = false
+				component:GetVar("passthrough"):SetInt(1)
+			]]>
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+				element.shouldShowTooltip = true
+				element.touchTimer = 0
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				element.ToolTip:Hide()
+				element.isTooltipShowing = false
+				element.shouldShowTooltip = false
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				element.ToolTip:Hide()
+				element.isTooltipShowing = false
+				element.shouldShowTooltip = false
+			]]>
+		</event>
+
+		<event name="onTick" params="component, element, dt">
+			<![CDATA[
+				if element.shouldShowTooltip then
+					element.touchTimer = element.touchTimer + dt
+					if element.touchTimer > 0.5 and not element.isTooltipShowing then
+						element.ToolTip:Show()
+						element.isTooltipShowing = true
+						element.shouldShowTooltip = false
+					end
+				end
+			]]>
+		</event>
+	</touchComponent>
+	
+	<template type="template_tooltip" name="ToolTip">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="element">
+			<![CDATA[			
+				onInit(element)
+				element.Sprite:setSize(lua_sys.Vector2(220*game.hudScale(), 80*game.hudScale()))
+				element.duration = 0.67
+				--element.onDoneShow = function() element:Hide() end
+			]]>
+		</event>
+	</template>
+
+	<script src="scripts/BoxInventoryEvolutionProgressEntry.lua"/>
+
+</template>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5502e9f62c990366277a16366c60c8d6:4784fed27b6650cd56d25cba37bee686:ae424d32760b5c76822a90c4a2e779a6$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island01_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island01_burns" x="0" y="0" w="638" h="1158" oX="0" oY="4" oW="638" oH="1166"/>
+	<sprite n="island01_ear" x="1203" y="0" w="803" h="456" oX="0" oY="1" oW="456" oH="804" r="y"/>
+	<sprite n="island01_edge" x="1203" y="1698" w="404" h="331" oX="2" oY="3" oW="414" oH="334"/>
+	<sprite n="island01_eyeclosed" x="0" y="1160" w="788" h="806" oX="51" oY="25" oW="870" oH="816" r="y"/>
+	<sprite n="island01_nose" x="1065" y="458" w="680" h="580" r="y"/>
+	<sprite n="island01_stumpcenter" x="640" y="0" w="423" h="984" oX="3" oY="16" oW="990" oH="460" r="y"/>
+	<sprite n="island01_stumpside" x="1203" y="1040" w="721" h="656" oX="7" oY="16" oW="728" oH="672"/>
+	<sprite n="w1_cloud" x="790" y="1102" w="411" h="900" oX="0" oY="4" oW="900" oH="420" r="y"/>
+	<sprite n="w1_leaves_1" x="728" y="986" w="106" h="114" r="y"/>
+	<sprite n="w1_leaves_2" x="836" y="986" w="94" h="104"/>
+	<sprite n="w1_plant_bird_01" x="141" y="1968" w="94" h="44" oX="2" oY="11" oW="96" oH="56"/>
+	<sprite n="w1_plant_bird_02" x="0" y="1968" w="55" h="73" oX="12" oY="0" oW="96" oH="56" r="y"/>
+	<sprite n="w1_plant_bird_03" x="237" y="1968" w="94" h="42" oX="2" oY="13" oW="96" oH="56"/>
+	<sprite n="w1_plant_bird_04" x="333" y="1968" w="84" h="42" oX="7" oY="14" oW="96" oH="56"/>
+	<sprite n="w1_plant_bird_05" x="419" y="1968" w="40" h="41" oX="22" oY="15" oW="96" oH="56" r="y"/>
+	<sprite n="w1_vine_1" x="57" y="1968" w="82" h="46"/>
+	<sprite n="w1_vine_2" x="640" y="986" w="86" h="140" r="y"/>
+</TextureAtlas>

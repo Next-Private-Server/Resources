@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:03861cd51bb925a4a9d540fc32a32ce0:f9f64fb071fe08985d291558a7e51222:25e938aa0d5407a671ee826238ee40ee$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCE_costume_06_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BCE_06_eyes" x="47" y="231" w="80" h="124" pX="0.402778" pY="0.469388" oX="9" oY="7" oW="144" oH="98" r="y"/>
+	<sprite n="BCE_06_hair" x="205" y="0" w="73" h="94" pX="0.510638" pY="0.7625" oX="0" oY="2" oW="94" oH="80" r="y"/>
+	<sprite n="BCE_06_vest_OL" x="0" y="0" w="203" h="229" pX="0.598214" pY="0.728682" oX="8" oY="15" oW="224" oH="258"/>
+	<sprite n="BCE_06_vest_UL" x="0" y="231" w="45" h="134" pX="0.598214" pY="0.728682" oX="161" oY="103" oW="224" oH="258"/>
+	<sprite n="BCE_body_A" x="205" y="114" w="105" h="107" pX="0.398148" pY="0.814815" oX="0" oY="0" oW="108" oH="108"/>
+	<sprite n="BCE_body_B" x="352" y="0" w="113" h="101" pX="0.517241" pY="0.741667" oX="8" oY="3" oW="116" oH="120" r="y"/>
+	<sprite n="BCE_body_C" x="0" y="367" w="122" h="129" pX="0.477612" pY="0.554688" oX="1" oY="1" oW="134" oH="128" r="y"/>
+	<sprite n="BCE_gong" x="180" y="354" w="100" h="120" pX="0.56" pY="0.025"/>
+	<sprite n="BCE_head_top" x="282" y="0" w="56" h="112" pX="0.5" pY="0.357143" r="y"/>
+	<sprite n="BCE_left_hand" x="221" y="223" w="46" h="90" pX="0.133333" pY="0.708333" oX="0" oY="2" oW="90" oH="48" r="y"/>
+	<sprite n="BCE_left_lowerarm" x="124" y="357" w="54" h="121" pX="0.116935" pY="0.333333" oX="2" oY="0" oW="124" oH="54" r="y"/>
+	<sprite n="BCE_left_thumb" x="179" y="480" w="53" h="21" pX="0.12963" pY="0.416667" oX="0" oY="1" oW="54" oH="24"/>
+	<sprite n="BCE_left_upperarm" x="234" y="476" w="116" h="34" pX="0.441176" pY="0.112069" r="y"/>
+	<sprite n="BCE_right_hand" x="269" y="223" w="47" h="86" pX="0.133333" pY="0.708333" oX="1" oY="1" oW="90" oH="48" r="y"/>
+	<sprite n="BCE_right_lowerarm" x="129" y="231" w="54" h="121" pX="0.116935" pY="0.333333" oX="2" oY="0" oW="124" oH="54" r="y"/>
+	<sprite n="BCE_right_thumb" x="124" y="480" w="53" h="22" pX="0.12963" pY="0.416667" oX="0" oY="1" oW="54" oH="24"/>
+	<sprite n="BCE_right_upperarm" x="185" y="231" w="34" h="116" pX="0.441176" pY="0.112069"/>
+</TextureAtlas>

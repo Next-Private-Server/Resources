@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2adbb7a492c5d57cccb10cdd9271e19e:eb6ca39021432f91cc489f138e342398:6dfc278f25fde808caaf8b4bca23cf93$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/echoesofeco_tree_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="deco_02_star_01" x="705" y="832" w="157" h="172" oX="34" oY="34" oW="248" oH="248" r="y"/>
+    <sprite n="deco_02_star_02" x="866" y="174" w="153" h="167" oX="40" oY="35" oW="248" oH="248"/>
+    <sprite n="deco_02_star_03" x="561" y="716" w="175" h="112" oX="64" oY="34" oW="248" oH="248" r="y"/>
+    <sprite n="deco_02_star_04" x="493" y="833" w="102" h="178" oX="71" oY="32" oW="248" oH="248"/>
+    <sprite n="deco_02_star_05" x="139" y="880" w="173" h="133" oX="55" oY="32" oW="248" oH="248" r="y"/>
+    <sprite n="deco_02_star_06" x="424" y="3" w="167" h="163" oX="37" oY="32" oW="248" oH="248"/>
+    <sprite n="deco_02_star_07" x="424" y="170" w="163" h="167" oX="35" oY="32" oW="248" oH="248" r="y"/>
+    <sprite n="deco_02_star_08" x="316" y="869" w="173" h="133" oX="51" oY="32" oW="248" oH="248" r="y"/>
+    <sprite n="deco_02_star_09" x="599" y="832" w="102" h="177" oX="66" oY="33" oW="248" oH="248"/>
+    <sprite n="deco_02_star_10" x="379" y="716" w="178" h="113" oX="63" oY="34" oW="248" oH="248" r="y"/>
+    <sprite n="deco_02_star_11" x="866" y="3" w="154" h="167" oX="46" oY="35" oW="248" oH="248"/>
+    <sprite n="deco_02_star_glow" x="379" y="464" w="248" h="248"/>
+    <sprite n="eoe_anim_deco_02_body_base" x="3" y="464" w="196" h="412" oX="2" oY="2" oW="416" oH="200" r="y"/>
+    <sprite n="eoe_anim_deco_02_body_top" x="3" y="3" w="417" h="457" oX="3" oY="3" oW="424" oH="460"/>
+    <sprite n="eoe_anim_deco_02_shadow" x="203" y="464" w="172" h="340" oX="24" oY="22" oW="388" oH="216" r="y"/>
+    <sprite n="eoe_anim_deco_02_trunk" x="3" y="880" w="132" h="139" oX="0" oY="2" oW="132" oH="144"/>
+    <sprite n="eoe_animated_deco_02_flower_01" x="203" y="808" w="53" h="57" oX="14" oY="12" oW="80" oH="80"/>
+    <sprite n="eoe_animated_deco_02_flower_02" x="260" y="808" w="53" h="57" oX="12" oY="12" oW="80" oH="80"/>
+    <sprite n="eoe_animated_deco_02_flower_03" x="424" y="345" w="76" h="80" oX="0" oY="4" oW="80" oH="80" r="y"/>
+    <sprite n="eoe_animated_deco_02_mask" x="631" y="3" w="217" h="216" oX="2" oY="1" oW="220" oH="220" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,110 @@
+<template name="template_soul_link_slot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/SoulLinkSlot.lua" />
+
+	<defaultTemplateVar name="$layer" equals="'MidPopUps'" />
+	<defaultTemplateVar name="$rarity" equals="game.MonsterRarity_Common" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+
+	<spriteSheetComponent name="Bg">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("sheetName"):SetString("xml_resources/soulink_sheet.xml")
+				component("spriteName"):SetString("portrait_square_tinted")
+				component("size"):SetFloat(0.43*game.menuScaleX())
+				component("layer"):SetString("$layer")
+			]]>
+		</event>
+	</spriteSheetComponent>
+	
+	<spriteSheetComponent name="Sprite">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("sheetName"):SetString("xml_resources/soulink_sheet.xml")
+				component("spriteName"):SetString("portrait_square_plus")
+				component("size"):SetFloat(0.43*game.menuScaleX())
+				component("layer"):SetString("$layer")
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<spriteComponent name="MonsterImage">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-3" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("visible"):SetInt(0)
+				component("size"):SetFloat(0.43*game.menuScaleX())
+				component("layer"):SetString("$layer")
+			]]>
+		</event>
+	</spriteComponent>
+
+	<spriteSheetComponent name="LockedIcon">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-3" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("portrait_square_lock")
+				component("sheetName"):SetString("xml_resources/soulink_sheet.xml")
+				component("size"):SetFloat(0.43*game.menuScaleX())
+				component("layer"):SetString("$layer")
+				component("visible"):SetInt(0)
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<textComponent name="Rate">
+	<size w="35*game.menuScaleX()" h="16*game.menuScaleX()" />
+		<position relativeTo="PARENT" component="Bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-7*game.menuScaleX()" priorityOffset="-4" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.18*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("layer"):SetString("$layer")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				game.StoreContext_setCurrencyTypeColour(game.CurrencyType_Coins, component)
+				component("text"):SetString("")
+			]]>
+		</event>
+	</textComponent>
+	
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				if(element.touchDisabled  == false) then
+					element:parent():parent():SoulLinkSlotSelected(element)
+					element["Bg"]:setColor(1.0, 1.0, 1.0)
+					element["Sprite"]:setColor(1.0, 1.0, 1.0)
+				end
+			]]>
+		</event>
+		<event name="onTouchDown" params="component, element, x, y">
+			<![CDATA[
+				if(element.touchDisabled == false) then
+					element["Bg"]:setColor(0.5, 0.5, 0.5)
+					element["Sprite"]:setColor(0.5, 0.5, 0.5)
+				end
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+			if(element.touchDisabled == false) then
+				element["Bg"]:setColor(1.0, 1.0, 1.0)
+				element["Sprite"]:setColor(1.0, 1.0, 1.0)
+			end
+			]]>
+		</event>
+	</touchComponent>
+
+</template>

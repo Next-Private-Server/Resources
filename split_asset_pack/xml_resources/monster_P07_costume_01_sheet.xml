@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d5ed8b735584f5f77b0cf011a21fc5ca:f26aea1d3e5606dfd047d514cf6823c0:044b0fba93300be399bb14b43c70fcdf$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_P07_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="carrot_bow" x="72" y="275" w="42" h="136" pX="0.8285714285714286" pY="0.4423076923076923" oX="0" oY="3" oW="140" oH="52" r="y"/>
+	<sprite n="carrot_lowerarm" x="373" y="0" w="112" h="77" pX="0.475" pY="0.16666666666666666" oX="3" oY="4" oW="80" oH="120" r="y"/>
+	<sprite n="cornocopia" x="126" y="0" w="245" h="267" pX="0.7580645161290323" pY="0.6985294117647058" oX="1" oY="2" oW="248" oH="272"/>
+	<sprite n="gourd_cello" x="0" y="0" w="124" h="273" pX="0.478125" pY="0.12357142857142858" oX="3" oY="3" oW="128" oH="280"/>
+	<sprite n="gourd_cello_music" x="0" y="0" w="124" h="273" pX="0.4765625" pY="0.9678571428571429" oX="3" oY="3" oW="128" oH="280"/>
+	<sprite n="gourd_holes" x="0" y="437" w="29" h="70" pX="0.7058823529411765" pY="0.4166666666666667" oX="2" oY="1" oW="34" oH="72"/>
+	<sprite n="leaf_wing_left" x="0" y="275" w="70" h="160" pX="0.93125" pY="0.35" oX="0" oY="4" oW="160" oH="80" r="y"/>
+	<sprite n="leaf_wing_right" x="31" y="437" w="144" h="65" pX="0.8175675675675675" pY="0.5833333333333334" oX="0" oY="4" oW="148" oH="72"/>
+	<sprite n="necklace" x="116" y="275" w="96" h="126" pX="0.5" pY="0.35074626865671643" oX="2" oY="3" oW="100" oH="134"/>
+</TextureAtlas>

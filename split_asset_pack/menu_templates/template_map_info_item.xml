@@ -1,0 +1,170 @@
+<template name="template_map_info_item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<defaultTemplateVar name="$layer" equals="'PopUps'" />
+	<defaultTemplateVar name="$sheetName" equals="'xml_resources/map_icons_sheet.xml'" />
+	<defaultTemplateVar name="$spriteName" equals="'map_common_icon'" />
+	<defaultTemplateVar name="$scale" equals="1" />
+	<defaultTemplateVar name="$height" equals="60*game.mapScale()" />
+	<defaultTemplateVar name="$toolTip" equals="'?'" />
+	<defaultTemplateVar name="$spriteScale" equals="1" />
+	<defaultTemplateVar name="$toolTipEnabled" equals="1" />
+	<defaultTemplateVar name="$spacing" equals="0" />
+	
+	<textComponent name="Text">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("size"):SetFloat(0.375 * $scale * game.mapScale())
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString("28/18")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("$layer")
+		</event>
+	</textComponent>
+
+	<spriteSheetComponent name="Sprite">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">		
+			component("sheetName"):SetString("$sheetName")
+			component("spriteName"):SetString("$spriteName")
+			component("size"):SetFloat(0.75 * $scale * $spriteScale * game.mapScale())
+			component("layer"):SetString("$layer")
+		</event>
+	</spriteSheetComponent>
+
+	<!-- timed touch -->
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<event name="onInit" params="component, element">
+			element.touchTimer = 0
+			element.isTooltipShowing = false
+			element.shouldShowTooltip = false
+			component:GetVar("passthrough"):SetInt(1)
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+				local alpha = element.alpha or 1.0
+				if element.isVisible and alpha > 0.1 then
+					element.shouldShowTooltip = true
+					element.touchTimer = 0
+				end
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				element.Tooltip:Hide()
+				element.isTooltipShowing = false
+				element.shouldShowTooltip = false
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				element.Tooltip:Hide()
+				element.isTooltipShowing = false
+				element.shouldShowTooltip = false
+			]]>
+		</event>
+		<event name="onTouchDrag" params="component, element, x, y, relX, relY, dx, dy">
+			<![CDATA[
+				if relX*relX + relY*relY > 64 then
+					element.Tooltip:Hide()
+					element.isTooltipShowing = false
+					element.shouldShowTooltip = false
+				end
+			]]>
+		</event>
+		<event name="onTick" params="component, element, dt">
+			<![CDATA[
+				if element.shouldShowTooltip then
+					element.touchTimer = element.touchTimer + dt
+					if element.touchTimer > 0.5 and not element.isTooltipShowing then
+						element.Tooltip:Show()
+						element.isTooltipShowing = true
+						element.shouldShowTooltip = false
+					end
+				end
+			]]>
+		</event>
+
+	</touchComponent>
+	
+	<template type="template_tooltip" name="Tooltip">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="24*game.mapScale()" priorityOffset="-1" />
+		<event name="onPostInit" params="element">
+			<![CDATA[
+				element.Text:GetVar("text"):SetString("$toolTip")
+				element.Sprite:setSize(lua_sys.Vector2(element.Text:absW() + 12*game.mapScale(), element.Text:absH() + 12*game.mapScale()))
+				element.duration = 0.67
+			]]>
+		</event>
+		<event name="setText" params="element, text">
+			<![CDATA[
+				element.Text:GetVar("text"):SetString(text)
+				element.Sprite:setSize(lua_sys.Vector2(element.Text:absW() + 12*game.mapScale(), element.Text:absH() + 12*game.mapScale()))
+			]]>
+		</event>
+	</template>
+
+	<event name="onInit" params="element">
+		element:GetVar("_isVisible"):SetInt(1)
+		element:GetVar("_isSpriteVisible"):SetInt(1)
+	</event>
+
+	<event name="onPostInit" params="element">
+		element.isVisible = true
+		element.Touch:GetVar("enabled"):SetInt($toolTipEnabled)
+		element:Refresh()
+	</event>
+
+	<event name="Refresh" params="element">
+		--reset size
+		element.Sprite("size"):SetFloat(0.75 * $scale * $spriteScale * game.mapScale())
+
+		local isVisible = element:GetVar("_isVisible"):GetInt() > 0
+		
+		local spriteName = element.Sprite:GetVar("spriteName"):GetString()
+		
+		local isSpriteVisible = spriteName ~= ""
+		element:GetVar("_isSpriteVisible"):SetInt(isSpriteVisible and 1 or 0)
+		
+		local showSprite = isVisible and isSpriteVisible
+		element.Sprite:GetVar("visible"):SetInt(showSprite and 1 or 0)
+		
+		local textWidth = element.Text:absW()
+		local spriteWidth = isSpriteVisible and element.Sprite:absW() or 0
+		local totalWidth = textWidth + spriteWidth + $spacing
+		element:setSize(lua_sys.Vector2(totalWidth, $height))
+		element.Sprite:GetVar("xOffset"):SetFloat(spriteWidth * 0.5)
+	</event>
+
+	<event name="Show" params="element">
+		element.isVisible = true
+		element:GetVar("_isVisible"):SetInt(1)
+		element.Text:GetVar("visible"):SetInt(1)
+		element.Sprite:GetVar("visible"):SetInt(element:GetVar("_isSpriteVisible"):GetInt())
+		element.Touch:GetVar("enabled"):SetInt($toolTipEnabled)
+		element:Refresh()
+	</event>
+
+	<event name="Hide" params="element">
+		element.isVisible = false
+		element:GetVar("_isVisible"):SetInt(0)
+		element.Text:GetVar("visible"):SetInt(0)
+		element.Sprite:GetVar("visible"):SetInt(0)
+		element.Touch:GetVar("enabled"):SetInt(0)
+	</event>
+
+	<event name="updateComponents" params="element">
+		local alpha = element.alpha or 1.0
+		element.Text:GetVar("alpha"):SetFloat(alpha)
+		element.Sprite:GetVar("alpha"):SetFloat(alpha)
+	</event>
+
+	
+
+</template>

@@ -1,0 +1,16 @@
+<template name="template_instanceaecomponent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<defaultTemplateVar name="$hFlip" equals="0" />
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Anim" />
+	
+	<aeComponent name="Anim">
+		<event name="onInit" params="component, element">
+			component("offsetCenter"):SetInt(1)
+			component("animationName"):SetString(element("AnimationName"):GetString())
+			component("animation"):SetString(element("Animation"):GetString())
+			component("layer"):SetString(element("Layer"):GetString())
+		</event>
+	</aeComponent>
+	
+</template>

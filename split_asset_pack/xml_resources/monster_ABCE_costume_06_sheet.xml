@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:957eea73e70086dc8a8bec65dbebbccb:d8c233a7264a6bb7964624c3ff05ce03:98dd34c36ca38b7a78d315ecebce21cd$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCE_costume_06_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ABCE_body" x="0" y="0" w="272" h="169" pX="0.5" pY="0.5" oX="2" oY="0" oW="274" oH="170"/>
+	<sprite n="ABCE_head_a" x="144" y="525" w="126" h="114" pX="0.5" pY="0.5" oX="3" oY="0" oW="120" oH="126" r="y"/>
+	<sprite n="ABCE_head_b" x="273" y="272" w="169" h="154" pX="0.5" pY="0.5" oX="0" oY="12" oW="154" oH="184" r="y"/>
+	<sprite n="ABCE_head_c" x="0" y="331" w="156" h="154" pX="0.5" pY="0.5" oX="0" oY="4" oW="156" oH="160" r="y"/>
+	<sprite n="ABCE_head_d" x="177" y="171" w="94" h="114" pX="0.5" pY="0.5"/>
+	<sprite n="ABCE_head_e" x="0" y="171" w="175" h="158" pX="0.5" pY="0.5" oX="0" oY="0" oW="158" oH="182" r="y"/>
+	<sprite n="ABCE_head_f" x="0" y="487" w="142" h="126" pX="0.5" pY="0.5" oX="0" oY="13" oW="126" oH="160" r="y"/>
+	<sprite n="ABCE_left_foot" x="444" y="300" w="64" h="84" pX="0.5" pY="0.5" oX="1" oY="0" oW="86" oH="66" r="y"/>
+	<sprite n="ABCE_left_hand" x="0" y="615" w="85" h="76" pX="0.5" pY="0.5" oX="0" oY="0" oW="86" oH="78"/>
+	<sprite n="ABCE_left_knee" x="462" y="156" w="47" h="55" pX="0.5" pY="0.5" oX="1" oY="1" oW="50" oH="58"/>
+	<sprite n="ABCE_left_lowerarm" x="272" y="530" w="114" h="82" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABCE_left_lowerleg" x="402" y="489" w="110" h="104" pX="0.5" pY="0.5" oX="2" oY="4" oW="114" oH="110"/>
+	<sprite n="ABCE_left_upperarm" x="274" y="145" w="186" h="125" pX="0.5" pY="0.5" oX="0" oY="0" oW="126" oH="186" r="y"/>
+	<sprite n="ABCE_left_upperleg" x="158" y="395" w="112" h="128" pX="0.5" pY="0.5" oX="1" oY="1" oW="114" oH="130"/>
+	<sprite n="ABCE_mouth_a1" x="142" y="641" w="85" h="20" pX="0.4787234042553192" pY="0.2413793103448276" oX="5" oY="13" oW="94" oH="58"/>
+	<sprite n="ABCE_mouth_a2" x="177" y="287" w="91" h="28" pX="0.5" pY="0.5" oX="1" oY="4" oW="94" oH="58"/>
+	<sprite n="ABCE_mouth_a3" x="462" y="213" w="46" h="85" pX="0.5" pY="0.5" oX="5" oY="3" oW="94" oH="58" r="y"/>
+	<sprite n="ABCE_mouth_a4" x="87" y="615" w="53" h="56" pX="0.5" pY="0.5" oX="19" oY="0" oW="94" oH="58"/>
+	<sprite n="ABCE_mouth_a5" x="402" y="428" w="32" h="25" pX="0.5" pY="0.5" oX="27" oY="8" oW="94" oH="58" r="y"/>
+	<sprite n="ABCE_mouth_a6" x="470" y="124" w="40" h="16" pX="0.5" pY="0.5" oX="18" oY="11" oW="94" oH="58"/>
+	<sprite n="ABCE_mouth_b1" x="142" y="663" w="77" h="18" pX="0.45348837209302323" pY="0.16" oX="3" oY="6" oW="86" oH="50"/>
+	<sprite n="ABCE_mouth_b2" x="229" y="641" w="27" h="84" pX="0.5" pY="0.5" oX="0" oY="2" oW="86" oH="50" r="y"/>
+	<sprite n="ABCE_mouth_b3" x="470" y="0" w="42" h="72" pX="0.5" pY="0.5" oX="5" oY="1" oW="86" oH="50" r="y"/>
+	<sprite n="ABCE_mouth_b4" x="470" y="74" w="42" h="48" pX="0.5" pY="0.5" oX="14" oY="0" oW="86" oH="50"/>
+	<sprite n="ABCE_mouth_b5" x="402" y="455" w="21" h="28" pX="0.5" pY="0.5" oX="23" oY="6" oW="86" oH="50"/>
+	<sprite n="ABCE_mouth_b6" x="470" y="142" w="33" h="12" pX="0.5" pY="0.5" oX="16" oY="12" oW="86" oH="50"/>
+	<sprite n="ABCE_right_foot" x="444" y="386" w="62" h="101" pX="0.5" pY="0.5" oX="3" oY="1" oW="106" oH="66" r="y"/>
+	<sprite n="ABCE_right_hand" x="177" y="317" w="87" h="76" pX="0.5" pY="0.5" oX="1" oY="1" oW="88" oH="78"/>
+	<sprite n="ABCE_right_knee" x="87" y="673" w="52" h="56" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="60"/>
+	<sprite n="ABCE_right_lowerarm" x="272" y="614" w="102" h="74" pX="0.5" pY="0.5" oX="0" oY="2" oW="74" oH="104" r="y"/>
+	<sprite n="ABCE_right_lowerleg" x="388" y="595" w="110" h="100" pX="0.5" pY="0.5" oX="1" oY="2" oW="102" oH="114" r="y"/>
+	<sprite n="ABCE_right_upperarm" x="274" y="0" w="194" h="143" pX="0.5" pY="0.5" oX="0" oY="0" oW="144" oH="194" r="y"/>
+	<sprite n="ABCE_right_upperleg" x="272" y="428" w="128" h="100" pX="0.5" pY="0.5" oX="1" oY="1" oW="102" oH="130" r="y"/>
+</TextureAtlas>

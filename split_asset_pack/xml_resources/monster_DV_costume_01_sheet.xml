@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:20475d65df5e2a313db560e2e434e41c:1e9067c228fdcebcac3bf20e3a55e49e:b4ac3fcf28ed8eaa7d961b9e483839cd$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_DV_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="DV_arm_over_middle" x="165" y="266" w="52" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="DV_eyelids_01" x="0" y="296" w="103" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="105" oH="47"/>
+	<sprite n="DV_eyelids_02" x="153" y="358" w="102" h="46" pX="0.5" pY="0.5" oX="2" oY="1" oW="105" oH="47"/>
+	<sprite n="DV_eyelids_03" x="105" y="296" w="46" h="103" pX="0.5" pY="0.5" oX="1" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_eyelids_04" x="0" y="344" w="103" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="105" oH="47"/>
+	<sprite n="DV_eyelids_05" x="0" y="392" w="103" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="105" oH="47"/>
+	<sprite n="DV_eyelids_06" x="153" y="310" w="103" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="105" oH="47"/>
+	<sprite n="DV_head_decor1" x="0" y="0" w="163" h="146" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="DV_head_decor2" x="0" y="148" w="163" h="146" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="DV_jaw_bottom_right" x="165" y="0" w="89" h="124" pX="0.5" pY="0.5" oX="0" oY="1" oW="124" oH="90" r="y"/>
+	<sprite n="DV_outter_arm_left" x="165" y="175" w="54" h="44" pX="0.26136363636363635" pY="0.1111111111111111" r="y"/>
+	<sprite n="DV_outter_arm_right" x="165" y="221" w="54" h="43" pX="0.22727272727272727" pY="0.14814814814814814" oX="0" oY="0" oW="44" oH="54" r="y"/>
+	<sprite n="DV_outter_hand_left" x="165" y="126" w="64" h="47" pX="0.6914893617021277" pY="0.125" r="y"/>
+</TextureAtlas>

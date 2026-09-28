@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ff69b5d8578b0c49be9c1a03936f7848:61122f70c1d6abb0d75dde7e2717b976:41f010e6f6183194569695062a798d2a$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_EW_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="xmas_body" x="0" y="314" w="80" h="102" pX="0.652778" pY="0.08125" oX="2" oY="0" oW="108" oH="80" r="y"/>
+	<sprite n="xmas_bulb_1" x="0" y="186" w="121" h="126" pX="0.2375" pY="0.734722" oX="11" oY="9" oW="144" oH="144"/>
+	<sprite n="xmas_front_hand" x="218" y="112" w="48" h="50" pX="0.698113" pY="0.625" oX="2" oY="0" oW="53" oH="56" r="y"/>
+	<sprite n="xmas_front_hand_back" x="218" y="112" w="48" h="50" pX="0.490566" pY="0.758929" oX="2" oY="0" oW="53" oH="56" r="y"/>
+	<sprite n="xmas_glow" x="0" y="0" w="179" h="184" pX="0.477174" pY="0.508152" oX="3" oY="0" oW="184" oH="184"/>
+	<sprite n="xmas_left_back_upperleg" x="184" y="257" w="59" h="51" pX="0.5" pY="0.5" oX="1" oY="2" oW="54" oH="64" r="y"/>
+	<sprite n="xmas_left_front_lowerleg_1" x="123" y="265" w="59" h="45" pX="0.5" pY="0.5" oX="4" oY="7" oW="76" oH="56"/>
+	<sprite n="xmas_left_front_lowerleg_2" x="209" y="310" w="45" h="59" pX="0.5" pY="0.5" oX="14" oY="0" oW="76" oH="56" r="y"/>
+	<sprite n="xmas_left_front_lowerleg_3" x="240" y="484" w="30" h="28" pX="0.5" pY="0.5" oX="24" oY="8" oW="76" oH="56" r="y"/>
+	<sprite n="xmas_left_front_lowerleg_shine" x="181" y="112" w="35" h="54" pX="0.5" pY="0.5" oX="12" oY="7" oW="76" oH="56" r="y"/>
+	<sprite n="xmas_left_front_upperleg" x="0" y="418" w="49" h="93" pX="0.259615" pY="0.898936" oX="2" oY="0" oW="52" oH="94"/>
+	<sprite n="xmas_left_middle_lowerleg_1" x="181" y="56" w="41" h="54" pX="0.5" pY="0.5" oX="3" oY="27" oW="44" oH="86"/>
+	<sprite n="xmas_left_middle_lowerleg_2" x="240" y="428" w="42" h="54" pX="0.5" pY="0.5" oX="1" oY="16" oW="44" oH="86"/>
+	<sprite n="xmas_left_middle_lowerleg_3" x="162" y="186" w="42" h="69" pX="0.5" pY="0.5" oX="0" oY="7" oW="44" oH="86"/>
+	<sprite n="xmas_left_middle_lowerleg_shine" x="174" y="312" w="33" h="61" pX="0.5" pY="0.5" oX="7" oY="14" oW="44" oH="86"/>
+	<sprite n="xmas_left_middle_upperleg" x="95" y="408" w="60" h="90" pX="0.798913" pY="0.265625" oX="1" oY="1" oW="92" oH="64" r="y"/>
+	<sprite n="xmas_right_back_upperleg" x="157" y="380" w="60" h="65" pX="0.838235" pY="0.83871" oX="2" oY="2" oW="68" oH="62" r="y"/>
+	<sprite n="xmas_right_front_lowerleg_1" x="219" y="371" w="40" h="55" pX="0.5" pY="0.5" oX="1" oY="10" oW="48" oH="72"/>
+	<sprite n="xmas_right_front_lowerleg_2" x="181" y="0" w="42" h="54" pX="0.5" pY="0.5" oX="4" oY="0" oW="48" oH="72"/>
+	<sprite n="xmas_right_front_lowerleg_3" x="206" y="224" w="33" h="31" pX="0.5" pY="0.5" oX="7" oY="13" oW="48" oH="72" r="y"/>
+	<sprite n="xmas_right_front_lowerleg_shine" x="206" y="168" w="33" h="54" pX="0.5" pY="0.5" oX="5" oY="6" oW="48" oH="72"/>
+	<sprite n="xmas_right_front_upperleg" x="51" y="418" w="42" h="93" pX="0.416667" pY="0.920213" oX="0" oY="1" oW="42" oH="94"/>
+	<sprite n="xmas_right_middle_lowerleg_1" x="132" y="312" w="40" h="66" pX="0.5" pY="0.5" oX="13" oY="17" oW="108" oH="58" r="y"/>
+	<sprite n="xmas_right_middle_lowerleg_2" x="157" y="447" w="40" h="64" pX="0.5" pY="0.5" oX="27" oY="13" oW="108" oH="58" r="y"/>
+	<sprite n="xmas_right_middle_lowerleg_3" x="199" y="447" w="39" h="64" pX="0.5" pY="0.5" oX="40" oY="9" oW="108" oH="58" r="y"/>
+	<sprite n="xmas_right_middle_lowerleg_shine" x="123" y="186" w="37" h="77" pX="0.5" pY="0.5" oX="22" oY="15" oW="108" oH="58" r="y"/>
+	<sprite n="xmas_right_middle_upperleg" x="82" y="314" w="48" h="92" pX="0.388889" pY="0.170213" oX="3" oY="0" oW="54" oH="94"/>
+</TextureAtlas>

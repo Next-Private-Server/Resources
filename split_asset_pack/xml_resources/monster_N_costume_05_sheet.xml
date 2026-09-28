@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4fd72cf3f1ac95844a3631737a3f25d8:9b15af6cf03ef61b202270e0651389f1:f20c006f7aaef41d2f60a4add8b0a12b$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_N_costume_05_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="N_amber" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_crk_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_crk_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_crk_03" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_lrg_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_lrg_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_med_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_shrd_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_shrd_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_shrd_03" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_sml_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_sml_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_03" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_04" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_05" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_06" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_amber_spark_07" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_arm_left_lower_01" x="106" y="551" w="95" h="71" oX="0" oY="0" oW="96" oH="72"/>
+    <sprite n="N_arm_left_lower_02" x="205" y="608" w="95" h="71" oX="0" oY="0" oW="96" oH="72"/>
+    <sprite n="N_arm_left_upper" x="406" y="227" w="103" h="56" oX="0" oY="0" oW="104" oH="56"/>
+    <sprite n="N_arm_right_lower_01" x="203" y="683" w="88" h="69" oX="0" oY="0" oW="88" oH="72"/>
+    <sprite n="N_arm_right_lower_02" x="100" y="709" w="88" h="69" oX="0" oY="0" oW="88" oH="72"/>
+    <sprite n="N_arm_right_upper" x="403" y="465" w="104" h="60" oX="0" oY="0" oW="104" oH="64"/>
+    <sprite n="N_body" x="3" y="199" w="180" h="148" r="y"/>
+    <sprite n="N_body_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_eye_lid_01" x="3" y="470" w="99" h="52" oX="0" oY="0" oW="100" oH="52"/>
+    <sprite n="N_eye_lid_02" x="3" y="526" w="99" h="52" oX="0" oY="0" oW="100" oH="52"/>
+    <sprite n="N_eye_lid_03" x="3" y="582" w="99" h="52" oX="0" oY="0" oW="100" oH="52"/>
+    <sprite n="N_eye_lid_04" x="205" y="552" w="99" h="52" oX="0" oY="0" oW="100" oH="52"/>
+    <sprite n="N_eye_lid_05" x="399" y="529" w="99" h="52" oX="0" oY="0" oW="100" oH="52"/>
+    <sprite n="N_eye_lid_06" x="399" y="585" w="99" h="52" oX="0" oY="0" oW="100" oH="52"/>
+    <sprite n="N_eyeball" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_eyeball_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_foot_left_01" x="315" y="503" w="80" h="88"/>
+    <sprite n="N_foot_left_02" x="308" y="595" w="80" h="88"/>
+    <sprite n="N_foot_right_01" x="115" y="351" w="88" h="96"/>
+    <sprite n="N_foot_right_02" x="115" y="451" w="88" h="96"/>
+    <sprite n="N_glow" x="411" y="3" w="98" h="99" oX="0" oY="0" oW="98" oH="100"/>
+    <sprite n="N_glow_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_hand_01" x="95" y="782" w="75" h="71" oX="0" oY="20" oW="72" oH="96" r="y"/>
+    <sprite n="N_hand_02" x="452" y="783" w="49" h="72" oX="0" oY="19" oW="72" oH="96" r="y"/>
+    <sprite n="N_hand_03" x="392" y="641" w="76" h="72" oX="0" oY="2" oW="72" oH="96" r="y"/>
+    <sprite n="N_hand_04" x="375" y="717" w="73" h="71" oX="0" oY="0" oW="72" oH="96" r="y"/>
+    <sprite n="N_hand_glow_01" x="3" y="794" w="75" h="71" oX="0" oY="20" oW="72" oH="96" r="y"/>
+    <sprite n="N_hand_glow_02" x="174" y="832" w="72" h="49" oX="0" oY="19" oW="72" oH="96"/>
+    <sprite n="N_hand_glow_03" x="295" y="687" w="76" h="72" oX="0" oY="2" oW="72" oH="96" r="y"/>
+    <sprite n="N_hand_glow_04" x="271" y="763" w="72" h="71" oX="0" oY="0" oW="72" oH="96" r="y"/>
+    <sprite n="N_head" x="207" y="189" w="195" h="168" oX="0" oY="0" oW="168" oH="196" r="y"/>
+    <sprite n="N_head_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_leg_left_lower_01" x="106" y="626" w="93" h="79" oX="0" oY="1" oW="80" oH="96" r="y"/>
+    <sprite n="N_leg_left_lower_02" x="3" y="638" w="93" h="79" oX="0" oY="1" oW="80" oH="96" r="y"/>
+    <sprite n="N_leg_left_upper" x="315" y="435" w="84" h="64" oX="0" oY="1" oW="64" oH="88" r="y"/>
+    <sprite n="N_leg_right_lower_01" x="406" y="287" w="101" h="85" oX="1" oY="1" oW="88" oH="104" r="y"/>
+    <sprite n="N_leg_right_lower_02" x="406" y="376" w="101" h="85" oX="1" oY="1" oW="88" oH="104" r="y"/>
+    <sprite n="N_leg_right_upper" x="316" y="361" w="86" h="70" oX="1" oY="1" oW="72" oH="88" r="y"/>
+    <sprite n="N_mouth_001" x="207" y="504" w="101" h="44" oX="3" oY="9" oW="108" oH="72"/>
+    <sprite n="N_mouth_002" x="3" y="414" w="108" h="52" oX="0" oY="3" oW="108" oH="72"/>
+    <sprite n="N_mouth_003" x="3" y="351" w="108" h="59" oX="0" oY="2" oW="108" oH="72"/>
+    <sprite n="N_mouth_004" x="207" y="432" w="104" h="68" oX="2" oY="0" oW="108" oH="72"/>
+    <sprite n="N_mouth_005" x="3" y="721" w="88" h="69" oX="6" oY="0" oW="108" oH="72"/>
+    <sprite n="N_mouth_006" x="192" y="756" w="75" h="72" oX="9" oY="0" oW="108" oH="72"/>
+    <sprite n="N_mouth_007" x="452" y="717" w="56" h="62" oX="17" oY="7" oW="108" oH="72" r="y"/>
+    <sprite n="N_mouth_008" x="82" y="857" w="61" h="40" oX="19" oY="14" oW="108" oH="72"/>
+    <sprite n="N_mouth_009" x="411" y="106" w="98" h="54" oX="3" oY="6" oW="108" oH="72"/>
+    <sprite n="N_mouth_010" x="411" y="164" w="97" h="59" oX="4" oY="4" oW="108" oH="72"/>
+    <sprite n="N_mouth_011" x="207" y="361" w="105" h="67" oX="1" oY="1" oW="108" oH="72"/>
+    <sprite n="N_pupil" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_pupil_RARE" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_shadow" x="0" y="0" w="0" h="0"/>
+    <sprite n="N_smoke_01" x="3" y="3" w="200" h="192" oX="0" oY="3" oW="200" oH="200"/>
+    <sprite n="N_smoke_02" x="207" y="3" w="200" h="182" oX="0" oY="9" oW="200" oH="200"/>
+	<sprite n="RARE_N_arm_left_lower_01" x="0" y="0" w="0" h="0"/>
+	<sprite n="RARE_N_arm_left_lower_02" x="0" y="0" w="0" h="0"/>
+	<sprite n="RARE_N_arm_left_upper" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_arm_right_lower_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_arm_right_lower_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_arm_right_upper" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_eye_lid_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_eye_lid_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_eye_lid_03" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_eye_lid_04" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_eye_lid_05" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_eye_lid_06" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_foot_left_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_foot_left_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_foot_right_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_foot_right_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_03" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_04" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_glow_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_glow_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_glow_03" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_hand_glow_04" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_leg_left_lower_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_leg_left_lower_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_leg_left_upper" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_leg_right_lower_01" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_leg_right_lower_02" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_leg_right_upper" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_001" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_002" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_003" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_004" x="0" y="0" w="0" h="0"/>
+	<sprite n="RARE_N_mouth_005" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_006" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_007" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_008" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_009" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_010" x="0" y="0" w="0" h="0"/>
+    <sprite n="RARE_N_mouth_011" x="0" y="0" w="0" h="0"/>
+    <sprite n="spore_N" x="0" y="0" w="0" h="0"/>
+</TextureAtlas>

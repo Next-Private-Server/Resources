@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fec290a236e7d117c37005387fa4f283:bcc00a2d2bfd66fa28053762309842fe:ed82c9031dc78139b640bb0a0e9a3a40$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island16_sheet02_clover.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="center_rainbow" x="0" y="0" w="794" h="314" oX="32" oY="0" oW="864" oH="372"/>
+	<sprite n="centre_goldpot" x="1831" y="1056" w="217" h="230" oX="5" oY="1" oW="224" oH="232"/>
+	<sprite n="centre_hat" x="735" y="1787" w="204" h="246" oX="2" oY="1" oW="208" oH="248"/>
+	<sprite n="cloud" x="0" y="850" w="452" h="432" r="y"/>
+	<sprite n="critter_01" x="1835" y="764" w="58" h="28" oX="3" oY="8" oW="33" oH="66" r="y"/>
+	<sprite n="critter_02" x="1835" y="707" w="59" h="27" oX="3" oY="7" oW="33" oH="66" r="y"/>
+	<sprite n="critter_03" x="1835" y="736" w="59" h="26" oX="3" oY="7" oW="33" oH="66" r="y"/>
+	<sprite n="critter_04" x="1831" y="898" w="61" h="26" oX="3" oY="5" oW="33" oH="66" r="y"/>
+	<sprite n="critter_05" x="1831" y="832" w="63" h="26" oX="3" oY="3" oW="33" oH="66" r="y"/>
+	<sprite n="critter_06" x="1137" y="1713" w="65" h="26" oX="3" oY="1" oW="33" oH="66" r="y"/>
+	<sprite n="critter_07" x="1831" y="956" w="57" h="26" oX="3" oY="9" oW="33" oH="66" r="y"/>
+	<sprite n="critter_08" x="1831" y="926" w="57" h="28" oX="3" oY="9" oW="33" oH="66" r="y"/>
+	<sprite n="critter_glow" x="1896" y="606" w="151" h="103" r="y"/>
+	<sprite n="eye_ring_highlight" x="1405" y="353" w="489" h="315" oX="60" oY="62" oW="600" oH="400"/>
+	<sprite n="eye_shadow" x="780" y="412" w="464" h="326" oX="64" oY="124" oW="596" oH="596"/>
+	<sprite n="eyelid_bottom" x="213" y="1284" w="410" h="206" oX="7" oY="1" oW="430" oH="210"/>
+	<sprite n="eyelid_bottom_edge" x="1246" y="412" w="156" h="408" oX="12" oY="0" oW="430" oH="156" r="y"/>
+	<sprite n="eyelid_bottom_edge_highlight" x="625" y="1281" w="137" h="407" oX="11" oY="3" oW="430" oH="140" r="y"/>
+	<sprite n="eyelid_top" x="1402" y="1223" w="417" h="285" oX="5" oY="3" oW="430" oH="290"/>
+	<sprite n="eyelid_top_edge" x="1206" y="1383" w="190" h="417" oX="7" oY="4" oW="430" oH="200" r="y"/>
+	<sprite n="eyelid_top_edge_highlight" x="1404" y="670" w="429" h="148" oX="0" oY="0" oW="430" oH="150"/>
+	<sprite n="eyelid_yellow_solid" x="0" y="638" w="467" h="210" oX="1" oY="0" oW="470" oH="210"/>
+	<sprite n="feathers_03_extend" x="484" y="316" w="294" h="421" oX="1" oY="3" oW="424" oH="300" r="y"/>
+	<sprite n="glow_sparkle" x="370" y="1492" w="240" h="280" oX="18" oY="14" oW="308" oH="308"/>
+	<sprite n="megacritter_body_A" x="757" y="789" w="21" h="21" oX="6" oY="8" oW="32" oH="32"/>
+	<sprite n="megacritter_body_B" x="757" y="739" w="21" h="23" oX="4" oY="8" oW="32" oH="32" r="y"/>
+	<sprite n="megacritter_body_C" x="757" y="764" w="21" h="23" oX="4" oY="8" oW="32" oH="32" r="y"/>
+	<sprite n="megacritter_body_D" x="757" y="812" w="18" h="22" oX="5" oY="11" oW="32" oH="32" r="y"/>
+	<sprite n="megacritter_head_01" x="1831" y="860" w="62" h="36" oX="28" oY="16" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_02" x="1137" y="1675" w="66" h="36" oX="27" oY="12" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_03" x="1241" y="1347" w="64" h="34" oX="28" oY="14" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_04" x="1131" y="1383" w="68" h="36" oX="28" oY="10" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_05" x="1831" y="984" w="36" h="70" oX="28" oY="8" oW="92" oH="92"/>
+	<sprite n="megacritter_head_06" x="902" y="1741" w="74" h="36" oX="27" oY="4" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_07" x="1835" y="670" w="59" h="35" oX="28" oY="19" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_08" x="1835" y="794" w="57" h="36" oX="28" oY="21" oW="92" oH="92" r="y"/>
+	<sprite n="mushroom_glow_01" x="780" y="740" w="464" h="320" r="y"/>
+	<sprite n="mushroom_glow_02" x="0" y="316" w="482" h="216"/>
+	<sprite n="mushroom_glow_03" x="0" y="1510" w="368" h="270"/>
+	<sprite n="mushroom_glow_04" x="0" y="534" w="481" h="102"/>
+	<sprite n="shroom_burst_01" x="735" y="1690" w="67" h="95" oX="49" oY="92" oW="200" oH="200" r="y"/>
+	<sprite n="shroom_burst_02" x="1915" y="0" w="130" h="95" oX="29" oY="72" oW="200" oH="200"/>
+	<sprite n="shroom_burst_03" x="1896" y="498" w="152" h="106" oX="23" oY="59" oW="200" oH="200"/>
+	<sprite n="shroom_burst_04" x="1131" y="1209" w="108" h="172" oX="9" oY="53" oW="200" oH="200" r="y"/>
+	<sprite n="shroom_burst_05" x="454" y="1103" w="106" h="179" oX="2" oY="49" oW="200" oH="200" r="y"/>
+	<sprite n="shroom_burst_06" x="562" y="1103" w="115" h="176" oX="7" oY="42" oW="200" oH="200" r="y"/>
+	<sprite n="side_cloves" x="1915" y="97" w="129" h="156" oX="0" oY="1" oW="156" oH="132" r="y"/>
+	<sprite n="side_cupcake" x="1246" y="822" w="156" h="221" oX="2" oY="1" oW="160" oH="224"/>
+	<sprite n="side_head_decos" x="796" y="0" w="607" h="410" oX="8" oY="2" oW="420" oH="612" r="y"/>
+	<sprite n="side_platform_2" x="0" y="1284" w="211" h="218" oX="0" oY="0" oW="218" oH="212" r="y"/>
+	<sprite n="side_rainbow" x="1404" y="820" w="425" h="401" oX="0" oY="2" oW="408" oH="456" r="y"/>
+	<sprite n="side_tree_01" x="1821" y="1508" w="219" h="277" oX="1" oY="2" oW="220" oH="280"/>
+	<sprite n="side_tree_02" x="0" y="1787" w="364" h="260" oX="2" oY="0" oW="264" oH="364" r="y"/>
+	<sprite n="steamcloud" x="1821" y="1288" w="226" h="218" oX="4" oY="0" oW="226" oH="226" r="y"/>
+	<sprite n="vine_glow" x="804" y="1680" w="96" h="96" oX="2" oY="2" oW="100" oH="100"/>
+	<sprite n="vines_01" x="469" y="739" w="286" h="176" oX="0" oY="204" oW="582" oH="447"/>
+	<sprite n="vines_01_b" x="454" y="917" w="312" h="184" oX="146" oY="263" oW="582" oH="447"/>
+	<sprite n="vines_01_c" x="768" y="1062" w="361" h="354" oX="11" oY="0" oW="582" oH="447" r="y"/>
+	<sprite n="vines_01_d" x="855" y="1510" w="349" h="163" oX="233" oY="45" oW="582" oH="447"/>
+	<sprite n="vines_02" x="1405" y="0" w="508" h="351" r="y"/>
+	<sprite n="vines_03" x="941" y="1787" w="194" h="240" r="y"/>
+	<sprite n="vines_04" x="1915" y="255" w="126" h="241" oX="0" oY="0" oW="242" oH="126" r="y"/>
+	<sprite n="vines_05" x="366" y="1782" w="367" h="264" oX="0" oY="0" oW="369" oH="264"/>
+	<sprite n="vines_06" x="1896" y="711" w="150" h="343" oX="0" oY="0" oW="344" oH="150" r="y"/>
+	<sprite n="vines_07" x="764" y="1510" w="89" h="168" oX="0" oY="0" oW="169" oH="89" r="y"/>
+	<sprite n="vines_08" x="1246" y="1045" w="154" h="184" oX="0" oY="0" oW="185" oH="154" r="y"/>
+	<sprite n="vines_09" x="1241" y="1231" w="159" h="114" r="y"/>
+	<sprite n="vines_10" x="1137" y="1062" w="105" h="145"/>
+</TextureAtlas>

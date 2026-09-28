@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4216faac13fb41459fa46b4885773d97:42ddebb0e6c04f22a2d86175ffed3511:31d8f4d39e3a2d40f6d498b99a82c3e3$ -->
+<TextureAtlas imagePath="gfx/menu/metronome_sheet.png" width="64" height="128" hires="false" version="1">
+	<sprite n="metro_base" x="0" y="17" w="52" h="80" oX="4" oY="0" oW="60" oH="80"/>
+	<sprite n="metro_stick" x="0" y="0" w="64" h="15" oX="0" oY="1" oW="16" oH="66" r="y"/>
+</TextureAtlas>

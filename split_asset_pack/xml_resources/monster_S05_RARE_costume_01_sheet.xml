@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:46e22ef8e1da5b5471066607c214645b:1f644cc4e5ccf26203a31f27f36471dd:ed0ffdbe363c364efa24f0a8ab1e325a$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S05_RARE_costume_01_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="RARE_X_head" x="0" y="0" w="107" h="113" pX="0.5" pY="0.5" oX="2" oY="1" oW="110" oH="116"/>
+	<sprite n="RARE_X_left_foot" x="0" y="212" w="30" h="44" pX="0.5" pY="0.5" oX="0" oY="1" oW="44" oH="32" r="y"/>
+	<sprite n="RARE_X_left_lowerarm" x="127" y="205" w="27" h="46" pX="0.875" pY="0.428571" oX="0" oY="0" oW="48" oH="28" r="y"/>
+	<sprite n="RARE_X_left_upperarm" x="109" y="65" w="56" h="24" pX="0.857143" pY="0.5"/>
+	<sprite n="RARE_X_right_foot" x="97" y="205" w="28" h="47" pX="0.5" pY="0.5" oX="0" oY="0" oW="48" oH="28" r="y"/>
+	<sprite n="RARE_X_right_lowerarm" x="109" y="0" w="24" h="63" pX="0.0625" pY="0.541667" oX="0" oY="0" oW="64" oH="24" r="y"/>
+	<sprite n="RARE_X_right_upperarm" x="32" y="212" w="63" h="28" pX="0.140625" pY="0.5" oX="0" oY="0" oW="64" oH="28"/>
+	<sprite n="X_body" x="0" y="115" w="92" h="95" pX="0.46875" pY="0.651786" oX="0" oY="17" oW="96" oH="112" r="y"/>
+	<sprite n="X_left_lowerleg" x="160" y="0" w="85" h="60" pX="0.35" pY="0.840909" oX="0" oY="2" oW="60" oH="88" r="y"/>
+	<sprite n="X_right_lowerleg" x="94" y="115" w="64" h="88" pX="0.453125" pY="0.829545"/>
+</TextureAtlas>

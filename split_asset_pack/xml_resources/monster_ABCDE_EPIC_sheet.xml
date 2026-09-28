@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:603912a322fc6cfaeb0caa1620957e9b:69d482542e0998a392a887c3e574fe53:baa339da419d941b27de6fb62c2ce177$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABCDE_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="ABCDE_EPIC_body_01" x="284" y="0" w="200" h="213" oX="0" oY="0" oW="200" oH="216">
+    <vertices>200 69 200 160 120 213 55 212 15 192 0 163 4 125 53 3 96 0</vertices>
+    <verticesUV>484 69 484 160 404 213 339 212 299 192 284 163 288 125 337 3 380 0</verticesUV>
+    <triangles>6 7 8 0 1 2 4 5 6 3 4 6 2 3 6 0 2 6 0 6 8</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_02" x="353" y="215" w="110" h="160" oX="1" oY="0" oW="112" oH="160">
+    <vertices>91 39 111 88 111 119 83 154 58 160 47 160 41 154 31 82 1 17 1 0 52 0 72 7 69 7 69 4 72 4</vertices>
+    <verticesUV>443 254 463 303 463 334 435 369 410 375 399 375 393 369 383 297 353 232 353 215 404 215 424 222 421 222 421 219 424 219</verticesUV>
+    <triangles>8 9 10 7 8 10 6 3 4 6 7 3 6 4 5 2 3 7 7 0 1 7 1 2 0 7 10 12 13 14 11 12 14</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectA_01" x="240" y="539" w="111" h="65" oX="0" oY="11" oW="128" oH="76">
+    <vertices>111 42 101 62 18 76 1 31 0 26 73 11</vertices>
+    <verticesUV>351 570 341 590 258 604 241 559 240 554 313 539</verticesUV>
+    <triangles>3 4 5 2 3 5 1 2 5 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectA_02" x="0" y="493" w="122" h="66" oX="0" oY="7" oW="128" oH="76">
+    <vertices>114 29 122 55 16 73 0 29 0 7</vertices>
+    <verticesUV>114 515 122 541 16 559 0 515 0 493</verticesUV>
+    <triangles>0 1 2 0 2 3 0 3 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectA_03" x="235" y="414" w="124" h="71" oX="2" oY="1" oW="128" oH="76">
+    <vertices>72 28 118 29 126 44 105 58 19 72 3 40 2 8 44 1</vertices>
+    <verticesUV>305 441 351 442 359 457 338 471 252 485 236 453 235 421 277 414</verticesUV>
+    <triangles>5 6 7 0 5 7 3 0 1 3 1 2 0 3 4 0 4 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectA_04" x="264" y="339" w="127" h="73" oX="1" oY="1" oW="128" oH="76">
+    <vertices>125 32 128 39 120 57 16 74 1 32 3 28 62 1</vertices>
+    <verticesUV>388 370 391 377 383 395 279 412 264 370 266 366 325 339</verticesUV>
+    <triangles>3 5 6 3 4 5 2 3 6 0 1 2 0 2 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectA_05" x="141" y="366" w="126" h="72" oX="1" oY="4" oW="128" oH="76">
+    <vertices>127 35 124 48 38 74 23 76 19 76 1 32 44 4</vertices>
+    <verticesUV>267 397 264 410 178 436 163 438 159 438 141 394 184 366</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectA_06" x="226" y="476" w="111" h="66" oX="1" oY="8" oW="128" oH="76">
+    <vertices>112 44 70 72 16 74 1 31 5 23 95 8</vertices>
+    <verticesUV>337 512 295 540 241 542 226 499 230 491 320 476</verticesUV>
+    <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectB_01" x="0" y="139" w="36" h="27" oX="0" oY="0" oW="36" oH="28">
+    <vertices>33 2 36 15 31 27 0 26 0 4 4 0</vertices>
+    <verticesUV>33 141 36 154 31 166 0 165 0 143 4 139</verticesUV>
+    <triangles>3 4 5 2 3 5 1 2 5 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectB_02" x="475" y="33" w="35" h="27" oX="0" oY="1" oW="36" oH="28">
+    <vertices>35 28 0 28 0 1 35 1</vertices>
+    <verticesUV>510 60 475 60 475 33 510 33</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectB_03" x="0" y="0" w="36" h="26" oX="0" oY="0" oW="36" oH="28">
+    <vertices>36 15 29 26 0 26 0 0 32 0</vertices>
+    <verticesUV>36 15 29 26 0 26 0 0 32 0</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectB_04" x="234" y="612" w="35" h="25" oX="0" oY="1" oW="36" oH="28">
+    <vertices>35 26 0 26 0 1 35 1</vertices>
+    <verticesUV>269 637 234 637 234 612 269 612</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectB_05" x="476" y="716" w="35" h="24" oX="0" oY="2" oW="36" oH="28">
+    <vertices>35 26 0 26 0 2 35 2</vertices>
+    <verticesUV>511 740 476 740 476 716 511 716</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectB_06" x="205" y="746" w="36" h="27" oX="0" oY="1" oW="36" oH="28">
+    <vertices>36 10 36 22 10 28 2 25 0 24 0 2 33 1</vertices>
+    <verticesUV>241 755 241 767 215 773 207 770 205 769 205 747 238 746</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 0 1 2 0 2 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectC_01" x="386" y="773" w="45" h="38" oX="0" oY="0" oW="96" oH="40">
+    <vertices>45 22 20 38 4 27 0 14 2 3 10 0 34 0</vertices>
+    <verticesUV>431 795 406 811 390 800 386 787 388 776 396 773 420 773</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectC_02" x="442" y="509" w="40" h="33" oX="18" oY="4" oW="96" oH="40">
+    <vertices>58 37 18 37 18 4 58 4</vertices>
+    <verticesUV>482 542 442 542 442 509 482 509</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectC_03" x="447" y="544" w="38" h="36" oX="39" oY="3" oW="96" oH="40">
+    <vertices>77 39 39 39 39 3 77 3</vertices>
+    <verticesUV>485 580 447 580 447 544 485 544</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectC_04" x="477" y="459" w="32" h="30" oX="54" oY="0" oW="96" oH="40">
+    <vertices>86 30 54 30 54 0 86 0</vertices>
+    <verticesUV>509 489 477 489 477 459 509 459</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectC_05" x="353" y="289" w="23" h="23" oX="65" oY="2" oW="96" oH="40">
+    <vertices>88 25 65 25 65 2 88 2</vertices>
+    <verticesUV>376 312 353 312 353 289 376 289</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_body_effectC_06" x="398" y="969" w="17" h="17" oX="78" oY="4" oW="96" oH="40">
+    <vertices>95 21 78 21 78 4 95 4</vertices>
+    <verticesUV>415 986 398 986 398 969 415 969</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectA" x="399" y="605" w="56" h="56">
+    <vertices>56 51 36 56 0 56 0 0 56 0</vertices>
+    <verticesUV>455 656 435 661 399 661 399 605 455 605</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectB" x="429" y="745" w="40" h="40">
+    <vertices>40 40 0 40 0 9 9 0 40 0</vertices>
+    <verticesUV>469 785 429 785 429 754 438 745 469 745</verticesUV>
+    <triangles>0 3 4 0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectC_01" x="420" y="588" w="33" h="15" oX="8" oY="8" oW="108" oH="33">
+    <vertices>41 23 8 23 8 8 41 8</vertices>
+    <verticesUV>453 603 420 603 420 588 453 588</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectC_02" x="203" y="623" w="29" h="21" oX="10" oY="3" oW="108" oH="33">
+    <vertices>39 24 10 24 10 3 39 3</vertices>
+    <verticesUV>232 644 203 644 203 623 232 623</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectC_03" x="339" y="315" w="47" h="32" oX="0" oY="0" oW="108" oH="33">
+    <vertices>47 24 19 32 5 30 0 28 0 14 14 4 35 0</vertices>
+    <verticesUV>386 339 358 347 344 345 339 343 339 329 353 319 374 315</verticesUV>
+    <triangles>1 5 6 4 2 3 4 5 2 1 2 5 0 1 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectC_04" x="32" y="695" w="84" h="28" oX="0" oY="4" oW="108" oH="33">
+    <vertices>36 28 14 32 4 30 0 26 0 4 84 4</vertices>
+    <verticesUV>68 719 46 723 36 721 32 717 32 695 116 695</verticesUV>
+    <triangles>0 4 5 3 4 1 3 1 2 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectC_05" x="172" y="904" w="105" h="32" oX="2" oY="1" oW="108" oH="33">
+    <vertices>107 22 69 18 8 33 2 27 2 12 107 1</vertices>
+    <verticesUV>277 925 239 921 178 936 172 930 172 915 277 904</verticesUV>
+    <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectC_06" x="171" y="171" w="72" h="14" oX="35" oY="7" oW="108" oH="33">
+    <vertices>107 21 35 21 35 7 107 7</vertices>
+    <verticesUV>243 185 171 185 171 171 243 171</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectD_01" x="231" y="0" w="100" h="16" oX="0" oY="9" oW="107" oH="28">
+    <vertices>100 13 73 24 37 25 0 18 0 9</vertices>
+    <verticesUV>331 4 304 15 268 16 231 9 231 0</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectD_02" x="164" y="644" w="105" h="25" oX="1" oY="1" oW="107" oH="28">
+    <vertices>106 26 1 24 1 9 39 13 88 1 106 1</vertices>
+    <verticesUV>269 669 164 667 164 652 202 656 251 644 269 644</verticesUV>
+    <triangles>0 4 5 1 2 3 0 3 4 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectD_03" x="179" y="142" w="96" h="27" oX="11" oY="0" oW="107" oH="28">
+    <vertices>107 27 11 27 83 1 89 0 107 0</vertices>
+    <verticesUV>275 169 179 169 251 143 257 142 275 142</verticesUV>
+    <triangles>0 3 4 0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectD_04" x="301" y="408" w="39" h="28" oX="68" oY="0" oW="107" oH="28">
+    <vertices>107 28 70 28 68 5 86 0 107 0</vertices>
+    <verticesUV>340 436 303 436 301 413 319 408 340 408</verticesUV>
+    <triangles>0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectD_05" x="288" y="23" w="29" h="21" oX="69" oY="7" oW="107" oH="28">
+    <vertices>98 28 69 28 69 7 98 7</vertices>
+    <verticesUV>317 44 288 44 288 23 317 23</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_effectD_06" x="79" y="716" w="32" h="15" oX="68" oY="8" oW="107" oH="28">
+    <vertices>100 23 68 23 68 8 100 8</vertices>
+    <verticesUV>111 731 79 731 79 716 111 716</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyeball_a" x="337" y="606" w="60" h="60">
+    <vertices>60 60 0 60 0 20 15 2 23 0 60 0</vertices>
+    <verticesUV>397 666 337 666 337 626 352 608 360 606 397 606</verticesUV>
+    <triangles>0 4 5 2 3 4 0 2 4 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyeball_b" x="399" y="663" w="62" h="48" oX="2" oY="0" oW="64" oH="48">
+    <vertices>64 17 64 48 2 48 2 3 38 0</vertices>
+    <verticesUV>461 680 461 711 399 711 399 666 435 663</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyeball_c" x="417" y="939" w="47" h="48" oX="0" oY="0" oW="48" oH="48">
+    <vertices>47 36 32 48 2 48 0 18 10 0 47 0</vertices>
+    <verticesUV>464 975 449 987 419 987 417 957 427 939 464 939</verticesUV>
+    <triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_a_01" x="228" y="925" w="59" h="57" oX="1" oY="1" oW="60" oH="60">
+    <vertices>49 3 60 30 44 58 12 53 1 25 17 1</vertices>
+    <verticesUV>276 927 287 954 271 982 239 977 228 949 244 925</verticesUV>
+    <triangles>3 1 2 3 4 1 1 4 5 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_a_02" x="116" y="966" w="59" h="58" oX="1" oY="0" oW="60" oH="60">
+    <vertices>60 30 44 58 12 53 1 25 14 4 47 0</vertices>
+    <verticesUV>175 996 159 1024 127 1019 116 991 129 970 162 966</verticesUV>
+    <triangles>0 4 5 3 0 2 3 4 0 2 0 1</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_a_03" x="172" y="933" w="59" h="58" oX="1" oY="0" oW="60" oH="60">
+    <vertices>60 30 44 58 12 53 1 25 14 4 47 0</vertices>
+    <verticesUV>231 963 215 991 183 986 172 958 185 937 218 933</verticesUV>
+    <triangles>0 4 5 3 0 2 3 4 0 2 0 1</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_a_04" x="425" y="189" w="59" h="58" oX="1" oY="0" oW="60" oH="60">
+    <vertices>60 30 44 58 12 53 1 25 14 4 47 0</vertices>
+    <verticesUV>484 219 468 247 436 242 425 214 438 193 471 189</verticesUV>
+    <triangles>0 4 5 3 0 2 3 4 0 2 0 1</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_b_01" x="387" y="813" w="52" h="42" oX="7" oY="6" oW="64" oH="48">
+    <vertices>59 9 59 48 7 48 7 6</vertices>
+    <verticesUV>439 816 439 855 387 855 387 813</verticesUV>
+    <triangles>0 1 2 0 2 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_b_02" x="285" y="844" w="60" h="48" oX="3" oY="0" oW="64" oH="48">
+    <vertices>44 1 63 22 53 48 17 48 3 21 15 0</vertices>
+    <verticesUV>326 845 345 866 335 892 299 892 285 865 297 844</verticesUV>
+    <triangles>0 3 4 0 1 2 0 2 3 0 4 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_b_03" x="279" y="894" w="58" h="48" oX="2" oY="0" oW="64" oH="48">
+    <vertices>60 48 17 48 2 18 16 2 30 0 60 0</vertices>
+    <verticesUV>337 942 294 942 279 912 293 896 307 894 337 894</verticesUV>
+    <triangles>0 4 5 1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_b_04" x="284" y="944" w="57" h="48" oX="3" oY="0" oW="64" oH="48">
+    <vertices>60 48 17 48 3 20 14 4 27 0 60 0</vertices>
+    <verticesUV>341 992 298 992 284 964 295 948 308 944 341 944</verticesUV>
+    <triangles>0 4 5 2 4 1 2 3 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_c_01" x="341" y="789" w="43" h="48" oX="8" oY="0" oW="52" oH="48">
+    <vertices>51 48 11 48 11 38 34 31 8 0 51 0</vertices>
+    <verticesUV>384 837 344 837 344 827 367 820 341 789 384 789</verticesUV>
+    <triangles>3 4 5 1 2 3 0 1 3 5 0 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_c_02" x="449" y="889" w="48" h="48" oX="4" oY="0" oW="52" oH="48">
+    <vertices>52 48 4 48 4 0 52 0</vertices>
+    <verticesUV>497 937 449 937 449 889 497 889</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_c_03" x="396" y="889" w="51" h="48" oX="1" oY="0" oW="52" oH="48">
+    <vertices>52 48 1 48 1 0 52 0</vertices>
+    <verticesUV>447 937 396 937 396 889 447 889</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_eyelid_c_04" x="343" y="969" w="52" h="48">
+    <vertices>52 34 38 48 0 48 0 0 50 0</vertices>
+    <verticesUV>395 1003 381 1017 343 1017 343 969 393 969</verticesUV>
+    <triangles>0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_foot_back" x="243" y="672" w="71" h="56" oX="1" oY="0" oW="72" oH="56">
+    <vertices>72 21 72 56 1 56 1 0 51 0</vertices>
+    <verticesUV>314 693 314 728 243 728 243 672 293 672</verticesUV>
+    <triangles>2 3 4 0 1 2 0 2 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_foot_left" x="339" y="889" w="55" h="48" oX="1" oY="0" oW="57" oH="48">
+    <vertices>56 48 1 48 1 0 56 0</vertices>
+    <verticesUV>394 937 339 937 339 889 394 889</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_foot_right" x="271" y="604" w="64" h="56" oX="0" oY="2" oW="64" oH="60">
+    <vertices>64 58 0 58 0 2 64 2</vertices>
+    <verticesUV>335 660 271 660 271 604 335 604</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_01" x="168" y="197" w="183" h="173" oX="0" oY="0" oW="184" oH="176">
+    <vertices>183 22 183 119 138 148 54 173 29 171 8 134 0 97 63 2 123 0</vertices>
+    <verticesUV>351 219 351 316 306 345 222 370 197 368 176 331 168 294 231 199 291 197</verticesUV>
+    <triangles>2 7 8 2 6 7 3 6 2 3 4 5 3 5 6 1 2 8 0 1 8</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_02" x="0" y="154" w="206" h="160" oX="2" oY="0" oW="209" oH="161">
+    <vertices>92 3 122 31 159 35 208 61 208 78 120 155 91 160 80 158 33 78 2 57 3 29 62 0</vertices>
+    <verticesUV>90 157 120 185 157 189 206 215 206 232 118 309 89 314 78 312 31 232 0 211 1 183 60 154</verticesUV>
+    <triangles>8 10 11 8 9 10 5 6 7 5 7 8 5 1 2 1 5 8 2 3 4 5 2 4 0 1 8 0 8 11</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectA_01" x="0" y="846" w="119" h="48" oX="0" oY="2" oW="120" oH="52">
+    <vertices>119 25 119 38 62 50 5 50 0 29 15 2</vertices>
+    <verticesUV>119 869 119 882 62 894 5 894 0 873 15 846</verticesUV>
+    <triangles>2 4 5 2 3 4 0 1 2 0 2 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectA_02" x="95" y="723" w="108" h="52" oX="2" oY="0" oW="120" oH="52">
+    <vertices>110 23 98 52 30 52 8 42 2 29 29 0 59 0</vertices>
+    <verticesUV>203 746 191 775 123 775 101 765 95 752 122 723 152 723</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectA_03" x="139" y="855" w="98" h="51" oX="2" oY="0" oW="120" oH="52">
+    <vertices>100 2 100 51 19 49 2 32 12 13 72 0</vertices>
+    <verticesUV>237 857 237 906 156 904 139 887 149 868 209 855</verticesUV>
+    <triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectA_04" x="105" y="777" w="119" h="39" oX="0" oY="11" oW="120" oH="52">
+    <vertices>119 44 45 50 2 47 0 24 21 11 109 11</vertices>
+    <verticesUV>224 810 150 816 107 813 105 790 126 777 214 777</verticesUV>
+    <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectA_05" x="0" y="963" w="114" h="39" oX="0" oY="10" oW="120" oH="52">
+    <vertices>8 19 114 19 114 49 0 49 0 10 5 10</vertices>
+    <verticesUV>8 972 114 972 114 1002 0 1002 0 963 5 963</verticesUV>
+    <triangles>0 4 5 0 1 2 0 2 3 0 3 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectA_06" x="110" y="819" w="118" h="34" oX="2" oY="15" oW="120" oH="52">
+    <vertices>120 49 2 49 2 15 120 15</vertices>
+    <verticesUV>228 853 110 853 110 819 228 819</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectB_01" x="344" y="403" w="131" h="59" oX="0" oY="1" oW="140" oH="60">
+    <vertices>108 26 131 26 131 60 101 34 75 59 24 59 0 27 0 20 6 1</vertices>
+    <verticesUV>452 428 475 428 475 462 445 436 419 461 368 461 344 429 344 422 350 403</verticesUV>
+    <triangles>5 7 8 5 6 7 4 5 8 3 4 8 0 1 2 0 2 3 8 0 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectB_02" x="0" y="440" w="136" h="59" oX="0" oY="1" oW="140" oH="60">
+    <vertices>94 21 94 42 46 60 21 56 0 25 28 1 45 1 136 40 120 40 120 24 136 24</vertices>
+    <verticesUV>94 460 94 481 46 499 21 495 0 464 28 440 45 440 136 479 120 479 120 463 136 463</verticesUV>
+    <triangles>3 5 6 3 4 5 2 3 6 0 1 2 0 2 6 8 9 10 7 8 10</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectB_03" x="0" y="378" w="138" h="60" oX="2" oY="0" oW="140" oH="60">
+    <vertices>103 31 74 60 33 60 2 31 2 27 31 0 54 0 140 43 119 22 140 18</vertices>
+    <verticesUV>101 409 72 438 31 438 0 409 0 405 29 378 52 378 138 421 117 400 138 396</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6 7 8 9</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectB_04" x="323" y="463" w="118" h="58" oX="4" oY="2" oW="140" oH="60">
+    <vertices>122 41 65 60 25 55 4 16 65 2</vertices>
+    <verticesUV>441 502 384 521 344 516 323 477 384 463</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectB_05" x="397" y="372" w="110" h="48" oX="4" oY="7" oW="140" oH="60">
+    <vertices>114 26 114 46 70 55 23 52 4 24 27 13 73 7</vertices>
+    <verticesUV>507 391 507 411 463 420 416 417 397 389 420 378 466 372</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 0 1 2 0 2 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectB_06" x="116" y="525" w="122" h="56" oX="2" oY="3" oW="140" oH="60">
+    <vertices>124 20 124 50 30 59 2 29 28 3</vertices>
+    <verticesUV>238 542 238 572 144 581 116 551 142 525</verticesUV>
+    <triangles>2 3 4 0 1 2 0 2 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectC_01" x="220" y="987" w="73" h="30" oX="0" oY="3" oW="92" oH="36">
+    <vertices>73 33 0 33 0 3 73 3</vertices>
+    <verticesUV>293 1017 220 1017 220 987 293 987</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectC_02" x="156" y="450" w="80" h="30" oX="0" oY="1" oW="92" oH="36">
+    <vertices>80 10 80 31 0 31 0 1</vertices>
+    <verticesUV>236 459 236 480 156 480 156 450</verticesUV>
+    <triangles>0 1 2 0 2 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectC_03" x="316" y="714" w="84" h="33" oX="0" oY="3" oW="92" oH="36">
+    <vertices>84 36 9 36 0 27 0 3 84 3</vertices>
+    <verticesUV>400 747 325 747 316 738 316 714 400 714</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectC_04" x="422" y="0" w="86" h="33" oX="0" oY="1" oW="92" oH="36">
+    <vertices>86 5 86 27 37 34 0 26 0 3 2 1</vertices>
+    <verticesUV>508 4 508 26 459 33 422 25 422 2 424 0</verticesUV>
+    <triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectC_05" x="354" y="568" w="91" h="35" oX="0" oY="0" oW="92" oH="36">
+    <vertices>64 31 42 35 0 26 0 1 64 1 91 10 81 10 81 0 91 0</vertices>
+    <verticesUV>418 599 396 603 354 594 354 569 418 569 445 578 435 578 435 568 445 568</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4 6 7 8 5 6 8</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectC_06" x="408" y="857" w="67" h="30" oX="0" oY="1" oW="92" oH="36">
+    <vertices>67 31 0 31 0 1 67 1</vertices>
+    <verticesUV>475 887 408 887 408 857 475 857</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_01" x="0" y="719" w="103" h="73" oX="0" oY="1" oW="108" oH="76">
+    <vertices>83 19 103 55 103 74 0 57 0 14 13 1</vertices>
+    <verticesUV>83 737 103 773 103 792 0 775 0 732 13 719</verticesUV>
+    <triangles>3 4 5 3 0 1 3 1 2 0 3 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_02" x="0" y="781" w="108" h="63" oX="0" oY="6" oW="108" oH="76">
+    <vertices>108 42 108 69 0 69 0 8 20 6</vertices>
+    <verticesUV>108 817 108 844 0 844 0 783 20 781</verticesUV>
+    <triangles>2 3 4 0 1 2 0 2 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_03" x="62" y="551" w="108" h="73" oX="0" oY="1" oW="108" oH="76">
+    <vertices>50 2 108 60 27 74 0 47 0 10 14 1</vertices>
+    <verticesUV>112 552 170 610 89 624 62 597 62 560 76 551</verticesUV>
+    <triangles>3 4 5 0 2 3 0 1 2 0 3 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_04" x="89" y="891" w="81" h="74" oX="0" oY="1" oW="108" oH="76">
+    <vertices>81 23 81 75 0 63 0 1 34 1</vertices>
+    <verticesUV>170 913 170 965 89 953 89 891 123 891</verticesUV>
+    <triangles>2 3 4 0 1 2 0 2 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_05" x="160" y="671" w="81" h="73" oX="0" oY="1" oW="108" oH="76">
+    <vertices>81 61 45 74 0 51 0 1 81 1</vertices>
+    <verticesUV>241 731 205 744 160 721 160 671 241 671</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_06" x="0" y="896" w="87" h="73" oX="0" oY="3" oW="108" oH="76">
+    <vertices>87 62 65 76 38 75 3 52 0 46 0 3 87 3</vertices>
+    <verticesUV>87 955 65 969 38 968 3 945 0 939 0 896 87 896</verticesUV>
+    <triangles>4 5 6 2 4 6 2 3 4 0 2 6 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectD_07" x="61" y="626" w="103" h="74" oX="0" oY="2" oW="108" oH="76">
+    <vertices>103 17 90 76 0 57 0 13 30 2</vertices>
+    <verticesUV>164 641 151 700 61 681 61 637 91 626</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectE_01" x="285" y="807" w="73" h="35" oX="0" oY="12" oW="76" oH="48">
+    <vertices>73 19 26 47 0 46 0 12 66 12</vertices>
+    <verticesUV>358 814 311 842 285 841 285 807 351 807</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectE_02" x="320" y="749" w="74" h="38" oX="0" oY="6" oW="76" oH="48">
+    <vertices>74 19 45 44 0 44 0 6 61 6</vertices>
+    <verticesUV>394 762 365 787 320 787 320 749 381 749</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectE_03" x="175" y="577" w="75" h="48" oX="0" oY="0" oW="76" oH="48">
+    <vertices>75 14 75 27 16 48 0 39 0 7 37 0</vertices>
+    <verticesUV>250 591 250 604 191 625 175 616 175 584 212 577</verticesUV>
+    <triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectE_04" x="243" y="730" w="74" h="48" oX="0" oY="0" oW="76" oH="48">
+    <vertices>74 32 35 47 30 48 0 48 0 0 64 0</vertices>
+    <verticesUV>317 762 278 777 273 778 243 778 243 730 307 730</verticesUV>
+    <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectE_05" x="316" y="667" w="75" h="43" oX="0" oY="5" oW="76" oH="48">
+    <vertices>60 8 75 21 66 40 38 48 14 45 0 42 0 5</vertices>
+    <verticesUV>376 670 391 683 382 702 354 710 330 707 316 704 316 667</verticesUV>
+    <triangles>4 5 6 0 3 4 0 1 2 0 2 3 0 4 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectE_06" x="402" y="713" w="71" h="37" oX="0" oY="11" oW="76" oH="48">
+    <vertices>71 19 64 33 9 48 0 48 0 16 50 11</vertices>
+    <verticesUV>473 721 466 735 411 750 402 750 402 718 452 713</verticesUV>
+    <triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectF_01" x="139" y="169" w="146" h="23" oX="1" oY="11" oW="160" oH="48">
+    <vertices>147 34 107 34 107 13 147 13 16 27 1 27 1 11 16 11</vertices>
+    <verticesUV>285 192 245 192 245 171 285 171 154 185 139 185 139 169 154 169</verticesUV>
+    <triangles>1 2 3 0 1 3 5 6 7 4 5 7</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectF_02" x="0" y="692" w="155" h="29" oX="3" oY="5" oW="160" oH="48">
+    <vertices>158 34 118 34 118 16 158 16 33 30 3 30 3 5 33 5</vertices>
+    <verticesUV>155 721 115 721 115 703 155 703 30 717 0 717 0 692 30 692</verticesUV>
+    <triangles>1 2 3 0 1 3 5 6 7 4 5 7</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectF_03" x="90" y="423" w="143" h="29" oX="15" oY="1" oW="160" oH="48">
+    <vertices>158 30 138 30 138 13 158 13 47 24 15 24 15 1 47 1</vertices>
+    <verticesUV>233 452 213 452 213 435 233 435 122 446 90 446 90 423 122 423</verticesUV>
+    <triangles>1 2 3 0 1 3 5 6 7 4 5 7</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectF_04" x="463" y="679" w="44" h="35" oX="36" oY="4" oW="160" oH="48">
+    <vertices>80 39 36 39 36 4 80 4</vertices>
+    <verticesUV>507 714 463 714 463 679 507 679</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectF_05" x="223" y="782" w="83" h="37" oX="49" oY="11" oW="160" oH="48">
+    <vertices>132 25 75 48 53 44 49 16 103 11</vertices>
+    <verticesUV>306 796 249 819 227 815 223 787 277 782</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_head_effectF_06" x="347" y="849" w="59" h="38" oX="76" oY="1" oW="160" oH="48">
+    <vertices>135 20 135 38 80 39 76 14 101 1</vertices>
+    <verticesUV>406 868 406 886 351 887 347 862 372 849</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_iris" x="241" y="367" w="19" h="18" oX="1" oY="1" oW="21" oH="20">
+    <vertices>20 19 1 19 1 1 20 1</vertices>
+    <verticesUV>260 385 241 385 241 367 260 367</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_leg_left_01" x="239" y="821" w="44" h="80">
+    <vertices>44 80 0 80 0 0 44 0</vertices>
+    <verticesUV>283 901 239 901 239 821 283 821</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_leg_left_02" x="441" y="795" w="30" h="60">
+    <vertices>30 60 0 60 0 0 30 0</vertices>
+    <verticesUV>471 855 441 855 441 795 471 795</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_leg_right_01" x="0" y="562" w="59" h="128">
+    <vertices>59 128 17 128 0 40 0 0 59 0</vertices>
+    <verticesUV>59 690 17 690 0 602 0 562 59 562</verticesUV>
+    <triangles>2 3 4 0 2 4 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_leg_right_02" x="0" y="247" w="36" h="83" oX="0" oY="1" oW="36" oH="84">
+    <vertices>36 84 0 84 0 1 36 1</vertices>
+    <verticesUV>36 330 0 330 0 247 36 247</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_mouth_01" x="0" y="318" w="167" h="63" oX="1" oY="0" oW="168" oH="63">
+    <vertices>168 17 154 63 121 63 1 53 1 39 60 0 168 0</vertices>
+    <verticesUV>167 335 153 381 120 381 0 371 0 357 59 318 167 318</verticesUV>
+    <triangles>0 5 6 3 4 5 2 3 5 0 2 5 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_mouth_02" x="84" y="482" w="140" h="45" oX="0" oY="3" oW="140" oH="48">
+    <vertices>140 19 131 48 102 48 2 28 0 8 15 3 133 3</vertices>
+    <verticesUV>224 498 215 527 186 527 86 507 84 487 99 482 217 482</verticesUV>
+    <triangles>2 5 6 3 4 5 2 3 5 0 2 6 0 1 2</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_mouth_03" x="314" y="526" w="126" h="40" oX="0" oY="0" oW="128" oH="40">
+    <vertices>126 7 126 39 76 40 23 29 0 6 6 0</vertices>
+    <verticesUV>440 533 440 565 390 566 337 555 314 532 320 526</verticesUV>
+    <triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_shadow" x="0" y="0" w="301" h="162" oX="14" oY="2" oW="338" oH="164">
+    <vertices>276 20 315 71 298 132 215 159 126 164 27 131 14 68 48 28 105 5 194 2</vertices>
+    <verticesUV>262 18 301 69 284 130 201 157 112 162 13 129 0 66 34 26 91 3 180 0</verticesUV>
+    <triangles>4 8 9 4 7 8 5 6 7 4 5 7 3 4 9 0 1 2 0 2 3 0 3 9</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeA_back_01" x="178" y="996" w="40" h="28">
+    <vertices>40 28 0 28 0 0 40 0</vertices>
+    <verticesUV>218 1024 178 1024 178 996 218 996</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeA_back_02" x="455" y="250" w="44" h="28">
+    <vertices>44 28 0 28 0 0 44 0</vertices>
+    <verticesUV>499 278 455 278 455 250 499 250</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeA_left_01" x="487" y="540" w="25" h="40">
+    <vertices>25 40 0 40 0 0 25 0</vertices>
+    <verticesUV>512 580 487 580 487 540 512 540</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeA_left_02" x="486" y="62" w="24" h="35" oX="0" oY="1" oW="24" oH="36">
+    <vertices>24 36 0 36 0 1 24 1</vertices>
+    <verticesUV>510 97 486 97 486 62 510 62</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeA_right_01" x="477" y="837" w="32" h="50">
+    <vertices>32 50 0 50 0 0 32 0</vertices>
+    <verticesUV>509 887 477 887 477 837 509 837</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeA_right_02" x="471" y="745" w="32" h="44">
+    <vertices>32 41 19 44 6 42 0 21 0 0 32 0</vertices>
+    <verticesUV>503 786 490 789 477 787 471 766 471 745 503 745</verticesUV>
+    <triangles>3 4 5 0 3 5 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeB_back_01" x="457" y="582" w="46" h="30">
+    <vertices>46 29 21 30 0 30 0 13 6 1 10 0 46 0</vertices>
+    <verticesUV>503 611 478 612 457 612 457 595 463 583 467 582 503 582</verticesUV>
+    <triangles>1 5 6 3 4 5 1 3 5 1 2 3 0 1 6</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeB_back_02" x="421" y="462" w="48" h="30">
+    <vertices>48 30 10 30 1 24 0 20 0 0 48 0</vertices>
+    <verticesUV>469 492 431 492 422 486 421 482 421 462 469 462</verticesUV>
+    <triangles>1 4 5 1 3 4 1 2 3 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeB_left_01" x="398" y="989" w="53" h="28">
+    <vertices>53 28 0 28 0 0 53 0</vertices>
+    <verticesUV>451 1017 398 1017 398 989 451 989</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeB_left_02" x="457" y="614" w="48" h="30">
+    <vertices>48 30 0 30 0 0 48 0</vertices>
+    <verticesUV>505 644 457 644 457 614 505 614</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeB_right_01" x="466" y="939" w="32" h="52">
+    <vertices>32 52 16 52 4 44 0 35 0 0 32 0</vertices>
+    <verticesUV>498 991 482 991 470 983 466 974 466 939 498 939</verticesUV>
+    <triangles>3 4 5 0 3 5 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeB_right_02" x="473" y="791" w="32" h="44">
+    <vertices>32 44 0 44 0 0 32 0</vertices>
+    <verticesUV>505 835 473 835 473 791 505 791</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeC_back_01" x="465" y="326" w="32" h="24">
+    <vertices>32 24 0 24 0 3 1 1 3 0 32 0</vertices>
+    <verticesUV>497 350 465 350 465 329 466 327 468 326 497 326</verticesUV>
+    <triangles>0 4 5 2 3 4 1 4 0 1 2 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeC_back_02" x="297" y="994" w="44" h="28">
+    <vertices>44 28 0 28 0 5 6 1 18 0 44 0</vertices>
+    <verticesUV>341 1022 297 1022 297 999 303 995 315 994 341 994</verticesUV>
+    <triangles>0 4 5 1 4 0 1 2 3 1 3 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeC_left_01" x="457" y="646" w="50" h="28">
+    <vertices>50 28 0 28 0 0 50 0</vertices>
+    <verticesUV>507 674 457 674 457 646 507 646</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeC_left_02" x="453" y="993" w="48" h="28">
+    <vertices>48 28 23 28 5 24 0 17 0 0 48 0</vertices>
+    <verticesUV>501 1021 476 1021 458 1017 453 1010 453 993 501 993</verticesUV>
+    <triangles>1 4 5 3 4 1 3 1 2 0 1 5</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeC_right_01" x="465" y="280" w="26" h="44">
+    <vertices>26 44 0 44 0 0 26 0</vertices>
+    <verticesUV>491 324 465 324 465 280 491 280</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_toeC_right_02" x="478" y="419" w="28" h="38">
+    <vertices>28 35 17 38 0 38 0 0 28 0</vertices>
+    <verticesUV>506 454 495 457 478 457 478 419 506 419</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="ABCDE_EPIC_tongue" x="343" y="939" w="72" h="28">
+    <vertices>72 28 0 28 0 0 72 0</vertices>
+    <verticesUV>415 967 343 967 343 939 415 939</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+</TextureAtlas>

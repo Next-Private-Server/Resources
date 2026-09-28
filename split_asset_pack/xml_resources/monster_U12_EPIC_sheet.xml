@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7dd60f256c0b2a61e514bed319d79910:e0117ff2eb3e56c7dec1921e0e1775aa:3e2832889a24b2304a394378add748ae$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U12_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="bottle" x="0" y="0" w="241" h="111" oX="6" oY="1" oW="120" oH="244" r="y"/>
+	<sprite n="bubble" x="221" y="168" w="17" h="17"/>
+	<sprite n="cupboard divider" x="478" y="40" w="31" h="110" r="y"/>
+	<sprite n="cupboard" x="0" y="604" w="166" h="88" oX="2" oY="0" oW="168" oH="88"/>
+	<sprite n="Epic Eyeball" x="486" y="667" w="26" h="27" oX="0" oY="0" oW="26" oH="28"/>
+	<sprite n="Epic Foot BG" x="455" y="495" w="31" h="60" oX="4" oY="46" oW="66" oH="78" r="y"/>
+	<sprite n="Epic Foot FG" x="221" y="113" w="20" h="53" oX="7" oY="50" oW="66" oH="78" r="y"/>
+	<sprite n="Epic Foot" x="389" y="494" w="64" h="63" oX="1" oY="1" oW="66" oH="78"/>
+	<sprite n="Epic Glass" x="243" y="99" w="220" h="111" oX="6" oY="22" oW="120" oH="244" r="y"/>
+	<sprite n="epic glow" x="0" y="113" w="219" h="109" oX="6" oY="23" oW="120" oH="244" r="y"/>
+	<sprite n="Epic Hand glass" x="68" y="694" w="42" h="40" oX="10" oY="58" oW="66" oH="142"/>
+	<sprite n="Epic Hand glow" x="356" y="755" w="92" h="41" oX="8" oY="4" oW="66" oH="142" r="y"/>
+	<sprite n="Epic Hand" x="0" y="694" w="66" h="63" oX="0" oY="79" oW="66" oH="142"/>
+	<sprite n="Epic Lower Leg" x="455" y="264" w="56" h="102"/>
+	<sprite n="Epic Right Upper Leg" x="455" y="368" w="49" h="125" oX="1" oY="1" oW="50" oH="128"/>
+	<sprite n="Epic Torso back" x="239" y="212" w="214" h="182" oX="0" oY="21" oW="214" oH="204"/>
+	<sprite n="Epic Torso front" x="0" y="224" w="214" h="204"/>
+	<sprite n="Epic Upper Leg" x="389" y="559" w="122" h="44" oX="3" oY="0" oW="50" oH="128" r="y"/>
+	<sprite n="Epic Water Surface" x="356" y="711" w="105" h="42" oX="5" oY="4" oW="116" oH="50"/>
+	<sprite n="finger 1" x="192" y="724" w="37" h="30" oX="2" oY="2" oW="34" oH="40" r="y"/>
+	<sprite n="finger 2" x="112" y="694" w="40" h="28" r="y"/>
+	<sprite n="finger 3" x="478" y="0" w="34" h="38"/>
+	<sprite n="foot pupils" x="216" y="327" w="16" h="15" oX="2" oY="2" oW="20" oH="20"/>
+	<sprite n="front cupboard 2" x="168" y="675" w="109" h="47" oX="0" oY="0" oW="110" oH="50"/>
+	<sprite n="front cupboard 3" x="465" y="152" w="47" h="110" oX="0" oY="0" oW="110" oH="50" r="y"/>
+	<sprite n="L flap" x="450" y="783" w="58" h="36"/>
+	<sprite n="Left Ear" x="216" y="253" w="21" h="72"/>
+	<sprite n="Left Upper Arm" x="279" y="675" w="75" h="95" oX="17" oY="14" oW="130" oH="104" r="y"/>
+	<sprite n="nose 1" x="153" y="724" w="37" h="31" oX="2" oY="3" oW="40" oH="40"/>
+	<sprite n="nose 2" x="0" y="759" w="38" h="29" oX="1" oY="4" oW="40" oH="40"/>
+	<sprite n="nose 3" x="112" y="724" w="39" h="37" oX="0" oY="3" oW="40" oH="40"/>
+	<sprite n="nose 4" x="68" y="736" w="38" h="36" oX="0" oY="0" oW="40" oH="40"/>
+	<sprite n="R flap" x="486" y="605" w="26" h="60" r="y"/>
+	<sprite n="Right Ear" x="463" y="711" w="44" h="70"/>
+	<sprite n="Right Upper Arm" x="368" y="605" w="116" h="104" oX="3" oY="0" oW="110" oH="116" r="y"/>
+	<sprite n="Shadow" x="243" y="0" w="233" h="97" oX="2" oY="1" oW="236" oH="98"/>
+	<sprite n="shelf back" x="0" y="430" w="195" h="172" oX="0" oY="0" oW="230" oH="240" r="y"/>
+	<sprite n="shelf front" x="216" y="396" w="214" h="96" oX="134" oY="22" oW="230" oH="240" r="y"/>
+	<sprite n="shoulder cover" x="221" y="187" w="16" h="64"/>
+	<sprite n="U12_glow_02" x="197" y="494" w="190" h="88" oX="5" oY="5" oW="98" oH="200" r="y"/>
+	<sprite n="U12_glow_03" x="197" y="584" w="169" h="89" r="y"/>
+</TextureAtlas>

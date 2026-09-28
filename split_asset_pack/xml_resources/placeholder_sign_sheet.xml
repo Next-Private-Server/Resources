@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8f1fe18858d2094e230c3ead3f14386d:582e7c5f8ad14e0185b328b4c319831b:fd89ff330015bbf9c9dffa3c20a7e130$ -->
+<TextureAtlas imagePath="gfx/placeholder_sign_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="attunement" x="254" y="515" w="140" h="119" oX="16" oY="5" oW="150" oH="150" r="y"/>
+	<sprite n="evolve" x="320" y="253" w="145" h="122" r="y"/>
+	<sprite n="fugue" x="398" y="377" w="105" h="139"/>
+	<sprite n="placeholder_sign_1x1" x="320" y="0" w="180" h="251" oX="0" oY="0" oW="180" oH="252"/>
+	<sprite n="placeholder_sign_2x2" x="0" y="302" w="252" h="239" oX="0" oY="0" oW="240" oH="252" r="y"/>
+	<sprite n="placeholder_sign_3x3" x="0" y="0" w="318" h="300" r="y"/>
+	<sprite n="synthesizer" x="0" y="543" w="136" h="136"/>
+	<sprite n="training" x="254" y="377" w="142" h="136"/>
+</TextureAtlas>

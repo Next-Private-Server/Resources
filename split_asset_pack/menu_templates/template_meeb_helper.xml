@@ -1,0 +1,59 @@
+<template name="template_meeb_helper" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/MeebHelper.lua" />
+
+	<defaultTemplateVar name="$Layer" equals="MidPopUps"/>
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Bubble" />
+
+	<textComponent name="Text">
+		<size w="140*game.hudScale()" h="70*game.hudScale()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("font"):Set(game.getTutorialFont())
+				component:setColor(0.0, 0.0, 0.0)
+				component("size"):SetFloat(0.3*game.hudScale())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				--component("text"):SetString(game.getLocalizedText("SYNTHESIZING_DESC"))
+				component("text"):SetString(game.getLocalizedText("Default meeb helper text, Default meeb helper text, Default meeb helper text"))
+				component("layer"):SetString("$Layer")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+			]]>
+		</event>
+	</textComponent>
+	<ninesliceComponent name="Bubble">
+		<size w="160*game.hudScale()" h="80*game.hudScale()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("topHeight"):SetFloat(57.0)
+			component("bottomHeight"):SetFloat(57.0)
+			component("leftWidth"):SetFloat(57.0)
+			component("rightWidth"):SetFloat(57.0)
+			component("size"):SetFloat(0.5)
+			component("includeBorder"):SetInt(1)
+			component("spriteName"):SetString("gfx/meeb_helper/thought_bubble_9slice")
+			component("layer"):SetString("$Layer")
+		</event>
+	</ninesliceComponent>
+	<spriteComponent name="BubbleDots">
+		<position relativeTo="element:name()" component="Bubble" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="10*game.hudScale()" yOffset="-8*game.hudScale()" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("gfx/meeb_helper/thought_bubble_dots")
+			component("size"):SetFloat(0.5*game.hudScale())
+			component("layer"):SetString("$Layer")
+		</event>
+	</spriteComponent>
+	<spriteComponent name="Meeb">
+		<position relativeTo="Tutorial" component="Bubble" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="10*game.hudScale()" yOffset="-20*game.hudScale()" priorityOffset="1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("gfx/meeb_helper/helper_meeb_01")
+			component("size"):SetFloat(0.5*game.hudScale())
+			component("layer"):SetString("$Layer")
+		</event>
+	</spriteComponent>
+</template>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1f2bd2d0b21bab4e1a827d94ba8ffdb9:024af8c663229c495043f4bb2c07277f:b3a4b506c0a489386ab11f4521f57575$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island14_sheet01_perp.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island14_bottom" x="1105" y="1165" w="536" h="672"/>
+	<sprite n="island14_cloud" x="1643" y="1187" w="331" h="826" oX="13" oY="6" oW="850" oH="340" r="y"/>
+	<sprite n="island14_eye" x="1196" y="0" w="526" h="1082" r="y"/>
+	<sprite n="island14_face_front" x="0" y="0" w="1194" h="740" oX="0" oY="0" oW="1196" oH="740"/>
+	<sprite n="island14_face_side" x="0" y="742" w="934" h="580" r="y"/>
+	<sprite n="island14_scope_body" x="1724" y="0" w="286" h="585" oX="5" oY="13" oW="300" oH="610"/>
+	<sprite n="island14_scope_left_controls" x="1075" y="1839" w="126" h="133" oX="6" oY="7" oW="140" oH="140" r="y"/>
+	<sprite n="island14_scope_left_detail" x="2012" y="0" w="29" h="44" oX="3" oY="1" oW="50" oH="30" r="y"/>
+	<sprite n="island14_scope_left_handle_01" x="1975" y="587" w="42" h="118" oX="9" oY="8" oW="60" oH="130"/>
+	<sprite n="island14_scope_left_handle_02" x="1975" y="707" w="39" h="117" oX="11" oY="9" oW="60" oH="130"/>
+	<sprite n="island14_scope_left_knob" x="1105" y="1034" w="83" h="129" oX="5" oY="4" oW="140" oH="90" r="y"/>
+	<sprite n="island14_scope_left_lens" x="596" y="1904" w="124" h="129" oX="5" oY="31" oW="140" oH="180" r="y"/>
+	<sprite n="island14_scope_left_rope" x="936" y="895" w="199" h="137" oX="2" oY="1" oW="140" oH="200" r="y"/>
+	<sprite n="island14_scope_right_lens" x="936" y="1176" w="130" h="169" oX="9" oY="4" oW="140" oH="180"/>
+	<sprite n="island14_scope_right_wrap" x="936" y="1034" w="167" h="140" oX="1" oY="5" oW="170" oH="150"/>
+	<sprite n="island14_scope_top" x="1724" y="833" w="258" h="187" oX="5" oY="34" oW="488" oH="325"/>
+	<sprite n="island14_scope_top_base" x="936" y="742" w="242" h="151" oX="60" oY="172" oW="488" oH="325"/>
+	<sprite n="island14_scope_top_left_bg" x="1724" y="587" w="249" h="244" oX="230" oY="8" oW="488" oH="325"/>
+	<sprite n="island14_scope_top_right_bg" x="1724" y="1022" w="248" h="163" oX="207" oY="48" oW="488" oH="325"/>
+	<sprite n="island14_scope_wheel" x="722" y="1904" w="114" h="118" oX="118" oY="150" oW="488" oH="325" r="y"/>
+	<sprite n="mag_glass" x="596" y="1347" w="477" h="555" oX="1" oY="0" oW="480" oH="556"/>
+	<sprite n="odd_compass" x="0" y="1324" w="594" h="606" oX="1" oY="1" oW="596" oH="608"/>
+	<sprite n="rope" x="838" y="1904" w="91" h="106" oX="0" oY="0" oW="92" oH="106"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:78678119a57c32e665dbe1581200d585:eb585894dc117abcaa39866d8bdbcd9a:be315180090986b39592467bdffe6390$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCDN_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="foamhead_over" x="0" y="145" w="196" h="188" pX="0.475" pY="0.99" oX="4" oY="5" oW="200" oH="200"/>
+	<sprite n="foamhead_under" x="0" y="335" w="95" h="121" pX="0.475" pY="0.99" oX="37" oY="90" oW="200" oH="200" r="y"/>
+	<sprite n="sock_foot" x="209" y="84" w="40" h="48" pX="0.5083333333333333" pY="0.6842105263157895" oX="5" oY="8" oW="60" oH="57" r="y"/>
+	<sprite n="sock_leg" x="198" y="286" w="49" h="140" pX="0.49074074074074076" pY="0.8878205128205128" oX="4" oY="8" oW="54" oH="156"/>
+	<sprite n="sock_toe_1" x="209" y="134" w="38" h="78" pX="0.7976190476190477" pY="0.5625" oX="2" oY="5" oW="84" oH="48" r="y"/>
+	<sprite n="sock_toe_2" x="198" y="214" w="54" h="70" pX="0.7037037037037037" pY="0.10810810810810811" oX="0" oY="2" oW="54" oH="74"/>
+	<sprite n="sock_toe_3" x="209" y="0" w="47" h="82" pX="0.05952380952380952" pY="0.3958333333333333" oX="0" oY="0" oW="84" oH="48" r="y"/>
+	<sprite n="tail" x="0" y="0" w="207" h="143" pX="0.5" pY="1.5472972972972974" oX="3" oY="3" oW="216" oH="148"/>
+</TextureAtlas>

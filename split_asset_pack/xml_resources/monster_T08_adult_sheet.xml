@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:51e82ce5fa2298f3f25593e167fe9fb2:58c8686a70a36deec66d1777fe54ba38:9965533c266177d2fad44583a16fd309$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_T08_adult_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="_0000s_0001_ice_05" x="467" y="632" w="32" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="T08_Arm_L" x="476" y="83" w="32" h="75" pX="0.5" pY="0.5" oX="0" oY="0" oW="32" oH="76"/>
+    <sprite n="T08_Arm_R" x="254" y="367" w="32" h="74" pX="0.5" pY="0.5"/>
+    <sprite n="T08_Armbottom_L" x="479" y="3" w="30" h="76" pX="0.5" pY="0.5" oX="0" oY="0" oW="32" oH="76"/>
+    <sprite n="T08_Armbottom_R" x="120" y="280" w="28" h="40" pX="0.5" pY="0.5" oX="4" oY="37" oW="32" oH="77"/>
+    <sprite n="T08_Armtop_L" x="254" y="445" w="32" h="73" pX="0.5" pY="0.5" oX="0" oY="0" oW="32" oH="76"/>
+    <sprite n="T08_Armtop_R" x="245" y="522" w="32" h="73" pX="0.5" pY="0.5" oX="0" oY="0" oW="32" oH="77"/>
+    <sprite n="T08_Bangs" x="3" y="553" w="92" h="50" pX="0.5" pY="0.5" oX="0" oY="1" oW="92" oH="52"/>
+    <sprite n="T08_chops_L" x="143" y="688" w="64" h="62" pX="0.5" pY="0.5" oX="0" oY="2" oW="72" oH="64"/>
+    <sprite n="T08_chops_R" x="317" y="647" w="60" h="56" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_face" x="145" y="467" w="96" h="64" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_Foot_L" x="317" y="707" w="56" h="70" pX="0.5" pY="0.5" oX="0" oY="0" oW="72" oH="56" r="y"/>
+    <sprite n="T08_foot_R" x="377" y="763" w="70" h="54" pX="0.5" pY="0.5" oX="2" oY="2" oW="72" oH="56"/>
+    <sprite n="T08_Hair_01" x="281" y="580" w="96" h="63" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="64"/>
+    <sprite n="T08_Hair_02" x="309" y="142" w="155" h="108" pX="0.5" pY="0.5" oX="0" oY="0" oW="156" oH="110"/>
+    <sprite n="T08_Hand_BG_L" x="451" y="796" w="56" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="68" oH="56" r="y"/>
+    <sprite n="T08_Hand_BG_R" x="211" y="723" w="64" h="55" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="56"/>
+    <sprite n="T08_Hand_FG_l" x="460" y="728" w="48" h="64" pX="0.5" pY="0.5" oX="3" oY="8" oW="68" oH="56" r="y"/>
+    <sprite n="T08_Hand_FG_R" x="279" y="781" w="64" h="51" pX="0.5" pY="0.5" oX="0" oY="4" oW="64" oH="56"/>
+    <sprite n="T08_Headband" x="468" y="362" w="38" h="72" pX="0.5" pY="0.5" oX="0" oY="2" oW="72" oH="40" r="y"/>
+    <sprite n="T08_horn_L" x="468" y="186" w="40" h="84" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_horn_R" x="468" y="274" w="40" h="84" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_ice_01" x="468" y="510" w="34" h="49" pX="0.5" pY="0.5" oX="1" oY="0" oW="36" oH="50"/>
+    <sprite n="T08_ice_02" x="468" y="458" w="35" h="48" pX="0.5" pY="0.5" oX="0" oY="0" oW="36" oH="48"/>
+    <sprite n="T08_ice_03" x="95" y="607" w="46" h="59" pX="0.5" pY="0.5" oX="0" oY="0" oW="60" oH="48" r="y"/>
+    <sprite n="T08_ice_04" x="467" y="680" w="32" h="44" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_ice_05" x="467" y="632" w="32" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="T08_ice_drum_01" x="290" y="492" w="96" h="84" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_Ice_drum_02" x="290" y="396" w="98" h="92" pX="0.5" pY="0.5" oX="0" oY="0" oW="92" oH="100" r="y"/>
+    <sprite n="T08_ice_drum_03" x="154" y="245" w="132" h="118" pX="0.5" pY="0.5" oX="0" oY="0" oW="132" oH="120"/>
+    <sprite n="T08_ice_drum_04" x="381" y="611" w="82" h="76" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_ice_drum_05" x="392" y="436" w="72" h="84" pX="0.5" pY="0.5"/>
+    <sprite n="T08_ice_drum_glow_01" x="3" y="674" w="83" h="75" pX="0.5" pY="0.5" oX="0" oY="0" oW="84" oH="96" r="y"/>
+    <sprite n="T08_Ice_drum_glow_02" x="390" y="524" w="73" h="83" pX="0.5" pY="0.5" oX="10" oY="0" oW="92" oH="100"/>
+    <sprite n="T08_ice_drum_glow_03" x="3" y="254" w="113" h="103" pX="0.5" pY="0.5" oX="1" oY="0" oW="132" oH="120" r="y"/>
+    <sprite n="T08_ice_drum_glow_04" x="381" y="691" w="75" h="68" pX="0.5" pY="0.5" oX="5" oY="0" oW="76" oH="82" r="y"/>
+    <sprite n="T08_ice_drum_glow_05" x="235" y="647" w="78" h="72" pX="0.5" pY="0.5" oX="0" oY="0" oW="72" oH="84" r="y"/>
+    <sprite n="T08_Leg_L" x="117" y="458" w="24" h="52" pX="0.5" pY="0.5"/>
+    <sprite n="T08_Leg_R" x="120" y="324" w="26" h="50" pX="0.5" pY="0.5"/>
+    <sprite n="T08_Lower_Leg_BG_L" x="3" y="607" w="88" h="63" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="88" r="y"/>
+    <sprite n="T08_Lower_leg_bg_R" x="145" y="618" w="86" h="66" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_Lower_Leg_FG_L" x="404" y="254" w="60" h="88" pX="0.5" pY="0.5" oX="3" oY="0" oW="64" oH="88"/>
+    <sprite n="T08_Lower_Leg_FG_R" x="398" y="346" w="66" h="86" pX="0.5" pY="0.5"/>
+    <sprite n="T08_mouth_01" x="124" y="514" w="17" h="47" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_mouth_02" x="468" y="438" w="36" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="T08_mouth_03" x="467" y="563" w="34" h="19" pX="0.5" pY="0.5"/>
+    <sprite n="T08_mouth_04" x="467" y="586" w="34" h="19" pX="0.5" pY="0.5"/>
+    <sprite n="T08_mouth_05" x="120" y="254" w="30" h="22" pX="0.5" pY="0.5" oX="4" oY="0" oW="34" oH="22"/>
+    <sprite n="T08_mouth_06" x="467" y="609" w="34" h="19" pX="0.5" pY="0.5"/>
+    <sprite n="T08_mouth_07" x="468" y="162" w="41" h="20" pX="0.5" pY="0.5"/>
+    <sprite n="T08_mouth_08" x="99" y="514" w="21" h="47" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_mouth_09" x="239" y="599" w="21" h="44" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="22" r="y"/>
+    <sprite n="T08_Pick_1" x="347" y="821" w="56" h="52" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T08_pick_2" x="95" y="670" w="44" h="52" pX="0.5" pY="0.5"/>
+    <sprite n="T08_Shadow" x="3" y="3" w="308" h="93" pX="0.5" pY="0.5" oX="0" oY="6" oW="308" oH="99"/>
+    <sprite n="T08_should_R" x="3" y="465" w="92" h="84" pX="0.5" pY="0.5" oX="3" oY="0" oW="88" oH="92" r="y"/>
+    <sprite n="T08_shoulder_L" x="145" y="535" w="90" h="79" pX="0.5" pY="0.5" oX="0" oY="2" oW="80" oH="92" r="y"/>
+    <sprite n="T08_Snow_base" x="3" y="100" w="302" h="83" pX="0.5" pY="0.5" oX="0" oY="1" oW="302" oH="84"/>
+    <sprite n="T08_snowball_L" x="290" y="292" w="104" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="T08_Snowball_R" x="150" y="367" w="100" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="T08_splash_01" x="117" y="378" w="25" h="76" pX="0.5" pY="0.5" oX="41" oY="27" oW="160" oH="80" r="y"/>
+    <sprite n="T08_splash_02" x="290" y="254" w="110" h="34" pX="0.5" pY="0.5" oX="18" oY="11" oW="160" oH="80"/>
+    <sprite n="T08_splash_03" x="154" y="187" w="133" h="54" pX="0.5" pY="0.5" oX="6" oY="5" oW="160" oH="80"/>
+    <sprite n="T08_splash_04" x="3" y="187" w="147" h="63" pX="0.5" pY="0.5" oX="0" oY="4" oW="160" oH="80"/>
+    <sprite n="T08_splash_05" x="315" y="67" w="157" h="71" pX="0.5" pY="0.5" oX="0" oY="5" oW="160" oH="80"/>
+    <sprite n="T08_splash_06" x="315" y="3" w="160" h="60" pX="0.5" pY="0.5" oX="0" oY="20" oW="160" oH="80"/>
+    <sprite n="T08_Torso" x="3" y="361" w="110" h="100" pX="0.5" pY="0.5"/>
+</TextureAtlas>

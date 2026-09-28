@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b47da75e8c32267e40f99dfd7a319183:ada0ec625de5a470ac4dc55a92b2ec79:c11d9e38b51a1a10b5b80daa8b272914$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_monster_T06_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="T06_back_shell" x="0" y="0" w="176" h="230" oX="12" oY="12" oW="200" oH="260"/>
+	<sprite n="T06_body" x="0" y="232" w="131" h="178" oX="11" oY="6" oW="200" oH="144" r="y"/>
+	<sprite n="T06_claw_hinge" x="392" y="362" w="38" h="23" oX="3" oY="4" oW="44" oH="32"/>
+	<sprite n="T06_claw_large" x="0" y="412" w="69" h="91" oX="1" oY="2" oW="72" oH="96"/>
+	<sprite n="T06_claw_small" x="242" y="154" w="38" h="74" oX="3" oY="5" oW="44" oH="84"/>
+	<sprite n="T06_cone_shell_large" x="135" y="400" w="77" h="107" oX="11" oY="6" oW="100" oH="120"/>
+	<sprite n="T06_cone_shell_left" x="372" y="421" w="56" h="56" oX="4" oY="4" oW="64" oH="64"/>
+	<sprite n="T06_cone_shell_right" x="393" y="80" w="53" h="77" oX="5" oY="5" oW="64" oH="88"/>
+	<sprite n="T06_eye_left_01" x="0" y="505" w="3" h="3" oX="0" oY="0" oW="24" oH="24"/>
+	<sprite n="T06_eye_left_02" x="372" y="479" w="23" h="24" oX="0" oY="0" oW="24" oH="24"/>
+	<sprite n="T06_eye_left_03" x="397" y="479" w="23" h="24" oX="0" oY="0" oW="24" oH="24"/>
+	<sprite n="T06_eye_left_04" x="422" y="479" w="23" h="24" oX="0" oY="0" oW="24" oH="24"/>
+	<sprite n="T06_eye_right_01" x="0" y="505" w="3" h="3" oX="0" oY="0" oW="24" oH="24"/>
+	<sprite n="T06_eye_right_02" x="392" y="387" w="24" h="24"/>
+	<sprite n="T06_eye_right_03" x="361" y="395" w="24" h="24"/>
+	<sprite n="T06_eye_right_04" x="346" y="476" w="24" h="24"/>
+	<sprite n="T06_foot_left" x="351" y="153" w="40" h="62" oX="5" oY="3" oW="72" oH="48" r="y"/>
+	<sprite n="T06_foot_right" x="448" y="122" w="62" h="40" oX="5" oY="3" oW="72" oH="48"/>
+	<sprite n="T06_hand_right_01" x="267" y="230" w="60" h="78" oX="10" oY="1" oW="84" oH="84"/>
+	<sprite n="T06_hand_right_02" x="280" y="396" w="58" h="78" oX="12" oY="1" oW="84" oH="84"/>
+	<sprite n="T06_hand_right_03" x="328" y="0" w="58" h="78" oX="12" oY="1" oW="84" oH="84"/>
+	<sprite n="T06_hand_right_04" x="388" y="0" w="58" h="78" oX="12" oY="1" oW="84" oH="84"/>
+	<sprite n="T06_hand_right_05" x="266" y="315" w="61" h="79" oX="9" oY="1" oW="84" oH="84"/>
+	<sprite n="T06_hand_right_06" x="178" y="154" w="62" h="76" oX="9" oY="1" oW="84" oH="84"/>
+	<sprite n="T06_head" x="178" y="0" w="148" h="152" oX="7" oY="6" oW="164" oH="164"/>
+	<sprite n="T06_horn_end_left" x="244" y="478" w="44" h="29" oX="2" oY="0" oW="48" oH="32"/>
+	<sprite n="T06_horn_end_mid" x="443" y="231" w="69" h="46" oX="1" oY="1" oW="72" oH="48"/>
+	<sprite n="T06_horn_end_right" x="290" y="476" w="54" h="35" oX="0" oY="4" oW="54" oH="44"/>
+	<sprite n="T06_horn_left" x="392" y="305" w="41" h="55" oX="1" oY="5" oW="44" oH="64"/>
+	<sprite n="T06_horn_mid" x="214" y="397" w="64" h="79" oX="3" oY="4" oW="72" oH="88"/>
+	<sprite n="T06_horn_right" x="393" y="184" w="48" h="59" oX="0" oY="2" oW="48" oH="64"/>
+	<sprite n="T06_leaf_behind_right" x="328" y="80" w="63" h="71" oX="0" oY="0" oW="64" oH="72"/>
+	<sprite n="T06_leaf_bottom" x="214" y="478" w="28" h="32" oX="2" oY="3" oW="36" oH="36" r="y"/>
+	<sprite n="T06_leaf_cover_left" x="448" y="0" w="64" h="63" oX="3" oY="3" oW="72" oH="72"/>
+	<sprite n="T06_leaf_cover_right" x="439" y="279" w="68" h="77" oX="5" oY="2" oW="84" oH="72" r="y"/>
+	<sprite n="T06_leaf_mid" x="105" y="412" w="28" h="84" oX="8" oY="1" oW="100" oH="32" r="y"/>
+	<sprite n="T06_leaf_top" x="209" y="315" w="55" h="80" oX="2" oY="5" oW="84" oH="64" r="y"/>
+	<sprite n="T06_lower_arm_right" x="282" y="154" w="67" h="71" oX="3" oY="0" oW="72" oH="72"/>
+	<sprite n="T06_mouth_01" x="329" y="227" w="62" h="19" oX="1" oY="5" oW="64" oH="32"/>
+	<sprite n="T06_mouth_02" x="329" y="332" w="61" h="19" oX="2" oY="5" oW="64" oH="32"/>
+	<sprite n="T06_mouth_03" x="329" y="308" w="61" h="22" oX="2" oY="5" oW="64" oH="32"/>
+	<sprite n="T06_mouth_04" x="447" y="425" w="55" h="23" oX="5" oY="4" oW="64" oH="32"/>
+	<sprite n="T06_mouth_05" x="393" y="159" w="50" h="23" oX="7" oY="4" oW="64" oH="32"/>
+	<sprite n="T06_mouth_06" x="329" y="353" w="61" h="19" oX="2" oY="7" oW="64" oH="32"/>
+	<sprite n="T06_mouth_07" x="329" y="374" w="61" h="19" oX="2" oY="7" oW="64" oH="32"/>
+	<sprite n="T06_mouth_08" x="340" y="413" w="19" h="61" oX="2" oY="7" oW="64" oH="32" r="y"/>
+	<sprite n="T06_pupil_left" x="447" y="470" w="17" h="17" oX="4" oY="4" oW="24" oH="24"/>
+	<sprite n="T06_pupil_right" x="430" y="450" w="18" h="18" oX="3" oY="3" oW="24" oH="24"/>
+	<sprite n="T06_sea_weed" x="71" y="412" w="32" h="88" oX="8" oY="6" oW="48" oH="100"/>
+	<sprite n="T06_shadow" x="133" y="232" w="74" h="166" oX="20" oY="23" oW="200" oH="120" r="y"/>
+	<sprite n="T06_tan_coral_left" x="393" y="245" w="44" h="58" oX="8" oY="3" oW="64" oH="64"/>
+	<sprite n="T06_tan_coral_right" x="448" y="65" w="64" h="55" oX="4" oY="0" oW="64" oH="64" r="y"/>
+	<sprite n="T06_upper_arm_left" x="329" y="248" w="61" h="58" oX="1" oY="3" oW="64" oH="64"/>
+	<sprite n="T06_upper_arm_right" x="209" y="232" w="56" h="81" oX="0" oY="4" oW="84" oH="64" r="y"/>
+	<sprite n="T06_upper_leg_left" x="445" y="164" w="67" h="65" oX="3" oY="3" oW="72" oH="72"/>
+	<sprite n="T06_upper_leg_right" x="435" y="358" w="67" h="65" oX="3" oY="3" oW="72" oH="72"/>
+</TextureAtlas>

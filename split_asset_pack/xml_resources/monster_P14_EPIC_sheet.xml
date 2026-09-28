@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:555b70f1bb32de0cd1cb7d7b45c11bf8:7251dc8905cc8b88963a57836ed27283:9d5714b992b9fc318176dfd759f86b21$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P14_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="P14_back foot" x="401" y="432" w="40" h="84" />
+  <sprite n="P14_body" x="0" y="0" w="251" h="220" oX="0" oY="0" oW="252" oH="220" />
+  <sprite n="P14_bubble_01" x="104" y="769" w="78" h="78" oX="19" oY="15" oW="120" oH="105" />
+  <sprite n="P14_bubble_02" x="0" y="528" w="118" h="105" oX="0" oY="0" oW="120" oH="105" />
+  <sprite n="P14_EPIC_shadow" x="252" y="432" w="147" h="77" />
+  <sprite n="P14_foot" x="425" y="615" w="84" h="40" r="y" />
+  <sprite n="P14_glow" x="443" y="406" w="67" h="67" />
+  <sprite n="P14_head bubble_01" x="0" y="222" w="219" h="140" oX="4" oY="6" oW="228" oH="152" />
+  <sprite n="P14_head bubble_02" x="253" y="154" w="223" h="146" oX="2" oY="4" oW="228" oH="152" />
+  <sprite n="P14_head bubble_03" x="253" y="0" w="228" h="152" />
+  <sprite n="P14_jaw_01" x="411" y="751" w="101" h="79" oX="1" oY="0" oW="80" oH="108" r="y" />
+  <sprite n="P14_jaw_02" x="425" y="657" w="80" h="92" oX="0" oY="12" oW="80" oH="108" />
+  <sprite n="P14_jaw_03" x="165" y="428" w="85" h="78" oX="2" oY="22" oW="80" oH="108" r="y" />
+  <sprite n="P14_jaw_04" x="0" y="709" w="102" h="79" oX="1" oY="6" oW="80" oH="108" r="y" />
+  <sprite n="P14_jowl fin lat light" x="0" y="790" w="73" h="73" oX="23" oY="89" oW="96" oH="164" />
+  <sprite n="P14_jowl fin lat" x="0" y="364" w="163" h="96" oX="0" oY="0" oW="96" oH="164" r="y" />
+  <sprite n="P14_jowl fin med light" x="377" y="563" w="55" h="36" oX="9" oY="116" oW="64" oH="152" />
+  <sprite n="P14_jowl fin med" x="0" y="462" w="152" h="64" r="y" />
+  <sprite n="P14_lower leg" x="120" y="528" w="32" h="44" r="y" />
+  <sprite n="P14_mouth top" x="435" y="525" w="76" h="88" />
+  <sprite n="P14_shine_01" x="184" y="769" w="42" h="40" oX="2" oY="0" oW="44" oH="40" />
+  <sprite n="P14_shine_02" x="366" y="725" w="43" h="40" oX="1" oY="0" oW="44" oH="40" />
+  <sprite n="P14_shine_03" x="366" y="683" w="44" h="40" />
+  <sprite n="P14_side fin dongle light" x="165" y="364" w="19" h="22" oX="70" oY="73" oW="92" oH="92" r="y" />
+  <sprite n="P14_side fin dongle" x="154" y="508" w="92" h="92" />
+  <sprite n="P14_side fin_1 light" x="478" y="256" w="33" h="54" oX="95" oY="0" oW="128" oH="84" />
+  <sprite n="P14_side fin_1" x="248" y="591" w="121" h="84" oX="7" oY="0" oW="128" oH="84" />
+  <sprite n="P14_side fin_2 light" x="478" y="184" w="33" h="70" oX="95" oY="2" oW="128" oH="80" />
+  <sprite n="P14_side fin_2" x="248" y="511" w="127" h="78" oX="1" oY="1" oW="128" oH="80" />
+  <sprite n="P14_side fin_3 light" x="483" y="45" w="25" h="52" oX="87" oY="15" oW="112" oH="72" />
+  <sprite n="P14_side fin_3" x="0" y="635" w="112" h="72" />
+  <sprite n="P14_tail 1" x="253" y="302" w="188" h="128" oX="0" oY="6" oW="128" oH="196" r="y" />
+  <sprite n="P14_tail 2" x="248" y="677" w="116" h="108" r="y" />
+  <sprite n="P14_tail 3" x="228" y="787" w="72" h="40" />
+  <sprite n="P14_tail 4" x="443" y="475" w="67" h="48" oX="0" oY="0" oW="68" oH="48" />
+  <sprite n="P14_tail bubble" x="154" y="602" w="92" h="88" r="y" />
+  <sprite n="P14_tail fin bottom light" x="221" y="222" w="30" h="80" oX="22" oY="0" oW="52" oH="80" />
+  <sprite n="P14_tail fin bottom" x="371" y="601" w="52" h="80" />
+  <sprite n="P14_tail fin side dongle light" x="186" y="364" w="17" h="18" oX="31" oY="6" oW="48" oH="24" />
+  <sprite n="P14_tail fin side dongle" x="221" y="304" w="24" h="48" r="y" />
+  <sprite n="P14_tail fin side light" x="165" y="388" w="86" h="38" oX="30" oY="0" oW="68" oH="92" r="y" />
+  <sprite n="P14_tail fin side" x="443" y="312" w="68" h="92" />
+  <sprite n="P14_tail fin top light" x="483" y="99" w="24" h="83" oX="51" oY="0" oW="76" oH="104" />
+  <sprite n="P14_tail fin top" x="114" y="692" w="104" h="75" oX="0" oY="0" oW="76" oH="104" r="y" />
+  <sprite n="P14_tail shine" x="366" y="767" w="43" h="38" oX="0" oY="1" oW="44" oH="40" />
+  <sprite n="P14_upper leg" x="221" y="354" w="23" h="32" oX="0" oY="0" oW="24" oH="32" />
+  <sprite n="P14_whisker_1" x="483" y="0" w="28" h="43" oX="0" oY="0" oW="28" oH="44" />
+  <sprite n="P14_whisker_2" x="120" y="574" w="32" h="36" />
+  <sprite n="P14_whisker_3" x="377" y="518" w="56" h="43" oX="0" oY="0" oW="56" oH="44" />
+</TextureAtlas>

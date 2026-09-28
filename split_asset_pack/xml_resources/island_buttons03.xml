@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bd54fe33186a0aae606490192eb917f9:e32ddebe67edba828659c338d831f630:65fc0ec0639bf7abaefef70d6ce55c98$ -->
+<TextureAtlas imagePath="gfx/menu/island_buttons03.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="islands_button_isl01_th01" x="306" y="0" w="298" h="204" oX="4" oY="5" oW="304" oH="228"/>
+	<sprite n="islands_button_isl011" x="599" y="389" w="281" h="189" oX="8" oY="12" oW="304" oH="228"/>
+	<sprite n="islands_button_isl015_mindboggle" x="0" y="0" w="303" h="215" oX="1" oY="2" oW="304" oH="228"/>
+	<sprite n="islands_button_isl018" x="257" y="813" w="261" h="205" oX="23" oY="3" oW="304" oH="228"/>
+	<sprite n="islands_button_isl018_skypainting" x="0" y="616" w="263" h="194" oX="20" oY="14" oW="304" oH="228"/>
+	<sprite n="islands_button_isl019" x="293" y="424" w="279" h="212" oX="21" oY="8" oW="304" oH="228"/>
+	<sprite n="islands_button_isl020" x="575" y="581" w="252" h="178" oX="26" oY="20" oW="304" oH="228"/>
+	<sprite n="islands_button_isl021" x="0" y="813" w="254" h="207" oX="28" oY="9" oW="304" oH="228"/>
+	<sprite n="islands_button_isl022" x="0" y="218" w="290" h="196" oX="12" oY="18" oW="304" oH="228"/>
+	<sprite n="islands_button_isl022_echosofeco" x="0" y="417" w="290" h="196" oX="12" oY="18" oW="304" oH="228"/>
+	<sprite n="islands_button_isl023" x="306" y="207" w="290" h="214" oX="7" oY="8" oW="304" oH="228"/>
+	<sprite n="islands_button_isl024" x="607" y="198" w="293" h="188" oX="2" oY="26" oW="304" oH="228"/>
+	<sprite n="islands_button_isl025" x="607" y="0" w="293" h="195" oX="4" oY="12" oW="304" oH="228"/>
+</TextureAtlas>

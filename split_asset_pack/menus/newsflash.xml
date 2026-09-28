@@ -1,0 +1,318 @@
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<script src="scripts/Newsflash.lua"/>
+
+	<event name="setUpElements" params="element">
+		element:DoStoredScript("setMainImage")
+		element:DoStoredScript("showCloseButton")
+		element:DoStoredScript("showActionButtons")
+		element:DoStoredScript("setTitleFrame")
+		element:DoStoredScript("setPageCounter")
+		element:DoStoredScript("setNextButton")
+	</event>
+
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="3" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.0)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="MainBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="MainImage" />
+		<position relativeTo="SAFE_AREA" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*lua_sys.screenWidth()" yOffset="0" priorityOffset="2" />
+		<event name="onInit" params="element">
+			element["Touch"]("enabled"):SetInt(0)
+		</event>
+		<spriteComponent name="MainImage">
+			<position relativeTo="SAFE_AREA" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*lua_sys.screenWidth()" yOffset="0" priorityOffset="2"/>
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/newsflash/NewsflashBlank")
+                component("size"):SetFloat(game.newsflashScale())
+				component("layer"):SetString("FrontPopUps")
+				component("alpha"):SetFloat(1.0)
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+
+        <template type="template_nineslicebutton" name="ActionButton1">
+            <templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+            <templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+			<templateVar name="$layer" equals="'FrontPopUps'" />
+			<templateVar name="$textYOffset" equals="-2*game.menuScaleY()" />
+			<templateVar name="$topHeight" equals="10.0" />
+			<templateVar name="$bottomHeight" equals="10.0" />
+			<templateVar name="$leftWidth" equals="20.0" />
+			<templateVar name="$rightWidth" equals="20.0" />
+            <templateVar name="$width" equals="100*game.windowScaleX()" />
+            <templateVar name="$height" equals="40*game.windowScaleY()" />
+            <templateVar name="$includeBorder" equals="0" />
+            
+            <position relativeTo="MainBG" vAnchor="BOTTOM" hAnchor="LEFT" />
+            <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="20*game.menuScaleX()" yOffset="-10" priorityOffset="-1" />
+
+			<textComponent name="Text">
+                <size w="80*game.menuScaleX()" h="5*game.menuScaleX()" />
+				<event name="onInit" params="component, element">
+					onInit(component, element)
+					component("size"):SetFloat(0.6*game.hudScale())
+					component("yOffset"):SetInt(2)
+					component("autoScale"):SetInt(1)
+					component("hasPulse"):SetInt(0)
+					element:DoStoredScript("disable")
+					element:DoStoredScript("setInvisible")
+				</event>
+			</textComponent>
+
+            <spriteSheetComponent name="Sprite">
+                <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+                <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5" yOffset="2" priorityOffset="-1" />
+                <event name="onInit" params="component, element">
+					component("size"):SetFloat(0.5*game.menuScaleX())
+                    component("layer"):SetString("FrontPopUps")
+                    component("visible"):SetInt(0)
+                </event>
+            </spriteSheetComponent>
+            
+            <touchComponent name="Touch">
+            </touchComponent>
+        </template>
+
+		<template type="template_nineslicebutton" name="ActionButton2">
+			<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+            <templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+			<templateVar name="$layer" equals="'FrontPopUps'" />
+			<templateVar name="$textYOffset" equals="-2*game.menuScaleY()" />
+			<templateVar name="$topHeight" equals="10.0" />
+			<templateVar name="$bottomHeight" equals="10.0" />
+			<templateVar name="$leftWidth" equals="20.0" />
+			<templateVar name="$rightWidth" equals="20.0" />
+            <templateVar name="$width" equals="100*game.windowScaleX()" />
+            <templateVar name="$height" equals="40*game.windowScaleY()" />
+			<templateVar name="$includeBorder" equals="0" />
+			
+			<position relativeTo="MainBG" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-8" priorityOffset="-1" />
+			
+			<textComponent name="Text">
+                <size w="80*game.menuScaleX()" h="5*game.menuScaleX()" />
+				<event name="onInit" params="component, element">
+					onInit(component, element)
+					component("size"):SetFloat(0.6*game.hudScale())
+					component("yOffset"):SetInt(2)
+					component("autoScale"):SetInt(1)
+					component("hasPulse"):SetInt(0)
+					element:DoStoredScript("disable")
+					element:DoStoredScript("setInvisible")
+				</event>
+			</textComponent>
+
+            <spriteSheetComponent name="Sprite">
+                <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+                <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5" yOffset="2" priorityOffset="-1" />
+                <event name="onInit" params="component, element">
+					component("size"):SetFloat(0.5*game.menuScaleX())
+                    component("layer"):SetString("FrontPopUps")
+                    component("visible"):SetInt(0)
+                </event>
+            </spriteSheetComponent>
+
+			<touchComponent name="Touch">
+			</touchComponent>
+		</template>
+
+		<template type="template_nineslicebutton" name="ActionButton3">
+			<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+            <templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+			<templateVar name="$layer" equals="'FrontPopUps'" />
+			<templateVar name="$textYOffset" equals="-2*game.menuScaleY()" />
+			<templateVar name="$topHeight" equals="10.0" />
+			<templateVar name="$bottomHeight" equals="10.0" />
+			<templateVar name="$leftWidth" equals="20.0" />
+			<templateVar name="$rightWidth" equals="20.0" />
+            <templateVar name="$width" equals="100*game.windowScaleX()" />
+            <templateVar name="$height" equals="40*game.windowScaleY()" />
+			<templateVar name="$includeBorder" equals="0" />
+			
+			<position relativeTo="MainBG" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="20*game.menuScaleX()" yOffset="-10" priorityOffset="-1" />
+			
+			<textComponent name="Text">
+                <size w="80*game.menuScaleX()" h="5*game.menuScaleX()" />
+				<event name="onInit" params="component, element">
+					onInit(component, element)
+					component("size"):SetFloat(0.6*game.hudScale())
+					component("yOffset"):SetInt(2)
+					component("autoScale"):SetInt(1)
+					component("hasPulse"):SetInt(0)
+					element:DoStoredScript("disable")
+					element:DoStoredScript("setInvisible")
+				</event>
+			</textComponent>
+
+            <spriteSheetComponent name="Sprite">
+                <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+                <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5" yOffset="2" priorityOffset="-1" />
+                <event name="onInit" params="component, element">
+					component("size"):SetFloat(0.5*game.menuScaleX())
+                    component("layer"):SetString("FrontPopUps")
+                    component("visible"):SetInt(0)
+                </event>
+            </spriteSheetComponent>
+			
+			<touchComponent name="Touch">
+			</touchComponent>
+		</template> 
+	</element>
+
+	<!-- for carousel only -->
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="MainBG" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="5" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="300*game.hudScale()" h="50" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.6)
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("FrontPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</ninesliceComponent>
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="5" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.4*game.hudScale())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED);
+				component("text"):SetString("TITLE")
+				component("autoScale"):SetInt(1)
+				component:setColor(1.0, 1.0, 1.0)
+				component("layer"):SetString("FrontPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</textComponent>
+	</element>
+
+	<!-- for carousel only -->
+	<element name="PageCounter">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="MainBG" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="5" yOffset="-5" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="50*game.hudScale()" h="40*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(10.0)
+				component("bottomHeight"):SetFloat(10.0)
+				component("leftWidth"):SetFloat(100.0)
+				component("rightWidth"):SetFloat(100.0)
+				component("size"):SetFloat(0.15*game.hudScale())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("FrontPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</ninesliceComponent>
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.37*game.hudScale())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED);
+				component("autoScale"):SetInt(1)
+				component:setColor(1.0, 1.0, 1.0)
+				component("layer"):SetString("FrontPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="CloseButton">
+		<templateVar name="$upSpriteName" equals="'button_bamboo_close'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.25*game.windowScaleX()" />
+		<templateVar name="$sfx" equals="[[audio/sfx/menu_click_small.wav]]" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="MainBG" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-5" yOffset="8" priorityOffset="-1" />
+		<touchComponent name="Touch">
+		</touchComponent>
+	</template>
+
+	<!-- for carousel only -->
+	<template type="template_spritesheetbutton" name="NextButton">
+		<templateVar name="$upSpriteName" equals="'button_play'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.6*game.hudScale()" />
+		<templateVar name="$sfx" equals="[[audio/sfx/menu_click_small.wav]]" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="MainBG" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="10*game.windowScaleX()" yOffset="0" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				element:DoStoredScript("disable")
+				element:DoStoredScript("setInvisible")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+		</touchComponent>
+	</template>
+
+	<!-- for carousel only -->
+	<template type="template_spritesheetbutton" name="BackButton">
+		<templateVar name="$upSpriteName" equals="'button_play'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.6*game.hudScale()" />
+		<templateVar name="$spriteHFlip" equals="1" />
+		<templateVar name="$sfx" equals="[[audio/sfx/menu_click_small.wav]]" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="MainBG" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-10*game.windowScaleX()" yOffset="0" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				element:DoStoredScript("disable")
+				element:DoStoredScript("setInvisible")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+		</touchComponent>
+	</template>
+
+	<event name="queuePop" params="element">
+		<![CDATA[
+			element:root():popPopUp()
+		]]>
+	</event>
+</menu>

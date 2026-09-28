@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e817d18fb8cc072e2c8518efbd8d892d:32063a26073ddfb9a7f05b7d66b7789a:0c806e4c4029d26b88167d73341c18ba$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BD_costume_07_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BD_tree_back" x="0" y="0" w="350" h="223" pX="0.50625" pY="0.901887" oX="49" oY="93" oW="320" oH="530" r="y"/>
+	<sprite n="BD_tree_front" x="0" y="225" w="315" h="526" pX="0.50625" pY="0.901887" oX="5" oY="0" oW="320" oH="530"/>
+	<sprite n="BD_glow_01" x="352" y="0" w="150" h="149" pX="0.5" pY="0.5" oX="15" oY="16" oW="176" oH="176" r="y"/>
+	<sprite n="BD_glow_02" x="352" y="151" w="148" h="140" pX="0.5" pY="0.5" oX="13" oY="13" oW="176" oH="176"/>
+	<sprite n="BD_glow_03" x="317" y="293" w="170" h="135" pX="0.5" pY="0.5" oX="22" oY="0" oW="176" oH="176" r="y"/>
+	<sprite n="BD_glow_04" x="317" y="430" w="75" h="73" pX="0.5" pY="0.5" oX="53" oY="49" oW="176" oH="176" r="y"/>
+	<sprite n="BD_glow_05" x="394" y="430" w="54" h="53" pX="0.5" pY="0.5" oX="63" oY="59" oW="176" oH="176" r="y"/>
+</TextureAtlas>

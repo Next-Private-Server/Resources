@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c6286cdef816be368dd5cc555203da78:0522f7acf34e95f07a9cd987bb0a8af4:c565e0b1ab4ceb851a5577229059a4eb$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_I01_MIN_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="I01_carapace" x="130" y="343" w="89" h="95" pX="0.5" pY="0.5" oX="5" oY="0" oW="97" oH="95"/>
+	<sprite n="I01_min_carapace_handle" x="124" y="188" w="42" h="44" pX="0.5" pY="0.5" oX="3" oY="3" oW="48" oH="50"/>
+	<sprite n="I01_min_chin" x="33" y="236" w="82" h="125" pX="0.5" pY="0.5" oX="6" oY="0" oW="137" oH="82" r="y"/>
+	<sprite n="I01_min_dark_string" x="141" y="178" w="29" h="8" pX="0.5" pY="0.5" oX="1" oY="1" oW="10" oH="31" r="y"/>
+	<sprite n="I01_min_elbow" x="221" y="329" w="33" h="34" pX="0.5" pY="0.5" oX="2" oY="1" oW="37" oH="36"/>
+	<sprite n="I01_min_eyeback" x="207" y="173" w="41" h="42" pX="0.5" pY="0.5" oX="1" oY="0" oW="43" oH="41" r="y"/>
+	<sprite n="I01_min_face" x="8" y="0" w="131" h="186" pX="0.5" pY="0.5" oX="6" oY="35" oW="236" oH="170" r="y"/>
+	<sprite n="I01_min_face_branch01" x="183" y="0" w="30" h="93" pX="0.5" pY="0.5" oX="6" oY="0" oW="41" oH="93"/>
+	<sprite n="I01_min_face_pin01" x="8" y="188" w="114" h="46" pX="0.5" pY="0.5" oX="4" oY="5" oW="57" oH="124" r="y"/>
+	<sprite n="I01_min_face_pin02" x="287" y="0" w="30" h="67" pX="0.5" pY="0.5" oX="5" oY="3" oW="41" oH="74"/>
+	<sprite n="I01_min_face_pin03" x="203" y="234" w="35" h="93" pX="0.5" pY="0.5" oX="1" oY="0" oW="41" oH="93"/>
+	<sprite n="I01_min_face_string" x="220" y="150" w="31" h="20" pX="0.5" pY="0.5" oX="2" oY="3" oW="24" oH="34" r="y"/>
+	<sprite n="I01_min_finger_COSTUME" x="178" y="95" w="40" h="76" pX="0.825" pY="0.0875" oX="0" oY="3" oW="40" oH="80"/>
+	<sprite n="I01_min_glow" x="0" y="245" w="31" h="200" pX="0.5" pY="0.5" oX="4" oY="35" oW="39" oH="239"/>
+	<sprite n="I01_min_hair_left" x="141" y="95" w="35" h="81" pX="0.5" pY="0.5" oX="4" oY="2" oW="41" oH="86"/>
+	<sprite n="I01_min_hair_mid" x="33" y="363" w="95" h="81" pX="0.5" pY="0.5" oX="3" oY="8" oW="87" oH="108" r="y"/>
+	<sprite n="I01_min_hair_right" x="141" y="0" w="40" h="93" pX="0.5" pY="0.5" oX="4" oY="3" oW="47" oH="99"/>
+	<sprite n="I01_min_headhair_left" x="168" y="188" w="37" h="44" pX="0.5" pY="0.5" oX="3" oY="2" oW="43" oH="51"/>
+	<sprite n="I01_min_headhair_right" x="68" y="446" w="44" h="57" pX="0.5" pY="0.5" oX="5" oY="4" oW="52" oH="64"/>
+	<sprite n="I01_min_jaw_left" x="114" y="446" w="43" h="57" pX="0.5" pY="0.5" oX="2" oY="0" oW="46" oH="57"/>
+	<sprite n="I01_min_jaw_piece" x="221" y="365" w="29" h="31" pX="0.5" pY="0.5" oX="3" oY="4" oW="36" oH="35" r="y"/>
+	<sprite n="I01_min_jaw_right" x="220" y="75" w="67" h="73" pX="0.5" pY="0.5" oX="8" oY="1" oW="81" oH="74"/>
+	<sprite n="I01_min_knuckle" x="229" y="460" w="19" h="20" pX="0.5" pY="0.5" oX="0" oY="1" oW="20" oH="20" r="y"/>
+	<sprite n="I01_min_low_jaw" x="0" y="447" w="66" h="65" pX="0.5" pY="0.5" oX="4" oY="2" oW="72" oH="70" r="y"/>
+	<sprite n="I01_min_mouth" x="117" y="236" w="84" h="105" pX="0.5" pY="0.5" oX="5" oY="0" oW="119" oH="87" r="y"/>
+	<sprite n="I01_min_pupil_GREEN" x="221" y="398" w="29" h="29" pX="0.5" pY="0.5"/>
+	<sprite n="I01_min_pupil_PURPLE" x="229" y="429" w="29" h="29" pX="0.5" pY="0.5"/>
+	<sprite n="I01_min_string" x="0" y="0" w="6" h="243" pX="0.5" pY="0.5" oX="4" oY="5" oW="14" oH="253"/>
+	<sprite n="I01_min_upper_arm_left" x="215" y="0" w="70" h="73" pX="0.5" pY="0.5" oX="0" oY="0" oW="75" oH="70" r="y"/>
+	<sprite n="I01_min_upper_arm_right" x="159" y="440" w="68" h="71" pX="0.5" pY="0.5" oX="2" oY="0" oW="75" oH="70" r="y"/>
+</TextureAtlas>

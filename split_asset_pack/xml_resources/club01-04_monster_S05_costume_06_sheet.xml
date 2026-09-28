@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b01b696e9cebfa2a59c9df5a668844e6:0941de8cd9f5d5d25b73af82e02e2ed2:25ca44174f32d8fb33ce1e586dde678f$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-04_monster_S05_costume_06_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="S05_body_mesh" x="152" y="189" w="105" h="111" pX="0.5" pY="0.5" oX="8" oY="4" oW="120" oH="120"/>
+	<sprite n="S05_body_mesh_print_NOTINT" x="272" y="342" w="47" h="90" pX="0.5" pY="0.5" oX="15" oY="53" oW="120" oH="120" r="y"/>
+	<sprite n="S05_eye_L" x="444" y="0" w="62" h="58" pX="0.5" pY="0.5" oX="4" oY="9" oW="72" oH="72"/>
+	<sprite n="S05_eye_R" x="361" y="38" w="62" h="58" pX="0.5" pY="0.5" oX="6" oY="9" oW="72" oH="72"/>
+	<sprite n="S05_head" x="0" y="344" w="128" h="128" pX="0.5" pY="0.5"/>
+	<sprite n="S05_hips_mesh" x="130" y="344" w="94" h="116" pX="0.5" pY="0.5" oX="4" oY="6" oW="120" oH="100" r="y"/>
+	<sprite n="S05_hood" x="0" y="0" w="172" h="187" pX="0.485" pY="0.815" oX="13" oY="7" oW="200" oH="200"/>
+	<sprite n="S05_hood_back" x="0" y="189" w="150" h="153" pX="0.485" pY="0.815" oX="22" oY="26" oW="200" oH="200" r="y"/>
+	<sprite n="S05_hood_print_NOTINT" x="174" y="123" w="49" h="57" pX="0.485" pY="0.815" oX="121" oY="21" oW="200" oH="200"/>
+	<sprite n="S05_midline" x="0" y="474" w="128" h="38" pX="0.5" pY="0.5" oX="0" oY="9" oW="128" oH="47"/>
+	<sprite n="S05_mouth" x="226" y="342" w="44" h="91" pX="0.5" pY="0.5" oX="0" oY="4" oW="94" oH="48" r="y"/>
+	<sprite n="S05_mouth_01" x="174" y="0" w="48" h="27" pX="0.5" pY="0.5" oX="22" oY="18" oW="94" oH="48"/>
+	<sprite n="S05_mouth_02" x="361" y="0" w="81" h="36" pX="0.5" pY="0.5" oX="5" oY="7" oW="94" oH="48"/>
+	<sprite n="S05_mouth_03" x="321" y="342" w="37" h="81" pX="0.5" pY="0.5" oX="5" oY="8" oW="94" oH="48" r="y"/>
+	<sprite n="S05_mouth_04" x="152" y="302" w="84" h="38" pX="0.5" pY="0.5" oX="4" oY="7" oW="94" oH="48"/>
+	<sprite n="S05_mouth_05" x="238" y="302" w="84" h="38" pX="0.5" pY="0.5" oX="4" oY="7" oW="94" oH="48"/>
+	<sprite n="S05_pupils_01" x="225" y="0" w="28" h="28" pX="0.5" pY="0.5" oX="22" oY="24" oW="74" oH="74"/>
+	<sprite n="S05_pupils_02" x="130" y="462" w="46" h="50" pX="0.5" pY="0.5" oX="11" oY="13" oW="74" oH="74" r="y"/>
+	<sprite n="S05_pupils_03" x="297" y="434" w="62" h="66" pX="0.5" pY="0.5" oX="3" oY="5" oW="74" oH="74" r="y"/>
+	<sprite n="S05_pupils_04" x="244" y="460" w="51" h="51" pX="0.5" pY="0.5" oX="12" oY="14" oW="74" oH="74"/>
+	<sprite n="S05_pupils_05" x="225" y="123" w="51" h="51" pX="0.5" pY="0.5" oX="12" oY="14" oW="74" oH="74"/>
+	<sprite n="S05_pupils_06" x="174" y="29" w="42" h="51" pX="0.5" pY="0.5" oX="13" oY="23" oW="74" oH="74" r="y"/>
+	<sprite n="S05_pupils_07" x="324" y="0" w="31" h="38" pX="0.5" pY="0.5" oX="17" oY="23" oW="74" oH="74" r="y"/>
+	<sprite n="S05_pupils_08" x="318" y="73" w="37" h="46" pX="0.5" pY="0.5" oX="13" oY="18" oW="74" oH="74" r="y"/>
+	<sprite n="S05_pupils_09" x="259" y="65" w="57" h="56" pX="0.5" pY="0.5" oX="8" oY="4" oW="74" oH="74" r="y"/>
+	<sprite n="S05_pupils_10" x="226" y="435" w="23" h="23" pX="0.5" pY="0.5" oX="26" oY="25" oW="74" oH="74"/>
+	<sprite n="S05_pupils_11" x="324" y="40" w="31" h="31" pX="0.5" pY="0.5" oX="22" oY="21" oW="74" oH="74"/>
+	<sprite n="S05_pupils_12" x="259" y="0" w="63" h="63" pX="0.5" pY="0.5" oX="6" oY="5" oW="74" oH="74"/>
+	<sprite n="S05_topline" x="178" y="462" w="64" h="49" pX="0.5" pY="0.5" oX="0" oY="5" oW="64" oH="54"/>
+</TextureAtlas>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c74a9ebc91ef1e6098892358e847920c:21cda07448b702f5d1d0ffc2d1433466:b93bd7f25ebac9b6caf43058444653b4$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BR_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="book back.png" x="92" y="139" w="60" h="125" oX="-4" oY="-52" oW="144" oH="84" r="y"/>
+    <sprite n="book left.png" x="282" y="203" w="52" h="91" oX="-49" oY="-21" oW="100" oH="56" r="y"/>
+    <sprite n="book right.png" x="156" y="203" w="122" h="74" oX="-9" oY="-6" oW="132" oH="85"/>
+    <sprite n="branch 1.png" x="104" y="268" w="46" h="91" oX="3" oY="4" oW="94" oH="50" r="y"/>
+    <sprite n="branch 2.png" x="356" y="66" w="136" h="46" oX="1" oY="2" oW="150" oH="52"/>
+    <sprite n="root 1.png" x="356" y="3" w="148" h="59" oX="14" oY="1" oW="162" oH="60"/>
+    <sprite n="root 2.png" x="3" y="139" w="85" h="125" oX="10" oY="30" oW="136" oH="132" r="y"/>
+    <sprite n="root 3.png" x="156" y="139" w="172" h="60" oX="1" oY="0" oW="174" oH="62"/>
+    <sprite n="shadow.png" x="3" y="3" w="349" h="132" oX="5" oY="2" oW="354" oH="144"/>
+    <sprite n="tree base.png" x="356" y="116" w="128" h="181" oX="0" oY="2" oW="128" oH="184"/>
+    <sprite n="tree intersection.png" x="154" y="281" w="95" h="89" oX="1" oY="1" oW="104" oH="92"/>
+    <sprite n="tree top.png" x="3" y="301" w="97" h="197" oX="0" oY="13" oW="112" oH="222"/>
+</TextureAtlas>

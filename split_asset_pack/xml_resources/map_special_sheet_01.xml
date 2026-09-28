@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c7dcfc47d15ce56eb820e835a6a741e1:24364d428cb9ac4f6e7b76f2714827b3:902f522a2811e4e25b983b16def1466f$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_special_sheet_01.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="map_special_memory" x="0" y="0" w="882" h="575"/>
+</TextureAtlas>

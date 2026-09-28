@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3d9c31dbe1eec1b412a7ac912424a596:ce27a210ba9d11eacc74d9a5a5911c3f:d1907e8f89d9f1f4c73d1d69e3a1999f$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_PRM_04_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="PRM_04_baseleaf_A" x="938" y="1382" w="80" h="94" oX="2" oY="23" oW="96" oH="108" r="y"/>
+	<sprite n="PRM_04_baseleaf_B" x="649" y="1140" w="128" h="79" oX="5" oY="17" oW="140" oH="104"/>
+	<sprite n="PRM_04_baseleaf_C" x="724" y="518" w="60" h="111" oX="4" oY="4" oW="120" oH="68" r="y"/>
+	<sprite n="PRM_04_baseleaf_D" x="946" y="982" w="78" h="123" oX="5" oY="17" oW="132" oH="100" r="y"/>
+	<sprite n="PRM_04_baseleaf_E" x="706" y="1636" w="94" h="80" oX="6" oY="7" oW="100" oH="92"/>
+	<sprite n="PRM_04_chin_A" x="399" y="1380" w="40" h="79" oX="0" oY="0" oW="44" oH="84"/>
+	<sprite n="PRM_04_chin_B" x="399" y="1461" w="38" h="80" oX="2" oY="0" oW="44" oH="84"/>
+	<sprite n="PRM_04_chin_C" x="946" y="1107" w="78" h="38" oX="3" oY="3" oW="44" oH="84" r="y"/>
+	<sprite n="PRM_04_chin_D" x="653" y="842" w="44" h="71" oX="0" oY="6" oW="44" oH="84"/>
+	<sprite n="PRM_04_face_L_tendril_A" x="716" y="739" w="68" h="47" oX="4" oY="0" oW="72" oH="52"/>
+	<sprite n="PRM_04_face_L_tendril_B" x="581" y="1605" w="123" h="121" oX="3" oY="2" oW="124" oH="128" r="y"/>
+	<sprite n="PRM_04_face_L_tendril_C" x="195" y="1494" w="50" h="112" oX="5" oY="0" oW="56" oH="116"/>
+	<sprite n="PRM_04_face_R_tendril_B" x="434" y="1669" w="110" h="100" oX="0" oY="0" oW="104" oH="116" r="y"/>
+	<sprite n="PRM_04_hairtop_A" x="724" y="631" w="55" h="106" oX="0" oY="3" oW="112" oH="60" r="y"/>
+	<sprite n="PRM_04_hairtop_B" x="434" y="1598" w="145" h="69" oX="3" oY="5" oW="152" oH="80"/>
+	<sprite n="PRM_04_hairtop_C" x="938" y="1279" w="82" h="101" oX="2" oY="3" oW="88" oH="104"/>
+	<sprite n="PRM_04_hairtop_D" x="653" y="952" w="124" h="186" oX="4" oY="4" oW="192" oH="128" r="y"/>
+	<sprite n="PRM_04_hairtop_E" x="195" y="1379" w="52" h="113" oX="0" oY="4" oW="116" oH="56" r="y"/>
+	<sprite n="PRM_04_head_01" x="0" y="0" w="264" h="257" oX="4" oY="8" oW="272" oH="272"/>
+	<sprite n="PRM_04_head_02" x="266" y="0" w="263" h="257" oX="4" oY="8" oW="272" oH="272"/>
+	<sprite n="PRM_04_head_03" x="531" y="0" w="263" h="257" oX="4" oY="8" oW="272" oH="272"/>
+	<sprite n="PRM_04_head_04" x="0" y="259" w="262" h="257" oX="4" oY="8" oW="272" oH="272"/>
+	<sprite n="PRM_04_head_05" x="264" y="259" w="260" h="257" oX="4" oY="8" oW="272" oH="272"/>
+	<sprite n="PRM_04_head_06" x="0" y="518" w="257" h="254" oX="4" oY="8" oW="272" oH="272" r="y"/>
+	<sprite n="PRM_04_head_07" x="526" y="259" w="260" h="257" oX="4" oY="8" oW="272" oH="272"/>
+	<sprite n="PRM_04_mouth_Aback_02" x="216" y="774" w="40" h="214" oX="18" oY="116" oW="240" oH="240" r="y"/>
+	<sprite n="PRM_04_mouth_Aback_03" x="781" y="897" w="216" h="83" oX="15" oY="89" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Aback_04" x="259" y="695" w="218" h="115" oX="14" oY="72" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Aback_05" x="786" y="749" w="216" h="146" oX="15" oY="50" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Aback_06" x="0" y="963" w="213" h="170" oX="15" oY="35" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Aback_07" x="0" y="774" w="214" h="187" oX="12" oY="26" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_01" x="259" y="518" w="232" h="83" oX="6" oY="104" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_02" x="259" y="603" w="228" h="90" oX="6" oY="95" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_03" x="796" y="185" w="228" h="118" oX="5" oY="73" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_04" x="493" y="518" w="229" h="151" oX="5" oY="54" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_05" x="796" y="0" w="228" h="183" oX="5" oY="33" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_06" x="786" y="534" w="227" h="213" oX="4" oY="14" oW="240" oH="240"/>
+	<sprite n="PRM_04_mouth_Afront_07" x="788" y="305" w="234" h="227" oX="3" oY="6" oW="240" oH="240" r="y"/>
+	<sprite n="PRM_04_mouth_Bback_02" x="215" y="990" w="40" h="166" oX="48" oY="103" oW="220" oH="220" r="y"/>
+	<sprite n="PRM_04_mouth_Bback_03" x="716" y="788" w="63" h="162" oX="51" oY="84" oW="220" oH="220" r="y"/>
+	<sprite n="PRM_04_mouth_Bback_04" x="448" y="1216" w="164" h="87" oX="48" oY="71" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bback_05" x="779" y="1122" w="165" h="116" oX="47" oY="53" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bback_06" x="779" y="982" w="165" h="138" oX="46" oY="39" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bback_07" x="448" y="1305" w="161" h="141" oX="48" oY="37" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_01" x="258" y="812" w="196" h="185" oX="19" oY="15" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_02" x="0" y="1135" w="195" h="185" oX="19" oY="15" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_03" x="453" y="1029" w="194" h="185" oX="19" oY="15" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_04" x="456" y="842" w="195" h="185" oX="19" oY="15" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_05" x="252" y="1193" w="194" h="185" oX="19" oY="15" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_06" x="0" y="1322" w="193" h="185" oX="19" oY="15" oW="220" oH="220"/>
+	<sprite n="PRM_04_mouth_Bfront_07" x="257" y="999" w="194" h="192" oX="19" oY="15" oW="220" oH="220" r="y"/>
+	<sprite n="PRM_04_mouth_Cback_02" x="397" y="1543" w="35" h="130" oX="24" oY="70" oW="160" oH="160" r="y"/>
+	<sprite n="PRM_04_mouth_Cback_03" x="197" y="1247" w="52" h="130" oX="23" oY="56" oW="160" oH="160" r="y"/>
+	<sprite n="PRM_04_mouth_Cback_04" x="946" y="1147" w="72" h="130" oX="23" oY="45" oW="160" oH="160" r="y"/>
+	<sprite n="PRM_04_mouth_Cback_05" x="741" y="1542" w="131" h="92" oX="22" oY="33" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cback_06" x="914" y="1478" w="110" h="129" oX="22" oY="20" oW="160" oH="160" r="y"/>
+	<sprite n="PRM_04_mouth_Cback_07" x="874" y="1609" w="130" h="117" oX="21" oY="16" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cfront_01" x="611" y="1308" w="150" h="146" oX="5" oY="7" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cfront_02" x="763" y="1394" w="149" h="146" oX="5" oY="7" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cfront_03" x="249" y="1380" w="148" h="148" oX="5" oY="5" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cfront_04" x="441" y="1448" w="148" h="148" oX="5" oY="5" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cfront_05" x="247" y="1530" w="148" h="148" oX="5" oY="5" oW="160" oH="160"/>
+	<sprite n="PRM_04_mouth_Cfront_06" x="591" y="1456" w="148" h="147" oX="5" oY="5" oW="160" oH="160" r="y"/>
+	<sprite n="PRM_04_mouth_Cfront_07" x="778" y="1240" w="158" h="152" oX="0" oY="2" oW="160" oH="160" r="y"/>
+	<sprite n="PRM_04_shadow" x="614" y="1221" w="162" h="85" oX="4" oY="0" oW="170" oH="85"/>
+	<sprite n="PRM_04_tongue" x="197" y="1158" w="53" h="87" oX="6" oY="9" oW="100" oH="68" r="y"/>
+	<sprite n="PRM_04_torso" x="489" y="671" w="225" h="169" oX="5" oY="7" oW="180" oH="240" r="y"/>
+	<sprite n="PRM_04_wart_A" x="1004" y="749" w="20" h="23" oX="0" oY="5" oW="32" oH="28" r="y"/>
+	<sprite n="PRM_04_wart_B" x="999" y="897" w="24" h="40" oX="4" oY="0" oW="28" oH="40"/>
+</TextureAtlas>

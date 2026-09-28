@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d3b1f1c23680c3f878d032c564e1f25c:5460504d88ca5d09641b9137377b8bd5:af836743735ae5125f0d61e6b4ef1ee8$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_blitherphish_mech_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="burst_light" x="472" y="44" w="32" h="66" r="y"/>
+	<sprite n="finger_a_01" x="331" y="390" w="52" h="81"/>
+	<sprite n="finger_a_02" x="407" y="230" w="74" h="66" r="y"/>
+	<sprite n="finger_a_03" x="262" y="390" w="67" h="90" r="y"/>
+	<sprite n="finger_b_01" x="0" y="449" w="57" h="63" r="y"/>
+	<sprite n="finger_b_02" x="451" y="426" w="61" h="62" r="y"/>
+	<sprite n="finger_b_03" x="385" y="360" w="69" h="64"/>
+	<sprite n="finger_c_01" x="456" y="360" w="55" h="50"/>
+	<sprite n="finger_c_02" x="407" y="298" w="71" h="60"/>
+	<sprite n="finger_c_03" x="385" y="426" w="64" h="67" r="y"/>
+	<sprite n="hand_bottom" x="321" y="0" w="149" h="228" r="y"/>
+	<sprite n="hand_top" x="0" y="230" w="138" h="217" r="y"/>
+	<sprite n="robo_body" x="225" y="277" w="110" h="111" r="y"/>
+	<sprite n="robo_claw_inner" x="472" y="154" w="23" h="19" r="y"/>
+	<sprite n="robo_claw_outer" x="472" y="133" w="28" h="19"/>
+	<sprite n="robo_claw_top" x="472" y="112" w="30" h="19" r="y"/>
+	<sprite n="robo_eye" x="472" y="0" w="39" h="42"/>
+	<sprite n="robo_fore_arm" x="319" y="230" w="42" h="43"/>
+	<sprite n="robo_grill" x="262" y="211" w="55" h="64"/>
+	<sprite n="robo_hand" x="497" y="154" w="12" h="12"/>
+	<sprite n="robo_upper_arm" x="506" y="44" w="6" h="19"/>
+	<sprite n="shadow_finger" x="140" y="230" w="83" h="193" r="y"/>
+	<sprite n="shadow_hand" x="0" y="0" w="319" h="209"/>
+	<sprite n="thumb_01" x="202" y="425" w="58" h="85"/>
+	<sprite n="thumb_02" x="59" y="449" w="80" h="62" r="y"/>
+	<sprite n="thumb_03" x="337" y="275" w="68" h="77"/>
+	<sprite n="tri_light" x="141" y="425" w="59" h="85" r="y"/>
+</TextureAtlas>

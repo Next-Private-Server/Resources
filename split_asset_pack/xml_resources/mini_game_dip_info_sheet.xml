@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d0d53978eaccde9247a629f6c1338fbc:5d734004b58a0130c81315655a399408:0cd39beca68ca2fc54b2c0106de6a7a1$ -->
+<TextureAtlas imagePath="gfx/menu/minigames/mini_game_dip_info_sheet.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="dip_cloud_01" x="718" y="527" w="116" h="114" oX="0" oY="1" oW="116" oH="116"/>
+	<sprite n="dip_tile_03" x="634" y="398" w="82" h="156" oX="0" oY="38" oW="156" oH="120" r="y"/>
+	<sprite n="dirt_02" x="1005" y="0" w="19" h="22"/>
+	<sprite n="info_arrow" x="441" y="398" w="113" h="183"/>
+	<sprite n="info_minigame_dip_01" x="0" y="608" w="562" h="396" r="y"/>
+	<sprite n="info_minigame_dip_02" x="0" y="0" w="439" h="606"/>
+	<sprite n="info_minigame_dip_03" x="441" y="0" w="562" h="396" r="y"/>
+	<sprite n="monster_finger" x="634" y="638" w="82" h="28" r="y"/>
+	<sprite n="monster_hand" x="556" y="398" w="76" h="159"/>
+	<sprite n="monster_level_numbers_02" x="974" y="474" w="49" h="48" oX="0" oY="1" oW="50" oH="50"/>
+	<sprite n="Q_body_01" x="848" y="474" w="124" h="118" oX="9" oY="10" oW="140" oH="144" r="y"/>
+	<sprite n="Q_dirt_chunk" x="0" y="1006" w="19" h="18" r="y"/>
+	<sprite n="Q_dirtmound_back" x="718" y="462" w="128" h="63" oX="12" oY="10" oW="152" oH="84"/>
+	<sprite n="Q_dirtmound_front" x="718" y="398" w="150" h="62" oX="2" oY="11" oW="156" oH="84"/>
+	<sprite n="Q_eyeball" x="836" y="594" w="30" h="28" oX="10" oY="12" oW="48" oH="48" r="y"/>
+	<sprite n="Q_headtop_04" x="870" y="398" w="131" h="74" oX="14" oY="45" oW="156" oH="128"/>
+	<sprite n="Q_mouth_01" x="636" y="556" w="80" h="24" oX="11" oY="15" oW="104" oH="80"/>
+	<sprite n="Q_mouth_02" x="974" y="524" w="35" h="77" oX="13" oY="14" oW="104" oH="80" r="y"/>
+	<sprite n="Q_mouth_03" x="556" y="559" w="78" h="44" oX="13" oY="14" oW="104" oH="80"/>
+	<sprite n="Q_mouth_04" x="636" y="582" w="78" h="54" oX="13" oY="14" oW="104" oH="80"/>
+	<sprite n="xp" x="564" y="605" w="68" h="62" oX="0" oY="3" oW="68" oH="68"/>
+</TextureAtlas>

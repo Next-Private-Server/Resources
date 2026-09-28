@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:748b456b8bd0375ec3b91248a37e6046:70ad9538fd29964a626484ecc4b7113f:078c758a0a55ea2eb1ced52909861239$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BEW_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BEW_body_RARE" x="248" y="619" w="81" h="100" oX="0" oY="1" oW="82" oH="104"/>
+	<sprite n="BEW_bulb_back" x="0" y="301" w="334" h="281" oX="0" oY="12" oW="334" oH="298"/>
+	<sprite n="BEW_bulb_RARE" x="0" y="0" w="379" h="301" oX="1" oY="11" oW="394" oH="318"/>
+	<sprite n="BEW_creature_1" x="104" y="823" w="28" h="24" r="y"/>
+	<sprite n="BEW_creature_2" x="206" y="823" w="28" h="26"/>
+	<sprite n="BEW_creature_3" x="104" y="823" w="28" h="24" r="y"/>
+	<sprite n="BEW_creature_4" x="352" y="329" w="16" h="18"/>
+	<sprite n="BEW_eye_glow_RARE" x="334" y="301" w="34" h="28" r="y"/>
+	<sprite n="BEW_eyelid_A_01_RARE" x="206" y="849" w="27" h="32"/>
+	<sprite n="BEW_eyelid_A_02_RARE" x="206" y="899" w="27" h="32"/>
+	<sprite n="BEW_eyelid_A_03_RARE" x="206" y="931" w="27" h="32"/>
+	<sprite n="BEW_eyelid_A_04_RARE" x="206" y="963" w="27" h="32"/>
+	<sprite n="BEW_foot_RARE" x="155" y="1002" w="25" h="21" oX="0" oY="0" oW="26" oH="21"/>
+	<sprite n="BEW_fruit_background" x="329" y="682" w="182" h="79"/>
+	<sprite n="BEW_fruit_forground" x="0" y="582" w="248" h="120"/>
+	<sprite n="BEW_fruitball_big" x="133" y="1002" w="22" h="22"/>
+	<sprite n="BEW_fruitball_small" x="334" y="329" w="18" h="18"/>
+	<sprite n="BEW_hand_EPIC" x="104" y="1002" w="29" h="22" oX="0" oY="0" oW="30" oH="22"/>
+	<sprite n="BEW_head_RARE" x="236" y="719" w="81" h="100" r="y"/>
+	<sprite n="BEW_impact_glow_01" x="104" y="849" w="49" h="49" oX="27" oY="27" oW="102" oH="102"/>
+	<sprite n="BEW_impact_glow_02" x="236" y="819" w="81" h="81" oX="10" oY="10" oW="102" oH="102"/>
+	<sprite n="BEW_impact_glow_03" x="233" y="900" w="98" h="98" oX="2" oY="2" oW="102" oH="102"/>
+	<sprite n="BEW_impact_glow_04" x="317" y="761" w="102" h="102"/>
+	<sprite n="BEW_impact_glow_05" x="104" y="900" w="102" h="102"/>
+	<sprite n="BEW_leaf_top" x="379" y="130" w="128" h="217" oX="2" oY="1" oW="222" oH="129" r="y"/>
+	<sprite n="BEW_leaf_top_bg" x="334" y="347" w="170" h="99"/>
+	<sprite n="BEW_lower_arm_RARE" x="419" y="761" w="81" h="48"/>
+	<sprite n="BEW_lower_leg_RARE" x="248" y="582" w="86" h="37" r="y"/>
+	<sprite n="BEW_shadow" x="334" y="446" w="166" h="86"/>
+	<sprite n="BEW_stem_01_RARE" x="0" y="702" w="236" h="121" oX="4" oY="3" oW="126" oH="240" r="y"/>
+	<sprite n="BEW_stem_02_RARE" x="334" y="532" w="164" h="150" r="y"/>
+	<sprite n="BEW_stem_03_RARE" x="379" y="0" w="132" h="130" oX="0" oY="0" oW="135" oH="132"/>
+	<sprite n="BEW_stem_base_RARE" x="0" y="823" w="104" h="193" oX="2" oY="2" oW="196" oH="106" r="y"/>
+	<sprite n="BEW_upper_arm" x="153" y="881" w="69" h="18" oX="0" oY="0" oW="70" oH="18"/>
+	<sprite n="BEW_upper_leg" x="180" y="1002" w="63" h="18" oX="0" oY="1" oW="18" oH="64" r="y"/>
+</TextureAtlas>

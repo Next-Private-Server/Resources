@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c7fd1ff921d2d375d7fbabe8408f3088:269e4b9fa8f3cd5028f7c1e578d9a3e4:681ffd188e6fbfe8fa3f2169e35d2081$ -->
+<TextureAtlas imagePath="gfx/menu/encore/encore_popup_sheet02.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="encore_all_decoration_01" x="753" y="344" w="266" h="376" oX="14" oY="12" oW="398" oH="286" r="y"/>
+	<sprite n="encore_hatching_decoration_01" x="753" y="0" w="267" h="342" oX="28" oY="9" oW="398" oH="286" r="y"/>
+	<sprite n="encore_image_all" x="0" y="0" w="751" h="459" oX="2" oY="1" oW="753" oH="494"/>
+	<sprite n="encore_image_hatching" x="0" y="461" w="728" h="493" oX="3" oY="1" oW="753" oH="494"/>
+</TextureAtlas>

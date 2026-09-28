@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1347e6acabcb13a68a70875cfd918f27:a682cf66b0fbee93eb1453a350a73a6d:895230cb036d0aad0c8a1cb40e679901$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island02_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island02_burns" x="0" y="0" w="638" h="1087" oX="0" oY="33" oW="638" oH="1166"/>
+	<sprite n="island02_ear" x="1145" y="0" w="802" h="434" oX="14" oY="1" oW="456" oH="804" r="y"/>
+	<sprite n="island02_edge" x="1145" y="1599" w="328" h="414" oX="0" oY="4" oW="414" oH="334" r="y"/>
+	<sprite n="island02_eyeclosed" x="414" y="1089" w="729" h="870" oX="0" oY="44" oW="870" oH="816" r="y"/>
+	<sprite n="island02_nose" x="1054" y="436" w="680" h="580" r="y"/>
+	<sprite n="island02_stumpcenter" x="640" y="0" w="412" h="990" oX="0" oY="0" oW="990" oH="460" r="y"/>
+	<sprite n="island02_stumpside" x="1145" y="1018" w="720" h="579" oX="5" oY="41" oW="728" oH="672"/>
+	<sprite n="w2_cloud" x="0" y="1089" w="412" h="900" oX="0" oY="3" oW="900" oH="420" r="y"/>
+	<sprite n="w2_comet" x="0" y="1991" w="220" h="48"/>
+	<sprite n="w2_snow_hamster" x="222" y="1991" w="48" h="48"/>
+	<sprite n="w2_snowfall" x="1475" y="1599" w="346" h="358" oX="7" oY="1" oW="360" oH="360"/>
+	<sprite n="w2_sparkle" x="272" y="1991" w="21" h="22" oX="1" oY="0" oW="22" oH="22"/>
+	<sprite n="w2_waterdrop" x="272" y="2015" w="12" h="20"/>
+</TextureAtlas>

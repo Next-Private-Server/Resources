@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c42ba50dd1bb1480141a4caf8ba49d13:f0c7a771bd96c8406acf9e46e1f724b2:fbab997b82ffa664d9c3e118172f0e94$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I06_sheet.png" width="1024" height="1024" hires="true" version="1">
+  <sprite n="I06_bell" x="281" y="325" w="32" h="45" oX="0" oY="1" oW="32" oH="48" />
+  <sprite n="I06_bell_rope" x="1016" y="79" w="8" h="29" oX="0" oY="1" oW="8" oH="32" />
+  <sprite n="I06_earing" x="589" y="458" w="119" h="24" oX="0" oY="5" oW="24" oH="128" r="y" />
+  <sprite n="I06_earing_base" x="281" y="420" w="28" h="28" />
+  <sprite n="I06_effect" x="742" y="540" w="69" h="68" oX="6" oY="6" oW="80" oH="80" />
+  <sprite n="I06_eye" x="307" y="585" w="62" h="51" oX="0" oY="6" oW="64" oH="64" />
+  <sprite n="I06_eye_glow" x="307" y="523" w="64" h="60" oX="0" oY="2" oW="64" oH="64" />
+  <sprite n="I06_eye_sleep" x="371" y="587" w="62" h="51" oX="0" oY="6" oW="64" oH="64" />
+  <sprite n="I06_hat_01" x="316" y="0" w="279" h="193" oX="1" oY="3" oW="280" oH="200" />
+  <sprite n="I06_hat_02" x="0" y="148" w="279" h="193" oX="1" oY="3" oW="280" oH="200" />
+  <sprite n="I06_hat_03" x="597" y="0" w="279" h="193" oX="1" oY="3" oW="280" oH="200" />
+  <sprite n="I06_hat_04" x="315" y="195" w="279" h="193" oX="1" oY="3" oW="280" oH="200" />
+  <sprite n="I06_hat_05" x="0" y="343" w="279" h="193" oX="1" oY="3" oW="280" oH="200" />
+  <sprite n="I06_head" x="752" y="475" w="76" h="63" oX="2" oY="1" oW="80" oH="65" />
+  <sprite n="I06_hip_01" x="477" y="390" w="110" h="106" oX="3" oY="9" oW="112" oH="129" r="y" />
+  <sprite n="I06_hip_02" x="589" y="484" w="110" h="105" oX="3" oY="9" oW="112" oH="129" r="y" />
+  <sprite n="I06_hip_03" x="477" y="498" w="110" h="105" oX="3" oY="9" oW="112" oH="129" r="y" />
+  <sprite n="I06_knee" x="281" y="389" w="29" h="29" oX="2" oY="2" oW="32" oH="32" />
+  <sprite n="I06_leg_lower" x="281" y="478" w="24" h="156" oX="8" oY="4" oW="40" oH="160" />
+  <sprite n="I06_leg_upper" x="281" y="148" w="32" h="115" oX="4" oY="2" oW="40" oH="120" />
+  <sprite n="I06_min_bell_01" x="701" y="539" w="39" h="38" oX="1" oY="1" oW="40" oH="40" r="y" />
+  <sprite n="I06_min_bell_02" x="710" y="458" w="40" h="38" oX="2" oY="0" oW="40" oH="40" r="y" />
+  <sprite n="I06_min_bell_03" x="701" y="579" w="39" h="38" oX="1" oY="1" oW="40" oH="40" r="y" />
+  <sprite n="I06_min_bell_04" x="813" y="540" w="39" h="38" oX="1" oY="0" oW="40" oH="40" r="y" />
+  <sprite n="I06_min_bell_rope" x="281" y="372" w="30" h="15" oX="1" oY="2" oW="16" oH="32" r="y" />
+  <sprite n="I06_min_eye" x="498" y="605" w="56" h="53" oX="6" oY="2" oW="64" oH="64" r="y" />
+  <sprite n="I06_min_eye_glow" x="435" y="605" w="61" h="57" oX="3" oY="0" oW="64" oH="64" r="y" />
+  <sprite n="I06_min_eye_sleep" x="813" y="598" w="56" h="53" oX="6" oY="2" oW="64" oH="64" r="y" />
+  <sprite n="I06_min_hat" x="0" y="0" w="314" h="146" oX="3" oY="6" oW="320" oH="160" />
+  <sprite n="I06_min_hat_glow" x="596" y="195" w="259" h="128" oX="58" oY="24" oW="320" oH="160" />
+  <sprite n="I06_min_hat_top" x="589" y="591" w="64" h="63" oX="0" oY="1" oW="64" oH="64" />
+  <sprite n="I06_min_hat_top_glow" x="373" y="523" w="63" h="62" oX="0" oY="1" oW="64" oH="64" />
+  <sprite n="I06_min_head" x="878" y="79" w="136" h="118" oX="5" oY="5" oW="128" oH="144" r="y" />
+  <sprite n="I06_min_head_top" x="762" y="325" w="92" h="148" oX="6" oY="2" oW="160" oH="96" r="y" />
+  <sprite n="I06_min_knee" x="281" y="450" w="27" h="26" oX="3" oY="4" oW="32" oH="32" r="y" />
+  <sprite n="I06_min_leg_lower" x="830" y="475" w="21" h="57" oX="5" oY="4" oW="32" oH="64" />
+  <sprite n="I06_min_leg_upper" x="281" y="265" w="32" h="58" oX="0" oY="3" oW="32" oH="64" />
+  <sprite n="I06_neck" x="701" y="498" w="39" h="39" />
+  <sprite n="I06_shadow" x="878" y="0" w="144" h="77" oX="0" oY="2" oW="144" oH="80" />
+  <sprite n="I06_torso_01" x="856" y="332" w="163" h="131" oX="3" oY="6" oW="168" oH="144" />
+  <sprite n="I06_torso_02" x="856" y="465" w="163" h="131" oX="3" oY="6" oW="168" oH="144" />
+  <sprite n="I06_torso_03" x="596" y="325" w="164" h="131" oX="2" oY="6" oW="168" oH="144" />
+  <sprite n="I06_torso_04" x="857" y="199" w="166" h="131" oX="0" oY="6" oW="168" oH="144" />
+  <sprite n="I06_torso_05" x="312" y="390" w="163" h="131" oX="3" oY="6" oW="168" oH="144" />
+</TextureAtlas>

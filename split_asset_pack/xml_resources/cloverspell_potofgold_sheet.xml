@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f4683a07efeca2770a238c2b0e2eb0ba:d229cefef5974753478c9060f166afef:78444fa30e88ae4a070c9ce8a6a629c7$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cloverspell_potofgold_sheet.png" width="512" height="512" hires="true">
+    <sprite n="cloverspell_anim_deco_02_gold.png" x="223" y="295" w="128" h="157" oX="3" oY="2" oW="164" oH="132" r="y"/>
+    <sprite n="cloverspell_anim_deco_02_pot.png" x="3" y="295" w="216" h="209" oX="8" oY="11" oW="232" oH="232"/>
+    <sprite n="cloverspell_anim_deco_02_rainbow.png" x="3" y="3" w="254" h="288" oX="4" oY="0" oW="260" oH="288"/>
+    <sprite n="deco_02_coin_1.png" x="251" y="494" w="24" h="15" oX="8" oY="15" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_2.png" x="223" y="496" w="24" h="12" oX="8" oY="16" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_3.png" x="335" y="486" w="24" h="12" oX="8" oY="16" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_4.png" x="279" y="491" w="24" h="15" oX="8" oY="15" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_5.png" x="307" y="488" w="24" h="19" oX="8" oY="13" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_6.png" x="332" y="456" w="24" h="26" oX="8" oY="8" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_7.png" x="276" y="456" w="24" h="31" oX="8" oY="5" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_8.png" x="223" y="456" w="24" h="36" oX="8" oY="0" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_9.png" x="304" y="456" w="24" h="28" oX="8" oY="6" oW="40" oH="44"/>
+    <sprite n="deco_02_coin_10.png" x="363" y="3" w="25" h="24" oX="8" oY="8" oW="40" oH="44" r="y"/>
+    <sprite n="deco_02_coin_shadow.png" x="251" y="456" w="21" h="34" oX="3" oY="15" oW="40" oH="44" r="y"/>
+</TextureAtlas>

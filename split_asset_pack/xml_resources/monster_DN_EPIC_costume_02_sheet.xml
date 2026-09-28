@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:63b2a5f28e38c182a504e396f3e7863e:36a4cb59da57fcbdc771639b843c235d:4dd56cda22b799215956f81ad0904deb$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_DN_EPIC_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="DN_adult_big_anglefin_1_EPIC" x="132" y="196" w="146" h="41" pX="0.7560975609756098" pY="0.9246575342465754" r="y"/>
+	<sprite n="DN_adult_body_Epic" x="241" y="0" w="146" h="178" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="DN_adult_eye_left_EPIC" x="389" y="158" w="103" h="102" pX="0.8223214285714285" pY="0.5508928571428572" oX="5" oY="4" oW="112" oH="112" r="y"/>
+	<sprite n="DN_adult_helmet_b_EPIC" x="381" y="262" w="78" h="40" pX="-1.725" pY="0.05" oX="0" oY="1" oW="40" oH="80" r="y"/>
+	<sprite n="DN_adult_helmet_EPIC" x="0" y="243" w="211" h="229" pX="0.5166666666666667" pY="0.4642857142857143" oX="6" oY="7" oW="240" oH="224" r="y"/>
+	<sprite n="DN_adult_left_fin_EPIC" x="0" y="0" w="130" h="241" pX="0.9791666666666666" pY="0.5843373493975904" oX="7" oY="4" oW="144" oH="249"/>
+	<sprite n="DN_adult_left_foot_EPIC" x="389" y="0" w="112" h="80" pX="0.21428571428571427" pY="0.15"/>
+	<sprite n="DN_adult_lowerleg_EPIC" x="213" y="239" w="48" h="68" pX="0.5" pY="0.5"/>
+	<sprite n="DN_adult_lowerleg_EPIC_right" x="213" y="309" w="46" h="68" pX="0.5625" pY="1.0294117647058822" oX="0" oY="0" oW="48" oH="68"/>
+	<sprite n="DN_adult_right_fin_EPIC" x="132" y="0" w="107" h="194" pX="0.5" pY="0.6201923076923077" oX="3" oY="1" oW="112" oH="208"/>
+	<sprite n="DN_adult_right_foot_EPIC" x="389" y="82" w="104" h="74" pX="0.17857142857142858" pY="0.25" oX="4" oY="2" oW="112" oH="80"/>
+	<sprite n="DN_adult_small_anglefin_1_Epic" x="0" y="474" w="91" h="33" pX="0.6666666666666666" pY="0.8681318681318682" r="y"/>
+	<sprite n="DN_adult_topfin_EPIC" x="280" y="180" w="99" h="153" pX="0.7767857142857143" pY="1.3683229813664597" oX="6" oY="4" oW="112" oH="161"/>
+</TextureAtlas>

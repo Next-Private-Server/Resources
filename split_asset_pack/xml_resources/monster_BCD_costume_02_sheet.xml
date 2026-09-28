@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:30b70109caa59b3e32513c8fe73b0c34:a41f587093a476482057f10d0bf8746c:b24598850cead0518c2bec41803fa64c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCD_costume_02_sheet.png" width="128" height="256" hires="true" version="1">
+	<sprite n="BCD_glove_bottom_left" x="0" y="0" w="78" h="59" pX="0.75" pY="0.325" oX="0" oY="12" oW="80" oH="80"/>
+	<sprite n="BCD_glove_bottom_right" x="0" y="118" w="73" h="67" pX="0.375" pY="0.35" oX="6" oY="3" oW="80" oH="80" r="y"/>
+	<sprite n="BCD_glove_top_left" x="0" y="61" w="74" h="55" pX="0.425" pY="0.775" oX="12" oY="3" oW="80" oH="80" r="y"/>
+	<sprite n="BCD_glove_top_right" x="0" y="187" w="61" h="66" pX="0.675" pY="0.775" oX="9" oY="7" oW="80" oH="80"/>
+</TextureAtlas>

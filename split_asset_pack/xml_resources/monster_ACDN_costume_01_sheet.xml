@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:94c560dca05e15c48dce709d7ad5a53a:268e9801f7719c96b293076527a5def6:232c488c26013847dab2b70e537a2884$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ACDN_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ACDF_body.png" x="3" y="3" w="207" h="321" pX="0.5" pY="0.5" oX="0" oY="6" oW="207" oH="327"/>
+    <sprite n="ACDF_cowsnout.png" x="214" y="3" w="64" h="48" pX="0.5" pY="0.5" oX="69.9" oY="112.4"/>
+    <sprite n="ACDF_head.png" x="100" y="328" w="183" h="138" pX="0.5" pY="0.5" oX="5" oY="0" oW="147" oH="189" r="y"/>
+    <sprite n="ACDF_left_lowerleg.png" x="214" y="121" w="229" h="122" pX="0.5" pY="0.5" oX="5" oY="7" oW="237" oH="132"/>
+    <sprite n="ACDF_left_upperleg.png" x="287" y="247" w="126" h="98" pX="0.5" pY="0.5" oX="4" oY="0" oW="141" oH="102"/>
+    <sprite n="ACDF_right_lowerleg.png" x="287" y="3" w="194" h="114" pX="0.5" pY="0.5" oX="6" oY="0" oW="201" oH="114"/>
+    <sprite n="ACDF_right_upperleg.png" x="3" y="328" w="93" h="160" pX="0.5" pY="0.5" oX="6" oY="0" oW="171" oH="99" r="y"/>
+    <sprite n="ACDF_tail.png" x="417" y="247" w="90" h="99" pX="0.5" pY="0.5" oX="1" oY="0" oW="105" oH="93" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:fe1ac06adeb752c8fe8dc515150bb582:50fcdb96a7dd571c1081b17ae12434a3:43f8004c3afaffd895ecc912a80b2b2f$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_GJKM_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="GJKM_axel" x="759" y="57" w="44" h="43" pX="0.5" pY="0.5" oX="2" oY="2" oW="48" oH="48" r="y"/>
+    <sprite n="GJKM_back_lowerarm" x="603" y="797" w="29" h="91" pX="0.5" pY="0.5" oX="1" oY="18" oW="32" oH="112"/>
+    <sprite n="GJKM_back_upperarm" x="245" y="986" w="90" h="35" pX="0.5" pY="0.5" oX="2" oY="9" oW="40" oH="100" r="y"/>
+    <sprite n="GJKM_clawfoot_left" x="426" y="535" w="72" h="166" pX="0.5" pY="0.5" oX="4" oY="3" oW="80" oH="172"/>
+    <sprite n="GJKM_clawfoot_left_back" x="435" y="799" w="72" h="166" pX="0.5" pY="0.5" oX="4" oY="3" oW="80" oH="172"/>
+    <sprite n="GJKM_clawfoot_right" x="354" y="801" w="79" h="166" pX="0.5" pY="0.5" oX="0" oY="3" oW="80" oH="172"/>
+    <sprite n="GJKM_clawfoot_right_back" x="345" y="535" w="79" h="166" pX="0.5" pY="0.5" oX="0" oY="3" oW="80" oH="172"/>
+    <sprite n="GJKM_eye_pupil" x="30" y="1006" w="11" h="11" pX="0.5" pY="0.5" oX="2" oY="2" oW="16" oH="16"/>
+    <sprite n="GJKM_eyeball" x="292" y="773" w="30" h="26" pX="0.5" pY="0.5" oX="3" oY="5" oW="32" oH="40" r="y"/>
+    <sprite n="GJKM_eyelid_01" x="2" y="1006" w="26" h="16" pX="0.5" pY="0.5" oX="3" oY="5" oW="32" oH="40"/>
+    <sprite n="GJKM_eyelid_02" x="324" y="773" w="30" h="26" pX="0.5" pY="0.5" oX="3" oY="5" oW="32" oH="40" r="y"/>
+    <sprite n="GJKM_eyelid_03" x="356" y="773" w="30" h="26" pX="0.5" pY="0.5" oX="3" oY="5" oW="32" oH="40" r="y"/>
+    <sprite n="GJKM_flyspark" x="43" y="1006" w="34" h="10" pX="0.5" pY="0.5" oX="3" oY="15" oW="40" oH="40"/>
+    <sprite n="GJKM_front_lowerarm" x="468" y="771" w="74" h="24" pX="0.5" pY="0.5" oX="4" oY="1" oW="32" oH="78" r="y"/>
+    <sprite n="GJKM_front_upperarm" x="634" y="788" w="37" h="87" pX="0.5" pY="0.5" oX="2" oY="3" oW="40" oH="92"/>
+    <sprite n="GJKM_head_jaw" x="566" y="918" w="86" h="101" pX="0.5" pY="0.5" oX="3" oY="3" oW="108" oH="92" r="y"/>
+    <sprite n="GJKM_head_middle" x="608" y="696" w="84" h="90" pX="0.5" pY="0.5" oX="3" oY="6" oW="96" oH="96" r="y"/>
+    <sprite n="GJKM_head_top" x="509" y="797" w="92" h="119" pX="0.5" pY="0.5" oX="2" oY="4" oW="124" oH="100" r="y"/>
+    <sprite n="GJKM_hitspark" x="682" y="875" w="37" h="40" pX="0.5" pY="0.5" oX="0" oY="0" oW="40" oH="40" r="y"/>
+    <sprite n="GJKM_neck" x="436" y="703" w="73" h="66" pX="0.5" pY="0.5" oX="3" oY="3" oW="80" oH="72"/>
+    <sprite n="GJKM_pickhand" x="500" y="535" w="44" h="96" pX="0.5" pY="0.5" oX="4" oY="4" oW="104" oH="52" r="y"/>
+    <sprite n="GJKM_pliers_claw" x="544" y="701" w="62" h="94" pX="0.5" pY="0.5" oX="5" oY="3" oW="72" oH="100"/>
+    <sprite n="GJKM_pliers_claw_L_behind" x="500" y="633" w="50" h="66" pX="0.5" pY="0.5" oX="9" oY="44" oW="80" oH="100" r="y"/>
+    <sprite n="GJKM_pliers_claw_L_front" x="552" y="629" w="92" h="65" pX="0.5" pY="0.5" oX="5" oY="5" oW="80" oH="100" r="y"/>
+    <sprite n="GJKM_pliers_claw_L_overlap" x="759" y="2" w="49" h="53" pX="0.5" pY="0.5" oX="22" oY="5" oW="80" oH="100" r="y"/>
+    <sprite n="GJKM_pliers_claw_R_behind" x="345" y="703" w="89" h="68" pX="0.5" pY="0.5" oX="7" oY="5" oW="80" oH="100" r="y"/>
+    <sprite n="GJKM_pliers_claw_R_front" x="546" y="535" w="69" h="92" pX="0.5" pY="0.5" oX="6" oY="5" oW="80" oH="100"/>
+    <sprite n="GJKM_ratchet_arm" x="104" y="986" w="101" h="36" pX="0.5" pY="0.5" oX="4" oY="4" oW="108" oH="40"/>
+    <sprite n="GJKM_ratchet_arm_behind" x="519" y="918" w="45" h="104" pX="0.5" pY="0.5" oX="2" oY="3" oW="108" oH="48" r="y"/>
+    <sprite n="GJKM_ratchet_claw" x="673" y="788" w="84" h="85" pX="0.5" pY="0.5" oX="5" oY="4" oW="96" oH="136"/>
+    <sprite n="GJKM_ratchet_claw_behind" x="238" y="773" w="52" h="27" pX="0.5" pY="0.5" oX="29" oY="79" oW="96" oH="136" r="y"/>
+    <sprite n="GJKM_saw" x="238" y="535" w="105" h="236" pX="0.5" pY="0.5" oX="2" oY="8" oW="240" oH="120" r="y"/>
+    <sprite n="GJKM_sawdust_01" x="207" y="986" w="36" h="36" pX="0.5" pY="0.5" oX="7" oY="1" oW="48" oH="80"/>
+    <sprite n="GJKM_sawdust_02" x="634" y="877" w="46" h="38" pX="0.5" pY="0.5" oX="6" oY="0" oW="48" oH="80" r="y"/>
+    <sprite n="GJKM_sawdust_03" x="698" y="981" w="54" h="41" pX="0.5" pY="0.5" oX="3" oY="0" oW="48" oH="80" r="y"/>
+    <sprite n="GJKM_sawdust_04" x="698" y="917" w="44" h="62" pX="0.5" pY="0.5" oX="2" oY="4" oW="48" oH="80"/>
+    <sprite n="GJKM_sawdust_05" x="654" y="917" w="42" h="63" pX="0.5" pY="0.5" oX="3" oY="10" oW="48" oH="80"/>
+    <sprite n="GJKM_sawdust_06" x="744" y="875" w="44" h="62" pX="0.5" pY="0.5" oX="2" oY="17" oW="48" oH="80"/>
+    <sprite n="GJKM_shadow" x="2" y="802" w="100" h="202" pX="0.5" pY="0.5" oX="3" oY="2" oW="208" oH="104" r="y"/>
+    <sprite n="GJKM_stack_arm" x="388" y="773" w="78" h="24" pX="0.5" pY="0.5" oX="2" oY="1" oW="28" oH="80" r="y"/>
+    <sprite n="GJKM_steam_cloud" x="810" y="2" w="60" h="59" pX="0.5" pY="0.5" oX="0" oY="1" oW="60" oH="60"/>
+    <sprite n="GJKM_steamstack_A" x="396" y="969" w="121" h="53" pX="0.5" pY="0.5" oX="3" oY="3" oW="60" oH="128" r="y"/>
+    <sprite n="GJKM_steamstack_B" x="473" y="491" w="92" h="42" pX="0.5" pY="0.5" oX="3" oY="2" oW="48" oH="96" r="y"/>
+    <sprite n="GJKM_steamstack_C" x="337" y="986" w="57" h="33" pX="0.5" pY="0.5" oX="3" oY="3" oW="40" oH="64" r="y"/>
+    <sprite n="GJKM_torso" x="104" y="802" w="248" h="182" pX="0.5" pY="0.5" oX="6" oY="10" oW="260" oH="200"/>
+    <sprite n="GJKM_torso_insideedge" x="754" y="939" w="54" h="61" pX="0.5" pY="0.5" oX="0" oY="5" oW="64" oH="64" r="y"/>
+    <sprite n="GJKM_upperleg" x="473" y="267" w="46" h="110" pX="0.5" pY="0.5" oX="0" oY="1" oW="112" oH="48" r="y"/>
+    <sprite n="GJKM_upperleg_back" x="473" y="379" w="46" h="110" pX="0.5" pY="0.5" oX="0" oY="1" oW="112" oH="48" r="y"/>
+    <sprite n="GJKM_wheel_00" x="2" y="536" w="234" h="264" pX="0.5" pY="0.5" oX="10" oY="7" oW="248" oH="276"/>
+    <sprite n="GJKM_wheel_01" x="237" y="269" w="234" h="264" pX="0.5" pY="0.5" oX="10" oY="8" oW="248" oH="276"/>
+    <sprite n="GJKM_wheel_02" x="238" y="2" w="234" h="263" pX="0.5" pY="0.5" oX="10" oY="8" oW="248" oH="276"/>
+    <sprite n="GJKM_wheel_03" x="2" y="269" w="233" h="265" pX="0.5" pY="0.5" oX="10" oY="7" oW="248" oH="276"/>
+    <sprite n="GJKM_wheel_04" x="2" y="2" w="234" h="265" pX="0.5" pY="0.5" oX="10" oY="7" oW="248" oH="276"/>
+</TextureAtlas>

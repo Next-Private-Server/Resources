@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:eb18b354982340e289fb4d854e5003ca:c86b478ec2975f73b24e9e32836df496:48b720fce5e8570bfd20bfcd4c8286b4$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-04_monster_ABCDN_costume_02_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ABCDF_AMPS" x="175" y="141" w="171" h="73" pX="0.51" pY="0.62" oX="14" oY="6" oW="200" oH="100"/>
+	<sprite n="ABCDF_AMPS_light_NOTINT" x="0" y="0" w="191" h="72" pX="0.51" pY="0.62" oX="4" oY="17" oW="200" oH="100"/>
+	<sprite n="ABCDF_eyeballs" x="0" y="358" w="98" h="45" pX="0.5" pY="0.5" oX="6" oY="0" oW="108" oH="56"/>
+	<sprite n="ABCDF_eyelids_01" x="148" y="404" w="92" h="33" pX="0.5" pY="0.5" oX="8" oY="8" oW="108" oH="48"/>
+	<sprite n="ABCDF_eyelids_02" x="0" y="448" w="92" h="33" pX="0.5" pY="0.5" oX="8" oY="8" oW="108" oH="48"/>
+	<sprite n="ABCDF_eyelids_03" x="0" y="483" w="92" h="33" pX="0.5" pY="0.5" oX="8" oY="8" oW="108" oH="48"/>
+	<sprite n="ABCDF_eyelids_04" x="148" y="439" w="92" h="33" pX="0.5" pY="0.5" oX="8" oY="8" oW="108" oH="48"/>
+	<sprite n="ABCDF_hand_01" x="0" y="624" w="68" h="44" pX="0.5" pY="0.5" oX="31" oY="8" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_hand_02" x="100" y="358" w="46" h="70" pX="0.5" pY="0.5" oX="34" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_03" x="146" y="598" w="62" h="60" pX="0.5" pY="0.5" oX="43" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_04" x="75" y="561" w="69" h="62" pX="0.5" pY="0.5" oX="43" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_05" x="70" y="625" w="59" h="58" pX="0.5" pY="0.5" oX="43" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_06" x="462" y="617" w="43" h="63" pX="0.5" pY="0.5" oX="42" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_07" x="222" y="525" w="71" h="40" pX="0.5" pY="0.5" oX="42" oY="7" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_hand_08" x="225" y="485" w="72" h="38" pX="0.5" pY="0.5" oX="35" oY="7" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_hand_09" x="328" y="501" w="67" h="51" pX="0.5" pY="0.5" oX="19" oY="8" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_hand_10" x="220" y="567" w="62" h="62" pX="0.5" pY="0.5" oX="8" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_11" x="94" y="430" w="52" h="67" pX="0.5" pY="0.5" oX="17" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_12" x="0" y="582" w="69" h="40" pX="0.5" pY="0.5" oX="30" oY="8" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_head" x="375" y="111" w="126" h="98" pX="0.5" pY="0.5" oX="7" oY="6" oW="141" oH="111"/>
+	<sprite n="ABCDF_headflame_01" x="168" y="274" w="161" h="58" pX="0.5" pY="0.5" oX="8" oY="24" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_02" x="0" y="192" w="171" h="56" pX="0.5" pY="0.5" oX="9" oY="15" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_03" x="0" y="74" w="176" h="57" pX="0.5" pY="0.5" oX="9" oY="9" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_04" x="0" y="250" w="166" h="57" pX="0.5" pY="0.5" oX="8" oY="20" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_05" x="348" y="211" w="163" h="58" pX="0.5" pY="0.5" oX="8" oY="22" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_06" x="173" y="216" w="168" h="56" pX="0.5" pY="0.5" oX="9" oY="17" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_07" x="0" y="133" w="173" h="57" pX="0.5" pY="0.5" oX="9" oY="12" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_headflame_08" x="343" y="271" w="167" h="57" pX="0.5" pY="0.5" oX="9" oY="19" oW="75" oH="192" r="y"/>
+	<sprite n="ABCDF_leg" x="0" y="309" w="147" h="47" pX="0.5" pY="0.5" oX="4" oY="9" oW="54" oH="156" r="y"/>
+	<sprite n="ABCDF_leg_light_NOTINT" x="148" y="509" w="72" h="37" pX="0.5" pY="0.5" oX="16" oY="32" oW="54" oH="156" r="y"/>
+	<sprite n="ABCDF_lowerarm" x="331" y="330" w="113" h="50" pX="0.5" pY="0.5" oX="2" oY="1" oW="117" oH="51"/>
+	<sprite n="ABCDF_lowerarm_LIGHT" x="0" y="405" w="92" h="41" pX="0.5" pY="0.5" oX="2" oY="7" oW="117" oH="51"/>
+	<sprite n="ABCDF_lowerbody" x="193" y="0" w="180" h="139" pX="0.5" pY="0.5" oX="8" oY="4" oW="156" oH="192" r="y"/>
+	<sprite n="ABCDF_lowerbody_light_NOTINT" x="94" y="499" w="52" h="60" pX="0.5" pY="0.5" oX="26" oY="56" oW="156" oH="192"/>
+	<sprite n="ABCDF_middlebody" x="330" y="382" w="100" h="55" pX="0.5" pY="0.5" oX="5" oY="7" oW="66" oH="114" r="y"/>
+	<sprite n="ABCDF_middlebody_light_NOTINT" x="0" y="518" w="73" h="62" pX="0.5" pY="0.5" oX="0" oY="41" oW="66" oH="114" r="y"/>
+	<sprite n="ABCDF_mouth_01" x="242" y="454" w="83" h="29" pX="0.522222" pY="0.566667" oX="0" oY="13" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_02" x="242" y="417" w="86" h="35" pX="0.5" pY="0.5" oX="0" oY="10" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_03" x="421" y="475" w="79" h="36" pX="0.5" pY="0.5" oX="4" oY="13" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_04" x="253" y="334" w="76" h="42" pX="0.5" pY="0.5" oX="6" oY="12" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_05" x="295" y="554" w="63" h="43" pX="0.5" pY="0.5" oX="12" oY="12" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_06" x="462" y="573" w="48" h="42" pX="0.5" pY="0.5" oX="18" oY="10" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_07" x="299" y="485" w="27" h="57" pX="0.5" pY="0.5" oX="14" oY="16" oW="90" oH="60" r="y"/>
+	<sprite n="ABCDF_mouth_08" x="148" y="474" w="75" h="33" pX="0.5" pY="0.5" oX="6" oY="15" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_09" x="397" y="513" w="67" h="38" pX="0.5" pY="0.5" oX="9" oY="13" oW="90" oH="60"/>
+	<sprite n="ABCDF_mouth_MASK" x="330" y="439" w="89" h="60" pX="0.522222" pY="0.583333" oX="0" oY="0" oW="90" oH="60"/>
+	<sprite n="ABCDF_pupil" x="348" y="141" w="21" h="21" pX="0.5" pY="0.5" oX="5" oY="4" oW="30" oH="30"/>
+	<sprite n="ABCDF_right_shoulder" x="397" y="553" w="63" h="63" pX="0.5" pY="0.5" oX="9" oY="0" oW="75" oH="75"/>
+	<sprite n="ABCDF_right_shoulder_light_NOTINT" x="148" y="548" w="70" h="48" pX="0.5" pY="0.5" oX="0" oY="15" oW="75" oH="75"/>
+	<sprite n="ABCDF_toe_1" x="253" y="378" w="75" h="37" pX="0.5" pY="0.5" oX="0" oY="2" oW="75" oH="39"/>
+	<sprite n="ABCDF_toe_1_light_NOTINT" x="0" y="670" w="55" h="39" pX="0.5" pY="0.5" oX="0" oY="0" oW="75" oH="39"/>
+	<sprite n="ABCDF_toe_2" x="466" y="513" w="45" h="58" pX="0.5" pY="0.5" oX="1" oY="7" oW="54" oH="69"/>
+	<sprite n="ABCDF_toe_2_light_NOTINT" x="446" y="330" w="66" h="37" pX="0.5" pY="0.5" oX="0" oY="0" oW="54" oH="69" r="y"/>
+	<sprite n="ABCDF_toe_3" x="432" y="435" w="79" h="38" pX="0.5" pY="0.5" oX="0" oY="7" oW="81" oH="45"/>
+	<sprite n="ABCDF_toe_3_light_NOTINT" x="284" y="599" w="37" h="37" pX="0.5" pY="0.5" oX="44" oY="6" oW="81" oH="45"/>
+	<sprite n="ABCDF_upperbody" x="375" y="0" w="129" h="109" pX="0.5" pY="0.5" oX="0" oY="0" oW="138" oH="117"/>
+	<sprite n="ABCDF_upperbody_light_NOTINT" x="149" y="334" w="102" h="68" pX="0.5" pY="0.5" oX="32" oY="15" oW="138" oH="117" r="y"/>
+	<sprite n="particle_candle" x="446" y="369" w="64" h="64" pX="0.5" pY="0.5"/>
+</TextureAtlas>

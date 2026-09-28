@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cb0e3e289ca2b788fd1891e0a257f675:7e899a6e1efe8456cf2307cae0afba62:e0566dab655e58be15403e8acd45cc7c$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_wubscreen_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="screen_bg" x="0" y="562" w="435" h="144" oX="3" oY="30" oW="446" oH="208">
+		<vertices>438 83 411 173 29 174 3 54 48 37 409 30</vertices>
+		<verticesUV>435 615 408 705 26 706 0 586 45 569 406 562</verticesUV>
+		<triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+	</sprite>
+	<sprite n="wubscreen_bg" x="265" y="782" w="197" h="66" oX="18" oY="19" oW="233" oH="104">
+		<vertices>215 85 18 85 18 19 215 19</vertices>
+		<verticesUV>462 848 265 848 265 782 462 782</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_eye_back" x="0" y="788" w="134" h="144" oX="23" oY="9" oW="168" oH="160">
+		<vertices>157 80 109 153 23 124 25 28 111 9</vertices>
+		<verticesUV>134 859 86 932 0 903 2 807 88 788</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="wubscreen_eye_glow" x="105" y="76" w="161" h="159" oX="0" oY="0" oW="168" oH="160">
+		<vertices>161 27 161 108 128 150 65 159 1 128 0 56 23 8 97 0</vertices>
+		<verticesUV>266 103 266 184 233 226 170 235 106 204 105 132 128 84 202 76</verticesUV>
+		<triangles>5 6 7 3 5 7 3 4 5 1 2 3 1 3 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="wubscreen_eye_off" x="196" y="909" w="114" h="104" oX="24" oY="27" oW="168" oH="160">
+		<vertices>138 131 24 131 24 27 138 27</vertices>
+		<verticesUV>310 1013 196 1013 196 909 310 909</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_eye_on" x="312" y="909" w="114" h="104" oX="24" oY="27" oW="168" oH="160">
+		<vertices>138 131 24 131 24 27 138 27</vertices>
+		<verticesUV>426 1013 312 1013 312 909 426 909</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_eyes" x="99" y="708" w="165" h="159" oX="15" oY="24" oW="196" oH="196">
+		<vertices>139 25 180 91 164 158 81 183 33 145 15 97 54 24</vertices>
+		<verticesUV>223 709 264 775 248 842 165 867 117 829 99 781 138 708</verticesUV>
+		<triangles>0 5 6 1 2 3 1 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="wubscreen_glow" x="249" y="707" w="226" h="73" oX="7" oY="14" oW="233" oH="104">
+		<vertices>233 52 198 87 29 87 7 53 17 15 210 14 50 68 189 64 193 41 42 38</vertices>
+		<verticesUV>475 745 440 780 271 780 249 746 259 708 452 707 292 761 431 757 435 734 284 731</verticesUV>
+		<triangles>6 2 3 7 0 1 6 7 1 6 1 2 9 6 3 9 3 4 9 4 5 8 9 5 0 8 5 0 7 8</triangles>
+	</sprite>
+	<sprite n="wubscreen_mouth_closed" x="0" y="314" w="437" h="248" oX="30" oY="130" oW="931" oH="416">
+		<vertices>277 186 467 202 467 375 287 378 128 337 64 283 30 192 97 130</vertices>
+		<verticesUV>247 370 437 386 437 559 257 562 98 521 34 467 0 376 67 314</verticesUV>
+		<triangles>5 6 7 0 4 5 0 3 4 3 0 1 3 1 2 0 5 7</triangles>
+	</sprite>
+	<sprite n="wubscreen_mouth_closed_patch" x="428" y="850" w="74" h="173" oX="429" oY="202" oW="931" oH="416">
+		<vertices>503 375 429 375 429 202 503 202</vertices>
+		<verticesUV>502 1023 428 1023 428 850 502 850</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_mouth_open" x="0" y="0" w="463" h="337" oX="4" oY="39" oW="931" oH="416">
+		<vertices>271 50 288 59 467 62 467 119 308 114 177 99 106 132 104 239 138 281 234 320 467 323 467 372 326 376 133 370 66 325 4 219 17 137 41 61 107 39</vertices>
+		<verticesUV>267 11 284 20 463 23 463 80 304 75 173 60 102 93 100 200 134 242 230 281 463 284 463 333 322 337 129 331 62 286 0 180 13 98 37 22 103 0</verticesUV>
+		<triangles>6 17 18 6 16 17 15 16 7 9 12 13 12 9 10 12 10 11 8 9 13 8 13 14 7 8 14 15 7 14 6 7 16 5 6 18 0 4 5 4 1 2 4 2 3 0 1 4 0 5 18</triangles>
+	</sprite>
+	<sprite n="wubscreen_mouth_open_patch" x="0" y="709" w="106" h="309" oX="413" oY="62" oW="931" oH="416">
+		<vertices>519 371 413 371 413 323 519 323 519 116 413 116 413 62 519 62</vertices>
+		<verticesUV>106 1018 0 1018 0 970 106 970 106 763 0 763 0 709 106 709</verticesUV>
+		<triangles>1 2 3 0 1 3 5 6 7 4 5 7</triangles>
+	</sprite>
+	<sprite n="wubscreen_off1" x="268" y="135" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>474 206 268 206 268 135 474 135</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_off2" x="250" y="208" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>456 279 250 279 250 208 456 208</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_pupil" x="0" y="765" w="29" h="29" oX="1" oY="1" oW="31" oH="31">
+		<vertices>30 30 1 30 1 1 30 1</vertices>
+		<verticesUV>29 794 0 794 0 765 29 765</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="wubscreen_scanlines" x="230" y="850" w="196" h="57" oX="19" oY="25" oW="233" oH="104">
+		<vertices>215 82 19 82 19 25 215 25</vertices>
+		<verticesUV>426 907 230 907 230 850 426 850</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5818f1a1b88cc141c10dc05af9b1dc4a:20a58136fd74aa760ee7612db6d9edcf:0e12aa06ae414066bb10b3853d83525f$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_DE_costume_08_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="xmas_over" x="0" y="0" w="293" h="326" pX="0.4967948717948718" pY="0.8862275449101796" oX="10" oY="0" oW="312" oH="334"/>
+	<sprite n="xmas_under_1" x="0" y="411" w="47" h="71" pX="0.4967948717948718" pY="0.8862275449101796" oX="35" oY="54" oW="312" oH="334" r="y"/>
+	<sprite n="xmas_under_2" x="49" y="411" w="34" h="68" pX="0.4967948717948718" pY="0.8862275449101796" oX="257" oY="199" oW="312" oH="334"/>
+	<sprite n="xmas_under_3" x="0" y="328" w="59" h="81" pX="0.4967948717948718" pY="0.8862275449101796" oX="12" oY="197" oW="312" oH="334"/>
+</TextureAtlas>

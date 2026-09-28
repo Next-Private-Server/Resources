@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:723391d6c04ce446953ca31bde0fc371:dbad318c0dd54328943251326d68b2ab:7507727364af1bfe0573f33864511052$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S04_RARE_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="COSTUME_RARE_EGG_HAT" x="376" y="48" w="101" h="180" pX="0.4473684210526316" pY="1.981818181818182" oX="5" oY="5" oW="190" oH="110" r="y"/>
+	<sprite n="COSTUME_RARE_NEST_BACK" x="0" y="204" w="325" h="68" pX="0.5052631578947369" pY="0.2863636363636364" oX="24" oY="5" oW="380" oH="220"/>
+	<sprite n="COSTUME_RARE_NEST_FRONT" x="0" y="0" w="374" h="202" pX="0.5052631578947369" pY="0.2863636363636364" oX="5" oY="15" oW="380" oH="220"/>
+	<sprite n="S04_shadow" x="376" y="0" w="106" h="46" pX="0.5" pY="0.5" oX="7" oY="0" oW="120" oH="46"/>
+</TextureAtlas>

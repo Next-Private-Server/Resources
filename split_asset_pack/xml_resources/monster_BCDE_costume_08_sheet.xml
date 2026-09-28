@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c316e1a3d3cad8446f8703cd01db6905:cd7ab66fb369a7b45ac0d1b950d71bf4:31c9eaf64c2ed13fe0867177726984ae$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCDE_costume_08_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BCDE_body" x="0" y="219" w="270" h="241" pX="0.5" pY="0.5" oX="0" oY="55" oW="280" oH="296"/>
+	<sprite n="BCDE_eye_back" x="471" y="543" w="36" h="96" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCDE_eyelids_1" x="102" y="697" w="100" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="BCDE_eyelids_2" x="0" y="727" w="100" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="BCDE_eyelids_3" x="204" y="697" w="42" h="100" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCDE_eyelids_4" x="102" y="741" w="100" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="BCDE_head_YODO1" x="0" y="0" w="332" h="217" pX="0.426396" pY="0.5625" oX="34" oY="33" oW="394" oH="272"/>
+	<sprite n="BCDE_leafbody_3" x="444" y="731" w="61" h="97" pX="0.5" pY="0.5" oX="0" oY="15" oW="110" oH="114"/>
+	<sprite n="BCDE_left_foot_YODO1" x="327" y="476" w="142" h="88" pX="0.549383" pY="0.318182" oX="20" oY="0" oW="162" oH="88"/>
+	<sprite n="BCDE_left_hand_1" x="0" y="647" w="100" h="78" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCDE_left_hand_2" x="0" y="771" w="96" h="78" pX="0.5" pY="0.5" oX="0" oY="0" oW="78" oH="100" r="y"/>
+	<sprite n="BCDE_left_hand_3" x="98" y="785" w="90" h="78" pX="0.5" pY="0.5" oX="0" oY="0" oW="78" oH="100" r="y"/>
+	<sprite n="BCDE_left_leg_YODO1" x="322" y="664" w="120" h="92" pX="0.439655" pY="0.866667" oX="14" oY="0" oW="116" oH="120" r="y"/>
+	<sprite n="BCDE_left_lower_arm_YODO1" x="0" y="462" w="128" h="78" pX="0.488636" pY="0.0390625" oX="3" oY="0" oW="88" oH="128" r="y"/>
+	<sprite n="BCDE_left_upper_arm_YODO1" x="328" y="372" w="142" h="102" pX="0.72549" pY="0.295775" r="y"/>
+	<sprite n="BCDE_mouth_01" x="190" y="799" w="34" h="81" pX="0.561047" pY="0.539063" oX="47" oY="34" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_02" x="472" y="458" w="37" h="83" pX="0.561047" pY="0.539063" oX="46" oY="34" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_03" x="0" y="851" w="81" h="45" pX="0.561047" pY="0.539063" oX="49" oY="36" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_04" x="272" y="252" w="55" h="86" pX="0.561047" pY="0.539063" oX="45" oY="36" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_05" x="256" y="479" w="64" h="88" pX="0.561047" pY="0.539063" oX="43" oY="35" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_06" x="249" y="659" w="71" h="61" pX="0.561047" pY="0.543307" oX="50" oY="39" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_07" x="272" y="340" w="54" h="49" pX="0.561047" pY="0.539063" oX="59" oY="43" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_08" x="272" y="219" w="56" h="31" pX="0.561047" pY="0.539063" oX="57" oY="39" oW="172" oH="128"/>
+	<sprite n="BCDE_mouth_09" x="472" y="372" w="37" h="84" pX="0.561047" pY="0.539063" oX="48" oY="33" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_10" x="248" y="722" w="45" h="81" pX="0.561047" pY="0.539063" oX="49" oY="37" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_11" x="272" y="391" w="53" h="86" pX="0.561047" pY="0.539063" oX="45" oY="39" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_12" x="447" y="641" w="62" h="88" pX="0.561047" pY="0.539063" oX="42" oY="36" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_mouth_13" x="256" y="569" w="63" h="88" pX="0.561047" pY="0.539063" oX="42" oY="35" oW="172" oH="128" r="y"/>
+	<sprite n="BCDE_pupil" x="485" y="154" w="16" h="16" pX="0.5" pY="0.5"/>
+	<sprite n="BCDE_right_foot_YODO1" x="0" y="542" w="123" h="103" pX="0.58209" pY="0.377358" oX="1" oY="1" oW="134" oH="106"/>
+	<sprite n="BCDE_right_hand_1" x="130" y="462" w="124" h="120" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="120"/>
+	<sprite n="BCDE_right_hand_2" x="125" y="584" w="122" h="111" pX="0.5" pY="0.5" oX="0" oY="0" oW="128" oH="120"/>
+	<sprite n="BCDE_right_hand_3" x="322" y="566" w="123" h="96" pX="0.5" pY="0.5" oX="2" oY="0" oW="128" oH="120"/>
+	<sprite n="BCDE_right_leg_YODO1" x="334" y="154" w="149" h="102" pX="0.53125" pY="0.878205" oX="3" oY="7" oW="128" oH="156" r="y"/>
+	<sprite n="BCDE_right_lower_arm_YODO1" x="329" y="258" w="148" h="112" pX="0.525424" pY="0.21519" oX="0" oY="7" oW="118" oH="158" r="y"/>
+	<sprite n="BCDE_right_upper_arm_YODO1" x="334" y="0" w="164" h="152" pX="0.256579" pY="0.309783" oX="0" oY="20" oW="152" oH="184" r="y"/>
+</TextureAtlas>

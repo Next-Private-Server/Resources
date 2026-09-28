@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/Minigames/MinigameDipsterDig.lua" />
+
+	<template type="template_minigame_top_prizes" name="MinigameTopPrizes">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$minigameId" equals="1" />
+		<templateVar name="$prize1Anim" equals="'minigame_dipdoor_astral_fa'" />
+		<templateVar name="$prize1Text" equals="DIPPY_Q25" />
+		<templateVar name="$prize2Anim" equals="'minigame_dipdoor_epic_re'" />
+		<templateVar name="$prize2Text" equals="MINIGAME_REWARD_EPIC_DIPSTERS" />
+		<templateVar name="$prize3Anim" equals="'minigame_dipdoor_rare_la'" />
+		<templateVar name="$prize3Text" equals="MINIGAME_REWARD_RARE_DIPSTERS" />
+		<position relativeTo="SAFE_AREA" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="40*game.hudScale()" yOffset="0" priorityOffset="30" />
+	</template>
+
+	<template type="template_currency_counter_avatar_xp" name="CurrencyCounterAvatarXP">
+		<templateVar name="$layer" equals="MidPopUps" />		
+		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="16*game.hudScale()" yOffset="4*game.hudScale()" priorityOffset="10" />
+	</template>
+
+	<template type="template_currency_counter_manager" name="CurrencyCounters">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="29" />
+		<event name="onInit" params="element">
+			<![CDATA[
+				onInit(element)
+
+				element.currencyOptions[game.CurrencyType_Coins].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Food].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Diamonds].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Shards].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Medals].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Starpower].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Relics].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_ClubboxTokens].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_EggWildcards].ViewState = element.VIEW_STATE.ALERT
+				element.currencyOptions[game.CurrencyType_Keys].ViewState = element.VIEW_STATE.ALERT
+
+				element.currencyOptions[game.CurrencyType_MinigameTokens].ViewState = element.VIEW_STATE.ALWAYS
+				element.currencyOptions[game.CurrencyType_MinigameTokens].FlyingIconMode = true
+			]]>
+		</event>
+	</template>
+
+	<template type="template_currency_counter_manager" name="CardCounter">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="CurrencyCounters" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="2*game.hudScale()" priorityOffset="0" />
+		<event name="onInit" params="element">
+			<![CDATA[
+				onInit(element)
+
+				element.currencyOptions[game.CurrencyType_CardPack].ViewState = element.VIEW_STATE.ALWAYS
+				element.currencyOptions[game.CurrencyType_CardPack].FlyingIconMode = true
+				element.currencyOptions[game.CurrencyType_CardPack].AutoHide = true
+			]]>
+		</event>
+	</template>
+
+	<element name="DiscoveredCounter">
+		<size dependentOnElement="element:name()" dependentOnComponent="BarBackingSprite" />
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-6*game.hudScale()" yOffset="-45*game.hudScale()" priorityOffset="30" />
+
+		<spriteSheetComponent name="BarBackingSprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("level_bar_empty")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("layer"):SetString("MidPopUps")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component:setPositionBroadcast(true)
+			</event>
+		</spriteSheetComponent>
+
+		<spriteSheetComponent name="BarSprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="1*game.hudScale()" yOffset="-1*game.hudScale()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("album_progress_bar")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+				component("FullMaskH"):SetInt(component("maskHeight"):GetInt())
+				component("FullMaskW"):SetInt(component("maskWidth"):GetInt())
+			</event>
+		</spriteSheetComponent>
+
+		<spriteSheetComponent name="ChestBacking">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.hudScale()" yOffset="-2*game.hudScale()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("encore_event_frame")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("size"):SetFloat(0.45*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<spriteSheetComponent name="ChestIcon">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.hudScale()" yOffset="-2*game.hudScale()" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("prize_wheel_jackpot")
+				component("sheetName"):SetString("xml_resources/prize_wheel_sheet.xml")
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+				component("hFlip"):SetInt(1)
+			</event>
+		</spriteSheetComponent>
+
+		<textComponent name="Text">
+			<size w="46*game.hudScale()" h="20*game.hudScale()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-1*game.hudScale()" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("text"):SetString("0/0")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+
+	</element>
+
+</menu>

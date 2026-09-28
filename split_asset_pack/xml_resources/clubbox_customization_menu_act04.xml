@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0fbeac184dc39d38211e6bc1a86773cd:86ac0d85049f1d1f3b27b1dd1e153fa8:380612c7e9efedadbd5a3f96634aba1d$ -->
+<TextureAtlas imagePath="gfx/clubbox/clubbox_customization_menu_act04.png" width="256" height="256" hires="false" version="1">
+	<sprite n="button_candelavra" x="0" y="0" w="92" h="92"/>
+	<sprite n="button_djepic_02" x="0" y="94" w="92" h="92"/>
+	<sprite n="button_rare_cranchee" x="94" y="0" w="92" h="92"/>
+	<sprite n="button_skinsuit" x="94" y="94" w="92" h="92"/>
+</TextureAtlas>

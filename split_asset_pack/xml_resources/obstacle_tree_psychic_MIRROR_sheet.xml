@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0e7261408bf5afe9c7ab7d76b1e015b4:586d403a652ca92acefddd79b4da0006:2a31f0afc0e3ef38742c5134ba79a7cd$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/obstacle_tree_psychic_MIRROR_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="obstacle_tree01_psychic_MIRROR" x="535" y="628" w="456" h="236" oX="3" oY="2" oW="240" oH="460" r="y"/>
+    <sprite n="obstacle_tree02_psychic_MIRROR" x="535" y="2" w="480" h="624" oX="2" oY="6" oW="484" oH="640"/>
+    <sprite n="obstacle_tree03_psychic_MIRROR" x="2" y="2" w="531" h="719" oX="7" oY="1" oW="563" oH="737"/>
+</TextureAtlas>

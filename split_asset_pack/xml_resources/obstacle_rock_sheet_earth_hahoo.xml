@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e4b5fec84401250638b8fd4dce8792d9:c5dd83332b1bf411d088190e25dd327e:53160c1f14c89dba97b4f59d51e286fe$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/obstacle_rock_sheet_earth_hahoo.png" width="512" height="1024" hires="true">
+    <sprite n="obstacle_rock01_hahoo" x="205" y="540" w="234" h="203" oX="38" oY="23" oW="280" oH="280" r="y"/>
+    <sprite n="obstacle_rock02_hahoo" x="2" y="540" w="201" h="350" oX="19" oY="15" oW="240" oH="380"/>
+    <sprite n="obstacle_rock03_hahoo" x="2" y="2" w="452" h="536" oX="14" oY="22" oW="480" oH="580"/>
+</TextureAtlas>

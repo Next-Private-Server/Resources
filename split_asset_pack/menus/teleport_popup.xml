@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/TeleportPopup.lua"/>
+		
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="7" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.0)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+	
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-lua_sys.screenWidth()" yOffset="-10" priorityOffset="6" />
+		<ninesliceComponent name="Sprite">
+			<size w="400*game.windowScaleX()" h="225*game.windowScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("includeBorder"):SetInt(1)
+				component("size"):SetFloat(0.5)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="Notification">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="380*game.windowScaleX()" h="50*game.windowScaleY()" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.27*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				if(game.shouldShowTeleportTutorial() == false) then
+					if game.player():getActiveIsland():isEtherealAtelierIsland() then 
+						component("text"):SetString(game.getLocalizedText("ISLET_TELEPORT_DESCRIPTION"))
+					else
+						component("text"):SetString(game.getLocalizedText("TELEPORT_DESCRIPTION"))
+					end
+				else
+					component("text"):SetString(game.getLocalizedText("BATT_TUT_TELEPORT_MENU_MSG"))
+					game.setSawTeleportTutorial()
+				end
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+	
+	<template type="template_teleportIslandEntry" name="TeleportBattleIslandButton">
+		<templateVar name="$text" equals="game.islandName(game.battleIslandId())" />
+		<templateVar name="$sheetName" equals="'xml_resources/'..game.islandIconSheetForId(game.battleIslandId())" />
+		<templateVar name="$upSpriteName" equals="game.islandIconSpriteForId(game.battleIslandId())" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="-130*game.windowScaleX()" yOffset="75*game.windowScaleY()" priorityOffset="-1" />
+	</template>
+
+	<template type="template_teleportIslandEntry" name="TeleportHomeIslandButton">
+		<templateVar name="$text" equals="game.islandName(game.etherealIslandId())" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0*game.windowScaleX()" yOffset="75*game.windowScaleY()" priorityOffset="-1" />
+	</template>
+
+	<template type="template_teleportIslandEntry" name="TeleportBBLizardIslandButton">
+		<templateVar name="$text" equals="game.islandName(game.bblizardIslandId())" />
+		<templateVar name="$sheetName" equals="'xml_resources/'..game.islandIconSheetForId(game.bblizardIslandId())" />
+		<templateVar name="$upSpriteName" equals="game.islandIconSpriteForId(game.bblizardIslandId())" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="130*game.windowScaleX()" yOffset="75*game.windowScaleY()" priorityOffset="-1" />
+	</template>
+</menu>

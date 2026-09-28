@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a2913ae320d534ed2af25368ea2590a6:34123f57fd86cdf4a4c03bd7ec4ab9d1:7d99621c0cfa933a14084d13f5761759$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_G_costume_03_sheet.png" width="512" height="512" hires="true">
+    <sprite n="G_body" x="2" y="2" w="152" h="284"/>
+    <sprite n="G_head" x="2" y="288" w="152" h="164" oX="0" oY="0" oW="164" oH="156" r="y"/>
+    <sprite n="G_left_eye_1" x="210" y="405" w="25" h="37" oX="1" oY="2" oW="28" oH="40"/>
+    <sprite n="G_left_eye_2" x="237" y="411" w="34" h="22" oX="1" oY="3" oW="28" oH="40" r="y"/>
+    <sprite n="G_left_eye_3" x="275" y="231" w="21" h="27" oX="1" oY="8" oW="28" oH="40"/>
+    <sprite n="G_left_eye_4" x="273" y="411" w="22" h="23" oX="1" oY="13" oW="28" oH="40" r="y"/>
+    <sprite n="G_left_hand" x="347" y="431" w="60" h="65" oX="1" oY="0" oW="68" oH="60" r="y"/>
+    <sprite n="G_left_lowerarm" x="285" y="436" w="60" h="74" oX="2" oY="0" oW="76" oH="60" r="y"/>
+    <sprite n="G_left_upperarm" x="353" y="326" w="61" h="65" oX="1" oY="6" oW="68" oH="72"/>
+    <sprite n="G_mouth_01" x="104" y="454" w="104" h="44"/>
+    <sprite n="G_mouth_02" x="156" y="2" w="44" h="104" r="y"/>
+    <sprite n="G_mouth_03" x="156" y="108" w="44" h="104" r="y"/>
+    <sprite n="G_mouth_04" x="240" y="306" w="44" h="103" oX="1" oY="0" oW="104" oH="44" r="y"/>
+    <sprite n="G_mouth_05" x="156" y="214" w="44" h="104" r="y"/>
+    <sprite n="G_right_eye_1" x="156" y="405" w="41" h="42" oX="2" oY="1" oW="44" oH="44"/>
+    <sprite n="G_right_eye_2" x="297" y="393" w="33" h="38" oX="2" oY="7" oW="44" oH="44" r="y"/>
+    <sprite n="G_right_eye_3" x="332" y="393" w="33" h="36" oX="3" oY="7" oW="44" oH="44" r="y"/>
+    <sprite n="G_right_eye_4" x="494" y="2" w="16" h="36" oX="3" oY="16" oW="44" oH="44" r="y"/>
+    <sprite n="G_right_hand" x="416" y="278" w="59" h="58" oX="0" oY="1" oW="60" oH="60"/>
+    <sprite n="G_right_lowerarm" x="210" y="444" w="73" h="65" oX="1" oY="1" oW="68" oH="76" r="y"/>
+    <sprite n="G_right_upperarm" x="202" y="231" w="71" h="73" oX="2" oY="2" oW="76" oH="76" r="y"/>
+    <sprite n="G_shadow" x="2" y="454" w="100" h="52" oX="3" oY="1" oW="108" oH="56"/>
+    <sprite n="G_sphere_01" x="286" y="326" w="65" h="65" oX="19" oY="19" oW="104" oH="104"/>
+    <sprite n="G_sphere_02" x="409" y="393" w="61" h="59" oX="21" oY="19" oW="104" oH="104" r="y"/>
+    <sprite n="G_sphere_03" x="156" y="320" w="82" h="83" oX="10" oY="11" oW="104" oH="104"/>
+    <sprite n="G_sphere_04" x="396" y="2" w="96" h="96" oX="3" oY="5" oW="104" oH="104"/>
+    <sprite n="G_sphere_05" x="298" y="135" w="93" h="93" oX="5" oY="5" oW="104" oH="104"/>
+    <sprite n="G_sphere_06" x="202" y="135" w="94" h="94" oX="4" oY="4" oW="104" oH="104"/>
+    <sprite n="G_sphere_07" x="396" y="100" w="95" h="95" oX="4" oY="4" oW="104" oH="104"/>
+    <sprite n="G_tail_1" x="210" y="2" w="184" h="131" oX="0" oY="1" oW="184" oH="132"/>
+    <sprite n="G_tail_2" x="393" y="197" w="104" h="79" oX="0" oY="0" oW="80" oH="104" r="y"/>
+    <sprite n="G_tail_3" x="298" y="230" w="78" h="94" oX="1" oY="2" oW="80" oH="100"/>
+</TextureAtlas>

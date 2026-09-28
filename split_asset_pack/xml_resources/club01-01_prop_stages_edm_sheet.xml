@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:85d2ad19876fc535daef90cb3412d223:d71ed6028efa4f4cdf1493f15c5f5a20:7c7997d19bd256cab36fcc29684990de$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_stages_edm_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="left_light_1" x="0" y="0" w="65" h="127">
+		<vertices>65 112 65 127 39 127 0 43 0 0 37 0</vertices>
+		<verticesUV>65 112 65 127 39 127 0 43 0 0 37 0</verticesUV>
+		<triangles>3 4 5 0 1 2 0 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="left_light_2" x="347" y="933" w="112" h="88">
+		<vertices>112 68 112 88 85 88 0 58 0 0 100 0</vertices>
+		<verticesUV>459 1001 459 1021 432 1021 347 991 347 933 447 933</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="left_light_glow_1" x="0" y="784" w="92" h="222">
+		<vertices>92 142 92 222 55 222 4 147 0 110 0 0 32 0</vertices>
+		<verticesUV>92 926 92 1006 55 1006 4 931 0 894 0 784 32 784</verticesUV>
+		<triangles>4 5 6 0 1 2 0 2 3 0 3 4 0 4 6</triangles>
+	</sprite>
+	<sprite n="left_light_glow_1b" x="895" y="660" w="73" h="134">
+		<vertices>73 90 73 134 26 134 0 40 0 0 27 0</vertices>
+		<verticesUV>968 750 968 794 921 794 895 700 895 660 922 660</verticesUV>
+		<triangles>3 4 5 2 0 1 2 3 0 0 3 5</triangles>
+	</sprite>
+	<sprite n="left_light_glow_2" x="394" y="666" w="114" h="94">
+		<vertices>114 45 114 94 20 94 0 46 0 0 22 0</vertices>
+		<verticesUV>508 711 508 760 414 760 394 712 394 666 416 666</verticesUV>
+		<triangles>3 4 5 0 3 5 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="left_light_glow_2b" x="895" y="796" w="116" h="91">
+		<vertices>116 18 116 91 50 91 0 41 0 0 45 0</vertices>
+		<verticesUV>1011 814 1011 887 945 887 895 837 895 796 940 796</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="right_light_1" x="969" y="391" w="48" h="130">
+		<vertices>48 130 0 130 0 115 19 17 37 0 48 0</vertices>
+		<verticesUV>1017 521 969 521 969 506 988 408 1006 391 1017 391</verticesUV>
+		<triangles>3 4 5 0 3 5 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="right_light_2" x="790" y="17" w="166" h="94">
+		<vertices>166 41 46 94 3 94 0 91 0 48 105 0 166 0</vertices>
+		<verticesUV>956 58 836 111 793 111 790 108 790 65 895 17 956 17</verticesUV>
+		<triangles>0 5 6 4 2 3 4 1 2 4 5 1 0 1 5</triangles>
+	</sprite>
+	<sprite n="right_light_glow_1" x="940" y="220" w="55" h="135">
+		<vertices>55 135 0 135 0 105 4 80 34 0 55 0</vertices>
+		<verticesUV>995 355 940 355 940 325 944 300 974 220 995 220</verticesUV>
+		<triangles>3 4 5 0 3 5 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="right_light_glow_1b" x="895" y="446" w="72" h="126">
+		<vertices>72 62 32 126 23 126 1 109 0 106 0 78 55 0 72 0</vertices>
+		<verticesUV>967 508 927 572 918 572 896 555 895 552 895 524 950 446 967 446</verticesUV>
+		<triangles>0 6 7 0 5 6 4 5 1 4 2 3 4 1 2 0 1 5</triangles>
+	</sprite>
+	<sprite n="right_light_glow_2" x="264" y="599" w="169" h="98">
+		<vertices>169 51 44 93 20 98 0 98 0 49 132 0 169 0</vertices>
+		<verticesUV>433 650 308 692 284 697 264 697 264 648 396 599 433 599</verticesUV>
+		<triangles>0 5 6 4 2 3 4 1 2 4 5 1 0 1 5</triangles>
+	</sprite>
+	<sprite n="screens00" x="700" y="905" w="151" h="95">
+		<vertices>151 71 151 95 0 95 0 0 80 0</vertices>
+		<verticesUV>851 976 851 1000 700 1000 700 905 780 905</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="screens01" x="821" y="846" w="151" h="95">
+		<vertices>151 71 151 95 0 95 0 0 80 0</vertices>
+		<verticesUV>972 917 972 941 821 941 821 846 901 846</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="screens02" x="334" y="836" w="151" h="95">
+		<vertices>151 71 151 95 0 95 0 0 80 0</vertices>
+		<verticesUV>485 907 485 931 334 931 334 836 414 836</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="screens03" x="510" y="699" w="151" h="95">
+		<vertices>151 71 151 95 0 95 0 0 80 0</vertices>
+		<verticesUV>661 770 661 794 510 794 510 699 590 699</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="screens04" x="94" y="907" w="151" h="95">
+		<vertices>151 71 151 95 0 95 0 0 80 0</vertices>
+		<verticesUV>245 978 245 1002 94 1002 94 907 174 907</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="screens05" x="0" y="522" w="151" h="95">
+		<vertices>151 71 151 95 0 95 0 0 80 0</vertices>
+		<verticesUV>151 593 151 617 0 617 0 522 80 522</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="stage" x="0" y="0" w="938" h="597">
+		<vertices>507 50 559 0 636 0 878 176 938 280 938 413 849 502 693 583 548 597 331 597 188 550 47 479 4 398 0 364 0 234 80 120 254 32 358 0 372 0</vertices>
+		<verticesUV>507 50 559 0 636 0 878 176 938 280 938 413 849 502 693 583 548 597 331 597 188 550 47 479 4 398 0 364 0 234 80 120 254 32 358 0 372 0</verticesUV>
+		<triangles>16 17 18 0 16 18 15 10 13 13 14 15 15 16 10 11 12 13 10 11 13 9 10 16 0 8 9 0 7 8 7 0 3 7 3 6 6 4 5 6 3 4 0 2 3 0 1 2 0 9 16</triangles>
+	</sprite>
+	<sprite n="stage_edgelight_a" x="895" y="348" w="117" h="134">
+		<vertices>117 33 16 134 0 134 0 111 111 0 117 0</vertices>
+		<verticesUV>1012 381 911 482 895 482 895 459 1006 348 1012 348</verticesUV>
+		<triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="stage_edgelight_b" x="674" y="0" w="276" h="25">
+		<vertices>276 14 44 15 31 25 0 25 0 0 276 0</vertices>
+		<verticesUV>950 14 718 15 705 25 674 25 674 0 950 0</verticesUV>
+		<triangles>2 3 4 1 2 4 1 4 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="stage_edgelight_c" x="19" y="473" w="172" h="129">
+		<vertices>172 87 172 129 159 129 122 82 0 10 0 0 12 0</vertices>
+		<verticesUV>191 560 191 602 178 602 141 555 19 483 19 473 31 473</verticesUV>
+		<triangles>4 5 6 3 4 6 0 1 2 0 2 3 6 0 3</triangles>
+	</sprite>
+	<sprite n="stage_edgelight_d" x="573" y="818" w="246" h="119">
+		<vertices>55 89 246 29 246 49 12 119 0 119 0 107 41 0 54 0</vertices>
+		<verticesUV>628 907 819 847 819 867 585 937 573 937 573 925 614 818 627 818</verticesUV>
+		<triangles>0 6 7 0 5 6 3 4 5 0 1 2 0 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="stage_lineglow" x="0" y="577" w="262" h="293">
+		<vertices>262 293 74 293 70 289 0 127 0 105 85 81 250 0 262 0</vertices>
+		<verticesUV>262 870 74 870 70 866 0 704 0 682 85 658 250 577 262 577</verticesUV>
+		<triangles>0 6 7 3 4 5 0 5 6 2 3 5 2 0 1 2 5 0</triangles>
+	</sprite>
+	<sprite n="stage_under_bottom" x="144" y="836" w="193" h="118">
+		<vertices>193 110 193 118 180 118 0 58 0 40 120 36 121 0 149 0</vertices>
+		<verticesUV>337 946 337 954 324 954 144 894 144 876 264 872 265 836 293 836</verticesUV>
+		<triangles>5 6 7 3 4 5 2 3 5 0 2 5 0 1 2 0 5 7</triangles>
+	</sprite>
+	<sprite n="stage_under_side" x="67" y="0" w="220" h="92">
+		<vertices>220 7 66 90 61 92 3 92 84 40 0 20 0 0 220 0</vertices>
+		<verticesUV>287 7 133 90 128 92 70 92 151 40 67 20 67 0 287 0</verticesUV>
+		<triangles>4 6 7 4 5 6 0 4 7 2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="stage_under_top" x="264" y="730" w="172" h="104">
+		<vertices>172 99 172 104 140 104 65 71 32 104 0 104 0 83 83 0 90 0</vertices>
+		<verticesUV>436 829 436 834 404 834 329 801 296 834 264 834 264 813 347 730 354 730</verticesUV>
+		<triangles>3 7 8 3 6 7 4 5 6 3 4 6 2 3 8 0 1 2 0 2 8</triangles>
+	</sprite>
+	<sprite n="star_plateform" x="501" y="469" w="392" h="423">
+		<vertices>392 352 164 423 130 423 176 286 0 166 0 133 258 119 388 0 392 0</vertices>
+		<verticesUV>893 821 665 892 631 892 677 755 501 635 501 602 759 588 889 469 893 469</verticesUV>
+		<triangles>6 7 8 4 5 6 3 4 6 0 6 8 0 3 6 1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

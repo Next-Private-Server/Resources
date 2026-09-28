@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:45f9850e37d3db99308965b3fc600d0c:a8f5721940310751deefddd6eef535d0:55df8b4abd62064e6f6cd2000b0f8152$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_stage_decor_water_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="anchor" x="181" y="263" w="165" h="139" oX="7" oY="5" oW="178" oH="149"/>
+	<sprite n="anchor_ring" x="0" y="314" w="45" h="45" oX="88" oY="58" oW="178" oH="149"/>
+	<sprite n="boat" x="193" y="106" w="180" h="155" oX="18" oY="9" oW="207" oH="204"/>
+	<sprite n="boat_glow" x="408" y="0" w="102" h="114" oX="0" oY="0" oW="103" oH="114"/>
+	<sprite n="boat_glow_02" x="0" y="425" w="47" h="74" oX="9" oY="0" oW="56" oH="76"/>
+	<sprite n="boat_sand" x="0" y="233" w="179" h="79" oX="9" oY="116" oW="207" oH="204"/>
+	<sprite n="castle" x="375" y="137" w="129" h="172" oX="29" oY="11" oW="229" oH="170" r="y"/>
+	<sprite n="castle_glow" x="162" y="425" w="119" h="62" oX="10" oY="0" oW="72" oH="119" r="y"/>
+	<sprite n="castle_glow_02" x="70" y="363" w="73" h="50" r="y"/>
+	<sprite n="castle_sand" x="0" y="0" w="210" h="93" oX="11" oY="72" oW="229" oH="170"/>
+	<sprite n="chest" x="0" y="363" w="68" h="54" oX="104" oY="4" oW="207" oH="110"/>
+	<sprite n="chest_cover" x="99" y="425" w="61" h="73" oX="11" oY="3" oW="89" oH="69" r="y"/>
+	<sprite n="chest_sand" x="212" y="0" w="194" h="104" oX="7" oY="3" oW="207" oH="110"/>
+	<sprite n="fish" x="0" y="95" w="191" h="136" oX="8" oY="12" oW="152" oH="222" r="y"/>
+	<sprite n="fish_glow" x="348" y="311" w="149" h="112" r="y"/>
+	<sprite n="fish_glow_02" x="49" y="419" w="48" h="92" oX="5" oY="23" oW="58" oH="115"/>
+	<sprite n="fish_sand" x="49" y="314" w="125" h="47" oX="13" oY="163" oW="152" oH="222"/>
+	<sprite n="glow_sparkle" x="375" y="106" w="29" h="29" oX="5" oY="2" oW="36" oH="33"/>
+</TextureAtlas>

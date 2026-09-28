@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f8870a55ffb22afde1b2b260e9d340d5:479bc5e082fddb99fed23c0520e2e307:cdf5a451d107f973d6b6ad43848d0812$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/mindboggle_cryptix_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="1-L" x="467" y="348" w="42" h="32" oX="8" oY="6" oW="48" oH="48" r="y"/>
+    <sprite n="1-R" x="467" y="440" w="41" h="33" oX="8" oY="7" oW="48" oH="48" r="y"/>
+    <sprite n="1" x="229" y="644" w="39" h="34" oX="5" oY="7" oW="48" oH="48"/>
+    <sprite n="2-L" x="464" y="637" w="43" h="31" oX="8" oY="1" oW="48" oH="48" r="y"/>
+    <sprite n="2-R" x="467" y="477" w="41" h="33" oX="8" oY="3" oW="48" oH="48" r="y"/>
+    <sprite n="2" x="358" y="702" w="38" h="34" oX="5" oY="8" oW="48" oH="48"/>
+    <sprite n="3-L" x="467" y="417" w="42" h="19" oX="14" oY="3" oW="48" oH="48" r="y"/>
+    <sprite n="3-R" x="271" y="716" w="39" h="21" oX="16" oY="7" oW="48" oH="48" r="y"/>
+    <sprite n="3" x="314" y="727" w="38" h="23" oX="13" oY="7" oW="48" oH="48" r="y"/>
+    <sprite n="4-L" x="185" y="613" w="40" h="28" oX="10" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="4-R" x="359" y="669" w="39" h="29" oX="10" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="4" x="402" y="675" w="38" h="35" oX="7" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="5-L" x="479" y="747" w="29" h="28" oX="10" oY="9" oW="48" oH="48" r="y"/>
+    <sprite n="5-R" x="325" y="628" w="44" h="29" oX="10" oY="3" oW="48" oH="48" r="y"/>
+    <sprite n="5" x="356" y="740" w="35" h="34" oX="7" oY="7" oW="48" oH="48"/>
+    <sprite n="6-L" x="465" y="602" w="44" h="31" oX="8" oY="4" oW="48" oH="48" r="y"/>
+    <sprite n="6-R" x="467" y="311" w="42" h="33" oX="8" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="6" x="420" y="633" w="40" h="38" oX="4" oY="6" oW="48" oH="48"/>
+    <sprite n="7-L" x="464" y="672" w="40" h="31" oX="8" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="7-R" x="185" y="645" w="39" h="34" oX="7" oY="6" oW="48" oH="48" r="y"/>
+    <sprite n="7" x="229" y="613" w="40" h="27" oX="4" oY="12" oW="48" oH="48"/>
+    <sprite n="8-L" x="396" y="608" w="46" h="21" oX="13" oY="2" oW="48" oH="48" r="y"/>
+    <sprite n="8-R" x="346" y="602" w="46" h="22" oX="14" oY="2" oW="48" oH="48" r="y"/>
+    <sprite n="8" x="315" y="697" w="39" h="26" oX="11" oY="6" oW="48" oH="48" r="y"/>
+    <sprite n="9-L" x="415" y="572" w="46" h="32" oX="9" oY="2" oW="48" oH="48" r="y"/>
+    <sprite n="9-R" x="373" y="633" w="43" h="32" oX="8" oY="3" oW="48" oH="48" r="y"/>
+    <sprite n="9" x="467" y="514" w="40" h="43" oX="5" oY="4" oW="48" oH="48"/>
+    <sprite n="10-L" x="467" y="384" w="42" h="29" oX="10" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="10-R" x="141" y="613" w="40" h="30" oX="9" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="10" x="444" y="707" w="37" h="36" oX="7" oY="7" oW="48" oH="48" r="y"/>
+    <sprite n="11-L" x="415" y="541" w="47" h="27" oX="12" oY="1" oW="48" oH="48" r="y"/>
+    <sprite n="11-R" x="276" y="606" w="45" h="28" oX="10" oY="3" oW="48" oH="48" r="y"/>
+    <sprite n="11" x="441" y="747" w="34" h="34" oX="7" oY="8" oW="48" oH="48"/>
+    <sprite n="12-L" x="228" y="682" w="39" h="31" oX="8" oY="6" oW="48" oH="48" r="y"/>
+    <sprite n="12-R" x="316" y="661" w="39" h="32" oX="7" oY="6" oW="48" oH="48" r="y"/>
+    <sprite n="12" x="273" y="638" w="39" h="38" oX="5" oY="6" oW="48" oH="48" r="y"/>
+    <sprite n="13-L" x="400" y="714" w="37" h="34" oX="7" oY="7" oW="48" oH="48" r="y"/>
+    <sprite n="13-R" x="272" y="680" w="39" h="32" oX="8" oY="5" oW="48" oH="48" r="y"/>
+    <sprite n="13" x="466" y="561" w="43" h="37" oX="2" oY="6" oW="48" oH="48"/>
+    <sprite n="Arrow_bottom" x="276" y="541" w="66" h="61" oX="1" oY="1" oW="68" oH="64"/>
+    <sprite n="Arrow_top" x="346" y="541" w="65" h="57" oX="2" oY="3" oW="68" oH="64"/>
+    <sprite n="Base" x="3" y="3" w="322" h="534" oX="9" oY="4" oW="340" oH="540"/>
+    <sprite n="Lantern" x="329" y="3" w="172" h="304" oX="33" oY="3" oW="248" oH="348"/>
+    <sprite n="Tile_01" x="141" y="541" w="131" h="68" oX="2" oY="7" oW="136" oH="78"/>
+    <sprite n="Tile_2" x="329" y="466" w="134" h="71" oX="1" oY="5" oW="136" oH="78"/>
+    <sprite n="Tile_2_Rev" x="3" y="541" w="134" h="71" oX="1" oY="5" oW="136" oH="78"/>
+    <sprite n="Tile_3" x="329" y="389" w="134" h="73" oX="1" oY="3" oW="136" oH="78"/>
+    <sprite n="Tile_3_Rev" x="329" y="311" w="134" h="74" oX="1" oY="2" oW="136" oH="78"/>
+</TextureAtlas>

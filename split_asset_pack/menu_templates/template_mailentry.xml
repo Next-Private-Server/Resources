@@ -1,0 +1,172 @@
+<template name="template_mailentry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<size w="0.7*lua_sys.screenWidth()" h="52*game.menuScaleY()" />
+	<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+	<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="100" />
+
+	<element name="MailBackground">
+		<size w="0.7*lua_sys.screenWidth()" h="52*game.menuScaleY()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="5*game.menuScaleX()" yOffset="0" priorityOffset="1" />
+		<ninesliceComponent name="SpriteySprite">
+			<size w="0.7*lua_sys.screenWidth()" h="52*game.menuScaleY()" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					if(element:parent()("attachment"):GetInt() > 0) then
+						component("spriteName"):SetString("gfx/menu/mailGreen"..element:parent()("greyIndex"):GetInt())
+					else
+						component("spriteName"):SetString("gfx/menu/friendGrey"..element:parent()("greyIndex"):GetInt())
+					end	
+					component("layer"):SetString("Clipping")
+					element:setPositionBroadcast(true)
+				]]>
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="MailIcon">
+		<size dependentOnElement="element:name()" dependentOnComponent="Frame" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5*game.menuScaleX()" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Frame">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("icon_frame")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.38*game.menuScaleY())
+				component("layer"):SetString("Clipping")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString(element:parent()("icon"):GetString())
+				component("sheetName"):SetString("xml_resources/buttons02.xml")
+				component("size"):SetFloat(0.40*game.menuScaleY())
+				component("layer"):SetString("Clipping")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="MailDesc">
+		<size w="0.47*lua_sys.screenWidth()" h="52*game.menuScaleY()" />
+		<position relativeTo="MailIcon" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="5*game.menuScaleX()" yOffset="0" priorityOffset="0" />
+		<textComponent name="Title">
+			<size w="0.47*lua_sys.screenWidth()" h="26*game.menuScaleY()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString(element:parent()("title"):GetString())
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("layer"):SetString("Clipping")
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="ViewButton">
+		<templateVar name="$upSpriteName" equals="'button_base_grey'" />
+		<templateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" />
+		<templateVar name="$text" equals="CONTEXTBAR_VIEW_LABEL" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$layer" equals="Clipping" />
+		<templateVar name="$spriteScale" equals="0.3*game.menuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="5*game.menuScaleY()-5*game.menuScaleX()" yOffset="5*game.menuScaleY()" priorityOffset="0" />
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_magnify")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("Clipping")
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Text"]:setColor(1.0, 1.0, 1.0)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1, 1, 1)
+				
+				--element = ViewButton
+				--element:parent() = Template Root
+				--element:parent():parent() = outside my scope
+				--element:parent():parent():parent() = wtf is even happening
+				--TODO: dont touch anything outside your scope. this should be 
+				--coordinated in the mysterious great grandparent
+
+				local myParent = element:parent()
+				local target = element:parent():parent():parent()
+				
+				target("selectedIndex"):SetInt(myParent("index"):GetInt())
+				target("selectedShortTitle"):SetString(myParent("shortTitle"):GetString())
+				target("selectedSender"):SetString(myParent("sender"):GetString())
+				target("selectedMessage"):SetString(myParent("message"):GetString())
+				target("selectedIcon"):SetString(myParent("icon"):GetString())
+				target("selectedAttachment"):SetInt(myParent("attachment"):GetInt())
+				target("selectedAttachmentName"):SetString(myParent("attachmentName"):GetString())
+				target("selectedAttachmentType"):SetString(myParent("attachmentType"):GetString())
+				target("selectedAttachmentIcon"):SetString(myParent("attachmentIcon"):GetString())
+				target("selectedAttachmentSheet"):SetString(myParent("attachmentSheet"):GetString())
+				target("selectedAttachmentEntity"):SetString(myParent("attachmentEntity"):GetString())
+				target("selectedAttachmentLevel"):SetString(myParent("attachmentLevel"):GetString())
+				target("selectedAttachmentAnim"):SetString(myParent("attachmentAnim"):GetString())
+				target("selectedAttachmentTintR"):SetFloat(myParent("attachmentTintR"):GetFloat())
+				target("selectedAttachmentTintY"):SetFloat(myParent("attachmentTintY"):GetFloat())
+				target("selectedAttachmentTintB"):SetFloat(myParent("attachmentTintB"):GetFloat())
+				target:DoStoredScript("hideList")
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1, 1, 1)
+			</event>
+		</touchComponent>
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" dependentOnComponent="BoundsSprite" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component:GetVar("yOffset"):SetInt(-2 * game.menuScaleY())
+				component:GetVar("size"):SetFloat(0.2 * game.menuScaleY())
+			</event>
+		</textComponent>
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+		</event>
+	</template>
+	
+	<event name="hide" params="element">
+		<![CDATA[
+			element["MailBackground"]["SpriteySprite"]("visible"):SetInt(0)
+			element["MailIcon"]["Frame"]("visible"):SetInt(0)
+			element["MailIcon"]["Icon"]("visible"):SetInt(0)
+			element["MailDesc"]["Title"]("visible"):SetInt(0)
+			element["ViewButton"]["Overlay"]("visible"):SetInt(0)
+			element["ViewButton"]:DoStoredScript("setInvisible")
+		]]>
+	</event>
+	
+	<event name="show" params="element">
+		<![CDATA[
+			element["MailBackground"]["SpriteySprite"]("visible"):SetInt(1)
+			element["MailIcon"]["Frame"]("visible"):SetInt(1)
+			element["MailIcon"]["Icon"]("visible"):SetInt(1)
+			element["MailDesc"]["Title"]("visible"):SetInt(1)
+			element["ViewButton"]["Overlay"]("visible"):SetInt(1)
+			element["ViewButton"]:DoStoredScript("setVisible")
+		]]>
+	</event>
+	
+</template>

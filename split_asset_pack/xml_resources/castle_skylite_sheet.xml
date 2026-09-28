@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:05591b11439d4188c0470b2d727946f4:8c61f5159ff1d1a837b0f4b348668520:eca6d1f62adc219ea4b2f4d06600f027$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/castle_skylite_sheet.png" width="512" height="512">
+    <sprite n="castle_Skylite_base" x="2" y="97" w="479" h="387" oX="24" oY="12" oW="440" oH="496" r="y"/>
+    <sprite n="castle_Skylite_crystalA" x="2" y="2" w="77" h="68" oX="1" oY="7" oW="80" oH="80"/>
+    <sprite n="castle_Skylite_crystalB" x="196" y="2" w="96" h="93" oX="0" oY="1" oW="96" oH="96"/>
+    <sprite n="castle_Skylite_crystalC" x="294" y="2" w="98" h="93" oX="10" oY="14" oW="120" oH="120"/>
+    <sprite n="castle_Skylite_pyramid" x="81" y="2" w="113" h="79" oX="3" oY="2" oW="84" oH="120" r="y"/>
+</TextureAtlas>

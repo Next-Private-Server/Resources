@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:81082534321ed64cf9130579068670ea:09b0ae8d5dc7f88c5a0882628811c5aa:a0546e579182eef5f7210a18e54ae6a5$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_costume_07_sheet.png" width="256" height="512" hires="true">
+    <sprite n="ABE_fur_eyeback" x="166" y="94" w="87" h="48" pX="0.5" pY="0.5" oX="0" oY="0" oW="88" oH="48"/>
+    <sprite n="ABE_fur_eyelids_1" x="202" y="3" w="48" h="87" pX="0.5" pY="0.5" oX="0" oY="0" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_fur_eyelids_2" x="103" y="425" w="87" h="48" pX="0.5" pY="0.5" oX="0" oY="0" oW="88" oH="48"/>
+    <sprite n="ABE_fur_mouth_1" x="195" y="221" w="38" h="32" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_fur_mouth_2" x="139" y="477" w="38" h="30" pX="0.5" pY="0.5" oX="0" oY="2" oW="38" oH="32"/>
+    <sprite n="ABE_fur_mouth_3" x="181" y="479" w="38" h="26" pX="0.5" pY="0.5" oX="0" oY="3" oW="38" oH="32"/>
+    <sprite n="ABE_fur_mouth_4" x="228" y="257" w="24" h="25" pX="0.5" pY="0.5" oX="9" oY="5" oW="38" oH="32"/>
+    <sprite n="ABE_fur_nose" x="170" y="266" w="12" h="16" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_left_mushroom_top" x="119" y="293" w="66" h="128" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_pink_eyeback" x="189" y="266" w="35" h="71" pX="0.5" pY="0.5" oX="9" oY="8" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_pink_eyelids_1" x="194" y="404" w="35" h="71" pX="0.5" pY="0.5" oX="9" oY="8" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_pink_eyelids_2" x="195" y="146" w="35" h="71" pX="0.5" pY="0.5" oX="9" oY="8" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_pink_eyeshape" x="75" y="94" w="87" h="53" pX="0.5" pY="0.5" oX="-2" oY="0.8"/>
+    <sprite n="ABE_pink_mouth_1" x="3" y="477" w="64" h="29" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="30"/>
+    <sprite n="ABE_pink_mouth_2" x="71" y="477" w="64" h="26" pX="0.5" pY="0.5" oX="0" oY="1" oW="64" oH="30"/>
+    <sprite n="ABE_pink_mouth_3" x="79" y="266" w="64" h="23" pX="0.5" pY="0.5" oX="0" oY="1" oW="64" oH="30"/>
+    <sprite n="ABE_pink_mouth_4" x="223" y="479" w="30" h="27" pX="0.5" pY="0.5" oX="15" oY="2" oW="64" oH="30"/>
+    <sprite n="ABE_pink_nose" x="228" y="286" w="12" h="16" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_pink_nosehook" x="147" y="266" w="19" h="17" pX="0.5" pY="0.5" oX="-4" oY="5"/>
+    <sprite n="ABE_pupil" x="103" y="409" w="10" h="10" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_pupil_chomph" x="228" y="306" w="10" h="10" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_right_mushroom_top" x="3" y="157" w="72" h="132" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_thumpie_fur" x="79" y="151" w="112" h="111" pX="0.5" pY="0.5" oX="0" oY="1" oW="112" oH="112"/>
+    <sprite n="ABE_thumpie_fur_exhaust" x="3" y="409" w="96" h="64" pX="0.5" pY="0.5" oX="2" oY="-12"/>
+    <sprite n="ABE_thumpie_fur_jaw" x="75" y="3" w="123" h="87" pX="0.5" pY="0.5" oX="-4" oY="34"/>
+    <sprite n="ABE_thumpie_pink" x="3" y="293" w="112" h="112" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_thumpie_pink_mohawk" x="189" y="341" w="54" h="59" pX="0.5" pY="0.5" oX="31" oY="-24"/>
+    <sprite n="ABE_treestump_top" x="3" y="3" w="68" h="150" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

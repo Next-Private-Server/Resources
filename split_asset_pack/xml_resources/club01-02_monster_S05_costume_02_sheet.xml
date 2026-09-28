@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:29b4cfc42cce10cd05d84c6098dc3383:aafa55921980e6f201695cd54b042bc0:aed37ca746c7af2c98ddba68151464e5$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_S05_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="S05_arm_l" x="90" y="214" w="74" h="30" pX="0.66" pY="0.45" oX="1" oY="0" oW="75" oH="30"/>
+	<sprite n="S05_arm_r" x="175" y="209" w="64" h="29" pX="0.2826086956521739" pY="0.4032258064516129" oX="5" oY="0" oW="69" oH="31"/>
+	<sprite n="S05_coat" x="378" y="159" w="104" h="96" pX="0.4781021897810219" pY="0.6130434782608696" oX="18" oY="9" oW="137" oH="115"/>
+	<sprite n="S05_coat_decor" x="498" y="40" w="10" h="38" pX="-2.2" pY="0.9675" oX="0" oY="0" oW="10" oH="40"/>
+	<sprite n="S05_coatend" x="0" y="70" w="119" h="84" pX="0.4865771812080537" pY="0.336734693877551" oX="16" oY="7" oW="149" oH="98"/>
+	<sprite n="S05_hairbun" x="175" y="156" w="65" h="51" pX="0.19230769230769232" pY="0.6764705882352942"/>
+	<sprite n="S05_necklace" x="242" y="190" w="82" h="57" pX="0.5666666666666667" pY="0.5" oX="1" oY="4" oW="60" oH="90" r="y"/>
+	<sprite n="S05_sleeve_l" x="166" y="302" w="46" h="40" pX="0.7580645161290323" pY="0.36" oX="10" oY="5" oW="62" oH="50"/>
+	<sprite n="S05_sleeve_l_back" x="498" y="0" w="14" h="38" pX="2.642857142857143" pY="0.3157894736842105"/>
+	<sprite n="S05_sleeve_r" x="0" y="332" w="55" h="39" pX="0.25675675675675674" pY="0.45454545454545453" oX="6" oY="9" oW="74" oH="55"/>
+	<sprite n="S05_sleeve_r_back" x="492" y="127" w="16" h="39" pX="-0.7" pY="0.41836734693877553" oX="7" oY="5" oW="30" oH="49"/>
+	<sprite n="S05_toe_l" x="0" y="373" w="52" h="37" pX="0.5483870967741935" pY="0.5697674418604651" oX="5" oY="3" oW="62" oH="43"/>
+	<sprite n="S05_toe_r" x="57" y="341" w="52" h="38" pX="0.475" pY="0.6724137931034483" oX="14" oY="10" oW="80" oH="58"/>
+	<sprite n="S05_wig" x="249" y="69" w="127" h="119" pX="0.4379310344827586" pY="0.7582781456953642" oX="13" oY="24" oW="145" oH="151" r="y"/>
+	<sprite n="X_hand_01" x="230" y="249" w="60" h="58" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_hand_02" x="0" y="222" w="61" h="59" pX="0.5" pY="0.5" oX="5" oY="0" oW="68" oH="60"/>
+	<sprite n="X_hand_03" x="326" y="190" w="50" h="59" pX="0.5" pY="0.5" oX="16" oY="0" oW="68" oH="60"/>
+	<sprite n="X_hand_04" x="0" y="283" w="56" h="47" pX="0.5" pY="0.5" oX="16" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_hand_05" x="121" y="246" w="43" h="52" pX="0.5" pY="0.5" oX="16" oY="0" oW="68" oH="60"/>
+	<sprite n="X_hand_06" x="121" y="300" w="43" h="46" pX="0.5" pY="0.5" oX="16" oY="0" oW="68" oH="60"/>
+	<sprite n="X_hand_07" x="292" y="251" w="59" h="39" pX="0.5" pY="0.5" oX="16" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_hand_08" x="58" y="301" w="56" h="38" pX="0.5" pY="0.5" oX="16" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_head" x="121" y="70" w="97" h="84" pX="0.5" pY="0.5" oX="0" oY="7" oW="84" oH="104" r="y"/>
+	<sprite n="X_hips" x="378" y="69" w="112" h="88" pX="0.5" pY="0.5"/>
+	<sprite n="X_hoop_01" x="249" y="0" w="247" h="67" pX="0.5" pY="0.5" oX="0" oY="1" oW="248" oH="132"/>
+	<sprite n="X_hoop_02" x="0" y="0" w="247" h="68" pX="0.5" pY="0.5" oX="0" oY="64" oW="248" oH="132"/>
+	<sprite n="X_left_ankle" x="63" y="246" w="56" h="53" pX="0.5" pY="0.5" oX="0" oY="31" oW="56" oH="84"/>
+	<sprite n="X_left_lowerarm" x="492" y="80" w="20" h="45" pX="0.5" pY="0.5" oX="0" oY="0" oW="48" oH="20" r="y"/>
+	<sprite n="X_left_lowerleg" x="90" y="156" w="83" h="56" pX="0.5" pY="0.5" oX="0" oY="0" oW="56" oH="84" r="y"/>
+	<sprite n="X_right_ankle" x="166" y="240" w="62" h="60" pX="0.5" pY="0.5" oX="2" oY="27" oW="64" oH="88"/>
+	<sprite n="X_right_lowerarm" x="484" y="168" w="21" h="62" pX="0.5" pY="0.5" oX="1" oY="1" oW="64" oH="24" r="y"/>
+	<sprite n="X_right_lowerleg" x="0" y="156" w="88" h="64" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

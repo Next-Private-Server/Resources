@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:15efc988ea3cc13ccf48db39a5e19831:16471b3fea4ecc4a53d4b0c173eae7d1:0896669fdeee19ebe7279e42153e6f5c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BNR_RARE_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BNR_RARE_body" x="44" y="0" w="90" h="104" pX="0.5" pY="0.867925" oX="0" oY="2" oW="92" oH="106"/>
+	<sprite n="BNR_RARE_bow" x="0" y="0" w="42" h="266" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BNR_RARE_hat" x="0" y="386" w="131" h="79" pX="0.356061" pY="1.25" oX="0" oY="2" oW="132" oH="84"/>
+	<sprite n="BNR_RARE_head" x="149" y="80" w="75" h="95" pX="0.473333" pY="0.757732" oX="0" oY="2" oW="75" oH="97"/>
+	<sprite n="BNR_RARE_L foot" x="133" y="419" w="53" h="37" pX="0.5" pY="0.5"/>
+	<sprite n="BNR_RARE_L lower arm" x="123" y="295" w="74" h="34" pX="0.5" pY="0.131579" oX="0" oY="1" oW="34" oH="76" r="y"/>
+	<sprite n="BNR_RARE_L lower leg" x="136" y="0" w="101" h="78" pX="0.358974" pY="0.823529" oX="0" oY="1" oW="78" oH="102" r="y"/>
+	<sprite n="BNR_RARE_L upper arm" x="123" y="331" w="90" h="26" pX="0.461538" pY="0.177778" r="y"/>
+	<sprite n="BNR_RARE_mouth1" x="188" y="399" w="31" h="50" pX="0.5" pY="0.5" oX="0" oY="0" oW="52" oH="32" r="y"/>
+	<sprite n="BNR_RARE_mouth2" x="226" y="119" w="30" h="32" pX="0.5" pY="0.5" oX="8" oY="2" oW="52" oH="32" r="y"/>
+	<sprite n="BNR_RARE_mouth3" x="98" y="190" w="23" h="23" pX="0.5" pY="0.5" oX="12" oY="6" oW="52" oH="32"/>
+	<sprite n="BNR_RARE_mouth4" x="226" y="80" w="25" h="37" pX="0.5" pY="0.5" oX="7" oY="3" oW="52" oH="32" r="y"/>
+	<sprite n="BNR_RARE_mouth5" x="199" y="295" w="51" h="28" pX="0.5" pY="0.5" oX="1" oY="0" oW="52" oH="32"/>
+	<sprite n="BNR_RARE_R foot" x="201" y="177" w="38" h="62" pX="0.612903" pY="0.0526316" r="y"/>
+	<sprite n="BNR_RARE_R hand 1" x="44" y="190" w="52" h="45" pX="0.5" pY="0.5" oX="1" oY="0" oW="46" oH="52" r="y"/>
+	<sprite n="BNR_RARE_R hand 2" x="201" y="241" w="51" h="41" pX="0.5" pY="0.5" oX="2" oY="1" oW="46" oH="52" r="y"/>
+	<sprite n="BNR_RARE_R hand 3" x="169" y="359" w="50" h="38" pX="0.5" pY="0.5" oX="0" oY="2" oW="46" oH="52" r="y"/>
+	<sprite n="BNR_RARE_R hand 4" x="188" y="451" w="47" h="39" pX="0.5" pY="0.5" oX="0" oY="3" oW="46" oH="52" r="y"/>
+	<sprite n="BNR_RARE_R lower arm" x="133" y="359" w="34" h="58" pX="0.473684" pY="0.0833333" oX="2" oY="1" oW="38" oH="60"/>
+	<sprite n="BNR_RARE_R lower leg" x="123" y="190" w="76" h="103" pX="0.447368" pY="0.798077" oX="0" oY="1" oW="76" oH="104"/>
+	<sprite n="BNR_RARE_R upper arm" x="44" y="237" w="73" h="27" pX="0.462963" pY="0.157534" r="y"/>
+	<sprite n="BNR_RARE_skirt" x="0" y="268" w="121" h="116" pX="0.45867768595041325" pY="0.27586206896551724"/>
+	<sprite n="BNR_RARE_text" x="44" y="106" w="103" h="82" pX="0.528846" pY="0.387931" oX="10" oY="6" oW="104" oH="116" r="y"/>
+</TextureAtlas>

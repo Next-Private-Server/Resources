@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6c21d3b23bb5a549f1e8e2b5d104fed5:54f7b20fc3499075b7e8bf16616f598c:826239bbc80b9ce9b816ec6ce3a92c3b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P07_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="P07_abdomen_EPIC" x="305" y="0" w="207" h="231" oX="30" oY="16" oW="282" oH="227" r="y" />
+  <sprite n="P07_bellyglow" x="297" y="233" w="208" h="115" oX="6" oY="33" oW="220" oH="180" />
+  <sprite n="P07_bowclaw" x="0" y="598" w="127" h="31" oX="0" oY="2" oW="140" oH="52" />
+  <sprite n="P07_celloclaw_EPIC" x="0" y="61" w="302" h="106" oX="14" oY="11" oW="124" oH="320" r="y" />
+  <sprite n="P07_celloclaw_soundhole_EPIC" x="0" y="631" w="125" h="63" oX="8" oY="7" oW="80" oH="140" r="y" />
+  <sprite n="P07_celloclaw_thumb" x="392" y="607" w="104" h="49" oX="2" oY="0" oW="52" oH="104" r="y" />
+  <sprite n="P07_chestglow" x="150" y="529" w="115" h="145" oX="7" oY="2" oW="160" oH="120" r="y" />
+  <sprite n="P07_eyeball" x="0" y="893" w="48" h="48" oX="4" oY="4" oW="56" oH="56" />
+  <sprite n="P07_eyepupil" x="392" y="541" w="26" h="26" oX="3" oY="3" oW="32" oH="32" />
+  <sprite n="P07_eyestalk_L" x="267" y="677" w="83" h="54" oX="0" oY="2" oW="88" oH="56" />
+  <sprite n="P07_eyestalk_R" x="459" y="350" w="52" h="79" oX="4" oY="0" oW="88" oH="56" r="y" />
+  <sprite n="P07_foot_01_EPIC" x="127" y="713" w="82" h="68" oX="9" oY="6" oW="100" oH="80" />
+  <sprite n="P07_foot_02_EPIC" x="420" y="453" w="92" h="60" oX="3" oY="10" oW="100" oH="80" />
+  <sprite n="P07_foot_03_EPIC" x="420" y="515" w="92" h="60" oX="4" oY="10" oW="100" oH="80" />
+  <sprite n="P07_head_EPIC" x="0" y="350" w="265" h="177" oX="1" oY="7" oW="180" oH="280" r="y" />
+  <sprite n="P07_left_lowerarm" x="373" y="658" w="90" h="73" oX="0" oY="9" oW="92" oH="112" />
+  <sprite n="P07_left_upperarm" x="0" y="795" w="71" h="28" oX="0" oY="0" oW="28" oH="72" r="y" />
+  <sprite n="P07_lowerleg_01_EPIC" x="267" y="452" w="151" h="87" oX="10" oY="7" oW="100" oH="160" r="y" />
+  <sprite n="P07_lowerleg_02_EPIC" x="0" y="529" w="148" h="67" oX="17" oY="8" oW="100" oH="160" r="y" />
+  <sprite n="P07_mandiable_l" x="0" y="825" w="66" h="66" oX="7" oY="7" oW="80" oH="80" />
+  <sprite n="P07_mandiable_l_02" x="465" y="658" w="40" h="33" oX="4" oY="0" oW="40" oH="40" r="y" />
+  <sprite n="P07_mandiable_r" x="465" y="693" w="35" h="60" oX="2" oY="5" oW="40" oH="70" />
+  <sprite n="P07_mandiable_r_02" x="233" y="676" w="32" h="27" oX="6" oY="4" oW="40" oH="40" r="y" />
+  <sprite n="P07_mouth_1" x="129" y="598" w="14" h="59" oX="8" oY="19" oW="76" oH="48" r="y" />
+  <sprite n="P07_mouth_2" x="233" y="705" w="30" h="69" oX="4" oY="16" oW="76" oH="48" r="y" />
+  <sprite n="P07_mouth_3" x="80" y="765" w="33" h="70" oX="3" oY="15" oW="76" oH="48" r="y" />
+  <sprite n="P07_right_lowerarm" x="0" y="696" w="96" h="67" oX="9" oY="5" oW="80" oH="120" r="y" />
+  <sprite n="P07_right_upperarm" x="0" y="765" w="78" h="28" oX="0" oY="1" oW="28" oH="80" r="y" />
+  <sprite n="P07_shadow" x="267" y="350" w="190" h="100" oX="9" oY="2" oW="208" oH="104" />
+  <sprite n="P07_smalclaw_l" x="98" y="696" w="27" h="47" oX="12" oY="7" oW="70" oH="40" r="y" />
+  <sprite n="P07_smalclaw_r" x="459" y="431" w="51" h="20" oX="10" oY="10" oW="70" oH="40" />
+  <sprite n="P07_torso" x="267" y="541" w="123" h="97" oX="11" oY="3" oW="144" oH="100" />
+  <sprite n="P07_upperbody_EPIC" x="0" y="169" w="295" h="179" oX="0" oY="2" oW="180" oH="300" r="y" />
+  <sprite n="P07_upperleg" x="267" y="640" w="104" h="35" oX="2" oY="8" oW="40" oH="120" r="y" />
+  <sprite n="P07_upperleg_R" x="127" y="676" w="104" h="35" oX="2" oY="7" oW="40" oH="120" r="y" />
+  <sprite n="P07_wing_01" x="0" y="0" w="303" h="59" oX="8" oY="10" oW="320" oH="80" />
+  <sprite n="P07_wing_02" x="392" y="577" w="119" h="28" oX="6" oY="6" oW="130" oH="40" />
+</TextureAtlas>

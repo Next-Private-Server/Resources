@@ -1,0 +1,48 @@
+<template name="template_currency_counter_avatar_xp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+  	<script src="scripts/CurrencyCounterAvatarXP.lua" />
+
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="ProfilePic" />
+
+	<template type="template_user_avatar" name="ProfilePic">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$scale" equals="0.75*game.hudScale()" />
+	</template>
+	
+	<element name="XpBarBacking">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="ProfilePic" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="30" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/social/XPbar_backing")
+				component("size"):SetFloat(0.36*element:parent():E("ProfilePic"):templateVars().scale)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="XpBar">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="ProfilePic" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="29" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/social/XPbar_fill")
+				component("size"):SetFloat(0.36*element:parent():E("ProfilePic"):templateVars().scale)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+		
+		<event name="onInit" params="element">
+			element.isAnimating = false
+			element.transitionTime = 0
+			element.originalAngle = -1
+			element.targetAngle = -1
+			element.totalAngle = 106
+			element.currentLevel = game.playerLevel()
+		</event>
+	</element>
+	
+</template>

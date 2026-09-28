@@ -1,0 +1,98 @@
+<template name="template_how_it_works_dialog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/HowItWorksDialog.lua"/>
+	
+	<defaultTemplateVar name="$layer" equals="FrontPopUps" />
+
+	<defaultTemplateVar name="$avatarSprite" equals="'gfx/clubbox/T-Pain_Big_Welcome'"/>
+	<defaultTemplateVar name="$avatarName" equals="DJ_NAME_TAG"/>
+	<defaultTemplateVar name="$isClubbox" equals="0" />
+
+	<defaultTemplateVar name="$leftAnimationName" equals="'xml_bin/encore_info.bin'" />
+	<defaultTemplateVar name="$leftAnimation" equals="encore_info_01" />
+	<defaultTemplateVar name="$centerAnimationName" equals="'xml_bin/encore_info.bin'" />
+	<defaultTemplateVar name="$centerAnimation" equals="encore_info_02" />
+	<defaultTemplateVar name="$rightAnimationName" equals="'xml_bin/encore_info.bin'" />
+	<defaultTemplateVar name="$rightAnimation" equals="encore_info_03" />
+
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="10" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.8)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-6" />
+		</touchComponent>
+	</element>
+
+	<template type="template_dialog" name="Dialog">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$avatarSprite" equals="element:templateVars().avatarSprite" />
+		<templateVar name="$avatarName" equals="element:templateVars().avatarName" />
+		<templateVar name="$isClubbox" equals="element:templateVars().isClubbox" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="4" />
+	</template>
+
+	<element name="Center">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-10*game.windowScaleY()" priorityOffset="1" />
+
+		<aeComponent name="Sprite">
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("$centerAnimationName")
+				component("animation"):SetString("$centerAnimation")
+				component:setScale(Vector2(0.25*game.windowScaleY(),0.25*game.windowScaleY()))
+				component("layer"):SetString("$layer")				
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="Left">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Center" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="20*game.windowScaleY()" yOffset="" priorityOffset="0" />
+
+		<aeComponent name="Sprite">
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("$leftAnimationName")
+				component("animation"):SetString("$leftAnimation")
+				component:setScale(Vector2(0.25*game.windowScaleY(),0.25*game.windowScaleY()))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="Right">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Center" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="20*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+
+		<aeComponent name="Sprite">
+			<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("$rightAnimationName")
+				component("animation"):SetString("$rightAnimation")
+				component:setScale(Vector2(0.25*game.windowScaleY(),0.25*game.windowScaleY()))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+	</element>
+
+</template>

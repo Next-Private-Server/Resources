@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:acd061a095a0a345d5487466d14a3a99:6370ff800604c698f1009edcb5b6d87c:4bc8a1693196b5e34f67715879cfeeb4$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CV_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="CV_back_foot" x="33" y="455" w="66" h="56" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_back_lower_leg" x="234" y="461" w="66" h="47" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_back_upper_leg" x="442" y="461" w="66" h="39" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_bird_feet" x="460" y="79" w="12" h="17" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird01_body" x="181" y="368" w="84" h="46" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_bird01_eyelid_01" x="159" y="394" w="14" h="15" pX="0.5" pY="0.5" oX="1" oY="0" oW="15" oH="15"/>
+	<sprite n="CV_bird01_eyelid_02" x="51" y="285" w="15" h="14" pX="0.5" pY="0.5" oX="1" oY="0" oW="15" oH="15" r="y"/>
+	<sprite n="CV_bird01_eyelid_03" x="68" y="285" w="15" h="14" pX="0.5" pY="0.5" oX="1" oY="0" oW="15" oH="15" r="y"/>
+	<sprite n="CV_bird01_head" x="402" y="461" w="38" h="44" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_bird02_body" x="267" y="257" w="110" h="44" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_bird02_eyelid_01" x="159" y="352" w="20" h="19" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird02_eyelid_02" x="0" y="301" w="15" h="14" pX="0.5" pY="0.5" oX="2" oY="0" oW="16" oH="15" r="y"/>
+	<sprite n="CV_bird02_eyelid_03" x="159" y="373" w="20" h="19" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird02_head" x="399" y="152" w="58" h="80" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird03_body" x="459" y="280" w="50" h="30" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_bird03_eyelid_01" x="354" y="411" w="15" h="14" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird03_eyelid_02" x="354" y="427" w="15" h="14" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird03_eyelid_03" x="354" y="443" w="15" h="14" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird03_head" x="459" y="180" w="52" h="39" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_bird04_body" x="459" y="312" w="49" h="100" pX="0.5" pY="0.5"/>
+	<sprite n="CV_bird04_eyelid_01" x="0" y="285" w="15" h="14" pX="0.5" pY="0.5" oX="0" oY="1" oW="16" oH="15"/>
+	<sprite n="CV_bird04_eyelid_02" x="17" y="285" w="15" h="14" pX="0.5" pY="0.5" oX="1" oY="1" oW="16" oH="15"/>
+	<sprite n="CV_bird04_eyelid_03" x="34" y="285" w="15" h="14" pX="0.5" pY="0.5" oX="1" oY="1" oW="16" oH="15"/>
+	<sprite n="CV_bird04_head" x="291" y="411" w="61" h="47" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_eyelids_01" x="93" y="352" w="64" h="43" pX="0.5" pY="0.5"/>
+	<sprite n="CV_eyelids_02" x="159" y="416" w="64" h="43" pX="0.5" pY="0.5"/>
+	<sprite n="CV_eyelids_03" x="93" y="397" w="64" h="43" pX="0.5" pY="0.5"/>
+	<sprite n="CV_eyelids_04" x="225" y="416" w="64" h="43" pX="0.5" pY="0.5"/>
+	<sprite n="CV_front_foot" x="385" y="234" w="72" h="80" pX="0.409722" pY="0.240625"/>
+	<sprite n="CV_front_lower_leg" x="460" y="104" w="52" h="74" pX="0.5" pY="0.5"/>
+	<sprite n="CV_front_upper_leg" x="159" y="461" w="73" h="47" pX="0.5" pY="0.5" oX="1" oY="0" oW="49" oH="73" r="y"/>
+	<sprite n="CV_head" x="184" y="251" w="81" h="66" pX="0.5" pY="0.5"/>
+	<sprite n="CV_hind_back_foot" x="459" y="221" w="51" h="57" pX="0.5" pY="0.5"/>
+	<sprite n="CV_hind_back_lower_leg" x="475" y="0" w="36" h="44" pX="0.5" pY="0.5"/>
+	<sprite n="CV_hind_back_upper_leg" x="302" y="461" w="29" h="45" pX="0.5" pY="0.5"/>
+	<sprite n="CV_hind_foot" x="101" y="455" w="56" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="CV_hind_lower_leg" x="457" y="414" w="54" h="45" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_hind_upper_leg" x="475" y="46" w="34" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="CV_mouth_01" x="333" y="461" w="67" h="44" pX="0.5" pY="0.5" oX="10" oY="10" oW="86" oH="65"/>
+	<sprite n="CV_mouth_02" x="378" y="316" w="78" h="45" pX="0.5" pY="0.5" oX="5" oY="9" oW="86" oH="65"/>
+	<sprite n="CV_mouth_03" x="181" y="319" w="84" h="47" pX="0.5" pY="0.5" oX="1" oY="9" oW="86" oH="65"/>
+	<sprite n="CV_mouth_04" x="93" y="285" w="86" h="65" pX="0.5" pY="0.5"/>
+	<sprite n="CV_mouth_05" x="378" y="363" w="78" h="44" pX="0.5" pY="0.5" oX="5" oY="9" oW="86" oH="65"/>
+	<sprite n="CV_mouth_06" x="378" y="409" w="77" h="44" pX="0.5" pY="0.5" oX="6" oY="11" oW="86" oH="65"/>
+	<sprite n="CV_mouth_07" x="33" y="411" w="58" h="41" pX="0.5" pY="0.5" oX="17" oY="10" oW="86" oH="65"/>
+	<sprite n="CV_mouth_stalk" x="0" y="411" w="31" h="100" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_pupil_left" x="385" y="185" w="12" h="12" pX="0.5" pY="0.5"/>
+	<sprite n="CV_pupil_right" x="385" y="199" w="9" h="9" pX="0.5" pY="0.5"/>
+	<sprite n="CV_shadow" x="0" y="0" w="266" h="145" pX="0.5" pY="0.5"/>
+	<sprite n="CV_shell" x="0" y="147" w="188" h="72" pX="0.5" pY="0.5" oX="5" oY="23" oW="193" oH="95"/>
+	<sprite n="CV_shell_inside" x="190" y="147" w="75" h="102" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_skull" x="267" y="303" w="109" h="106" pX="0.12069" pY="0.715517" oX="3" oY="5" oW="116" oH="116"/>
+	<sprite n="CV_spike_01" x="267" y="185" w="116" h="70" pX="0.5" pY="0.5" oX="0" oY="1" oW="70" oH="117" r="y"/>
+	<sprite n="CV_spike_02" x="268" y="0" w="205" h="77" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_spike_03" x="267" y="152" w="130" h="31" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_spike_04" x="268" y="79" w="190" h="71" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="CV_torso" x="0" y="221" w="182" h="62" pX="0.5" pY="0.5" oX="0" oY="2" oW="182" oH="64"/>
+</TextureAtlas>

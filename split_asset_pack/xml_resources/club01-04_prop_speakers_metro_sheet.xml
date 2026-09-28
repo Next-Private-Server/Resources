@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fae10436ff04141746c31c27a9bba782:fde2873b0a39aaae951d70cc9518065c:5fa377c81f68f64baf525b32a82c5746$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_speakers_metro_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="circle 1" x="222" y="260" w="34" h="32" r="y"/>
+	<sprite n="circle 2" x="0" y="285" w="54" h="56"/>
+	<sprite n="circle 3" x="160" y="86" w="75" h="72" r="y"/>
+	<sprite n="circle 4" x="160" y="0" w="88" h="84" r="y"/>
+	<sprite n="spotlight_base" x="154" y="260" w="66" h="117" r="y"/>
+	<sprite n="spotlight_body" x="0" y="0" w="158" h="152"/>
+	<sprite n="spotlight_body_glow" x="0" y="154" w="152" h="129" oX="0" oY="0" oW="158" oH="152" r="y"/>
+	<sprite n="Spotlight_glow" x="154" y="160" w="100" h="98" oX="0" oY="0" oW="100" oH="100" r="y"/>
+	<sprite n="Spotlight_opening" x="0" y="379" w="110" h="118"/>
+	<sprite n="Spotlight_opening_glow" x="112" y="379" w="103" h="110" oX="6" oY="3" oW="110" oH="118"/>
+</TextureAtlas>

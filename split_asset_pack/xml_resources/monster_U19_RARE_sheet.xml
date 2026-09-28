@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c3376812d78b97b672a7a26d291ac3a8:00fdc850c8519f26d432236a793d7cf0:e1f3f1ee20bf383d9fa366bc2f1a64eb$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_U19_RARE_sheet.png" width="2048" height="2048" hires="true">
+    <sprite n="Glow_1.png" x="1" y="317" w="321" h="290" pX="0.5" pY="0.5" oX="10" oY="26" oW="338" oH="316"/>
+    <sprite n="Glow_2.png" x="719" y="1" w="338" h="316" pX="0.5" pY="0.5"/>
+    <sprite n="REG_U19_Elbow.png" x="1148" y="388" w="132" h="83" pX="0.5" pY="0.5" oX="17" oY="21" oW="116" oH="172" r="y"/>
+    <sprite n="REG_U19_L_hand.png" x="1148" y="473" w="131" h="97" pX="0.5" pY="0.5" oX="11" oY="23" oW="160" oH="120"/>
+    <sprite n="REG_U19_Shoulder.png" x="710" y="358" w="134" h="85" pX="0.5" pY="0.5" oX="21" oY="17" oW="124" oH="160" r="y"/>
+    <sprite n="REG_U19_body.png" x="1059" y="1" w="313" h="212" pX="0.5" pY="0.5" oX="10" oY="13" oW="340" oH="236"/>
+    <sprite n="REG_U19_fruit1.png" x="328" y="236" w="30" h="31" pX="0.5" pY="0.5" oX="13" oY="13" oW="56" oH="56"/>
+    <sprite n="REG_U19_fruit2.png" x="690" y="179" w="25" h="25" pX="0.5" pY="0.5" oX="16" oY="14" oW="60" oH="52"/>
+    <sprite n="REG_U19_ground.png" x="1" y="236" w="325" h="79" pX="0.5" pY="0.5" oX="6" oY="8" oW="336" oH="88"/>
+    <sprite n="REG_U19_leaf.png" x="1374" y="1" w="290" h="118" pX="0.5" pY="0.5" oX="16" oY="18" oW="324" oH="156"/>
+    <sprite n="REG_U19_leaf_curl.png" x="1308" y="288" w="63" h="54" pX="0.5" pY="0.5" oX="19" oY="15" oW="100" oH="84"/>
+    <sprite n="REG_U19_rocks2.png" x="1762" y="390" w="86" h="123" pX="0.5" pY="0.5" oX="8" oY="10" oW="144" oH="104" r="y"/>
+    <sprite n="REG_U19_rocks3.png" x="834" y="499" w="105" h="88" pX="0.5" pY="0.5" oX="9" oY="7" oW="124" oH="100"/>
+    <sprite n="REG_U19_rocks_corners.png" x="971" y="474" w="112" h="111" pX="0.5" pY="0.5" oX="9" oY="9" oW="128" oH="128"/>
+    <sprite n="REG_U19_stem1.png" x="655" y="383" w="52" h="112" pX="0.5" pY="0.5" oX="14" oY="19" oW="84" oH="148"/>
+    <sprite n="REG_U19_stem2.png" x="690" y="137" w="26" h="40" pX="0.5" pY="0.5" oX="18" oY="13" oW="76" oH="52" r="y"/>
+    <sprite n="U19_Elbow.png" x="868" y="319" w="143" h="90" pX="0.5" pY="0.5" oX="17" oY="10" oW="116" oH="172" r="y"/>
+    <sprite n="U19_Elbow_Spike.png" x="328" y="269" w="29" h="37" pX="0.5" pY="0.5" oX="12" oY="42" oW="64" oH="80"/>
+    <sprite n="U19_L_claw1.png" x="1373" y="532" w="47" h="47" pX="0.5" pY="0.5" oX="13" oY="13" oW="72" oH="72"/>
+    <sprite n="U19_L_claw2.png" x="1300" y="344" w="71" h="81" pX="0.5" pY="0.5" oX="23" oY="18" oW="116" oH="116"/>
+    <sprite n="U19_L_claw3.png" x="1531" y="495" w="62" h="45" pX="0.5" pY="0.5" oX="20" oY="16" oW="84" oH="92" r="y"/>
+    <sprite n="U19_L_hand.png" x="709" y="445" w="123" h="83" pX="0.5" pY="0.5" oX="19" oY="14" oW="160" oH="120"/>
+    <sprite n="U19_R_BigEye1_Rare.png" x="1464" y="441" w="69" h="52" pX="0.5" pY="0.5" oX="0" oY="1" oW="70" oH="53"/>
+    <sprite n="U19_R_BigEye2_Rare.png" x="1605" y="449" w="69" h="52" pX="0.5" pY="0.5" oX="0" oY="1" oW="70" oH="53"/>
+    <sprite n="U19_R_BigEye3_Rare.png" x="1535" y="441" w="68" h="52" pX="0.5" pY="0.5" oX="0" oY="1" oW="70" oH="53"/>
+    <sprite n="U19_R_BigEye4_Rare.png" x="1676" y="449" w="68" h="52" pX="0.5" pY="0.5" oX="0" oY="1" oW="70" oH="53"/>
+    <sprite n="U19_R_EyeBall.png" x="1464" y="495" w="65" h="48" pX="0.5" pY="0.5" oX="3" oY="2" oW="70" oH="53"/>
+    <sprite n="U19_R_EyeBall_Reflection.png" x="690" y="206" w="25" h="23" pX="0.5" pY="0.5" oX="33" oY="6" oW="70" oH="53"/>
+    <sprite n="U19_Shadow.png" x="1059" y="303" w="239" h="83" pX="0.5" pY="0.5" oX="16" oY="2" oW="280" oH="92"/>
+    <sprite n="U19_Shoulder.png" x="1013" y="388" w="133" h="84" pX="0.5" pY="0.5" oX="21" oY="17" oW="124" oH="160" r="y"/>
+    <sprite n="U19_body.png" x="360" y="95" w="328" h="213" pX="0.5" pY="0.5" oX="7" oY="12" oW="340" oH="236"/>
+    <sprite n="U19_body_b.png" x="1" y="96" w="328" h="138" pX="0.5" pY="0.5" oX="8" oY="87" oW="340" oH="236"/>
+    <sprite n="U19_body_spike_1.png" x="1085" y="546" w="58" h="77" pX="0.5" pY="0.5" oX="3" oY="2" oW="64" oH="80"/>
+    <sprite n="U19_body_spike_2.png" x="1085" y="474" w="59" h="70" pX="0.5" pY="0.5" oX="2" oY="6" oW="64" oH="80"/>
+    <sprite n="U19_body_spike_3.png" x="1883" y="217" w="41" h="34" pX="0.5" pY="0.5" oX="9" oY="39" oW="64" oH="80" r="y"/>
+    <sprite n="U19_body_spike_4.png" x="690" y="95" w="27" h="40" pX="0.5" pY="0.5" oX="12" oY="40" oW="64" oH="80"/>
+    <sprite n="U19_body_spike_5.png" x="690" y="248" w="19" h="36" pX="0.5" pY="0.5" oX="15" oY="44" oW="64" oH="80"/>
+    <sprite n="U19_body_spike_6.png" x="690" y="286" w="19" h="33" pX="0.5" pY="0.5" oX="14" oY="47" oW="64" oH="80"/>
+    <sprite n="U19_fruit1.png" x="1308" y="215" w="63" h="71" pX="0.5" pY="0.5" oX="16" oY="6" oW="97" oH="89"/>
+    <sprite n="U19_fruit2.png" x="655" y="321" w="53" h="60" pX="0.5" pY="0.5" oX="2" oY="0" oW="57" oH="62"/>
+    <sprite n="U19_fruit_glow.png" x="941" y="587" w="103" h="99" pX="0.5" pY="0.5" oX="6" oY="0" oW="109" oH="99"/>
+    <sprite n="U19_ground.png" x="328" y="310" w="325" h="79" pX="0.5" pY="0.5" oX="5" oY="8" oW="336" oH="88"/>
+    <sprite n="U19_jaw1.png" x="1059" y="215" w="247" h="86" pX="0.5" pY="0.5" oX="7" oY="57" oW="260" oH="148"/>
+    <sprite n="U19_jaw2.png" x="1374" y="202" w="255" h="83" pX="0.5" pY="0.5" oX="0" oY="61" oW="260" oH="148"/>
+    <sprite n="U19_jaw3.png" x="1373" y="287" w="242" h="82" pX="0.5" pY="0.5" oX="11" oY="65" oW="260" oH="148"/>
+    <sprite n="U19_jaw4.png" x="1631" y="217" w="250" h="79" pX="0.5" pY="0.5" oX="0" oY="69" oW="260" oH="148"/>
+    <sprite n="U19_jaw5.png" x="1666" y="1" w="260" h="80" pX="0.5" pY="0.5" oX="0" oY="64" oW="260" oH="148"/>
+    <sprite n="U19_jaw6.png" x="1374" y="121" w="258" h="79" pX="0.5" pY="0.5" oX="0" oY="64" oW="260" oH="148"/>
+    <sprite n="U19_jaw_over1.png" x="1666" y="83" w="259" h="132" pX="0.5" pY="0.5" oX="0" oY="13" oW="260" oH="148"/>
+    <sprite n="U19_leaf_Back.png" x="360" y="1" w="357" h="92" pX="0.5" pY="0.5" oX="2" oY="11" oW="362" oH="147"/>
+    <sprite n="U19_leaf_Front.png" x="1" y="1" w="357" h="93" pX="0.5" pY="0.5" oX="2" oY="46" oW="362" oH="147"/>
+    <sprite n="U19_mouth1.png" x="1373" y="371" w="230" h="68" pX="0.5" pY="0.5" oX="15" oY="2" oW="260" oH="148"/>
+    <sprite n="U19_mouth2.png" x="1617" y="298" w="231" h="90" pX="0.5" pY="0.5" oX="15" oY="2" oW="260" oH="148"/>
+    <sprite n="U19_mouth3.png" x="1925" y="316" w="121" h="227" pX="0.5" pY="0.5" oX="18" oY="6" oW="260" oH="148" r="y"/>
+    <sprite n="U19_mouth5.png" x="1922" y="545" w="123" h="196" pX="0.5" pY="0.5" oX="33" oY="4" oW="260" oH="148" r="y"/>
+    <sprite n="U19_mouth6.png" x="1928" y="1" w="118" h="199" pX="0.5" pY="0.5" oX="21" oY="6" oW="260" oH="148" r="y"/>
+    <sprite n="U19_pupil_Rare.png" x="690" y="231" w="23" h="15" pX="0.5" pY="0.5" oX="38" oY="10" oW="70" oH="53" r="y"/>
+    <sprite n="U19_rocks2.png" x="846" y="411" w="123" h="86" pX="0.5" pY="0.5" oX="8" oY="10" oW="144" oH="104"/>
+    <sprite n="U19_rocks3.png" x="1282" y="427" w="89" h="105" pX="0.5" pY="0.5" oX="8" oY="6" oW="124" oH="100" r="y"/>
+    <sprite n="U19_rocks_corners.png" x="1927" y="202" w="113" h="112" pX="0.5" pY="0.5" oX="9" oY="7" oW="128" oH="128" r="y"/>
+    <sprite n="U19_stem1_Rare.png" x="1605" y="390" w="155" h="57" pX="0.5" pY="0.5" oX="10" oY="9" oW="84" oH="171" r="y"/>
+    <sprite n="U19_stem2_Rare.png" x="1883" y="253" w="40" h="74" pX="0.5" pY="0.5" oX="1" oY="2" oW="75" oH="42" r="y"/>
+    <sprite n="U19_tongue.png" x="711" y="319" w="155" h="37" pX="0.5" pY="0.5" oX="13" oY="14" oW="180" oH="64"/>
+    <sprite n="beam.png" x="1850" y="329" w="70" h="226" pX="0.5" pY="0.5" oX="1" oY="1" oW="72" oH="228"/>
+    <sprite n="glow_spot.png" x="1373" y="441" w="89" h="89" pX="0.5" pY="0.5" oX="5" oY="5" oW="100" oH="100"/>
+</TextureAtlas>

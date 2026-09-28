@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:efedf397c75e43196fa5e712a54999bf:037e9f82fab53d3dc4cfd8ed2ee5beab:4a09eaf84561741298e3d2894f91027a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/island_overlay/island25_sheet01.png" width="2048" height="2048" hires="true">
+    <sprite n="island24_back" x="4" y="890" w="1535" h="466" oX="2" oY="2" oW="1540" oH="470"/>
+    <sprite n="Island24_center" x="1873" y="305" w="141" h="276" oX="62" oY="30" oW="400" oH="200" r="y"/>
+    <sprite n="island24_critter_01" x="1420" y="1813" w="141" h="129" oX="21" oY="13" oW="200" oH="150"/>
+    <sprite n="island24_critter_02" x="1873" y="585" w="139" h="129" oX="21" oY="10" oW="200" oH="150"/>
+    <sprite n="island24_critter_03" x="1842" y="718" w="135" h="129" oX="24" oY="8" oW="200" oH="150"/>
+    <sprite n="island24_critter_04" x="440" y="1901" w="132" h="128" oX="26" oY="6" oW="200" oH="150"/>
+    <sprite n="island24_critter_05" x="576" y="1901" w="123" h="129" oX="33" oY="4" oW="200" oH="150"/>
+    <sprite n="island24_critter_06" x="1565" y="1813" w="112" h="129" oX="42" oY="2" oW="200" oH="150"/>
+    <sprite n="island24_critter_07" x="1420" y="1946" w="129" h="98" oX="52" oY="3" oW="200" oH="150" r="y"/>
+    <sprite n="island24_diamond_pool" x="1873" y="4" w="153" h="297" oX="41" oY="21" oW="380" oH="200" r="y"/>
+    <sprite n="island24_diamond_water_00" x="1173" y="1813" w="243" h="142" oX="69" oY="37" oW="380" oH="200"/>
+    <sprite n="island24_diamond_water_01" x="1543" y="1258" w="48" h="94" oX="73" oY="36" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_02" x="1230" y="864" w="43" h="22" oX="99" oY="49" oW="240" oH="120"/>
+    <sprite n="island24_diamond_water_03" x="1648" y="1946" w="29" h="57" oX="92" oY="46" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_04" x="390" y="1977" w="34" h="66" oX="87" oY="43" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_05" x="1837" y="1463" w="32" h="61" oX="90" oY="44" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_06" x="4" y="1977" w="136" h="67" oX="52" oY="27" oW="240" oH="120"/>
+    <sprite n="island24_diamond_water_07" x="1837" y="1249" w="36" h="70" oX="85" oY="42" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_08" x="1826" y="977" w="47" h="90" oX="75" oY="37" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_09" x="1837" y="1397" w="32" h="62" oX="89" oY="44" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_10" x="1277" y="864" w="42" h="22" oX="99" oY="49" oW="240" oH="120"/>
+    <sprite n="island24_diamond_water_11" x="1837" y="1593" w="31" h="60" oX="90" oY="45" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_12" x="1826" y="1071" w="44" h="85" oX="78" oY="38" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_13" x="290" y="1901" w="146" h="72" oX="47" oY="24" oW="240" oH="120"/>
+    <sprite n="island24_diamond_water_14" x="1826" y="864" w="40" h="109" oX="66" oY="40" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_15" x="1826" y="1160" w="44" h="85" oX="78" oY="38" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_16" x="1870" y="927" w="80" h="40" oX="80" oY="40" oW="240" oH="120"/>
+    <sprite n="island24_diamond_water_17" x="1837" y="1528" w="31" h="61" oX="90" oY="45" oW="240" oH="120" r="y"/>
+    <sprite n="island24_diamond_water_18" x="1837" y="1323" w="36" h="70" oX="85" oY="42" oW="240" oH="120" r="y"/>
+    <sprite n="island24_ear" x="4" y="4" w="1138" h="882"/>
+    <sprite n="island24_ear_l" x="4" y="1360" w="788" h="506" oX="0" oY="6" oW="506" oH="794" r="y"/>
+    <sprite n="island24_ear_r" x="1146" y="4" w="692" h="825" oX="0" oY="0" oW="692" oH="830"/>
+    <sprite n="island24_flower_cover" x="1610" y="1659" w="150" h="135" oX="0" oY="2" oW="150" oH="140"/>
+    <sprite n="island24_opening" x="1681" y="1951" w="54" h="40" oX="33" oY="30" oW="120" oH="100"/>
+    <sprite n="island24_opening_02" x="1681" y="1903" w="74" h="44" oX="33" oY="27" oW="120" oH="100"/>
+    <sprite n="island24_pillar_00" x="796" y="1813" w="373" h="200" oX="0" oY="0" oW="200" oH="374" r="y"/>
+    <sprite n="island24_pillar_01" x="4" y="1901" w="282" h="72" oX="0" oY="1" oW="72" oH="285" r="y"/>
+    <sprite n="island24_pillar_02" x="1253" y="1959" w="153" h="50" oX="0" oY="0" oW="50" oH="154" r="y"/>
+    <sprite n="island24_platform" x="796" y="1360" w="810" h="449" oX="0" oY="0" oW="810" oH="452"/>
+    <sprite n="island24_railing_01" x="144" y="1977" w="126" h="66" r="y"/>
+    <sprite n="island24_railing_02" x="1953" y="851" w="24" h="36"/>
+    <sprite n="island24_railing_03" x="1173" y="1959" w="76" h="85" oX="0" oY="0" oW="86" oH="76" r="y"/>
+    <sprite n="island24_railing_04" x="274" y="1977" w="112" h="60" r="y"/>
+    <sprite n="island24_railing_05" x="1146" y="864" w="80" h="22" r="y"/>
+    <sprite n="island24_railing_06" x="1953" y="891" w="24" h="32"/>
+    <sprite n="island24_railing_07" x="1981" y="718" w="49" h="118" oX="0" oY="0" oW="118" oH="50" r="y"/>
+    <sprite n="island24_railing_08" x="1553" y="1946" w="91" h="84" oX="0" oY="0" oW="92" oH="84"/>
+    <sprite n="island24_railing_09" x="1764" y="1659" w="92" h="130" r="y"/>
+    <sprite n="island24_railing_010" x="1877" y="971" w="64" h="78"/>
+    <sprite n="island24_rim_glow" x="1610" y="1258" w="223" h="397" oX="4" oY="13" oW="420" oH="250" r="y"/>
+    <sprite n="island24_stream" x="1253" y="2013" w="153" h="29" oX="10" oY="0" oW="50" oH="160" r="y"/>
+    <sprite n="island24_stream_02" x="2016" y="585" w="28" h="47" oX="11" oY="57" oW="50" oH="160"/>
+    <sprite n="island24_temple_cover" x="1543" y="864" w="279" h="390" oX="0" oY="0" oW="390" oH="280" r="y"/>
+    <sprite n="island24_water_highlight" x="1842" y="699" w="26" h="7" oX="6" oY="12" oW="20" oH="50" r="y"/>
+    <sprite n="island24_waterfall" x="4" y="1870" w="632" h="27" oX="1" oY="20" oW="30" oH="840" r="y"/>
+    <sprite n="island24_waterfall_02" x="1146" y="833" w="691" h="27" oX="1" oY="20" oW="30" oH="840" r="y"/>
+    <sprite n="island24_waterfall_03" x="1842" y="4" w="27" h="691" oX="1" oY="20" oW="30" oH="840"/>
+    <sprite n="island24_windowglow_01" x="1681" y="1798" w="70" h="101" oX="9" oY="15" oW="120" oH="100" r="y"/>
+    <sprite n="island24_windowglow_02" x="1870" y="851" w="79" h="72" oX="20" oY="14" oW="120" oH="100"/>
+    <sprite n="island24_windowglow_03" x="703" y="1870" w="55" h="77" oX="32" oY="11" oW="120" oH="100"/>
+    <sprite n="island24_windowglow_04" x="703" y="1951" w="50" h="75" oX="35" oY="12" oW="120" oH="100"/>
+</TextureAtlas>

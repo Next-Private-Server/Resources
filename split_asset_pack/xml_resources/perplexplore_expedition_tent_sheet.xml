@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:65d39768bb3998df3ca37bee3cd4b0cc:d992c845cef399a8ff6b04409c59678c:46b77dfd620b8734323c2685871440f6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/perplexplore_expedition_tent_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="angle_flag01" x="362" y="707" w="71" h="118" oX="14" oY="10" oW="164" oH="96" r="y"/>
+    <sprite n="angle_flag02" x="492" y="828" w="74" h="116" oX="15" oY="12" oW="164" oH="96" r="y"/>
+    <sprite n="angle_flag03" x="437" y="707" w="56" h="117" oX="13" oY="15" oW="164" oH="96" r="y"/>
+    <sprite n="angle_flag04" x="353" y="856" w="61" h="119" oX="15" oY="15" oW="164" oH="96" r="y"/>
+    <sprite n="angle_flag05" x="492" y="948" w="116" h="72" oX="14" oY="15" oW="164" oH="96"/>
+    <sprite n="angle_flag06" x="418" y="829" w="70" h="118" oX="14" oY="12" oW="164" oH="96" r="y"/>
+    <sprite n="angle_flag07" x="283" y="856" w="66" h="121" oX="14" oY="9" oW="164" oH="96" r="y"/>
+    <sprite n="angle_flag_clip" x="283" y="981" w="59" h="34" oX="3" oY="1" oW="40" oH="60" r="y"/>
+    <sprite n="flag01" x="90" y="707" w="89" h="147" oX="15" oY="15" oW="184" oH="124" r="y"/>
+    <sprite n="flag02" x="183" y="707" w="92" h="145" oX="16" oY="18" oW="184" oH="124" r="y"/>
+    <sprite n="flag03" x="279" y="707" w="79" h="145" oX="15" oY="22" oW="184" oH="124" r="y"/>
+    <sprite n="flag04" x="3" y="862" w="95" h="149" oX="16" oY="22" oW="184" oH="124" r="y"/>
+    <sprite n="flag05" x="190" y="856" w="89" h="145" oX="15" oY="22" oW="184" oH="124" r="y"/>
+    <sprite n="flag06" x="102" y="858" w="84" h="147" oX="15" oY="21" oW="184" oH="124" r="y"/>
+    <sprite n="flag07" x="3" y="707" w="83" h="151" oX="15" oY="14" oW="184" oH="124" r="y"/>
+    <sprite n="flag_clip" x="346" y="981" w="74" h="19" oX="0" oY="3" oW="20" oH="80" r="y"/>
+    <sprite n="Tent" x="3" y="3" w="488" h="700" oX="5" oY="0" oW="500" oH="700"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ac6bc318cfb7696059a7a7e0db39ec40:4481db8986239b8a65fed46ebfbd7aaa:85bb25d04caf48412595378b00500e87$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_E_EPIC_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="E_body" x="0" y="0" w="226" h="120" pX="0.516667" pY="0.840517" oX="0" oY="0" oW="120" oH="232" r="y"/>
+	<sprite n="E_leftleg" x="158" y="194" w="76" h="56" pX="0.446429" pY="0.355263" r="y"/>
+	<sprite n="E_rightleg" x="130" y="289" w="71" h="59" pX="0.5" pY="0.319444" oX="0" oY="0" oW="60" oH="72" r="y"/>
+	<sprite n="EPIC_E_hat_1" x="228" y="0" w="25" h="106" pX="0.464286" pY="7" oX="3" oY="1" oW="112" oH="28" r="y"/>
+	<sprite n="EPIC_E_hat_2" x="0" y="122" w="156" h="127" pX="0.28125" pY="2.10156" oX="2" oY="0" oW="160" oH="128"/>
+	<sprite n="EPIC_E_hat_3" x="158" y="122" w="77" h="70" pX="1.34722" pY="2.85" oX="1" oY="1" oW="72" oH="80" r="y"/>
+	<sprite n="EPIC_E_horns01" x="0" y="251" w="128" h="106" pX="0.5" pY="0.5" oX="1" oY="1" oW="130" oH="110"/>
+	<sprite n="EPIC_E_strap" x="130" y="252" w="76" h="35" pX="1.75" pY="1.4" oX="0" oY="2" oW="36" oH="80" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:24211709de49a00f252d6e210e1b2f3a:86348dcf4394fc71510d8566e7e4f5b0:aaf56ce4d5dfc45e83d17ee9b70cc239$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_pins_skins_sheet_01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="map_pin_clubbox01" x="524" y="1396" w="222" h="332" oX="40" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_clubbox01_prestige" x="748" y="1396" w="222" h="332" oX="40" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_clubbox02" x="1291" y="774" w="154" h="155" oX="72" oY="0" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_clubbox02_prestige" x="1447" y="774" w="155" h="145" oX="70" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_island01_cherry" x="506" y="328" w="261" h="325" oX="7" oY="23" oW="300" oH="380"/>
+	<sprite n="map_pin_island01_halloween" x="238" y="725" w="258" h="335" oX="12" oY="13" oW="300" oH="380"/>
+	<sprite n="map_pin_island01_mirror" x="248" y="1399" w="274" h="333" oX="14" oY="15" oW="300" oH="380"/>
+	<sprite n="map_pin_island01_skin01" x="1375" y="238" w="291" h="264" oX="32" oY="57" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island02_christmas" x="1375" y="504" w="289" h="268" oX="32" oY="91" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island02_mirror" x="1666" y="566" w="283" h="268" oX="32" oY="97" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island02_skin01" x="297" y="1734" w="288" h="313" oX="7" oY="67" oW="300" oH="380"/>
+	<sprite n="map_pin_island03_mirror" x="498" y="699" w="268" h="330" oX="0" oY="18" oW="300" oH="380"/>
+	<sprite n="map_pin_island03_skin01" x="1672" y="0" w="291" h="281" oX="13" oY="57" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island03_valentines" x="238" y="1062" w="250" h="335" oX="32" oY="13" oW="300" oH="380"/>
+	<sprite n="map_pin_island04_easter" x="0" y="1070" w="236" h="338" oX="32" oY="10" oW="300" oH="380"/>
+	<sprite n="map_pin_island04_mirror" x="490" y="1062" w="269" h="332" oX="31" oY="16" oW="300" oH="380"/>
+	<sprite n="map_pin_island04_skin01" x="587" y="1730" w="269" h="316" oX="18" oY="32" oW="300" oH="380"/>
+	<sprite n="map_pin_island05_mirror" x="1375" y="0" w="295" h="236" oX="32" oY="53" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island05_skin01" x="1007" y="538" w="236" h="230" oX="32" oY="118" oW="300" oH="380"/>
+	<sprite n="map_pin_island05_summersong" x="858" y="1730" w="271" h="310" oX="12" oY="38" oW="300" oH="380"/>
+	<sprite n="map_pin_island06_anniversary" x="1116" y="0" w="242" h="271" oX="26" oY="77" oW="300" oH="380"/>
+	<sprite n="map_pin_island07_lifeformula" x="768" y="655" w="237" h="322" oX="31" oY="26" oW="300" oH="380"/>
+	<sprite n="map_pin_island13_feastember" x="593" y="0" w="236" h="323" oX="32" oY="25" oW="300" oH="380"/>
+	<sprite n="map_pin_island14_perplexore" x="769" y="325" w="236" h="305" oX="32" oY="43" oW="300" oH="380"/>
+	<sprite n="map_pin_island15_mindboggle" x="0" y="1410" w="246" h="337" oX="32" oY="11" oW="300" oH="380"/>
+	<sprite n="map_pin_island15_mirror" x="0" y="366" w="257" h="357" oX="31" oY="0" oW="300" oH="380"/>
+	<sprite n="map_pin_island16_cloverspell" x="831" y="0" w="283" h="303" oX="8" oY="45" oW="300" oH="380"/>
+	<sprite n="map_pin_island16_mirror" x="1668" y="283" w="289" h="281" oX="2" oY="67" oW="300" oH="380"/>
+	<sprite n="map_pin_island17_beathereafter" x="1007" y="774" w="282" h="237" oX="31" oY="70" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island17_mirror" x="1116" y="273" w="240" h="263" oX="28" oY="85" oW="300" oH="380"/>
+	<sprite n="map_pin_island18_mirror" x="1131" y="1690" w="242" h="326" oX="26" oY="22" oW="300" oH="380"/>
+	<sprite n="map_pin_island18_skypainting" x="291" y="0" w="300" h="326" oX="0" oY="22" oW="300" oH="380"/>
+	<sprite n="map_pin_island19_crecendomoon" x="761" y="1031" w="291" h="329" oX="5" oY="24" oW="300" oH="380"/>
+	<sprite n="map_pin_island22_echosofeco" x="0" y="725" w="236" h="343" oX="32" oY="18" oW="300" oH="380"/>
+	<sprite n="map_pin_island26" x="1054" y="1013" w="274" h="286" oX="10" oY="79" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island27" x="0" y="1749" w="295" h="298" oX="2" oY="81" oW="300" oH="380" r="y"/>
+	<sprite n="map_pin_island28" x="0" y="0" w="289" h="364" oX="7" oY="9" oW="300" oH="380"/>
+	<sprite n="map_pin_island29" x="259" y="366" w="245" h="331" oX="27" oY="25" oW="300" oH="380"/>
+	<sprite n="map_pin_island31_MIN" x="972" y="1362" w="275" h="326" oX="15" oY="22" oW="300" oH="380"/>
+</TextureAtlas>

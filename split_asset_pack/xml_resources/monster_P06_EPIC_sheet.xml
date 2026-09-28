@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:68d6392bb6085f2086371ae0bbd515af:a58f014988ef1c6e82bedd970917b578:9d7d1401dcd91b65e541ce4080b70937$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P06_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="P06_arm_segment_A" x="100" y="238" w="30" h="73" oX="5" oY="0" oW="80" oH="30" r="y" />
+  <sprite n="P06_arm_segment_B" x="325" y="195" w="24" h="73" oX="3" oY="0" oW="80" oH="24" r="y" />
+  <sprite n="P06_arm_segment_C" x="121" y="484" w="66" h="24" oX="4" oY="0" oW="70" oH="24" />
+  <sprite n="P06_body" x="0" y="0" w="184" h="165" oX="4" oY="2" oW="190" oH="170" />
+  <sprite n="P06_body_inside" x="186" y="117" w="146" h="52" oX="7" oY="5" oW="160" oH="60" />
+  <sprite n="P06_eyeball" x="103" y="202" w="34" h="34" oX="3" oY="3" oW="40" oH="40" />
+  <sprite n="P06_gloworb" x="29" y="353" w="68" h="68" oX="1" oY="1" oW="70" oH="70" />
+  <sprite n="P06_hand_1" x="267" y="206" w="54" h="71" oX="12" oY="16" oW="80" oH="100" />
+  <sprite n="P06_hand_2" x="178" y="206" w="87" h="58" oX="8" oY="6" oW="80" oH="100" r="y" />
+  <sprite n="P06_hand_3" x="0" y="289" w="96" h="62" oX="7" oY="2" oW="80" oH="100" r="y" />
+  <sprite n="P06_head_dome_BROKEN_back" x="0" y="237" w="98" h="50" oX="38" oY="35" oW="180" oH="120" />
+  <sprite n="P06_head_dome_BROKEN_front" x="186" y="0" w="164" h="115" oX="7" oY="2" oW="180" oH="120" />
+  <sprite n="P06_leg_segment_A" x="178" y="266" w="77" h="27" oX="2" oY="1" oW="80" oH="30" />
+  <sprite n="P06_leg_segment_A_R" x="0" y="353" w="27" h="77" oX="2" oY="1" oW="80" oH="30" r="y" />
+  <sprite n="P06_leg_segment_B" x="0" y="202" w="101" h="33" oX="12" oY="11" oW="120" oH="50" />
+  <sprite n="P06_leg_segment_B_R" x="142" y="194" w="34" h="101" oX="9" oY="11" oW="120" oH="50" r="y" />
+  <sprite n="P06_leg_segment_C" x="0" y="167" w="140" h="33" oX="4" oY="9" oW="150" oH="50" />
+  <sprite n="P06_leg_segment_C_R" x="183" y="171" w="140" h="33" oX="5" oY="9" oW="150" oH="50" />
+  <sprite n="P06_pupil_BLACK" x="176" y="297" w="20" h="20" />
+  <sprite n="P06_pupil_PURPLE" x="79" y="493" w="20" h="19" oX="0" oY="0" oW="20" oH="20" r="y" />
+  <sprite n="P06_shadow" x="352" y="0" w="152" h="80" oX="4" oY="0" oW="160" oH="80" />
+  <sprite n="P06_stars_Large" x="98" y="313" w="23" h="29" oX="3" oY="1" oW="30" oH="30" />
+  <sprite n="P06_stars_Medium" x="334" y="133" w="13" h="17" oX="4" oY="2" oW="20" oH="20" />
+  <sprite n="P06_stars_Small" x="334" y="152" w="12" h="10" oX="5" oY="4" oW="20" oH="20" r="y" />
+  <sprite n="P06_void" x="352" y="82" w="149" h="126" oX="6" oY="31" oW="170" oH="170" />
+  <sprite n="sigil_1A" x="221" y="394" w="62" h="64" oX="8" oY="9" oW="80" oH="80" r="y" />
+  <sprite n="sigil_1B" x="99" y="344" w="62" h="68" oX="6" oY="9" oW="80" oH="80" r="y" />
+  <sprite n="sigil_2A" x="169" y="394" w="50" h="67" oX="6" oY="13" oW="80" oH="80" r="y" />
+  <sprite n="sigil_2B" x="163" y="325" w="60" h="67" oX="6" oY="6" oW="80" oH="80" r="y" />
+  <sprite n="sigil_3A" x="189" y="463" w="58" h="49" oX="16" oY="11" oW="80" oH="80" r="y" />
+  <sprite n="sigil_3B" x="53" y="423" w="66" h="68" oX="0" oY="5" oW="80" oH="80" />
+  <sprite n="sigil_4A" x="121" y="414" w="46" h="68" oX="17" oY="8" oW="80" oH="80" />
+  <sprite n="sigil_4B" x="0" y="432" w="51" h="71" oX="14" oY="7" oW="80" oH="80" />
+  <sprite n="spikes_00" x="142" y="167" w="39" h="25" oX="7" oY="1" oW="40" oH="40" r="y" />
+  <sprite n="spikes_01" x="151" y="297" w="23" h="26" oX="3" oY="2" oW="30" oH="30" />
+  <sprite n="spikes_02" x="123" y="313" w="26" h="28" oX="3" oY="0" oW="30" oH="30" />
+  <sprite n="spikes_03" x="53" y="493" w="24" h="19" oX="5" oY="3" oW="30" oH="30" r="y" />
+  <sprite n="spikes_04" x="325" y="171" w="25" h="22" oX="4" oY="2" oW="30" oH="30" r="y" />
+  <sprite n="spikes_05" x="334" y="117" w="15" h="14" oX="7" oY="8" oW="30" oH="30" />
+</TextureAtlas>

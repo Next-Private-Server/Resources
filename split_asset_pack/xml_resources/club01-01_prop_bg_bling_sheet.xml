@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b4f304781b210b54a81891b4810e8d68:06253bb6ae26ddc9b1c87edb45125a82:7f806fc80697865f29d5ea86f24b0fec$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_bg_bling_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="anglow_holo_01" x="0" y="812" w="206" h="209" oX="13" oY="51" oW="240" oH="257" r="y"/>
+	<sprite n="anglow_holo_02" x="0" y="372" w="257" h="212" oX="0" oY="0" oW="240" oH="257" r="y"/>
+	<sprite n="anglow_holo_03" x="0" y="586" w="225" h="224" oX="15" oY="33" oW="240" oH="257"/>
+	<sprite n="bhologram_stand" x="592" y="0" w="405" h="240" oX="70" oY="160" oW="520" oH="400"/>
+	<sprite n="bhologram_stand_glow" x="259" y="372" w="195" h="267"/>
+	<sprite n="ceiling_chain_left_1" x="466" y="179" w="101" h="446" oX="0" oY="15" oW="446" oH="131" r="y"/>
+	<sprite n="ceiling_chain_left_2" x="0" y="0" w="590" h="177" oX="12" oY="8" oW="610" oH="220"/>
+	<sprite n="ceiling_chain_right" x="0" y="179" w="464" h="191" oX="8" oY="14" oW="480" oH="220"/>
+	<sprite n="dermit_holo_01" x="583" y="808" w="184" h="193" oX="5" oY="0" oW="202" oH="184" r="y"/>
+	<sprite n="dermit_holo_02" x="569" y="242" w="181" h="191" oX="6" oY="3" oW="202" oH="184" r="y"/>
+	<sprite n="dermit_holo_03" x="401" y="810" w="180" h="202" oX="0" oY="4" oW="202" oH="184" r="y"/>
+	<sprite n="ghazt_holo_01" x="453" y="641" w="208" h="165" oX="0" oY="2" oW="226" oH="167"/>
+	<sprite n="ghazt_holo_02" x="569" y="435" w="167" h="199" oX="4" oY="0" oW="226" oH="167" r="y"/>
+	<sprite n="ghazt_holo_03" x="227" y="641" w="224" h="167" oX="2" oY="0" oW="226" oH="167"/>
+	<sprite n="hornacle_holo_01" x="752" y="242" w="174" h="189" oX="27" oY="2" oW="211" oH="191"/>
+	<sprite n="hornacle_holo_02" x="208" y="812" w="191" h="196" oX="0" oY="0" oW="211" oH="191" r="y"/>
+	<sprite n="hornacle_holo_03" x="738" y="435" w="180" h="184" oX="27" oY="11" oW="211" oH="191" r="y"/>
+	<sprite n="posters_left_01" x="928" y="242" w="93" h="80" r="y"/>
+	<sprite n="posters_left_02" x="663" y="636" w="251" h="125" r="y"/>
+	<sprite n="posters_left_03" x="663" y="763" w="33" h="41"/>
+	<sprite n="posters_right_01" x="920" y="433" w="98" h="124"/>
+	<sprite n="posters_right_02" x="916" y="621" w="72" h="176"/>
+	<sprite n="posters_right_03" x="920" y="559" w="83" h="51" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:21e79e0cee6600025b990515dd5794a6:64723a73c5ec6f3e04783fd02094606b:0d25591bdbe5a4172a07e5c7263b26b7$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_A_costume_08_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="A_body_egg" x="0" y="404" w="135" h="134" pX="0.503472" pY="0.599265" oX="6" oY="1" oW="144" oH="136" r="y" />
+  <sprite n="A_breast_egg" x="417" y="483" w="91" h="72" pX="0.427473" pY="0.844444" />
+  <sprite n="A_brush" x="441" y="352" w="43" h="129" pX="0.216279" pY="-0.367442" r="y" />
+  <sprite n="A_head" x="281" y="424" w="134" h="119" pX="0.5" pY="0.5" oX="27" oY="7" oW="168" oH="126" />
+  <sprite n="A_tailfeather_01" x="0" y="335" w="140" h="67" pX="0.5" pY="0.5" oX="0" oY="0" oW="140" oH="84" />
+  <sprite n="A_tailfeather_02" x="137" y="443" w="134" h="80" pX="0.5" pY="0.5" oX="0" oY="0" oW="140" oH="84" />
+  <sprite n="A_tailfeather_03" x="137" y="525" w="131" h="84" pX="0.5" pY="0.5" oX="0" oY="0" oW="140" oH="84" />
+  <sprite n="A_tailfeather_04" x="301" y="352" w="138" h="70" pX="0.5" pY="0.5" oX="0" oY="0" oW="140" oH="84" />
+  <sprite n="A_wing_01" x="155" y="226" w="144" h="135" pX="0.5" pY="0.5" oX="22" oY="38" oW="166" oH="250" />
+  <sprite n="A_wing_02" x="168" y="91" w="158" h="133" pX="0.5" pY="0.5" oX="33" oY="0" oW="166" oH="250" r="y" />
+  <sprite n="A_wing_03" x="332" y="79" w="160" h="139" pX="0.5" pY="0.5" oX="27" oY="20" oW="166" oH="250" r="y" />
+  <sprite n="A_wing_04" x="168" y="0" w="162" h="89" pX="0.5" pY="0.5" oX="4" oY="92" oW="166" oH="250" />
+  <sprite n="A_wing_05" x="328" y="220" w="149" h="130" pX="0.5" pY="0.5" oX="17" oY="92" oW="166" oH="250" />
+  <sprite n="A_wing_06" x="332" y="0" w="162" h="77" pX="0.5" pY="0.5" oX="89" oY="88" oW="166" oH="250" r="y" />
+  <sprite n="A_wing_07" x="0" y="119" w="155" h="104" pX="0.5" pY="0.5" oX="62" oY="91" oW="166" oH="250" r="y" />
+  <sprite n="A_wing_08" x="0" y="225" w="153" h="108" pX="0.5" pY="0.5" oX="13" oY="88" oW="166" oH="250" />
+  <sprite n="A_wing_09" x="0" y="0" w="166" h="117" pX="0.5" pY="0.5" oX="0" oY="54" oW="166" oH="250" />
+  <sprite n="A_wing_fold" x="142" y="363" w="137" h="78" pX="0.5" pY="0.5" oX="4" oY="1" oW="82" oH="138" r="y" />
+</TextureAtlas>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<template name="template_encore_reward_track_bar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+  	<script src="scripts/EncoreRewardTrackBar.lua" />
+
+	<defaultTemplateVar name="$layer" equals="PopUps" />
+	<defaultTemplateVar name="$scale" equals="game.hudScale()" />
+	<defaultTemplateVar name="$touchEnabled" equals="1" />
+
+	<size w="200*element:templateVars().scale" h="70*element:templateVars().scale" />
+
+  	<template type="template_reward_track_bar" name="RewardBar">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$scale" equals="element:templateVars().scale" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<element name="EventType">
+		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
+		<position relativeTo="RewardBar" component="BarBackingSprite" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-4*element:templateVars().scale" yOffset="-2*element:templateVars().scale" priorityOffset="-2" />
+		<spriteSheetComponent name="BackingSprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("encore_event_frame")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("size"):SetFloat(0.75*$scale)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="4*element:templateVars().scale" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("encore_icon_allevents")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("size"):SetFloat($scale)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<spriteSheetComponent name="FlagSprite">
+		<position relativeTo="element:E(&quot;RewardBar&quot;):E(&quot;RewardSprite1&quot;)" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="8*element:templateVars().scale" priorityOffset="1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("encore_reward_banner")
+			component("sheetName"):SetString("xml_resources/hud03.xml")
+			component("size"):SetFloat(0.7*$scale)
+			component("layer"):SetString("$layer")
+		</event>
+	</spriteSheetComponent>
+
+	<element name="Timer">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="RewardBar" component="BarBackingSprite" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-12*element:templateVars().scale" priorityOffset="1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("encore_timer_backdrop")
+				component("sheetName"):SetString("xml_resources/hud03.xml")
+				component("size"):SetFloat(0.8*$scale)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-12*element:templateVars().scale" yOffset="-2*element:templateVars().scale" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(6*$scale)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.3*$scale)
+				component("text"):SetString("0")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<touchComponent name="Touch">
+		<size w="200*element:templateVars().scale" h="70*element:templateVars().scale" />
+		<position relativeTo="RewardBar" component="BarBackingSprite" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-5*element:templateVars().scale" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			element("enabled"):SetInt($touchEnabled)
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+			if (not game.tutorialActive() and game.popUpLevel() <= 1) then
+				element:setColorPercent(0.5)
+				element.buttonState = game.BUTTON_PRESSED
+				element.tickTimer = 0
+			end
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+			if (not game.tutorialActive() and game.popUpLevel() <= 1) then
+				playSoundFx("audio/sfx/menu_click_small.wav")
+				game.pushPopUp("popup_encore_info")
+
+				element:setColorPercent(1)
+				element.buttonState = game.BUTTON_RELEASED
+				element.tickTimer = 0
+			end
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				element:setColorPercent(1)
+				element.buttonState = game.BUTTON_RELEASED
+				element.tickTimer = 0
+			]]>
+		</event>
+	</touchComponent>
+
+	<event name="hide" params="element">
+		element:E("RewardBar"):DoStoredScript("hide")
+		element:E("EventType"):C("BackingSprite")("visible"):SetInt(0)
+		element:E("EventType"):C("Sprite")("visible"):SetInt(0)
+		element:C("FlagSprite")("visible"):SetInt(0)
+		element:E("Timer"):C("Sprite")("visible"):SetInt(0)
+		element:E("Timer"):C("Text")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt(0)
+		element.isVisible = 0
+		element.manualHide = 1
+	</event>
+
+	<event name="show" params="element">
+		<![CDATA[
+		if element.visibleOnIsland == 1 and (element.encoreEvent or (element.doingEncoreTutorial and not game.tutorialActive() and game.playerLevel() >= 8)) then
+			element:E("RewardBar"):DoStoredScript("show")
+			element:E("EventType"):C("BackingSprite")("visible"):SetInt(1)
+			element:E("EventType"):C("Sprite")("visible"):SetInt(1)
+			element:C("FlagSprite")("visible"):SetInt(1)
+			element:C("Touch")("enabled"):SetInt($touchEnabled)
+			if element.doingEncoreTutorial then
+				element:E("Timer"):C("Sprite")("visible"):SetInt(0)
+				element:E("Timer"):C("Text")("visible"):SetInt(0)
+			else
+				element:E("Timer"):C("Sprite")("visible"):SetInt(1)
+				element:E("Timer"):C("Text")("visible"):SetInt(1)
+			end
+			element.isVisible = 1
+			element.manualHide = 0
+		end
+		]]>
+	</event>
+
+	<event name="setInvisibleOnIsland" params="element">
+		element.visibleOnIsland = 0
+		element:DoStoredScript("hide")
+	</event>
+
+	<event name="setVisibleOnIsland" params="element">
+		element.visibleOnIsland = 1
+		element:DoStoredScript("show")
+	</event>
+
+</template>

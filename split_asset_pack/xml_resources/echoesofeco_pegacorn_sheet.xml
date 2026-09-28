@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a24eae920fa98fc1ced6f2c34fe8d85a:b44ce4f8d9b4c3c929686754d7e347a1:ec3cdb2274b03b76a014eb508a5a1cfd$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/echoesofeco_pegacorn_sheet.png" width="512" height="512" hires="true">
+    <sprite n="eoe_anim_deco_01_outhouse.png" x="3" y="3" w="308" h="390" pX="0.5" pY="0.5" oX="2" oY="3" oW="312" oH="396"/>
+    <sprite n="eoe_anim_deco_01_pegacorn.png" x="315" y="188" w="164" h="160" pX="0.5" pY="0.5" oX="2" oY="4" oW="168" oH="168"/>
+    <sprite n="eoe_anim_deco_01_pegacorn_head.png" x="368" y="3" w="140" h="149" pX="0.5" pY="0.5" oX="2" oY="1" oW="144" oH="152"/>
+    <sprite n="eoe_anim_deco_01_pegacorn_shadow.png" x="315" y="3" w="42" h="85" pX="0.5" pY="0.5" oX="3" oY="3" oW="92" oH="48" r="y"/>
+    <sprite n="eoe_anim_deco_01_pegacorn_wing.png" x="306" y="397" w="58" h="100" pX="0.5" pY="0.5" oX="1" oY="2" oW="60" oH="104"/>
+    <sprite n="eoe_anim_deco_01_spring.png" x="315" y="92" w="37" h="92" pX="0.5" pY="0.5" oX="6" oY="2" oW="48" oH="96"/>
+    <sprite n="eoe_anim_deco_01_stack_back.png" x="483" y="156" w="23" h="54" pX="0.5" pY="0.5" oX="3" oY="5" oW="60" oH="32" r="y"/>
+    <sprite n="eoe_anim_deco_01_stack_front.png" x="3" y="397" w="192" h="110" pX="0.5" pY="0.5" oX="1" oY="2" oW="112" oH="196" r="y"/>
+    <sprite n="eoe_anim_deco_01_stack_rod.png" x="368" y="352" w="95" h="56" pX="0.5" pY="0.5" oX="1" oY="0" oW="100" oH="60"/>
+    <sprite n="steam.png" x="199" y="397" w="103" h="103" pX="0.5" pY="0.5"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:51369c7a552d4b2d9a712ce1478f5874:6862c72c50b5e1378bcca66e93be548d:f3104526b4bdc1dfd4b320efa498c8da$ -->
+<TextureAtlas imagePath="gfx/clubbox/hype/hype_meter.png" width="1024" height="128" hires="false" version="1">
+	<sprite n="hype_meter_bar" x="583" y="0" w="398" h="37"/>
+	<sprite n="hype_meter_frame" x="0" y="0" w="581" h="114" oX="2" oY="0" oW="583" oH="114"/>
+	<sprite n="hype_meter_frame_prestige" x="0" y="116" w="581" h="114" oX="2" oY="0" oW="583" oH="114"/>
+	<sprite n="icon_baking_buff" x="826" y="39" w="51" h="50" oX="2" oY="3" oW="56" oH="56"/>
+	<sprite n="icon_breeding_buff" x="772" y="39" w="52" h="50" oX="1" oY="3" oW="56" oH="56"/>
+	<sprite n="icon_incubation_buff" x="829" y="91" w="51" h="50" oX="2" oY="3" oW="56" oH="56"/>
+	<sprite n="icon_reward_clubbox_screen" x="734" y="190" w="100" h="57" oX="0" oY="18" oW="100" oH="100"/>
+	<sprite n="icon_reward_crowd_surfer" x="583" y="141" w="77" h="77" oX="13" oY="10" oW="100" oH="100"/>
+	<sprite n="icon_reward_decos" x="662" y="141" w="70" h="76" oX="17" oY="12" oW="100" oH="100"/>
+	<sprite n="icon_reward_djepic" x="734" y="115" w="93" h="73" oX="7" oY="14" oW="100" oH="100"/>
+	<sprite n="icon_reward_effects" x="583" y="39" w="100" h="100"/>
+	<sprite n="icon_reward_performer" x="685" y="39" w="85" h="74" oX="9" oY="12" oW="100" oH="100"/>
+	<sprite n="icon_stickerpack" x="879" y="39" w="45" h="50" oX="5" oY="3" oW="56" oH="56"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c5f9f04c712abebf8b84ae0063603d9f:41936af80679801ced65c6b72e30d78d:0fbaf3accadf47fe8d63d6ed6a8a9738$ -->
+<TextureAtlas imagePath="gfx/menu/minigames/dipster_placement_info_sheet.png" width="512" height="2048" hires="false" version="1">
+	<sprite n="info_arrow" x="0" y="1824" w="113" h="183"/>
+	<sprite n="info_dip_placement_01" x="0" y="0" w="439" h="606"/>
+	<sprite n="info_dip_placement_02" x="0" y="608" w="439" h="606"/>
+	<sprite n="info_dip_placement_03" x="0" y="1216" w="439" h="606"/>
+</TextureAtlas>

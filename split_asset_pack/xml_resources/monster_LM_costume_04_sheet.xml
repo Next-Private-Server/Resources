@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:655a5807eeba3ff42d8979e95e346263:4054104a50bf76243b3d5156b0ff53b5:4cc51dc28dd1e6f43f5e9367097e9431$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_LM_costume_04_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="LM_C4_left_upperarm" x="199" y="128" w="39" h="104" pX="0.8653846153846154" pY="0.5454545454545454" oX="0" oY="1" oW="104" oH="44" r="y"/>
+	<sprite n="LM_C4_right_upperarm" x="199" y="234" w="39" h="104" pX="0.14423076923076922" pY="0.4772727272727273" oX="0" oY="4" oW="104" oH="44" r="y"/>
+	<sprite n="LM_C4_sand_OLpng" x="0" y="349" w="71" h="162" pX="0.5" pY="0.6707317073170732" oX="0" oY="10" oW="164" oH="82" r="y"/>
+	<sprite n="LM_C4_sand_UL" x="199" y="0" w="41" h="126" pX="0.5" pY="0.6707317073170732" oX="20" oY="2" oW="164" oH="82" r="y"/>
+	<sprite n="LM_C4_shirt" x="73" y="349" w="100" h="140" pX="0.44" pY="0.5704225352112676" oX="0" oY="0" oW="100" oH="142"/>
+	<sprite n="LM_C4_umbrella" x="0" y="0" w="197" h="347" pX="0.53125" pY="0.86" oX="2" oY="2" oW="352" oH="200" r="y"/>
+</TextureAtlas>

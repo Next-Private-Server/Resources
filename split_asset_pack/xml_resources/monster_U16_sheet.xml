@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:be8b3ac7641ad534901719ab467a6bcf:9b64664b34ab5d43f412cec0d08b9e62:815a1df706d38a0cbcc17c26318c1979$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U16_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="U16_backfoot" x="215" y="504" w="47" h="37" oX="11" oY="10" oW="60" oH="68" r="y"/>
+	<sprite n="U16_barbel" x="392" y="0" w="120" h="28" oX="6" oY="13" oW="48" oH="144" r="y"/>
+	<sprite n="U16_body_A" x="167" y="412" w="105" h="90" oX="11" oY="11" oW="112" oH="128" r="y"/>
+	<sprite n="U16_body_B" x="392" y="74" w="115" h="78" oX="11" oY="11" oW="100" oH="136" r="y"/>
+	<sprite n="U16_head" x="0" y="288" w="165" h="128" oX="5" oY="9" oW="176" oH="148"/>
+	<sprite n="U16_left_ear" x="392" y="30" w="118" h="42" oX="9" oY="8" oW="60" oH="136" r="y"/>
+	<sprite n="U16_left_eyelid_01" x="125" y="487" w="38" h="45" oX="9" oY="11" oW="56" oH="68"/>
+	<sprite n="U16_left_eyelid_02" x="215" y="543" w="45" h="38" oX="9" oY="11" oW="56" oH="68" r="y"/>
+	<sprite n="U16_left_eyelid_03" x="100" y="534" w="45" h="38" oX="9" oY="11" oW="56" oH="68" r="y"/>
+	<sprite n="U16_left_eyelid_04" x="50" y="572" w="45" h="38" oX="9" oY="11" oW="56" oH="68" r="y"/>
+	<sprite n="U16_left_hand" x="302" y="377" w="74" h="70" oX="12" oY="10" oW="88" oH="92"/>
+	<sprite n="U16_lowerarm" x="388" y="307" w="123" h="70" oX="9" oY="11" oW="88" oH="144" r="y"/>
+	<sprite n="U16_lowerleg" x="65" y="487" w="58" h="34" oX="9" oY="8" oW="52" oH="76" r="y"/>
+	<sprite n="U16_mouth_01" x="0" y="418" w="73" h="37" oX="9" oY="11" oW="92" oH="60"/>
+	<sprite n="U16_mouth_02" x="481" y="431" w="28" h="73" oX="10" oY="17" oW="92" oH="60" r="y"/>
+	<sprite n="U16_mouth_03" x="274" y="470" w="21" h="73" oX="9" oY="21" oW="92" oH="60" r="y"/>
+	<sprite n="U16_pupil" x="147" y="418" w="14" h="14" oX="11" oY="11" oW="36" oH="36"/>
+	<sprite n="U16_right_ear" x="167" y="288" w="137" h="50" oX="12" oY="10" oW="76" oH="156" r="y"/>
+	<sprite n="U16_right_eyelid_01" x="0" y="503" w="48" h="47" oX="10" oY="12" oW="68" oH="72" r="y"/>
+	<sprite n="U16_right_eyelid_02" x="50" y="523" w="48" h="47" oX="10" oY="12" oW="68" oH="72" r="y"/>
+	<sprite n="U16_right_eyelid_03" x="0" y="552" w="48" h="47" oX="10" oY="12" oW="68" oH="72" r="y"/>
+	<sprite n="U16_right_eyelid_04" x="165" y="504" w="48" h="47" oX="10" oY="12" oW="68" oH="72" r="y"/>
+	<sprite n="U16_right_hand" x="75" y="418" w="70" h="67" oX="11" oY="10" oW="88" oH="92" r="y"/>
+	<sprite n="U16_shadow" x="167" y="340" w="133" h="70" oX="8" oY="7" oW="148" oH="84"/>
+	<sprite n="U16_statue" x="0" y="0" w="390" h="286" oX="0" oY="14" oW="296" oH="404" r="y"/>
+	<sprite n="U16_tail_A" x="392" y="215" w="105" h="90" oX="9" oY="9" oW="124" oH="108"/>
+	<sprite n="U16_tail_B" x="378" y="379" w="101" h="88" oX="8" oY="11" oW="108" oH="120" r="y"/>
+	<sprite n="U16_tail_C" x="306" y="288" w="80" h="87" oX="11" oY="9" oW="108" oH="100" r="y"/>
+	<sprite n="U16_tail_D" x="297" y="521" w="73" h="64" oX="9" oY="13" oW="84" oH="100" r="y"/>
+	<sprite n="U16_tail_E" x="463" y="580" w="48" h="56" oX="9" oY="10" oW="68" oH="76"/>
+	<sprite n="U16_tail_F" x="477" y="506" w="35" h="51" oX="11" oY="11" oW="56" oH="72"/>
+	<sprite n="U16_tailglow_A" x="372" y="533" w="89" h="63" oX="7" oY="11" oW="124" oH="108" r="y"/>
+	<sprite n="U16_tailglow_B" x="375" y="469" w="100" h="62" oX="7" oY="11" oW="108" oH="120" r="y"/>
+	<sprite n="U16_tailglow_C" x="300" y="449" w="73" h="70" oX="12" oY="8" oW="108" oH="100" r="y"/>
+	<sprite n="U16_tailglow_D" x="0" y="457" w="63" h="44" oX="10" oY="11" oW="84" oH="100" r="y"/>
+	<sprite n="U16_tailglow_E" x="481" y="379" w="29" h="50" oX="10" oY="10" oW="68" oH="76"/>
+	<sprite n="U16_tailglow_F" x="463" y="559" w="49" h="19" oX="12" oY="11" oW="56" oH="72" r="y"/>
+	<sprite n="U16_upperarm" x="392" y="154" w="108" h="59" oX="8" oY="11" oW="76" oH="132" r="y"/>
+	<sprite n="U16_upperleg" x="274" y="412" w="24" h="56" oX="12" oY="12" oW="48" oH="80"/>
+</TextureAtlas>

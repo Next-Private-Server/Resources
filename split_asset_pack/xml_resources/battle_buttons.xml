@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:74fbf6d5cd61958b412b72e1117e387e:3c54d56d7c5250c882c9b10f54beaac6:6366c61d2fbb8f8945703112443a6632$ -->
+<TextureAtlas imagePath="gfx/battle/battle_buttons.png" width="1024" height="2048" hires="false" version="1">
+	<sprite n="button_blitherphish_eggs" x="679" y="149" w="211" h="168" oX="6" oY="0" oW="225" oH="168"/>
+	<sprite n="button_buff_baking_supercharge" x="813" y="806" w="161" h="159" oX="32" oY="9" oW="225" oH="168"/>
+	<sprite n="button_buff_breeding_supercharge" x="835" y="639" w="169" h="165" oX="28" oY="3" oW="225" oH="168"/>
+	<sprite n="button_buff_incubation_supercharge" x="646" y="647" w="165" h="163" oX="31" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_clubbox_blitherphish_stage_decos" x="0" y="0" w="225" h="168"/>
+	<sprite n="button_clubbox_costume" x="778" y="967" w="155" h="149" oX="37" oY="4" oW="225" oH="168" r="y"/>
+	<sprite n="button_clubbox_crowed_surfer" x="323" y="1079" w="152" h="152" oX="37" oY="1" oW="225" oH="168"/>
+	<sprite n="button_clubbox_decos" x="870" y="362" w="152" h="160" oX="37" oY="0" oW="225" oH="168"/>
+	<sprite n="button_clubbox_djepic" x="0" y="962" w="163" h="129" oX="37" oY="12" oW="225" oH="168"/>
+	<sprite n="button_clubbox_effects" x="227" y="168" w="208" h="152" oX="10" oY="2" oW="225" oH="168"/>
+	<sprite n="button_clubbox_lvxlvmenz_stage_decos" x="0" y="309" w="203" h="159" oX="14" oY="3" oW="225" oH="168"/>
+	<sprite n="button_clubbox_performer" x="477" y="1079" w="134" h="144" oX="40" oY="20" oW="225" oH="168" r="y"/>
+	<sprite n="button_clubbox_pomily_stage_decos" x="406" y="332" w="193" h="162" oX="13" oY="6" oW="225" oH="168"/>
+	<sprite n="button_clubbox_screen" x="900" y="148" w="116" h="212" oX="7" oY="21" oW="225" oH="168" r="y"/>
+	<sprite n="button_clubbox_tokens" x="0" y="647" w="182" h="161" oX="18" oY="2" oW="225" oH="168"/>
+	<sprite n="button_coin_pile" x="168" y="922" w="165" h="140" oX="30" oY="25" oW="225" oH="168"/>
+	<sprite n="button_diamond_pile" x="352" y="794" w="165" h="143" oX="30" oY="15" oW="225" oH="168"/>
+	<sprite n="button_epic_pomily" x="205" y="322" w="199" h="130" oX="13" oY="19" oW="225" oH="168"/>
+	<sprite n="button_food_pile" x="0" y="170" w="204" h="137" oX="10" oY="23" oW="225" oH="168"/>
+	<sprite n="button_glow_effect" x="541" y="637" w="103" h="101"/>
+	<sprite n="button_keys_pile" x="493" y="939" w="125" h="134" oX="45" oY="21" oW="225" oH="168" r="y"/>
+	<sprite n="button_lvxlvmenz_eggs" x="398" y="496" w="187" h="139" oX="17" oY="20" oW="225" oH="168"/>
+	<sprite n="button_metal_pile" x="227" y="0" w="225" h="166" oX="0" oY="1" oW="225" oH="168"/>
+	<sprite n="button_mystery_box_large" x="184" y="770" w="166" h="150" oX="38" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_mystery_box_medium" x="373" y="637" w="166" h="155" oX="35" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_mystery_box_small" x="0" y="810" w="166" h="150" oX="37" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_relic_pile" x="900" y="0" w="117" h="146" oX="39" oY="25" oW="225" oH="168" r="y"/>
+	<sprite n="button_shard_pile" x="205" y="454" w="191" h="167" oX="20" oY="1" oW="225" oH="168"/>
+	<sprite n="button_starpower_pile" x="659" y="518" w="174" h="127" oX="25" oY="20" oW="225" oH="168"/>
+	<sprite n="button_sticker_pack_common" x="621" y="812" w="156" h="138" oX="43" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_sticker_pack_epic" x="335" y="939" w="156" h="138" oX="43" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_sticker_pack_legendary" x="165" y="1064" w="156" h="138" oX="43" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_sticker_pack_rare" x="0" y="1093" w="156" h="138" oX="43" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_sticker_pack_uncommon" x="620" y="952" w="156" h="138" oX="43" oY="2" oW="225" oH="168" r="y"/>
+	<sprite n="button_tokens_pile" x="188" y="623" w="183" h="145" oX="20" oY="13" oW="225" oH="168"/>
+	<sprite n="button_waveform_eggs" x="454" y="162" w="210" h="168" oX="7" oY="0" oW="225" oH="168"/>
+	<sprite n="button_waveform_stage_decos" x="454" y="0" w="223" h="160" oX="2" oY="7" oW="225" oH="168"/>
+	<sprite n="button_wildcards_pile" x="679" y="0" w="219" h="147" oX="3" oY="7" oW="225" oH="168"/>
+	<sprite n="button_xp_pile" x="835" y="524" w="172" h="113" oX="26" oY="27" oW="225" oH="168"/>
+	<sprite n="metal_glow_beam" x="601" y="332" w="56" h="190" oX="0" oY="1" oW="56" oH="191"/>
+	<sprite n="metal_glow_white" x="541" y="740" w="78" h="76" oX="1" oY="0" oW="80" oH="76"/>
+	<sprite n="quest_number_time" x="587" y="524" w="64" h="64"/>
+	<sprite n="quests_button" x="0" y="470" w="186" h="175" oX="4" oY="3" oW="183" oH="193" r="y"/>
+	<sprite n="versus_button" x="666" y="319" w="202" h="197"/>
+</TextureAtlas>

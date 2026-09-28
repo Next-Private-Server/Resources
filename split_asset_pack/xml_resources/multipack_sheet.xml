@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:72b4825faf76e521e0be41ff8510b222:cd2c846a2194e2808e3ded41445e986e:eb2e93d4b46f196d21bafb12fd372f57$ -->
+<TextureAtlas imagePath="gfx/menu/multipack_sheet.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="banner_purple" x="0" y="775" w="307" h="52"/>
+	<sprite n="Love_sticker1" x="0" y="0" w="365" h="131" oX="2" oY="3" oW="380" oH="140"/>
+	<sprite n="Love_sticker2" x="0" y="403" w="317" h="153" oX="6" oY="14" oW="330" oH="180"/>
+	<sprite n="popup_spotlight" x="0" y="133" w="352" h="268" r="y"/>
+	<sprite n="Popup_sticker1" x="315" y="587" w="196" h="181"/>
+	<sprite n="Popup_sticker2" x="367" y="0" w="145" h="106"/>
+	<sprite n="Popup_sticker3" x="319" y="434" w="191" h="151"/>
+	<sprite n="Popup_sticker4" x="163" y="829" w="135" h="151" r="y"/>
+	<sprite n="Popup_sticker5" x="315" y="770" w="180" h="130"/>
+	<sprite n="Popup_sticker6" x="0" y="829" w="161" h="162"/>
+	<sprite n="Yay_sticker1" x="367" y="108" w="136" h="324" oX="2" oY="2" oW="326" oH="138" r="y"/>
+	<sprite n="Yay_sticker2" x="0" y="558" w="313" h="215" oX="2" oY="2" oW="315" oH="218"/>
+</TextureAtlas>

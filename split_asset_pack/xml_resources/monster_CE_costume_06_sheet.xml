@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:66fefb8a523176e85f4a847d13d2e509:d403c763ae496885470204238feabe54:c4b66d35c34168ecb5b1f5b53af827ec$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CE_costume_06_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="CE_body" x="0" y="0" w="253" h="162" pX="0.5" pY="0.5" oX="0" oY="7" oW="162" oH="260" r="y"/>
+	<sprite n="CE_mustache_l" x="161" y="164" w="93" h="58" pX="1.04" pY="2.22857" oX="5" oY="6" oW="100" oH="70"/>
+	<sprite n="CE_mustache_r" x="0" y="362" w="61" h="140" pX="0.226667" pY="2.05714" oX="3" oY="5" oW="150" oH="70" r="y"/>
+	<sprite n="CE_tomato" x="0" y="164" w="159" h="152" pX="0.577778" pY="0.516667" oX="9" oY="14" oW="180" oH="180"/>
+	<sprite n="CE_top" x="161" y="224" w="74" h="136" pX="0.306667" pY="2.56" oX="7" oY="13" oW="150" oH="100" r="y"/>
+</TextureAtlas>

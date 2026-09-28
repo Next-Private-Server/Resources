@@ -1,0 +1,9 @@
+<template name="template_notification_alerts_component" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/NotificationAlertsComponent.lua"/>
+
+	<defaultTemplateVar name="$layer" equals="FrontClipping" />
+
+	<size w="100*game.windowScaleY()" h="200*game.windowScaleY()" />
+
+</template>

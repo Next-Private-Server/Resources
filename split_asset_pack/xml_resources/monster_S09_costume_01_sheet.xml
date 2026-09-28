@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:af968c2ccb414a38b04b97c6799f6261:9ca05aa745faa797b2f8e5011d9e71ba:7a1d51c3e84a4eff97682731b953653d$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S09_costume_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="S09_cake_lips" x="0" y="816" w="70" h="76" pX="0.5" pY="0.5" oX="12" oY="15" oW="100" oH="100" r="y"/>
+	<sprite n="S09_candle_B_icing" x="985" y="737" w="38" h="77" pX="0.5" pY="0.5" oX="11" oY="11" oW="100" oH="60" r="y"/>
+	<sprite n="S09_candle_C_icing" x="0" y="670" w="54" h="32" pX="0.5" pY="0.5" oX="13" oY="14" oW="80" oH="60"/>
+	<sprite n="S09_candle_E_icing" x="348" y="356" w="147" h="56" pX="0.5" pY="0.5" oX="6" oY="12" oW="160" oH="80"/>
+	<sprite n="S09_candle_F_icing_01" x="348" y="296" w="171" h="58" pX="0.5" pY="0.5" oX="14" oY="11" oW="200" oH="80"/>
+	<sprite n="S09_candle_F_icing_02" x="856" y="299" w="73" h="59" pX="0.5" pY="0.5" oX="10" oY="3" oW="80" oH="80" r="y"/>
+	<sprite n="S09_eye_A_icing" x="0" y="588" w="31" h="69" pX="0.5" pY="0.5" oX="15" oY="14" oW="100" oH="60" r="y"/>
+	<sprite n="S09_eye_B_icing" x="930" y="522" w="86" h="32" pX="0.5" pY="0.5" oX="7" oY="14" oW="100" oH="60"/>
+	<sprite n="S09_eye_F_icing" x="930" y="556" w="82" h="75" pX="0.5" pY="0.5" oX="12" oY="9" oW="100" oH="100" r="y"/>
+	<sprite n="S09_eye_F_icing_top" x="0" y="719" w="69" h="32" pX="0.5" pY="0.5" oX="5" oY="4" oW="80" oH="40"/>
+	<sprite n="S09_head" x="0" y="194" w="225" h="219" pX="0.5" pY="0.5" oX="67" oY="67" oW="360" oH="360"/>
+	<sprite n="S09_head_icing" x="691" y="135" w="239" h="162" pX="0.5" pY="0.5" oX="62" oY="39" oW="360" oH="240"/>
+	<sprite n="S09_left_arm_01" x="683" y="664" w="96" h="49" pX="0.5" pY="0.5" oX="16" oY="12" oW="80" oH="120" r="y"/>
+	<sprite n="S09_left_arm_02" x="0" y="763" w="69" h="48" pX="0.5" pY="0.5" oX="6" oY="5" oW="60" oH="80" r="y"/>
+	<sprite n="S09_left_arm_03" x="856" y="421" w="73" h="39" pX="0.5" pY="0.5" oX="10" oY="13" oW="60" oH="100" r="y"/>
+	<sprite n="S09_left_arm_04" x="642" y="471" w="42" h="61" pX="0.5" pY="0.5" oX="9" oY="9" oW="60" oH="80"/>
+	<sprite n="S09_left_arm_05" x="856" y="360" w="73" h="59" pX="0.5" pY="0.5" oX="21" oY="14" oW="100" oH="100" r="y"/>
+	<sprite n="S09_left_leg" x="529" y="222" w="157" h="113" pX="0.5" pY="0.5" oX="43" oY="21" oW="200" oH="200" r="y"/>
+	<sprite n="S09_party_blower_sl_01" x="819" y="684" w="81" h="77" pX="0.5" pY="0.5" oX="93" oY="92" oW="234" oH="234" r="y"/>
+	<sprite n="S09_party_blower_sl_02" x="931" y="352" w="93" h="83" pX="0.5" pY="0.5" oX="86" oY="80" oW="234" oH="234" r="y"/>
+	<sprite n="S09_party_blower_sl_03" x="829" y="462" w="99" h="102" pX="0.5" pY="0.5" oX="66" oY="75" oW="234" oH="234" r="y"/>
+	<sprite n="S09_party_blower_sl_04" x="683" y="551" w="134" h="111" pX="0.5" pY="0.5" oX="35" oY="63" oW="234" oH="234"/>
+	<sprite n="S09_party_blower_sl_05" x="348" y="484" w="139" h="102" pX="0.5" pY="0.5" oX="30" oY="72" oW="234" oH="234"/>
+	<sprite n="S09_party_blower_sr_01" x="902" y="737" w="81" h="77" pX="0.5" pY="0.5" oX="61" oY="92" oW="234" oH="234" r="y"/>
+	<sprite n="S09_party_blower_sr_02" x="931" y="437" w="93" h="83" pX="0.5" pY="0.5" oX="62" oY="80" oW="234" oH="234" r="y"/>
+	<sprite n="S09_party_blower_sr_03" x="923" y="633" w="99" h="102" pX="0.5" pY="0.5" oX="63" oY="75" oW="234" oH="234" r="y"/>
+	<sprite n="S09_party_blower_sr_04" x="489" y="554" w="134" h="111" pX="0.5" pY="0.5" oX="62" oY="63" oW="234" oH="234"/>
+	<sprite n="S09_party_blower_sr_05" x="688" y="447" w="139" h="102" pX="0.5" pY="0.5" oX="62" oY="72" oW="234" oH="234"/>
+	<sprite n="S09_partyblower_fg_01" x="932" y="246" w="88" h="104" pX="0.5" pY="0.5" oX="100" oY="34" oW="234" oH="234" r="y"/>
+	<sprite n="S09_partyblower_fg_02" x="932" y="135" w="91" h="109" pX="0.5" pY="0.5" oX="95" oY="34" oW="234" oH="234" r="y"/>
+	<sprite n="S09_partyblower_fg_03" x="819" y="566" w="102" h="116" pX="0.5" pY="0.5" oX="88" oY="34" oW="234" oH="234" r="y"/>
+	<sprite n="S09_partyblower_fg_04" x="227" y="357" w="119" h="131" pX="0.5" pY="0.5" oX="73" oY="34" oW="234" oH="234" r="y"/>
+	<sprite n="S09_partyblower_fg_05" x="497" y="410" w="143" h="142" pX="0.5" pY="0.5" oX="62" oY="34" oW="234" oH="234" r="y"/>
+	<sprite n="S09_partyblower_fg_06" x="688" y="299" w="166" h="146" pX="0.5" pY="0.5" oX="58" oY="34" oW="234" oH="234" r="y"/>
+	<sprite n="S09_right_arm_01" x="521" y="337" w="165" h="71" pX="0.5" pY="0.5" oX="14" oY="7" oW="100" oH="180" r="y"/>
+	<sprite n="S09_right_arm_02" x="642" y="410" w="44" h="59" pX="0.5" pY="0.5" oX="8" oY="10" oW="60" oH="80"/>
+	<sprite n="S09_right_arm_03" x="781" y="664" w="36" h="53" pX="0.5" pY="0.5" oX="12" oY="13" oW="60" oH="80"/>
+	<sprite n="S09_right_arm_04" x="642" y="534" w="39" h="60" pX="0.5" pY="0.5" oX="10" oY="10" oW="60" oH="80"/>
+	<sprite n="S09_right_arm_05" x="625" y="596" w="56" h="72" pX="0.5" pY="0.5" oX="22" oY="14" oW="100" oH="100"/>
+	<sprite n="S09_right_leg" x="227" y="194" w="119" h="161" pX="0.5" pY="0.5" oX="40" oY="19" oW="200" oH="200"/>
+	<sprite n="S09_sprinkles_bottom" x="691" y="0" w="311" h="133" pX="0.5" pY="0.5" oX="119" oY="75" oW="500" oH="260"/>
+	<sprite n="S09_sprinkles_top" x="348" y="414" w="141" h="68" pX="0.5" pY="0.5" oX="228" oY="74" oW="500" oH="260"/>
+	<sprite n="S09_torso" x="354" y="0" w="335" h="220" pX="0.5" pY="0.5" oX="82" oY="40" oW="500" oH="300"/>
+	<sprite n="S09_torso_icing" x="0" y="0" w="352" h="192" pX="0.5" pY="0.5" oX="34" oY="44" oW="420" oH="280"/>
+	<sprite n="S09_torso_icing_drip" x="348" y="222" w="179" h="72" pX="0.5" pY="0.5" oX="14" oY="10" oW="100" oH="200" r="y"/>
+</TextureAtlas>

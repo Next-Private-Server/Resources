@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:05a48e06f75f90b98d998a80217823b8:2545cc45346da287bba0db64a47736c2:4441f117ee21b26f1da32552505b79ab$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_C_costume_08_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="C_c8_ball" x="0" y="0" w="236" h="236" pX="0.5" pY="0.5" oX="-36" oY="-13" oW="260" oH="260"/>
+	<sprite n="C_c8_body" x="0" y="238" w="180" h="192" pX="0.5" pY="0.5"/>
+	<sprite n="C_c8_jaw" x="182" y="238" w="101" h="171" pX="0.5" pY="0.5" oX="0" oY="0" oW="176" oH="102" r="y"/>
+	<sprite n="C_c8_right_foot" x="290" y="0" w="136" h="86" pX="0.5" pY="0.5"/>
+	<sprite n="C_c8_right_left" x="182" y="411" w="106" h="88" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

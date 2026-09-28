@@ -1,0 +1,38 @@
+<template name="template_hype_game_wheel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/HypeGameWheel.lua" />
+
+	<defaultTemplateVar name="$layer" equals="FrontPopUps" />
+	<defaultTemplateVar name="$scale" equals="1" />
+
+	<size dependentOnElement="Wheel" />
+
+	<element name="Wheel">
+		<size dependentOnElement="element:name()" dependentOnComponent="Base" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+		<spriteComponent name="Base">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/clubbox/hype/record_default")
+				component("layer"):SetString("$layer")
+				component:setScale(Vector2($scale, $scale))
+				component:calculatePosition()
+			</event>
+		</spriteComponent>
+
+		<spriteComponent name="Label">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/clubbox/hype/label_clubbox")
+				component("layer"):SetString("$layer")
+				component:setScale(Vector2($scale, $scale))
+				component:calculatePosition()
+			</event>
+		</spriteComponent>
+	</element>
+
+</template>

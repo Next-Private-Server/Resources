@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c0344874dfad87e5d320a26535421f9e:0cfcef4981c77cfbac1cf727bb61b0c1:6bbd5ce3494c558621608eadbc2e8d0c$ -->
+<TextureAtlas imagePath="gfx/structures/dipsterdig_zworaffe_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="Q10_body_01" x="130" y="288" w="114" h="98"/>
+	<sprite n="Q10_body_02" x="0" y="388" w="83" h="92" r="y"/>
+	<sprite n="Q10_body_03" x="85" y="388" w="68" h="71"/>
+	<sprite n="Q10_body_04" x="192" y="209" w="64" h="77"/>
+	<sprite n="Q10_head" x="0" y="0" w="194" h="169"/>
+	<sprite n="Q10_jaw" x="0" y="300" w="63" h="83" r="y"/>
+	<sprite n="Q10_left_ear" x="196" y="83" w="39" h="84" r="y"/>
+	<sprite n="Q10_left_pupil" x="237" y="125" w="11" h="11"/>
+	<sprite n="Q10_lid_left_01" x="25" y="482" w="22" h="26" oX="0" oY="1" oW="26" oH="23" r="y"/>
+	<sprite n="Q10_lid_left_02" x="130" y="251" w="23" h="26" r="y"/>
+	<sprite n="Q10_lid_left_03" x="155" y="251" w="26" h="23"/>
+	<sprite n="Q10_lid_left_04" x="0" y="482" w="23" h="26" r="y"/>
+	<sprite n="Q10_lid_right_01" x="196" y="169" w="38" h="38"/>
+	<sprite n="Q10_lid_right_02" x="152" y="171" w="38" h="38"/>
+	<sprite n="Q10_lid_right_03" x="152" y="211" w="38" h="38"/>
+	<sprite n="Q10_lid_right_04" x="85" y="300" w="38" h="38"/>
+	<sprite n="Q10_right_ear" x="196" y="0" w="51" h="81" r="y"/>
+	<sprite n="Q10_right_pupil" x="237" y="107" w="16" h="16"/>
+	<sprite n="Q_dirt_chunk" x="236" y="169" w="20" h="21" oX="6" oY="6" oW="32" oH="32"/>
+	<sprite n="Q_dirt_chunk_lrg" x="237" y="83" w="19" h="22"/>
+	<sprite n="Q_dirtmound_back" x="0" y="235" w="128" h="63" oX="12" oY="10" oW="152" oH="84"/>
+	<sprite n="Q_dirtmound_front" x="0" y="171" w="150" h="62" oX="2" oY="11" oW="156" oH="84"/>
+</TextureAtlas>

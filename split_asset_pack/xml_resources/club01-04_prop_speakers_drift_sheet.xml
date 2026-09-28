@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bb94538f14a5671cf5cbb0d5b7f3076c:42cc331a48d7506c5d5458fc3d210338:6fd16b6b9e94e0ac82418211c968db18$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_speakers_drift_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="bg_speaker_01_a" x="172" y="180" w="25" h="30" oX="52" oY="74" oW="127" oH="180"/>
+	<sprite n="bg_speaker_01_b" x="200" y="0" w="42" h="86" oX="34" oY="45" oW="127" oH="180"/>
+	<sprite n="bg_speaker_01_b_glow" x="89" y="433" w="55" h="44" oX="48" oY="60" oW="127" oH="180" r="y"/>
+	<sprite n="bg_speaker_01_c" x="0" y="433" w="87" h="70" oX="34" oY="44" oW="127" oH="180" r="y"/>
+	<sprite n="bg_speaker_02_glow" x="0" y="307" w="150" h="124" oX="0" oY="13" oW="127" oH="180" r="y"/>
+	<sprite n="bg_speaker_02b" x="152" y="346" w="104" h="121" oX="12" oY="28" oW="127" oH="180"/>
+	<sprite n="bg_speaker_02c" x="190" y="223" w="62" h="121" oX="14" oY="28" oW="127" oH="180"/>
+	<sprite n="bg_speaker_03" x="0" y="0" w="198" h="178" oX="2" oY="0" oW="200" oH="180"/>
+	<sprite n="bg_speaker_03_glow_blue_01" x="172" y="212" w="16" h="30" oX="51" oY="16" oW="200" oH="180" r="y"/>
+	<sprite n="bg_speaker_03_glow_blue_02" x="200" y="88" w="49" h="67" oX="11" oY="47" oW="200" oH="180"/>
+	<sprite n="bg_speaker_03_glow_blue_03" x="152" y="307" w="21" h="17" oX="14" oY="86" oW="200" oH="180" r="y"/>
+	<sprite n="bg_speaker_03_glow_blue_04" x="200" y="157" w="41" h="64" oX="19" oY="129" oW="200" oH="180" r="y"/>
+	<sprite n="bg_speaker_03_glow_yellow" x="0" y="180" w="170" h="125" oX="56" oY="3" oW="200" oH="180" r="y"/>
+</TextureAtlas>

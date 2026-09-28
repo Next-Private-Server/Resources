@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ba8f2502b0a081d14aa76ff3d7b7bff6:6bd334f26d37d3d75ec263649e014717:ed8ae9ed9486a9c7e21a4aa9a9476c74$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_Q_RARE_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="Q_body_03" x="138" y="97" w="114" h="124" oX="13" oY="10" oW="140" oH="144"/>
+	<sprite n="Q_body_04" x="130" y="223" w="124" h="114" oX="13" oY="10" oW="140" oH="144" r="y"/>
+	<sprite n="Q_dirt_chunk" x="24" y="358" w="21" h="20" oX="6" oY="6" oW="32" oH="32" r="y"/>
+	<sprite n="Q_dirt_chunk_lrg" x="0" y="358" w="22" h="19" r="y"/>
+	<sprite n="Q_dirtmound_back" x="0" y="181" w="128" h="63" oX="12" oY="10" oW="152" oH="84"/>
+	<sprite n="Q_dirtmound_front" x="0" y="0" w="150" h="62" oX="2" oY="11" oW="156" oH="84"/>
+	<sprite n="Q_eyeball_BLUE" x="0" y="328" w="30" h="28" oX="10" oY="12" oW="48" oH="48" r="y"/>
+	<sprite n="Q_eyeball_RED" x="32" y="328" w="30" h="28" oX="10" oY="12" oW="48" oH="48" r="y"/>
+	<sprite n="Q_headtop_04_RARE" x="152" y="0" w="97" h="95" oX="31" oY="31" oW="156" oH="128" r="y"/>
+	<sprite n="Q_headtop_07_RARE" x="0" y="64" w="136" h="115" oX="12" oY="12" oW="156" oH="128"/>
+	<sprite n="Q_mouth_01" x="0" y="246" w="80" h="24" oX="11" oY="15" oW="104" oH="80"/>
+	<sprite n="Q_mouth_02" x="80" y="326" w="35" h="77" oX="13" oY="14" oW="104" oH="80" r="y"/>
+	<sprite n="Q_mouth_03" x="82" y="246" w="44" h="78" oX="13" oY="14" oW="104" oH="80" r="y"/>
+	<sprite n="Q_mouth_04" x="0" y="272" w="78" h="54" oX="13" oY="14" oW="104" oH="80"/>
+</TextureAtlas>

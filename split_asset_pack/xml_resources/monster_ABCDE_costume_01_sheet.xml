@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3a887cb6611339777936b4129c135d72:5a80493ec51eb7cb5df22fbede27fdb6:77ac9027a06bd4b2bf8f5f3c6b04d1ec$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCDE_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ABCDE_costume01_body" x="257" y="2" w="206" h="184" oX="7" oY="6" oW="199" oH="218" r="y"/>
+    <sprite n="ABCDE_costume01_feathers_row1" x="308" y="296" w="122" h="123" oX="3" oY="100" oW="218" oH="235" r="y"/>
+    <sprite n="ABCDE_costume01_feathers_row2" x="2" y="296" w="104" h="136" oX="7" oY="94" oW="218" oH="235" r="y"/>
+    <sprite n="ABCDE_costume01_feathers_row3" x="138" y="189" w="113" h="128" oX="4" oY="100" oW="218" oH="235" r="y"/>
+    <sprite n="ABCDE_costume01_feathers_row4_04" x="108" y="319" w="84" h="110" oX="73" oY="136" oW="218" oH="235" r="y"/>
+    <sprite n="ABCDE_costume01_feathers_row4_05" x="2" y="434" w="134" h="72" oX="65" oY="132" oW="218" oH="235"/>
+    <sprite n="ABCDE_costume01_feathers_row4_06" x="266" y="425" w="125" h="81" oX="79" oY="150" oW="218" oH="235"/>
+    <sprite n="ABCDE_costume01_glassesOL" x="257" y="188" w="154" h="103" oX="-55" oY="-21" oW="180" oH="110"/>
+    <sprite n="ABCDE_costume01_glassesUL" x="2" y="189" w="62" h="99" oX="-76" oY="-20" oW="180" oH="120"/>
+    <sprite n="ABCDE_costume01_hat" x="2" y="2" w="253" h="185" oX="-15.8" oY="-77.2" oW="264" oH="204"/>
+    <sprite n="ABCDE_costume01_lowerleg_back" x="465" y="178" w="36" h="84"/>
+    <sprite n="ABCDE_costume01_lowerleg_left" x="465" y="98" w="37" h="78" oX="1" oY="6" oW="38" oH="84"/>
+    <sprite n="ABCDE_costume01_lowerleg_right" x="465" y="2" w="37" h="94" oX="7" oY="0" oW="45" oH="94"/>
+    <sprite n="ABCDE_costume01_upperleg_back" x="413" y="188" w="46" h="106" oX="1" oY="1" oW="50" oH="110"/>
+    <sprite n="ABCDE_costume01_upperleg_left" x="253" y="296" w="53" h="127" oX="6" oY="0" oW="62" oH="127"/>
+    <sprite n="ABCDE_costume01_upperleg_right" x="138" y="431" w="126" h="68" oX="6" oY="0" oW="74" oH="130" r="y"/>
+</TextureAtlas>

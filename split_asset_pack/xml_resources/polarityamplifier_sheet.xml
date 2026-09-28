@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4ebbaab69d8ba9725ae497d4325358df:e9683fbf72bed20d150e5e63e460ed12:94402792df9ec922ecac2c8a008ddaad$ -->
+<TextureAtlas imagePath="gfx/structures/polarityamplifier_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="polamp_dot" x="986" y="478" w="32" h="32"/>
+	<sprite n="polamp_glow_ring" x="42" y="226" w="100" h="100"/>
+	<sprite n="polamp_glow_round" x="686" y="697" w="283" h="281" oX="3" oY="1" oW="286" oH="286" r="y"/>
+	<sprite n="polamp_lvl_01_light" x="993" y="280" w="28" h="196"/>
+	<sprite n="polamp_lvl_01_ring" x="569" y="43" w="352" h="176"/>
+	<sprite n="polamp_lvl_01_wire_A" x="986" y="512" w="16" h="272"/>
+	<sprite n="polamp_lvl_01_wire_B" x="183" y="334" w="132" h="156" r="y"/>
+	<sprite n="polamp_lvl_01_wire_C" x="569" y="221" w="319" h="111" oX="0" oY="0" oW="320" oH="112"/>
+	<sprite n="polamp_lvl_02_frame_A" x="1004" y="746" w="12" h="216"/>
+	<sprite n="polamp_lvl_02_frame_B" x="0" y="964" w="169" h="60"/>
+	<sprite n="polamp_lvl_02_light" x="144" y="226" w="107" h="92" oX="0" oY="0" oW="92" oH="108" r="y"/>
+	<sprite n="polamp_lvl_02_wire_A" x="533" y="786" w="151" h="220" oX="0" oY="0" oW="152" oH="220"/>
+	<sprite n="polamp_lvl_02_wire_B" x="923" y="113" w="68" h="263" oX="0" oY="0" oW="68" oH="264"/>
+	<sprite n="polamp_lvl_02_wire_C" x="317" y="226" w="220" h="96" r="y"/>
+	<sprite n="polamp_lvl_02_wire_D" x="923" y="43" w="80" h="68"/>
+	<sprite n="polamp_lvl_02_wire_E" x="0" y="226" w="40" h="171" oX="0" oY="0" oW="40" oH="172"/>
+	<sprite n="polamp_lvl_03_ring" x="0" y="0" w="567" h="224" oX="0" oY="0" oW="568" oH="224"/>
+	<sprite n="polamp_lvl_03_wires_A" x="86" y="786" w="275" h="172"/>
+	<sprite n="polamp_lvl_03_wires_B" x="363" y="786" w="168" h="224"/>
+	<sprite n="polamp_lvl_03_wires_C" x="890" y="221" w="26" h="192" r="y"/>
+	<sprite n="polamp_lvl_03_wires_D" x="1006" y="0" w="18" h="278" oX="0" oY="0" oW="18" oH="280"/>
+	<sprite n="polamp_lvl_03_wires_E" x="317" y="334" w="300" h="144"/>
+	<sprite n="polamp_lvl_03_wires_F" x="0" y="415" w="181" h="280"/>
+	<sprite n="polamp_lvl_04_frame" x="569" y="0" w="435" h="11" oX="0" oY="0" oW="12" oH="436" r="y"/>
+	<sprite n="polamp_lvl_04_light" x="1004" y="512" w="16" h="232" r="y"/>
+	<sprite n="polamp_lvl_04_wire_A" x="569" y="13" w="424" h="28" r="y"/>
+	<sprite n="polamp_lvl_04_wire_B" x="918" y="378" w="66" h="317"/>
+	<sprite n="polamp_lvl_04_wire_C" x="0" y="697" w="84" h="264"/>
+	<sprite n="polamp_lvl_04_wire_D" x="548" y="492" w="100" h="288"/>
+	<sprite n="polamp_lvl_05_wire_A" x="686" y="334" w="200" h="156"/>
+	<sprite n="polamp_lvl_05_wire_B" x="86" y="697" w="460" h="84"/>
+</TextureAtlas>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ab7631beae2fcb33c3519733aa5cf0b1:ac0106bb0e9a65b7c1789e8cdc40eb3a:96a188abab3a60b6b95de80b27c832d7$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island05_sheet02_sand.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island05_bowl_middle" x="1520" y="1694" w="528" h="354" oX="1" oY="0" oW="532" oH="356">
+		<vertices>455 41 529 119 529 251 407 336 269 354 126 337 29 263 1 184 28 58 182 0 351 0</vertices>
+		<verticesUV>1974 1735 2048 1813 2048 1945 1926 2030 1788 2048 1645 2031 1548 1957 1520 1878 1547 1752 1701 1694 1870 1694</verticesUV>
+		<triangles>4 9 10 7 9 6 7 8 9 5 6 9 4 5 9 3 4 10 3 0 1 3 1 2 0 3 10</triangles>
+	</sprite>
+	<sprite n="island05_bowl_side" x="1529" y="1344" w="519" h="348" oX="0" oY="0" oW="520" oH="348">
+		<vertices>433 35 519 119 519 257 390 331 298 348 145 348 0 253 0 130 57 52 164 0 332 0</vertices>
+		<verticesUV>1962 1379 2048 1463 2048 1601 1919 1675 1827 1692 1674 1692 1529 1597 1529 1474 1586 1396 1693 1344 1861 1344</verticesUV>
+		<triangles>4 9 10 5 8 9 7 5 6 7 8 5 4 5 9 3 4 10 3 0 1 3 1 2 0 3 10</triangles>
+	</sprite>
+	<sprite n="island05_edge_glow_01" x="1576" y="1180" w="472" h="162">
+		<vertices>472 37 398 111 138 162 0 162 0 85 15 85 121 102 457 0 472 0</vertices>
+		<verticesUV>2048 1217 1974 1291 1714 1342 1576 1342 1576 1265 1591 1265 1697 1282 2033 1180 2048 1180</verticesUV>
+		<triangles>0 7 8 3 5 6 3 4 5 6 1 2 2 3 6 6 7 1 0 1 7</triangles>
+	</sprite>
+	<sprite n="island05_edge_glow_02" x="2" y="1290" w="180" h="248">
+		<vertices>180 85 68 248 0 248 0 178 10 165 82 123 166 0 180 0</vertices>
+		<verticesUV>182 1375 70 1538 2 1538 2 1468 12 1455 84 1413 168 1290 182 1290</verticesUV>
+		<triangles>0 6 7 1 4 5 3 1 2 0 5 6 3 4 1 0 1 5</triangles>
+	</sprite>
+	<sprite n="island05_glyphs_01" x="476" y="1124" w="608" h="320">
+		<vertices>276 142 109 246 24 316 16 320 0 320 0 251 281 85 441 96 298 135 294 70 463 32 608 45 549 57 549 0 608 0</vertices>
+		<verticesUV>752 1266 585 1370 500 1440 492 1444 476 1444 476 1375 757 1209 917 1220 774 1259 770 1194 939 1156 1084 1169 1025 1181 1025 1124 1084 1124</verticesUV>
+		<triangles>1 5 6 4 5 2 4 2 3 1 2 5 0 1 6 7 9 10 7 8 9 11 13 14 11 12 13</triangles>
+	</sprite>
+	<sprite n="island05_glyphs_02" x="1450" y="0" w="598" h="304">
+		<vertices>473 156 598 260 598 304 578 304 426 188 322 160 322 91 306 50 301 121 170 102 150 36 60 58 0 46 0 0 60 0</vertices>
+		<verticesUV>1923 156 2048 260 2048 304 2028 304 1876 188 1772 160 1772 91 1756 50 1751 121 1620 102 1600 36 1510 58 1450 46 1450 0 1510 0</verticesUV>
+		<triangles>4 5 6 3 0 1 0 3 4 3 1 2 0 4 6 7 8 9 7 9 10 12 13 14 11 12 14</triangles>
+	</sprite>
+	<sprite n="island05_rock_edge_01" x="290" y="0" w="276" h="268">
+		<vertices>128 34 231 147 276 245 276 268 177 268 0 67 0 0 83 0 133 33 129 33 129 27 133 27</vertices>
+		<verticesUV>418 34 521 147 566 245 566 268 467 268 290 67 290 0 373 0 423 33 419 33 419 27 423 27</verticesUV>
+		<triangles>5 6 7 0 4 5 4 0 1 4 1 2 4 2 3 0 5 7 9 10 11 8 9 11</triangles>
+	</sprite>
+	<sprite n="island05_rock_edge_02" x="1525" y="139" w="382" h="162">
+		<vertices>350 51 382 83 382 99 308 162 301 161 185 112 74 86 0 5 0 0 65 0 49 79 45 79 45 75 49 75</vertices>
+		<verticesUV>1875 190 1907 222 1907 238 1833 301 1826 300 1710 251 1599 225 1525 144 1525 139 1590 139 1574 218 1570 218 1570 214 1574 214</verticesUV>
+		<triangles>7 8 9 6 7 9 5 6 9 0 2 3 0 3 4 0 4 5 0 1 2 0 5 9 11 12 13 10 11 13</triangles>
+	</sprite>
+	<sprite n="island05_sand_cover_01" x="33" y="1722" w="229" h="162" oX="1" oY="0" oW="230" oH="162">
+		<vertices>230 95 131 97 66 162 1 162 1 78 137 0 230 0</vertices>
+		<verticesUV>262 1817 163 1819 98 1884 33 1884 33 1800 169 1722 262 1722</verticesUV>
+		<triangles>0 5 6 4 2 3 4 1 2 4 5 1 0 1 5</triangles>
+	</sprite>
+	<sprite n="island05_sand_cover_02" x="468" y="909" w="62" h="166">
+		<vertices>62 27 62 166 0 166 0 0 35 0</vertices>
+		<verticesUV>530 936 530 1075 468 1075 468 909 503 909</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="island05_sand_cover_bug" x="0" y="1886" w="230" h="162">
+		<vertices>230 86 182 90 139 40 73 162 0 162 0 0 230 0</vertices>
+		<verticesUV>230 1972 182 1976 139 1926 73 2048 0 2048 0 1886 230 1886</verticesUV>
+		<triangles>3 4 5 2 3 5 2 5 6 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl01_01" x="491" y="270" w="70" h="98" oX="7" oY="3" oW="86" oH="104">
+		<vertices>77 101 7 101 7 3 77 3</vertices>
+		<verticesUV>561 368 491 368 491 270 561 270</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl01_02" x="109" y="1592" w="73" h="100" oX="4" oY="2" oW="86" oH="104">
+		<vertices>77 3 77 101 28 102 4 24 19 2</vertices>
+		<verticesUV>182 1593 182 1691 133 1692 109 1614 124 1592</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl01_03" x="105" y="1490" w="77" h="100" oX="0" oY="2" oW="86" oH="104">
+		<vertices>77 3 77 101 29 102 0 26 1 2</vertices>
+		<verticesUV>182 1491 182 1589 134 1590 105 1514 106 1490</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl01_04" x="337" y="1073" w="70" h="98" oX="7" oY="3" oW="86" oH="104">
+		<vertices>77 101 7 101 7 3 77 3</vertices>
+		<verticesUV>407 1171 337 1171 337 1073 407 1073</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl01_05" x="0" y="1651" w="70" h="98" oX="7" oY="3" oW="86" oH="104">
+		<vertices>77 101 7 101 7 3 77 3</vertices>
+		<verticesUV>70 1749 0 1749 0 1651 70 1651</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl01_06" x="489" y="370" w="68" h="98" oX="7" oY="3" oW="86" oH="104">
+		<vertices>75 101 7 101 7 3 75 3</vertices>
+		<verticesUV>557 468 489 468 489 370 557 370</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl02_01" x="470" y="1183" w="60" h="109" oX="4" oY="2" oW="68" oH="114">
+		<vertices>64 109 35 111 4 29 21 5 54 2</vertices>
+		<verticesUV>530 1290 501 1292 470 1210 487 1186 520 1183</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl02_02" x="1978" y="1625" w="60" h="110" oX="1" oY="4" oW="68" oH="114">
+		<vertices>61 31 61 106 38 114 1 23 34 4</vertices>
+		<verticesUV>2038 1652 2038 1727 2015 1735 1978 1644 2011 1625</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl02_03" x="0" y="136" w="52" h="103" oX="9" oY="11" oW="68" oH="114">
+		<vertices>61 104 39 114 9 66 9 11 61 11</vertices>
+		<verticesUV>52 229 30 239 0 191 0 136 52 136</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl02_04" x="342" y="1173" w="60" h="105" oX="4" oY="4" oW="68" oH="114">
+		<vertices>64 109 35 109 4 28 26 4 54 4</vertices>
+		<verticesUV>402 1278 373 1278 342 1197 364 1173 392 1173</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl02_05" x="0" y="1540" w="60" h="108" oX="4" oY="2" oW="68" oH="114">
+		<vertices>64 109 35 110 4 24 30 5 52 2</vertices>
+		<verticesUV>60 1647 31 1648 0 1562 26 1543 48 1540</verticesUV>
+		<triangles>0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl02_06" x="90" y="165" w="58" h="104" oX="4" oY="6" oW="68" oH="114">
+		<vertices>62 110 36 109 4 29 18 6 54 6</vertices>
+		<verticesUV>148 269 122 268 90 188 104 165 140 165</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl03_01" x="263" y="726" w="54" h="94" oX="7" oY="9" oW="76" oH="112">
+		<vertices>61 103 7 103 7 9 61 9</vertices>
+		<verticesUV>317 820 263 820 263 726 317 726</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl03_02" x="0" y="32" w="56" h="102" oX="5" oY="1" oW="76" oH="112">
+		<vertices>61 24 61 103 43 103 5 27 10 1</vertices>
+		<verticesUV>56 55 56 134 38 134 0 58 5 32</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl03_03" x="458" y="1077" w="72" h="104" oX="3" oY="0" oW="76" oH="112">
+		<vertices>56 21 75 103 43 104 3 31 11 0</vertices>
+		<verticesUV>511 1098 530 1180 498 1181 458 1108 466 1077</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl03_04" x="435" y="256" w="54" h="103" oX="7" oY="0" oW="76" oH="112">
+		<vertices>61 24 61 103 44 103 7 48 7 0</vertices>
+		<verticesUV>489 280 489 359 472 359 435 304 435 256</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl03_05" x="89" y="257" w="58" h="103" oX="5" oY="1" oW="76" oH="112">
+		<vertices>58 24 63 104 43 103 5 27 9 1</vertices>
+		<verticesUV>142 280 147 360 127 359 89 283 93 257</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandbowl03_06" x="507" y="89" w="61" h="101" oX="2" oY="3" oW="76" oH="112">
+		<vertices>58 23 63 104 41 104 2 29 15 3</vertices>
+		<verticesUV>563 109 568 190 546 190 507 115 520 89</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="island05_sandfront_01" x="606" y="368" w="277" h="698" oX="23" oY="22" oW="304" oH="720">
+		<vertices>300 76 263 225 262 479 248 720 23 720 23 710 43 145 116 56 216 22</vertices>
+		<verticesUV>883 422 846 571 845 825 831 1066 606 1066 606 1056 626 491 699 402 799 368</verticesUV>
+		<triangles>1 7 8 1 6 7 2 3 5 3 4 5 6 1 2 6 2 5 0 1 8</triangles>
+	</sprite>
+	<sprite n="island05_sandfront_02" x="993" y="1354" w="288" h="694" oX="10" oY="26" oW="304" oH="720">
+		<vertices>298 84 272 175 260 524 274 720 11 720 10 575 31 458 32 224 61 105 180 27 259 26</vertices>
+		<verticesUV>1281 1412 1255 1503 1243 1852 1257 2048 994 2048 993 1903 1014 1786 1015 1552 1044 1433 1163 1355 1242 1354</verticesUV>
+		<triangles>0 1 9 8 1 7 6 1 2 6 7 1 5 3 4 5 2 3 5 6 2 8 9 1 0 9 10</triangles>
+	</sprite>
+	<sprite n="island05_sandfront_03" x="454" y="1342" w="293" h="706" oX="7" oY="14" oW="304" oH="720">
+		<vertices>300 76 259 246 268 523 268 720 26 720 7 674 42 152 100 77 204 14</vertices>
+		<verticesUV>747 1404 706 1574 715 1851 715 2048 473 2048 454 2002 489 1480 547 1405 651 1342</verticesUV>
+		<triangles>0 1 7 1 2 6 2 3 5 3 4 5 2 5 6 1 6 7 0 7 8</triangles>
+	</sprite>
+	<sprite n="island05_sandfront_04" x="717" y="1350" w="285" h="698" oX="15" oY="22" oW="304" oH="720">
+		<vertices>300 76 256 256 253 382 289 720 15 720 50 130 137 49 216 22</vertices>
+		<verticesUV>1002 1404 958 1584 955 1710 991 2048 717 2048 752 1458 839 1377 918 1350</verticesUV>
+		<triangles>5 1 2 5 6 1 2 3 4 2 4 5 0 1 6 0 6 7</triangles>
+	</sprite>
+	<sprite n="island05_sandfront_05" x="1260" y="1348" w="280" h="700" oX="21" oY="20" oW="304" oH="720">
+		<vertices>301 77 258 206 257 478 285 689 264 720 21 720 21 656 38 478 42 152 112 67 213 20</vertices>
+		<verticesUV>1540 1405 1497 1534 1496 1806 1524 2017 1503 2048 1260 2048 1260 1984 1277 1806 1281 1480 1351 1395 1452 1348</verticesUV>
+		<triangles>1 9 10 1 8 9 1 2 7 6 2 3 4 5 6 6 3 4 2 6 7 1 7 8 0 1 10</triangles>
+	</sprite>
+	<sprite n="island05_sandfront_06" x="836" y="421" w="275" h="696" oX="23" oY="24" oW="304" oH="720">
+		<vertices>261 29 298 84 264 202 268 594 280 720 23 720 23 658 50 116 182 24</vertices>
+		<verticesUV>1074 426 1111 481 1077 599 1081 991 1093 1117 836 1117 836 1055 863 513 995 421</verticesUV>
+		<triangles>6 2 3 3 4 6 4 5 6 6 7 2 2 7 8 1 2 8 0 1 8</triangles>
+	</sprite>
+	<sprite n="island05_sandside_01" x="104" y="0" w="161" h="1288" oX="25" oY="4" oW="188" oH="1292">
+		<vertices>158 147 110 205 108 416 124 603 124 856 102 970 102 1292 25 1292 25 1254 36 1074 35 653 70 408 73 167 106 5 186 4</vertices>
+		<verticesUV>237 143 189 201 187 412 203 599 203 852 181 966 181 1288 104 1288 104 1250 115 1070 114 649 149 404 152 163 185 1 265 0</verticesUV>
+		<triangles>0 13 14 9 5 6 6 8 9 9 10 5 6 7 8 10 4 5 3 10 11 11 2 3 10 3 4 1 2 11 1 11 12 0 12 13 0 1 12</triangles>
+	</sprite>
+	<sprite n="island05_sandside_02" x="532" y="0" w="146" h="1289" oX="33" oY="3" oW="188" oH="1292">
+		<vertices>179 102 114 143 104 260 102 504 119 606 103 1017 112 1280 104 1292 33 1292 33 720 59 512 78 79 125 3 179 3</vertices>
+		<verticesUV>678 99 613 140 603 257 601 501 618 603 602 1014 611 1277 603 1289 532 1289 532 717 558 509 577 76 624 0 678 0</verticesUV>
+		<triangles>0 12 13 4 5 9 8 5 6 5 8 9 8 6 7 10 3 4 4 9 10 2 3 10 2 10 11 1 2 11 0 11 12 0 1 11</triangles>
+	</sprite>
+	<sprite n="island05_sandside_03" x="384" y="756" w="145" h="1292" oX="35" oY="0" oW="188" oH="1292">
+		<vertices>173 1 180 100 118 137 102 390 125 665 104 906 102 1292 35 1292 35 814 66 368 68 122 110 18 152 0</vertices>
+		<verticesUV>522 757 529 856 467 893 451 1146 474 1421 453 1662 451 2048 384 2048 384 1570 415 1124 417 878 459 774 501 756</verticesUV>
+		<triangles>1 11 12 7 5 6 7 8 5 4 5 8 4 8 9 3 4 9 2 3 9 2 9 10 2 10 11 1 2 11 0 1 12</triangles>
+	</sprite>
+	<sprite n="island05_sandside_04" x="264" y="756" w="145" h="1292" oX="34" oY="0" oW="188" oH="1292">
+		<vertices>179 53 106 193 103 519 124 624 108 892 104 1292 50 1292 35 1132 34 804 67 94 139 0 179 0 141 1286 139 1253 151 1252 140 315 133 315 140 266</vertices>
+		<verticesUV>409 809 336 949 333 1275 354 1380 338 1648 334 2048 280 2048 265 1888 264 1560 297 850 369 756 409 756 371 2042 369 2009 381 2008 370 1071 363 1071 370 1022</verticesUV>
+		<triangles>0 10 11 7 4 5 7 8 4 7 5 6 8 2 3 8 3 4 2 8 9 1 2 9 0 9 10 0 1 9 12 13 14 15 16 17</triangles>
+	</sprite>
+	<sprite n="island05_sandside_05" x="184" y="355" w="157" h="1290" oX="27" oY="2" oW="188" oH="1292">
+		<vertices>162 103 116 173 103 286 104 615 123 623 102 1292 27 1292 27 900 57 352 87 67 134 3 184 2</vertices>
+		<verticesUV>319 456 273 526 260 639 261 968 280 976 259 1645 184 1645 184 1253 214 705 244 420 291 356 341 355</verticesUV>
+		<triangles>0 10 11 1 2 8 7 4 5 5 6 7 7 3 4 8 2 3 8 3 7 1 8 9 0 9 10 0 1 9</triangles>
+	</sprite>
+	<sprite n="island05_sandside_06" x="0" y="0" w="166" h="1288" oX="20" oY="4" oW="188" oH="1292">
+		<vertices>186 5 162 89 108 191 102 344 119 677 102 974 102 1200 121 1292 20 1292 24 843 66 434 81 66 138 4</vertices>
+		<verticesUV>166 1 142 85 88 187 82 340 99 673 82 970 82 1196 101 1288 0 1288 4 839 46 430 61 62 118 0</verticesUV>
+		<triangles>1 11 12 8 5 6 6 7 8 8 9 5 4 5 9 4 9 10 3 4 10 2 3 10 2 10 11 1 2 11 0 1 12</triangles>
+	</sprite>
+	<sprite n="scarab_01" x="0" y="0" w="74" h="17" oX="54" oY="61" oW="132" oH="116">
+		<vertices>128 78 55 78 54 61</vertices>
+		<verticesUV>74 17 1 17 0 0</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="scarab_02" x="471" y="1336" w="32" h="19" oX="51" oY="59" oW="132" oH="116">
+		<vertices>83 78 51 78 51 59 83 59</vertices>
+		<verticesUV>503 1355 471 1355 471 1336 503 1336</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_03" x="129" y="1457" w="53" h="31" oX="42" oY="52" oW="132" oH="116">
+		<vertices>95 83 42 83 42 52 95 52</vertices>
+		<verticesUV>182 1488 129 1488 129 1457 182 1457</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_04" x="469" y="1295" w="68" h="39" oX="36" oY="48" oW="132" oH="116">
+		<vertices>104 87 36 87 36 48 104 48</vertices>
+		<verticesUV>537 1334 469 1334 469 1295 537 1295</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_05" x="1898" y="1646" w="116" h="93" oX="6" oY="20" oW="132" oH="116">
+		<vertices>122 113 6 76 82 20</vertices>
+		<verticesUV>2014 1739 1898 1702 1974 1646</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="scarab_06" x="483" y="0" w="91" h="87" oX="11" oY="3" oW="132" oH="116">
+		<vertices>102 30 102 90 33 90 11 27 42 3</vertices>
+		<verticesUV>574 27 574 87 505 87 483 24 514 0</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="scarab_07" x="0" y="1368" w="74" h="47" oX="30" oY="42" oW="132" oH="116">
+		<vertices>104 89 30 89 30 42 104 42</vertices>
+		<verticesUV>74 1415 0 1415 0 1368 74 1368</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_08" x="152" y="1833" w="76" h="51" oX="29" oY="42" oW="132" oH="116">
+		<vertices>105 93 29 93 29 42 105 42</vertices>
+		<verticesUV>228 1884 152 1884 152 1833 228 1833</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_09" x="680" y="0" w="77" h="50" oX="29" oY="45" oW="132" oH="116">
+		<vertices>106 95 29 95 29 45 106 45</vertices>
+		<verticesUV>757 50 680 50 680 0 757 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_10" x="1992" y="1348" w="56" h="50" oX="50" oY="45" oW="132" oH="116">
+		<vertices>106 95 50 95 50 45 106 45</vertices>
+		<verticesUV>2048 1398 1992 1398 1992 1348 2048 1348</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_11" x="1980" y="1978" w="68" h="70" oX="40" oY="32" oW="132" oH="116">
+		<vertices>108 87 54 102 40 51 95 32</vertices>
+		<verticesUV>2048 2033 1994 2048 1980 1997 2035 1978</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="scarab_12" x="178" y="1979" w="97" h="69" oX="30" oY="38" oW="132" oH="116">
+		<vertices>127 82 31 107 30 41 108 38</vertices>
+		<verticesUV>275 2023 179 2048 178 1982 256 1979</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="scarab_13" x="604" y="297" w="79" h="111" oX="29" oY="5" oW="132" oH="116">
+		<vertices>108 94 29 116 32 16 85 5</vertices>
+		<verticesUV>683 386 604 408 607 308 660 297</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="scarab_14" x="1947" y="1265" w="101" h="80" oX="15" oY="21" oW="132" oH="116">
+		<vertices>104 101 27 96 15 60 116 21</vertices>
+		<verticesUV>2036 1345 1959 1340 1947 1304 2048 1265</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="scarab_15" x="25" y="1290" w="116" h="75" oX="12" oY="33" oW="132" oH="116">
+		<vertices>128 52 101 107 23 108 12 69 64 33</vertices>
+		<verticesUV>141 1309 114 1364 36 1365 25 1326 77 1290</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="scarab_16" x="484" y="470" w="65" h="90" oX="43" oY="26" oW="132" oH="116">
+		<vertices>108 116 43 116 43 26 108 26</vertices>
+		<verticesUV>549 560 484 560 484 470 549 470</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="w5_cloud" x="608" y="0" w="879" h="368" oX="0" oY="25" oW="900" oH="420">
+		<vertices>806 110 879 218 835 306 622 370 196 393 27 307 0 251 87 110 254 27 521 25</vertices>
+		<verticesUV>1414 85 1487 193 1443 281 1230 345 804 368 635 282 608 226 695 85 862 2 1129 0</verticesUV>
+		<triangles>4 8 9 4 7 8 5 6 7 4 5 7 3 4 9 0 1 2 0 2 3 0 3 9</triangles>
+	</sprite>
+</TextureAtlas>

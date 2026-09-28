@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f93636b19ac4d1a94a442ea832efc7c6:77beeb8489ad5453c26596735b439959:620097c7861a50e2c92efd84c5a26462$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_backstage_flower_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="bg_daisy" x="138" y="312" w="72" h="122" oX="6" oY="29" oW="102" oH="152">
+		<vertices>59 151 6 29 78 29</vertices>
+		<verticesUV>191 434 138 312 210 312</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="bg_large_flower" x="212" y="270" w="124" h="142" oX="6" oY="17" oW="132" oH="160">
+		<vertices>130 18 116 118 29 159 8 113 6 55 63 17</vertices>
+		<verticesUV>336 271 322 371 235 412 214 366 212 308 269 270</verticesUV>
+		<triangles>1 4 5 1 3 4 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="bg_large_stem" x="215" y="12" w="167" h="386" oX="56" oY="40" oW="276" oH="450">
+		<vertices>135 93 214 209 223 315 192 426 176 404 183 222 133 132 56 55 71 40</vertices>
+		<verticesUV>294 65 373 181 382 287 351 398 335 376 342 194 292 104 215 27 230 12</verticesUV>
+		<triangles>0 6 7 2 3 4 2 4 5 1 2 5 1 5 6 0 1 6 0 7 8</triangles>
+	</sprite>
+	<sprite n="bg_large_stem_cover" x="86" y="343" w="77" h="71" oX="2" oY="7" oW="80" oH="80">
+		<vertices>79 52 56 75 2 78 6 7 65 7</vertices>
+		<verticesUV>163 388 140 411 86 414 90 343 149 343</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_large_stem_leaf1" x="0" y="177" w="122" h="217" oX="9" oY="3" oW="140" oH="220">
+		<vertices>131 52 131 137 38 220 9 106 66 3</vertices>
+		<verticesUV>122 226 122 311 29 394 0 280 57 177</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="bg_large_stem_leaf2" x="381" y="150" w="106" h="177" oX="42" oY="10" oW="180" oH="200">
+		<vertices>106 19 148 106 99 187 63 178 42 100 71 10</vertices>
+		<verticesUV>445 159 487 246 438 327 402 318 381 240 410 150</verticesUV>
+		<triangles>3 1 2 3 4 1 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="bg_rainbow" x="0" y="0" w="337" h="270" oX="9" oY="1" oW="350" oH="275">
+		<vertices>135 11 298 106 341 216 346 266 217 271 161 182 106 148 9 128 9 1</vertices>
+		<verticesUV>126 10 289 105 332 215 337 265 208 270 152 181 97 147 0 127 0 0</verticesUV>
+		<triangles>0 6 7 0 5 6 2 3 4 5 0 1 1 2 4 1 4 5 0 7 8</triangles>
+	</sprite>
+	<sprite n="bg_small_flower" x="328" y="0" w="165" h="152" oX="33" oY="60" oW="238" oH="268">
+		<vertices>198 159 145 212 51 197 33 120 101 60 198 60</vertices>
+		<verticesUV>493 99 440 152 346 137 328 60 396 0 493 0</verticesUV>
+		<triangles>0 4 5 3 1 2 3 4 1 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_small_stem" x="35" y="137" w="168" h="172" oX="10" oY="5" oW="180" oH="190">
+		<vertices>147 86 178 177 161 176 93 75 10 30 11 5</vertices>
+		<verticesUV>172 218 203 309 186 308 118 207 35 162 36 137</verticesUV>
+		<triangles>3 4 5 0 1 2 0 2 3 5 0 3</triangles>
+	</sprite>
+	<sprite n="bg_small_stem_leaf1" x="270" y="370" w="86" h="128" oX="15" oY="16" oW="130" oH="160">
+		<vertices>101 75 87 143 56 144 15 44 74 16</vertices>
+		<verticesUV>356 429 342 497 311 498 270 398 329 370</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="bg_small_stem_leaf2" x="0" y="392" w="76" h="117" oX="27" oY="32" oW="130" oH="160">
+		<vertices>84 45 103 149 27 91 35 32</vertices>
+		<verticesUV>57 405 76 509 0 451 8 392</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="bg_sunflower" x="377" y="313" w="95" h="129" oX="6" oY="4" oW="102" oH="152">
+		<vertices>73 24 101 77 47 133 13 99 6 4</vertices>
+		<verticesUV>444 333 472 386 418 442 384 408 377 313</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="bg_sunflower2" x="443" y="116" w="68" h="90" oX="9" oY="33" oW="102" oH="152">
+		<vertices>77 38 62 123 9 70 45 33</vertices>
+		<verticesUV>511 121 496 206 443 153 479 116</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ae4042021c532d2a40ec78ab74ced60e:5dc5852e65b39074f15e3e83a48bdcd8:79df11cb734cb129ddc72379411366af$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_rock_cherry_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="obstacle_rock01_cherry" x="305" y="411" w="172" h="113" oX="0" oY="17" oW="172" oH="132"/>
+	<sprite n="obstacle_rock02_cherry" x="0" y="411" w="303" h="258" oX="0" oY="11" oW="303" oH="280"/>
+	<sprite n="obstacle_rock03_cherry" x="0" y="0" w="458" h="409" oX="18" oY="0" oW="445" oH="458" r="y"/>
+</TextureAtlas>

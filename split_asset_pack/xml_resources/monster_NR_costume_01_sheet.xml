@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:309166ff04353970809d08358136c438:4a86f285786264b300dde14c7e9621fc:b624a9a732a4582d31b7fa6d97c1a1d1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_NR_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="ball 1" x="112" y="157" w="108" h="106" pX="0.5" pY="0.5" oX="1" oY="0" oW="110" oH="108" />
+  <sprite n="ball 2" x="0" y="220" w="108" h="106" pX="0.5" pY="0.5" oX="1" oY="0" oW="110" oH="108" />
+  <sprite n="ball 3" x="222" y="157" w="108" h="106" pX="0.5" pY="0.5" oX="1" oY="0" oW="110" oH="108" />
+  <sprite n="ball spin 01" x="382" y="0" w="110" h="108" pX="0.5" pY="0.5" />
+  <sprite n="ball spin 02" x="339" y="110" w="110" h="108" pX="0.5" pY="0.5" />
+  <sprite n="ball spin 03" x="0" y="110" w="110" h="108" pX="0.5" pY="0.5" />
+  <sprite n="collar back" x="206" y="0" w="174" h="81" pX="0.567308" pY="0.946429" oX="29" oY="15" oW="208" oH="112" />
+  <sprite n="collar front" x="0" y="0" w="204" h="108" pX="0.567308" pY="0.946429" oX="2" oY="2" oW="208" oH="112" />
+  <sprite n="glasses" x="206" y="83" w="131" h="72" pX="0.340909" pY="1.13514" oX="0" oY="1" oW="132" oH="74" />
+</TextureAtlas>

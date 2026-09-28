@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.2" />
+		<templateVar name="$maxAlpha" equals="0.25" />
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$priority" equals="4" />
+	</template>
+
+	<template type="template_dialog" name="Dialog">
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$avatarSprite" equals="'gfx/menu/minigames/minigame_alcordion_01'" />
+		<templateVar name="$avatarName" equals="MONSTER_Z10" />
+		<templateVar name="$isClubbox" equals="0" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="2" />
+	</template>
+
+	<event name="onPostInit" params="component, element">
+		<![CDATA[
+			component:E("FadedBG").onDoneHide = function(e)
+				component:root():removePopUp(component:name())
+			end
+
+			component:E("Dialog").onAllDialogsCompleted = function(e)
+				game.getLocalSettings():set("dipster_rock_tutorial", "true")
+				component:E("FadedBG"):Hide()
+			end
+
+			component:E("Dialog"):SetDialogs({
+				{
+					Avatar = "gfx/menu/minigames/minigame_alcordion_04",
+					Dialog = "DIPSTER_TUT_ROCK_DIALOG_1"
+				},
+				{
+					Avatar = "gfx/menu/minigames/minigame_alcordion_02",
+					Dialog = "DIPSTER_TUT_ROCK_DIALOG_2"
+				}
+			})
+		]]>
+	</event>
+</menu>

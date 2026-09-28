@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:dda299ec127842728f41e13ab5007c06:2b791e103306ec73de010dbb6e330514:a366ef70b4c0137aff1d0e734f3a6c8e$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_backstage_punk_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="bg_graffiti" x="0" y="0" w="685" h="320" oX="0" oY="0" oW="685" oH="324">
+		<vertices>143 227 197 237 245 0 312 0 342 33 402 0 418 22 518 4 626 98 685 123 685 211 355 288 258 320 202 320 81 263 0 283 0 230 49 172 77 4 79 0 137 0</vertices>
+		<verticesUV>143 227 197 237 245 0 312 0 342 33 402 0 418 22 518 4 626 98 685 123 685 211 355 288 258 320 202 320 81 263 0 283 0 230 49 172 77 4 79 0 137 0</verticesUV>
+		<triangles>18 19 20 17 18 20 14 16 17 0 17 20 14 15 16 1 12 13 1 11 12 1 2 4 8 9 10 11 8 10 6 7 8 4 5 6 6 8 11 2 3 4 11 4 6 1 4 11 0 1 13 0 13 14 0 14 17</triangles>
+	</sprite>
+	<sprite n="bg_light" x="683" y="0" w="120" h="807" oX="0" oY="20" oW="120" oH="831">
+		<vertices>120 64 78 789 40 827 0 59 0 56 120 56 16 24 13 24 13 20 16 20</vertices>
+		<verticesUV>803 44 761 769 723 807 683 39 683 36 803 36 699 4 696 4 696 0 699 0</verticesUV>
+		<triangles>3 4 5 0 3 5 1 2 3 0 1 3 7 8 9 6 7 9</triangles>
+	</sprite>
+	<sprite n="bg_puffer_balloon_body" x="0" y="321" w="422" h="434">
+		<vertices>334 46 339 146 422 229 422 302 337 307 353 389 265 393 265 434 254 434 249 432 197 374 161 428 150 422 117 327 0 275 0 145 76 138 35 62 128 58 142 3 145 0 192 22 262 0 288 0</vertices>
+		<verticesUV>334 367 339 467 422 550 422 623 337 628 353 710 265 714 265 755 254 755 249 753 197 695 161 749 150 743 117 648 0 596 0 466 76 459 35 383 128 379 142 324 145 321 192 343 262 321 288 321</verticesUV>
+		<triangles>21 0 1 19 20 21 18 19 21 21 22 0 16 17 18 1 18 21 14 15 16 16 1 13 13 14 16 1 16 18 12 13 10 12 10 11 13 1 4 9 10 6 6 7 8 9 6 8 4 5 6 4 6 10 2 3 4 1 2 4 13 4 10 0 22 23</triangles>
+	</sprite>
+	<sprite n="bg_puffer_balloon_eye" x="924" y="0" w="98" h="102">
+		<vertices>98 102 30 102 11 90 0 71 0 17 24 1 33 0 98 0</vertices>
+		<verticesUV>1022 102 954 102 935 90 924 71 924 17 948 1 957 0 1022 0</verticesUV>
+		<triangles>0 6 7 3 6 1 4 6 3 3 1 2 4 5 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="bg_puffer_balloon_eye_shine" x="300" y="309" w="60" h="36">
+		<vertices>60 36 15 36 0 21 0 0 60 0</vertices>
+		<verticesUV>360 345 315 345 300 330 300 309 360 309</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_puffer_balloon_fin" x="142" y="0" w="70" h="106">
+		<vertices>70 106 0 106 0 0 70 0</vertices>
+		<verticesUV>212 106 142 106 142 0 212 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_puffer_balloon_lips" x="145" y="179" w="50" h="46">
+		<vertices>50 46 0 46 0 8 3 3 8 0 50 0</vertices>
+		<verticesUV>195 225 145 225 145 187 148 182 153 179 195 179</verticesUV>
+		<triangles>0 4 5 2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="bg_puffer_balloon_pupil" x="0" y="752" w="26" h="28">
+		<vertices>26 28 0 28 0 0 26 0</vertices>
+		<verticesUV>26 780 0 780 0 752 26 752</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_puffer_string" x="806" y="0" w="11" h="478" oX="0" oY="2" oW="11" oH="483">
+		<vertices>11 480 0 480 0 2 11 2</vertices>
+		<verticesUV>817 478 806 478 806 0 817 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_shell_balloon" x="0" y="752" w="206" h="224">
+		<vertices>206 169 206 224 0 224 0 63 60 6 78 0 187 0</vertices>
+		<verticesUV>206 921 206 976 0 976 0 815 60 758 78 752 187 752</verticesUV>
+		<triangles>0 5 6 4 0 3 2 0 1 2 3 0 4 5 0</triangles>
+	</sprite>
+	<sprite n="bg_smoke" x="346" y="275" w="280" h="265" oX="0" oY="8" oW="280" oH="280">
+		<vertices>280 107 280 175 214 273 70 267 0 204 0 127 45 15 181 8</vertices>
+		<verticesUV>626 374 626 442 560 540 416 534 346 471 346 394 391 282 527 275</verticesUV>
+		<triangles>5 6 7 3 5 7 3 4 5 1 2 3 1 3 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="wubbox_eye_green" x="819" y="0" w="103" h="103">
+		<vertices>103 103 39 103 3 95 0 61 0 0 103 0</vertices>
+		<verticesUV>922 103 858 103 822 95 819 61 819 0 922 0</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="wubbox_eye_yellow" x="0" y="647" w="103" h="103">
+		<vertices>103 103 0 103 0 0 103 0</vertices>
+		<verticesUV>103 750 0 750 0 647 103 647</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

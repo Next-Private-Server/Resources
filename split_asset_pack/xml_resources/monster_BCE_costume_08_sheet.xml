@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b1f4c8bc712e298f7a6ab2bd327e4a68:dac748ba45346b881394601c9c0c5325:c57a6e5524b3801281c98f610900d3e3$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCE_costume_08_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BCE_body_A" x="0" y="130" w="135" h="95" pX="0.40625" pY="0.757143" oX="0" oY="4" oW="96" oH="140" r="y"/>
+	<sprite n="BCE_body_B" x="148" y="115" w="96" h="110" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_body_C" x="0" y="0" w="146" h="128" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCE_gong" x="0" y="227" w="129" h="87" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="130" r="y"/>
+	<sprite n="BCE_head_top" x="148" y="0" w="104" h="113" pX="0.5" pY="0.638889" oX="1" oY="2" oW="116" oH="108" r="y"/>
+	<sprite n="BCE_left_hand" x="0" y="316" w="78" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_left_lowerarm" x="131" y="227" w="114" h="24" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_left_thumb" x="0" y="474" w="50" h="16" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_left_upperarm" x="131" y="279" w="112" h="26" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCE_neck_A" x="0" y="360" w="64" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_neck_B" x="0" y="418" w="20" h="54" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_right_hand" x="80" y="316" w="42" h="78" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCE_right_lowerarm" x="131" y="253" w="114" h="24" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_right_thumb" x="0" y="492" w="50" h="16" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_right_upperarm" x="131" y="307" w="112" h="26" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

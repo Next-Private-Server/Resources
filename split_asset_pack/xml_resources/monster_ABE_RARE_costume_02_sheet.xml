@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:cbfeeb4b251c61ffd3cb4a18e559f7d7:eab171e6ec27e9666aa8b39a17a4a735:96f10b9b74da6cfab58c30d7da7a5cba$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_RARE_costume_02_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ABE_fur_ears" x="365" y="233" w="39" h="111" pX="0.5" pY="0.5" oX="-3" oY="5" r="y"/>
+    <sprite n="ABE_fur_eyeback_RARE" x="150" y="181" w="47" h="88" pX="0.5" pY="0.5" oX="0" oY="0" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_fur_eyelids_1_RARE" x="365" y="142" w="47" h="87" pX="0.5" pY="0.5" oX="0" oY="0" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_fur_eyelids_2_RARE" x="416" y="154" w="87" h="47" pX="0.5" pY="0.5" oX="0" oY="0" oW="88" oH="48"/>
+    <sprite n="ABE_fur_mouth_costume" x="318" y="110" w="43" h="80" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_fur_nose_costume" x="3" y="311" w="23" h="24" pX="0.5" pY="0.5" oX="34" oY="24"/>
+    <sprite n="ABE_left_mushroom_stalk" x="318" y="194" w="43" h="74" pX="0.5" pY="0.5" oX="2" oY="0" oW="48" oH="74"/>
+    <sprite n="ABE_left_mushroom_stalk_snow" x="3" y="190" w="67" h="26" pX="0.5" pY="0.5" oX="-93.6" oY="75"/>
+    <sprite n="ABE_left_mushroom_top_costume" x="423" y="3" w="85" h="147" pX="0.5" pY="0.5" oX="-9.6" oY="-12.2" r="y"/>
+    <sprite n="ABE_pink_eyeback_RARE" x="317" y="312" w="35" h="71" pX="0.5" pY="0.5" oX="9" oY="8" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_pink_eyelids_1_RARE" x="71" y="231" w="71" h="35" pX="0.5" pY="0.5" oX="9" oY="8" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyelids_2_RARE" x="71" y="270" w="71" h="35" pX="0.5" pY="0.5" oX="9" oY="8" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyeshape" x="416" y="205" w="87" h="42" pX="0.5" pY="0.5" oX="4" oY="2"/>
+    <sprite n="ABE_pink_mouth_1_RARE" x="3" y="220" w="64" h="29" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="30"/>
+    <sprite n="ABE_pink_mouth_2_RARE" x="3" y="253" w="64" h="27" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="30"/>
+    <sprite n="ABE_pink_mouth_3_RARE" x="3" y="284" w="64" h="23" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="30"/>
+    <sprite n="ABE_pink_mouth_4_RARE" x="3" y="341" w="29" h="35" pX="0.5" pY="0.5" oX="12" oY="1" oW="64" oH="30" r="y"/>
+    <sprite n="ABE_pink_nose_costume" x="30" y="311" w="15" h="20" pX="0.5" pY="0.5" oX="32" oY="31.4" r="y"/>
+    <sprite n="ABE_right_mushroom_stalk" x="150" y="103" w="48" h="74" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_right_mushroom_stalk_snow" x="74" y="205" w="72" h="22" pX="0.5" pY="0.5" oX="210.4" oY="79"/>
+    <sprite n="ABE_right_mushroom_top_costume" x="3" y="103" w="143" h="83" pX="0.5" pY="0.5" oX="-5.8" oY="-7.4"/>
+    <sprite n="ABE_thumpie_fur_RARE" x="202" y="110" w="112" h="112" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_thumpie_pink_ears" x="367" y="38" w="48" h="100" pX="0.5" pY="0.5" oX="6" oY="-4" r="y"/>
+    <sprite n="ABE_thumpie_pink_RARE" x="201" y="226" w="112" h="111" pX="0.5" pY="0.5" oX="0" oY="0" oW="112" oH="112"/>
+    <sprite n="ABE_thumpie_pink_whiskers" x="3" y="387" w="69" h="104" pX="0.5" pY="0.5" oX="0" oY="15" r="y"/>
+    <sprite n="ABE_treestump" x="3" y="3" w="206" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_treestump_nail" x="317" y="272" w="37" h="36" pX="0.5" pY="0.5" oX="61.2" oY="64" oW="45" oH="46"/>
+    <sprite n="ABE_treestump_snow" x="213" y="3" w="206" h="31" pX="0.5" pY="0.5" oX="0" oY="71" oW="206" oH="33"/>
+    <sprite n="ABE_treestump_top" x="213" y="38" w="150" h="68" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_treestump_top_snow" x="76" y="190" w="69" h="11" pX="0.5" pY="0.5" oX="25.4" oY="58"/>
+</TextureAtlas>

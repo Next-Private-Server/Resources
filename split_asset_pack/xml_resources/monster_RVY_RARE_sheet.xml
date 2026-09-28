@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1fd76275c0d6de56763aeb9d7e9ad030:82c818fe6418b0a2478016e4df6fc17b:e29ba769e54f2b213293f34eb036d82c$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_RVY_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="RVY_arm_01" x="178" y="355" w="102" h="57" oX="73" oY="52" oW="200" oH="200" r="y"/>
+	<sprite n="RVY_arm_02" x="0" y="476" w="99" h="63" oX="62" oY="51" oW="200" oH="200" r="y"/>
+	<sprite n="RVY_arm_03" x="435" y="265" w="75" h="70" oX="41" oY="41" oW="152" oH="152"/>
+	<sprite n="RVY_arm_04" x="435" y="337" w="75" h="42" oX="25" oY="37" oW="120" oH="120"/>
+	<sprite n="RVY_arm_05" x="114" y="463" w="61" h="54" oX="42" oY="34" oW="130" oH="130" r="y"/>
+	<sprite n="RVY_bg_leg" x="114" y="393" w="62" h="68" oX="43" oY="36" oW="146" oH="146" r="y"/>
+	<sprite n="RVY_eyeball" x="359" y="560" w="51" h="40" oX="27" oY="22" oW="100" oH="100" r="y"/>
+	<sprite n="RVY_eyeball_02" x="470" y="587" w="40" h="51" oX="28" oY="20" oW="100" oH="100"/>
+	<sprite n="RVY_eyelid_01" x="249" y="548" w="56" h="44" oX="28" oY="25" oW="100" oH="100" r="y"/>
+	<sprite n="RVY_eyelid_02" x="307" y="561" w="44" h="56" oX="28" oY="25" oW="100" oH="100"/>
+	<sprite n="RVY_eyelid_03" x="249" y="594" w="56" h="44" oX="28" oY="25" oW="100" oH="100" r="y"/>
+	<sprite n="RVY_eyelid_04" x="368" y="450" w="46" h="56" oX="27" oY="25" oW="100" oH="100"/>
+	<sprite n="RVY_fg_leg_01" x="176" y="546" w="71" h="65" oX="56" oY="50" oW="180" oH="180" r="y"/>
+	<sprite n="RVY_fg_leg_03" x="289" y="65" w="48" h="43" oX="30" oY="32" oW="116" oH="116" r="y"/>
+	<sprite n="RVY_head" x="177" y="479" w="80" h="65" oX="66" oY="60" oW="200" oH="200" r="y"/>
+	<sprite n="RVY_head_2" x="415" y="519" w="81" h="66" oX="67" oY="59" oW="200" oH="200" r="y"/>
+	<sprite n="RVY_leaf_01" x="333" y="537" w="24" h="22" oX="18" oY="22" oW="60" oH="60"/>
+	<sprite n="RVY_leaf_02" x="368" y="508" w="45" h="50" oX="22" oY="21" oW="80" oH="80" r="y"/>
+	<sprite n="RVY_leaf_03" x="101" y="519" w="73" h="55" oX="45" oY="35" oW="120" oH="120" r="y"/>
+	<sprite n="RVY_leaf_04" x="282" y="402" w="119" h="46" oX="50" oY="50" oW="120" oH="200" r="y"/>
+	<sprite n="RVY_leaf_05" x="0" y="324" w="176" h="67" oX="82" oY="112" oW="220" oH="320" r="y"/>
+	<sprite n="RVY_leaf_05_bg" x="288" y="339" w="126" h="61" oX="47" oY="52" oW="160" oH="200" r="y"/>
+	<sprite n="RVY_leaf_07" x="194" y="212" w="92" h="141" oX="17" oY="66" oW="160" oH="220"/>
+	<sprite n="RVY_leaf_07_bg" x="0" y="541" w="78" h="71" oX="33" oY="82" oW="180" oH="180"/>
+	<sprite n="RVY_leaf_08" x="178" y="414" w="99" h="63" oX="10" oY="84" oW="160" oH="160"/>
+	<sprite n="RVY_leaf_under" x="0" y="212" w="192" h="110" oX="7" oY="0" oW="120" oH="200" r="y"/>
+	<sprite n="RVY_leaves_gr_sb" x="333" y="509" w="29" h="26" oX="31" oY="34" oW="120" oH="120" r="y"/>
+	<sprite n="RVY_leaves_gr_sr_01" x="259" y="509" w="72" h="37" oX="19" oY="95" oW="160" oH="160"/>
+	<sprite n="RVY_leaves_gr_sr_02" x="307" y="619" w="43" h="37" oX="27" oY="47" oW="160" oH="160"/>
+	<sprite n="RVY_pupil" x="416" y="339" w="17" h="28" oX="12" oY="4" oW="42" oH="42"/>
+	<sprite n="RVY_pupil_02" x="416" y="369" w="17" h="28" oX="13" oY="2" oW="42" oH="42"/>
+	<sprite n="RVY_shadow" x="0" y="65" w="287" h="145" oX="23" oY="28" oW="330" oH="200"/>
+	<sprite n="RVY_strings_1" x="0" y="26" w="338" h="16" oX="45" oY="51" oW="100" oH="440" r="y"/>
+	<sprite n="RVY_strings_2" x="0" y="44" w="337" h="19" oX="42" oY="51" oW="100" oH="440" r="y"/>
+	<sprite n="RVY_strings_3" x="0" y="0" w="338" h="24" oX="38" oY="51" oW="100" oH="440" r="y"/>
+	<sprite n="RVY_tail_01" x="416" y="399" w="95" h="118" oX="45" oY="19" oW="176" oH="176"/>
+	<sprite n="RVY_tail_02" x="0" y="393" w="112" h="81" oX="36" oY="30" oW="170" oH="176" r="y"/>
+	<sprite n="RVY_tail_03" x="279" y="450" w="87" h="57" oX="51" oY="40" oW="160" oH="160" r="y"/>
+	<sprite n="RVY_tail_04" x="340" y="0" w="159" h="95" oX="78" oY="84" oW="280" oH="280" r="y"/>
+	<sprite n="RVY_tail_04_cover" x="288" y="265" w="145" h="72" oX="42" oY="18" oW="150" oH="180" r="y"/>
+	<sprite n="RVY_torso" x="289" y="110" w="205" h="153" oX="42" oY="27" oW="300" oH="220"/>
+	<sprite n="RVY_upper_eyelid_01" x="80" y="576" w="56" h="44" oX="28" oY="23" oW="100" oH="100" r="y"/>
+	<sprite n="RVY_upper_eyelid_02" x="0" y="614" w="56" h="44" oX="28" oY="23" oW="100" oH="100" r="y"/>
+	<sprite n="RVY_upper_eyelid_03" x="412" y="587" w="56" h="44" oX="28" oY="23" oW="100" oH="100" r="y"/>
+	<sprite n="RVY_upper_eyelid_04" x="353" y="602" w="56" h="44" oX="28" oY="23" oW="100" oH="100" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cbea4867b2f051c83ba72d6c5e8c7a2a:13f5b1f0ffc38a025cd34bde803ea20f:6868b7024c5127be497fa7ef9d031889$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABDE_costume_04_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABDE_costume_04_big_speaker" x="257" y="447" w="67" h="61" pX="0.0819672" pY="0.985075" r="y"/>
+	<sprite n="ABDE_costume_04_big_speaker_right" x="257" y="447" w="67" h="61" pX="1.3278688524590163" pY="0.7164179104477612" r="y"/>
+	<sprite n="ABDE_costume_04_castle_sl" x="0" y="0" w="226" h="334" pX="0.376106" pY="0.715569"/>
+	<sprite n="ABDE_costume_04_castle_sr" x="228" y="0" w="202" h="304" pX="0.668317" pY="0.677632"/>
+	<sprite n="ABDE_costume_04_flag_01" x="107" y="479" w="41" h="33" pX="0.5" pY="0.5" oX="8" oY="6" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_02" x="150" y="479" w="42" h="31" pX="0.5" pY="0.5" oX="8" oY="6" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_03" x="214" y="447" w="41" h="29" pX="0.5" pY="0.5" oX="8" oY="6" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_04" x="171" y="447" w="41" h="30" pX="0.5" pY="0.5" oX="8" oY="5" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_05" x="475" y="0" w="29" h="40" pX="0.5" pY="0.5" oX="8" oY="6" oW="59" oH="44" r="y"/>
+	<sprite n="ABDE_costume_04_flag_06" x="228" y="306" w="40" h="28" pX="0.5" pY="0.5" oX="8" oY="7" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_07" x="432" y="31" w="40" h="27" pX="0.5" pY="0.5" oX="8" oY="7" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_08" x="432" y="0" w="41" h="29" pX="0.5" pY="0.5" oX="8" oY="7" oW="59" oH="44"/>
+	<sprite n="ABDE_costume_04_flag_stand" x="0" y="502" w="24" h="2" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABDE_costume_04_flamingo_body" x="107" y="336" w="62" h="141" pX="0.610638" pY="2.05161" r="y"/>
+	<sprite n="ABDE_costume_04_flamingo_head" x="171" y="336" w="86" h="109" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABDE_costume_04_small_speaker" x="194" y="479" w="34" h="31" pX="-0.154839" pY="0.594118" r="y"/>
+	<sprite n="ABDE_costume_04_small_speaker_right" x="194" y="479" w="34" h="31" pX="1.7161290322580647" pY="0.41764705882352937" r="y"/>
+	<sprite n="ABDE_costume_04_swim_shorts" x="0" y="336" w="105" h="164" pX="0.536585" pY="0.790476" r="y"/>
+</TextureAtlas>

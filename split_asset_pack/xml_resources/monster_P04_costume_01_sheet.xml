@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:30a6d95bc25b0ec3600fb7e85d35f967:aa7ecaed199c78905f0933d488880ca3:c241b76f89acdcd148cd1413dc0ff630$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_P04_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="P04_arch_lower_left.png" x="3" y="3" w="69" h="207" pX="0.5" pY="0.5" oX="5" oY="0" oW="80" oH="208"/>
+    <sprite n="P04_arch_lower_right.png" x="3" y="214" w="69" h="207" pX="0.5" pY="0.5" oX="6" oY="0" oW="80" oH="208"/>
+    <sprite n="P04_arch_upper_left.png" x="433" y="112" w="69" h="140" pX="0.5" pY="0.5" oX="2" oY="0" oW="144" oH="72" r="y"/>
+    <sprite n="P04_arch_upper_right.png" x="121" y="121" w="140" h="69" pX="0.5" pY="0.5" oX="2" oY="1" oW="144" oH="72"/>
+    <sprite n="P04_backspine_01.png" x="349" y="295" w="31" h="36" pX="0.5" pY="0.5" oX="0" oY="0" oW="32" oH="36"/>
+    <sprite n="P04_backspine_02.png" x="348" y="259" w="39" h="32" pX="0.5" pY="0.5" oX="0" oY="0" oW="32" oH="40" r="y"/>
+    <sprite n="P04_backspine_03.png" x="76" y="72" w="39" h="52" pX="0.5" pY="0.5" oX="2" oY="0" oW="44" oH="52"/>
+    <sprite n="P04_backspine_04.png" x="384" y="295" w="27" h="32" pX="0.5" pY="0.5" oX="0" oY="0" oW="28" oH="32"/>
+    <sprite n="P04_backspine_05.png" x="277" y="473" w="52" h="36" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="P04_backspine_06.png" x="76" y="3" w="40" h="65" pX="0.5" pY="0.5" oX="3" oY="0" oW="68" oH="40" r="y"/>
+    <sprite n="P04_backspine_07.png" x="246" y="321" w="30" h="64" pX="0.5" pY="0.5" oX="0" oY="1" oW="64" oH="32" r="y"/>
+    <sprite n="P04_backspine_08.png" x="255" y="258" w="36" h="58" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="60"/>
+    <sprite n="P04_backspine_09.png" x="121" y="425" w="38" h="68" pX="0.5" pY="0.5" oX="1" oY="0" oW="40" oH="68"/>
+    <sprite n="P04_backspine_10.png" x="280" y="374" w="47" h="34" pX="0.5" pY="0.5" oX="0" oY="1" oW="36" oH="48" r="y"/>
+    <sprite n="P04_backspine_11.png" x="277" y="413" w="32" h="56" pX="0.5" pY="0.5" oX="2" oY="0" oW="36" oH="56"/>
+    <sprite n="P04_backspine_12.png" x="255" y="194" w="28" h="60" pX="0.5" pY="0.5" oX="0" oY="2" oW="60" oH="32" r="y"/>
+    <sprite n="P04_backspine_13.png" x="163" y="419" w="34" h="87" pX="0.5" pY="0.5" oX="1" oY="3" oW="88" oH="40" r="y"/>
+    <sprite n="P04_backspine_14.png" x="201" y="419" w="36" h="68" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="P04_backspine_15.png" x="348" y="225" w="58" h="30" pX="0.5" pY="0.5" oX="0" oY="1" oW="32" oH="60" r="y"/>
+    <sprite n="P04_backspine_16.png" x="287" y="225" w="57" h="28" pX="0.5" pY="0.5" oX="0" oY="1" oW="28" oH="60" r="y"/>
+    <sprite n="P04_backspine_17.png" x="241" y="419" w="32" h="68" pX="0.5" pY="0.5" oX="0" oY="2" oW="68" oH="36" r="y"/>
+    <sprite n="P04_backspine_18.png" x="246" y="389" w="30" h="20" pX="0.5" pY="0.5" oX="1" oY="2" oW="32" oH="24"/>
+    <sprite n="P04_body_01.png" x="121" y="3" w="162" h="114" pX="0.5" pY="0.5" oX="3" oY="3" oW="168" oH="120"/>
+    <sprite n="P04_body_02.png" x="287" y="3" w="144" h="85" pX="0.5" pY="0.5" oX="2" oY="3" oW="148" oH="92"/>
+    <sprite n="P04_body_03.png" x="140" y="321" w="102" h="94" pX="0.5" pY="0.5" oX="1" oY="0" oW="96" oH="104" r="y"/>
+    <sprite n="P04_body_04.png" x="59" y="425" w="58" h="78" pX="0.5" pY="0.5" oX="1" oY="4" oW="60" oH="84"/>
+    <sprite n="P04_fin_left.png" x="76" y="321" w="60" h="100" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="P04_fin_right.png" x="3" y="425" w="52" h="80" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="P04_flyA_body.png" x="295" y="257" w="49" h="34" pX="0.5" pY="0.5" oX="1" oY="1" oW="36" oH="52" r="y"/>
+    <sprite n="P04_flyA_head_1.png" x="76" y="245" w="39" h="33" pX="0.5" pY="0.5" oX="0" oY="1" oW="44" oH="36"/>
+    <sprite n="P04_flyA_head_2.png" x="366" y="335" w="30" h="34" pX="0.5" pY="0.5" oX="8" oY="1" oW="44" oH="36"/>
+    <sprite n="P04_flyA_head_blink.png" x="333" y="463" w="33" h="39" pX="0.5" pY="0.5" oX="0" oY="1" oW="44" oH="36" r="y"/>
+    <sprite n="P04_flyA_tail_1.png" x="351" y="397" w="34" h="34" pX="0.5" pY="0.5" oX="5" oY="2" oW="40" oH="52"/>
+    <sprite n="P04_flyA_tail_2.png" x="76" y="128" w="39" h="37" pX="0.5" pY="0.5" oX="2" oY="2" oW="40" oH="52" r="y"/>
+    <sprite n="P04_flyA_tail_3.png" x="280" y="320" w="30" h="50" pX="0.5" pY="0.5" oX="9" oY="1" oW="40" oH="52"/>
+    <sprite n="P04_flyB_body.png" x="313" y="412" w="34" h="47" pX="0.5" pY="0.5" oX="0" oY="2" oW="36" oH="52"/>
+    <sprite n="P04_flyB_tail_1.png" x="351" y="397" w="34" h="34" pX="0.5" pY="0.5" oX="5" oY="2" oW="40" oH="52"/>
+    <sprite n="P04_flyB_tail_2.png" x="76" y="128" w="39" h="37" pX="0.5" pY="0.5" oX="2" oY="2" oW="40" oH="52" r="y"/>
+    <sprite n="P04_flyB_tail_3.png" x="280" y="320" w="30" h="50" pX="0.5" pY="0.5" oX="9" oY="1" oW="40" oH="52"/>
+    <sprite n="P04_flyC_body.png" x="314" y="295" w="31" h="47" pX="0.5" pY="0.5" oX="3" oY="2" oW="36" oH="52"/>
+    <sprite n="P04_flyC_tail_1.png" x="351" y="397" w="34" h="34" pX="0.5" pY="0.5" oX="5" oY="2" oW="40" oH="52"/>
+    <sprite n="P04_flyC_tail_2.png" x="76" y="128" w="39" h="37" pX="0.5" pY="0.5" oX="2" oY="2" oW="40" oH="52" r="y"/>
+    <sprite n="P04_flyC_tail_3.png" x="280" y="320" w="30" h="50" pX="0.5" pY="0.5" oX="9" oY="1" oW="40" oH="52"/>
+    <sprite n="P04_flyD_body.png" x="331" y="346" w="31" h="47" pX="0.5" pY="0.5" oX="3" oY="2" oW="36" oH="52"/>
+    <sprite n="P04_flyD_head_1.png" x="76" y="169" w="39" h="34" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="36"/>
+    <sprite n="P04_flyD_head_2.png" x="76" y="282" w="32" h="35" pX="0.5" pY="0.5" oX="8" oY="0" oW="44" oH="36"/>
+    <sprite n="P04_flyD_head_blink.png" x="76" y="207" w="39" h="34" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="36"/>
+    <sprite n="P04_flyD_tail_1.png" x="351" y="397" w="34" h="34" pX="0.5" pY="0.5" oX="5" oY="2" oW="40" oH="52"/>
+    <sprite n="P04_flyD_tail_2.png" x="76" y="128" w="39" h="37" pX="0.5" pY="0.5" oX="2" oY="2" oW="40" oH="52" r="y"/>
+    <sprite n="P04_flyD_tail_3.png" x="280" y="320" w="30" h="50" pX="0.5" pY="0.5" oX="9" oY="1" oW="40" oH="52"/>
+    <sprite n="P04_head.png" x="121" y="194" w="130" h="123" pX="0.5" pY="0.5" oX="0" oY="0" oW="132" oH="124"/>
+    <sprite n="P04_neck.png" x="287" y="92" w="142" h="129" pX="0.5" pY="0.5" oX="1" oY="1" oW="144" oH="132"/>
+    <sprite n="P04_tail.png" x="435" y="3" w="72" h="105" pX="0.5" pY="0.5" oX="-52" oY="57" r="y"/>
+</TextureAtlas>

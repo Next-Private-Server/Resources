@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f5c59d6489a91946b6d79faaaf8edf98:699277299441379a5d6f16b448753af9:6d62e6f6d682241079fa3864aace70f6$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABDE_costume_03_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABDE_speaker_crystal_left" x="0" y="0" w="181" h="315" pX="0.5380434782608695" pY="0.690625" oX="1" oY="2" oW="184" oH="320"/>
+	<sprite n="ABDE_speaker_crystal_right" x="0" y="317" w="271" h="157" pX="0.5" pY="0.6580882352941176" oX="1" oY="0" oW="160" oH="272" r="y"/>
+</TextureAtlas>

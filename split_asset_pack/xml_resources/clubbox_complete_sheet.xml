@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b33bd7af83a8ee6f192ee59290f05e25:dbe164f97cd7fe2c3602cd04e2f642ea:33cc79b4af8d9b96a7827deb2ec97bd8$ -->
+<TextureAtlas imagePath="gfx/clubbox/hype/clubbox_complete_sheet.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="clubbox" x="0" y="510" w="344" h="223"/>
+	<sprite n="clubbox_complete" x="0" y="0" w="512" h="508"/>
+	<sprite n="clubbox_complete_shadow" x="346" y="510" w="147" h="147"/>
+	<sprite n="clubbox_door" x="0" y="838" w="37" h="142"/>
+	<sprite n="clubbox_light_ring" x="346" y="659" w="143" h="177" r="y"/>
+	<sprite n="clubbox_monster" x="0" y="982" w="37" h="42" r="y"/>
+	<sprite n="column_beam" x="99" y="968" w="85" h="43" oX="0" oY="3" oW="43" oH="88" r="y"/>
+	<sprite n="energy_ring" x="186" y="962" w="79" h="23"/>
+	<sprite n="header_left" x="168" y="838" w="107" h="122" r="y"/>
+	<sprite n="header_right" x="277" y="894" w="107" h="122" r="y"/>
+	<sprite n="hype_01" x="162" y="812" w="75" h="24" oX="0" oY="4" oW="75" oH="32"/>
+	<sprite n="hype_02" x="196" y="735" w="28" h="75" oX="0" oY="2" oW="75" oH="32" r="y"/>
+	<sprite n="hype_03" x="186" y="987" w="75" h="32"/>
+	<sprite n="hype_04" x="162" y="735" w="32" h="75" r="y"/>
+	<sprite n="hype_05" x="226" y="735" w="32" h="74" oX="0" oY="0" oW="75" oH="32" r="y"/>
+	<sprite n="hype_06" x="386" y="956" w="73" h="32" oX="1" oY="0" oW="75" oH="32"/>
+	<sprite n="hype_glow" x="277" y="817" w="63" h="75" oX="0" oY="1" oW="63" oH="76"/>
+	<sprite n="left_column_cover" x="0" y="735" w="79" h="99"/>
+	<sprite n="red_beam" x="277" y="735" w="67" h="80"/>
+	<sprite n="right_column_cover" x="81" y="735" w="79" h="99"/>
+	<sprite n="ring" x="39" y="838" w="127" h="128" r="y"/>
+	<sprite n="rocket_burn" x="39" y="968" w="58" h="49"/>
+	<sprite n="small_orange_glow" x="386" y="838" w="116" h="116" oX="1" oY="0" oW="117" oH="116"/>
+</TextureAtlas>

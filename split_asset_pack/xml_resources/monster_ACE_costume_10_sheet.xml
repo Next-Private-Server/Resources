@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8bea28cdb37c766b7f353e95054c9b57:c3b12b30ad081f26b617707e18c34d8e:b61068c44eb4f036ad2075887223075e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACE_costume_10_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="ACE_body" x="0" y="0" w="106" h="151" pX="0.5" pY="0.5" oX="0" oY="0" oW="108" oH="156"/>
+	<sprite n="ACE_cloths" x="108" y="0" w="145" h="137" pX="0.475" pY="0.520556" oX="8" oY="6" oW="160" oH="180" r="y"/>
+	<sprite n="ACE_glasses" x="0" y="153" w="57" h="92" pX="0.496667" pY="0.848" oX="14" oY="21" oW="120" oH="100" r="y"/>
+	<sprite n="ACE_right_upperarm" x="114" y="139" w="20" h="58" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ACE_sleeve_01" x="117" y="199" w="56" h="57" pX="0.22875" pY="0.35" oX="9" oY="12" oW="80" oH="80"/>
+	<sprite n="ACE_sleeve_02" x="136" y="139" w="24" h="55" pX="0.22875" pY="0.35" oX="42" oY="14" oW="80" oH="80"/>
+	<sprite n="ACE_sleeve_03" x="59" y="153" w="53" h="61" pX="0.64" pY="0.45" oX="10" oY="11" oW="80" oH="80"/>
+	<sprite n="ACE_sleeve_04" x="59" y="216" w="56" h="31" pX="0.64" pY="0.45" oX="8" oY="17" oW="80" oH="80" r="y"/>
+</TextureAtlas>

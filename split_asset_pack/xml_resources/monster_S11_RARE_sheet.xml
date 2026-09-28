@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b1549a242e2a19c95318c5f72b2df786:a276fcba3e50503212d3ed4dc643ad69:3cd3dedf35a893163f8a32d50d7eb645$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_S11_RARE_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="arm_section01" x="289" y="875" w="45" h="20" pX="0.5" pY="0.5" oX="6" oY="3" oW="32" oH="48" r="y"/>
+    <sprite n="arm_section02" x="325" y="741" w="20" h="45" pX="0.5" pY="0.5" oX="6" oY="3" oW="32" oH="48"/>
+    <sprite n="arm_section03" x="325" y="788" w="20" h="45" pX="0.5" pY="0.5" oX="6" oY="3" oW="32" oH="48"/>
+    <sprite n="arm_section04" x="1" y="1002" w="45" h="20" pX="0.5" pY="0.5" oX="6" oY="3" oW="32" oH="48" r="y"/>
+    <sprite n="firework" x="386" y="1" w="351" h="359" pX="0.5" pY="0.5" oX="11" oY="27" oW="400" oH="400" r="y"/>
+    <sprite n="firework_cluster1" x="386" y="362" w="349" h="357" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="firework_cluster2" x="1" y="382" w="349" h="357" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="firework_glow" x="1" y="1" w="383" h="379" pX="0.5" pY="0.5" oX="0" oY="13" oW="400" oH="400"/>
+    <sprite n="glow" x="1" y="741" w="189" h="189" pX="0.5" pY="0.5" oX="6" oY="6" oW="200" oH="200"/>
+    <sprite n="s11_body" x="693" y="721" w="221" h="192" pX="0.5" pY="0.5" oX="13" oY="13" oW="260" oH="216"/>
+    <sprite n="s11_eyelids_1" x="739" y="1" w="61" h="146" pX="0.5" pY="0.5" oX="5" oY="0" oW="156" oH="68" r="y"/>
+    <sprite n="s11_eyelids_2" x="916" y="719" w="66" h="155" pX="0.5" pY="0.5" oX="0" oY="2" oW="156" oH="68" r="y"/>
+    <sprite n="s11_eyelids_3" x="1" y="932" w="156" h="68" pX="0.5" pY="0.5"/>
+    <sprite n="s11_eyelids_4" x="693" y="915" w="155" h="66" pX="0.5" pY="0.5" oX="1" oY="2" oW="156" oH="68"/>
+    <sprite n="s11_flag" x="737" y="548" w="155" h="136" pX="0.5" pY="0.5" oX="0" oY="5" oW="156" oH="146"/>
+    <sprite n="s11_Glasses" x="192" y="901" w="143" h="105" pX="0.5" pY="0.5" oX="4" oY="3" oW="148" oH="108"/>
+    <sprite n="s11_hands" x="858" y="225" w="93" h="67" pX="0.5" pY="0.5" oX="16" oY="0" oW="96" oH="96" r="y"/>
+    <sprite n="s11_mouth" x="794" y="686" w="45" h="27" pX="0.5" pY="0.5" oX="6" oY="3" oW="60" oH="40"/>
+    <sprite n="s11_mouth_1" x="337" y="874" w="13" h="40" pX="0.5" pY="0.5" oX="11" oY="5" oW="60" oH="40" r="y"/>
+    <sprite n="s11_mouth_2" x="240" y="875" w="47" h="19" pX="0.5" pY="0.5" oX="6" oY="4" oW="60" oH="40"/>
+    <sprite n="s11_mouth_3" x="841" y="686" w="45" h="27" pX="0.5" pY="0.5" oX="6" oY="3" oW="60" oH="40"/>
+    <sprite n="s11_mouth_4" x="993" y="1" w="29" h="30" pX="0.5" pY="0.5" oX="15" oY="6" oW="60" oH="40"/>
+    <sprite n="s11_mouth_5" x="48" y="1002" w="16" h="16" pX="0.5" pY="0.5" oX="23" oY="11" oW="60" oH="40"/>
+    <sprite n="s11_mouth_6" x="325" y="835" w="18" h="37" pX="0.5" pY="0.5" oX="11" oY="8" oW="60" oH="40" r="y"/>
+    <sprite n="s11_rebuild_1" x="916" y="876" w="93" h="122" pX="0.5" pY="0.5" oX="4" oY="19" oW="132" oH="132" r="y"/>
+    <sprite n="s11_rebuild_2" x="159" y="932" w="31" h="74" pX="0.5" pY="0.5" oX="9" oY="20" oW="92" oH="72" r="y"/>
+    <sprite n="s11_rebuild_3" x="894" y="548" w="115" h="131" pX="0.5" pY="0.5" oX="0" oY="0" oW="132" oH="132" r="y"/>
+    <sprite n="s11_rebuild_4" x="240" y="741" w="83" h="132" pX="0.5" pY="0.5" oX="0" oY="27" oW="132" oH="132" r="y"/>
+    <sprite n="s11_rebuild_5" x="850" y="915" w="55" h="86" pX="0.5" pY="0.5" oX="3" oY="8" oW="92" oH="72" r="y"/>
+    <sprite n="s11_rebuild_6" x="739" y="255" w="89" h="65" pX="0.5" pY="0.5" oX="2" oY="3" oW="92" oH="72"/>
+    <sprite n="s11_ribbon_1" x="762" y="983" w="59" h="35" pX="0.5" pY="0.5" oX="2" oY="1" oW="64" oH="38"/>
+    <sprite n="s11_ribbon_2" x="802" y="107" w="44" h="40" pX="0.5" pY="0.5" oX="2" oY="2" oW="48" oH="44"/>
+    <sprite n="s11_ribbon_3" x="192" y="741" w="46" h="158" pX="0.5" pY="0.5" oX="0" oY="1" oW="46" oH="160"/>
+    <sprite n="s11_ribbon_4" x="984" y="718" w="35" h="131" pX="0.5" pY="0.5" oX="2" oY="1" oW="40" oH="134"/>
+    <sprite n="s11_shadow" x="858" y="107" w="62" h="116" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="s11_star" x="968" y="81" w="40" h="43" pX="0.5" pY="0.5" oX="4" oY="6" oW="52" oH="52" r="y"/>
+    <sprite n="s11_whisker_1" x="965" y="681" w="45" h="35" pX="0.5" pY="0.5" oX="7" oY="12" oW="60" oH="60"/>
+    <sprite n="s11_whisker_2" x="920" y="1" w="71" h="78" pX="0.5" pY="0.5" oX="17" oY="24" oW="112" oH="120" r="y"/>
+    <sprite n="s11_whisker_3" x="894" y="681" w="69" h="36" pX="0.5" pY="0.5" oX="7" oY="5" oW="54" oH="76" r="y"/>
+    <sprite n="s11_whisker_4" x="737" y="686" w="55" h="30" pX="0.5" pY="0.5" oX="9" oY="3" oW="64" oH="42"/>
+    <sprite n="s11_whisker_5" x="922" y="150" w="53" h="47" pX="0.5" pY="0.5" oX="4" oY="1" oW="56" oH="60" r="y"/>
+    <sprite n="s11_wrist_back" x="922" y="81" w="44" h="67" pX="0.5" pY="0.5" oX="6" oY="18" oW="80" oH="80" r="y"/>
+    <sprite n="s11_wrist_over" x="693" y="983" w="67" h="39" pX="0.5" pY="0.5" oX="6" oY="23" oW="80" oH="80"/>
+    <sprite n="sparkle" x="352" y="721" w="339" h="301" pX="0.5" pY="0.5" oX="42" oY="25" oW="400" oH="400" r="y"/>
+    <sprite n="sparkle_arm" x="802" y="1" w="116" h="104" pX="0.5" pY="0.5" oX="6" oY="0" oW="116" oH="118" r="y"/>
+    <sprite n="sparkle_body" x="737" y="362" w="164" h="184" pX="0.5" pY="0.5" oX="2" oY="1" oW="168" oH="186"/>
+    <sprite n="sparkle_top" x="739" y="149" w="117" h="104" pX="0.5" pY="0.5" oX="1" oY="1" oW="120" oH="106"/>
+</TextureAtlas>

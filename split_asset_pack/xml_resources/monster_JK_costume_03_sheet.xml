@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:db4bcffc162395b7511f27ea8c1237dd:f098f70ca48dea42302938ef80178369:537655af669ea0085b7d42ebc6bbcd86$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_JK_costume_03_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="JK_antenna" x="268" y="0" w="149" h="46" pX="0.5" pY="0.5" oX="0" oY="1" oW="48" oH="152" r="y"/>
+	<sprite n="JK_elec_01" x="268" y="48" w="69" h="33" pX="0.5" pY="0.5" oX="3" oY="5" oW="76" oH="44"/>
+	<sprite n="JK_elec_02" x="268" y="83" w="65" h="30" pX="0.5" pY="0.5" oX="5" oY="7" oW="76" oH="44"/>
+	<sprite n="JK_elec_03" x="339" y="74" w="66" h="37" pX="0.5" pY="0.5" oX="4" oY="3" oW="76" oH="44"/>
+	<sprite n="JK_elec_04" x="339" y="48" w="67" h="24" pX="0.5" pY="0.5" oX="5" oY="12" oW="76" oH="44"/>
+	<sprite n="JK_airship" x="0" y="0" w="266" h="260" pX="0.7993333333333333" pY="0.683" oX="17" oY="20" oW="300" oH="300"/>
+	<sprite n="JK_goggles" x="419" y="0" w="87" h="120" pX="0.4564285714285714" pY="0.5820000000000001" oX="10" oY="6" oW="140" oH="100" r="y"/>
+</TextureAtlas>

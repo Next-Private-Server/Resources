@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2cca41523f931e56aebaf5624caf94b1:cb97b78d0b8693ea30d71341747d5d02:604df2d240cea9bd97e353b6bc9e5ed9$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island09_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="Feather01_tip" x="746" y="1759" w="236" h="268"/>
+	<sprite n="Feather02" x="1678" y="642" w="266" h="290"/>
+	<sprite n="Feather03" x="991" y="1612" w="296" h="286"/>
+	<sprite n="Feather04_base" x="1493" y="1436" w="316" h="342"/>
+	<sprite n="island09_bone_joint" x="749" y="1223" w="240" h="534"/>
+	<sprite n="island09_bone_sleeve" x="1678" y="934" w="149" h="276" oX="0" oY="0" oW="150" oH="276"/>
+	<sprite n="island09_bone_spike" x="1490" y="1780" w="466" h="112" r="y"/>
+	<sprite n="island09_bone_wrap" x="1490" y="1894" w="332" h="144" r="y"/>
+	<sprite n="island09_bone_wrap_half" x="840" y="664" w="138" h="166" oX="3" oY="0" oW="144" oH="166"/>
+	<sprite n="island09_burns" x="0" y="1543" w="744" h="317" oX="3" oY="3" oW="320" oH="748" r="y"/>
+	<sprite n="island09_burns_LEFT" x="0" y="1223" w="747" h="318" oX="0" oY="0" oW="320" oH="748" r="y"/>
+	<sprite n="island09_ear" x="0" y="876" w="1012" h="345" oX="1" oY="4" oW="346" oH="1016" r="y"/>
+	<sprite n="island09_eye" x="840" y="0" w="770" h="662"/>
+	<sprite n="island09_eye_LEFT" x="1014" y="664" w="662" h="770" r="y"/>
+	<sprite n="island09_hair_A" x="0" y="1862" w="338" h="180" oX="0" oY="2" oW="180" oH="340" r="y"/>
+	<sprite n="island09_hair_B" x="1289" y="1612" w="199" h="370" oX="0" oY="0" oW="200" oH="370"/>
+	<sprite n="island09_hair_C" x="340" y="1862" w="332" h="175" oX="6" oY="1" oW="342" oH="176"/>
+	<sprite n="island09_hair_D" x="991" y="1436" w="500" h="174" oX="0" oY="6" oW="500" oH="180"/>
+	<sprite n="island09_plug_LEFT" x="1678" y="1212" w="208" h="178" r="y"/>
+	<sprite n="island09_plug_RIGHT" x="1829" y="934" w="178" h="208"/>
+	<sprite n="island09_stump" x="0" y="0" w="838" h="874"/>
+	<sprite n="w9_cloud" x="1612" y="0" w="300" h="640" r="y"/>
+	<sprite n="worm1" x="1824" y="1935" w="44" h="44" oX="0" oY="5" oW="56" oH="56"/>
+	<sprite n="worm2" x="1877" y="1894" w="47" h="42" oX="0" oY="7" oW="56" oH="56"/>
+	<sprite n="worm3" x="1824" y="1894" w="51" h="39" oX="0" oY="10" oW="56" oH="56"/>
+	<sprite n="worm4" x="980" y="664" w="32" h="53" oX="0" oY="17" oW="56" oH="56" r="y"/>
+	<sprite n="worm5" x="956" y="832" w="55" h="39" oX="0" oY="11" oW="56" oH="56"/>
+	<sprite n="worm6" x="840" y="832" w="56" h="28" oX="0" oY="21" oW="56" oH="56"/>
+	<sprite n="worm7" x="898" y="832" w="56" h="25" oX="0" oY="24" oW="56" oH="56"/>
+</TextureAtlas>

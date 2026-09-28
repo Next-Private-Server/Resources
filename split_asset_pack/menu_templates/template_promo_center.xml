@@ -1,0 +1,121 @@
+<template name="template_promo_center" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/PromoCenter.lua"/>
+
+		<size w="(56+4*2)*game.hudScale()" h="(56*3+4*4)*game.hudScale()" />
+		
+	<!-- Tray that opens up if there are more than 3 promos -->
+	<!-- This will look similar to the activity center -->
+    <element name="Tray" inline="true"
+        w="400" h="124"
+        relativeTo="PARENT" positionHAnchor="LEFT" positionVAnchor="TOP"
+        hAnchor="LEFT" vAnchor="TOP"
+        priorityOffset="-1">
+
+        <ninesliceComponent name="BG" inline="true"
+            relativeTo="PARENT" positionHAnchor="RIGHT" positionVAnchor="TOP"
+            hAnchor="RIGHT" vAnchor="TOP" 
+            spriteName="'gfx/menu/Black9SFrame50'"
+            topHeight="50" bottomHeight="50" leftWidth="50" rightWidth="50" includeBorder="1" size="0.25*game.menuScaleX()"
+            layer="PopUps"            
+            dependentOnElement="element:name()"/>
+<!--
+		<spriteComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("gfx/menu/wooden_plank")
+					component("visible"):SetInt(1)
+					local targetWidth = 120*game.menuScaleX()
+					local targetHeight = 26*game.menuScaleX()
+					component:setScale(Vector2(targetWidth/652, targetHeight/86))
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+		</spriteComponent>
+
+		<textComponent name="Label">
+			<size w="108*game.hudScale()" h="20*game.hudScale()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.menuScaleX()" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.3*game.hudScale())
+				component("text"):SetString("Special Deals!")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("PopUps")
+			</event>
+		</textComponent>
+-->
+		<touchComponent name="TrayTouchBlocker" >
+			<size dependentOnElement="element:name()"/>
+			<position relativeTo="PARENT"/>
+			<orientation priorityOffset="-1" />
+		</touchComponent>
+    </element>
+
+	<template type="template_spritesheetbutton" name="ToggleButton">
+		<templateVar name="$layer" equals="PopUps" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<touchComponent name="Touch"/>
+		<textComponent name="ButtonLabel">
+			<size w="60*game.contextBarScale()" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.25*game.hudScale())
+				component:GetVar("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("DEALS_BUTTON")
+				component("layer"):SetString("PopUps")
+			</event>
+		</textComponent>
+		<spriteSheetComponent name="Arrow">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="3*game.hudScale()" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component.closeAngle = 56
+					component.openAngle = -123
+					component("spriteName"):SetString("arrow01")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("size"):SetFloat(0.2*game.hudScale())
+					component("layer"):SetString("PopUps")
+					component("rotation"):SetFloat(component.closeAngle*math.pi/180)
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("spriteName"):Set("button_packs")
+					component("size"):SetFloat(element["UpSprite"]("size"):GetFloat() * 1.0)
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+			<event name="onTick" params="component, element, dt">
+				<![CDATA[
+				component("size"):SetFloat(element["UpSprite"]("size"):GetFloat() * 1.0)
+				]]>
+			</event>
+		</spriteSheetComponent>
+	</template>
+
+    <touchComponent name="TouchBlocker">
+        <size w="screenWidth()" h="screenHeight()" />
+        <position relativeTo="SCREEN" hAnchor="HCENTER" vAnchor="VCENTER"/>
+        <orientation priorityOffset="23" />
+    </touchComponent>
+
+</template>

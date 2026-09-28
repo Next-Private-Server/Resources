@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b5a20fc2db85f3df305b32a3f38e393d:51a7c12fba9b90072f34aeb5dbb4d383:77d6199cbcd0aace0f3bbc176a1db1f6$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island15_mindboggle_sheet03.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="SideEyeMandableEyelidBottom01" x="2" y="395" w="640" h="427" oX="319" oY="748" oW="1052" oH="1272">
+		<vertices>449 898 546 945 637 959 959 903 922 1001 852 1086 742 1150 567 1175 399 1059 319 852 335 748</vertices>
+		<verticesUV>132 545 229 592 320 606 642 550 605 648 535 733 425 797 250 822 82 706 2 499 18 395</verticesUV>
+		<triangles>0 8 9 8 0 1 2 3 4 2 4 5 2 5 6 2 6 7 1 2 7 8 1 7 0 9 10</triangles>
+	</sprite>
+	<sprite n="SideEyeMandableEyelidBottom02b" x="46" y="623" w="651" h="311" oX="336" oY="854" oW="1052" oH="1272">
+		<vertices>987 860 885 1069 736 1153 592 1165 473 1118 395 1040 336 915 538 1055 643 1078 796 1038 885 955 936 854</vertices>
+		<verticesUV>697 629 595 838 446 922 302 934 183 887 105 809 46 684 248 824 353 847 506 807 595 724 646 623</verticesUV>
+		<triangles>5 6 7 3 7 8 4 5 7 3 4 7 2 8 9 2 3 8 1 9 10 1 2 9 0 10 11 0 1 10</triangles>
+	</sprite>
+	<sprite n="SideEyeMandableEyelidTop01" x="2" y="2" w="642" h="556" oX="341" oY="485" oW="1052" oH="1272">
+		<vertices>873 576 935 664 983 812 919 1041 504 904 397 819 341 729 362 644 515 485 734 485</vertices>
+		<verticesUV>534 93 596 181 644 329 580 558 165 421 58 336 2 246 23 161 176 2 395 2</verticesUV>
+		<triangles>4 8 9 5 7 8 5 6 7 4 5 8 2 3 4 1 2 4 0 1 4 0 4 9</triangles>
+	</sprite>
+</TextureAtlas>

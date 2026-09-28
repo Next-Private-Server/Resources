@@ -1,0 +1,18 @@
+<template name="template_hype_game_wheel_number" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<size dependentOnElement="Number" />
+
+	<element name="Number">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />		
+		<textComponent name="Text">
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(1)
+				component("text"):SetString("500")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+</template>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d9384e58bd0dd3d8646d4b1864952b5e:c513e3859d30230485f17c1ef133ff92:38e2f5d71bb053c5ab41e33ec0b83a4f$ -->
+<TextureAtlas imagePath="gfx/menu/minigames/mini_game_reward_sheet.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="back_glow" x="321" y="326" w="156" h="122" oX="0" oY="0" oW="157" oH="122"/>
+	<sprite n="bamboo_left" x="321" y="262" w="158" h="62"/>
+	<sprite n="bamboo_middle" x="0" y="0" w="328" h="58" oX="0" oY="2" oW="328" oH="62"/>
+	<sprite n="bamboo_right" x="58" y="256" w="155" h="62" oX="1" oY="0" oW="158" oH="62"/>
+	<sprite n="banner_middle_01" x="0" y="329" w="151" h="694"/>
+	<sprite n="banner_middle_roll_01" x="0" y="60" w="309" h="39"/>
+	<sprite n="banner_side_01" x="153" y="329" w="121" h="694"/>
+	<sprite n="banner_side_roll_01" x="310" y="450" w="136" h="39"/>
+	<sprite n="monster_finger_04" x="448" y="450" w="53" h="40" oX="44" oY="0" oW="84" oH="60" r="y"/>
+	<sprite n="monster_finger_05" x="465" y="534" w="37" h="34" oX="45" oY="19" oW="84" oH="60"/>
+	<sprite n="monster_hair" x="330" y="0" w="169" h="112" r="y"/>
+	<sprite n="monster_head" x="0" y="101" w="213" h="153"/>
+	<sprite n="monster_lids_01" x="215" y="101" w="104" h="74"/>
+	<sprite n="monster_lids_02" x="215" y="177" w="104" h="74"/>
+	<sprite n="monster_lids_03" x="215" y="253" w="104" h="74"/>
+	<sprite n="monster_lids_04" x="310" y="491" w="104" h="74"/>
+	<sprite n="monster_palm" x="0" y="256" w="56" h="65" r="y"/>
+	<sprite n="monster_pupil" x="481" y="262" w="26" h="26"/>
+	<sprite n="monster_thumb_04" x="416" y="492" w="47" h="41" oX="3" oY="16" oW="52" oH="57"/>
+	<sprite n="monster_thumb_05" x="465" y="492" w="40" h="40" oX="3" oY="17" oW="52" oH="57"/>
+	<sprite n="seam" x="276" y="329" w="32" h="671"/>
+	<sprite n="shadow" x="321" y="114" w="183" h="146" r="y"/>
+	<sprite n="white_glow" x="310" y="567" w="100" h="100"/>
+</TextureAtlas>

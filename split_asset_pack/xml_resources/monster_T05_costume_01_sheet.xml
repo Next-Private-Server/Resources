@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2348dfff4624d1fb872ba6336b174763:039ab7721e0dd8642df004793f2e9423:200b1fd031c136a3930e5d074a471594$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_T05_costume_01_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="T05_beard" x="35" y="144" w="26" h="34" pX="0.5" pY="0.5" oX="3" oY="3" oW="30" oH="38"/>
+	<sprite n="T05_chest_fur" x="105" y="68" w="92" h="87" pX="0.5" pY="0.755319" oX="0" oY="2" oW="88" oH="94" r="y"/>
+	<sprite n="T05_hair" x="0" y="182" w="78" h="66" pX="0.576923" pY="1.43939"/>
+	<sprite n="T05_hair_left" x="0" y="98" w="33" h="79" pX="0.5" pY="0.5" oX="0" oY="0" oW="34" oH="80"/>
+	<sprite n="T05_hair_right" x="80" y="157" w="34" h="84" pX="0.5" pY="0.5" oX="0" oY="5" oW="34" oH="90"/>
+	<sprite n="T05_hand_left" x="199" y="144" w="52" h="36" pX="0.7166666666666667" pY="0.5211538461538462" r="y"/>
+	<sprite n="T05_hand_right" x="116" y="182" w="41" h="49" pX="0.1282608695652174" pY="0.488" oX="5" oY="1" oW="46" oH="50"/>
+	<sprite n="T05_head" x="0" y="0" w="103" h="96" pX="0.5" pY="0.5" oX="0" oY="30" oW="104" oH="126"/>
+	<sprite n="T05_lower_arm_left" x="205" y="0" w="49" h="72" pX="0.7111111111111111" pY="0.38" oX="0" oY="0" oW="72" oH="50" r="y"/>
+	<sprite n="T05_lower_arm_right" x="199" y="74" w="54" h="68" pX="0.3588235294117647" pY="0.5" oX="0" oY="0" oW="68" oH="56" r="y"/>
+	<sprite n="T05_tail_02" x="35" y="98" w="58" h="44" pX="0.224138" pY="0.295455"/>
+	<sprite n="T05_upper_arm_left" x="105" y="36" w="96" h="30" pX="0.5" pY="0.5" oX="0" oY="1" oW="96" oH="34"/>
+	<sprite n="T05_upper_arm_right" x="105" y="0" w="98" h="34" pX="0.5" pY="0.5"/>
+</TextureAtlas>

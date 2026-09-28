@@ -1,0 +1,257 @@
+<template name="template_minigame_top_prizes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/MinigameTopPrizes.lua" />
+
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$scale" equals="game.hudScale()" />
+	<defaultTemplateVar name="$minigameId" equals="1" />
+	<defaultTemplateVar name="$prize1Anim" equals="'clubbox_waveform_eggs'" />
+	<defaultTemplateVar name="$prize1Text" equals="PRIZE_1" />
+	<defaultTemplateVar name="$prize2Anim" equals="'diamond pile'" />
+	<defaultTemplateVar name="$prize2Text" equals="PRIZE_2" />
+	<defaultTemplateVar name="$prize3Anim" equals="'clubbox epic pomily'" />
+	<defaultTemplateVar name="$prize3Text" equals="PRIZE_3" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Flag" />
+
+	<ninesliceComponent name="Flag">
+		<size w="100*element:templateVars().scale" h="230*element:templateVars().scale" />
+		<event name="onInit" params="component, element">
+			component("topHeight"):SetFloat(102.0)
+			component("bottomHeight"):SetFloat(146.0)
+			component("leftWidth"):SetFloat(88.0)
+			component("rightWidth"):SetFloat(88.0)
+			component("size"):SetFloat(0.3*$scale)
+			component("spriteName"):SetString("gfx/menu/prize_banner_red")
+			component("layer"):SetString("$layer")
+		</event>
+	</ninesliceComponent>
+
+	<element name="Top">
+		<size dependentOnElement="element:name()" dependentOnComponent="WoodPlank" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-38*element:parent():templateVars().scale" priorityOffset="-1" />
+
+		<spriteComponent name="WoodPlank">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/wooden_plank")
+				component:setScale(Vector2(120/652*$scale, 30/86*$scale))
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+
+		<ninesliceComponent name="TimerBacking">
+			<size w="70*element:parent():templateVars().scale" h="16*element:parent():templateVars().scale" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-3*element:parent():templateVars().scale" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("includeBorder"):SetInt(1)
+				component("topHeight"):SetFloat(12.0)
+				component("bottomHeight"):SetFloat(12.0)
+				component("leftWidth"):SetFloat(12.0)
+				component("rightWidth"):SetFloat(12.0)
+				component("size"):SetFloat(0.25*$scale)
+				component("spriteName"):SetString("gfx/menu/wooden_timer_slot_9S")
+				component("layer"):SetString("$layer")
+			</event>
+		</ninesliceComponent>
+
+		<textComponent name="Text">
+			<size w="50*game.windowScaleY()" h="30*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-3*element:parent():templateVars().scale" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(4*game.windowScaleY())
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.25*$scale)
+				component("text"):SetString("99d 99h 99s")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+			<event name="onTick" params="element, dt">
+				element("text"):SetString(game.timeToString(game.minigameTimeRemaining($minigameId), true))
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="TopPrizeText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*element:templateVars().scale" yOffset="-16*element:templateVars().scale" priorityOffset="-1" />
+			
+		<textComponent name="Text">
+			<size w="80*element:templateVars().scale" h="30*element:templateVars().scale" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(4*$scale)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.4*$scale)
+				component("text"):SetString("POPUP_MINIGAME_TOP_PRIZES_TITLE")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+
+		<spriteSheetComponent name="InfoSprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="4*element:templateVars().scale" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_info_small")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.25*$scale)
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="Prize1">
+		<size dependentOnElement="element:name()" dependentOnComponent="Anim" />
+		<position relativeTo="Prize2" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-36*element:parent():templateVars().scale" priorityOffset="0" />
+		<aeComponent name="Anim">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("offsetCenter"):SetInt(1)
+				component("animationName"):SetString("xml_bin/battle_buttons_anim.bin")
+				component("animation"):SetString("$prize1Anim")
+				local scale = 0.45*$scale
+				component:setScale(Vector2(scale, scale))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+		<textComponent name="Text">
+			<size w="90*element:templateVars().scale" h="20*element:templateVars().scale" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="16*element:parent():templateVars().scale" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(4*$scale)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.2*$scale)
+				component("text"):SetString("$prize1Text")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Prize2">
+		<size dependentOnElement="element:name()" dependentOnComponent="Anim" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-4*element:parent():templateVars().scale" priorityOffset="-2" />
+		<aeComponent name="Anim">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("offsetCenter"):SetInt(1)
+				component("animationName"):SetString("xml_bin/battle_buttons_anim.bin")
+				component("animation"):SetString("$prize2Anim")
+				local scale = 0.45*$scale
+				component:setScale(Vector2(scale, scale))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+		<textComponent name="Text">
+			<size w="90*element:templateVars().scale" h="20*element:templateVars().scale" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="16*element:parent():templateVars().scale" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(4*$scale)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.2*$scale)
+				component("text"):SetString("$prize2Text")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Prize3">
+		<size dependentOnElement="element:name()" dependentOnComponent="Anim" />
+		<position relativeTo="Prize2" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-36*element:parent():templateVars().scale" priorityOffset="0" />
+		<aeComponent name="Anim">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("offsetCenter"):SetInt(1)
+				component("animationName"):SetString("xml_bin/battle_buttons_anim.bin")
+				component("animation"):SetString("$prize3Anim")
+				local scale = 0.45*$scale
+				component:setScale(Vector2(scale, scale))
+				component("layer"):SetString("$layer")
+			</event>
+		</aeComponent>
+		<textComponent name="Text">
+			<size w="90*element:templateVars().scale" h="20*element:templateVars().scale" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="16*element:parent():templateVars().scale" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("textPadding"):SetInt(4*$scale)
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.2*$scale)
+				component("text"):SetString("$prize3Text")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<touchComponent name="Touch">
+		<size w="116*element:templateVars().scale" h="322*element:templateVars().scale" />
+		<position relativeTo="element:name()" component="Flag" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-7*element:templateVars().scale" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+			if (game.popUpLevel() <= 1) then
+				element:setColorPercent(0.5)
+				element.buttonState = game.BUTTON_PRESSED
+				element.tickTimer = 0
+			end
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+			if (game.popUpLevel() <= 1) then
+
+				playSoundFx("audio/sfx/menu_click_small.wav")
+
+				if not game.minigameContext():getCurrentPlayerMinigame():isLevelComplete() or
+					game.getTopPopUpName() == "minigame_new_level_overlay" then
+					game.pushPopUp("popup_minigame_top_prizes_info")
+				end
+
+				element:setColorPercent(1)
+				element.buttonState = game.BUTTON_RELEASED
+				element.tickTimer = 0
+			end
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				element:setColorPercent(1)
+				element.buttonState = game.BUTTON_RELEASED
+				element.tickTimer = 0
+			]]>
+		</event>
+	</touchComponent>
+
+</template>

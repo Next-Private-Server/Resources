@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e0048408d8d2b23e606d6f3e83891dd0:33cdf28060895a87fa0492d71329aa7b:746f2cb458753e6fe11beb9853970bcb$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_V_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="V_back_foot" x="396" y="177" w="27" h="38" oX="0" oY="0" oW="28" oH="44"/>
+	<sprite n="V_back_leg_torso" x="103" y="487" w="90" h="24" r="y"/>
+	<sprite n="V_back_lower_leg" x="290" y="62" w="108" h="28" r="y"/>
+	<sprite n="V_back_upper_leg" x="425" y="186" w="80" h="16" r="y"/>
+	<sprite n="V_bowtie" x="220" y="223" w="40" h="50" r="y"/>
+	<sprite n="V_eye_back_left" x="253" y="185" w="35" h="36" oX="3" oY="0" oW="42" oH="36" r="y"/>
+	<sprite n="V_eye_back_right" x="253" y="146" w="35" h="37" oX="2" oY="0" oW="42" oH="36" r="y"/>
+	<sprite n="V_head_left" x="125" y="146" w="62" h="74" oX="1" oY="0" oW="64" oH="74"/>
+	<sprite n="V_head_right" x="189" y="146" w="62" h="74" oX="2" oY="0" oW="64" oH="74"/>
+	<sprite n="V_jacket_back" x="0" y="0" w="123" h="341" oX="13" oY="4" oW="144" oH="370"/>
+	<sprite n="V_jacket_front" x="84" y="343" w="204" h="142" oX="2" oY="80" oW="144" oH="370" r="y"/>
+	<sprite n="V_left_arm_nub" x="84" y="487" w="17" h="25" oX="0" oY="0" oW="18" oH="26"/>
+	<sprite n="V_left_foot" x="180" y="222" w="38" h="53" oX="0" oY="0" oW="38" oH="60"/>
+	<sprite n="V_left_lower_arm" x="427" y="142" w="80" h="42"/>
+	<sprite n="V_left_lower_leg" x="290" y="0" w="138" h="32" oX="0" oY="1" oW="32" oH="139" r="y"/>
+	<sprite n="V_left_upper_arm" x="125" y="0" w="92" h="38"/>
+	<sprite n="V_left_upper_leg" x="215" y="487" w="73" h="18" r="y"/>
+	<sprite n="V_mouth_01" x="430" y="0" w="80" h="69" oX="3" oY="10" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_02" x="290" y="92" w="104" h="63" oX="10" oY="0" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_03" x="425" y="204" w="76" h="71" oX="1" oY="12" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_04" x="220" y="0" w="68" h="71" oX="0" oY="17" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_05" x="247" y="277" w="71" h="59" oX="0" oY="22" oW="73" oH="104"/>
+	<sprite n="V_mouth_06" x="125" y="40" w="88" h="73" oX="0" oY="8" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_flip_01" x="430" y="71" w="80" h="69" oX="1" oY="11" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_flip_02" x="290" y="157" w="104" h="63" oX="0" oY="0" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_flip_03" x="410" y="277" w="76" h="71" oX="1" oY="12" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_flip_04" x="220" y="73" w="68" h="71" oX="2" oY="17" oW="73" oH="104" r="y"/>
+	<sprite n="V_mouth_flip_05" x="290" y="341" w="71" h="59" oX="2" oY="22" oW="73" oH="104"/>
+	<sprite n="V_mouth_flip_06" x="320" y="266" w="88" h="73" oX="0" oY="7" oW="73" oH="104" r="y"/>
+	<sprite n="V_pupil_01" x="414" y="34" w="13" h="12" oX="1" oY="0" oW="14" oH="12"/>
+	<sprite n="V_pupil_02" x="0" y="501" w="14" h="10" oX="0" oY="2" oW="14" oH="12"/>
+	<sprite n="V_pupil_03" x="16" y="501" w="14" h="8" oX="0" oY="3" oW="14" oH="12"/>
+	<sprite n="V_pupil_04" x="32" y="501" w="14" h="7" oX="0" oY="4" oW="14" oH="12"/>
+	<sprite n="V_right_arm_nub" x="195" y="487" w="18" h="20" oX="0" oY="0" oW="20" oH="20"/>
+	<sprite n="V_right_foot" x="396" y="120" w="29" h="55" oX="0" oY="0" oW="32" oH="56"/>
+	<sprite n="V_right_lower_arm" x="400" y="62" w="28" h="56" r="y"/>
+	<sprite n="V_right_lower_leg" x="290" y="34" w="122" h="26" r="y"/>
+	<sprite n="V_right_upper_arm" x="320" y="222" w="94" h="42"/>
+	<sprite n="V_right_upper_leg" x="125" y="115" w="76" h="16" r="y"/>
+	<sprite n="V_shadow" x="0" y="343" w="82" h="156" r="y"/>
+	<sprite n="V_spine_01.5" x="186" y="277" w="59" h="61" oX="0" oY="0" oW="60" oH="64"/>
+	<sprite n="V_spine_01" x="125" y="277" w="59" h="64" oX="0" oY="0" oW="60" oH="64"/>
+	<sprite n="V_spine_02" x="363" y="341" w="42" h="68" r="y"/>
+	<sprite n="V_spine_03" x="125" y="222" w="53" h="53"/>
+	<sprite n="V_spine_04" x="262" y="223" w="44" h="48" r="y"/>
+</TextureAtlas>

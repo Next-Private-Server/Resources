@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:652ad7e962c69cbd78cf271f3b9b2940:86c5efa9585673cbc5bc0a631400257a:578cc4d544bda824d56480e7d7432bff$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_L_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="L_drum_glow" x="476" y="173" w="35" h="67" pX="0.5" pY="0.5" oX="2" oY="1" oW="72" oH="36" r="y"/>
+	<sprite n="L_eyeballs" x="0" y="267" w="68" h="32" pX="0.5" pY="0.5"/>
+	<sprite n="L_eyelids_01" x="140" y="267" w="67" h="31" pX="0.5" pY="0.5" oX="2" oY="0" oW="72" oH="32"/>
+	<sprite n="L_eyelids_02" x="209" y="267" w="67" h="31" pX="0.5" pY="0.5" oX="2" oY="0" oW="72" oH="32"/>
+	<sprite n="L_eyelids_03" x="70" y="267" w="68" h="31" pX="0.5" pY="0.5" oX="1" oY="0" oW="72" oH="32"/>
+	<sprite n="L_hand_01" x="215" y="300" w="56" h="46" pX="0.5" pY="0.5" oX="5" oY="1" oW="52" oH="60" r="y"/>
+	<sprite n="L_hand_02" x="215" y="348" w="52" h="51" pX="0.5" pY="0.5" oX="1" oY="1" oW="52" oH="60" r="y"/>
+	<sprite n="L_hand_03" x="470" y="242" w="42" h="58" pX="0.5" pY="0.5" oX="6" oY="1" oW="52" oH="60"/>
+	<sprite n="L_hand_04" x="273" y="321" w="56" h="42" pX="0.5" pY="0.5" oX="6" oY="1" oW="52" oH="60" r="y"/>
+	<sprite n="L_head" x="0" y="302" w="213" h="189" pX="0.5" pY="0.858824" oX="15" oY="0" oW="204" oH="213" r="y"/>
+	<sprite n="L_left_lowerarm" x="278" y="259" w="83" h="60" pX="0.5" pY="0.5" oX="0" oY="0" oW="60" oH="84" r="y"/>
+	<sprite n="L_left_upperarm" x="363" y="267" w="54" h="31" pX="0.5" pY="0.5" oX="0" oY="1" oW="32" oH="56" r="y"/>
+	<sprite n="L_lowerbody" x="380" y="0" w="126" h="109" pX="0.5" pY="0.5" oX="0" oY="0" oW="112" oH="128" r="y"/>
+	<sprite n="L_mouth_01" x="70" y="493" w="48" h="13" pX="0.5" pY="0.5" oX="0" oY="1" oW="52" oH="20"/>
+	<sprite n="L_mouth_02" x="120" y="493" w="45" h="12" pX="0.5" pY="0.5" oX="4" oY="3" oW="52" oH="20"/>
+	<sprite n="L_mouth_03" x="0" y="493" w="52" h="19" pX="0.5" pY="0.5" oX="0" oY="1" oW="52" oH="20"/>
+	<sprite n="L_prisms" x="0" y="0" w="378" h="257" pX="0.505291" pY="0.477821"/>
+	<sprite n="L_pupil" x="54" y="493" w="14" h="14" pX="0.5" pY="0.5" oX="0" oY="0" oW="16" oH="16"/>
+	<sprite n="L_right_lowerarm" x="380" y="206" w="88" h="59" pX="0.5" pY="0.5" oX="1" oY="4" oW="60" oH="92" r="y"/>
+	<sprite n="L_right_upperarm" x="476" y="111" w="36" h="60" pX="0.5" pY="0.5"/>
+	<sprite n="L_sound_ring" x="363" y="302" w="136" h="71" pX="0.5" pY="0.5" oX="2" oY="0" oW="140" oH="72"/>
+	<sprite n="L_upperbody" x="380" y="111" w="94" h="93" pX="0.5" pY="0.5" oX="0" oY="1" oW="96" oH="96"/>
+</TextureAtlas>

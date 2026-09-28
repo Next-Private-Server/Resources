@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:043fa3fbcf7e2dfdfb1220eb1dc9428d:01dd677f372137a9c0b56b3dafa834dd:a5b9e07fe4458d16f2a72f0a8b0ffd93$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I09_sheet.png" width="1024" height="512" hires="true" version="1">
+	<sprite n="ear_l" x="0" y="147" w="31" h="83">
+		<vertices>31 47 31 83 15 83 7 73 0 46 0 1 1 0 9 0</vertices>
+		<verticesUV>31 194 31 230 15 230 7 220 0 193 0 148 1 147 9 147</verticesUV>
+		<triangles>5 6 7 4 5 7 3 1 2 0 1 3 0 3 4 0 4 7</triangles>
+	</sprite>
+	<sprite n="ear_r" x="114" y="402" w="62" h="77">
+		<vertices>62 37 22 77 0 77 0 39 56 0 62 0</vertices>
+		<verticesUV>176 439 136 479 114 479 114 441 170 402 176 402</verticesUV>
+		<triangles>0 4 5 3 1 2 3 0 1 3 4 0</triangles>
+	</sprite>
+	<sprite n="earstretch_l" x="793" y="402" w="108" h="25" oX="1" oY="3" oW="109" oH="31">
+		<vertices>109 28 1 28 1 3 109 3</vertices>
+		<verticesUV>901 427 793 427 793 402 901 402</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="earstretch_r" x="802" y="429" w="107" h="25" oX="1" oY="3" oW="109" oH="31">
+		<vertices>108 28 1 28 1 3 108 3</vertices>
+		<verticesUV>909 454 802 454 802 429 909 429</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="finger_l" x="729" y="220" w="95" h="184" oX="12" oY="20" oW="123" oH="224">
+		<vertices>75 21 100 58 107 97 101 171 90 192 65 204 41 201 18 178 12 51 32 20</vertices>
+		<verticesUV>792 221 817 258 824 297 818 371 807 392 782 404 758 401 735 378 729 251 749 220</verticesUV>
+		<triangles>7 5 6 3 4 5 3 5 7 2 3 7 2 7 8 1 2 8 0 1 8 0 8 9</triangles>
+	</sprite>
+	<sprite n="finger_r" x="877" y="0" w="96" h="187" oX="12" oY="17" oW="123" oH="224">
+		<vertices>74 26 93 44 108 83 102 171 87 197 58 204 31 196 18 173 12 58 25 25 48 17</vertices>
+		<verticesUV>939 9 958 27 973 66 967 154 952 180 923 187 896 179 883 156 877 41 890 8 913 0</verticesUV>
+		<triangles>8 9 10 1 2 8 3 4 5 5 6 7 3 5 7 2 3 7 2 7 8 0 1 8 0 8 10</triangles>
+	</sprite>
+	<sprite n="hair_01" x="929" y="182" w="61" h="61" oX="10" oY="0" oW="71" oH="61">
+		<vertices>71 21 71 61 48 61 10 6 37 0 50 0</vertices>
+		<verticesUV>990 203 990 243 967 243 929 188 956 182 969 182</verticesUV>
+		<triangles>0 4 5 2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="hair_01_tail" x="828" y="456" w="27" h="25">
+		<vertices>27 25 0 25 0 3 3 0 27 0</vertices>
+		<verticesUV>855 481 828 481 828 459 831 456 855 456</verticesUV>
+		<triangles>0 3 4 2 0 1 2 3 0</triangles>
+	</sprite>
+	<sprite n="hair_02" x="913" y="254" w="89" h="80" oX="0" oY="7" oW="105" oH="87">
+		<vertices>89 8 77 42 23 87 0 87 0 63 16 31 42 7</vertices>
+		<verticesUV>1002 255 990 289 936 334 913 334 913 310 929 278 955 254</verticesUV>
+		<triangles>1 5 6 4 2 3 4 5 2 1 2 5 0 1 6</triangles>
+	</sprite>
+	<sprite n="hair_02_tail" x="565" y="329" w="34" h="29">
+		<vertices>34 29 0 29 0 0 34 0</vertices>
+		<verticesUV>599 358 565 358 565 329 599 329</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="hair_03" x="502" y="415" w="62" h="44" oX="0" oY="0" oW="65" oH="44">
+		<vertices>54 24 13 44 0 44 0 19 30 3 39 0 62 0</vertices>
+		<verticesUV>556 439 515 459 502 459 502 434 532 418 541 415 564 415</verticesUV>
+		<triangles>0 5 6 0 4 5 3 1 2 3 4 1 0 1 4</triangles>
+	</sprite>
+	<sprite n="hair_03_tail" x="560" y="207" w="16" h="12">
+		<vertices>16 12 0 12 0 0 16 0</vertices>
+		<verticesUV>576 219 560 219 560 207 576 207</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="hair_04" x="578" y="201" w="49" h="27" oX="0" oY="0" oW="64" oH="33">
+		<vertices>49 27 0 27 0 0 49 0</vertices>
+		<verticesUV>627 228 578 228 578 201 627 201</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="hair_04_tail" x="33" y="198" w="22" h="21">
+		<vertices>22 21 0 21 0 0 22 0</vertices>
+		<verticesUV>55 219 33 219 33 198 55 198</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="I09_shadow" x="822" y="336" w="122" h="64" oX="2" oY="0" oW="124" oH="64">
+		<vertices>112 3 124 22 124 45 97 64 24 64 2 42 2 19 23 0 81 0</vertices>
+		<verticesUV>932 339 944 358 944 381 917 400 844 400 822 378 822 355 843 336 901 336</verticesUV>
+		<triangles>4 7 8 5 6 7 4 5 7 3 4 8 1 2 3 1 3 8 0 1 8</triangles>
+	</sprite>
+	<sprite n="MAJ_arm" x="211" y="0" w="210" h="211" oX="21" oY="22" oW="252" oH="251">
+		<vertices>157 26 193 44 218 76 231 112 227 164 199 200 170 221 126 233 95 226 62 207 33 178 21 128 30 77 62 43 92 28 125 22</vertices>
+		<verticesUV>347 4 383 22 408 54 421 90 417 142 389 178 360 199 316 211 285 204 252 185 223 156 211 106 220 55 252 21 282 6 315 0</verticesUV>
+		<triangles>5 14 15 11 13 14 11 12 13 9 11 14 9 10 11 5 9 14 6 7 8 9 5 6 9 6 8 3 4 5 2 3 5 2 5 15 0 1 2 0 2 15</triangles>
+	</sprite>
+	<sprite n="MAJ_eyetear_l" x="395" y="150" w="29" h="106" oX="12" oY="13" oW="58" oH="121">
+		<vertices>41 14 41 113 25 119 14 108 12 76 32 13</vertices>
+		<verticesUV>424 151 424 250 408 256 397 245 395 213 415 150</verticesUV>
+		<triangles>0 1 4 3 4 1 3 1 2 0 4 5</triangles>
+	</sprite>
+	<sprite n="MAJ_eyetear_r" x="976" y="0" w="26" h="98">
+		<vertices>26 60 26 98 0 98 0 44 8 0 16 0</vertices>
+		<verticesUV>1002 60 1002 98 976 98 976 44 984 0 992 0</verticesUV>
+		<triangles>3 4 5 2 0 1 2 3 0 0 3 5</triangles>
+	</sprite>
+	<sprite n="MAJ_face" x="0" y="410" w="114" h="96">
+		<vertices>87 18 114 17 104 83 77 96 28 96 0 68 0 0 50 0 33 65 67 69 70 52 26 45</vertices>
+		<verticesUV>87 428 114 427 104 493 77 506 28 506 0 478 0 410 50 410 33 475 67 479 70 462 26 455</verticesUV>
+		<triangles>11 6 7 4 8 9 4 9 3 10 1 2 10 0 1 3 9 2 8 4 5 11 8 5 11 5 6 10 11 7 10 2 9 7 0 10</triangles>
+	</sprite>
+	<sprite n="MAJ_face_connector" x="628" y="367" w="120" h="56">
+		<vertices>120 27 120 56 99 56 46 55 6 34 0 21 0 0 67 0</vertices>
+		<verticesUV>748 394 748 423 727 423 674 422 634 401 628 388 628 367 695 367</verticesUV>
+		<triangles>5 6 7 4 5 7 3 4 7 2 3 7 0 1 2 0 2 7</triangles>
+	</sprite>
+	<sprite n="MAJ_faceback" x="742" y="11" w="37" h="91" oX="109" oY="86" oW="150" oH="203">
+		<vertices>140 109 132 175 118 177 109 142 114 107 132 101 138 87 146 86</vertices>
+		<verticesUV>773 34 765 100 751 102 742 67 747 32 765 26 771 12 779 11</verticesUV>
+		<triangles>5 6 7 0 4 5 0 5 7 3 1 2 3 0 1 0 3 4</triangles>
+	</sprite>
+	<sprite n="MAJ_forehead" x="629" y="0" w="127" h="218" oX="0" oY="32" oW="130" oH="250">
+		<vertices>113 113 127 156 127 250 0 250 0 199 7 148 25 46 43 33 98 32</vertices>
+		<verticesUV>742 81 756 124 756 218 629 218 629 167 636 116 654 14 672 1 727 0</verticesUV>
+		<triangles>0 7 8 0 6 7 0 5 6 5 0 1 2 3 4 4 1 2 5 1 4</triangles>
+	</sprite>
+	<sprite n="MAJ_forehead_FRONT" x="758" y="0" w="120" h="217" oX="0" oY="33" oW="130" oH="250">
+		<vertices>120 138 110 244 109 250 0 250 0 199 7 148 25 46 43 33 96 33</vertices>
+		<verticesUV>878 105 868 211 867 217 758 217 758 166 765 115 783 13 801 0 854 0</verticesUV>
+		<triangles>6 7 8 0 6 8 0 5 6 3 1 2 3 4 1 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="MAJ_hair_base" x="868" y="191" w="79" h="51" oX="8" oY="0" oW="93" oH="52">
+		<vertices>75 11 87 31 87 49 82 51 58 38 8 33 17 3 29 0 56 0</vertices>
+		<verticesUV>935 202 947 222 947 240 942 242 918 229 868 224 877 194 889 191 916 191</verticesUV>
+		<triangles>4 7 8 5 7 4 5 6 7 1 2 3 4 0 1 1 3 4 0 4 8</triangles>
+	</sprite>
+	<sprite n="MAJ_hair_base_frill_A" x="180" y="371" w="68" h="48" oX="25" oY="0" oW="93" oH="48">
+		<vertices>93 34 93 48 82 48 25 23 59 0</vertices>
+		<verticesUV>248 405 248 419 237 419 180 394 214 371</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="MAJ_hair_base_frill_B" x="192" y="0" w="56" h="33" oX="0" oY="0" oW="93" oH="48">
+		<vertices>56 12 49 29 0 33 0 0 28 0</vertices>
+		<verticesUV>248 12 241 29 192 33 192 0 220 0</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="MAJ_head" x="824" y="219" w="99" h="114" oX="23" oY="35" oW="148" oH="168">
+		<vertices>66 46 111 47 122 100 102 136 82 149 50 148 26 124 23 90 29 57 50 35</vertices>
+		<verticesUV>867 230 912 231 923 284 903 320 883 333 851 332 827 308 824 274 830 241 851 219</verticesUV>
+		<triangles>0 8 9 6 4 5 3 4 6 3 6 7 2 3 7 0 2 7 0 1 2 0 7 8</triangles>
+	</sprite>
+	<sprite n="MAJ_joint" x="615" y="0" w="33" h="33">
+		<vertices>33 33 0 33 0 4 5 1 8 0 33 0</vertices>
+		<verticesUV>648 33 615 33 615 4 620 1 623 0 648 0</verticesUV>
+		<triangles>0 4 5 1 4 0 1 2 3 1 3 4</triangles>
+	</sprite>
+	<sprite n="MAJ_lowerleg" x="397" y="319" w="90" h="139" oX="15" oY="22" oW="119" oH="187">
+		<vertices>83 45 105 105 95 150 59 161 24 151 15 106 35 46 59 22</vertices>
+		<verticesUV>465 342 487 402 477 447 441 458 406 448 397 403 417 343 441 319</verticesUV>
+		<triangles>0 6 7 1 2 3 3 4 5 1 3 5 6 0 1 6 1 5</triangles>
+	</sprite>
+	<sprite n="MAJ_palm" x="0" y="0" w="209" h="212" oX="19" oY="19" oW="252" oH="251">
+		<vertices>193 43 219 76 228 108 228 151 208 193 174 220 127 231 90 224 45 197 19 137 31 76 78 29 141 19</vertices>
+		<verticesUV>174 24 200 57 209 89 209 132 189 174 155 201 108 212 71 205 26 178 0 118 12 57 59 10 122 0</verticesUV>
+		<triangles>2 11 12 2 10 11 9 10 7 9 7 8 3 4 5 6 7 2 2 3 5 6 2 5 2 7 10 0 1 2 0 2 12</triangles>
+	</sprite>
+	<sprite n="MAJ_skirt_A" x="421" y="0" w="23" h="42">
+		<vertices>23 42 0 42 0 15 15 0 23 0</vertices>
+		<verticesUV>444 42 421 42 421 15 436 0 444 0</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="MAJ_skirt_B" x="706" y="338" w="25" h="32">
+		<vertices>25 32 0 32 0 11 20 0 25 0</vertices>
+		<verticesUV>731 370 706 370 706 349 726 338 731 338</verticesUV>
+		<triangles>0 3 4 2 0 1 2 3 0</triangles>
+	</sprite>
+	<sprite n="MAJ_skirt_C" x="0" y="0" w="32" h="34">
+		<vertices>32 20 16 34 0 34 0 0 32 0</vertices>
+		<verticesUV>32 20 16 34 0 34 0 0 32 0</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MAJ_skirt_D" x="204" y="213" w="28" h="37">
+		<vertices>28 16 28 37 0 37 0 0 12 0</vertices>
+		<verticesUV>232 229 232 250 204 250 204 213 216 213</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="MAJ_skirt_E" x="1004" y="35" w="19" h="35">
+		<vertices>19 35 0 35 0 0 19 0</vertices>
+		<verticesUV>1023 70 1004 70 1004 35 1023 35</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MAJ_tear_02" x="426" y="157" w="11" h="67">
+		<vertices>11 67 0 67 0 0 11 0</vertices>
+		<verticesUV>437 224 426 224 426 157 437 157</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MAJ_upperjaw_A" x="880" y="456" w="20" h="28" oX="0" oY="2" oW="20" oH="30">
+		<vertices>20 30 0 30 0 2 20 2</vertices>
+		<verticesUV>900 484 880 484 880 456 900 456</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MAJ_upperjaw_B" x="802" y="456" w="24" h="28" oX="0" oY="2" oW="24" oH="30">
+		<vertices>24 6 24 30 0 30 0 2</vertices>
+		<verticesUV>826 460 826 484 802 484 802 456</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="MAJ_upperjaw_C" x="439" y="189" w="21" h="26" oX="0" oY="2" oW="21" oH="29">
+		<vertices>21 8 21 27 2 28 0 20 0 2</vertices>
+		<verticesUV>460 195 460 214 441 215 439 207 439 189</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="MAJ_upperjaw_D" x="611" y="176" w="16" h="23" oX="0" oY="0" oW="16" oH="25">
+		<vertices>16 23 0 23 0 0 16 0</vertices>
+		<verticesUV>627 199 611 199 611 176 627 176</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MAJ_upperleg" x="973" y="100" w="44" h="44">
+		<vertices>44 44 0 44 0 0 44 0</vertices>
+		<verticesUV>1017 144 973 144 973 100 1017 100</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_arm_l" x="424" y="0" w="210" h="210" oX="21" oY="21" oW="252" oH="252">
+		<vertices>166 27 208 58 226 96 231 136 213 190 167 224 118 231 82 219 53 202 26 162 21 111 33 80 54 47 82 31 117 21</vertices>
+		<verticesUV>569 6 611 37 629 75 634 115 616 169 570 203 521 210 485 198 456 181 429 141 424 90 436 59 457 26 485 10 520 0</verticesUV>
+		<triangles>2 13 14 11 12 13 11 13 2 9 10 11 9 11 7 9 7 8 5 6 7 3 4 5 3 5 7 2 3 7 11 2 7 0 1 2 0 2 14</triangles>
+	</sprite>
+	<sprite n="MIN_eye_l" x="373" y="405" w="22" h="30">
+		<vertices>22 30 4 30 1 25 0 23 0 0 22 0</vertices>
+		<verticesUV>395 435 377 435 374 430 373 428 373 405 395 405</verticesUV>
+		<triangles>3 4 5 0 3 5 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="MIN_eye_r" x="857" y="456" w="21" h="29">
+		<vertices>21 29 0 29 0 0 21 0</vertices>
+		<verticesUV>878 485 857 485 857 456 878 456</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_eyelashes_L" x="743" y="415" w="35" h="41">
+		<vertices>35 41 0 41 0 26 11 8 26 0 35 0</vertices>
+		<verticesUV>778 456 743 456 743 441 754 423 769 415 778 415</verticesUV>
+		<triangles>0 4 5 0 3 4 2 0 1 2 3 0</triangles>
+	</sprite>
+	<sprite n="MIN_eyelashes_R" x="178" y="404" w="42" h="44">
+		<vertices>40 12 32 32 42 32 42 44 0 44 0 21 5 3 9 0 18 0</vertices>
+		<verticesUV>218 416 210 436 220 436 220 448 178 448 178 425 183 407 187 404 196 404</verticesUV>
+		<triangles>6 7 8 5 6 8 1 5 8 1 2 3 1 3 4 1 4 5 0 1 8</triangles>
+	</sprite>
+	<sprite n="MIN_eyelid_l_01" x="992" y="216" w="24" h="33">
+		<vertices>24 33 0 33 0 0 24 0</vertices>
+		<verticesUV>1016 249 992 249 992 216 1016 216</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_eyelid_l_02" x="992" y="181" w="24" h="33">
+		<vertices>24 6 24 33 0 33 0 0 18 0</vertices>
+		<verticesUV>1016 187 1016 214 992 214 992 181 1010 181</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="MIN_eyelid_r_01" x="996" y="146" w="24" h="33">
+		<vertices>24 33 0 33 0 0 24 0</vertices>
+		<verticesUV>1020 179 996 179 996 146 1020 146</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_eyelid_r_02" x="970" y="146" w="24" h="33">
+		<vertices>24 33 0 33 0 0 24 0</vertices>
+		<verticesUV>994 179 970 179 970 146 994 146</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_eyelid_r_03" x="1000" y="0" w="24" h="33">
+		<vertices>24 6 24 33 0 33 0 0 18 0</vertices>
+		<verticesUV>1024 6 1024 33 1000 33 1000 0 1018 0</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="MIN_eyelid_r_04" x="395" y="0" w="24" h="33">
+		<vertices>24 6 24 33 0 33 0 0 18 0</vertices>
+		<verticesUV>419 6 419 33 395 33 395 0 413 0</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="MIN_hair_base" x="178" y="165" w="85" h="66" oX="20" oY="1" oW="121" oH="68">
+		<vertices>95 25 105 55 79 67 64 40 21 55 20 30 36 8 67 1</vertices>
+		<verticesUV>253 189 263 219 237 231 222 204 179 219 178 194 194 172 225 165</verticesUV>
+		<triangles>3 6 7 5 3 4 5 6 3 1 2 3 0 1 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="MIN_hair_stretch" x="570" y="360" w="56" h="112" oX="8" oY="0" oW="72" oH="112">
+		<vertices>64 112 8 112 8 0 64 0</vertices>
+		<verticesUV>626 472 570 472 570 360 626 360</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_joint" x="660" y="425" w="34" h="24">
+		<vertices>34 24 0 24 0 0 34 0</vertices>
+		<verticesUV>694 449 660 449 660 425 694 425</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_knee" x="593" y="0" w="20" h="20">
+		<vertices>20 20 0 20 0 0 20 0</vertices>
+		<verticesUV>613 20 593 20 593 0 613 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="MIN_leg" x="210" y="212" w="210" h="210" oX="21" oY="21" oW="252" oH="252">
+		<vertices>166 27 208 58 226 96 231 136 213 190 167 224 118 231 82 219 53 202 26 162 21 111 33 80 54 47 82 31 117 21</vertices>
+		<verticesUV>355 218 397 249 415 287 420 327 402 381 356 415 307 422 271 410 242 393 215 353 210 302 222 271 243 238 271 222 306 212</verticesUV>
+		<triangles>2 13 14 11 12 13 11 13 2 9 10 11 9 11 7 9 7 8 5 6 7 3 4 5 3 5 7 2 3 7 11 2 7 0 1 2 0 2 14</triangles>
+	</sprite>
+	<sprite n="MIN_mouth_01" x="483" y="431" w="85" h="61" oX="0" oY="0" oW="85" oH="69">
+		<vertices>15 29 35 40 63 36 74 11 85 11 85 41 59 58 35 61 8 48 0 31 0 0 10 0</vertices>
+		<verticesUV>498 460 518 471 546 467 557 442 568 442 568 472 542 489 518 492 491 479 483 462 483 431 493 431</verticesUV>
+		<triangles>9 10 11 0 9 11 1 6 7 6 1 2 3 4 5 2 3 5 6 2 5 1 7 8 0 1 8 0 8 9</triangles>
+	</sprite>
+	<sprite n="MIN_mouth_02" x="715" y="425" w="85" h="68" oX="0" oY="0" oW="85" oH="69">
+		<vertices>10 24 28 37 65 33 76 3 85 12 85 35 69 60 39 68 6 58 0 33 0 0 10 0</vertices>
+		<verticesUV>725 449 743 462 780 458 791 428 800 437 800 460 784 485 754 493 721 483 715 458 715 425 725 425</verticesUV>
+		<triangles>0 10 11 0 9 10 2 5 6 2 6 7 2 4 5 2 3 4 1 2 7 1 7 8 9 0 1 9 1 8</triangles>
+	</sprite>
+	<sprite n="MIN_mouth_03" x="628" y="423" w="85" h="69">
+		<vertices>18 28 52 37 72 26 75 2 85 12 85 36 71 65 54 69 14 69 0 41 0 0 10 0</vertices>
+		<verticesUV>646 451 680 460 700 449 703 425 713 435 713 459 699 488 682 492 642 492 628 464 628 423 638 423</verticesUV>
+		<triangles>0 10 11 0 8 9 1 5 6 1 6 7 2 4 5 2 3 4 1 2 5 1 7 8 0 1 8 0 9 10</triangles>
+	</sprite>
+	<sprite n="MIN_mouth_04" x="477" y="327" w="85" h="69">
+		<vertices>14 16 31 26 64 24 78 5 85 12 85 36 71 65 54 69 14 69 0 41 0 0 10 0</vertices>
+		<verticesUV>491 343 508 353 541 351 555 332 562 339 562 363 548 392 531 396 491 396 477 368 477 327 487 327</verticesUV>
+		<triangles>0 10 11 9 0 1 2 5 6 2 6 7 2 4 5 2 3 4 1 2 7 1 7 8 9 1 8 0 9 10</triangles>
+	</sprite>
+	<sprite n="MIN_palm_l" x="0" y="213" w="210" h="210" oX="21" oY="21" oW="252" oH="252">
+		<vertices>166 27 208 58 226 96 231 136 213 190 167 224 118 231 82 219 53 202 26 162 21 111 33 80 54 47 82 31 117 21</vertices>
+		<verticesUV>145 219 187 250 205 288 210 328 192 382 146 416 97 423 61 411 32 394 5 354 0 303 12 272 33 239 61 223 96 213</verticesUV>
+		<triangles>2 13 14 11 12 13 11 13 2 9 10 11 9 11 7 9 7 8 5 6 7 3 4 5 3 5 7 2 3 7 11 2 7 0 1 2 0 2 14</triangles>
+	</sprite>
+	<sprite n="MIN_shoulder" x="592" y="220" w="135" h="144" oX="26" oY="34" oW="200" oH="200">
+		<vertices>161 43 161 70 149 97 157 139 110 178 40 169 26 79 73 34 118 34</vertices>
+		<verticesUV>727 229 727 256 715 283 723 325 676 364 606 355 592 265 639 220 684 220</verticesUV>
+		<triangles>2 7 8 4 2 3 4 5 6 4 6 2 2 6 7 1 2 8 0 1 8</triangles>
+	</sprite>
+	<sprite n="MIN_wrist" x="417" y="208" w="173" h="133" oX="17" oY="13" oW="211" oH="156">
+		<vertices>148 20 190 44 190 105 131 146 106 140 77 124 52 131 17 90 33 34 81 13</vertices>
+		<verticesUV>548 215 590 239 590 300 531 341 506 335 477 319 452 326 417 285 433 229 481 208</verticesUV>
+		<triangles>5 8 9 7 8 5 7 5 6 0 4 5 2 3 4 0 2 4 0 1 2 0 5 9</triangles>
+	</sprite>
+	<sprite n="pupil" x="600" y="185" w="9" h="14">
+		<vertices>9 13 7 14 2 14 0 13 0 0 9 0</vertices>
+		<verticesUV>609 198 607 199 602 199 600 198 600 185 609 185</verticesUV>
+		<triangles>3 4 5 2 3 5 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="toe_01" x="733" y="0" w="33" h="17" oX="3" oY="1" oW="39" oH="19">
+		<vertices>36 18 3 18 3 1 36 1</vertices>
+		<verticesUV>766 17 733 17 733 0 766 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="toe_02" x="373" y="193" w="21" h="35" oX="4" oY="2" oW="28" oH="38">
+		<vertices>23 32 4 37 4 3 25 2</vertices>
+		<verticesUV>392 223 373 228 373 194 394 193</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="toe_03" x="0" y="383" w="27" h="25" oX="6" oY="0" oW="40" oH="29">
+		<vertices>33 11 33 25 6 25 6 0</vertices>
+		<verticesUV>27 394 27 408 0 408 0 383</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+</TextureAtlas>

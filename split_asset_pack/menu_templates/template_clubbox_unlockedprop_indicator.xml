@@ -1,0 +1,20 @@
+<template name="template_clubbox_unlockedprop_indicator" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<script src="scripts/template_clubbox_unlockedprop_indicator.lua" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("goal_exclaim")
+			component("sheetName"):SetString("xml_resources/hud01.xml")
+			component("size"):SetFloat(0.6*game.hudScale())
+			component("layer"):SetString("ContextBar")
+			component("visible"):SetInt(0)
+			component("hFlip"):SetInt(1)
+			component("xOffset"):SetInt(-22*game.hudScale())
+			component("yOffset"):SetInt(3*game.hudScale())
+		</event>
+	</spriteSheetComponent>
+	
+</template>

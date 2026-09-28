@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c9e0e15858c3f22d3209a9874c90c514:5a9b716e459568b0cd7e14d3b0c2c216:c85c3c56bc9252fc1b6a002470366b7c$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P15_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="P15_Arm_Lower_L" x="270" y="356" w="104" h="49" oX="1" oY="1" oW="108" oH="50"/>
+	<sprite n="P15_Arm_Lower_R" x="236" y="306" w="106" h="48" oX="1" oY="1" oW="108" oH="50"/>
+	<sprite n="P15_Arm_Upper_L" x="412" y="297" w="96" h="27" oX="0" oY="2" oW="96" oH="32"/>
+	<sprite n="P15_Arm_Upper_R" x="411" y="326" w="96" h="27" oX="0" oY="2" oW="96" oH="32"/>
+	<sprite n="P15_Body_Lower" x="88" y="339" w="109" h="106" oX="4" oY="0" oW="112" oH="112" r="y"/>
+	<sprite n="P15_Body_Upper" x="411" y="355" w="95" h="90" oX="2" oY="1" oW="100" oH="100"/>
+	<sprite n="P15_Eyeball" x="52" y="287" w="50" h="50"/>
+	<sprite n="P15_Eyeball_Held_1" x="424" y="191" w="87" h="104" oX="2" oY="7" oW="100" oH="120"/>
+	<sprite n="P15_Eyeball_Held_2" x="236" y="445" w="95" h="67" oX="14" oY="16" oW="100" oH="120" r="y"/>
+	<sprite n="P15_Eyelid_1" x="0" y="447" w="58" h="58"/>
+	<sprite n="P15_Eyelid_2" x="60" y="447" w="57" h="58" oX="0" oY="1" oW="58" oH="58" r="y"/>
+	<sprite n="P15_Eyelid_3" x="119" y="447" w="57" h="58" oX="0" oY="1" oW="58" oH="58" r="y"/>
+	<sprite n="P15_Eyelid_4" x="178" y="447" w="56" h="58" oX="0" oY="1" oW="58" oH="58" r="y"/>
+	<sprite n="P15_Eyelid_5" x="410" y="447" w="56" h="58" oX="0" oY="1" oW="58" oH="58" r="y"/>
+	<sprite n="P15_Eyelid_6" x="270" y="407" w="58" h="28" oX="30" oY="0" oW="58" oH="58" r="y"/>
+	<sprite n="P15_Eyelid_7" x="468" y="447" w="28" h="56" oX="30" oY="1" oW="58" oH="58"/>
+	<sprite n="P15_Eyelid_8" x="104" y="300" w="56" h="28" oX="30" oY="1" oW="58" oH="58" r="y"/>
+	<sprite n="P15_Finger_1" x="33" y="343" w="53" h="24" oX="0" oY="3" oW="54" oH="44"/>
+	<sprite n="P15_Finger_2" x="377" y="316" w="32" h="53" oX="0" oY="3" oW="54" oH="44" r="y"/>
+	<sprite n="P15_Finger_3" x="377" y="153" w="45" h="38" oX="8" oY="3" oW="54" oH="44"/>
+	<sprite n="P15_Finger_4" x="377" y="193" w="41" h="40" oX="12" oY="3" oW="54" oH="44"/>
+	<sprite n="P15_Foot_L" x="192" y="151" w="33" h="66" oX="0" oY="0" oW="66" oH="36" r="y"/>
+	<sprite n="P15_Foot_R" x="189" y="219" w="33" h="66" oX="0" oY="0" oW="66" oH="36" r="y"/>
+	<sprite n="P15_Head_EPIC" x="0" y="0" w="228" h="131" oX="11" oY="24" oW="250" oH="360"/>
+	<sprite n="P15_Head_spike_01" x="377" y="288" w="33" h="26" oX="6" oY="2" oW="40" oH="40" r="y"/>
+	<sprite n="P15_Head_spike_02" x="377" y="263" w="39" h="23" oX="7" oY="0" oW="40" oH="40" r="y"/>
+	<sprite n="P15_Head_spike_03" x="377" y="235" w="39" h="26" oX="8" oY="0" oW="40" oH="40" r="y"/>
+	<sprite n="P15_Head_spike_04" x="0" y="343" w="31" h="25" oX="8" oY="4" oW="40" oH="40" r="y"/>
+	<sprite n="P15_Head_tail_left_EPIC" x="0" y="133" w="190" h="68" oX="10" oY="115" oW="250" oH="360" r="y"/>
+	<sprite n="P15_Head_tail_left_tip_EPIC" x="199" y="371" w="69" h="72" oX="8" oY="274" oW="250" oH="360"/>
+	<sprite n="P15_Head_tail_right_EPIC" x="0" y="203" w="187" h="70" oX="169" oY="116" oW="250" oH="360" r="y"/>
+	<sprite n="P15_Head_tail_right_tip_EPIC" x="0" y="371" w="73" h="73" oX="169" oY="273" oW="250" oH="360"/>
+	<sprite n="P15_Leg_Lower_L" x="0" y="287" w="24" h="53" oX="0" oY="0" oW="24" oH="54"/>
+	<sprite n="P15_Leg_Lower_R" x="26" y="287" w="24" h="53" oX="0" oY="0" oW="24" oH="54"/>
+	<sprite n="P15_Leg_Upper_L" x="104" y="275" w="76" h="23" oX="2" oY="1" oW="28" oH="78" r="y"/>
+	<sprite n="P15_Leg_Upper_R" x="199" y="287" w="23" h="76" oX="3" oY="1" oW="28" oH="78"/>
+	<sprite n="P15_Mask_EPIC" x="230" y="0" w="194" h="151" oX="3" oY="6" oW="200" oH="160"/>
+	<sprite n="P15_Mask_OL" x="333" y="407" w="75" h="48" oX="69" oY="39" oW="180" oH="150" r="y"/>
+	<sprite n="P15_Pupil_EPIC" x="192" y="133" w="34" h="16" oX="3" oY="3" oW="40" oH="20"/>
+	<sprite n="P15_Shadow" x="227" y="153" w="148" h="76"/>
+	<sprite n="P15_String" x="345" y="231" w="30" h="110" oX="0" oY="8" oW="110" oH="46" r="y"/>
+	<sprite n="P15_String_2" x="345" y="231" w="30" h="110" oX="0" oY="8" oW="110" oH="46" r="y"/>
+	<sprite n="P15_Tail_A" x="224" y="231" w="119" h="73" oX="3" oY="13" oW="130" oH="180"/>
+	<sprite n="P15_Tail_B" x="426" y="0" w="81" h="113" oX="6" oY="48" oW="130" oH="180" r="y"/>
+	<sprite n="P15_Tail_C" x="426" y="115" w="77" h="74" oX="22" oY="100" oW="130" oH="180"/>
+</TextureAtlas>

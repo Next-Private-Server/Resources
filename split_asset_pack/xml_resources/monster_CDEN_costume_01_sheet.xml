@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1b0736d1187c2442fbed6ab21658ead9:ccba1a4c6bf391fab0a3e7854509ac3c:d59bb420f8033a96f8c13d069aee29f2$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_CDEN_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="CDEN_band_01.png" x="2" y="403" w="66" h="99" oX="3.6" oY="23.8" oW="100" oH="70" r="y"/>
+    <sprite n="CDEN_band_02.png" x="270" y="78" w="117" h="72" oX="3.1" oY="27.8" oW="120" oH="80"/>
+    <sprite n="CDEN_band_03.png" x="213" y="183" w="117" h="168" oX="-68" oY="-4.1" oW="170" oH="120" r="y"/>
+    <sprite n="CDEN_head_front.png" x="90" y="2" w="178" h="179" oX="5" oY="0" oW="192" oH="188"/>
+    <sprite n="CDEN_plank_1.png" x="264" y="353" w="70" h="157" oX="-6.18" oY="-50.66" oW="80" oH="170"/>
+    <sprite n="CDEN_plank_2.png" x="76" y="204" w="74" h="182" oX="-1.024" oY="-61.54" oW="80" oH="190"/>
+    <sprite n="CDEN_plank_3.png" x="70" y="403" w="192" h="78" oX="-0.52" oY="-57.42" oW="80" oH="200" r="y"/>
+    <sprite n="CDEN_plank_4.png" x="2" y="2" w="86" h="200" oX="-8.38" oY="-48.12" oW="90" oH="200"/>
+    <sprite n="CDEN_plank_5.png" x="2" y="204" w="72" h="197" oX="-10.88" oY="-34.74" oW="80" oH="200"/>
+    <sprite n="CDEN_plank_6.png" x="152" y="183" w="59" h="178" oX="5.5" oY="-26" oW="60" oH="180"/>
+    <sprite n="CDEN_plank_7.png" x="336" y="2" w="166" h="74" oX="-2.94" oY="-21.56" oW="80" oH="170" r="y"/>
+    <sprite n="CDEN_plank_8.png" x="336" y="152" w="127" h="68" oX="-4.9" oY="-36.38" oW="70" oH="130" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,185 @@
+<template name="template_clubbox_progress_node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$layer" equals="FrontClipping" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Base" />
+
+	<ninesliceComponent name="Base">
+		<size w="80*game.windowScaleY()" h="80*game.windowScaleY()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />		
+		<event name="onInit" params="component, element">
+			component("topHeight"):SetFloat(50.0)
+			component("bottomHeight"):SetFloat(50.0)
+			component("leftWidth"):SetFloat(50.0)
+			component("rightWidth"):SetFloat(50.0)
+			component("size"):SetFloat(0.5 * game.windowScaleY())
+			component("includeBorder"):SetInt(1)
+			component("spriteName"):SetString("gfx/clubbox/prize_slot_teal_9s")
+			component("layer"):SetString("$layer")
+		</event>
+	</ninesliceComponent>
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Base" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-8" />	
+		<event name="onInit" params="component, element">
+			element.touchTimer = 0
+			element.isTooltipShowing = false
+			element.shouldHideTooltip = true
+			element.startX = -1
+			element.startY = -1
+			component:GetVar("passthrough"):SetInt(1)
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+				if not element.isTooltipShowing then
+					element.shouldHideTooltip = false
+					element.Tooltip:setText(element.TooltipText)
+					element.Tooltip:Show()
+					element.isTooltipShowing = true		
+				end
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				element.shouldHideTooltip = true
+				element.touchTimer = 0.5
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				element.shouldHideTooltip = true
+				element.touchTimer = 0.5
+			]]>
+		</event>
+		<event name="onTouchDrag" params="component, element, x, y, relX, relY, dx, dy">
+			<![CDATA[
+				if element.isTooltipShowing then
+					if element.startX == -1 then
+						element.startX = x
+						element.startY = y
+					end
+					local diffX = element.startX - x
+					local diffY = element.startY - y
+					if diffX*diffX + diffY*diffY > 256 * game.windowScaleY() then
+						element.shouldHideTooltip = true
+						element.touchTimer = 0
+					end
+				end
+			]]>
+		</event>
+		<event name="onTick" params="component, element, dt">
+			<![CDATA[
+				if element.shouldHideTooltip then
+					element.touchTimer = element.touchTimer - dt
+					if element.touchTimer < 0 and element.isTooltipShowing then
+						element.Tooltip:Hide()
+						element.isTooltipShowing = false
+						element.shouldHideTooltip = false
+						element.startX = -1
+						element.startY = -1
+					end
+				end
+			]]>
+		</event>
+
+	</touchComponent>
+
+	<template type="template_tooltip" name="Tooltip">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onPostInit" params="element">
+			element.duration = 0.67
+		</event>
+		<event name="setText" params="element, text">
+			element.Text:GetVar("text"):SetString(text)
+			element.Sprite:setSize(lua_sys.Vector2(element.Text:absW() + 12*game.windowScaleY(), element.Text:absH() + 12*game.windowScaleY()))
+		</event>
+	</template>
+
+	<template type="template_dynamic_sprite" name="Main">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$targetSize" equals="32*game.windowScaleY()" />
+		<templateVar name="$sizeMode" equals="max" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+	</template>
+	
+	<template type="template_dynamic_sprite" name="Alt">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$targetSize" equals="16*game.windowScaleY()" />
+		<templateVar name="$sizeMode" equals="max" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="14*game.windowScaleY()" yOffset="14*game.windowScaleY()" priorityOffset="-2" />
+	</template>
+
+	<touchComponent name="TouchSmall">
+		<size w="20*game.windowScaleY()" h="20*game.windowScaleY()" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="14*game.windowScaleY()" yOffset="14*game.windowScaleY()" priorityOffset="-9" />
+		<event name="onInit" params="component, element">
+			element.touchTimer = 0
+			element.isTooltipShowing = false
+			element.shouldHideTooltip = true
+			element.startX = -1
+			element.startY = -1
+			component:GetVar("passthrough"):SetInt(1)
+		</event>
+		<event name="onTouchDown" params="component, element">
+			<![CDATA[
+				if not element.isTooltipShowing then
+					element.shouldHideTooltip = false
+					element.Tooltip:setText(element.TooltipTextSmall)
+					element.Tooltip:Show()
+					element.isTooltipShowing = true		
+				end
+			]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+			<![CDATA[
+				element.shouldHideTooltip = true
+				element.touchTimer = 0.5
+			]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			<![CDATA[
+				element.shouldHideTooltip = true
+				element.touchTimer = 0.5
+			]]>
+		</event>
+		<event name="onTouchDrag" params="component, element, x, y, relX, relY, dx, dy">
+			<![CDATA[
+				if element.isTooltipShowing then
+					if element.startX == -1 then
+						element.startX = x
+						element.startY = y
+					end
+					local diffX = element.startX - x
+					local diffY = element.startY - y
+					if diffX*diffX + diffY*diffY > 256 * game.windowScaleY() then
+						element.shouldHideTooltip = true
+						element.touchTimer = 0
+					end
+				end
+			]]>
+		</event>
+		<event name="onTick" params="component, element, dt">
+			<![CDATA[
+				if element.shouldHideTooltip then
+					element.touchTimer = element.touchTimer - dt
+					if element.touchTimer < 0 and element.isTooltipShowing then
+						element.Tooltip:Hide()
+						element.isTooltipShowing = false
+						element.shouldHideTooltip = false
+						element.startX = -1
+						element.startY = -1
+					end
+				end
+			]]>
+		</event>
+
+	</touchComponent>
+
+</template>

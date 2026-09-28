@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cf9079b4d6f0df66cb8e0858f4c2c4f9:f88a8971e718757fe3d102dc88cd5d24:886e220ce2b1ddcaee179e8e9a827380$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_RWY_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="hotpot_back" x="0" y="0" w="345" h="134" pX="0.545714" pY="1" oX="3" oY="3" oW="350" oH="140"/>
+	<sprite n="hotpot_front" x="175" y="287" w="314" h="124" pX="0.534375" pY="0.607692" oX="3" oY="3" oW="320" oH="130"/>
+	<sprite n="hotpot_shadow" x="347" y="0" w="144" h="285" pX="0.549123" pY="0.354167" r="y"/>
+	<sprite n="hotpot_top" x="0" y="287" w="173" h="204" pX="0.653333" pY="1.67333" oX="4" oY="3" oW="180" oH="210"/>
+	<sprite n="hotpot_topback" x="175" y="136" w="170" h="87" pX="0.658824" pY="2.37778" oX="0" oY="2" oW="170" oH="90"/>
+</TextureAtlas>

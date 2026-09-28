@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="7" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.0)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+	
+	<element name="Frame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="(-1)*lua_sys.screenWidth()" yOffset="0" priorityOffset="6" />
+		<ninesliceComponent name="Sprite">
+			<size w="260*game.windowScaleX()" h="200*game.windowScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("includeBorder"):SetInt(1)
+				component("size"):SetFloat(0.5)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="Flourish1">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="7" yOffset="7" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_swirl_01")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.windowScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Flourish2">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="7" yOffset="10" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_swirl_02")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.windowScaleX())
+				component("rotation"):SetFloat(-0.5*math.pi)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Frame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="150*game.windowScaleX()" h="50" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5)
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+		<textComponent name="Text">
+			<size w="140*game.windowScaleX()" h="35" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_PURPLE))
+				component("size"):SetFloat(0.3*game.windowScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString(game.localizedUpper("INVITE_FRIENDS"))
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="AddFriendButton">
+		<templateVar name="$upSpriteName" equals="'button_purple_big'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.windowScaleX()" />
+		<templateVar name="$layer" equals="'MidPopUps'" />
+		<position relativeTo="EmailButton" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="4*game.windowScaleX()" priorityOffset="0" />
+		<textComponent name="Label">
+			<size w="74*game.windowScaleX()" h="22*game.windowScaleX()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.3*game.windowScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("FRIEND_ADD_BUTTON_LABEL")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onInit" params="component, element">
+				element:SetupGenericListener(game.engineReceiver(), "sys::msg::MsgKeyboardEntryResult", "gotMsgKeyboardEntryResult")
+				element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgTextEntrySubmission", "gotMsgTextEntrySubmission")
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.displayTextEntry(game.getLocalizedText("FRIEND_CODE_INPUT_LABEL"), "", true, -1, 25, false, "FRIEND_CODE")
+			</event>
+		</touchComponent>
+		<event name="gotMsgKeyboardEntryResult" params="element, msg">
+			if(not msg.cancelled) then
+				game.requestFriend(msg.text)
+			end
+		</event>
+		<event name="gotMsgTextEntrySubmission" params="element, msg">
+			if((msg.messageID == "FRIEND_CODE") and (msg.choice == true)) then
+				game.requestFriend(msg.text)
+			end
+		</event>		
+	</template>
+	
+	<template type="template_spritesheetbutton" name="EmailButton">
+		<templateVar name="$upSpriteName" equals="'button_purple_big'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.windowScaleX()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="Frame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="20*game.windowScaleX()" priorityOffset="-1" />
+		<textComponent name="Label">
+			<size w="74*game.windowScaleX()" h="22*game.windowScaleX()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.3*game.windowScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("EMAIL_FRIENDS")
+				component("layer"):SetString("MidPopUps")
+				if(game.amazonStreamBox() == 1) then
+					element:DoStoredScript("setInvisible")
+					component("visible"):SetInt(0)
+				end
+				if(game.showSteamButton()) then
+					element:GetVar("yOffset"):SetInt(0)
+				end
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.mailFriend()
+				game.requestInviteReward("email");
+			</event>
+		</touchComponent>
+	</template>
+	
+	<template type="template_spritesheetbutton" name="SteamButton">
+		<templateVar name="$upSpriteName" equals="'button_purple_big'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.windowScaleX()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="EmailButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.windowScaleX()" priorityOffset="0" />
+		<event name="onInit" params="element">
+			onInit(element)
+			element("lockedTimer"):SetFloat(0)
+			if(game.showSteamButton()) then
+				element:DoStoredScript("setVisible")
+			else
+				element:DoStoredScript("setInvisible")
+			end
+		</event>
+		<event name="onTick" params="element, dt">
+			<![CDATA[
+				onTick(element, dt)
+				if(element["UpSprite"]("size"):GetFloat() ~= 0.45*element["Icon"]["Sprite"]("size"):GetFloat()) then
+					element["Icon"]["Sprite"]("size"):SetFloat(0.45*element["UpSprite"]("size"):GetFloat())
+				end
+				if(element("lockedTimer"):GetFloat() > 0) then
+					element("lockedTimer"):SetFloat(element("lockedTimer"):GetFloat() - dt)
+				end
+			]]>
+		</event>
+		<function name="setVisible" params="element">
+			setVisible(element)
+			element["Label"]("visible"):SetInt(1)
+
+			element["Icon"]["Sprite"]("visible"):SetInt(1)
+			element["Icon"]["Touch"]("enabled"):SetInt(1)
+		</function>	
+		<function name="setInvisible" params="element">
+			setInvisible(element)
+			element["Label"]("visible"):SetInt(0)
+
+			element["Icon"]["Sprite"]("visible"):SetInt(0)
+			element["Icon"]["Touch"]("enabled"):SetInt(0)
+		</function>
+
+		<element name="Icon">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:parent():name()" vAnchor="VCENTER" hAnchor="LEFT"/>
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-5*game.windowScaleX()" yOffset="0" priorityOffset="-1" />
+			<spriteComponent name="Sprite">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("gfx/steam_logo")
+					component("size"):SetFloat(0.45*game.windowScaleX())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteComponent>
+			<touchComponent name="Touch">
+				<size dependentOnElement="element:name()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onTouchDown" params="component, element">
+					element:parent()["Touch"]:DoStoredScript("onTouchDown")
+				</event>
+				<event name="onTouchUp" params="component, element">
+					element:parent()["Touch"]:DoStoredScript("onTouchUp")
+				</event>
+				<event name="onTouchRelease" params="component, element">
+					element:parent()["Touch"]:DoStoredScript("onTouchRelease")
+				</event>
+			</touchComponent>
+		</element>
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				<![CDATA[
+					onTouchDown(component, element)
+					element["Label"]:setColor(0.5, 0.5, 0.5)
+					element["Icon"]["Sprite"]:setColor(0.5, 0.5, 0.5)
+				]]>
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					onTouchUp(component, element)
+					element["Label"]:setColor(1.0, 1.0, 1.0)
+					element["Icon"]["Sprite"]:setColor(1.0, 1.0, 1.0)
+					if(element("locked"):GetInt() == 0 and element("lockedTimer"):GetFloat() <= 0) then
+						element("locked"):SetInt(1)
+						element("lockedTimer"):SetFloat(0.5)
+						game.logEvent("friends_menu", "action", "sync_steam_click")
+						game.syncSteamFriends()
+					end
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					onTouchRelease(component, element)
+					element["Label"]:setColor(1.0, 1.0, 1.0)
+					element["Icon"]["Sprite"]:setColor(1.0, 1.0, 1.0)
+				]]>
+			</event>
+		</touchComponent>
+		<textComponent name="Label">
+			<size w="68*game.windowScaleX()" h="22*game.windowScaleX()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="3*game.windowScaleX()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.3*game.windowScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("FRIEND_SYNC_LABEL")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</template>
+
+	<event name="onInit" params="element">
+		element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgGameFriendRequestSent", "gotMsgGameFriendRequestSent")
+		element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgGameFriendError", "gotMsgFriendError")
+		element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgGameFriendsSynced", "gotMsgGameFriendsSynced")
+	</event>
+	
+	<event name="gotMsgGameFriendRequestSent" params="element, msg">
+		<![CDATA[
+			if (msg.isFullFriend) then
+				game.displayNotification("NEW_FRIEND_ADDED")
+			else
+				game.displayNotification("NOTIFICATION_FRIEND_REQUEST_SENT")
+			end
+		]]>
+	</event>
+		
+	<event name="gotMsgFriendError" params="element, msg">
+		game.displayNotification(msg.message)
+	</event>
+
+	<event name="gotMsgGameFriendsSynced" params="element, msg">
+		game.displayNotification("NOTIFICATION_FRIENDS_SYNCED")
+		element:E("SteamButton")("locked"):SetInt(0)
+	</event>
+
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+			
+			local transitionState = element("transitionState"):GetInt()
+			
+			if(transitionState ~= 0) then
+				local transitionTime = element("transitionTime"):GetFloat()
+				
+				element:DoStoredScript("TickTransition")
+				
+				if(transitionState == 1) then
+					transitionTime = (transitionTime + dt*3)
+				elseif(transitionState == 2) then
+					transitionTime = (transitionTime - dt*3)
+				end
+				
+				element("transitionTime"):SetFloat(transitionTime)
+				
+				if(transitionTime > 1.0) then
+					element("transitionState"):SetInt(0)
+					element("transitionTime"):SetFloat(1.0)
+					element:DoStoredScript("TickTransition")
+				elseif(transitionTime < 0.0) then
+					element:root():popPopUp()
+				end
+			end
+			
+		]]>
+	</event>
+	
+	<event name="onPostInit" params="element">
+		element("transitionState"):SetInt(1)
+		element("transitionTime"):SetFloat(0.0)
+		lua_sys.playSoundFx("audio/sfx/menu_slide.wav")
+	</event>
+	
+	<event name="TickTransition" params="element">
+		local transitionTime = element("transitionTime"):GetFloat()
+		element["Frame"]("xOffset"):SetFloat(lua_sys.screenWidth()*(0.5) + (-0.5)*lua_sys.screenWidth()*(1/transitionTime))
+		element["FadedBG"]["Sprite"]("alpha"):SetFloat(transitionTime*0.5)
+	</event>
+	
+	<event name="queuePop" params="element">
+		element("transitionState"):SetInt(2)
+	</event>
+</menu>

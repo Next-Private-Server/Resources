@@ -1,0 +1,64 @@
+<template name="template_clubbox_islands_entry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<size dependentOnElement="element:name()" dependentOnComponent="Overlay" />
+	
+	<spriteSheetComponent name="Overlay">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			local islandId = element("IslandId"):GetInt()
+			component("spriteName"):SetString(game.islandIconSpriteForId(islandId))
+			component("sheetName"):SetString("xml_resources/"..game.islandIconSheetForId(islandId))
+			
+			component("size"):SetFloat(0.2*game.menuScaleX()*element("IslandScale"):GetFloat())
+			component("layer"):SetString("MidPopUps")
+		</event>
+	</spriteSheetComponent>
+	
+	<spriteSheetComponent name="Lock">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-7*game.menuScaleY()" priorityOffset="-0.01" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("button_lock")
+			component("sheetName"):SetString("xml_resources/buttons01.xml")
+			component("size"):SetFloat(0.35*game.menuScaleX()*element("IslandScale"):GetFloat())
+			component("layer"):SetString("MidPopUps")
+			component("visible"):SetInt(0)
+		</event>
+	</spriteSheetComponent>
+	
+	<event name="onPostInit" params="element">
+		if(element("IslandActive"):GetInt() == 1) then
+			if(not game.isIslandOwned(element("IslandId"):GetInt())) then
+				if(not game.hasNecessaryPrevIslandsToUnlock(element("IslandId"):GetInt())) then
+					element["Overlay"]:setColor(0.5, 0.5, 0.5)
+					element["Lock"]("visible"):SetInt(1)
+				elseif(not game.canUnlockIsland(element("IslandId"):GetInt())) then
+					element["Overlay"]:setColor(0.5, 0.5, 0.5)
+					element["Lock"]("visible"):SetInt(1)
+				end
+			end
+		else
+			element["Overlay"]:setColor(0.5, 0.5, 0.5)
+		end
+	</event>
+	<event name="setVisible" params="element">
+
+		element["Overlay"]("visible"):SetInt(1)
+		element["Touch"]("enabled"):SetInt(1)
+
+		if(not game.isIslandOwned(element("IslandId"):GetInt())) then
+			element["Lock"]("visible"):SetInt(1)
+		else
+			element["Lock"]("visible"):SetInt(0)
+		end
+	</event>
+	<event name="setInvisible" params="element">
+		element["Overlay"]("visible"):SetInt(0)
+		element["Lock"]("visible"):SetInt(0)
+		element["Touch"]("enabled"):SetInt(0)
+	</event>
+	<touchComponent name="Touch">	
+		<size dependentOnElement="element:name()" dependentOnComponent="Overlay" />
+	</touchComponent>
+	
+</template>

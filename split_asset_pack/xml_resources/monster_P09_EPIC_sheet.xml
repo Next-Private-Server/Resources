@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fa49493dd61599e0aa58bdc0d8a00283:022906f5b60d4224278e06ca7d5064e6:97c7fa2883ba66a8465a28f94202d8e6$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P09_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="P09_EPIC_ant body" x="250" y="593" w="32" h="36" r="y" />
+  <sprite n="P09_EPIC_ant eye A_01" x="453" y="647" w="31" h="36" oX="0" oY="0" oW="36" oH="32" r="y" />
+  <sprite n="P09_EPIC_ant eye A_02" x="457" y="459" w="30" h="36" oX="0" oY="1" oW="36" oH="32" r="y" />
+  <sprite n="P09_EPIC_ant eye A_03" x="456" y="547" w="28" h="36" oX="0" oY="3" oW="36" oH="32" r="y" />
+  <sprite n="P09_EPIC_ant eye A_04" x="483" y="705" w="28" h="36" oX="0" oY="3" oW="36" oH="32" r="y" />
+  <sprite n="P09_EPIC_ant eye A_bg" x="266" y="691" w="36" h="31" oX="0" oY="0" oW="36" oH="32" />
+  <sprite n="P09_EPIC_ant eye B_01" x="486" y="613" w="24" h="27" oX="0" oY="0" oW="28" oH="24" r="y" />
+  <sprite n="P09_EPIC_ant eye B_02" x="122" y="675" w="27" h="22" oX="0" oY="2" oW="28" oH="24" />
+  <sprite n="P09_EPIC_ant eye B_03" x="215" y="694" w="27" h="21" oX="0" oY="3" oW="28" oH="24" />
+  <sprite n="P09_EPIC_ant eye B_04" x="185" y="697" w="27" h="21" oX="0" oY="3" oW="28" oH="24" />
+  <sprite n="P09_EPIC_ant eye B_bg" x="160" y="674" w="23" h="27" oX="0" oY="1" oW="28" oH="24" r="y" />
+  <sprite n="P09_EPIC_ant eye C_01" x="160" y="645" w="23" h="27" oX="0" oY="0" oW="24" oH="28" />
+  <sprite n="P09_EPIC_ant eye C_02" x="214" y="717" w="23" h="22" oX="1" oY="4" oW="24" oH="28" r="y" />
+  <sprite n="P09_EPIC_ant eye C_03" x="239" y="717" w="22" h="22" oX="1" oY="5" oW="24" oH="28" />
+  <sprite n="P09_EPIC_ant eye C_04" x="263" y="724" w="22" h="22" oX="1" oY="5" oW="24" oH="28" />
+  <sprite n="P09_EPIC_ant eye C_bg" x="486" y="642" w="24" h="23" oX="0" oY="3" oW="24" oH="28" r="y" />
+  <sprite n="P09_EPIC_ant eye D_01" x="483" y="743" w="28" h="36" r="y" />
+  <sprite n="P09_EPIC_ant eye D_02" x="483" y="781" w="28" h="36" r="y" />
+  <sprite n="P09_EPIC_ant eye D_03" x="304" y="712" w="36" h="28" />
+  <sprite n="P09_EPIC_ant eye D_04" x="378" y="740" w="36" h="28" />
+  <sprite n="P09_EPIC_ant eye D_bg" x="54" y="636" w="36" h="28" />
+  <sprite n="P09_EPIC_ant eye E_01" x="130" y="645" w="28" h="28" />
+  <sprite n="P09_EPIC_ant eye E_02" x="92" y="665" w="28" h="27" oX="0" oY="1" oW="28" oH="28" />
+  <sprite n="P09_EPIC_ant eye E_03" x="185" y="668" w="28" h="27" oX="0" oY="1" oW="28" oH="28" />
+  <sprite n="P09_EPIC_ant eye E_04" x="106" y="357" w="25" h="27" oX="0" oY="3" oW="28" oH="28" r="y" />
+  <sprite n="P09_EPIC_ant eye E_bg" x="486" y="554" w="26" h="27" oX="1" oY="1" oW="28" oH="28" />
+  <sprite n="P09_EPIC_antenna A left" x="489" y="483" w="23" h="39" oX="0" oY="0" oW="26" oH="39" />
+  <sprite n="P09_EPIC_antenna A right" x="360" y="344" w="18" h="44" oX="0" oY="0" oW="20" oH="44" />
+  <sprite n="P09_EPIC_antenna B left" x="492" y="324" w="20" h="36" />
+  <sprite n="P09_EPIC_antenna B right" x="492" y="362" w="20" h="28" />
+  <sprite n="P09_EPIC_antenna bottom left" x="210" y="493" w="23" h="40" oX="0" oY="0" oW="40" oH="24" r="y" />
+  <sprite n="P09_EPIC_antenna bottom right" x="342" y="712" w="34" h="28" oX="0" oY="1" oW="28" oH="36" r="y" />
+  <sprite n="P09_EPIC_antenna C left" x="250" y="631" w="32" h="23" oX="0" oY="0" oW="32" oH="24" />
+  <sprite n="P09_EPIC_antenna C right" x="102" y="419" w="29" h="28" />
+  <sprite n="P09_EPIC_antenna D left" x="489" y="441" w="23" h="40" oX="1" oY="0" oW="24" oH="40" />
+  <sprite n="P09_EPIC_antenna D right" x="92" y="636" w="36" h="27" oX="0" oY="0" oW="28" oH="36" r="y" />
+  <sprite n="P09_EPIC_antenna E left" x="106" y="386" w="24" h="31" oX="0" oY="0" oW="24" oH="32" />
+  <sprite n="P09_EPIC_antenna E right" x="486" y="667" w="23" h="36" oX="0" oY="0" oW="24" oH="36" />
+  <sprite n="P09_EPIC_antenna top left" x="145" y="607" w="40" h="36" />
+  <sprite n="P09_EPIC_antenna top right" x="0" y="643" w="34" h="27" oX="0" oY="1" oW="28" oH="36" r="y" />
+  <sprite n="P09_EPIC_beak bottom" x="329" y="442" w="48" h="80" r="y" />
+  <sprite n="P09_EPIC_beak top" x="380" y="378" w="107" h="79" oX="0" oY="0" oW="108" oH="80" />
+  <sprite n="P09_EPIC_beard bottom bg" x="0" y="419" w="100" h="75" oX="0" oY="0" oW="76" oH="100" r="y" />
+  <sprite n="P09_EPIC_beard bottom left" x="133" y="358" w="100" h="99" oX="0" oY="0" oW="100" oH="100" />
+  <sprite n="P09_EPIC_beard bottom right" x="251" y="344" w="107" h="96" oX="0" oY="0" oW="108" oH="96" />
+  <sprite n="P09_EPIC_beard top bg" x="133" y="280" w="116" h="76" r="y" />
+  <sprite n="P09_EPIC_beard top left" x="0" y="260" w="131" h="95" oX="0" oY="0" oW="96" oH="132" r="y" />
+  <sprite n="P09_EPIC_beard top right" x="134" y="162" w="124" h="116" r="y" />
+  <sprite n="P09_EPIC_body" x="0" y="0" w="259" h="160" oX="0" oY="0" oW="260" oH="160" />
+  <sprite n="P09_EPIC_glow" x="54" y="594" w="40" h="40" />
+  <sprite n="P09_EPIC_head A" x="326" y="600" w="51" h="72" oX="0" oY="0" oW="72" oH="52" r="y" />
+  <sprite n="P09_EPIC_head B" x="284" y="584" w="40" h="56" r="y" />
+  <sprite n="P09_EPIC_head C" x="284" y="535" w="42" h="47" oX="0" oY="0" oW="44" oH="48" />
+  <sprite n="P09_EPIC_head D" x="379" y="554" w="72" h="56" />
+  <sprite n="P09_EPIC_head E" x="192" y="593" w="56" h="44" />
+  <sprite n="P09_EPIC_left hand" x="379" y="612" w="72" h="51" oX="0" oY="1" oW="72" oH="52" />
+  <sprite n="P09_EPIC_left lower arm ol" x="98" y="511" w="32" h="52" r="y" />
+  <sprite n="P09_EPIC_left lower arm" x="0" y="496" w="96" h="96" />
+  <sprite n="P09_EPIC_left toe 1" x="228" y="656" w="36" h="36" />
+  <sprite n="P09_EPIC_left toe 2" x="487" y="524" w="24" h="28" r="y" />
+  <sprite n="P09_EPIC_left upper arm" x="235" y="442" w="92" h="91" oX="0" oY="0" oW="92" oH="92" r="y" />
+  <sprite n="P09_EPIC_mushroom head ol" x="379" y="665" w="60" h="36" />
+  <sprite n="P09_EPIC_mushroom head" x="261" y="0" w="236" h="136" />
+  <sprite n="P09_EPIC_pupil" x="499" y="0" w="7" h="15" oX="1" oY="1" oW="8" oH="16" />
+  <sprite n="P09_EPIC_right hand" x="379" y="504" w="75" h="48" oX="1" oY="0" oW="76" oH="48" />
+  <sprite n="P09_EPIC_right lower arm ol" x="132" y="547" w="58" h="58" />
+  <sprite n="P09_EPIC_right lower arm" x="0" y="162" w="132" h="96" />
+  <sprite n="P09_EPIC_right toe 1" x="98" y="565" w="32" h="40" r="y" />
+  <sprite n="P09_EPIC_right toe 2" x="486" y="583" w="24" h="28" r="y" />
+  <sprite n="P09_EPIC_right upper arm" x="260" y="262" w="120" h="80" r="y" />
+  <sprite n="P09_EPIC_shadow" x="261" y="138" w="232" h="122" />
+  <sprite n="P09_EPIC_shoulder left 1" x="132" y="493" w="76" h="52" />
+  <sprite n="P09_EPIC_shoulder left 2" x="329" y="524" w="48" h="74" oX="1" oY="0" oW="76" oH="48" r="y" />
+  <sprite n="P09_EPIC_shoulder left 3" x="210" y="535" w="72" h="56" />
+  <sprite n="P09_EPIC_shoulder right 1 bg" x="96" y="607" w="47" h="27" oX="0" oY="0" oW="48" oH="28" />
+  <sprite n="P09_EPIC_shoulder right 1" x="382" y="262" w="112" h="60" />
+  <sprite n="P09_EPIC_shoulder right 2 bg" x="457" y="497" w="28" h="48" r="y" />
+  <sprite n="P09_EPIC_shoulder right 2" x="0" y="357" w="104" h="60" />
+  <sprite n="P09_EPIC_shoulder right 3" x="382" y="324" w="108" h="52" />
+  <sprite n="P09_EPIC_tentacle 1 bottom" x="379" y="459" w="76" h="43" oX="0" oY="0" oW="44" oH="76" r="y" />
+  <sprite n="P09_EPIC_tentacle 1 top" x="132" y="459" w="83" h="32" oX="0" oY="0" oW="32" oH="84" r="y" />
+  <sprite n="P09_EPIC_tentacle 2 bottom" x="284" y="642" w="40" h="47" oX="0" oY="0" oW="40" oH="48" />
+  <sprite n="P09_EPIC_tentacle 2 top" x="102" y="449" w="28" h="60" />
+  <sprite n="P09_EPIC_tentacle 3 bottom" x="326" y="674" w="51" h="36" oX="0" oY="0" oW="52" oH="36" />
+  <sprite n="P09_EPIC_tentacle 3 top" x="453" y="585" w="31" h="60" oX="0" oY="0" oW="32" oH="60" />
+  <sprite n="P09_EPIC_tentacle 4 bottom" x="489" y="392" w="23" h="47" oX="0" oY="0" oW="48" oH="24" r="y" />
+  <sprite n="P09_EPIC_tentacle 4 top" x="0" y="594" w="52" h="47" oX="0" oY="0" oW="52" oH="48" />
+  <sprite n="P09_EPIC_tentacle 5 bottom" x="187" y="639" w="39" h="27" oX="0" oY="0" oW="40" oH="28" />
+  <sprite n="P09_EPIC_tentacle 5 top" x="441" y="685" w="40" h="48" r="y" />
+  <sprite n="P09_EPIC_whisker bottom" x="437" y="735" w="44" h="48" r="y" />
+  <sprite n="P09_EPIC_whisker top" x="379" y="703" w="56" h="35" oX="0" oY="0" oW="56" oH="36" />
+</TextureAtlas>

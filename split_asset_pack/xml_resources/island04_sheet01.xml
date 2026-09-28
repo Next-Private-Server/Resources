@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0789bd651ad03a9c32c655043f4951c5:70d26f5317549bc60d6a1a6cbb776453:2ce3a915c680b32dc109876881a51da5$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island04_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="breathing_pipe" x="1768" y="0" w="245" h="587" oX="0" oY="0" oW="600" oH="246" r="y"/>
+	<sprite n="island04_burns" x="1162" y="0" w="604" h="1009" oX="2" oY="0" oW="606" oH="1010"/>
+	<sprite n="island04_ear" x="1768" y="589" w="198" h="460" oX="247" oY="205" oW="456" oH="804"/>
+	<sprite n="island04_edge" x="1257" y="1011" w="408" h="403" oX="13" oY="2" oW="416" oH="410" r="y"/>
+	<sprite n="island04_eyeclosed" x="0" y="0" w="1160" h="804" oX="0" oY="0" oW="1160" oH="810"/>
+	<sprite n="island04_fin" x="0" y="1477" w="695" h="382" oX="32" oY="0" oW="456" oH="804" r="y"/>
+	<sprite n="island04_nose" x="1257" y="1416" w="680" h="580" r="y"/>
+	<sprite n="island04_stumpcenter" x="801" y="1011" w="454" h="988" oX="1" oY="6" oW="990" oH="460" r="y"/>
+	<sprite n="island04_stumpside" x="0" y="806" w="799" h="669" oX="1" oY="3" oW="800" oH="672"/>
+	<sprite n="w4_bubble" x="1968" y="589" w="44" h="44" oX="3" oY="1" oW="48" oH="48"/>
+	<sprite n="w4_coral" x="801" y="806" w="224" h="199" oX="1" oY="0" oW="200" oH="224" r="y"/>
+	<sprite n="w4_fish" x="1027" y="806" w="114" h="156" oX="3" oY="3" oW="160" oH="120" r="y"/>
+</TextureAtlas>

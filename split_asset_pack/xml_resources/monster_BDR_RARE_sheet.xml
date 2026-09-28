@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7e00ae0c2f4d1db0d3dbbcc0a21be224:70e2435a5414f48d4c3d9d7eac36fdd1:e18a1462a294757a831d79d591106ef6$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BDR_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="body lower" x="229" y="0" w="175" h="114" oX="0" oY="0" oW="180" oH="114"/>
+	<sprite n="body mid" x="0" y="297" w="121" h="166"/>
+	<sprite n="body top" x="401" y="147" w="110" h="148"/>
+	<sprite n="drumstick" x="123" y="297" w="36" h="163"/>
+	<sprite n="front hair" x="255" y="256" w="25" h="42"/>
+	<sprite n="goatee" x="255" y="468" w="40" h="41" oX="0" oY="0" oW="41" oH="42" r="y"/>
+	<sprite n="head" x="0" y="155" w="113" h="139" oX="0" oY="1" oW="113" oH="140"/>
+	<sprite n="horn" x="406" y="0" w="92" h="57" oX="0" oY="15" oW="57" oH="107" r="y"/>
+	<sprite n="L ear" x="0" y="465" w="116" h="47" oX="0" oY="0" oW="52" oH="120" r="y"/>
+	<sprite n="L eye" x="308" y="463" w="52" h="48" oX="0" oY="0" oW="48" oH="54" r="y"/>
+	<sprite n="L eyeshine" x="500" y="12" w="9" h="8" oX="0" oY="0" oW="8" oH="10" r="y"/>
+	<sprite n="L hand back 1" x="208" y="257" w="41" h="28" oX="11" oY="5" oW="62" oH="75" r="y"/>
+	<sprite n="L hand back 2" x="255" y="410" w="51" h="56" oX="11" oY="9" oW="62" oH="75"/>
+	<sprite n="L hand back 3" x="282" y="206" w="66" h="61" oX="0" oY="0" oW="62" oH="75" r="y"/>
+	<sprite n="L hand front 1" x="282" y="269" w="64" h="54" oX="8" oY="2" oW="62" oH="75" r="y"/>
+	<sprite n="L hand front 2" x="115" y="155" w="64" h="49" oX="11" oY="3" oW="62" oH="75" r="y"/>
+	<sprite n="L hand front 3" x="118" y="465" w="75" h="46" oX="0" oY="0" oW="62" oH="75" r="y"/>
+	<sprite n="L lid 1" x="226" y="206" w="54" h="48" r="y"/>
+	<sprite n="L lid 2" x="350" y="206" w="48" h="54"/>
+	<sprite n="L lid 3" x="350" y="262" w="48" h="54"/>
+	<sprite n="L lid 4" x="226" y="300" w="54" h="48" r="y"/>
+	<sprite n="L lid 5" x="308" y="407" w="48" h="54"/>
+	<sprite n="L lower arm" x="115" y="206" w="63" h="87" r="y"/>
+	<sprite n="L pupil" x="499" y="59" w="13" h="20" oX="2" oY="0" oW="25" oH="13" r="y"/>
+	<sprite n="L upper arm" x="195" y="427" w="58" h="82" r="y"/>
+	<sprite n="R ear" x="161" y="297" w="63" h="128" oX="4" oY="0" oW="72" oH="128"/>
+	<sprite n="R eye" x="358" y="380" w="48" h="51"/>
+	<sprite n="R eyeshine" x="500" y="0" w="11" h="10"/>
+	<sprite n="R hand back 1" x="180" y="257" w="26" h="33" oX="7" oY="34" oW="58" oH="65" r="y"/>
+	<sprite n="R hand back 2" x="161" y="427" w="27" h="36" oX="4" oY="34" oW="58" oH="65" r="y"/>
+	<sprite n="R hand back 3" x="195" y="155" w="32" h="34" oX="3" oY="33" oW="58" oH="65" r="y"/>
+	<sprite n="R hand front 1" x="333" y="325" w="51" h="53" oX="0" oY="0" oW="58" oH="65" r="y"/>
+	<sprite n="R hand front 2" x="281" y="350" w="50" h="55" oX="0" oY="0" oW="58" oH="65" r="y"/>
+	<sprite n="R hand front 3" x="226" y="350" w="53" h="58" oX="0" oY="0" oW="58" oH="65" r="y"/>
+	<sprite n="R lid 1" x="386" y="318" w="48" h="51"/>
+	<sprite n="R lid 2" x="436" y="297" w="51" h="48" r="y"/>
+	<sprite n="R lid 3" x="436" y="347" w="51" h="48" r="y"/>
+	<sprite n="R lid 4" x="362" y="433" w="48" h="51"/>
+	<sprite n="R lid 5" x="412" y="397" w="51" h="48" r="y"/>
+	<sprite n="R lower arm" x="406" y="59" w="91" h="86" r="y"/>
+	<sprite n="R pupil" x="282" y="325" w="24" h="16"/>
+	<sprite n="R upper arm" x="181" y="191" w="43" h="64" r="y"/>
+	<sprite n="shadow" x="229" y="116" w="170" h="88" oX="0" oY="1" oW="170" oH="90"/>
+	<sprite n="skirt" x="0" y="0" w="227" h="153" oX="0" oY="0" oW="233" oH="153"/>
+</TextureAtlas>

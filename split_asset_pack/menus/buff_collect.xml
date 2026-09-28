@@ -1,0 +1,117 @@
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<script src="scripts/BuffCollect.lua"/>
+
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="11" />
+		<templateVar name="$touchPriority" equals="-7" />
+		<templateVar name="$maxAlpha" equals="0.75" />
+	</template>
+
+	<element name="Rewards">
+
+		<size w="lua_sys.screenWidth()" h="lua_sys.screenHeight() - lua_sys.deviceMarginY() * 2"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+		<template type="template_fade" name="Fade">
+			<templateVar name="$layer" equals="Tutorial" />
+			<templateVar name="$priority" equals="1000" />
+			<templateVar name="$touchPriority" equals="-1000" /> <!-- relative to priority -->
+			<templateVar name="$maxAlpha" equals="0.75" />
+			<templateVar name="$autoShow" equals="0"/>
+			<touchComponent name="Touch"/>
+		</template>
+
+		<spriteComponent name="Flash">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+					component:setScale(Vector2( element:absW() * 0.25, element:absH() * 0.25))
+					component:setColor(1.0, 1.0, 1.0)
+					component("layer"):SetString("Tutorial")
+					component("alpha"):SetFloat(0)
+					component("visible"):SetInt(0)
+				]]>
+			</event>
+		</spriteComponent>
+
+		<element name="RewardsBG">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+			<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="20" />
+			<spriteComponent name="Sprite"/>
+			<spriteComponent name="Pattern">
+				<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+			</spriteComponent>
+
+			<element name="RewardsTopBar">
+				<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+				<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-2" />
+				<spriteComponent name="Sprite">
+					<event name="onInit" params="component, element">
+						<![CDATA[
+							component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+							local height = 4 * game.hudScale()
+							component:setScale(Vector2(lua_sys.screenWidth()*0.25, height*0.25))
+							component:setColor(1.0, 1.0, 1.0)
+							component("alpha"):SetFloat(1)
+							component("layer"):SetString("Tutorial")
+						]]>
+					</event>
+				</spriteComponent>
+			</element>
+
+			<element name="RewardsBottomBar">
+				<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+				<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="LEFT" />
+				<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-2" />
+				<spriteComponent name="Sprite">						
+					<event name="onInit" params="component, element">
+						<![CDATA[
+							component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+							local height = 4 * game.hudScale()
+							component:setScale(Vector2(lua_sys.screenWidth()*0.25, height*0.25))
+							component:setColor(1.0, 1.0, 1.0)
+							component("alpha"):SetFloat(1)
+							component("layer"):SetString("Tutorial")
+						]]>
+					</event>
+				</spriteComponent>
+			</element>
+
+			<element name="ContinueLabel">
+				<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+				<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+				<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="8*game.hudScale()" priorityOffset="0" />
+				<textComponent name="Text">
+					<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+					<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="5" yOffset="0" priorityOffset="-1" />
+					<event name="onInit" params="component, element">
+						<![CDATA[
+							component("font"):Set(game.getTextFont())
+							component("size"):SetFloat(0.3*game.hudScale())
+							component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+							component("layer"):SetString("Tutorial")
+							component("text"):SetString("TAP_TO_CONTINUE")
+						]]>
+					</event>
+				</textComponent>
+			</element>
+		
+		</element>
+
+	</element>
+
+	<event name="ShowBuff" params="element">
+		print "Show script"
+		element:Show()
+
+	</event>
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f005ac51bc23c6e750edb9cec3856451:441e7905506d01f395f2b87373a12788:e0218e619e729908d19f2099d6f3c65c$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BCEN_costume_01_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="arm_lower_l" x="855" y="387" w="106" h="72" pX="0.5" pY="0.5" oX="3" oY="6" oW="112" oH="80"/>
+    <sprite n="arm_lower_r" x="519" y="478" w="107" h="73" pX="0.5" pY="0.5" oX="3" oY="5" oW="112" oH="80"/>
+    <sprite n="arm_upper_l" x="350" y="387" w="34" h="95" pX="0.5" pY="0.5" oX="0" oY="3" oW="96" oH="40" r="y"/>
+    <sprite n="arm_upper_r" x="388" y="387" w="34" h="95" pX="0.5" pY="0.5" oX="0" oY="4" oW="96" oH="40" r="y"/>
+    <sprite n="costume_beard" x="279" y="491" w="236" h="287" pX="0.5" pY="0.5" oX="20.2" oY="208.4"/>
+    <sprite n="Costume_glasses" x="426" y="387" w="177" h="87" pX="0.5" pY="0.5" oX="21.2" oY="201"/>
+    <sprite n="costume_head" x="3" y="3" w="343" h="484" pX="0.5" pY="0.5" oX="14" oY="-48.4" oW="360" oH="490"/>
+    <sprite n="hand_l_1" x="503" y="782" w="147" h="224" pX="0.5" pY="0.5" oX="13" oY="23" oW="192" oH="252"/>
+    <sprite n="hand_l_2" x="654" y="3" w="220" h="123" pX="0.5" pY="0.5" oX="44" oY="25" oW="192" oH="252" r="y"/>
+    <sprite n="hand_l_3" x="878" y="3" w="139" h="171" pX="0.5" pY="0.5" oX="37" oY="74" oW="192" oH="252"/>
+    <sprite n="hand_l_4" x="3" y="789" w="70" h="230" pX="0.5" pY="0.5" oX="111" oY="11" oW="192" oH="252"/>
+    <sprite n="hand_l_5" x="418" y="782" w="81" h="229" pX="0.5" pY="0.5" oX="98" oY="7" oW="192" oH="252"/>
+    <sprite n="hand_r_1" x="151" y="789" w="135" h="229" pX="0.5" pY="0.5" oX="12" oY="152" oW="156" oH="388"/>
+    <sprite n="hand_r_2" x="654" y="130" w="218" h="124" pX="0.5" pY="0.5" oX="9" oY="157" oW="156" oH="388" r="y"/>
+    <sprite n="hand_r_3" x="654" y="258" w="203" h="105" pX="0.5" pY="0.5" oX="11" oY="149" oW="156" oH="388" r="y"/>
+    <sprite n="hand_r_4" x="77" y="789" w="70" h="230" pX="0.5" pY="0.5" oX="4" oY="3" oW="156" oH="388"/>
+    <sprite n="hand_r_5" x="876" y="178" w="137" h="205" pX="0.5" pY="0.5" oX="9" oY="30" oW="156" oH="388"/>
+    <sprite n="hand_r_6" x="290" y="782" w="124" h="229" pX="0.5" pY="0.5" oX="20" oY="9" oW="156" oH="388"/>
+    <sprite n="shoulder" x="965" y="387" w="55" h="71" pX="0.5" pY="0.5" oX="4" oY="5" oW="64" oH="80"/>
+    <sprite n="tail" x="654" y="367" w="197" h="146" pX="0.5" pY="0.5" oX="3" oY="1" oW="200" oH="152"/>
+    <sprite n="tummy" x="3" y="491" w="272" h="294" pX="0.5" pY="0.5" oX="2" oY="5" oW="280" oH="304"/>
+</TextureAtlas>

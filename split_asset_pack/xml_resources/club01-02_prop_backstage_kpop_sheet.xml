@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:24308c16e113a6aae58e8ead3eb60f8a:c1f99e74a4038a255e78f85dd5f1852d:5935e531d7a5f0eeb79be10ff3ca942c$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_backstage_kpop_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="bg_flame" x="0" y="281" w="43" h="144" oX="5" oY="3" oW="56" oH="152">
+		<vertices>40 21 48 129 27 147 5 125 22 3</vertices>
+		<verticesUV>35 299 43 407 22 425 0 403 17 281</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="bg_flame_glow" x="110" y="407" w="28" h="75" oX="0" oY="1" oW="28" oH="76">
+		<vertices>28 76 0 76 0 1 28 1</vertices>
+		<verticesUV>138 482 110 482 110 407 138 407</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_large_halo_back" x="0" y="424" w="107" h="68" oX="0" oY="0" oW="107" oH="70">
+		<vertices>107 30 10 68 2 55 0 7 66 0 107 0</vertices>
+		<verticesUV>107 454 10 492 2 479 0 431 66 424 107 424</verticesUV>
+		<triangles>0 4 5 2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_large_halo_front" x="225" y="110" w="107" h="61" oX="0" oY="9" oW="107" oH="70">
+		<vertices>107 70 4 70 0 49 2 41 107 9</vertices>
+		<verticesUV>332 171 229 171 225 150 227 142 332 110</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_large_star" x="0" y="473" w="243" h="292" oX="18" oY="14" oW="264" oH="320">
+		<vertices>209 66 261 165 167 306 98 285 18 199 18 134 105 14</vertices>
+		<verticesUV>191 525 243 624 149 765 80 744 0 658 0 593 87 473</verticesUV>
+		<triangles>0 5 6 4 5 0 1 2 3 4 0 1 4 1 3</triangles>
+	</sprite>
+	<sprite n="bg_large_star_back" x="226" y="0" w="106" h="108" oX="10" oY="4" oW="132" oH="119">
+		<vertices>116 112 10 112 10 4 116 4</vertices>
+		<verticesUV>332 108 226 108 226 0 332 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_large_star_back_glow" x="334" y="0" w="96" h="98" oX="15" oY="9" oW="132" oH="119">
+		<vertices>111 107 15 107 15 9 111 9</vertices>
+		<verticesUV>430 98 334 98 334 0 430 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_large_star_glow" x="0" y="841" w="88" h="117" oX="21" oY="26" oW="132" oH="160">
+		<vertices>109 46 109 143 62 133 21 86 48 26</vertices>
+		<verticesUV>88 861 88 958 41 948 0 901 27 841</verticesUV>
+		<triangles>0 2 3 0 1 2 0 3 4</triangles>
+	</sprite>
+	<sprite n="bg_large_star_trail" x="0" y="0" w="250" h="495" oX="23" oY="63" oW="276" oH="560">
+		<vertices>167 126 246 218 273 348 261 447 214 528 164 558 173 402 123 286 23 194 65 63</vertices>
+		<verticesUV>144 63 223 155 250 285 238 384 191 465 141 495 150 339 100 223 0 131 42 0</verticesUV>
+		<triangles>0 7 8 7 0 1 4 5 6 3 4 6 2 3 6 7 2 6 7 1 2 0 8 9</triangles>
+	</sprite>
+	<sprite n="bg_large_star_trail_glow" x="0" y="170" w="123" h="249" oX="14" oY="23" oW="138" oH="280">
+		<vertices>122 100 137 194 117 247 91 272 76 201 14 76 40 23</vertices>
+		<verticesUV>108 247 123 341 103 394 77 419 62 348 0 223 26 170</verticesUV>
+		<triangles>0 4 5 2 3 4 1 2 4 0 1 4 0 5 6</triangles>
+	</sprite>
+	<sprite n="bg_small_halo_back" x="334" y="100" w="88" h="59" oX="1" oY="0" oW="90" oH="60">
+		<vertices>89 8 89 36 15 59 1 52 1 11 64 0</vertices>
+		<verticesUV>422 108 422 136 348 159 334 152 334 111 397 100</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="bg_small_halo_front" x="235" y="173" w="89" h="48" oX="1" oY="12" oW="90" oH="60">
+		<vertices>88 13 90 23 84 57 38 60 5 60 1 40 8 12</vertices>
+		<verticesUV>322 174 324 184 318 218 272 221 239 221 235 201 242 173</verticesUV>
+		<triangles>3 5 6 3 4 5 1 2 3 0 1 3 0 3 6</triangles>
+	</sprite>
+	<sprite n="bg_small_star" x="145" y="633" w="194" h="248" oX="17" oY="1" oW="238" oH="268">
+		<vertices>211 130 124 249 17 142 119 1</vertices>
+		<verticesUV>339 762 252 881 145 774 247 633</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="bg_small_star_glow" x="166" y="451" w="83" h="94" oX="12" oY="21" oW="119" oH="134">
+		<vertices>95 32 95 81 61 115 12 66 53 21</vertices>
+		<verticesUV>249 462 249 511 215 545 166 496 207 451</verticesUV>
+		<triangles>1 2 3 1 3 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_small_star_trail" x="0" y="737" w="238" h="251" oX="0" oY="12" oW="238" oH="268">
+		<vertices>133 38 238 166 214 263 138 150 0 103 0 12</vertices>
+		<verticesUV>133 763 238 891 214 988 138 875 0 828 0 737</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3 0 4 5</triangles>
+	</sprite>
+	<sprite n="bg_small_star_trail_glow" x="122" y="0" w="102" h="121" oX="9" oY="6" oW="119" oH="134">
+		<vertices>111 51 111 127 9 49 25 6</vertices>
+		<verticesUV>224 45 224 121 122 43 138 0</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+</TextureAtlas>

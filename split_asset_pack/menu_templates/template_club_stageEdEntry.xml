@@ -1,0 +1,117 @@
+<template name="template_club_stageEdEntry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/template_ClubStageEdEntry.lua" />
+	<defaultTemplateVar name="$buttonSpriteName" equals="button_deco_01" />
+	<defaultTemplateVar name="$buttonDownSpriteName" equals="button_deco_01_pressed" />
+	<defaultTemplateVar name="$buttonDisabledSpriteName" equals="button_grey" />
+	<defaultTemplateVar name="$buttonDisabledDownSpriteName" equals="button_grey_pressed" />
+	<defaultTemplateVar name="$buttonSpriteSheet" equals="'xml_resources/clubbox_customization_menu.xml'" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+
+	<ninesliceComponent name="Sprite">
+		<size w="(lua_sys.screenHeight()*1.5)*0.09" h="lua_sys.screenHeight()*0.3" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("topHeight"):SetFloat(10.0)
+			component("bottomHeight"):SetFloat(10.0)
+			component("leftWidth"):SetFloat(10.0)
+			component("rightWidth"):SetFloat(10.0)
+			component("size"):SetFloat(0.4*(lua_sys.screenHeight()/320))
+			component("includeBorder"):SetInt(1)
+			component("spriteName"):SetString("gfx/clubbox/clubbox_deco_frame_9slice")
+			component("layer"):SetString("MidPopUps")
+		</event>
+	</ninesliceComponent>
+
+	<element name="Icon">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="3*(lua_sys.screenHeight()/320)" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" >
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("useOffsets"):SetInt(1)
+				if(element:parent().buttonId < 0) then
+					component("spriteName"):SetString("icon_deco_special_effects")
+					component("sheetName"):SetString("xml_resources/clubbox_customization_menu_act02.xml")
+				else
+					component("spriteName"):SetString(game.getStageEdButtonIcon(element:parent().buttonId))
+					component("sheetName"):SetString("xml_resources/"..game.getStageEdButtonSheet(element:parent().buttonId))
+				end
+
+				component("size"):SetFloat(0.35*(lua_sys.screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="VariantControlButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="2*(lua_sys.screenHeight()/320)" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" >
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("useOffsets"):SetInt(1)
+				component("spriteName"):SetString("$buttonSpriteName")
+				component("sheetName"):SetString("$buttonSpriteSheet")
+				component("size"):SetFloat(0.35*(lua_sys.screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*(lua_sys.screenHeight()/320)" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("font"):Set("font_hype_digital_numbers")
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("size"):SetFloat(0.4*(lua_sys.screenHeight()/320))
+					component("text"):SetString("2")
+					--component("autoScaleFactor"):SetFloat(0.01)
+					--component("autoScale"):SetInt(1)
+
+					component("layer"):SetString("MidPopUps")
+
+					component("originalYOffset"):SetInt(-2)
+					component("originalScale"):SetInt((lua_sys.screenHeight()/320))
+				]]>
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="Alert">
+		<position relativeTo="VariantControlButton" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-5*(screenHeight()/320)" yOffset="5*(screenHeight()/320)" priorityOffset="-1" />
+		<!-- spriteSheetComponent name="Sprite" >
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("costume_exclamation")
+				component("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
+				component("size"):SetFloat(0.4*(screenHeight()/320))
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</spriteSheetComponent>
+		<event name="setVisible" params="element">
+			element.Sprite("visible"):SetInt(1)
+		</event>
+
+		<event name="setInvisible" params="element">
+			element.Sprite("visible"):SetInt(0)
+		</event -->
+
+	</element>
+</template>

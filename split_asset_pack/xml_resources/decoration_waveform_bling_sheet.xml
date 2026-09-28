@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4aa4b7dfa87509319b39c1ce34b7cd95:57bad43682cc10aef4848d78b14fc0e4:b0af7930dce651cb4b356ac79617c49f$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_waveform_bling_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="anglow_holo_01" x="316" y="91" w="94" h="94" oX="6" oY="22" oW="108" oH="116"/>
+	<sprite n="anglow_holo_02" x="113" y="176" w="97" h="116" oX="0" oY="0" oW="108" oH="116"/>
+	<sprite n="anglow_holo_03" x="216" y="261" w="102" h="102" oX="6" oY="14" oW="108" oH="116"/>
+	<sprite n="dermit_holo_01" x="104" y="294" w="110" h="104" oX="2" oY="0" oW="114" oH="104"/>
+	<sprite n="dermit_holo_02" x="0" y="404" w="103" h="108" oX="3" oY="1" oW="114" oH="104" r="y"/>
+	<sprite n="dermit_holo_03" x="0" y="288" w="102" h="114" oX="0" oY="2" oW="114" oH="104" r="y"/>
+	<sprite n="ghazt_holo_01" x="412" y="91" w="74" h="93" oX="0" oY="1" oW="102" oH="75" r="y"/>
+	<sprite n="ghazt_holo_02" x="320" y="351" w="90" h="75" oX="2" oY="0" oW="102" oH="75"/>
+	<sprite n="ghazt_holo_03" x="216" y="365" w="101" h="75" oX="1" oY="0" oW="102" oH="75"/>
+	<sprite n="hornacle_holo_01" x="319" y="428" w="85" h="79" oX="12" oY="1" oW="95" oH="86" r="y"/>
+	<sprite n="hornacle_holo_02" x="320" y="260" w="86" h="89" oX="0" oY="0" oW="95" oH="86" r="y"/>
+	<sprite n="hornacle_holo_03" x="406" y="428" w="83" h="82" oX="12" oY="4" oW="95" oH="86"/>
+	<sprite n="shadow" x="0" y="108" w="202" h="66"/>
+	<sprite n="stage" x="0" y="0" w="206" h="106" oX="1" oY="2" oW="208" oH="110"/>
+	<sprite n="stage_bottom" x="360" y="0" w="127" h="89" oX="8" oY="7" oW="135" oH="100"/>
+	<sprite n="stage_glow" x="208" y="442" w="84" h="55" oX="10" oY="0" oW="104" oH="55"/>
+	<sprite n="stage_side" x="208" y="0" w="150" h="77" oX="0" oY="0" oW="150" oH="80"/>
+	<sprite n="stage_top" x="208" y="79" w="106" h="72" oX="10" oY="13" oW="124" oH="100"/>
+	<sprite n="star_holo_glow_bottom" x="412" y="343" w="74" h="76" oX="1" oY="14" oW="75" oH="105"/>
+	<sprite n="star_holo_glow_mid" x="314" y="187" w="93" h="71" oX="4" oY="3" oW="100" oH="75"/>
+	<sprite n="star_holo_glow_top" x="408" y="260" w="73" h="81" oX="2" oY="3" oW="75" oH="85"/>
+	<sprite n="tpain_holo_01" x="0" y="176" w="111" h="110"/>
+	<sprite n="tpain_holo_02" x="212" y="153" w="100" h="106" oX="10" oY="4" oW="111" oH="110"/>
+	<sprite n="tpain_holo_03" x="105" y="400" w="101" h="110" oX="10" oY="0" oW="111" oH="110"/>
+</TextureAtlas>

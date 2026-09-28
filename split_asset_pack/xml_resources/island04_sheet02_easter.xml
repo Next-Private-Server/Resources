@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5c45cd36bfc897fa66dce0457e20c554:44c14b6e46d75252e7b45e41f49f3995:ddd951db0cfc7b92dab307299a518cc6$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island04_sheet02_easter.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="basket_eggs_left" x="530" y="814" w="381" h="350" oX="1" oY="4" oW="384" oH="356"/>
+	<sprite n="basket_eggs_right" x="0" y="969" w="381" h="338" oX="10" oY="5" oW="392" oH="344"/>
+	<sprite n="carrot_01" x="383" y="1166" w="350" h="165" oX="1" oY="1" oW="168" oH="352" r="y"/>
+	<sprite n="carrot_02" x="913" y="949" w="86" h="218" oX="1" oY="3" oW="88" oH="224"/>
+	<sprite n="carrot_top_01" x="534" y="0" w="426" h="286" oX="1" oY="1" oW="428" oH="288"/>
+	<sprite n="carrot_top_02" x="392" y="725" w="136" h="228" r="y"/>
+	<sprite n="carrot_top_03" x="0" y="725" w="390" h="242" oX="1" oY="3" oW="392" oH="248"/>
+	<sprite n="carrot_top_04" x="0" y="1533" w="234" h="188" oX="2" oY="1" oW="192" oH="236" r="y"/>
+	<sprite n="egg_01" x="316" y="1333" w="312" h="226" oX="21" oY="6" oW="248" oH="320" r="y"/>
+	<sprite n="egg_02" x="0" y="1309" w="314" h="222" oX="0" oY="0" oW="248" oH="320" r="y"/>
+	<sprite n="egg_03" x="534" y="288" w="418" h="524" oX="0" oY="2" oW="420" oH="528"/>
+	<sprite n="egg_04" x="0" y="305" w="524" h="418" oX="1" oY="3" oW="420" oH="528" r="y"/>
+	<sprite n="gold_egg_right_front" x="913" y="814" w="110" h="133" oX="5" oY="3" oW="120" oH="140"/>
+	<sprite n="gold_egg_right_side" x="392" y="955" w="123" h="97" oX="0" oY="0" oW="112" oH="124" r="y"/>
+	<sprite n="nose_nest" x="0" y="0" w="532" h="303" oX="2" oY="2" oW="536" oH="308"/>
+	<sprite n="small_blabbit_egg" x="735" y="1166" w="157" h="185" oX="4" oY="4" oW="164" oH="192"/>
+</TextureAtlas>

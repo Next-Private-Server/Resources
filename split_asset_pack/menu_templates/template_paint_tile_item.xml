@@ -1,0 +1,265 @@
+<template name="template_paint_tile_item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<defaultTemplateVar name="$scale" equals="0.6" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="SelectedSprite" />
+	
+	<aeComponent name="tile">
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">			
+			component("animationName"):SetString("xml_bin/decoration_island01_path01.bin")
+			component("animation"):SetString("Store")
+			component:setScale(Vector2($scale*game.menuScaleY(),$scale*game.menuScaleY()))	
+			component:calculatePosition()
+			component("layer"):SetString("HUD")
+		</event>
+	</aeComponent>	
+	
+	<spriteSheetComponent name="SelectedSprite">
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("path_painting_selected")
+			component("sheetName"):SetString("xml_resources/buttons02.xml")
+			component("layer"):SetString("HUD")
+			component("size"):SetFloat(0.8*$scale*game.menuScaleY())
+			component("visible"):SetInt(0)
+		</event>	
+	</spriteSheetComponent>	
+	
+	<textComponent name="Stored">
+		<size w="42*game.menuScaleY()" />
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="12*game.menuScaleY()" yOffset="-12*game.menuScaleY()" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("size"):SetFloat(0.25*$scale*game.menuScaleY())
+			component("text"):SetString("100")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("HUD")
+			]]>
+		</event>
+		<event name="hide" params="element">
+			element("visible"):SetInt(0)
+		</event>
+
+		<event name="show" params="element">
+			element("visible"):SetInt(1)
+		</event>
+	</textComponent>
+	
+	<element name="Cost">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="4*game.menuScaleY()" yOffset="12*game.menuScaleY()" priorityOffset="-2" />
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString(game.coinsSpriteImgForThisIsland())
+				component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+				component("size"):SetFloat(0.25*$scale*game.menuScaleY())
+				component("layer"):SetString("HUD")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<size w="42*game.menuScaleY()" />
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.25*$scale*game.menuScaleY())
+				component("text"):SetString("100")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("HUD")
+				]]>
+			</event>
+		</textComponent>
+		
+		<event name="hide" params="element">
+			element["Icon"]("visible"):SetInt(0)
+			element["Text"]("visible"):SetInt(0)
+		</event>
+
+		<event name="show" params="element">
+			element["Icon"]("visible"):SetInt(1)
+			element["Text"]("visible"):SetInt(1)
+		</event>
+	</element>
+			
+	<textComponent name="Locked">
+		<size w="42*game.menuScaleY()" />
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+			component("multiline"):SetInt(1)
+			component("font"):Set(game.getTextFont())
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("size"):SetFloat(0.25*$scale*game.menuScaleY())
+			component("text"):SetString("NOTIFICATION_REQUIRES_LEVEL")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("HUD")
+			component("visible"):SetInt(0)
+			]]>
+		</event>
+		<event name="hide" params="element">
+			element("visible"):SetInt(0)
+		</event>
+
+		<event name="show" params="element">
+			element("visible"):SetInt(1)
+		</event>
+	</textComponent>
+	
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()"/>
+		<position relativeTo="PARENT"/>
+		<orientation priorityOffset="-2" />	
+		<event name="onTouchDown" params="component, element">
+			element["tile"]:setColor(0.5, 0.5, 0.5)
+			
+			element("ButtonState"):SetInt(game.BUTTON_PRESSED)
+			element("TickTimer"):SetFloat(0.0)
+		</event>
+		
+		<event name="onTouchUp" params="component, element">
+			local paintscript = element:parent():parent();
+			paintscript:selectTileOption(element, element("StructureId"):GetInt())
+			
+			element["tile"]:setColor(1.0, 1.0, 1.0)
+			
+			element("ButtonState"):SetInt(game.BUTTON_RELEASED)
+			element("TickTimer"):SetFloat(0.0)
+		</event>
+
+		<event name="onTouchRelease" params="component, element">			
+			element["tile"]:setColor(1.0, 1.0, 1.0)
+			
+			element("ButtonState"):SetInt(game.BUTTON_RELEASED)
+			element("TickTimer"):SetFloat(0.0)
+		</event>
+	</touchComponent>
+	
+	<event name="onInit" params="element">
+		element("ButtonState"):SetInt(game.BUTTON_IDLE)
+		element("TickTimer"):SetFloat(0.0)
+		element("isCurrentlyLocked"):SetInt(0)
+		
+		element("StructureId"):SetInt(0)
+		element("enabled"):SetInt(1)
+		element("showDelay"):SetInt(-1)
+	</event>
+	
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+			local buttonState = element("ButtonState"):GetInt()
+			local isLocked = element("isCurrentlyLocked"):GetInt()
+			
+			if(buttonState ~= game.BUTTON_IDLE or isLocked == 1) then
+				local buttonSize = $scale * game.menuScaleY()
+				local newTime = element("TickTimer"):GetFloat() + dt
+				element("TickTimer"):SetFloat(newTime)
+				
+				if(buttonState == game.BUTTON_PRESSED) then
+					local size = lua_sys.smooth(buttonSize, buttonSize - 0.03, newTime*15)
+					element["tile"]:setScale(Vector2(size, size))	
+					
+					if(size == buttonSize - 0.03) then
+						element("ButtonState"):SetInt(game.BUTTON_IDLE)
+					end
+				elseif(buttonState == game.BUTTON_RELEASED) then
+					if(newTime < 0.1) then
+						local size = lua_sys.smooth(buttonSize - 0.03, buttonSize + 0.05, newTime*20)
+						element["tile"]:setScale(Vector2(size, size))	
+						
+					elseif(newTime < 0.3) then
+						local size = lua_sys.smooth(buttonSize + 0.05, buttonSize, (newTime-0.1)*20)
+						element["tile"]:setScale(Vector2(size, size))	
+						
+						if(size == buttonSize) then
+							element("ButtonState"):SetInt(game.BUTTON_IDLE)
+						end
+					else
+						element["tile"]:setScale(Vector2(buttonSize, buttonSize))	
+						element("ButtonState"):SetInt(game.BUTTON_IDLE)
+					end
+				end
+			end
+			
+			if(isLocked == 1 and element("TickTimer"):GetFloat() > 1) then
+				element("isCurrentlyLocked"):SetInt(0)
+				-- Uses real state so that if menu is closed during lock, the button does not become clickable. prevTouchState always set on touchUp
+				-- kinda hacky since prevTouchState is only unset on disable and setInvis, so can be bypassed if files don't call the stored scripts.
+				element["Touch"]("enabled"):SetInt(element("prevTouchState"):GetInt())
+			end
+			
+			local showDelay = element("showDelay"):GetInt();
+			if (showDelay > 0) then			
+				showDelay = showDelay - 1
+				element("showDelay"):SetInt(showDelay);
+				if (showDelay == 0) then
+					element:DoStoredScript("show")
+					if (element("enabled"):GetInt() == 0) then
+						element:DoStoredScript("disable")					
+					end
+				end					
+			end
+		]]>
+	</event>
+	
+	<event name="select" params="element">
+		element["SelectedSprite"]("visible"):SetInt(1)
+	</event>
+	
+	<event name="deselect" params="element">
+		element["SelectedSprite"]("visible"):SetInt(0)
+	</event>
+
+	<event name="hide" params="element">
+		element["tile"]("visible"):SetInt(0)
+		element["Stored"]("visible"):SetInt(0)
+		element["Locked"]("visible"):SetInt(0)
+		element["SelectedSprite"]("visible"):SetInt(0)
+		element["Touch"]("enabled"):SetInt(0)
+	</event>
+	
+	<event name="show" params="element">
+		element["tile"]("visible"):SetInt(1)
+		element["Stored"]("visible"):SetInt(1)
+		element["Touch"]("enabled"):SetInt(1)
+	</event>	
+	
+	<event name="showDelay" params="element">
+		element("showDelay"):SetInt(1)
+	</event>	
+	
+	<event name="enable" params="element">
+		element("enabled"):SetInt(1)
+		element["SelectedSprite"]("alpha"):SetFloat(1.0)
+		element["Cost"]["Icon"]("alpha"):SetFloat(1.0)
+		element["Cost"]["Text"]("alpha"):SetFloat(1.0)
+		element["Stored"]("alpha"):SetFloat(1.0)
+		element["Touch"]("enabled"):SetInt(1)
+	</event>
+	
+	<event name="disable" params="element">
+		element("enabled"):SetInt(0)
+		element["SelectedSprite"]("alpha"):SetFloat(0.5)
+		element["Cost"]["Icon"]("alpha"):SetFloat(0.5)
+		element["Cost"]["Text"]("alpha"):SetFloat(0.5)
+		element["Stored"]("alpha"):SetFloat(0.5)
+		element["Touch"]("enabled"):SetInt(0)
+	</event>	
+	
+</template>

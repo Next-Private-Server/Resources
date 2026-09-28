@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:212369fbe5dc6b1b7a1822bb518fd888:66578b1fcd7da7e158c70a1e78423a3a:d82abc05360ca5cf14a2c0638ef03312$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_DV_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="DV_arm_over" x="355" y="0" w="42" h="52" r="y"/>
+	<sprite n="DV_arm_over_fungus" x="212" y="267" w="26" h="30" oX="5" oY="1" oW="43" oH="31" r="y"/>
+	<sprite n="DV_arm_under" x="354" y="104" w="51" h="52"/>
+	<sprite n="DV_arm_under_fungus" x="178" y="404" w="24" h="19" oX="7" oY="1" oW="40" oH="27"/>
+	<sprite n="DV_eyeback_clear" x="152" y="123" w="37" h="37" oX="4" oY="4" oW="43" oH="45"/>
+	<sprite n="DV_eyeback_red" x="191" y="123" w="37" h="37" oX="3" oY="4" oW="43" oH="45"/>
+	<sprite n="DV_eyelids_01" x="263" y="404" w="46" h="101" oX="1" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_eyelids_02" x="307" y="0" w="46" h="102" oX="2" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_eyelids_03" x="178" y="299" w="46" h="103" oX="1" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_eyelids_04" x="212" y="162" w="46" h="103" oX="1" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_eyelids_05" x="226" y="299" w="46" h="103" oX="1" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_eyelids_06" x="260" y="162" w="46" h="103" oX="1" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_foot" x="274" y="298" w="52" h="55" r="y"/>
+	<sprite n="DV_foot_toes_left" x="426" y="0" w="25" h="51" oX="2" oY="18" oW="55" oH="52" r="y"/>
+	<sprite n="DV_foot_toes_right" x="399" y="0" w="25" h="52" oX="0" oY="19" oW="55" oH="52" r="y"/>
+	<sprite n="DV_hand_over" x="308" y="162" w="35" h="55"/>
+	<sprite n="DV_hand_over_fungus" x="446" y="129" w="35" h="26" oX="6" oY="0" oW="35" oH="42" r="y"/>
+	<sprite n="DV_hand_under" x="281" y="267" w="36" h="28" r="y"/>
+	<sprite n="DV_head" x="96" y="0" w="108" h="121" oX="12" oY="55" oW="146" oH="163" r="y"/>
+	<sprite n="DV_head_left_bodyspores" x="125" y="425" w="110" h="77" oX="12" oY="65" oW="146" oH="163"/>
+	<sprite n="DV_head_right_bodyspores" x="206" y="0" w="99" h="108" oX="14" oY="63" oW="146" oH="163" r="y"/>
+	<sprite n="DV_head_right_fungus01" x="345" y="162" w="42" h="54" oX="1" oY="5" oW="49" oH="63"/>
+	<sprite n="DV_head_right_fungus02" x="407" y="103" w="37" h="35" oX="3" oY="5" oW="41" oH="43"/>
+	<sprite n="DV_head_teeth_left" x="0" y="302" w="96" h="132" oX="6" oY="0" oW="146" oH="96" r="y"/>
+	<sprite n="DV_head_teeth_right" x="0" y="165" w="81" h="135" oX="6" oY="9" oW="146" oH="96" r="y"/>
+	<sprite n="DV_jaw_back" x="0" y="0" w="94" h="163"/>
+	<sprite n="DV_jaw_bottom" x="156" y="162" w="54" h="120" oX="4" oY="0" oW="124" oH="83" r="y"/>
+	<sprite n="DV_jaw_bottom_left" x="0" y="436" w="123" h="73" oX="1" oY="5" oW="124" oH="83"/>
+	<sprite n="DV_jaw_bottom_right" x="98" y="299" w="78" h="124" oX="0" oY="0" oW="124" oH="83" r="y"/>
+	<sprite n="DV_leg" x="251" y="110" w="52" h="50" r="y"/>
+	<sprite n="DV_leg_spots" x="483" y="129" w="25" h="31" oX="5" oY="1" oW="40" oH="30" r="y"/>
+	<sprite n="DV_mouth_01" x="229" y="110" w="20" h="11" oX="2" oY="0" oW="23" oH="13"/>
+	<sprite n="DV_mouth_02" x="206" y="110" w="21" h="11" oX="1" oY="0" oW="23" oH="13"/>
+	<sprite n="DV_mouth_03" x="156" y="284" w="23" h="13"/>
+	<sprite n="DV_mouth_04" x="181" y="284" w="15" h="13" oX="4" oY="0" oW="23" oH="13"/>
+	<sprite n="DV_outter_arm" x="96" y="123" w="54" h="37" r="y"/>
+	<sprite n="DV_outter_arm_fungus" x="453" y="46" w="47" h="36" oX="0" oY="1" oW="52" oH="42"/>
+	<sprite n="DV_outter_hand" x="305" y="110" w="47" h="50"/>
+	<sprite n="DV_pupil" x="204" y="404" w="20" h="19"/>
+	<sprite n="DV_pupil_blind" x="230" y="123" w="19" h="20" r="y"/>
+	<sprite n="DV_right eyelids_01" x="274" y="355" w="44" h="47" oX="27" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_right eyelids_02" x="355" y="54" w="44" h="47" oX="27" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_right eyelids_03" x="401" y="54" w="44" h="47" oX="27" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_right eyelids_04" x="308" y="219" w="44" h="46" oX="27" oY="1" oW="105" oH="47" r="y"/>
+	<sprite n="DV_right eyelids_05" x="453" y="0" w="47" h="44" oX="27" oY="1" oW="105" oH="47"/>
+	<sprite n="DV_right eyelids_06" x="447" y="84" w="44" h="43" oX="30" oY="2" oW="105" oH="47" r="y"/>
+	<sprite n="DV_stalk_01" x="263" y="267" w="16" h="29" oX="14" oY="9" oW="43" oH="45"/>
+	<sprite n="DV_stalk_02" x="237" y="420" w="24" h="25" oX="11" oY="10" oW="43" oH="45"/>
+	<sprite n="DV_stalk_03" x="226" y="404" w="35" h="14" oX="16" oY="5" oW="43" oH="45" r="y"/>
+	<sprite n="DV_stalk_04" x="237" y="447" w="23" h="27" oX="10" oY="12" oW="43" oH="45" r="y"/>
+	<sprite n="DV_stalk_05" x="240" y="267" w="21" h="29" oX="10" oY="14" oW="43" oH="45"/>
+	<sprite n="DV_stalk_06" x="237" y="476" w="22" h="22" oX="11" oY="13" oW="43" oH="45"/>
+	<sprite n="DV_stalk_07" x="319" y="267" w="26" h="27" oX="9" oY="9" oW="43" oH="45" r="y"/>
+	<sprite n="shadow" x="83" y="165" w="71" h="132" r="y"/>
+</TextureAtlas>

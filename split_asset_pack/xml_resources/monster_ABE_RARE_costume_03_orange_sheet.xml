@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:886da4ddc7f6cb4d7a5a886d784e5838:276680cbe30f775198c1933d4b058a47:d768ad1ff949e05f08d293522fa68848$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_RARE_costume_03_orange_sheet.png" width="256" height="256" hires="true">
+    <sprite n="ABE_fur_eyeback_RARE" x="76" y="119" w="38" h="81" oX="7" oY="6" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_fur_eyelids_1_RARE" x="148" y="3" w="81" h="38" oX="7" oY="6" oW="88" oH="48"/>
+    <sprite n="ABE_fur_eyelids_2_RARE" x="148" y="45" w="81" h="38" oX="7" oY="6" oW="88" oH="48"/>
+    <sprite n="ABE_fur_mouth_1_RARE" x="76" y="204" w="34" h="40" oX="18" oY="4" oW="74" oH="48" r="y"/>
+    <sprite n="ABE_fur_mouth_2_RARE" x="114" y="204" w="30" h="40" oX="18" oY="7" oW="74" oH="48" r="y"/>
+    <sprite n="ABE_fur_mouth_3_RARE" x="118" y="3" w="26" h="40" oX="18" oY="8" oW="74" oH="48" r="y"/>
+    <sprite n="ABE_fur_mouth_4_RARE" x="118" y="47" w="25" h="24" oX="28" oY="10" oW="74" oH="48" r="y"/>
+    <sprite n="ABE_thumpie_fur_backface_RARE" x="3" y="119" w="69" h="109" oX="-11" oY="2" oW="74" oH="112"/>
+    <sprite n="ABE_thumpie_fur_RARE" x="3" y="3" w="102" h="112" oX="0" oY="0" oW="112" oH="112"/>
+</TextureAtlas>

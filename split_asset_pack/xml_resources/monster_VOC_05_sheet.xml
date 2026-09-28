@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a24a7039fb60e3dfb6cdd180f6d52f14:faa9c50e1de392f05454f5ed7c3a9c72:29ab9256fe6aeda8dad1b960dce12028$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_VOC_05_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="VOC_04_lowerarm_l" x="128" y="387" w="124" h="76" oX="7" oY="13" oW="90" oH="150" r="y"/>
+	<sprite n="VOC_04_lowerarm_r" x="342" y="321" w="131" h="85" oX="7" oY="11" oW="99" oH="153" r="y"/>
+	<sprite n="VOC_04_lowerleg_l" x="0" y="390" w="122" h="58" oX="8" oY="18" oW="74" oH="158" r="y"/>
+	<sprite n="VOC_04_lowerleg_r" x="342" y="256" w="133" h="63" oX="7" oY="12" oW="77" oH="157" r="y"/>
+	<sprite n="VOC_04_midleg_l" x="0" y="563" w="71" h="36" oX="2" oY="10" oW="40" oH="90" r="y"/>
+	<sprite n="VOC_04_midleg_r" x="475" y="351" w="37" h="68" oX="2" oY="5" oW="41" oH="78"/>
+	<sprite n="VOC_04_upperarm_l" x="0" y="450" w="122" h="45" oX="3" oY="2" oW="51" oH="126" r="y"/>
+	<sprite n="VOC_04_upperarm_r" x="342" y="134" w="138" h="48" oX="3" oY="9" oW="54" oH="156" r="y"/>
+	<sprite n="VOC_04_upperleg_l" x="128" y="322" w="125" h="63" oX="9" oY="1" oW="81" oH="127" r="y"/>
+	<sprite n="VOC_04_upperleg_r" x="0" y="322" w="126" h="66" oX="9" oY="9" oW="83" oH="144" r="y"/>
+	<sprite n="VOC_05_chest" x="342" y="0" w="140" h="132" oX="9" oY="10" oW="150" oH="165" r="y"/>
+	<sprite n="VOC_05_eyelid_l_01" x="0" y="636" w="39" h="36" oX="0" oY="1" oW="38" oH="42" r="y"/>
+	<sprite n="VOC_05_eyelid_l_02" x="238" y="575" w="39" h="36" oX="0" oY="1" oW="38" oH="42" r="y"/>
+	<sprite n="VOC_05_eyelid_l_03" x="191" y="603" w="39" h="36" oX="0" oY="1" oW="38" oH="42" r="y"/>
+	<sprite n="VOC_05_eyelid_l_04" x="119" y="604" w="39" h="36" oX="0" oY="1" oW="38" oH="42" r="y"/>
+	<sprite n="VOC_05_eyelid_r_01" x="469" y="555" w="41" h="44" oX="1" oY="4" oW="45" oH="45" r="y"/>
+	<sprite n="VOC_05_eyelid_r_02" x="465" y="601" w="44" h="41" oX="1" oY="4" oW="45" oH="45"/>
+	<sprite n="VOC_05_eyelid_r_03" x="192" y="560" w="44" h="41" oX="1" oY="4" oW="45" oH="45"/>
+	<sprite n="VOC_05_eyelid_r_04" x="73" y="596" w="44" h="41" oX="1" oY="4" oW="45" oH="45"/>
+	<sprite n="VOC_05_foot" x="254" y="484" w="79" h="58" oX="13" oY="9" oW="105" oH="76"/>
+	<sprite n="VOC_05_foot_02" x="255" y="322" w="82" h="63" oX="16" oY="12" oW="114" oH="87"/>
+	<sprite n="VOC_05_haircover" x="254" y="387" w="82" h="54" r="y"/>
+	<sprite n="VOC_05_hand_01" x="124" y="465" w="80" h="70" oX="18" oY="15" oW="120" oH="101"/>
+	<sprite n="VOC_05_hand_02" x="410" y="559" w="53" h="70" oX="24" oY="15" oW="120" oH="101"/>
+	<sprite n="VOC_05_hand_03" x="73" y="523" w="48" h="71" oX="24" oY="16" oW="120" oH="101"/>
+	<sprite n="VOC_05_hand_04" x="0" y="497" w="71" h="64" oX="20" oY="16" oW="120" oH="101" r="y"/>
+	<sprite n="VOC_05_head" x="0" y="0" w="340" h="320"/>
+	<sprite n="VOC_05_mouth_01" x="123" y="537" w="67" h="31" oX="10" oY="3" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_02" x="337" y="453" w="81" h="36" oX="4" oY="7" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_03" x="254" y="443" w="81" h="39" oX="4" oY="7" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_04" x="338" y="408" w="82" h="43" oX="4" oY="7" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_05" x="335" y="537" w="73" h="36" oX="8" oY="8" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_06" x="473" y="421" w="39" h="73" oX="8" oY="8" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_07" x="335" y="491" w="73" h="44" oX="8" oY="8" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_08" x="422" y="408" w="49" h="73" oX="8" oY="8" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_09" x="484" y="104" w="24" h="57" oX="13" oY="7" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_10" x="410" y="528" w="57" h="29" oX="13" oY="7" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_11" x="477" y="291" w="35" h="58" oX="13" oY="7" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_12" x="471" y="496" w="41" h="57" oX="13" oY="7" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_13" x="206" y="465" w="46" h="57" oX="13" oY="7" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_14" x="43" y="601" w="21" h="33" oX="22" oY="6" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_15" x="484" y="72" w="26" h="30" oX="23" oY="7" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_16" x="64" y="639" w="37" h="34" oX="24" oY="5" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_17" x="206" y="524" w="46" h="34" oX="24" oY="5" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_18" x="123" y="570" w="66" h="32" oX="12" oY="7" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_19" x="482" y="163" w="30" h="61" oX="14" oY="8" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_20" x="479" y="226" w="33" h="63" oX="13" oY="7" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_21" x="73" y="497" w="49" h="24" oX="19" oY="9" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_22" x="0" y="674" w="34" h="33" oX="22" oY="9" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_23" x="420" y="483" w="49" h="43" oX="20" oY="6" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_24" x="0" y="601" w="41" h="33" oX="22" oY="8" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_mouth_25" x="254" y="544" w="72" h="29" oX="7" oY="9" oW="90" oH="60"/>
+	<sprite n="VOC_05_mouth_26" x="484" y="0" w="26" h="70" oX="8" oY="10" oW="90" oH="60" r="y"/>
+	<sprite n="VOC_05_pupil" x="41" y="636" w="21" h="21" oX="1" oY="0" oW="22" oH="21"/>
+	<sprite n="VOC_05_shadow" x="342" y="184" w="135" h="70" oX="3" oY="5" oW="140" oH="80"/>
+</TextureAtlas>

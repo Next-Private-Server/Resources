@@ -1,0 +1,93 @@
+<template name="template_player_profile_item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$targetLength" equals="40*game.windowScaleY()" />
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$spriteName" equals="'gfx/menu/social/Avatars/Avatar0'" />
+
+	<size w="element:templateVars().targetLength" h="element:templateVars().targetLength" />
+
+	<event name="onInit" params="element">
+		element("TargetLength"):SetFloat(element:templateVars().targetLength)
+		element:setSize(lua_sys.Vector2(element:templateVars().targetLength, element:templateVars().targetLength))
+	</event>
+
+	<spriteComponent name="Sprite">
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("$spriteName")
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+	</spriteComponent>
+	
+	<textComponent name="Text">
+		<size w="100*game.windowScaleY()" />
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("size"):SetFloat(0.25*game.windowScaleY())
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString("Meebs are cute")
+			component("autoScale"):SetInt(1)
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+	</textComponent>
+
+	<spriteSheetComponent name="SelectedSprite">
+		<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("select_checkmark")
+			component("sheetName"):SetString("xml_resources/buttons02.xml")
+			component("size"):SetFloat(0.25*game.windowScaleY())
+			component("visible"):SetInt(0)
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>	
+	</spriteSheetComponent>	
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	
+		<event name="onTouchUp" params="component, element">
+			element:parent():parent():selectItem(element("ItemId"):GetInt())
+		</event>
+	</touchComponent>
+	
+	<event name="setInvisible" params="element">
+		element:C("Sprite")("visible"):SetInt(0)
+		element:C("SelectedSprite")("visible"):SetInt(0)
+		element:C("Text")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt(0)
+	</event>
+
+	<event name="setVisible" params="element">
+		element:C("Sprite")("visible"):SetInt(1)
+		element:C("Text")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt(1)
+	</event>
+	
+	<event name="deselect" params="element">
+		element:C("SelectedSprite")("visible"):SetInt(0)
+	</event>
+
+	<event name="select" params="element">
+		element:C("SelectedSprite")("visible"):SetInt(1)
+	</event>
+
+</template>

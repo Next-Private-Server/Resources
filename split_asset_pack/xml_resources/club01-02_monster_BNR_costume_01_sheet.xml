@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9c4bf2878c154e986f3d20c203c8f25f:627d98a385673071c2f25d36e2bb0199:10d7ae4805f7afe12cd05f8c1bd59e98$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_BNR_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BNR_bow" x="0" y="156" w="26" h="336" pX="0.79972" pY="0.468254" oX="11" oY="19" oW="357" oH="63" r="y"/>
+	<sprite n="BNR_cap" x="0" y="0" w="124" h="75" pX="0.64" pY="0.5" oX="13" oY="7" oW="150" oH="89"/>
+	<sprite n="BNR_coat" x="0" y="77" w="102" h="77" pX="0.5" pY="0.794118" oX="6" oY="4" oW="114" oH="85"/>
+	<sprite n="BNR_skirt" x="126" y="0" w="111" h="104" pX="0.5" pY="0.350877" oX="5" oY="5" oW="121" oH="114"/>
+	<sprite n="BNR_sleeve_l" x="100" y="263" w="64" h="46" pX="0.307692" pY="0.227273" oX="3" oY="5" oW="52" oH="77" r="y"/>
+	<sprite n="BNR_sleeve_l_back" x="213" y="324" w="43" h="22" pX="0.29" pY="-1.56818" oX="4" oY="0" oW="50" oH="22"/>
+	<sprite n="BNR_sleeve_r" x="28" y="269" w="54" h="48" pX="0.363636" pY="0.252688" oX="3" oY="13" oW="66" oH="93" r="y"/>
+	<sprite n="BNR_sleeve_r_back" x="166" y="309" w="45" h="21" pX="0.447368" pY="-0.676471" oX="6" oY="7" oW="57" oH="34"/>
+	<sprite n="L foot" x="166" y="274" w="53" h="33" pX="0.5" pY="0.5"/>
+	<sprite n="L lower arm" x="221" y="274" w="24" h="48" pX="0.5" pY="0.5" oX="0" oY="24" oW="24" oH="72"/>
+	<sprite n="L lower leg" x="180" y="215" w="72" h="57" pX="0.5" pY="0.5" oX="1" oY="0" oW="78" oH="102"/>
+	<sprite n="L upper arm" x="104" y="106" w="90" h="25" pX="0.5" pY="0.5" oX="0" oY="0" oW="26" oH="90" r="y"/>
+	<sprite n="L upper leg" x="104" y="213" w="74" h="23" pX="0.5" pY="0.5" oX="1" oY="0" oW="24" oH="74" r="y"/>
+	<sprite n="L_ankle" x="104" y="133" w="87" h="78" pX="0.5" pY="0.5" oX="0" oY="15" oW="78" oH="102" r="y"/>
+	<sprite n="R foot" x="193" y="175" w="62" h="38" pX="0.5" pY="0.5"/>
+	<sprite n="R lower arm" x="84" y="311" w="42" h="22" pX="0.5" pY="0.5" oX="0" oY="14" oW="22" oH="56" r="y"/>
+	<sprite n="R lower leg" x="196" y="106" w="60" h="67" pX="0.5" pY="0.5" oX="8" oY="0" oW="76" oH="104" r="y"/>
+	<sprite n="R upper arm" x="104" y="238" w="70" h="23" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="R upper leg" x="28" y="245" w="70" h="22" pX="0.5" pY="0.5" oX="1" oY="0" oW="24" oH="70" r="y"/>
+	<sprite n="R_ankle" x="28" y="156" w="74" h="87" pX="0.5" pY="0.5" oX="1" oY="17" oW="76" oH="104"/>
+</TextureAtlas>

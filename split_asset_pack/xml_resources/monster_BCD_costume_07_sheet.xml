@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:040cdc102ffd3af33af109593616c89b:c5175d29287485433eb2388849bf128d:5dacf4bbd5698a4b994f68962e180f16$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BCD_costume_07_sheet.png" width="512" height="512" hires="true">
+    <sprite n="BCD_body" x="3" y="3" w="174" h="222"/>
+    <sprite n="BCD_left_arm" x="262" y="3" w="52" h="40" r="y"/>
+    <sprite n="BCD_left_leg" x="460" y="65" w="22" h="50" r="y"/>
+    <sprite n="BCD_right_arm" x="460" y="3" w="42" h="58"/>
+    <sprite n="BCD_right_leg" x="181" y="3" w="56" h="40"/>
+    <sprite n="BCD_tail" x="181" y="47" w="114" h="61" oX="149.4" oY="52.4" oW="72" oH="128" r="y"/>
+    <sprite n="BCD_tongue01" x="185" y="379" w="131" h="115" oX="34" oY="18" oW="166" oH="164"/>
+    <sprite n="BCD_tongue02" x="78" y="229" w="98" h="146" oX="19" oY="35" oW="166" oH="164" r="y"/>
+    <sprite n="BCD_tongue03" x="3" y="229" w="71" h="159" oX="6" oY="57" oW="166" oH="164" r="y"/>
+    <sprite n="BCD_tongue04" x="320" y="3" w="136" h="105" oX="29" oY="59" oW="166" oH="164"/>
+    <sprite n="BCD_tongue05" x="180" y="229" w="78" h="146" oX="19" oY="35" oW="166" oH="164" r="y"/>
+    <sprite n="BCD_tongue06" x="95" y="379" w="86" h="118" oX="79" oY="2" oW="166" oH="164"/>
+    <sprite n="BCD_tongue07" x="3" y="392" w="88" h="116" oX="77" oY="5" oW="166" oH="164"/>
+    <sprite n="BCD_tongue08" x="181" y="112" w="106" h="110" oX="59" oY="12" oW="166" oH="164"/>
+</TextureAtlas>

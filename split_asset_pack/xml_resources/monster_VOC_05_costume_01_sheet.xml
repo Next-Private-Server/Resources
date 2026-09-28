@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2e04df2c558b1e8a80e4a647368df612:398d54205c5ad6ab4478f8a87c0c9793:25beb5e54178d9ff44bea071c9f275c1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_VOC_05_costume_01_sheet.png" width="64" height="128" hires="true" version="1">
+	<sprite n="VOC_05_bowtie" x="0" y="0" w="57" h="80" pX="0.7758620689655172" pY="1.2280701754385965" oX="4" oY="0" oW="87" oH="57" r="y"/>
+</TextureAtlas>

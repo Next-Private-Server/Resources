@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f0c31906041c2653d363e8b10689d537:a560be6094dbfd5f6258c7deb5730743:87df2550ce4f4080160fe9ce7f034db0$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island_clubbox_prestige_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="clubboxext_building" x="0" y="0" w="490" h="465" oX="5" oY="7" oW="500" oH="480"/>
+	<sprite n="clubboxext_building_windowglow" x="0" y="746" w="133" h="146"/>
+	<sprite n="clubboxext_glow" x="153" y="576" w="99" h="132" r="y"/>
+	<sprite n="clubboxext_hoverring_1" x="0" y="894" w="78" h="119" oX="0" oY="1" oW="120" oH="80" r="y"/>
+	<sprite n="clubboxext_hoverring_2" x="80" y="894" w="71" h="105" oX="8" oY="5" oW="120" oH="80" r="y"/>
+	<sprite n="clubboxext_hoverring_3" x="294" y="676" w="64" h="92" oX="14" oY="8" oW="120" oH="80" r="y"/>
+	<sprite n="clubboxext_interior" x="0" y="576" w="151" h="168" oX="4" oY="1" oW="160" oH="170"/>
+	<sprite n="clubboxext_jet_empty_left_front" x="153" y="886" w="87" h="138" oX="24" oY="60" oW="130" oH="240"/>
+	<sprite n="clubboxext_jet_empty_right_front" x="135" y="746" w="88" h="138" oX="18" oY="58" oW="130" oH="240"/>
+	<sprite n="clubboxext_jet_green_puck" x="225" y="710" w="67" h="98" oX="16" oY="26" oW="130" oH="120" r="y"/>
+	<sprite n="clubboxext_jet_left" x="231" y="467" w="225" h="107" oX="11" oY="5" oW="130" oH="240" r="y"/>
+	<sprite n="clubboxext_jet_orange_puck" x="254" y="576" w="66" h="98" oX="16" oY="27" oW="130" oH="120" r="y"/>
+	<sprite n="clubboxext_jet_right" x="0" y="467" w="229" h="107" oX="11" oY="5" oW="130" oH="240" r="y"/>
+	<sprite n="clubboxext_jet_yellow_puck" x="225" y="810" w="98" h="67" oX="16" oY="25" oW="130" oH="120"/>
+</TextureAtlas>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5ccf1c92cb32134affc137ebf4867b75:0036b3ec936fb576ccbb05fc9a6d9121:dd24b78840602fa0c64cfb4ced30ed54$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_S15_EPIC_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="S15_hat_back_EPIC" x="534" y="404" w="52" h="103" oX="4" oY="3" oW="112" oH="60" r="y"/>
+    <sprite n="S15_hat_back_wing_EPIC" x="3" y="949" w="108" h="71" r="y"/>
+    <sprite n="S15_hat_front_EPIC" x="3" y="760" w="159" h="185" oX="1" oY="6" oW="188" oH="172" r="y"/>
+    <sprite n="S15_hat_front_wing_EPIC" x="115" y="949" w="108" h="71" r="y"/>
+    <sprite n="S15_head_beard_EPIC" x="3" y="528" w="191" h="228" r="y"/>
+    <sprite n="S15_head_EPIC" x="3" y="3" w="259" h="278" oX="0" oY="0" oW="263" oH="280"/>
+    <sprite n="S15_head_EPIC_UL" x="3" y="285" w="106" h="239" oX="3" oY="0" oW="263" oH="280" r="y"/>
+    <sprite n="S15_head_moustache_EPIC" x="474" y="512" w="53" h="141" r="y"/>
+    <sprite n="S15_left_eyelid_01_EPIC" x="639" y="477" w="58" h="69" oX="7" oY="7" oW="68" oH="80"/>
+    <sprite n="S15_left_eyelid_02_EPIC" x="555" y="653" w="61" h="73" oX="4" oY="3" oW="68" oH="80"/>
+    <sprite n="S15_left_eyelid_03_EPIC" x="615" y="914" w="61" h="70" oX="4" oY="6" oW="68" oH="80"/>
+    <sprite n="S15_left_eyelid_04_EPIC" x="198" y="694" w="70" h="62" oX="3" oY="6" oW="68" oH="80" r="y"/>
+    <sprite n="S15_left_eyelid_05_EPIC" x="272" y="694" w="70" h="62" oX="3" oY="6" oW="68" oH="80" r="y"/>
+    <sprite n="S15_left_eyelid_06_EPIC" x="620" y="651" w="60" h="69" oX="5" oY="7" oW="68" oH="80"/>
+    <sprite n="S15_left_eyelid_07_EPIC" x="590" y="404" w="59" h="69" oX="6" oY="7" oW="68" oH="80"/>
+    <sprite n="S15_left_eyelid_08_EPIC" x="574" y="511" w="61" h="69" oX="4" oY="7" oW="68" oH="80"/>
+    <sprite n="S15_left_foot_EPIC" x="433" y="427" w="97" h="81" oX="0" oY="0" oW="100" oH="81"/>
+    <sprite n="S15_left_hand_hat_01_EPIC" x="569" y="361" w="36" h="39" oX="41" oY="50" oW="103" oH="92" r="y"/>
+    <sprite n="S15_left_hand_hat_02_EPIC" x="724" y="686" w="43" h="57" oX="27" oY="49" oW="103" oH="92" r="y"/>
+    <sprite n="S15_left_hand_hat_03_EPIC" x="368" y="427" w="61" h="94" oX="0" oY="17" oW="103" oH="92" r="y"/>
+    <sprite n="S15_left_hand_hat_04_EPIC" x="696" y="3" w="64" h="75" oX="35" oY="0" oW="103" oH="92"/>
+    <sprite n="S15_left_hand_hat_05_EPIC" x="545" y="837" w="61" h="75" oX="38" oY="0" oW="103" oH="92"/>
+    <sprite n="S15_left_lower_arm_EPIC" x="483" y="758" w="58" h="147" oX="0" oY="0" oW="147" oH="59" r="y"/>
+    <sprite n="S15_left_lower_arm_OL_EPIC" x="493" y="657" w="58" h="97" oX="11" oY="0" oW="147" oH="59" r="y"/>
+    <sprite n="S15_left_lower_leg_EPIC" x="113" y="489" w="90" h="35" oX="1" oY="1" oW="36" oH="96" r="y"/>
+    <sprite n="S15_left_upper_arm_01_EPIC" x="514" y="3" w="61" h="142" oX="1" oY="8" oW="144" oH="70" r="y"/>
+    <sprite n="S15_left_upper_arm_02_EPIC" x="346" y="690" w="143" h="64" oX="0" oY="6" oW="144" oH="70"/>
+    <sprite n="S15_left_upper_arm_03_EPIC" x="401" y="525" w="69" h="143" oX="0" oY="0" oW="144" oH="70" r="y"/>
+    <sprite n="S15_left_upper_leg_EPIC" x="534" y="149" w="40" h="104"/>
+    <sprite n="S15_mouth_01_EPIC" x="227" y="927" w="161" h="94" oX="12" oY="20" oW="184" oH="136"/>
+    <sprite n="S15_mouth_02_EPIC" x="279" y="760" w="95" h="162" oX="12" oY="19" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_03_EPIC" x="198" y="528" w="100" h="162" oX="12" oY="16" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_04_EPIC" x="217" y="285" w="104" h="161" oX="12" oY="16" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_05_EPIC" x="166" y="760" w="109" h="163" oX="12" oY="16" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_06_EPIC" x="302" y="527" w="95" h="159" oX="13" oY="19" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_07_EPIC" x="378" y="758" w="101" h="155" oX="13" oY="13" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_08_EPIC" x="392" y="917" w="154" h="104" oX="13" oY="10" oW="184" oH="136"/>
+    <sprite n="S15_mouth_09_EPIC" x="325" y="277" w="107" h="146" oX="17" oY="9" oW="184" oH="136" r="y"/>
+    <sprite n="S15_mouth_10_EPIC" x="266" y="3" w="109" h="146" oX="17" oY="7" oW="184" oH="136" r="y"/>
+    <sprite n="S15_pupil_EPIC" x="579" y="106" w="21" h="29" oX="1" oY="2" oW="24" oH="32"/>
+    <sprite n="S15_pupil_R_EPIC" x="531" y="620" w="22" h="29" oX="2" oY="1" oW="24" oH="32"/>
+    <sprite n="S15_right_eyelid_01_EPIC" x="659" y="724" w="61" h="67" oX="5" oY="10" oW="72" oH="80"/>
+    <sprite n="S15_right_eyelid_02_EPIC" x="545" y="758" w="63" h="75" oX="5" oY="2" oW="72" oH="80"/>
+    <sprite n="S15_right_eyelid_03_EPIC" x="301" y="450" w="63" h="73" oX="5" oY="4" oW="72" oH="80"/>
+    <sprite n="S15_right_eyelid_04_EPIC" x="550" y="916" w="61" h="73" oX="5" oY="4" oW="72" oH="80"/>
+    <sprite n="S15_right_eyelid_05_EPIC" x="610" y="837" w="61" h="73" oX="5" oY="4" oW="72" oH="80"/>
+    <sprite n="S15_right_eyelid_06_EPIC" x="647" y="83" w="67" h="62" oX="5" oY="10" oW="72" oH="80" r="y"/>
+    <sprite n="S15_right_eyelid_07_EPIC" x="645" y="550" w="62" h="67" oX="5" oY="10" oW="72" oH="80"/>
+    <sprite n="S15_right_eyelid_08_EPIC" x="574" y="584" w="67" h="63" oX="5" oY="10" oW="72" oH="80" r="y"/>
+    <sprite n="S15_right_foot_EPIC" x="579" y="3" w="64" h="99" oX="0" oY="0" oW="100" oH="64" r="y"/>
+    <sprite n="S15_right_hand_01_EPIC" x="266" y="153" w="68" h="120" oX="4" oY="0" oW="80" oH="120"/>
+    <sprite n="S15_right_hand_02_EPIC" x="410" y="151" w="58" h="104" oX="4" oY="11" oW="80" oH="120"/>
+    <sprite n="S15_right_hand_03_EPIC" x="569" y="257" w="79" h="100" oX="0" oY="15" oW="80" oH="120"/>
+    <sprite n="S15_right_hand_04_EPIC" x="338" y="153" w="68" h="116" oX="4" oY="4" oW="80" oH="120"/>
+    <sprite n="S15_right_hand_05_EPIC" x="472" y="150" w="58" h="104" oX="18" oY="11" oW="80" oH="120"/>
+    <sprite n="S15_right_hand_06_EPIC" x="578" y="149" w="79" h="100" oX="1" oY="15" oW="80" oH="120"/>
+    <sprite n="S15_right_hand_hat_01_EPIC" x="273" y="450" w="23" h="27" oX="23" oY="47" oW="76" oH="80" r="y"/>
+    <sprite n="S15_right_hand_hat_02_EPIC" x="217" y="450" w="52" h="33" oX="16" oY="42" oW="76" oH="80"/>
+    <sprite n="S15_right_hand_hat_03_EPIC" x="684" y="621" w="60" h="61" oX="16" oY="12" oW="76" oH="80"/>
+    <sprite n="S15_right_hand_hat_04_EPIC" x="647" y="3" w="45" h="76" oX="3" oY="0" oW="76" oH="80"/>
+    <sprite n="S15_right_hand_hat_05_EPIC" x="612" y="730" w="43" h="71" oX="3" oY="6" oW="76" oH="80"/>
+    <sprite n="S15_right_lower_arm_EPIC" x="379" y="3" w="58" h="144" oX="0" oY="0" oW="144" oH="59" r="y"/>
+    <sprite n="S15_right_lower_arm_OL_EPIC" x="675" y="858" w="44" h="47" oX="85" oY="11" oW="144" oH="59" r="y"/>
+    <sprite n="S15_right_lower_leg_EPIC" x="207" y="489" w="90" h="34" oX="0" oY="0" oW="36" oH="96" r="y"/>
+    <sprite n="S15_right_upper_arm_01_EPIC" x="504" y="258" w="61" h="142" oX="1" oY="8" oW="144" oH="70" r="y"/>
+    <sprite n="S15_right_upper_arm_02_EPIC" x="436" y="259" w="64" h="143" oX="1" oY="6" oW="144" oH="70" r="y"/>
+    <sprite n="S15_right_upper_arm_03_EPIC" x="441" y="3" w="69" h="143" oX="1" oY="0" oW="144" oH="70" r="y"/>
+    <sprite n="S15_right_upper_leg_EPIC" x="531" y="512" w="39" h="104" oX="0" oY="0" oW="40" oH="104"/>
+    <sprite n="S15_shadow_EPIC" x="113" y="285" w="100" h="200" r="y"/>
+    <sprite n="S15_tiny_hat_EPIC" x="675" y="795" w="55" h="59" r="y"/>
+</TextureAtlas>

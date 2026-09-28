@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:535458625c2759303f2352774401cea8:3cb05d90987afb7676700ac9765c9230:d4b8cfa0f2e282fdf6a4b7b5385094e7$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BCEN_EPIC_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="arm_lower_l" x="913" y="1092" w="111" h="80" oX="0" oY="0" oW="112" oH="80"/>
+	<sprite n="arm_lower_r_EPIC" x="913" y="1174" w="109" h="89" oX="0" oY="6" oW="112" oH="100"/>
+	<sprite n="arm_upper_l_EPIC" x="216" y="1136" w="48" h="100" oX="7" oY="6" oW="110" oH="60" r="y"/>
+	<sprite n="arm_upper_r_EPIC" x="217" y="1030" w="48" h="104" oX="3" oY="6" oW="110" oH="60" r="y"/>
+	<sprite n="cheek_glow" x="0" y="1101" w="214" h="200" oX="0" oY="2" oW="200" oH="216" r="y"/>
+	<sprite n="cheek_l_1" x="965" y="938" w="52" h="152" oX="75" oY="23" oW="128" oH="208"/>
+	<sprite n="cheek_l_2" x="841" y="1154" w="70" h="154" oX="57" oY="23" oW="128" oH="208"/>
+	<sprite n="cheek_l_3" x="281" y="917" w="172" h="92" oX="35" oY="14" oW="128" oH="208" r="y"/>
+	<sprite n="cheek_l_4" x="832" y="352" w="192" h="105" oX="22" oY="6" oW="128" oH="208" r="y"/>
+	<sprite n="cheek_l_5" x="638" y="1154" w="201" h="123" oX="4" oY="4" oW="128" oH="208" r="y"/>
+	<sprite n="cheek_r_1" x="428" y="1215" w="159" h="100" oX="2" oY="22" oW="200" oH="216" r="y"/>
+	<sprite n="cheek_r_2" x="589" y="1279" w="153" h="104" oX="3" oY="26" oW="200" oH="216" r="y"/>
+	<sprite n="cheek_r_3" x="216" y="1273" w="154" h="116" oX="2" oY="25" oW="200" oH="216" r="y"/>
+	<sprite n="cheek_r_4" x="287" y="700" w="175" h="154" oX="3" oY="17" oW="200" oH="216" r="y"/>
+	<sprite n="cheek_r_5" x="300" y="400" w="193" h="174" oX="2" oY="9" oW="200" oH="216" r="y"/>
+	<sprite n="cheek_r_6" x="832" y="0" w="192" h="205" oX="3" oY="5" oW="200" oH="216"/>
+	<sprite n="eyelids_1" x="0" y="1576" w="122" h="84" oX="24" oY="6" oW="168" oH="96"/>
+	<sprite n="eyelids_2" x="294" y="1396" w="124" h="84" oX="23" oY="6" oW="168" oH="96"/>
+	<sprite n="eyelids_3" x="420" y="1396" w="84" h="124" oX="23" oY="6" oW="168" oH="96" r="y"/>
+	<sprite n="eyelids_4" x="822" y="1467" w="85" h="123" oX="24" oY="5" oW="168" oH="96" r="y"/>
+	<sprite n="hair_back_l" x="770" y="719" w="244" h="131" oX="10" oY="3" oW="150" oH="250" r="y"/>
+	<sprite n="hair_back_r" x="0" y="1303" w="153" h="153" oX="8" oY="19" oW="170" oH="190"/>
+	<sprite n="hand_l_1" x="721" y="852" w="242" h="157" oX="5" oY="4" oW="192" oH="252" r="y"/>
+	<sprite n="hand_l_2" x="687" y="1011" w="224" h="141" oX="27" oY="21" oW="192" oH="252" r="y"/>
+	<sprite n="hand_l_3" x="0" y="931" w="215" h="168" oX="0" oY="30" oW="192" oH="252" r="y"/>
+	<sprite n="hand_l_4" x="455" y="1004" w="230" h="86" oX="100" oY="11" oW="192" oH="252" r="y"/>
+	<sprite n="hand_l_5" x="456" y="914" w="235" h="88" oX="96" oY="0" oW="192" oH="252" r="y"/>
+	<sprite n="hand_r_1" x="464" y="759" w="255" h="153" oX="16" oY="189" oW="186" oH="462" r="y"/>
+	<sprite n="hand_r_2" x="791" y="459" w="232" h="135" oX="13" oY="193" oW="186" oH="462" r="y"/>
+	<sprite n="hand_r_3" x="432" y="1092" w="204" h="121" oX="25" oY="186" oW="186" oH="462" r="y"/>
+	<sprite n="head_EPIC" x="0" y="0" w="496" h="398" oX="31" oY="12" oW="460" oH="520" r="y"/>
+	<sprite n="horn_01" x="506" y="1409" w="79" h="82" oX="5" oY="4" oW="90" oH="90"/>
+	<sprite n="horn_02" x="836" y="1384" w="74" h="81" oX="4" oY="8" oW="90" oH="90" r="y"/>
+	<sprite n="horn_03" x="521" y="1317" w="65" h="90" oX="0" oY="2" oW="90" oH="70" r="y"/>
+	<sprite n="horn_04" x="744" y="1377" w="90" h="87" oX="1" oY="0" oW="90" oH="90" r="y"/>
+	<sprite n="horn_05" x="217" y="931" w="62" h="97" oX="4" oY="3" oW="70" oH="100"/>
+	<sprite n="horn_06" x="965" y="852" w="53" h="84" oX="3" oY="3" oW="60" oH="90"/>
+	<sprite n="horn_tip_01" x="913" y="1265" w="106" h="150" oX="2" oY="0" oW="110" oH="150"/>
+	<sprite n="horn_tip_02" x="300" y="576" w="185" h="122" oX="4" oY="2" oW="130" oH="190" r="y"/>
+	<sprite n="horn_tip_03" x="281" y="1011" w="172" h="77" oX="1" oY="9" oW="80" oH="190" r="y"/>
+	<sprite n="horn_tip_04" x="372" y="1317" w="147" h="77" oX="1" oY="1" oW="80" oH="150" r="y"/>
+	<sprite n="horn_tip_05" x="267" y="1090" w="163" h="113" oX="3" oY="3" oW="120" oH="170" r="y"/>
+	<sprite n="horn_tip_06" x="155" y="1391" w="137" h="81" oX="4" oY="0" oW="90" oH="140" r="y"/>
+	<sprite n="mouth_1" x="281" y="856" w="173" h="59" oX="5" oY="15" oW="184" oH="160"/>
+	<sprite n="mouth_2" x="266" y="1205" w="160" h="66" oX="7" oY="19" oW="184" oH="160"/>
+	<sprite n="mouth_3" x="912" y="1417" w="99" h="148" oX="11" oY="19" oW="184" oH="160" r="y"/>
+	<sprite n="mouth_4" x="588" y="1385" w="143" h="133" oX="15" oY="5" oW="184" oH="160" r="y"/>
+	<sprite n="mouth_5" x="138" y="1474" w="122" h="116" oX="28" oY="15" oW="184" oH="160"/>
+	<sprite n="mouth_6" x="733" y="1466" w="87" h="79" oX="36" oY="28" oW="184" oH="160" r="y"/>
+	<sprite n="mouth_7" x="909" y="1567" w="115" h="69" oX="22" oY="27" oW="184" oH="160"/>
+	<sprite n="neck" x="0" y="400" w="298" h="240" oX="8" oY="4" oW="256" oH="308" r="y"/>
+	<sprite n="pupil_l" x="770" y="634" w="15" h="14" oX="8" oY="8" oW="30" oH="30" r="y"/>
+	<sprite n="pupil_r" x="770" y="614" w="18" h="18" oX="6" oY="6" oW="30" oH="30"/>
+	<sprite n="shadow" x="791" y="596" w="231" h="121"/>
+	<sprite n="shockwave_01" x="0" y="642" w="285" h="144" oX="42" oY="57" oW="200" oH="400" r="y"/>
+	<sprite n="shockwave_02" x="487" y="614" w="281" h="143" oX="43" oY="59" oW="200" oH="400" r="y"/>
+	<sprite n="shockwave_03" x="0" y="788" w="279" h="141" oX="44" oY="60" oW="200" oH="400" r="y"/>
+	<sprite n="shockwave_04" x="495" y="458" w="294" h="154" oX="26" oY="52" oW="200" oH="400" r="y"/>
+	<sprite n="shockwave_05" x="498" y="280" w="332" h="176" oX="9" oY="33" oW="200" oH="400" r="y"/>
+	<sprite n="shoulder_EPIC" x="838" y="1310" w="72" h="72" oX="4" oY="4" oW="80" oH="80"/>
+	<sprite n="tail" x="832" y="207" w="192" h="143" oX="3" oY="2" oW="200" oH="152"/>
+	<sprite n="tail_claw" x="0" y="1458" w="136" h="116" r="y"/>
+	<sprite n="tail_tip" x="744" y="1279" w="92" h="96" oX="4" oY="5" oW="104" oH="104" r="y"/>
+	<sprite n="tummy_EPIC" x="498" y="0" w="332" h="278" oX="12" oY="1" oW="302" oH="348" r="y"/>
+</TextureAtlas>

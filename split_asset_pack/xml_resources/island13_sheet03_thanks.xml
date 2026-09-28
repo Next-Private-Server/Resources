@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6ed538dea79db057a8f0524d1a42ece2:b54aef3caa88ca86468462f6c91b37a9:c4a45cc71c216caf5e79af03d4ed877d$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island13_sheet03_thanks.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="gobbley_balloon" x="0" y="0" w="446" h="350" oX="4" oY="3" oW="456" oH="356"/>
+	<sprite n="Pie_stack" x="499" y="264" w="363" h="346" oX="5" oY="2" oW="356" oH="368" r="y"/>
+	<sprite n="Pumpkin_01" x="789" y="612" w="82" h="96" oX="4" oY="3" oW="104" oH="88" r="y"/>
+	<sprite n="Pumpkin_02" x="877" y="0" w="144" h="238" oX="5" oY="2" oW="248" oH="148" r="y"/>
+	<sprite n="Pumpkin_pie" x="0" y="352" w="202" h="272" oX="2" oY="3" oW="276" oH="208" r="y"/>
+	<sprite n="R_Leaves_01" x="877" y="240" w="134" h="385" oX="6" oY="0" oW="392" oH="134" r="y"/>
+	<sprite n="R_Leaves_02" x="204" y="352" w="255" h="271" oX="0" oY="1" oW="256" oH="275"/>
+	<sprite n="R_Leaves_03" x="376" y="627" w="190" h="259" oX="1" oY="0" oW="191" oH="260"/>
+	<sprite n="Scarecrow_01" x="0" y="627" w="217" h="365" oX="16" oY="3" oW="240" oH="372"/>
+	<sprite n="Scarecrow_02" x="219" y="627" w="155" h="362" oX="4" oY="3" oW="164" oH="368"/>
+	<sprite n="Scarecrow_03" x="448" y="0" w="427" h="262" oX="3" oY="4" oW="268" oH="436" r="y"/>
+	<sprite n="Sunflower_01" x="624" y="612" w="163" h="154" oX="5" oY="2" oW="164" oH="168" r="y"/>
+	<sprite n="veggies01" x="448" y="264" w="49" h="83" r="y"/>
+	<sprite n="veggies02" x="681" y="768" w="93" h="109" r="y"/>
+	<sprite n="veggies03" x="528" y="888" w="94" h="129"/>
+	<sprite n="veggies04" x="568" y="612" w="47" h="59"/>
+	<sprite n="veggies05" x="568" y="768" w="111" h="116" r="y"/>
+	<sprite n="veggies06" x="376" y="888" w="150" h="129" oX="3" oY="2" oW="136" oH="156" r="y"/>
+	<sprite n="Wheat" x="624" y="886" w="107" h="125" oX="2" oY="4" oW="112" oH="132"/>
+</TextureAtlas>

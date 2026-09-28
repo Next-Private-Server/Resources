@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:50a584b8c75a4e46e385745df3c1e0be:6101b818f8cf557f11d7eb5c24e29b3b:3dd5efccb9f3b6d6a5a8f980f4ae6c8d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_CDE_costume_06_sheet.png" width="256" height="256" hires="true">
+    <!-- original anchor = (44, 35) -> new anchor (46, 57) diff = (-2, -22) -->
+    <!-- add double it to texturepacker output offsets (0, 0) -> (-4, -44), because hires -->
+    <sprite n="C_bucket.png" x="1" y="1" w="140" h="190" oX="-4" oY="-44"/>
+    <sprite n="C_leg1_right.png" x="143" y="1" w="99" h="98" oX="2" oY="0" oW="100" oH="100" r="y"/>
+    <!-- original anchor = (16, 24) -> new anchor (-12, 27) diff = (24, -3) -->
+    <!-- add double it to texturepacker output offsets (1, 7) -> (49, 1), because hires -->
+    <sprite n="C_spout.png" x="1" y="193" w="65" h="58" oX="49" oY="1" oW="60" oH="80" r="y"/>
+</TextureAtlas>

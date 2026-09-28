@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2164ff643f67385211d5b373738f0d67:c64abf6691717f85f1273b0d36315f79:fd5336147b1a1562c28825d703a57184$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_T04_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="T04_arm_left" x="465" y="317" w="25" h="18" r="y"/>
+	<sprite n="T04_arm_right" x="433" y="328" w="25" h="18" r="y"/>
+	<sprite n="T04_body" x="260" y="0" w="52" h="78" r="y"/>
+	<sprite n="T04_brain" x="264" y="105" w="47" h="46" r="y"/>
+	<sprite n="T04_brain_stalk" x="268" y="80" w="42" h="23" r="y"/>
+	<sprite n="T04_bubble" x="447" y="348" w="11" h="12" r="y"/>
+	<sprite n="T04_eye_left" x="283" y="329" w="36" h="36"/>
+	<sprite n="T04_eye_lid_01" x="314" y="55" w="98" h="42"/>
+	<sprite n="T04_eye_lid_02" x="314" y="99" w="98" h="42"/>
+	<sprite n="T04_eye_lid_03" x="414" y="103" w="98" h="42"/>
+	<sprite n="T04_eye_right" x="278" y="207" w="33" h="19" r="y"/>
+	<sprite n="T04_face_back" x="120" y="395" w="50" h="114" r="y"/>
+	<sprite n="T04_face_front" x="82" y="260" w="69" h="122" r="y"/>
+	<sprite n="T04_glass" x="153" y="260" w="105" h="109" r="y"/>
+	<sprite n="T04_glass_shine" x="244" y="395" w="67" h="100" r="y"/>
+	<sprite n="T04_glow" x="0" y="396" w="118" h="116"/>
+	<sprite n="T04_glow_crack_01" x="200" y="90" w="62" h="40"/>
+	<sprite n="T04_glow_crack_02" x="172" y="395" w="70" h="100"/>
+	<sprite n="T04_glow_crack_03" x="415" y="47" w="92" h="54" r="y"/>
+	<sprite n="T04_glow_crack_04" x="200" y="0" w="56" h="88"/>
+	<sprite n="T04_hand_left_01" x="256" y="233" w="20" h="25" oX="1" oY="2" oW="28" oH="22" r="y"/>
+	<sprite n="T04_hand_left_02" x="396" y="371" w="21" h="20" oX="3" oY="2" oW="28" oH="22"/>
+	<sprite n="T04_hand_left_03" x="394" y="393" w="20" h="19" oX="4" oY="2" oW="28" oH="22"/>
+	<sprite n="T04_hand_left_04" x="477" y="295" w="28" h="20" oX="0" oY="2" oW="28" oH="22"/>
+	<sprite n="T04_hand_left_05" x="341" y="397" w="20" h="18" oX="4" oY="2" oW="28" oH="22" r="y"/>
+	<sprite n="T04_hand_left_06" x="344" y="376" w="20" h="19" oX="5" oY="2" oW="28" oH="22" r="y"/>
+	<sprite n="T04_hand_left_07" x="268" y="371" w="21" h="22" oX="0" oY="1" oW="28" oH="22" r="y"/>
+	<sprite n="T04_hand_right_01" x="321" y="290" w="23" h="21" oX="1" oY="0" oW="24" oH="22"/>
+	<sprite n="T04_hand_right_02" x="484" y="363" w="21" h="21" oX="1" oY="0" oW="24" oH="22"/>
+	<sprite n="T04_hand_right_03" x="419" y="387" w="21" h="19" oX="1" oY="0" oW="24" oH="22" r="y"/>
+	<sprite n="T04_hand_right_04" x="233" y="207" w="21" h="24" oX="0" oY="0" oW="24" oH="22" r="y"/>
+	<sprite n="T04_hand_right_05" x="421" y="364" w="21" h="21" oX="1" oY="0" oW="24" oH="22"/>
+	<sprite n="T04_hand_right_06" x="245" y="371" w="21" h="22" oX="1" oY="0" oW="24" oH="22"/>
+	<sprite n="T04_hand_right_07" x="221" y="371" w="22" h="22" oX="1" oY="0" oW="24" oH="22"/>
+	<sprite n="T04_head_glow" x="314" y="143" w="90" h="88"/>
+	<sprite n="T04_lower_leg" x="314" y="412" w="20" h="17" r="y"/>
+	<sprite n="T04_mouth_01" x="82" y="384" w="27" h="10" oX="7" oY="6" oW="34" oH="21"/>
+	<sprite n="T04_mouth_02" x="355" y="252" w="31" h="12" oX="1" oY="5" oW="34" oH="21"/>
+	<sprite n="T04_mouth_03" x="278" y="191" w="34" h="14" oX="0" oY="3" oW="34" oH="21"/>
+	<sprite n="T04_mouth_04" x="260" y="260" w="16" h="28" oX="4" oY="2" oW="34" oH="21" r="y"/>
+	<sprite n="T04_mouth_05" x="419" y="252" w="25" h="19" oX="5" oY="1" oW="34" oH="21"/>
+	<sprite n="T04_mouth_06" x="396" y="356" w="23" h="13" oX="8" oY="4" oW="34" oH="21"/>
+	<sprite n="T04_mouth_07" x="265" y="497" w="16" h="15" oX="11" oY="3" oW="34" oH="21"/>
+	<sprite n="T04_mouth_08" x="260" y="153" w="12" h="12" oX="14" oY="6" oW="34" oH="21"/>
+	<sprite n="T04_mouth_09" x="111" y="384" w="33" h="9" oX="1" oY="7" oW="34" oH="21"/>
+	<sprite n="T04_pupil_left" x="283" y="497" w="16" h="15" r="y"/>
+	<sprite n="T04_pupil_right" x="301" y="497" w="11" h="15"/>
+	<sprite n="T04_shadow" x="0" y="260" w="80" h="134" r="y"/>
+	<sprite n="T04_shell_back" x="415" y="0" w="95" h="45"/>
+	<sprite n="T04_shell_top" x="314" y="0" w="99" h="53"/>
+	<sprite n="T04_statue" x="0" y="0" w="198" h="258"/>
+	<sprite n="T04_tent_A_01" x="278" y="173" w="34" h="16" oX="4" oY="1" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_02" x="447" y="243" w="32" h="17" oX="4" oY="2" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_03" x="230" y="132" w="32" h="19" oX="2" oY="3" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_04" x="375" y="298" w="27" h="20" oX="1" oY="8" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_05" x="256" y="168" w="20" h="30" oX="0" oY="5" oW="21" oH="35"/>
+	<sprite n="T04_tent_A_06" x="278" y="153" w="34" h="18" oX="1" oY="1" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_07" x="172" y="497" w="32" h="15" oX="2" oY="3" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_08" x="447" y="223" w="32" h="18" oX="0" oY="3" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_09" x="206" y="497" w="31" h="15" oX="1" oY="4" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_10" x="256" y="200" w="20" h="30" oX="0" oY="5" oW="21" oH="35"/>
+	<sprite n="T04_tent_A_11" x="347" y="266" w="28" h="19" oX="0" oY="7" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_A_12" x="493" y="181" w="19" h="31" oX="1" oY="4" oW="21" oH="35"/>
+	<sprite n="T04_tent_A_13" x="278" y="249" w="32" h="14" oX="4" oY="3" oW="21" oH="35" r="y"/>
+	<sprite n="T04_tent_B_01" x="460" y="337" w="25" h="17" oX="2" oY="7" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_02" x="404" y="317" w="27" h="17" oX="2" oY="5" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_03" x="301" y="290" w="18" h="31" oX="1" oY="1" oW="19" oH="32"/>
+	<sprite n="T04_tent_B_04" x="278" y="228" w="32" h="19" r="y"/>
+	<sprite n="T04_tent_B_05" x="493" y="147" w="19" h="32"/>
+	<sprite n="T04_tent_B_06" x="481" y="251" w="31" h="19" oX="0" oY="1" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_07" x="377" y="277" w="28" h="19" oX="0" oY="4" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_08" x="372" y="320" w="23" h="19" oX="0" oY="9" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_09" x="321" y="353" w="23" h="18" oX="1" oY="9" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_10" x="397" y="336" w="23" h="18" oX="1" oY="9" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_11" x="371" y="341" w="23" h="17" oX="2" oY="9" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_B_12" x="346" y="357" w="23" h="17" oX="2" oY="9" oW="19" oH="32" r="y"/>
+	<sprite n="T04_tent_C_01" x="355" y="233" w="39" h="17" oX="0" oY="6" oW="40" oH="41"/>
+	<sprite n="T04_tent_C_02" x="260" y="290" w="14" h="39" oX="0" oY="10" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_03" x="314" y="233" w="39" h="18" oX="0" oY="10" oW="40" oH="41"/>
+	<sprite n="T04_tent_C_04" x="406" y="223" w="39" h="27" oX="0" oY="10" oW="40" oH="41"/>
+	<sprite n="T04_tent_C_05" x="200" y="168" w="29" h="37" oX="2" oY="11" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_06" x="482" y="214" w="30" h="35" oX="4" oY="10" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_07" x="200" y="132" w="28" h="34" oX="5" oY="9" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_08" x="231" y="168" w="23" h="37" oX="2" oY="9" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_09" x="260" y="331" w="21" h="38" oX="1" oY="2" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_10" x="276" y="290" w="23" h="37" oX="2" oY="0" oW="40" oH="41" r="y"/>
+	<sprite n="T04_tent_C_11" x="278" y="265" w="37" h="23" oX="2" oY="0" oW="40" oH="41"/>
+	<sprite n="T04_tent_C_12" x="153" y="371" w="37" h="22" oX="2" oY="1" oW="40" oH="41"/>
+	<sprite n="T04_tent_D_01" x="483" y="386" w="19" h="17" oX="0" oY="2" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_02" x="319" y="373" w="23" h="16" oX="0" oY="4" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_03" x="239" y="497" w="24" h="15" oX="0" oY="6" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_04" x="422" y="348" w="23" h="14" oX="0" oY="7" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_05" x="371" y="360" w="23" h="13" oX="0" oY="8" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_06" x="444" y="364" w="14" h="20" oX="0" oY="7" oW="24" oH="21" r="y"/>
+	<sprite n="T04_tent_D_07" x="442" y="407" w="14" h="18" oX="0" oY="7" oW="24" oH="21" r="y"/>
+	<sprite n="T04_tent_D_08" x="444" y="386" w="14" h="19" oX="0" oY="7" oW="24" oH="21" r="y"/>
+	<sprite n="T04_tent_D_09" x="460" y="401" w="19" h="17" oX="0" oY="4" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_10" x="416" y="408" w="19" h="17" oX="0" oY="3" oW="24" oH="21"/>
+	<sprite n="T04_tent_D_11" x="319" y="391" w="20" h="19" oX="0" oY="1" oW="24" oH="21" r="y"/>
+	<sprite n="T04_tent_D_12" x="366" y="396" w="20" h="19" oX="0" oY="1" oW="24" oH="21" r="y"/>
+	<sprite n="T04_tent_E_01" x="230" y="153" w="28" h="13" oX="0" oY="8" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_02" x="317" y="272" w="27" h="16" oX="0" oY="5" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_03" x="321" y="313" w="24" h="17" oX="0" oY="4" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_04" x="487" y="342" w="24" h="19" oX="0" oY="2" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_05" x="492" y="317" w="20" h="23" oX="0" oY="1" oW="28" oH="21" r="y"/>
+	<sprite n="T04_tent_E_06" x="321" y="332" w="23" h="19" oX="0" oY="2" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_07" x="460" y="356" w="22" h="20" oX="0" oY="1" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_08" x="371" y="375" w="21" h="19" oX="0" oY="0" oW="28" oH="21" r="y"/>
+	<sprite n="T04_tent_E_09" x="460" y="378" w="21" h="21" oX="0" oY="0" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_10" x="347" y="313" w="23" h="21" oX="0" oY="0" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_11" x="419" y="273" w="25" h="19" oX="0" oY="2" oW="28" oH="21"/>
+	<sprite n="T04_tent_E_12" x="317" y="253" w="28" h="17" oX="0" oY="4" oW="28" oH="21"/>
+	<sprite n="T04_tent_F_01" x="291" y="367" w="26" h="26" oX="5" oY="0" oW="39" oH="29"/>
+	<sprite n="T04_tent_F_02" x="192" y="371" w="27" h="22" oX="9" oY="0" oW="39" oH="29" r="y"/>
+	<sprite n="T04_tent_F_03" x="436" y="306" w="27" h="20" oX="11" oY="0" oW="39" oH="29" r="y"/>
+	<sprite n="T04_tent_F_04" x="446" y="262" w="29" h="21" oX="15" oY="0" oW="39" oH="29" r="y"/>
+	<sprite n="T04_tent_F_05" x="446" y="285" w="29" h="19" oX="18" oY="0" oW="39" oH="29" r="y"/>
+	<sprite n="T04_tent_F_06" x="477" y="272" w="29" h="21" oX="18" oY="0" oW="39" oH="29" r="y"/>
+	<sprite n="T04_tent_F_07" x="407" y="294" w="27" h="21" oX="18" oY="0" oW="39" oH="29" r="y"/>
+	<sprite n="T04_tent_F_08" x="230" y="233" w="24" h="25" oX="13" oY="0" oW="39" oH="29"/>
+	<sprite n="T04_tent_F_09" x="346" y="287" w="27" h="24" oX="5" oY="0" oW="39" oH="29"/>
+	<sprite n="T04_tent_F_10" x="388" y="252" w="29" h="23" oX="2" oY="0" oW="39" oH="29"/>
+	<sprite n="T04_tent_F_11" x="200" y="207" w="31" h="24" oX="0" oY="0" oW="39" oH="29"/>
+	<sprite n="T04_tent_F_12" x="200" y="233" w="28" h="25" oX="3" oY="0" oW="39" oH="29"/>
+	<sprite n="T04_upper_leg" x="346" y="336" w="23" h="19" r="y"/>
+	<sprite n="T04_wing_lower" x="406" y="194" w="74" h="27"/>
+	<sprite n="T04_wing_upper" x="406" y="147" w="85" h="45"/>
+</TextureAtlas>

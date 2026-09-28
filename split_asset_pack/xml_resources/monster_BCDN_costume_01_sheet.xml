@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ff67f389011aa0f45108ea931a4950a0:5d1c3c2e04c6dc05a49fcfa89e3e8087:688e01d7b78263c88c9794f9b925dc5a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BCDN_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="BCDN_belt.png" x="360" y="196" w="83" h="42" pX="0.5" pY="0.5" oX="44" oY="72" oW="160" oH="210"/>
+    <sprite n="BCDN_hand_01.png" x="450" y="96" w="57" h="91" pX="0.5" pY="0.5" oX="29" oY="34" oW="120" oH="120" r="y"/>
+    <sprite n="BCDN_hand_02.png" x="450" y="3" w="58" h="89" pX="0.5" pY="0.5" oX="31" oY="34" oW="120" oH="120" r="y"/>
+    <sprite n="BCDN_hand_03.png" x="184" y="177" w="85" h="75" pX="0.5" pY="0.5" oX="35" oY="24" oW="120" oH="120"/>
+    <sprite n="BCDN_hand_04.png" x="360" y="242" w="81" h="75" pX="0.5" pY="0.5" oX="45" oY="21" oW="120" oH="120" r="y"/>
+    <sprite n="BCDN_hand_05.png" x="273" y="196" w="83" h="65" pX="0.5" pY="0.5" oX="55" oY="19" oW="120" oH="120" r="y"/>
+    <sprite n="BCDN_headpiece.png" x="3" y="3" w="177" h="172" pX="0.5" pY="0.5" oX="17" oY="-40"/>
+    <sprite n="BCDN_left_shoulder.png" x="445" y="242" w="55" h="54" pX="0.5" pY="0.5" oX="12" oY="19" oW="80" oH="80" r="y"/>
+    <sprite n="BCDN_leg.png" x="184" y="122" w="98" h="51" pX="0.5" pY="0.5" oX="4" oY="11" oW="60" oH="120" r="y"/>
+    <sprite n="BCDN_overskirt_01.png" x="317" y="3" w="129" h="93" pX="0.5" pY="0.5" oX="0" oY="88.7" r="y"/>
+    <sprite n="BCDN_overskirt_02.png" x="317" y="100" w="127" h="92" pX="0.5" pY="0.5" oX="42.2" oY="78.9" r="y"/>
+    <sprite n="BCDN_overskirt_04.png" x="184" y="3" w="129" h="115" pX="0.5" pY="0.5" oX="49.8" oY="84.1" r="y"/>
+    <sprite n="BCDN_right_shoulder.png" x="448" y="191" w="56" h="47" pX="0.5" pY="0.5" oX="15" oY="19" oW="80" oH="80" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1f2bd2d0b21bab4e1a827d94ba8ffdb9:024af8c663229c495043f4bb2c07277f:b3a4b506c0a489386ab11f4521f57575$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island14_sheet03_perp.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="island14_centerplat" x="0" y="0" w="930" h="880"/>
+</TextureAtlas>

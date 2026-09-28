@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c1491cdcec10b94abd877fe0ec63d55d:bb5ee45bae691e304e1040224cd73b71:e90f19e692a9a60288baeccdd429186b$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_DE_costume_07_sheet.png" width="256" height="256" hires="true" version="1">
+	<!-- original anchor = (61, 110) -> new anchor (52, 181) diff = (9, -71) -->
+    <!-- add double it to texturepacker output offsets (3, 5) -> (21, -137), because hires -->
+	<sprite n="DE_plant" x="0" y="0" w="254" h="229" pX="0.5" pY="0.5" oX="21" oY="-137" oW="260" oH="240"/>
+</TextureAtlas>

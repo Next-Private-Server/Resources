@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:72b81ebf1233f6507baaf47e8d2faa28:f053202b971c5e9328d254b22be32ec1:f577cddd3aecbc9c5c91c2ba1373cf6b$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_BEN_EPIC_sheet.png" width="582" height="582" hires="true">
+    <sprite n="BEN_bangs" x="265" y="492" w="85" h="55"/>
+    <sprite n="BEN_body" x="178" y="78" w="161" h="123" r="y"/>
+    <sprite n="BEN_body_EPIC" x="1" y="1" w="175" h="200"/>
+    <sprite n="BEN_hair_2" x="352" y="481" w="71" h="71"/>
+    <sprite n="BEN_hair_3" x="490" y="459" w="63" h="64"/>
+    <sprite n="BEN_hair_End" x="528" y="384" w="46" h="49" r="y"/>
+    <sprite n="BEN_hair_left_Epic" x="454" y="317" w="65" h="69" r="y"/>
+    <sprite n="BEN_hair_right_Epic" x="459" y="388" w="67" h="69" r="y"/>
+    <sprite n="BEN_head" x="503" y="223" w="74" h="90" r="y"/>
+    <sprite n="BEN_head_EPIC" x="323" y="223" w="101" h="97" r="y"/>
+    <sprite n="BEN_head_OL_EPIC" x="490" y="525" w="58" h="56" r="y"/>
+    <sprite n="BEN_hornbell" x="1" y="416" w="130" h="137"/>
+    <sprite n="BEN_hornbell_1" x="515" y="163" w="66" h="58" r="y"/>
+    <sprite n="BEN_hornbell_3" x="425" y="480" w="63" h="72" oX="0" oY="0" oW="64" oH="73"/>
+    <sprite n="BEN_horntube_1" x="258" y="280" w="51" h="121"/>
+    <sprite n="BEN_horntube_2" x="397" y="1" w="182" h="91" r="y"/>
+    <sprite n="BEN_horntube_3" x="133" y="415" w="80" h="158"/>
+    <sprite n="BEN_left_foot" x="404" y="322" w="48" h="70" r="y"/>
+    <sprite n="BEN_left_foot_EPIC" x="265" y="403" w="54" h="87" oX="0" oY="0" oW="87" oH="55" r="y"/>
+    <sprite n="BEN_left_lowerleg" x="321" y="395" w="70" h="84"/>
+    <sprite n="BEN_left_lowerleg_EPIC" x="426" y="223" w="75" h="92" oX="0" oY="1" oW="75" oH="93"/>
+    <sprite n="BEN_left_lowerleg_OL" x="215" y="541" w="46" h="30"/>
+    <sprite n="BEN_mouth_01" x="459" y="459" w="29" h="18" oX="18" oY="8" oW="68" oH="36"/>
+    <sprite n="BEN_mouth_02" x="63" y="555" w="31" h="24" oX="18" oY="6" oW="68" oH="36"/>
+    <sprite n="BEN_mouth_03" x="263" y="549" w="34" h="32" oX="17" oY="2" oW="68" oH="36" r="y"/>
+    <sprite n="BEN_mouth_04" x="547" y="94" w="34" h="67" oX="1" oY="0" oW="68" oH="36" r="y"/>
+    <sprite n="BEN_right_foot" x="521" y="315" w="49" h="67" r="y"/>
+    <sprite n="BEN_right_foot_EPIC" x="393" y="395" w="64" h="83" oX="1" oY="2" oW="85" oH="66" r="y"/>
+    <sprite n="BEN_right_lowerleg" x="311" y="322" w="91" h="71" oX="0" oY="0" oW="71" oH="92" r="y"/>
+    <sprite n="BEN_right_lowerleg_OL" x="299" y="549" w="45" h="29"/>
+    <sprite n="BEN_shadow" x="1" y="203" w="112" h="211" r="y"/>
+    <sprite n="BEN_sticker_71" x="215" y="415" w="48" h="124" r="y"/>
+    <sprite n="BEN_sticker_85" x="341" y="157" w="172" h="64"/>
+    <sprite n="BEN_sticker_100" x="115" y="203" w="206" h="75" oX="0" oY="0" oW="207" oH="75"/>
+    <sprite n="BEN_tube_behind" x="341" y="94" w="204" h="61"/>
+    <sprite n="BEN_tube_front" x="178" y="1" w="217" h="75"/>
+    <sprite n="BEN_upperleg" x="1" y="555" w="60" h="24" r="y"/>
+    <sprite n="spore_BEN" x="115" y="280" w="141" h="133" oX="21" oY="14" oW="172" oH="172" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b6f01cc981958ea6bb86c982b581ea47:b36db49264f99a49e0e164fc1405a229:776a5771cbe910c463803317732c9d97$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AC_costume_06_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="AC_flowers" x="0" y="475" w="276" h="142" pX="0.48928571428571427" pY="0.8263888888888888" oX="2" oY="0" oW="280" oH="144"/>
+	<sprite n="AC_flowers_back" x="448" y="0" w="34" h="70" pX="0.6805555555555556" pY="3.0833333333333335" oX="1" oY="1" oW="72" oH="36" r="y"/>
+	<sprite n="AC_prop_1" x="0" y="333" w="277" h="140" pX="0.5" pY="0.5444444444444444" oX="29" oY="6" oW="336" oH="180"/>
+	<sprite n="AC_prop_2" x="279" y="0" w="167" h="246" pX="0.5" pY="0.5" oX="46" oY="1" oW="336" oH="180" r="y"/>
+	<sprite n="AC_prop_3" x="0" y="0" w="277" h="167" pX="0.5" pY="0.5" oX="29" oY="1" oW="336" oH="180"/>
+	<sprite n="AC_prop_4" x="0" y="169" w="277" h="162" pX="0.5" pY="0.5" oX="29" oY="6" oW="336" oH="180"/>
+	<sprite n="AC_prop_5" x="279" y="248" w="161" h="268" pX="0.5" pY="0.5" oX="38" oY="7" oW="336" oH="180" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:85c51e47ce98aab3f8ac82091fb0019a:774e271d7e75d5225fe06d3c9c1a4440:61aee7ca7197b3db983b0493db6db76b$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cresendomoon_floating_lantern_sheet.png" width="512" height="512" hires="true">
+    <sprite n="floating_lantern_01" x="3" y="131" w="161" h="142" pX="0.5" pY="0.5" oX="19" oY="9" oW="180" oH="180" r="y"/>
+    <sprite n="floating_lantern_02" x="121" y="368" w="94" h="104" pX="0.5" pY="0.5" oX="13" oY="8" oW="120" oH="120"/>
+    <sprite n="floating_lantern_03" x="349" y="285" w="88" h="77" pX="0.5" pY="0.5" oX="11" oY="6" oW="100" oH="100" r="y"/>
+    <sprite n="floating_lantern_base" x="3" y="3" w="225" h="124" pX="0.5" pY="0.5" oX="12" oY="13" oW="250" oH="150"/>
+    <sprite n="floating_lantern_diamond_01" x="3" y="277" w="114" h="97" pX="0.5" pY="0.5" oX="26" oY="18" oW="150" oH="150" r="y"/>
+    <sprite n="floating_lantern_diamond_02" x="230" y="203" w="115" h="84" pX="0.5" pY="0.5" oX="33" oY="18" oW="150" oH="150" r="y"/>
+    <sprite n="floating_lantern_diamond_03" x="360" y="166" w="77" h="115" pX="0.5" pY="0.5" oX="36" oY="18" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_04" x="219" y="379" w="69" h="115" pX="0.5" pY="0.5" oX="40" oY="18" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_05" x="168" y="131" w="58" h="115" pX="0.5" pY="0.5" oX="46" oY="18" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_06" x="168" y="250" w="47" h="114" pX="0.5" pY="0.5" oX="51" oY="19" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_07" x="84" y="378" w="31" h="115" pX="0.5" pY="0.5" oX="59" oY="18" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_08" x="292" y="379" w="47" h="114" pX="0.5" pY="0.5" oX="52" oY="19" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_09" x="441" y="216" w="58" h="115" pX="0.5" pY="0.5" oX="46" oY="18" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_10" x="3" y="379" w="77" h="115" pX="0.5" pY="0.5" oX="37" oY="18" oW="150" oH="150"/>
+    <sprite n="floating_lantern_diamond_11" x="219" y="291" w="115" h="84" pX="0.5" pY="0.5" oX="33" oY="18" oW="150" oH="150" r="y"/>
+    <sprite n="floating_lantern_hinge" x="230" y="159" w="126" h="40" pX="0.5" pY="0.5" oX="5" oY="12" oW="50" oH="150" r="y"/>
+    <sprite n="floating_lantern_ring" x="441" y="22" w="60" h="190" pX="0.5" pY="0.5" oX="5" oY="10" oW="200" oH="80" r="y"/>
+    <sprite n="floating_lantern_ring_cover" x="232" y="116" w="190" h="39" pX="0.5" pY="0.5" oX="5" oY="31" oW="200" oH="80"/>
+    <sprite n="floating_lantern_rope" x="426" y="116" w="7" h="46" pX="0.5" pY="0.5" oX="2" oY="2" oW="10" oH="50"/>
+    <sprite n="floating_lantern_shadow" x="232" y="3" w="205" h="109" pX="0.5" pY="0.5" oX="23" oY="21" oW="250" oH="150"/>
+    <sprite n="floating_lantern_tail" x="441" y="3" w="65" h="15" pX="0.5" pY="0.5" oX="3" oY="5" oW="20" oH="70" r="y"/>
+</TextureAtlas>

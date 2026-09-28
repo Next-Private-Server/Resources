@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:463dae8fd9a7bba03098c6e0f7acb1fb:510ab143a92518f7794d7390154c668a:11edaf53d31a171612dac4d014ad4853$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-01_monster_G_costume_09_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="G_coat" x="0" y="0" w="165" h="246" pX="0.56875" pY="0.6348178137651822" oX="6" oY="1" oW="176" oH="247"/>
+	<sprite n="G_coat_back" x="152" y="248" w="144" h="183" pX="0.60375" pY="0.5854166666666667" oX="8" oY="4" oW="160" oH="192"/>
+	<sprite n="G_head" x="167" y="0" w="119" h="155" pX="0.560976" pY="0.730769" oX="0" oY="25" oW="164" oH="156" r="y"/>
+	<sprite n="G_headphones_back" x="298" y="238" w="90" h="94" pX="0.5927083333333333" pY="0.9911764705882353" oX="1" oY="34" oW="192" oH="136"/>
+	<sprite n="G_headphones_front" x="298" y="0" w="171" h="131" pX="0.5796875" pY="1.0338235294117646" oX="19" oY="3" oW="192" oH="136"/>
+	<sprite n="G_scarf" x="0" y="248" w="150" h="194" pX="0.46312499999999995" pY="0.9570000000000001" oX="7" oY="2" oW="160" oH="200"/>
+	<sprite n="G_sphere_01" x="152" y="433" w="69" h="69" pX="0.5" pY="0.5" oX="17" oY="16" oW="104" oH="104"/>
+	<sprite n="G_sphere_02" x="0" y="444" w="65" h="66" pX="0.5" pY="0.5" oX="18" oY="16" oW="104" oH="104"/>
+	<sprite n="G_sphere_03" x="167" y="157" w="88" h="89" pX="0.5" pY="0.5" oX="7" oY="7" oW="104" oH="104"/>
+	<sprite n="G_sphere_04" x="288" y="133" w="101" h="103" pX="0.5" pY="0.5" oX="0" oY="0" oW="104" oH="104"/>
+	<sprite n="G_sphere_05" x="298" y="338" w="97" h="98" pX="0.5" pY="0.5" oX="1" oY="2" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_06" x="391" y="133" w="101" h="101" pX="0.5" pY="0.5" oX="0" oY="0" oW="104" oH="104"/>
+	<sprite n="G_sphere_07" x="391" y="236" w="101" h="100" pX="0.5" pY="0.5" oX="1" oY="1" oW="104" oH="104" r="y"/>
+</TextureAtlas>

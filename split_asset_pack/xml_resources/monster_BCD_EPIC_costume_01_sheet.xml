@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:07f9329cf54ab3f4d1e8cc01b59a89af:58bf8c7a7ec50366ba19584ed862dbc0:cbf8c82ace3db00db4fefaf54a8ef49c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCD_EPIC_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="BCD_bonnet" x="0" y="0" w="285" h="280" pX="0.5140350877192983" pY="0.8017857142857143" />
+  <sprite n="BCD_mouth_egg_1" x="283" y="338" w="144" h="135" pX="0.5" pY="0.5" oX="3" oY="0" oW="144" oH="146" r="y" />
+  <sprite n="BCD_mouth_egg_2" x="152" y="428" w="127" h="127" pX="0.5" pY="0.5" oX="5" oY="11" oW="144" oH="146" />
+  <sprite n="BCD_mouth_egg_3" x="278" y="582" w="124" h="114" pX="0.5" pY="0.5" oX="8" oY="10" oW="144" oH="146" r="y" />
+  <sprite n="BCD_mouth_egg_4" x="378" y="800" w="106" h="100" pX="0.5" pY="0.5" oX="4" oY="30" oW="144" oH="146" />
+  <sprite n="BCD_mouth_egg_5" x="152" y="282" w="129" h="144" pX="0.5" pY="0.5" oX="0" oY="8" oW="144" oH="146" r="y" />
+  <sprite n="BCD_tongue01_egg_A" x="0" y="598" w="136" h="122" pX="0.5" pY="0.5" oX="29" oY="11" oW="166" oH="164" />
+  <sprite n="BCD_tongue01_egg_B" x="0" y="474" w="137" h="122" pX="0.5" pY="0.5" oX="28" oY="11" oW="166" oH="164" />
+  <sprite n="BCD_tongue02_egg_A" x="287" y="230" w="150" h="106" pX="0.5" pY="0.5" oX="15" oY="27" oW="166" oH="164" />
+  <sprite n="BCD_tongue02_egg_B" x="0" y="282" w="150" h="106" pX="0.5" pY="0.5" oX="15" oY="27" oW="166" oH="164" />
+  <sprite n="BCD_tongue03_egg_A" x="287" y="0" w="165" h="71" pX="0.5" pY="0.5" oX="0" oY="57" oW="166" oH="164" />
+  <sprite n="BCD_tongue03_egg_B" x="287" y="73" w="165" h="71" pX="0.5" pY="0.5" oX="0" oY="57" oW="166" oH="164" />
+  <sprite n="BCD_tongue04_egg_A" x="281" y="475" w="137" h="105" pX="0.5" pY="0.5" oX="28" oY="59" oW="166" oH="164" />
+  <sprite n="BCD_tongue04_egg_B" x="139" y="557" w="137" h="105" pX="0.5" pY="0.5" oX="28" oY="59" oW="166" oH="164" />
+  <sprite n="BCD_tongue05_egg_A" x="287" y="146" w="152" h="82" pX="0.5" pY="0.5" oX="13" oY="31" oW="166" oH="164" />
+  <sprite n="BCD_tongue05_egg_B" x="0" y="390" w="150" h="82" pX="0.5" pY="0.5" oX="15" oY="31" oW="166" oH="164" />
+  <sprite n="BCD_tongue06_egg_A" x="138" y="664" w="120" h="86" pX="0.5" pY="0.5" oX="79" oY="0" oW="166" oH="164" r="y" />
+  <sprite n="BCD_tongue06_egg_B" x="0" y="722" w="120" h="86" pX="0.5" pY="0.5" oX="79" oY="0" oW="166" oH="164" r="y" />
+  <sprite n="BCD_tongue07_egg_A" x="420" y="475" w="88" h="114" pX="0.5" pY="0.5" oX="77" oY="7" oW="166" oH="164" />
+  <sprite n="BCD_tongue07_egg_B" x="378" y="710" w="113" h="88" pX="0.5" pY="0.5" oX="77" oY="8" oW="166" oH="164" r="y" />
+  <sprite n="BCD_tongue08_egg_A" x="404" y="591" w="106" h="117" pX="0.5" pY="0.5" oX="59" oY="5" oW="166" oH="164" />
+  <sprite n="BCD_tongue08_egg_B" x="260" y="698" w="116" h="106" pX="0.5" pY="0.5" oX="59" oY="6" oW="166" oH="164" r="y" />
+</TextureAtlas>

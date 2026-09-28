@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/Minigames/MinigameLevelCompleteReward.lua" />
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="11" />
+		<templateVar name="$touchPriority" equals="-7" />
+		<templateVar name="$maxAlpha" equals="0.75" />
+	</template>
+
+	<element name="Banner">
+		<size dependentOnElement="element:name()" dependentOnComponent="Anim" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-20*game.windowScaleY()" priorityOffset="10" />
+		<aeComponent name="Anim">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("offsetCenter"):SetInt(1)
+				component("animationName"):SetString("xml_bin/mini_game_reward_anim.bin")
+				component("animation"):SetString("reward_banner_01")
+				component:setScale(Vector2(0.3*game.windowScaleY(), 0.3*game.windowScaleY()))
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</aeComponent>
+	</element>
+
+	<textComponent name="TitleText">
+		<size w="200*game.hudScale()" h="60*game.hudScale()" />
+		<position relativeTo="Banner" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="80*game.windowScaleY()" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(1)
+			component("font"):Set(game.getTitleFont())
+			local palette = include("ColourPalette")
+			component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("size"):SetFloat(0.3*game.windowScaleY())
+			component("text"):SetString("MINIGAME_PRIZE_TITLE")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("FrontPopUps")
+		</event>
+	</textComponent>
+
+	<element name="Reward">
+		<position relativeTo="Banner" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="15*game.windowScaleY()" priorityOffset="-3" />
+	</element>
+
+	<textComponent name="TapText">
+		<size w="200*game.hudScale()" h="30*game.hudScale()" />
+		<position relativeTo="Banner" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-10*game.windowScaleY()" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("size"):SetFloat(0.35*game.windowScaleY())
+			component("text"):SetString("TAP_TO_REDEEM")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("FrontPopUps")
+		</event>
+	</textComponent>
+
+</menu>

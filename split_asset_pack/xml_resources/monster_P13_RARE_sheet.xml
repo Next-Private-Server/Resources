@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e4f49a26f369b1aed85cb961216f5a5c:8f9715c12f291c01dc409c24c935c8d3:fe78b50adfd5b1502a611bb502749cf5$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P13_RARE_sheet.png" width="1024" height="1024" hires="true" version="1">
+  <sprite n="P13_Arm_1" x="290" y="0" w="71" h="154" oX="0" oY="2" oW="74" oH="160" />
+  <sprite n="P13_Arm_2" x="109" y="584" w="60" h="139" oX="4" oY="0" oW="64" oH="140" />
+  <sprite n="P13_Arm_3" x="445" y="150" w="111" h="43" oX="5" oY="8" oW="48" oH="120" r="y" />
+  <sprite n="P13_Arm_Tatter" x="410" y="709" w="29" h="35" oX="1" oY="3" oW="30" oH="40" />
+  <sprite n="P13_Box_L" x="0" y="198" w="79" h="191" oX="0" oY="5" oW="80" oH="200" />
+  <sprite n="P13_Box_L1_overlap" x="0" y="391" w="64" h="191" oX="0" oY="5" oW="80" oH="200" />
+  <sprite n="P13_Box_R" x="0" y="0" w="180" h="196" oX="0" oY="4" oW="180" oH="200" />
+  <sprite n="P13_Crowbar-curved_end" x="363" y="0" w="82" h="148" oX="0" oY="4" oW="150" oH="90" r="y" />
+  <sprite n="P13_Crowbar-straight_end" x="488" y="575" w="61" h="98" oX="2" oY="17" oW="100" oH="90" r="y" />
+  <sprite n="P13_Door_1" x="0" y="899" w="136" h="125" oX="45" oY="99" oW="180" oH="240" r="y" />
+  <sprite n="P13_Door_2" x="171" y="583" w="132" h="138" oX="33" oY="99" oW="180" oH="240" r="y" />
+  <sprite n="P13_Door_3" x="78" y="749" w="121" h="146" oX="25" oY="98" oW="180" oH="240" r="y" />
+  <sprite n="P13_Door_4" x="182" y="0" w="19" h="160" oX="10" oY="95" oW="180" oH="240" r="y" />
+  <sprite n="P13_Door_5" x="203" y="0" w="85" h="156" oX="10" oY="30" oW="180" oH="240" r="y" />
+  <sprite n="P13_Door_6" x="0" y="584" w="107" h="163" oX="5" oY="8" oW="180" oH="240" r="y" />
+  <sprite n="P13_Door_7" x="230" y="198" w="115" h="155" oX="15" oY="0" oW="180" oH="240" r="y" />
+  <sprite n="P13_Eyelids_1" x="177" y="723" w="51" h="24" oX="9" oY="24" oW="60" oH="60" />
+  <sprite n="P13_Eyelids_2" x="182" y="162" w="53" h="34" oX="7" oY="14" oW="60" oH="60" />
+  <sprite n="P13_Eyelids_3" x="289" y="355" w="51" h="34" oX="9" oY="14" oW="60" oH="60" />
+  <sprite n="P13_Eyelids_4" x="342" y="355" w="51" h="34" oX="9" oY="14" oW="60" oH="60" />
+  <sprite n="P13_Eyelids_5" x="235" y="355" w="52" h="34" oX="8" oY="14" oW="60" oH="60" />
+  <sprite n="P13_Finger_1_A" x="555" y="462" w="43" h="27" oX="4" oY="2" oW="36" oH="48" r="y" />
+  <sprite n="P13_Finger_1_B" x="346" y="983" w="46" h="31" oX="3" oY="2" oW="36" oH="48" r="y" />
+  <sprite n="P13_Finger_2_A" x="192" y="361" w="41" h="28" oX="2" oY="0" oW="30" oH="42" r="y" />
+  <sprite n="P13_Finger_2_B" x="139" y="361" w="51" h="28" oX="1" oY="3" oW="30" oH="54" r="y" />
+  <sprite n="P13_Finger_3_A" x="237" y="158" w="22" h="38" oX="3" oY="0" oW="28" oH="40" />
+  <sprite n="P13_Finger_3_B" x="142" y="725" w="33" h="21" oX="1" oY="3" oW="24" oH="36" r="y" />
+  <sprite n="P13_Finger_4_A" x="109" y="725" w="31" h="22" oX="1" oY="1" oW="24" oH="34" r="y" />
+  <sprite n="P13_Finger_4_B" x="230" y="723" w="36" h="23" oX="0" oY="0" oW="24" oH="36" r="y" />
+  <sprite n="P13_Flesh" x="66" y="391" w="147" h="161" oX="14" oY="8" oW="176" oH="176" />
+  <sprite n="P13_Flesh_DARKENED" x="81" y="198" w="147" h="161" oX="14" oY="8" oW="176" oH="176" />
+  <sprite n="P13_Foot_L" x="555" y="390" w="50" h="70" oX="2" oY="0" oW="72" oH="52" r="y" />
+  <sprite n="P13_Foot_R" x="496" y="966" w="72" h="52" oX="0" oY="1" oW="72" oH="54" />
+  <sprite n="P13_Leg_Lower" x="81" y="361" w="56" h="28" oX="4" oY="1" oW="36" oH="60" r="y" />
+  <sprite n="P13_Leg_Upper" x="373" y="150" w="70" h="44" oX="0" oY="1" oW="44" oH="72" r="y" />
+  <sprite n="P13_Lid_L" x="558" y="126" w="123" h="68" oX="0" oY="0" oW="124" oH="72" />
+  <sprite n="P13_Lid_L_closed" x="443" y="747" w="64" h="111" oX="10" oY="5" oW="124" oH="72" r="y" />
+  <sprite n="P13_Lid_R" x="347" y="196" w="88" h="130" oX="5" oY="4" oW="140" oH="96" r="y" />
+  <sprite n="P13_Lid_R_closed" x="138" y="897" w="82" h="127" oX="6" oY="3" oW="140" oH="96" r="y" />
+  <sprite n="P13_Limb_1" x="261" y="158" w="110" h="36" oX="0" oY="0" oW="40" oH="110" r="y" />
+  <sprite n="P13_Limb_2" x="152" y="554" w="82" h="27" oX="1" oY="3" oW="30" oH="90" r="y" />
+  <sprite n="P13_Limb_3" x="66" y="554" w="84" h="28" oX="4" oY="3" oW="40" oH="90" r="y" />
+  <sprite n="P13_little_eyes" x="325" y="747" w="116" h="120" oX="31" oY="31" oW="176" oH="176" />
+  <sprite n="P13_little_lids_closed" x="437" y="196" w="120" h="124" oX="29" oY="29" oW="176" oH="176" />
+  <sprite n="P13_little_lids_closed_dark" x="447" y="0" w="120" h="124" oX="29" oY="29" oW="176" oH="176" />
+  <sprite n="P13_little_lids_mid" x="569" y="0" w="120" h="124" oX="29" oY="29" oW="176" oH="176" />
+  <sprite n="P13_little_lids_mid_dark" x="305" y="583" w="120" h="124" oX="29" oY="29" oW="176" oH="176" />
+  <sprite n="P13_little_lids_open" x="230" y="355" w="3" h="3" oX="0" oY="0" oW="176" oH="176" />
+  <sprite n="P13_Mouth_1" x="427" y="580" w="59" h="112" oX="0" oY="31" oW="112" oH="100" r="y" />
+  <sprite n="P13_Mouth_2" x="236" y="525" w="111" h="56" oX="0" oY="30" oW="112" oH="100" />
+  <sprite n="P13_Mouth_3" x="346" y="869" w="58" h="112" oX="0" oY="30" oW="112" oH="100" r="y" />
+  <sprite n="P13_Mouth_4" x="395" y="328" w="110" h="61" oX="0" oY="25" oW="112" oH="100" />
+  <sprite n="P13_Mouth_5" x="406" y="869" w="65" h="111" oX="0" oY="18" oW="112" oH="100" r="y" />
+  <sprite n="P13_Mouth_6" x="570" y="953" w="89" h="71" oX="6" oY="15" oW="112" oH="100" />
+  <sprite n="P13_Mouth_7" x="543" y="491" w="89" h="70" oX="15" oY="10" oW="112" oH="100" r="y" />
+  <sprite n="P13_Mouth_8" x="441" y="694" w="111" h="51" oX="0" oY="29" oW="112" oH="100" />
+  <sprite n="P13_Mouth_9" x="349" y="525" w="112" h="53" oX="0" oY="29" oW="112" oH="100" />
+  <sprite n="P13_Palm" x="507" y="322" w="70" h="66" oX="3" oY="2" oW="72" oH="72" r="y" />
+  <sprite n="P13_Pupil" x="268" y="723" w="13" h="13" oX="2" oY="2" oW="18" oH="18" />
+  <sprite n="P13_Pupils_bottom" x="394" y="983" w="100" h="29" oX="42" oY="119" oW="176" oH="176" />
+  <sprite n="P13_Pupils_top" x="305" y="709" w="103" h="36" oX="35" oY="35" oW="176" oH="176" />
+  <sprite n="P13_Shadow" x="0" y="749" w="76" h="148" r="y" />
+  <sprite n="P13_Spit_1" x="463" y="491" w="78" h="82" oX="53" oY="12" oW="140" oH="100" />
+  <sprite n="P13_Spit_2" x="463" y="391" w="90" h="98" oX="38" oY="9" oW="140" oH="100" r="y" />
+  <sprite n="P13_Spit_3" x="509" y="747" w="91" h="103" oX="30" oY="9" oW="140" oH="100" r="y" />
+  <sprite n="P13_Spit_4" x="473" y="860" w="90" h="104" oX="24" oY="7" oW="140" oH="100" r="y" />
+  <sprite n="P13_Spit_5" x="565" y="852" w="78" h="99" oX="18" oY="9" oW="140" oH="100" r="y" />
+  <sprite n="P13_Wheel_1" x="201" y="749" w="122" h="132" oX="26" oY="6" oW="180" oH="142" />
+  <sprite n="P13_Wheel_2" x="222" y="883" w="122" h="132" oX="26" oY="6" oW="180" oH="142" />
+  <sprite n="P13_Wheel_3" x="215" y="391" w="122" h="132" oX="26" oY="6" oW="180" oH="142" />
+  <sprite n="P13_Wheel_4" x="339" y="391" w="122" h="132" oX="26" oY="6" oW="180" oH="142" />
+</TextureAtlas>

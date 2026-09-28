@@ -1,0 +1,54 @@
+<FontInfo>
+
+	<!--
+	<SpriteFont path="font/font_main_MSM" />
+	-->
+	
+	<!--
+	<TTF
+		langs="ja"
+		path="font/OpenDyslexic-Bold.ttf"
+		w="0" h="40"
+		line_spacing="65"
+		character_spacing="2"
+		stroke_size="4"
+		use_sdf="true"
+		shader="ShaderFont1"
+   />
+   -->
+
+	<!-- -->
+   	<SDF
+		langs="ja"
+		path="font/OpenDyslexic-Bold_sdf_font_atlas.xml"
+		w="0" h="40"
+		line_spacing="65"
+		character_spacing="2"
+		stroke_size="4"
+		shader="ShaderFont1"
+   />
+
+	<!--
+	<TTF 
+		 path="font/OpenDyslexic-Bold.ttf"
+		 w="0" h="40"
+		 line_spacing="56"
+		 character_spacing="0"
+		 stroke_size="6"
+		 use_sdf="true"
+		 shader="ShaderFont1"
+		 alphabet="ok"
+	/>
+	-->
+
+	<!-- -->
+	<SDF 
+		 path="font/OpenDyslexic-Bold_sdf_font_atlas.xml"
+		 w="0" h="40"
+		 line_spacing="56"
+		 character_spacing="0"
+		 stroke_size="6"
+		 shader="ShaderFont1"
+	/>
+	
+</FontInfo>

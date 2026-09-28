@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d596784809374ca389ee3d6bda3773d1:35ce555b65f72ed6c7c7a758c93840db:66e2d93464a12994f33979c4a35edd8a$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_locations_sheet_01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="map_icon_sketch_island01" x="265" y="1631" w="262" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island01_mirror" x="529" y="1629" w="262" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island02" x="723" y="552" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island02_mirror" x="357" y="557" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island03" x="1098" y="0" w="355" h="267" oX="4" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island03_mirror" x="1455" y="0" w="355" h="267" oX="4" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island04" x="0" y="561" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island04_mirror" x="1445" y="543" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island05" x="0" y="830" w="354" h="266" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island05_mirror" x="1435" y="812" w="354" h="266" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island06" x="1056" y="1624" w="259" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island07" x="793" y="1624" w="261" h="354" oX="6" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island08" x="1079" y="808" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island09" x="1069" y="1077" w="354" h="266" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island10" x="1455" y="269" w="354" h="272" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island11" x="0" y="1098" w="354" h="265" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island12" x="1089" y="538" w="354" h="268" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island13" x="712" y="1090" w="354" h="266" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island14" x="356" y="1095" w="354" h="266" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island15" x="713" y="821" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island15_mirror" x="356" y="826" w="354" h="267" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island16" x="1781" y="1168" w="263" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island16_mirror" x="1424" y="1347" w="354" h="263" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island17" x="712" y="1358" w="354" h="264" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island17_mirror" x="356" y="1363" w="354" h="264" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island18" x="1780" y="1524" w="263" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island18_mirror" x="0" y="1631" w="263" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island19" x="0" y="302" w="355" h="257" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island20" x="1425" y="1080" w="354" h="265" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island21" x="1068" y="1345" w="354" h="265" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island22" x="0" y="1365" w="354" h="264" oX="5" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island23" x="1791" y="812" w="257" h="354" oX="5" oY="20" oW="364" oH="300" r="y"/>
+	<sprite n="map_icon_sketch_island24" x="1098" y="269" w="355" h="267" oX="4" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island25" x="732" y="291" w="355" h="259" oX="3" oY="20" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island26" x="0" y="0" w="364" h="300"/>
+	<sprite n="map_icon_sketch_island27" x="366" y="0" w="364" h="294" oX="0" oY="0" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island28" x="732" y="0" w="364" h="289" oX="0" oY="6" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island31" x="366" y="296" w="355" h="259" oX="3" oY="20" oW="364" oH="300"/>
+</TextureAtlas>

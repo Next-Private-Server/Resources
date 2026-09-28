@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6913d4555e5e7f5d1a81fd357ae3ee8a:c06bac91acc34f3390199f959a6862d9:2a66baf1072e79659ee9812dded5dc46$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ACEN_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ACEN_arm_left_lower" x="110" y="339" w="12" h="25" oX="1" oY="0" oW="28" oH="12" r="y"/>
+	<sprite n="ACEN_arm_left_lower_RARE" x="110" y="366" w="12" h="25" oX="1" oY="0" oW="28" oH="12" r="y"/>
+	<sprite n="ACEN_arm_left_upper" x="110" y="279" w="12" h="28" r="y"/>
+	<sprite n="ACEN_arm_left_upper_RARE" x="110" y="309" w="12" h="28" r="y"/>
+	<sprite n="ACEN_arm_right_lower" x="286" y="505" w="15" h="27" oX="0" oY="0" oW="28" oH="16" r="y"/>
+	<sprite n="ACEN_arm_right_lower_RARE" x="284" y="547" w="16" h="27" oX="0" oY="0" oW="28" oH="16" r="y"/>
+	<sprite n="ACEN_arm_right_upper" x="417" y="800" w="20" h="48" r="y"/>
+	<sprite n="ACEN_arm_right_upper_RARE" x="489" y="808" w="20" h="48" r="y"/>
+	<sprite n="ACEN_beard_RARE" x="82" y="547" w="36" h="36"/>
+	<sprite n="ACEN_body" x="0" y="123" w="124" h="76"/>
+	<sprite n="ACEN_body_RARE" x="0" y="201" w="124" h="76"/>
+	<sprite n="ACEN_bodyRing" x="222" y="397" w="92" h="56" r="y"/>
+	<sprite n="ACEN_bodyRing_RARE" x="123" y="401" w="92" h="56" r="y"/>
+	<sprite n="ACEN_eyeLids1" x="0" y="743" w="71" h="43" oX="5" oY="0" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids1_RARE" x="292" y="704" w="71" h="43" oX="5" oY="0" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids2" x="376" y="658" w="72" h="40" oX="5" oY="3" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids2_RARE" x="376" y="700" w="72" h="40" oX="5" oY="3" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids3" x="0" y="590" w="77" h="40" oX="4" oY="3" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids3_RARE" x="199" y="607" w="77" h="40" oX="4" oY="3" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids4" x="205" y="505" w="79" h="40" oX="2" oY="3" oW="84" oH="44"/>
+	<sprite n="ACEN_eyeLids4_RARE" x="378" y="558" w="79" h="40" oX="2" oY="3" oW="84" oH="44"/>
+	<sprite n="ACEN_foot_left" x="473" y="378" w="39" h="60" oX="0" oY="0" oW="60" oH="40" r="y"/>
+	<sprite n="ACEN_foot_left_claw" x="346" y="129" w="35" h="24" oX="0" oY="0" oW="24" oH="36" r="y"/>
+	<sprite n="ACEN_foot_left_RARE" x="0" y="466" w="81" h="56"/>
+	<sprite n="ACEN_foot_right" x="62" y="805" w="40" h="52" r="y"/>
+	<sprite n="ACEN_foot_right_claw" x="473" y="440" w="36" h="56" r="y"/>
+	<sprite n="ACEN_foot_right_RARE" x="316" y="382" w="61" h="76" r="y"/>
+	<sprite n="ACEN_hand_left_1" x="335" y="749" w="27" h="27" oX="12" oY="2" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_left_1_RARE" x="335" y="778" w="27" h="27" oX="12" oY="2" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_left_2" x="278" y="628" w="22" h="28" oX="13" oY="2" oW="41" oH="32" r="y"/>
+	<sprite n="ACEN_hand_left_2_RARE" x="262" y="658" w="28" h="22" oX="13" oY="2" oW="41" oH="32"/>
+	<sprite n="ACEN_hand_left_3" x="346" y="200" w="33" h="29" oX="6" oY="1" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_left_3_RARE" x="346" y="231" w="33" h="29" oX="6" oY="1" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_left_4" x="474" y="318" w="38" h="28" oX="1" oY="0" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_left_4_RARE" x="474" y="348" w="38" h="28" oX="1" oY="0" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_right_1" x="423" y="742" w="25" h="27" oX="3" oY="5" oW="40" oH="32" r="y"/>
+	<sprite n="ACEN_hand_right_1_RARE" x="423" y="771" w="25" h="27" oX="3" oY="5" oW="40" oH="32" r="y"/>
+	<sprite n="ACEN_hand_right_2" x="262" y="682" w="28" h="22" oX="2" oY="8" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_right_2_RARE" x="262" y="706" w="28" h="22" oX="2" oY="8" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_right_3" x="77" y="645" w="29" h="26" oX="8" oY="1" oW="40" oH="32" r="y"/>
+	<sprite n="ACEN_hand_right_3_RARE" x="77" y="673" w="29" h="26" oX="8" oY="1" oW="40" oH="32" r="y"/>
+	<sprite n="ACEN_hand_right_4" x="346" y="262" w="32" h="25" oX="8" oY="5" oW="40" oH="32"/>
+	<sprite n="ACEN_hand_right_4_RARE" x="346" y="289" w="32" h="25" oX="8" oY="5" oW="40" oH="32"/>
+	<sprite n="ACEN_head" x="383" y="120" w="128" h="104" r="y"/>
+	<sprite n="ACEN_head_fin" x="0" y="524" w="80" h="64"/>
+	<sprite n="ACEN_head_fin_RARE" x="126" y="123" w="100" h="120"/>
+	<sprite n="ACEN_head_RARE" x="233" y="0" w="148" h="127"/>
+	<sprite n="ACEN_leg_left_lower" x="380" y="296" w="92" h="70" oX="5" oY="0" oW="76" oH="92" r="y"/>
+	<sprite n="ACEN_leg_left_lower_RARE" x="379" y="368" w="92" h="67" oX="4" oY="0" oW="76" oH="92" r="y"/>
+	<sprite n="ACEN_leg_left_upper" x="489" y="226" w="23" h="44" oX="1" oY="0" oW="24" oH="44"/>
+	<sprite n="ACEN_leg_left_upper_RARE" x="489" y="272" w="23" h="44" oX="1" oY="0" oW="24" oH="44"/>
+	<sprite n="ACEN_leg_right_lower" x="0" y="279" w="108" h="64" r="y"/>
+	<sprite n="ACEN_leg_right_lower_RARE" x="0" y="345" w="108" h="64" r="y"/>
+	<sprite n="ACEN_leg_right_upper" x="73" y="755" w="27" h="48" oX="1" oY="0" oW="28" oH="48"/>
+	<sprite n="ACEN_leg_right_upper_RARE" x="316" y="331" w="28" h="48"/>
+	<sprite n="ACEN_mouth1" x="450" y="684" w="62" h="70" oX="12" oY="7" oW="88" oH="72" r="y"/>
+	<sprite n="ACEN_mouth1_RARE" x="181" y="709" w="70" h="62" oX="12" oY="7" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth2" x="189" y="649" w="71" h="58" oX="11" oY="6" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth2_RARE" x="108" y="684" w="71" h="58" oX="11" oY="6" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth3" x="0" y="685" w="73" h="56" oX="9" oY="5" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth3_RARE" x="377" y="600" w="73" h="56" oX="9" oY="5" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth4_close" x="0" y="632" w="75" h="51" oX="7" oY="5" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth4_close_RARE" x="112" y="631" w="75" h="51" oX="7" oY="5" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth5" x="303" y="518" w="73" h="60" oX="9" oY="5" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth5_RARE" x="302" y="580" w="73" h="60" oX="9" oY="5" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth6_blow" x="205" y="547" w="77" h="58" oX="5" oY="6" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth6_blow_RARE" x="120" y="571" w="77" h="58" oX="5" oY="6" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth7" x="379" y="503" w="83" h="53" oX="2" oY="7" oW="88" oH="72"/>
+	<sprite n="ACEN_mouth7_RARE" x="0" y="411" w="83" h="53" oX="2" oY="7" oW="88" oH="72"/>
+	<sprite n="ACEN_neck" x="228" y="129" w="116" h="99" oX="0" oY="0" oW="116" oH="100"/>
+	<sprite n="ACEN_neck_RARE" x="228" y="230" w="116" h="99" oX="2" oY="0" oW="118" oH="100"/>
+	<sprite n="ACEN_pipe1" x="126" y="245" w="96" h="76" r="y"/>
+	<sprite n="ACEN_pipe1_back" x="0" y="838" w="56" h="52" r="y"/>
+	<sprite n="ACEN_pipe1_back_RARE" x="365" y="742" w="56" h="52" r="y"/>
+	<sprite n="ACEN_pipe1_RARE" x="124" y="323" w="96" h="76" r="y"/>
+	<sprite n="ACEN_pipe2" x="222" y="331" w="92" h="64" r="y"/>
+	<sprite n="ACEN_pipe2_back" x="282" y="749" w="51" h="48" oX="0" oY="0" oW="48" oH="52" r="y"/>
+	<sprite n="ACEN_pipe2_back_RARE" x="364" y="796" w="51" h="48" oX="0" oY="0" oW="48" oH="52" r="y"/>
+	<sprite n="ACEN_pipe2_RARE" x="379" y="437" w="92" h="64" r="y"/>
+	<sprite n="ACEN_pipe3" x="452" y="610" w="60" h="72"/>
+	<sprite n="ACEN_pipe3_back" x="175" y="773" w="44" h="43" oX="0" oY="0" oW="44" oH="44"/>
+	<sprite n="ACEN_pipe3_back_RARE" x="221" y="773" w="44" h="43" oX="0" oY="0" oW="44" oH="44"/>
+	<sprite n="ACEN_pipe3_RARE" x="302" y="642" w="72" h="60" r="y"/>
+	<sprite n="ACEN_pipe4" x="464" y="548" w="48" h="60"/>
+	<sprite n="ACEN_pipe4_back" x="85" y="463" w="36" h="40"/>
+	<sprite n="ACEN_pipe4_back_RARE" x="83" y="505" w="36" h="40"/>
+	<sprite n="ACEN_pipe4_RARE" x="0" y="788" w="60" h="48" r="y"/>
+	<sprite n="ACEN_pipe5" x="473" y="498" w="36" h="48"/>
+	<sprite n="ACEN_pipe5_back" x="82" y="585" w="31" h="28" oX="0" oY="0" oW="28" oH="32" r="y"/>
+	<sprite n="ACEN_pipe5_back_RARE" x="79" y="615" w="31" h="28" oX="0" oY="0" oW="28" oH="32" r="y"/>
+	<sprite n="ACEN_pipe5_RARE" x="85" y="413" w="36" h="48"/>
+	<sprite n="ACEN_pipe_thumb" x="284" y="576" w="16" h="24"/>
+	<sprite n="ACEN_pipe_thumb_RARE" x="284" y="602" w="16" h="24"/>
+	<sprite n="ACEN_pupil_left" x="474" y="306" w="8" h="8"/>
+	<sprite n="ACEN_pupil_left_RARE" x="110" y="403" w="8" h="8"/>
+	<sprite n="ACEN_pupil_right" x="110" y="393" w="11" h="8" oX="0" oY="0" oW="8" oH="12" r="y"/>
+	<sprite n="ACEN_pupil_right_RARE" x="474" y="296" w="11" h="8" oX="0" oY="0" oW="8" oH="12" r="y"/>
+	<sprite n="ACEN_shadow" x="0" y="0" w="231" h="121"/>
+	<sprite n="ACEN_tail1" x="439" y="808" w="48" h="40" r="y"/>
+	<sprite n="ACEN_tail2" x="123" y="501" w="80" h="68"/>
+	<sprite n="ACEN_tail3" x="303" y="460" w="74" h="56" oX="1" oY="0" oW="76" oH="56"/>
+	<sprite n="ACEN_tail_RARE" x="105" y="744" w="68" h="62" oX="0" oY="0" oW="80" oH="69" r="y"/>
+	<sprite n="ACEN_whiskers_left" x="75" y="701" w="28" h="52"/>
+	<sprite n="ACEN_whiskers_left_RARE" x="253" y="730" w="27" h="41" r="y"/>
+	<sprite n="ACEN_whiskers_right" x="217" y="455" w="84" h="48"/>
+	<sprite n="ACEN_whiskers_right_RARE" x="346" y="155" w="34" h="43" r="y"/>
+	<sprite n="ACEN_wing1" x="450" y="756" w="52" h="24"/>
+	<sprite n="ACEN_wing1_RARE" x="450" y="782" w="52" h="24"/>
+	<sprite n="ACEN_wing2" x="346" y="316" w="31" h="64" oX="0" oY="0" oW="64" oH="32" r="y"/>
+	<sprite n="ACEN_wing2_RARE" x="381" y="226" w="106" h="68"/>
+	<sprite n="ACEN_wing3" x="123" y="459" w="83" h="40" oX="0" oY="0" oW="84" oH="40"/>
+	<sprite n="spore_ACEN" x="383" y="0" w="128" h="118" oX="20" oY="35" oW="172" oH="172"/>
+</TextureAtlas>

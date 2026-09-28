@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d8e72ec8fccad7fecd28f035f0f1239d:6c2978c22cd6bfe00dd1d7acb58ef012:689ab35ce329219af203755592fb9c30$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ACDE_EPIC_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ACDE_batwing_01" x="429" y="295" w="95" h="154" oX="3" oY="12" oW="158" oH="170" r="y"/>
+	<sprite n="ACDE_batwing_02" x="252" y="853" w="105" h="156" oX="1" oY="1" oW="158" oH="170" r="y"/>
+	<sprite n="ACDE_batwing_03" x="331" y="295" w="96" h="156" oX="0" oY="15" oW="158" oH="170" r="y"/>
+	<sprite n="ACDE_batwing_04" x="281" y="526" w="108" h="154" oX="2" oY="37" oW="158" oH="170" r="y"/>
+	<sprite n="ACDE_batwing_05" x="0" y="891" w="103" h="132" oX="54" oY="38" oW="158" oH="170"/>
+	<sprite n="ACDE_batwing_06" x="575" y="655" w="107" h="107" oX="51" oY="38" oW="158" oH="170"/>
+	<sprite n="ACDE_batwing_07" x="359" y="831" w="85" h="147" oX="10" oY="32" oW="158" oH="170" r="y"/>
+	<sprite n="ACDE_body" x="239" y="0" w="194" h="293" oX="1" oY="0" oW="196" oH="294"/>
+	<sprite n="ACDE_eyeback_EPIC" x="893" y="0" w="84" h="78" oX="27" oY="26" oW="130" oH="130"/>
+	<sprite n="ACDE_eyelids_1_EPIC" x="568" y="0" w="92" h="85" oX="22" oY="27" oW="130" oH="130"/>
+	<sprite n="ACDE_eyelids_2_EPIC" x="568" y="87" w="92" h="85" oX="22" oY="27" oW="130" oH="130"/>
+	<sprite n="ACDE_eyelids_3_EPIC" x="684" y="0" w="92" h="86" oX="22" oY="26" oW="130" oH="130"/>
+	<sprite n="ACDE_eyelids_4_EPIC" x="711" y="861" w="85" h="94" oX="22" oY="27" oW="130" oH="130" r="y"/>
+	<sprite n="ACDE_guitarbody_EPIC" x="0" y="0" w="237" h="525" oX="3" oY="0" oW="240" oH="525"/>
+	<sprite n="ACDE_horns_EPIC" x="365" y="453" w="114" h="70" oX="3" oY="0" oW="120" oH="70"/>
+	<sprite n="ACDE_left_foot_RARE" x="532" y="523" w="125" h="130" oX="1" oY="0" oW="132" oH="126" r="y"/>
+	<sprite n="ACDE_left_hand_1_RARE" x="798" y="0" w="93" h="82" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_hand_2_RARE" x="512" y="174" w="87" h="91" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_hand_3_RARE" x="435" y="87" w="83" h="85" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_hand_4_RARE" x="631" y="864" w="78" h="97" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_hand_5_RARE" x="435" y="174" w="75" h="92" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_leg" x="239" y="295" w="90" h="177" oX="1" oY="0" oW="92" oH="178"/>
+	<sprite n="ACDE_left_lowerarm" x="391" y="525" w="139" h="145" oX="0" oY="1" oW="146" oH="142" r="y"/>
+	<sprite n="ACDE_left_upperarm" x="446" y="830" w="103" h="134" oX="1" oY="1" oW="136" oH="106" r="y"/>
+	<sprite n="ACDE_mouth_1_RARE" x="239" y="474" w="124" h="50" oX="0" oY="6" oW="124" oH="70"/>
+	<sprite n="ACDE_mouth_2_RARE" x="551" y="808" w="61" h="111" oX="9" oY="5" oW="124" oH="70" r="y"/>
+	<sprite n="ACDE_mouth_3_RARE" x="614" y="764" w="66" h="98" oX="17" oY="4" oW="124" oH="70" r="y"/>
+	<sprite n="ACDE_mouth_4_RARE" x="481" y="451" w="85" h="70" oX="23" oY="0" oW="124" oH="70"/>
+	<sprite n="ACDE_mouth_5_RARE" x="711" y="957" w="64" h="65" oX="34" oY="3" oW="124" oH="70"/>
+	<sprite n="ACDE_mouth_6_RARE" x="359" y="980" w="84" h="43" oX="23" oY="14" oW="124" oH="70"/>
+	<sprite n="ACDE_pupil_EPIC" x="106" y="853" w="39" h="23" oX="1" oY="0" oW="24" oH="40" r="y"/>
+	<sprite n="ACDE_right_foot_RARE" x="281" y="682" w="103" h="147" oX="1" oY="1" oW="148" oH="104" r="y"/>
+	<sprite n="ACDE_right_hand_1_RARE" x="551" y="921" w="78" h="102" oX="0" oY="12" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_hand_2_RARE" x="682" y="764" w="87" h="95" oX="7" oY="3" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_hand_3_RARE" x="435" y="0" w="90" h="85" oX="17" oY="0" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_leg" x="489" y="672" w="84" h="134" oX="0" oY="1" oW="86" oH="136"/>
+	<sprite n="ACDE_right_lowerarm" x="386" y="682" w="101" h="146" oX="1" oY="2" oW="104" oH="148"/>
+	<sprite n="ACDE_right_upperarm" x="105" y="891" w="145" h="131" oX="1" oY="0" oW="134" oH="146" r="y"/>
+	<sprite n="ACDE_shadow" x="106" y="527" w="173" h="324" oX="6" oY="0" oW="336" oH="174" r="y"/>
+	<sprite n="ACDE_strings_1" x="73" y="527" w="31" h="362" oX="3" oY="63" oW="38" oH="426"/>
+	<sprite n="ACDE_strings_2" x="39" y="527" w="32" h="362" oX="2" oY="63" oW="38" oH="426"/>
+	<sprite n="ACDE_strings_3" x="0" y="527" w="37" h="362" oX="0" oY="63" oW="38" oH="426"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:716be63b79275ce78d46880cc8f46808:2bec44b49b3228798e9b21aa10f2e402:29fadefabad0adee1bbf46764badaae9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/lifeformula_blueprintworkshop_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Arm 01" x="414" y="3" w="83" h="142" oX="0" oY="1" oW="84" oH="144"/>
+    <sprite n="Arm 02" x="414" y="149" w="68" h="101" oX="0" oY="1" oW="68" oH="104"/>
+    <sprite n="Arm 03" x="417" y="524" w="64" h="106" oX="0" oY="1" oW="64" oH="108"/>
+    <sprite n="Board" x="3" y="3" w="407" h="370" oX="3" oY="2" oW="376" oH="412" r="y"/>
+    <sprite n="Peg Back" x="417" y="634" w="39" h="29" oX="2" oY="1" oW="44" oH="32"/>
+    <sprite n="Peg Front" x="460" y="634" w="33" h="29" oX="1" oY="1" oW="36" oH="32"/>
+    <sprite n="Saw" x="414" y="254" w="67" h="143" oX="2" oY="2" oW="72" oH="148"/>
+    <sprite n="Shadow" x="278" y="401" w="220" h="119" oX="2" oY="2" oW="224" oH="124"/>
+    <sprite n="Table" x="3" y="377" w="271" h="164" oX="0" oY="1" oW="272" oH="192"/>
+    <sprite n="Vase" x="278" y="524" w="135" h="232" oX="2" oY="2" oW="140" oH="236"/>
+</TextureAtlas>

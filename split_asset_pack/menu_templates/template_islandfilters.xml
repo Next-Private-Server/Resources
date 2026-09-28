@@ -1,0 +1,215 @@
+<template name="template_islandfilters" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<size w="100 * game.hudScale()" h="32 * game.hudScale()" />
+
+	<!-- <template type="template_overlayedcheckbox" name="ShowMonstersBox"> -->
+		<!-- <templateVar name="$overlaySprite" equals="'button_yes'" /> -->
+		<!-- <templateVar name="$bgSprite" equals="'button_base_grey'" /> -->
+		<!-- <templateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" /> -->
+		<!-- <templateVar name="$scale" equals="0.2*game.hudScale()" /> -->
+		<!-- <templateVar name="$layer" equals="'ContextBar'" /> -->
+		<!-- <templateVar name="$check" equals="game.showingMonstersTileSpots()" /> -->
+		<!-- <position relativeTo="ShowDecorationsBox" vAnchor="TOP" hAnchor="LEFT" /> -->
+		<!-- <orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" /> -->
+		<!-- <touchComponent name="Touch"> -->
+			<!-- <event name="onTouchUp" params="component, element"> -->
+				<!-- onTouchUp(component, element) -->
+				<!-- if(not game.showingMonstersTileSpots()) then -->
+					<!-- game.setShowWorldMonsters(true) -->
+					<!-- element["overlay"]("visible"):SetInt(1) -->
+				<!-- else -->
+					<!-- game.setShowWorldMonsters(false) -->
+					<!-- element["overlay"]("visible"):SetInt(0) -->
+				<!-- end -->
+			<!-- </event> -->
+		<!-- </touchComponent> -->
+		<!-- <element name="Label"> -->
+			<!-- <size dependentOnElement="element:name()" dependentOnComponent="Text" /> -->
+			<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" /> -->
+			<!-- <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.hudScale()" yOffset="0" /> -->
+			<!-- <textComponent name="Text"> -->
+				<!-- <size w="256*game.menuScaleX()" h="35*game.menuScaleY()" /> -->
+				<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" /> -->
+				<!-- <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" /> -->
+				<!-- <event name="onInit" params="component, element"> -->
+					<!-- component("multiline"):SetInt(1) -->
+					<!-- component("font"):Set(game.getTextFont()) -->
+					<!-- component("size"):SetFloat(0.2*game.menuScaleX()) -->
+					<!-- component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED) -->
+					<!-- component("text"):SetString("SHOW_MONSTERS_LABEL") -->
+					<!-- component("layer"):SetString("ContextBar") -->
+					<!-- component("autoScale"):SetInt(1) -->
+				<!-- </event> -->
+			<!-- </textComponent> -->
+		<!-- </element> -->
+	<!-- </template> -->
+		
+	<!-- <template type="template_overlayedcheckbox" name="ShowDecorationsBox"> -->
+		<!-- <templateVar name="$overlaySprite" equals="'button_yes'" /> -->
+		<!-- <templateVar name="$bgSprite" equals="'button_base_grey'" /> -->
+		<!-- <templateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" /> -->
+		<!-- <templateVar name="$scale" equals="0.2*game.hudScale()" /> -->
+		<!-- <templateVar name="$layer" equals="'ContextBar'" /> -->
+		<!-- <templateVar name="$check" equals="game.showingDecorationsTileSpots()" /> -->
+		<!-- <position relativeTo="ShowStructuresBox" vAnchor="TOP" hAnchor="LEFT" /> -->
+		<!-- <orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" /> -->
+		<!-- <touchComponent name="Touch"> -->
+			<!-- <event name="onTouchUp" params="component, element"> -->
+				<!-- onTouchUp(component, element) -->
+				<!-- if(not game.showingDecorationsTileSpots()) then -->
+					<!-- game.setShowWorldDecorations(true) -->
+					<!-- element["overlay"]("visible"):SetInt(1) -->
+				<!-- else -->
+					<!-- game.setShowWorldDecorations(false) -->
+					<!-- element["overlay"]("visible"):SetInt(0) -->
+				<!-- end -->
+			<!-- </event> -->
+		<!-- </touchComponent> -->
+		<!-- <element name="Label"> -->
+			<!-- <size dependentOnElement="element:name()" dependentOnComponent="Text" /> -->
+			<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" /> -->
+			<!-- <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.hudScale()" yOffset="0" /> -->
+			<!-- <textComponent name="Text"> -->
+				<!-- <size w="256*game.menuScaleX()" h="35*game.menuScaleY()" /> -->
+				<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" /> -->
+				<!-- <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" /> -->
+				<!-- <event name="onInit" params="component, element"> -->
+					<!-- component("multiline"):SetInt(1) -->
+					<!-- component("font"):Set(game.getTextFont()) -->
+					<!-- component("size"):SetFloat(0.2*game.menuScaleX()) -->
+					<!-- component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED) -->
+					<!-- component("text"):SetString("SHOW_DECORATIONS_LABEL") -->
+					<!-- component("layer"):SetString("ContextBar") -->
+					<!-- component("autoScale"):SetInt(1) -->
+				<!-- </event> -->
+			<!-- </textComponent> -->
+		<!-- </element> -->
+	<!-- </template> -->
+		
+	<!-- <template type="template_overlayedcheckbox" name="ShowStructuresBox"> -->
+		<!-- <templateVar name="$overlaySprite" equals="'button_yes'" /> -->
+		<!-- <templateVar name="$bgSprite" equals="'button_base_grey'" /> -->
+		<!-- <templateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" /> -->
+		<!-- <templateVar name="$scale" equals="0.2*game.hudScale()" /> -->
+		<!-- <templateVar name="$layer" equals="'ContextBar'" /> -->
+		<!-- <templateVar name="$check" equals="game.showingStructuresTileSpots()" /> -->
+		<!-- <position relativeTo="ShowObstaclesBox" vAnchor="TOP" hAnchor="LEFT" /> -->
+		<!-- <orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" /> -->
+		<!-- <touchComponent name="Touch"> -->
+			<!-- <event name="onTouchUp" params="component, element"> -->
+				<!-- onTouchUp(component, element) -->
+				<!-- if(not game.showingStructuresTileSpots()) then -->
+					<!-- game.setShowWorldStructures(true) -->
+					<!-- element["overlay"]("visible"):SetInt(1) -->
+				<!-- else -->
+					<!-- game.setShowWorldStructures(false) -->
+					<!-- element["overlay"]("visible"):SetInt(0) -->
+				<!-- end -->
+			<!-- </event> -->
+		<!-- </touchComponent> -->
+		<!-- <element name="Label"> -->
+			<!-- <size dependentOnElement="element:name()" dependentOnComponent="Text" /> -->
+			<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" /> -->
+			<!-- <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.hudScale()" yOffset="0" /> -->
+			<!-- <textComponent name="Text"> -->
+				<!-- <size w="256*game.menuScaleX()" h="35*game.menuScaleY()" /> -->
+				<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" /> -->
+				<!-- <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" /> -->
+				<!-- <event name="onInit" params="component, element"> -->
+					<!-- component("multiline"):SetInt(1) -->
+					<!-- component("font"):Set(game.getTextFont()) -->
+					<!-- component("size"):SetFloat(0.2*game.menuScaleX()) -->
+					<!-- component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED) -->
+					<!-- component("text"):SetString("SHOW_STRUCTURES_LABEL") -->
+					<!-- component("layer"):SetString("ContextBar") -->
+					<!-- component("autoScale"):SetInt(1) -->
+				<!-- </event> -->
+			<!-- </textComponent> -->
+		<!-- </element> -->
+	<!-- </template> -->
+		
+	<!-- <template type="template_overlayedcheckbox" name="ShowObstaclesBox"> -->
+		<!-- <templateVar name="$overlaySprite" equals="'button_yes'" /> -->
+		<!-- <templateVar name="$bgSprite" equals="'button_base_grey'" /> -->
+		<!-- <templateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" /> -->
+		<!-- <templateVar name="$scale" equals="0.2*game.hudScale()" /> -->
+		<!-- <templateVar name="$layer" equals="'ContextBar'" /> -->
+		<!-- <templateVar name="$check" equals="game.showingObstaclesTileSpots()" /> -->
+		<!-- <position relativeTo="ShowGridBox" vAnchor="TOP" hAnchor="LEFT" /> -->
+		<!-- <orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" /> -->
+		<!-- <touchComponent name="Touch"> -->
+			<!-- <event name="onTouchUp" params="component, element"> -->
+				<!-- onTouchUp(component, element) -->
+				<!-- if(not game.showingObstaclesTileSpots()) then -->
+					<!-- game.setShowWorldObstacles(true) -->
+					<!-- element["overlay"]("visible"):SetInt(1) -->
+				<!-- else -->
+					<!-- game.setShowWorldObstacles(false) -->
+					<!-- element["overlay"]("visible"):SetInt(0) -->
+				<!-- end -->
+			<!-- </event> -->
+		<!-- </touchComponent> -->
+		<!-- <element name="Label"> -->
+			<!-- <size dependentOnElement="element:name()" dependentOnComponent="Text" /> -->
+			<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" /> -->
+			<!-- <orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.hudScale()" yOffset="0" /> -->
+			<!-- <textComponent name="Text"> -->
+				<!-- <size w="256*game.menuScaleX()" h="35*game.menuScaleY()" /> -->
+				<!-- <position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" /> -->
+				<!-- <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" /> -->
+				<!-- <event name="onInit" params="component, element"> -->
+					<!-- component("multiline"):SetInt(1) -->
+					<!-- component("font"):Set(game.getTextFont()) -->
+					<!-- component("size"):SetFloat(0.2*game.menuScaleX()) -->
+					<!-- component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED) -->
+					<!-- component("text"):SetString("SHOW_OBSTACLES_LABEL") -->
+					<!-- component("layer"):SetString("ContextBar") -->
+					<!-- component("autoScale"):SetInt(1) -->
+				<!-- </event> -->
+			<!-- </textComponent> -->
+		<!-- </element> -->
+	<!-- </template> -->
+		
+	<template type="template_overlayedcheckbox" name="ShowGridBox">
+		<templateVar name="$overlaySprite" equals="'button_yes'" />
+		<templateVar name="$bgSprite" equals="'button_base_grey'" />
+		<templateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" />
+		<templateVar name="$scale" equals="0.2*game.hudScale()" />
+		<templateVar name="$layer" equals="'ContextBar'" />
+		<templateVar name="$check" equals="game.showingOccupiedTileSpots()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				if(not game.showingOccupiedTileSpots()) then
+					game.populateOccupiedTileSpots()
+					element["overlay"]("visible"):SetInt(1)
+				else
+					game.hideOccupiedTileSpots()
+					element["overlay"]("visible"):SetInt(0)
+				end
+			</event>
+		</touchComponent>
+		<element name="Label">
+			<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.hudScale()" yOffset="0" />
+			<textComponent name="Text">
+				<size w="256*game.menuScaleX()" h="35*game.menuScaleY()" />
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(1)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("SHOW_GRID_LABEL")
+					component("layer"):SetString("ContextBar")
+					component("autoScale"):SetInt(1)
+				</event>
+			</textComponent>
+		</element>
+	</template>
+		
+</template>

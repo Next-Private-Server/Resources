@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a47e983a38b933088c9f8f9597152858:fd0d4b7ba95938741f713e00effc7e0d:5a54714bf17dfcd2a852be248b0996f4$ -->
+<TextureAtlas imagePath="gfx/menu/tuneup_menu_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="tuneup_base" x="0" y="531" w="166" h="352" r="y"/>
+	<sprite n="tuneup_curve" x="262" y="531" w="70" h="248"/>
+	<sprite n="tuneup_fork" x="267" y="0" w="230" h="527"/>
+	<sprite n="tuneup_fork_blur" x="0" y="0" w="265" h="529"/>
+	<sprite n="tuneup_gem_01" x="264" y="939" w="89" h="77" r="y"/>
+	<sprite n="tuneup_gem_02" x="435" y="931" w="60" h="63"/>
+	<sprite n="tuneup_gem_03" x="125" y="885" w="99" h="108"/>
+	<sprite n="tuneup_glass" x="422" y="854" w="90" h="75" r="y"/>
+	<sprite n="tuneup_glow" x="355" y="937" w="78" h="79" oX="5" oY="5" oW="88" oH="88"/>
+	<sprite n="tuneup_glow_purple" x="334" y="703" w="150" h="149" r="y"/>
+	<sprite n="tuneup_gradient" x="334" y="529" w="172" h="172"/>
+	<sprite n="tuneup_inside" x="324" y="854" w="96" h="81" r="y"/>
+	<sprite n="tuneup_nub_01" x="264" y="851" w="58" h="86" r="y"/>
+	<sprite n="tuneup_nub_02" x="0" y="885" w="123" h="104"/>
+	<sprite n="tuneup_rocks" x="262" y="781" w="70" h="68" r="y"/>
+	<sprite n="tuneup_shadow" x="168" y="531" w="92" h="343" r="y"/>
+	<sprite n="tuneup_small_blob" x="226" y="876" w="36" h="105" r="y"/>
+</TextureAtlas>

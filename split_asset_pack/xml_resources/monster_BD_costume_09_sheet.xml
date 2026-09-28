@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:16ca85ef49a9c11e9962cce865b58a0e:ee0275b9f80bf885e5b26ec1362de5d0:9a2abd8ba9eb00996f594b9a83236097$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BD_costume_09_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="squidtree_eyeback" x="280" y="178" w="38" h="98" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="squidtree_eyelid1" x="149" y="333" w="47" h="110" pX="0.5" pY="0.5" oX="10" oY="0" oW="126" oH="70" r="y"/>
+	<sprite n="squidtree_eyelid2" x="147" y="0" w="47" h="110" pX="0.5" pY="0.5" oX="10" oY="0" oW="126" oH="70" r="y"/>
+	<sprite n="squidtree_eyelid3" x="155" y="206" w="47" h="110" pX="0.5" pY="0.5" oX="10" oY="0" oW="126" oH="70" r="y"/>
+	<sprite n="squidtree_eyelid4" x="198" y="318" w="47" h="110" pX="0.5" pY="0.5" oX="10" oY="0" oW="126" oH="70" r="y"/>
+	<sprite n="squidtree_leaves1" x="0" y="360" w="111" h="125" pX="0.5" pY="0.5" oX="15" oY="8" oW="142" oH="122" r="y"/>
+	<sprite n="squidtree_leaves2" x="65" y="211" w="88" h="120" pX="0.5" pY="0.5" oX="4" oY="12" oW="124" oH="100" r="y"/>
+	<sprite n="squidtree_mouth1" x="204" y="179" w="35" h="110" pX="0.5" pY="0.5" oX="2" oY="7" oW="114" oH="116" r="y"/>
+	<sprite n="squidtree_mouth2" x="113" y="333" w="34" h="114" pX="0.5" pY="0.5" oX="0" oY="8" oW="114" oH="116" r="y"/>
+	<sprite n="squidtree_mouth3" x="241" y="179" w="37" h="104" pX="0.5" pY="0.5" oX="5" oY="8" oW="114" oH="116" r="y"/>
+	<sprite n="squidtree_mouth4" x="147" y="112" w="45" h="92" pX="0.5" pY="0.5" oX="12" oY="7" oW="114" oH="116" r="y"/>
+	<sprite n="squidtree_mouth5" x="348" y="426" w="47" h="50" pX="0.5" pY="0.5" oX="34" oY="6" oW="114" oH="116" r="y"/>
+	<sprite n="squidtree_mouth6" x="196" y="0" w="47" h="110" pX="0.5" pY="0.5" oX="2" oY="8" oW="114" oH="116" r="y"/>
+	<sprite n="squidtree_shadow" x="0" y="211" w="63" h="147" pX="0.5" pY="0.5" oX="25" oY="0" oW="200" oH="99" r="y"/>
+	<sprite n="squidtree_tentacle_a1" x="295" y="278" w="52" h="38" pX="0.903846" pY="0.421053"/>
+	<sprite n="squidtree_tentacle_a2" x="381" y="372" w="38" h="50" pX="0.903846" pY="0.421053" oX="2" oY="0" oW="52" oH="38" r="y"/>
+	<sprite n="squidtree_tentacle_a3" x="347" y="372" w="32" h="52" pX="0.903846" pY="0.421053" oX="0" oY="0" oW="52" oH="38" r="y"/>
+	<sprite n="squidtree_tentacle_a4" x="241" y="285" w="52" h="31" pX="0.903846" pY="0.421053" oX="0" oY="0" oW="52" oH="38"/>
+	<sprite n="squidtree_tentacle_b1" x="171" y="445" w="47" h="67" pX="0.489362" pY="0.164179"/>
+	<sprite n="squidtree_tentacle_b2" x="220" y="430" w="47" h="67" pX="0.489362" pY="0.164179"/>
+	<sprite n="squidtree_tentacle_b3" x="243" y="112" w="47" h="64" pX="0.489362" pY="0.164179" oX="0" oY="0" oW="47" oH="67"/>
+	<sprite n="squidtree_tentacle_b4" x="194" y="112" w="47" h="65" pX="0.489362" pY="0.164179" oX="0" oY="0" oW="47" oH="67"/>
+	<sprite n="squidtree_tentacle_c1" x="113" y="449" w="56" h="56" pX="0.0535714" pY="0.196429"/>
+	<sprite n="squidtree_tentacle_c2" x="247" y="318" w="56" h="56" pX="0.0535714" pY="0.196429"/>
+	<sprite n="squidtree_tentacle_c3" x="247" y="376" w="56" h="52" pX="0.0535714" pY="0.196429" oX="0" oY="0" oW="56" oH="56"/>
+	<sprite n="squidtree_tentacle_c4" x="347" y="318" w="49" h="52" pX="0.0535714" pY="0.196429" oX="0" oY="0" oW="56" oH="56" r="y"/>
+	<sprite n="squidtree_tentacle_d1" x="269" y="430" w="40" h="54" pX="0.0740741" pY="0.4" r="y"/>
+	<sprite n="squidtree_tentacle_d2" x="305" y="318" w="40" h="54" pX="0.0740741" pY="0.4" r="y"/>
+	<sprite n="squidtree_tentacle_d3" x="311" y="430" w="35" h="54" pX="0.0740741" pY="0.4" oX="0" oY="0" oW="54" oH="40" r="y"/>
+	<sprite n="squidtree_tentacle_d4" x="305" y="374" w="40" h="54" pX="0.0740741" pY="0.4" r="y"/>
+	<sprite n="squidtree_trunk" x="0" y="0" w="145" h="209" pX="0.5" pY="0.5" oX="2" oY="1" oW="148" oH="210"/>
+</TextureAtlas>

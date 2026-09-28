@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7e96b55555fb3ff3b6a41bc5b00c1019:9816bb044ea9e765d04c203a5ec51296:41053f4ec01f2726727e90399e1421d9$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S05_costume_06_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="X_body_mesh" x="0" y="338" w="96" h="110" pX="0.5" pY="0.5" oX="0" oY="2" oW="96" oH="112"/>
+	<sprite n="X_hand_01" x="114" y="147" w="60" h="58" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_hand_02" x="0" y="450" w="59" h="61" pX="0.5" pY="0.5" oX="5" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_hand_03" x="199" y="405" w="52" h="59" pX="0.5" pY="0.5" oX="14" oY="0" oW="68" oH="60"/>
+	<sprite n="X_hand_04" x="167" y="277" w="49" h="56" pX="0.5" pY="0.5" oX="14" oY="0" oW="68" oH="60"/>
+	<sprite n="X_hand_05" x="246" y="466" w="52" h="45" pX="0.5" pY="0.5" oX="14" oY="0" oW="68" oH="60" r="y"/>
+	<sprite n="X_hand_06" x="199" y="466" w="45" h="46" pX="0.5" pY="0.5" oX="14" oY="0" oW="68" oH="60"/>
+	<sprite n="X_head" x="0" y="69" w="112" h="136" pX="0.491667" pY="0.664286" oX="6" oY="4" oW="120" oH="140"/>
+	<sprite n="X_hips_mesh" x="0" y="207" w="93" h="129" pX="0.457143" pY="0.18" oX="6" oY="0" oW="140" oH="100" r="y"/>
+	<sprite n="X_hoop_01" x="0" y="0" w="247" h="67" pX="0.5" pY="0.5" oX="0" oY="1" oW="248" oH="132"/>
+	<sprite n="X_hoop_02" x="249" y="0" w="247" h="67" pX="0.5" pY="0.5" oX="0" oY="64" oW="248" oH="132"/>
+	<sprite n="X_left_lowerarm" x="169" y="335" w="46" h="68" pX="0.895833" pY="0.382353" oX="1" oY="0" oW="48" oH="68"/>
+	<sprite n="X_left_lowerleg_boot" x="95" y="207" w="70" h="104" pX="0.4" pY="0.863636" oX="7" oY="4" oW="80" oH="110"/>
+	<sprite n="X_left_upperarm" x="95" y="313" w="54" h="21" pX="0.5" pY="0.5" oX="0" oY="1" oW="56" oH="24"/>
+	<sprite n="X_left_upperarm_rings" x="61" y="450" w="68" h="60" pX="0.85" pY="0.397059" r="y"/>
+	<sprite n="X_left_upperleg" x="146" y="69" w="28" h="76" pX="0.5" pY="0.5"/>
+	<sprite n="X_right_lowerarm" x="167" y="207" w="63" h="68" pX="0.0625" pY="0.411765" oX="0" oY="0" oW="64" oH="68"/>
+	<sprite n="X_right_lowerleg_boot" x="98" y="336" w="69" h="103" pX="0.45" pY="0.816667" oX="8" oY="12" oW="100" oH="120"/>
+	<sprite n="X_right_upperarm" x="131" y="441" w="66" h="68" pX="0.132353" pY="0.382353" oX="1" oY="0" oW="68" oH="68"/>
+	<sprite n="X_right_upperleg" x="114" y="69" w="30" h="76" pX="0.5" pY="0.5" oX="0" oY="1" oW="32" oH="80"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b45cb5f9e57e8ee4249c200d284a2809:4de2a97367dd998e4984d9db98e332b0:8ec5b2d9d6008b9498fc6d469cadea8f$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_stages_kpop_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="bg_stage" x="563" y="528" w="387" h="205" oX="16" oY="28" oW="420" oH="244"/>
+	<sprite n="lstage" x="0" y="0" w="949" h="526"/>
+	<sprite n="lstage_glowA" x="0" y="528" w="157" h="452" oX="2" oY="1" oW="454" oH="158" r="y"/>
+	<sprite n="lstage_glowB" x="159" y="528" w="157" h="452" oX="0" oY="1" oW="454" oH="158" r="y"/>
+	<sprite n="ustage_floor_light" x="563" y="735" w="349" h="167" oX="10" oY="14" oW="378" oH="194"/>
+	<sprite n="ustage_full" x="318" y="528" w="243" h="429" oX="11" oY="25" oW="450" oH="300" r="y"/>
+</TextureAtlas>

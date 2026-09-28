@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6b38fdc828c2235db13e43863b6c0955:c4d9fd767a1e653c9d63614b3e31d9d7:36965cdcd518786af707cac1503b0823$ -->
+<TextureAtlas imagePath="gfx/hud03.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="BattleLevel_Star" x="222" y="99" w="121" h="112"/>
+	<sprite n="button_battle_complete" x="217" y="427" w="100" h="99" oX="15" oY="15" oW="130" oH="130"/>
+	<sprite n="button_castle" x="105" y="482" w="100" h="99" oX="17" oY="13" oW="130" oH="130" r="y"/>
+	<sprite n="button_copypaste" x="345" y="99" w="95" h="79" oX="31" oY="23" oW="140" oH="140" r="y"/>
+	<sprite n="button_daily_login" x="0" y="516" w="99" h="92" oX="19" oY="16" oW="130" oH="130" r="y"/>
+	<sprite n="button_evolve_reg_epic" x="0" y="316" w="112" h="98" oX="13" oY="10" oW="130" oH="130" r="y"/>
+	<sprite n="button_flags" x="123" y="202" w="96" h="103" oX="17" oY="14" oW="130" oH="130"/>
+	<sprite n="button_goal_delete" x="207" y="528" w="87" h="77" oX="5" oY="1" oW="88" oH="88" r="y"/>
+	<sprite n="button_goal_survey" x="441" y="194" w="71" h="83" oX="9" oY="5" oW="88" oH="88"/>
+	<sprite n="button_mirror_in" x="332" y="386" w="103" h="101" oX="21" oY="17" oW="130" oH="130" r="y"/>
+	<sprite n="button_mirror_out" x="0" y="416" w="103" h="98" oX="21" oY="17" oW="130" oH="130" r="y"/>
+	<sprite n="button_paironormal" x="337" y="286" w="102" h="98" oX="13" oY="15" oW="130" oH="130"/>
+	<sprite n="button_paironormal_MAJ" x="0" y="664" w="84" h="79" oX="25" oY="21" oW="130" oH="130" r="y"/>
+	<sprite n="button_paironormal_MIN" x="296" y="575" w="84" h="79" oX="30" oY="21" oW="130" oH="130" r="y"/>
+	<sprite n="button_rank" x="123" y="307" w="93" h="90" oX="23" oY="24" oW="140" oH="140"/>
+	<sprite n="button_wait" x="101" y="583" w="86" h="84" oX="26" oY="31" oW="140" oH="140" r="y"/>
+	<sprite n="button_zap" x="221" y="213" w="114" h="101" oX="13" oY="19" oW="140" oH="140"/>
+	<sprite n="editprofile_icon" x="152" y="735" w="50" h="48" oX="0" oY="2" oW="50" oH="50"/>
+	<sprite n="encore_bar_full" x="0" y="0" w="249" h="24" oX="10" oY="8" oW="270" oH="42"/>
+	<sprite n="encore_coin" x="442" y="108" w="68" h="44" oX="12" oY="0" oW="68" oH="68" r="y"/>
+	<sprite n="encore_event_frame" x="437" y="421" w="74" h="73"/>
+	<sprite n="encore_icon_allevents" x="414" y="655" w="77" h="77" oX="1" oY="3" oW="80" oH="80"/>
+	<sprite n="encore_icon_bake" x="441" y="344" w="64" h="75" oX="9" oY="5" oW="80" oH="80"/>
+	<sprite n="encore_icon_breed" x="441" y="279" w="65" h="63" oX="9" oY="14" oW="80" oH="80" r="y"/>
+	<sprite n="encore_icon_hatch" x="86" y="669" w="64" h="61" oX="7" oY="15" oW="80" oH="80"/>
+	<sprite n="encore_reward_banner" x="218" y="316" w="112" h="109" oX="28" oY="29" oW="166" oH="166" r="y"/>
+	<sprite n="encore_timer_backdrop" x="251" y="0" w="241" h="39"/>
+	<sprite n="fuge_icon" x="0" y="26" w="220" h="174" r="y"/>
+	<sprite n="glow_beam" x="250" y="41" w="190" h="56" oX="0" oY="1" oW="56" oH="191" r="y"/>
+	<sprite n="glow_white" x="353" y="674" w="59" h="60" oX="0" oY="0" oW="60" oH="60" r="y"/>
+	<sprite n="icon_decos" x="345" y="180" w="94" h="104" oX="14" oY="23" oW="130" oH="130" r="y"/>
+	<sprite n="icon_hype" x="86" y="732" w="64" h="56" oX="4" oY="0" oW="64" oH="64" r="y"/>
+	<sprite n="icon_hype_progress" x="189" y="607" w="64" h="64"/>
+	<sprite n="icon_hype_progress_prestige" x="287" y="656" w="64" h="64"/>
+	<sprite n="icon_sticker_album" x="414" y="734" w="64" h="64"/>
+	<sprite n="icon_stickers" x="152" y="673" w="64" h="60" oX="2" oY="0" oW="64" oH="64" r="y"/>
+	<sprite n="icon_structures" x="114" y="399" w="101" h="81" oX="26" oY="18" oW="130" oH="130" r="y"/>
+	<sprite n="mini_game_icon_chest" x="414" y="576" w="78" h="77" oX="1" oY="3" oW="80" oH="80"/>
+	<sprite n="mini_game_token" x="442" y="154" w="68" h="38" oX="15" oY="0" oW="68" oH="68" r="y"/>
+	<sprite n="news_islandskins" x="319" y="489" w="93" h="84" oX="25" oY="16" oW="130" oH="130" r="y"/>
+	<sprite n="PlayerLevel_Star" x="414" y="496" w="88" h="78"/>
+	<sprite n="PlayerLevel_Star_HUD" x="0" y="202" w="121" h="112"/>
+	<sprite n="profileeditor_avatar_icon" x="382" y="575" w="30" h="31" oX="1" oY="1" oW="32" oH="32"/>
+	<sprite n="profileeditor_avatar_premium_icon" x="382" y="608" w="30" h="31" oX="1" oY="1" oW="32" oH="32"/>
+	<sprite n="profileeditor_avatarbg_icon" x="382" y="641" w="30" h="31" oX="0" oY="1" oW="32" oH="32"/>
+	<sprite n="profileeditor_card_icon" x="222" y="26" w="26" h="31" oX="3" oY="1" oW="32" oH="32"/>
+	<sprite n="profileeditor_frame_icon" x="480" y="734" w="30" h="29" oX="2" oY="2" oW="32" oH="32" r="y"/>
+	<sprite n="profileeditor_phrase_icon" x="255" y="644" w="30" h="29" oX="1" oY="3" oW="32" oH="32"/>
+	<sprite n="saletag" x="0" y="610" w="85" h="52" oX="0" oY="1" oW="85" oH="53"/>
+	<sprite n="star" x="255" y="607" w="36" h="35"/>
+	<sprite n="sticker_star" x="218" y="675" w="63" h="61" oX="4" oY="4" oW="68" oH="68" r="y"/>
+	<sprite n="token_and_ticket" x="442" y="41" w="68" h="65" oX="3" oY="0" oW="68" oH="68" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:8afa21d13a7d71a4bf7a07e42b735ed6:a1c4a9c8b433e2e6eeb3c95d192607e2:83bfb9309cb7a388e943c6c36be716df$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_T06_adult_sheet" width="512" height="1024" hires="true">
+    <sprite n="Horn_1" x="403" y="477" w="76" h="47" pX="0.5" pY="0.5" oX="0" oY="0" oW="48" oH="76" r="y"/>
+    <sprite n="Horn_1_base" x="483" y="436" w="28" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="Horn_2" x="403" y="592" w="51" h="39" pX="0.5" pY="0.5" oX="0" oY="1" oW="40" oH="52" r="y"/>
+    <sprite n="Horn_2_base" x="380" y="586" w="21" h="25" pX="0.5" pY="0.5" oX="1" oY="1" oW="22" oH="26"/>
+    <sprite n="Horn_3" x="255" y="530" w="65" h="40" pX="0.5" pY="0.5" oX="0" oY="3" oW="40" oH="68" r="y"/>
+    <sprite n="Horn_3_base" x="480" y="528" w="31" h="30" pX="0.5" pY="0.5" oX="2" oY="0" oW="36" oH="30"/>
+    <sprite n="Horn_4" x="1" y="512" w="70" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="Horn_4_base" x="344" y="476" w="28" h="39" pX="0.5" pY="0.5" oX="1" oY="0" oW="40" oH="32" r="y"/>
+    <sprite n="Horn_5" x="255" y="572" w="54" h="43" pX="0.5" pY="0.5" oX="1" oY="2" oW="44" oH="56" r="y"/>
+    <sprite n="Horn_5_base" x="479" y="607" w="28" h="27" pX="0.5" pY="0.5" oX="0" oY="0" oW="30" oH="28" r="y"/>
+    <sprite n="T06_1_rope" x="131" y="261" w="124" h="106" pX="0.5" pY="0.5"/>
+    <sprite n="T06_back" x="1" y="1" w="259" h="258" pX="0.5" pY="0.5" oX="14" oY="0" oW="304" oH="260" r="y"/>
+    <sprite n="T06_body_BG" x="262" y="137" w="157" h="100" pX="0.5" pY="0.5" oX="1" oY="35" oW="160" oH="136"/>
+    <sprite n="T06_body_FG" x="262" y="1" w="158" h="134" pX="0.5" pY="0.5" oX="1" oY="1" oW="160" oH="136"/>
+    <sprite n="T06_bottleleg" x="403" y="434" w="78" h="41" pX="0.5" pY="0.5" oX="1" oY="1" oW="47" oH="81" r="y"/>
+    <sprite n="T06_chest_lid" x="1" y="387" w="73" h="63" pX="0.5" pY="0.5" oX="1" oY="5" oW="76" oH="68"/>
+    <sprite n="T06_chest_lid_ol" x="131" y="439" w="73" h="63" pX="0.5" pY="0.5" oX="1" oY="5" oW="76" oH="68"/>
+    <sprite n="T06_clam_back" x="322" y="548" w="56" h="63" pX="0.5" pY="0.5" oX="10" oY="6" oW="76" oH="76"/>
+    <sprite n="T06_claw_bottom" x="206" y="503" w="47" h="66" pX="0.5" pY="0.5" oX="1" oY="1" oW="48" oH="68"/>
+    <sprite n="T06_claw_top" x="403" y="526" w="75" h="64" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="76" r="y"/>
+    <sprite n="T06_eye" x="383" y="387" w="19" h="19" pX="0.5" pY="0.5" oX="2" oY="2" oW="24" oH="24"/>
+    <sprite n="T06_eyelid_1" x="383" y="365" w="19" h="20" pX="0.5" pY="0.5" oX="1" oY="2" oW="24" oH="24" r="y"/>
+    <sprite n="T06_eyelid_2" x="456" y="592" w="21" h="20" pX="0.5" pY="0.5" oX="2" oY="1" oW="24" oH="24" r="y"/>
+    <sprite n="T06_feet" x="345" y="386" w="36" h="54" pX="0.5" pY="0.5" oX="1" oY="2" oW="56" oH="40" r="y"/>
+    <sprite n="T06_flag_1" x="421" y="192" w="90" h="42" pX="0.5" pY="0.5" oX="0" oY="5" oW="90" oH="56"/>
+    <sprite n="T06_flag_2" x="422" y="98" w="89" h="41" pX="0.5" pY="0.5" oX="0" oY="3" oW="90" oH="56"/>
+    <sprite n="T06_flag_3" x="422" y="50" w="89" h="46" pX="0.5" pY="0.5" oX="0" oY="1" oW="90" oH="56"/>
+    <sprite n="T06_flag_4" x="421" y="141" w="90" h="49" pX="0.5" pY="0.5" oX="0" oY="3" oW="90" oH="56"/>
+    <sprite n="T06_flag_5" x="257" y="386" w="86" h="40" pX="0.5" pY="0.5" oX="0" oY="5" oW="90" oH="56"/>
+    <sprite n="T06_flag_6" x="421" y="236" w="88" h="50" pX="0.5" pY="0.5" oX="0" oY="5" oW="90" oH="56"/>
+    <sprite n="T06_flag_7" x="422" y="1" w="89" h="47" pX="0.5" pY="0.5" oX="0" oY="5" oW="90" oH="56"/>
+    <sprite n="T06_foot" x="345" y="386" w="36" h="54" pX="0.5" pY="0.5" oX="1" oY="0" oW="56" oH="36" r="y"/>
+    <sprite n="T06_friend_head" x="1" y="452" w="71" h="58" pX="0.5" pY="0.5" oX="0" oY="4" oW="76" oH="68"/>
+    <sprite n="T06_friend_pupil" x="379" y="613" w="12" h="12" pX="0.5" pY="0.5"/>
+    <sprite n="T06_hand_hinge" x="481" y="486" w="30" h="40" pX="0.5" pY="0.5" oX="10" oY="24" oW="64" oH="60" r="y"/>
+    <sprite n="T06_Hands_1" x="206" y="439" w="48" h="62" pX="0.5" pY="0.5" oX="0" oY="0" oW="48" oH="64"/>
+    <sprite n="T06_Hands_2" x="73" y="545" w="56" h="45" pX="0.5" pY="0.5" oX="2" oY="1" oW="48" oH="64" r="y"/>
+    <sprite n="T06_Hands_3" x="131" y="584" w="58" h="47" pX="0.5" pY="0.5" oX="0" oY="1" oW="48" oH="64" r="y"/>
+    <sprite n="T06_Hands_4" x="311" y="613" w="50" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="48" oH="64" r="y"/>
+    <sprite n="T06_Hands_5" x="196" y="571" w="57" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="48" oH="64" r="y"/>
+    <sprite n="T06_Hands_6" x="74" y="497" w="55" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="48" oH="64" r="y"/>
+    <sprite n="T06_head" x="1" y="261" w="128" h="124" pX="0.5" pY="0.5" oX="1" oY="0" oW="130" oH="124"/>
+    <sprite n="T06_kelp_1" x="381" y="463" w="20" h="74" pX="0.5" pY="0.5" oX="0" oY="1" oW="20" oH="76"/>
+    <sprite n="T06_kelp_2" x="326" y="529" w="52" h="17" pX="0.5" pY="0.5" oX="1" oY="0" oW="20" oH="52" r="y"/>
+    <sprite n="T06_knee" x="1" y="632" w="54" h="44" pX="0.5" pY="0.5" oX="1" oY="0" oW="56" oH="44"/>
+    <sprite n="T06_L_arm" x="131" y="504" w="63" h="54" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="60"/>
+    <sprite n="T06_L_Ear" x="344" y="442" w="35" h="32" pX="0.5" pY="0.5" oX="0" oY="2" oW="36" oH="36"/>
+    <sprite n="T06_L_Kelp_1" x="66" y="592" w="57" h="43" pX="0.5" pY="0.5" oX="0" oY="0" oW="58" oH="44"/>
+    <sprite n="T06_L_Kelp_2" x="131" y="560" w="63" h="22" pX="0.5" pY="0.5" oX="0" oY="1" oW="64" oH="24"/>
+    <sprite n="T06_L_Kelp_3" x="1" y="610" w="56" h="20" pX="0.5" pY="0.5"/>
+    <sprite n="T06_L_Shoulder" x="76" y="387" w="53" h="56" pX="0.5" pY="0.5" oX="1" oY="0" oW="56" oH="56"/>
+    <sprite n="T06_leg_tentacle_1" x="404" y="288" w="107" h="55" pX="0.5" pY="0.5" oX="0" oY="0" oW="56" oH="108" r="y"/>
+    <sprite n="T06_leg_tentacle_2" x="256" y="477" w="68" h="51" pX="0.5" pY="0.5" oX="0" oY="4" oW="70" oH="59"/>
+    <sprite n="T06_lower_arm" x="1" y="554" w="63" h="54" pX="0.5" pY="0.5" oX="0" oY="2" oW="56" oH="70" r="y"/>
+    <sprite n="T06_mouth_1" x="498" y="345" w="13" h="46" pX="0.5" pY="0.5" oX="5" oY="7" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_2" x="404" y="239" w="15" h="44" pX="0.5" pY="0.5" oX="6" oY="5" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_3" x="326" y="477" w="16" h="50" pX="0.5" pY="0.5" oX="2" oY="5" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_4" x="456" y="614" w="18" h="44" pX="0.5" pY="0.5" oX="5" oY="4" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_5" x="380" y="539" w="21" h="45" pX="0.5" pY="0.5" oX="5" oY="2" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_6" x="498" y="393" w="13" h="41" pX="0.5" pY="0.5" oX="8" oY="7" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_7" x="494" y="636" w="14" h="41" pX="0.5" pY="0.5" oX="7" oY="7" oW="56" oH="26" r="y"/>
+    <sprite n="T06_mouth_8" x="476" y="636" w="16" h="41" pX="0.5" pY="0.5" oX="8" oY="5" oW="56" oH="26" r="y"/>
+    <sprite n="T06_pupil" x="363" y="613" w="14" h="12" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T06_R_Ear" x="480" y="560" w="29" h="45" pX="0.5" pY="0.5" oX="0" oY="2" oW="46" oH="33" r="y"/>
+    <sprite n="T06_R_Kelp_1" x="257" y="428" w="85" h="47" pX="0.5" pY="0.5" oX="1" oY="0" oW="88" oH="48"/>
+    <sprite n="T06_R_Kelp_2" x="383" y="289" w="19" h="74" pX="0.5" pY="0.5" oX="1" oY="0" oW="76" oH="20" r="y"/>
+    <sprite n="T06_R_Kelp_3" x="383" y="408" w="18" h="53" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="20" r="y"/>
+    <sprite n="T06_rope_2" x="257" y="289" w="124" h="95" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="124" r="y"/>
+    <sprite n="T06_rope_bf" x="131" y="369" w="124" h="68" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="T06_shadow" x="262" y="239" w="140" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="T06_small_shell" x="76" y="445" w="53" h="50" pX="0.5" pY="0.5" oX="1" oY="1" oW="52" oH="56" r="y"/>
+    <sprite n="T06_upper_arm" x="404" y="345" w="92" h="87" pX="0.5" pY="0.5" oX="0" oY="5" oW="92" oH="92"/>
+</TextureAtlas>

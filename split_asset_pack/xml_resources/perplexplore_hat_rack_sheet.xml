@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d8360a8164fac5b66be11965df6cf94d:5eafa0126ba4b673aeca3ec043181901:33bfe6bbe134f18b1f02148985654a0d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/perplexplore_hat_rack_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Hat_01_Back" x="418" y="3" w="82" h="215" oX="2" oY="5" oW="220" oH="92" r="y"/>
+    <sprite n="Hat_01_Front" x="3" y="440" w="230" h="152" oX="3" oY="4" oW="236" oH="160"/>
+    <sprite n="Hat_02_Back" x="405" y="299" w="103" h="53" oX="4" oY="3" oW="112" oH="60"/>
+    <sprite n="Hat_02_Front" x="237" y="489" w="213" h="212" oX="4" oY="3" oW="220" oH="220" r="y"/>
+    <sprite n="Hat_03_Back" x="405" y="356" w="103" h="53" oX="4" oY="3" oW="112" oH="60"/>
+    <sprite n="Hat_03_Front" x="248" y="295" w="153" h="172" oX="2" oY="1" oW="176" oH="156" r="y"/>
+    <sprite n="Shadow" x="3" y="295" w="241" h="141" oX="1" oY="1" oW="244" oH="144"/>
+    <sprite n="Trunk" x="3" y="3" w="411" h="288" oX="4" oY="2" oW="296" oH="416" r="y"/>
+    <sprite n="Vine_01" x="418" y="222" w="79" h="73" oX="0" oY="3" oW="80" oH="80"/>
+    <sprite n="Vine_02" x="454" y="489" w="35" h="56" oX="2" oY="2" oW="60" oH="40" r="y"/>
+    <sprite n="Vine_03" x="405" y="413" w="74" h="72" oX="3" oY="4" oW="80" oH="80"/>
+</TextureAtlas>

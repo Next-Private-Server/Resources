@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e60dd3cf68edaf7b836c9b84dd87bef0:d6716c3fad0ea05566cbeb3ad3d79af4:46fad53a732180fd8ff72a9578ff5a23$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_T06_costume_03_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="T06_chain" x="104" y="147" w="14" h="55" pX="0.5" pY="0.5"/>
+	<sprite n="T06_claw_bottom" x="0" y="92" w="52" h="26" pX="0.3269230769230769" pY="0.0673076923076923" r="y"/>
+	<sprite n="T06_claw_upper" x="55" y="147" w="47" h="63" pX="0.5" pY="0.5"/>
+	<sprite n="T06_coat" x="143" y="0" w="99" h="122" pX="0.5081967213114754" pY="0.7474747474747475" r="y"/>
+	<sprite n="T06_coat_fur" x="0" y="0" w="141" h="90" pX="0.5638297872340425" pY="1.1388888888888888"/>
+	<sprite n="T06_hinge" x="54" y="92" w="14" h="19" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="T06_lowerarm_R" x="162" y="144" w="45" h="49" pX="0.3734693877551021" pY="0.43333333333333335" r="y"/>
+	<sprite n="T06_pipe_1" x="70" y="92" w="66" h="53" pX="0.7735849056603774" pY="0.6666666666666666" r="y"/>
+	<sprite n="T06_pipe_2" x="0" y="124" w="53" h="88" pX="0.8113207547169812" pY="0.7045454545454546"/>
+	<sprite n="T06_pipe_3" x="138" y="124" w="40" h="18" pX="1.3888888888888888" pY="3" r="y"/>
+	<sprite n="T06_pipe_4" x="209" y="124" w="39" h="32" pX="-0.65625" pY="2.8076923076923075" r="y"/>
+	<sprite n="T06_shoulder_L" x="209" y="158" w="38" h="48" pX="0.6666666666666666" pY="0.21052631578947367" r="y"/>
+	<sprite n="T06_shoulder_R" x="0" y="214" w="60" h="42" pX="0.305" pY="0.4642857142857143"/>
+	<sprite n="T06_upperarm_L" x="62" y="212" w="58" h="43" pX="0.6689655172413793" pY="0.47674418604651164"/>
+	<sprite n="T06_upperarm_L_bg" x="173" y="195" w="34" h="32" pX="0.6689655172413793" pY="0.47674418604651164" oX="1" oY="9" oW="58" oH="43" r="y"/>
+	<sprite n="T06_upperarm_R" x="120" y="147" w="40" h="51" pX="0.08823529411764706" pY="0.4325" r="y"/>
+	<sprite n="T06hat" x="122" y="200" w="49" h="50" pX="0.25510204081632654" pY="1.84"/>
+</TextureAtlas>

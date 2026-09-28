@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f54de658d13ee051454d652b54c18920:36b8396c813350603e65f761a1d5c274:017a1ef702f074422a550fd1f796ec01$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_base_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="backwall" x="0" y="938" w="936" h="395" oX="0" oY="0" oW="936" oH="447"/>
+	<sprite n="backwall_B" x="294" y="1335" w="716" h="317" oX="220" oY="0" oW="936" oH="447"/>
+	<sprite n="crowd_OL" x="0" y="1885" w="250" h="100"/>
+	<sprite n="floor" x="0" y="0" w="993" h="936" oX="0" oY="7" oW="936" oH="1000" r="y"/>
+	<sprite n="light_base" x="938" y="938" w="84" h="43"/>
+	<sprite n="light_mask" x="294" y="1654" w="468" h="301"/>
+	<sprite n="scaffolding" x="0" y="1335" w="292" h="548" oX="92" oY="0" oW="732" oH="346" r="y"/>
+</TextureAtlas>

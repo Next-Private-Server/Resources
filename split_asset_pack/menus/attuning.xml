@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/Attuning.lua" />
+
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="12" />
+	</template>
+
+	<element name="TransitionNode">
+		<size  w="lua_sys.screenWidth()"  h="lua_sys.screenHeight()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="lua_sys.screenHeight() * 2.0" priorityOffset="11" />
+	</element>
+	
+	<element name="CritterSelectBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="TransitionNode" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.menuScaleX()" yOffset="-45*game.menuScaleX()" priorityOffset="0" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="220*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.40*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="CritterSelectTitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="CritterSelectBG" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.40*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="CritterSelectTitleText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="CritterSelectTitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size h="35" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString(game.getLocalizedText("CRITTER_SELECT_TITLE"))
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="CritterLeftFrameDeco">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="CritterSelectTitleFrame" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="1*game.menuScaleX()" yOffset="-3*game.menuScaleX()" priorityOffset="-6" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("attunement_frame_decoration1")
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="CritterRightFrameDeco">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="CritterSelectTitleFrame" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="-2*game.menuScaleX()" yOffset="-5*game.menuScaleX()" priorityOffset="-6" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("attunement_frame_decoration3")
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("hFlip"):SetInt(1)
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="CritterDescription">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="CritterSelectTitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="3*game.menuScaleX()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="225*game.menuScaleX()" h="120*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.23*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("layer"):SetString("MidPopUps")
+				component("text"):SetString("SELECT_CRITTER_DESC")
+				component("autoScale"):SetInt(1)
+			</event>
+		</textComponent>
+	</element>
+	
+	<element name="CritterList">
+		<size w="220*game.menuScaleX()" h="120*game.menuScaleX()" />
+		<position relativeTo="CritterSelectBG" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="30*game.menuScaleX()" priorityOffset="-1" />
+	</element>
+	
+	<element name="IslandSelectBg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="TransitionNode" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="2*game.menuScaleX()" yOffset="-45*game.menuScaleX()" priorityOffset="0" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="220*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.40*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="IslandSelectTitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="IslandSelectBg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="235*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.40*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="IslandSelectTitleText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="IslandSelectTitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size h="35" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString(game.getLocalizedText("ATTUNING_ISLAND_SELECT_TITLE"))
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="IslandLeftFrameDeco">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="IslandSelectTitleFrame" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="-5*game.menuScaleX()" yOffset="-5*game.menuScaleX()" priorityOffset="-6" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("attunement_frame_decoration3")
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="IslandRightFrameDeco">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="IslandSelectTitleFrame" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="-5*game.menuScaleX()" priorityOffset="-6" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("attunement_frame_decoration2")
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("size"):SetFloat(0.3*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="IslandList">
+		<size w="220*game.menuScaleX()" h="145*game.menuScaleX()" />
+		<position relativeTo="IslandSelectBg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="15*game.menuScaleX()" priorityOffset="-1" />
+	</element>
+
+	<element name="NextIslandTimeText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="IslandSelectTitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="3*game.menuScaleX()" priorityOffset="0" />
+		<textComponent name="Text">
+			<size w="210*game.menuScaleX()" h="25*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.23*game.menuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("layer"):SetString("MidPopUps")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("text"):SetString(game.getLocalizedText("ATTUNEMENT_NEXT_ISLAND"))
+				]]>
+			</event>
+			<event name="onTick" params="component, element, dt">	
+				<![CDATA[
+					local timeLeft = game.timeUntilAttunedIslandSwitch();
+					component("text"):SetString(LOC("ATTUNEMENT_NEXT_ISLAND").." <c=#6efa05>"..game.timeToString(timeLeft).."</c>")
+				]]>
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Island1">
+		<size dependentOnElement="Island" />
+		<position relativeTo="IslandList" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="12*game.menuScaleX()" priorityOffset="-2" />
+		<template type="template_attuner_island" name="Island">
+		<templateVar name="$scale" equals="1.25" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</template>
+	</element>
+
+	<element name="ArrowTopLeft">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Island4" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="-5*game.menuScaleX()" yOffset="5*game.menuScaleX()" priorityOffset="-5" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("spriteName"):SetString("attune_arrow_02")
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("hFlip"):SetString(1)
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="ArrowTopRight">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Island3" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="-5*game.menuScaleX()" yOffset="5*game.menuScaleX()" priorityOffset="-5" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("spriteName"):SetString("attune_arrow_01")
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("hFlip"):SetString(1)
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="ArrowLeft">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Island1" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="10*game.menuScaleX()" yOffset="5*game.menuScaleX()" priorityOffset="-5" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("spriteName"):SetString("attune_arrow_02")
+				component("size"):SetFloat(0.4*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="ArrowRight">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Island1" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="10*game.menuScaleX()" yOffset="5*game.menuScaleX()" priorityOffset="-5" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("spriteName"):SetString("attune_arrow_01")
+				component("size"):SetFloat(0.4*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="Island2">
+		<size dependentOnElement="Island"/>
+		<position relativeTo="IslandList" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="30*game.menuScaleX()" yOffset="-10*game.menuScaleX()" priorityOffset="-2" />
+		<template type="template_attuner_island" name="Island">
+		<templateVar name="$scale" equals="1" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</template>
+	</element>
+
+	<element name="Island3">
+		<size dependentOnElement="Island"/>
+		<position relativeTo="IslandList" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="10*game.menuScaleX()" yOffset="-10*game.menuScaleX()" priorityOffset="-2" />
+		<template type="template_attuner_island" name="Island">
+		<templateVar name="$scale" equals="0.75" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</template>
+	</element>
+
+	<element name="Island4">
+		<size dependentOnElement="Island"/>
+		<position relativeTo="IslandList" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="10*game.menuScaleX()" yOffset="-10*game.menuScaleX()" priorityOffset="-2" />
+		<template type="template_attuner_island" name="Island">
+		<templateVar name="$scale" equals="0.75" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</template>
+	</element>
+
+	<element name="Island5">
+		<size dependentOnElement="Island"/>
+		<position relativeTo="IslandList" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="30*game.menuScaleX()" yOffset="-10*game.menuScaleX()" priorityOffset="-2" />
+		<template type="template_attuner_island" name="Island">
+		<templateVar name="$scale" equals="1" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</template>
+	</element>
+
+	<element name="CenterArrow">
+		<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+		<position relativeTo="IslandList" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-15*game.menuScaleX()" priorityOffset="-3" />
+			<spriteSheetComponent name="Sprite">
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+					component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+					component("spriteName"):SetString("attune_arrow_03")
+						component("size"):SetFloat(0.5*game.menuScaleX())
+						component("layer"):SetString("MidPopUps")
+						component("visible"):SetInt(0)
+					]]>
+				</event>
+			</spriteSheetComponent>
+	</element>
+
+	<element name="MonsterSelect">
+	<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+	<position relativeTo="IslandList" vAnchor="VCENTER" hAnchor="HCENTER" />
+	<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-25*game.menuScaleX()" priorityOffset="-3" />
+
+		<spriteSheetComponent name="Bg">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("sheetName"):SetString("xml_resources/synth_meebs_sheet.xml")
+					component("spriteName"):SetString("portrait_square")
+					component("size"):SetFloat(0.5*game.menuScaleX())
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("sheetName"):SetString("xml_resources/synth_meebs_sheet.xml")
+					component("spriteName"):SetString("critter_portrait_square_plus")
+					component("size"):SetFloat(0.5*game.menuScaleX())
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<spriteComponent name="MonsterImage">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("visible"):SetInt(0)
+					component("size"):SetFloat(0.5*game.menuScaleX())
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</spriteComponent>
+
+		<template type="template_genes" name="Genes">
+			<templateVar name="$Spacing" equals="0*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-5*game.menuScaleX()" priorityOffset="-2" />
+			<event name="onInit" params="element">
+				<![CDATA[
+					onInit(element)
+					element("Layer"):SetString("MidPopUps")
+					element("Size"):SetString(0.2*game.menuScaleX())
+				]]>
+			</event>
+		</template>
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					if(element("touchDisabled"):GetInt() == 0) then
+						if(element("disabled"):GetInt() == 0) then
+							element:parent():ShowReattune()
+						end
+						element["Bg"]:setColor(1.0, 1.0, 1.0)
+						element["Sprite"]:setColor(1.0, 1.0, 1.0)
+						element["MonsterImage"]:setColor(1.0, 1.0, 1.0)
+						element["Genes"]:SetColor(1.0, 1.0, 1.0)
+					end
+				]]>
+			</event>
+			<event name="onTouchDown" params="component, element, x, y">
+				<![CDATA[
+					if(element("touchDisabled"):GetInt() == 0) then
+						element["Bg"]:setColor(0.5, 0.5, 0.5)
+						element["Sprite"]:setColor(0.5, 0.5, 0.5)
+						element["MonsterImage"]:setColor(0.5, 0.5, 0.5)
+						element["Genes"]:SetColor(0.5, 0.5, 0.5)
+					end
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+				if(element("touchDisabled"):GetInt() == 0) then
+					element["Bg"]:setColor(1.0, 1.0, 1.0)
+					element["Sprite"]:setColor(1.0, 1.0, 1.0)
+					element["MonsterImage"]:setColor(1.0, 1.0, 1.0)
+					element["Genes"]:SetColor(1.0, 1.0, 1.0)
+				end
+				]]>
+			</event>
+		</touchComponent>
+		<event name="onInit" params="element">
+			<![CDATA[
+				element("disabled"):SetInt(0)
+				element("touchDisabled"):SetInt(0)
+			]]>
+			</event>
+	</element>
+
+	<element name="SelectedFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="CritterSelectBG" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="-2*game.menuScaleX()" yOffset="-6*game.menuScaleX()" priorityOffset="-3" />
+			<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/attune_menu_sheet.xml")
+				component("spriteName"):SetString("attune_frame")
+				component("size"):SetFloat(0.48*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="SelectedCritter">
+		<size dependentOnElement="element:name()" dependentOnComponent="SpriteBg" />
+		<position relativeTo="SelectedFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="40*game.menuScaleX()" yOffset="3*game.menuScaleX()" priorityOffset="-2" />
+		<spriteSheetComponent name="SpriteBg">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/synth_meebs_sheet.xml")
+				component("spriteName"):SetString("portrait_square")
+				component("size"):SetFloat(0.45*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):SetString("xml_resources/synth_meebs_sheet.xml")
+				component("spriteName"):SetString("critter_portrait_square_g")
+				component("size"):SetFloat(0.45*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(0)
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="SpriteBg" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchDown" params="component, element">
+				<![CDATA[
+					element["Sprite"]:setColor(0.5, 0.5, 0.5)
+					element["SpriteBg"]:setColor(0.5, 0.5, 0.5)
+				]]>
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					element["Sprite"]:setColor(1.0, 1.0, 1.0)
+					element["SpriteBg"]:setColor(1.0, 1.0, 1.0)
+					element:parent():clearSelectedCritter()
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					element["Sprite"]:setColor(1.0, 1.0, 1.0)
+					element["SpriteBg"]:setColor(1.0, 1.0, 1.0)
+				]]>
+			</event>
+		</touchComponent>
+	</element>
+
+	<element name="AttuneAnimation">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SelectedFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="5*game.menuScaleX()" priorityOffset="-5" />
+		<aeComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("animationName"):SetString("xml_bin/attune_normal_anim.bin")
+					component("animation"):SetString("normal_dots_intro")
+					component:setScale(Vector2(0.55*game.menuScaleX(), 0.55*game.menuScaleX()))
+					component("layer"):SetString("MidPopUps")
+					component("visible"):SetInt(0)
+				]]>
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="AttuneAnimationBottom">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SelectedFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="5*game.menuScaleX()" priorityOffset="-1" />
+		<aeComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("animationName"):SetString("xml_bin/attune_normal_anim.bin")
+					component("animation"):SetString("normal_mist_intro")
+					component:setScale(Vector2(0.55*game.menuScaleX(), 0.55*game.menuScaleX()))
+					component("layer"):SetString("MidPopUps")
+					component("visible"):SetInt(0)
+				]]>
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="SelectedIsland">
+		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
+		<position relativeTo="SelectedFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="60*game.menuScaleX()" yOffset="3*game.menuScaleX()" priorityOffset="-2" />
+		<template type="template_attuner_island" name="Island">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="element">
+				onInit(element)
+				element:setInvisible()
+				element.isSelectedIsland = true
+			</event>
+		</template>
+	</element>
+
+	<template type="template_spritesheetbutton" name="AttuneButton">
+		<templateVar name="$upSpriteName" equals="'button_buy'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="SelectedFrame" component="" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="-20*game.menuScaleX()" yOffset="-6*game.menuScaleX()" priorityOffset="-1" />
+		<event name="setEnable" params="element">
+			<![CDATA[
+				element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+				element["Label"]:setColor(1.0, 1.0, 1.0)
+				if(element["UpSprite"]("visible"):GetInt() == 1) then
+					element["Touch"]("enabled"):SetInt(1)
+				end
+			]]>
+		</event>
+		<event name="setDisable" params="element">
+			<![CDATA[
+				element["UpSprite"]:setColor(0.5, 0.5, 0.5)
+				element["Label"]:setColor(0.5, 0.5, 0.5)
+				element["Touch"]("enabled"):SetInt(0)
+			]]>
+		</event>
+		<event name="setVisible" params="element">
+			<![CDATA[
+				element["UpSprite"]("visible"):SetInt(1)
+				element["Label"]("visible"):SetInt(1)
+				element["Touch"]("enabled"):SetInt(1)
+			]]>
+		</event>
+		<event name="setInvisible" params="element">
+			<![CDATA[
+				element["UpSprite"]("visible"):SetInt(0)
+				element["Label"]("visible"):SetInt(0)
+				element["Touch"]("enabled"):SetInt(0)
+			]]>
+		</event>
+		<textComponent name="Label">
+			<size w="65*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="8*game.menuScaleX()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(1)
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("font"):SetString(game.getTextFont())
+					component("size"):SetFloat(0.25*game.menuScaleX())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("CONTEXTBAR_ATTUNE_LABEL")
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("enabled"):SetInt(1)
+				]]>
+			</event>
+			<event name="onTouchDown" params="component, element">
+				<![CDATA[
+					onTouchDown(component, element)
+					element["Label"]:setColor(0.5, 0.5, 0.5)
+				]]>
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					onTouchUp(component, element)
+					element["Label"]:setColor(1.0, 1.0, 1.0)
+					element:parent():startAttuning()
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					onTouchRelease(component, element)
+					element["Label"]:setColor(1.0, 1.0, 1.0)
+				]]>
+			</event>
+		</touchComponent>
+	</template>
+
+	<element name="Cost">
+		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
+		<position relativeTo="AttuneButton" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-16*game.menuScaleX()" yOffset="2*game.menuScaleX()" priorityOffset="-2" />
+		<spriteSheetComponent name="BackingSprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("stats_bar")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("size"):SetFloat(0.5*game.menuScaleX())
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="CurrencySprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					
+					component("spriteName"):SetString(game.StoreContext_SPRITE_ETH_CURRENCY)
+					component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+					
+					component("size"):SetFloat(0.5*game.menuScaleX())
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<size w="65*game.menuScaleX()" h="50*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="5*game.menuScaleX()" yOffset="-2*game.menuScaleX()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("size"):SetFloat(0.25*game.menuScaleX())
+					component("text"):SetString("0")
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</textComponent>
+		<event name="onInit" params="element">
+			<![CDATA[
+				element("alpha"):SetFloat(0)
+			]]>
+		</event>
+		<event name="setInvisible" params="element">
+			<![CDATA[
+				element["BackingSprite"]("visible"):SetInt(0)
+				element["CurrencySprite"]("visible"):SetInt(0)
+				element["Text"]("visible"):SetInt(0)
+			]]>
+		</event>
+		<event name="setVisible" params="element">
+			<![CDATA[
+				element["BackingSprite"]("visible"):SetInt(1)
+				element["CurrencySprite"]("visible"):SetInt(1)
+				element["Text"]("visible"):SetInt(1)
+			]]>
+		</event>
+		<event name="updateAlpha" params="element">
+			<![CDATA[
+				local alpha = element("alpha"):GetFloat()
+				element["BackingSprite"]("alpha"):SetFloat(alpha)
+				element["CurrencySprite"]("alpha"):SetFloat(alpha)
+				element["Text"]("alpha"):SetFloat(alpha)
+			]]>
+		</event>
+	</element>
+</menu>

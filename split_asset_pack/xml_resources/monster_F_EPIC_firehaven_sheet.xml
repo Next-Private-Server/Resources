@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d3bf20a0528ac671f024a85ebf1e470d:efce3dddb2db7f81088405b2c571863f:8cea5adccb30e01aa0e13fa5eccfbdd0$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_F_EPIC_firehaven_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="fire_sprite_1_simpleB" x="729" y="1054" w="96" h="88" oX="6" oY="2" oW="100" oH="100" r="y"/>
+	<sprite n="fire_sprite_2_simpleB" x="946" y="1121" w="68" h="96" oX="16" oY="2" oW="100" oH="100"/>
+	<sprite n="glow_sprite_resized" x="815" y="1224" w="83" h="83" oX="2" oY="2" oW="88" oH="88"/>
+	<sprite n="smoke_sprite" x="930" y="0" w="93" h="93" oX="4" oY="4" oW="100" oH="100"/>
+	<sprite n="WUB_ankle" x="520" y="532" w="99" h="72" oX="0" oY="1" oW="72" oH="100" r="y"/>
+	<sprite n="WUB_beam_1" x="930" y="95" w="92" h="200" oX="0" oY="3" oW="200" oH="100" r="y"/>
+	<sprite n="WUB_beam_2" x="616" y="864" w="200" h="96" oX="0" oY="0" oW="200" oH="100"/>
+	<sprite n="WUB_beam_3" x="229" y="971" w="200" h="89" oX="0" oY="5" oW="200" oH="100"/>
+	<sprite n="WUB_beam_4" x="611" y="962" w="200" h="90" oX="0" oY="7" oW="200" oH="100"/>
+	<sprite n="WUB_big_orb" x="727" y="1144" w="86" h="86" oX="1" oY="1" oW="88" oH="88"/>
+	<sprite n="WUB_castle" x="0" y="0" w="621" h="530" oX="27" oY="44" oW="584" oH="697" r="y"/>
+	<sprite n="WUB_castleglow" x="623" y="0" w="305" h="266" oX="13" oY="28" oW="292" oH="349" r="y"/>
+	<sprite n="WUB_diamond" x="895" y="429" w="22" h="36"/>
+	<sprite n="WUB_EPIC_chest" x="262" y="635" w="242" h="214" oX="9" oY="3" oW="260" oH="220"/>
+	<sprite n="WUB_EPIC_chest_bg" x="477" y="893" w="132" h="140" oX="60" oY="44" oW="260" oH="220" r="y"/>
+	<sprite n="WUB_EPIC_fist_" x="506" y="705" w="108" h="186" oX="5" oY="2" oW="196" oH="112" r="y"/>
+	<sprite n="WUB_EPIC_foot" x="431" y="1035" w="151" h="148" oX="12" oY="0" oW="164" oH="184"/>
+	<sprite n="WUB_EPIC_foot_pad" x="0" y="648" w="240" h="170" oX="10" oY="15" oW="260" oH="200"/>
+	<sprite n="WUB_EPIC_horns" x="623" y="268" w="270" h="439" oX="35" oY="42" oW="502" oH="362" r="y"/>
+	<sprite n="WUB_EPIC_toes" x="584" y="1129" w="141" h="131" oX="59" oY="34" oW="260" oH="200"/>
+	<sprite n="WUB_eyeball_1" x="960" y="1301" w="56" h="56" oX="18" oY="18" oW="92" oH="92"/>
+	<sprite n="WUB_eyeball_2" x="827" y="1134" w="88" h="88" oX="2" oY="2" oW="92" oH="92"/>
+	<sprite n="WUB_eyelid_1" x="895" y="373" w="24" h="54" oX="2" oY="35" oW="60" oH="60" r="y"/>
+	<sprite n="WUB_eyelid_2" x="895" y="286" w="28" h="57" oX="1" oY="31" oW="60" oH="60" r="y"/>
+	<sprite n="WUB_eyelid_3" x="727" y="1232" w="58" h="58" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="WUB_eyelid_4" x="900" y="1301" w="58" h="58" oX="1" oY="1" oW="60" oH="60"/>
+	<sprite n="WUB_eyesockets" x="843" y="796" w="181" h="56" oX="1" oY="0" oW="182" oH="56"/>
+	<sprite n="WUB_fxray" x="616" y="709" w="226" h="70" oX="0" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="WUB_gold" x="895" y="268" w="30" h="16" r="y"/>
+	<sprite n="WUB_knee" x="917" y="1219" w="84" h="80" r="y"/>
+	<sprite n="WUB_lowerarm" x="895" y="489" w="120" h="259" oX="1" oY="4" oW="263" oH="128" r="y"/>
+	<sprite n="WUB_mouth_01" x="616" y="781" w="225" h="81" oX="18" oY="2" oW="260" oH="244"/>
+	<sprite n="WUB_mouth_02" x="584" y="1054" w="143" h="73" oX="59" oY="14" oW="260" oH="244"/>
+	<sprite n="WUB_mouth_03" x="827" y="1055" w="117" h="77" oX="87" oY="14" oW="260" oH="244" r="y"/>
+	<sprite n="WUB_mouth_04" x="925" y="297" w="99" h="190" oX="80" oY="14" oW="260" oH="244"/>
+	<sprite n="WUB_mouth_05" x="240" y="851" w="235" h="118" oX="67" oY="8" oW="260" oH="244" r="y"/>
+	<sprite n="WUB_mouth_06" x="0" y="820" w="238" h="142" oX="56" oY="5" oW="260" oH="244" r="y"/>
+	<sprite n="WUB_mouth_07" x="0" y="964" w="227" h="181" oX="33" oY="2" oW="260" oH="244" r="y"/>
+	<sprite n="WUB_mouth_08" x="843" y="854" w="162" h="199" oX="28" oY="4" oW="260" oH="244" r="y"/>
+	<sprite n="WUB_mouth_09" x="0" y="532" w="260" h="114" oX="0" oY="0" oW="260" oH="244"/>
+	<sprite n="WUB_mouth_10" x="262" y="532" w="256" h="101" oX="2" oY="0" oW="260" oH="244"/>
+	<sprite n="WUB_neck" x="844" y="709" w="40" h="85" oX="0" oY="3" oW="85" oH="44" r="y"/>
+	<sprite n="WUB_pupil" x="895" y="345" w="26" h="26" oX="1" oY="1" oW="28" oH="28"/>
+	<sprite n="WUB_shadow" x="229" y="1062" w="187" h="83" oX="3" oY="3" oW="192" oH="88"/>
+	<sprite n="WUB_shock" x="520" y="606" w="97" h="97" oX="3" oY="3" oW="104" oH="104"/>
+	<sprite n="WUB_upperarm" x="946" y="1055" w="72" h="64" r="y"/>
+	<sprite n="WUB_upperleg" x="886" y="750" w="58" h="40" oX="3" oY="0" oW="64" oH="40"/>
+</TextureAtlas>

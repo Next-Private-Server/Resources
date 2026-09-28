@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2ffd6666d4b7cbe3b0162c2964b69cd2:6f47bfe60da22c327df131a29b06dfe3:62f70fe96372e62c655a981fc5461043$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CD_EPIC_costume_01_sheet.png" width="512" height="256" hires="true" version="1">
+	<sprite n="CD_body_EPIC" x="0" y="0" w="225" h="194" pX="0.5" pY="0.5" oX="7" oY="6" oW="240" oH="200"/>
+	<sprite n="CD_Chain_L" x="370" y="159" w="81" h="71" pX="0.1518987341772152" pY="0.1111111111111111" oX="11" oY="5" oW="158" oH="126"/>
+	<sprite n="CD_Chain_R" x="0" y="196" w="73" h="60" pX="0.14925373134328357" pY="0.14130434782608695" oX="21" oY="0" oW="134" oH="92"/>
+	<sprite n="CD_frogthroat_RARE1" x="375" y="84" w="135" h="73" pX="0.6301369863013698" pY="0.6354166666666666" oX="3" oY="0" oW="146" oH="96"/>
+	<sprite n="CD_frogthroat_RARE2" x="375" y="0" w="136" h="82" pX="0.6301369863013698" pY="0.6354166666666666" oX="4" oY="0" oW="146" oH="96"/>
+	<sprite n="CD_frogthroat_RARE3" x="227" y="98" w="141" h="89" pX="0.6301369863013698" pY="0.6354166666666666" oX="3" oY="0" oW="146" oH="96"/>
+	<sprite n="CD_frogthroat_RARE4" x="227" y="0" w="146" h="96" pX="0.6301369863013698" pY="0.6354166666666666"/>
+	<sprite n="CD_left_leg_RARE" x="75" y="196" w="100" h="54" pX="0.2" pY="0.48148148148148145"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fff950a3f79667111e79604e5bad9f7c:a85aa53a774b92f141df629a6d5b172c:5a5e70e7e11686806c35fc3f0f0d7137$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island18_skypainting_sheet02.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island18_aurora_sparkle" x="1602" y="1384" w="244" h="232" oX="41" oY="43" oW="308" oH="308"/>
+	<sprite n="island18_cheek_glow_01" x="1092" y="1623" w="217" h="405" oX="20" oY="0" oW="261" oH="499"/>
+	<sprite n="island18_cheek_glow_02" x="252" y="1756" w="562" h="252" oX="0" oY="0" oW="255" oH="562" r="y"/>
+	<sprite n="island18_ear_02" x="816" y="0" w="863" h="426" r="y"/>
+	<sprite n="island18_eye_tarp_orange" x="1681" y="219" w="349" h="203" oX="25" oY="7" oW="380" oH="210"/>
+	<sprite n="island18_front_piece" x="1092" y="951" w="508" h="670"/>
+	<sprite n="island18_Glass_01" x="1681" y="424" w="346" h="390" r="y"/>
+	<sprite n="island18_Glass_02" x="1609" y="816" w="417" h="566" oX="11" oY="0" oW="428" oH="566"/>
+	<sprite n="island18_Glass_03" x="0" y="1756" w="250" h="288"/>
+	<sprite n="island18_side" x="816" y="428" w="791" h="521" r="y"/>
+	<sprite n="island18_tarp" x="0" y="0" w="650" h="876"/>
+	<sprite n="island18_tarp_2" x="0" y="878" w="650" h="876"/>
+	<sprite n="Swirl_00" x="652" y="96" w="97" h="97" oX="132" oY="72" oW="360" oH="240"/>
+	<sprite n="Swirl_01" x="652" y="0" w="120" h="94" oX="0" oY="146" oW="360" oH="240"/>
+	<sprite n="Swirl_02" x="1528" y="1623" w="225" h="251" oX="0" oY="15" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_03" x="872" y="1384" w="218" h="344" oX="0" oY="20" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_04" x="652" y="1384" w="218" h="346" oX="0" oY="22" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_05" x="1681" y="0" w="349" h="217" oX="11" oY="23" oW="360" oH="240"/>
+	<sprite n="Swirl_06" x="1311" y="1623" w="215" h="332" oX="28" oY="25" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_07" x="816" y="1732" w="212" h="309" oX="51" oY="27" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_08" x="1755" y="1618" w="249" h="206" oX="110" oY="29" oW="360" oH="240"/>
+	<sprite n="Swirl_09" x="1848" y="1384" w="187" h="174" oX="180" oY="32" oW="360" oH="240" r="y"/>
+</TextureAtlas>

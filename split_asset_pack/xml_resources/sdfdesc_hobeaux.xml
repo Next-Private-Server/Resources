@@ -1,0 +1,9 @@
+<SDFDesc>
+    <ttf path="font/Hobeaux-Bold.otf" />
+    <font>
+        <data path="xml_resources/font_Cooper_70.xml" />
+    </font>
+    <charset latin="true" cyrillic="false" cjk="false" />
+    <text path="text/master_text.tsv" />
+    <generator strokeSize="6" pixelSize="50" packing="skyline" />
+</SDFDesc>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:079b0aecd197e9cd165fb5fb1833ff5f:af89b9b2275c5bd53a32bb2e761b475e:b0271293fab28980bd31673624961eb0$ -->
+<TextureAtlas imagePath="gfx/clubbox/clubbox_info_sheet.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="clubbox_info_01" x="0" y="626" w="562" h="396" r="y"/>
+	<sprite n="clubbox_info_03" x="464" y="0" w="396" h="562"/>
+	<sprite n="clubbox_info_frame" x="0" y="0" w="462" h="624"/>
+	<sprite n="info_arrow" x="862" y="0" w="113" h="183"/>
+</TextureAtlas>

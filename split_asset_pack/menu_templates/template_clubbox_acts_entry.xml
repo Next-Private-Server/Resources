@@ -1,0 +1,74 @@
+<template name="template_clubbox_acts_entry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/template_ClubboxActEntry.lua" />
+
+	<defaultTemplateVar name="$spriteScale" equals="0.4*game.windowScaleY()" />
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Spotlight" />
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Poster" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="enable" params="component, element">
+			component("enabled"):SetInt(1)
+		</event>
+		<event name="disable" params="component, element">
+			component("enabled"):SetInt(0)
+		</event>
+	</touchComponent>
+
+	<spriteSheetComponent name="Spotlight">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("selection_glow")
+			component("sheetName"):SetString("xml_resources/clubbox_band_selection.xml")
+			component("size"):SetFloat(0.7*game.windowScaleY())
+			component("additive"):SetInt(1)
+			component("layer"):SetString(element:templateVars().layer)
+		</event>
+		<event name="enable" params="component, element">
+			component:setColor(1.0,1.0,1.0)
+		</event>
+		<event name="disable" params="component, element">
+			component:setColor(0.5, 0.5, 0.5)
+		</event>
+		<event name="setVisible" params="component, element">
+			component("visible"):SetInt(1)
+		</event>
+		<event name="setInvisible" params="component, element">
+			component("visible"):SetInt(0)
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="Poster">
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="20*(screenWidth()/480)" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString(game.getClubboxActPosterIcon(element.actId))
+			component("sheetName"):SetString("xml_resources/"..game.getClubboxActPosterSheet(element.actId))
+			component("originalSize"):SetFloat(element:templateVars().spriteScale)
+			component("size"):SetFloat(component("originalSize"):GetFloat())
+			component("layer"):SetString(element:templateVars().layer)
+		</event>
+		<event name="refresh" params="component, element">
+			component("spriteName"):SetString(game.getClubboxActPosterIcon(element.actId))
+			component("sheetName"):SetString("xml_resources/"..game.getClubboxActPosterSheet(element.actId))
+		</event>
+		<event name="enable" params="component, element">
+			component:setColor(1.0,1.0,1.0)
+		</event>
+		<event name="disable" params="component, element">
+			component:setColor(0.5, 0.5, 0.5)
+		</event>
+		<event name="setVisible" params="component, element">
+			component("visible"):SetInt(1)
+		</event>
+		<event name="setInvisible" params="component, element">
+			component("visible"):SetInt(0)
+		</event>
+	</spriteSheetComponent>
+	
+</template>

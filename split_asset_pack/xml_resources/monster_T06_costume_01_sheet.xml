@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:10d02945098863097e2e054852e10080:e5cd1e8c879f0b1f18455c97b33a3112:31bdfd8853ad79bf55c80003fca9e18a$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_T06_costume_01_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="T06_back_shell_PACK" x="0" y="139" w="124" h="110" pX="0.446154" pY="0.891667" oX="0" oY="7" oW="130" oH="120"/>
+	<sprite n="T06_body_COAT" x="0" y="0" w="125" h="137" pX="0.491667" pY="0.857143" oX="6" oY="3" oW="140" oH="140"/>
+	<sprite n="T06_hand_right_01" x="179" y="0" w="52" h="41" pX="0.5" pY="0.5" oX="0" oY="0" oW="42" oH="54" r="y"/>
+	<sprite n="T06_hand_right_02" x="182" y="43" w="41" h="52" pX="0.5" pY="0.5" oX="0" oY="0" oW="42" oH="54"/>
+	<sprite n="T06_hand_right_03" x="127" y="95" w="52" h="41" pX="0.5" pY="0.5" oX="0" oY="0" oW="42" oH="54" r="y"/>
+	<sprite n="T06_hand_right_04" x="208" y="97" w="41" h="52" pX="0.5" pY="0.5" oX="0" oY="0" oW="42" oH="54"/>
+	<sprite n="T06_hand_right_05" x="127" y="52" w="53" h="41" pX="0.5" pY="0.5" oX="0" oY="0" oW="42" oH="54" r="y"/>
+	<sprite n="T06_hand_right_06" x="208" y="151" w="41" h="51" pX="0.5" pY="0.5" oX="0" oY="0" oW="42" oH="54"/>
+	<sprite n="T06_HAT" x="126" y="139" w="80" h="67" pX="0.444444" pY="1.32857" oX="3" oY="2" oW="90" oH="70"/>
+	<sprite n="T06_lower_arm_right_COAT" x="198" y="208" w="57" h="48" pX="0.328571" pY="0.357143" oX="11" oY="9" oW="70" oH="70" r="y"/>
+	<sprite n="T06_upper_arm_left" x="126" y="208" w="70" h="40" pX="0.54" pY="0.525" oX="0" oY="0" oW="80" oH="40"/>
+	<sprite n="T06_upper_arm_right_COAT" x="127" y="0" w="50" h="50" pX="-0.04" pY="0.32"/>
+</TextureAtlas>

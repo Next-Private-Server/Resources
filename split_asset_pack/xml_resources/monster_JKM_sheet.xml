@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a259f0f96d10d8e06d877bc2a108e0c4:e081adab394e0b78a3d27d91fdabf186:b74e9097dcc06307919d76567b59d9bc$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_JKM_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="JKM_armsegment_A" x="2" y="723" w="61" h="39" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="44"/>
+    <sprite n="JKM_armsegment_B" x="444" y="2" w="65" h="48" pX="0.5" pY="0.5" oX="3" oY="8" oW="72" oH="60"/>
+    <sprite n="JKM_armsegment_C" x="342" y="612" w="74" h="62" pX="0.5" pY="0.5" oX="3" oY="5" oW="80" oH="72"/>
+    <sprite n="JKM_body_A" x="143" y="347" w="115" h="105" pX="0.5" pY="0.5" oX="6" oY="0" oW="128" oH="112"/>
+    <sprite n="JKM_body_B" x="260" y="426" w="109" h="85" pX="0.5" pY="0.5" oX="5" oY="7" oW="120" oH="104"/>
+    <sprite n="JKM_eye_pupil" x="129" y="357" w="10" h="10" pX="0.5" pY="0.5" oX="3" oY="3" oW="16" oH="16"/>
+    <sprite n="JKM_eyeball" x="406" y="315" w="20" h="20" pX="0.5" pY="0.5" oX="6" oY="6" oW="32" oH="32"/>
+    <sprite n="JKM_eyelid_01" x="218" y="524" w="24" h="24" pX="0.5" pY="0.5" oX="4" oY="4" oW="32" oH="32"/>
+    <sprite n="JKM_eyelid_02" x="218" y="550" w="24" h="24" pX="0.5" pY="0.5" oX="4" oY="4" oW="32" oH="32"/>
+    <sprite n="JKM_eyelid_03" x="218" y="576" w="24" h="24" pX="0.5" pY="0.5" oX="4" oY="4" oW="32" oH="32"/>
+    <sprite n="JKM_foot_left" x="94" y="596" w="89" h="89" pX="0.5" pY="0.5" oX="4" oY="7" oW="100" oH="100"/>
+    <sprite n="JKM_foot_right" x="424" y="459" w="86" h="98" pX="0.5" pY="0.5" oX="10" oY="9" oW="108" oH="96" r="y"/>
+    <sprite n="JKM_head" x="2" y="2" w="147" h="72" pX="0.5" pY="0.5" oX="6" oY="3" oW="160" oH="80"/>
+    <sprite n="JKM_horn_left_bounce01" x="2" y="76" w="144" h="46" pX="0.5" pY="0.5" oX="5" oY="79" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_bounce02" x="293" y="113" w="143" h="53" pX="0.5" pY="0.5" oX="7" oY="56" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_mid" x="297" y="64" w="144" h="47" pX="0.5" pY="0.5" oX="6" oY="66" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_mid_smear" x="293" y="168" w="142" h="60" pX="0.5" pY="0.5" oX="6" oY="59" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_swing_01" x="2" y="438" w="115" h="86" pX="0.5" pY="0.5" oX="31" oY="83" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_swing_02" x="143" y="269" w="137" h="76" pX="0.5" pY="0.5" oX="10" oY="81" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_swing_03" x="2" y="186" w="140" h="74" pX="0.5" pY="0.5" oX="6" oY="55" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_swing_04" x="290" y="230" w="138" h="83" pX="0.5" pY="0.5" oX="8" oY="26" oW="160" oH="180"/>
+    <sprite n="JKM_horn_left_swing_05" x="2" y="332" w="125" h="104" pX="0.5" pY="0.5" oX="24" oY="7" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_bounce01" x="151" y="2" w="145" h="47" pX="0.5" pY="0.5" oX="10" oY="78" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_bounce02" x="2" y="124" w="143" h="60" pX="0.5" pY="0.5" oX="9" oY="55" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_mid" x="151" y="51" w="144" h="49" pX="0.5" pY="0.5" oX="9" oY="66" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_mid_smear" x="298" y="2" w="144" h="60" pX="0.5" pY="0.5" oX="11" oY="59" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_swing_01" x="428" y="336" w="82" h="121" pX="0.5" pY="0.5" oX="11" oY="89" oW="160" oH="180" r="y"/>
+    <sprite n="JKM_horn_right_swing_02" x="2" y="262" w="139" h="68" pX="0.5" pY="0.5" oX="12" oY="90" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_swing_03" x="148" y="102" w="143" h="74" pX="0.5" pY="0.5" oX="11" oY="55" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_swing_04" x="147" y="178" w="141" h="89" pX="0.5" pY="0.5" oX="9" oY="26" oW="160" oH="180"/>
+    <sprite n="JKM_horn_right_swing_05" x="282" y="315" w="122" h="109" pX="0.5" pY="0.5" oX="11" oY="9" oW="160" oH="180"/>
+    <sprite n="JKM_left_hand_01" x="349" y="513" w="71" h="97" pX="0.5" pY="0.5" oX="1" oY="7" oW="92" oH="108"/>
+    <sprite n="JKM_left_hand_02" x="244" y="586" w="96" h="69" pX="0.5" pY="0.5" oX="4" oY="8" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_left_hand_03" x="2" y="526" w="94" h="68" pX="0.5" pY="0.5" oX="6" oY="10" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_left_hand_04" x="119" y="524" w="97" h="70" pX="0.5" pY="0.5" oX="21" oY="7" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_little_antenna" x="221" y="481" w="25" h="41" pX="0.5" pY="0.5" oX="5" oY="5" oW="36" oH="52"/>
+    <sprite n="JKM_lowerleg_left" x="119" y="454" w="100" h="68" pX="0.5" pY="0.5" oX="2" oY="4" oW="72" oH="108" r="y"/>
+    <sprite n="JKM_lowerleg_right" x="444" y="52" w="64" h="96" pX="0.5" pY="0.5" oX="4" oY="4" oW="72" oH="104"/>
+    <sprite n="JKM_mouth_01" x="406" y="355" w="16" h="41" pX="0.5" pY="0.5" oX="6" oY="8" oW="52" oH="32" r="y"/>
+    <sprite n="JKM_mouth_02" x="406" y="398" w="15" h="42" pX="0.5" pY="0.5" oX="5" oY="7" oW="52" oH="32" r="y"/>
+    <sprite n="JKM_mouth_03" x="260" y="347" w="15" h="42" pX="0.5" pY="0.5" oX="5" oY="9" oW="52" oH="32" r="y"/>
+    <sprite n="JKM_mouth_04" x="129" y="332" w="12" h="23" pX="0.5" pY="0.5" oX="14" oY="10" oW="52" oH="32" r="y"/>
+    <sprite n="JKM_mouth_05" x="406" y="337" w="19" h="16" pX="0.5" pY="0.5" oX="18" oY="6" oW="52" oH="32" r="y"/>
+    <sprite n="JKM_neck_A" x="86" y="687" w="81" h="68" pX="0.5" pY="0.5" oX="5" oY="5" oW="92" oH="84"/>
+    <sprite n="JKM_neck_B" x="185" y="646" w="48" h="58" pX="0.5" pY="0.5" oX="5" oY="5" oW="68" oH="60" r="y"/>
+    <sprite n="JKM_neck_C" x="185" y="602" w="50" h="42" pX="0.5" pY="0.5" oX="7" oY="5" oW="64" oH="52"/>
+    <sprite n="JKM_neck_D" x="235" y="657" w="60" h="46" pX="0.5" pY="0.5" oX="6" oY="0" oW="72" oH="56"/>
+    <sprite n="JKM_right_hand_01" x="418" y="617" w="91" h="64" pX="0.5" pY="0.5" oX="23" oY="11" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_right_hand_02" x="2" y="596" w="90" h="63" pX="0.5" pY="0.5" oX="22" oY="12" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_right_hand_03" x="2" y="661" w="82" h="60" pX="0.5" pY="0.5" oX="22" oY="20" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_right_hand_04" x="248" y="513" w="99" h="71" pX="0.5" pY="0.5" oX="5" oY="5" oW="92" oH="108" r="y"/>
+    <sprite n="JKM_shadow" x="438" y="150" w="72" h="126" pX="0.5" pY="0.5" oX="9" oY="0" oW="144" oH="72" r="y"/>
+    <sprite n="JKM_tail_A" x="371" y="442" w="51" h="69" pX="0.5" pY="0.5" oX="6" oY="7" oW="64" oH="84"/>
+    <sprite n="JKM_tail_B" x="221" y="454" w="34" h="25" pX="0.5" pY="0.5" oX="8" oY="6" oW="40" oH="48" r="y"/>
+    <sprite n="JKM_upperleg_left" x="430" y="278" w="77" h="56" pX="0.5" pY="0.5" oX="4" oY="3" oW="64" oH="84" r="y"/>
+    <sprite n="JKM_upperleg_right" x="422" y="559" w="85" h="56" pX="0.5" pY="0.5" oX="4" oY="3" oW="64" oH="92" r="y"/>
+</TextureAtlas>

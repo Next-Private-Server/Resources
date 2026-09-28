@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c313af1c57566ba69c4b40f3fd4f358e:813b9fcba6418ac8882a206131c824d2:266459caba53944c31a7541649d63420$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_P08_RARE_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="p08_armL_lower" x="413" y="285" w="67" h="33" oX="3" oY="3" oW="70" oH="40"/>
+    <sprite n="p08_armL_upper" x="317" y="285" w="38" h="68" oX="0" oY="1" oW="70" oH="40" r="y"/>
+    <sprite n="p08_armR_lower" x="92" y="928" w="32" h="64" oX="11" oY="3" oW="80" oH="40" r="y"/>
+    <sprite n="p08_armR_upper" x="317" y="357" w="65" h="36" oX="2" oY="2" oW="70" oH="40"/>
+    <sprite n="p08_body_lower" x="3" y="588" w="197" h="266" oX="19" oY="14" oW="300" oH="220" r="y"/>
+    <sprite n="p08_body_upper" x="776" y="238" w="211" h="247" oX="13" oY="0" oW="270" oH="212" r="y"/>
+    <sprite n="p08_eyelidL_1" x="146" y="858" w="46" h="58" oX="3" oY="4" oW="50" oH="62"/>
+    <sprite n="p08_eyelidL_2" x="229" y="920" w="42" h="58" oX="3" oY="4" oW="50" oH="62"/>
+    <sprite n="p08_eyelidL_3" x="196" y="858" w="43" h="58" oX="3" oY="4" oW="50" oH="62"/>
+    <sprite n="p08_eyelidL_4" x="128" y="928" w="47" h="58" oX="3" oY="4" oW="50" oH="62"/>
+    <sprite n="p08_eyelidL_5" x="179" y="920" w="46" h="58" oX="3" oY="4" oW="50" oH="62"/>
+    <sprite n="p08_eyelidL_6" x="204" y="588" w="46" h="57" oX="4" oY="5" oW="50" oH="62"/>
+    <sprite n="p08_eyelidM_1" x="309" y="644" w="43" h="50" oX="2" oY="4" oW="52" oH="48" r="y"/>
+    <sprite n="p08_eyelidM_2" x="204" y="762" w="44" h="52" oX="0" oY="4" oW="52" oH="48" r="y"/>
+    <sprite n="p08_eyelidM_3" x="310" y="588" w="43" h="49" oX="3" oY="4" oW="52" oH="48" r="y"/>
+    <sprite n="p08_eyelidM_4" x="243" y="818" w="43" h="52" oX="0" oY="4" oW="52" oH="48" r="y"/>
+    <sprite n="p08_eyelidM_5" x="329" y="489" w="43" h="49" oX="3" oY="4" oW="52" oH="48" r="y"/>
+    <sprite n="p08_eyelidM_6" x="275" y="874" w="43" h="49" oX="3" oY="4" oW="52" oH="48" r="y"/>
+    <sprite n="p08_eyelidR_1" x="359" y="285" w="50" h="67" oX="1" oY="0" oW="70" oH="50" r="y"/>
+    <sprite n="p08_eyelidR_2" x="413" y="322" w="66" h="50" oX="1" oY="0" oW="70" oH="50"/>
+    <sprite n="p08_eyelidR_3" x="410" y="376" w="66" h="50" oX="1" oY="0" oW="70" oH="50"/>
+    <sprite n="p08_eyelidR_4" x="38" y="858" w="50" h="66" oX="1" oY="0" oW="70" oH="50" r="y"/>
+    <sprite n="p08_eyelidR_5" x="38" y="928" w="50" h="66" oX="1" oY="0" oW="70" oH="50" r="y"/>
+    <sprite n="p08_eyelidR_6" x="92" y="858" w="50" h="66" oX="1" oY="0" oW="70" oH="50" r="y"/>
+    <sprite n="p08_head" x="783" y="3" w="232" h="231" oX="17" oY="4" oW="262" oH="250"/>
+    <sprite n="p08_legL" x="491" y="207" w="281" h="186" oX="9" oY="3" oW="290" oH="190"/>
+    <sprite n="p08_legR" x="491" y="3" w="288" h="200" oX="12" oY="9" oW="310" oH="220"/>
+    <sprite n="p08_pawL_1" x="328" y="397" w="53" h="48" oX="4" oY="5" oW="62" oH="62"/>
+    <sprite n="p08_pawL_2" x="252" y="762" w="51" h="51" oX="6" oY="6" oW="62" oH="62"/>
+    <sprite n="p08_pawL_3" x="254" y="588" w="52" h="52" oX="9" oY="5" oW="62" oH="62"/>
+    <sprite n="p08_pawL_4" x="204" y="706" w="49" h="52" oX="10" oY="6" oW="62" oH="62" r="y"/>
+    <sprite n="p08_pawR_1" x="204" y="649" w="48" h="53" oX="4" oY="5" oW="62" oH="62" r="y"/>
+    <sprite n="p08_pawR_2" x="257" y="700" w="51" h="51" oX="6" oY="6" oW="62" oH="62"/>
+    <sprite n="p08_pawR_3" x="273" y="489" w="52" h="52" oX="9" oY="5" oW="62" oH="62"/>
+    <sprite n="p08_pawR_4" x="256" y="644" w="49" h="52" oX="10" oY="6" oW="62" oH="62" r="y"/>
+    <sprite n="p08_pupilL_1" x="255" y="475" w="18" h="9" oX="14" oY="10" oW="36" oH="36" r="y"/>
+    <sprite n="p08_pupilL_2" x="991" y="277" w="27" h="18" oX="9" oY="5" oW="36" oH="36" r="y"/>
+    <sprite n="p08_pupilL_3" x="991" y="386" w="22" h="31" oX="8" oY="4" oW="36" oH="36"/>
+    <sprite n="p08_pupilL_4" x="991" y="299" w="26" h="34" oX="5" oY="1" oW="36" oH="36"/>
+    <sprite n="p08_pupilM_1" x="385" y="407" w="17" h="11" oX="8" oY="10" oW="32" oH="36" r="y"/>
+    <sprite n="p08_pupilM_2" x="195" y="568" w="21" h="12" oX="9" oY="8" oW="32" oH="36" r="y"/>
+    <sprite n="p08_pupilM_3" x="991" y="364" w="23" h="18" oX="6" oY="8" oW="32" oH="36" r="y"/>
+    <sprite n="p08_pupilM_4" x="991" y="337" w="25" h="23" oX="4" oY="7" oW="32" oH="36" r="y"/>
+    <sprite n="p08_pupilR_1" x="386" y="392" w="20" h="11" oX="13" oY="11" oW="40" oH="40" r="y"/>
+    <sprite n="p08_pupilR_2" x="386" y="356" w="20" h="32" oX="9" oY="4" oW="40" oH="40"/>
+    <sprite n="p08_pupilR_3" x="991" y="238" w="27" h="35" oX="6" oY="2" oW="40" oH="40"/>
+    <sprite n="p08_pupilR_4" x="179" y="982" w="35" h="36" oX="2" oY="2" oW="40" oH="40"/>
+    <sprite n="p08_shadow" x="3" y="3" w="484" h="278" oX="3" oY="1" oW="490" oH="280"/>
+    <sprite n="p08_string_1" x="1016" y="421" w="5" h="161" oX="13" oY="4" oW="30" oH="170"/>
+    <sprite n="p08_string_2" x="19" y="858" w="15" h="161" oX="3" oY="4" oW="30" oH="170"/>
+    <sprite n="p08_string_3" x="3" y="858" w="12" h="163" oX="9" oY="3" oW="30" oH="170"/>
+    <sprite n="p08_string_4" x="991" y="421" w="21" h="163" oX="5" oY="4" oW="30" oH="170"/>
+    <sprite n="p08_strings_bottom" x="105" y="285" w="208" h="101" oX="6" oY="9" oW="220" oH="116"/>
+    <sprite n="p08_toesL_1" x="94" y="397" w="82" h="82" oX="3" oY="2" oW="90" oH="90"/>
+    <sprite n="p08_toesL_2" x="180" y="397" w="71" h="76" oX="11" oY="13" oW="90" oH="90"/>
+    <sprite n="p08_toesL_3" x="195" y="489" w="74" h="75" oX="5" oY="16" oW="90" oH="90" r="y"/>
+    <sprite n="p08_toesL_4" x="255" y="397" w="69" h="74" oX="10" oY="16" oW="90" oH="90"/>
+    <sprite n="p08_toesR_1" x="3" y="285" w="98" h="102" oX="15" oY="13" oW="128" oH="128" r="y"/>
+    <sprite n="p08_toesR_2" x="3" y="489" w="94" h="94" oX="15" oY="22" oW="128" oH="128"/>
+    <sprite n="p08_toesR_3" x="101" y="489" w="90" h="91" oX="14" oY="24" oW="128" oH="128" r="y"/>
+    <sprite n="p08_toesR_4" x="3" y="397" w="87" h="88" oX="16" oY="26" oW="128" oH="128"/>
+</TextureAtlas>

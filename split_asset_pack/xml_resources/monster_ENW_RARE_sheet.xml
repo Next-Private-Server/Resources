@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1c6343533a83b729c1799d244aa02b4e:02cbe1be9e446c290334db2836f27323:7b17dd4ce64c4fc8393a91c3c91d5c56$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ENW_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="ENW_bulb_glow" x="177" y="827" w="163" h="166" r="y" />
+  <sprite n="ENW_bulb_rare" x="220" y="319" w="96" h="124" oX="0" oY="10" oW="104" oH="136" />
+  <sprite n="ENW_eyes_01" x="210" y="598" w="66" h="57" oX="3" oY="0" oW="63" oH="66" r="y" />
+  <sprite n="ENW_eyes_02" x="191" y="657" w="65" h="57" oX="3" oY="1" oW="63" oH="66" r="y" />
+  <sprite n="ENW_eyes_03" x="236" y="716" w="62" h="57" oX="3" oY="4" oW="63" oH="66" r="y" />
+  <sprite n="ENW_eyes_04" x="0" y="871" w="57" h="60" oX="3" oY="6" oW="63" oH="66" />
+  <sprite n="ENW_eyes_05" x="177" y="716" w="57" h="65" oX="3" oY="1" oW="63" oH="66" />
+  <sprite n="ENW_fur" x="220" y="165" w="100" h="75" oX="1" oY="0" oW="102" oH="75" />
+  <sprite n="ENW_fur_bg" x="220" y="242" w="100" h="75" oX="1" oY="0" oW="102" oH="75" />
+  <sprite n="ENW_glow" x="0" y="165" w="218" h="215" />
+  <sprite n="ENW_hat" x="258" y="657" w="40" h="34" r="y" />
+  <sprite n="ENW_mouth_01" x="191" y="550" w="18" h="44" oX="1" oY="5" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_02" x="192" y="468" w="22" h="44" oX="1" oY="4" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_03" x="192" y="382" w="26" h="44" oX="1" oY="2" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_04" x="479" y="494" w="30" h="43" oX="2" oY="0" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_05" x="192" y="428" w="26" h="38" oX="4" oY="2" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_06" x="192" y="514" w="22" h="34" oX="6" oY="4" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_07" x="479" y="539" w="29" h="16" oX="7" oY="7" oW="46" oH="30" />
+  <sprite n="ENW_mouth_08" x="301" y="445" w="15" h="23" oX="11" oY="7" oW="46" oH="30" r="y" />
+  <sprite n="ENW_mouth_09" x="191" y="596" w="17" h="44" oX="1" oY="6" oW="46" oH="30" r="y" />
+  <sprite n="ENW_shadow" x="220" y="445" w="79" h="151" oX="87" oY="42" oW="325" oH="163" r="y" />
+  <sprite n="ENW_shadow_glow" x="0" y="0" w="325" h="163" />
+  <sprite n="ENW_skirt_01_rare" x="0" y="382" w="190" h="160" oX="0" oY="1" oW="190" oH="161" />
+  <sprite n="ENW_skirt_02_rare" x="322" y="168" w="190" h="161" />
+  <sprite n="ENW_skirt_03_rare" x="0" y="544" w="189" h="159" oX="1" oY="0" oW="190" oH="161" />
+  <sprite n="ENW_skirt_04_rare" x="318" y="331" w="190" h="161" />
+  <sprite n="ENW_skirt_small_01_rare" x="0" y="705" w="175" h="164" oX="0" oY="0" oW="180" oH="166" />
+  <sprite n="ENW_skirt_small_02_rare" x="300" y="662" w="172" h="163" oX="1" oY="0" oW="180" oH="166" />
+  <sprite n="ENW_skirt_small_03_rare" x="327" y="0" w="180" h="166" />
+  <sprite n="ENW_skirt_small_04_rare" x="301" y="494" w="176" h="166" oX="0" oY="0" oW="180" oH="166" />
+</TextureAtlas>

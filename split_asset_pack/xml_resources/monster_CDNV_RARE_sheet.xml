@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:00c3f970bd0dfc3e0872c5fd38c8ba90:136d8e548c5b2317d0573185112d7b03:74607254ffd67a6fad0a1b3cb9cccb0f$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CDNV_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="CDNV_Body_eyelids_01" x="161" y="589" w="36" h="25" oX="3" oY="0" oW="33" oH="37" r="y"/>
+	<sprite n="CDNV_Body_eyelids_02" x="98" y="590" w="36" h="25" oX="3" oY="0" oW="33" oH="37" r="y"/>
+	<sprite n="CDNV_Body_eyelids_03" x="0" y="596" w="36" h="25" oX="3" oY="0" oW="33" oH="37" r="y"/>
+	<sprite n="CDNV_Body_eyelids_04" x="38" y="596" w="36" h="25" oX="3" oY="0" oW="33" oH="37" r="y"/>
+	<sprite n="CDNV_chime_01" x="448" y="347" w="51" h="39" oX="0" oY="0" oW="41" oH="52" r="y"/>
+	<sprite n="CDNV_chime_02" x="0" y="562" w="96" h="32" oX="4" oY="0" oW="40" oH="98" r="y"/>
+	<sprite n="CDNV_chime_03" x="376" y="218" w="130" h="27" oX="11" oY="7" oW="50" oH="138" r="y"/>
+	<sprite n="CDNV_chime_04" x="427" y="547" w="77" h="70" oX="0" oY="0" oW="78" oH="73"/>
+	<sprite n="CDNV_chime_string" x="492" y="16" w="5" h="60"/>
+	<sprite n="CDNV_eyelids_01" x="161" y="485" w="38" h="50" oX="11" oY="6" oW="73" oH="51" r="y"/>
+	<sprite n="CDNV_eyelids_02" x="161" y="537" w="38" h="50" oX="11" oY="6" oW="73" oH="51" r="y"/>
+	<sprite n="CDNV_eyelids_03" x="274" y="504" w="50" h="38" oX="11" oY="6" oW="73" oH="51"/>
+	<sprite n="CDNV_eyelids_04" x="274" y="544" w="50" h="38" oX="11" oY="6" oW="73" oH="51"/>
+	<sprite n="CDNV_front_bones" x="348" y="394" w="142" h="59" oX="4" oY="2" oW="150" oH="64"/>
+	<sprite n="CDNV_ground" x="0" y="0" w="490" h="216" oX="0" oY="9" oW="490" oH="230"/>
+	<sprite n="CDNV_hair_cntr_top" x="161" y="410" w="38" h="73" oX="0" oY="1" oW="38" oH="76"/>
+	<sprite n="CDNV_hair_left_bottom" x="439" y="455" w="73" h="90" r="y"/>
+	<sprite n="CDNV_hair_left_top" x="104" y="513" w="55" h="75" r="y"/>
+	<sprite n="CDNV_hair_right_bottom" x="343" y="493" w="82" h="71" oX="0" oY="3" oW="82" oH="77"/>
+	<sprite n="CDNV_hair_right_top" x="201" y="504" w="71" h="52" oX="1" oY="0" oW="74" oH="52"/>
+	<sprite n="CDNV_head" x="0" y="405" w="159" h="106" oX="44" oY="7" oW="203" oH="142"/>
+	<sprite n="CDNV_left_hand" x="201" y="558" w="70" h="41"/>
+	<sprite n="CDNV_left_lower_arm" x="163" y="310" w="36" h="98" oX="1" oY="0" oW="99" oH="36" r="y"/>
+	<sprite n="CDNV_left_upper_arm" x="0" y="513" w="102" h="47" oX="0" oY="0" oW="103" oH="47"/>
+	<sprite n="CDNV_pupil_right" x="492" y="0" w="14" h="14"/>
+	<sprite n="CDNV_right_hand" x="376" y="347" w="70" h="44" oX="0" oY="1" oW="70" oH="45"/>
+	<sprite n="CDNV_right_lower_arm" x="348" y="322" w="26" h="70" r="y"/>
+	<sprite n="CDNV_right_upper_arm" x="343" y="455" w="94" h="36" oX="2" oY="0" oW="96" oH="37"/>
+	<sprite n="CDNV_tail_01" x="376" y="247" w="121" h="98"/>
+	<sprite n="CDNV_tail_02" x="0" y="310" w="161" h="93" oX="26" oY="15" oW="119" oH="176" r="y"/>
+	<sprite n="CDNV_tail_03" x="201" y="322" w="145" h="88" oX="12" oY="27" oW="100" oH="172" r="y"/>
+	<sprite n="CDNV_tail_04" x="0" y="218" w="200" h="90"/>
+	<sprite n="CDNV_tail_05" x="201" y="412" w="140" h="90" oX="16" oY="0" oW="122" oH="140" r="y"/>
+	<sprite n="CDNV_torso" x="202" y="218" w="172" h="102"/>
+</TextureAtlas>

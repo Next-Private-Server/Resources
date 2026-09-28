@@ -1,0 +1,20 @@
+<template name="template_genes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/Genes.lua"/>
+	
+	<defaultTemplateVar name="$Size" equals="0.5*game.menuScaleX()" />
+  	<defaultTemplateVar name="$Spacing" equals="0" />
+	<defaultTemplateVar name="$Layer" equals="MidPopUps" />
+	
+	<event name="onInit" params="element">
+		<![CDATA[			
+			element("Layer"):SetString("$Layer")
+			element("Size"):SetFloat($Size)
+			element("Spacing"):SetFloat($Spacing)
+			
+			element("disabled"):SetInt(0)
+			element("populated"):SetInt(0)
+			element("visible"):SetInt(1)
+		]]>
+	</event>
+	
+</template>

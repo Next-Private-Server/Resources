@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a7a78fd5a75d3d01c98ce654127701d7:cda798fff637560dacb38d24e9792b87:258196796f96d82d9705963202f5f8b2$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S05_costume_04_sheet.png" width="512" height="256" hires="true" version="1">
+	<sprite n="X_body" x="355" y="128" w="91" h="103" pX="0.5" pY="0.5" oX="2" oY="2" oW="96" oH="112">
+		<vertices>93 105 2 105 2 2 93 2</vertices>
+		<verticesUV>446 231 355 231 355 128 446 128</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="X_head" x="243" y="128" w="110" h="104" pX="0.455357" pY="0.846154" oX="1" oY="0" oW="112" oH="104">
+		<vertices>111 104 1 104 1 59 32 1 45 0 111 0</vertices>
+		<verticesUV>353 232 243 232 243 187 274 129 287 128 353 128</verticesUV>
+		<triangles>0 4 5 2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="X_head_hat" x="94" y="32" w="146" h="144" pX="0.45" pY="0.868056" oX="10" oY="0" oW="160" oH="144">
+		<vertices>127 41 156 128 123 144 99 144 10 87 14 0 86 0</vertices>
+		<verticesUV>211 73 240 160 207 176 183 176 94 119 98 32 170 32</verticesUV>
+		<triangles>4 5 6 0 3 4 0 1 2 0 2 3 0 4 6</triangles>
+	</sprite>
+	<sprite n="X_hoop_01" x="0" y="0" w="297" h="117" pX="0.5" pY="0.6060606060606061" oX="0" oY="0" oW="298" oH="158">
+		<vertices>297 35 297 95 209 26 121 20 28 58 0 117 0 58 39 1 201 0</vertices>
+		<verticesUV>297 35 297 95 209 26 121 20 28 58 0 117 0 58 39 1 201 0</verticesUV>
+		<triangles>4 6 7 4 5 6 3 4 7 3 7 8 2 3 8 0 1 2 0 2 8</triangles>
+	</sprite>
+	<sprite n="X_hoop_02" x="210" y="24" w="297" h="102" pX="0.5" pY="0.6060606060606061" oX="0" oY="56" oW="298" oH="158">
+		<vertices>297 119 211 157 77 158 15 122 0 98 0 62 88 132 176 138 245 119 297 56</vertices>
+		<verticesUV>507 87 421 125 287 126 225 90 210 66 210 30 298 100 386 106 455 87 507 24</verticesUV>
+		<triangles>3 5 6 3 4 5 2 3 6 2 6 7 1 2 7 1 7 8 0 1 8 9 0 8</triangles>
+	</sprite>
+	<sprite n="X_skirt" x="0" y="129" w="147" h="103" pX="0.493711" pY="0.230769" oX="11" oY="0" oW="159" oH="104">
+		<vertices>158 81 109 103 11 102 11 1 116 0</vertices>
+		<verticesUV>147 210 98 232 0 231 0 130 105 129</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="X_top" x="299" y="23" w="93" h="78" pX="0.46875" pY="0.6875" oX="0" oY="1" oW="96" oH="80">
+		<vertices>93 9 93 71 51 79 15 75 0 64 4 1</vertices>
+		<verticesUV>392 31 392 93 350 101 314 97 299 86 303 23</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+</TextureAtlas>

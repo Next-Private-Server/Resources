@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e0ad0586f99d5f9320b90537b5f73143:11d4c58ca01315b201c359d28d69fc36:e784a16a35667bdcdf9a43e1c52f58db$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_C_costume_09_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="C_body" x="0" y="0" w="192" h="180" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="C_eyelid1" x="178" y="182" w="66" h="118" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="C_eyelid2" x="0" y="286" w="118" h="66" pX="0.5" pY="0.5"/>
+	<sprite n="C_eyelid3" x="120" y="302" w="118" h="66" pX="0.5" pY="0.5"/>
+	<sprite n="C_eyelid4" x="0" y="354" w="118" h="65" pX="0.5" pY="0.5" oX="0" oY="1" oW="118" oH="66"/>
+	<sprite n="C_eyelid5" x="120" y="370" w="118" h="64" pX="0.5" pY="0.5" oX="0" oY="2" oW="118" oH="66"/>
+	<sprite n="C_jaw" x="0" y="182" w="176" h="102" pX="0.5" pY="0.5"/>
+	<sprite n="C_left_shoulder" x="194" y="0" w="52" h="44" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

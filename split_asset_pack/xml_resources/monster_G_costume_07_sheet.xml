@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:395bf859ac2de80d4d71b7ecf32c68c5:0da79f32a23008458985e29b9a61709d:0e8a8f5eba2ac414b13febf763570a7a$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_G_costume_07_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="G_body" x="3" y="3" w="152" h="283" pX="0.5" pY="0.5" oX="0" oY="1" oW="152" oH="284"/>
+	<sprite n="G_DRESS" x="159" y="3" w="234" h="237" pX="0.46" pY="0.492" oX="10" oY="4" oW="250" oH="250"/>
+	<sprite n="G_HAT_BACK" x="3" y="290" w="62" h="212" pX="0.5772727272727273" pY="1.06" oX="4" oY="37" oW="220" oH="100" r="y"/>
+	<sprite n="G_HAT_FRONT" x="69" y="290" w="87" h="172" pX="0.5772727272727273" pY="1.06" oX="29" oY="1" oW="220" oH="100" r="y"/>
+	<sprite n="G_head" x="397" y="3" w="111" h="146" pX="0.5" pY="0.5" oX="0" oY="33" oW="164" oH="156" r="y"/>
+	<sprite n="G_left_hand" x="326" y="244" w="66" h="59" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="60"/>
+	<sprite n="G_left_upperarm" x="229" y="316" w="68" h="60" pX="0.5" pY="0.5" oX="1" oY="3" oW="68" oH="72" r="y"/>
+	<sprite n="G_right_hand" x="301" y="355" w="60" h="59" pX="0.5" pY="0.5" oX="0" oY="0" oW="60" oH="60"/>
+	<sprite n="G_right_upperarm" x="396" y="303" w="72" h="72" pX="0.5" pY="0.5" oX="2" oY="0" oW="76" oH="76"/>
+	<sprite n="G_sphere_01" x="160" y="244" w="67" h="50" pX="0.5" pY="0.5" oX="25" oY="18" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_02" x="326" y="307" w="62" h="44" pX="0.5" pY="0.5" oX="28" oY="19" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_03" x="231" y="244" w="91" h="68" pX="0.5" pY="0.5" oX="16" oY="6" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_04" x="397" y="231" w="95" h="68" pX="0.5" pY="0.5" oX="16" oY="4" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_05" x="160" y="401" w="65" h="92" pX="0.5" pY="0.5" oX="18" oY="6" oW="104" oH="104"/>
+	<sprite n="G_sphere_06" x="160" y="303" w="65" h="94" pX="0.5" pY="0.5" oX="18" oY="5" oW="104" oH="104"/>
+	<sprite n="G_sphere_07" x="397" y="153" w="96" h="74" pX="0.5" pY="0.5" oX="14" oY="3" oW="104" oH="104" r="y"/>
+</TextureAtlas>

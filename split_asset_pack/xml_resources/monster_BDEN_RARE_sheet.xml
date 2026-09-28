@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2c7cef8605ca47d14d3e53dc928d1bf1:9b442de9f979033d4193edac116aa1e0:843b36d27dd452603d08744382e34567$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BDEN_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BDEN_BackLeg" x="422" y="174" w="90" h="62"/>
+	<sprite n="BDEN_Body" x="420" y="398" w="84" h="106" r="y"/>
+	<sprite n="BDEN_Chest" x="439" y="0" w="71" h="110" oX="0" oY="0" oW="71" oH="111"/>
+	<sprite n="BDEN_Drool" x="360" y="374" w="10" h="35"/>
+	<sprite n="BDEN_EyeBack" x="439" y="112" w="68" h="60" oX="0" oY="4" oW="68" oH="68"/>
+	<sprite n="BDEN_EyelidL_01" x="172" y="326" w="13" h="13" oX="0" oY="8" oW="23" oH="21"/>
+	<sprite n="BDEN_EyelidL_02" x="434" y="574" w="21" h="21" oX="0" oY="0" oW="23" oH="21"/>
+	<sprite n="BDEN_EyelidL_03" x="185" y="376" w="22" h="21" oX="0" oY="0" oW="23" oH="21"/>
+	<sprite n="BDEN_EyelidL_04" x="256" y="644" w="22" h="21" oX="0" oY="0" oW="23" oH="21"/>
+	<sprite n="BDEN_EyelidL_05" x="457" y="574" w="21" h="21" oX="0" oY="0" oW="23" oH="21"/>
+	<sprite n="BDEN_EyelidR_01" x="172" y="301" w="13" h="23" oX="6" oY="12" oW="29" oH="29" r="y"/>
+	<sprite n="BDEN_EyelidR_02" x="364" y="593" w="25" h="25" oX="4" oY="0" oW="29" oH="29"/>
+	<sprite n="BDEN_EyelidR_03" x="325" y="615" w="25" h="25" oX="4" oY="0" oW="29" oH="29"/>
+	<sprite n="BDEN_EyelidR_04" x="281" y="621" w="25" h="25" oX="4" oY="0" oW="29" oH="29"/>
+	<sprite n="BDEN_EyelidR_05" x="215" y="656" w="25" h="25" oX="4" oY="0" oW="29" oH="29"/>
+	<sprite n="BDEN_Fin01B" x="186" y="607" w="27" h="53"/>
+	<sprite n="BDEN_Fin01B_RARE" x="422" y="318" w="87" h="28" oX="1" oY="1" oW="90" oH="30"/>
+	<sprite n="BDEN_Fin01F" x="219" y="544" w="63" h="25" r="y"/>
+	<sprite n="BDEN_Fin01F_RARE" x="187" y="235" w="39" h="139" oX="0" oY="0" oW="140" oH="40" r="y"/>
+	<sprite n="BDEN_Fin02B" x="422" y="290" w="89" h="26"/>
+	<sprite n="BDEN_Fin02B_RARE" x="121" y="489" w="103" h="31" oX="1" oY="2" oW="106" oH="36"/>
+	<sprite n="BDEN_Fin02F" x="226" y="505" w="106" h="37"/>
+	<sprite n="BDEN_Fin02F_RARE" x="416" y="506" w="82" h="27" oX="2" oY="1" oW="86" oH="30"/>
+	<sprite n="BDEN_Fin03F" x="334" y="507" w="80" h="25" r="y"/>
+	<sprite n="BDEN_Fin03F_RARE" x="360" y="483" w="54" h="22" oX="1" oY="2" oW="56" oH="26"/>
+	<sprite n="BDEN_Fin04F" x="332" y="572" w="60" h="19" r="y"/>
+	<sprite n="BDEN_Fin04F_RARE" x="325" y="593" w="37" h="20" oX="1" oY="0" oW="40" oH="20"/>
+	<sprite n="BDEN_Fin05F" x="172" y="355" w="11" h="42"/>
+	<sprite n="BDEN_FootB" x="420" y="348" w="85" h="48" r="y"/>
+	<sprite n="BDEN_FootF" x="422" y="238" w="89" h="50" r="y"/>
+	<sprite n="BDEN_FootF_RARE" x="126" y="427" w="100" h="60" r="y"/>
+	<sprite n="BDEN_FootToeF01" x="172" y="399" w="54" h="26" r="y"/>
+	<sprite n="BDEN_FootToeF02" x="360" y="457" w="56" h="24"/>
+	<sprite n="BDEN_FootToeF03" x="189" y="522" w="34" h="18"/>
+	<sprite n="BDEN_Head" x="0" y="207" w="185" h="92" oX="0" oY="95" oW="187" oH="187"/>
+	<sprite n="BDEN_Hip" x="480" y="574" w="19" h="19"/>
+	<sprite n="BDEN_Jaw" x="230" y="147" w="190" h="107"/>
+	<sprite n="BDEN_LegF" x="375" y="256" w="45" h="75"/>
+	<sprite n="BDEN_Mouth" x="0" y="301" w="170" h="108"/>
+	<sprite n="BDEN_Neck" x="230" y="0" w="207" h="145" r="y"/>
+	<sprite n="BDEN_Neck_RARE" x="0" y="0" w="228" h="205" oX="15" oY="15" oW="230" oH="250" r="y"/>
+	<sprite n="BDEN_Neckback_RARE" x="0" y="488" w="119" h="107" oX="1" oY="2" oW="120" oH="110"/>
+	<sprite n="BDEN_Pupil" x="172" y="341" w="12" h="12"/>
+	<sprite n="BDEN_Shadow" x="334" y="534" w="78" h="36" oX="0" oY="8" oW="78" oH="52"/>
+	<sprite n="BDEN_ShoulderB" x="189" y="542" w="28" h="63"/>
+	<sprite n="BDEN_ShoulderF" x="414" y="535" w="81" h="37" r="y"/>
+	<sprite n="BDEN_Tail" x="0" y="411" w="124" h="75" r="y"/>
+	<sprite n="BDEN_Tail_RARE" x="228" y="374" w="130" h="129"/>
+	<sprite n="BDEN_Teeth_Bottom" x="228" y="256" w="145" h="60"/>
+	<sprite n="BDEN_Teeth_Top" x="228" y="318" w="145" h="54"/>
+	<sprite n="BDEN_Teeth_Top_Back" x="375" y="333" w="43" h="122" r="y"/>
+	<sprite n="BDEN_ThighF" x="284" y="544" w="46" h="37"/>
+	<sprite n="BDEN_ToeInnerB" x="256" y="616" w="23" h="26"/>
+	<sprite n="BDEN_ToeInnerF" x="394" y="574" w="38" h="22"/>
+	<sprite n="BDEN_ToeMiddleB" x="187" y="207" w="41" h="26"/>
+	<sprite n="BDEN_ToeMiddleF" x="281" y="583" w="42" h="36" r="y"/>
+	<sprite n="BDEN_ToeOuterB" x="422" y="147" w="14" h="23" r="y"/>
+	<sprite n="BDEN_ToeOuterF" x="215" y="616" w="39" h="38" r="y"/>
+	<sprite n="BDEN_Tongue01" x="219" y="571" w="60" h="43" oX="17" oY="40" oW="167" oH="105"/>
+	<sprite n="BDEN_Tongue02" x="121" y="590" w="63" h="53" oX="14" oY="30" oW="167" oH="105"/>
+	<sprite n="BDEN_Tongue03" x="121" y="522" w="66" h="66" oX="11" oY="17" oW="167" oH="105"/>
+</TextureAtlas>

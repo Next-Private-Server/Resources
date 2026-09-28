@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:10ed0b49d52ee5f449c80c2fb86a0352:55df4cacab60a105905c17ee8c811a10:c6cce3cd0d18400be37897d15da95593$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/perplexplore_torus_gyroscope_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="Arrow" x="564" y="448" w="32" h="30" oX="0" oY="1" oW="32" oH="32"/>
+    <sprite n="Base" x="597" y="505" w="335" h="188" oX="2" oY="6" oW="340" oH="200"/>
+    <sprite n="Cap" x="914" y="697" w="15" h="40" oX="2" oY="0" oW="20" oH="40"/>
+    <sprite n="Gear" x="469" y="800" w="48" h="48" oX="2" oY="2" oW="52" oH="52"/>
+    <sprite n="Map Back" x="914" y="786" w="105" h="188" oX="6" oY="5" oW="200" oH="124" r="y"/>
+    <sprite n="Map Front" x="597" y="697" w="313" h="194" oX="5" oY="3" oW="324" oH="200"/>
+    <sprite n="Marker" x="564" y="376" w="35" h="68" oX="2" oY="2" oW="40" oH="72"/>
+    <sprite n="Moon Ring" x="3" y="729" w="258" h="245" oX="14" oY="1" oW="260" oH="260" r="y"/>
+    <sprite n="moon" x="469" y="729" w="67" h="67" oX="2" oY="2" oW="72" oH="72"/>
+    <sprite n="OuterRing_back" x="3" y="218" w="591" h="154" oX="9" oY="1" oW="608" oH="308"/>
+    <sprite n="OuterRing_front" x="3" y="3" w="599" h="211" oX="9" oY="95" oW="608" oH="308"/>
+    <sprite n="RB_1" x="590" y="1119" w="199" h="165" oX="2" oY="4" oW="203" oH="172"/>
+    <sprite n="RB_2" x="263" y="1314" w="199" h="152" oX="2" oY="4" oW="203" oH="172"/>
+    <sprite n="RB_3" x="3" y="1433" w="199" h="136" oX="2" oY="4" oW="203" oH="172"/>
+    <sprite n="RB_4" x="468" y="1094" w="118" h="199" oX="2" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="RB_5" x="793" y="1149" w="96" h="199" oX="2" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="RB_6" x="3" y="1713" w="199" h="74" oX="2" oY="4" oW="203" oH="172"/>
+    <sprite n="RB_7" x="207" y="1386" w="52" h="199" oX="2" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="RB_8" x="793" y="1352" w="199" h="28" oX="2" oY="4" oW="203" oH="172"/>
+    <sprite n="RB_T1" x="590" y="1288" w="199" h="164" oX="2" oY="2" oW="203" oH="172"/>
+    <sprite n="RB_T2" x="263" y="1470" w="199" h="151" oX="2" oY="15" oW="203" oH="172"/>
+    <sprite n="RB_T3" x="3" y="1573" w="199" h="136" oX="2" oY="30" oW="203" oH="172"/>
+    <sprite n="RB_T4" x="897" y="978" w="117" h="199" oX="2" oY="49" oW="203" oH="172" r="y"/>
+    <sprite n="RB_T5" x="467" y="1297" w="95" h="199" oX="2" oY="71" oW="203" oH="172" r="y"/>
+    <sprite n="RB_T6" x="3" y="1791" w="199" h="73" oX="2" oY="93" oW="203" oH="172"/>
+    <sprite n="RB_T7" x="206" y="1589" w="51" h="199" oX="2" oY="115" oW="203" oH="172" r="y"/>
+    <sprite n="RB_T8" x="793" y="1384" w="199" h="28" oX="2" oY="138" oW="203" oH="172"/>
+    <sprite n="Ring 1" x="606" y="3" w="406" h="498" oX="93" oY="1" oW="500" oH="500"/>
+    <sprite n="Ring 2" x="3" y="376" w="557" h="349" oX="5" oY="1" oW="360" oH="560" r="y"/>
+    <sprite n="Ring Back" x="796" y="895" w="110" h="46" oX="3" oY="1" oW="52" oH="112" r="y"/>
+    <sprite n="Ring_1" x="265" y="729" w="200" h="166" oX="1" oY="4" oW="203" oH="172"/>
+    <sprite n="Ring_2" x="3" y="978" w="200" h="153" oX="1" oY="4" oW="203" oH="172"/>
+    <sprite n="Ring_3" x="264" y="1069" w="200" h="137" oX="1" oY="4" oW="203" oH="172"/>
+    <sprite n="Ring_4" x="469" y="890" w="119" h="200" oX="1" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="Ring_5" x="796" y="945" w="97" h="200" oX="1" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="Ring_6" x="263" y="1210" w="200" h="74" oX="1" oY="4" oW="203" oH="172"/>
+    <sprite n="Ring_7" x="207" y="1182" w="52" h="200" oX="1" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="Ring_8" x="564" y="482" w="29" h="200" oX="1" oY="4" oW="203" oH="172" r="y"/>
+    <sprite n="Ring_0008_C" x="263" y="1288" w="200" h="22" oX="1" oY="2" oW="203" oH="172"/>
+    <sprite n="Ring_T1" x="265" y="899" w="200" h="166" oX="1" oY="1" oW="203" oH="172"/>
+    <sprite n="Ring_T2" x="3" y="1135" w="200" h="153" oX="1" oY="14" oW="203" oH="172"/>
+    <sprite n="Ring_T3" x="3" y="1292" w="200" h="137" oX="1" oY="30" oW="203" oH="172"/>
+    <sprite n="Ring_T4" x="592" y="895" w="200" h="119" oX="1" oY="48" oW="203" oH="172"/>
+    <sprite n="Ring_T5" x="592" y="1018" w="200" h="97" oX="1" oY="70" oW="203" oH="172"/>
+    <sprite n="Ring_T6" x="936" y="582" w="75" h="200" oX="1" oY="92" oW="203" oH="172" r="y"/>
+    <sprite n="Ring_T7" x="207" y="978" w="53" h="200" oX="1" oY="114" oW="203" oH="172" r="y"/>
+    <sprite n="Ring_T8" x="564" y="686" w="29" h="200" oX="1" oY="138" oW="203" oH="172" r="y"/>
+    <sprite n="Rope" x="936" y="505" w="77" h="73" oX="1" oY="1" oW="80" oH="80" r="y"/>
+</TextureAtlas>

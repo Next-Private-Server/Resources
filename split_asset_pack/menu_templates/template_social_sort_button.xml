@@ -1,0 +1,245 @@
+<template name="template_social_sort_button" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$baseSheetName" equals="'xml_resources/store_buttons01.xml'" />
+	<defaultTemplateVar name="$baseUpSpriteName" equals="'decoration_filters_base'" />
+	<defaultTemplateVar name="$baseDownSpriteName" equals="''" />
+	<defaultTemplateVar name="$baseSpriteScale" equals="0.3*game.windowScaleY()" />
+	<defaultTemplateVar name="$overlaySpriteScale" equals="0.3*game.windowScaleY()" />
+	<defaultTemplateVar name="$upSpriteName" equals="'button_rnd_base'" />
+	<defaultTemplateVar name="$baseSfx" equals="[[audio/sfx/menu_click.wav]]" />
+	<defaultTemplateVar name="$baseLayer" equals="MidPopUps" />
+	<defaultTemplateVar name="$filterName" equals="favourites" />
+	<defaultTemplateVar name="$overlaySprite" equals="'decoration_filters_plants'" />
+	<defaultTemplateVar name="$overlaySpriteSheet" equals="'xml_resources/store_buttons01.xml'" />
+	<defaultTemplateVar name="$selectBaseSprite" equals="'decoration_filters_base_green'" />
+	<defaultTemplateVar name="$selectBaseSpriteSheet" equals="'xml_resources/store_buttons01.xml'" />
+	<defaultTemplateVar name="$text" equals="" />
+	<defaultTemplateVar name="$textPadding" equals="0.0" />
+	<defaultTemplateVar name="$textTintR" equals="1.0" />
+	<defaultTemplateVar name="$textTintG" equals="1.0" />
+	<defaultTemplateVar name="$textTintB" equals="1.0" />
+	<defaultTemplateVar name="$hideOverlay" equals="0" />
+	<defaultTemplateVar name="$isSortMode" equals="0" />
+
+	<size dependentOnElement="FilterButton" />
+
+	<event name="setVisible" params="element">
+		element:E("FilterButton"):DoStoredScript("setVisible")
+	</event>
+
+	<event name="setInvisible" params="element">
+		element:E("FilterButton"):DoStoredScript("setInvisible")
+	</event>
+
+	<event name="select" params="element">
+		element:E("FilterButton"):DoStoredScript("select")
+	</event>
+
+	<event name="deselect" params="element">
+		element:E("FilterButton"):DoStoredScript("deselect")
+	</event>
+
+	<event name="setAscend" params="element">
+		element:E("FilterButton"):DoStoredScript("setAscend")
+	</event>
+
+	<event name="setDescend" params="element">
+		element:E("FilterButton"):DoStoredScript("setDescend")
+	</event>
+
+	<template type="template_spritesheetbutton" name="FilterButton">
+		<templateVar name="$sheetName" equals="'$baseSheetName'" />
+		<templateVar name="$upSpriteName" equals="'$baseUpSpriteName'" />
+		<templateVar name="$downSpriteName" equals="'$baseDownSpriteName'" />
+		<templateVar name="$spriteScale" equals="'$baseSpriteScale'" />
+		<templateVar name="$sfx" equals="'$baseSfx'" />
+		<templateVar name="$layer" equals="'$baseLayer'" />
+
+		<templateVar name="$text" equals="'$text'" />
+		<templateVar name="$textPadding" equals="'$textPadding'" />
+		<templateVar name="$textTintR" equals="'$textTintR'" />
+		<templateVar name="$textTintG" equals="'$textTintG'" />
+		<templateVar name="$textTintB" equals="'$textTintB'" />
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:parent()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("$overlaySprite")
+				component("sheetName"):SetString("$overlaySpriteSheet")
+				component("size"):SetFloat($overlaySpriteScale)
+				component("layer"):SetString("$baseLayer")
+
+				element:parent().filterName = "$filterName"
+			</event>
+			<event name="onPostInit" params="element">
+				if $hideOverlay == 1 then
+					element("visible"):SetInt(0)
+				end
+			</event>
+		</spriteSheetComponent>
+
+		<element name="Arrow">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-6*game.windowScaleY()" yOffset="-6*game.windowScaleY()" priorityOffset="-2" />
+			<spriteSheetComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component.ascendAngle = 145
+						component.descendAngle = 325
+						component("spriteName"):SetString("arrow01")
+						component("sheetName"):SetString("xml_resources/hud01.xml")
+						component("size"):SetFloat(0.12*game.windowScaleY())
+						component("layer"):SetString("$baseLayer")
+						component("rotation"):SetFloat(component.ascendAngle*math.pi/180)
+					]]>
+				</event>
+				<event name="onPostInit" params="element">
+					if $isSortMode == 0 then
+						element("visible"):SetInt(0)
+					end
+				</event>
+			</spriteSheetComponent>
+		</element>
+
+		<event name="onInit" params="element">
+			onInit(element)
+			element.isAscending = true
+			element.isArrowAnimating = false
+			element.arrowTransitionTime = 0
+		</event>
+
+		<event name="onPostInit" params="element">
+			element.scaleRatio = element:C("Overlay")("size"):GetFloat() / element:C("UpSprite")("size"):GetFloat()
+		</event>
+
+		<event name="select" params="element">
+			local upSprite = element:C("UpSprite")
+			upSprite("spriteName"):SetString("$selectBaseSprite")
+			upSprite("sheetName"):SetString("$selectBaseSpriteSheet")
+			upSprite("size"):SetFloat($baseSpriteScale)
+
+			if $isSortMode == 1 then
+				element:E("Arrow"):C("Sprite")("visible"):SetInt(1)
+			end
+
+			element.isSelected = true
+		</event>
+
+		<event name="setAscend" params="element">
+			if $isSortMode == 1 then
+				element.isAscending = true
+				element.isArrowAnimating = true
+			end
+		</event>
+
+		<event name="setDescend" params="element">
+			if $isSortMode == 1 then
+				element.isAscending = false
+				element.isArrowAnimating = true
+			end
+		</event>
+
+		<event name="deselect" params="element">
+			local upSprite = element:C("UpSprite")
+			upSprite("spriteName"):SetString("$upSpriteName")
+			upSprite("sheetName"):SetString("$baseSheetName")
+			upSprite("size"):SetFloat($baseSpriteScale)
+
+			element:E("Arrow"):C("Sprite")("visible"):SetInt(0)
+
+			element.isSelected = false
+		</event>
+
+		<event name="setVisible" params="element">
+			setVisible(element)
+			if $hideOverlay == 0 then
+				element:C("Overlay")("visible"):SetInt(1)
+			end
+			if element.isSelected and $isSortMode == 1 then
+				element:E("Arrow"):C("Sprite")("visible"):SetInt(1)
+			end
+		</event>
+
+		<event name="setInvisible" params="element">
+			setInvisible(element)
+			element:C("Overlay")("visible"):SetInt(0)
+			element:E("Arrow"):C("Sprite")("visible"):SetInt(0)
+		</event>
+
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+
+				if element.isSelected then
+					element.isAscending = not element.isAscending
+					element.arrowTransitionTime = 0.25
+				else
+					element.isAscending = true
+					element.arrowTransitionTime = 0
+				end
+
+				element.isArrowAnimating = true
+
+				element:parent():parent():parent():onSocialSortSelected(element, "$filterName");
+
+				element:C("UpSprite"):setColor(1.0, 1.0, 1.0)
+				element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				element:E("Arrow"):C("Sprite"):setColor(1.0, 1.0, 1.0)
+			</event>
+
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+
+				element:C("UpSprite"):setColor(0.5, 0.5, 0.5)
+				element:C("Overlay"):setColor(0.5, 0.5, 0.5)
+				element:E("Arrow"):C("Sprite"):setColor(0.5, 0.5, 0.5)
+			</event>
+
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+
+				if element.isSelected then
+					element:C("UpSprite"):setColor(0.5, 0.5, 0.5)
+				else
+					element:C("UpSprite"):setColor(1.0, 1.0, 1.0)
+				end
+				element:C("Overlay"):setColor(1.0, 1.0, 1.0)
+				element:E("Arrow"):C("Sprite"):setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+
+		<event name="onTick" params="element, dt">
+			<![CDATA[
+				onTick(element, dt)
+				if(element:C("Overlay")("size"):GetFloat()/element:C("UpSprite")("size"):GetFloat() ~= element.scaleRatio) then
+					element:C("Overlay")("size"):SetFloat(element.scaleRatio * element:C("UpSprite")("size"):GetFloat())
+				end
+
+				if ($isSortMode == 1 and element.isArrowAnimating) then
+					dt = math.min(dt, 0.033)
+
+					local arrow = element:E("Arrow"):C("Sprite")
+
+					element.arrowTransitionTime = math.max(0, element.arrowTransitionTime - dt)
+					local easedTime = 1.0 - lua_sys.Quadratic_EaseIn(element.arrowTransitionTime, 0, 1.0, 0.25)
+
+					if (element.isAscending) then
+						arrowAngle = lerp(arrow.descendAngle, arrow.ascendAngle, easedTime)
+					else
+						arrowAngle = lerp(arrow.ascendAngle, arrow.descendAngle, easedTime)
+					end
+
+					arrow:V("rotation"):SetFloat(arrowAngle * math.pi/180)
+
+					if element.arrowTransitionTime <= 0 then
+						element.isArrowAnimating = false
+					end
+				end
+			]]>
+		</event>
+
+	</template>
+
+</template>

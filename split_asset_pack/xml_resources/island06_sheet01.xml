@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1c0fd0dd764b2bef23a9c844979a3e17:f6bce49e753a9374216730ae117ac091:822ae2600c8d27a3b0612aadbbf0ea4f$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island06_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island06_burns" x="858" y="0" w="850" h="794" oX="0" oY="2" oW="794" oH="852" r="y"/>
+	<sprite n="island06_ear" x="1107" y="1380" w="402" h="646"/>
+	<sprite n="island06_edge" x="0" y="1414" w="459" h="619" oX="0" oY="3" oW="460" oH="622"/>
+	<sprite n="island06_eyeclosed" x="0" y="675" w="846" h="737" oX="0" oY="3" oW="846" oH="740"/>
+	<sprite n="island06_nose" x="461" y="1414" w="644" h="612" oX="11" oY="0" oW="666" oH="612"/>
+	<sprite n="island06_stumpcenter" x="848" y="796" w="766" h="582" oX="0" oY="3" oW="766" oH="586"/>
+	<sprite n="island06_stumpside" x="0" y="0" w="856" h="673" oX="0" oY="3" oW="858" oH="676"/>
+	<sprite n="w6_cloud" x="1616" y="796" w="347" h="844" oX="17" oY="31" oW="891" oH="416" r="y"/>
+	<sprite n="w6_fly_01" x="1710" y="0" w="123" h="110" oX="1" oY="0" oW="124" oH="110"/>
+	<sprite n="w6_fly_02" x="1511" y="1380" w="100" h="124" oX="0" oY="10" oW="124" oH="110" r="y"/>
+	<sprite n="w6_fly_03" x="1835" y="0" w="123" h="110" oX="1" oY="0" oW="124" oH="110"/>
+	<sprite n="w6_fly_04" x="1511" y="1506" w="100" h="124" oX="0" oY="10" oW="124" oH="110" r="y"/>
+	<sprite n="w6_fly_05" x="1960" y="84" w="88" h="123" oX="1" oY="22" oW="124" oH="110" r="y"/>
+	<sprite n="w6_fly_06" x="1511" y="1632" w="100" h="124" oX="0" oY="10" oW="124" oH="110" r="y"/>
+	<sprite n="w6_green_glow" x="1965" y="39" w="43" h="43" oX="3" oY="2" oW="48" oH="48"/>
+	<sprite n="w6_sparkle" x="1965" y="0" w="46" h="37" oX="5" oY="1" oW="48" oH="48" r="y"/>
+</TextureAtlas>

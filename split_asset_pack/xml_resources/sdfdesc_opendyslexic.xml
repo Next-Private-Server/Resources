@@ -1,0 +1,11 @@
+<SDFDesc>
+    <ttf path="font/OpenDyslexic-Bold.ttf" />
+    <font>
+        <data path="xml_resources/font_main_MSM.xml" />
+        <data path="xml_resources/font_Cooper_70.xml" />
+        <data path="xml_resources/font_no_outline.xml" />
+    </font>
+    <charset latin="true" cyrillic="true" cjk="true" />
+    <text path="text/master_text.tsv" />
+    <generator strokeSize="4" pixelSize="40" packing="skyline" />
+</SDFDesc>

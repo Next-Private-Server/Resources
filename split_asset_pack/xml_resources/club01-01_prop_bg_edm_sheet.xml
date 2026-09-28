@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:97914eb09d085ec73eea42197d77b528:1b2b2ddd49cb033a7af2bf9c3ea73849:d5504696837467a9471d4b6b51a85879$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_bg_edm_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="bottom_Inner_circle_glow" x="412" y="322" w="71" h="71" oX="23" oY="39" oW="106" oH="116"/>
+	<sprite n="bottom_outer_circle_glow" x="207" y="370" w="105" h="106" oX="0" oY="10" oW="106" oH="116"/>
+	<sprite n="bottom_outer_triangle_glow" x="105" y="370" w="100" h="111" oX="6" oY="0" oW="106" oH="116"/>
+	<sprite n="lightstand" x="0" y="0" w="304" h="368"/>
+	<sprite n="lightstand_glasses" x="306" y="0" w="200" h="118"/>
+	<sprite n="lightstand_guitar" x="306" y="120" w="195" h="126" r="y"/>
+	<sprite n="top_Inner_circle_glow" x="412" y="248" w="73" h="72" oX="39" oY="43" oW="121" oH="121" r="y"/>
+	<sprite n="top_outer_circle_glow" x="306" y="248" w="104" h="106" oX="17" oY="15" oW="121" oH="121"/>
+	<sprite n="top_outer_triangle_glow" x="0" y="370" w="103" h="115" oX="0" oY="0" oW="121" oH="121"/>
+</TextureAtlas>

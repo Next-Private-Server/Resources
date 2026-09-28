@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1a51ad0f333c4ef5b1694c1a7578e518:9b628637e243309b63f73cd0527dd72b:74f9512032261d996ecceef029adb480$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S03_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="V_arm_lower_LEFT_BRACELET" x="0" y="229" w="47" h="45" pX="0.75" pY="0.5" oX="35" oY="3" oW="80" oH="50" r="y"/>
+	<sprite n="V_arm_lower_RIGHT_BRACELET" x="53" y="186" w="49" h="47" pX="0.75" pY="0.5" oX="33" oY="1" oW="80" oH="50" r="y"/>
+	<sprite n="V_arm_middle_LEFT_BRACELET" x="0" y="186" w="51" h="41" pX="0.7777777777777778" pY="0.5166666666666667" oX="31" oY="0" oW="72" oH="60" r="y"/>
+	<sprite n="V_arm_middle_RIGHT_BRACELET" x="459" y="0" w="53" h="40" pX="0.7777777777777778" pY="0.5166666666666667" oX="32" oY="0" oW="72" oH="60" r="y"/>
+	<sprite n="V_arm_upper_LEFT_BRACELET" x="104" y="211" w="41" h="20" pX="0.725" pY="0.5" oX="27" oY="0" oW="80" oH="42" r="y"/>
+	<sprite n="V_arm_upper_RIGHT_BRACELET" x="104" y="186" w="42" h="23" pX="0.725" pY="0.5" oX="25" oY="0" oW="80" oH="42" r="y"/>
+	<sprite n="V_body" x="0" y="0" w="176" h="138" pX="0.5" pY="0.5" oX="0" oY="2" oW="176" oH="140"/>
+	<sprite n="V_foot" x="438" y="132" w="72" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="V_foot_RIGHT" x="428" y="190" w="72" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="V_hand" x="274" y="131" w="59" h="44" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="60" r="y"/>
+	<sprite n="V_hand_LEFT_BRACELET" x="177" y="212" w="39" h="26" pX="0.5" pY="0.6666666666666666" oX="1" oY="2" oW="40" oH="30"/>
+	<sprite n="V_hand_RIGHT" x="274" y="177" w="59" h="44" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="60" r="y"/>
+	<sprite n="V_hand_RIGHT_BRACELET" x="148" y="186" w="27" h="39" pX="0.5" pY="0.6666666666666666" oX="1" oY="1" oW="40" oH="30" r="y"/>
+	<sprite n="V_left_HAIR_BACK" x="178" y="131" w="94" h="79" pX="0.52" pY="1.225" oX="3" oY="1" oW="100" oH="80"/>
+	<sprite n="V_left_HAIR_FRONT" x="459" y="42" w="52" h="88" pX="0.53" pY="1.25" oX="9" oY="3" oW="100" oH="80" r="y"/>
+	<sprite n="V_left_head" x="336" y="81" w="100" h="68" pX="0.5" pY="0.5" oX="0" oY="2" oW="68" oH="108" r="y"/>
+	<sprite n="V_leg" x="335" y="151" w="91" h="64" pX="0.390625" pY="0.8541666666666666" oX="0" oY="2" oW="64" oH="96" r="y"/>
+	<sprite n="V_leg_RIGHT" x="335" y="217" w="91" h="61" pX="0.390625" pY="0.8541666666666666" oX="0" oY="2" oW="64" oH="96" r="y"/>
+	<sprite n="V_NECKLACE" x="178" y="0" w="156" h="129" pX="0.5" pY="0.5" oX="9" oY="10" oW="176" oH="140"/>
+	<sprite n="V_right_head_EPIC" x="336" y="0" w="121" h="79" pX="0.5" pY="0.5" oX="0" oY="2" oW="80" oH="124" r="y"/>
+	<sprite n="V_right_TOUPEE" x="428" y="248" w="67" h="38" pX="0.5" pY="3.05" oX="1" oY="2" oW="80" oH="40"/>
+	<sprite n="V_wing" x="0" y="140" w="86" h="44" pX="0.5" pY="0.5" oX="10" oY="0" oW="96" oH="44"/>
+	<sprite n="V_wing_RIGHT" x="88" y="140" w="86" h="44" pX="0.5" pY="0.5" oX="10" oY="0" oW="96" oH="44"/>
+</TextureAtlas>

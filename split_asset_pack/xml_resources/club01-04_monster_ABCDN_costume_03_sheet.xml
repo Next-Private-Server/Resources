@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ab8c733eab05c7e8e6e15fcd4246b3b5:3c4a6f7e541ba2223926bb9d50b8e2bd:c38fd4a4136855070235ba399fbe1c9a$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-04_monster_ABCDN_costume_03_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABCDF_feathers" x="40" y="344" w="83" h="132" pX="-0.511905" pY="1.70455" oX="0" oY="0" oW="84" oH="132"/>
+	<sprite n="ABCDF_frills" x="225" y="0" w="70" h="80" pX="-0.555556" pY="1.6" oX="0" oY="0" oW="72" oH="80"/>
+	<sprite n="ABCDF_hand_01" x="350" y="106" w="68" h="44" pX="0.5" pY="0.5" oX="31" oY="8" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_hand_02" x="337" y="0" w="46" h="70" pX="0.5" pY="0.5" oX="34" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_03" x="311" y="152" w="62" h="60" pX="0.5" pY="0.5" oX="43" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_04" x="385" y="0" w="69" h="62" pX="0.5" pY="0.5" oX="43" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_05" x="236" y="340" w="58" h="59" pX="0.5" pY="0.5" oX="43" oY="7" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_hand_06" x="199" y="113" w="43" h="63" pX="0.5" pY="0.5" oX="42" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_07" x="308" y="74" w="40" h="71" pX="0.5" pY="0.5" oX="42" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_08" x="297" y="0" w="38" h="72" pX="0.5" pY="0.5" oX="35" oY="7" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_09" x="456" y="0" w="52" h="67" pX="0.5" pY="0.5" oX="19" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_10" x="420" y="138" w="62" h="62" pX="0.5" pY="0.5" oX="8" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_11" x="456" y="69" w="52" h="67" pX="0.5" pY="0.5" oX="17" oY="8" oW="120" oH="87"/>
+	<sprite n="ABCDF_hand_12" x="385" y="64" w="69" h="40" pX="0.5" pY="0.5" oX="30" oY="8" oW="120" oH="87" r="y"/>
+	<sprite n="ABCDF_headband" x="139" y="181" w="30" h="126" pX="0.337209" pY="1.58333" oX="0" oY="21" oW="172" oH="84" r="y"/>
+	<sprite n="ABCDF_headband_glow" x="195" y="0" w="28" h="111" pX="0.3372093023255814" pY="1.5833333333333333" oX="0" oY="21" oW="172" oH="84" r="y"/>
+	<sprite n="ABCDF_leg" x="0" y="344" w="38" h="140" pX="0.5" pY="0.5" oX="8" oY="9" oW="54" oH="156"/>
+	<sprite n="ABCDF_leg_glow" x="158" y="0" w="35" h="123" pX="0.5" pY="0.5" oX="10" oY="24" oW="54" oH="156"/>
+	<sprite n="ABCDF_lowerarm" x="168" y="475" w="103" h="36" pX="0.5" pY="0.5" oX="7" oY="7" oW="117" oH="51"/>
+	<sprite n="ABCDF_lowerbody" x="0" y="0" w="156" h="179" pX="0.5" pY="0.5" oX="0" oY="7" oW="156" oH="192"/>
+	<sprite n="ABCDF_lowerbody_glow" x="0" y="181" w="137" h="161" pX="0.5" pY="0.5" oX="9" oY="25" oW="156" oH="192"/>
+	<sprite n="ABCDF_middlebody" x="207" y="285" w="85" h="53" pX="0.5" pY="0.5" oX="7" oY="6" oW="66" oH="114" r="y"/>
+	<sprite n="ABCDF_necklace" x="171" y="181" w="69" h="102" pX="0.5" pY="0.711538" oX="3" oY="1" oW="72" oH="104"/>
+	<sprite n="ABCDF_necklace_glow" x="242" y="178" w="67" h="92" pX="0.5" pY="0.7115384615384616" oX="5" oY="3" oW="72" oH="104"/>
+	<sprite n="ABCDF_right_shoulder" x="244" y="82" w="62" h="75" pX="0.5" pY="0.5" oX="0" oY="3" oW="75" oH="75" r="y"/>
+	<sprite n="ABCDF_toe_1" x="0" y="486" w="66" h="23" pX="0.5" pY="0.5" oX="2" oY="8" oW="75" oH="39"/>
+	<sprite n="ABCDF_toe_2" x="158" y="125" w="39" h="54" pX="0.5" pY="0.5" oX="7" oY="7" oW="54" oH="69"/>
+	<sprite n="ABCDF_toe_3" x="139" y="309" w="66" h="31" pX="0.5" pY="0.5" oX="8" oY="7" oW="81" oH="45"/>
+	<sprite n="ABCDF_upperarm" x="68" y="478" w="98" h="31" pX="0.5" pY="0.5" oX="8" oY="5" oW="114" oH="39"/>
+	<sprite n="ABCDF_upperbody" x="125" y="344" w="109" h="129" pX="0.5" pY="0.5" oX="0" oY="5" oW="138" oH="117" r="y"/>
+</TextureAtlas>

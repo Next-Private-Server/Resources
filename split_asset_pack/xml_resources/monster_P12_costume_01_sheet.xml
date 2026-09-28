@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:61b0f80e97849b820fe99345fe4909e7:961ecb251b25ba91ef9f5f3b525fb980:4e6147485bac791db579444af51de025$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_P12_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="p12_Charm_Clover" x="206" y="39" w="48" h="57" pX="0.5" pY="0.5" oX="10" oY="3" oW="70" oH="70"/>
+	<sprite n="p12_Charm_Diamond" x="172" y="219" w="59" h="59" pX="0.5" pY="0.5" oX="1" oY="6" oW="70" oH="70"/>
+	<sprite n="p12_Charm_Heart" x="206" y="0" w="49" h="37" pX="0.5" pY="0.5" oX="18" oY="10" oW="70" oH="70" r="y"/>
+	<sprite n="p12_Charm_Moon" x="172" y="164" w="62" h="53" pX="0.5" pY="0.5" oX="13" oY="1" oW="70" oH="70" r="y"/>
+	<sprite n="p12_Head_COSTUME_EARS" x="0" y="0" w="204" h="162" pX="0.505882" pY="0.742857" oX="2" oY="2" oW="170" oH="210" r="y"/>
+	<sprite n="p12_Wing_1" x="0" y="164" w="170" h="85" pX="0.5" pY="0.5" oX="22" oY="7" oW="134" oH="180" r="y"/>
+	<sprite n="p12_Wing_2" x="0" y="251" w="169" h="107" pX="0.5" pY="0.5" oX="12" oY="8" oW="134" oH="180" r="y"/>
+</TextureAtlas>

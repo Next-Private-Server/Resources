@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4e28298e00f16b6812307164b0565da5:8f500018b3b822407b7515372c0737ef:0c2d8d7e87d94647755aec7c21673e4b$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island16_MIRROR_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="bottom_head" x="376" y="1034" w="228" h="732" r="y"/>
+	<sprite n="centre_platform" x="3" y="1034" w="369" h="930" r="y"/>
+	<sprite n="cloud" x="608" y="1314" w="432" h="452"/>
+	<sprite n="ear" x="508" y="3" w="1192" h="298" oX="5" oY="0" oW="303" oH="1192" r="y"/>
+	<sprite n="extra_lump" x="1537" y="1828" w="210" h="169" r="y"/>
+	<sprite n="feathers_01A" x="1329" y="305" w="435" h="594" r="y"/>
+	<sprite n="feathers_01B" x="1652" y="903" w="216" h="533" r="y"/>
+	<sprite n="feathers_01C" x="1872" y="902" w="131" h="287" r="y"/>
+	<sprite n="feathers_01D" x="1298" y="1440" w="571" h="194"/>
+	<sprite n="feathers_02" x="1387" y="903" w="261" h="526" r="y"/>
+	<sprite n="feathers_03" x="376" y="1770" w="669" h="262" oX="0" oY="0" oW="670" oH="262"/>
+	<sprite n="feathers_04" x="1044" y="1314" w="250" h="387" r="y"/>
+	<sprite n="feathers_05" x="508" y="305" w="817" h="630" oX="4" oY="0" oW="824" oH="630"/>
+	<sprite n="glow_orange" x="1704" y="3" w="287" h="290"/>
+	<sprite n="mushroom_blue" x="1298" y="1638" w="65" h="56" r="y"/>
+	<sprite n="mushroom_blue_glow" x="3" y="1968" w="73" h="70"/>
+	<sprite n="mushroom_red" x="1995" y="3" w="47" h="69" r="y"/>
+	<sprite n="mushroom_red_glow" x="508" y="939" w="89" h="78"/>
+	<sprite n="mushroom_yellow" x="1772" y="1638" w="54" h="37"/>
+	<sprite n="mushroom_yellow_glow" x="1872" y="1193" w="73" h="65"/>
+	<sprite n="side_head_main" x="3" y="3" w="501" h="1027"/>
+	<sprite n="side_head_side" x="1768" y="297" w="254" h="601"/>
+	<sprite n="side_lumps" x="1049" y="1705" w="484" h="259" r="y"/>
+	<sprite n="side_platform_1" x="1537" y="1638" w="231" h="186"/>
+	<sprite n="side_platform_2" x="608" y="939" w="591" h="371"/>
+	<sprite n="side_platform_3" x="1203" y="939" w="180" h="348"/>
+</TextureAtlas>

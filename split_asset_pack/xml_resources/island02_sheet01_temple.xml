@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0f221ab7fb9b92aaa2b4b58acb1d7db8:721ae2fac9e089dc5e2473a75cbc7344:5a7f2033d6584e24a7335553d1faad73$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island02_sheet01_temple.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island02_centre_cover" x="1938" y="0" w="110" h="159" oX="0" oY="0" oW="110" oH="160"/>
+	<sprite n="island02_centre_platform" x="326" y="1338" w="624" h="695" oX="0" oY="0" oW="624" oH="696"/>
+	<sprite n="island02_eye_glow" x="689" y="0" w="258" h="254" r="y"/>
+	<sprite n="island02_face_01" x="952" y="0" w="984" h="830"/>
+	<sprite n="island02_face_02" x="0" y="0" w="687" h="1336"/>
+	<sprite n="island02_glow" x="689" y="256" w="258" h="254" r="y"/>
+	<sprite n="island02_monk_01" x="1938" y="336" w="63" h="48" oX="2" oY="4" oW="53" oH="71" r="y"/>
+	<sprite n="island02_monk_02" x="1938" y="386" w="63" h="48" oX="2" oY="4" oW="53" oH="71" r="y"/>
+	<sprite n="island02_monk_03" x="1938" y="285" w="63" h="49" oX="1" oY="4" oW="53" oH="71" r="y"/>
+	<sprite n="island02_monk_04" x="1938" y="436" w="63" h="48" oX="2" oY="4" oW="53" oH="71" r="y"/>
+	<sprite n="island02_monk_05" x="1938" y="486" w="63" h="48" oX="2" oY="4" oW="53" oH="71" r="y"/>
+	<sprite n="island02_monk_06" x="1938" y="233" w="63" h="50" oX="2" oY="4" oW="53" oH="71" r="y"/>
+	<sprite n="island02_monk_shadow" x="2024" y="161" w="24" h="50" r="y"/>
+	<sprite n="island02_monk_shadow_wall" x="1938" y="161" w="84" h="70" r="y"/>
+	<sprite n="island02_nose" x="0" y="1338" w="324" h="700"/>
+	<sprite n="island02_side_cover_01" x="689" y="512" w="234" h="112" oX="14" oY="8" oW="180" oH="252" r="y"/>
+	<sprite n="island02_side_platform_02" x="952" y="832" w="412" h="1141" oX="3" oY="0" oW="415" oH="1141"/>
+	<sprite n="w2_cloud" x="1366" y="832" w="412" h="900" oX="0" oY="3" oW="900" oH="420" r="y"/>
+</TextureAtlas>

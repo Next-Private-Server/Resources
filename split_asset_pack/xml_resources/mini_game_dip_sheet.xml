@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a92964e7ec3ea3e3c29c877acbf38964:c8f5dd29764bf8dec2b469d240ed871f:14e2a5459a9d337fb531348a8b18cbb1$ -->
+<TextureAtlas imagePath="gfx/minigames/dipster_dig/mini_game_dip_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="dip_cloud_01" x="0" y="309" w="114" h="116" oX="0" oY="1" oW="116" oH="116" r="y"/>
+	<sprite n="dip_cloud_02" x="146" y="188" w="103" h="100" oX="8" oY="6" oW="116" oH="116" r="y"/>
+	<sprite n="dip_flag_01" x="158" y="131" w="49" h="36" r="y"/>
+	<sprite n="dip_tile_01" x="0" y="188" w="144" h="119" oX="4" oY="0" oW="156" oH="120"/>
+	<sprite n="dip_tile_02" x="0" y="0" w="156" h="102" oX="0" oY="18" oW="156" oH="120"/>
+	<sprite n="dip_tile_03" x="0" y="104" w="156" h="82" oX="0" oY="38" oW="156" oH="120"/>
+	<sprite n="dip_tile_04" x="158" y="0" w="88" h="129" oX="13" oY="32" oW="156" oH="120" r="y"/>
+	<sprite n="dirt_01" x="209" y="152" w="19" h="18" r="y"/>
+	<sprite n="dirt_02" x="209" y="131" w="22" h="19" r="y"/>
+	<sprite n="pebble_01" x="230" y="152" w="16" h="13" oX="3" oY="1" oW="18" oH="19" r="y"/>
+	<sprite n="pebble_02" x="233" y="131" w="22" h="19" r="y"/>
+</TextureAtlas>

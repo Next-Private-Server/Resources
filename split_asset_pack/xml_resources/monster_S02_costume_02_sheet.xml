@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:290cd8346e913693bd568171d7a0d08f:ff508c39efe955660b1117d8524f2ec0:ed3490e5d1d372307c8be6cd4d029929$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S02_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="S02_body" x="0" y="0" w="197" h="220" pX="0.4853535353535353" pY="0.8109090909090909" oX="1" oY="0" oW="198" oH="220"/>
+	<sprite n="S02_button" x="485" y="0" w="26" h="26" pX="-1.0538461538461539" pY="-0.17307692307692307"/>
+	<sprite n="S02_ear" x="268" y="212" w="41" h="54" pX="2.090740740740741" pY="0.930952380952381" oX="0" oY="0" oW="54" oH="42" r="y"/>
+	<sprite n="S02_ear_2" x="311" y="0" w="54" h="41" pX="-0.8240740740740741" pY="1.3428571428571427" oX="0" oY="0" oW="54" oH="42"/>
+	<sprite n="S02_hoodie" x="112" y="222" w="154" h="167" pX="0.5233766233766234" pY="0.5649425287356322" oX="0" oY="0" oW="154" oH="174"/>
+	<sprite n="S02_left_antler" x="0" y="222" w="110" h="168" pX="0.8714285714285713" pY="0.8976470588235294" oX="1" oY="1" oW="112" oH="170"/>
+	<sprite n="S02_left_fingers" x="199" y="156" w="68" h="54" pX="0.4661764705882353" pY="0.24629629629629632"/>
+	<sprite n="S02_left_foot" x="268" y="307" w="84" h="82" pX="0.47619047619047616" pY="0.6524390243902439"/>
+	<sprite n="S02_left_leg" x="396" y="0" w="87" h="78" pX="0.44022988505747124" pY="0.8088607594936709" oX="0" oY="0" oW="87" oH="79"/>
+	<sprite n="S02_left_lowerarm" x="0" y="392" w="75" h="118" pX="0.4525641025641025" pY="0.2576271186440678" oX="1" oY="0" oW="78" oH="118"/>
+	<sprite n="S02_left_upperarm" x="396" y="80" w="86" h="74" pX="0.581081081081081" pY="0.3023255813953488" r="y"/>
+	<sprite n="S02_right_antler" x="228" y="391" w="166" h="97" pX="0.3408163265306122" pY="0.9196428571428571" oX="0" oY="1" oW="98" oH="168" r="y"/>
+	<sprite n="S02_right_fingers" x="354" y="307" w="54" h="68" pX="0.4985294117647059" pY="0.1537037037037037" r="y"/>
+	<sprite n="S02_right_foot" x="152" y="391" w="74" h="112" pX="0.41964285714285715" pY="0.6351351351351351" r="y"/>
+	<sprite n="S02_right_leg" x="396" y="232" w="85" h="73" pX="0.44418604651162796" pY="0.7157894736842105" oX="1" oY="0" oW="86" oH="76"/>
+	<sprite n="S02_right_lowerarm" x="77" y="392" w="73" h="113" pX="0.3410958904109589" pY="0.23805309734513272"/>
+	<sprite n="S02_right_upperarm" x="396" y="156" w="86" h="74" pX="0.1891891891891892" pY="0.2558139534883721" r="y"/>
+</TextureAtlas>

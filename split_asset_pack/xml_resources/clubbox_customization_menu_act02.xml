@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3d9683232397f9b578f013d07b208c80:2bdca1d009fbddda51e9a2e2ab79aae4:b70e159495111863ade8a9134833346f$ -->
+<TextureAtlas imagePath="gfx/clubbox/clubbox_customization_menu_act02.png" width="256" height="512" hires="false" version="1">
+	<sprite n="button_hoola" x="114" y="152" w="92" h="92"/>
+	<sprite n="button_pompom" x="0" y="187" w="92" h="92"/>
+	<sprite n="button_rooba" x="94" y="246" w="92" h="92"/>
+	<sprite n="button_sooza" x="0" y="281" w="92" h="92"/>
+	<sprite n="button_tootoo" x="0" y="375" w="92" h="92"/>
+	<sprite n="icon_deco_back_stage" x="0" y="0" w="115" h="76" oX="4" oY="24" oW="124" oH="124"/>
+	<sprite n="icon_deco_front_crowd" x="117" y="0" w="115" h="74" oX="5" oY="25" oW="124" oH="124"/>
+	<sprite n="icon_deco_front_stage" x="117" y="76" w="115" h="74" oX="4" oY="25" oW="124" oH="124"/>
+	<sprite n="icon_deco_special_effects" x="0" y="78" w="112" h="107" oX="6" oY="9" oW="124" oH="124"/>
+</TextureAtlas>

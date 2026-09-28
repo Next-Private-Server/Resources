@@ -1,0 +1,84 @@
+<template name="template_hud_button_adminBbbEntry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/HudButtonBbbEntry.lua" />
+
+	<template type="template_spritesheetbutton" name="Button">
+		<templateVar name="$layer" equals="PopUps" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+		<textComponent name="Text">
+			<size dependentOnElement="element:name()" dependentOnComponent="UpSprite"/>
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="8*game.hudScale()" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.2*game.hudScale())
+				component("text"):SetString("BBB_Id Entry")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("PopUps")
+			</event>
+		</textComponent>
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):Set("button_thumbsup")
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("size"):SetFloat(element["UpSprite"]("size"):GetFloat() * 1.0)
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+			<event name="onTick" params="component, element, dt">
+				<![CDATA[
+					component("size"):SetFloat(element["UpSprite"]("size"):GetFloat() * 1.0)
+				]]>
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+
+				--if its dragging, ignore click
+				if element:parent().isDragging then
+					element:parent().isDragging = false
+					return
+				end
+
+				if (game.popUpLevel() > 1) or (game.getContextBar():getQueuedContext() ~= "") then
+					return
+				end
+
+				game.enterUserBBBId()
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+
+		<event name="setInvisible" params="element">
+			setInvisible(element)
+			element["Overlay"]("visible"):SetInt(0)
+		</event>
+		<event name="setVisible" params="element">
+			setVisible(element)
+			element["Overlay"]("visible"):SetInt(1)
+		</event>
+
+	</template>
+
+</template>

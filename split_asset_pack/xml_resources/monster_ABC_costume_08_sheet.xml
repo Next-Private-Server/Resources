@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ea52a7227384f7dee3ac3ef94e067d5e:0b2abe2a1cd84495b83493dfd4c06659:bbdce82720196a61ecf1d439ecdf6337$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABC_costume_08_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ABC_body" x="0" y="0" w="204" h="164" pX="0.5" pY="0.5"/>
+	<sprite n="ABC_eyelids_1" x="206" y="153" w="94" h="47" pX="0.5" pY="0.5" oX="3" oY="3" oW="100" oH="54"/>
+	<sprite n="ABC_eyelids_2" x="336" y="210" w="94" h="47" pX="0.5" pY="0.5" oX="3" oY="3" oW="100" oH="54"/>
+	<sprite n="ABC_eyelids_3" x="0" y="166" w="94" h="47" pX="0.5" pY="0.5" oX="3" oY="3" oW="100" oH="54"/>
+	<sprite n="ABC_eyelids_4" x="461" y="63" w="47" h="95" pX="0.5" pY="0.5" oX="3" oY="3" oW="100" oH="54" r="y"/>
+	<sprite n="ABC_front_reed" x="206" y="126" w="104" h="25" pX="0.5" pY="0.5" oX="3" oY="11" oW="40" oH="120" r="y"/>
+	<sprite n="ABC_front_reedmouth" x="450" y="160" w="60" h="66" pX="0.5" pY="0.5"/>
+	<sprite n="ABC_head" x="206" y="0" w="130" h="124" pX="0.5" pY="0.5"/>
+	<sprite n="ABC_left_ear_1" x="430" y="337" w="47" h="37" pX="0.5" pY="0.5" oX="15" oY="1" oW="54" oH="50" r="y"/>
+	<sprite n="ABC_left_ear_2" x="269" y="202" w="40" h="47" pX="0.5" pY="0.5" oX="5" oY="1" oW="54" oH="50" r="y"/>
+	<sprite n="ABC_left_ear_3" x="397" y="259" w="31" h="52" pX="0.5" pY="0.5" oX="0" oY="1" oW="54" oH="50" r="y"/>
+	<sprite n="ABC_left_foot" x="338" y="99" w="110" h="109" pX="0.5" pY="0.5" oX="0" oY="0" oW="110" oH="110"/>
+	<sprite n="ABC_left_lowerarm" x="335" y="259" w="60" h="59" pX="0.5" pY="0.5" oX="0" oY="1" oW="62" oH="62"/>
+	<sprite n="ABC_left_midleg" x="432" y="228" w="80" h="52" pX="0.5" pY="0.5" oX="0" oY="0" oW="82" oH="54"/>
+	<sprite n="ABC_left_upperarm" x="82" y="246" w="47" h="34" pX="0.5" pY="0.5" oX="1" oY="1" oW="36" oH="50" r="y"/>
+	<sprite n="ABC_left_upperleg" x="96" y="166" w="91" h="78" pX="0.5" pY="0.5" oX="1" oY="1" oW="80" oH="94" r="y"/>
+	<sprite n="ABC_mouth_1" x="312" y="126" w="22" h="92" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABC_mouth_2" x="189" y="202" w="78" h="19" pX="0.5" pY="0.5" oX="10" oY="3" oW="92" oH="22"/>
+	<sprite n="ABC_mouth_3" x="311" y="220" w="22" h="72" pX="0.5" pY="0.5" oX="18" oY="0" oW="92" oH="22" r="y"/>
+	<sprite n="ABC_nose" x="189" y="166" w="13" h="18" pX="0.5" pY="0.5" oX="3" oY="2" oW="24" oH="20" r="y"/>
+	<sprite n="ABC_right_ear_1" x="397" y="313" w="31" h="39" pX="0.5" pY="0.5" oX="1" oY="1" oW="44" oH="42"/>
+	<sprite n="ABC_right_ear_2" x="131" y="246" w="40" h="35" pX="0.5" pY="0.5" oX="1" oY="1" oW="44" oH="42"/>
+	<sprite n="ABC_right_ear_3" x="265" y="251" w="42" h="30" pX="0.5" pY="0.5" oX="1" oY="1" oW="44" oH="42"/>
+	<sprite n="ABC_right_foot" x="338" y="0" w="121" h="97" pX="0.5" pY="0.5" oX="0" oY="0" oW="122" oH="98"/>
+	<sprite n="ABC_right_lowerarm" x="430" y="282" w="57" h="53" pX="0.5" pY="0.5" oX="0" oY="0" oW="54" oH="58" r="y"/>
+	<sprite n="ABC_right_midleg" x="0" y="242" w="80" h="52" pX="0.5" pY="0.5" oX="0" oY="0" oW="82" oH="54"/>
+	<sprite n="ABC_right_reed" x="0" y="215" w="90" h="25" pX="0.5" pY="0.5" oX="10" oY="9" oW="40" oH="100" r="y"/>
+	<sprite n="ABC_right_reedmouth" x="461" y="0" w="50" h="61" pX="0.5" pY="0.5" oX="0" oY="8" oW="50" oH="70"/>
+	<sprite n="ABC_right_upperarm" x="479" y="337" w="30" h="46" pX="0.5" pY="0.5" oX="1" oY="1" oW="32" oH="48"/>
+	<sprite n="ABC_tail" x="189" y="223" w="74" h="55" pX="0.5" pY="0.5"/>
+</TextureAtlas>

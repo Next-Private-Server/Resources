@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- map clubbox memory act select -->
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/MapClubboxMemories.lua"/>
+	
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="12" />
+		<templateVar name="$touchPriority" equals="-8" />
+		<templateVar name="$maxAlpha" equals="0.85" />
+	</template>
+
+	<template type="template_dialog" name="DJDialog">
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$avatarSprite" equals="'gfx/clubbox/selection_djepic'" />
+		<templateVar name="$avatarName" equals="CLUBBOX_MEMORY_DJ_NAME" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="4" />
+	</template>
+
+	<element name="Contents">
+		<size w="480*game.menuScaleX()" h="200*game.menuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="32*game.menuScaleX()" priorityOffset="4" />
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+		</touchComponent>
+		<swipeComponent name="Swiper"/>
+
+		<template type="template_spritesheetbutton" name="LeftButton">
+			<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+			<templateVar name="$upSpriteName" equals="'button_play'" />
+			<templateVar name="$layer" equals="FrontPopUps" />
+			<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+			<templateVar name="$spriteHFlip" equals="1" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="16*game.menuScaleX()" yOffset="0" priorityOffset="-3" />
+			<touchComponent name="Touch"/>
+		</template>
+		
+		<template type="template_spritesheetbutton" name="RightButton">
+			<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+			<templateVar name="$upSpriteName" equals="'button_play'" />
+			<templateVar name="$layer" equals="FrontPopUps" />
+			<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="16*game.menuScaleX()" yOffset="0" priorityOffset="-3" />
+			<touchComponent name="Touch"/>
+		</template>
+	</element>
+
+	<!--
+	<spriteComponent name="LightBurst">
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="3" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("gfx/menu/light_burst_top")
+			local scale = ((lua_sys.screenHeight() * 0.5) / 256)
+			component("size"):SetFloat(scale)
+			component("layer"):SetString("FrontPopUps")
+		</event>
+	</spriteComponent>
+	-->
+
+	<spriteSheetComponent name="LightBurst">
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="2" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("selection_glow")
+			component("sheetName"):SetString("xml_resources/clubbox_band_selection.xml")
+			component("size"):SetFloat(1.5*game.menuScaleX())
+			component("layer"):SetString("FrontPopUps")			
+			component("additive"):SetInt(1)
+		</event>
+	</spriteSheetComponent>
+
+
+
+	<element name="ActSelect">
+		<size w="200*game.menuScaleX()" h="92*game.menuScaleX()" />
+		<position relativeTo="Dialog" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="16*game.menuScaleX()" priorityOffset="-1" />
+		
+		<template type="template_nineslicebutton" name="SelectButton">
+			<templateVar name="$upSpriteName" equals="'gfx/clubbox/clubbox_green_button_9S'" />
+			<templateVar name="$spriteScale" equals="0.55*game.hudScale()" />
+			<templateVar name="$text" equals="SELECT_CLUB_ACT_BUTTON" />
+			<templateVar name="$font" equals="'game.getTitleFont()'" />
+			<templateVar name="$textPadding" equals="0.55*game.hudScale() * 100" />
+			<templateVar name="$textYOffset" equals="-3" />
+			
+			<templateVar name="$topHeight" equals="20.0" />
+			<templateVar name="$bottomHeight" equals="30.0" />
+			<templateVar name="$leftWidth" equals="30.0" />
+			<templateVar name="$rightWidth" equals="30.0" />
+			
+			<templateVar name="$width" equals="140*game.hudScale()" />
+			<templateVar name="$height" equals="52*game.hudScale()" />
+
+			<templateVar name="$includeBorder" equals="1" />
+			
+			<templateVar name="$layer" equals="FrontPopUps" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+			<textComponent name="Text">
+				<size w="80*(screenWidth()/480)" h="5*(screenHeight()/320)" />
+				<event name="onInit" params="component, element">
+					onInit(component, element)
+					component("autoScale"):SetInt(0)
+					component("size"):SetFloat(0.45*game.composerScale())
+				</event>
+			</textComponent>
+			<touchComponent name="Touch">
+			</touchComponent>
+		</template>
+		
+		<textComponent name="ActName" >
+			<size w="140*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<position relativeTo="HypeBlob" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.hudScale()" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.CLUBBOX_ACT_NAME))
+				component("size"):SetFloat(0.42*game.hudScale())
+				component("text"):SetString("Waveform")
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("autoScale"):SetInt(0)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+
+		<element name="HypeBlob">
+			<size w="100*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-2" />
+			
+			<spriteSheetComponent name="HypeIcon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+
+					component("spriteName"):SetString("icon_hype")
+					component("sheetName"):SetString("xml_resources/hud03.xml")
+					component("size"):SetFloat(0.45*game.hudScale())
+					
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</spriteSheetComponent>
+			
+			<textComponent name="HypeCount">
+				<size w="90*game.menuScaleX()" h="25*game.menuScaleX()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTitleFont())
+					component("size"):SetFloat(0.25*game.hudScale())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("")
+					--component("autoScale"):SetInt(1)
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</textComponent>
+		</element>
+
+		<element name="RewardBlob" >
+			<size w="100*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<spriteSheetComponent name="RewardIcon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("icon_hype_progress")
+					component("sheetName"):SetString("xml_resources/hud03.xml")
+					component("size"):SetFloat(0.45*game.hudScale())
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</spriteSheetComponent>
+			<textComponent name="RewardCount">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTitleFont())
+					component("size"):SetFloat(0.25*game.hudScale())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("")
+					--component("autoScale"):SetInt(1)
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</textComponent>
+		</element>
+
+	
+	</element>
+
+	<template type="template_spritesheetbutton" name="BackButton">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$upSpriteName" equals="'button_base_clubbox'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="10*game.hudScale()" yOffset="10*game.hudScale()" priorityOffset="2" />
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+				
+				element:parent():DoStoredScript("queuePop")
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_back")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-6*game.hudScale()" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("EXIT")
+				component("size"):SetFloat(0.2*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</template>
+
+
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:69dcf93055cf9570dc8a78eac4b2f7af:8cb09fc22a6ad47b2a1b5594a76b7857:40c8f2b0321e97c2ecd3b2361c8a3acd$ -->
+<TextureAtlas imagePath="gfx/fugue/fugue_crack_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="cloud_02" x="303" y="404" w="120" h="118" oX="0" oY="1" oW="120" oH="120"/>
+	<sprite n="cloud_03" x="425" y="404" w="76" h="74" oX="0" oY="1" oW="76" oH="76"/>
+	<sprite n="fugue_crack_01" x="505" y="0" w="3" h="3" oX="0" oY="0" oW="132" oH="188"/>
+	<sprite n="fugue_crack_02" x="415" y="597" w="68" h="61" oX="35" oY="60" oW="132" oH="188" r="y"/>
+	<sprite n="fugue_crack_03" x="0" y="516" w="130" h="96" oX="18" oY="21" oW="132" oH="188" r="y"/>
+	<sprite n="fugue_crack_04" x="177" y="393" w="124" h="167" oX="2" oY="10" oW="132" oH="188"/>
+	<sprite n="fugue_crack_05" x="0" y="390" w="175" h="124" oX="2" oY="2" oW="132" oH="188" r="y"/>
+	<sprite n="fugue_crack_06" x="319" y="133" w="175" h="128" oX="2" oY="2" oW="132" oH="188" r="y"/>
+	<sprite n="fugue_crack_07" x="319" y="0" w="184" h="131" oX="1" oY="2" oW="132" oH="188" r="y"/>
+	<sprite n="fugue_dot" x="380" y="570" w="33" h="33"/>
+	<sprite n="fugue_frame_back" x="0" y="0" w="317" h="123" oX="1" oY="4" oW="125" oH="325" r="y"/>
+	<sprite n="fugue_frame_front" x="0" y="125" w="317" h="122" oX="1" oY="4" oW="125" oH="325" r="y"/>
+	<sprite n="fugue_mirror_light" x="202" y="249" w="100" h="70" r="y"/>
+	<sprite n="fugue_mirror_MAJ" x="0" y="249" w="200" h="139" r="y"/>
+	<sprite n="fugue_mirror_MIN" x="304" y="263" w="200" h="139" r="y"/>
+	<sprite n="fugue_mirror_rimlight" x="202" y="321" w="100" h="70" r="y"/>
+	<sprite n="fugue_shard_01_MAJ" x="132" y="516" w="40" h="44" oX="2" oY="0" oW="44" oH="44"/>
+	<sprite n="fugue_shard_01_MIN" x="380" y="524" w="40" h="44" oX="2" oY="0" oW="44" oH="44"/>
+	<sprite n="fugue_shard_02_MAJ" x="425" y="480" w="76" h="31" oX="1" oY="0" oW="32" oH="76" r="y"/>
+	<sprite n="fugue_shard_02_MIN" x="425" y="513" w="76" h="31" oX="1" oY="0" oW="32" oH="76" r="y"/>
+	<sprite n="fugue_shard_03_MAJ" x="303" y="524" w="75" h="49" oX="3" oY="1" oW="52" oH="76" r="y"/>
+	<sprite n="fugue_shard_03_MIN" x="422" y="546" w="75" h="49" oX="3" oY="1" oW="52" oH="76" r="y"/>
+</TextureAtlas>

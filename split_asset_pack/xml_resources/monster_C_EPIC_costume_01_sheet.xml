@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:deeccf7d73b2201d4c6e70755ff1c250:fb2bd4fe762b568f44fe3ede8d8738a0:7b7f0f51c4458bec10ba96a291b6f629$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_C_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="C_body" x="251" y="0" w="197" h="182" pX="0.5" pY="0.5" oX="9" oY="0" oW="200" oH="200" r="y"/>
+	<sprite n="c_capeback" x="0" y="0" w="249" h="102" pX="0.5452830188679245" pY="0.6574074074074074" oX="3" oY="4" oW="265" oH="108"/>
+	<sprite n="c_capefront" x="368" y="184" w="77" h="89" pX="1.7891566265060241" pY="0.5978260869565217" oX="4" oY="3" oW="83" oH="92"/>
+	<sprite n="C_left_finger1" x="147" y="175" w="101" h="40" pX="0.5" pY="0.5" oX="27" oY="9" oW="120" oH="120" r="y"/>
+	<sprite n="C_left_finger2" x="0" y="283" w="103" h="43" pX="0.5" pY="0.5" oX="33" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="C_left_finger3" x="450" y="0" w="56" h="98" pX="0.5" pY="0.5" oX="29" oY="8" oW="120" oH="120"/>
+	<sprite n="C_left_finger4" x="447" y="208" w="63" h="90" pX="0.5" pY="0.5" oX="32" oY="15" oW="120" oH="120"/>
+	<sprite n="C_left_foot" x="250" y="184" w="116" h="90" pX="0.5" pY="0.5" oX="0" oY="4" oW="90" oH="120" r="y"/>
+	<sprite n="C_right_finger1" x="138" y="260" w="108" h="41" pX="0.5" pY="0.5" oX="51" oY="10" oW="120" oH="120" r="y"/>
+	<sprite n="C_right_finger2" x="138" y="217" w="109" h="41" pX="0.5" pY="0.5" oX="50" oY="9" oW="120" oH="120" r="y"/>
+	<sprite n="C_right_finger3" x="450" y="100" w="53" h="106" pX="0.5" pY="0.5" oX="40" oY="14" oW="120" oH="120"/>
+	<sprite n="C_right_finger4" x="147" y="104" w="102" h="69" pX="0.5" pY="0.5" oX="24" oY="18" oW="120" oH="120" r="y"/>
+	<sprite n="C_right_foot" x="0" y="104" w="145" h="92" pX="0.5" pY="0.5" oX="5" oY="5" oW="150" oH="100"/>
+	<sprite n="C_sunglasses" x="0" y="198" w="136" h="83" pX="0.5" pY="0.5" oX="8" oY="4" oW="144" oH="90"/>
+</TextureAtlas>

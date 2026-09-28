@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f4aa0c644af407fb8b04acd3d27b324d:f971af6b4e941539ef6e25a97bc0ed78:e3a18c86b6d117208064a525d425b7a9$ -->
+<TextureAtlas imagePath="gfx/structures/nucleus_sheet.png" width="512" height="2048" hires="true" version="1">
+	<sprite n="nucleus_base" x="0" y="541" w="335" h="444" oX="0" oY="0" oW="336" oH="444">
+		<vertices>335 143 335 292 268 412 186 444 172 444 0 329 0 181 90 45 174 0 192 0</vertices>
+		<verticesUV>335 684 335 833 268 953 186 985 172 985 0 870 0 722 90 586 174 541 192 541</verticesUV>
+		<triangles>7 8 9 0 7 9 4 1 2 5 6 1 5 1 4 4 2 3 0 1 6 0 6 7</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_01" x="294" y="285" w="104" h="196">
+		<vertices>104 182 36 140 36 195 19 196 7 181 0 171 0 131 45 132 37 3 42 0 104 0</vertices>
+		<verticesUV>398 467 330 425 330 480 313 481 301 466 294 456 294 416 339 417 331 288 336 285 398 285</verticesUV>
+		<triangles>8 9 10 7 8 10 1 6 7 2 3 4 1 2 4 1 4 5 1 5 6 0 1 7 10 0 7</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_02" x="0" y="894" w="56" h="116">
+		<vertices>56 22 56 115 16 116 0 68 0 0 32 0</vertices>
+		<verticesUV>56 916 56 1009 16 1010 0 962 0 894 32 894</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_03" x="390" y="1754" w="92" h="112">
+		<vertices>92 65 18 112 0 111 0 51 51 0 92 0</vertices>
+		<verticesUV>482 1819 408 1866 390 1865 390 1805 441 1754 482 1754</verticesUV>
+		<triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_04" x="101" y="976" w="38" h="80" oX="1" oY="0" oW="40" oH="80">
+		<vertices>39 80 1 80 1 0 39 0</vertices>
+		<verticesUV>139 1056 101 1056 101 976 139 976</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_05" x="294" y="285" w="32" h="64">
+		<vertices>32 45 20 63 11 64 0 41 0 9 8 1 23 0</vertices>
+		<verticesUV>326 330 314 348 305 349 294 326 294 294 302 286 317 285</verticesUV>
+		<triangles>4 5 6 0 4 6 0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_06" x="0" y="1402" w="99" h="150" oX="0" oY="1" oW="100" oH="152">
+		<vertices>99 79 99 151 51 151 0 100 0 1 41 1</vertices>
+		<verticesUV>99 1480 99 1552 51 1552 0 1501 0 1402 41 1402</verticesUV>
+		<triangles>3 4 5 0 1 2 0 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_07" x="0" y="0" w="24" h="42" oX="0" oY="1" oW="24" oH="44">
+		<vertices>24 43 0 43 0 1 24 1</vertices>
+		<verticesUV>24 42 0 42 0 0 24 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_08" x="0" y="1968" w="19" h="31" oX="0" oY="0" oW="20" oH="32">
+		<vertices>19 1 19 29 3 31 0 10 3 0</vertices>
+		<verticesUV>19 1969 19 1997 3 1999 0 1978 3 1968</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_09" x="163" y="1970" w="48" h="78" oX="2" oY="0" oW="52" oH="80">
+		<vertices>50 17 50 78 2 78 2 9 20 0</vertices>
+		<verticesUV>211 1987 211 2048 163 2048 163 1979 181 1970</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_10" x="198" y="1649" w="18" h="19" oX="2" oY="0" oW="20" oH="20">
+		<vertices>13 19 4 19 2 8 10 0 20 0</vertices>
+		<verticesUV>209 1668 200 1668 198 1657 206 1649 216 1649</verticesUV>
+		<triangles>0 3 4 2 0 1 2 3 0</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_11" x="294" y="378" w="24" h="36" oX="4" oY="0" oW="32" oH="36">
+		<vertices>28 36 4 36 4 0 28 0</vertices>
+		<verticesUV>318 414 294 414 294 378 318 378</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_12" x="0" y="561" w="55" h="76" oX="1" oY="0" oW="56" oH="76">
+		<vertices>53 6 56 22 44 64 16 76 1 72 1 9 39 0</vertices>
+		<verticesUV>52 567 55 583 43 625 15 637 0 633 0 570 38 561</verticesUV>
+		<triangles>1 2 5 4 5 2 4 2 3 1 5 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_13" x="447" y="0" w="42" h="48" oX="0" oY="0" oW="44" oH="48">
+		<vertices>42 48 0 48 0 0 42 0</vertices>
+		<verticesUV>489 48 447 48 447 0 489 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_debris_14" x="335" y="1164" w="29" h="40" oX="1" oY="0" oW="32" oH="40">
+		<vertices>30 37 21 40 9 37 1 21 3 5 8 0 30 0</vertices>
+		<verticesUV>364 1201 355 1204 343 1201 335 1185 337 1169 342 1164 364 1164</verticesUV>
+		<triangles>3 5 6 3 4 5 0 3 6 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_green_01" x="228" y="996" w="136" h="185">
+		<vertices>136 120 98 185 0 185 0 0 136 0</vertices>
+		<verticesUV>364 1116 326 1181 228 1181 228 996 364 996</verticesUV>
+		<triangles>0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="nucleus_green_02" x="0" y="991" w="251" h="437">
+		<vertices>226 306 251 381 251 437 166 437 134 409 35 409 0 254 0 19 141 88 144 0 226 0</vertices>
+		<verticesUV>226 1297 251 1372 251 1428 166 1428 134 1400 35 1400 0 1245 0 1010 141 1079 144 991 226 991</verticesUV>
+		<triangles>8 9 10 6 7 8 0 8 10 6 4 5 6 0 4 6 8 0 1 2 3 4 0 1 4 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_green_03" x="0" y="1578" w="196" h="251">
+		<vertices>196 48 196 112 54 251 0 251 0 113 49 17 74 0 81 0</vertices>
+		<verticesUV>196 1626 196 1690 54 1829 0 1829 0 1691 49 1595 74 1578 81 1578</verticesUV>
+		<triangles>5 6 7 1 5 7 1 4 5 2 3 4 1 2 4 0 1 7</triangles>
+	</sprite>
+	<sprite n="nucleus_metal_01" x="0" y="1793" w="328" h="255" oX="0" oY="0" oW="328" oH="256">
+		<vertices>272 148 328 168 328 255 276 255 190 95 89 49 0 140 0 94 94 0 163 0</vertices>
+		<verticesUV>272 1941 328 1961 328 2048 276 2048 190 1888 89 1842 0 1933 0 1887 94 1793 163 1793</verticesUV>
+		<triangles>5 8 9 5 6 7 5 7 8 4 5 9 3 0 1 0 3 4 3 1 2 0 4 9</triangles>
+	</sprite>
+	<sprite n="nucleus_metal_02" x="262" y="123" w="156" h="160">
+		<vertices>156 126 156 160 43 160 0 9 0 0 12 0</vertices>
+		<verticesUV>418 249 418 283 305 283 262 132 262 123 274 123</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="nucleus_metal_03" x="255" y="862" w="108" h="132">
+		<vertices>108 44 20 132 0 132 0 112 74 13 89 0 108 0</vertices>
+		<verticesUV>363 906 275 994 255 994 255 974 329 875 344 862 363 862</verticesUV>
+		<triangles>0 5 6 0 4 5 3 1 2 3 0 1 3 4 0</triangles>
+	</sprite>
+	<sprite n="nucleus_metal_glow_01" x="0" y="2001" w="47" h="47" oX="6" oY="6" oW="60" oH="60">
+		<vertices>53 53 6 53 6 6 53 6</vertices>
+		<verticesUV>47 2048 0 2048 0 2001 47 2001</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_metal_glow_02" x="0" y="1846" w="189" h="194" oX="6" oY="0" oW="200" oH="200">
+		<vertices>195 96 188 112 99 194 6 100 97 0</vertices>
+		<verticesUV>189 1942 182 1958 93 2040 0 1946 91 1846</verticesUV>
+		<triangles>1 2 3 1 3 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="nucleus_pink_01" x="400" y="285" w="99" h="124">
+		<vertices>99 124 0 124 0 0 99 0</vertices>
+		<verticesUV>499 409 400 409 400 285 499 285</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_pink_02" x="0" y="366" w="120" h="193" oX="0" oY="0" oW="126" oH="193">
+		<vertices>88 18 120 176 80 193 0 193 0 0 70 0</vertices>
+		<verticesUV>88 384 120 542 80 559 0 559 0 366 70 366</verticesUV>
+		<triangles>0 4 5 0 2 3 0 1 2 0 3 4</triangles>
+	</sprite>
+	<sprite n="nucleus_pink_03" x="0" y="0" w="292" h="539">
+		<vertices>292 246 292 487 230 539 133 539 110 454 127 393 23 339 0 187 0 153 37 0 139 0</vertices>
+		<verticesUV>292 246 292 487 230 539 133 539 110 454 127 393 23 339 0 187 0 153 37 0 139 0</verticesUV>
+		<triangles>8 9 10 0 8 10 0 7 8 5 6 7 2 3 4 1 2 5 2 4 5 0 1 5 0 5 7</triangles>
+	</sprite>
+	<sprite n="nucleus_pink_04" x="278" y="1453" w="136" h="161" oX="0" oY="0" oW="146" oH="167">
+		<vertices>136 21 96 122 15 161 0 154 0 120 82 1 83 0 103 0 2 107 0 107 0 104 2 104</vertices>
+		<verticesUV>414 1474 374 1575 293 1614 278 1607 278 1573 360 1454 361 1453 381 1453 280 1560 278 1560 278 1557 280 1557</verticesUV>
+		<triangles>5 6 7 0 5 7 1 4 5 2 3 4 1 2 4 0 1 5 9 10 11 8 9 11</triangles>
+	</sprite>
+	<sprite n="nucleus_shadow" x="185" y="0" w="260" h="128">
+		<vertices>260 75 128 128 100 127 0 69 0 0 260 0</vertices>
+		<verticesUV>445 75 313 128 285 127 185 69 185 0 445 0</verticesUV>
+		<triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_extra_01" x="0" y="1458" w="260" h="104">
+		<vertices>260 104 237 104 260 32 18 74 0 74 0 56 226 39 212 66 212 18 126 53 128 14 165 14 123 10 99 0 123 0</vertices>
+		<verticesUV>260 1562 237 1562 260 1490 18 1532 0 1532 0 1514 226 1497 212 1524 212 1476 126 1511 128 1472 165 1472 123 1468 99 1458 123 1458</verticesUV>
+		<triangles>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_extra_02" x="261" y="1778" w="127" h="168" oX="0" oY="0" oW="128" oH="168">
+		<vertices>52 168 33 168 52 149 41 130 25 146 24 100 41 77 127 83 72 83 112 0 127 0 0 73 0 51 49 2 52 55 42 55 42 38 52 38</vertices>
+		<verticesUV>313 1946 294 1946 313 1927 302 1908 286 1924 285 1878 302 1855 388 1861 333 1861 373 1778 388 1778 261 1851 261 1829 310 1780 313 1833 303 1833 303 1816 313 1816</verticesUV>
+		<triangles>0 1 2 3 5 6 3 4 5 7 9 10 7 8 9 11 12 13 15 16 17 14 15 17</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_01" x="326" y="1868" w="165" h="180" oX="7" oY="0" oW="180" oH="180">
+		<vertices>172 54 156 180 28 180 7 69 50 0 128 0</vertices>
+		<verticesUV>491 1922 475 2048 347 2048 326 1937 369 1868 447 1868</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_02" x="366" y="1069" w="132" h="154" oX="24" oY="13" oW="180" oH="180">
+		<vertices>156 167 24 167 24 13 156 13</vertices>
+		<verticesUV>498 1223 366 1223 366 1069 498 1069</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_03" x="257" y="1605" w="155" h="172" oX="8" oY="1" oW="180" oH="180">
+		<vertices>163 113 132 166 56 173 8 99 42 13 144 1</vertices>
+		<verticesUV>412 1717 381 1770 305 1777 257 1703 291 1617 393 1605</verticesUV>
+		<triangles>0 4 5 0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_04" x="229" y="1184" w="151" h="171" oX="24" oY="5" oW="180" oH="180">
+		<vertices>175 62 136 163 58 176 25 121 24 17 116 5</vertices>
+		<verticesUV>380 1241 341 1342 263 1355 230 1300 229 1196 321 1184</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_05" x="366" y="971" w="140" h="96">
+		<vertices>140 96 66 96 119 0 140 0 22 74 0 74 0 49 22 49 65 66 42 66 42 38 65 38</vertices>
+		<verticesUV>506 1067 432 1067 485 971 506 971 388 1045 366 1045 366 1020 388 1020 431 1037 408 1037 408 1009 431 1009</verticesUV>
+		<triangles>0 2 3 0 1 2 5 6 7 4 5 7 9 10 11 8 9 11</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_06" x="0" y="1535" w="276" h="112">
+		<vertices>276 112 198 112 211 29 276 29 0 106 0 61 45 61 152 54 129 54 112 0 152 0</vertices>
+		<verticesUV>276 1647 198 1647 211 1564 276 1564 0 1641 0 1596 45 1596 152 1589 129 1589 112 1535 152 1535</verticesUV>
+		<triangles>0 2 3 0 1 2 4 5 6 8 9 10 7 8 10</triangles>
+	</sprite>
+	<sprite n="nucleus_shard_glow_07" x="58" y="939" w="40" h="96">
+		<vertices>40 96 0 96 0 2 14 0 40 0</vertices>
+		<verticesUV>98 1035 58 1035 58 941 72 939 98 939</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="nucleus_shards" x="148" y="1651" w="144" h="221" oX="5" oY="16" oW="162" oH="252">
+		<vertices>149 136 90 237 5 137 80 16</vertices>
+		<verticesUV>292 1771 233 1872 148 1772 223 1651</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+</TextureAtlas>

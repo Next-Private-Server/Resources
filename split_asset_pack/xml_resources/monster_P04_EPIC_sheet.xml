@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2f57322f018206f37ebdba99ef85d47f:2e6d1d17af3c9dc496a93c8863bfe41b:0df94c5abccaf9570767f64f0c111c44$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P04_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="P04_arch_back_EPIC" x="288" y="0" w="215" h="206" oX="6" oY="11" oW="230" oH="230"/>
+	<sprite n="P04_arch_EPIC" x="0" y="0" w="286" h="274" oX="9" oY="2" oW="290" oH="290" r="y"/>
+	<sprite n="P04_arch_shelf_EPIC" x="142" y="753" w="91" h="48" oX="153" oY="46" oW="290" oH="290"/>
+	<sprite n="P04_body_01" x="0" y="368" w="189" h="114" oX="8" oY="3" oW="200" oH="120"/>
+	<sprite n="P04_body_02" x="152" y="506" w="133" h="139" oX="7" oY="9" oW="150" oH="150" r="y"/>
+	<sprite n="P04_body_03" x="191" y="401" w="94" h="103" oX="0" oY="0" oW="96" oH="104"/>
+	<sprite n="P04_body_04" x="202" y="276" w="84" h="76" oX="3" oY="6" oW="80" oH="90" r="y"/>
+	<sprite n="P04_eyeball_left" x="0" y="969" w="55" h="55" oX="3" oY="3" oW="60" oH="60"/>
+	<sprite n="P04_eyeball_right" x="477" y="410" w="35" h="47" oX="2" oY="5" oW="40" oH="56"/>
+	<sprite n="P04_eyeclaw_left" x="57" y="969" w="80" h="54" oX="3" oY="0" oW="60" oH="80" r="y"/>
+	<sprite n="P04_eyeclaw_right" x="327" y="760" w="29" h="66" oX="4" oY="0" oW="40" oH="70"/>
+	<sprite n="P04_eyelid_left_1" x="292" y="913" w="62" h="62" oX="1" oY="1" oW="64" oH="64"/>
+	<sprite n="P04_eyelid_left_2" x="332" y="828" w="62" h="62" oX="1" oY="1" oW="64" oH="64"/>
+	<sprite n="P04_eyelid_left_3" x="356" y="892" w="62" h="62" oX="1" oY="1" oW="64" oH="64"/>
+	<sprite n="P04_eyelid_left_4" x="358" y="956" w="62" h="62" oX="1" oY="1" oW="64" oH="64"/>
+	<sprite n="P04_eyelid_right_1" x="139" y="969" w="38" h="54" oX="1" oY="3" oW="40" oH="60"/>
+	<sprite n="P04_eyelid_right_2" x="140" y="803" w="38" h="54" oX="1" oY="3" oW="40" oH="60"/>
+	<sprite n="P04_eyelid_right_3" x="170" y="929" w="54" h="38" oX="1" oY="3" oW="40" oH="60" r="y"/>
+	<sprite n="P04_eyelid_right_4" x="180" y="803" w="38" h="54" oX="1" oY="3" oW="40" oH="60"/>
+	<sprite n="P04_flyA_head_1" x="94" y="778" w="44" h="84" oX="2" oY="3" oW="50" oH="90"/>
+	<sprite n="P04_flyA_head_2" x="202" y="354" w="84" h="45" oX="2" oY="3" oW="50" oH="90" r="y"/>
+	<sprite n="P04_flyA_head_blink" x="0" y="790" w="84" h="44" oX="2" oY="3" oW="50" oH="90" r="y"/>
+	<sprite n="P04_flyA_tail_1" x="477" y="459" w="35" h="37" oX="3" oY="2" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyA_tail_2" x="226" y="928" w="31" h="39" oX="1" oY="11" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyA_tail_3" x="286" y="718" w="34" h="40" oX="0" oY="17" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyA_wing" x="200" y="859" w="64" h="67" oX="2" oY="6" oW="70" oH="70" r="y"/>
+	<sprite n="P04_flyA_wing_down" x="255" y="705" w="29" h="68" oX="1" oY="2" oW="30" oH="70"/>
+	<sprite n="P04_flyB_head_1" x="453" y="498" w="57" h="72" oX="0" oY="6" oW="60" oH="80"/>
+	<sprite n="P04_flyB_head_2" x="94" y="706" w="46" h="70" oX="5" oY="7" oW="60" oH="80"/>
+	<sprite n="P04_flyB_head_blink" x="453" y="572" w="57" h="72" oX="0" oY="6" oW="60" oH="80"/>
+	<sprite n="P04_flyB_tail_1" x="422" y="718" w="37" h="35" oX="3" oY="2" oW="40" oH="52"/>
+	<sprite n="P04_flyB_tail_2" x="259" y="928" w="31" h="39" oX="1" oY="11" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyB_tail_3" x="322" y="718" w="34" h="40" oX="0" oY="17" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyB_wing" x="261" y="775" w="64" h="67" oX="2" oY="6" oW="70" oH="70" r="y"/>
+	<sprite n="P04_flyB_wing_down" x="100" y="938" w="68" h="29" oX="1" oY="2" oW="30" oH="70" r="y"/>
+	<sprite n="P04_flyC_head_1" x="0" y="836" w="81" h="48" oX="2" oY="6" oW="50" oH="90" r="y"/>
+	<sprite n="P04_flyC_head_2" x="0" y="886" w="48" h="81" oX="2" oY="6" oW="50" oH="90"/>
+	<sprite n="P04_flyC_head_blink" x="50" y="886" w="48" h="81" oX="2" oY="6" oW="50" oH="90"/>
+	<sprite n="P04_flyC_tail_1" x="461" y="718" w="37" h="35" oX="3" oY="2" oW="40" oH="52"/>
+	<sprite n="P04_flyC_tail_2" x="292" y="977" w="31" h="39" oX="1" oY="11" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyC_tail_3" x="220" y="969" w="34" h="40" oX="0" oY="17" oW="40" oH="52" r="y"/>
+	<sprite n="P04_flyC_wing" x="266" y="844" w="64" h="67" oX="2" oY="6" oW="70" oH="70" r="y"/>
+	<sprite n="P04_flyC_wing_down" x="169" y="859" w="29" h="68" oX="1" oY="2" oW="30" oH="70"/>
+	<sprite n="P04_frill_A" x="0" y="631" w="141" h="73" oX="4" oY="2" oW="150" oH="80"/>
+	<sprite n="P04_frill_B" x="287" y="611" w="129" h="105" oX="2" oY="1" oW="140" oH="110"/>
+	<sprite n="P04_frill_C" x="143" y="647" w="117" h="56" oX="4" oY="2" oW="60" oH="120" r="y"/>
+	<sprite n="P04_frill_D" x="143" y="705" w="110" h="46" oX="6" oY="6" oW="60" oH="120" r="y"/>
+	<sprite n="P04_frill_E" x="418" y="646" w="93" h="70" oX="4" oY="3" oW="80" oH="100" r="y"/>
+	<sprite n="P04_frill_F" x="100" y="864" w="67" h="72" oX="4" oY="2" oW="80" oH="70" r="y"/>
+	<sprite n="P04_harpstring_01_still" x="499" y="208" w="13" h="200" oX="14" oY="0" oW="40" oH="200"/>
+	<sprite n="P04_harpstring_02_bend" x="0" y="276" w="200" h="24" oX="3" oY="0" oW="40" oH="200" r="y"/>
+	<sprite n="P04_harpstring_03_bend" x="0" y="302" w="200" h="24" oX="15" oY="0" oW="40" oH="200" r="y"/>
+	<sprite n="P04_harpstring_04_vibe" x="0" y="328" w="200" h="23" oX="9" oY="0" oW="40" oH="200" r="y"/>
+	<sprite n="P04_harpstring_05_vibe" x="0" y="353" w="200" h="13" oX="14" oY="0" oW="40" oH="200" r="y"/>
+	<sprite n="P04_head" x="0" y="484" w="150" h="145" oX="0" oY="3" oW="150" oH="150"/>
+	<sprite n="P04_neck" x="287" y="477" w="164" h="132" oX="0" oY="10" oW="170" oH="150"/>
+	<sprite n="P04_pupil" x="418" y="611" w="24" h="24"/>
+	<sprite n="P04_shadow" x="288" y="383" w="187" h="92" oX="13" oY="9" oW="206" oH="105"/>
+	<sprite n="P04_snore" x="0" y="706" w="92" h="82" oX="11" oY="3" oW="100" oH="100" r="y"/>
+	<sprite n="P04_spider_finger_1" x="358" y="718" w="37" h="35" oX="3" oY="2" oW="40" oH="52"/>
+	<sprite n="P04_spider_finger_2" x="325" y="977" w="31" h="39" oX="1" oY="11" oW="40" oH="52" r="y"/>
+	<sprite n="P04_spider_finger_3" x="256" y="969" w="34" h="40" oX="0" oY="17" oW="40" oH="52" r="y"/>
+	<sprite n="P04_spider_finger_base" x="262" y="647" w="14" h="45" oX="3" oY="2" oW="20" oH="50"/>
+	<sprite n="P04_spider_head" x="220" y="803" w="39" h="49" oX="5" oY="1" oW="60" oH="40" r="y"/>
+	<sprite n="P04_spider_head_blink" x="179" y="969" w="39" h="49" oX="5" oY="1" oW="60" oH="40" r="y"/>
+	<sprite n="P04_web_base" x="288" y="208" w="209" h="173" oX="3" oY="26" oW="216" oH="216"/>
+</TextureAtlas>

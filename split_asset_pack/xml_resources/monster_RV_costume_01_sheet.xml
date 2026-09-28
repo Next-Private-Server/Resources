@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:022a6525e2a1bdc93229e409fbe13050:d2898f62906f337b38971e225f85b499:214834c2e2c6e06d6caa78d354aa5658$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_RV_costume_01_sheet.png" width="1024" height="256" hires="true">
+    <sprite n="RV_koi_back" x="2" y="2" w="293" h="252" pX="0.5" pY="0.5" oX="-28.4" oY="10.4" oW="300" oH="280"/>
+    <sprite n="RV_koi_head" x="297" y="2" w="258" h="238" pX="0.5" pY="0.5" oX="-34" oY="-123.4" oW="280" oH="250"/>
+    <sprite n="RV_koi_inside" x="718" y="2" w="149" h="131" pX="0.5" pY="0.5" oX="-38.4" oY="-15.2" oW="150" oH="140"/>
+    <sprite n="RV_koi_lip" x="557" y="2" w="159" h="126" pX="0.5" pY="0.5" oX="2.6" oY="77" oW="180" oH="140"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c393faca1623d76e082d9a58348c0142:b24be78edc063f89f0763b6ac5b3bb07:25915ae70ee22ae935da36c785c3fd1f$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S05_costume_05_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="X_body" x="0" y="113" w="96" h="110" pX="0.5" pY="0.5" oX="0" oY="2" oW="96" oH="112"/>
+	<sprite n="X_hand_00" x="0" y="0" w="163" h="77" pX="0.7926829268292683" pY="0.1" oX="0" oY="1" oW="164" oH="80"/>
+	<sprite n="X_hat" x="98" y="105" w="55" h="93" pX="0.4791666666666667" pY="1.5" oX="1" oY="0" oW="96" oH="56" r="y"/>
+	<sprite n="X_head" x="155" y="113" w="84" h="104" pX="0.5" pY="0.5"/>
+	<sprite n="X_hips" x="165" y="0" w="88" h="111" pX="0.491071" pY="0.215909" oX="0" oY="0" oW="112" oH="88" r="y"/>
+	<sprite n="X_left_upperarm" x="0" y="225" w="56" h="24" pX="0.5" pY="0.5"/>
+	<sprite n="X_right_upperarm" x="98" y="79" w="60" h="24" pX="0.5" pY="0.5"/>
+</TextureAtlas>

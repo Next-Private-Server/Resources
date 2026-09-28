@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:98e783d2d25cc90108ea67b87fee9b8e:d78999ce9f6c47fa36b039a6c18fd365:af94f71dd611011086e2b4ffe6080fbc$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_CD_costume_06_sheet.png" width="512" height="512" hires="true">
+    <sprite n="CD_left_bunnyear.png" x="3" y="232" w="101" h="90" pX="0.5" pY="0.5" oX="-47" oY="-13" r="y"/>
+    <sprite n="CD_left_foot.png" x="3" y="3" w="210" h="153" pX="0.5" pY="0.5" oX="-11.8" oY="-13.2"/>
+    <sprite n="CD_left_leg_sock.png" x="144" y="160" w="69" h="66" pX="0.5" pY="0.5" oX="-4" oY="0.2"/>
+    <sprite n="CD_mouth1.png" x="3" y="160" w="137" h="68" pX="0.5" pY="0.5" oX="5" oY="5" oW="142" oH="84"/>
+    <sprite n="CD_mouth2.png" x="217" y="123" w="142" h="64" pX="0.5" pY="0.5" oX="0" oY="7" oW="142" oH="84"/>
+    <sprite n="CD_mouth3.png" x="217" y="191" w="135" h="74" pX="0.5" pY="0.5" oX="5" oY="3" oW="142" oH="84"/>
+    <sprite n="CD_mouth4.png" x="379" y="3" w="112" h="83" pX="0.5" pY="0.5" oX="21" oY="0" oW="142" oH="84"/>
+    <sprite n="CD_mouth5.png" x="215" y="269" w="84" h="78" pX="0.5" pY="0.5" oX="40" oY="0" oW="142" oH="84"/>
+    <sprite n="CD_mouth6.png" x="144" y="230" w="67" h="59" pX="0.5" pY="0.5" oX="54" oY="5" oW="142" oH="84" r="y"/>
+    <sprite n="CD_mouth7.png" x="363" y="158" w="137" h="69" pX="0.5" pY="0.5" oX="3" oY="3" oW="142" oH="84"/>
+    <sprite n="CD_mouth8.png" x="379" y="90" w="112" h="64" pX="0.5" pY="0.5" oX="18" oY="4" oW="142" oH="84"/>
+    <sprite n="CD_right_bunnyear.png" x="356" y="231" w="91" h="87" pX="0.5" pY="0.5" oX="120" oY="-32" r="y"/>
+    <sprite n="CD_right_foot.png" x="217" y="3" w="158" h="116" pX="0.5" pY="0.5" oX="-10.4" oY="-17.2" oW="158" oH="124"/>
+    <sprite n="CD_tail.png" x="451" y="231" w="53" h="62" pX="0.5" pY="0.5" oX="-27" oY="61"/>
+</TextureAtlas>

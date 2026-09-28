@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c8a6fdc80800a211f63157af25690a5b:6a515a9bce50deb41b4d43373870a11c:96ba606dda5836351914645d8cda9d6b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_JK_EPIC_sheet.png" width="512" height="1024" version="1" hires="true">
+	<sprite n="JK_antenna_2_EPIC" x="0" y="507" w="160" h="52" r="y"/>
+	<sprite n="JK_antenna_EPIC" x="436" y="62" w="68" h="151" oX="0" oY="0" oW="68" oH="152"/>
+	<sprite n="JK_back_lowerleg_left_EPIC" x="413" y="509" w="61" h="158" oX="1" oY="3" oW="64" oH="164"/>
+	<sprite n="JK_back_lowerleg_right_EPIC" x="292" y="368" w="130" h="56" oX="4" oY="17" oW="64" oH="164" r="y"/>
+	<sprite n="JK_body_EPIC" x="0" y="225" w="224" h="218" oX="0" oY="0" oW="220" oH="224" r="y"/>
+	<sprite n="JK_brow_EPIC" x="427" y="215" w="80" h="31" oX="0" oY="0" oW="80" oH="32"/>
+	<sprite n="JK_eye_01_EPIC" x="219" y="584" w="52" h="43" oX="0" oY="0" oW="52" oH="44"/>
+	<sprite n="JK_eye_02_EPIC" x="273" y="666" w="51" h="43" oX="0" oY="0" oW="52" oH="44"/>
+	<sprite n="JK_eye_03_EPIC" x="219" y="629" w="52" h="42" oX="0" oY="0" oW="52" oH="44"/>
+	<sprite n="JK_eye_04_EPIC" x="153" y="657" w="52" h="42" oX="0" oY="0" oW="52" oH="44"/>
+	<sprite n="JK_front_lowerleg_left_EPIC" x="226" y="421" w="63" h="161" oX="0" oY="3" oW="64" oH="168"/>
+	<sprite n="JK_front_lowerleg_right_EPIC" x="0" y="445" w="160" h="60" oX="2" oY="4" oW="64" oH="168" r="y"/>
+	<sprite n="JK_glow_EPIC" x="0" y="561" w="151" h="109"/>
+	<sprite n="JK_guitar" x="506" y="62" w="3" h="3" oX="0" oY="0" oW="120" oH="400"/>
+	<sprite n="JK_guitar_bridge_EPIC" x="476" y="565" w="27" h="46" oX="0" oY="0" oW="46" oH="28" r="y"/>
+	<sprite n="JK_guitar_EPIC" x="0" y="0" w="434" h="143" oX="0" oY="0" oW="144" oH="436" r="y"/>
+	<sprite n="JK_head_EPIC" x="291" y="426" w="120" h="139" oX="0" oY="0" oW="140" oH="120" r="y"/>
+	<sprite n="JK_left_back_foot_EPIC" x="330" y="193" w="95" h="68" oX="0" oY="0" oW="96" oH="68"/>
+	<sprite n="JK_left_front_foot_EPIC" x="436" y="0" w="76" h="60"/>
+	<sprite n="JK_left_hand_01_epic" x="425" y="314" w="64" h="62" oX="5" oY="0" oW="67" oH="64" r="y"/>
+	<sprite n="JK_left_hand_02_epic" x="427" y="248" w="67" h="64"/>
+	<sprite n="JK_left_lowerarm_EPIC" x="292" y="304" w="131" h="62" oX="0" oY="6" oW="132" oH="76"/>
+	<sprite n="JK_left_upperarm_EPIC" x="273" y="593" w="119" h="24" oX="0" oY="0" oW="120" oH="24"/>
+	<sprite n="JK_mouth_01_EPIC" x="476" y="509" w="27" h="54" oX="1" oY="0" oW="56" oH="40" r="y"/>
+	<sprite n="JK_mouth_02_EPIC" x="293" y="249" w="35" h="53" oX="1" oY="0" oW="56" oH="40" r="y"/>
+	<sprite n="JK_mouth_03_EPIC" x="330" y="263" w="51" h="38" oX="2" oY="0" oW="56" oH="40"/>
+	<sprite n="JK_right_back_foot_EPIC" x="226" y="249" w="65" h="46"/>
+	<sprite n="JK_right_front_foot_EPIC" x="162" y="548" w="55" h="107" oX="0" oY="0" oW="108" oH="56" r="y"/>
+	<sprite n="JK_right_hand_01_EPIC" x="162" y="445" w="61" h="49" oX="6" oY="2" oW="56" oH="64" r="y"/>
+	<sprite n="JK_right_hand_02_EPIC" x="162" y="496" w="60" h="50" oX="4" oY="2" oW="56" oH="64" r="y"/>
+	<sprite n="JK_right_lowerarm_EPIC" x="424" y="378" w="63" h="129" oX="0" oY="6" oW="132" oH="76" r="y"/>
+	<sprite n="JK_right_upperarm_EPIC" x="291" y="567" w="120" h="24"/>
+	<sprite n="JK_shadow" x="226" y="297" w="64" h="122" oX="1" oY="0" oW="124" oH="64" r="y"/>
+	<sprite n="JK_small_lowerleg_EPIC" x="273" y="619" w="113" h="45" r="y"/>
+	<sprite n="JK_small_upperleg_EPIC" x="226" y="225" w="92" h="22" oX="1" oY="0" oW="24" oH="92" r="y"/>
+	<sprite n="JK_strings_01_EPIC" x="0" y="195" w="324" h="28" oX="10" oY="1" oW="48" oH="328" r="y"/>
+	<sprite n="JK_strings_02_EPIC" x="0" y="145" w="328" h="48" r="y"/>
+	<sprite n="JK_upper_jaw_EPIC" x="330" y="145" w="102" h="46" oX="1" oY="1" oW="104" oH="48"/>
+	<sprite n="JK_upperleg_EPIC" x="476" y="613" w="24" h="148"/>
+</TextureAtlas>

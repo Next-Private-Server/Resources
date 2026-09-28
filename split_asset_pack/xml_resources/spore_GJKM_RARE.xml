@@ -1,0 +1,3 @@
+<TextureAtlas imagePath="gfx/spore_GJKM_RARE.png" width="160" height="128" hires="true">
+<sprite n="spore_GJKM_RARE" x="0" y="0" w="160" h="128"/>
+</TextureAtlas>

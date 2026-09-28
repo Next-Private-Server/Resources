@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:351982915a0f94cf3bd09793bef46637:3ced9cef64b480cb63ad19f70fe6730a:60b67e484f655acaf2f2f0c7ae049ab5$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_Z09_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="arm_lower" x="0" y="521" w="69" h="32" oX="3" oY="5" oW="40" oH="80" r="y" />
+  <sprite n="arm_upper" x="416" y="215" w="96" h="30" oX="5" oY="3" oW="40" oH="104" r="y" />
+  <sprite n="body_lower" x="0" y="92" w="131" h="83" oX="8" oY="4" oW="100" oH="140" r="y" />
+  <sprite n="body_lower_back" x="248" y="297" w="29" h="100" oX="1" oY="4" oW="104" oH="36" r="y" />
+  <sprite n="body_lower_front" x="413" y="429" w="90" h="101" oX="5" oY="3" oW="112" oH="96" r="y" />
+  <sprite n="body_upper" x="420" y="0" w="91" h="128" oX="7" oY="5" oW="140" oH="100" r="y" />
+  <sprite n="eye_ring" x="384" y="532" w="49" h="43" oX="4" oY="1" oW="52" oH="52" r="y" />
+  <sprite n="eyeball" x="476" y="532" w="36" h="33" oX="3" oY="2" oW="40" oH="40" r="y" />
+  <sprite n="fin" x="201" y="424" w="44" h="46" oX="2" oY="2" oW="48" oH="52" />
+  <sprite n="fingers_left_01" x="384" y="382" w="27" h="54" oX="9" oY="1" oW="52" oH="56" />
+  <sprite n="fingers_left_02" x="71" y="540" w="46" h="37" oX="10" oY="2" oW="52" oH="56" r="y" />
+  <sprite n="fingers_left_03" x="79" y="403" w="38" h="42" oX="10" oY="2" oW="52" oH="56" r="y" />
+  <sprite n="fingers_left_04" x="248" y="239" w="30" h="39" oX="11" oY="1" oW="52" oH="56" r="y" />
+  <sprite n="fingers_left_05" x="349" y="416" w="33" h="53" oX="0" oY="2" oW="52" oH="56" />
+  <sprite n="fingers_right_01" x="384" y="438" w="27" h="54" oX="16" oY="2" oW="52" oH="56" />
+  <sprite n="fingers_right_02" x="69" y="579" w="46" h="37" oX="5" oY="2" oW="52" oH="56" r="y" />
+  <sprite n="fingers_right_03" x="79" y="447" w="38" h="42" oX="0" oY="2" oW="52" oH="56" r="y" />
+  <sprite n="fingers_right_04" x="435" y="566" w="39" h="31" oX="2" oY="0" oW="52" oH="56" />
+  <sprite n="fingers_right_05" x="192" y="472" w="53" h="31" oX="21" oY="3" oW="52" oH="56" r="y" />
+  <sprite n="flame_1" x="387" y="332" w="24" h="48" oX="4" oY="39" oW="240" oH="90" r="y" />
+  <sprite n="flame_2" x="212" y="302" w="33" h="76" oX="29" oY="33" oW="240" oH="90" r="y" />
+  <sprite n="flame_3" x="0" y="259" w="103" h="52" oX="53" oY="21" oW="240" oH="90" />
+  <sprite n="flame_4" x="126" y="239" w="120" h="61" oX="62" oY="16" oW="240" oH="90" />
+  <sprite n="flame_5" x="142" y="0" w="138" h="70" oX="70" oY="11" oW="240" oH="90" />
+  <sprite n="flame_6" x="142" y="72" w="136" h="81" oX="79" oY="5" oW="240" oH="90" />
+  <sprite n="flame_7" x="282" y="0" w="136" h="84" oX="85" oY="3" oW="240" oH="90" />
+  <sprite n="flame_8" x="280" y="86" w="135" h="84" oX="91" oY="3" oW="240" oH="90" />
+  <sprite n="flame_9" x="133" y="155" w="131" h="82" oX="97" oY="3" oW="240" oH="90" />
+  <sprite n="flame_10" x="0" y="177" w="124" h="80" oX="104" oY="2" oW="240" oH="90" />
+  <sprite n="flame_11" x="280" y="274" w="105" h="77" oX="127" oY="2" oW="240" oH="90" />
+  <sprite n="flame_12" x="0" y="313" w="102" h="78" oX="132" oY="2" oW="240" oH="90" />
+  <sprite n="flame_13" x="417" y="130" w="94" h="83" oX="141" oY="2" oW="240" oH="90" />
+  <sprite n="flame_14" x="119" y="356" w="80" h="79" oX="156" oY="3" oW="240" oH="90" />
+  <sprite n="foot_left" x="71" y="491" w="46" h="47" oX="1" oY="2" oW="52" oH="52" />
+  <sprite n="foot_right" x="119" y="557" w="50" h="42" oX="4" oY="2" oW="60" oH="48" />
+  <sprite n="hair_01" x="188" y="539" w="55" h="42" oX="3" oY="0" oW="48" oH="56" r="y" />
+  <sprite n="hair_02" x="338" y="541" w="39" h="49" oX="1" oY="0" oW="52" oH="40" r="y" />
+  <sprite n="hair_03" x="119" y="437" w="71" h="58" oX="1" oY="1" oW="60" oH="72" r="y" />
+  <sprite n="head" x="0" y="0" w="140" h="90" oX="5" oY="5" oW="100" oH="148" r="y" />
+  <sprite n="leg_lower_left" x="415" y="310" w="91" h="53" oX="2" oY="3" oW="60" oH="96" r="y" />
+  <sprite n="leg_lower_right" x="124" y="302" w="86" h="52" oX="3" oY="3" oW="64" oH="104" r="y" />
+  <sprite n="leg_upper_left" x="415" y="247" w="97" h="61" oX="3" oY="4" oW="68" oH="104" r="y" />
+  <sprite n="leg_upper_right" x="413" y="365" w="99" h="62" oX="2" oY="3" oW="64" oH="104" r="y" />
+  <sprite n="lid_01" x="347" y="508" w="35" h="31" oX="4" oY="2" oW="40" oH="40" r="y" />
+  <sprite n="lid_02" x="476" y="567" w="35" h="31" oX="4" oY="2" oW="40" oH="40" r="y" />
+  <sprite n="lid_03" x="379" y="577" w="35" h="31" oX="4" oY="2" oW="40" oH="40" r="y" />
+  <sprite n="lid_04" x="416" y="599" w="35" h="31" oX="4" oY="2" oW="40" oH="40" r="y" />
+  <sprite n="lid_05" x="453" y="600" w="35" h="31" oX="4" oY="2" oW="40" oH="40" r="y" />
+  <sprite n="moustache" x="266" y="155" w="12" h="57" oX="1" oY="2" oW="60" oH="16" r="y" />
+  <sprite n="mouth_01" x="404" y="172" w="10" h="54" oX="3" oY="1" oW="60" oH="36" r="y" />
+  <sprite n="mouth_02" x="404" y="228" w="9" h="50" oX="6" oY="2" oW="60" oH="36" r="y" />
+  <sprite n="mouth_03" x="104" y="351" w="13" h="50" oX="6" oY="2" oW="60" oH="36" r="y" />
+  <sprite n="mouth_04" x="105" y="282" w="17" h="50" oX="6" oY="2" oW="60" oH="36" r="y" />
+  <sprite n="mouth_05" x="247" y="471" w="20" h="50" oX="6" oY="2" oW="60" oH="36" r="y" />
+  <sprite n="mouth_06" x="387" y="280" w="26" h="50" oX="6" oY="2" oW="60" oH="36" r="y" />
+  <sprite n="mouth_07" x="0" y="615" w="50" h="32" oX="6" oY="2" oW="60" oH="36" />
+  <sprite n="mouth_08" x="435" y="532" w="39" h="32" oX="12" oY="2" oW="60" oH="36" />
+  <sprite n="mouth_09" x="248" y="399" w="29" h="27" oX="17" oY="2" oW="60" oH="36" />
+  <sprite n="mouth_10" x="105" y="259" w="18" h="21" oX="23" oY="2" oW="60" oH="36" />
+  <sprite n="mouth_11" x="266" y="214" w="12" h="11" oX="27" oY="2" oW="60" oH="36" />
+  <sprite n="neck" x="0" y="393" w="77" h="74" oX="0" oY="3" oW="80" oH="80" />
+  <sprite n="palm_left" x="119" y="497" w="67" h="58" oX="3" oY="5" oW="64" oH="76" r="y" />
+  <sprite n="palm_right_01" x="0" y="555" w="67" h="58" oX="3" oY="5" oW="64" oH="76" r="y" />
+  <sprite n="palm_right_02" x="279" y="416" w="68" h="48" oX="8" oY="4" oW="64" oH="76" r="y" />
+  <sprite n="palm_right_03" x="277" y="466" w="68" h="48" oX="8" oY="4" oW="64" oH="76" r="y" />
+  <sprite n="palm_right_04" x="269" y="516" w="67" h="58" oX="3" oY="5" oW="64" oH="76" r="y" />
+  <sprite n="pupil" x="104" y="334" w="16" h="15" oX="1" oY="0" oW="16" oH="16" r="y" />
+  <sprite n="shadow" x="279" y="353" w="103" h="61" oX="2" oY="1" oW="108" oH="64" />
+  <sprite n="shoulder" x="201" y="380" w="45" h="42" oX="5" oY="3" oW="52" oH="52" r="y" />
+  <sprite n="tail_01" x="280" y="172" w="122" h="100" oX="0" oY="0" oW="104" oH="124" r="y" />
+  <sprite n="tail_02" x="0" y="469" w="69" h="50" oX="0" oY="1" oW="52" oH="72" r="y" />
+  <sprite n="tail_03" x="188" y="505" w="56" h="32" oX="3" oY="4" oW="64" oH="40" />
+  <sprite n="tail_04" x="384" y="494" w="23" h="36" oX="6" oY="4" oW="32" oH="40" />
+  <sprite n="thumb_left_01" x="248" y="280" w="30" h="15" oX="13" oY="3" oW="52" oH="44" r="y" />
+  <sprite n="thumb_left_02" x="246" y="523" w="20" h="37" oX="12" oY="3" oW="52" oH="44" />
+  <sprite n="thumb_left_03" x="247" y="428" w="28" h="41" oX="13" oY="3" oW="52" oH="44" />
+  <sprite n="thumb_left_04" x="347" y="471" w="35" h="35" oX="13" oY="2" oW="52" oH="44" />
+  <sprite n="thumb_right_01" x="245" y="576" w="33" h="31" oX="1" oY="3" oW="36" oH="36" />
+</TextureAtlas>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6883568b2dbfd77f77243beb95409eb9:32d8ea6a8a76809cff0f8f6046047e0a:ec63b45b3f3bafaff29bcac86378ce1f$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCDN_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BCDN_armbean" x="361" y="227" w="48" h="53" pX="0.4875" pY="0.14375" oX="16" oY="4" oW="80" oH="80"/>
+	<sprite n="BCDN_collar_back" x="0" y="250" w="140" h="60" pX="0.5174825174825175" pY="0.42857142857142855" oX="3" oY="13" oW="143" oH="112"/>
+	<sprite n="BCDN_collar_front" x="142" y="218" w="94" h="138" pX="0.5174825174825175" pY="0.42857142857142855" oX="1" oY="9" oW="143" oH="112" r="y"/>
+	<sprite n="BCDN_hand_01" x="0" y="404" w="131" h="45" pX="0.875" pY="0.48333333333333334" oX="9" oY="67" oW="144" oH="180"/>
+	<sprite n="BCDN_hand_02" x="428" y="0" w="79" h="128" pX="0.875" pY="0.48333333333333334" oX="12" oY="49" oW="144" oH="180" r="y"/>
+	<sprite n="BCDN_hand_03" x="361" y="357" w="126" h="109" pX="0.875" pY="0.48333333333333334" oX="14" oY="35" oW="144" oH="180"/>
+	<sprite n="BCDN_hand_04" x="0" y="128" w="140" h="120" pX="0.5" pY="0.48333333333333334" oX="20" oY="20" oW="144" oH="180" r="y"/>
+	<sprite n="BCDN_hand_05" x="242" y="109" w="167" h="116" pX="0.875" pY="0.48333333333333334" oX="24" oY="6" oW="144" oH="180" r="y"/>
+	<sprite n="BCDN_head" x="242" y="0" w="184" h="107" pX="0.525" pY="0.6888888888888889" oX="38" oY="59" oW="240" oH="180"/>
+	<sprite n="BCDN_head_rim" x="360" y="282" w="125" h="73" pX="0.525" pY="0.6944444444444444" oX="67" oY="81" oW="240" oH="180"/>
+	<sprite n="BCDN_head_top" x="0" y="0" w="240" h="126" pX="0.525" pY="0.6833333333333333" oX="0" oY="14" oW="240" oH="180"/>
+	<sprite n="BCDN_headbean" x="411" y="241" w="31" h="32" pX="0.5" pY="0.5" oX="9" oY="10" oW="50" oH="50"/>
+	<sprite n="BCDN_lowerbody_01" x="231" y="358" w="128" h="135" pX="0.5666666666666667" pY="0.10555555555555556" oX="5" oY="8" oW="180" oH="180"/>
+	<sprite n="BCDN_lowerbody_02" x="0" y="312" w="137" h="90" pX="0.6305555555555555" pY="0.18333333333333332" oX="34" oY="26" oW="180" oH="180" r="y"/>
+	<sprite n="BCDN_lowerbody_03" x="139" y="358" w="90" h="137" pX="0.45555555555555555" pY="0.22777777777777777" oX="56" oY="26" oW="180" oH="180"/>
+	<sprite n="BCDN_lowerbody_04" x="238" y="227" w="120" h="129" pX="0.4666666666666667" pY="0.16666666666666666" oX="53" oY="13" oW="180" oH="180"/>
+	<sprite n="BCDN_lowerbody_back_left" x="142" y="128" w="97" h="88" pX="0.7232142857142857" pY="0.03977272727272727" oX="5" oY="0" oW="112" oH="88"/>
+	<sprite n="BCDN_lowerbody_back_right" x="411" y="130" w="97" h="109" pX="0.4824561403508772" pY="0.11538461538461539" oX="3" oY="4" oW="114" oH="104" r="y"/>
+	<sprite n="BCDN_neck" x="361" y="468" w="78" h="31" pX="0.5166666666666667" pY="0.7722222222222223" oX="13" oY="6" oW="60" oH="90" r="y"/>
+	<sprite n="BCDN_stalk_01" x="0" y="451" w="128" h="54" pX="0.36857142857142855" pY="0.9171428571428571" oX="19" oY="38" oW="175" oH="175" r="y"/>
+</TextureAtlas>

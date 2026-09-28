@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1c4084ba841e68765618be83d160bd65:3021bb41b8480f1abe4511e2e1bb0356:ac7d70efea757cf4c8201a69c306c7d6$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_NY_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="monster_a_body" x="464" y="0" w="350" h="143" r="y"/>
+	<sprite n="monster_a_body_RARE" x="464" y="145" w="350" h="143" r="y"/>
+	<sprite n="monster_a_eyeball" x="873" y="1364" w="59" h="59"/>
+	<sprite n="monster_a_eyeball_RARE" x="734" y="1353" w="59" h="59"/>
+	<sprite n="monster_a_eyelid_01" x="219" y="1020" w="83" h="101" oX="0" oY="0" oW="103" oH="137" r="y"/>
+	<sprite n="monster_a_eyelid_02" x="0" y="1048" w="101" h="73" oX="2" oY="11" oW="103" oH="137"/>
+	<sprite n="monster_a_eyelid_03" x="0" y="1123" w="101" h="69" oX="1" oY="17" oW="103" oH="137"/>
+	<sprite n="monster_a_eyelid_04" x="206" y="1123" w="92" h="89" oX="7" oY="45" oW="103" oH="137" r="y"/>
+	<sprite n="monster_a_foot" x="591" y="759" w="105" h="78"/>
+	<sprite n="monster_a_foot_RARE" x="224" y="913" w="78" h="105" r="y"/>
+	<sprite n="monster_a_hair_01" x="699" y="414" w="113" h="101"/>
+	<sprite n="monster_a_hair_01_RARE" x="699" y="517" w="113" h="101"/>
+	<sprite n="monster_a_hair_02" x="499" y="1078" w="66" h="94" r="y"/>
+	<sprite n="monster_a_hair_02_RARE" x="304" y="1122" w="94" h="66"/>
+	<sprite n="monster_a_hair_03" x="807" y="1124" w="95" h="64"/>
+	<sprite n="monster_a_hair_03_RARE" x="402" y="1066" w="95" h="64"/>
+	<sprite n="monster_a_iris" x="218" y="1295" w="24" h="24"/>
+	<sprite n="monster_a_iris_RARE" x="244" y="1302" w="24" h="24"/>
+	<sprite n="monster_a_low_eyelid_01" x="735" y="1320" w="62" h="31" oX="1" oY="2" oW="63" oH="33"/>
+	<sprite n="monster_a_low_eyelid_02" x="907" y="1106" w="33" h="62" oX="1" oY="0" oW="63" oH="33" r="y"/>
+	<sprite n="monster_a_low_eyelid_03" x="735" y="1285" w="62" h="33" oX="1" oY="0" oW="63" oH="33"/>
+	<sprite n="monster_a_mouth_01" x="573" y="744" w="16" h="74" oX="10" oY="13" oW="87" oH="52" r="y"/>
+	<sprite n="monster_a_mouth_02" x="244" y="1276" w="40" h="24" oX="26" oY="9" oW="87" oH="52"/>
+	<sprite n="monster_a_mouth_03" x="904" y="1170" w="36" h="52" oX="23" oY="5" oW="87" oH="52" r="y"/>
+	<sprite n="monster_a_mouth_04" x="977" y="1477" w="45" h="51" oX="25" oY="0" oW="87" oH="52"/>
+	<sprite n="monster_a_mouth_05" x="771" y="1019" w="34" h="56" oX="19" oY="6" oW="87" oH="52" r="y"/>
+	<sprite n="monster_a_mouth_06" x="934" y="1377" w="69" h="31" oX="14" oY="12" oW="87" oH="52"/>
+	<sprite n="monster_a_mouth_07" x="804" y="1190" w="87" h="42" oX="0" oY="10" oW="87" oH="52"/>
+	<sprite n="monster_a_mouth_08" x="558" y="1311" w="83" h="32" oX="4" oY="15" oW="87" oH="52"/>
+	<sprite n="monster_a_mouth_09" x="942" y="1191" w="77" h="32" oX="8" oY="10" oW="87" oH="52"/>
+	<sprite n="monster_a_skirt" x="408" y="960" w="52" h="58" r="y"/>
+	<sprite n="monster_a_skirt_RARE" x="917" y="1435" w="58" h="52"/>
+	<sprite n="monster_b_body" x="464" y="290" w="233" h="171"/>
+	<sprite n="monster_b_body_RARE" x="464" y="463" w="233" h="171"/>
+	<sprite n="monster_b_eyeball" x="561" y="1247" w="87" h="62"/>
+	<sprite n="monster_b_eyeball_RARE" x="391" y="1263" w="87" h="62"/>
+	<sprite n="monster_b_eyelid_01" x="677" y="839" w="104" h="57" oX="32" oY="0" oW="140" oH="132"/>
+	<sprite n="monster_b_eyelid_02" x="0" y="661" w="122" h="57" oX="17" oY="4" oW="140" oH="132"/>
+	<sprite n="monster_b_eyelid_03" x="306" y="825" w="112" h="36" oX="1" oY="42" oW="140" oH="132"/>
+	<sprite n="monster_b_eyelid_04" x="699" y="690" w="112" h="89" oX="3" oY="42" oW="140" oH="132"/>
+	<sprite n="monster_b_eyelid_low_01" x="910" y="926" w="30" h="88" oX="1" oY="9" oW="90" oH="39" r="y"/>
+	<sprite n="monster_b_eyelid_low_02" x="0" y="1194" w="89" h="27" oX="0" oY="12" oW="90" oH="39"/>
+	<sprite n="monster_b_eyelid_low_03" x="429" y="645" w="32" h="89" oX="0" oY="7" oW="90" oH="39" r="y"/>
+	<sprite n="monster_b_eyelid_low_04" x="391" y="1223" w="89" h="38" oX="0" oY="1" oW="90" oH="39"/>
+	<sprite n="monster_b_foot_01" x="306" y="302" w="130" h="85" oX="2" oY="30" oW="143" oH="124"/>
+	<sprite n="monster_b_foot_02" x="128" y="553" w="126" h="87" oX="2" oY="27" oW="143" oH="124"/>
+	<sprite n="monster_b_foot_03" x="813" y="694" w="127" h="101" oX="1" oY="13" oW="143" oH="124"/>
+	<sprite n="monster_b_foot_04" x="463" y="636" w="127" h="106" oX="1" oY="9" oW="143" oH="124"/>
+	<sprite n="monster_b_foot_05" x="128" y="642" w="123" h="109" oX="0" oY="6" oW="143" oH="124"/>
+	<sprite n="monster_b_hair_RED_RARE" x="942" y="1225" w="74" h="67" oX="14" oY="13" oW="102" oH="92"/>
+	<sprite n="monster_b_iris" x="783" y="839" w="22" h="21"/>
+	<sprite n="monster_b_iris_RARE" x="783" y="862" w="22" h="21"/>
+	<sprite n="monster_b_leg" x="764" y="1113" w="41" h="58"/>
+	<sprite n="monster_b_leg_RARE" x="619" y="1360" w="58" h="41" r="y"/>
+	<sprite n="monster_b_mouth_01" x="440" y="211" w="22" h="105" oX="6" oY="8" oW="113" oH="68" r="y"/>
+	<sprite n="monster_b_mouth_02" x="780" y="924" w="25" h="54" oX="22" oY="10" oW="113" oH="68" r="y"/>
+	<sprite n="monster_b_mouth_03" x="420" y="827" w="41" h="70" oX="22" oY="7" oW="113" oH="68" r="y"/>
+	<sprite n="monster_b_mouth_04" x="508" y="1020" w="57" h="56" oX="20" oY="1" oW="113" oH="68" r="y"/>
+	<sprite n="monster_b_mouth_05" x="415" y="899" w="45" h="59" oX="17" oY="5" oW="113" oH="68" r="y"/>
+	<sprite n="monster_b_mouth_06" x="944" y="486" w="80" h="41" oX="10" oY="7" oW="113" oH="68"/>
+	<sprite n="monster_b_mouth_07" x="408" y="1020" w="98" h="44" oX="7" oY="9" oW="113" oH="68"/>
+	<sprite n="monster_b_mouth_08" x="698" y="781" w="107" h="56" oX="4" oY="9" oW="113" oH="68"/>
+	<sprite n="monster_b_mouth_09" x="113" y="844" w="111" h="60" oX="2" oY="8" oW="113" oH="68"/>
+	<sprite n="monster_b_mouth_10" x="807" y="797" w="107" h="47" oX="6" oY="8" oW="113" oH="68"/>
+	<sprite n="monster_b_mouth_11" x="807" y="997" w="101" h="39" oX="9" oY="8" oW="113" oH="68"/>
+	<sprite n="monster_b_skirt" x="256" y="553" w="48" h="68" r="y"/>
+	<sprite n="monster_b_skirt_RARE" x="256" y="623" w="48" h="68" r="y"/>
+	<sprite n="monster_c_body" x="816" y="0" w="204" h="241"/>
+	<sprite n="monster_c_body_RARE" x="816" y="243" w="204" h="241"/>
+	<sprite n="monster_c_eyeball" x="300" y="1190" w="89" h="88"/>
+	<sprite n="monster_c_eyeball_RARE" x="300" y="1190" w="89" h="88"/>
+	<sprite n="monster_c_eyelid_01" x="567" y="1086" w="90" h="62" oX="31" oY="1" oW="122" oH="116"/>
+	<sprite n="monster_c_eyelid_02" x="238" y="806" w="66" h="105" oX="14" oY="7" oW="122" oH="116" r="y"/>
+	<sprite n="monster_c_eyelid_03" x="0" y="817" w="111" h="69" oX="1" oY="18" oW="122" oH="116"/>
+	<sprite n="monster_c_eyelid_04" x="306" y="863" w="107" h="77" oX="1" oY="37" oW="122" oH="116"/>
+	<sprite n="monster_c_foot" x="942" y="893" w="82" h="50"/>
+	<sprite n="monster_c_foot_RARE" x="942" y="945" w="82" h="50"/>
+	<sprite n="monster_c_hair_bg" x="944" y="529" w="79" h="120" r="y"/>
+	<sprite n="monster_c_hair_bg_RARE" x="944" y="651" w="79" h="120" r="y"/>
+	<sprite n="monster_c_hair_fg" x="676" y="898" w="102" h="92"/>
+	<sprite n="monster_c_hair_fg_RARE" x="567" y="943" w="102" h="92"/>
+	<sprite n="monster_c_hair_fg_RARE_2" x="304" y="942" w="102" h="92"/>
+	<sprite n="monster_c_ind_toe_base" x="249" y="1214" w="45" h="29"/>
+	<sprite n="monster_c_ind_toe_base_RARE" x="249" y="1245" w="45" h="29"/>
+	<sprite n="monster_c_ind_toe_med" x="41" y="1252" w="38" h="33"/>
+	<sprite n="monster_c_ind_toe_med_RARE" x="0" y="1278" w="38" h="33"/>
+	<sprite n="monster_c_ind_toe_tip" x="81" y="1265" w="38" h="28"/>
+	<sprite n="monster_c_ind_toe_tip_RARE" x="40" y="1287" w="38" h="28"/>
+	<sprite n="monster_c_iris" x="771" y="1077" w="34" h="34"/>
+	<sprite n="monster_c_iris_RARE" x="121" y="1290" w="34" h="34"/>
+	<sprite n="monster_c_leg" x="799" y="1300" w="72" h="43" r="y"/>
+	<sprite n="monster_c_leg_RARE" x="799" y="1345" w="72" h="43" r="y"/>
+	<sprite n="monster_c_low_eyelid_01" x="436" y="497" w="25" h="72" oX="3" oY="25" oW="90" oH="51" r="y"/>
+	<sprite n="monster_c_low_eyelid_02" x="482" y="1229" w="77" h="29" oX="2" oY="21" oW="90" oH="51"/>
+	<sprite n="monster_c_low_eyelid_03" x="650" y="1257" w="83" h="37" oX="1" oY="13" oW="90" oH="51"/>
+	<sprite n="monster_c_low_eyelid_04" x="659" y="1164" w="88" h="49" oX="1" oY="1" oW="90" oH="51"/>
+	<sprite n="monster_c_mid_toe_base" x="146" y="1228" w="43" h="29"/>
+	<sprite n="monster_c_mid_toe_base_RARE" x="146" y="1259" w="43" h="29"/>
+	<sprite n="monster_c_mid_toe_med" x="157" y="1290" w="32" h="34"/>
+	<sprite n="monster_c_mid_toe_med_RARE" x="80" y="1295" w="34" h="32" r="y"/>
+	<sprite n="monster_c_mid_toe_tip" x="780" y="980" w="25" h="37" r="y"/>
+	<sprite n="monster_c_mid_toe_tip_RARE" x="0" y="1313" w="37" h="25"/>
+	<sprite n="monster_c_mouth_01" x="438" y="318" w="24" h="105" oX="6" oY="9" oW="116" oH="78" r="y"/>
+	<sprite n="monster_c_mouth_02" x="942" y="1294" w="73" h="32" oX="13" oY="8" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_03" x="655" y="1215" w="88" h="40" oX="11" oY="6" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_04" x="567" y="1037" w="97" h="47" oX="12" oY="4" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_05" x="942" y="1328" w="69" h="47" oX="17" oY="6" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_06" x="463" y="839" w="105" h="45" oX="6" oY="8" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_07" x="463" y="886" w="104" h="52" oX="7" oY="10" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_08" x="699" y="620" w="113" h="68" oX="1" oY="7" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_09" x="0" y="888" w="111" h="55" oX="3" oY="10" oW="116" oH="78"/>
+	<sprite n="monster_c_mouth_10" x="113" y="906" w="109" h="41" oX="4" oY="10" oW="116" oH="78"/>
+	<sprite n="monster_c_pi_toe_base" x="783" y="885" w="18" h="37" r="y"/>
+	<sprite n="monster_c_pi_toe_base_RARE" x="1005" y="1377" w="18" h="37" r="y"/>
+	<sprite n="monster_c_pi_toe_med" x="191" y="1295" w="25" h="25"/>
+	<sprite n="monster_c_pi_toe_med_RARE" x="286" y="1280" w="25" h="25"/>
+	<sprite n="monster_c_pi_toe_tip" x="1005" y="1416" w="18" h="25" r="y"/>
+	<sprite n="monster_c_pi_toe_tip_RARE" x="714" y="1335" w="18" h="25" r="y"/>
+	<sprite n="monster_c_skirt" x="671" y="992" w="98" h="84"/>
+	<sprite n="monster_c_skirt_RARE" x="807" y="1038" w="98" h="84"/>
+	<sprite n="monster_c_toe" x="795" y="1390" w="59" h="40"/>
+	<sprite n="monster_c_toe_RARE" x="856" y="1425" w="59" h="40"/>
+	<sprite n="monster_d_body" x="0" y="211" w="304" h="169" r="y"/>
+	<sprite n="monster_d_body_RARE" x="0" y="382" w="304" h="169" r="y"/>
+	<sprite n="monster_d_eyeball" x="304" y="1036" w="96" h="84" r="y"/>
+	<sprite n="monster_d_eyeball_RARE" x="666" y="1078" w="96" h="84" r="y"/>
+	<sprite n="monster_d_eyelid_01" x="592" y="636" w="105" h="121" oX="1" oY="1" oW="157" oH="145" r="y"/>
+	<sprite n="monster_d_eyelid_02" x="463" y="744" w="108" h="93" oX="28" oY="13" oW="157" oH="145"/>
+	<sprite n="monster_d_eyelid_03" x="942" y="773" w="82" h="118" oX="28" oY="24" oW="157" oH="145" r="y"/>
+	<sprite n="monster_d_eyelid_04" x="306" y="389" w="128" h="120" oX="28" oY="24" oW="157" oH="145"/>
+	<sprite n="monster_d_foot" x="804" y="1234" w="86" h="31"/>
+	<sprite n="monster_d_foot_RARE" x="800" y="1267" w="86" h="31"/>
+	<sprite n="monster_d_hair" x="462" y="940" w="103" h="78"/>
+	<sprite n="monster_d_hair_RARE" x="807" y="846" w="103" h="78"/>
+	<sprite n="monster_d_iris" x="39" y="1317" w="32" h="30" r="y"/>
+	<sprite n="monster_d_iris_RARE" x="0" y="1340" w="32" h="30" r="y"/>
+	<sprite n="monster_d_leg" x="916" y="797" w="24" h="59"/>
+	<sprite n="monster_d_leg_RARE" x="558" y="1345" w="59" h="24" r="y"/>
+	<sprite n="monster_d_low_eyelid_01" x="934" y="1410" w="69" h="23" oX="0" oY="9" oW="79" oH="33"/>
+	<sprite n="monster_d_low_eyelid_02" x="643" y="1335" w="69" h="23" oX="0" oY="9" oW="79" oH="33"/>
+	<sprite n="monster_d_low_eyelid_03" x="942" y="997" w="78" h="32" oX="0" oY="0" oW="79" oH="33"/>
+	<sprite n="monster_d_low_eyelid_03_RARE" x="942" y="1031" w="78" h="32" oX="0" oY="0" oW="79" oH="33"/>
+	<sprite n="monster_d_mouth_01" x="912" y="858" w="28" h="66" oX="11" oY="3" oW="77" oH="69" r="y"/>
+	<sprite n="monster_d_mouth_02" x="0" y="1252" w="39" h="24" oX="38" oY="10" oW="77" oH="69"/>
+	<sprite n="monster_d_mouth_03" x="977" y="1443" w="47" h="32" oX="30" oY="7" oW="77" oH="69"/>
+	<sprite n="monster_d_mouth_04" x="191" y="1251" w="51" h="42" oX="35" oY="3" oW="77" oH="69" r="y"/>
+	<sprite n="monster_d_mouth_05" x="873" y="1301" w="67" h="61" oX="10" oY="2" oW="77" oH="69"/>
+	<sprite n="monster_d_mouth_06" x="480" y="1291" w="76" h="63" oX="1" oY="2" oW="77" oH="69"/>
+	<sprite n="monster_d_mouth_07" x="942" y="1065" w="77" h="66" oX="0" oY="3" oW="77" oH="69"/>
+	<sprite n="monster_d_mouth_08" x="942" y="1133" w="77" h="56" oX="0" oY="2" oW="77" oH="69"/>
+	<sprite n="monster_d_mouth_09" x="893" y="1224" w="47" h="75" oX="2" oY="2" oW="77" oH="69" r="y"/>
+	<sprite n="monster_d_skirt" x="494" y="1174" w="69" h="53"/>
+	<sprite n="monster_d_skirt_RARE" x="749" y="1173" w="53" h="69" r="y"/>
+	<sprite n="monster_d_toe_01" x="436" y="425" w="26" h="34" r="y"/>
+	<sprite n="monster_d_toe_01_RARE" x="436" y="461" w="26" h="34" r="y"/>
+	<sprite n="monster_d_toe_02" x="194" y="1214" w="53" h="35"/>
+	<sprite n="monster_d_toe_02_RARE" x="91" y="1228" w="53" h="35"/>
+	<sprite n="monster_d_toe_03" x="745" y="1244" w="53" h="39" r="y"/>
+	<sprite n="monster_d_toe_03_RARE" x="679" y="1362" w="53" h="39" r="y"/>
+	<sprite n="RARE_monster_a_eyelid_01" x="110" y="1028" w="101" h="83" oX="0" oY="0" oW="103" oH="137"/>
+	<sprite n="RARE_monster_a_eyelid_02" x="103" y="1113" w="101" h="73" oX="2" oY="11" oW="103" oH="137"/>
+	<sprite n="RARE_monster_a_eyelid_03" x="807" y="926" w="101" h="69" oX="1" oY="17" oW="103" oH="137"/>
+	<sprite n="RARE_monster_a_eyelid_04" x="400" y="1132" w="92" h="89" oX="7" oY="45" oW="103" oH="137" r="y"/>
+	<sprite n="RARE_monster_b_eyelid_01" x="570" y="884" w="104" h="57" oX="32" oY="0" oW="140" oH="132"/>
+	<sprite n="RARE_monster_b_eyelid_02" x="0" y="720" w="122" h="57" oX="17" oY="4" oW="140" oH="132"/>
+	<sprite n="RARE_monster_b_eyelid_03" x="0" y="779" w="112" h="36" oX="1" oY="42" oW="140" oH="132"/>
+	<sprite n="RARE_monster_b_eyelid_04" x="124" y="753" w="112" h="89" oX="3" oY="42" oW="140" oH="132"/>
+	<sprite n="RARE_monster_b_eyelid_low_01" x="910" y="1016" w="30" h="88" oX="1" oY="9" oW="90" oH="39" r="y"/>
+	<sprite n="RARE_monster_b_eyelid_low_02" x="0" y="1223" w="89" h="27" oX="0" oY="12" oW="90" oH="39"/>
+	<sprite n="RARE_monster_b_eyelid_low_03" x="429" y="736" w="32" h="89" oX="0" oY="7" oW="90" oH="39" r="y"/>
+	<sprite n="RARE_monster_b_eyelid_low_04" x="103" y="1188" w="89" h="38" oX="0" oY="1" oW="90" oH="39"/>
+	<sprite n="RARE_monster_b_foot_01" x="306" y="211" w="132" h="89" oX="0" oY="30" oW="143" oH="124"/>
+	<sprite n="RARE_monster_b_foot_02" x="814" y="599" w="128" h="93" oX="0" oY="26" oW="143" oH="124"/>
+	<sprite n="RARE_monster_b_foot_03" x="0" y="553" w="126" h="106" oX="0" oY="13" oW="143" oH="124"/>
+	<sprite n="RARE_monster_b_foot_04" x="814" y="486" w="128" h="111" oX="0" oY="9" oW="143" oH="124"/>
+	<sprite n="RARE_monster_b_foot_05" x="699" y="290" w="115" h="122" oX="0" oY="5" oW="143" oH="124" r="y"/>
+	<sprite n="RARE_monster_c_eyelid_01" x="567" y="1150" w="90" h="44" oX="31" oY="19" oW="122" oH="116"/>
+	<sprite n="RARE_monster_c_eyelid_02" x="570" y="839" w="105" h="43" oX="14" oY="30" oW="122" oH="116"/>
+	<sprite n="RARE_monster_c_eyelid_03" x="253" y="693" w="51" h="111" oX="1" oY="36" oW="122" oH="116" r="y"/>
+	<sprite n="RARE_monster_c_eyelid_04" x="110" y="949" w="107" h="77" oX="1" oY="37" oW="122" oH="116"/>
+	<sprite n="RARE_monster_c_low_eyelid_01" x="436" y="571" w="25" h="72" oX="3" oY="25" oW="90" oH="51" r="y"/>
+	<sprite n="RARE_monster_c_low_eyelid_02" x="482" y="1260" w="77" h="29" oX="2" oY="21" oW="90" oH="51"/>
+	<sprite n="RARE_monster_c_low_eyelid_03" x="650" y="1296" w="83" h="37" oX="1" oY="13" oW="90" oH="51"/>
+	<sprite n="RARE_monster_c_low_eyelid_04" x="565" y="1196" w="88" h="49" oX="1" oY="1" oW="90" oH="51"/>
+	<sprite n="RARE_monster_d_eyelid_01" x="306" y="633" w="121" h="106" oX="1" oY="0" oW="157" oH="145"/>
+	<sprite n="RARE_monster_d_eyelid_02" x="0" y="945" w="108" h="101" oX="28" oY="5" oW="157" oH="145"/>
+	<sprite n="RARE_monster_d_eyelid_03" x="306" y="741" w="118" h="82" oX="28" oY="24" oW="157" oH="145"/>
+	<sprite n="RARE_monster_d_eyelid_04" x="306" y="511" w="128" h="120" oX="28" oY="24" oW="157" oH="145"/>
+	<sprite n="shadow_fixed" x="0" y="0" w="462" h="209" oX="5" oY="13" oW="470" oH="240"/>
+</TextureAtlas>

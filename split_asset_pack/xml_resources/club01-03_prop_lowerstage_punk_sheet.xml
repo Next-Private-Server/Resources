@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:92e6be5d04c3a7c0cf636b5500e1a8f2:31bc57c5bf1d74f32b482ca1eae660c2:6c6dd8671dccdfa7d3192ae14ca89fa0$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_lowerstage_punk_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="aux_cord" x="1" y="1873" w="104" h="174" r="y"/>
+	<sprite n="bg_boxes_1" x="1" y="377" w="403" h="227" oX="2" oY="3" oW="450" oH="239"/>
+	<sprite n="bg_boxes_2" x="850" y="1531" w="171" h="95" oX="349" oY="39" oW="450" oH="239" r="y"/>
+	<sprite n="bg_boxes_3" x="395" y="1377" w="203" h="102" oX="0" oY="17" oW="450" oH="239" r="y"/>
+	<sprite n="bg_boxes_4" x="750" y="1845" w="78" h="111" oX="231" oY="38" oW="450" oH="239" r="y"/>
+	<sprite n="bg_boxes_5" x="313" y="1116" w="84" h="114" oX="102" oY="39" oW="450" oH="239" r="y"/>
+	<sprite n="cone" x="313" y="1232" w="84" h="64" r="y"/>
+	<sprite n="cone_2" x="669" y="889" w="40" h="140"/>
+	<sprite n="ground_tv" x="406" y="377" w="344" h="298"/>
+	<sprite n="lstage_ramp_speakers" x="1" y="1299" w="236" h="194" r="y"/>
+	<sprite n="ramp" x="1" y="1" w="900" h="374"/>
+	<sprite n="ramp_speakers_lights" x="311" y="1661" w="108" h="192"/>
+	<sprite n="ramp_speakers_lightsA" x="313" y="606" w="88" h="186" oX="0" oY="0" oW="108" oH="192"/>
+	<sprite n="ramp_speakers_lightsB" x="656" y="1480" w="192" h="95" oX="4" oY="0" oW="108" oH="192" r="y"/>
+	<sprite n="ramp_speakers_lightsC" x="711" y="1131" w="180" h="99" oX="9" oY="12" oW="108" oH="192" r="y"/>
+	<sprite n="red_speaker_1_cord" x="893" y="995" w="124" h="34"/>
+	<sprite n="red_speaker_1_lights" x="267" y="838" w="44" h="170" r="y"/>
+	<sprite n="red_speaker_1_lightsA" x="267" y="1173" w="44" h="159" oX="0" oY="0" oW="170" oH="44" r="y"/>
+	<sprite n="red_speaker_1_lightsB" x="267" y="1010" w="44" h="161" oX="9" oY="0" oW="170" oH="44" r="y"/>
+	<sprite n="red_speaker_1_lightsC" x="893" y="1031" w="123" h="44" oX="21" oY="0" oW="170" oH="44"/>
+	<sprite n="skateboard" x="311" y="1484" w="80" h="140"/>
+	<sprite n="speaker part" x="711" y="735" w="38" h="52"/>
+	<sprite n="speaker_blue" x="655" y="1655" w="190" h="188" r="y"/>
+	<sprite n="speaker_blue_light" x="867" y="1431" w="150" h="98"/>
+	<sprite n="speaker_blue_lightA" x="751" y="739" w="141" h="98" oX="0" oY="0" oW="150" oH="98"/>
+	<sprite n="speaker_blue_lightB" x="752" y="377" w="148" h="98" oX="2" oY="0" oW="150" oH="98"/>
+	<sprite n="speaker_blue_lightC" x="903" y="173" w="118" h="98" oX="12" oY="0" oW="150" oH="98"/>
+	<sprite n="speaker_blue_mid_cone" x="876" y="839" w="16" h="16"/>
+	<sprite n="speaker_blue_shadow" x="655" y="1577" w="192" h="76"/>
+	<sprite n="speaker_board" x="538" y="1981" w="40" h="44"/>
+	<sprite n="speaker_green" x="401" y="1055" w="260" h="164" r="y"/>
+	<sprite n="speaker_green_2_cord" x="752" y="477" w="146" h="176"/>
+	<sprite n="speaker_green_mid_cone" x="867" y="1378" w="22" h="22"/>
+	<sprite n="speaker_green_shadow" x="849" y="1628" w="170" h="100"/>
+	<sprite n="speaker_green_stage_cord" x="207" y="1527" w="102" h="173" oX="0" oY="0" oW="175" oH="102" r="y"/>
+	<sprite n="speaker_lights" x="812" y="839" w="62" h="24"/>
+	<sprite n="speaker_lights_glow" x="207" y="1495" w="30" h="30"/>
+	<sprite n="speaker_P1" x="897" y="657" w="126" h="126"/>
+	<sprite n="speaker_P2" x="893" y="1077" w="116" h="116" oX="5" oY="5" oW="126" oH="126"/>
+	<sprite n="speaker_red_1" x="1" y="606" w="310" h="230" r="y"/>
+	<sprite n="speaker_red_1_mid_cone" x="751" y="839" w="22" h="28"/>
+	<sprite n="speaker_red_1_shadow" x="657" y="1249" w="234" h="63" oX="0" oY="7" oW="234" oH="70"/>
+	<sprite n="speaker_red_1_stage_cord" x="311" y="1411" w="82" h="36"/>
+	<sprite n="speaker_red_2" x="711" y="869" w="180" h="260"/>
+	<sprite n="speaker_red_2_cord" x="903" y="1" w="118" h="170" r="y"/>
+	<sprite n="speaker_red_2_mid_cone" x="247" y="1185" w="18" h="22"/>
+	<sprite n="speaker_red_2_shadow" x="460" y="1672" w="182" h="68" oX="0" oY="2" oW="182" oH="70"/>
+	<sprite n="speaker_red_2_top_cord" x="893" y="945" w="126" h="48"/>
+	<sprite n="speaker_red_3_cord" x="1" y="838" w="264" h="186" r="y"/>
+	<sprite n="speaker_red_3_cordA" x="403" y="889" w="264" h="164" oX="0" oY="0" oW="186" oH="264" r="y"/>
+	<sprite n="speaker_red_3_cordB" x="1" y="1026" w="264" h="157" oX="19" oY="0" oW="186" oH="264" r="y"/>
+	<sprite n="speaker_red_3_cordC" x="399" y="1221" w="256" h="154" oX="32" oY="0" oW="186" oH="264" r="y"/>
+	<sprite n="speaker_small" x="624" y="1978" w="42" h="42"/>
+	<sprite n="speaker_sub" x="965" y="1730" w="46" h="46"/>
+	<sprite n="speaker_wheel" x="247" y="1209" w="16" h="16"/>
+	<sprite n="speaker_yellow" x="403" y="677" w="306" h="210" r="y"/>
+	<sprite n="speaker_yellow_cord_1" x="657" y="1314" w="208" h="164" r="y"/>
+	<sprite n="speaker_yellow_cord_2" x="1" y="1495" w="204" h="202"/>
+	<sprite n="speaker_yellow_light1" x="395" y="1481" w="194" h="172"/>
+	<sprite n="speaker_yellow_light1A" x="1" y="1699" w="194" h="172"/>
+	<sprite n="speaker_yellow_light1B" x="286" y="1870" w="172" h="175" oX="3" oY="0" oW="194" oH="172" r="y"/>
+	<sprite n="speaker_yellow_light1C" x="107" y="1873" w="177" h="172" oX="15" oY="0" oW="194" oH="172"/>
+	<sprite n="speaker_yellow_mid_cone" x="867" y="1402" w="22" h="22"/>
+	<sprite n="speaker_yellow_shadow" x="711" y="1232" w="106" h="15"/>
+	<sprite n="speaker_yellow_stage_cord" x="1" y="1185" w="244" h="112"/>
+	<sprite n="speaker_yellow_stage_shadow" x="902" y="449" w="116" h="206" r="y"/>
+	<sprite n="spray_box_bg" x="197" y="1702" w="112" h="166" r="y"/>
+	<sprite n="spray_box_fg" x="894" y="785" w="128" h="158" r="y"/>
+	<sprite n="spray_box_graffiti" x="903" y="273" w="117" h="174" r="y"/>
+	<sprite n="spray_box_shadow" x="239" y="1334" w="70" h="174" r="y"/>
+	<sprite n="spraycan_1" x="313" y="840" w="88" h="33" oX="3" oY="0" oW="36" oH="88" r="y"/>
+	<sprite n="spraycan_2" x="668" y="1978" w="80" h="32" oX="0" oY="0" oW="33" oH="80" r="y"/>
+	<sprite n="spraycan_3" x="663" y="1167" w="46" h="80" r="y"/>
+	<sprite n="spraycan_4" x="668" y="2012" w="80" h="32" r="y"/>
+	<sprite n="spraycan_5" x="313" y="1298" w="84" h="33" oX="2" oY="0" oW="36" oH="84" r="y"/>
+	<sprite n="spraycan_6" x="313" y="910" w="86" h="33" oX="2" oY="0" oW="36" oH="86" r="y"/>
+	<sprite n="spraycan_7" x="313" y="945" w="86" h="33" oX="2" oY="0" oW="36" oH="86" r="y"/>
+	<sprite n="spraycan_8" x="313" y="1083" w="86" h="31" oX="5" oY="0" oW="36" oH="86" r="y"/>
+	<sprite n="spraycan_9" x="313" y="1333" w="84" h="32" oX="4" oY="0" oW="36" oH="84" r="y"/>
+	<sprite n="spraycan_10" x="313" y="980" w="86" h="33" oX="2" oY="0" oW="36" oH="86" r="y"/>
+	<sprite n="spraycan_11" x="313" y="1015" w="86" h="32" oX="4" oY="0" oW="36" oH="86" r="y"/>
+	<sprite n="spraycan_12" x="313" y="1049" w="86" h="32" oX="4" oY="0" oW="36" oH="86" r="y"/>
+	<sprite n="spraycan_13" x="311" y="1626" w="80" h="33" oX="2" oY="0" oW="36" oH="80" r="y"/>
+	<sprite n="spraycan_14" x="311" y="1449" w="82" h="33" oX="3" oY="0" oW="36" oH="82" r="y"/>
+	<sprite n="spraycan_15" x="313" y="875" w="88" h="33" oX="3" oY="0" oW="36" oH="88" r="y"/>
+	<sprite n="spraycan_lid_2" x="775" y="839" w="35" h="27" oX="1" oY="1" oW="28" oH="36" r="y"/>
+	<sprite n="spraycan_lid_3" x="421" y="1697" w="36" h="38" r="y"/>
+	<sprite n="spraycan_lid_4" x="711" y="789" w="38" h="38"/>
+	<sprite n="spraycan_shadow" x="711" y="829" w="38" h="38"/>
+	<sprite n="sticker_1" x="580" y="1978" w="42" h="68" r="y"/>
+	<sprite n="sticker_2" x="421" y="1793" w="64" h="68"/>
+	<sprite n="sticker_3" x="591" y="1618" w="62" h="52"/>
+	<sprite n="sticker_4" x="591" y="1507" w="62" h="54"/>
+	<sprite n="sticker_5" x="663" y="1083" w="46" h="82" r="y"/>
+	<sprite n="sticker_6" x="591" y="1563" w="62" h="53"/>
+	<sprite n="sticker_7" x="752" y="655" w="143" h="82" oX="0" oY="1" oW="82" oH="144" r="y"/>
+	<sprite n="sticker_8" x="313" y="794" w="88" h="44"/>
+	<sprite n="sticker_9" x="965" y="1778" w="44" h="68"/>
+	<sprite n="sticker_10" x="711" y="677" w="38" h="56" r="y"/>
+	<sprite n="sticker_11" x="311" y="1367" w="82" h="42" oX="0" oY="2" oW="82" oH="44"/>
+	<sprite n="sticker_12" x="600" y="1443" w="54" h="62"/>
+	<sprite n="sticker_13" x="669" y="1031" w="40" h="50" r="y"/>
+	<sprite n="sticker_14" x="460" y="1981" w="76" h="60" r="y"/>
+	<sprite n="sticker_15" x="457" y="1742" w="60" h="48" r="y"/>
+	<sprite n="sticker_16" x="600" y="1377" w="55" h="64"/>
+	<sprite n="tape_blue" x="867" y="1314" w="22" h="62"/>
+	<sprite n="tape_red" x="421" y="1737" w="34" h="54"/>
+	<sprite n="tape_yellow" x="421" y="1655" w="36" h="40" r="y"/>
+	<sprite n="tv_screen_0" x="893" y="1195" w="116" h="116"/>
+	<sprite n="tv_screen_1" x="893" y="1313" w="116" h="116"/>
+	<sprite n="tv_screen_2" x="519" y="1742" w="116" h="116"/>
+	<sprite n="tv_screen_3" x="847" y="1730" w="116" h="116"/>
+	<sprite n="tv_screen_4" x="460" y="1863" w="116" h="116"/>
+	<sprite n="tv_screen_5" x="578" y="1860" w="116" h="116"/>
+</TextureAtlas>

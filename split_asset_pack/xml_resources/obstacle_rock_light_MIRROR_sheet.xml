@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d74fb869dea495976fe105daea1b0614:ff6d3fb31341d9ba87fca810227398e9:37a8a3630e0c6bc54e66b2368d09bdc9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/obstacle_rock_light_MIRROR_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="obstacle_rock01_light" x="308" y="398" w="150" h="135" oX="10" oY="2" oW="156" oH="152" r="y"/>
+    <sprite n="obstacle_rock02_light" x="2" y="398" w="304" h="235" oX="32" oY="11" oW="300" oH="318" r="y"/>
+    <sprite n="obstacle_rock03_light" x="2" y="2" w="482" h="394" oX="5" oY="4" oW="416" oH="488" r="y"/>
+</TextureAtlas>

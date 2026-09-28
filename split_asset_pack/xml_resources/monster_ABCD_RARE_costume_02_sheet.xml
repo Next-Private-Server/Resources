@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c623857d20eefeadf4c3be9ddc1d59b3:66bed4c209cbb2055e6d62c2f0e16987:ebc461127bb8c6aaa4f2795a76d5fab4$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABCD_RARE_costume_02_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ABCD_body" x="326" y="0" w="181" h="232" pX="0.505435" pY="0.811966" oX="2" oY="0" oW="184" oH="234"/>
+	<sprite n="ABCD_chair_RARE" x="593" y="899" w="114" h="117" pX="0.5" pY="0.507692" oX="12" oY="12" oW="136" oH="130"/>
+	<sprite n="ABCD_cymbal_lower_RARE" x="371" y="963" w="134" h="58" pX="0.5" pY="0.586207"/>
+	<sprite n="ABCD_cymbal_upper_RARE" x="555" y="468" w="58" h="134" pX="0.492537" pY="0.224138" r="y"/>
+	<sprite n="ABCD_cymbal_vine_RARE" x="100" y="1005" w="98" h="19" pX="0.553571" pY="0.826923" oX="6" oY="3" oW="28" oH="104" r="y"/>
+	<sprite n="ABCD_ear_left" x="698" y="812" w="72" h="85" pX="0.809278" pY="0.39" oX="7" oY="6" oW="97" oH="80" r="y"/>
+	<sprite n="ABCD_ear_right" x="265" y="991" w="80" h="25" pX="-1.17857" pY="0.9" oX="2" oY="0" oW="28" oH="80" r="y"/>
+	<sprite n="ABCD_eyelids_1" x="646" y="828" w="50" h="62" pX="0.3375" pY="0.384615" oX="6" oY="2" oW="80" oH="52" r="y"/>
+	<sprite n="ABCD_eyelids_2" x="615" y="546" w="62" h="38" pX="0.3375" pY="0.384615" oX="6" oY="8" oW="80" oH="52"/>
+	<sprite n="ABCD_eyelids_3" x="202" y="991" w="61" h="29" pX="0.3375" pY="0.384615" oX="7" oY="12" oW="80" oH="52"/>
+	<sprite n="ABCD_eyelids_4" x="347" y="963" w="22" h="60" pX="0.3375" pY="0.384615" oX="7" oY="14" oW="80" oH="52" r="y"/>
+	<sprite n="ABCD_head_RARE" x="249" y="492" w="137" h="237" pX="0.5" pY="0.491597" oX="30" oY="1" oW="168" oH="238"/>
+	<sprite n="ABCD_helmet" x="138" y="252" w="154" h="238" pX="0.3625" pY="0.5" oX="3" oY="1" oW="160" oH="240"/>
+	<sprite n="ABCD_hihat_stand_RARE" x="202" y="751" w="83" h="238" pX="0.361702" pY="0.941176" oX="5" oY="0" oW="94" oH="238"/>
+	<sprite n="ABCD_left_foot" x="570" y="828" w="74" h="69" pX="0.4" pY="0.333333" oX="3" oY="0" oW="90" oH="78" r="y"/>
+	<sprite n="ABCD_left_hand_RARE" x="695" y="0" w="56" h="168" pX="0.130952" pY="0.310345" oX="0" oY="0" oW="168" oH="58" r="y"/>
+	<sprite n="ABCD_left_leg" x="665" y="693" w="84" h="117" pX="0.372093" pY="0.85" oX="0" oY="1" oW="86" oH="120"/>
+	<sprite n="ABCD_left_lowerarm" x="709" y="899" w="71" h="86" pX="0.417073" pY="0.10814" oX="11" oY="0" oW="82" oH="86"/>
+	<sprite n="ABCD_left_upperarm" x="570" y="696" w="93" h="130" pX="0.598214" pY="0.333333" oX="14" oY="7" oW="112" oH="144"/>
+	<sprite n="ABCD_right_foot" x="555" y="604" w="41" h="90" pX="0.266667" pY="0.804348" oX="0" oY="3" oW="90" oH="46" r="y"/>
+	<sprite n="ABCD_right_hand_RARE" x="526" y="204" w="56" h="184" pX="0.157143" pY="0.773913"/>
+	<sprite n="ABCD_right_leg" x="507" y="900" w="84" h="122" pX="0.337209" pY="0.851563" oX="0" oY="4" oW="86" oH="128"/>
+	<sprite n="ABCD_right_lowerarm" x="615" y="468" w="74" h="76" pX="0.0789474" pY="0.512821" oX="0" oY="0" oW="76" oH="78" r="y"/>
+	<sprite n="ABCD_right_upperarm" x="526" y="390" w="88" h="76" pX="0.2125" pY="0.215909" oX="2" oY="0" oW="80" oH="88" r="y"/>
+	<sprite n="ABCD_shell_RARE" x="0" y="0" w="203" h="250" pX="0.412621" pY="0.476923" oX="1" oY="7" oW="206" oH="260"/>
+	<sprite n="ABCD_snare_base_RARE" x="584" y="204" w="126" h="168" pX="0.538961" pY="0.805882" oX="21" oY="2" oW="154" oH="170"/>
+	<sprite n="ABCD_snaredrum_RARE" x="445" y="697" w="123" h="201" pX="0.548077" pY="0.825397" oX="3" oY="2" oW="208" oH="126" r="y"/>
+	<sprite n="ABCD_splash_base_RARE" x="439" y="234" w="85" h="206" pX="0.75" pY="0.927184" oX="3" oY="0" oW="88" oH="206"/>
+	<sprite n="ABCD_tail_01" x="0" y="504" w="100" h="249" pX="0.907692" pY="0.661765" oX="10" oY="140" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_02" x="0" y="755" w="98" h="249" pX="0.907692" pY="0.661765" oX="11" oY="147" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_03" x="205" y="0" w="119" h="238" pX="0.907692" pY="0.661765" oX="22" oY="153" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_04" x="100" y="755" w="100" h="248" pX="0.907692" pY="0.661765" oX="11" oY="155" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_05" x="102" y="504" w="145" h="245" pX="0.907692" pY="0.661765" oX="14" oY="82" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_06" x="388" y="475" w="165" h="220" pX="0.907692" pY="0.661765" oX="94" oY="8" oW="260" oH="272"/>
+	<sprite n="ABCD_tail_07" x="294" y="240" w="143" h="233" pX="0.907692" pY="0.661765" oX="116" oY="4" oW="260" oH="272"/>
+	<sprite n="ABCD_tail_08" x="509" y="0" w="184" h="202" pX="0.907692" pY="0.661765" oX="57" oY="46" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_09" x="287" y="731" w="156" h="230" pX="0.907692" pY="0.661765" oX="30" oY="75" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_tail_10" x="0" y="252" w="136" h="250" pX="0.907692" pY="0.661765" oX="9" oY="102" oW="260" oH="272" r="y"/>
+	<sprite n="ABCD_visor" x="598" y="604" w="128" h="87" pX="0.6484375" pY="0.5927835051546392" oX="0" oY="5" oW="128" oH="97"/>
+</TextureAtlas>

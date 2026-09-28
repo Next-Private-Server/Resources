@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:eefa671e258364a4b13232219b0b5954:186819d83395e41fb3d3f11587ac1514:d223bb5c8546735b0bf47f164bc15174$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BDE_costume_07_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BDE_body" x="148" y="0" w="247" h="167" pX="0.583333" pY="0.860294" oX="9" oY="25" oW="192" oH="272" r="y"/>
+	<sprite n="BDE_body_OL" x="102" y="202" w="45" h="125" pX="0.583333" pY="0.860294" oX="51" oY="137" oW="192" oH="272"/>
+	<sprite n="BDE_cello" x="0" y="0" w="100" h="440" pX="0.5" pY="0.5"/>
+	<sprite n="BDE_eyelids1" x="397" y="102" w="88" h="48" pX="0.5" pY="0.5"/>
+	<sprite n="BDE_eyelids2" x="397" y="152" w="88" h="48" pX="0.5" pY="0.5"/>
+	<sprite n="BDE_eyelids3" x="102" y="329" w="48" h="88" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BDE_eyelids4" x="148" y="419" w="48" h="88" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BDE_left_foot" x="149" y="202" w="80" h="84" pX="0.488095" pY="0.4625" r="y"/>
+	<sprite n="BDE_left_hand" x="342" y="169" w="52" h="46" pX="0.480769" pY="0.26087"/>
+	<sprite n="BDE_left_leg" x="0" y="442" w="44" h="68" pX="0.318182" pY="0.911765"/>
+	<sprite n="BDE_left_lower_arm" x="397" y="50" w="100" h="50" pX="0.18" pY="0.54"/>
+	<sprite n="BDE_left_upper_arm" x="102" y="76" w="34" h="84" pX="0.833333" pY="0.529412" r="y"/>
+	<sprite n="BDE_right_foot" x="152" y="288" w="80" h="84" pX="0.52381" pY="0.4625" r="y"/>
+	<sprite n="BDE_right_hand1" x="286" y="169" w="54" h="46" pX="0.481481" pY="0.555556" oX="0" oY="8" oW="54" oH="54"/>
+	<sprite n="BDE_right_hand2" x="92" y="442" w="54" h="54" pX="0.481481" pY="0.555556"/>
+	<sprite n="BDE_right_hand3" x="231" y="202" w="53" h="54" pX="0.481481" pY="0.555556" oX="1" oY="0" oW="54" oH="54"/>
+	<sprite n="BDE_right_leg" x="46" y="442" w="44" h="68" pX="0.636364" pY="0.911765"/>
+	<sprite n="BDE_right_lower_arm" x="397" y="0" w="102" h="48" pX="0.458333" pY="0.0865385" oX="0" oY="0" oW="48" oH="104" r="y"/>
+	<sprite n="BDE_right_upper_arm" x="102" y="0" w="36" h="74" pX="0.851351" pY="0.444444" r="y"/>
+</TextureAtlas>

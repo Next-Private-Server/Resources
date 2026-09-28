@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5d8414df30c8c8c61fbf2fa0071730ef:f1da97c2fe53cb4763e18e3bddd28c21:ab9a40fcbd804e2ddef1ff9c73e253b4$ -->
+<TextureAtlas imagePath="gfx/menu/currency_sheet02.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="anniversary_deluxe" x="449" y="123" w="136" h="136"/>
+	<sprite n="anniversary_warmup" x="587" y="123" w="136" h="136"/>
+	<sprite n="bundle_12th_anniversary_01" x="725" y="132" w="136" h="136"/>
+	<sprite n="bundle_12th_anniversary_02" x="863" y="132" w="136" h="136"/>
+	<sprite n="bundle_bbno" x="0" y="82" w="135" h="134" oX="2" oY="1" oW="136" oH="136" r="y"/>
+	<sprite n="bundle_CG5" x="0" y="250" w="136" h="136"/>
+	<sprite n="bundle_clubbox_00" x="138" y="250" w="136" h="136"/>
+	<sprite n="bundle_clubtix_01" x="276" y="257" w="136" h="136"/>
+	<sprite n="bundle_cold_island_01" x="414" y="261" w="136" h="136"/>
+	<sprite n="bundle_eggstravaganza_01" x="552" y="261" w="136" h="136"/>
+	<sprite n="bundle_festival_of_yay_01" x="690" y="270" w="136" h="136"/>
+	<sprite n="bundle_island29_01" x="836" y="0" w="130" h="130" oX="26" oY="0" oW="180" oH="130"/>
+	<sprite n="bundle_island29_02" x="137" y="118" w="173" h="130" oX="7" oY="0" oW="180" oH="130"/>
+	<sprite n="bundle_jamboree" x="828" y="270" w="136" h="136"/>
+	<sprite n="bundle_plant_island_01" x="0" y="388" w="136" h="136"/>
+	<sprite n="bundle_tpain" x="138" y="388" w="136" h="136"/>
+	<sprite n="bundle_voidcorn" x="276" y="395" w="136" h="136"/>
+	<sprite n="bundle_weirdal" x="312" y="121" w="135" h="134" oX="2" oY="1" oW="136" oH="136" r="y"/>
+	<sprite n="keys_01" x="750" y="779" w="238" h="238" oX="9" oY="0" oW="248" oH="240"/>
+	<sprite n="keys_05" x="250" y="755" w="262" h="230" oX="1" oY="1" oW="264" oH="234"/>
+	<sprite n="no_ads_01" x="552" y="408" w="148" h="148" oX="50" oY="46" oW="248" oH="240"/>
+	<sprite n="promo_eggstravaganza_burst" x="483" y="0" w="180" h="121" oX="0" oY="4" oW="180" oH="130"/>
+	<sprite n="promo_Season_of_Love_burst" x="665" y="0" w="169" h="121" oX="5" oY="3" oW="180" oH="130"/>
+	<sprite n="relic_reliquary" x="0" y="526" w="214" h="185" oX="17" oY="5" oW="247" oH="193"/>
+	<sprite n="ticket_currency_packs_01" x="702" y="408" w="212" h="168" oX="25" oY="63" oW="256" oH="256"/>
+	<sprite n="ticket_currency_packs_02" x="216" y="537" w="229" h="195" oX="11" oY="38" oW="256" oH="256"/>
+	<sprite n="ticket_currency_packs_03" x="447" y="558" w="242" h="195" oX="6" oY="40" oW="256" oH="256"/>
+	<sprite n="ticket_currency_packs_04" x="691" y="578" w="246" h="199" oX="6" oY="30" oW="256" oH="256"/>
+	<sprite n="ticket_currency_packs_05" x="0" y="734" w="248" h="216" oX="8" oY="22" oW="256" oH="256"/>
+	<sprite n="ticket_currency_packs_06" x="38" y="0" w="119" h="80" oX="91" oY="71" oW="256" oH="256" r="y"/>
+	<sprite n="ticket_currency_packs_07" x="159" y="0" w="152" h="116" oX="62" oY="65" oW="256" oH="256" r="y"/>
+	<sprite n="ticket_currency_packs_08" x="514" y="779" w="234" h="232" oX="12" oY="14" oW="256" oH="256" r="y"/>
+	<sprite n="warm_up_01" x="414" y="399" w="136" h="136"/>
+	<sprite n="warm_up_02" x="313" y="0" w="168" h="119" oX="7" oY="3" oW="180" oH="130"/>
+	<sprite n="warm_up_star" x="0" y="0" w="36" h="35"/>
+</TextureAtlas>

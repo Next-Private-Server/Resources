@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7f853b1d87e9b8c2dfe14e93e0620c10:61984635868fea220d12f076360ce0b6:bdaa15980a5bd172164b826a2bb4605a$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABCEN_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="ABCEN_drummidary_base" x="0" y="0" w="406" h="163" />
+  <sprite n="ABCEN_drummidary_body" x="0" y="165" w="207" h="178" oX="26" oY="21" oW="260" oH="220" />
+  <sprite n="ABCEN_drummidary_drum" x="382" y="191" w="128" h="136" oX="0" oY="3" oW="140" oH="140" r="y" />
+  <sprite n="ABCEN_drummidary_drum_stick_epic" x="209" y="313" w="126" h="85" oX="0" oY="0" oW="126" oH="86" />
+  <sprite n="ABCEN_drummidary_drumhead_01" x="382" y="329" w="117" h="93" oX="4" oY="9" oW="120" oH="130" r="y" />
+  <sprite n="ABCEN_drummidary_drumhead_02" x="202" y="400" w="117" h="88" oX="13" oY="9" oW="120" oH="130" r="y" />
+  <sprite n="ABCEN_drummidary_drumhead_03" x="382" y="424" w="117" h="88" oX="19" oY="9" oW="120" oH="130" r="y" />
+  <sprite n="ABCEN_drummidary_eye" x="449" y="690" w="54" h="50" />
+  <sprite n="ABCEN_drummidary_eyelids_01_epic" x="337" y="375" w="42" h="44" oX="5" oY="2" oW="54" oH="50" />
+  <sprite n="ABCEN_drummidary_eyelids_02_epic" x="329" y="639" w="44" h="42" oX="5" oY="2" oW="54" oH="50" r="y" />
+  <sprite n="ABCEN_drummidary_eyelids_03_epic" x="329" y="683" w="44" h="42" oX="5" oY="2" oW="54" oH="50" r="y" />
+  <sprite n="ABCEN_drummidary_eyelids_04_epic" x="445" y="742" w="44" h="42" oX="5" oY="2" oW="54" oH="50" r="y" />
+  <sprite n="ABCEN_drummidary_eyelids_05_epic" x="162" y="682" w="44" h="42" oX="5" oY="2" oW="54" oH="50" r="y" />
+  <sprite n="ABCEN_drummidary_head" x="209" y="165" w="171" h="146" oX="24" oY="18" oW="200" oH="200" r="y" />
+  <sprite n="ABCEN_drummidary_jaw" x="287" y="557" w="86" h="80" oX="0" oY="0" oW="86" oH="83" />
+  <sprite n="ABCEN_drummidary_left_back_foot_epic" x="375" y="700" w="68" h="50" oX="2" oY="0" oW="70" oH="50" />
+  <sprite n="ABCEN_drummidary_left_back_midleg_epic" x="0" y="619" w="82" h="68" />
+  <sprite n="ABCEN_drummidary_left_back_upper_leg" x="321" y="471" w="56" h="84" oX="1" oY="2" oW="90" oH="60" r="y" />
+  <sprite n="ABCEN_drummidary_left_claw_rare" x="379" y="514" w="116" h="70" r="y" />
+  <sprite n="ABCEN_drummidary_left_forearm" x="452" y="586" w="60" h="61" oX="22" oY="21" oW="100" oH="100" />
+  <sprite n="ABCEN_drummidary_left_middle_foot_epic" x="90" y="586" w="84" h="64" oX="5" oY="0" oW="72" oH="84" r="y" />
+  <sprite n="ABCEN_drummidary_left_middle_foot_epic_2" x="0" y="445" w="98" h="62" r="y" />
+  <sprite n="ABCEN_drummidary_left_middle_midleg_epic" x="375" y="586" w="75" h="60" oX="4" oY="0" oW="80" oH="60" />
+  <sprite n="ABCEN_drummidary_left_middle_upper_leg_EPIC" x="0" y="509" w="89" h="52" oX="0" oY="4" oW="89" oH="60" />
+  <sprite n="ABCEN_drummidary_left_thumb" x="197" y="556" w="88" h="48" r="y" />
+  <sprite n="ABCEN_drummidary_left_upperarm_epic" x="100" y="445" w="98" h="49" oX="1" oY="1" oW="50" oH="100" r="y" />
+  <sprite n="ABCEN_drummidary_left_wrist_epic" x="408" y="0" w="104" h="110" r="y" />
+  <sprite n="ABCEN_drummidary_neck" x="408" y="112" w="104" h="77" oX="11" oY="8" oW="100" oH="120" r="y" />
+  <sprite n="ABCEN_drummidary_pupil" x="382" y="165" w="18" h="18" oX="3" oY="3" oW="24" oH="24" />
+  <sprite n="ABCEN_drummidary_right_claw_epic" x="200" y="490" w="96" h="64" r="y" />
+  <sprite n="ABCEN_drummidary_right_forearm" x="0" y="563" w="88" h="54" oX="4" oY="5" oW="100" oH="70" />
+  <sprite n="ABCEN_drummidary_right_middle_foot_epic" x="449" y="649" w="61" h="39" oX="4" oY="1" oW="44" oH="64" r="y" />
+  <sprite n="ABCEN_drummidary_right_middle_midleg_epic" x="337" y="313" w="43" h="60" oX="0" oY="7" oW="60" oH="60" r="y" />
+  <sprite n="ABCEN_drummidary_right_middle_upper_leg" x="0" y="689" w="76" h="55" r="y" />
+  <sprite n="ABCEN_drummidary_right_thumb" x="321" y="421" w="59" h="48" oX="11" oY="1" oW="60" oH="60" r="y" />
+  <sprite n="ABCEN_drummidary_right_upper_arm" x="375" y="648" w="72" h="50" oX="4" oY="5" oW="60" oH="80" r="y" />
+  <sprite n="ABCEN_drummidary_right_wrist" x="100" y="496" w="95" h="88" oX="1" oY="5" oW="100" oH="100" />
+  <sprite n="ABCEN_drummidary_sand_1" x="254" y="639" w="73" h="72" oX="0" oY="1" oW="74" oH="76" />
+  <sprite n="ABCEN_drummidary_sand_2" x="176" y="606" w="76" h="74" r="y" />
+  <sprite n="ABCEN_drummidary_sand_3" x="84" y="652" w="76" h="72" oX="0" oY="0" oW="74" oH="76" r="y" />
+  <sprite n="ABCEN_drummidary_shadow" x="0" y="345" w="200" h="98" oX="0" oY="1" oW="200" oH="100" />
+</TextureAtlas>

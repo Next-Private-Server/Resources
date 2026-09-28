@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/BattleObjectInfo.lua"/>
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.5" />
+		<templateVar name="$layer" equals="PopUps" />
+		<templateVar name="$priority" equals="10" />
+	</template>
+
+	<element name="InfoFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="-26*game.menuScaleY()" priorityOffset="9" />
+		<ninesliceComponent name="Sprite">
+			<size w="291*game.menuScaleX()" h="200*game.menuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</ninesliceComponent>
+		<swipeComponent name="Swiper" />
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="BlackCover">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="InfoFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="265*game.menuScaleX()" h="24*game.menuScaleX()" />
+		</ninesliceComponent>
+	</element>
+
+	<element name="InfoContent">
+		<size w="225*game.menuScaleX()" h="126*game.menuScaleY()" />
+		<position relativeTo="InfoFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="225*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component:setColor(0.9, 0.9, 0.9)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString(game.objectDescription())
+				component("layer"):SetString("Clipping")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="ScrollBar">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="InfoContent" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="10*game.hudScale()" yOffset="-10*game.hudScale()" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite" />
+	</element>
+
+	<element name="ScrollMarker">
+		<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
+		<position relativeTo="ScrollBar" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="5*game.menuScaleY()" priorityOffset="-1" />
+		<spriteSheetComponent name="Marker" />
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="FadeSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="BlackCover" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-1" priorityOffset="0" />
+		<spriteComponent name="Sprite" />
+	</element>
+
+	<element name="BotFadeSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="InfoFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="9*game.menuScaleY()" priorityOffset="-5" />
+		<spriteComponent name="Sprite" />
+	</element>
+
+	<element name="RightFadeSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="InfoFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="1" yOffset="-60*game.menuScaleY()" priorityOffset="-5" />
+		<spriteComponent name="Sprite" />
+	</element>
+
+	<element name="LeftFadeSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="InfoFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="1" yOffset="-60*game.menuScaleY()" priorityOffset="-5" />
+		<spriteComponent name="Sprite" />
+	</element>
+
+	<template type="template_panel_decorated" name="ImageFrame">
+		<templateVar name="$layer" equals="PopUps" />
+		<size w="140*game.menuScaleX()" h="180*game.menuScaleY()" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="lua_sys.screenWidth()" yOffset="-37*game.menuScaleY()" priorityOffset="9" />
+	</template>
+	
+	<element name="Animation">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="ImageFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<aeComponent name="Sprite" />
+	</element>
+	
+	<element name="TimeRemainingText">
+		<size w="120*game.menuScaleX()" h="35*game.menuScaleY()" />
+		<position relativeTo="ImageFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleY()" priorityOffset="-4" />
+		<textComponent name="AvailableUntil">
+			<size dependentOnElement="element:name()"/>
+		</textComponent>
+		<textComponent name="TimerText">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="5*game.menuScaleY()" priorityOffset="0" />
+		</textComponent>
+	</element>
+	
+	<element name="ImageTitle">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="ImageFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="10*game.hudScale()" priorityOffset="-4" />
+		<event name="onInit" params="element">
+			element:SetupGenericListener( game.engineReceiver(), "game::msg::MsgRequestNameMonster", "gotMsgRequestNameMonster" )
+		</event>
+		<spriteSheetComponent name="Sprite" />
+		<textComponent name="Text">
+			<size w="114*game.menuScaleX()" h="30*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				if(game.selectedObjIsMonster()) then
+					component("multiline"):SetInt(0)
+					component("noTranslate"):SetInt(1)
+				else
+					component("multiline"):SetInt(1)
+				end
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("size"):SetFloat(0.35*game.hudScale())
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString(game.objectName())
+				component("layer"):SetString("PopUps")
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()"/>
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="StatsList">
+		<size w="225*game.menuScaleX()" h="126*game.menuScaleY()" />
+		<position relativeTo="InfoFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-1" />
+		<event name="onInit" params="element">
+			<![CDATA[
+				--same as object_info_underling:
+			
+			
+				element.NumStats = 0
+
+				local objType = game.selectedObjType()
+
+				if(game.isObjectSelected()) then
+					element:populateMonsterStats()
+				end
+
+				element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgMonsterUpdated", "gotMsgMonsterUpdated")
+			]]>
+		</event>
+		<event name="populateMonsterStats" params="element">
+		<![CDATA[
+			local previous = nil
+
+			local statsArray = {
+				"template_stat_species",
+				"template_stat_class",
+				"template_stat_beds",
+				"template_stat_battle_power",
+				"template_stat_battle_stamina",
+				"template_stat_sellprice"
+			}
+
+			for i=1, #statsArray do
+				local statEntry = element:GetElement("statEntry"..i)
+				if(statEntry == nil) then
+					statEntry = menu:addTemplateElement(statsArray[i], "statEntry"..i, element)
+
+					if(previous == nil) then
+						statEntry:relativeTo(element)
+						statEntry:setOrientation(lua_sys.MenuOrientation(0, 0, -2, lua_sys.HCENTER, lua_sys.TOP))
+						statEntry:setRelativeObjectAnchors(lua_sys.HCENTER, lua_sys.TOP)
+					else
+						statEntry:relativeTo(previous)
+						statEntry:setOrientation(lua_sys.MenuOrientation(0, 0, 0, lua_sys.HCENTER, lua_sys.TOP))
+						statEntry:setRelativeObjectAnchors(lua_sys.HCENTER, lua_sys.BOTTOM)
+					end
+
+					previous = statEntry
+
+					statEntry:init()
+					statEntry:setPositionBroadcast(true)
+				else
+					statEntry:repopulate()
+				end
+			end
+
+			element.NumStats = #statsArray
+			]]>
+		</event>
+	</element>
+
+	<element name="MovesList">
+		<size w="225*game.menuScaleX()" h="126*game.menuScaleY()" />
+		<position relativeTo="InfoFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-1" />
+		<event name="onInit" params="element">
+			<![CDATA[
+				element.NumEntries = 0
+				element:populate()
+			]]>
+		</event>
+
+		<event name="populate" params="element">
+			<![CDATA[
+				local previous = nil
+
+				local uniqueMonsterId = game.selectedMonsterId()
+				local currentMonsterType = game.monsterTypeId(uniqueMonsterId)
+				local currentMonsterLevel = game.monsterLevel(uniqueMonsterId)
+				local actions = game.getBattleMonsterActions(uniqueMonsterId)
+
+				for i=0, actions:size() - 1 do
+
+					print("Creating Action")
+
+					entry = menu:addTemplateElement("template_battle_action_stat", "entry"..i, element)
+
+					if(previous == nil) then
+						entry:relativeTo(element)
+						entry:setOrientation(lua_sys.MenuOrientation(0, 0, -2, lua_sys.HCENTER, lua_sys.TOP))
+						entry:setRelativeObjectAnchors(lua_sys.HCENTER, lua_sys.TOP)
+					else
+						entry:relativeTo(previous)
+						entry:setOrientation(lua_sys.MenuOrientation(0, 0, 0, lua_sys.HCENTER, lua_sys.TOP))
+						entry:setRelativeObjectAnchors(lua_sys.HCENTER, lua_sys.BOTTOM)
+					end
+
+					local action = actions[i]
+					local actionUnlockLevel = action:unlockLevel(i)
+					local isLocked = currentMonsterLevel < actionUnlockLevel
+					if isLocked then
+						entry("IsLocked"):SetInt(1)
+						entry("UnlockLevel"):SetInt(actionUnlockLevel)
+					else
+						entry("IsLocked"):SetInt(0)
+						entry("IconSprite"):SetString(action:getIconSprite())
+						entry("IconSpriteSheet"):SetString(action:getIconSpriteSheet())
+						entry("ActionName"):SetString(action.name)
+						entry("ActionTypeName"):SetString(action:getDamageTypeString())
+						entry("PowerValue"):SetInt(action:power(currentMonsterType, currentMonsterLevel))
+					end
+
+					previous = entry
+
+					entry:init()
+					entry:setPositionBroadcast(true)
+					entry:postInit()
+
+				end
+
+				element.NumEntries = actions:size()
+			]]>
+		</event>
+
+		<event name="showMoves" params="element">
+			<![CDATA[
+			
+				for i=0, element.NumEntries-1 do
+					local entry = element:GetElement("entry"..i)
+
+					if(entry ~= nil) then
+						entry:setVisible()
+					end
+				end
+			]]>
+		</event>
+		<event name="hideMoves" params="element">
+			<![CDATA[
+			
+				for i=0, element.NumEntries-1 do
+					local entry = element:GetElement("entry"..i)
+
+					if(entry ~= nil) then
+						entry:setInvisible()
+					end
+				end
+			]]>
+		</event>
+	</element>
+
+	<!-- buttons -->
+
+	<template type="template_spritesheetbutton" name="BioButton">
+		<templateVar name="$upSpriteName" equals="'button_long_green@2x'" />
+		<templateVar name="$downSpriteName" equals="'button_long_grey@2x'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
+		<templateVar name="$layer" equals="ContextBar" />
+		<position relativeTo="InfoFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="10*game.menuScaleX()" priorityOffset="-2" />
+		<textComponent name="Label">
+			<size w="67*game.menuScaleX()" h="18*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-3*game.hudScale()" priorityOffset="-2" />
+		</textComponent>
+		<touchComponent name="Touch" />
+	</template>
+
+	<template type="template_spritesheetbutton" name="StatsButton">
+		<templateVar name="$upSpriteName" equals="'button_long_green@2x'" />
+		<templateVar name="$downSpriteName" equals="'button_long_grey@2x'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
+		<templateVar name="$layer" equals="ContextBar" />
+		<position relativeTo="InfoFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="10*game.menuScaleX()" priorityOffset="-2" />
+		<textComponent name="Label">
+			<size w="60*game.menuScaleX()" h="30*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-3*game.hudScale()" priorityOffset="-1" />
+		</textComponent>
+		<touchComponent name="Touch" />
+	</template>
+
+	<template type="template_spritesheetbutton" name="MovesButton">
+		<templateVar name="$upSpriteName" equals="'button_long_green@2x'" />
+		<templateVar name="$downSpriteName" equals="'button_long_grey@2x'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
+		<templateVar name="$layer" equals="ContextBar" />
+		<position relativeTo="InfoFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="10*game.menuScaleX()" priorityOffset="-2" />
+		<textComponent name="Label">
+			<size w="60*game.menuScaleX()" h="30*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-3*game.hudScale()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					local txt = game.getLocalizedText("BATTLE_STATS_MOVES")
+					local x, y = txt:find("%s")
+					if(x == nil) then
+					component("multiline"):SetInt(0)
+					else
+					component("multiline"):SetInt(1)
+					end
+					component("autoScale"):SetInt(1)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.3*game.hudScale())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString(txt)
+					component("layer"):SetString("ContextBar")
+				]]>
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element:parent().currentView = 2
+				element:parent():refreshView()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element:parent().currentView = 2
+				element:parent():refreshView()
+			</event>
+		</touchComponent>
+	</template>
+
+</menu>

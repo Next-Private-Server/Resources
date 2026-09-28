@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:968a520fb8c75805df90884b6b8b0c3a:6fe36b0dc81370e6841f825ffcd4104c:e71c03fa4473a3cda120a78d700e9cc2$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I13_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="I13_maj_antenna_01" x="150" y="454" w="111" h="26" oX="4" oY="4" oW="30" oH="120" r="y"/>
+	<sprite n="I13_maj_antenna_02" x="1002" y="274" w="19" h="85" oX="0" oY="3" oW="20" oH="90"/>
+	<sprite n="I13_maj_antenna_03" x="588" y="514" w="100" h="36" oX="2" oY="0" oW="40" oH="100" r="y"/>
+	<sprite n="I13_maj_bell_A" x="181" y="867" w="57" h="58" oX="1" oY="2" oW="60" oH="60" r="y"/>
+	<sprite n="I13_maj_bell_B" x="214" y="803" w="45" h="56" oX="0" oY="8" oW="60" oH="60" r="y"/>
+	<sprite n="I13_maj_bell_C" x="232" y="984" w="35" h="40" oX="9" oY="14" oW="60" oH="60" r="y"/>
+	<sprite n="I13_maj_bell_D" x="67" y="817" w="48" h="49" oX="5" oY="8" oW="60" oH="60" r="y"/>
+	<sprite n="I13_maj_bell_E" x="117" y="817" w="45" h="49" oX="7" oY="9" oW="60" oH="60" r="y"/>
+	<sprite n="I13_maj_bell_F" x="194" y="984" w="36" h="40" oX="13" oY="10" oW="60" oH="60" r="y"/>
+	<sprite n="I13_maj_clawA_01" x="837" y="227" w="163" h="87" oX="23" oY="22" oW="150" oH="200" r="y"/>
+	<sprite n="I13_maj_clawB_01" x="457" y="239" w="46" h="114" oX="75" oY="50" oW="150" oH="200"/>
+	<sprite n="I13_maj_clawC_01" x="751" y="358" w="84" h="49" oX="9" oY="9" oW="70" oH="100" r="y"/>
+	<sprite n="I13_maj_extraB_01" x="262" y="559" w="28" h="55" oX="9" oY="7" oW="50" oH="70"/>
+	<sprite n="I13_maj_eyeball_01" x="164" y="817" w="48" h="48" oX="11" oY="11" oW="70" oH="70"/>
+	<sprite n="I13_maj_eyelid_01" x="188" y="745" w="65" h="56" oX="6" oY="5" oW="70" oH="70" r="y"/>
+	<sprite n="I13_maj_eyelid_02" x="0" y="812" w="65" h="56" oX="6" oY="5" oW="70" oH="70" r="y"/>
+	<sprite n="I13_maj_eyelid_03" x="0" y="870" w="56" h="65" oX="6" oY="5" oW="70" oH="70"/>
+	<sprite n="I13_maj_eyelid_04" x="203" y="619" w="57" h="65" oX="5" oY="5" oW="70" oH="70"/>
+	<sprite n="I13_maj_eyestalk_01" x="747" y="579" w="68" h="26" oX="2" oY="2" oW="30" oH="70" r="y"/>
+	<sprite n="I13_maj_eyestalk_02" x="262" y="673" w="27" h="94" oX="3" oY="3" oW="30" oH="100"/>
+	<sprite n="I13_maj_eyestalk_02_SHORTER" x="999" y="361" w="25" h="80" oX="2" oY="0" oW="30" oH="80"/>
+	<sprite n="I13_maj_eyestalk_03" x="291" y="686" w="94" h="27" oX="3" oY="3" oW="30" oH="100" r="y"/>
+	<sprite n="I13_maj_footA_01" x="505" y="336" w="88" h="43" oX="15" oY="8" oW="70" oH="100" r="y"/>
+	<sprite n="I13_maj_footB_01" x="0" y="684" w="92" h="43" oX="11" oY="7" oW="70" oH="100" r="y"/>
+	<sprite n="I13_maj_footC_01" x="420" y="471" w="83" h="40" oX="13" oY="7" oW="70" oH="100" r="y"/>
+	<sprite n="I13_maj_forearmA_01" x="156" y="248" w="140" h="64" oX="19" oY="12" oW="100" oH="160" r="y"/>
+	<sprite n="I13_maj_forearmB_01" x="391" y="650" w="94" h="41" oX="9" oY="4" oW="60" oH="100" r="y"/>
+	<sprite n="I13_maj_hipA_01" x="505" y="381" w="86" h="29" oX="11" oY="12" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_hipB_01" x="94" y="728" w="92" h="26" oX="12" oY="9" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_hipC_01" x="505" y="412" w="86" h="29" oX="11" oY="12" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_midarmA_01" x="751" y="409" w="84" h="47" oX="9" oY="8" oW="70" oH="100" r="y"/>
+	<sprite n="I13_maj_midarmB_01" x="116" y="933" w="37" h="59" oX="6" oY="5" oW="50" oH="70"/>
+	<sprite n="I13_maj_pupil_01" x="1002" y="227" w="22" h="22" oX="1" oY="1" oW="24" oH="24"/>
+	<sprite n="I13_maj_shell_back" x="301" y="0" w="293" h="162" oX="41" oY="9" oW="370" oH="330"/>
+	<sprite n="I13_maj_shell_front" x="0" y="0" w="299" h="246" oX="37" oY="75" oW="370" oH="330"/>
+	<sprite n="I13_maj_shinA_01" x="297" y="475" w="105" h="43" oX="4" oY="3" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_shinB_01" x="391" y="609" w="97" h="39" oX="9" oY="5" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_shinC_01" x="0" y="520" w="105" h="43" oX="4" oY="3" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_thighA_01" x="504" y="538" w="70" h="43" oX="2" oY="22" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_thighB_01" x="749" y="507" w="80" h="34" oX="7" oY="15" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_thighC_01" x="675" y="553" w="70" h="42" oX="3" oY="22" oW="50" oH="110" r="y"/>
+	<sprite n="I13_maj_upperarmA_01" x="420" y="361" w="35" h="92" oX="8" oY="5" oW="50" oH="100"/>
+	<sprite n="I13_maj_upperarmB_01" x="263" y="454" w="32" h="103" oX="8" oY="10" oW="50" oH="120"/>
+	<sprite n="I13_maj_upperarmB_01_FLIPPED" x="592" y="480" w="103" h="32" oX="8" oY="10" oW="50" oH="120" r="y"/>
+	<sprite n="I13_min_antenna_01" x="150" y="482" w="111" h="26" oX="4" oY="4" oW="30" oH="120" r="y"/>
+	<sprite n="I13_min_antenna_02" x="505" y="474" w="85" h="19" oX="0" oY="3" oW="20" oH="90" r="y"/>
+	<sprite n="I13_min_antenna_03" x="402" y="571" w="100" h="36" oX="2" oY="0" oW="40" oH="100" r="y"/>
+	<sprite n="I13_min_barrel_back" x="301" y="164" w="202" h="73" oX="82" oY="57" oW="370" oH="330"/>
+	<sprite n="I13_min_barrel_front" x="596" y="130" w="239" h="226" oX="64" oY="80" oW="370" oH="330" r="y"/>
+	<sprite n="I13_min_barrel_front_overlap" x="194" y="927" w="45" h="55" oX="122" oY="239" oW="370" oH="330"/>
+	<sprite n="I13_min_barrel_guts01" x="301" y="239" w="154" h="120" oX="121" oY="141" oW="370" oH="330" r="y"/>
+	<sprite n="I13_min_barrel_guts02" x="595" y="358" w="154" h="120" oX="121" oY="141" oW="370" oH="330" r="y"/>
+	<sprite n="I13_min_barrel_guts03" x="837" y="472" w="154" h="120" oX="121" oY="141" oW="370" oH="330" r="y"/>
+	<sprite n="I13_min_barrel_guts04" x="0" y="248" w="154" h="120" oX="121" oY="141" oW="370" oH="330" r="y"/>
+	<sprite n="I13_min_clawA_01" x="842" y="0" w="175" h="118" oX="17" oY="22" oW="200" oH="200" r="y"/>
+	<sprite n="I13_min_clawB_01" x="457" y="355" w="46" h="114" oX="100" oY="50" oW="200" oH="200"/>
+	<sprite n="I13_min_clawC_01" x="94" y="756" w="91" h="59" oX="9" oY="9" oW="70" oH="100" r="y"/>
+	<sprite n="I13_min_drum" x="150" y="510" w="110" h="107" oX="6" oY="5" oW="120" oH="120" r="y"/>
+	<sprite n="I13_min_extraB_01" x="262" y="616" w="28" h="55" oX="9" oY="7" oW="50" oH="70"/>
+	<sprite n="I13_min_eyeball_01" x="240" y="861" w="48" h="48" oX="11" oY="11" oW="70" oH="70"/>
+	<sprite n="I13_min_eyelid_01" x="0" y="937" w="56" h="65" oX="6" oY="5" oW="70" oH="70"/>
+	<sprite n="I13_min_eyelid_02" x="58" y="870" w="56" h="65" oX="6" oY="5" oW="70" oH="70"/>
+	<sprite n="I13_min_eyelid_03" x="58" y="937" w="56" h="65" oX="6" oY="5" oW="70" oH="70"/>
+	<sprite n="I13_min_eyelid_04" x="192" y="686" w="65" h="57" oX="5" oY="5" oW="70" oH="70" r="y"/>
+	<sprite n="I13_min_eyestalk_01" x="675" y="597" w="68" h="26" oX="2" oY="2" oW="30" oH="70" r="y"/>
+	<sprite n="I13_min_eyestalk_02" x="0" y="655" w="94" h="27" oX="3" oY="3" oW="30" oH="100" r="y"/>
+	<sprite n="I13_min_eyestalk_02_SHORTER" x="999" y="443" w="25" h="80" oX="2" oY="0" oW="30" oH="80"/>
+	<sprite n="I13_min_eyestalk_03" x="96" y="662" w="94" h="27" oX="3" oY="3" oW="30" oH="100" r="y"/>
+	<sprite n="I13_min_footA_01" x="0" y="757" w="90" h="53" oX="5" oY="6" oW="70" oH="100" r="y"/>
+	<sprite n="I13_min_footB_01" x="404" y="513" w="98" h="56" oX="0" oY="2" oW="70" oH="100" r="y"/>
+	<sprite n="I13_min_footC_01" x="505" y="285" w="89" h="49" oX="5" oY="1" oW="70" oH="100" r="y"/>
+	<sprite n="I13_min_forearmA_01" x="156" y="314" w="140" h="63" oX="19" oY="12" oW="100" oH="160" r="y"/>
+	<sprite n="I13_min_forearmB_01" x="107" y="619" w="94" h="41" oX="9" oY="4" oW="60" oH="100" r="y"/>
+	<sprite n="I13_min_hipA_01" x="505" y="443" w="86" h="29" oX="11" oY="12" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_hipB_01" x="0" y="729" w="92" h="26" oX="12" oY="9" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_hipC_01" x="993" y="525" w="29" h="86" oX="11" oY="12" oW="50" oH="110"/>
+	<sprite n="I13_min_lamp_bar" x="505" y="495" w="81" h="41" oX="3" oY="2" oW="90" oH="50"/>
+	<sprite n="I13_min_lamp_head" x="576" y="552" w="97" h="90" oX="3" oY="7" oW="100" oH="100"/>
+	<sprite n="I13_min_metal_disc" x="298" y="361" w="120" h="112" oX="0" oY="0" oW="120" oH="120" r="y"/>
+	<sprite n="I13_min_midarmA_01" x="751" y="458" w="84" h="47" oX="9" oY="8" oW="70" oH="100" r="y"/>
+	<sprite n="I13_min_midarmB_01" x="155" y="933" w="37" h="59" oX="6" oY="5" oW="50" oH="70"/>
+	<sprite n="I13_min_pupil_01" x="1002" y="251" w="22" h="21" oX="2" oY="1" oW="24" oH="24" r="y"/>
+	<sprite n="I13_min_saw_back" x="697" y="480" w="50" h="71" oX="35" oY="8" oW="110" oH="210" r="y"/>
+	<sprite n="I13_min_saw_front" x="842" y="120" w="174" h="105" oX="5" oY="30" oW="110" oH="210" r="y"/>
+	<sprite n="I13_min_shinA_01" x="0" y="565" w="105" h="43" oX="4" oY="3" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_shinB_01" x="107" y="520" w="41" h="97" oX="7" oY="5" oW="50" oH="110"/>
+	<sprite n="I13_min_shinC_01" x="0" y="610" w="105" h="43" oX="4" oY="3" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_thighA_01" x="504" y="583" w="70" h="43" oX="2" oY="22" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_thighB_01" x="749" y="543" w="80" h="34" oX="7" oY="15" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_thighC_01" x="490" y="628" w="70" h="42" oX="3" oY="22" oW="50" oH="110" r="y"/>
+	<sprite n="I13_min_tire_back" x="505" y="164" w="89" h="119" oX="6" oY="6" oW="100" oH="130"/>
+	<sprite n="I13_min_tire_front" x="150" y="379" w="119" h="73" oX="0" oY="6" oW="100" oH="130" r="y"/>
+	<sprite n="I13_min_upperarmA_01" x="94" y="691" w="92" h="35" oX="8" oY="5" oW="50" oH="100" r="y"/>
+	<sprite n="I13_min_upperarmB_01" x="297" y="520" w="103" h="32" oX="8" oY="10" oW="50" oH="120" r="y"/>
+	<sprite n="I13_min_upperarmB_01_FLIPPED" x="297" y="554" w="103" h="32" oX="8" oY="10" oW="50" oH="120" r="y"/>
+	<sprite n="I13_min_urn" x="837" y="316" w="160" h="154" oX="3" oY="4" oW="160" oH="170" r="y"/>
+	<sprite n="I13_shadow" x="596" y="0" w="244" h="128" oX="3" oY="2" oW="250" oH="130"/>
+	<sprite n="I13_sound_glow" x="292" y="588" w="97" h="96" oX="0" oY="2" oW="100" oH="100"/>
+	<sprite n="I13_sound_ring" x="116" y="868" w="63" h="63" oX="4" oY="4" oW="70" oH="70"/>
+	<sprite n="I13_sound_rings" x="0" y="370" w="148" h="148" oX="12" oY="12" oW="170" oH="170"/>
+</TextureAtlas>

@@ -1,0 +1,30 @@
+<template name="template_breeding_torches" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+    <script src="scripts/BreedingV2/BreedingTorches.lua"/>
+    
+    <defaultTemplateVar name="$targetWidth" equals="220 * BreedingMenuScaleX()"/>
+    <defaultTemplateVar name="$targetHeight" equals="32 * BreedingMenuScaleX()"/>
+    <defaultTemplateVar name="$torchScale" equals="0.35 * BreedingMenuScaleX()"/>
+    <defaultTemplateVar name="$torchSpacing" equals="4 * BreedingMenuScaleX()"/>
+
+    <size dependentOnElement="element:name()" dependentOnComponent="BG" />
+
+    <spriteComponent name="BG">
+        <event name="onInit" params="component, element">
+            <![CDATA[
+                component("spriteName"):SetString("gfx/menu/wooden_plank")
+                component("visible"):SetInt(1)
+                local targetWidth = $targetWidth
+                local targetHeight = $targetHeight
+                component:setScale(Vector2(targetWidth/652, targetHeight/86))
+                component("layer"):SetString("MidPopUps")
+            ]]>
+        </event>
+    </spriteComponent>
+    
+    <touchComponent name="Touch">
+        <size dependentOnElement="element:name()" />
+    </touchComponent>
+
+</template>
+	

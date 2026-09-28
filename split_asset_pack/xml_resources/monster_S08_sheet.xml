@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9395312545b3d3fa6a66f959f3842e74:c0a035db5550bfdc5cfcae5a52f644a6:19e9be0ee769ac86ad00c229358d873b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_S08_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="S08_bird_01" x="93" y="513" w="45" h="36" oX="14" oY="7" oW="52" oH="56" r="y"/>
+	<sprite n="S08_bird_02" x="513" y="512" w="46" h="37" oX="14" oY="6" oW="52" oH="56" r="y"/>
+	<sprite n="S08_bird_03" x="237" y="405" w="47" h="52" oX="3" oY="2" oW="52" oH="56"/>
+	<sprite n="S08_bird_04" x="93" y="459" w="45" h="52" oX="5" oY="2" oW="52" oH="56"/>
+	<sprite n="S08_body" x="289" y="142" w="166" h="141" oX="5" oY="3" oW="176" oH="148"/>
+	<sprite n="S08_bunny_01" x="589" y="462" w="50" h="47" oX="6" oY="12" oW="64" oH="64"/>
+	<sprite n="S08_bunny_02" x="694" y="397" w="52" h="51" oX="6" oY="10" oW="64" oH="64"/>
+	<sprite n="S08_bunny_03" x="694" y="274" w="53" h="52" oX="6" oY="7" oW="64" oH="64"/>
+	<sprite n="S08_bunny_04" x="382" y="459" w="56" h="49" oX="3" oY="8" oW="64" oH="64"/>
+	<sprite n="S08_bunny_05" x="589" y="409" w="52" h="51" oX="6" oY="9" oW="64" oH="64"/>
+	<sprite n="S08_bunny_06" x="90" y="551" w="48" h="50" oX="8" oY="10" oW="64" oH="64"/>
+	<sprite n="S08_bunny_07" x="693" y="450" w="51" h="47" oX="8" oY="11" oW="64" oH="64" r="y"/>
+	<sprite n="S08_dragon_01" x="253" y="282" w="33" h="24" oX="30" oY="61" oW="108" oH="100"/>
+	<sprite n="S08_dragon_02" x="253" y="308" w="32" h="48" oX="26" oY="54" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_03" x="457" y="278" w="71" h="48" oX="15" oY="15" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_04" x="383" y="406" w="67" h="51" oX="12" oY="19" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_05" x="713" y="139" w="35" h="71" oX="26" oY="52" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_06" x="457" y="240" w="72" h="36" oX="26" oY="54" oW="108" oH="100"/>
+	<sprite n="S08_dragon_07" x="457" y="189" w="73" h="49" oX="30" oY="15" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_08" x="457" y="142" w="75" h="45" oX="30" oY="13" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_09" x="947" y="0" w="77" h="45" oX="27" oY="11" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_10" x="0" y="579" w="62" h="54" oX="16" oY="24" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_11" x="97" y="420" w="41" h="37" oX="26" oY="49" oW="108" oH="100"/>
+	<sprite n="S08_dragon_12" x="563" y="470" w="24" h="41" oX="26" oY="62" oW="108" oH="100" r="y"/>
+	<sprite n="S08_dragon_13" x="896" y="438" w="20" h="14" oX="40" oY="69" oW="108" oH="100"/>
+	<sprite n="S08_dragon_wing_01" x="489" y="496" w="22" h="24" oX="59" oY="80" oW="92" oH="124"/>
+	<sprite n="S08_dragon_wing_02" x="0" y="451" w="91" h="65" oX="16" oY="13" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_03" x="0" y="387" w="95" h="62" oX="20" oY="9" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_04" x="457" y="328" w="70" h="58" oX="11" oY="46" oW="92" oH="124"/>
+	<sprite n="S08_dragon_wing_05" x="140" y="516" w="65" h="40" oX="41" oY="53" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_06" x="694" y="328" w="52" h="67" oX="29" oY="48" oW="92" oH="124"/>
+	<sprite n="S08_dragon_wing_07" x="947" y="47" w="76" h="72" oX="8" oY="30" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_08" x="140" y="439" w="81" h="54" oX="25" oY="27" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_09" x="286" y="488" w="56" h="44" oX="34" oY="55" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_10" x="713" y="248" w="34" h="24" oX="59" oY="77" oW="92" oH="124" r="y"/>
+	<sprite n="S08_dragon_wing_11" x="896" y="454" w="15" h="17" oX="65" oY="86" oW="92" oH="124"/>
+	<sprite n="S08_dress_flowers_A" x="376" y="510" w="44" h="44" oX="2" oY="4" oW="48" oH="48"/>
+	<sprite n="S08_dress_flowers_B" x="513" y="470" w="48" h="40" oX="3" oY="0" oW="48" oH="48" r="y"/>
+	<sprite n="S08_dress_flowers_C" x="440" y="496" w="47" h="46" oX="2" oY="1" oW="48" oH="48" r="y"/>
+	<sprite n="S08_eyelids_01" x="288" y="285" w="95" h="37" oX="5" oY="4" oW="104" oH="44"/>
+	<sprite n="S08_eyelids_02" x="287" y="324" w="95" h="37" oX="5" oY="4" oW="104" oH="44"/>
+	<sprite n="S08_eyelids_03" x="286" y="363" w="95" h="37" oX="5" oY="4" oW="104" oH="44"/>
+	<sprite n="S08_eyelids_04" x="286" y="402" w="95" h="37" oX="5" oY="4" oW="104" oH="44"/>
+	<sprite n="S08_finger_A" x="64" y="544" w="24" h="61" oX="3" oY="4" oW="68" oH="32" r="y"/>
+	<sprite n="S08_finger_B" x="919" y="267" w="23" h="57" oX="5" oY="4" oW="68" oH="32" r="y"/>
+	<sprite n="S08_finger_C" x="113" y="367" w="26" h="51" oX="4" oY="5" oW="60" oH="36" r="y"/>
+	<sprite n="S08_hair" x="750" y="95" w="192" h="170" oX="6" oY="5" oW="204" oH="180"/>
+	<sprite n="S08_hair_back" x="944" y="121" w="75" h="166" oX="5" oY="0" oW="176" oH="80" r="y"/>
+	<sprite n="S08_hair_flowers" x="385" y="285" w="70" h="70" oX="2" oY="2" oW="72" oH="72"/>
+	<sprite n="S08_head" x="919" y="326" w="101" h="146" oX="7" oY="3" oW="160" oH="108" r="y"/>
+	<sprite n="S08_head_leaf_left" x="253" y="358" w="31" h="26" oX="2" oY="5" oW="36" oH="36"/>
+	<sprite n="S08_head_leaf_right" x="64" y="518" w="26" h="24" oX="6" oY="5" oW="36" oH="36" r="y"/>
+	<sprite n="S08_leaf" x="344" y="488" w="30" h="23" oX="1" oY="4" oW="32" oH="32"/>
+	<sprite n="S08_leaves_01" x="289" y="0" w="248" h="140" oX="4" oY="4" oW="256" oH="148"/>
+	<sprite n="S08_leaves_01_back" x="750" y="0" w="195" h="93" oX="4" oY="5" oW="204" oH="104"/>
+	<sprite n="S08_leaves_02_front" x="539" y="0" w="209" h="137" oX="3" oY="5" oW="216" oH="148"/>
+	<sprite n="S08_leaves_02_left" x="539" y="139" w="172" h="114" oX="3" oY="4" oW="120" oH="180" r="y"/>
+	<sprite n="S08_leaves_02_right" x="749" y="267" w="168" h="105" oX="3" oY="2" oW="112" oH="172" r="y"/>
+	<sprite n="S08_leaves_03_front" x="748" y="374" w="146" h="113" oX="9" oY="11" oW="164" oH="136"/>
+	<sprite n="S08_leaves_03_front_left" x="0" y="157" w="142" h="119" oX="5" oY="6" oW="152" oH="132"/>
+	<sprite n="S08_leaves_03_front_right" x="896" y="474" w="128" h="118" oX="2" oY="7" oW="132" oH="132"/>
+	<sprite n="S08_leaves_03_left" x="0" y="278" w="111" h="107" oX="10" oY="12" oW="132" oH="132"/>
+	<sprite n="S08_leaves_03_right" x="142" y="282" w="109" h="108" oX="12" oY="11" oW="132" oH="132" r="y"/>
+	<sprite n="S08_left_hand" x="643" y="409" w="48" h="47" oX="4" oY="2" oW="56" oH="52"/>
+	<sprite n="S08_left_lower_arm" x="141" y="392" w="94" h="45" oX="5" oY="3" oW="104" oH="52"/>
+	<sprite n="S08_left_upper_arm" x="384" y="357" w="69" h="47" oX="3" oY="4" oW="76" oH="56"/>
+	<sprite n="S08_mouth_01" x="140" y="495" w="67" h="19" oX="2" oY="9" oW="72" oH="40"/>
+	<sprite n="S08_mouth_02" x="896" y="374" w="20" h="62" oX="5" oY="10" oW="72" oH="40" r="y"/>
+	<sprite n="S08_mouth_03" x="113" y="278" w="27" h="59" oX="6" oY="7" oW="72" oH="40" r="y"/>
+	<sprite n="S08_mouth_04" x="452" y="420" w="61" h="36" oX="5" oY="3" oW="72" oH="40"/>
+	<sprite n="S08_mouth_05" x="452" y="458" w="59" h="36" oX="7" oY="3" oW="72" oH="40"/>
+	<sprite n="S08_mouth_06" x="207" y="524" w="55" h="15" oX="10" oY="11" oW="72" oH="40"/>
+	<sprite n="S08_mouth_07" x="253" y="386" w="31" h="17" oX="24" oY="12" oW="72" oH="40"/>
+	<sprite n="S08_mouth_08" x="113" y="339" w="27" h="26" oX="26" oY="7" oW="72" oH="40"/>
+	<sprite n="S08_mouth_09" x="944" y="289" w="31" h="33" oX="22" oY="4" oW="72" oH="40" r="y"/>
+	<sprite n="S08_mouth_10" x="713" y="212" w="35" h="34" oX="22" oY="2" oW="72" oH="40" r="y"/>
+	<sprite n="S08_pollin" x="531" y="255" w="161" h="152" oX="0" oY="6" oW="164" oH="164"/>
+	<sprite n="S08_pollin_spore_01" x="0" y="518" w="62" h="59" oX="1" oY="2" oW="64" oH="64"/>
+	<sprite n="S08_pollin_spore_02" x="526" y="409" w="61" h="59" oX="2" oY="1" oW="64" oH="64" r="y"/>
+	<sprite n="S08_pollin_spore_03" x="223" y="459" w="61" h="63" oX="1" oY="0" oW="64" oH="64"/>
+	<sprite n="S08_pupil" x="694" y="255" w="16" h="17" oX="4" oY="3" oW="24" oH="24"/>
+	<sprite n="S08_right_hand" x="643" y="458" w="48" h="47" oX="4" oY="2" oW="56" oH="52"/>
+	<sprite n="S08_right_lower_arm" x="286" y="441" w="94" h="45" oX="5" oY="3" oW="104" oH="52"/>
+	<sprite n="S08_right_upper_arm" x="455" y="388" w="69" h="30" oX="3" oY="3" oW="76" oH="36"/>
+	<sprite n="S08_shadow" x="0" y="0" w="287" h="155" oX="0" oY="2" oW="288" oH="160"/>
+	<sprite n="S08_thumb" x="977" y="289" w="47" h="26" oX="5" oY="4" oW="36" oH="56" r="y"/>
+	<sprite n="spore_S08" x="144" y="157" w="138" h="123" oX="17" oY="27" oW="172" oH="172"/>
+</TextureAtlas>

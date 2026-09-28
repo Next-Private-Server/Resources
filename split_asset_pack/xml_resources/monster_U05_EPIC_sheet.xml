@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:69e146283584ecc2602912893f0c7712:00f833b1d01dbf5fbb752b60c4bacf78:39acb0dad91bb3332c0b4263c14eb4be$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U05_EPIC_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="beam" x="536" y="0" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="glow_spot" x="443" y="193" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U05_anklebone_epic" x="968" y="263" w="48" h="107"/>
+	<sprite n="U05_body" x="764" y="0" w="202" h="202" oX="5" oY="7" oW="216" oH="220"/>
+	<sprite n="U05_fur_branch" x="728" y="89" w="27" h="23" oX="11" oY="10" oW="48" oH="44"/>
+	<sprite n="U05_fur_branch_L" x="728" y="114" w="21" h="35" r="y"/>
+	<sprite n="U05_fur_branch_R" x="728" y="72" w="30" h="15" r="y"/>
+	<sprite n="U05_fur_egg_1" x="245" y="517" w="65" h="58" oX="5" oY="4" oW="72" oH="68"/>
+	<sprite n="U05_fur_egg_2" x="473" y="489" w="43" h="57" oX="5" oY="5" oW="68" oH="56" r="y"/>
+	<sprite n="U05_glow_01" x="284" y="0" w="250" h="191" oX="32" oY="24" oW="282" oH="215"/>
+	<sprite n="U05_glow_02" x="0" y="0" w="282" h="215"/>
+	<sprite n="U05_head" x="536" y="72" w="190" h="167" oX="11" oY="9" oW="204" oH="180"/>
+	<sprite n="U05_head_branch_back_1" x="312" y="517" w="41" h="41"/>
+	<sprite n="U05_head_branch_back_2" x="609" y="424" w="61" h="66" r="y"/>
+	<sprite n="U05_head_branch_back_3" x="519" y="424" w="88" h="78"/>
+	<sprite n="U05_head_branch_back_4" x="968" y="0" w="54" h="103" r="y"/>
+	<sprite n="U05_head_branch_front_1" x="885" y="331" w="81" h="76"/>
+	<sprite n="U05_head_branch_front_2" x="673" y="357" w="44" h="80" r="y"/>
+	<sprite n="U05_head_branch_front_3" x="968" y="372" w="45" h="88" r="y"/>
+	<sprite n="U05_hip" x="426" y="284" w="106" h="105" oX="8" oY="1" oW="124" oH="116" r="y"/>
+	<sprite n="U05_jaw" x="0" y="544" w="132" h="63" oX="7" oY="10" oW="148" oH="80"/>
+	<sprite n="U05_left_foot_1" x="728" y="301" w="155" h="106" oX="11" oY="6" oW="180" oH="120"/>
+	<sprite n="U05_left_foot_2" x="534" y="241" w="155" h="114" oX="12" oY="5" oW="180" oH="120"/>
+	<sprite n="U05_lowerleg_epic" x="968" y="139" w="53" h="122"/>
+	<sprite n="U05_mouth_01" x="534" y="357" w="137" h="65" oX="11" oY="25" oW="160" oH="132"/>
+	<sprite n="U05_mouth_02" x="896" y="204" w="70" h="125" oX="23" oY="22" oW="160" oH="132" r="y"/>
+	<sprite n="U05_mouth_03" x="257" y="444" w="132" h="71" oX="16" oY="21" oW="160" oH="132"/>
+	<sprite n="U05_mouth_04" x="271" y="367" w="137" h="75" oX="11" oY="19" oW="160" oH="132"/>
+	<sprite n="U05_mouth_05" x="151" y="217" w="122" h="86" oX="26" oY="16" oW="160" oH="132"/>
+	<sprite n="U05_mouth_06" x="151" y="305" w="118" h="100" oX="30" oY="13" oW="160" oH="132"/>
+	<sprite n="U05_mouth_07" x="410" y="391" w="107" h="96" oX="52" oY="11" oW="160" oH="132" r="y"/>
+	<sprite n="U05_mouth_08" x="144" y="407" w="111" h="76" oX="69" oY="10" oW="160" oH="132" r="y"/>
+	<sprite n="U05_mouth_09" x="391" y="489" w="80" h="73" oX="74" oY="17" oW="160" oH="132" r="y"/>
+	<sprite n="U05_mouth_10" x="144" y="485" w="99" h="75" oX="48" oY="20" oW="160" oH="132"/>
+	<sprite n="U05_right_foot_1" x="275" y="262" w="149" h="103" oX="6" oY="5" oW="160" oH="108"/>
+	<sprite n="U05_right_foot_2" x="0" y="217" w="149" h="105" oX="5" oY="3" oW="160" oH="108"/>
+	<sprite n="U05_shadow" x="0" y="324" w="146" h="76" oX="8" oY="10" oW="164" oH="96"/>
+	<sprite n="U05_tail_epic" x="0" y="402" w="142" h="140" r="y"/>
+	<sprite n="U05_tail_tip" x="728" y="204" w="166" h="95"/>
+	<sprite n="U05_torso_branch_1a" x="968" y="105" w="54" h="32"/>
+	<sprite n="U05_torso_branch_1b" x="691" y="241" w="35" h="82" r="y"/>
+	<sprite n="U05_upperleg_epic" x="284" y="193" w="157" h="67" r="y"/>
+</TextureAtlas>

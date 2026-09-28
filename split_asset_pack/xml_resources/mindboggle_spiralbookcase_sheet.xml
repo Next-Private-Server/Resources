@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4adc6b2ab257ebed3c933ea078cc093e:fe794a77da906b0f4784acf5211d1c2a:9ddda645a4cd21d7f49102df3ccac5d0$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/mindboggle_spiralbookcase_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Base" x="2" y="2" w="473" h="397" oX="3" oY="7" oW="404" oH="488" r="y"/>
+    <sprite n="Book_01_back" x="2" y="401" w="196" h="125" oX="2" oY="3" oW="200" oH="132"/>
+    <sprite n="Book_01_front" x="2" y="528" w="168" h="75" oX="2" oY="7" oW="172" oH="84"/>
+    <sprite n="Book_02_bottom" x="374" y="505" w="134" h="82" oX="5" oY="16" oW="144" oH="100"/>
+    <sprite n="Book_02_front" x="313" y="648" w="56" h="87" oX="2" oY="2" oW="92" oH="60" r="y"/>
+    <sprite n="Book_02_side" x="313" y="611" w="57" h="35" oX="1" oY="2" oW="60" oH="40"/>
+    <sprite n="Book_02_top" x="358" y="745" w="120" h="37" oX="2" oY="1" oW="124" oH="40"/>
+    <sprite n="Book_03_bottom" x="200" y="502" w="172" h="107" oX="4" oY="6" oW="180" oH="120"/>
+    <sprite n="Book_03_top" x="2" y="605" w="167" h="99" oX="4" oY="2" oW="176" oH="104"/>
+    <sprite n="Book_04_bottom" x="240" y="851" w="109" h="77" oX="3" oY="3" oW="116" oH="84"/>
+    <sprite n="Book_04_tongue" x="190" y="892" w="44" h="43" oX="2" oY="2" oW="48" oH="48" r="y"/>
+    <sprite n="Book_04_tongue_shadow" x="240" y="797" w="48" h="43" oX="2" oY="0" oW="48" oH="48" r="y"/>
+    <sprite n="Book_04_top" x="112" y="706" w="51" h="100" oX="2" oY="2" oW="104" oH="56" r="y"/>
+    <sprite n="Shadow 04" x="296" y="737" w="60" h="112" r="y"/>
+    <sprite n="Shadow_02" x="171" y="611" w="140" h="80"/>
+    <sprite n="Shadow_03" x="200" y="401" w="183" h="99" oX="1" oY="0" oW="184" oH="100"/>
+    <sprite n="Tongue_1" x="190" y="937" w="117" h="76" oX="60" oY="4" oW="204" oH="124" r="y"/>
+    <sprite n="Tongue_2" x="2" y="808" w="117" h="82" oX="54" oY="4" oW="204" oH="124" r="y"/>
+    <sprite n="Tongue_3" x="358" y="784" w="118" h="108" oX="18" oY="13" oW="204" oH="124"/>
+    <sprite n="Tongue_4" x="374" y="589" w="133" h="76" oX="3" oY="45" oW="204" oH="124"/>
+    <sprite n="Tongue_5" x="385" y="401" w="123" h="102" oX="13" oY="19" oW="204" oH="124"/>
+    <sprite n="Tongue_A" x="112" y="894" w="76" h="118" oX="68" oY="3" oW="204" oH="124"/>
+    <sprite n="Tongue_B" x="121" y="808" w="117" h="82" oX="68" oY="4" oW="204" oH="124" r="y"/>
+    <sprite n="Tongue_C" x="2" y="894" w="108" h="118" oX="68" oY="13" oW="204" oH="124" r="y"/>
+    <sprite n="Tongue_D" x="371" y="667" w="133" h="76" oX="68" oY="45" oW="204" oH="124"/>
+    <sprite n="Tongue_E" x="171" y="693" w="123" h="102" oX="68" oY="19" oW="204" oH="124"/>
+</TextureAtlas>

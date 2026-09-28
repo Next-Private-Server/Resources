@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:450e7c4fbb14686169644e7bb67ef5cf:962f04b61b58e82b17f547e93a6e7564:731cd374288b14c2b0e1410dfbbdfe59$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BN_RARE_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="BN_head_RARE" x="0" y="0" w="204" h="204" pX="0.504902" pY="0.573529" />
+  <sprite n="BN_left_lowerarm_RARE" x="135" y="206" w="106" h="133" pX="0.5" pY="0.5" oX="4" oY="2" oW="140" oH="110" r="y" />
+  <sprite n="BN_left_upperarm_RARE" x="0" y="364" w="136" h="144" pX="0.5" pY="0.5" oX="0" oY="2" oW="140" oH="150" />
+  <sprite n="BN_necklace" x="206" y="0" w="59" h="109" pX="0.580357" pY="-1.18333" oX="1" oY="0" oW="112" oH="60" r="y" />
+  <sprite n="BN_petal_a_RARE" x="363" y="0" w="85" h="66" pX="0.5" pY="0.5" oX="1" oY="2" oW="70" oH="90" r="y" />
+  <sprite n="BN_petal_b_RARE" x="206" y="111" w="66" h="86" pX="0.5" pY="0.5" oX="2" oY="2" oW="90" oH="70" r="y" />
+  <sprite n="BN_petal_c_RARE" x="450" y="0" w="60" h="78" pX="0.5" pY="0.5" oX="0" oY="1" oW="60" oH="80" />
+  <sprite n="BN_petal_topknot_RARE" x="267" y="0" w="94" h="105" pX="0.472222" pY="0.953704" oX="6" oY="1" oW="108" oH="108" />
+  <sprite n="BN_right_lowerarm_RARE" x="138" y="341" w="103" h="131" pX="0.5" pY="0.5" oX="9" oY="2" oW="140" oH="110" r="y" />
+  <sprite n="BN_right_upperarm_RARE" x="0" y="206" w="133" h="156" pX="0.5" pY="0.5" oX="7" oY="1" oW="140" oH="160" />
+</TextureAtlas>

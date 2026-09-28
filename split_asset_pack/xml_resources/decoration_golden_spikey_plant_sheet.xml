@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:304715a5ed1e8d1a091c8b36c093f06f:6191cb741a947e88ba76fd8b56be8462:ce2474afe87d4df065e167907b500999$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_golden_spikey_plant_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="golden_spikey_plant" x="0" y="0" w="244" h="300"/>
+</TextureAtlas>

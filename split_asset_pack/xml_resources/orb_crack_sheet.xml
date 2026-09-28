@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:03acbea68ac046df2fa35b833894220b:960092d2d59ec8c242312846e29a8e50:3c9b660f9452ba4d1dcf7d8b955c2f0f$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/menu/orb_crack_sheet.png" width="256" height="256">
+    <sprite n="orb_crack_01" x="38" y="239" w="3" h="3" oX="0" oY="0" oW="87" oH="87"/>
+    <sprite n="orb_crack_02" x="2" y="217" w="34" h="35" oX="26" oY="25" oW="87" oH="87"/>
+    <sprite n="orb_crack_03" x="162" y="154" w="63" h="56" oX="12" oY="14" oW="87" oH="87"/>
+    <sprite n="orb_crack_04" x="162" y="82" w="83" h="70" oX="2" oY="7" oW="87" oH="87"/>
+    <sprite n="orb_crack_05" x="2" y="132" w="78" h="83" oX="2" oY="3" oW="87" oH="87" r="y"/>
+    <sprite n="orb_crack_06" x="82" y="132" w="78" h="83" oX="2" oY="3" oW="87" oH="87" r="y"/>
+    <sprite n="orb_crack_07" x="162" y="2" w="83" h="78" oX="2" oY="3" oW="87" oH="87"/>
+    <sprite n="orb_dot" x="38" y="217" w="16" h="20" oX="2" oY="0" oW="20" oH="20"/>
+    <sprite n="orb_ring" x="2" y="2" w="128" h="128"/>
+</TextureAtlas>

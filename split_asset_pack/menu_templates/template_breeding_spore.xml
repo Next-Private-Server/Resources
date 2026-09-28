@@ -1,0 +1,94 @@
+	<template name="template_breeding_spore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">		
+
+		<defaultTemplateVar name="$adjustmentSize" equals="1"/>
+
+        <size w="148*0.5*0.8*BreedingMenuScaleX()" h="128*0.5*0.8*BreedingMenuScaleY()" />
+
+        <spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				local sporeGfx = "spore_A"
+				component("spriteName"):SetString(sporeGfx)
+				component("sheetName"):SetString("xml_resources/"..sporeGfx..".xml")
+				component("size"):SetFloat(0.8*BreedingMenuScaleX()*element:templateVars().adjustmentSize)
+				component("visible"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		
+		<spriteSheetComponent name="Glow">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+			<event name="onInit" params="component, element">
+				--local sporeGfx = "spore_A"
+				--component("spriteName"):SetString(sporeGfx)
+				--component("sheetName"):SetString("xml_resources/"..sporeGfx..".xml")
+				component("size"):SetFloat(1.2*BreedingMenuScaleX()*element:templateVars().adjustmentSize)
+				component("visible"):SetInt(0)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<!--
+		<effectComponent name="GlowFX">
+			<size dependentOnElement="element:name()"/>
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("magnification"):SetFloat(1.5 * BreedingMenuScaleX())
+					component("layer"):SetString("MidPopUps")
+					component("effect"):SetString("particles/Menus/FX_EggHighlighterBase.efkefc")
+				]]>
+			</event>
+		</effectComponent>
+		-->
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+
+		<textComponent name="Text">
+			<size w="100*BreedingMenuScaleX()" h="50*BreedingMenuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-6*BreedingMenuScaleY()" priorityOffset="-3" />
+			<event name="onInit" params="component, element">
+				<![CDATA[ 
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.3*BreedingMenuScaleX())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("")
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</textComponent>
+
+		<spriteSheetComponent name="Rarity">
+			<!-- appears in lower right corner -->
+			 <position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			 <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					--component("spriteName"):SetString("button_monsters")
+					component("sheetName"):SetString("xml_resources/buttons02.xml")
+					component("size"):SetFloat(0.25*BreedingMenuScaleX()*element:templateVars().adjustmentSize)
+					component("visible"):SetInt(0)
+					component("layer"):SetString("MidPopUps")
+				]]>
+			</event>
+		</spriteSheetComponent>
+
+		<event name="updateClipping" params="element, clipX, clipY, clipW, clipH">
+			<![CDATA[
+				element.Sprite:setClipRect(clipX, clipY, clipW, clipH)
+				element.Text:setClipRect(clipX, clipY, clipW, clipH)
+				element.Glow:setClipRect(clipX, clipY, clipW, clipH)
+				element.Rarity:setClipRect(clipX, clipY, clipW, clipH)
+				--element.GlowFX:setClipRect(clipX, clipY, clipW, clipH)
+			]]>
+		</event>	
+
+	</template>

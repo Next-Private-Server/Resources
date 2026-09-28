@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5d5b8daa7cce8a3d559fd01122ff7e2d:9ea70e525354b9cd7e96b6632864cb54:154e57115c5b841fe0b989bced6e0d31$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_P02_EPIC_sheet.png" width="512" height="1024" hires="true">
+  <sprite n="P02_beard_01" x="269" y="279" w="146" h="49" oX="14" oY="13" oW="76" oH="173" r="y" />
+  <sprite n="P02_beard_02" x="262" y="472" w="128" h="66" oX="7" oY="7" oW="76" oH="145" r="y" />
+  <sprite n="P02_beard_03" x="1" y="594" w="77" h="46" oX="4" oY="3" oW="94" oH="56" />
+  <sprite n="P02_eyeballs" x="125" y="428" w="29" h="50" oX="23" oY="6" oW="96" oH="40" r="y" />
+  <sprite n="P02_eyelids_01" x="92" y="559" w="58" h="38" oX="18" oY="1" oW="96" oH="40" />
+  <sprite n="P02_eyelids_02" x="92" y="519" w="60" h="38" oX="18" oY="1" oW="96" oH="40" />
+  <sprite n="P02_eyelids_03" x="1" y="642" w="63" h="38" oX="16" oY="1" oW="96" oH="40" />
+  <sprite n="P02_eyelids_04" x="242" y="540" w="58" h="38" oX="18" oY="1" oW="96" oH="40" />
+  <sprite n="P02_head" x="1" y="1" w="267" h="171" oX="4" oY="1" oW="301" oH="181" />
+  <sprite n="P02_jaw" x="80" y="599" w="72" h="72" />
+  <sprite n="P02_left_back_flipper" x="158" y="174" w="109" h="111" oX="0" oY="1" oW="109" oH="112" />
+  <sprite n="P02_left_front_flipper" x="456" y="1" w="55" h="138" oX="27" oY="5" oW="84" oH="172" />
+  <sprite n="P02_left_front_flipper_foot" x="1" y="519" w="89" h="73" oX="1" oY="12" oW="93" oH="86" />
+  <sprite n="P02_left_lowerarm" x="264" y="330" w="133" h="70" oX="3" oY="1" oW="75" oH="138" r="y" />
+  <sprite n="P02_left_tusk" x="417" y="302" w="94" h="119" oX="4" oY="22" oW="105" oH="156" />
+  <sprite n="P02_left_tusk_front" x="399" y="423" w="100" h="66" oX="13" oY="14" oW="105" oH="131" r="y" />
+  <sprite n="P02_left_upperarm" x="156" y="475" w="93" h="52" oX="1" oY="3" oW="54" oH="96" r="y" />
+  <sprite n="P02_lowerbody" x="270" y="1" w="184" h="160" />
+  <sprite n="P02_moustache_left" x="392" y="491" w="99" h="77" oX="5" oY="1" oW="114" oH="79" />
+  <sprite n="P02_moustache_right" x="432" y="229" w="79" h="71" oX="4" oY="3" oW="79" oH="83" r="y" />
+  <sprite n="P02_pupil" x="432" y="163" w="19" h="28" />
+  <sprite n="P02_right_front_flipper" x="1" y="174" w="155" h="105" oX="2" oY="1" oW="112" oH="156" r="y" />
+  <sprite n="P02_right_lowerarm" x="1" y="428" w="122" h="89" oX="1" oY="3" oW="91" oH="129" r="y" />
+  <sprite n="P02_right_tusk" x="156" y="287" w="106" h="116" oX="1" oY="3" oW="123" oH="132" r="y" />
+  <sprite n="P02_right_tusk_front" x="156" y="405" w="104" h="68" oX="12" oY="7" oW="95" oH="121" r="y" />
+  <sprite n="P02_right_upperarm" x="456" y="141" w="55" h="86" oX="0" oY="0" oW="56" oH="92" />
+  <sprite n="P02_shadow" x="264" y="402" w="133" h="68" oX="1" oY="0" oW="136" oH="68" />
+  <sprite n="P02_tail_base" x="270" y="163" w="160" h="114" oX="5" oY="4" oW="120" oH="166" r="y" />
+  <sprite n="P02_tail_end" x="302" y="540" w="42" h="36" oX="8" oY="0" oW="54" oH="42" r="y" />
+  <sprite n="P02_tail_mid" x="154" y="529" w="86" h="75" oX="0" oY="0" oW="86" oH="84" />
+  <sprite n="P02_upperbody" x="1" y="281" w="153" h="145" oX="0" oY="0" oW="154" oH="156" />
+</TextureAtlas>

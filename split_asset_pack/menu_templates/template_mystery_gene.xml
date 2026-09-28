@@ -1,0 +1,21 @@
+<template name="template_mystery_gene" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("gene_asterisk")
+				component("sheetName"):SetString("xml_resources/hud02.xml")
+				component("size"):SetFloat(element("Size"):GetFloat())
+				component("layer"):SetString(element("Layer"):GetString())
+			]]>
+		</event>
+	</spriteSheetComponent>
+
+	<event name="Reveal" params="element">
+		element["Sprite"]("spriteName"):SetString(element("SpriteName"):GetString())
+		element["Sprite"]("sheetName"):SetString(element("SheetName"):GetString())
+	</event>
+	
+</template>

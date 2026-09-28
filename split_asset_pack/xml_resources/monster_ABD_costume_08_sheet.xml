@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:42dcc93dc21d935f77a923f4f60fc036:75e6c3cb8102de210b606b773aad4c99:6e71ac171d8ae51ab5e95d312ce8b1d4$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABD_costume_08_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ABD_base" x="0" y="362" w="362" h="184" pX="0.5" pY="0.5"/>
+	<sprite n="ABD_body" x="0" y="0" w="386" h="360" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABD_leaf" x="82" y="548" w="79" h="72" pX="0.197674" pY="0.5375" oX="3" oY="0" oW="86" oH="80"/>
+	<sprite n="ABD_left_arm" x="388" y="260" w="92" h="90" pX="0.5" pY="0.5"/>
+	<sprite n="ABD_left_eyeback" x="233" y="662" w="60" h="48" pX="0.5" pY="0.5"/>
+	<sprite n="ABD_left_eyelid_1" x="355" y="588" w="74" h="45" pX="0.5" pY="0.5" oX="0" oY="11" oW="74" oH="56"/>
+	<sprite n="ABD_left_eyelid_2" x="456" y="481" w="54" h="72" pX="0.5" pY="0.5" oX="2" oY="0" oW="74" oH="56" r="y"/>
+	<sprite n="ABD_left_eyelid_3" x="163" y="612" w="68" h="49" pX="0.5" pY="0.5" oX="4" oY="3" oW="74" oH="56"/>
+	<sprite n="ABD_left_eyelid_4" x="315" y="635" w="65" h="44" pX="0.5" pY="0.5" oX="6" oY="6" oW="74" oH="56"/>
+	<sprite n="ABD_left_hand_1" x="388" y="352" w="90" h="58" pX="0.5" pY="0.5"/>
+	<sprite n="ABD_left_hand_2" x="364" y="412" w="90" h="58" pX="0.5" pY="0.5"/>
+	<sprite n="ABD_left_hand_3" x="364" y="528" w="89" h="58" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="58"/>
+	<sprite n="ABD_mouth_1" x="455" y="555" w="53" h="75" pX="0.5" pY="0.5" oX="11" oY="7" oW="88" oH="66" r="y"/>
+	<sprite n="ABD_mouth_2" x="456" y="412" w="55" h="67" pX="0.5" pY="0.5" oX="14" oY="6" oW="88" oH="66" r="y"/>
+	<sprite n="ABD_mouth_3" x="431" y="632" w="72" h="58" pX="0.5" pY="0.5" oX="8" oY="4" oW="88" oH="66"/>
+	<sprite n="ABD_mouth_4" x="163" y="548" w="76" h="62" pX="0.5" pY="0.5" oX="3" oY="2" oW="88" oH="66"/>
+	<sprite n="ABD_mouth_5" x="0" y="600" w="78" h="65" pX="0.5" pY="0.5" oX="2" oY="1" oW="88" oH="66"/>
+	<sprite n="ABD_pupil" x="492" y="0" w="16" h="14" pX="0.5" pY="0.5" oX="0" oY="0" oW="16" oH="16"/>
+	<sprite n="ABD_right_arm" x="388" y="117" w="100" h="80" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABD_right_eyeback" x="0" y="667" w="66" h="52" pX="0.5" pY="0.5"/>
+	<sprite n="ABD_right_eyelid_1" x="0" y="548" w="80" h="50" pX="0.5" pY="0.5" oX="0" oY="12" oW="80" oH="62"/>
+	<sprite n="ABD_right_eyelid_2" x="241" y="548" w="76" h="58" pX="0.5" pY="0.5" oX="3" oY="0" oW="80" oH="62"/>
+	<sprite n="ABD_right_eyelid_3" x="241" y="608" w="72" h="52" pX="0.5" pY="0.5" oX="5" oY="3" oW="80" oH="62"/>
+	<sprite n="ABD_right_eyelid_4" x="80" y="622" w="67" h="48" pX="0.5" pY="0.5" oX="7" oY="5" oW="80" oH="62"/>
+	<sprite n="ABD_right_hand_1" x="388" y="59" w="102" h="56" pX="0.5" pY="0.5" oX="0" oY="0" oW="102" oH="60"/>
+	<sprite n="ABD_right_hand_2" x="388" y="0" w="102" h="57" pX="0.5" pY="0.5" oX="0" oY="1" oW="102" oH="60"/>
+	<sprite n="ABD_right_hand_3" x="388" y="199" w="98" h="59" pX="0.5" pY="0.5" oX="1" oY="1" oW="102" oH="60"/>
+	<sprite n="ABD_vine1" x="364" y="472" w="90" h="54" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ABD_vine2" x="319" y="548" w="34" h="58" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

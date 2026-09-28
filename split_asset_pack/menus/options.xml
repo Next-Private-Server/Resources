@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="7" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/menu_background_01")
+				component("layer"):SetString("MidPopUps")
+				component("alpha"):SetFloat(0.0)
+				component:setScale(Vector2(game.bgScaleX(), game.bgScaleY()))
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-2" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="175*game.hudScale()" h="30*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.4*game.hudScale())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+				component("alpha"):SetFloat(0.0)
+			</event>
+		</ninesliceComponent>
+	</element>
+
+	<element name="TitleText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="5*game.hudScale()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="160*game.hudScale()" h="30*game.hudScale()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_BLUE))
+				component("size"):SetFloat(0.45*game.hudScale())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString(game.localizedUpper("MAIN_MENU_OPTIONS"))
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+				component("alpha"):SetFloat(0.0)
+			</event>
+		</textComponent>
+	</element>
+
+
+	<template type="template_switch" name="MuteAmbianceBox">
+		<templateVar name="$label" equals="'OPTION_MUTE_AMBIANCE'"/>
+		<templateVar name="$textScale" equals="0.22" />
+		<templateVar name="$onSprite" equals="'menu_switch_on'" />
+		<templateVar name="$offSprite" equals="'menu_switch_off'" />
+		<templateVar name="$sheetName" equals="'xml_resources/menu_assets_01.xml'" />
+		<templateVar name="$scale" equals="0.5*game.hudScale()" />
+		<templateVar name="$layer" equals="'MidPopUps'" />
+		<templateVar name="$check" equals="game.isAmbianceOff() == false" />
+		<templateVar name="$alpha" equals="0.0" />
+		<position relativeTo="BindAccountButton" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0.1*lua_sys.screenWidth()" yOffset="20*game.menuScaleY()" priorityOffset="-1" />
+		<event name="touchUpCallback" params="element">
+			touchUpCallback(element)
+			game.toggleAmbiance()
+			if(game.isAmbianceOff()) then
+				element:DoStoredScript("turnOff")
+				game.logEvent("options_menu", "action", "ambiance_off")
+			else
+				element:DoStoredScript("turnOn")
+				game.logEvent("options_menu", "action", "ambiance_on")
+			end
+		</event>
+	</template>
+
+	<template type="template_switch" name="EnableGlowbesBox">
+		<templateVar name="$label" equals="'TOGGLE_BLINKING'"/>
+		<templateVar name="$textScale" equals="0.22" />
+		<templateVar name="$onSprite" equals="'menu_switch_on'" />
+		<templateVar name="$offSprite" equals="'menu_switch_off'" />
+		<templateVar name="$sheetName" equals="'xml_resources/menu_assets_01.xml'" />
+		<templateVar name="$scale" equals="0.5*game.hudScale()" />
+		<templateVar name="$layer" equals="'MidPopUps'" />
+		<templateVar name="$check" equals="game.blinkyBuddiesEnabled() == true" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="SelectLanguageButton" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0.1*lua_sys.screenWidth()" yOffset="20*game.menuScaleY()" priorityOffset="-1" />
+		<event name="touchUpCallback" params="element">
+			touchUpCallback(element)
+			game.toggleBlinkyBuddies()
+			if(game.blinkyBuddiesEnabled()) then
+				element:DoStoredScript("turnOn")
+				game.logEvent("options_menu", "action", "toggle_blink_on")
+			else
+				element:DoStoredScript("turnOff")
+				game.logEvent("options_menu", "action", "toggle_blink_off")
+			end
+		</event>
+	</template>
+
+	<template type="template_nineslicebutton" name="BindAccountButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="OPTION_BIND_ACCOUNT" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="TitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0.05 * lua_sys.screenWidth()" yOffset="58*game.menuScaleY()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+			if(element.enabled) then
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "bind_account_button")
+				game.popPopUp()
+				manager:setContext("BIND_ACCOUNT")
+			else
+				game.displayNotification(game.cantBindReason())
+			end
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				if (element.enabled) then
+					onTouchRelease(component, element)
+				end
+
+				element("ButtonState"):SetInt(game.BUTTON_RELEASED)
+				element("TickTimer"):SetFloat(0.0)
+			</event>
+		</touchComponent>
+
+		<template type="template_indicator" name="Indicator">
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="5*game.hudScale()" yOffset="5*game.hudScale()" priorityOffset="-1" />
+		</template>
+
+		<event name="onInit" params="element">
+			onInit(element)
+			if(game.playerLevel() &lt; 4) then
+				element:DoStoredScript("disable")
+				element["Touch"]("enabled"):SetInt(1)
+			end
+
+			-- show after first bind nag prompt
+			if(game.showBindIndicator()) then
+				element:E("Indicator"):Show()
+			else
+				element:E("Indicator"):Hide()
+			end
+		</event>
+		<event name="onPostInit" params="element">
+			if(game.canBind() == false) then
+				element["Text"]("text"):SetString("OPTION_BOUND_ACCOUNTS")
+			end	
+		</event>
+		<function name="updateComponents" params="element">
+			updateComponents(element)
+			local alpha = element("alpha"):GetFloat()
+			element:E("Indicator"):SetAlpha(alpha)
+		</function>
+	</template>
+
+	<template type="template_nineslicebutton" name="SocialButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="MENU_TITLE_SOCIAL" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="BindAccountButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "push_notifications_button")
+				game.pushPopUp("options_social")
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="ReferralButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="REFERRAL_SUBMIT_LABEL" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="SocialButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				if(element.enabled) then
+					onTouchUp(component, element)
+					game.logEvent("options_menu", "action", "referral_button")
+					game.pushPopUp("popup_referral_sending")
+				else
+					if(game.referralId() ~= 0) then
+						game.displayNotification("REFERRAL_DISABLED_ALREADY_USED")
+					elseif (game.playerLevel() &lt; game.minReferralLevel()) then
+					
+						local minLevelText = LOC("REFERRAL_DISABLED_LEVEL")
+						minLevelText = minLevelText:gsub("%${LEVEL}", game.minReferralLevel())
+						game.displayNotification(minLevelText)
+					end
+				end
+			</event>
+		</touchComponent>
+		<event name="onPostInit" params="element">
+			if(not element.enabled) then
+				if(game.referralId() ~= 0) then
+					element["Text"]("text"):SetString("REFERRAL_SUBMIT_LABEL_COMPLETE")
+				end
+			end
+		</event>
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element.enabled) then
+				if((game.referralId() ~= 0) or (game.playerLevel() &lt; game.minReferralLevel())) then
+					element:DoStoredScript("disable")
+					if(game.referralId() ~= 0) then
+						element["Text"]("text"):SetString("REFERRAL_SUBMIT_LABEL_COMPLETE")
+					end
+					element["Touch"]("enabled"):SetInt(1)
+				end
+			end
+		</event>
+	</template>
+
+	<template type="template_nineslicebutton" name="NotificationsButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="MENU_TITLE_NOTIFICATIONS" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="ReferralButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "push_notifications_button")
+				game.showNotificationOptions()
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="FAQButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="OPTIONS_HELP" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="NotificationsButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				if(game.openHelpshiftFAQ ~= nil) then 
+					game.openHelpshiftFAQ()
+				end
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="SelectLanguageButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="SELECT_LANGUAGE" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="BindAccountButton" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0.1*lua_sys.screenWidth()" yOffset="0" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "select_language_button")
+				game.pushPopUp("select_language")
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="RewardsButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="CLAIM_REWARDS" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="SelectLanguageButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<event name="onPostInit" params="element" >
+			if(game.hideTapjoyRewards()) then
+				element:DoStoredScript("setInvisible")
+			elseif(lua_sys.getSubPlatformName() == "amazon" or lua_sys.getSubPlatformName() == "aftb") then
+				element:DoStoredScript("setInvisible")
+			end
+		</event>
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "request_tapjoy_rewards")
+				game.requestTapjoyRewards(true)
+				element:DoStoredScript("disable")
+				element("disabled"):SetInt(1)
+			</event>
+		</touchComponent>
+		<event name="onInit" params="element">
+			onInit(element)
+			element:DoStoredScript("enable")
+			element("disabled"):SetInt(0)
+		</event>
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element("disabled"):GetInt() == 1) then
+				if(game.popUpManagerPopUpLevel() == 2) then
+					element:DoStoredScript("enable")
+					element("disabled"):SetInt(0)
+				end
+			end
+		</event>
+	</template>
+
+	<template type="template_nineslicebutton" name="CreditsButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="MAIN_MENU_CREDITS" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="RewardsButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "credits_button")
+				game.pushPopUp("credits")
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="RateGameButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="RATE_GAME_ON_STORE" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="CreditsButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "rate_game")
+				game.rateGameInStore(true);
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="ControllerSchemeButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_purple_gem'" />
+		<templateVar name="$text" equals="CONTROLLER_SCHEME" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="RateGameButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="-0.2*lua_sys.screenWidth()" yOffset="0.02*lua_sys.screenHeight()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "controller_scheme_button")
+				manager:setContext("CONTROLLER_SCHEME")
+				game.popPopUp()
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="SupportButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+		<templateVar name="$text" equals="MAIN_MENU_HELP" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$spriteScale" equals="0.27*game.hudScale()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$topHeight" equals="16.0" />
+		<templateVar name="$bottomHeight" equals="16.0" />
+		<templateVar name="$leftWidth" equals="23.0" />
+		<templateVar name="$rightWidth" equals="23.0" />
+		<templateVar name="$width" equals="lua_sys.screenWidth() * 0.3" />
+		<templateVar name="$height" equals="lua_sys.screenHeight() * 0.08" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$alpha" equals="0.0" />
+
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0.1*lua_sys.screenHeight()" priorityOffset="-1" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				game.logEvent("options_menu", "action", "support_button")
+				game.pushPopUp("help")
+			</event>
+		</touchComponent>
+	</template>
+
+	<element name="ReplayButton">
+		<hudScale scale="game.hudScale()" />
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="GooglePlayButton" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="15" yOffset="0" priorityOffset="0" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/button_video.bin")
+				component:setScale(Vector2(0.5, 0.5))
+				component("layer"):SetString("MidPopUps")
+
+				element:DoStoredScript("gotMsgRefresh")
+			</event>
+		</aeComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="LEFT" />
+			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				if(game.ScreenRecordingEnabled()) then
+
+					if (game.EnableRecordButton()) then
+						component("enabled"):SetInt(1)
+					else
+						component("enabled"):SetInt(0)
+					end
+
+				else
+					component("enabled"):SetInt(0)
+				end
+			</event>
+			<event name="onTouchUp" params="component, element">
+
+				if(game.ScreenIsRecording()) then
+					game.EndScreenRecording()
+				else
+					game.StartScreenRecording()
+				end
+
+			</event>
+		</touchComponent>
+		<event name="gotMsgRefresh" params="element">
+			if(game.ScreenRecordingEnabled()) then
+
+				if(game.AnimateRecordButton()) then
+					element["Sprite"]("animation"):SetString("on")
+				else
+					element["Sprite"]("animation"):SetString("off")
+				end
+
+				if (game.EnableRecordButton()) then
+					element["Touch"]("enabled"):SetInt(1)
+				else
+					element["Touch"]("enabled"):SetInt(0)
+				end
+
+			else
+				element["Sprite"]("visible"):SetInt(0)
+				element["Touch"]("enabled"):SetInt(0)
+			end
+		</event>
+		<event name="enable" params="element">
+			if (game.EnableRecordButton()) then
+				element["Touch"]("enabled"):SetInt(1)
+			else
+				element["Touch"]("enabled"):SetInt(0)
+			end
+		</event>
+		<event name="hide" params="element">
+			element:DoStoredScript("setInvisible")
+			element["Sprite"]("visible"):SetInt(0)
+			element["Touch"]("enabled"):SetInt(0)
+		</event>
+		<event name="show" params="element">
+			if (game.ScreenRecordingEnabled()) then
+				element:DoStoredScript("gotMsgRefresh")
+			end
+		</event>
+	</element>
+
+	<template type="template_spritesheetbutton" name="GooglePlayButton">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$alpha" equals="0.0" />
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="7*game.hudScale()" yOffset="7*game.hudScale()" priorityOffset="6" />
+		<event name="onInit" params="component, element">
+			onInit(component, element)
+			if(lua_sys.getPlatformName() ~= "android" or game.hideGooglePlay()) then
+				component:DoStoredScript("hide")
+			end
+		</event>
+		<spriteComponent name="icon">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):Set("gfx/menu/button_controller")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("alpha"):SetFloat(0.0)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					onTouchUp(component, element)
+					if game.getPopUp() ~= "google_play" then
+						game.pushPopUp("google_play")
+					end
+				]]>
+			</event>
+		</touchComponent>
+		<event name="hide" params="element">
+			element:DoStoredScript("setInvisible")
+			element["icon"]("visible"):SetInt(0)
+		</event>
+		<event name="show" params="element">
+			element:DoStoredScript("setVisible")
+			element["icon"]("visible"):SetInt(1)
+		</event>
+		<event name="updateComponentAlphas" params="element">
+			element["icon"]("alpha"):SetFloat(element("alpha"):GetFloat())
+			element:DoStoredScript("updateComponents")
+		</event>
+	</template>
+
+	<event name="onInit" params="element">
+		element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgRefresh", "msgRefresh")
+
+		element("transitionState"):SetInt(1)
+		element("transitionTime"):SetFloat(0.0)
+		lua_sys.playSoundFx("audio/sfx/menu_slide.wav")
+	</event>
+
+	<event name="msgRefresh" params="element, msg">
+		element["ReplayButton"]:DoStoredScript("gotMsgRefresh")
+	</event>
+
+	<event name="onPostInit" params="element">
+		--[[this is in post init, because if it's not and a controller connects when the screen is up the text is off]]
+		if(not game.getControllerActive()) then
+			element["ControllerSchemeButton"]:DoStoredScript("setInvisible")
+		end
+
+		element:SetupGenericListener(game.engineReceiver(), "sys::msg::MsgControllerType", "gotMsgControllerType")
+
+    	game.logEvent("options_menu", "action", "init")
+	</event>
+
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+
+			local transitionState = element("transitionState"):GetInt()
+
+			if(transitionState ~= 0) then
+				local transitionTime = element("transitionTime"):GetFloat()
+
+				element:DoStoredScript("TickTransition")
+
+				if(transitionState == 1) then
+					transitionTime = (transitionTime + dt*3)
+				elseif(transitionState == 2) then
+					transitionTime = (transitionTime - dt*3)
+				end
+
+				element("transitionTime"):SetFloat(clamp(transitionTime, 0.0, 1.0))
+
+				if(transitionTime == 1.0) then
+					element("transitionState"):SetInt(0)
+					element("transitionTime"):SetFloat(1.0)
+					element:DoStoredScript("TickTransition")
+				elseif(transitionTime <= 0.0) then
+					element:root():popPopUp()
+				end
+			end
+
+		]]>
+	</event>
+
+	<event name="TickTransition" params="element">
+		local transitionTime = element("transitionTime"):GetFloat()
+		element:GetElement("bg"):GetComponent("Sprite")("alpha"):SetFloat(transitionTime*1.0)
+		element:DoStoredScript("updateComponentAlphas")
+		--element["MoreGames"]["UpSprite"]("alpha"):SetFloat(transitionTime*1.0)
+		--element["MoreGames"]["MoreGamesText"]("alpha"):SetFloat(transitionTime*1.0)
+	</event>
+
+	<event name="updateComponentAlphas" params="element">
+		local alpha = element("transitionTime"):GetFloat()
+		element:GetElement("bg"):GetComponent("Sprite")("alpha"):SetFloat(alpha)
+
+		element:GetElement("TitleFrame"):GetComponent("Sprite")("alpha"):SetFloat(alpha)
+		element:GetElement("TitleText"):GetComponent("Text")("alpha"):SetFloat(alpha)
+		
+		element["MuteAmbianceBox"]("alpha"):SetFloat(alpha)
+		element["MuteAmbianceBox"]:DoStoredScript("updateComponents")
+		element["EnableGlowbesBox"]("alpha"):SetFloat(alpha)
+		element["EnableGlowbesBox"]:DoStoredScript("updateComponents")
+
+		element["BindAccountButton"]("alpha"):SetFloat(alpha)
+		element["BindAccountButton"]:DoStoredScript("updateComponents")
+		element["SocialButton"]("alpha"):SetFloat(alpha)
+		element["SocialButton"]:DoStoredScript("updateComponents")
+		element["ReferralButton"]("alpha"):SetFloat(alpha)
+		element["ReferralButton"]:DoStoredScript("updateComponents")
+		element["NotificationsButton"]("alpha"):SetFloat(alpha)
+		element["NotificationsButton"]:DoStoredScript("updateComponents")
+		element["FAQButton"]("alpha"):SetFloat(alpha)
+		element["FAQButton"]:DoStoredScript("updateComponents")
+		element["SelectLanguageButton"]("alpha"):SetFloat(alpha)
+		element["SelectLanguageButton"]:DoStoredScript("updateComponents")
+		element["RewardsButton"]("alpha"):SetFloat(alpha)
+		element["RewardsButton"]:DoStoredScript("updateComponents")
+		element["CreditsButton"]("alpha"):SetFloat(alpha)
+		element["CreditsButton"]:DoStoredScript("updateComponents")
+		element["RateGameButton"]("alpha"):SetFloat(alpha)
+		element["RateGameButton"]:DoStoredScript("updateComponents")
+		element["ControllerSchemeButton"]("alpha"):SetFloat(alpha)
+		element["ControllerSchemeButton"]:DoStoredScript("updateComponents")
+		element["SupportButton"]("alpha"):SetFloat(alpha)
+		element["SupportButton"]:DoStoredScript("updateComponents")
+		element["GooglePlayButton"]("alpha"):SetFloat(alpha)
+		element["GooglePlayButton"]:DoStoredScript("updateComponentAlphas")
+	</event>
+
+	<event name="queuePop" params="element">
+		element("transitionState"):SetInt(2)
+	</event>
+
+	<event name="gotMsgControllerType" params="element, msg">
+		if(game.getControllerActive()) then
+			element["ControllerSchemeButton"]:DoStoredScript("setVisible")
+			element["ControllerSchemeLabel"]["Text"]("visible"):SetInt(1)
+		else
+			element["ControllerSchemeButton"]:DoStoredScript("setInvisible")
+			element["ControllerSchemeLabel"]["Text"]("visible"):SetInt(0)
+		end
+	</event>
+
+</menu>

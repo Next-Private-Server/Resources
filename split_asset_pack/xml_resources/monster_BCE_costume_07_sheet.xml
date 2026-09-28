@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a5487fde8ef7ff33b35a0f87a0b0d6fe:d2b9b7899fb61e1b38a62a7f5d1dc808:cdbb2ed00ac202320a2ce49338827760$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCE_costume_07_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BCE_bowl" x="0" y="141" w="151" h="129" pX="0.5" pY="0.46688741721854304" r="y"/>
+	<sprite n="BCE_gong" x="155" y="0" w="87" h="128" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="130"/>
+	<sprite n="BCE_left_hand" x="153" y="252" w="78" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_left_lowerarm" x="0" y="398" w="24" h="114" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCE_left_thumb" x="239" y="130" w="16" h="50" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BCE_left_upperarm" x="26" y="398" w="26" h="112" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_noodle_bottom" x="0" y="0" w="153" h="139" pX="0.565359477124183" pY="0.4712230215827338"/>
+	<sprite n="BCE_noodle_hair" x="54" y="398" w="67" h="26" pX="-1.5" pY="-0.08208955223880597" r="y"/>
+	<sprite n="BCE_noodle_middle" x="0" y="272" w="133" h="124" pX="0.4774436090225564" pY="0.6612903225806451"/>
+	<sprite n="BCE_noodle_top" x="135" y="296" w="120" h="122" pX="0.5166666666666667" pY="0.6721311475409836"/>
+	<sprite n="BCE_noodle_top_cover" x="155" y="130" w="82" h="120" pX="0.5166666666666667" pY="0.6721311475409836" oX="33" oY="2" oW="120" oH="122"/>
+</TextureAtlas>

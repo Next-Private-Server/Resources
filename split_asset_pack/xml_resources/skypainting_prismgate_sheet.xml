@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd8234c651c51dadaf5789fab517772b:8b9c148e512103f4f76bb44f01eb06a9:2ff7a87eb2c4986618f3928d9c0a0d44$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/skypainting_prismgate_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="arm_1" x="489" y="3" w="13" h="118" oX="38" oY="3" oW="88" oH="124"/>
+    <sprite n="arm_2" x="366" y="69" w="118" h="22" oX="29" oY="3" oW="88" oH="124" r="y"/>
+    <sprite n="arm_3" x="366" y="121" w="117" h="29" oX="22" oY="4" oW="88" oH="124" r="y"/>
+    <sprite n="arm_4" x="366" y="187" w="115" h="36" oX="15" oY="6" oW="88" oH="124" r="y"/>
+    <sprite n="arm_5" x="366" y="267" w="113" h="41" oX="10" oY="8" oW="88" oH="124" r="y"/>
+    <sprite n="arm_6" x="357" y="357" w="110" h="44" oX="7" oY="11" oW="88" oH="124" r="y"/>
+    <sprite n="arm_7" x="200" y="438" w="107" h="48" oX="3" oY="14" oW="88" oH="124" r="y"/>
+    <sprite n="arm_8" x="357" y="505" w="102" h="50" oX="1" oY="19" oW="88" oH="124" r="y"/>
+    <sprite n="arm_9" x="109" y="490" w="101" h="50" oX="1" oY="20" oW="88" oH="124" r="y"/>
+    <sprite n="arm_10" x="108" y="544" w="96" h="49" oX="2" oY="25" oW="88" oH="124" r="y"/>
+    <sprite n="arm_11" x="214" y="490" w="93" h="47" oX="4" oY="28" oW="88" oH="124" r="y"/>
+    <sprite n="arm_12" x="463" y="558" w="45" h="90" oX="6" oY="31" oW="88" oH="124"/>
+    <sprite n="arm_13" x="468" y="468" w="39" h="86" oX="12" oY="35" oW="88" oH="124"/>
+    <sprite n="arm_14" x="471" y="380" w="34" h="84" oX="17" oY="37" oW="88" oH="124"/>
+    <sprite n="arm_15" x="3" y="604" w="82" h="28" oX="23" oY="39" oW="88" oH="124" r="y"/>
+    <sprite n="arm_16" x="485" y="210" w="23" h="81" oX="28" oY="40" oW="88" oH="124"/>
+    <sprite n="arm_17" x="487" y="125" w="13" h="81" oX="38" oY="40" oW="88" oH="124"/>
+    <sprite n="arm_18" x="483" y="295" w="23" h="81" oX="37" oY="40" oW="88" oH="124"/>
+    <sprite n="arm_19" x="3" y="636" w="82" h="28" oX="37" oY="39" oW="88" oH="124" r="y"/>
+    <sprite n="arm_20" x="311" y="532" w="34" h="84" oX="37" oY="37" oW="88" oH="124"/>
+    <sprite n="arm_21" x="109" y="447" w="86" h="39" oX="37" oY="35" oW="88" oH="124" r="y"/>
+    <sprite n="arm_22" x="3" y="555" w="90" h="45" oX="37" oY="31" oW="88" oH="124" r="y"/>
+    <sprite n="arm_23" x="214" y="541" w="93" h="47" oX="37" oY="28" oW="88" oH="124" r="y"/>
+    <sprite n="arm_24" x="208" y="592" w="96" h="49" oX="37" oY="25" oW="88" oH="124" r="y"/>
+    <sprite n="arm_25" x="3" y="501" w="101" h="50" oX="37" oY="20" oW="88" oH="124" r="y"/>
+    <sprite n="arm_26" x="3" y="447" w="102" h="50" oX="37" oY="19" oW="88" oH="124" r="y"/>
+    <sprite n="arm_27" x="357" y="453" w="107" h="48" oX="37" oY="14" oW="88" oH="124" r="y"/>
+    <sprite n="arm_28" x="357" y="405" w="110" h="44" oX="37" oY="11" oW="88" oH="124" r="y"/>
+    <sprite n="arm_29" x="357" y="312" w="113" h="41" oX="37" oY="8" oW="88" oH="124" r="y"/>
+    <sprite n="arm_30" x="366" y="227" w="115" h="36" oX="37" oY="6" oW="88" oH="124" r="y"/>
+    <sprite n="arm_31" x="366" y="154" w="117" h="29" oX="37" oY="4" oW="88" oH="124" r="y"/>
+    <sprite n="arm_32" x="366" y="95" w="118" h="22" oX="37" oY="3" oW="88" oH="124" r="y"/>
+    <sprite n="Base" x="200" y="269" w="153" h="165" oX="5" oY="5" oW="176" oH="164" r="y"/>
+    <sprite n="Center" x="366" y="3" w="119" h="62" oX="2" oY="3" oW="124" oH="68"/>
+    <sprite n="Floor" x="3" y="269" w="193" h="111" oX="3" oY="2" oW="200" oH="116"/>
+    <sprite n="Gem 01" x="349" y="618" w="71" h="45" oX="14" oY="21" oW="72" oH="92" r="y"/>
+    <sprite n="Gem 02" x="189" y="645" w="66" h="48" oX="12" oY="26" oW="72" oH="92" r="y"/>
+    <sprite n="Gem 03" x="311" y="438" w="42" h="90" oX="21" oY="2" oW="72" oH="92"/>
+    <sprite n="Gem 04" x="349" y="559" w="77" h="55" oX="11" oY="15" oW="72" oH="92" r="y"/>
+    <sprite n="Gem 05" x="97" y="597" w="88" h="48" oX="12" oY="4" oW="72" oH="92" r="y"/>
+    <sprite n="Gem 06" x="424" y="652" w="68" h="57" oX="2" oY="35" oW="72" oH="92"/>
+    <sprite n="Puck" x="430" y="559" w="27" h="30" oX="2" oY="3" oW="34" oH="34" r="y"/>
+    <sprite n="Table Slice" x="3" y="384" w="193" h="59" oX="1" oY="2" oW="196" oH="64"/>
+    <sprite n="Table" x="3" y="3" w="359" h="262" oX="4" oY="3" oW="368" oH="268"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a5ea535245a1a8d551decb90acc00dd0:57c3e7217bc6eea1911546d7494f783f:09b244d6b74a9b03366d59b774416eb6$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABC_costume_06_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ABC_flower" x="0" y="0" w="219" h="193" pX="0.4672727272727273" pY="0.79" oX="0" oY="3" oW="220" oH="200"/>
+	<sprite n="ABC_patch" x="100" y="195" w="85" h="67" pX="1.4777777777777779" pY="0.45555555555555555" oX="13" oY="5" oW="90" oH="90" r="y"/>
+	<sprite n="ABC_tail" x="0" y="195" w="98" h="87" pX="0.7441666666666666" pY="0.556" oX="4" oY="13" oW="120" oH="100"/>
+</TextureAtlas>

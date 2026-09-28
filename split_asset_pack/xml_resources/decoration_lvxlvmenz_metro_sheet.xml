@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:aec8e8ec7f5d37326079a101bd6a999d:3b91e6af4bf8978e1f0c2a376aabea31:3cfb163c3afedaf8316ef0eadb529d1a$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_lvxlvmenz_metro_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="booth_gatsby_left" x="0" y="0" w="198" h="225" oX="52" oY="75" oW="250" oH="300"/>
+	<sprite n="booth_gatsby_left_glow" x="368" y="0" w="136" h="159" oX="67" oY="160" oW="250" oH="300" r="y"/>
+	<sprite n="booth_gatsby_right" x="187" y="227" w="179" h="186" oX="0" oY="114" oW="250" oH="300"/>
+	<sprite n="booth_gatsby_right_glow" x="200" y="0" w="159" h="156" oX="24" oY="142" oW="250" oH="300"/>
+	<sprite n="booth_metro_center" x="0" y="227" w="185" h="190" oX="33" oY="30" oW="250" oH="250"/>
+	<sprite n="booth_metro_center_glow" x="368" y="161" w="101" h="155" oX="50" oY="103" oW="250" oH="250" r="y"/>
+</TextureAtlas>

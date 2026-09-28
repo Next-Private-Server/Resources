@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3b325cb9be59b35a62fbf97eaa3b70c7:6a94576dee773f366bdb024f171c74cb:50e1877a75cbe061dd513b58ae970c79$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cloverspell_horseshoe_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="cloverspell_anim_deco_01__clover_patch_02.png" x="376" y="3" w="104" h="75" pX="0.5" pY="0.5" oX="2" oY="0" oW="108" oH="76"/>
+    <sprite n="cloverspell_anim_deco_01_clover.png" x="3" y="504" w="225" h="177" pX="0.5" pY="0.5" oX="1" oY="1" oW="180" oH="228" r="y"/>
+    <sprite n="cloverspell_anim_deco_01_clover_patch_01.png" x="3" y="362" w="347" h="138" pX="0.5" pY="0.5" oX="3" oY="3" oW="352" oH="144"/>
+    <sprite n="cloverspell_anim_deco_01_horseshoe.png" x="3" y="3" w="369" h="355" pX="0.5" pY="0.5" oX="2" oY="3" oW="360" oH="376" r="y"/>
+    <sprite n="cloverspell_anim_deco_01_wireclover_01.png" x="376" y="82" w="83" h="49" pX="0.5" pY="0.5" oX="3" oY="2" oW="56" oH="88" r="y"/>
+    <sprite n="cloverspell_anim_deco_01_wireclover_02.png" x="376" y="135" w="65" h="143" pX="0.5" pY="0.5" oX="1" oY="4" oW="68" oH="152"/>
+</TextureAtlas>

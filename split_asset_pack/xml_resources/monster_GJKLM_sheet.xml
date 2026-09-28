@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:66b81f304f6aae4b978c4602c7516792:651f920ffa9b0946dd8cb62d1a5fd364:2aeb684df1bca9ff85c2bbaabbb3f20d$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_GJKLM_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="GJKLM_bicep_bottom" x="3" y="766" w="56" h="213" oX="14" oY="12" oW="240" oH="80" r="y"/>
+    <sprite n="GJKLM_bicep_top" x="63" y="766" w="56" h="213" oX="14" oY="12" oW="240" oH="80" r="y"/>
+    <sprite n="GJKLM_body_base" x="208" y="308" w="141" h="192" oX="27" oY="12" oW="240" oH="172" r="y"/>
+    <sprite n="GJKLM_body_stalk" x="3" y="3" w="171" h="316" oX="14" oY="12" oW="200" oH="340"/>
+    <sprite n="GJKLM_bottomhand_palm" x="404" y="537" w="63" h="74" oX="3" oY="4" oW="80" oH="72" r="y"/>
+    <sprite n="GJKLM_brainbody" x="72" y="323" w="132" h="213" oX="9" oY="5" oW="232" oH="148" r="y"/>
+    <sprite n="GJKLM_chestmouth_01" x="353" y="304" w="70" h="182" oX="9" oY="4" oW="200" oH="100" r="y"/>
+    <sprite n="GJKLM_chestmouth_02" x="324" y="537" w="76" h="182" oX="9" oY="4" oW="200" oH="100" r="y"/>
+    <sprite n="GJKLM_chestmouth_03" x="237" y="540" w="83" h="182" oX="9" oY="4" oW="200" oH="100" r="y"/>
+    <sprite n="GJKLM_chestmouth_04" x="427" y="304" w="88" h="181" oX="10" oY="4" oW="200" oH="100" r="y"/>
+    <sprite n="GJKLM_chestmouth_05" x="300" y="207" w="181" h="93" oX="10" oY="4" oW="200" oH="100"/>
+    <sprite n="GJKLM_eye_pupil" x="123" y="962" w="25" h="10" oX="3" oY="2" oW="16" oH="30" r="y"/>
+    <sprite n="GJKLM_eyeball" x="512" y="489" w="41" h="41" oX="2" oY="2" oW="44" oH="44"/>
+    <sprite n="GJKLM_eyelid_01" x="419" y="961" w="44" h="60" oX="2" oY="6" oW="64" oH="56" r="y"/>
+    <sprite n="GJKLM_eyelid_02" x="467" y="961" w="44" h="60" oX="2" oY="6" oW="64" oH="56" r="y"/>
+    <sprite n="GJKLM_eyelid_03" x="434" y="768" w="44" h="60" oX="2" oY="6" oW="64" oH="56" r="y"/>
+    <sprite n="GJKLM_eyelid_04" x="482" y="768" w="44" h="60" oX="2" oY="6" oW="64" oH="56" r="y"/>
+    <sprite n="GJKLM_finger_01" x="379" y="723" w="51" h="26" oX="4" oY="5" oW="60" oH="36"/>
+    <sprite n="GJKLM_finger_02" x="472" y="914" w="39" h="42" oX="3" oY="2" oW="48" oH="44" r="y"/>
+    <sprite n="GJKLM_forearm" x="3" y="323" w="65" h="221" oX="9" oY="7" oW="240" oH="80" r="y"/>
+    <sprite n="GJKLM_head" x="178" y="3" w="168" h="200" oX="10" oY="7" oW="220" oH="180" r="y"/>
+    <sprite n="GJKLM_headmouth_01" x="485" y="197" w="21" h="89" oX="8" oY="7" oW="108" oH="48" r="y"/>
+    <sprite n="GJKLM_headmouth_02" x="237" y="726" w="90" h="26" oX="8" oY="7" oW="108" oH="48"/>
+    <sprite n="GJKLM_headmouth_03" x="269" y="504" w="92" h="29" oX="7" oY="6" oW="108" oH="48"/>
+    <sprite n="GJKLM_headmouth_04" x="69" y="983" w="92" h="35" oX="8" oY="5" oW="108" oH="48"/>
+    <sprite n="GJKLM_headmouth_05" x="256" y="207" w="40" h="94" oX="7" oY="5" oW="108" oH="48" r="y"/>
+    <sprite n="GJKLM_nerves" x="113" y="540" w="120" h="212"/>
+    <sprite n="GJKLM_shadow" x="3" y="548" w="106" h="214" oX="5" oY="3" oW="224" oH="112" r="y"/>
+    <sprite n="GJKLM_shoulder_left" x="350" y="3" w="189" h="190" oX="15" oY="3" oW="220" oH="200"/>
+    <sprite n="GJKLM_shoulder_right" x="123" y="756" w="184" h="202" oX="10" oY="8" oW="220" oH="200" r="y"/>
+    <sprite n="GJKLM_tentacles_back_1" x="543" y="91" w="62" h="82" oX="18" oY="9" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_back_2" x="343" y="962" w="72" h="48" oX="18" oY="16" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_back_3" x="365" y="490" w="68" h="43" oX="21" oY="19" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_back_4" x="471" y="537" w="40" h="66" oX="22" oY="22" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_back_5" x="311" y="923" w="65" h="35" oX="20" oY="22" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_front_1" x="178" y="207" w="74" h="97" oX="5" oY="3" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_front_2" x="510" y="197" w="62" h="88" oX="10" oY="9" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_front_3" x="543" y="3" w="57" h="84" oX="11" oY="10" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_front_4" x="311" y="756" w="51" h="81" oX="13" oY="11" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_front_5" x="434" y="693" w="45" h="71" oX="19" oY="15" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_front_6" x="3" y="983" w="62" h="37" oX="22" oY="20" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_front_7" x="483" y="688" w="40" h="48" oX="34" oY="24" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_1" x="165" y="962" w="85" h="58" oX="12" oY="11" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_upper_1" x="254" y="962" w="85" h="58" oX="12" oY="11" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_upper_2" x="419" y="835" w="61" h="75" oX="20" oY="8" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_2" x="604" y="3" w="61" h="81" oX="14" oY="8" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_3" x="311" y="841" w="50" h="78" oX="15" oY="16" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_3" x="365" y="841" w="50" h="78" oX="15" oY="16" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_4" x="404" y="615" w="46" h="74" oX="17" oY="17" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_5" x="437" y="489" w="71" h="44" oX="19" oY="16" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_upper_6" x="454" y="615" w="45" h="69" oX="22" oY="16" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_tentacles_upper_7" x="380" y="923" w="60" h="34" oX="26" oY="21" oW="112" oH="80"/>
+    <sprite n="GJKLM_tentacles_upper_8" x="444" y="914" w="24" h="43" oX="37" oY="28" oW="112" oH="80" r="y"/>
+    <sprite n="GJKLM_thumb_01" x="208" y="504" w="57" h="32" oX="3" oY="4" oW="64" oH="40"/>
+    <sprite n="GJKLM_thumb_02" x="331" y="723" w="44" h="29" oX="4" oY="3" oW="52" oH="36"/>
+    <sprite n="GJKLM_tophand_palm" x="366" y="756" w="64" h="75" oX="3" oY="4" oW="80" oH="72" r="y"/>
+</TextureAtlas>

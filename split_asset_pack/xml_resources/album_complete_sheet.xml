@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:14cdf6108131ff5f85f8730c86e61047:ec64ce3a9c9e2005bd23e15946df239b:33cc79b4af8d9b96a7827deb2ec97bd8$ -->
+<TextureAtlas imagePath="gfx/menu/card_album/album_complete_sheet.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="album_complete" x="0" y="0" w="512" h="519"/>
+	<sprite n="beam" x="252" y="521" w="237" h="43" r="y"/>
+	<sprite n="book" x="0" y="521" w="250" h="281"/>
+	<sprite n="book_inset_glow_prestige" x="403" y="901" w="94" h="78" r="y"/>
+	<sprite n="book_inset_prestige" x="157" y="804" w="126" h="152"/>
+	<sprite n="book_page_beam_prestige" x="122" y="960" w="98" h="51" r="y"/>
+	<sprite n="book_page_prestige" x="285" y="566" w="150" h="76" r="y"/>
+	<sprite n="book_sparkles_glow_prestige" x="0" y="985" w="34" h="35"/>
+	<sprite n="book_sparkles_prestige" x="404" y="785" w="105" h="114"/>
+	<sprite n="card_backpng" x="55" y="804" w="100" h="154"/>
+	<sprite n="card_header_left" x="252" y="644" w="128" h="139"/>
+	<sprite n="card_header_right" x="382" y="644" w="128" h="139"/>
+	<sprite n="card_shine" x="0" y="804" w="53" h="179" oX="0" oY="10" oW="179" oH="64" r="y"/>
+	<sprite n="glow_small" x="285" y="899" w="116" h="116" oX="1" oY="0" oW="117" oH="116"/>
+	<sprite n="star" x="285" y="785" w="117" h="112" r="y"/>
+	<sprite n="star_shadow" x="55" y="960" w="65" h="64"/>
+</TextureAtlas>

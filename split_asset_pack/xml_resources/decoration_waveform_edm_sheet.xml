@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:824458d9e32fc9c775775e3ba6be678b:4cc6b771f2c71a1bf66e8b349fc8382f:e2cae3ca625288c64f382cf8ec6c880e$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_waveform_edm_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="bottom_arrow" x="380" y="161" w="93" h="57"/>
+	<sprite n="cube" x="475" y="161" w="35" h="34" r="y"/>
+	<sprite n="cube2" x="475" y="197" w="35" h="34" r="y"/>
+	<sprite n="side_arrow" x="380" y="115" w="106" h="44"/>
+	<sprite n="stage" x="0" y="0" w="378" h="204"/>
+	<sprite n="star_edge_light" x="144" y="206" w="193" h="189" r="y"/>
+	<sprite n="star_line_glow" x="0" y="233" w="142" h="254" r="y"/>
+	<sprite n="stellar energy" x="380" y="0" w="119" h="113" r="y"/>
+	<sprite n="stellar projection" x="197" y="397" w="187" h="72" r="y"/>
+	<sprite n="tecstack" x="488" y="115" w="23" h="31"/>
+	<sprite n="top_arrow" x="144" y="397" w="51" h="83" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:12570efe76092b4ac56667e661e1a847:682bb3c60254a9188e938c3965d2d6d1:e63419cf1b5140f731a1e0ba738a3dac$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_T10_adult_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="T10_bling.png" x="423" y="223" w="88" h="87"/>
+    <sprite n="T10_Body.png" x="1" y="1" w="327" h="210" r="y"/>
+    <sprite n="T10_Body_rock_01.png" x="228" y="578" w="49" h="29" r="y"/>
+    <sprite n="T10_Body_rock_02.png" x="174" y="535" w="59" h="40" r="y"/>
+    <sprite n="T10_Body_rock_03.png" x="280" y="484" w="48" h="64"/>
+    <sprite n="T10_Body_rock_04.png" x="329" y="530" w="68" h="49" r="y"/>
+    <sprite n="T10_body_rock_05.png" x="477" y="432" w="34" h="68"/>
+    <sprite n="T10_Body_Rock_06.png" x="228" y="608" w="47" h="30" r="y"/>
+    <sprite n="T10_Crack_01.png" x="125" y="525" w="48" h="45"/>
+    <sprite n="T10_Crack_02.png" x="1" y="696" w="38" h="33" r="y"/>
+    <sprite n="T10_Crack_03.png" x="423" y="390" w="79" h="41"/>
+    <sprite n="T10_Crack_04.png" x="329" y="59" w="155" h="89"/>
+    <sprite n="T10_Crack_05.png" x="485" y="59" w="19" h="27" r="y"/>
+    <sprite n="T10_Crack_06.png" x="280" y="549" w="48" h="60" r="y"/>
+    <sprite n="T10_Crack_07.png" x="495" y="36" w="12" h="11"/>
+    <sprite n="T10_Crack_08.png" x="495" y="17" w="14" h="18"/>
+    <sprite n="T10_Crack_09.png" x="111" y="648" w="43" h="30" r="y"/>
+    <sprite n="T10_Crack_10.png" x="57" y="624" w="53" h="30"/>
+    <sprite n="T10_Crack_11.png" x="119" y="602" w="53" h="45" r="y"/>
+    <sprite n="T10_eye_01.png" x="42" y="695" w="39" h="34"/>
+    <sprite n="T10_eye_02.png" x="155" y="652" w="40" h="35"/>
+    <sprite n="T10_eye_03.png" x="1" y="659" w="40" h="36"/>
+    <sprite n="T10_eye_04.png" x="98" y="679" w="40" h="35"/>
+    <sprite n="T10_Eyebrow_L.png" x="173" y="609" w="53" h="42"/>
+    <sprite n="T10_Eyebrow_R.png" x="1" y="525" w="62" h="36"/>
+    <sprite n="T10_eyes.png" x="95" y="414" w="92" h="36"/>
+    <sprite n="T10_Finger_L_01.png" x="125" y="571" w="47" h="30"/>
+    <sprite n="T10_Finger_L_02.png" x="276" y="610" w="45" h="35"/>
+    <sprite n="T10_Finger_L_03.png" x="227" y="639" w="43" h="38"/>
+    <sprite n="T10_Finger_R_01.png" x="246" y="530" w="33" h="47" r="y"/>
+    <sprite n="T10_Finger_R_02.png" x="459" y="659" w="49" h="34"/>
+    <sprite n="T10_Finger_R_03.png" x="57" y="655" w="40" h="39" r="y"/>
+    <sprite n="T10_Foot_L.png" x="1" y="414" w="93" h="64"/>
+    <sprite n="T10_Foot_R.png" x="188" y="414" w="91" h="63"/>
+    <sprite n="T10_Forehead_rock_01.png" x="329" y="474" w="69" h="55"/>
+    <sprite n="T10_Forehead_rock_02.png" x="174" y="478" w="71" h="56"/>
+    <sprite n="T10_Forehead_rock_03.png" x="395" y="603" w="63" h="59"/>
+    <sprite n="T10_Forhead_rock_04.png" x="1" y="562" w="60" h="54"/>
+    <sprite n="T10_Glow.png" x="1" y="212" w="304" h="201" r="y"/>
+    <sprite n="T10_Jaw.png" x="329" y="149" w="114" h="60"/>
+    <sprite n="T10_Leg_L.png" x="406" y="432" w="70" h="54" r="y"/>
+    <sprite n="T10_Leg_R.png" x="399" y="487" w="69" h="50" r="y"/>
+    <sprite n="T10_Necklace.png" x="329" y="1" w="165" h="57"/>
+    <sprite n="T10_Palm_L.png" x="173" y="576" w="54" h="32" r="y"/>
+    <sprite n="T10_Palm_R.png" x="459" y="624" w="50" h="34" r="y"/>
+    <sprite n="T10_pupil.png" x="495" y="1" w="16" h="15"/>
+    <sprite n="T10_Rock_01.png" x="444" y="149" w="67" h="73" r="y"/>
+    <sprite n="T10_Rock_02.png" x="329" y="580" w="65" h="51" r="y"/>
+    <sprite n="T10_Rock_03.png" x="280" y="414" w="48" h="69"/>
+    <sprite n="T10_Rock_04.png" x="95" y="451" w="78" h="73" r="y"/>
+    <sprite n="T10_Rock_05.png" x="465" y="563" w="45" h="60"/>
+    <sprite n="T10_Rock_06.png" x="196" y="652" w="30" h="30"/>
+    <sprite n="T10_Rock_07.png" x="469" y="501" w="42" h="61"/>
+    <sprite n="T10_Rock_08.png" x="423" y="311" w="83" h="78"/>
+    <sprite n="T10_Rock_09.png" x="329" y="424" w="76" h="49"/>
+    <sprite n="T10_Rock_10.png" x="62" y="584" w="56" h="39" r="y"/>
+    <sprite n="T10_Rock_11.png" x="1" y="617" w="55" h="41" r="y"/>
+    <sprite n="T10_Rock_12.png" x="1" y="479" w="78" h="45"/>
+    <sprite n="T10_Rock_13.png" x="246" y="478" w="33" h="51" r="y"/>
+    <sprite n="T10_Rock_14.png" x="64" y="525" w="60" h="58" r="y"/>
+    <sprite n="T10_rock_glow.png" x="398" y="538" w="66" h="64"/>
+    <sprite n="T10_Shadow.png" x="329" y="210" w="93" h="213" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:22993a594888a276b5126593025a08bc:97f3435a6654998374e989d29cd56806:332fe20c8dbfed12400ca7ca784484f3$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BCN_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BCF_body_seg1" x="0" y="364" w="133" h="122" oX="16" oY="15" oW="150" oH="158" r="y"/>
+	<sprite n="BCF_body_seg2" x="279" y="385" w="137" h="136" oX="0" oY="0" oW="138" oH="142"/>
+	<sprite n="BCF_body_seg3" x="295" y="0" w="181" h="147" oX="4" oY="7" oW="158" oH="195" r="y"/>
+	<sprite n="BCF_body_seg4" x="280" y="248" w="146" h="135" oX="13" oY="5" oW="169" oH="150"/>
+	<sprite n="BCF_head" x="0" y="225" w="176" h="137" oX="36" oY="23" oW="248" oH="182"/>
+	<sprite n="BCF_head_beard_left" x="249" y="447" w="28" h="27" oX="15" oY="15" oW="59" oH="51"/>
+	<sprite n="BCF_head_beard_right" x="135" y="364" w="39" h="52" oX="3" oY="6" oW="59" oH="51" r="y"/>
+	<sprite n="BCF_head_hair" x="178" y="225" w="100" h="85" oX="12" oY="20" oW="113" oH="131" r="y"/>
+	<sprite n="BCF_head_hair_back" x="0" y="0" w="293" h="223" oX="10" oY="15" oW="317" oH="254"/>
+	<sprite n="BCF_left_claw" x="0" y="558" w="65" h="45" oX="8" oY="6" oW="84" oH="57"/>
+	<sprite n="BCF_left_foot" x="418" y="518" w="79" h="57"/>
+	<sprite n="BCF_left_lower_arm" x="477" y="180" w="35" h="42" oX="0" oY="1" oW="42" oH="36" r="y"/>
+	<sprite n="BCF_left_lowerleg" x="159" y="499" w="76" h="46" oX="5" oY="0" oW="56" oH="76" r="y"/>
+	<sprite n="BCF_left_upper_arm" x="418" y="478" w="82" h="38" oX="0" oY="3" oW="82" oH="42"/>
+	<sprite n="BCF_left_upperleg" x="428" y="314" w="84" h="58" oX="0" oY="0" oW="60" oH="84" r="y"/>
+	<sprite n="BCF_lids_01" x="478" y="0" w="34" h="88" r="y"/>
+	<sprite n="BCF_lids_02" x="478" y="90" w="34" h="88" r="y"/>
+	<sprite n="BCF_lids_03" x="477" y="224" w="34" h="88" r="y"/>
+	<sprite n="BCF_lids_04" x="418" y="442" w="88" h="34"/>
+	<sprite n="BCF_mouth1" x="159" y="547" w="74" h="19" oX="3" oY="1" oW="78" oH="22"/>
+	<sprite n="BCF_mouth2" x="249" y="476" w="22" h="78" r="y"/>
+	<sprite n="BCF_mouth3" x="135" y="475" w="22" h="76" oX="1" oY="0" oW="78" oH="22" r="y"/>
+	<sprite n="BCF_mouth4" x="74" y="488" w="48" h="14" oX="14" oY="5" oW="78" oH="22"/>
+	<sprite n="BCF_pupil" x="123" y="553" w="20" h="18" oX="2" oY="1" oW="23" oH="23" r="y"/>
+	<sprite n="BCF_right_claw" x="74" y="504" w="47" h="68" oX="11" oY="2" oW="84" oH="57" r="y"/>
+	<sprite n="BCF_right_foot" x="0" y="488" w="72" h="68"/>
+	<sprite n="BCF_right_lower_arm" x="135" y="418" w="32" h="55" oX="2" oY="1" oW="61" oH="37" r="y"/>
+	<sprite n="BCF_right_lowerleg" x="169" y="447" w="78" h="50" oX="2" oY="0" oW="55" oH="83" r="y"/>
+	<sprite n="BCF_right_upper_arm" x="428" y="248" w="34" h="59" r="y"/>
+	<sprite n="BCF_right_upperleg" x="428" y="374" w="82" h="66" oX="1" oY="0" oW="67" oH="88" r="y"/>
+	<sprite n="BCF_shadow" x="295" y="149" w="180" h="97" oX="6" oY="4" oW="192" oH="108"/>
+	<sprite n="BCF_tail" x="178" y="312" w="99" h="133" oX="3" oY="4" oW="111" oH="140"/>
+</TextureAtlas>

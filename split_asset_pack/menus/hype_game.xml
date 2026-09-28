@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<script src="scripts/HypeGame.lua" />
+
+	<!-- Note: ClubboxTutorial changes the layer of this (but not the priority) in order to bump it above the clubbox_tutorial_popup::FadedBG;
+	 if priority of this changes, then clubbox_tutorial_popup/ClubboxTutorial must be changed to maintain tutorial consistency-->
+	<template type="template_hype_reward_track_bar" name="HypeBar">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$scale" equals="0.65*game.hudScale()" />
+		<templateVar name="$touchEnabled" equals="1" />
+		<templateVar name="$sfxEnabled" equals="1" />
+		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="4*game.hudScale()" yOffset="8*game.hudScale()" priorityOffset="12" />
+	</template>
+
+	<element name="TokenCounter">
+		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
+		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="2*game.hudScale()" yOffset="14*game.hudScale()" priorityOffset="12" />
+		<ninesliceComponent name="BackingSprite">
+			<size w="90*game.hudScale()" h="31*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				component("includeBorder"):SetInt(1)
+				component("topHeight"):SetFloat(30.0)
+				component("bottomHeight"):SetFloat(30.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("spriteName"):SetString("gfx/clubbox/clubbox_currency_frame_9S")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="4*game.hudScale()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString(game.StoreContext_SPRITE_CLUBBOX_TOKENS)
+				component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Plus">
+			<position relativeTo="element[&quot;Icon&quot;]" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("plus")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<size w="65*game.hudScale()" h="100" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="4*game.hudScale()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("text"):SetString(game.localizeInt(game.playerClubboxTokens()))
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("FrontPopUps")
+				game.StoreContext_setCurrencyTypeColour(game.CurrencyType_ClubboxTokens, component)
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchDown" params="component, element">
+				<![CDATA[
+					if not element:parent():buttonDisabled() and not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1 then
+						element["Plus"]:setColor(0.5, 0.5, 0.5)
+					end
+				]]>
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					if not element:parent():buttonDisabled() and not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1 then
+						element["Plus"]:setColor(1.0, 1.0, 1.0)
+						playSoundFx("audio/sfx/menu_click_small.wav")
+						game.showNotEnoughCurrencyPrompt(game.PurchaseType_CLUBBOX_TOKENS_NOT_ENOUGH, 
+							0, game.CurrencyType_ClubboxTokens, 0, "")
+					end
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					element["Plus"]:setColor(1.0, 1.0, 1.0)
+				]]>
+			</event>
+		</touchComponent>
+	</element>
+
+	<element name="Bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="14" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/clubbox/hype/dj_booth_bg")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="UpperLight">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="12" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/clubbox_activity_menu.bin")
+				component("animation"):SetString("clubbox_upper_lights")
+				component("layer"):SetString("FrontPopUps")
+
+				local offsetX = component:absW() * 0.5
+				local offsetY = component:absH() * 0.5
+				component:setOrientationPosition(Vector2(offsetX, offsetY))
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="MixBoard">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="13" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/clubbox_activity_menu.bin")
+				component("animation"):SetString("clubbox")
+				component("layer"):SetString("FrontPopUps")
+
+				local offsetX = component:absW() * 0.5
+				local offsetY = component:absH() * 0.5
+				component:setOrientationPosition(Vector2(offsetX, offsetY))
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="MixBoardUpper">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="6" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/clubbox_activity_menu.bin")
+				component("animation"):SetString("clubbox_upper_layer")
+				component("layer"):SetString("FrontPopUps")
+
+				local offsetX = component:absW() * 0.5
+				local offsetY = component:absH() * 0.5
+				component:setOrientationPosition(Vector2(offsetX, offsetY))
+			</event>
+		</aeComponent>
+	</element>
+
+	<textComponent name="BaseHigh">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_mixer_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("50")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="BaseMid">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_mixer_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("20")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="BaseLow">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_mixer_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("10")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="MultHigh">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_mixer_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("50")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="MultMid">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_mixer_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("20")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="MultLow">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_mixer_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("10")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="Tickets">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_digital_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("10")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<textComponent name="Output">
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("multiline"):SetInt(0)
+				component("font"):Set("font_hype_digital_numbers")
+				component("size"):SetFloat(1)
+				component("text"):SetString("10")
+				component("layer"):SetString("FrontPopUps")
+			]]>
+		</event>
+	</textComponent>
+
+	<!-- Note: Plus/Minus need to be usable in ClubboxTutorial /clubbox_tutorial_popup during certain steps, and not usable in other steps;
+	 if priority of this changes, clubbox tutorial will need to change -->
+	<element name="MinusButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):Set("xml_resources/clubbox_menu.xml")
+				component("spriteName"):Set("button_minus")
+				component("size"):SetFloat(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onTouchDown" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_minus_pressed")
+			</event>
+			<event name="onTouchUp" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_minus")
+				element:parent():changeTickets(-1)
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_minus")
+			</event>
+		</touchComponent>
+	</element>
+
+	<!-- Note: Plus/Minus need to be usable in ClubboxTutorial /clubbox_tutorial_popup during certain steps, and not usable in other steps;
+	 if priority of this changes, clubbox tutorial will need to change -->
+	<element name="PlusButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):Set("xml_resources/clubbox_menu.xml")
+				component("spriteName"):Set("button_plus")
+				component("size"):SetFloat(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onTouchDown" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_plus_pressed")
+			</event>
+			<event name="onTouchUp" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_plus")
+				element:parent():changeTickets(1)
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_plus")
+			</event>
+		</touchComponent>
+	</element>
+
+	<!-- Note: HypeButton need to be usable in ClubboxTutorial /clubbox_tutorial_popup during certain steps, and MUST NOT BE usable in other
+	 steps; if priority of this changes, clubbox tutorial will need to change -->
+	<element name="HypeButton">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+
+		<!-- for tutorial -->
+		<event name="disable" params="element">
+			element:C("Sprite")("spriteName"):Set("button_hype_grey")
+			element:C("Touch")("enabled"):SetInt(0)
+		</event>
+		<event name="enable" params="element">
+			element:C("Sprite")("spriteName"):Set("button_hype")
+			element:C("Touch")("enabled"):SetInt(1)
+		</event>
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("sheetName"):Set("xml_resources/clubbox_menu.xml")
+				component("spriteName"):Set("button_hype")
+				component("size"):SetFloat(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onTouchDown" params="component, element">
+				if (element:parent():buttonDisabled()) then
+					element:C("Sprite")("spriteName"):Set("button_hype_pressed_grey")
+				else
+					element:C("Sprite")("spriteName"):Set("button_hype_pressed")
+				end
+			</event>
+			<event name="onTouchUp" params="component, element">
+				element:C("Sprite")("spriteName"):Set("button_hype_grey")
+				element:parent():spinIt()
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				if (element:parent():buttonDisabled()) then
+					element:C("Sprite")("spriteName"):Set("button_hype_grey")
+				else
+					element:C("Sprite")("spriteName"):Set("button_hype")
+				end
+			</event>
+		</touchComponent>
+	</element>
+
+
+	<template type="template_hype_game_wheel" name="SpinWheelLeft">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+	</template>
+
+	<template type="template_hype_game_wheel" name="SpinWheelRight">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="MixBoard" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+	</template>
+
+
+	<element name="HoolaHandLeft">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="4" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/clubbox_activity_menu.bin")
+				component("animation"):SetString("hoola_hand_left")
+				component("layer"):SetString("FrontPopUps")
+
+				local offsetX = component:absW() * 0.5
+				local offsetY = component:absH() * 0.5
+				component:setOrientationPosition(Vector2(offsetX, offsetY))
+			</event>
+		</aeComponent>
+	</element>
+
+	<element name="HoolaHandRight">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="4" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("animationName"):SetString("xml_bin/clubbox_activity_menu.bin")
+				component("animation"):SetString("hoola_hand_right")
+				component("layer"):SetString("FrontPopUps")
+
+				local offsetX = component:absW() * 0.5
+				local offsetY = component:absH() * 0.5
+				component:setOrientationPosition(Vector2(offsetX, offsetY))
+			</event>
+		</aeComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="CloseButton">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+		<templateVar name="$upSpriteName" equals="'button_base_clubbox'" />
+
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="3*game.hudScale()" yOffset="9*game.windowScaleMin()" priorityOffset="7" />
+
+		<touchComponent name="Touch">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchDown" params="component, element">
+				if not element:parent():buttonDisabled() then
+					onTouchDown(component, element)
+					element["Text"]:setColor(1.0, 1.0, 1.0)
+					element["Overlay"]:setColor(0.5, 0.5, 0.5)
+				end
+			</event>
+			<event name="onTouchUp" params="component, element">
+				if not element:parent():buttonDisabled() then
+					onTouchUp(component, element)
+					element["Overlay"]("visible"):SetInt(0)
+					element:parent().closePopup = true
+				end
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_no")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("size"):SetFloat(0.75*game.bgScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<textComponent name="Text">
+			<size w="60*game.hudScale()" h="100" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-8*game.hudScale()" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("EXIT")
+				component("size"):SetFloat(0.25*game.hudScale())
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+				element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+			end
+		</event>
+		<event name="setInvisible" params="element">
+			setInvisible(element)
+			element["Overlay"]("visible"):SetInt(0)
+		</event>
+		<event name="setVisible" params="element">
+			setVisible(element)
+			element["Overlay"]("visible"):SetInt(1)
+		</event>
+	</template>
+
+	<event name="close" params="element">
+		--put this here so the tutorial can call it from C++ land
+		element:root():popPopUp()
+	</event>
+</menu>

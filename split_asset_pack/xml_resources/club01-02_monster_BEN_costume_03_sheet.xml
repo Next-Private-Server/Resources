@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2c63a44c19d16107589a9017e853a6e2:4f337a50dbfb0c12bf3cd6023d2069be:4a1a6d1ce816e6d0b9d916df17fac2d8$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_BEN_costume_03_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BEN_body" x="0" y="81" w="163" h="127" pX="0.492647" pY="0.887574" oX="4" oY="3" oW="136" oH="169" r="y"/>
+	<sprite n="BEN_flowers_01" x="165" y="149" w="39" h="126" pX="0.480159" pY="-0.188889" oX="0" oY="3" oW="126" oH="45" r="y"/>
+	<sprite n="BEN_flowers_02" x="0" y="0" w="216" h="79" pX="0.515625" pY="0.183333" oX="4" oY="3" oW="224" oH="90"/>
+	<sprite n="BEN_flowers_03" x="371" y="181" w="139" h="54" pX="0.472028" pY="-0.101852" oX="2" oY="0" oW="143" oH="54"/>
+	<sprite n="BEN_glasses" x="454" y="237" w="39" h="69" pX="0.644737" pY="1.225" oX="4" oY="1" oW="76" oH="40" r="y"/>
+	<sprite n="BEN_hair" x="218" y="0" w="177" h="83" pX="0.533333" pY="1.10682" oX="3" oY="2" oW="180" oH="88"/>
+	<sprite n="BEN_hornbell" x="217" y="85" w="152" h="151" pX="0.539375" pY="0.566875" oX="4" oY="5" oW="160" oH="160"/>
+	<sprite n="BEN_left_ankle" x="206" y="238" w="80" h="79" pX="0.475" pY="0.602273" oX="0" oY="6" oW="80" oH="88"/>
+	<sprite n="BEN_left_ankle_back" x="165" y="81" w="50" h="26" pX="0.425" pY="0.833333" oX="54" oY="6" oW="80" oH="60" r="y"/>
+	<sprite n="BEN_left_calf" x="397" y="76" w="85" h="69" pX="0.55" pY="0.659091" oX="8" oY="3" oW="80" oH="88" r="y"/>
+	<sprite n="BEN_left_shoe" x="371" y="237" w="81" h="64" pX="0.713483" pY="0.5" oX="4" oY="0" oW="89" oH="64"/>
+	<sprite n="BEN_left_sleave" x="165" y="109" w="48" h="38" pX="0.885417" pY="0.5375" oX="0" oY="1" oW="48" oH="40"/>
+	<sprite n="BEN_left_upperarm" x="371" y="85" w="20" h="61" pX="0.914754" pY="0.58" r="y"/>
+	<sprite n="BEN_right_ankle" x="288" y="238" w="80" h="78" pX="0.4625" pY="0.465909" oX="0" oY="5" oW="80" oH="88"/>
+	<sprite n="BEN_right_ankle_back" x="484" y="128" w="28" h="51" pX="0.45" pY="0.65" oX="52" oY="2" oW="80" oH="60"/>
+	<sprite n="BEN_right_calf" x="397" y="0" w="88" h="74" pX="0.525" pY="0.738636" oX="3" oY="0" oW="80" oH="88" r="y"/>
+	<sprite n="BEN_right_shoe" x="370" y="303" w="74" h="72" pX="0.5" pY="0.5375" oX="4" oY="3" oW="80" oH="80" r="y"/>
+	<sprite n="BEN_right_sleave" x="446" y="308" w="59" h="38" pX="0.142857" pY="0.539024" oX="2" oY="1" oW="63" oH="41"/>
+	<sprite n="BEN_right_upperarm" x="487" y="62" w="21" h="64" pX="0.078125" pY="0.47619" r="y"/>
+	<sprite n="BEN_upperleg" x="487" y="0" w="24" h="60" pX="0.4375" pY="0.928333"/>
+</TextureAtlas>

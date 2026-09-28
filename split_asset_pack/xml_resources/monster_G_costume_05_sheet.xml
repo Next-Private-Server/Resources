@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd8a3c51dfa3c9516434dafdc03f64fe:c74dbcb12f2de3bcf05f2031981325ca:705efdda3ea10185773dae3783393c73$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_G_costume_05_sheet.png" width="256" height="1024" hires="true" version="1">
+	<sprite n="G_body_cloth" x="3" y="157" w="164" h="265" pX="0.5523529411764706" pY="0.6346428571428571" oX="3" oY="8" oW="170" oH="280"/>
+	<sprite n="G_body_clothback" x="3" y="3" w="243" h="150" pX="0.5775" pY="0.5432" oX="5" oY="3" oW="160" oH="250" r="y"/>
+	<sprite n="G_head" x="3" y="553" w="139" h="119" pX="0.5" pY="0.5" oX="0" oY="25" oW="164" oH="156"/>
+	<sprite n="G_mask" x="3" y="426" w="148" h="123" pX="0.6473333333333333" pY="0.8006666666666666" oX="0" oY="18" oW="150" oH="150"/>
+	<sprite n="G_mouthmask_01" x="123" y="781" w="116" h="43" pX="0.475" pY="0.5166666666666667" oX="2" oY="5" oW="120" oH="60"/>
+	<sprite n="G_mouthmask_02" x="3" y="732" w="116" h="44" pX="0.475" pY="0.5166666666666667" oX="2" oY="4" oW="120" oH="60"/>
+	<sprite n="G_mouthmask_03" x="3" y="780" w="116" h="44" pX="0.475" pY="0.5166666666666667" oX="2" oY="5" oW="120" oH="60"/>
+	<sprite n="G_mouthmask_04" x="3" y="676" w="116" h="52" pX="0.475" pY="0.5166666666666667" oX="3" oY="3" oW="120" oH="60"/>
+	<sprite n="G_mouthmask_05" x="3" y="828" w="52" h="115" pX="0.475" pY="0.5166666666666667" oX="3" oY="4" oW="120" oH="60" r="y"/>
+	<sprite n="G_sleeve" x="160" y="894" w="53" h="50" pX="0.364" pY="0.4946428571428571" oX="0" oY="1" oW="50" oH="56" r="y"/>
+	<sprite n="G_sphere_01" x="160" y="828" w="71" h="62" pX="0.5" pY="0.5" oX="18" oY="10" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_02" x="3" y="947" w="66" h="73" pX="0.5" pY="0.5" oX="19" oY="12" oW="104" oH="104"/>
+	<sprite n="G_sphere_03" x="59" y="828" w="86" h="94" pX="0.5" pY="0.5" oX="9" oY="0" oW="104" oH="104"/>
+	<sprite n="G_sphere_04" x="155" y="467" w="96" h="95" pX="0.5" pY="0.5" oX="4" oY="3" oW="104" oH="104" r="y"/>
+	<sprite n="G_sphere_05" x="146" y="674" w="104" h="103" pX="0.5" pY="0.5" oX="0" oY="0" oW="104" oH="104"/>
+	<sprite n="G_sphere_06" x="146" y="566" w="104" h="104" pX="0.5" pY="0.5"/>
+	<sprite n="G_sphere_07" x="73" y="926" w="83" h="86" pX="0.5" pY="0.5" oX="8" oY="9" oW="104" oH="104"/>
+	<sprite n="G_tail_1_cloth" x="171" y="157" w="82" h="98" pX="-0.33" pY="0.45" oX="9" oY="1" oW="100" oH="100"/>
+	<sprite n="G_tail_2_cloth" x="171" y="259" w="80" h="104" pX="0.5" pY="0.5"/>
+	<sprite n="G_tail_3_cloth" x="171" y="367" w="80" h="96" pX="0.5" pY="0.5" oX="0" oY="1" oW="80" oH="100"/>
+</TextureAtlas>

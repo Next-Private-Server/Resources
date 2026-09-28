@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:0e7a8538dfa151050b252eb806d77322:426ceac843936b8c25755095295e5b5b:ff7aecef9e858253110c5b17e27d0ba4$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_ACDEN_RARE_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="ACDEN_RARE_body_front.png" x="1" y="1" w="275" h="417" pX="0.5" pY="0.5" oX="0" oY="3" oW="280" oH="428"/>
+    <sprite n="ACDEN_RARE_body_hind.png" x="1" y="420" w="261" h="320" pX="0.5" pY="0.5" oX="10" oY="5" oW="280" oH="340"/>
+    <sprite n="ACDEN_RARE_head.png" x="121" y="742" w="164" h="205" pX="0.5" pY="0.5" oX="14" oY="70" oW="240" oH="240" r="y"/>
+    <sprite n="ACDEN_RARE_head_cap.png" x="720" y="295" w="173" h="164" pX="0.5" pY="0.5" oX="0" oY="5" oW="184" oH="240"/>
+    <sprite n="ACDEN_RARE_left_back_foot.png" x="341" y="461" w="115" h="157" pX="0.5" pY="0.5" oX="2" oY="4" oW="160" oH="120" r="y"/>
+    <sprite n="ACDEN_RARE_left_back_lowerleg.png" x="458" y="461" w="87" h="148" pX="0.5" pY="0.5" oX="7" oY="1" oW="96" oH="152"/>
+    <sprite n="ACDEN_RARE_left_back_upperleg.png" x="264" y="622" w="180" h="117" pX="0.5" pY="0.5" oX="1" oY="3" oW="120" oH="188" r="y"/>
+    <sprite n="ACDEN_RARE_left_front_foot.png" x="919" y="1" w="102" h="112" pX="0.5" pY="0.5" oX="0" oY="4" oW="112" oH="108" r="y"/>
+    <sprite n="ACDEN_RARE_left_front_lowerleg.png" x="366" y="290" w="78" h="169" pX="0.5" pY="0.5" oX="6" oY="5" oW="92" oH="180"/>
+    <sprite n="ACDEN_RARE_left_front_upperleg.png" x="720" y="1" w="197" h="129" pX="0.5" pY="0.5" oX="0" oY="0" oW="132" oH="200" r="y"/>
+    <sprite n="ACDEN_RARE_right_back_foot.png" x="446" y="290" w="107" h="162" pX="0.5" pY="0.5" oX="1" oY="8" oW="164" oH="120" r="y"/>
+    <sprite n="ACDEN_RARE_right_back_lowerleg.png" x="547" y="461" w="85" h="148" pX="0.5" pY="0.5" oX="7" oY="5" oW="96" oH="160"/>
+    <sprite n="ACDEN_RARE_right_back_upperleg.png" x="446" y="620" w="170" h="116" pX="0.5" pY="0.5" oX="2" oY="5" oW="120" oH="180" r="y"/>
+    <sprite n="ACDEN_RARE_right_front_foot.png" x="278" y="78" w="121" h="93" pX="0.5" pY="0.5" oX="3" oY="3" oW="128" oH="100"/>
+    <sprite n="ACDEN_RARE_right_front_lowerleg.png" x="560" y="941" w="158" h="79" pX="0.5" pY="0.5" oX="2" oY="0" oW="84" oH="160" r="y"/>
+    <sprite n="ACDEN_RARE_right_front_upperleg.png" x="287" y="741" w="127" h="199" pX="0.5" pY="0.5" oX="2" oY="2" oW="132" oH="208"/>
+    <sprite n="ACDEN_RARE_tail_1.png" x="341" y="942" w="105" h="81" pX="0.5" pY="0.5" oX="4" oY="6" oW="90" oH="120" r="y"/>
+    <sprite n="ACDEN_RARE_tail_2.png" x="91" y="968" w="98" h="53" pX="0.5" pY="0.5" oX="8" oY="8" oW="72" oH="120" r="y"/>
+    <sprite n="ACDEN_RARE_tree_1.png" x="264" y="420" w="75" h="200" pX="0.5" pY="0.5" oX="2" oY="0" oW="80" oH="200"/>
+    <sprite n="ACDEN_RARE_tree_2.png" x="191" y="949" w="148" h="74" pX="0.5" pY="0.5" oX="3" oY="1" oW="80" oH="150" r="y"/>
+    <sprite n="ACDEN_RARE_tree_3.png" x="448" y="941" w="110" h="82" pX="0.5" pY="0.5" oX="1" oY="0" oW="84" oH="110" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_L0.png" x="350" y="179" w="74" h="109" pX="0.5" pY="0.5" oX="3" oY="1" oW="80" oH="112"/>
+    <sprite n="ACDEN_RARE_trunk_L1.png" x="498" y="1" w="116" h="75" pX="0.5" pY="0.5" oX="2" oY="2" oW="80" oH="120" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_L2.png" x="618" y="113" w="97" h="64" pX="0.5" pY="0.5" oX="2" oY="1" oW="68" oH="100" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_L3.png" x="401" y="1" w="93" h="58" pX="0.5" pY="0.5" oX="3" oY="1" oW="64" oH="96" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_L4.png" x="278" y="1" w="106" h="68" pX="0.5" pY="0.5" oX="2" oY="3" oW="72" oH="112" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_L5.png" x="903" y="294" w="117" h="86" pX="0.5" pY="0.5" oX="3" oY="1" oW="92" oH="120" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_L6.png" x="903" y="186" w="117" h="106" pX="0.5" pY="0.5" oX="4" oY="2" oW="124" oH="108"/>
+    <sprite n="ACDEN_RARE_trunk_R0.png" x="426" y="179" w="70" h="109" pX="0.5" pY="0.5" oX="1" oY="1" oW="72" oH="112"/>
+    <sprite n="ACDEN_RARE_trunk_R1.png" x="278" y="179" w="70" h="110" pX="0.5" pY="0.5" oX="2" oY="4" oW="76" oH="120"/>
+    <sprite n="ACDEN_RARE_trunk_R2.png" x="401" y="61" w="90" h="57" pX="0.5" pY="0.5" oX="2" oY="1" oW="64" oH="92" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_R3.png" x="1" y="968" w="88" h="54" pX="0.5" pY="0.5" oX="3" oY="2" oW="60" oH="92" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_R4.png" x="919" y="115" w="102" h="69" pX="0.5" pY="0.5" oX="2" oY="3" oW="76" oH="108" r="y"/>
+    <sprite n="ACDEN_RARE_trunk_R5.png" x="278" y="295" w="86" h="122" pX="0.5" pY="0.5" oX="2" oY="3" oW="96" oH="128"/>
+    <sprite n="ACDEN_RARE_trunk_R6.png" x="618" y="1" w="98" h="110" pX="0.5" pY="0.5" oX="3" oY="2" oW="108" oH="112"/>
+    <sprite n="ACDEN_RARE_tusk_L.png" x="416" y="741" w="160" h="198" pX="0.5" pY="0.5" oX="23" oY="22" oW="240" oH="200" r="y"/>
+    <sprite n="ACDEN_RARE_tusk_R.png" x="720" y="132" w="181" h="161" pX="0.5" pY="0.5" oX="17" oY="24" oW="216" oH="210"/>
+    <sprite n="ACDEN_shadow.png" x="1" y="742" w="118" h="224" pX="0.5" pY="0.5" oX="8" oY="1" oW="240" oH="120" r="y"/>
+</TextureAtlas>

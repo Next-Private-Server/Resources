@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:bb5682e88a1aab1ffd4972e9e96e7973:299279b463b16c1499e001dd44df842c:fa27933b0b18deab0005d9ba50093314$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cresendomoon_peony_wheel_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="peony_wheel__shadow" x="310" y="812" w="349" h="150" pX="0.5" pY="0.5" oX="37" oY="21" oW="420" oH="200"/>
+    <sprite n="peony_wheel_flower_wheel" x="3" y="442" w="353" h="366" pX="0.5" pY="0.5" oX="27" oY="11" oW="400" oH="400" r="y"/>
+    <sprite n="peony_wheel_flowers" x="3" y="3" w="357" h="435" pX="0.5" pY="0.5" oX="21" oY="7" oW="400" oH="450"/>
+    <sprite n="peony_wheel_stand" x="3" y="812" w="303" h="162" pX="0.5" pY="0.5" oX="23" oY="19" oW="350" oH="200"/>
+</TextureAtlas>

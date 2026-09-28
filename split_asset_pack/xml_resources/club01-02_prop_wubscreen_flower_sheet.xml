@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a6674f679926a5ce3a594d36d8bc7d60:0921a3731b5451ff4d6cc05dbe0c0760:72aef0a5c6d59fd6b63b9113b0312de6$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_wubscreen_flower_sheet.png" width="2048" height="256" hires="true" version="1">
+	<sprite n="crowd1A_tv" x="1248" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1454 144 1248 144 1248 73 1454 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd1B_tv" x="1040" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1246 144 1040 144 1040 73 1246 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd1C_tv" x="1456" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1662 71 1456 71 1456 0 1662 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd1D_tv" x="1248" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1454 71 1248 71 1248 0 1454 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd2A_tv" x="832" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1038 144 832 144 832 73 1038 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd2B_tv" x="1040" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1246 71 1040 71 1040 0 1246 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd2C_tv" x="1842" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>2048 71 1842 71 1842 0 2048 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd2D_tv" x="832" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>1038 71 832 71 832 0 1038 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd3A_tv" x="624" y="146" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>830 217 624 217 624 146 830 146</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd3B_tv" x="416" y="146" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>622 217 416 217 416 146 622 146</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd3C_tv" x="624" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>830 144 624 144 624 73 830 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd3D_tv" x="208" y="146" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>414 217 208 217 208 146 414 146</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd4A_tv" x="416" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>622 144 416 144 416 73 622 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd4B_tv" x="0" y="146" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>206 217 0 217 0 146 206 146</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd4C_tv" x="208" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>414 144 208 144 208 73 414 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd4D_tv" x="624" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>830 71 624 71 624 0 830 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd5A_tv" x="416" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>622 71 416 71 416 0 622 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd5B_tv" x="0" y="73" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>206 144 0 144 0 73 206 73</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd5C_tv" x="208" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>414 71 208 71 208 0 414 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="crowd5D_tv" x="0" y="0" w="206" h="71" oX="14" oY="16" oW="233" oH="104">
+		<vertices>220 87 14 87 14 16 220 16</vertices>
+		<verticesUV>206 71 0 71 0 0 206 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2cdd8d612159c3356445f8374244f25e:d888b588d8eac659c72904c74ec6cbd2:a5857e0415712e194413ba524831078c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AN_costume_02_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="AN_body" x="0" y="97" w="124" h="121" pX="0.741935" pY="0.866935" oX="1" oY="0" oW="124" oH="124" r="y" />
+  <sprite n="AN_head" x="0" y="0" w="139" h="95" pX="0.5625" pY="0.694444" oX="2" oY="43" oW="144" oH="144" />
+  <sprite n="AN_head_top" x="126" y="104" w="113" h="97" pX="0.5625" pY="0.694444" oX="18" oY="5" oW="144" oH="144" />
+  <sprite n="AN_left_upperarm" x="126" y="203" w="100" h="44" pX="0.21" pY="0.477273" />
+  <sprite n="AN_lowerbody" x="141" y="0" w="114" h="102" pX="0.596154" pY="0.844828" oX="1" oY="1" oW="104" oH="116" r="y" />
+  <sprite n="AN_right_upperarm" x="0" y="220" w="100" h="44" pX="0.21" pY="0.477273" />
+</TextureAtlas>

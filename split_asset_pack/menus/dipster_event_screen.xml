@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<template type="template_event_screen" name="EventScreen">
+		<templateVar name="$layer" equals="FrontPopUps" />
+
+		<templateVar name="$titleSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/seasonal_text_dipster_digs'"/>
+		<templateVar name="$stickerSpriteSheet" equals="'xml_resources/multipack_dipster_dig_sheet.xml'"/>
+		<templateVar name="$monsterSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/event_screen_monster'"/>
+		<templateVar name="$mainSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/dipster_digs_event_image_01'"/>
+		<templateVar name="$glowSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/event_screen_glow'"/>
+
+		<templateVar name="$subtitle_refid" equals="DIPSTER_DIG_TITLE"/>
+
+		<templateVar name="$text1_color" equals="'#b573f0'"/>
+		<templateVar name="$text1_refid" equals="EVENT_SCREEN_DIPSTER_TOP"/>
+		<templateVar name="$text2_refid" equals="EVENT_SCREEN_DIPSTER_BOTTOM"/>
+				
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<event name="onInit" params="component, element">
+		<![CDATA[
+			component:E("EventScreen").onContinue = function(e)
+				game.goToMinigame(game.MinigameId_DIPSTER_DIG)
+			end
+		]]>
+	</event>
+</menu>

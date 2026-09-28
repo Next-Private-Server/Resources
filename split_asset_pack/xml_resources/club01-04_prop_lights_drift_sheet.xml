@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6915633919d59629ab3b1e574c1cf542:8a840b784f7abbea442c6e9741b4d4b4:87c15dfc9f0614f519fd439153b6c85b$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_lights_drift_sheet.png" width="512" height="256" hires="true" version="1">
+	<sprite n="phonk_stage_glow" x="0" y="170" w="180" h="71" oX="0" oY="4" oW="180" oH="80">
+		<vertices>180 75 0 75 0 4 180 4</vertices>
+		<verticesUV>180 241 0 241 0 170 180 170</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="stage_light_01" x="0" y="0" w="265" h="167" oX="0" oY="0" oW="280" oH="200">
+		<vertices>247 70 265 141 91 167 0 98 98 0 183 0</vertices>
+		<verticesUV>247 70 265 141 91 167 0 98 98 0 183 0</verticesUV>
+		<triangles>2 4 5 2 3 4 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="stage_light_03" x="265" y="0" w="108" h="198" oX="89" oY="0" oW="280" oH="200">
+		<vertices>197 178 96 198 89 157 120 0 162 0</vertices>
+		<verticesUV>373 178 272 198 265 157 296 0 338 0</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="stage_light_04" x="375" y="0" w="51" h="185" oX="115" oY="0" oW="280" oH="200">
+		<vertices>147 16 166 185 115 183 136 0 144 0</vertices>
+		<verticesUV>407 16 426 185 375 183 396 0 404 0</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<template name="template_sticker_reveal_card" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	<aeComponent name="Sprite"/>
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	</touchComponent>
+
+</template>

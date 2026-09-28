@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:39b9cbcddd6314820201323abd41060b:506e7b5633cc0e17e1dac5c1e43a1e12:e53092eb4b142823e29c20a2972d7294$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_W_EPIC_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="W_body" x="607" y="1338" w="74" h="98" oX="0" oY="0" oW="75" oH="108"/>
+	<sprite n="W_dress_A_01_epic" x="694" y="0" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_A_02_epic" x="694" y="157" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_A_03_epic" x="694" y="314" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_A_04_epic" x="690" y="728" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_A_05_epic" x="690" y="885" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_A_06_epic" x="688" y="1042" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_A_07_epic" x="688" y="1199" w="295" h="155" oX="2" oY="1" oW="158" oH="297" r="y"/>
+	<sprite n="W_dress_B_01_epic" x="347" y="363" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_B_02_epic" x="0" y="484" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_B_03_epic" x="345" y="510" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_B_04_epic" x="0" y="631" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_B_05_epic" x="345" y="657" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_B_06_epic" x="0" y="778" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_B_07_epic" x="345" y="804" w="343" h="145" oX="2" oY="1" oW="149" oH="346" r="y"/>
+	<sprite n="W_dress_back_epic" x="946" y="1356" w="68" h="128" r="y"/>
+	<sprite n="W_dress_back_epic_01" x="263" y="1441" w="66" h="123" oX="5" oY="2" oW="128" oH="68" r="y"/>
+	<sprite n="W_dress_back_epic_02" x="263" y="1566" w="66" h="123" oX="5" oY="2" oW="128" oH="68" r="y"/>
+	<sprite n="W_dress_back_epic_03" x="594" y="1494" w="66" h="123" oX="5" oY="2" oW="128" oH="68" r="y"/>
+	<sprite n="W_dress_back_epic_04" x="331" y="1635" w="66" h="123" oX="5" oY="2" oW="128" oH="68" r="y"/>
+	<sprite n="W_dress_back_epic_05" x="453" y="1570" w="123" h="66" oX="5" oY="2" oW="128" oH="68"/>
+	<sprite n="W_dress_back_epic_06" x="344" y="1760" w="66" h="123" oX="5" oY="2" oW="128" oH="68" r="y"/>
+	<sprite n="W_dress_back_epic_07" x="399" y="1679" w="123" h="66" oX="5" oY="2" oW="128" oH="68"/>
+	<sprite n="W_dress_C_01_epic" x="0" y="0" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_C_02_epic" x="347" y="0" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_C_03_epic" x="0" y="121" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_C_04_epic" x="347" y="121" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_C_05_epic" x="0" y="242" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_C_06_epic" x="347" y="242" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_C_07_epic" x="0" y="363" w="345" h="119" oX="0" oY="0" oW="122" oH="348" r="y"/>
+	<sprite n="W_dress_D_01_epic" x="0" y="925" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_D_02_epic" x="344" y="951" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_D_03_epic" x="0" y="1054" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_D_04_epic" x="344" y="1080" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_D_05_epic" x="0" y="1183" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_D_06_epic" x="344" y="1209" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_D_07_epic" x="0" y="1312" w="342" h="127" oX="0" oY="0" oW="130" oH="345" r="y"/>
+	<sprite n="W_dress_E_01_epic" x="344" y="1338" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_E_02_epic" x="683" y="1356" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_E_03_epic" x="681" y="1472" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_E_04_epic" x="0" y="1441" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_E_05_epic" x="0" y="1557" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_E_06_epic" x="331" y="1454" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_E_07_epic" x="0" y="1673" w="261" h="114" oX="0" oY="1" oW="119" oH="264" r="y"/>
+	<sprite n="W_dress_epic" x="692" y="478" w="331" h="248" r="y"/>
+	<sprite n="W_hand_L" x="987" y="833" w="35" h="81"/>
+	<sprite n="W_hand_R" x="607" y="1438" w="72" h="54" r="y"/>
+	<sprite n="W_head_back" x="401" y="1885" w="120" h="122" oX="1" oY="0" oW="127" oH="151"/>
+	<sprite n="W_head_front" x="215" y="1789" w="127" h="135" oX="0" oY="16" oW="127" oH="151"/>
+	<sprite n="W_head_glow" x="270" y="1926" w="129" h="122" oX="1" oY="15" oW="127" oH="151" r="y"/>
+	<sprite n="W_head_stem" x="115" y="1947" w="153" h="88" oX="4" oY="8" oW="98" oH="161" r="y"/>
+	<sprite n="W_head_stem_glow" x="115" y="1789" w="98" h="156" oX="0" oY="5" oW="98" oH="161"/>
+	<sprite n="W_left_arm_01" x="991" y="37" w="33" h="28" r="y"/>
+	<sprite n="W_left_arm_02" x="987" y="1027" w="25" h="41" r="y"/>
+	<sprite n="W_left_arm_03" x="991" y="348" w="28" h="39"/>
+	<sprite n="W_left_arm_04" x="985" y="1164" w="22" h="42"/>
+	<sprite n="W_left_arm_04_sleep" x="985" y="1208" w="22" h="42"/>
+	<sprite n="W_left_arm_05" x="991" y="115" w="32" h="31" r="y"/>
+	<sprite n="W_left_arm_06" x="987" y="943" w="27" h="38" r="y"/>
+	<sprite n="W_left_arm_07_epic" x="991" y="0" w="33" h="35" oX="0" oY="0" oW="33" oH="36"/>
+	<sprite n="W_left_arm_08" x="991" y="214" w="30" h="36"/>
+	<sprite n="W_mouth_01" x="991" y="321" w="29" h="25" oX="2" oY="3" oW="32" oH="32"/>
+	<sprite n="W_mouth_02" x="991" y="389" w="28" h="28" oX="2" oY="2" oW="32" oH="32"/>
+	<sprite n="W_mouth_03" x="991" y="289" w="30" h="30" oX="2" oY="1" oW="32" oH="32"/>
+	<sprite n="W_mouth_04" x="991" y="181" w="31" h="31" oX="1" oY="0" oW="32" oH="32"/>
+	<sprite n="W_mouth_05" x="991" y="148" w="32" h="31" oX="1" oY="0" oW="32" oH="32" r="y"/>
+	<sprite n="W_neck_bg" x="331" y="1570" w="120" h="63" oX="10" oY="0" oW="147" oH="77"/>
+	<sprite n="W_neck_fg" x="944" y="1486" w="67" h="147" oX="0" oY="10" oW="147" oH="77" r="y"/>
+	<sprite n="W_right_arm_02" x="987" y="983" w="25" h="42" r="y"/>
+	<sprite n="W_right_arm_03" x="985" y="1140" w="38" h="22" r="y"/>
+	<sprite n="W_right_arm_04" x="985" y="1070" w="39" h="21" r="y"/>
+	<sprite n="W_right_arm_05" x="987" y="787" w="37" h="21" r="y"/>
+	<sprite n="W_right_arm_05_sleep" x="987" y="810" w="37" h="21" r="y"/>
+	<sprite n="W_right_arm_06" x="987" y="916" w="34" h="25"/>
+	<sprite n="W_right_arm_07" x="991" y="252" w="30" h="35" r="y"/>
+	<sprite n="W_right_arm_08_epic" x="991" y="67" w="32" h="46"/>
+	<sprite n="W_right_arm_09" x="991" y="419" w="27" h="57"/>
+	<sprite n="W_right_arm_09_epic" x="987" y="728" w="37" h="57"/>
+	<sprite n="W_right_arm_10_epic" x="985" y="1093" w="38" h="45"/>
+	<sprite n="W_right_arm_11" x="401" y="1635" w="49" h="42" oX="0" oY="2" oW="42" oH="51" r="y"/>
+	<sprite n="W_right_arm_claw" x="607" y="1438" w="72" h="54" r="y"/>
+	<sprite n="W_shadow" x="0" y="1789" w="113" h="218" r="y"/>
+</TextureAtlas>

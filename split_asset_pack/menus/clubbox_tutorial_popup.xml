@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/ClubboxTutorialPopup.lua"/>
+	
+	<!-- Note: priority of this must be synchronize (not the same, just maintain relative position) properly with 
+	 hype_game::HypeBar, hype_game::Minus/PlusButton, hype_bar::HypeButton, as well as clubbox_customization, so that those 
+	 buttons are touchable during certain tutorial steps, and not during others, and that the HypeBar is brought in front of
+	 the FadedBG during the hype bar step of the tutorial, customixer is visible/not touchable during tutorial, blah blah blah -->
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="13" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.FADED_BG_COLOUR))
+				component("alpha"):SetFloat(0.85)
+				component("layer"):SetString("Tutorial")
+
+				--make invisible most of the time
+				component("visible"):SetInt(0)
+			</event>
+		</spriteComponent>
+		<!-- Touch needs to be above hype_game::HypeButton -->
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-4" />
+		</touchComponent>
+	</element>
+	
+	<!-- this dude needs to be kept above the customixer scanlines -->
+	<element name="TutorialDj">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="8" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-20*(screenHeight()/320)" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/clubbox/256_PAIN_TEST")
+				component("layer"):SetString("Tutorial")
+				component("size"):SetFloat(0.6*(screenWidth()/480))
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="DJWordsFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-20*(screenHeight()/320)" priorityOffset="7" />
+		<ninesliceComponent name="Sprite">
+			<size w="0.90*screenWidth()" h="0.25*screenHeight()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(40.0)
+				component("bottomHeight"):SetFloat(40.0)
+				component("leftWidth"):SetFloat(40.0)
+				component("rightWidth"):SetFloat(40.0)
+				component("size"):SetFloat(0.25*(screenWidth()/480))
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/clubbox/clubbox_textbox_9S")
+				component("layer"):SetString("Tutorial")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="DJWordsLabel">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="DJWordsFrame" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="25*(screenWidth()/480)" yOffset="25*(screenHeight()/320)" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="0.795*screenWidth()" h="0.1*screenHeight()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*(screenHeight()/320))
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("text"):SetString("CLUBBOX_TUTORIAL_SELECT_ACT")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("Tutorial")
+			</event>
+		</textComponent>
+	</element>
+	<element name="DJNameFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="DJWordsFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="-120*(screenWidth()/480)" yOffset="-5*(screenHeight()/320)" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="0.25*screenWidth()" h="0.06*screenHeight()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(35.0)
+				component("bottomHeight"):SetFloat(35.0)
+				component("leftWidth"):SetFloat(35.0)
+				component("rightWidth"):SetFloat(35.0)
+				component("size"):SetFloat(0.5*(screenHeight()/320))
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/clubbox/clubbox_name_frame_9S")
+				component("layer"):SetString("Tutorial")
+			</event>
+		</ninesliceComponent>
+	</element>
+	<element name="DJNametag">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="DJNameFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="8*(screenHeight()/320)" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="100*(screenWidth()/480)" h="1.0*(screenHeight()/320)" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.25*(screenHeight()/320))
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("DJ_NAME_TAG")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("Tutorial")
+			</event>
+		</textComponent>
+	</element>
+	
+
+	<template type="template_spritesheetbutton" name="ContinueButton">
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$upSpriteName" equals="'button_play'" />
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$spriteScale" equals="0.5*(screenHeight()/320)" />
+		<position relativeTo="DJWordsFrame" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element:root():GetReceiver():Send(game.MsgNextTutorialStep())
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+			</event>
+		</touchComponent>
+	</template>
+
+	<event name="queuePop" params="element">
+		manager:setContextImmediate(manager:reserveState())
+		element:root():popPopUp()
+	</event>
+</menu>

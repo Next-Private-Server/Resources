@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bb0aa95a3e1b803ff24a7b15e6434616:5f64ce1544344ab89ada94832d40a6f8:f89c7eb8838ee4652c3261192828787e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_B_costume_08_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="B_belly1" x="54" y="125" w="88" h="105" pX="0.5" pY="0.5" oX="0" oY="4" oW="106" oH="92" r="y"/>
+	<sprite n="B_belly2" x="0" y="235" w="83" h="106" pX="0.5" pY="0.5" oX="0" oY="9" oW="106" oH="92" r="y"/>
+	<sprite n="B_belly3" x="122" y="0" w="91" h="99" pX="0.5" pY="0.5" oX="3" oY="1" oW="106" oH="92" r="y"/>
+	<sprite n="B_bighead" x="0" y="343" w="68" h="94" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="B_leaf" x="257" y="415" w="60" h="70" pX="0.5" pY="0.5" oX="4" oY="2" oW="74" oH="62" r="y"/>
+	<sprite n="B_mouth01" x="85" y="232" w="80" h="92" pX="0.5" pY="0.5" oX="6" oY="0" oW="86" oH="92"/>
+	<sprite n="B_mouth02" x="167" y="214" w="77" h="78" pX="0.5" pY="0.5" oX="6" oY="8" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth03" x="215" y="0" w="77" h="78" pX="0.5" pY="0.5" oX="6" oY="13" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth04" x="193" y="294" w="65" h="77" pX="0.5" pY="0.5" oX="7" oY="18" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth05" x="85" y="438" w="47" h="74" pX="0.5" pY="0.5" oX="6" oY="21" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth06" x="205" y="417" w="50" h="76" pX="0.5" pY="0.5" oX="8" oY="20" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth07" x="0" y="439" w="83" h="70" pX="0.5" pY="0.5" oX="16" oY="5" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth08" x="193" y="373" w="51" h="42" pX="0.5" pY="0.5" oX="30" oY="21" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth09" x="134" y="419" w="69" h="86" pX="0.5" pY="0.5" oX="0" oY="11" oW="86" oH="92" r="y"/>
+	<sprite n="B_mouth10" x="144" y="121" w="84" h="91" pX="0.5" pY="0.5" oX="0" oY="0" oW="86" oH="92"/>
+	<sprite n="B_neck1" x="0" y="125" w="52" h="108" pX="0.461538" pY="0.648148"/>
+	<sprite n="B_neck2" x="246" y="373" w="40" h="40" pX="0.5" pY="0.5" oX="0" oY="1" oW="40" oH="42"/>
+	<sprite n="B_neck3" x="122" y="101" w="24" h="18" pX="0.5" pY="0.5"/>
+	<sprite n="B_pot_behind" x="70" y="343" w="40" h="93" pX="0.5" pY="0.5" oX="0" oY="0" oW="94" oH="40" r="y"/>
+	<sprite n="B_pot_front" x="0" y="0" w="120" h="123" pX="0.5" pY="0.862903" oX="0" oY="0" oW="120" oH="124"/>
+	<sprite n="B_roots" x="112" y="326" w="79" h="91" pX="0.5" pY="0.5" oX="1" oY="3" oW="92" oH="82" r="y"/>
+	<sprite n="B_smallhead" x="230" y="80" w="52" h="64" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

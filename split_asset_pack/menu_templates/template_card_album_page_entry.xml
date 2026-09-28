@@ -1,0 +1,125 @@
+<template name="template_card_album_page_entry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/CardAlbumPageEntry.lua"/>
+
+	<defaultTemplateVar name="$scale" equals="game.windowScaleY()" />
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$spriteName" equals="'gfx/menu/social/Avatars/Avatar0'" />
+
+	<size w="70*game.windowScaleY()" h="95*game.windowScaleY()" />
+
+	<aeComponent name="Anim">
+		<size w="150*element:templateVars().scale" h="150*element:templateVars().scale" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				local albumId = game.player():currentlyActiveCardAlbum():cardAlbumId()				
+				component("offsetCenter"):SetInt(1)
+				component("animationName"):SetString("xml_bin/button_sticker_album_"..albumId..".bin")
+				component("animation"):SetString("sticker_album_idle")
+				component:setScale(Vector2(0.3*$scale, 0.3*$scale))
+				local layer = "$layer"
+				if element:HasVar("layer") then
+					layer = element("layer"):GetString()
+				end
+				component("layer"):SetString(layer)
+			]]>
+		</event>
+	</aeComponent>
+	
+	<textComponent name="Text">
+		<size w="55*element:templateVars().scale" />
+		<position relativeTo="element" component="Anim" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="10*element:templateVars().scale" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("size"):SetFloat(0.20*$scale)
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString("Page name")
+			component("autoScale"):SetInt(1)
+			component("autoScaleFactor"):SetFloat(0.01)
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+	</textComponent>
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</touchComponent>
+
+	<spriteSheetComponent name="BarBackingSprite">
+		<position relativeTo="element:name()" component="Anim" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-4*element:templateVars().scale" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("stats_bar")
+			component("sheetName"):SetString("xml_resources/hud01.xml")
+			component("layer"):SetString("$layer")
+			component("size"):SetFloat(0.35*$scale)
+			component:setPositionBroadcast(true)
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="BarSprite">
+		<position relativeTo="element:name()" component="BarBackingSprite" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-1*element:templateVars().scale" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("sticker_progress_bar")
+			component("sheetName"):SetString("xml_resources/hud01.xml")
+			component("size"):SetFloat(0.35*$scale)
+			component("layer"):SetString("$layer")
+			component("FullMaskH"):SetInt(component("maskHeight"):GetInt())
+			component("FullMaskW"):SetInt(component("maskWidth"):GetInt())
+		</event>
+	</spriteSheetComponent>
+
+	<textComponent name="BarText">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" component="BarBackingSprite" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-1*element:templateVars().scale" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			component("textPadding"):SetInt(8)
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTextFont())
+			component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("size"):SetFloat(0.22*$scale)
+			component("text"):SetString("0")
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("$layer")
+		</event>
+	</textComponent>
+	
+	<event name="setInvisible" params="element">
+		element:C("Anim")("visible"):SetInt(0)
+		element:C("Text")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt(0)
+		element:C("BarBackingSprite")("visible"):SetInt(0)
+		element:C("BarSprite")("visible"):SetInt(0)
+		element:C("BarText")("visible"):SetInt(0)
+	</event>
+
+	<event name="setVisible" params="element">
+		element:C("Anim")("visible"):SetInt(1)
+		element:C("Text")("visible"):SetInt(1)
+		element:C("Touch")("enabled"):SetInt(1)
+		element:C("BarBackingSprite")("visible"):SetInt(1)
+		element:C("BarSprite")("visible"):SetInt(1)
+		element:C("BarText")("visible"):SetInt(1)
+	</event>
+	
+	<event name="deselect" params="element">
+		--element:C("SelectedSprite")("visible"):SetInt(0)
+	</event>
+
+	<event name="select" params="element">
+		--element:C("SelectedSprite")("visible"):SetInt(1)
+	</event>
+
+</template>

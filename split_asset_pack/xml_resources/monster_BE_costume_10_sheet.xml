@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3e6887a51f51b1f911568609292f1db2:d6577cf306979ae0c00c03bc5f82b8bf:1e8645f5f22f3d423bd688eca801dc77$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BE_costume_10_sheet.png" width="256" height="512" hires="true">
+	<sprite n="BE_body" x="0" y="0" w="140" h="109" pX="0.5" pY="0.5" oX="1" oY="0" oW="112" oH="140" r="y"/>
+	<sprite n="BE_branch" x="214" y="0" w="38" h="55" pX="0.5" pY="0.5" oX="0" oY="1" oW="56" oH="40" r="y"/>
+	<sprite n="BE_eyelids_almost_shut" x="142" y="53" w="64" h="52" pX="0.5" pY="0.5" oX="1" oY="2" oW="68" oH="56"/>
+	<sprite n="BE_eyelids_closing" x="142" y="107" w="63" h="53" pX="0.5" pY="0.5" oX="2" oY="2" oW="68" oH="56"/>
+	<sprite n="BE_eyelids_open" x="0" y="111" w="63" h="53" pX="0.5" pY="0.5" oX="2" oY="1" oW="68" oH="56"/>
+	<sprite n="BE_eyelids_shut" x="65" y="111" w="63" h="52" pX="0.5" pY="0.5" oX="2" oY="2" oW="68" oH="56"/>
+	<sprite n="BE_foot01" x="142" y="0" w="70" h="51" pX="0.5" pY="0.5" oX="8" oY="4" oW="80" oH="56"/>
+	<sprite n="BE_leaf" x="207" y="124" w="37" h="60" pX="0.5" pY="0.5" oX="0" oY="1" oW="60" oH="40" r="y"/>
+	<sprite n="BE_leg_bending" x="130" y="162" w="63" h="22" pX="0.5" pY="0.5" oX="2" oY="0" oW="32" oH="64" r="y"/>
+	<sprite n="BE_leg_bent" x="65" y="165" w="61" h="27" pX="0.5" pY="0.5" oX="2" oY="1" oW="32" oH="64" r="y"/>
+	<sprite n="BE_leg_lower" x="207" y="109" w="38" h="13" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BE_leg_straight" x="0" y="166" w="61" h="15" pX="0.5" pY="0.5" oX="3" oY="0" oW="32" oH="64" r="y"/>
+	<sprite n="BE_leg_upper" x="124" y="247" w="35" h="13" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BE_mouth_closing" x="128" y="186" w="60" h="59" pX="0.5" pY="0.5" oX="1" oY="0" oW="60" oH="60" r="y"/>
+	<sprite n="BE_mouth_eee" x="62" y="194" w="60" h="59" pX="0.5" pY="0.5" oX="1" oY="0" oW="60" oH="60" r="y"/>
+	<sprite n="BE_mouth_mmm" x="0" y="245" w="60" h="58" pX="0.5" pY="0.5" oX="0" oY="0" oW="60" oH="60" r="y"/>
+	<sprite n="BE_mouth_ooo" x="208" y="57" w="47" h="50" pX="0.5" pY="0.5" oX="5" oY="7" oW="60" oH="60" r="y"/>
+	<sprite n="BE_mouth_open" x="0" y="183" w="60" h="60" pX="0.5" pY="0.5"/>
+	<sprite n="BE_mouth_shut" x="190" y="186" w="60" h="57" pX="0.5" pY="0.5" oX="1" oY="0" oW="60" oH="60" r="y"/>
+	<sprite n="BE_stick" x="190" y="245" w="52" h="24" pX="0.5" pY="0.5" oX="0" oY="1" oW="24" oH="54" r="y"/>
+</TextureAtlas>

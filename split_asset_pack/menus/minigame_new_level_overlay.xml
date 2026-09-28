@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<script src="scripts/Minigames/MinigameNewLevelOverlay.lua" />
+
+	<size w="screenWidth()" h="screenHeight()"/>
+
+	<template type="template_bg_hole" name="TransitionHole"/>
+
+	<template type="template_nineslicebutton" name="GoButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+		<templateVar name="$spriteScale" equals="0.45*game.windowScaleY()" />
+		<templateVar name="$topHeight" equals="30.0" />
+		<templateVar name="$bottomHeight" equals="30.0" />
+		<templateVar name="$leftWidth" equals="35.0" />
+		<templateVar name="$rightWidth" equals="35.0" />
+		<templateVar name="$width" equals="140*game.windowScaleY()" />
+		<templateVar name="$height" equals="40*game.windowScaleY()" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$text" equals="CONTEXTBAR_MINIGAME_NEXT_LEVEL" />
+		<templateVar name="$textPadding" equals="8*game.windowScaleY()" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-45*game.hudScale()" priorityOffset="20" />
+		
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element:parent():nextLevel()
+			</event>
+		</touchComponent>
+	</template>
+	
+</menu>

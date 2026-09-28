@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5bca6ca939fc7056e3910452bcf342c8:758aa0f8421f6cf7e1113fa4ad5e40e0:358e36354b36d003c23015e14f584bd2$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island03_sheet02_val.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="eye_glow" x="902" y="0" w="820" h="812" r="y"/>
+	<sprite n="eye_shadow" x="540" y="1214" w="596" h="596"/>
+	<sprite n="eyelid_bottom" x="634" y="1812" w="529" h="210" oX="0" oY="0" oW="530" oH="210"/>
+	<sprite n="eyelid_bottom_edge" x="129" y="1850" w="503" h="156" oX="1" oY="0" oW="504" oH="156"/>
+	<sprite n="eyelid_bottom_edge_highlight" x="1165" y="1213" w="137" h="502" oX="0" oY="0" oW="502" oH="138" r="y"/>
+	<sprite n="eyelid_top" x="1334" y="814" w="378" h="539" oX="0" oY="0" oW="562" oH="378" r="y"/>
+	<sprite n="eyelid_top_edge" x="802" y="1011" w="530" h="200"/>
+	<sprite n="eyelid_top_edge_highlight" x="802" y="814" w="516" h="152"/>
+	<sprite n="eyelid_yellow_solid" x="1724" y="437" w="244" h="572" oX="1" oY="1" oW="576" oH="248" r="y"/>
+	<sprite n="island03_stumpside_choc" x="0" y="1214" w="538" h="634" oX="0" oY="1" oW="540" oH="638"/>
+	<sprite n="pupil" x="0" y="412" w="800" h="800"/>
+	<sprite n="w3_bubble" x="1971" y="0" w="45" h="44" oX="3" oY="0" oW="48" oH="48" r="y"/>
+	<sprite n="w3_cloud" x="0" y="0" w="900" h="410" oX="0" oY="5" oW="900" oH="420"/>
+	<sprite n="w3_floatrock_1" x="1724" y="0" w="245" h="435" oX="3" oY="0" oW="440" oH="248" r="y"/>
+	<sprite n="w3_floatrock_2" x="0" y="1850" w="127" h="172" oX="2" oY="1" oW="176" oH="128" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bd54fe33186a0aae606490192eb917f9:e32ddebe67edba828659c338d831f630:65fc0ec0639bf7abaefef70d6ce55c98$ -->
+<TextureAtlas imagePath="gfx/menu/island_buttons02.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="islands_button_isl01_MIRROR" x="299" y="439" w="289" h="205" oX="10" oY="7" oW="304" oH="228"/>
+	<sprite n="islands_button_isl02_MIRROR" x="0" y="433" w="296" h="212" oX="3" oY="0" oW="304" oH="228"/>
+	<sprite n="islands_button_isl02_th02" x="0" y="0" w="304" h="210" oX="0" oY="8" oW="304" oH="228"/>
+	<sprite n="islands_button_isl03_MIRROR" x="303" y="213" w="299" h="223" oX="0" oY="0" oW="304" oH="228"/>
+	<sprite n="islands_button_isl03_th05" x="0" y="213" w="300" h="217" oX="0" oY="10" oW="304" oH="228"/>
+	<sprite n="islands_button_isl04_MIRROR" x="591" y="644" w="287" h="210" oX="11" oY="1" oW="304" oH="228"/>
+	<sprite n="islands_button_isl04_th04" x="299" y="647" w="278" h="213" oX="12" oY="9" oW="304" oH="228"/>
+	<sprite n="islands_button_isl05_MIRROR" x="605" y="218" w="294" h="210" oX="5" oY="9" oW="304" oH="228"/>
+	<sprite n="islands_button_isl05_th03" x="605" y="431" w="291" h="210" oX="3" oY="8" oW="304" oH="228"/>
+	<sprite n="islands_button_isl015" x="307" y="0" w="303" h="210" oX="1" oY="7" oW="304" oH="228"/>
+	<sprite n="islands_button_isl016" x="613" y="0" w="301" h="215" oX="3" oY="8" oW="304" oH="228"/>
+	<sprite n="islands_button_isl017" x="0" y="648" w="267" h="219" oX="30" oY="8" oW="304" oH="228"/>
+</TextureAtlas>

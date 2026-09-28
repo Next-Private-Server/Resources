@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:93f02715013b925df19fd4a952b11e84:6dce01427ad8869acb331034f9617cb0:cbd67329aa852b1a0ddba298afcf5dfa$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_BNR_costume_03_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="BNR_cone" x="171" y="208" w="78" h="87" pX="0.125" pY="1.14607" oX="1" oY="1" oW="80" oH="89"/>
+	<sprite n="BNR_skirt" x="257" y="0" w="200" h="118" pX="0.485" pY="0.158333" oX="0" oY="1" oW="200" oH="120"/>
+	<sprite n="BNR_top" x="246" y="378" w="116" h="102" pX="0.483333" pY="0.641593" oX="2" oY="4" oW="120" oH="113"/>
+	<sprite n="bow" x="0" y="0" w="255" h="27" pX="0.5" pY="0.5" oX="11" oY="15" oW="266" oH="42"/>
+	<sprite n="hair strings 1" x="0" y="109" w="171" h="76" pX="0.893011" pY="0.146154" oX="12" oY="0" oW="186" oH="78"/>
+	<sprite n="hair strings 2" x="0" y="29" w="183" h="78" pX="0.893011" pY="0.146154" oX="1" oY="0" oW="186" oH="78"/>
+	<sprite n="hair strings 3" x="0" y="187" w="169" h="75" pX="0.893011" pY="0.146154" oX="15" oY="0" oW="186" oH="78"/>
+	<sprite n="hair strings 4" x="185" y="29" w="68" h="177" pX="0.893011" pY="0.146154" oX="8" oY="0" oW="186" oH="78" r="y"/>
+	<sprite n="hair top" x="400" y="211" w="112" h="80" pX="0.580357" pY="0.5"/>
+	<sprite n="hairtip 1" x="239" y="482" w="89" h="35" pX="0.772727" pY="0.24" oX="8" oY="1" oW="44" oH="90" r="y"/>
+	<sprite n="hairtip 2" x="0" y="511" w="86" h="35" pX="0.772727" pY="0.24" oX="9" oY="1" oW="44" oH="90" r="y"/>
+	<sprite n="hairtip 3" x="169" y="297" w="76" h="38" pX="0.772727" pY="0.24" oX="5" oY="0" oW="44" oH="90" r="y"/>
+	<sprite n="hairtip 4" x="169" y="337" w="76" h="37" pX="0.772727" pY="0.24" oX="3" oY="0" oW="44" oH="90" r="y"/>
+	<sprite n="hairtip 5" x="127" y="264" w="40" h="90" pX="0.772727" pY="0.24" oX="3" oY="0" oW="44" oH="90"/>
+	<sprite n="L_HairDown1" x="373" y="343" w="117" h="63" pX="0.357955" pY="0.0833333" oX="7" oY="0" oW="88" oH="120" r="y"/>
+	<sprite n="L_HairDown2" x="0" y="447" w="115" h="62" pX="0.357955" pY="0.0833333" oX="13" oY="0" oW="88" oH="120" r="y"/>
+	<sprite n="L_HairDown3" x="121" y="444" w="116" h="64" pX="0.357955" pY="0.0833333" oX="15" oY="0" oW="88" oH="120" r="y"/>
+	<sprite n="L_HairDown4" x="403" y="134" w="109" h="75" pX="0.379518" pY="0.108696" oX="13" oY="0" oW="88" oH="120" r="y"/>
+	<sprite n="L_HairDown5" x="0" y="381" w="119" h="64" pX="0.357955" pY="0.0833333" oX="10" oY="0" oW="88" oH="120" r="y"/>
+	<sprite n="L_HairDown6" x="127" y="376" w="117" h="66" pX="0.357955" pY="0.0833333" oX="0" oY="0" oW="88" oH="120" r="y"/>
+	<sprite n="L_HairDownTop" x="255" y="120" w="146" h="43" pX="0.634091" pY="0.0746575" oX="1" oY="0" oW="44" oH="146" r="y"/>
+	<sprite n="R_HairBack1" x="117" y="510" w="88" h="58" pX="0.427711" pY="0.0869565" oX="1" oY="0" oW="83" oH="92" r="y"/>
+	<sprite n="R_HairBack2" x="457" y="408" w="53" h="88" pX="0.427711" pY="0.0869565" oX="9" oY="0" oW="83" oH="92"/>
+	<sprite n="R_HairBack3" x="457" y="498" w="51" h="87" pX="0.427711" pY="0.0869565" oX="18" oY="0" oW="83" oH="92"/>
+	<sprite n="R_HairBack4" x="0" y="548" w="84" h="62" pX="0.5" pY="0.0869565" oX="21" oY="0" oW="83" oH="92" r="y"/>
+	<sprite n="R_HairBack5" x="364" y="408" w="91" h="49" pX="0.427711" pY="0.0869565" oX="20" oY="0" oW="83" oH="92" r="y"/>
+	<sprite n="R_HairBack6" x="364" y="459" w="91" h="45" pX="0.427711" pY="0.0869565" oX="16" oY="0" oW="83" oH="92" r="y"/>
+	<sprite n="R_HairBackTop" x="255" y="165" w="143" h="52" pX="0.644231" pY="0.0826389" oX="0" oY="0" oW="52" oH="144" r="y"/>
+	<sprite n="R_HairFront1" x="0" y="323" w="125" h="56" pX="0.433824" pY="0.0597015" oX="0" oY="0" oW="68" oH="134" r="y"/>
+	<sprite n="R_HairFront2" x="383" y="293" w="127" h="48" pX="0.433824" pY="0.0597015" oX="12" oY="0" oW="68" oH="134" r="y"/>
+	<sprite n="R_HairFront3" x="251" y="219" w="131" h="49" pX="0.433824" pY="0.0597015" oX="11" oY="0" oW="68" oH="134" r="y"/>
+	<sprite n="R_HairFront4" x="0" y="264" w="125" h="57" pX="0.433824" pY="0.0597015" oX="11" oY="0" oW="68" oH="134" r="y"/>
+	<sprite n="R_HairFront5" x="251" y="270" w="130" h="46" pX="0.433824" pY="0.0597015" oX="9" oY="0" oW="68" oH="134" r="y"/>
+	<sprite n="R_HairFront6" x="459" y="0" w="53" h="132" pX="0.5" pY="0.0597015" oX="4" oY="0" oW="68" oH="134"/>
+	<sprite n="R_HairFrontTop" x="247" y="318" w="124" h="58" pX="0.596667" pY="0.0467742" oX="1" oY="0" oW="60" oH="124" r="y"/>
+</TextureAtlas>

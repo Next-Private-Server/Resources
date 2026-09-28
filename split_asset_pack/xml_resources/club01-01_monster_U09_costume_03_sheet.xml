@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:18d899ca74416510eeb75902066ea41e:37dd49a6955a26870544af42d903b38a:6ecf89196965b4018afdcb1b8f74338f$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-01_monster_U09_costume_03_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="monster_U09_left_finger_01" x="381" y="290" w="60" h="58" pX="0.5" pY="0.5" oX="5" oY="10" oW="66" oH="74"/>
+	<sprite n="monster_U09_left_finger_01_fg" x="312" y="348" w="50" h="45" pX="0.5" pY="0.5" oX="15" oY="23" oW="66" oH="74"/>
+	<sprite n="monster_U09_left_finger_02" x="312" y="290" w="67" h="56" pX="0.5" pY="0.5" oX="4" oY="9" oW="72" oH="68"/>
+	<sprite n="monster_U09_left_finger_02_fg" x="364" y="350" w="49" h="39" pX="0.5" pY="0.5" oX="22" oY="26" oW="72" oH="68"/>
+	<sprite n="monster_U09_left_lower_leg" x="263" y="575" w="133" h="86" pX="0.5" pY="0.5" oX="7" oY="4" oW="98" oH="144" r="y"/>
+	<sprite n="monster_U09_left_thumb" x="176" y="867" w="29" h="59" pX="0.5" pY="0.5" oX="6" oY="5" oW="70" oH="40" r="y"/>
+	<sprite n="monster_U09_left_toes" x="406" y="663" w="67" h="110" pX="0.5" pY="0.5" oX="0" oY="0" oW="110" oH="68" r="y"/>
+	<sprite n="monster_U09_left_upper_leg" x="429" y="0" w="60" h="109" pX="0.5" pY="0.5" oX="3" oY="2" oW="70" oH="120"/>
+	<sprite n="monster_U09_right_hand" x="406" y="775" w="68" h="71" pX="0.5" pY="0.5" oX="5" oY="9" oW="80" oH="80" r="y"/>
+	<sprite n="U09_ascot" x="312" y="0" w="115" h="148" pX="0.315541" pY="0.456391" oX="0" oY="0" oW="148" oH="133" r="y"/>
+	<sprite n="U09_ascot_bg" x="475" y="663" w="35" h="36" pX="-1.77778" pY="-0.882857" r="y"/>
+	<sprite n="U09_back" x="398" y="575" w="91" h="86" pX="1.57935" pY="1.92529" oX="0" oY="1" oW="92" oH="87"/>
+	<sprite n="U09_coat" x="0" y="404" w="261" h="274" pX="0.569343" pY="0.369732" r="y"/>
+	<sprite n="U09_collar" x="0" y="0" w="310" h="402" pX="0.475806" pY="0.681592"/>
+	<sprite n="U09_ear_left" x="263" y="404" w="151" h="169" pX="0.652318" pY="0.726036"/>
+	<sprite n="U09_ear_right" x="362" y="884" w="149" h="127" pX="0.279528" pY="0.728188" r="y"/>
+	<sprite n="U09_lowerarm_Left" x="207" y="884" w="153" h="124" pX="0.377419" pY="0.33038" oX="0" oY="5" oW="124" oH="158" r="y"/>
+	<sprite n="U09_lowerrm_right" x="312" y="150" w="122" h="138" pX="0.665574" pY="0.349275"/>
+	<sprite n="U09_shoulder_left" x="0" y="867" w="174" h="154" pX="0.813793" pY="0.684277" oX="0" oY="5" oW="174" oH="159"/>
+	<sprite n="U09_upperarm_left" x="230" y="680" w="174" h="202" pX="0.887356" pY="0.383663"/>
+	<sprite n="U09_upperarm_RIGHT" x="0" y="680" w="228" h="185" pX="0.184127" pY="0.381579" oX="2" oY="0" oW="189" oH="228" r="y"/>
+</TextureAtlas>

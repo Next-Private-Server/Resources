@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:24f0890958839e13162a0f545eaa27d5:173452781f2b13c09a8716d45dcf0a8c:5920d5e4a110c9753f3491b43a6e1327$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_C_costume_06_sheet.png" width="128" height="512" hires="true" version="1">
+	<sprite n="monster_C_costume_flower" x="0" y="0" w="106" h="352" pX="0.5" pY="0.5" oX="-101" oY="-4" oW="352" oH="112" r="y"/>
+</TextureAtlas>

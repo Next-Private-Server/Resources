@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/FugueFailure.lua" />
+
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="8" />
+	</template>
+	
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="lua_sys.screenHeight() * 1.0" priorityOffset="7" />
+		<ninesliceComponent name="Sprite">
+			<size w="340*game.menuScaleX()" h="260*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="6*game.menuScaleX()" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="170*game.menuScaleX()" h="40*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.40*game.menuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="TitleText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size h="35*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+				component("text"):SetString(game.getLocalizedText("FUGUING_FAILURE_TITLE"))
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Text">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="35*game.menuScaleX()" priorityOffset="-3" />
+		<textComponent name="Text">
+			<size w="280*game.menuScaleX()" h="120*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("FUGUING_FAILURE")
+				component("size"):SetFloat(0.25*game.menuScaleX())
+				component("layer"):SetString("FrontPopUps")
+				component("autoScale"):SetInt(1)
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="OldMonsterAnim">
+		<size w="150*game.menuScaleX()" h="150*game.menuScaleX()" />
+		<position relativeTo="XpBarBacking" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0*game.menuScaleX()" yOffset="-15*game.menuScaleX()" priorityOffset="0" />
+		<aeComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("offsetCenter"):SetInt(1)
+					component("animationName"):SetString("xml_bin/monster_a.bin")
+					component("animation"):SetString(game.objectStoreAnim())
+					component:setScale(Vector2(0.8*game.menuScaleX(), 0.8*game.menuScaleX()))
+					component("layer"):SetString("FrontPopUps")
+				]]>
+			</event>
+		</aeComponent>
+	</element>
+
+	<effectComponent name="LevelUpEffect" inline="true" 
+	  layer="FrontPopUps"
+	  effect="particles/FX_MonsterLevelUp.efkefc"
+	  magnification="20">
+	  <size dependentOnElement="OldMonsterAnim" dependentOnComponent="Sprite" />
+	  <position relativeTo="OldMonsterAnim" vAnchor="VCENTER" hAnchor="HCENTER" />
+	  <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+  	</effectComponent>
+
+	<!-- XP Bar (from HUD)-->
+	<element name="XpBarBacking">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Text2" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0*game.menuScaleX()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("level_bar_empty")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+    <element name="XpBar">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="XpBarBacking" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="2*game.menuScaleX()" yOffset="-1*game.menuScaleX()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("battle_bar_full")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("layer"):SetString("FrontPopUps")
+				component("FullMaskH"):SetInt(component("maskHeight"):GetInt())
+				component("FullMaskW"):SetInt(component("maskWidth"):GetInt())
+			</event>
+		</spriteSheetComponent>
+		
+		<textComponent name="LevelText">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.35*game.menuScaleX())
+				--gets set in GameContext::updatePlayerHud() via SetElementComponentVarValue
+				component("text"):SetString("Level 3")
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_ORANGE))
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>		
+		
+	</element>
+
+	<element name="Text2">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="280*game.menuScaleX()" h="120*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("FUGUING_FAILURE_2")
+				component("size"):SetFloat(0.25*game.menuScaleX())
+				component("layer"):SetString("FrontPopUps")
+				component("autoScale"):SetInt(1)
+				component("visible"):SetInt(0)
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_nineslicebutton" name="ConfirmButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_vert_square01_green'" />
+		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
+		<templateVar name="$text" equals="FUGUING_RESULT_CONFIRM" />
+		<templateVar name="$textPadding" equals="6*game.menuScaleX()" />
+		<templateVar name="$textYOffset" equals="0" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$topHeight" equals="17.0" />
+		<templateVar name="$bottomHeight" equals="17.0" />
+		<templateVar name="$leftWidth" equals="17.0" />
+		<templateVar name="$rightWidth" equals="17.0" />
+		
+		<templateVar name="$width" equals="100*game.menuScaleX()" />
+		<templateVar name="$height" equals="35*game.menuScaleX()" />
+
+		<templateVar name="$includeBorder" equals="1" />
+
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="5*game.menuScaleX()" yOffset="0" priorityOffset="-6" />
+		<touchComponent name="Touch"/>
+		<event name="onPostInit" params="element">
+			element["Text"]("size"):SetFloat(0.25*game.menuScaleX())
+			element["Text"]("autoScale"):SetInt(1)
+		</event>
+	</template>
+
+</menu>

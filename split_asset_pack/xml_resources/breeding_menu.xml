@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3837b3c21af6bd53f7528993783f6cf2:5a155919538bc1e40fb0302d65b7e1e3:4bdd91e83412f5a6fb965af412cb2d12$ -->
+<TextureAtlas imagePath="gfx/menu/breeding_menu.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="box_arrow" x="813" y="177" w="89" h="51" r="y"/>
+	<sprite n="breed_button_off" x="813" y="0" w="196" h="175" oX="79" oY="77" oW="354" oH="328"/>
+	<sprite n="breed_button_on" x="0" y="285" w="328" h="354" r="y"/>
+	<sprite n="clearfilter_button" x="0" y="230" w="50" h="51" oX="19" oY="18" oW="88" oH="87"/>
+	<sprite n="filter_arrow" x="982" y="233" w="29" h="50" oX="32" oY="19" oW="88" oH="87"/>
+	<sprite n="icon_backing" x="904" y="177" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="torch_icon" x="52" y="217" w="44" h="59"/>
+	<sprite n="torch_icon_grey" x="98" y="217" w="44" h="59"/>
+	<sprite n="torch_icon_infinite_small" x="144" y="217" w="44" h="59"/>
+	<sprite n="torch_icon_off" x="982" y="177" w="42" h="54" oX="1" oY="0" oW="44" oH="59"/>
+	<sprite n="tray_frame" x="0" y="0" w="811" h="215"/>
+</TextureAtlas>

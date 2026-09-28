@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b30e1fc9eaac1947d4e2f97a7fe3ca52:d6d77bb9b223966ab1e447f2c971a44a:ea36b08678213c57bb8e4f232e8cbb74$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_Q_ASTRAL_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="Q25_body_details_A" x="709" y="404" w="157" h="131" r="y"/>
+	<sprite n="Q25_body_details_B" x="358" y="283" w="178" h="154" r="y"/>
+	<sprite n="Q25_headtop" x="783" y="0" w="229" h="161" oX="28" oY="21" oW="286" oH="194"/>
+	<sprite n="Q_body_00" x="0" y="151" w="356" h="307" r="y"/>
+	<sprite n="Q_body_edge" x="358" y="439" w="161" h="156"/>
+	<sprite n="Q_body_star" x="358" y="188" w="31" h="26" r="y"/>
+	<sprite n="Q_dirt_chunk" x="358" y="216" w="27" h="26" r="y"/>
+	<sprite n="Q_dirt_chunk_lrg" x="358" y="151" w="38" h="35" r="y"/>
+	<sprite n="Q_dirtmound_back_lrg" x="398" y="0" w="383" h="153"/>
+	<sprite n="Q_dirtmound_front_lrg" x="0" y="0" w="396" h="149"/>
+	<sprite n="Q_mouth_01" x="775" y="163" w="225" h="75" oX="0" oY="0" oW="228" oH="187"/>
+	<sprite n="Q_mouth_02" x="398" y="155" w="228" h="126" oX="0" oY="12" oW="228" oH="187"/>
+	<sprite n="Q_mouth_03" x="628" y="155" w="145" h="220" oX="3" oY="22" oW="228" oH="187" r="y"/>
+	<sprite n="Q_mouth_04" x="775" y="240" w="219" h="162" oX="4" oY="25" oW="228" oH="187"/>
+	<sprite n="Q_mouth_glow" x="868" y="404" w="126" h="124" oX="1" oY="2" oW="128" oH="128"/>
+	<sprite n="Q_stars_A" x="538" y="377" w="169" h="145" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b57a40f90b0fb5d5bb8391cd867eb766:bdd2c76082845de7e79db3f8d8e71675:c67c47dfdce46a085727fef2993333f1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_N_costume_04_sheet.png" width="512" height="512" hires="true">
+    <sprite n="N_arm_left_lower_01" x="187" y="385" w="72" h="95" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="72" r="y"/>
+    <sprite n="N_arm_left_lower_02" x="175" y="3" w="72" h="95" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="72" r="y"/>
+    <sprite n="N_arm_right_lower_01" x="175" y="102" w="72" h="88" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="N_arm_right_lower_02" x="239" y="194" w="72" h="88" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="N_body" x="3" y="202" w="148" h="180" pX="0.5" pY="0.5"/>
+    <sprite n="N_head" x="3" y="3" w="168" h="195" pX="0.5" pY="0.5" oX="0" oY="1" oW="168" oH="196"/>
+    <sprite n="N_leg_left_lower_01" x="155" y="202" w="80" h="95" pX="0.5" pY="0.5" oX="0" oY="1" oW="80" oH="96"/>
+    <sprite n="N_leg_left_lower_02" x="155" y="301" w="95" h="80" pX="0.5" pY="0.5" oX="0" oY="1" oW="80" oH="96" r="y"/>
+    <sprite n="N_leg_right_lower_01" x="3" y="386" w="88" h="103" pX="0.5" pY="0.5" oX="0" oY="1" oW="88" oH="104"/>
+    <sprite n="N_leg_right_lower_02" x="95" y="386" w="88" h="103" pX="0.5" pY="0.5" oX="0" oY="1" oW="88" oH="104"/>
+</TextureAtlas>

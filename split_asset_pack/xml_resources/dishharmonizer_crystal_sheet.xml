@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a8402122b8653be24f2743eb2ecc8e8b:3f874fd9946ae6a7cca896c0b37d5395:e3978f9209396cf8f2151adb5ad2ce77$ -->
+<TextureAtlas imagePath="gfx/structures/dishharmonizer_crystal_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="bowl_meeb_01" x="183" y="922" w="53" h="53" oX="14" oY="14" oW="80" oH="80"/>
+	<sprite n="bowl_meeb_02" x="183" y="857" w="58" h="63" oX="9" oY="11" oW="80" oH="80" r="y"/>
+	<sprite n="bowl_meeb_03" x="183" y="790" w="50" h="65" oX="15" oY="8" oW="80" oH="80"/>
+	<sprite n="bowl_meeb_04" x="235" y="790" w="43" h="56" oX="19" oY="12" oW="80" oH="80"/>
+	<sprite n="bowl_meebs_01" x="0" y="790" w="181" h="194" oX="18" oY="19" oW="220" oH="220" r="y"/>
+	<sprite n="bowl_slime" x="0" y="238" w="269" h="550" oX="0" oY="15" oW="550" oH="290" r="y"/>
+	<sprite n="bowl_soup" x="0" y="0" w="481" h="236" oX="4" oY="2" oW="490" oH="240"/>
+</TextureAtlas>

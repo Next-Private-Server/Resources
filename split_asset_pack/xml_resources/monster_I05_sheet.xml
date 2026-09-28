@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ead81d03d24b86b665045696a54dbca8:04aee821a12b63ce5345c8fa7f42464c:71b89ad0186c4ff9c4583375c3463279$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I05_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="I05_back_left_collar" x="218" y="496" w="86" h="93" oX="2" oY="2" oW="100" oH="90" r="y"/>
+	<sprite n="I05_back_right_collar" x="392" y="496" w="76" h="91" oX="5" oY="5" oW="100" oH="86" r="y"/>
+	<sprite n="I05_body_arm_claw" x="301" y="313" w="18" h="14" oX="3" oY="1" oW="20" oH="24" r="y"/>
+	<sprite n="I05_body_lower_arm" x="388" y="775" w="45" h="65" oX="11" oY="14" oW="70" oH="92"/>
+	<sprite n="I05_body_upper_arm" x="432" y="589" w="46" h="57" oX="6" oY="0" oW="60" oH="60"/>
+	<sprite n="I05_boot" x="142" y="600" w="109" h="50" oX="4" oY="15" oW="58" oH="128" r="y"/>
+	<sprite n="I05_hat_brim" x="218" y="329" w="102" h="165" oX="7" oY="7" oW="180" oH="116" r="y"/>
+	<sprite n="I05_hat_top" x="101" y="0" w="126" h="173" oX="7" oY="3" oW="140" oH="180"/>
+	<sprite n="I05_jacket_back" x="0" y="653" w="136" h="273" oX="10" oY="8" oW="156" oH="290"/>
+	<sprite n="I05_jacket_left" x="87" y="332" w="129" h="266" oX="6" oY="3" oW="150" oH="280"/>
+	<sprite n="I05_jacket_right" x="138" y="653" w="76" h="265" oX="5" oY="23" oW="86" oH="290"/>
+	<sprite n="I05_left_cloth_01" x="229" y="0" w="131" h="169" oX="9" oY="15" oW="160" oH="190"/>
+	<sprite n="I05_left_cloth_02" x="307" y="920" w="78" h="103" oX="3" oY="9" oW="110" oH="90" r="y"/>
+	<sprite n="I05_left_cloth_03" x="164" y="920" w="141" h="103" oX="3" oY="6" oW="110" oH="150" r="y"/>
+	<sprite n="I05_left_cloth_04" x="0" y="928" w="162" h="95" oX="2" oY="6" oW="110" oH="170" r="y"/>
+	<sprite n="I05_left_collar" x="450" y="313" w="79" h="113" oX="5" oY="6" oW="128" oH="90" r="y"/>
+	<sprite n="I05_main_arm_claw" x="230" y="314" w="20" h="13" oX="6" oY="4" oW="28" oH="30" r="y"/>
+	<sprite n="I05_main_lower_arm" x="322" y="451" w="64" h="43" oX="18" oY="16" oW="80" oH="98" r="y"/>
+	<sprite n="I05_main_upper_arm" x="435" y="775" w="42" h="62" oX="12" oY="7" oW="64" oH="72"/>
+	<sprite n="I05_min_bat_body" x="444" y="0" w="81" h="127" oX="1" oY="2" oW="130" oH="86" r="y"/>
+	<sprite n="I05_min_bat_body_arm" x="444" y="129" w="38" h="26" oX="1" oY="0" oW="30" oH="38" r="y"/>
+	<sprite n="I05_min_bat_eyelid_1" x="438" y="736" w="33" h="36" oX="2" oY="3" oW="40" oH="38" r="y"/>
+	<sprite n="I05_min_bat_eyelid_2" x="473" y="736" w="33" h="36" oX="2" oY="3" oW="40" oH="38" r="y"/>
+	<sprite n="I05_min_bat_eyelid_3" x="508" y="734" w="33" h="36" oX="2" oY="3" oW="40" oH="38" r="y"/>
+	<sprite n="I05_min_bat_eyelid_4" x="543" y="731" w="33" h="36" oX="2" oY="3" oW="40" oH="38" r="y"/>
+	<sprite n="I05_min_bat_left_back_wing_1" x="253" y="591" w="67" h="59" oX="2" oY="1" oW="64" oH="70" r="y"/>
+	<sprite n="I05_min_bat_left_back_wing_2" x="318" y="652" w="118" h="121" oX="3" oY="2" oW="128" oH="130" r="y"/>
+	<sprite n="I05_min_bat_left_front_wing" x="0" y="0" w="99" h="330" oX="6" oY="10" oW="112" oH="340"/>
+	<sprite n="I05_min_bat_left_wing_arm" x="479" y="774" w="34" h="52" oX="1" oY="3" oW="36" oH="56"/>
+	<sprite n="I05_min_bat_left_wing_cloth_1" x="318" y="775" w="68" h="69" oX="2" oY="4" oW="72" oH="78"/>
+	<sprite n="I05_min_bat_left_wing_cloth_2" x="306" y="496" w="84" h="91" oX="6" oY="2" oW="92" oH="96"/>
+	<sprite n="I05_min_bat_right_back_wing_1" x="570" y="588" w="48" h="50" oX="2" oY="5" oW="58" oH="58"/>
+	<sprite n="I05_min_bat_right_back_wing_2" x="470" y="496" w="115" h="90" oX="7" oY="1" oW="104" oH="122" r="y"/>
+	<sprite n="I05_min_bat_right_front_wing" x="0" y="332" w="85" h="319" oX="21" oY="6" oW="110" oH="328"/>
+	<sprite n="I05_min_bat_right_wing_cloth_1" x="560" y="875" w="40" h="42" oX="1" oY="1" oW="44" oH="46"/>
+	<sprite n="I05_min_bat_right_wing_cloth_2" x="216" y="847" w="118" h="71" oX="2" oY="7" oW="76" oH="138" r="y"/>
+	<sprite n="I05_min_bat_tail_base" x="480" y="588" w="40" h="56" oX="10" oY="4" oW="50" oH="76"/>
+	<sprite n="I05_min_bat_tail_mid" x="87" y="600" w="53" h="51" oX="1" oY="2" oW="56" oH="56"/>
+	<sprite n="I05_min_bat_tail_tip" x="524" y="958" w="42" h="44" oX="2" oY="2" oW="46" oH="48"/>
+	<sprite n="I05_min_boots_body" x="101" y="175" w="127" h="152" oX="2" oY="1" oW="160" oH="130" r="y"/>
+	<sprite n="I05_min_boots_eyelid_1" x="388" y="450" w="44" h="44" oX="2" oY="2" oW="48" oH="48"/>
+	<sprite n="I05_min_boots_eyelid_2" x="434" y="450" w="44" h="44" oX="2" oY="2" oW="48" oH="48"/>
+	<sprite n="I05_min_boots_eyelid_3" x="620" y="582" w="44" h="44" oX="2" oY="2" oW="48" oH="48"/>
+	<sprite n="I05_min_boots_eyelid_4" x="595" y="768" w="44" h="44" oX="2" oY="2" oW="48" oH="48"/>
+	<sprite n="I05_min_boots_fringe" x="522" y="588" w="46" h="53" oX="2" oY="1" oW="58" oH="48" r="y"/>
+	<sprite n="I05_min_boots_left_upperleg" x="480" y="428" w="113" h="64" oX="2" oY="1" oW="68" oH="116" r="y"/>
+	<sprite n="I05_min_boots_right_upperleg" x="322" y="589" w="108" h="60" oX="2" oY="1" oW="64" oH="110" r="y"/>
+	<sprite n="I05_min_hat_body" x="336" y="846" w="87" h="68" oX="1" oY="1" oW="90" oH="70"/>
+	<sprite n="I05_min_hat_brim_back" x="384" y="313" w="64" h="135" oX="2" oY="2" oW="140" oH="68" r="y"/>
+	<sprite n="I05_min_hat_brim_front" x="362" y="0" w="80" h="158" oX="1" oY="3" oW="160" oH="86" r="y"/>
+	<sprite n="I05_min_hat_eyelid_1" x="578" y="731" w="35" h="35" oX="0" oY="0" oW="36" oH="36"/>
+	<sprite n="I05_min_hat_eyelid_2" x="615" y="727" w="35" h="35" oX="0" oY="0" oW="36" oH="36"/>
+	<sprite n="I05_min_hat_eyelid_3" x="560" y="919" w="35" h="35" oX="0" oY="0" oW="36" oH="36"/>
+	<sprite n="I05_min_hat_eyelid_4" x="601" y="814" w="35" h="35" oX="0" oY="0" oW="36" oH="36"/>
+	<sprite n="I05_min_hat_spine" x="515" y="772" w="78" h="45" oX="2" oY="2" oW="50" oH="84" r="y"/>
+	<sprite n="I05_min_hat_top" x="301" y="171" w="128" h="140" oX="6" oY="2" oW="146" oH="146"/>
+	<sprite n="I05_mouth_01" x="438" y="648" w="48" h="86" oX="3" oY="26" oW="92" oH="86" r="y"/>
+	<sprite n="I05_mouth_02" x="513" y="828" w="86" h="45" oX="3" oY="26" oW="92" oH="86"/>
+	<sprite n="I05_mouth_03" x="538" y="643" w="46" h="86" oX="3" oY="26" oW="92" oH="86" r="y"/>
+	<sprite n="I05_mouth_04" x="488" y="646" w="48" h="86" oX="3" oY="26" oW="92" oH="86" r="y"/>
+	<sprite n="I05_mouth_05" x="587" y="494" w="46" h="86" oX="3" oY="26" oW="92" oH="86" r="y"/>
+	<sprite n="I05_mouth_06" x="468" y="907" w="54" h="86" oX="3" oY="19" oW="92" oH="86" r="y"/>
+	<sprite n="I05_mouth_07" x="425" y="842" w="86" h="63" oX="3" oY="12" oW="92" oH="86"/>
+	<sprite n="I05_mouth_08" x="387" y="916" w="79" h="86" oX="3" oY="3" oW="92" oH="86" r="y"/>
+	<sprite n="I05_pupil_bottom" x="431" y="293" w="19" h="18" oX="4" oY="4" oW="28" oH="26" r="y"/>
+	<sprite n="I05_pupil_mid" x="484" y="129" w="18" h="19" oX="4" oY="4" oW="28" oH="26"/>
+	<sprite n="I05_pupil_top" x="504" y="129" w="18" h="19" oX="4" oY="4" oW="28" oH="26"/>
+	<sprite n="I05_right_cloth_01" x="230" y="171" w="69" h="141" oX="4" oY="9" oW="78" oH="154"/>
+	<sprite n="I05_right_cloth_02" x="431" y="160" w="73" h="131" oX="3" oY="4" oW="80" oH="144"/>
+	<sprite n="I05_right_cloth_03" x="322" y="313" w="60" h="136" oX="2" oY="3" oW="66" oH="140"/>
+	<sprite n="I05_right_collar" x="586" y="640" w="78" h="85" oX="4" oY="2" oW="86" oH="90"/>
+	<sprite n="I05_shadow" x="216" y="652" w="100" h="193" r="y"/>
+	<sprite n="I05_upper_leg" x="524" y="875" w="34" h="81" oX="3" oY="9" oW="40" oH="98"/>
+</TextureAtlas>

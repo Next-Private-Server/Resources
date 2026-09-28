@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bed0648fe9970dcb195e69490a1ff4ef:0f7ad0698dc54d275474ae6c7ce603f5:f52a497a01fc8c4833281d9c253bdf40$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/lifeformula_versegazingtelescope_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Base" x="3" y="286" w="271" h="263" oX="2" oY="0" oW="268" oH="272" r="y"/>
+    <sprite n="Scope" x="3" y="3" w="450" h="279" oX="3" oY="2" oW="456" oH="284"/>
+    <sprite n="Sparkle" x="278" y="286" w="157" h="98" oX="3" oY="2" oW="104" oH="176" r="y"/>
+    <sprite n="Star" x="439" y="286" w="70" h="68" oX="1" oY="2" oW="72" oH="72"/>
+    <sprite n="String" x="457" y="3" w="6" h="112" oX="1" oY="2" oW="8" oH="116"/>
+</TextureAtlas>

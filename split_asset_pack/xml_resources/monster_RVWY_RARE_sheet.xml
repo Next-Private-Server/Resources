@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:25a84ba973554ae438d1b7ff740e270b:2dae42b0af54a6009cf5617cec057a6d:152d2645148f19ced4eb3640cf5258a8$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_RVWY_RARE_sheet.png" width="2048" height="1024" hires="true" version="1">
+	<sprite n="RVWY_antlers_Left_RARE" x="1" y="443" w="310" h="411" oX="18" oY="2" oW="680" oH="460">
+		<vertices>266 48 328 135 261 295 155 352 115 413 40 358 18 174 73 30 144 62 205 2</vertices>
+		<verticesUV>249 489 311 576 244 736 138 793 98 854 23 799 1 615 56 471 127 503 188 443</verticesUV>
+		<triangles>6 7 8 6 8 2 1 2 8 5 3 4 3 5 6 6 2 3 0 1 8 0 8 9</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_Right_RARE" x="0" y="0" w="429" h="444" oX="232" oY="12" oW="680" oH="460">
+		<vertices>563 110 657 62 661 198 634 301 467 444 403 456 381 370 311 352 232 285 259 208 312 161 310 91 500 12</vertices>
+		<verticesUV>331 98 425 50 429 186 402 289 235 432 171 444 149 358 79 340 0 273 27 196 80 149 78 79 268 0</verticesUV>
+		<triangles>10 11 12 0 10 12 7 9 10 7 8 9 6 7 10 0 3 6 4 5 6 3 4 6 0 1 2 0 2 3 0 6 10</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_A_Left_RARE" x="1698" y="362" w="59" h="70" oX="208" oY="32" oW="680" oH="460">
+		<vertices>208 102 208 45 267 32</vertices>
+		<verticesUV>1698 432 1698 375 1757 362</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_A_Right_RARE" x="270" y="882" w="73" h="124" oX="399" oY="31" oW="680" oH="460">
+		<vertices>472 44 436 155 399 31</vertices>
+		<verticesUV>343 895 307 1006 270 882</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_B_Left_RARE" x="706" y="845" w="209" h="176" oX="60" oY="35" oW="680" oH="460">
+		<vertices>269 108 224 198 112 211 130 121 60 132 98 51 212 92 269 35</vertices>
+		<verticesUV>915 918 870 1008 758 1021 776 931 706 942 744 861 858 902 915 845</verticesUV>
+		<triangles>3 5 6 3 4 5 1 3 6 0 6 7 1 2 3 0 1 6</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_B_Right_RARE" x="0" y="794" w="295" h="198" oX="364" oY="52" oW="680" oH="460">
+		<vertices>444 117 606 96 659 236 586 157 501 250 364 229 364 52</vertices>
+		<verticesUV>80 859 242 838 295 978 222 899 137 992 0 971 0 794</verticesUV>
+		<triangles>0 4 5 1 2 3 0 1 3 0 3 4 0 5 6</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_C_Left_RARE" x="836" y="685" w="191" h="123" oX="93" oY="88" oW="680" oH="460">
+		<vertices>184 211 155 187 184 176 146 119 108 206 93 88 284 183 258 200 240 172 254 153</vertices>
+		<verticesUV>927 808 898 784 927 773 889 716 851 803 836 685 1027 780 1001 797 983 769 997 750</verticesUV>
+		<triangles>0 1 2 3 4 5 6 7 8 6 8 9</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_C_Right_RARE" x="412" y="912" w="305" h="106" oX="284" oY="143" oW="680" oH="460">
+		<vertices>495 233 425 249 426 204 589 144 530 247 509 143 338 210 284 210 338 156</vertices>
+		<verticesUV>623 1002 553 1018 554 973 717 913 658 1016 637 912 466 979 412 979 466 925</verticesUV>
+		<triangles>0 1 2 3 4 5 6 7 8</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_D_Left_RARE" x="895" y="311" w="129" h="202" oX="35" oY="68" oW="680" oH="460">
+		<vertices>164 226 123 270 43 260 89 182 93 81 54 162 35 137 78 68</vertices>
+		<verticesUV>1024 469 983 513 903 503 949 425 953 324 914 405 895 380 938 311</verticesUV>
+		<triangles>1 2 3 0 1 3 4 6 7 4 5 6</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_D_Right_RARE" x="429" y="462" w="230" h="283" oX="431" oY="46" oW="680" oH="460">
+		<vertices>463 329 432 327 431 279 479 265 559 291 500 283 559 224 661 190 600 265 600 46</vertices>
+		<verticesUV>461 745 430 743 429 695 477 681 557 707 498 699 557 640 659 606 598 681 598 462</verticesUV>
+		<triangles>0 2 3 0 1 2 4 5 6 7 8 9</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_A_Left_RARE" x="302" y="0" w="103" h="86" oX="187" oY="14" oW="680" oH="460">
+		<vertices>211 100 187 51 290 14</vertices>
+		<verticesUV>326 86 302 37 405 0</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_A_Right_RARE" x="0" y="40" w="90" h="138" oX="399" oY="17" oW="680" oH="460">
+		<vertices>436 155 399 62 489 17</vertices>
+		<verticesUV>37 178 0 85 90 40</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_B_Left_RARE" x="390" y="811" w="268" h="172" oX="30" oY="42" oW="680" oH="460">
+		<vertices>228 196 121 214 101 119 30 159 102 52 182 85 298 42</vertices>
+		<verticesUV>588 965 481 983 461 888 390 928 462 821 542 854 658 811</verticesUV>
+		<triangles>2 3 4 2 4 5 0 5 6 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_B_Right_RARE" x="255" y="712" w="265" h="198" oX="359" oY="63" oW="680" oH="460">
+		<vertices>461 111 624 92 624 193 561 146 503 261 359 216 365 63</vertices>
+		<verticesUV>357 760 520 741 520 842 457 795 399 910 255 865 261 712</verticesUV>
+		<triangles>0 4 5 1 2 3 0 1 3 0 5 6 3 4 0</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_C_Left_RARE" x="1862" y="325" w="186" h="135" oX="91" oY="73" oW="680" oH="460">
+		<vertices>180 208 143 189 203 139 277 201 239 201 239 154 277 154 150 114 122 197 91 189 104 73</vertices>
+		<verticesUV>1951 460 1914 441 1974 391 2048 453 2010 453 2010 406 2048 406 1921 366 1893 449 1862 441 1875 325</verticesUV>
+		<triangles>0 1 2 4 5 6 3 4 6 7 8 9 7 9 10</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_C_Right_RARE" x="568" y="302" w="356" h="147" oX="237" oY="126" oW="680" oH="460">
+		<vertices>533 273 509 147 593 126 479 232 423 256 427 180 339 214 237 214 346 165</vertices>
+		<verticesUV>864 449 840 323 924 302 810 408 754 432 758 356 670 390 568 390 677 341</verticesUV>
+		<triangles>0 1 2 3 4 5 6 7 8</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_D_Left_RARE" x="1161" y="0" w="135" h="224" oX="41" oY="53" oW="680" oH="460">
+		<vertices>176 225 119 277 64 220 86 178 41 186 41 117 84 55 119 53</vertices>
+		<verticesUV>1296 172 1239 224 1184 167 1206 125 1161 133 1161 64 1204 2 1239 0</verticesUV>
+		<triangles>1 2 3 0 1 3 5 6 7 4 5 7</triangles>
+	</sprite>
+	<sprite n="RVWY_antlers_symbols_glow_D_Right_RARE" x="590" y="246" w="232" h="281" oX="425" oY="109" oW="680" oH="460">
+		<vertices>464 390 425 277 476 262 562 291 519 291 519 238 562 238 657 244 618 205 602 124 643 109</vertices>
+		<verticesUV>629 527 590 414 641 399 727 428 684 428 684 375 727 375 822 381 783 342 767 261 808 246</verticesUV>
+		<triangles>0 1 2 4 5 6 3 4 6 8 9 10 7 8 10</triangles>
+	</sprite>
+	<sprite n="RVWY_back_left_foot" x="1233" y="635" w="110" h="111" oX="1" oY="1" oW="112" oH="112">
+		<vertices>111 15 111 103 39 112 1 94 21 16 82 1</vertices>
+		<verticesUV>1343 649 1343 737 1271 746 1233 728 1253 650 1314 635</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_back_left_lowerleg" x="1513" y="96" w="111" h="75" oX="1" oY="1" oW="112" oH="76">
+		<vertices>112 14 112 76 29 76 8 69 1 41 24 9 65 1</vertices>
+		<verticesUV>1624 109 1624 171 1541 171 1520 164 1513 136 1536 104 1577 96</verticesUV>
+		<triangles>2 5 6 4 2 3 4 5 2 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="RVWY_back_left_upperleg" x="1800" y="810" w="95" h="129" oX="1" oY="3" oW="96" oH="132">
+		<vertices>96 50 96 126 14 132 1 85 2 11 66 3</vertices>
+		<verticesUV>1895 857 1895 933 1813 939 1800 892 1801 818 1865 810</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="RVWY_back_right_foot" x="1041" y="716" w="106" h="111" oX="5" oY="0" oW="112" oH="112">
+		<vertices>111 1 111 94 59 111 5 96 10 0</vertices>
+		<verticesUV>1147 717 1147 810 1095 827 1041 812 1046 716</verticesUV>
+		<triangles>2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="RVWY_back_right_lowerleg" x="1363" y="383" w="111" h="75" oX="1" oY="1" oW="112" oH="76">
+		<vertices>112 14 112 76 29 76 8 69 1 41 24 9 65 1</vertices>
+		<verticesUV>1474 396 1474 458 1391 458 1370 451 1363 423 1386 391 1427 383</verticesUV>
+		<triangles>2 5 6 4 2 3 4 5 2 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="RVWY_back_right_upperleg" x="1698" y="678" w="95" h="129" oX="1" oY="3" oW="96" oH="132">
+		<vertices>96 50 96 126 14 132 1 85 2 11 66 3</vertices>
+		<verticesUV>1793 725 1793 801 1711 807 1698 760 1699 686 1763 678</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="RVWY_body" x="709" y="0" w="297" h="254" oX="0" oY="7" oW="300" oH="268">
+		<vertices>188 10 287 93 297 171 259 241 178 261 56 244 0 127 33 7</vertices>
+		<verticesUV>897 3 996 86 1006 164 968 234 887 254 765 237 709 120 742 0</verticesUV>
+		<triangles>4 5 6 0 4 6 2 3 4 4 0 1 4 1 2 0 6 7</triangles>
+	</sprite>
+	<sprite n="RVWY_eye_glow" x="1690" y="560" w="115" h="116" oX="0" oY="0" oW="116" oH="116">
+		<vertices>115 116 37 116 8 99 0 69 0 0 115 0</vertices>
+		<verticesUV>1805 676 1727 676 1698 659 1690 629 1690 560 1805 560</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_left_01" x="929" y="725" w="45" h="79" oX="1" oY="7" oW="80" oH="92">
+		<vertices>46 85 7 86 1 61 11 27 46 7</vertices>
+		<verticesUV>974 803 935 804 929 779 939 745 974 725</verticesUV>
+		<triangles>0 3 4 0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_left_02" x="984" y="0" w="49" h="81" oX="1" oY="8" oW="80" oH="92">
+		<vertices>50 78 26 89 6 83 1 60 17 8 50 8</vertices>
+		<verticesUV>1033 70 1009 81 989 75 984 52 1000 0 1033 0</verticesUV>
+		<triangles>3 4 5 0 3 5 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_left_03" x="1313" y="273" w="78" h="90" oX="1" oY="0" oW="80" oH="92">
+		<vertices>75 7 79 29 65 71 27 90 6 83 1 60 14 14 55 0</vertices>
+		<verticesUV>1387 280 1391 302 1377 344 1339 363 1318 356 1313 333 1326 287 1367 273</verticesUV>
+		<triangles>1 2 6 2 5 6 3 4 5 2 3 5 1 6 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_left_04" x="1241" y="274" w="78" h="90" oX="1" oY="0" oW="80" oH="92">
+		<vertices>75 7 79 29 65 71 27 90 6 83 1 60 14 14 55 0</vertices>
+		<verticesUV>1315 281 1319 303 1305 345 1267 364 1246 357 1241 334 1254 288 1295 274</verticesUV>
+		<triangles>1 2 6 2 5 6 3 4 5 2 3 5 1 6 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_left_05" x="1439" y="142" w="78" h="90" oX="1" oY="0" oW="80" oH="92">
+		<vertices>75 7 79 29 65 71 27 90 6 83 1 60 14 14 55 0</vertices>
+		<verticesUV>1513 149 1517 171 1503 213 1465 232 1444 225 1439 202 1452 156 1493 142</verticesUV>
+		<triangles>1 2 6 2 5 6 3 4 5 2 3 5 1 6 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_right_01" x="149" y="748" w="106" h="89" oX="1" oY="17" oW="108" oH="108">
+		<vertices>104 40 107 60 91 104 35 106 1 70 87 73 89 17</vertices>
+		<verticesUV>252 771 255 791 239 835 183 837 149 801 235 804 237 748</verticesUV>
+		<triangles>3 4 5 2 3 5 1 2 5 0 1 5 0 5 6</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_right_02" x="1585" y="409" w="107" h="106" oX="0" oY="2" oW="108" oH="108">
+		<vertices>98 16 107 53 97 98 43 108 14 86 0 58 10 15 56 2</vertices>
+		<verticesUV>1683 423 1692 460 1682 505 1628 515 1599 493 1585 465 1595 422 1641 409</verticesUV>
+		<triangles>5 6 7 4 5 7 1 4 7 1 2 3 1 3 4 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_right_03" x="1149" y="720" w="107" h="108" oX="0" oY="0" oW="108" oH="108">
+		<vertices>101 29 107 53 97 98 43 108 0 77 5 14 72 0</vertices>
+		<verticesUV>1250 749 1256 773 1246 818 1192 828 1149 797 1154 734 1221 720</verticesUV>
+		<triangles>4 5 6 0 4 6 1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_right_04" x="1269" y="174" w="106" h="105" oX="1" oY="1" oW="108" oH="108">
+		<vertices>98 15 107 53 97 98 52 106 11 94 1 54 8 20 52 1</vertices>
+		<verticesUV>1366 188 1375 226 1365 271 1320 279 1279 267 1269 227 1276 193 1320 174</verticesUV>
+		<triangles>5 6 7 3 5 7 3 4 5 1 2 3 1 3 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_eyelid_right_05" x="1253" y="744" w="107" h="106" oX="0" oY="2" oW="108" oH="108">
+		<vertices>98 16 107 53 97 98 43 108 14 86 0 58 10 15 56 2</vertices>
+		<verticesUV>1351 758 1360 795 1350 840 1296 850 1267 828 1253 800 1263 757 1309 744</verticesUV>
+		<triangles>5 6 7 4 5 7 1 4 7 1 2 3 1 3 4 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_front_left_foot" x="1476" y="416" w="99" h="82" oX="0" oY="2" oW="100" oH="88">
+		<vertices>99 6 99 81 10 84 0 43 0 2</vertices>
+		<verticesUV>1575 420 1575 495 1486 498 1476 457 1476 416</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_front_left_lowerleg" x="1262" y="514" w="104" h="119" oX="0" oY="3" oW="104" oH="124">
+		<vertices>95 5 104 66 98 122 0 122 0 72 35 3</vertices>
+		<verticesUV>1357 516 1366 577 1360 633 1262 633 1262 583 1297 514</verticesUV>
+		<triangles>1 2 4 2 3 4 1 4 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_front_left_toes_01" x="1361" y="742" w="114" h="89" oX="23" oY="6" oW="140" oH="104">
+		<vertices>137 83 73 95 23 68 34 7 128 6</vertices>
+		<verticesUV>1475 819 1411 831 1361 804 1372 743 1466 742</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_front_left_upperleg" x="1450" y="635" w="88" h="101" oX="0" oY="3" oW="88" oH="104">
+		<vertices>88 25 88 103 3 104 0 33 9 7 44 3</vertices>
+		<verticesUV>1538 657 1538 735 1453 736 1450 665 1459 639 1494 635</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="RVWY_front_right_foot" x="1473" y="738" w="99" h="82" oX="0" oY="2" oW="100" oH="88">
+		<vertices>99 6 99 81 10 84 0 43 0 2</vertices>
+		<verticesUV>1572 742 1572 817 1483 820 1473 779 1473 738</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_front_right_lowerleg" x="1694" y="808" w="104" h="119" oX="0" oY="3" oW="104" oH="124">
+		<vertices>95 5 104 66 98 122 0 122 0 72 35 3</vertices>
+		<verticesUV>1789 810 1798 871 1792 927 1694 927 1694 877 1729 808</verticesUV>
+		<triangles>1 2 4 2 3 4 1 4 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_front_right_toes_01" x="1924" y="923" w="124" h="89" oX="14" oY="11" oW="140" oH="104">
+		<vertices>122 12 138 66 111 94 57 100 14 78 33 11</vertices>
+		<verticesUV>2032 924 2048 978 2021 1006 1967 1012 1924 990 1943 923</verticesUV>
+		<triangles>3 4 5 0 2 3 0 1 2 0 3 5</triangles>
+	</sprite>
+	<sprite n="RVWY_front_right_upperleg" x="1274" y="408" w="88" h="101" oX="0" oY="3" oW="88" oH="104">
+		<vertices>88 25 88 103 3 104 0 33 9 7 44 3</vertices>
+		<verticesUV>1362 430 1362 508 1277 509 1274 438 1283 412 1318 408</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="RVWY_head" x="428" y="0" w="287" h="367" oX="1" oY="20" oW="288" oH="396">
+		<vertices>242 28 277 115 288 225 260 354 184 386 93 387 3 327 1 236 19 95 95 20</vertices>
+		<verticesUV>669 8 704 95 715 205 687 334 611 366 520 367 430 307 428 216 446 75 522 0</verticesUV>
+		<triangles>1 8 9 2 3 4 5 6 7 4 5 7 2 4 7 1 2 7 1 7 8 0 1 9</triangles>
+	</sprite>
+	<sprite n="RVWY_head_eyes_GLOW" x="348" y="553" w="219" h="108" oX="32" oY="41" oW="288" oH="396">
+		<vertices>251 84 216 149 151 148 124 96 174 41 98 126 32 126 32 48 98 48</vertices>
+		<verticesUV>567 596 532 661 467 660 440 608 490 553 414 638 348 638 348 560 414 560</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4 6 7 8 5 6 8</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_01" x="1544" y="181" w="130" h="123" oX="41" oY="25" oW="172" oH="148">
+		<vertices>171 90 97 148 52 148 41 74 106 25</vertices>
+		<verticesUV>1674 246 1600 304 1555 304 1544 230 1609 181</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_02" x="1532" y="300" w="117" h="117" oX="33" oY="31" oW="172" oH="148">
+		<vertices>150 93 106 148 53 148 33 48 140 31</vertices>
+		<verticesUV>1649 362 1605 417 1552 417 1532 317 1639 300</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_03" x="1751" y="296" w="118" h="142" oX="34" oY="1" oW="172" oH="148">
+		<vertices>152 58 137 123 86 143 34 116 44 55 120 1</vertices>
+		<verticesUV>1869 353 1854 418 1803 438 1751 411 1761 350 1837 296</verticesUV>
+		<triangles>0 1 4 2 3 4 1 2 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_04" x="542" y="692" w="141" h="136" oX="23" oY="7" oW="172" oH="148">
+		<vertices>164 10 130 126 86 143 33 116 23 63 64 7</vertices>
+		<verticesUV>683 695 649 811 605 828 552 801 542 748 583 692</verticesUV>
+		<triangles>1 2 4 2 3 4 1 4 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_05" x="934" y="316" w="156" h="143" oX="2" oY="0" oW="172" oH="148">
+		<vertices>158 30 130 126 86 143 16 106 2 53 49 8 78 0</vertices>
+		<verticesUV>1090 346 1062 442 1018 459 948 422 934 369 981 324 1010 316</verticesUV>
+		<triangles>2 5 6 3 4 5 2 3 5 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_06" x="1004" y="454" w="160" h="134" oX="4" oY="5" oW="172" oH="148">
+		<vertices>164 25 127 139 13 135 4 63 38 5</vertices>
+		<verticesUV>1164 474 1127 588 1013 584 1004 512 1038 454</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_07" x="1072" y="339" w="160" h="130" oX="4" oY="13" oW="172" oH="148">
+		<vertices>152 28 164 52 127 127 86 143 11 116 4 90 35 13</vertices>
+		<verticesUV>1220 354 1232 378 1195 453 1154 469 1079 442 1072 416 1103 339</verticesUV>
+		<triangles>3 5 6 3 4 5 2 3 6 0 1 2 0 2 6</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_08" x="953" y="206" w="168" h="110" oX="1" oY="28" oW="172" oH="148">
+		<vertices>162 61 169 114 95 138 14 131 1 95 34 28</vertices>
+		<verticesUV>1114 239 1121 292 1047 316 966 309 953 273 986 206</verticesUV>
+		<triangles>2 4 5 2 3 4 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_09" x="1897" y="828" w="151" h="93" oX="12" oY="45" oW="172" oH="148">
+		<vertices>163 87 163 138 12 138 12 56 100 45</vertices>
+		<verticesUV>2048 870 2048 921 1897 921 1897 839 1985 828</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_10" x="1899" y="726" w="149" h="100" oX="15" oY="45" oW="172" oH="148">
+		<vertices>164 98 142 145 15 144 23 58 111 45</vertices>
+		<verticesUV>2048 779 2026 826 1899 825 1907 739 1995 726</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_left_hand_11" x="1369" y="545" w="117" h="88" oX="19" oY="56" oW="172" oH="148">
+		<vertices>136 144 19 144 19 56 136 56</vertices>
+		<verticesUV>1486 633 1369 633 1369 545 1486 545</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_left_lowerarm" x="1160" y="448" w="121" h="121" oX="3" oY="3" oW="124" oH="132">
+		<vertices>111 35 124 94 102 124 24 124 3 67 11 24 53 3</vertices>
+		<verticesUV>1268 480 1281 539 1259 569 1181 569 1160 512 1168 469 1210 448</verticesUV>
+		<triangles>4 5 6 0 1 2 2 3 4 0 2 4 0 4 6</triangles>
+	</sprite>
+	<sprite n="RVWY_left_upperarm" x="1686" y="421" w="103" h="129" oX="0" oY="3" oW="108" oH="132">
+		<vertices>103 15 103 61 69 132 42 132 17 118 0 98 0 90 13 18 79 3</vertices>
+		<verticesUV>1789 433 1789 479 1755 550 1728 550 1703 536 1686 516 1686 508 1699 436 1765 421</verticesUV>
+		<triangles>1 7 8 1 6 7 4 5 6 4 6 1 1 2 3 1 3 4 0 1 8</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_01" x="661" y="434" w="188" h="230" oX="6" oY="2" oW="196" oH="232">
+		<vertices>173 17 194 157 170 214 127 232 6 189 7 156 43 11 89 2</vertices>
+		<verticesUV>828 449 849 589 825 646 782 664 661 621 662 588 698 443 744 434</verticesUV>
+		<triangles>5 6 7 1 2 3 3 4 5 1 3 5 1 5 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_02" x="658" y="661" w="193" h="215" oX="2" oY="3" oW="196" oH="232">
+		<vertices>176 17 195 172 142 218 2 171 35 10 91 3</vertices>
+		<verticesUV>832 675 851 830 798 876 658 829 691 668 747 661</verticesUV>
+		<triangles>3 4 5 2 3 5 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_03" x="1861" y="189" w="187" h="177" oX="3" oY="4" oW="196" oH="232">
+		<vertices>124 6 190 38 190 181 3 134 46 4</vertices>
+		<verticesUV>1982 191 2048 223 2048 366 1861 319 1904 189</verticesUV>
+		<triangles>0 2 3 0 1 2 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_04" x="1198" y="0" w="193" h="123" oX="3" oY="0" oW="196" oH="232">
+		<vertices>196 41 183 123 3 95 41 10 111 0</vertices>
+		<verticesUV>1391 41 1378 123 1198 95 1236 10 1306 0</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_05" x="1289" y="112" w="157" h="86" oX="33" oY="0" oW="196" oH="232">
+		<vertices>167 20 190 52 182 86 33 53 37 0</vertices>
+		<verticesUV>1423 132 1446 164 1438 198 1289 165 1293 112</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_06" x="829" y="507" w="191" h="216" oX="3" oY="3" oW="196" oH="232">
+		<vertices>176 17 194 148 145 219 55 204 3 166 46 9 92 3</vertices>
+		<verticesUV>1002 521 1020 652 971 723 881 708 829 670 872 513 918 507</verticesUV>
+		<triangles>4 5 6 3 4 6 1 2 3 1 3 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_07" x="1864" y="0" w="184" h="188" oX="7" oY="3" oW="196" oH="232">
+		<vertices>170 15 191 166 90 191 7 156 48 9 89 3</vertices>
+		<verticesUV>2027 12 2048 163 1947 188 1864 153 1905 6 1946 0</verticesUV>
+		<triangles>2 4 5 2 3 4 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_08" x="1023" y="591" w="144" h="123" oX="38" oY="6" oW="196" oH="232">
+		<vertices>154 129 38 129 38 6 182 6</vertices>
+		<verticesUV>1139 714 1023 714 1023 591 1167 591</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_09" x="1364" y="460" w="106" h="83" oX="47" oY="6" oW="196" oH="232">
+		<vertices>153 89 47 89 47 6 153 6</vertices>
+		<verticesUV>1470 543 1364 543 1364 460 1470 460</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_10" x="1345" y="635" w="103" h="105" oX="47" oY="6" oW="196" oH="232">
+		<vertices>150 111 47 111 47 6 150 6</vertices>
+		<verticesUV>1448 740 1345 740 1345 635 1448 635</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_11" x="1795" y="686" w="102" h="122" oX="47" oY="6" oW="196" oH="232">
+		<vertices>149 128 47 128 47 6 149 6</vertices>
+		<verticesUV>1897 808 1795 808 1795 686 1897 686</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_12" x="917" y="806" w="139" h="150" oX="42" oY="3" oW="196" oH="232">
+		<vertices>181 16 128 150 42 153 43 11 91 3</vertices>
+		<verticesUV>1056 819 1003 953 917 956 918 814 966 806</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_13" x="1005" y="0" w="168" h="207" oX="11" oY="0" oW="196" oH="232">
+		<vertices>179 29 106 207 41 140 41 10 109 0 17 144 11 138 17 133</vertices>
+		<verticesUV>1173 29 1100 207 1035 140 1035 10 1103 0 1011 144 1005 138 1011 133</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2 5 6 7</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_14" x="307" y="640" w="156" h="77" oX="38" oY="3" oW="196" oH="232">
+		<vertices>194 21 128 80 63 65 38 9 91 3</vertices>
+		<verticesUV>463 658 397 717 332 702 307 646 360 640</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_mouth_15" x="1548" y="0" w="168" h="100" oX="16" oY="0" oW="196" oH="232">
+		<vertices>165 26 184 74 134 100 54 90 16 12 115 0</vertices>
+		<verticesUV>1697 26 1716 74 1666 100 1586 90 1548 12 1647 0</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="RVWY_orb_01" x="854" y="760" w="34" h="92" oX="2" oY="3" oW="48" oH="96">
+		<vertices>36 94 6 95 2 73 20 3 36 3</vertices>
+		<verticesUV>888 851 858 852 854 830 872 760 888 760</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_orb_02" x="386" y="288" w="55" h="81" oX="0" oY="2" oW="56" oH="88">
+		<vertices>55 39 55 61 0 83 0 65 26 2</vertices>
+		<verticesUV>441 325 441 347 386 369 386 351 412 288</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_orb_03" x="1965" y="372" w="41" h="89" oX="2" oY="0" oW="44" oH="96">
+		<vertices>43 25 43 89 2 89 2 72 18 0</vertices>
+		<verticesUV>2006 397 2006 461 1965 461 1965 444 1981 372</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_orb_04" x="697" y="205" w="49" h="125" oX="1" oY="3" oW="52" oH="132">
+		<vertices>50 128 16 123 1 96 21 5 50 3</vertices>
+		<verticesUV>746 330 712 325 697 298 717 207 746 205</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_orb_glow" x="1690" y="560" w="115" h="116" oX="0" oY="0" oW="116" oH="116">
+		<vertices>115 116 37 116 8 99 0 69 0 0 115 0</vertices>
+		<verticesUV>1805 676 1727 676 1698 659 1690 629 1690 560 1805 560</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_pupil_left" x="1656" y="363" w="40" h="40">
+		<vertices>40 40 0 40 0 0 40 0</vertices>
+		<verticesUV>1696 403 1656 403 1656 363 1696 363</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_pupil_left_DULL" x="1374" y="0" w="26" h="28" oX="6" oY="6" oW="40" oH="40">
+		<vertices>32 34 6 34 6 6 32 6</vertices>
+		<verticesUV>1400 28 1374 28 1374 0 1400 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_pupil_left_glow" x="945" y="0" w="40" h="40">
+		<vertices>40 40 0 40 0 0 40 0</vertices>
+		<verticesUV>985 40 945 40 945 0 985 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_pupil_right" x="1482" y="361" w="56" h="54">
+		<vertices>56 54 21 54 2 49 0 34 0 0 56 0</vertices>
+		<verticesUV>1538 415 1503 415 1484 410 1482 395 1482 361 1538 361</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_pupil_right_DULL" x="694" y="0" w="36" h="33" oX="9" oY="11" oW="56" oH="54">
+		<vertices>45 44 9 44 9 11 45 11</vertices>
+		<verticesUV>730 33 694 33 694 0 730 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_pupil_right_glow" x="815" y="254" w="56" h="54">
+		<vertices>56 54 21 54 2 49 0 34 0 0 56 0</vertices>
+		<verticesUV>871 308 836 308 817 303 815 288 815 254 871 254</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_01" x="21" y="333" w="144" h="150" oX="25" oY="10" oW="172" oH="164">
+		<vertices>135 46 169 125 92 160 25 113 64 10</vertices>
+		<verticesUV>131 369 165 448 88 483 21 436 60 333</verticesUV>
+		<triangles>0 2 3 0 1 2 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_02" x="1807" y="560" w="107" h="124" oX="37" oY="26" oW="172" oH="164">
+		<vertices>144 150 37 150 37 26 144 26</vertices>
+		<verticesUV>1914 684 1807 684 1807 560 1914 560</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_03" x="1925" y="463" w="123" h="135" oX="30" oY="15" oW="172" oH="164">
+		<vertices>153 150 30 150 30 15 153 15</vertices>
+		<verticesUV>2048 598 1925 598 1925 463 2048 463</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_04" x="1625" y="100" w="150" h="153" oX="17" oY="8" oW="172" oH="164">
+		<vertices>152 34 167 69 131 141 90 161 17 102 20 50 70 8</vertices>
+		<verticesUV>1760 126 1775 161 1739 233 1698 253 1625 194 1628 142 1678 100</verticesUV>
+		<triangles>4 5 6 2 3 4 2 4 6 0 1 2 0 2 6</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_05" x="1728" y="0" w="168" h="148" oX="1" oY="11" oW="172" oH="164">
+		<vertices>169 38 144 123 107 159 11 127 1 76 50 11</vertices>
+		<verticesUV>1896 27 1871 112 1834 148 1738 116 1728 65 1777 0</verticesUV>
+		<triangles>3 1 2 3 4 1 1 4 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_06" x="1388" y="0" w="171" h="143" oX="0" oY="17" oW="172" oH="164">
+		<vertices>171 61 131 141 92 160 0 94 24 17 152 17</vertices>
+		<verticesUV>1559 44 1519 124 1480 143 1388 77 1412 0 1540 0</verticesUV>
+		<triangles>1 4 5 3 4 1 3 1 2 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_07" x="1742" y="143" w="162" h="151" oX="6" oY="8" oW="172" oH="164">
+		<vertices>168 38 140 129 102 159 23 124 6 98 51 8</vertices>
+		<verticesUV>1904 173 1876 264 1838 294 1759 259 1742 233 1787 143</verticesUV>
+		<triangles>3 4 5 1 2 3 1 3 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_08" x="1120" y="197" w="131" h="142" oX="19" oY="9" oW="172" oH="164">
+		<vertices>150 101 127 151 19 150 26 49 103 9</vertices>
+		<verticesUV>1251 289 1228 339 1120 338 1127 237 1204 197</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_09" x="1916" y="600" w="132" h="124" oX="17" oY="26" oW="172" oH="164">
+		<vertices>149 150 17 150 17 45 149 26</vertices>
+		<verticesUV>2048 724 1916 724 1916 619 2048 600</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="RVWY_right_hand_10" x="1646" y="243" w="139" h="118" oX="18" oY="32" oW="172" oH="164">
+		<vertices>157 96 123 150 23 150 18 61 108 32</vertices>
+		<verticesUV>1785 307 1751 361 1651 361 1646 272 1736 243</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="RVWY_right_lowerarm" x="1791" y="452" w="132" h="106" oX="6" oY="6" oW="144" oH="116">
+		<vertices>138 112 6 112 6 6 138 6</vertices>
+		<verticesUV>1923 558 1791 558 1791 452 1923 452</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="RVWY_right_upperarm" x="1157" y="571" w="103" h="129" oX="0" oY="3" oW="108" oH="132">
+		<vertices>103 15 103 61 69 132 42 132 17 118 0 98 0 90 13 18 79 3</vertices>
+		<verticesUV>1260 583 1260 629 1226 700 1199 700 1174 686 1157 666 1157 658 1170 586 1236 571</verticesUV>
+		<triangles>1 7 8 1 6 7 4 5 6 4 6 1 1 2 3 1 3 4 0 1 8</triangles>
+	</sprite>
+	<sprite n="RVWY_shadow" x="257" y="371" w="339" h="180" oX="0" oY="0" oW="340" oH="180">
+		<vertices>298 2 339 68 339 128 253 180 38 178 0 118 1 44 95 0</vertices>
+		<verticesUV>555 373 596 439 596 499 510 551 295 549 257 489 258 415 352 371</verticesUV>
+		<triangles>5 6 7 4 5 7 3 4 7 3 0 1 3 1 2 0 3 7</triangles>
+	</sprite>
+</TextureAtlas>

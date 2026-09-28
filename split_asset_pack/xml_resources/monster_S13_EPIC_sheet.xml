@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cc869734d5d6e07a6d78b2cc3d37be4f:20179a3eb21fd5b1c28fbb8cb2cfc108:7a822ffe9e9e0b320bcb735069c84772$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_S13_EPIC_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="S13_body" x="284" y="555" w="57" h="79" oX="1" oY="3" oW="60" oH="108"/>
+    <sprite n="S13_body_hair" x="667" y="422" w="114" h="111" oX="3" oY="31" oW="117" oH="149" r="y"/>
+    <sprite n="S13_bow" x="364" y="112" w="160" h="29" oX="2" oY="6" oW="40" oH="172" r="y"/>
+    <sprite n="S13_cloth" x="190" y="4" w="177" h="60" oX="2" oY="1" oW="64" oH="179" r="y"/>
+    <sprite n="S13_collar_back" x="809" y="316" w="37" h="39" oX="0" oY="5" oW="40" oH="48"/>
+    <sprite n="S13_collar_front" x="337" y="285" w="19" h="39" oX="1" oY="7" oW="40" oH="32" r="y"/>
+    <sprite n="S13_eyelids_01" x="337" y="181" w="22" h="22" oX="21" oY="1" oW="44" oH="24"/>
+    <sprite n="S13_eyelids_02" x="337" y="207" w="22" h="22" oX="21" oY="1" oW="44" oH="24"/>
+    <sprite n="S13_eyelids_03" x="337" y="233" w="22" h="22" oX="21" oY="1" oW="44" oH="24"/>
+    <sprite n="S13_eyelids_04" x="337" y="259" w="22" h="22" oX="21" oY="1" oW="44" oH="24"/>
+    <sprite n="S13_fairydust_01" x="163" y="175" w="10" h="10"/>
+    <sprite n="S13_fairydust_02" x="850" y="244" w="12" h="12"/>
+    <sprite n="S13_fairydust_clump_01" x="969" y="396" w="49" h="54" oX="2" oY="5" oW="57" oH="57" r="y"/>
+    <sprite n="S13_fairydust_clump_02" x="307" y="329" w="51" h="49" oX="2" oY="3" oW="57" oH="57" r="y"/>
+    <sprite n="S13_fiddle" x="4" y="4" w="182" h="82" oX="13" oY="10" oW="196" oH="128"/>
+    <sprite n="S13_hair_01" x="485" y="447" w="54" h="71" oX="1" oY="1" oW="56" oH="73"/>
+    <sprite n="S13_hair_02" x="603" y="522" w="60" h="92" oX="2" oY="2" oW="64" oH="96"/>
+    <sprite n="S13_hair_03" x="284" y="382" w="74" h="46" oX="2" oY="2" oW="50" oH="78" r="y"/>
+    <sprite n="S13_head" x="4" y="480" w="127" h="76" oX="19" oY="18" oW="113" oH="151" r="y"/>
+    <sprite n="S13_head_leaf" x="784" y="651" w="42" h="39" oX="7" oY="6" oW="52" oH="57" r="y"/>
+    <sprite n="S13_head_leaf_left" x="952" y="527" w="68" h="44" oX="0" oY="0" oW="56" oH="68" r="y"/>
+    <sprite n="S13_horn_left" x="4" y="560" w="121" h="44" oX="0" oY="0" oW="45" oH="121" r="y"/>
+    <sprite n="S13_horn_right" x="284" y="432" w="73" h="119" oX="3" oY="2" oW="79" oH="123"/>
+    <sprite n="S13_leaf_left_back_large_01" x="834" y="497" w="114" h="102" oX="10" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_large_02" x="545" y="416" w="118" h="102" oX="6" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_large_03" x="361" y="436" w="120" h="102" oX="4" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_large_04" x="686" y="316" w="119" h="102" oX="5" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_large_05" x="485" y="522" w="114" h="102" oX="10" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_large_06" x="667" y="537" w="114" h="102" oX="10" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_large_07" x="666" y="643" w="114" h="102" oX="10" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_left_back_small_01" x="234" y="563" w="46" h="80" oX="3" oY="5" oW="88" oH="58" r="y"/>
+    <sprite n="S13_leaf_left_back_small_02" x="234" y="647" w="46" h="80" oX="3" oY="5" oW="88" oH="58" r="y"/>
+    <sprite n="S13_leaf_left_back_small_03" x="284" y="721" w="47" h="80" oX="3" oY="4" oW="88" oH="58" r="y"/>
+    <sprite n="S13_leaf_left_back_small_04" x="208" y="731" w="47" h="80" oX="3" oY="4" oW="88" oH="58" r="y"/>
+    <sprite n="S13_leaf_left_front_large_01" x="546" y="221" w="148" h="91" oX="10" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_large_02" x="364" y="145" w="154" h="92" oX="9" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_large_03" x="871" y="4" w="149" h="92" oX="9" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_large_04" x="871" y="100" w="149" h="92" oX="9" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_large_05" x="363" y="241" w="148" h="91" oX="10" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_large_06" x="698" y="221" w="148" h="91" oX="10" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_large_07" x="850" y="276" w="148" h="91" oX="10" oY="3" oW="130" oH="157" r="y"/>
+    <sprite n="S13_leaf_left_front_small_01" x="4" y="708" w="93" h="82" oX="20" oY="7" oW="130" oH="103" r="y"/>
+    <sprite n="S13_leaf_left_front_small_02" x="109" y="663" w="95" h="88" oX="14" oY="7" oW="130" oH="103" r="y"/>
+    <sprite n="S13_leaf_left_front_small_03" x="936" y="682" w="83" h="93" oX="19" oY="7" oW="130" oH="103"/>
+    <sprite n="S13_leaf_left_front_small_04" x="101" y="755" w="93" h="82" oX="20" oY="7" oW="130" oH="103" r="y"/>
+    <sprite n="S13_leaf_left_front_small_05" x="4" y="794" w="93" h="82" oX="20" oY="7" oW="130" oH="103" r="y"/>
+    <sprite n="S13_leaf_left_front_small_06" x="4" y="880" w="82" h="90" oX="20" oY="7" oW="130" oH="103"/>
+    <sprite n="S13_leaf_right_back_large_01" x="4" y="380" w="136" h="96" oX="9" oY="5" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_large_02" x="163" y="260" w="140" h="98" oX="9" oY="3" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_large_03" x="144" y="362" w="136" h="97" oX="9" oY="4" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_large_04" x="546" y="316" w="136" h="96" oX="9" oY="5" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_large_05" x="4" y="275" w="136" h="101" oX="9" oY="0" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_large_06" x="362" y="336" w="136" h="96" oX="9" oY="5" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_large_07" x="144" y="463" w="136" h="96" oX="9" oY="5" oW="150" oH="102"/>
+    <sprite n="S13_leaf_right_back_small_01" x="831" y="603" w="111" h="58" oX="7" oY="7" oW="123" oH="70"/>
+    <sprite n="S13_leaf_right_back_small_02" x="603" y="618" w="59" h="112" oX="7" oY="7" oW="123" oH="70" r="y"/>
+    <sprite n="S13_leaf_right_back_small_03" x="849" y="371" w="116" h="58" oX="7" oY="7" oW="123" oH="70"/>
+    <sprite n="S13_leaf_right_back_small_04" x="834" y="433" w="115" h="60" oX="7" oY="5" oW="123" oH="70"/>
+    <sprite n="S13_leaf_right_front_large_01" x="546" y="114" w="155" h="103" oX="20" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_large_02" x="546" y="4" w="162" h="106" oX="20" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_large_03" x="371" y="4" w="171" h="104" oX="20" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_large_04" x="712" y="4" w="155" h="105" oX="18" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_large_05" x="712" y="113" w="155" h="104" oX="20" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_large_06" x="4" y="159" w="155" h="112" oX="11" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_large_07" x="178" y="137" w="155" h="119" oX="4" oY="2" oW="130" oH="178" r="y"/>
+    <sprite n="S13_leaf_right_front_small_01" x="361" y="542" w="101" h="96" oX="20" oY="3" oW="130" oH="103"/>
+    <sprite n="S13_leaf_right_front_small_02" x="830" y="665" w="102" h="96" oX="20" oY="3" oW="130" oH="103"/>
+    <sprite n="S13_leaf_right_front_small_03" x="466" y="628" w="101" h="96" oX="20" oY="3" oW="130" oH="103"/>
+    <sprite n="S13_leaf_right_front_small_04" x="129" y="563" w="101" h="96" oX="20" oY="3" oW="130" oH="103"/>
+    <sprite n="S13_leaf_right_front_small_05" x="341" y="642" w="101" h="96" oX="20" oY="3" oW="130" oH="103"/>
+    <sprite n="S13_leaf_right_front_small_06" x="4" y="608" w="101" h="96" oX="20" oY="3" oW="130" oH="103"/>
+    <sprite n="S13_left_foot_rare" x="785" y="567" w="42" h="80" oX="5" oY="9" oW="90" oH="56" r="y"/>
+    <sprite n="S13_left_hand" x="946" y="632" w="58" h="46" oX="3" oY="3" oW="52" oH="64" r="y"/>
+    <sprite n="S13_left_lowerarm" x="502" y="362" w="39" h="81" oX="3" oY="4" oW="88" oH="48" r="y"/>
+    <sprite n="S13_left_lowerleg" x="515" y="325" w="24" h="33" oX="4" oY="3" oW="32" oH="40"/>
+    <sprite n="S13_left_midleg" x="809" y="405" w="21" h="46" oX="8" oY="2" oW="32" oH="52"/>
+    <sprite n="S13_left_thumb" x="809" y="359" w="36" h="42" oX="2" oY="1" oW="40" oH="44"/>
+    <sprite n="S13_left_upperarm" x="785" y="498" w="44" h="65" oX="4" oY="3" oW="52" oH="72"/>
+    <sprite n="S13_left_upperleg" x="307" y="260" w="26" h="65" oX="3" oY="3" oW="32" oH="72"/>
+    <sprite n="S13_neck" x="522" y="161" w="20" h="68" oX="2" oY="2" oW="24" oH="72"/>
+    <sprite n="S13_pupil" x="163" y="159" w="11" h="12" oX="0" oY="0" oW="12" oH="12" r="y"/>
+    <sprite n="S13_right_fingerA_01" x="1002" y="276" w="18" h="21" oX="3" oY="1" oW="24" oH="24"/>
+    <sprite n="S13_right_fingerA_02" x="163" y="189" w="9" h="17" oX="3" oY="1" oW="24" oH="12" r="y"/>
+    <sprite n="S13_right_fingerA_03" x="528" y="112" w="14" h="18" oX="5" oY="3" oW="24" oH="24"/>
+    <sprite n="S13_right_fingerB_01" x="522" y="233" w="20" h="21" oX="2" oY="1" oW="24" oH="24"/>
+    <sprite n="S13_right_fingerB_02" x="528" y="134" w="13" h="23" oX="2" oY="1" oW="28" oH="16" r="y"/>
+    <sprite n="S13_right_fingerB_03" x="850" y="221" w="16" h="19" oX="3" oY="0" oW="24" oH="16" r="y"/>
+    <sprite n="S13_right_foot_rare" x="284" y="638" w="53" h="79" oX="4" oY="8" oW="86" oH="68" r="y"/>
+    <sprite n="S13_right_hand" x="785" y="455" w="45" h="39" oX="3" oY="2" oW="52" oH="44"/>
+    <sprite n="S13_right_lowerarm" x="953" y="454" w="65" h="69" oX="3" oY="3" oW="72" oH="76"/>
+    <sprite n="S13_right_lowerleg" x="337" y="137" w="23" h="40" oX="4" oY="3" oW="32" oH="48"/>
+    <sprite n="S13_right_midleg" x="969" y="371" w="51" h="21" oX="10" oY="1" oW="36" oH="56" r="y"/>
+    <sprite n="S13_right_upperarm" x="952" y="575" w="64" h="53" oX="4" oY="3" oW="72" oH="60"/>
+    <sprite n="S13_right_upperleg" x="515" y="258" w="27" h="63" oX="2" oY="4" oW="32" oH="72"/>
+    <sprite n="S13_shadow" x="871" y="196" w="149" h="76" oX="3" oY="2" oW="156" oH="80"/>
+    <sprite n="S13_strings_01" x="190" y="68" w="170" h="65" oX="2" oY="4" oW="176" oH="72"/>
+    <sprite n="S13_strings_02" x="4" y="90" w="170" h="65" oX="2" oY="4" oW="176" oH="72"/>
+</TextureAtlas>

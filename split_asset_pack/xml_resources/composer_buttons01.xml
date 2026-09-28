@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:14bd6cc1e5a4f438e5c78fd2f864e657:3d9cee514869bf119a180fd9d58e7188:518583967631db10333957379f320c12$ -->
+<TextureAtlas imagePath="gfx/menu/composer_buttons01.png" width="256" height="512">
+	<sprite n="button_advanced_off" x="179" y="265" w="77" h="77" oX="26" oY="22" oW="130" oH="130"/>
+	<sprite n="button_advanced_on" x="179" y="344" w="77" h="77" oX="26" oY="22" oW="130" oH="130"/>
+	<sprite n="button_clear" x="0" y="0" w="106" h="108" oX="11" oY="7" oW="130" oH="130"/>
+	<sprite n="button_copy" x="81" y="401" w="80" h="102" oX="27" oY="11" oW="130" oH="130"/>
+	<sprite n="button_cut" x="0" y="401" w="79" h="105" oX="16" oY="23" oW="130" oH="130" r="y"/>
+	<sprite n="button_next_ALT" x="97" y="265" w="80" h="81" oX="24" oY="24" oW="130" oH="130"/>
+	<sprite n="button_paste" x="108" y="97" w="92" h="83" oX="25" oY="16" oW="130" oH="130" r="y"/>
+	<sprite n="button_save" x="0" y="110" w="100" h="99" oX="17" oY="12" oW="130" oH="130"/>
+	<sprite n="button_show_hide" x="108" y="0" w="103" h="95" oX="13" oY="17" oW="130" oH="130"/>
+	<sprite n="button_step_ALT" x="102" y="182" w="82" h="81" oX="26" oY="25" oW="130" oH="130"/>
+	<sprite n="button_template_load" x="0" y="211" w="95" h="93" oX="15" oY="15" oW="130" oH="130"/>
+	<sprite n="button_template_save" x="0" y="306" w="95" h="93" oX="18" oY="15" oW="130" oH="130"/>
+</TextureAtlas>

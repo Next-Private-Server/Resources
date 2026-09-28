@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4bdd03125f08cae2b9f04afff2bb3c39:9457a9bb5dccb90f3de8498b2a8af4db:cb6304e82e6446c02f35b78ef67960d0$ -->
+<TextureAtlas imagePath="gfx/clubbox/clubbox_customization_menu.png" width="512" height="512" hires="false" version="1">
+	<sprite n="button_close" x="130" y="0" w="73" h="120" oX="4" oY="4" oW="128" oH="79" r="y"/>
+	<sprite n="button_close_pressed" x="260" y="243" w="69" h="120" oX="4" oY="8" oW="128" oH="79" r="y"/>
+	<sprite n="button_deco_01" x="0" y="0" w="128" h="133"/>
+	<sprite n="button_deco_01_pressed" x="206" y="0" w="129" h="128" oX="0" oY="4" oW="128" oH="133" r="y"/>
+	<sprite n="button_deco_02" x="0" y="135" w="128" h="133"/>
+	<sprite n="button_deco_02_pressed" x="130" y="244" w="128" h="129" oX="0" oY="4" oW="128" oH="133"/>
+	<sprite n="button_deco_03" x="0" y="270" w="128" h="133"/>
+	<sprite n="button_deco_03_pressed" x="206" y="375" w="128" h="129" oX="0" oY="4" oW="128" oH="133"/>
+	<sprite n="button_djepic" x="112" y="405" w="92" h="92"/>
+	<sprite n="button_grey" x="205" y="130" w="116" h="111" oX="9" oY="10" oW="128" oH="133" r="y"/>
+	<sprite n="button_grey_pressed" x="323" y="130" w="110" h="111" oX="9" oY="16" oW="128" oH="133" r="y"/>
+	<sprite n="button_info" x="130" y="122" w="73" h="120" oX="4" oY="4" oW="128" oH="79" r="y"/>
+	<sprite n="button_info_pressed" x="337" y="0" w="69" h="120" oX="4" oY="8" oW="128" oH="79" r="y"/>
+	<sprite n="costume_exclamation" x="435" y="0" w="35" h="35"/>
+	<sprite n="costume_options_icon" x="472" y="0" w="35" h="35"/>
+	<sprite n="menu_switch_off" x="0" y="405" w="54" h="107" r="y"/>
+	<sprite n="menu_switch_on" x="56" y="405" w="54" h="107" r="y"/>
+</TextureAtlas>

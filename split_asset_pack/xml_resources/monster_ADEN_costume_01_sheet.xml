@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f4dd6a4e59dbef75d4eeceb6ffda5727:78680d8f916ca1453b1bdecda416798a:3a4e363aa82ea4f6d631df9d0af801ea$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ADEN_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="ADEN_body_front.png" x="3" y="162" w="174" h="144" pX="0.5" pY="0.5"/>
+    <sprite n="ADEN_head.png" x="3" y="3" w="250" h="155" pX="0.5" pY="0.5"/>
+    <sprite n="ADEN_nostril_base_right.png" x="3" y="310" w="117" h="145" pX="0.5" pY="0.5"/>
+    <sprite n="ADEN_observatory.png" x="257" y="3" w="177" h="166" pX="0.5" pY="0.5" oX="14" oY="-91.8"/>
+</TextureAtlas>

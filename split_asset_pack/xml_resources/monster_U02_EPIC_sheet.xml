@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:83ea533bf0cc09c7fbc9e5b34601571a:cdab926aa48bd086aa3b412934e39edc:f8e95da30dc7b11ff77ddb849fabf67c$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U02_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="beam" x="251" y="226" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="glow_spot" x="407" y="730" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U02_arm_segment_1" x="476" y="317" w="34" h="77"/>
+	<sprite n="U02_arm_segment_1_L" x="435" y="581" w="77" h="34" r="y"/>
+	<sprite n="U02_arm_segment_2" x="183" y="577" w="53" h="39"/>
+	<sprite n="U02_arm_segment_3" x="479" y="226" w="24" h="63"/>
+	<sprite n="U02_backbody" x="233" y="661" w="172" h="152" oX="12" oY="9" oW="176" oH="192" r="y"/>
+	<sprite n="U02_big_eyelid1" x="183" y="618" w="48" h="46" oX="8" oY="7" oW="66" oH="61"/>
+	<sprite n="U02_big_eyelid2" x="183" y="666" w="48" h="46" oX="8" oY="7" oW="66" oH="61"/>
+	<sprite n="U02_big_eyelid3" x="151" y="714" w="48" h="46" oX="8" oY="7" oW="66" oH="61"/>
+	<sprite n="U02_big_eyelid4" x="0" y="762" w="44" h="48" oX="8" oY="8" oW="66" oH="61" r="y"/>
+	<sprite n="U02_body_glow" x="251" y="388" w="183" h="163" oX="8" oY="10" oW="180" oH="204" r="y"/>
+	<sprite n="U02_frontbody_epic" x="0" y="821" w="149" h="166" r="y"/>
+	<sprite n="U02_glow_02" x="269" y="0" w="235" h="224" oX="8" oY="5" oW="240" oH="240" r="y"/>
+	<sprite n="U02_glow_03" x="0" y="99" w="249" h="247"/>
+	<sprite n="U02_head_epic" x="0" y="348" w="210" h="144"/>
+	<sprite n="U02_jaw" x="212" y="497" w="37" h="78" oX="10" oY="11" oW="100" oH="60" r="y"/>
+	<sprite n="U02_left_wing" x="251" y="553" w="182" h="106" oX="1" oY="0" oW="112" oH="184" r="y"/>
+	<sprite n="U02_left_wingplate" x="251" y="298" w="223" h="88" oX="9" oY="21" oW="116" oH="252" r="y"/>
+	<sprite n="U02_pupil_big" x="251" y="99" w="15" h="15" oX="1" oY="1" oW="17" oH="17"/>
+	<sprite n="U02_pupil_small" x="251" y="116" w="8" h="8" oX="2" oY="2" oW="12" oH="12"/>
+	<sprite n="U02_right_wing" x="0" y="561" w="181" h="151" oX="2" oY="1" oW="156" oH="184" r="y"/>
+	<sprite n="U02_right_wing_2" x="0" y="494" w="210" h="65"/>
+	<sprite n="U02_right_wing_3" x="212" y="348" w="37" h="147" r="y"/>
+	<sprite n="U02_right_wingplate" x="0" y="0" w="267" h="97" oX="1" oY="1" oW="104" oH="268" r="y"/>
+	<sprite n="U02_right_wingplate_2" x="436" y="396" w="76" h="183" r="y"/>
+	<sprite n="U02_shadow" x="435" y="617" w="57" h="111" oX="8" oY="9" oW="128" oH="76" r="y"/>
+	<sprite n="U02_small_eyelid1" x="494" y="617" w="18" h="22" oX="1" oY="2" oW="20" oH="25"/>
+	<sprite n="U02_small_eyelid2" x="494" y="641" w="18" h="22" oX="1" oY="2" oW="20" oH="25"/>
+	<sprite n="U02_small_eyelid3" x="494" y="665" w="18" h="22" oX="1" oY="2" oW="20" oH="25"/>
+	<sprite n="U02_small_eyelid4" x="494" y="689" w="18" h="21" oX="1" oY="3" oW="20" oH="25"/>
+	<sprite n="U02_spark" x="479" y="291" w="24" h="24" oX="12" oY="12" oW="48" oH="48"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4cbbcbab5bbc1e2797cbf5b12a5605a3:02d941427c27c9af38bb5b6a11f63f10:ac87e2c814dbe599b5ca09af3bae9297$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ADE_costume_09_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="ADE_beret_edge" x="142" y="55" w="81" h="41" pX="0.5277777777777778" pY="2.8253968253968256" oX="13" oY="10" oW="108" oH="63"/>
+	<sprite n="ADE_beret_middle" x="142" y="180" w="40" h="70" pX="0.5277777777777778" pY="2.8253968253968256" oX="18" oY="11" oW="108" oH="63" r="y"/>
+	<sprite n="ADE_body" x="0" y="0" w="120" h="194" pX="0.5" pY="0.5"/>
+	<sprite n="ADE_left_lowerarm" x="0" y="196" w="74" h="54" pX="0.5" pY="0.5"/>
+	<sprite n="ADE_left_upperarm" x="184" y="98" w="66" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="ADE_right_lowerarm" x="76" y="196" w="64" h="51" pX="0.5" pY="0.5"/>
+	<sprite n="ADE_right_upperarm" x="122" y="98" w="34" h="80" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="ADE_rose" x="122" y="0" w="133" h="53" pX="0.5" pY="0.286885" oX="1" oY="4" oW="134" oH="61"/>
+</TextureAtlas>

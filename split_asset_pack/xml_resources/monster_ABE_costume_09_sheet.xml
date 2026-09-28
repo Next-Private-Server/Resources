@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1c336a317272c6c5d20d25499cd86314:cd681e73004e6258b4769a55651e06d3:96f10b9b74da6cfab58c30d7da7a5cba$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_costume_09_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ABE_helmet_01" x="0" y="348" w="127" h="155" pX="0.5125" pY="0.525" oX="16" oY="5" oW="160" oH="160"/>
+	<sprite n="ABE_helmet_02" x="129" y="348" w="123" h="143" pX="0.4625" pY="0.65" oX="8" oY="18" oW="160" oH="160" r="y"/>
+	<sprite n="ABE_ice" x="0" y="0" w="135" h="346" pX="0.5473913043478261" pY="0.325" oX="54" oY="23" oW="460" oH="160" r="y"/>
+	<sprite n="ABE_thumpie_fur" x="137" y="208" w="108" h="112" pX="0.5" pY="0.5" oX="0" oY="0" oW="112" oH="112"/>
+	<sprite n="ABE_treestump" x="137" y="0" w="96" h="206" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

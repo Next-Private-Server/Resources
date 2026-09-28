@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4f244286877baf8b640d9ed3b67f3b6d:313f660b47f6a03694745bee04429509:796c2b1cd7d17f80e75a75c2c7a1a7ee$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I12_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="I12_body" x="389" y="1297" w="84" h="76" oX="2" oY="4" oW="80" oH="88" r="y"/>
+	<sprite n="I12_chin" x="789" y="0" w="235" h="142" oX="0" oY="0" oW="236" oH="142"/>
+	<sprite n="I12_fin_foot" x="709" y="770" w="75" h="66" r="y"/>
+	<sprite n="I12_hair_1" x="733" y="454" w="52" h="99" oX="0" oY="0" oW="99" oH="53" r="y"/>
+	<sprite n="I12_hair_2" x="213" y="761" w="54" h="46"/>
+	<sprite n="I12_hair_3" x="723" y="678" w="61" h="90" r="y"/>
+	<sprite n="I12_hair_4" x="487" y="321" w="34" h="39" r="y"/>
+	<sprite n="I12_hair_5" x="625" y="1242" w="41" h="68" r="y"/>
+	<sprite n="I12_head" x="0" y="1173" w="132" h="111" oX="0" oY="0" oW="111" oH="133" r="y"/>
+	<sprite n="I12_L_eye_1" x="758" y="301" w="27" h="49"/>
+	<sprite n="I12_L_eye_2" x="758" y="352" w="27" h="49"/>
+	<sprite n="I12_L_eye_3" x="758" y="403" w="27" h="49"/>
+	<sprite n="I12_L_eye_4" x="482" y="747" w="27" h="49"/>
+	<sprite n="I12_L_eye_5" x="477" y="798" w="27" h="49"/>
+	<sprite n="I12_L_eye_6" x="477" y="849" w="27" h="49"/>
+	<sprite n="I12_L_foot" x="0" y="1286" w="112" h="80" oX="1" oY="0" oW="114" oH="80"/>
+	<sprite n="I12_L_forearm" x="0" y="1368" w="70" h="20" oX="6" oY="0" oW="82" oH="20"/>
+	<sprite n="I12_L_frill" x="523" y="298" w="233" h="141" oX="3" oY="4" oW="155" oH="245" r="y"/>
+	<sprite n="I12_L_hand_1" x="988" y="640" w="36" h="40" oX="0" oY="0" oW="41" oH="36" r="y"/>
+	<sprite n="I12_L_hand_2" x="487" y="362" w="32" h="40" oX="1" oY="0" oW="41" oH="36" r="y"/>
+	<sprite n="I12_L_hand_3" x="487" y="456" w="29" h="39" oX="2" oY="0" oW="41" oH="36" r="y"/>
+	<sprite n="I12_L_hand_4" x="988" y="682" w="36" h="25" oX="4" oY="0" oW="41" oH="36"/>
+	<sprite n="I12_L_handlebar" x="215" y="496" w="53" h="63" oX="0" oY="0" oW="63" oH="54" r="y"/>
+	<sprite n="I12_L_upperarm" x="668" y="1161" w="19" h="66" r="y"/>
+	<sprite n="I12_leg" x="689" y="1072" w="94" h="63" r="y"/>
+	<sprite n="I12_lower_body" x="261" y="1027" w="174" h="148" oX="2" oY="1" oW="150" oH="179" r="y"/>
+	<sprite n="I12_lower_mouth_1" x="503" y="1062" w="184" h="97" oX="0" oY="9" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_2" x="506" y="852" w="185" h="104" oX="0" oY="6" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_3" x="787" y="592" w="199" h="104" oX="1" oY="5" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_4" x="268" y="924" w="185" h="101" oX="0" oY="4" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_5" x="503" y="958" w="184" h="102" oX="5" oY="2" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_6" x="786" y="803" w="194" h="96" oX="4" oY="6" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_7" x="511" y="750" w="196" h="100" oX="3" oY="3" oW="202" oH="110"/>
+	<sprite n="I12_lower_mouth_8" x="786" y="698" w="196" h="103" oX="3" oY="1" oW="202" oH="110"/>
+	<sprite n="I12_nose" x="198" y="1347" w="44" h="39" oX="4" oY="2" oW="46" oH="50" r="y"/>
+	<sprite n="I12_pupil" x="769" y="271" w="17" h="10" r="y"/>
+	<sprite n="I12_R_eye_1" x="215" y="613" w="53" h="40" oX="0" oY="0" oW="41" oH="53" r="y"/>
+	<sprite n="I12_R_eye_2" x="984" y="709" w="40" h="53" oX="0" oY="0" oW="41" oH="53"/>
+	<sprite n="I12_R_eye_3" x="984" y="764" w="40" h="53" oX="0" oY="0" oW="41" oH="53"/>
+	<sprite n="I12_R_eye_4" x="971" y="1126" w="53" h="40" oX="0" oY="0" oW="41" oH="53" r="y"/>
+	<sprite n="I12_R_eye_5" x="971" y="1168" w="53" h="40" oX="0" oY="0" oW="41" oH="53" r="y"/>
+	<sprite n="I12_R_eye_6" x="207" y="973" w="53" h="40" oX="0" oY="0" oW="41" oH="53" r="y"/>
+	<sprite n="I12_R_foot" x="258" y="1177" w="133" h="85"/>
+	<sprite n="I12_R_forearm" x="668" y="1229" w="19" h="41" oX="0" oY="1" oW="41" oH="20" r="y"/>
+	<sprite n="I12_R_frill" x="0" y="0" w="269" h="184" oX="0" oY="3" oW="187" oH="279" r="y"/>
+	<sprite n="I12_R_hand_1" x="72" y="1368" w="40" h="42" oX="0" oY="0" oW="42" oH="41" r="y"/>
+	<sprite n="I12_R_hand_2" x="475" y="1368" w="40" h="38" oX="0" oY="0" oW="42" oH="41"/>
+	<sprite n="I12_R_hand_3" x="389" y="1375" w="38" h="37" oX="0" oY="0" oW="42" oH="41"/>
+	<sprite n="I12_R_hand_4" x="68" y="1412" w="41" h="38" oX="0" oY="0" oW="42" oH="41"/>
+	<sprite n="I12_R_handlebar" x="222" y="262" w="46" h="76" oX="0" oY="2" oW="76" oH="48" r="y"/>
+	<sprite n="I12_R_leg_texture" x="455" y="1003" w="46" h="61" oX="0" oY="1" oW="46" oH="63"/>
+	<sprite n="I12_R_upperarm" x="455" y="924" w="20" h="77" oX="1" oY="2" oW="22" oH="80"/>
+	<sprite n="I12_shadow" x="0" y="1089" w="151" h="82"/>
+	<sprite n="I12_shell_1" x="270" y="622" w="210" h="152" r="y"/>
+	<sprite n="I12_shell_2" x="777" y="1185" w="178" h="146" r="y"/>
+	<sprite n="I12_shell_3" x="689" y="1255" w="86" h="106"/>
+	<sprite n="I12_shell_4" x="689" y="1255" w="86" h="106"/>
+	<sprite n="I12_shell_5" x="114" y="1347" w="82" h="73" oX="0" oY="0" oW="74" oH="82" r="y"/>
+	<sprite n="I12_shell_6" x="689" y="1006" w="94" h="64" oX="0" oY="0" oW="96" oH="64"/>
+	<sprite n="I12_shell_bg" x="134" y="1265" w="114" h="80"/>
+	<sprite n="I12_top_head" x="499" y="1161" w="167" h="79" oX="0" oY="0" oW="168" oH="94"/>
+	<sprite n="I12_upper_mouth_1" x="207" y="950" w="56" h="21" oX="1" oY="0" oW="68" oH="28"/>
+	<sprite n="I12_upper_mouth_2" x="213" y="655" w="55" h="20" oX="5" oY="1" oW="68" oH="28"/>
+	<sprite n="I12_upper_mouth_3" x="769" y="207" w="17" h="45" oX="6" oY="2" oW="68" oH="28" r="y"/>
+	<sprite n="I12_upper_mouth_4" x="693" y="852" w="14" h="40" oX="7" oY="3" oW="68" oH="28" r="y"/>
+	<sprite n="I12_upper_mouth_5" x="487" y="443" w="31" h="11" oX="9" oY="3" oW="68" oH="28"/>
+	<sprite n="I12_upper_mouth_6" x="437" y="1027" w="10" h="37" oX="8" oY="4" oW="68" oH="28" r="y"/>
+	<sprite n="I12_upper_mouth_7" x="477" y="951" w="24" h="13" oX="12" oY="3" oW="68" oH="28"/>
+	<sprite n="I12_upper_mouth_8" x="769" y="254" w="17" h="15" oX="15" oY="1" oW="68" oH="28" r="y"/>
+	<sprite n="I12_upper_mouth_9" x="769" y="191" w="18" h="14" oX="15" oY="0" oW="68" oH="28" r="y"/>
+	<sprite n="MIN_I12_body_1" x="785" y="901" w="186" h="184" r="y"/>
+	<sprite n="MIN_I12_body_2" x="777" y="1333" w="166" h="138" r="y"/>
+	<sprite n="MIN_I12_body_3" x="693" y="908" w="90" h="96"/>
+	<sprite n="MIN_I12_body_5" x="709" y="838" w="74" h="68"/>
+	<sprite n="MIN_I12_body_6" x="437" y="1132" w="60" h="70" r="y"/>
+	<sprite n="MIN_I12_body_7" x="957" y="1285" w="66" h="64"/>
+	<sprite n="MIN_I12_body_8" x="973" y="1016" w="50" h="58" r="y"/>
+	<sprite n="MIN_I12_bubble_01" x="487" y="404" w="31" h="37" oX="53" oY="17" oW="84" oH="66"/>
+	<sprite n="MIN_I12_bubble_02" x="437" y="1066" w="64" h="64" oX="7" oY="0" oW="84" oH="66"/>
+	<sprite n="MIN_I12_bubble_03" x="957" y="1210" w="66" h="73" oX="0" oY="0" oW="84" oH="66" r="y"/>
+	<sprite n="MIN_I12_bubble_04" x="477" y="900" w="26" h="25" oX="53" oY="21" oW="84" oH="66" r="y"/>
+	<sprite n="MIN_I12_bump_01" x="393" y="1225" w="96" h="70"/>
+	<sprite n="MIN_I12_bump_02" x="733" y="555" w="52" h="82" r="y"/>
+	<sprite n="MIN_I12_bump_03" x="0" y="1414" w="40" h="40"/>
+	<sprite n="MIN_I12_bump_04" x="393" y="1177" w="42" h="46" r="y"/>
+	<sprite n="MIN_I12_bump_05" x="42" y="1414" w="20" h="20"/>
+	<sprite n="MIN_I12_bump_06" x="477" y="966" w="22" h="22"/>
+	<sprite n="MIN_I12_bump_07" x="769" y="149" w="18" h="20"/>
+	<sprite n="MIN_I12_bump_08" x="477" y="927" w="24" h="22" r="y"/>
+	<sprite n="MIN_I12_bump_09" x="769" y="283" w="16" h="16"/>
+	<sprite n="MIN_I12_bump_10" x="437" y="1204" w="16" h="16"/>
+	<sprite n="MIN_I12_bump_11" x="769" y="171" w="18" h="18"/>
+	<sprite n="MIN_I12_dangles" x="218" y="340" w="50" h="154" r="y"/>
+	<sprite n="MIN_I12_eye_L_00" x="483" y="497" w="28" h="48"/>
+	<sprite n="MIN_I12_eye_L_02" x="483" y="547" w="28" h="48"/>
+	<sprite n="MIN_I12_eye_L_03" x="483" y="597" w="28" h="48"/>
+	<sprite n="MIN_I12_eye_L_04" x="482" y="647" w="28" h="48"/>
+	<sprite n="MIN_I12_eye_L_05" x="482" y="697" w="28" h="48"/>
+	<sprite n="MIN_I12_eye_R_00" x="207" y="1015" w="52" h="40" r="y"/>
+	<sprite n="MIN_I12_eye_R_02" x="207" y="1057" w="52" h="40" r="y"/>
+	<sprite n="MIN_I12_eye_R_03" x="153" y="1089" w="52" h="40" r="y"/>
+	<sprite n="MIN_I12_eye_R_04" x="207" y="1099" w="52" h="40" r="y"/>
+	<sprite n="MIN_I12_eye_R_05" x="153" y="1131" w="52" h="40" r="y"/>
+	<sprite n="MIN_I12_Finn" x="491" y="1242" w="132" h="124"/>
+	<sprite n="MIN_I12_foot_L" x="213" y="677" w="54" h="82" r="y"/>
+	<sprite n="MIN_I12_foot_R" x="945" y="1351" w="78" h="120" r="y"/>
+	<sprite n="MIN_I12_hand_finn" x="673" y="1363" w="84" h="78" r="y"/>
+	<sprite n="MIN_I12_hand_finn_socket" x="222" y="186" w="47" h="44" r="y"/>
+	<sprite n="MIN_I12_hand_L_1" x="982" y="882" w="42" h="50" oX="5" oY="34" oW="50" oH="84"/>
+	<sprite n="MIN_I12_hand_L_2" x="222" y="232" w="47" h="28" oX="0" oY="30" oW="50" oH="84"/>
+	<sprite n="MIN_I12_hand_L_3" x="207" y="1141" w="49" h="43" oX="3" oY="7" oW="50" oH="84" r="y"/>
+	<sprite n="MIN_I12_hand_L_4" x="210" y="902" w="56" h="46" oX="4" oY="0" oW="50" oH="84" r="y"/>
+	<sprite n="MIN_I12_hand_R_1" x="973" y="1076" w="50" h="48" oX="14" oY="30" oW="62" oH="80" r="y"/>
+	<sprite n="MIN_I12_hand_R_2" x="723" y="639" w="62" h="37" oX="0" oY="25" oW="62" oH="80"/>
+	<sprite n="MIN_I12_hand_R_3" x="982" y="819" w="42" h="61" oX="1" oY="9" oW="62" oH="80" r="y"/>
+	<sprite n="MIN_I12_hand_R_4" x="215" y="561" w="53" h="50" oX="9" oY="0" oW="62" oH="80"/>
+	<sprite n="MIN_I12_Head" x="257" y="1264" w="130" h="110" r="y"/>
+	<sprite n="MIN_I12_jaw" x="271" y="149" w="250" h="170"/>
+	<sprite n="MIN_I12_lower_Head" x="785" y="1087" w="184" h="96"/>
+	<sprite n="MIN_I12_lowerarm_L" x="625" y="1358" w="46" h="42"/>
+	<sprite n="MIN_I12_lowerarm_R" x="988" y="592" w="36" h="46" r="y"/>
+	<sprite n="MIN_I12_lowerleg_L" x="210" y="809" w="56" h="91" oX="0" oY="0" oW="56" oH="92"/>
+	<sprite n="MIN_I12_lowerleg_R" x="689" y="1137" w="86" h="116"/>
+	<sprite n="MIN_I12_mouth_01" x="0" y="483" w="213" h="146" oX="51" oY="18" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_02" x="0" y="780" w="208" h="147" oX="51" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_03" x="269" y="776" w="206" h="146" oX="53" oY="17" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_05" x="513" y="601" w="208" h="147" oX="55" oY="17" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_06" x="270" y="471" w="211" h="149" oX="53" oY="15" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_07" x="520" y="441" w="211" h="158" oX="53" oY="13" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_09" x="0" y="929" w="205" h="158" oX="54" oY="6" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_10" x="0" y="631" w="211" h="147" oX="47" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_11" x="0" y="186" w="220" h="147" oX="38" oY="17" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_12" x="789" y="144" w="234" h="148" oX="24" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_13" x="523" y="149" w="244" h="147" oX="20" oY="17" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_14" x="531" y="0" w="256" h="147" oX="8" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_15" x="271" y="0" w="258" h="147" oX="2" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_16" x="787" y="294" w="237" h="147" oX="23" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_17" x="787" y="443" w="228" h="147" oX="30" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_18" x="0" y="335" w="216" h="146" oX="43" oY="17" oW="264" oH="178"/>
+	<sprite n="MIN_I12_mouth_19" x="270" y="321" w="215" h="148" oX="49" oY="16" oW="264" oH="178"/>
+	<sprite n="MIN_I12_nose" x="625" y="1312" w="48" h="44" r="y"/>
+	<sprite n="MIN_I12_upperarm" x="0" y="1390" w="66" h="22" r="y"/>
+	<sprite n="MIN_I12_upperleg_L" x="973" y="934" w="50" h="80" r="y"/>
+	<sprite n="MIN_I12_upperleg_R" x="134" y="1186" w="121" h="77"/>
+</TextureAtlas>

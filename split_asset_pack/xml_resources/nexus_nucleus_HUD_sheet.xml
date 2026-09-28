@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bd8f066cfa3019dbb146beeab9958c5b:ff02ea1360b150e3dff53947dd0ffaa9:242f6194b7b927de37f7a2014b10a8b7$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/nucleus/nexus_nucleus_HUD_sheet.png" width="512" height="512">
+    <sprite n="diamondfill_common_01" x="2" y="414" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_common_02" x="112" y="414" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_common_03" x="222" y="105" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_common_04" x="332" y="105" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_epic_01" x="143" y="183" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_epic_02" x="143" y="261" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_epic_03" x="222" y="339" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_epic_04" x="222" y="417" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_rare_01" x="332" y="183" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_rare_02" x="253" y="261" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_rare_03" x="363" y="261" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="diamondfill_rare_04" x="332" y="339" w="108" h="76" oX="16" oY="8" oW="139" oH="101"/>
+    <sprite n="frame_01" x="2" y="2" w="139" h="101"/>
+    <sprite n="frame_02" x="143" y="2" w="139" h="101"/>
+    <sprite n="frame_03" x="284" y="2" w="139" h="101"/>
+    <sprite n="frame_04" x="2" y="105" w="139" h="101"/>
+    <sprite n="frame_black" x="2" y="208" w="139" h="101"/>
+    <sprite n="frame_glow" x="2" y="311" w="139" h="101"/>
+</TextureAtlas>

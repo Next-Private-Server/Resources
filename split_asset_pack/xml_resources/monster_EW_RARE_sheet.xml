@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fcc6ee673ef910e11ec47cc98cdbef24:67d82056156a8e470ed0a5a2d9980daf:bc5866ebb12efa9653a539485fcfc864$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_EW_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="EW_back_hand_01" x="337" y="461" w="38" h="46" oX="0" oY="0" oW="55" oH="40" r="y" />
+  <sprite n="EW_back_hand_02" x="230" y="221" w="48" h="39" oX="0" oY="0" oW="55" oH="40" />
+  <sprite n="EW_back_hand_03" x="249" y="411" w="38" h="52" oX="0" oY="0" oW="55" oH="40" r="y" />
+  <sprite n="EW_back_hand_04" x="229" y="264" w="38" h="54" oX="0" oY="0" oW="55" oH="40" r="y" />
+  <sprite n="EW_back_hand_05" x="246" y="468" w="38" h="44" oX="0" oY="0" oW="55" oH="40" r="y" />
+  <sprite n="EW_body_RARE" x="125" y="175" w="103" h="87" oX="0" oY="1" oW="104" oH="88" />
+  <sprite n="EW_bulb_glow" x="232" y="0" w="202" h="202" />
+  <sprite n="EW_bulb_RARE" x="0" y="121" w="123" h="120" oX="1" oY="0" oW="124" oH="124" r="y" />
+  <sprite n="EW_eye" x="205" y="384" w="25" h="25" />
+  <sprite n="EW_eye_RARE" x="282" y="320" w="20" h="20" />
+  <sprite n="EW_eyelid_01" x="99" y="297" w="28" h="29" />
+  <sprite n="EW_eyelid_02" x="123" y="264" w="28" h="29" />
+  <sprite n="EW_eyelid_03" x="129" y="295" w="28" h="29" />
+  <sprite n="EW_eyelid_04" x="153" y="264" w="28" h="29" />
+  <sprite n="EW_filament_01_RARE" x="0" y="424" w="78" h="87" oX="0" oY="1" oW="80" oH="88" />
+  <sprite n="EW_filament_02_RARE" x="80" y="420" w="78" h="87" oX="0" oY="1" oW="80" oH="88" />
+  <sprite n="EW_front_hand_01" x="289" y="409" w="48" h="50" oX="2" oY="0" oW="53" oH="56" r="y" />
+  <sprite n="EW_front_hand_02" x="230" y="320" w="50" h="52" oX="1" oY="0" oW="53" oH="56" r="y" />
+  <sprite n="EW_front_hand_03" x="195" y="413" w="52" h="53" oX="0" oY="0" oW="53" oH="56" />
+  <sprite n="EW_front_hand_04" x="177" y="326" w="51" h="56" oX="0" oY="0" oW="53" oH="56" />
+  <sprite n="EW_front_hand_05" x="286" y="465" w="49" h="46" oX="3" oY="0" oW="53" oH="56" />
+  <sprite n="EW_front_hand_06" x="195" y="468" w="49" h="44" oX="3" oY="0" oW="53" oH="56" />
+  <sprite n="EW_head" x="0" y="243" w="97" h="84" oX="0" oY="8" oW="97" oH="101" />
+  <sprite n="EW_left_back_lowerleg" x="436" y="191" w="57" h="27" r="y" />
+  <sprite n="EW_left_back_upperleg" x="183" y="264" w="44" h="55" />
+  <sprite n="EW_left_front_lowerleg" x="436" y="0" w="76" h="52" />
+  <sprite n="EW_left_front_upperleg" x="34" y="329" w="41" h="89" />
+  <sprite n="EW_left_middle_hand_01_RARE" x="495" y="191" w="17" h="28" oX="5" oY="1" oW="22" oH="30" />
+  <sprite n="EW_left_middle_hand_02_RARE" x="280" y="221" w="17" h="25" oX="5" oY="1" oW="22" oH="30" />
+  <sprite n="EW_left_middle_hand_03_RARE" x="288" y="296" w="18" h="20" oX="4" oY="1" oW="22" oH="30" />
+  <sprite n="EW_left_middle_hand_04_RARE" x="298" y="364" w="19" h="19" oX="3" oY="1" oW="22" oH="30" />
+  <sprite n="EW_left_middle_hand_05_RARE" x="282" y="342" w="17" h="20" oX="2" oY="1" oW="22" oH="30" r="y" />
+  <sprite n="EW_left_middle_lowerleg" x="160" y="416" w="33" h="86" />
+  <sprite n="EW_left_middle_upperleg" x="119" y="328" w="56" h="86" r="y" />
+  <sprite n="EW_left_tooth" x="269" y="296" w="17" h="22" oX="1" oY="1" oW="19" oH="25" />
+  <sprite n="EW_left_tooth_RARE" x="269" y="262" w="20" h="32" />
+  <sprite n="EW_pupil_RARE" x="301" y="342" w="16" h="17" oX="0" oY="0" oW="16" oH="18" />
+  <sprite n="EW_right_back_lowerleg" x="436" y="96" w="65" h="36" r="y" />
+  <sprite n="EW_right_back_upperleg_RARE" x="436" y="134" w="63" h="55" oX="1" oY="1" oW="64" oH="56" />
+  <sprite n="EW_right_front_lowerleg" x="436" y="54" w="70" h="40" r="y" />
+  <sprite n="EW_right_front_upperleg" x="0" y="329" w="32" h="93" />
+  <sprite n="EW_right_middle_hand_01_RARE" x="275" y="374" w="21" h="33" oX="3" oY="2" oW="32" oH="38" />
+  <sprite n="EW_right_middle_hand_02_RARE" x="232" y="374" w="20" h="35" oX="3" oY="1" oW="32" oH="38" />
+  <sprite n="EW_right_middle_hand_03_RARE" x="254" y="374" w="19" h="34" oX="5" oY="2" oW="32" oH="38" />
+  <sprite n="EW_right_middle_hand_04_RARE" x="159" y="295" w="22" h="29" oX="6" oY="2" oW="32" oH="38" />
+  <sprite n="EW_right_middle_hand_05_RARE" x="177" y="384" w="26" h="27" oX="6" oY="0" oW="32" oH="38" />
+  <sprite n="EW_right_middle_lowerleg" x="125" y="121" w="105" h="52" />
+  <sprite n="EW_right_middle_upperleg" x="77" y="329" w="40" h="89" />
+  <sprite n="EW_right_tooth" x="99" y="243" w="23" h="18" oX="0" oY="2" oW="18" oH="28" r="y" />
+  <sprite n="EW_right_tooth_RARE" x="99" y="263" w="22" h="32" />
+  <sprite n="EW_shadow" x="0" y="0" w="230" h="119" />
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/Minigames/MinigameTutorial.lua"/>
+	
+	<template type="template_how_it_works_dialog" name="Dialog">
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$avatarSprite" equals="'gfx/menu/minigames/minigame_alcordion_01'" />
+		<templateVar name="$avatarName" equals="MONSTER_Z10" />
+		<templateVar name="$isClubbox" equals="0" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+</menu>

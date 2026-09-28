@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fec290a236e7d117c37005387fa4f283:bcc00a2d2bfd66fa28053762309842fe:ed82c9031dc78139b640bb0a0e9a3a40$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island16_sheet01_clover.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="bottom_head" x="1291" y="695" w="732" h="228"/>
+	<sprite n="centre_platform" x="411" y="1361" w="484" h="643" oX="0" oY="3" oW="644" oH="488" r="y"/>
+	<sprite n="coin_shine" x="0" y="2029" w="18" h="18" oX="1" oY="1" oW="20" oH="20"/>
+	<sprite n="ear" x="503" y="0" w="299" h="1194" oX="7" oY="3" oW="308" oH="1200"/>
+	<sprite n="ear_back" x="503" y="1196" w="786" h="128" oX="169" oY="212" oW="308" oH="1200" r="y"/>
+	<sprite n="extra_lump" x="1093" y="880" w="169" h="210"/>
+	<sprite n="feathers_01" x="1291" y="0" w="750" h="693" r="y"/>
+	<sprite n="feathers_02" x="804" y="0" w="485" h="359" oX="7" oY="2" oW="492" oH="364"/>
+	<sprite n="feathers_03" x="1663" y="925" w="341" h="458" oX="270" oY="0" oW="728" oH="344" r="y"/>
+	<sprite n="feathers_04" x="1312" y="925" w="330" h="395" oX="2" oY="3" oW="400" oH="336" r="y"/>
+	<sprite n="feathers_05" x="897" y="1326" w="764" h="633" oX="2" oY="3" oW="768" oH="640"/>
+	<sprite n="glow_orange" x="804" y="880" w="287" h="290"/>
+	<sprite n="mushroom_blue" x="946" y="1961" w="56" h="65"/>
+	<sprite n="mushroom_blue_glow" x="1173" y="1092" w="70" h="73" r="y"/>
+	<sprite n="mushroom_red" x="897" y="1961" w="47" h="69" r="y"/>
+	<sprite n="mushroom_red_glow" x="1093" y="1092" w="78" h="89" r="y"/>
+	<sprite n="mushroom_yellow" x="411" y="2006" w="54" h="37"/>
+	<sprite n="mushroom_yellow_glow" x="1245" y="1092" w="65" h="73" r="y"/>
+	<sprite n="side_head" x="0" y="0" w="501" h="1359"/>
+	<sprite n="side_lumps" x="804" y="361" w="472" h="517" oX="2" oY="3" oW="476" oH="524"/>
+	<sprite n="side_platform" x="0" y="1361" w="409" h="666" oX="3" oY="1" oW="672" oH="412" r="y"/>
+</TextureAtlas>

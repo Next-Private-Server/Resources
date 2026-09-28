@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1779f2dbdb7e955a3a69e6d77c0d42c5:5a7c6f3ffd25cc38eb72a5f67388e065:68ee6454ea27bc995f22d79ef4192e92$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_plasma_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="obstacle_rock01_plasma" x="0" y="322" w="116" h="150" r="y"/>
+	<sprite n="obstacle_tree01_plasma" x="0" y="0" w="164" h="320"/>
+</TextureAtlas>

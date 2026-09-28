@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:35cf558b63c06c3bedf08d7ea54bc3ab:36a4cb59da57fcbdc771639b843c235d:5a4420be62656ebed50c32fda97715e6$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-03_monster_DN_EPIC_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="DN_adult_big_anglefin_1_EPIC" x="132" y="196" w="146" h="41" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="DN_adult_body_Epic" x="241" y="0" w="146" h="178" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="DN_adult_eye_left_EPIC" x="389" y="158" w="103" h="102" pX="0.8125" pY="0.544643" oX="5" oY="4" oW="112" oH="112" r="y"/>
+	<sprite n="DN_adult_helmet_b_EPIC" x="381" y="262" w="78" h="40" pX="-1.7" pY="0.025" oX="0" oY="1" oW="40" oH="80" r="y"/>
+	<sprite n="DN_adult_helmet_EPIC" x="0" y="243" w="211" h="229" pX="0.5166666666666667" pY="0.4732142857142857" oX="6" oY="7" oW="240" oH="224" r="y"/>
+	<sprite n="DN_adult_left_fin_EPIC" x="0" y="0" w="130" h="241" pX="0.9375" pY="0.594378" oX="7" oY="4" oW="144" oH="249"/>
+	<sprite n="DN_adult_left_foot_EPIC" x="389" y="0" w="112" h="80" pX="0.247321" pY="0.11125"/>
+	<sprite n="DN_adult_lowerleg_EPIC" x="213" y="239" w="48" h="68" pX="0.604167" pY="0.945588"/>
+	<sprite n="DN_adult_lowerleg_EPIC_right" x="213" y="309" w="46" h="68" pX="0.5" pY="0.905882" oX="0" oY="0" oW="48" oH="68"/>
+	<sprite n="DN_adult_right_fin_EPIC" x="132" y="0" w="107" h="194" pX="0.392857" pY="0.591346" oX="3" oY="1" oW="112" oH="208"/>
+	<sprite n="DN_adult_right_foot_EPIC" x="389" y="82" w="104" h="74" pX="0.223214" pY="0.2475" oX="4" oY="2" oW="112" oH="80"/>
+	<sprite n="DN_adult_small_anglefin_1_Epic" x="0" y="474" w="91" h="33" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="DN_adult_topfin_EPIC" x="280" y="180" w="99" h="153" pX="0.783929" pY="1.36832" oX="6" oY="4" oW="112" oH="161"/>
+</TextureAtlas>

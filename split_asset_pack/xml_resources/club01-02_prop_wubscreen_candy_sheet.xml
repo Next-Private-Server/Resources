@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e6d67be3fdcf6d3c93bfeff6b458432c:eaf342e273abf996bda521e30fe9f4b9:6786c85c3d164bee2d0a67c59b2f55f2$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_wubscreen_candy_sheet.png" width="2048" height="512" hires="true" version="1">
+	<sprite n="candy_01" x="0" y="0" w="843" h="288" oX="33" oY="58" oW="931" oH="416">
+		<vertices>876 121 876 235 810 342 113 346 33 190 83 75 632 73 810 58</vertices>
+		<verticesUV>843 63 843 177 777 284 80 288 0 132 50 17 599 15 777 0</verticesUV>
+		<triangles>3 5 6 1 2 6 3 4 5 2 3 6 1 6 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="candy_02" x="845" y="0" w="683" h="269" oX="45" oY="75" oW="931" oH="416">
+		<vertices>595 76 629 140 728 135 728 216 657 342 149 344 82 288 45 203 62 109 183 75</vertices>
+		<verticesUV>1395 1 1429 65 1528 60 1528 141 1457 267 949 269 882 213 845 128 862 34 983 0</verticesUV>
+		<triangles>7 8 9 6 7 9 5 6 9 1 4 5 1 3 4 1 2 3 1 5 9 0 1 9</triangles>
+	</sprite>
+	<sprite n="candy_03" x="1826" y="0" w="222" h="184" oX="586" oY="102" oW="931" oH="416">
+		<vertices>808 123 808 286 685 286 610 217 586 102</vertices>
+		<verticesUV>2048 21 2048 184 1925 184 1850 115 1826 0</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+</TextureAtlas>

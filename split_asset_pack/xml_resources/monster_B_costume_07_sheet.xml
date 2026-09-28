@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:faaa587b2c3b0cb6e175b6a73f5f1f81:b236d10e0b4b08229558b80e1b51a2a4:3bd3b1e31dbebfb6bd1391ffcf5d5926$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_B_costume_07_sheet.png" width="512" height="512" hires="true" version="1">
+    <sprite n="B_flower" x="164" y="444" w="54" h="54" pX="1.225" pY="1.7333333333333334" oX="4" oY="6" oW="60" oH="60"/>
+    <sprite n="B_foam_head_OL" x="0" y="0" w="243" h="266" pX="0.396875" pY="0.5630000000000001" oX="5" oY="23" oW="256" oH="300"/>
+    <sprite n="B_foam_head_UL" x="274" y="0" w="134" h="131" pX="0.396875" pY="0.5630000000000001" oX="87" oY="133" oW="256" oH="300"/>
+    <sprite n="B_foam_leaves" x="410" y="0" w="80" h="78" pX="0.7275" pY="0.5425" oX="2" oY="0" oW="80" oH="80" r="y"/>
+    <sprite n="B_pot_leaves" x="164" y="268" w="108" h="174" pX="0.47701149425287354" pY="1.7962962962962963" r="y"/>
+    <sprite n="B_roots" x="0" y="268" w="162" h="220" pX="0.4782608695652174" pY="0.7168674698795181" oX="5" oY="0" oW="230" oH="166" r="y"/>
+</TextureAtlas>

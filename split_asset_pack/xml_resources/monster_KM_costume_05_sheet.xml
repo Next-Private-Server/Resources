@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c61a534b197275271fa5b7bd42a27876:82fcf40b6fca0d49a2f32fe20873eed7:31a3a2abfc904d18c5bba9bc65f53188$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_KM_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="KM_antenna" x="105" y="126" w="70" h="52" pX="0.5" pY="0.5" oX="11" oY="17" oW="64" oH="88" r="y"/>
+	<sprite n="KM_body_A" x="165" y="0" w="110" h="117" pX="0.5" pY="0.5" oX="1" oY="0" oW="120" oH="120"/>
+	<sprite n="KM_body_B" x="186" y="179" w="90" h="106" pX="0.722222" pY="0.57" oX="1" oY="0" oW="108" oH="100" r="y"/>
+	<sprite n="KM_body_C" x="230" y="346" w="80" h="96" pX="0.5" pY="0.5" oX="0" oY="2" oW="80" oH="100"/>
+	<sprite n="KM_cymbal" x="0" y="355" w="73" h="144" pX="0.5" pY="0.5" oX="0" oY="2" oW="144" oH="76" r="y"/>
+	<sprite n="KM_eyelids_01" x="221" y="119" w="99" h="39" pX="0.5" pY="0.5" oX="2" oY="0" oW="104" oH="40"/>
+	<sprite n="KM_eyelids_02" x="189" y="353" w="39" h="99" pX="0.5" pY="0.5" oX="2" oY="0" oW="104" oH="40" r="y"/>
+	<sprite n="KM_eyelids_03" x="225" y="305" w="99" h="39" pX="0.5" pY="0.5" oX="2" oY="0" oW="104" oH="40"/>
+	<sprite n="KM_eyelids_04" x="189" y="454" w="99" h="39" pX="0.5" pY="0.5" oX="2" oY="0" oW="104" oH="40"/>
+	<sprite n="KM_foot" x="177" y="119" w="42" h="58" pX="0.5" pY="0.5" oX="31" oY="2" oW="120" oH="72" r="y"/>
+	<sprite n="KM_head" x="0" y="183" w="101" h="170" pX="0.5" pY="0.5" oX="2" oY="0" oW="172" oH="104" r="y"/>
+	<sprite n="KM_lower_leg" x="103" y="307" w="120" h="44" pX="0.5" pY="0.5"/>
+	<sprite n="KM_mouth_01" x="125" y="0" w="38" h="123" pX="0.492308" pY="0.5" oX="5" oY="4" oW="130" oH="50" r="y"/>
+	<sprite n="KM_mouth_02" x="85" y="0" w="38" h="124" pX="0.492308" pY="0.5" oX="4" oY="4" oW="130" oH="50" r="y"/>
+	<sprite n="KM_mouth_03" x="75" y="355" w="42" h="124" pX="0.5" pY="0.5" oX="4" oY="4" oW="130" oH="50" r="y"/>
+	<sprite n="KM_mouth_04" x="103" y="182" w="41" h="123" pX="0.492308" pY="0.5" oX="5" oY="4" oW="130" oH="50" r="y"/>
+	<sprite n="KM_neck_A" x="277" y="0" w="66" h="106" pX="0.5" pY="0.5" oX="13" oY="56" oW="84" oH="168"/>
+	<sprite n="KM_neck_B" x="0" y="0" w="83" h="181" pX="0.5" pY="0.5" oX="1" oY="3" oW="84" oH="184"/>
+	<sprite n="KM_tail_A" x="119" y="353" w="68" h="99" pX="0.5" pY="0.5" oX="0" oY="2" oW="68" oH="104"/>
+	<sprite n="KM_tail_B" x="75" y="481" w="69" h="26" pX="0.5" pY="0.5" oX="1" oY="1" oW="28" oH="72" r="y"/>
+	<sprite n="KM_tail_C" x="119" y="454" w="68" h="24" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="KM_tail_D" x="186" y="287" w="48" h="16" pX="0.5" pY="0.5" oX="2" oY="2" oW="20" oH="52" r="y"/>
+	<sprite n="KM_tail_E" x="85" y="126" w="18" h="54" pX="0.5" pY="0.5" oX="1" oY="0" oW="20" oH="56"/>
+	<sprite n="KM_upper_leg" x="146" y="180" w="38" h="110" pX="0.5" pY="0.5" oX="5" oY="2" oW="120" oH="40" r="y"/>
+</TextureAtlas>

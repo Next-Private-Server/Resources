@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c9cdd23ff6e6b82b55ffdd9bd72c09bf:7085fc335b14f0cda311a44cb260dfac:78ca41e4dd194d5db8f6e7f11a8d44cd$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BEW_costume_01_sheet.png" width="1024" height="1024" hires="true">
+    <sprite n="BEW_body.png" x="97" y="874" w="81" h="104"/>
+    <sprite n="BEW_body_glow.png" x="431" y="633" w="69" h="96" oX="8" oY="0" oW="81" oH="104"/>
+    <sprite n="BEW_eyelid_A_01.png" x="319" y="979" w="27" h="28" oX="1" oY="1" oW="29" oH="28" r="y"/>
+    <sprite n="BEW_eyelid_A_02.png" x="206" y="979" w="28" h="29" r="y"/>
+    <sprite n="BEW_eyelid_A_03.png" x="259" y="979" w="28" h="28" oX="1" oY="0" oW="29" oH="28"/>
+    <sprite n="BEW_eyelid_A_04.png" x="289" y="979" w="28" h="28" oX="1" oY="0" oW="29" oH="28"/>
+    <sprite n="BEW_eyelid_B_01.png" x="461" y="871" w="16" h="17" oX="0" oY="3" oW="17" oH="19" r="y"/>
+    <sprite n="BEW_eyelid_B_02.png" x="450" y="808" w="17" h="19"/>
+    <sprite n="BEW_eyelid_B_03.png" x="450" y="829" w="17" h="19"/>
+    <sprite n="BEW_eyelid_B_04.png" x="450" y="850" w="17" h="19"/>
+    <sprite n="BEW_eyelid_C_01.png" x="230" y="1010" w="14" h="11" oX="0" oY="3" oW="14" oH="14"/>
+    <sprite n="BEW_eyelid_C_02.png" x="461" y="890" w="14" h="14"/>
+    <sprite n="BEW_eyelid_C_03.png" x="461" y="906" w="14" h="14"/>
+    <sprite n="BEW_eyelid_C_04.png" x="461" y="922" w="14" h="14"/>
+    <sprite n="BEW_eyelid_D_01.png" x="246" y="1010" w="14" h="11" oX="0" oY="2" oW="14" oH="13"/>
+    <sprite n="BEW_eyelid_D_02.png" x="262" y="1009" w="14" h="13"/>
+    <sprite n="BEW_eyelid_D_03.png" x="278" y="1009" w="14" h="13"/>
+    <sprite n="BEW_eyelid_D_04.png" x="294" y="1009" w="14" h="13"/>
+    <sprite n="BEW_eyelid_E_01.png" x="206" y="1010" w="22" h="12" oX="0" oY="6" oW="22" oH="18"/>
+    <sprite n="BEW_eyelid_E_02.png" x="468" y="994" w="16" h="22" oX="0" oY="2" oW="22" oH="18" r="y"/>
+    <sprite n="BEW_eyelid_E_03.png" x="442" y="946" w="18" h="22" r="y"/>
+    <sprite n="BEW_eyelid_E_04.png" x="449" y="970" w="18" h="22" r="y"/>
+    <sprite n="BEW_eyelid_F_01.png" x="173" y="1013" w="15" h="6" oX="0" oY="4" oW="15" oH="10"/>
+    <sprite n="BEW_eyelid_F_02.png" x="122" y="1013" w="15" h="9" oX="0" oY="1" oW="15" oH="10"/>
+    <sprite n="BEW_eyelid_F_03.png" x="139" y="1013" w="15" h="9" oX="0" oY="1" oW="15" oH="10"/>
+    <sprite n="BEW_eyelid_F_04.png" x="156" y="1013" w="15" h="9" oX="0" oY="1" oW="15" oH="10"/>
+    <sprite n="BEW_eyelid_G_01.png" x="429" y="979" w="18" h="28" oX="0" oY="7" oW="28" oH="25" r="y"/>
+    <sprite n="BEW_eyelid_G_02.png" x="348" y="979" w="25" h="28" r="y"/>
+    <sprite n="BEW_eyelid_G_03.png" x="375" y="979" w="25" h="28" r="y"/>
+    <sprite n="BEW_eyelid_G_04.png" x="402" y="979" w="25" h="28" r="y"/>
+    <sprite n="BEW_foot.png" x="449" y="994" w="17" h="22" r="y"/>
+    <sprite n="BEW_frame_01.png" x="180" y="874" w="260" h="103" oX="-16.6" oY="23.4" oW="260" oH="110"/>
+    <sprite n="BEW_frame_02_back.png" x="2" y="438" w="427" h="434" oX="-61" oY="-77.2" oW="440" oH="440" r="y"/>
+    <sprite n="BEW_frame_02_front.png" x="2" y="2" w="434" h="434" oX="-61" oY="-80.2" oW="440" oH="440"/>
+    <sprite n="BEW_frame_03_.png" x="431" y="438" w="177" h="193" oX="-68.6" oY="28.6" oW="180" oH="200"/>
+    <sprite n="BEW_hand.png" x="236" y="979" w="21" h="29" r="y"/>
+    <sprite n="BEW_hand_glow_A.png" x="86" y="983" w="34" h="34" oX="4" oY="-6.8" oW="40" oH="40"/>
+    <sprite n="BEW_hand_glow_B.png" x="86" y="983" w="34" h="34" oX="2" oY="-6.8" oW="40" oH="40"/>
+    <sprite n="BEW_hand_glow_C.png" x="86" y="983" w="34" h="34" oX="8" oY="-6.8" oW="40" oH="40"/>
+    <sprite n="BEW_hand_glow_D.png" x="86" y="983" w="34" h="34" oX="2.4" oY="-6.6" oW="40" oH="40"/>
+    <sprite n="BEW_head.png" x="431" y="731" w="69" h="75"/>
+    <sprite n="BEW_lower_arm.png" x="122" y="980" w="82" h="31"/>
+    <sprite n="BEW_lower_leg.png" x="2" y="983" w="82" h="38" r="y"/>
+    <sprite n="BEW_upper_arm.png" x="442" y="874" w="17" h="70" r="y"/>
+    <sprite n="BEW_upper_leg.png" x="431" y="808" w="17" h="64"/>
+    <sprite n="BEW_wire.png" x="2" y="874" w="93" h="107" oX="-29.6" oY="63.8" oW="100" oH="110"/>
+</TextureAtlas>

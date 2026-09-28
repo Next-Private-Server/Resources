@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:34051f3748f4ff2afb587a4f1a58b439:ff98afaf34f67434a9b57c8dabfe4ec0:4af873db14153b81ff5278459b1a49c0$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_backcorner_metro_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="baseboard_glow" x="415" y="0" w="80" h="80"/>
+	<sprite n="Lightpanel" x="0" y="0" w="413" h="390" r="y"/>
+	<sprite n="lightpanel_glow" x="0" y="392" w="328" h="201" oX="109" oY="0" oW="390" oH="413" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8c19f138e2288935729a2351601dc9e5:998dcac8779d2a1255f58a71c855042f:9a8e3f681776d1c086def977179eeaee$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_backwall_drift_sheet.png" width="128" height="1024" hires="true" version="1">
+	<sprite n="bg_shutter_center" x="0" y="525" w="51" h="496" oX="12" oY="7" oW="520" oH="65" r="y"/>
+	<sprite n="bg_shutter_divider" x="57" y="0" w="13" h="191" oX="2" oY="5" oW="18" oH="200"/>
+	<sprite n="bg_shutter_side" x="0" y="0" w="55" h="523" oX="3" oY="4" oW="528" oH="60" r="y"/>
+</TextureAtlas>

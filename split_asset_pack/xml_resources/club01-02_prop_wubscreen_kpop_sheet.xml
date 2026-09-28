@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:874f452ee3f7d1ee93f76c3d7b509233:0405c6c22276314a23593e7ed2b7ff66:8009fe98ae7d3b1645eb712ebf370ee8$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_wubscreen_kpop_sheet.png" width="1024" height="512" hires="true" version="1">
+	<sprite n="performer_Hoola" x="659" y="0" w="162" h="262" oX="543" oY="80" oW="931" oH="416">
+		<vertices>705 342 543 342 543 80 705 80</vertices>
+		<verticesUV>821 262 659 262 659 0 821 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="performer_Pompom" x="495" y="0" w="162" h="262" oX="383" oY="80" oW="931" oH="416">
+		<vertices>545 342 383 342 383 80 545 80</vertices>
+		<verticesUV>657 262 495 262 495 0 657 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="performer_Rooba" x="0" y="0" w="164" h="291" oX="61" oY="79" oW="931" oH="416">
+		<vertices>225 80 225 370 110 321 61 249 63 79</vertices>
+		<verticesUV>164 1 164 291 49 242 0 170 2 0</verticesUV>
+		<triangles>0 1 2 0 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="performer_Sooza" x="331" y="0" w="162" h="262" oX="223" oY="80" oW="931" oH="416">
+		<vertices>385 342 223 342 223 80 385 80</vertices>
+		<verticesUV>493 262 331 262 331 0 493 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="performer_Tootoo" x="166" y="0" w="163" h="276" oX="702" oY="80" oW="931" oH="416">
+		<vertices>865 272 791 336 702 356 703 80 865 80</vertices>
+		<verticesUV>329 192 255 256 166 276 167 0 329 0</verticesUV>
+		<triangles>0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

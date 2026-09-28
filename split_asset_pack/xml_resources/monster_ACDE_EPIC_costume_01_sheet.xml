@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3d5a392f61d9b33cfd75091ef40e2ea9:a3a9a9da398139f6d4836951fdff2ae9:bdbb740f29df45b7fa271e161447b4b7$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACDE_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="ACDE_arrow_end" x="262" y="377" w="96" h="84" pX="1.44048" pY="-1.125" r="y"/>
+	<sprite n="ACDE_guitarbody_EPIC" x="0" y="0" w="260" h="512" pX="0.473485" pY="0.722656"/>
+	<sprite n="ACDE_helmet_back_EPIC" x="429" y="104" w="76" h="116" pX="1.4078947368421053" pY="2.543103448275862"/>
+	<sprite n="ACDE_helmet_EPIC" x="262" y="0" w="165" h="122" pX="0.6" pY="2.03871" oX="11" oY="0" oW="176" oH="124"/>
+	<sprite n="ACDE_helmet_top_EPIC" x="380" y="309" w="102" h="72" pX="0.4640277777777777" pY="3.1750961538461535" oX="0" oY="1" oW="72" oH="104" r="y"/>
+	<sprite n="ACDE_left_lowerarm_EPIC" x="262" y="124" w="154" h="145" pX="0.435897" pY="0.209459" oX="0" oY="0" oW="156" oH="148"/>
+	<sprite n="ACDE_right_hand_1_RARE" x="429" y="0" w="78" h="102" pX="0.5" pY="0.5" oX="0" oY="12" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_hand_2_RARE" x="360" y="383" w="87" h="95" pX="0.5" pY="0.5" oX="7" oY="3" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_hand_3_RARE" x="418" y="222" w="90" h="85" pX="0.5" pY="0.5" oX="17" oY="0" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_lowerarm_EPIC" x="262" y="271" w="116" h="104" pX="0.368966" pY="-0.115385"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:00ead43413af2bcd4878913d6e6a4a24:b2f13bc3b9700db13dde02a6462caaad:4b6002958f62f939c38af0e11395a6df$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_backcorner_drift_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="backwall_glow" x="719" y="209" w="281" h="324" oX="0" oY="0" oW="332" oH="324"/>
+	<sprite n="backwall_neon" x="0" y="0" w="717" h="317" oX="219" oY="0" oW="936" oH="447"/>
+	<sprite n="backwall_neon_glow" x="0" y="319" w="711" h="310" oX="225" oY="0" oW="936" oH="447"/>
+	<sprite n="bg_neon_01" x="0" y="631" w="119" h="67" oX="0" oY="0" oW="332" oH="324" r="y"/>
+	<sprite n="bg_neon_02" x="0" y="859" w="49" h="144" oX="0" oY="76" oW="332" oH="324"/>
+	<sprite n="bg_neon_03" x="719" y="0" w="294" h="207" oX="68" oY="0" oW="332" oH="324" r="y"/>
+	<sprite n="bg_neon_04" x="713" y="535" w="267" h="171" oX="90" oY="0" oW="332" oH="324" r="y"/>
+	<sprite n="bg_neon_05" x="51" y="859" w="82" h="116" oX="142" oY="0" oW="332" oH="324"/>
+	<sprite n="bg_neon_06" x="0" y="708" w="83" h="149" oX="116" oY="83" oW="332" oH="324"/>
+</TextureAtlas>

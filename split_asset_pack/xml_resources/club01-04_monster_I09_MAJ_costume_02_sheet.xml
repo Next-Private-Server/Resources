@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:494ab9f5771083ca9cde2c7a7dbecf96:9123c1bc8a0b11374810458ddde16a15:1bb59d670620a72d66567c30ea473c3e$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-04_monster_I09_MAJ_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="MAJ_arm" x="212" y="0" w="206" h="203" pX="0.5" pY="0.5" oX="22" oY="24" oW="252" oH="251"/>
+	<sprite n="MAJ_face" x="205" y="328" w="112" h="124" pX="0.45161290322580644" pY="0.6875" r="y"/>
+	<sprite n="MAJ_faceback" x="313" y="205" w="95" h="121" pX="0.5" pY="0.5" oX="23" oY="89" oW="150" oH="203" r="y"/>
+	<sprite n="MAJ_hat_back" x="185" y="467" w="126" h="34" pX="0.5078125" pY="0.5" oX="1" oY="29" oW="128" oH="64"/>
+	<sprite n="MAJ_hat_front" x="420" y="133" w="62" h="126" pX="0.5078125" pY="0.5" oX="1" oY="1" oW="128" oH="64" r="y"/>
+	<sprite n="MAJ_joint" x="0" y="205" w="33" h="33" pX="0.5" pY="0.5"/>
+	<sprite n="MAJ_lowerleg" x="420" y="0" w="83" h="131" pX="0.5" pY="0.5" oX="18" oY="27" oW="119" oH="187"/>
+	<sprite n="MAJ_palm" x="0" y="0" w="210" h="203" pX="0.5" pY="0.5" oX="22" oY="24" oW="252" oH="251"/>
+	<sprite n="MAJ_stache" x="45" y="467" w="138" h="41" pX="0.5785714285714286" pY="0.06818181818181818" oX="1" oY="1" oW="140" oH="44"/>
+	<sprite n="MAJ_upperleg" x="0" y="467" w="43" h="43" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="44"/>
+	<sprite n="MIN_arm_l" x="0" y="261" w="203" h="204" pX="0.5" pY="0.5" oX="24" oY="25" oW="252" oH="252" r="y"/>
+	<sprite n="MIN_knee" x="484" y="133" w="20" h="20" pX="0.5" pY="0.5"/>
+</TextureAtlas>

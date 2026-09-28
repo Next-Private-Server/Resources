@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:965d54f4eb0d85b9251f0985d619f934:23efca82aabe12fb07d24f9267834248:c28ab27ffa7ef5d74cdb4f5a9dc82539$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_waveform_water_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="anchor" x="0" y="345" w="102" h="123" r="y"/>
+	<sprite n="boat" x="151" y="231" w="115" h="134" r="y"/>
+	<sprite n="boat_glow" x="268" y="231" w="114" h="85" r="y"/>
+	<sprite n="boat_glow_02" x="397" y="327" w="47" h="74" oX="9" oY="0" oW="56" oH="76"/>
+	<sprite n="castle" x="268" y="327" w="127" h="95"/>
+	<sprite n="castle_glow" x="140" y="367" w="62" h="119" oX="10" oY="0" oW="72" oH="119"/>
+	<sprite n="castle_glow_02" x="397" y="403" w="73" h="50" r="y"/>
+	<sprite n="chest_bottom" x="472" y="398" w="39" h="49" r="y"/>
+	<sprite n="chest_top" x="368" y="455" w="53" h="44"/>
+	<sprite n="fish" x="407" y="183" w="101" h="142"/>
+	<sprite n="fish_blue" x="472" y="449" w="25" h="32" oX="4" oY="3" oW="41" oH="31" r="y"/>
+	<sprite n="fish_glow" x="0" y="231" w="149" h="112" r="y"/>
+	<sprite n="fish_glow_02" x="204" y="367" w="48" h="92" oX="5" oY="23" oW="58" oH="115"/>
+	<sprite n="fish_green" x="104" y="466" w="29" h="32" oX="4" oY="4" oW="40" oH="37" r="y"/>
+	<sprite n="fish_red" x="86" y="470" w="14" h="29" oX="2" oY="0" oW="33" oH="14" r="y"/>
+	<sprite n="fish_small" x="501" y="0" w="11" h="18" oX="2" oY="0" oW="22" oH="12" r="y"/>
+	<sprite n="glow_sparkle" x="204" y="461" w="29" h="29" oX="5" oY="2" oW="36" oH="33"/>
+	<sprite n="ring" x="104" y="431" w="32" h="33"/>
+	<sprite n="stage" x="0" y="0" w="405" h="229"/>
+	<sprite n="stage_water_01" x="104" y="345" w="34" h="84" r="y"/>
+	<sprite n="stage_water_02" x="446" y="327" w="44" h="69" r="y"/>
+	<sprite n="stage_water_03" x="0" y="470" w="84" h="34"/>
+	<sprite n="stage_water_04" x="254" y="424" w="68" h="44"/>
+	<sprite n="stage_water_05" x="324" y="424" w="42" h="66" r="y"/>
+	<sprite n="stage_water_06" x="407" y="0" w="92" h="181" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c37043eb5eda4cfc0432d8f2ef61a202:4448b5ca9254511ce92b4d8804200de9:78c0b036cea6d062221296e3d83a105c$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_BCDEN_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="BCDEN_canopy_A" x="824" y="134" w="155" h="45" oX="1" oY="2" oW="48" oH="160" r="y"/>
+	<sprite n="BCDEN_canopy_B" x="302" y="0" w="181" h="60" oX="2" oY="1" oW="64" oH="184" r="y"/>
+	<sprite n="BCDEN_canopy_C" x="482" y="109" w="152" h="84" oX="4" oY="4" oW="92" oH="160" r="y"/>
+	<sprite n="BCDEN_canopy_D" x="666" y="52" w="156" h="82" oX="3" oY="2" oW="88" oH="160" r="y"/>
+	<sprite n="BCDEN_canopy_E" x="665" y="136" w="151" h="57" oX="1" oY="4" oW="60" oH="160" r="y"/>
+	<sprite n="BCDEN_canopy_F" x="818" y="181" w="151" h="47" oX="4" oY="4" oW="56" oH="160" r="y"/>
+	<sprite n="BCDEN_finger" x="636" y="149" w="21" h="52" oX="1" oY="1" oW="24" oH="56"/>
+	<sprite n="BCDEN_foot_left" x="482" y="195" w="127" h="84" oX="6" oY="0" oW="140" oH="86"/>
+	<sprite n="BCDEN_foot_right" x="657" y="362" w="121" h="77" oX="1" oY="1" oW="124" oH="80"/>
+	<sprite n="BCDEN_hand_01" x="240" y="348" w="55" h="42" oX="3" oY="2" oW="48" oH="60" r="y"/>
+	<sprite n="BCDEN_hand_02" x="593" y="407" w="54" h="41" oX="4" oY="3" oW="48" oH="60" r="y"/>
+	<sprite n="BCDEN_hand_03" x="240" y="392" w="55" h="41" oX="5" oY="3" oW="48" oH="60" r="y"/>
+	<sprite n="BCDEN_head_left" x="659" y="238" w="126" h="122" oX="6" oY="9" oW="140" oH="140"/>
+	<sprite n="BCDEN_head_right" x="912" y="384" w="112" h="121" oX="9" oY="14" oW="140" oH="140" r="y"/>
+	<sprite n="BCDEN_left_eyeball" x="570" y="626" w="36" h="33" oX="1" oY="2" oW="36" oH="40" r="y"/>
+	<sprite n="BCDEN_lefteye_01" x="987" y="0" w="37" h="40" oX="1" oY="0" oW="40" oH="40"/>
+	<sprite n="BCDEN_lefteye_02" x="987" y="42" w="37" h="40" oX="1" oY="0" oW="40" oH="40"/>
+	<sprite n="BCDEN_lefteye_03" x="987" y="84" w="37" h="40" oX="1" oY="0" oW="40" oH="40"/>
+	<sprite n="BCDEN_lefteye_04" x="987" y="126" w="37" h="40" oX="1" oY="0" oW="40" oH="40"/>
+	<sprite n="BCDEN_lowerarm_A" x="811" y="230" w="149" h="42" oX="2" oY="4" oW="48" oH="156" r="y"/>
+	<sprite n="BCDEN_lowerarm_B" x="659" y="195" w="150" h="41" oX="3" oY="3" oW="48" oH="156" r="y"/>
+	<sprite n="BCDEN_lowerleg_left" x="302" y="62" w="178" h="104" oX="8" oY="5" oW="120" oH="188" r="y"/>
+	<sprite n="BCDEN_lowerleg_right" x="485" y="0" w="179" h="107" oX="4" oY="5" oW="120" oH="188" r="y"/>
+	<sprite n="BCDEN_mouth_bottomleft_01" x="649" y="441" w="109" h="81" oX="21" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_02" x="112" y="681" w="107" h="84" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_03" x="466" y="472" w="107" h="95" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_04" x="0" y="689" w="106" h="98" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_05" x="275" y="569" w="107" h="87" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_06" x="760" y="454" w="106" h="88" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_07" x="114" y="591" w="110" h="88" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_08" x="912" y="507" w="106" h="87" oX="20" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_09" x="0" y="248" w="119" h="90" oX="18" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_10" x="0" y="426" w="113" h="84" oX="18" oY="3" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_11" x="962" y="258" w="62" h="124" oX="2" oY="4" oW="140" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomleft_12" x="482" y="327" w="124" h="56" oX="16" oY="4" oW="140" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomleft_13" x="787" y="274" w="123" h="66" oX="19" oY="4" oW="140" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomleft_14" x="121" y="248" w="118" h="81" oX="19" oY="4" oW="140" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomleft_15" x="619" y="606" w="105" h="95" oX="20" oY="3" oW="140" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomright_01" x="121" y="331" w="117" h="77" oX="5" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_02" x="0" y="340" w="116" h="84" oX="6" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_03" x="0" y="512" w="112" h="91" oX="10" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_04" x="289" y="472" w="110" h="95" oX="12" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_05" x="297" y="383" w="113" h="87" oX="9" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_06" x="479" y="385" w="112" h="85" oX="10" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_07" x="0" y="605" w="110" h="82" oX="12" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_08" x="300" y="298" w="114" h="83" oX="8" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_09" x="115" y="497" w="112" h="92" oX="10" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_10" x="118" y="410" w="113" h="85" oX="9" oY="4" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_bottomright_11" x="482" y="281" w="127" h="44" oX="83" oY="3" oW="132" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomright_12" x="787" y="342" w="123" h="47" oX="75" oY="3" oW="132" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomright_13" x="780" y="391" w="120" h="61" oX="61" oY="4" oW="132" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomright_14" x="639" y="524" w="106" h="80" oX="41" oY="5" oW="132" oH="132" r="y"/>
+	<sprite n="BCDEN_mouth_bottomright_15" x="747" y="544" w="105" h="99" oX="17" oY="5" oW="132" oH="132"/>
+	<sprite n="BCDEN_mouth_upperleft_01" x="593" y="450" w="44" h="83" oX="6" oY="5" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperleft_02" x="229" y="521" w="44" h="88" oX="5" oY="5" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperleft_03" x="445" y="259" w="35" h="82" oX="6" oY="5" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperleft_04" x="446" y="569" w="83" h="33" oX="6" oY="5" oW="100" oH="112"/>
+	<sprite n="BCDEN_mouth_upperleft_05" x="988" y="596" w="36" h="80" oX="6" oY="5" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperleft_06" x="226" y="611" w="43" h="85" oX="6" oY="5" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperleft_07" x="401" y="523" w="43" h="87" oX="6" oY="5" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperleft_10" x="726" y="686" w="89" h="41" oX="6" oY="4" oW="100" oH="112"/>
+	<sprite n="BCDEN_mouth_upperleft_11" x="868" y="454" w="42" h="101" oX="3" oY="6" oW="100" oH="112"/>
+	<sprite n="BCDEN_mouth_upperleft_12" x="912" y="274" w="48" h="95" oX="6" oY="6" oW="100" oH="112"/>
+	<sprite n="BCDEN_mouth_upperleft_13" x="416" y="343" w="61" h="85" oX="6" oY="6" oW="100" oH="112"/>
+	<sprite n="BCDEN_mouth_upperleft_14" x="446" y="604" w="80" h="72" oX="6" oY="6" oW="100" oH="112"/>
+	<sprite n="BCDEN_mouth_upperleft_15" x="233" y="435" w="54" h="84" oX="6" oY="6" oW="100" oH="112" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_01" x="854" y="557" w="42" h="90" oX="15" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_02" x="726" y="645" w="92" h="39" oX="13" oY="8" oW="120" oH="120"/>
+	<sprite n="BCDEN_mouth_upperright_03" x="446" y="168" w="34" h="89" oX="16" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_04" x="820" y="645" w="30" h="87" oX="18" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_05" x="852" y="649" w="41" h="88" oX="18" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_06" x="611" y="203" w="46" h="88" oX="17" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_07" x="981" y="168" w="43" h="88" oX="17" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_10" x="575" y="535" w="42" h="89" oX="16" oY="6" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_11" x="611" y="293" w="44" h="112" oX="67" oY="8" oW="120" oH="120"/>
+	<sprite n="BCDEN_mouth_upperright_12" x="241" y="248" w="57" h="98" oX="48" oY="8" oW="120" oH="120"/>
+	<sprite n="BCDEN_mouth_upperright_13" x="898" y="596" w="88" h="79" oX="28" oY="8" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_mouth_upperright_14" x="895" y="677" w="85" h="71" oX="19" oY="8" oW="120" oH="120"/>
+	<sprite n="BCDEN_mouth_upperright_15" x="412" y="430" w="52" h="91" oX="14" oY="7" oW="120" oH="120" r="y"/>
+	<sprite n="BCDEN_pupil" x="971" y="181" w="8" h="16" oX="2" oY="0" oW="12" oH="16"/>
+	<sprite n="BCDEN_right_eyeball" x="528" y="643" w="35" h="30" oX="3" oY="2" oW="36" oH="40" r="y"/>
+	<sprite n="BCDEN_righteye_01" x="982" y="678" w="40" h="35" oX="3" oY="0" oW="40" oH="40" r="y"/>
+	<sprite n="BCDEN_righteye_02" x="982" y="715" w="40" h="35" oX="3" oY="0" oW="40" oH="40" r="y"/>
+	<sprite n="BCDEN_righteye_03" x="531" y="569" w="40" h="35" oX="3" oY="0" oW="40" oH="40" r="y"/>
+	<sprite n="BCDEN_righteye_04" x="528" y="606" w="40" h="35" oX="3" oY="0" oW="40" oH="40" r="y"/>
+	<sprite n="BCDEN_shadow" x="302" y="221" w="141" h="75" oX="4" oY="2" oW="150" oH="80"/>
+	<sprite n="BCDEN_thumb" x="636" y="109" w="27" h="38" oX="2" oY="2" oW="40" oH="32" r="y"/>
+	<sprite n="BCDEN_torso" x="0" y="0" w="300" h="246" oX="5" oY="5" oW="308" oH="260"/>
+	<sprite n="BCDEN_upperarm" x="302" y="168" w="142" h="51" oX="2" oY="5" oW="56" oH="152" r="y"/>
+	<sprite n="BCDEN_upperleg" x="666" y="0" w="159" h="50" oX="3" oY="2" oW="56" oH="164" r="y"/>
+	<sprite n="spore_BCDEN" x="827" y="0" w="158" h="132" oX="7" oY="25" oW="172" oH="172"/>
+</TextureAtlas>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:810bb6ac336c3965f89760f82c4da6a4:55d8416dda316a54ddfa23914ea057bf:5f500812a6cecf1506832eae655ddfeb$ -->
+<TextureAtlas imagePath="gfx/fugue/menu_fugue_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="cloud_01" x="911" y="476" w="80" h="80"/>
+	<sprite n="cloud_02" x="402" y="830" w="120" h="118" oX="0" oY="1" oW="120" oH="120"/>
+	<sprite n="cloud_03" x="911" y="582" w="76" h="74" oX="0" oY="1" oW="76" oH="76"/>
+	<sprite n="dot" x="911" y="718" w="33" h="33"/>
+	<sprite n="fugue_abyss" x="632" y="0" w="384" h="180"/>
+	<sprite n="fugue_abyss2" x="632" y="182" w="384" h="180"/>
+	<sprite n="fugue_base_back" x="632" y="364" w="372" h="110"/>
+	<sprite n="fugue_base_front" x="0" y="487" w="431" h="134"/>
+	<sprite n="fugue_finger_01" x="911" y="558" w="78" h="22" oX="7" oY="6" oW="91" oH="33"/>
+	<sprite n="fugue_fingertip" x="911" y="658" w="64" h="22" oX="4" oY="7" oW="76" oH="35"/>
+	<sprite n="fugue_frame_back" x="0" y="0" w="630" h="242" oX="4" oY="10" oW="250" oH="650" r="y"/>
+	<sprite n="fugue_frame_front" x="0" y="244" w="630" h="241" oX="4" oY="10" oW="250" oH="650" r="y"/>
+	<sprite n="fugue_limb_01" x="957" y="682" w="34" h="255" oX="12" oY="7" oW="278" oH="52" r="y"/>
+	<sprite n="fugue_limb_03" x="993" y="476" w="30" h="209" oX="8" oY="8" oW="225" oH="48" r="y"/>
+	<sprite n="fugue_mirror" x="632" y="476" w="277" h="400"/>
+	<sprite n="fugue_mirror_light" x="433" y="487" w="139" h="200"/>
+	<sprite n="fugue_mirror_rimlight" x="402" y="689" w="200" h="139" r="y"/>
+	<sprite n="fugue_palm" x="911" y="682" w="44" h="34" oX="4" oY="7" oW="52" oH="47"/>
+	<sprite n="mirror" x="0" y="623" w="400" h="277" r="y"/>
+	<sprite n="reflection_MAJ" x="0" y="902" w="400" h="277" r="y"/>
+	<sprite n="reflection_MIN" x="524" y="878" w="400" h="277" r="y"/>
+</TextureAtlas>

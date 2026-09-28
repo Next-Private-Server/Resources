@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<template type="template_how_it_works_dialog" name="Dialog">
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$avatarSprite" equals="'gfx/menu/minigames/minigame_alcordion_01'" />
+		<templateVar name="$avatarName" equals="MONSTER_Z10" />
+		<templateVar name="$isClubbox" equals="0" />
+		<templateVar name="$leftAnimationName" equals="'xml_bin/dipster_placement_info.bin'" />
+		<templateVar name="$leftAnimation" equals="dipster_placement_info_01" />
+		<templateVar name="$centerAnimationName" equals="'xml_bin/dipster_placement_info.bin'" />
+		<templateVar name="$centerAnimation" equals="dipster_placement_info_02" />
+		<templateVar name="$rightAnimationName" equals="'xml_bin/dipster_placement_info.bin'" />
+		<templateVar name="$rightAnimation" equals="dipster_placement_info_03" />
+		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<event name="onInit" params="component, element">
+		<![CDATA[
+			component:E("Dialog").onAllDialogsCompleted = function(e)
+				game.getLocalSettings():set("dipster_placement_info", "true")
+				component:root():popPopUp()
+			end
+		]]>
+	</event>
+
+	<event name="onPostInit" params="component, element">
+		<![CDATA[
+			component:E("Dialog"):Setup({
+				{
+					Avatar = "",
+					Dialog = "DIPSTER_PLACEMENT_STEP_1",
+					HowToState = HowItWorksDialog.HOW_TO_STATE.FIRST_PANEL
+				},
+				{
+					Avatar = "",
+					Dialog = "DIPSTER_PLACEMENT_STEP_2",
+					HowToState = HowItWorksDialog.HOW_TO_STATE.SECOND_PANEL
+				},
+				{
+					Avatar = "",
+					Dialog = "DIPSTER_PLACEMENT_STEP_3",
+					HowToState = HowItWorksDialog.HOW_TO_STATE.THIRD_PANEL
+				},
+				{
+					Avatar = "gfx/menu/minigames/minigame_alcordion_02",
+					Dialog = "DIPSTER_PLACEMENT_STEP_4",
+					HowToState = HowItWorksDialog.HOW_TO_STATE.NONE
+				}
+			})
+		]]>
+	</event>
+</menu>

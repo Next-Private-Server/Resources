@@ -1,0 +1,62 @@
+<template name="template_zapTab" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<event name="selectTab" params="element">
+		--[[change priorities when tabs are selected to bring the selected tab to the front]]
+		element:setOrientationPriority(-1)
+		local palette = include("ColourPalette")
+		element["Sprite"]:setColor(palette:getRGBFloats(palette.TAB_SPRITE_SELECTED))
+		element["Text"]:setColor(palette:getRGBFloats(palette.TAB_TEXT_GREEN_SELECTED))
+	</event>
+	<event name="deselectTab" params="element">
+		--[[change priorities when tabs are selected to push the selected tab to the back]]
+		element:setOrientationPriority(1)
+		local palette = include("ColourPalette")
+		element["Sprite"]:setColor(palette:getRGBFloats(palette.TAB_SPRITE_DESELECTED))
+		element["Text"]:setColor(palette:getRGBFloats(palette.TAB_TEXT_GREEN_DESELECTED))
+	</event>
+	<ninesliceComponent name="Sprite">
+		<size w="116.48*game.menuScaleX()" h="35*game.menuScaleX()" />
+		<event name="onInit" params="component, element">
+			component("topHeight"):SetFloat(10.0)
+			component("bottomHeight"):SetFloat(10.0)
+			component("leftWidth"):SetFloat(77.0)
+			component("rightWidth"):SetFloat(77.0)
+			component("size"):SetFloat(0.35*game.menuScaleX())
+			local palette = include("ColourPalette")
+			component:setColor(palette:getRGBFloats(palette.TAB_SPRITE_SELECTED))
+			component("includeBorder"):SetInt(1)
+			component("spriteName"):SetString("gfx/menu/tab02")
+			component("layer"):SetString("MidPopUps")
+		</event>
+	</ninesliceComponent>
+	<textComponent name="Text">
+		<size w="80*game.menuScaleX()"/>
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTitleFont())
+			component("size"):SetFloat(0.25*game.hudScale())
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component("text"):SetString(element("text"):GetString())
+			local palette = include("ColourPalette")
+			component:setColor(palette:getRGBFloats(palette.TAB_TEXT_GREEN_SELECTED))
+			component("autoScaleFactor"):SetFloat(0.01)
+			component("autoScale"):SetInt(1)
+			component("layer"):SetString("MidPopUps")
+		</event>
+	</textComponent>
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onTouchUp" params="component, element">
+			--assumption: "filter" exists in the level above
+			if(element:parent()("filter"):GetInt() ~= element("ID"):GetInt()) then
+				element:parent()("filter"):SetInt(element("ID"):GetInt())
+				element:parent():DoStoredScript("selectNewTab")
+			end
+		</event>
+	</touchComponent>
+</template>

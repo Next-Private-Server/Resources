@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:36fc56d70bc2692c89a1af5d3e28cedb:82179d006d05092f8b7fad22659193f9:b2cb9bf1d40f5368f75f9b7405e06b79$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_P06_costume_03_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="P06_backtentacle_A" x="282" y="100" w="60" h="60" pX="0.7" pY="0.266667"/>
+	<sprite n="P06_backtentacle_B" x="185" y="0" w="50" h="80" pX="0.825" pY="0.68" r="y"/>
+	<sprite n="P06_backtentacle_C" x="364" y="0" w="80" h="46" pX="0.652174" pY="0.2" r="y"/>
+	<sprite n="P06_backtentacle_D" x="282" y="162" w="50" h="48" pX="0.72" pY="0.28" oX="2" oY="0" oW="50" oH="50" r="y"/>
+	<sprite n="P06_body" x="0" y="0" w="183" h="192" pX="0.490385" pY="0.711538" oX="9" oY="8" oW="208" oH="208"/>
+	<sprite n="P06_body_fin" x="119" y="446" w="89" h="65" pX="0.0882353" pY="0.468085" oX="1" oY="2" oW="68" oH="94" r="y"/>
+	<sprite n="P06_body_inside" x="0" y="194" w="72" h="171" pX="0.5" pY="0.5625" oX="0" oY="0" oW="176" oH="80" r="y"/>
+	<sprite n="P06_fin_left" x="179" y="396" w="94" h="48" pX="0.633333" pY="0.1" oX="6" oY="3" oW="60" oH="100" r="y"/>
+	<sprite n="P06_fin_right" x="179" y="298" w="84" h="96" pX="0.133333" pY="0.109091" oX="3" oY="9" oW="90" oH="110"/>
+	<sprite n="P06_gloworb" x="442" y="72" w="67" h="67" pX="0.5" pY="0.5" oX="1" oY="1" oW="70" oH="70"/>
+	<sprite n="P06_hand_1" x="210" y="446" w="70" h="64" pX="0.848485" pY="0.594595" oX="0" oY="0" oW="66" oH="74" r="y"/>
+	<sprite n="P06_hand_2" x="446" y="0" w="64" h="70" pX="0.848485" pY="0.594595" oX="0" oY="0" oW="66" oH="74"/>
+	<sprite n="P06_hand_3" x="359" y="96" w="71" h="63" pX="0.848485" pY="0.594595" oX="0" oY="0" oW="66" oH="74" r="y"/>
+	<sprite n="P06_head_dome" x="74" y="194" w="102" h="146" pX="0.5" pY="0.5" oX="2" oY="2" oW="150" oH="106" r="y"/>
+	<sprite n="P06_mouth_1" x="0" y="367" w="58" h="108" pX="0.5" pY="0.5" oX="2" oY="12" oW="110" oH="80" r="y"/>
+	<sprite n="P06_mouth_2" x="119" y="342" w="58" h="102" pX="0.5" pY="0.5" oX="2" oY="8" oW="110" oH="80" r="y"/>
+	<sprite n="P06_mouth_3" x="178" y="194" w="57" h="102" pX="0.5" pY="0.5" oX="2" oY="7" oW="110" oH="80" r="y"/>
+	<sprite n="P06_mouth_4" x="60" y="367" w="57" h="103" pX="0.5" pY="0.5" oX="2" oY="3" oW="110" oH="80" r="y"/>
+	<sprite n="P06_tentacle_A" x="432" y="141" w="60" h="60" pX="0.7" pY="0.266667"/>
+	<sprite n="P06_tentacle_A_DARKER" x="344" y="161" w="60" h="59" pX="0.7" pY="0.266667" oX="0" oY="1" oW="60" oH="60"/>
+	<sprite n="P06_tentacle_B" x="185" y="82" w="50" h="80" pX="0.825" pY="0.68" r="y"/>
+	<sprite n="P06_tentacle_B_DARKER" x="282" y="0" w="80" h="50" pX="0.825" pY="0.68"/>
+	<sprite n="P06_tentacle_C" x="364" y="48" w="76" h="46" pX="0.652174" pY="0.2" oX="0" oY="3" oW="46" oH="80" r="y"/>
+	<sprite n="P06_tentacle_C_DARKER" x="282" y="52" w="75" h="46" pX="0.652174" pY="0.2" oX="0" oY="4" oW="46" oH="80" r="y"/>
+	<sprite n="P06_tentacle_D" x="282" y="212" w="49" h="48" pX="0.72" pY="0.28" oX="2" oY="0" oW="50" oH="50" r="y"/>
+	<sprite n="P06_tentacle_D_DARKER" x="406" y="203" w="49" h="48" pX="0.72" pY="0.28" oX="2" oY="0" oW="50" oH="50" r="y"/>
+</TextureAtlas>

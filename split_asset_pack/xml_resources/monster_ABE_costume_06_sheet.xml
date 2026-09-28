@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2f0a0208c4c5a62aaba3c47283ebce62:bb3d937b9f67fc641cd269438c267f4d:67ff91e50c17d7d38171e978f93d51e3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ABE_costume_06_sheet.png" width="256" height="512" hires="true">
+    <sprite n="ABE_fur_eyeback" x="3" y="331" w="87" h="45" pX="0.5" pY="0.5" oX="0" oY="3" oW="88" oH="48"/>
+    <sprite n="ABE_fur_eyelids_1" x="131" y="331" w="86" h="45" pX="0.5" pY="0.5" oX="0" oY="3" oW="88" oH="48"/>
+    <sprite n="ABE_fur_eyelids_2" x="3" y="415" w="45" h="86" pX="0.5" pY="0.5" oX="0" oY="3" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_fur_eyeshape" x="52" y="415" w="42" h="76" pX="0.5" pY="0.5" oX="6" oY="9" r="y"/>
+    <sprite n="ABE_fur_glasses" x="3" y="221" w="99" h="56" pX="0.5" pY="0.5" oX="-44.8" oY="-30.8"/>
+    <sprite n="ABE_fur_mouth_1" x="95" y="324" w="32" h="38" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_fur_mouth_2" x="221" y="331" w="30" h="38" pX="0.5" pY="0.5" oX="0" oY="2" oW="38" oH="32" r="y"/>
+    <sprite n="ABE_fur_mouth_3" x="221" y="373" w="26" h="38" pX="0.5" pY="0.5" oX="0" oY="3" oW="38" oH="32" r="y"/>
+    <sprite n="ABE_fur_mouth_4" x="106" y="221" w="25" h="24" pX="0.5" pY="0.5" oX="9" oY="5" oW="38" oH="32" r="y"/>
+    <sprite n="ABE_fur_nose" x="139" y="75" w="12" h="16" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_left_mushroom_top" x="3" y="151" w="128" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_pink_eyeback" x="157" y="3" w="88" h="46" pX="0.5" pY="0.5" oX="0" oY="1" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyelids_1" x="157" y="53" w="88" h="46" pX="0.5" pY="0.5" oX="0" oY="1" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyelids_2" x="3" y="281" w="88" h="46" pX="0.5" pY="0.5" oX="0" oY="1" oW="88" oH="48"/>
+    <sprite n="ABE_pink_eyeshape" x="106" y="249" w="19" h="71" pX="0.5" pY="0.5" oX="9" oY="23" oW="88" oH="48" r="y"/>
+    <sprite n="ABE_pink_nose" x="3" y="380" w="12" h="16" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="ABE_pink_paci" x="98" y="415" w="52" h="57" pX="0.5" pY="0.5" oX="-21" oY="12" r="y"/>
+    <sprite n="ABE_pupil" x="52" y="495" w="12" h="12" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_pupil_gooie" x="3" y="400" w="10" h="10" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_right_mushroom_top" x="3" y="75" w="132" h="72" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_thumpie_fur" x="139" y="103" w="112" h="112" pX="0.5" pY="0.5"/>
+    <sprite n="ABE_thumpie_pink" x="135" y="219" w="111" h="108" pX="0.5" pY="0.5" oX="2" oY="0" oW="112" oH="112" r="y"/>
+    <sprite n="ABE_treestump_top" x="3" y="3" w="150" h="68" pX="0.5" pY="0.5"/>
+</TextureAtlas>

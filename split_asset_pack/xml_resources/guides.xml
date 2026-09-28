@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1bccbbe12f74a97c0f969f883e0f1949:fe7f3db23a62205885e92099e39394e0:b1b31bd65644c9e38cfd39c42b769289$ -->
+<TextureAtlas imagePath="gfx/menu/guides.png" width="512" height="512" hires="false" version="1">
+	<sprite n="guide_equal" x="216" y="430" w="49" h="49" oX="3" oY="3" oW="56" oH="56"/>
+	<sprite n="guide_no" x="0" y="430" w="76" h="76"/>
+	<sprite n="guide_plus" x="165" y="430" w="49" h="53" oX="3" oY="1" oW="56" oH="56"/>
+	<sprite n="guide_spotlight" x="0" y="0" w="340" h="428"/>
+	<sprite n="guide_swap" x="78" y="430" w="85" h="74" oX="7" oY="1" oW="88" oH="88" r="y"/>
+</TextureAtlas>

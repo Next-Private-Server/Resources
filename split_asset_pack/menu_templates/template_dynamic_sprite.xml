@@ -1,0 +1,13 @@
+<template name="template_dynamic_sprite" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/DynamicSprite.lua"/>
+
+	<defaultTemplateVar name="$layer" equals="FrontPopUps" />
+	<defaultTemplateVar name="$targetSize" equals="100" />
+	<defaultTemplateVar name="$sizeMode" equals="max" /> <!--width, height, min, max -->
+	<defaultTemplateVar name="$spriteName" equals="'coin'" />
+	<defaultTemplateVar name="$sheetName" equals="'xml_resources/hud01.xml'" />
+
+	<size w="element:templateVars().targetSize" h="element:templateVars().targetSize" />
+
+</template>

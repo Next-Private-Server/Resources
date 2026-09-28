@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<script src="scripts/ClubboxWorldInfo.lua"/>
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.5" />
+		<templateVar name="$layer" equals="PopUps" />
+		<templateVar name="$priority" equals="10" />
+	</template>
+	
+	<element name="InfoFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="9" />
+		<ninesliceComponent name="Sprite">
+			<size w="218*game.windowScaleY()" h="160*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</ninesliceComponent>
+	</element>
+	
+	<element name="InfoContent">
+		<size w="180*game.windowScaleY()" h="142*game.windowScaleY()" />
+		<position relativeTo="InfoFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+		</touchComponent>
+		<swipeComponent name="Swiper"/>
+		<textComponent name="Text">
+			<size w="168*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component:setColor(0.9, 0.9, 0.9)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("CLUBBOX_INFO_DESC")
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>			
+		</textComponent>
+	</element>
+		
+
+	<element name="ScrollBar">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="InfoContent" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("scroll_bar_01")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("layer"):SetString("PopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="ScrollMarker">
+		<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
+		<position relativeTo="ScrollBar" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="5*game.windowScaleY()" priorityOffset="-1" />
+		<spriteSheetComponent name="Marker">
+			<event name="onInit" params="component, element">
+				component("useOffsets"):SetInt(1)
+				component("spriteName"):SetString("scroll_bar_dot")
+				component("sheetName"):SetString("xml_resources/buttons01.xml")
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("layer"):SetString("ContextBar")
+				element.originalYOffset = element:V("yOffset"):GetInt()
+			</event>
+		</spriteSheetComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+
+	<template type="template_panel_decorated" name="ImageFrame">
+		<templateVar name="$layer" equals="PopUps" />
+		<size w="105*game.windowScaleY()" h="160*game.windowScaleY()" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="lua_sys.screenWidth()" yOffset="-37*game.windowScaleY()" priorityOffset="9" />
+		<event name="onInit" params="element"/>
+		<event name="onDoneHide" params="element"/>
+	</template>
+	
+	<element name="Animation">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="ImageFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-10*game.windowScaleY()" priorityOffset="-3" />
+		<aeComponent name="Sprite"/>
+	</element>
+	
+	<element name="ImageTitle">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="ImageFrame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="10*game.windowScaleY()" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="85*game.windowScaleY()" h="30*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("multiline"):SetInt(0)
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("size"):SetFloat(0.3*game.windowScaleY())
+					component("font"):Set(game.getTextFont())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString("CLUBBOX_INFO_TITLE")
+					component("layer"):SetString("PopUps")
+				]]>
+			</event>
+		</textComponent>
+	</element>
+	
+
+
+</menu>

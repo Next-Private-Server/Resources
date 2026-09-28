@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9da2eeedf64133561cf044a7e8b7068b:c0fb7da5eba7054f0a24183771decea7:c46136b2e50d59827e4a0c3e6b7e0640$ -->
+<TextureAtlas imagePath="gfx/menu/collect_reward_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="cloud" x="0" y="325" w="312" h="307" oX="2" oY="0" oW="312" oH="312" r="y"/>
+	<sprite n="glow" x="0" y="0" w="324" h="323" oX="3" oY="3" oW="329" oH="329" r="y"/>
+	<sprite n="ring_thick" x="326" y="0" w="178" h="178" oX="2" oY="2" oW="183" oH="183"/>
+	<sprite n="ring_thin" x="0" y="634" w="262" h="262" oX="1" oY="1" oW="265" oH="265"/>
+	<sprite n="sparkle1" x="314" y="455" w="104" h="104" oX="21" oY="21" oW="147" oH="147"/>
+	<sprite n="sparkle2" x="314" y="329" w="124" h="124" oX="11" oY="11" oW="147" oH="147"/>
+	<sprite n="sparkle3" x="326" y="180" w="147" h="147"/>
+	<sprite n="starburst" x="264" y="634" w="202" h="202" oX="3" oY="3" oW="209" oH="209"/>
+	<sprite n="triangle" x="475" y="180" w="36" h="319" oX="12" oY="40" oW="60" oH="400"/>
+</TextureAtlas>

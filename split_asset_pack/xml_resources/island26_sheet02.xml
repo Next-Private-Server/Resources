@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0af08e8d553841378b3ecdc703808f7b:fc12b28ce94f559a4cd335a6b530f923:103be4d368768e10200c770437350823$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island26_sheet02.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="anim_ball_01" x="938" y="1309" w="28" h="28" oX="3" oY="3" oW="34" oH="34"/>
+	<sprite n="anim_ball_02" x="938" y="1341" w="28" h="28" oX="3" oY="3" oW="34" oH="34"/>
+	<sprite n="anim_ball_03" x="938" y="1373" w="28" h="28" oX="3" oY="3" oW="34" oH="34"/>
+	<sprite n="anim_ball_04" x="938" y="1213" w="29" h="28" oX="2" oY="3" oW="34" oH="34"/>
+	<sprite n="anim_ball_05" x="989" y="721" w="29" h="29" oX="2" oY="2" oW="34" oH="34"/>
+	<sprite n="anim_ball_06" x="938" y="1405" w="28" h="28" oX="3" oY="3" oW="34" oH="34"/>
+	<sprite n="anim_ball_07" x="938" y="1245" w="29" h="28" oX="3" oY="2" oW="34" oH="34" r="y"/>
+	<sprite n="anim_ball_08" x="990" y="198" w="30" h="28" oX="3" oY="2" oW="34" oH="34" r="y"/>
+	<sprite n="anim_bubble_01" x="938" y="1437" w="76" h="37" oX="0" oY="17" oW="76" oH="54"/>
+	<sprite n="anim_bubble_02" x="938" y="1525" w="73" h="40" oX="3" oY="14" oW="76" oH="54"/>
+	<sprite n="anim_bubble_03" x="938" y="1478" w="73" h="43" oX="3" oY="11" oW="76" oH="54"/>
+	<sprite n="anim_bubble_04" x="936" y="682" w="49" h="73" oX="3" oY="5" oW="76" oH="54" r="y"/>
+	<sprite n="anim_bubble_05" x="881" y="682" w="51" h="73" oX="3" oY="3" oW="76" oH="54" r="y"/>
+	<sprite n="anim_critter_01" x="797" y="1992" w="27" h="28" oX="28" oY="7" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_02" x="938" y="1277" w="29" h="28" oX="28" oY="4" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_03" x="990" y="230" w="30" h="28" oX="28" oY="3" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_04" x="986" y="262" w="32" h="31" oX="25" oY="8" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_05" x="931" y="1866" w="66" h="61" oX="0" oY="10" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_06" x="866" y="1956" w="57" h="63" oX="3" oY="9" oW="64" oH="82"/>
+	<sprite n="anim_critter_07" x="927" y="1931" w="63" h="55" oX="5" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_08" x="938" y="1569" w="68" h="57" oX="1" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_09" x="938" y="1689" w="67" h="55" oX="1" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_10" x="938" y="1630" w="68" h="55" oX="1" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_11" x="931" y="1748" w="67" h="55" oX="1" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_12" x="738" y="1956" w="55" h="66" oX="1" oY="9" oW="64" oH="82"/>
+	<sprite n="anim_critter_13" x="931" y="1807" w="67" h="55" oX="1" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_critter_14" x="678" y="1956" w="56" h="66" oX="1" oY="9" oW="64" oH="82"/>
+	<sprite n="anim_critter_15" x="797" y="1931" w="65" h="57" oX="1" oY="9" oW="64" oH="82" r="y"/>
+	<sprite n="anim_drip_01" x="1004" y="31" w="13" h="21" oX="13" oY="81" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_02" x="1004" y="4" w="15" h="23" oX="12" oY="80" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_03" x="678" y="1931" w="28" h="20" oX="10" oY="77" oW="48" oH="98"/>
+	<sprite n="anim_drip_04" x="986" y="297" w="32" h="23" oX="8" oY="74" oW="48" oH="98"/>
+	<sprite n="anim_drip_05" x="887" y="1925" w="35" h="27" oX="7" oY="70" oW="48" oH="98"/>
+	<sprite n="anim_drip_06" x="989" y="682" w="29" h="35" oX="7" oY="68" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_07" x="887" y="1886" w="40" h="35" oX="7" oY="57" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_08" x="985" y="600" w="35" h="78" oX="7" oY="19" oW="48" oH="98"/>
+	<sprite n="anim_drip_09" x="985" y="512" w="35" h="84" oX="7" oY="13" oW="48" oH="98"/>
+	<sprite n="anim_drip_10" x="985" y="324" w="35" h="90" oX="7" oY="7" oW="48" oH="98"/>
+	<sprite n="anim_drip_11" x="890" y="280" w="92" h="35" oX="7" oY="5" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_12" x="890" y="198" w="96" h="37" oX="6" oY="1" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_13" x="890" y="239" w="92" h="37" oX="6" oY="5" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_14" x="985" y="418" w="35" h="90" oX="7" oY="7" oW="48" oH="98"/>
+	<sprite n="anim_drip_15" x="956" y="608" w="24" h="42" oX="3" oY="73" oW="48" oH="98" r="y"/>
+	<sprite n="anim_drip_16" x="970" y="1394" w="47" h="22" oX="0" oY="75" oW="48" oH="98"/>
+	<sprite n="eye_glow" x="678" y="1722" w="205" h="205" oX="1" oY="1" oW="207" oH="207"/>
+	<sprite n="eye_pupil" x="260" y="1280" w="146" h="146"/>
+	<sprite n="membrane_small_01" x="4" y="1280" w="52" h="415" oX="0" oY="0" oW="416" oH="52" r="y"/>
+	<sprite n="membrane_small_04" x="972" y="955" w="48" h="355" oX="0" oY="5" oW="50" oH="360"/>
+	<sprite n="membrane_small_05" x="714" y="532" w="163" h="223" oX="0" oY="0" oW="164" oH="226"/>
+	<sprite n="membrane_small_06" x="887" y="1722" w="40" h="160" r="y"/>
+	<sprite n="membrane_small_07" x="890" y="319" w="91" h="285" oX="0" oY="0" oW="94" oH="286"/>
+	<sprite n="plam" x="4" y="4" w="882" h="524"/>
+	<sprite n="plam_drip_01" x="890" y="108" w="110" h="86" r="y"/>
+	<sprite n="plam_drip_02" x="970" y="1314" w="48" h="76" r="y"/>
+	<sprite n="plam_eye" x="60" y="1280" w="196" h="364" r="y"/>
+	<sprite n="plam_eye_small" x="881" y="608" w="71" h="70" oX="1" oY="0" oW="72" oH="72" r="y"/>
+	<sprite n="plam_eyeball" x="714" y="955" w="254" h="254"/>
+	<sprite n="tentacle_piece_01" x="714" y="759" w="294" h="192" r="y"/>
+	<sprite n="tentacle_piece_02" x="4" y="1722" w="190" h="312"/>
+	<sprite n="thumb" x="4" y="958" w="688" h="318" r="y"/>
+	<sprite n="thumb_bubble" x="890" y="4" w="110" h="100"/>
+	<sprite n="thumb_pad" x="198" y="1722" w="476" h="308"/>
+	<sprite n="wrist" x="4" y="532" w="706" h="422"/>
+	<sprite n="wrist_tentacle" x="696" y="1213" w="238" h="505" oX="0" oY="0" oW="240" oH="512"/>
+</TextureAtlas>

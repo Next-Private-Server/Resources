@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3f5fb280de3525b627912e3cdedd961c:3afb37380ff1ac74d9636dcea43f9dcd:a703d10a2f8c62b0e4603e7536587ea0$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/anim_great_tree_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="butterfly01" x="386" y="4" w="54" h="44" pX="0.5" pY="0.5" oX="0" oY="4" oW="54" oH="48"/>
+    <sprite n="butterfly01_EPIC" x="444" y="4" w="54" h="44" pX="0.5" pY="0.5" oX="0" oY="4" oW="54" oH="48"/>
+    <sprite n="butterfly01_GREEN" x="386" y="52" w="54" h="44" pX="0.5" pY="0.5" oX="0" oY="4" oW="54" oH="48"/>
+    <sprite n="butterfly02" x="328" y="53" w="48" h="45" pX="0.5" pY="0.5" oX="2" oY="3" oW="54" oH="48"/>
+    <sprite n="butterfly02_EPIC" x="444" y="52" w="48" h="45" pX="0.5" pY="0.5" oX="2" oY="3" oW="54" oH="48"/>
+    <sprite n="butterfly02_GREEN" x="328" y="4" w="54" h="45" pX="0.5" pY="0.5" oX="0" oY="3" oW="54" oH="48"/>
+    <sprite n="butterfly03" x="380" y="100" w="48" h="42" pX="0.5" pY="0.5" oX="5" oY="0" oW="54" oH="48" r="y"/>
+    <sprite n="butterfly03_EPIC" x="328" y="102" w="48" h="42" pX="0.5" pY="0.5" oX="5" oY="0" oW="54" oH="48" r="y"/>
+    <sprite n="butterfly03_GREEN" x="432" y="101" w="48" h="42" pX="0.5" pY="0.5" oX="5" oY="0" oW="54" oH="48" r="y"/>
+    <sprite n="great_tree" x="4" y="4" w="320" h="814" pX="0.5" pY="0.5" oX="13" oY="20" oW="350" oH="850"/>
+</TextureAtlas>

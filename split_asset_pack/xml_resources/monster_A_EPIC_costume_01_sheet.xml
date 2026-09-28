@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e014a965664f8e8e642784b39e8d9f88:e9fadd1a4b19079b39052e79a91448d0:ab5e9d402db1c8a5157e5d93babed328$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_A_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="A_lay" x="325" y="86" w="151" h="92" pX="0.4625" pY="0.9" oX="4" oY="5" oW="160" oH="100"/>
+	<sprite n="A_left_foot" x="207" y="312" w="76" h="52" pX="0.475" pY="0.23" oX="16" oY="13" oW="80" oH="100" r="y"/>
+	<sprite n="A_left_horn" x="207" y="366" w="50" h="75" pX="0.5" pY="0.24" oX="17" oY="14" oW="80" oH="100"/>
+	<sprite n="A_right_foot" x="259" y="366" w="57" h="71" pX="0.35" pY="0.23" oX="14" oY="15" oW="80" oH="100"/>
+	<sprite n="A_right_horn" x="207" y="443" w="71" h="59" pX="0.325" pY="0.25" oX="10" oY="15" oW="80" oH="100" r="y"/>
+	<sprite n="A_wing_01" x="168" y="79" w="155" h="121" pX="0.5" pY="0.5" oX="11" oY="37" oW="166" oH="250"/>
+	<sprite n="A_wing_02" x="0" y="210" w="146" h="138" pX="0.5" pY="0.5" oX="28" oY="2" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_03" x="325" y="180" w="149" h="139" pX="0.5" pY="0.5" oX="17" oY="9" oW="166" oH="250"/>
+	<sprite n="A_wing_04" x="168" y="0" w="165" h="77" pX="0.5" pY="0.5" oX="1" oY="92" oW="166" oH="250"/>
+	<sprite n="A_wing_05" x="0" y="350" w="128" h="146" pX="0.5" pY="0.5" oX="20" oY="91" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_06" x="335" y="0" w="158" h="84" pX="0.5" pY="0.5" oX="82" oY="91" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_07" x="0" y="108" w="154" h="100" pX="0.5" pY="0.5" oX="66" oY="92" oW="166" oH="250" r="y"/>
+	<sprite n="A_wing_08" x="156" y="202" w="147" h="108" pX="0.5" pY="0.5" oX="19" oY="91" oW="166" oH="250"/>
+	<sprite n="A_wing_09" x="0" y="0" w="166" h="106" pX="0.5" pY="0.5" oX="0" oY="59" oW="166" oH="250"/>
+	<sprite n="A_wing_fold" x="130" y="350" w="75" h="137" pX="0.5" pY="0.5" oX="7" oY="0" oW="82" oH="138"/>
+</TextureAtlas>

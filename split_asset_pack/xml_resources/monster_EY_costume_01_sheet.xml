@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5e32ef18018beafce2cfdbf6834e85b3:a25a81c92489c1aceddb6879a7c8781f:048f8ea63d2d402ab00f32d5252a878a$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_EY_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="body" x="0" y="0" w="294" h="205" pX="0.496599" pY="0.882075" oX="0" oY="5" oW="294" oH="212"/>
+	<sprite n="body_front" x="0" y="207" w="175" h="294" pX="0.496599" pY="0.867021" oX="0" oY="11" oW="294" oH="188" r="y"/>
+	<sprite n="drum interior" x="296" y="0" w="117" h="92" pX="0.491667" pY="0.791667" oX="1" oY="2" oW="120" oH="96"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7b1b5753677d96c5b1a543a4a1775e36:641647bf647b2ec818c3e30dac5cef46:a765efff14b6cdeb7cd22f203ccb3073$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_Z09_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="body_lower" x="0" y="0" w="131" h="83" pX="0.5" pY="0.5" oX="8" oY="4" oW="100" oH="140" r="y"/>
+	<sprite n="body_lower_back" x="228" y="101" w="27" h="90" pX="0.5" pY="0.5" oX="6" oY="4" oW="104" oH="36" r="y"/>
+	<sprite n="body_lower_front" x="130" y="101" w="96" h="88" pX="0.5" pY="0.5" oX="7" oY="4" oW="112" oH="96"/>
+	<sprite n="body_upper" x="0" y="85" w="128" h="95" pX="0.5" pY="0.5" oX="7" oY="0" oW="140" oH="100"/>
+	<sprite n="chain" x="0" y="182" w="96" h="71" pX="0.125" pY="1" oX="0" oY="0" oW="72" oH="96" r="y"/>
+	<sprite n="leg_lower_left" x="196" y="193" w="53" h="82" pX="0.5" pY="0.5" oX="2" oY="3" oW="60" oH="96"/>
+	<sprite n="leg_lower_right" x="0" y="255" w="82" h="48" pX="0.5" pY="0.5" oX="9" oY="6" oW="64" oH="104" r="y"/>
+	<sprite n="leg_upper_left" x="98" y="191" w="96" h="52" pX="0.5" pY="0.5" oX="9" oY="5" oW="68" oH="104" r="y"/>
+	<sprite n="leg_upper_right" x="98" y="245" w="90" h="48" pX="0.5" pY="0.5" oX="13" oY="5" oW="64" oH="104" r="y"/>
+	<sprite n="neck" x="84" y="295" w="77" h="72" pX="0.5" pY="0.5" oX="0" oY="3" oW="80" oH="80"/>
+	<sprite n="shoulder" x="0" y="305" w="43" h="41" pX="0.5" pY="0.5" oX="5" oY="3" oW="52" oH="52" r="y"/>
+	<sprite n="tail_01" x="133" y="0" w="110" h="99" pX="0.5" pY="0.5" oX="4" oY="10" oW="104" oH="124" r="y"/>
+	<sprite n="tail_02" x="190" y="277" w="50" h="69" pX="0.5" pY="0.5" oX="0" oY="1" oW="52" oH="72"/>
+</TextureAtlas>

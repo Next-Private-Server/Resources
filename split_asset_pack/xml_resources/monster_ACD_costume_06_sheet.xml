@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:d3e46c6b862a86503f15a1432e4efa0a:d48f01e9637403f3b474dff436c29ae5:ca1f9c6d0649f6e66f886ba5471c5c6e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ACD_costume_06_sheet.png" width="256" height="512" hires="true">
+    <sprite n="ACD_costume_06_Wreath" x="3" y="3" w="195" h="253" pX="0.5" pY="0.5" r="y" oX="-23" oY="-24.8"/>
+    <sprite n="ACD_leaf_feathers" x="202" y="96" w="42" h="71" pX="0.5" pY="0.5"/>
+    <sprite n="ACD_left_horn_roses" x="3" y="260" w="73" h="95" pX="0.5" pY="0.5" r="y" oX="-14.4" oY="-16.8"/>
+    <sprite n="ACD_right_horn_roses" x="202" y="3" w="48" h="89" pX="0.5" pY="0.5" r="y" oX="-3.2" oY="-13.2"/>
+</TextureAtlas>

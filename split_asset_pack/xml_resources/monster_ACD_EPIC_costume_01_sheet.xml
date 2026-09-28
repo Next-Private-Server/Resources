@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:3b59f957e08711ea0983b9c9fc628e9e:3f8d0cdbb521ca0f03c2f41d7526fcdf:c1d1bbbdc4c7bb4dec5bac9d6daf8535$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_ACD_EPIC_costume_01_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="ACD_arm_left" x="3" y="668" w="129" h="122" pX="0.5" pY="0.5" oX="-17" oY="108" oY="17.24" oH="244" r="y"/>
+    <sprite n="ACD_arm_right_big" x="3" y="245" w="164" h="138" pX="0.5" pY="0.5" r="y" oX="-0.8" oY="-37.92"/>
+    <sprite n="ACD_arm_right_small" x="301" y="578" w="142" h="74" pX="0.5" pY="0.5" r="y" oX="5.6" oY="104.8"/>
+    <sprite n="ACD_foot_1" x="392" y="3" w="111" h="70" pX="0.5" pY="0.5" oX="10" oY="8" oW="130" oH="82"/>
+    <sprite n="ACD_foot_2" x="136" y="751" w="127" h="70" pX="0.5" pY="0.5" oX="1" oY="11" oW="130" oH="82"/>
+    <sprite n="ACD_foot_3" x="3" y="794" w="123" h="69" pX="0.5" pY="0.5" oX="3" oY="11" oW="130" oH="82"/>
+    <sprite n="ACD_foot_4" x="392" y="77" w="111" h="70" pX="0.5" pY="0.5" oX="9" oY="8" oW="130" oH="82"/>
+    <sprite n="ACD_foot_5" x="389" y="151" w="109" h="72" pX="0.5" pY="0.5" oX="10" oY="5" oW="130" oH="82"/>
+    <sprite n="ACD_foot_6" x="130" y="825" w="98" h="74" pX="0.5" pY="0.5" oX="15" oY="0" oW="130" oH="82"/>
+    <sprite n="ACD_head" x="3" y="3" w="204" h="146" pX="0.5" pY="0.5"/>
+    <sprite n="ACD_left_eyeback" x="232" y="825" w="51" h="54" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="54" r="y"/>
+    <sprite n="ACD_left_eyelid_1" x="447" y="578" w="61" h="57" pX="0.5" pY="0.5" oX="1" oY="1" oW="64" oH="60"/>
+    <sprite n="ACD_left_eyelid_2" x="447" y="639" w="61" h="57" pX="0.5" pY="0.5" oX="1" oY="1" oW="64" oH="60"/>
+    <sprite n="ACD_left_eyelid_3" x="443" y="700" w="61" h="57" pX="0.5" pY="0.5" oX="1" oY="1" oW="64" oH="60"/>
+    <sprite n="ACD_left_eyelid_4" x="3" y="903" w="57" h="61" pX="0.5" pY="0.5" oX="1" oY="1" oW="64" oH="60" r="y"/>
+    <sprite n="ACD_left_leg_1" x="211" y="3" w="177" h="83" pX="0.5" pY="0.5" oX="15" oY="0" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_2" x="211" y="90" w="174" h="85" pX="0.5" pY="0.5" oX="13" oY="4" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_3" x="3" y="153" w="173" h="88" pX="0.5" pY="0.5" oX="10" oY="5" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_4" x="180" y="179" w="166" h="92" pX="0.5" pY="0.5" oX="6" oY="12" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_5" x="171" y="275" w="163" h="93" pX="0.5" pY="0.5" oX="5" oY="15" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_6" x="3" y="387" w="154" h="96" pX="0.5" pY="0.5" oX="2" oY="24" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_7" x="161" y="454" w="149" h="98" pX="0.5" pY="0.5" oX="0" oY="29" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_8" x="153" y="556" w="144" h="97" pX="0.5" pY="0.5" oX="0" oY="34" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_left_leg_9" x="314" y="476" w="145" h="98" pX="0.5" pY="0.5" oX="0" oY="32" oW="98" oH="178" r="y"/>
+    <sprite n="ACD_mouth_EPIC" x="421" y="761" w="85" h="81" pX="0.5" pY="0.5" oX="9" oY="12" oW="100" oH="100"/>
+    <sprite n="ACD_pupil" x="180" y="153" w="22" h="22" pX="0.5" pY="0.5" oX="1" oY="1" oW="24" oH="24"/>
+    <sprite n="ACD_right_eyeback" x="121" y="903" w="47" h="47" pX="0.5" pY="0.5" oX="1" oY="1" oW="50" oH="50"/>
+    <sprite n="ACD_right_eyelid_1" x="61" y="968" w="53" h="53" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="56"/>
+    <sprite n="ACD_right_eyelid_2" x="64" y="903" w="53" h="53" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="56"/>
+    <sprite n="ACD_right_eyelid_3" x="3" y="968" w="54" h="53" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="56"/>
+    <sprite n="ACD_right_eyelid_4" x="118" y="960" w="53" h="53" pX="0.5" pY="0.5" oX="1" oY="1" oW="56" oH="56"/>
+    <sprite n="ACD_right_leg_1" x="338" y="311" w="163" h="76" pX="0.5" pY="0.5" oX="0" oY="0" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_2" x="171" y="372" w="160" h="78" pX="0.5" pY="0.5" oX="0" oY="3" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_3" x="350" y="227" w="155" h="80" pX="0.5" pY="0.5" oX="0" oY="9" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_4" x="335" y="391" w="152" h="81" pX="0.5" pY="0.5" oX="0" oY="12" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_5" x="3" y="487" w="146" h="83" pX="0.5" pY="0.5" oX="0" oY="18" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_6" x="3" y="574" w="142" h="90" pX="0.5" pY="0.5" oX="0" oY="22" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_7" x="301" y="656" w="138" h="90" pX="0.5" pY="0.5" oX="0" oY="26" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_8" x="149" y="657" w="135" h="90" pX="0.5" pY="0.5" oX="0" oY="29" oW="90" oH="164" r="y"/>
+    <sprite n="ACD_right_leg_9" x="288" y="750" w="129" h="90" pX="0.5" pY="0.5" oX="0" oY="35" oW="90" oH="164" r="y"/>
+</TextureAtlas>

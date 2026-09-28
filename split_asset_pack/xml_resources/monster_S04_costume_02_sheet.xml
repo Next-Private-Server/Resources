@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2d4439b8bb50c2affe8e0550f4cda78f:3c6274abe3f5c5eb94c4b837aa250b7c:2044edf6526a2f46cee0b45b7252192a$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S04_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="S04_COSTUME_BONNET" x="0" y="0" w="299" h="326" pX="0.4818181818181818" pY="0.7878787878787878" oX="16" oY="4" oW="330" oH="330"/>
+	<sprite n="S04_COSTUME_BONNET_BACK" x="0" y="328" w="144" h="184" pX="0.4818181818181818" pY="0.7878787878787878" oX="108" oY="57" oW="330" oH="330" r="y"/>
+	<sprite n="S04_foot_left" x="330" y="0" w="139" h="75" pX="0.5" pY="0.5" oX="11" oY="0" oW="150" oH="75"/>
+	<sprite n="S04_foot_right" x="330" y="77" w="139" h="75" pX="0.5" pY="0.5" oX="11" oY="0" oW="150" oH="75"/>
+	<sprite n="S04_toes_left_COSTUME" x="146" y="328" w="92" h="183" pX="0.595" pY="0.53" oX="8" oY="5" oW="200" oH="100" r="y"/>
+	<sprite n="S04_toes_left_COSTUME_BACK" x="301" y="154" w="61" h="93" pX="0.595" pY="0.53" oX="20" oY="5" oW="200" oH="100" r="y"/>
+	<sprite n="S04_toes_right_COSTUME" x="240" y="328" w="88" h="183" pX="0.595" pY="0.53" oX="8" oY="9" oW="200" oH="100" r="y"/>
+	<sprite n="S04_toes_right_COSTUME_BACK" x="301" y="249" w="93" h="61" pX="0.595" pY="0.53" oX="20" oY="5" oW="200" oH="100"/>
+</TextureAtlas>

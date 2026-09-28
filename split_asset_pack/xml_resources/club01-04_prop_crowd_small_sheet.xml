@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:efa967670b75237ebd28b50313e59642:84f9ab1147bfa1b483fa1e1eabf4a7a2:90e7831e0ef95a22665331b74c404b94$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_crowd_small_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="crowd_group_A" x="0" y="1444" w="334" h="365" oX="49" oY="61" oW="460" oH="460" r="y"/>
+	<sprite n="crowd_group_B" x="0" y="390" w="394" h="324" oX="29" oY="61" oW="460" oH="460"/>
+	<sprite n="crowd_group_C" x="376" y="1132" w="320" h="306" oX="72" oY="64" oW="460" oH="460" r="y"/>
+	<sprite n="crowd_group_D" x="381" y="771" w="375" h="359" oX="39" oY="45" oW="460" oH="460"/>
+	<sprite n="crowd_group_E" x="396" y="404" w="393" h="365" oX="30" oY="43" oW="460" oH="460"/>
+	<sprite n="crowd_group_F" x="427" y="0" w="421" h="402" oX="20" oY="20" oW="460" oH="460"/>
+	<sprite n="crowd_group_G" x="0" y="1093" w="374" h="349" oX="40" oY="52" oW="460" oH="460"/>
+	<sprite n="crowd_group_H" x="634" y="1440" w="347" h="339" oX="55" oY="45" oW="460" oH="460" r="y"/>
+	<sprite n="crowd_group_I" x="0" y="0" w="425" h="388" oX="0" oY="26" oW="460" oH="460"/>
+	<sprite n="crowd_group_J" x="0" y="716" w="379" h="375" oX="37" oY="38" oW="460" oH="460"/>
+	<sprite n="crowd_group_K" x="336" y="1444" w="296" h="364" oX="44" oY="92" oW="460" oH="460" r="y"/>
+</TextureAtlas>

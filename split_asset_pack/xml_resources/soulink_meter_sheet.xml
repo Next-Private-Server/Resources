@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6c5965779556824cd02cef4f6ec76b70:9352a487411df5f56f797c82c4bcdec4:b9e0143c5e0fef03a7b5c837c2262aa0$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/titansoul/soulink_meter_sheet.png" width="256" height="256">
+    <sprite n="soul_meter_01" x="114" y="216" w="48" h="28"/>
+    <sprite n="soul_meter_02" x="52" y="216" w="60" h="36"/>
+    <sprite n="soul_meter_03" x="164" y="64" w="84" h="48"/>
+    <sprite n="soul_meter_04" x="56" y="64" w="100" h="52"/>
+    <sprite n="soul_meter_base" x="2" y="2" w="236" h="60"/>
+    <sprite n="soul_meter_deco_01" x="126" y="118" w="28" h="40"/>
+    <sprite n="soul_meter_deco_02" x="52" y="150" w="72" h="64"/>
+    <sprite n="soul_meter_deco_03" x="2" y="150" w="48" h="80"/>
+    <sprite n="soul_meter_deco_04" x="2" y="64" w="52" h="84"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0af08e8d553841378b3ecdc703808f7b:fc12b28ce94f559a4cd335a6b530f923:103be4d368768e10200c770437350823$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island26_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="finger_01" x="286" y="1147" w="303" h="836" oX="0" oY="0" oW="304" oH="836"/>
+	<sprite n="finger_02" x="989" y="1696" w="944" h="311" oX="1" oY="0" oW="312" oH="944" r="y"/>
+	<sprite n="finger_03" x="4" y="1147" w="278" h="862" oX="4" oY="0" oW="288" oH="866"/>
+	<sprite n="finger_04" x="919" y="1147" w="268" h="545" oX="0" oY="0" oW="270" oH="548"/>
+	<sprite n="finger_pad_01" x="593" y="1705" w="392" h="334"/>
+	<sprite n="finger_pad_02" x="593" y="1147" w="322" h="554" r="y"/>
+	<sprite n="finger_pad_03" x="1191" y="1147" w="299" h="408" oX="0" oY="0" oW="408" oH="300" r="y"/>
+	<sprite n="finger_pad_04" x="1494" y="1147" w="372" h="372"/>
+	<sprite n="membrane" x="4" y="4" w="2040" h="1139"/>
+</TextureAtlas>

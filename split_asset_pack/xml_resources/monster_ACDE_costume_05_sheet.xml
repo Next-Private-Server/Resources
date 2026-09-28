@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:074de0c6a35b3e6be736c76270dcddc6:500542a98f7aecb58ae2caa8a3197840:07571130f311bbc0116a4284a41bb2fd$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACDE_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="xmas_body" x="0" y="373" w="212" h="136" pX="0.5047169811320755" pY="0.19558823529411765"/>
+	<sprite n="xmas_guitar_1" x="214" y="0" w="281" h="166" pX="0.495" pY="0.6296875" oX="17" oY="351" oW="200" oH="640" r="y"/>
+	<sprite n="xmas_guitar_2" x="0" y="0" w="87" h="371" pX="0.495" pY="0.6296875" oX="55" oY="22" oW="200" oH="640"/>
+	<sprite n="xmas_hat" x="89" y="168" w="240" h="194" pX="0.5703125" pY="0.7647058823529411" oX="5" oY="5" oW="256" oH="204"/>
+	<sprite n="xmas_left_leg" x="331" y="168" w="177" h="95" pX="0.38" pY="0.8539325842696629" oX="1" oY="0" oW="100" oH="178" r="y"/>
+	<sprite n="xmas_pupil_1" x="89" y="0" w="17" h="17" pX="0.8" pY="-5.75" oX="1" oY="1" oW="20" oH="20"/>
+	<sprite n="xmas_pupil_2" x="89" y="0" w="17" h="17" pX="-0.58" pY="-1.3800000000000001" oX="1" oY="1" oW="20" oH="20"/>
+	<sprite n="xmas_pupil_3" x="89" y="0" w="17" h="17" pX="2.6399999999999997" pY="-0.78" oX="1" oY="1" oW="20" oH="20"/>
+	<sprite n="xmas_pupil_4" x="89" y="0" w="17" h="17" pX="-1.605" pY="4.215" oX="1" oY="1" oW="20" oH="20"/>
+	<sprite n="xmas_pupil_5" x="89" y="0" w="17" h="17" pX="2.7649999999999997" pY="5.65" oX="1" oY="1" oW="20" oH="20"/>
+	<sprite n="xmas_right_leg" x="214" y="364" w="89" h="134" pX="0.5604395604395604" pY="0.8283582089552238" oX="1" oY="0" oW="91" oH="134"/>
+</TextureAtlas>

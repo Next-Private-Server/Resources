@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:33d9b579fc9e956327b80cdff7cacba4:7e7930d932519b49f057d41093ec0774:209d2e858403273c46234a6edd126d60$ -->
+<TextureAtlas imagePath="gfx/tuneup/tuneup_crack_sheet.png" width="512" height="512" hires="false" version="1">
+	<sprite n="tuneup_crack_01" x="0" y="493" w="3" h="3" oX="0" oY="0" oW="152" oH="180"/>
+	<sprite n="tuneup_crack_02" x="175" y="0" w="139" h="125" oX="12" oY="3" oW="152" oH="180" r="y"/>
+	<sprite n="tuneup_crack_03" x="316" y="0" w="139" h="125" oX="12" oY="3" oW="152" oH="180" r="y"/>
+	<sprite n="tuneup_crack_04" x="153" y="161" w="125" h="139" oX="12" oY="3" oW="152" oH="180"/>
+	<sprite n="tuneup_crack_05" x="0" y="351" w="173" h="140" oX="11" oY="3" oW="152" oH="180" r="y"/>
+	<sprite n="tuneup_crack_06" x="0" y="176" w="151" h="173" oX="0" oY="3" oW="152" oH="180"/>
+	<sprite n="tuneup_crack_07" x="0" y="0" w="151" h="174" oX="0" oY="3" oW="152" oH="180"/>
+	<sprite n="tuneup_dot" x="457" y="124" w="35" h="35" oX="2" oY="2" oW="40" oH="40"/>
+	<sprite n="tuneup_nugget_01" x="457" y="78" w="44" h="44"/>
+	<sprite n="tuneup_nugget_02" x="153" y="127" w="76" h="31" oX="0" oY="0" oW="32" oH="76" r="y"/>
+	<sprite n="tuneup_nugget_03" x="457" y="0" w="49" h="76" oX="1" oY="0" oW="52" oH="76"/>
+</TextureAtlas>

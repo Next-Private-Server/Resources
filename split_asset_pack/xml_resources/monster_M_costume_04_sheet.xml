@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:884df176649b21f75a7ea44a300a2bdb:51a6a14f377d864e7c5dfb975a0b00cf:17af79f9d8e4caed9ceedfac7c84ad2b$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_M_costume_04_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="M_head" x="0" y="164" w="100" h="92" pX="0.5" pY="0.5">
+		<vertices>59 1 100 17 100 47 57 90 19 92 0 60 0 22 18 0</vertices>
+		<verticesUV>59 165 100 181 100 211 57 254 19 256 0 224 0 186 18 164</verticesUV>
+		<triangles>0 6 7 3 4 5 0 3 5 0 2 3 0 1 2 0 5 6</triangles>
+	</sprite>
+	<sprite n="M_lips" x="0" y="0" w="242" h="173" pX="0.577869" pY="0.744318" oX="1" oY="1" oW="244" oH="176">
+		<vertices>228 62 241 66 243 84 173 174 78 173 43 149 1 86 1 73 69 1 158 1</vertices>
+		<verticesUV>227 61 240 65 242 83 172 173 77 172 42 148 0 85 0 72 68 0 157 0</verticesUV>
+		<triangles>4 8 9 7 5 6 7 8 5 4 5 8 3 4 9 0 2 3 0 1 2 0 3 9</triangles>
+	</sprite>
+</TextureAtlas>

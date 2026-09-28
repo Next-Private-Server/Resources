@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ee8fda02637cedf17bb1b33b9769b378:9cc36959eae8b200362282d305ab4f49:ec18a9b5bd73c858859e84611d2f3793$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BDNR_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="body 2" x="125" y="391" w="215" h="68" pX="0.5" pY="0.5" r="y" />
+  <sprite n="body 3" x="342" y="145" w="161" h="230" pX="0.5" pY="0.5" />
+  <sprite n="body back" x="0" y="145" w="148" h="244" pX="0.5" pY="0.5" />
+  <sprite n="hair" x="0" y="0" w="452" h="143" pX="0.457965" pY="2.38194" oX="0" oY="0" oW="452" oH="144" />
+  <sprite n="horse" x="0" y="391" w="123" h="112" pX="0.322581" pY="-0.0172414" oX="0" oY="2" oW="124" oH="116" />
+  <sprite n="patch 2" x="454" y="38" w="51" h="34" pX="3.696078431372549" pY="-1.2058823529411764" />
+  <sprite n="patch" x="454" y="0" w="56" h="36" pX="3.23214" pY="1.27778" />
+</TextureAtlas>

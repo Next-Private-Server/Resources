@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:265fd05f692f5517371a78eb50b2e94b:d0715e455f9303d2356edc639f4f6509:894f21a529009fee5c67efe27e9cae57$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_bg_water_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="bubble" x="255" y="433" w="50" h="50" oX="1" oY="1" oW="52" oH="52"/>
+	<sprite n="fish_cyan" x="471" y="0" w="41" h="32" oX="2" oY="1" oW="44" oH="34"/>
+	<sprite n="fish_green" x="471" y="78" w="38" h="33" oX="4" oY="3" oW="46" oH="39"/>
+	<sprite n="fish_orange_c" x="0" y="483" w="21" h="27" oX="3" oY="2" oW="33" oH="25" r="y"/>
+	<sprite n="fish_white" x="471" y="34" w="40" h="42" oX="3" oY="2" oW="46" oH="46"/>
+	<sprite n="Sand" x="255" y="170" w="113" h="261" oX="18" oY="395" oW="307" oH="531" r="y"/>
+	<sprite n="Tube" x="0" y="0" w="253" h="481" oX="37" oY="0" oW="307" oH="531"/>
+	<sprite n="Tube_coral_a" x="370" y="170" w="122" h="103"/>
+	<sprite n="Tube_glare" x="255" y="93" w="214" h="75" oX="42" oY="0" oW="154" oH="266" r="y"/>
+	<sprite n="Tube_glass" x="255" y="0" w="214" h="91" oX="27" oY="0" oW="154" oH="266" r="y"/>
+</TextureAtlas>

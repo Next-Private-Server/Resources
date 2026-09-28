@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="gfx/spore_X16.png" width="160" height="128" hires="true">
+    <sprite n="spore_X16" x="0" y="0" w="160" h="128"/>
+</TextureAtlas>

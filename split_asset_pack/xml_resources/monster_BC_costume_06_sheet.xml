@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:acda49e9bf5ca5224ccac06320cc2260:4a1b2d72b8ebdd3dada4ff4488be628a:a71b94cfaabb333b5a75638f41ebb8ae$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BC_costume_06_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BC_body_EASTER_flowers" x="0" y="0" w="203" h="200" pX="0.49523809523809526" pY="0.8428571428571429" oX="4" oY="7" oW="210" oH="210"/>
+	<sprite n="BC_left_foot" x="0" y="202" w="108" h="92" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BC_right_foot" x="110" y="202" w="108" h="92" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

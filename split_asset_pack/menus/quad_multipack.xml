@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/QuadMultipack.lua"/>
+	
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="11" />
+		<templateVar name="$touchPriority" equals="-1" /> <!-- relative to priority -->
+		<templateVar name="$maxAlpha" equals="0.75" />
+	</template>
+
+	<spriteComponent name="LightBurst">
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="10" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("gfx/menu/light_burst_top")
+			local scale = ((lua_sys.screenHeight() * 0.5) / 256)
+			component("size"):SetFloat(scale)
+			component("layer"):SetString("MidPopUps")
+		</event>
+	</spriteComponent>
+
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="9" />
+		<ninesliceComponent name="Sprite">
+			<size w="200*game.menuScaleX()" h="40*(screenHeight()/320)" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.4*(screenHeight()/320))
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+	
+	<element name="TitleLabel">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="150*game.menuScaleX()" h="40*(screenHeight()/320)" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+				component("size"):SetFloat(0.45*game.menuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("JAMBOREE_MULTIPACK_TITLE")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+	
+	<element name="NotificationTop">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="400*game.menuScaleX()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("JAMBOREE_MULTIPACK_DESC")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("autoScale"):SetInt(1)
+				component("autoScaleFactor"):SetFloat(0.05)
+			</event>
+		</textComponent>
+	</element>
+	
+	<template type="template_multipack_entry" name="SecondPackBg">
+		<templateVar name="$frameHeight" equals="165*game.menuScaleY()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="SAFE_AREA" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*5*game.menuScaleX()" priorityOffset="10" />
+		<spriteSheetComponent name="IcingL">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-2*game.menuScaleX()" yOffset="5*game.menuScaleX()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("Popup_sticker3")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.6*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="IcingR">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="6*game.menuScaleX()" yOffset="0*4*game.menuScaleX()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("Popup_sticker4")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.6*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</template>
+	
+	<template type="template_multipack_entry" name="FirstPackBg">
+		<templateVar name="$frameHeight" equals="150*game.menuScaleY()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SecondPackBg" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="IcingL">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-2*game.menuScaleX()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("Popup_sticker1")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.6*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="IcingR">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="6*game.menuScaleX()" yOffset="4*game.menuScaleX()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("Popup_sticker2")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.6*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</template>
+
+	<template type="template_multipack_entry" name="ThirdPackBg">
+		<templateVar name="$frameHeight" equals="180*game.menuScaleY()" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="SecondPackBg" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="IcingL">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.menuScaleX()" yOffset="8*game.menuScaleX()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("Popup_sticker5")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.6*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="IcingR">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="2*game.menuScaleX()" yOffset="-4*game.menuScaleX()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("Popup_sticker6")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.6*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</template>
+	
+	<template type="template_nineslicebutton" name="BuyAllPackButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_gold_gem'" />
+		<templateVar name="$spriteScale" equals="0.25*game.menuScaleX()" />
+		<templateVar name="$text" equals="JAMBOREE_MULTIPACK_BUY_BUTTON_PREFIX" />
+		<templateVar name="$font" equals="'game.getTitleFont()'" />
+		<templateVar name="$textPadding" equals="0.55*game.hudScale() * 20" />
+		<templateVar name="$textYOffset" equals="1" />
+		
+		<templateVar name="$topHeight" equals="40.0" />
+		<templateVar name="$bottomHeight" equals="60.0" />
+		<templateVar name="$leftWidth" equals="60.0" />
+		<templateVar name="$rightWidth" equals="60.0" />
+		
+		<templateVar name="$width" equals="180*game.menuScaleX()" />
+		<templateVar name="$height" equals="40*game.menuScaleX()" />
+
+		<templateVar name="$includeBorder" equals="1" />
+		
+		<templateVar name="$layer" equals="MidPopUps" />
+		<position relativeTo="SecondPackBg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="5*game.menuScaleX()" priorityOffset="0" />
+
+		<textComponent name="Text">
+			<size w="80*game.menuScaleX()" h="5*game.menuScaleX()" />
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component("autoScale"):SetInt(0)
+				component("size"):SetFloat(0.4*game.composerScale())
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<position relativeTo="element" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-3" />
+		</touchComponent>
+	</template>
+	
+	<element name="ValueSticker">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="BuyAllPackButton" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="10*game.hudScale()" yOffset="-10*game.hudScale()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_value_sticker_green")
+				component("sheetName"):SetString("xml_resources/store_elements_01.xml")
+				component("layer"):SetString("MidPopUps")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.2*game.menuScaleX())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("BEST_VALUE")
+				component("yOffset"):SetFloat(-3.0*game.hudScale())
+
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+		<event name="disable" params="element">
+			element.Text:setColor(element.Text("red"):GetFloat()*0.5, element.Text("green"):GetFloat()*0.5, element.Text("blue"):GetFloat()*0.5)
+			element.Sprite:setColor(0.5, 0.5, 0.5)
+		</event>
+	</element>
+	
+	<element name="Timer">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="BuyAllPackButton" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("banner_purple")
+				component("sheetName"):SetString("xml_resources/multipack_sheet.xml")
+				component("size"):SetFloat(0.5*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.35*game.composerScale())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("00d 00m 00s")
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.AVAILABILITY_TIMER_COLOUR))
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+		<spriteSheetComponent name="Hourglass">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("news_timed")
+				component("sheetName"):SetString("xml_resources/buttons02.xml")
+				component("size"):SetFloat(0.25*game.menuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<event name="disable" params="element">
+			element.Sprite:setColor(0.5, 0.5, 0.5)
+			element.Text:setColor(element.Text("red"):GetFloat()*0.5, element.Text("green"):GetFloat()*0.5, element.Text("blue"):GetFloat()*0.5)
+			element.Hourglass:setColor(0.5, 0.5, 0.5)
+		</event>
+	</element>
+
+	<!-- fallback close button if no context bar is available -->
+	<template type="template_spritesheetbutton" name="CloseButton">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+
+		<position relativeTo="SAFE_AREA" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="10*game.hudScale()" yOffset="20*game.bgScale()" priorityOffset="4" />
+
+		<touchComponent name="Touch">
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Text"]:setColor(1.0, 1.0, 1.0)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_no")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+
+		<textComponent name="Text">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-4*game.hudScale()" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("EXIT")
+				component("size"):SetFloat(0.2*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+				element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+			end
+		</event>
+
+		<event name="Show" params="element">
+			element:setVisible()
+			element.Overlay:GetVar("visible"):SetInt(1)
+		</event>	
+
+		<event name="Hide" params="element">
+			element:setInvisible()
+			element.Overlay:GetVar("visible"):SetInt(0)
+		</event>	
+
+	</template>
+
+</menu>

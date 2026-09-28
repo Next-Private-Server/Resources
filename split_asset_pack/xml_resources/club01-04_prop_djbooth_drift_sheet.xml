@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:57b878e5b7b5808d0312c6041a730b5e:c1425ce17cc500726d689138dba02774:43ab672d66411fe0ac3ee19941737945$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_djbooth_drift_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="phonk_booth_01" x="154" y="546" w="226" h="99" oX="7" oY="38" oW="240" oH="168"/>
+	<sprite n="phonk_booth_01_glow_blue" x="808" y="0" w="215" h="78" oX="13" oY="55" oW="240" oH="168"/>
+	<sprite n="phonk_booth_01_glow_yellow" x="154" y="647" w="201" h="65" oX="20" oY="43" oW="240" oH="168"/>
+	<sprite n="phonk_booth_02" x="808" y="80" w="210" h="110" oX="16" oY="0" oW="240" oH="168"/>
+	<sprite n="phonk_booth_02_glow_yellow" x="733" y="523" w="48" h="202" oX="20" oY="4" oW="240" oH="168" r="y"/>
+	<sprite n="phonk_booth_03" x="0" y="729" w="119" h="240" oX="0" oY="49" oW="240" oH="168" r="y"/>
+	<sprite n="phonk_booth_03_glow_blue" x="787" y="510" w="233" h="85" oX="4" oY="73" oW="240" oH="168"/>
+	<sprite n="phonk_booth_03_glow_yellow_01" x="787" y="392" w="233" h="116" oX="4" oY="50" oW="240" oH="168"/>
+	<sprite n="phonk_booth_03B" x="783" y="597" w="240" h="130" oX="0" oY="11" oW="240" oH="168"/>
+	<sprite n="phonk_booth_base" x="407" y="117" w="393" h="203" oX="8" oY="11" oW="411" oH="227"/>
+	<sprite n="phonk_booth_base_glow" x="0" y="226" w="392" h="204" oX="9" oY="10" oW="411" oH="227"/>
+	<sprite n="phonk_booth_front" x="313" y="889" w="84" h="88" oX="0" oY="1" oW="84" oH="92"/>
+	<sprite n="phonk_booth_front_glow_blue_01" x="121" y="727" w="22" h="55" oX="15" oY="7" oW="84" oH="92" r="y"/>
+	<sprite n="phonk_booth_front_glow_blue_02" x="63" y="707" w="71" h="18" oX="7" oY="19" oW="84" oH="92"/>
+	<sprite n="phonk_booth_front_glow_blue_03" x="0" y="971" w="77" h="39" oX="3" oY="34" oW="84" oH="92"/>
+	<sprite n="phonk_booth_front_glow_blue_04" x="0" y="710" w="61" h="15" oX="12" oY="68" oW="84" oH="92"/>
+	<sprite n="phonk_booth_front_glow_yellow_01" x="313" y="799" w="75" h="82" oX="5" oY="4" oW="84" oH="92"/>
+	<sprite n="phonk_booth_glow_small" x="357" y="647" w="31" h="95" oX="0" oY="5" oW="98" oH="40" r="y"/>
+	<sprite n="phonk_booth_ring" x="393" y="523" w="338" h="185" oX="1" oY="3" oW="340" oH="190"/>
+	<sprite n="phonk_booth_ring_glow" x="390" y="710" w="331" h="177" oX="5" oY="7" oW="340" oH="190"/>
+	<sprite n="phonk_booth_ring_glow_01" x="0" y="546" w="141" h="159" oX="74" oY="34" oW="420" oH="233" r="y"/>
+	<sprite n="phonk_booth_ring_glow_02" x="121" y="799" w="190" h="170" oX="43" oY="18" oW="420" oH="233"/>
+	<sprite n="phonk_booth_ring_glow_03" x="802" y="192" w="219" h="198" oX="14" oY="4" oW="420" oH="233"/>
+	<sprite n="phonk_booth_ring_glow_small" x="79" y="971" w="73" h="36" oX="134" oY="304" oW="340" oH="340"/>
+	<sprite n="phonk_booth_top" x="0" y="0" w="405" h="224" oX="7" oY="5" oW="420" oH="233"/>
+	<sprite n="phonk_booth_top_glow" x="407" y="0" w="399" h="115" oX="10" oY="114" oW="420" oH="233"/>
+	<sprite n="phonk_booth_turntable" x="154" y="714" w="192" h="83" oX="26" oY="22" oW="240" oH="168"/>
+	<sprite n="phonk_stage_ring_center" x="394" y="322" w="391" h="199" oX="277" oY="231" oW="949" oH="530"/>
+	<sprite n="phonk_stage_ring_center_glow" x="0" y="432" w="391" h="112" oX="1" oY="2" oW="392" oH="120"/>
+	<sprite n="phonk_turntable_glow_small" x="154" y="971" w="86" h="35" oX="1" oY="0" oW="88" oH="36"/>
+</TextureAtlas>

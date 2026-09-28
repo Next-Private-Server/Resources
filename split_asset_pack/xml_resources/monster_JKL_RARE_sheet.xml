@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cfb78d07d01cf72cccb93c1c74f721e7:3ec87fa90ac9f81326f81c64b8b8bac9:9c6093097513a2eb6317b7c8ec284b07$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_JKL_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="arm__upper_aquatic" x="0" y="429" w="98" h="60" oX="1" oY="0" oW="100" oH="60"/>
+	<sprite n="arm_lower_aquatic" x="366" y="411" w="120" h="88" oX="0" oY="0" oW="124" oH="88"/>
+	<sprite n="arm_lower_furry" x="0" y="333" w="109" h="94" oX="7" oY="7" oW="130" oH="130"/>
+	<sprite n="arm_upper_furry" x="387" y="304" w="122" h="105" oX="9" oY="0" oW="136" oH="112"/>
+	<sprite n="body" x="0" y="0" w="247" h="205" oX="9" oY="3" oW="264" oH="220"/>
+	<sprite n="brow_left" x="187" y="546" w="28" h="36" oX="5" oY="8" oW="44" oH="44" r="y"/>
+	<sprite n="brow_middle" x="261" y="657" w="38" h="29" oX="28" oY="23" oW="88" oH="64"/>
+	<sprite n="brow_right" x="359" y="621" w="45" h="33" oX="10" oY="10" oW="64" oH="54"/>
+	<sprite n="eyelid_left_1" x="406" y="638" w="36" h="32" oX="2" oY="3" oW="36" oH="40" r="y"/>
+	<sprite n="eyelid_left_2" x="476" y="652" w="36" h="32" oX="2" oY="3" oW="36" oH="40" r="y"/>
+	<sprite n="eyelid_left_3" x="358" y="656" w="36" h="32" oX="2" oY="3" oW="36" oH="40" r="y"/>
+	<sprite n="eyelid_left_4" x="396" y="672" w="36" h="32" oX="2" oY="3" oW="36" oH="40" r="y"/>
+	<sprite n="eyelid_mid_1" x="470" y="686" w="33" h="32" oX="4" oY="4" oW="40" oH="40" r="y"/>
+	<sprite n="eyelid_mid_2" x="301" y="683" w="33" h="32" oX="4" oY="4" oW="40" oH="40" r="y"/>
+	<sprite n="eyelid_mid_3" x="336" y="690" w="33" h="32" oX="4" oY="4" oW="40" oH="40" r="y"/>
+	<sprite n="eyelid_mid_4" x="371" y="706" w="33" h="32" oX="4" oY="4" oW="40" oH="40" r="y"/>
+	<sprite n="eyelid_mid_5" x="434" y="676" w="34" h="32" oX="4" oY="4" oW="40" oH="40" r="y"/>
+	<sprite n="eyelid_right_1" x="268" y="566" w="42" h="45" oX="5" oY="8" oW="50" oH="60" r="y"/>
+	<sprite n="eyelid_right_2" x="312" y="595" w="45" h="42" oX="5" oY="8" oW="50" oH="60"/>
+	<sprite n="eyelid_right_3" x="265" y="613" w="45" h="42" oX="5" oY="8" oW="50" oH="60"/>
+	<sprite n="eyelid_right_4" x="214" y="638" w="45" h="42" oX="5" oY="8" oW="50" oH="60"/>
+	<sprite n="finger_furry_1" x="166" y="584" w="48" h="33" oX="1" oY="6" oW="36" oH="66" r="y"/>
+	<sprite n="finger_furry_2" x="422" y="602" w="53" h="34" oX="0" oY="7" oW="36" oH="66" r="y"/>
+	<sprite n="finger_furry_3" x="312" y="559" w="52" h="34" oX="2" oY="5" oW="36" oH="66" r="y"/>
+	<sprite n="finger_talon_1" x="312" y="519" w="52" h="38" oX="0" oY="4" oW="40" oH="60" r="y"/>
+	<sprite n="finger_talon_2" x="366" y="542" w="56" h="32" oX="4" oY="3" oW="40" oH="60" r="y"/>
+	<sprite n="finger_talon_3" x="477" y="602" w="34" h="48" oX="3" oY="2" oW="40" oH="50"/>
+	<sprite n="finger_talon_4" x="187" y="495" w="28" h="49" oX="1" oY="1" oW="30" oH="50"/>
+	<sprite n="goatie" x="111" y="423" w="104" h="70" oX="5" oY="2" oW="80" oH="110" r="y"/>
+	<sprite n="head_features" x="234" y="230" w="151" h="94" oX="39" oY="101" oW="240" oH="280"/>
+	<sprite n="head_RARE" x="249" y="0" w="234" h="228" oX="2" oY="12" oW="240" oH="280"/>
+	<sprite n="leg_lower_aquatic_RARE" x="313" y="447" w="51" h="70" oX="4" oY="4" oW="60" oH="80"/>
+	<sprite n="leg_lower_furry" x="234" y="326" w="130" h="119" oX="15" oY="16" oW="148" oH="162" r="y"/>
+	<sprite n="leg_upper_aquatic" x="0" y="551" w="88" h="64" r="y"/>
+	<sprite n="leg_upper_furry" x="111" y="333" w="109" h="88" oX="6" oY="10" oW="120" oH="110"/>
+	<sprite n="mouth_1" x="485" y="0" w="27" h="68" oX="14" oY="8" oW="112" oH="88" r="y"/>
+	<sprite n="mouth_2" x="439" y="501" w="70" h="35" oX="16" oY="6" oW="112" oH="88"/>
+	<sprite n="mouth_3" x="366" y="501" w="71" h="39" oX="16" oY="8" oW="112" oH="88"/>
+	<sprite n="mouth_4" x="0" y="617" w="73" h="53" oX="14" oY="5" oW="112" oH="88"/>
+	<sprite n="mouth_5" x="439" y="538" w="62" h="62" oX="17" oY="8" oW="112" oH="88"/>
+	<sprite n="mouth_6" x="366" y="576" w="54" h="43" oX="24" oY="3" oW="112" oH="88" r="y"/>
+	<sprite n="mouth_7" x="444" y="638" w="30" h="36" oX="31" oY="9" oW="112" oH="88"/>
+	<sprite n="muzzle" x="217" y="447" w="94" h="45" oX="11" oY="10" oW="124" oH="74"/>
+	<sprite n="pupil_left" x="485" y="85" w="13" h="8" oX="4" oY="2" oW="20" oH="20" r="y"/>
+	<sprite n="pupil_mid" x="500" y="85" w="12" h="9" oX="9" oY="9" oW="30" oH="30" r="y"/>
+	<sprite n="pupil_right" x="485" y="70" w="18" h="13" oX="6" oY="8" oW="30" oH="30"/>
+	<sprite n="shadow" x="0" y="207" w="232" h="124"/>
+	<sprite n="talon_toe_1" x="216" y="604" w="47" h="32" oX="2" oY="5" oW="50" oH="40"/>
+	<sprite n="talon_toe_2" x="166" y="619" w="46" h="44" oX="2" oY="4" oW="50" oH="50" r="y"/>
+	<sprite n="talon_toe_3" x="217" y="566" w="49" h="36" oX="0" oY="1" oW="40" oH="50" r="y"/>
+	<sprite n="talon_toe_4" x="312" y="639" w="44" h="42" oX="4" oY="6" oW="50" oH="50"/>
+	<sprite n="toe_hoove" x="217" y="494" w="93" h="70" oX="3" oY="4" oW="100" oH="80"/>
+	<sprite n="wing_1" x="0" y="491" w="95" h="58" oX="3" oY="2" oW="100" oH="60"/>
+	<sprite n="wing_2" x="90" y="561" w="74" h="64" oX="3" oY="3" oW="80" oH="70"/>
+	<sprite n="wing_3" x="97" y="495" w="88" h="64" oX="5" oY="3" oW="100" oH="70"/>
+	<sprite n="wing_4" x="387" y="230" w="125" h="72" oX="4" oY="4" oW="130" oH="80"/>
+</TextureAtlas>

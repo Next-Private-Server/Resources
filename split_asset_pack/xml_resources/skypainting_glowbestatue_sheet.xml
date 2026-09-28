@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a3f08eaf7d392c791a83a598ec5f3669:ce0119fd451d37ba6167de3bd2dfd840:4a7b8fb17e4586d158fa3e76b3a2a487$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/skypainting_glowbestatue_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Base" x="3" y="3" w="328" h="198" oX="6" oY="5" oW="340" oH="208"/>
+    <sprite n="Body" x="3" y="205" w="260" h="202" oX="5" oY="6" oW="212" oH="272" r="y"/>
+    <sprite n="Globe" x="267" y="278" w="233" h="226" oX="7" oY="3" oW="240" oH="240" r="y"/>
+    <sprite n="Glow 01" x="335" y="187" w="115" h="87" oX="2" oY="6" oW="120" oH="100"/>
+    <sprite n="Glow 02" x="433" y="679" w="69" h="91" oX="4" oY="5" oW="100" oH="80" r="y"/>
+    <sprite n="Glow 03" x="267" y="205" w="64" h="63" oX="8" oY="8" oW="80" oH="80" r="y"/>
+    <sprite n="Glow 04" x="120" y="602" w="99" h="78" oX="0" oY="1" oW="100" oH="80"/>
+    <sprite n="Glow 05" x="433" y="508" w="75" h="98" oX="1" oY="2" oW="100" oH="80" r="y"/>
+    <sprite n="Glow 06" x="433" y="610" w="72" h="65" oX="4" oY="7" oW="80" oH="80"/>
+    <sprite n="Glow" x="223" y="508" w="206" h="202" oX="5" oY="3" oW="216" oH="208"/>
+    <sprite n="Highlight" x="3" y="411" w="216" h="187" oX="2" oY="4" oW="220" oH="196"/>
+    <sprite n="Orb 01" x="454" y="187" w="38" h="36" oX="2" oY="1" oW="40" oH="40" r="y"/>
+    <sprite n="Orb 02" x="454" y="227" w="19" h="19" oX="0" oY="0" oW="20" oH="20"/>
+    <sprite n="Orbs" x="335" y="3" w="159" h="180" oX="0" oY="10" oW="180" oH="180" r="y"/>
+    <sprite n="Sparkles" x="3" y="602" w="113" h="68" oX="1" oY="0" oW="116" oH="68"/>
+</TextureAtlas>

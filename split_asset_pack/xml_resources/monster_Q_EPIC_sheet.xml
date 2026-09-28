@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fcdfab1965a960c46680c03fd4c55ff3:10a0e3baae5e726ebe09090a3703c0a2:d9ed0a9c8fdc471ce10bf0fb4d9cecd0$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_Q_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="Q_body_01" x="320" y="0" w="191" h="179" oX="1" oY="0" oW="194" oH="179"/>
+	<sprite n="Q_body_02" x="319" y="181" w="173" h="194" oX="0" oY="6" oW="194" oH="179" r="y"/>
+	<sprite n="Q_dirt_chunk" x="296" y="293" w="21" h="20" oX="6" oY="6" oW="32" oH="32" r="y"/>
+	<sprite n="Q_dirt_chunk_lrg" x="228" y="285" w="22" h="19" r="y"/>
+	<sprite n="Q_dirtmound_back_lrg" x="0" y="117" w="258" h="100"/>
+	<sprite n="Q_dirtmound_front_lrg" x="0" y="0" w="318" h="115"/>
+	<sprite n="Q_eyeball_left_08" x="252" y="293" w="42" h="42"/>
+	<sprite n="Q_eyeball_left_09" x="55" y="287" w="38" h="34"/>
+	<sprite n="Q_eyeball_right_08" x="252" y="293" w="42" h="42"/>
+	<sprite n="Q_eyeball_right_09" x="0" y="475" w="33" h="35" r="y"/>
+	<sprite n="Q_headtop_08" x="0" y="293" w="53" h="72" oX="5" oY="4" oW="83" oH="57" r="y"/>
+	<sprite n="Q_headtop_09" x="260" y="117" w="57" h="83" r="y"/>
+	<sprite n="Q_headtop_shadow" x="235" y="219" w="23" h="64" r="y"/>
+	<sprite n="Q_moustache" x="0" y="219" w="137" h="66"/>
+	<sprite n="Q_mouth_lrg_01" x="0" y="377" w="33" h="96" oX="0" oY="0" oW="96" oH="70" r="y"/>
+	<sprite n="Q_mouth_lrg_02" x="139" y="219" w="94" h="44" oX="2" oY="4" oW="96" oH="70"/>
+	<sprite n="Q_mouth_lrg_03" x="260" y="202" w="53" h="89" oX="3" oY="8" oW="96" oH="70" r="y"/>
+	<sprite n="Q_mouth_lrg_04" x="139" y="265" w="87" h="61" oX="5" oY="9" oW="96" oH="70"/>
+</TextureAtlas>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd56ecbaf6f707981528b7b9445a8b09:24790ff4aba0b0d48836950a08e3867c:1ef4ed8a9726a6727483ef4e2ad38c86$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_glowbes_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="C1_arm" x="181" y="110" w="66" h="47" oX="0" oY="0" oW="66" oH="48"/>
+	<sprite n="C1_body" x="0" y="328" w="91" h="62" oX="0" oY="1" oW="92" oH="64"/>
+	<sprite n="C1_body_behind_colour" x="108" y="395" w="31" h="93" r="y"/>
+	<sprite n="C1_body_colour_01" x="135" y="209" w="40" h="91" oX="0" oY="0" oW="92" oH="40" r="y"/>
+	<sprite n="C1_body_colour_02" x="135" y="302" w="40" h="91" oX="0" oY="0" oW="92" oH="40" r="y"/>
+	<sprite n="C1_body_colour_03" x="141" y="395" w="91" h="40" oX="0" oY="0" oW="92" oH="40"/>
+	<sprite n="C1_body_colour_04" x="141" y="437" w="91" h="40" oX="0" oY="0" oW="92" oH="40"/>
+	<sprite n="C1_globe" x="0" y="395" w="106" h="109" r="y"/>
+	<sprite n="C1_glow_body" x="181" y="159" w="62" h="97" oX="0" oY="2" oW="100" oH="64" r="y"/>
+	<sprite n="C1_glow_large" x="0" y="0" w="179" h="177" oX="22" oY="14" oW="224" oH="212"/>
+	<sprite n="C1_glow_large_03" x="0" y="179" w="133" h="130" oX="48" oY="44" oW="224" oH="212" r="y"/>
+	<sprite n="C1_glow_small" x="93" y="328" w="38" h="38" oX="6" oY="3" oW="44" oH="44"/>
+	<sprite n="C1_glow_soft" x="181" y="0" w="71" h="71" oX="3" oY="3" oW="76" oH="76"/>
+	<sprite n="C1_glow_white_body" x="181" y="73" w="71" h="35" oX="14" oY="18" oW="100" oH="64"/>
+	<sprite n="C1_glow_white_lrg" x="177" y="258" w="76" h="76"/>
+	<sprite n="C1_glow_white_sml" x="141" y="479" w="32" h="32"/>
+	<sprite n="C1_lower_arm_colour_01" x="135" y="179" w="44" h="28"/>
+	<sprite n="C1_lower_arm_globe" x="108" y="311" w="19" h="15" oX="0" oY="0" oW="20" oH="16"/>
+	<sprite n="C1_pupil" x="93" y="368" w="16" h="16"/>
+	<sprite n="C1_pupil_shine" x="111" y="368" w="16" h="16"/>
+</TextureAtlas>

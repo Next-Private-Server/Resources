@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:23d146599e3855c50fcb0643f1c6011e:e6f85a56e14aa60310a42eab90f325c5:cae614c6c6aa469777395b260a6f572e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACD_costume_07_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="ACD_leaf_mask" x="0" y="0" w="266" h="279" pX="0.503333" pY="0.663333" oX="17" oY="10" oW="300" oH="300" />
+</TextureAtlas>

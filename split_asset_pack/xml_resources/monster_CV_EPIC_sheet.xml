@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e64dce8b373df84f3c5f5be96bc149fb:20a27e0617110ddfb231ff56c27a89ff:4926f9ff13585117971753cae745752b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CV_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="CV_body" x="268" y="0" w="207" h="133" oX="0" oY="1" oW="207" oH="136" />
+  <sprite n="CV_eyeball" x="399" y="316" w="30" h="31" oX="1" oY="1" oW="32" oH="33" />
+  <sprite n="CV_eyesocket_back" x="389" y="545" w="68" h="67" oX="6" oY="6" oW="79" oH="80" r="y" />
+  <sprite n="CV_eyesocket_front" x="250" y="585" w="67" h="67" oX="6" oY="6" oW="79" oH="80" />
+  <sprite n="CV_gecko1_body" x="93" y="465" w="51" h="56" oX="3" oY="0" oW="56" oH="56" />
+  <sprite n="CV_gecko1_eyelid_01" x="228" y="559" w="20" h="20" oX="2" oY="2" oW="24" oH="25" />
+  <sprite n="CV_gecko1_eyelid_02" x="228" y="581" w="20" h="20" oX="2" oY="2" oW="24" oH="25" />
+  <sprite n="CV_gecko1_head" x="450" y="303" w="61" h="48" oX="2" oY="4" oW="64" oH="56" />
+  <sprite n="CV_gecko1_legs" x="477" y="127" w="32" h="31" oX="0" oY="0" oW="32" oH="32" r="y" />
+  <sprite n="CV_gecko2_body" x="0" y="488" w="80" h="59" oX="2" oY="0" oW="64" oH="80" r="y" />
+  <sprite n="CV_gecko2_eyelid_01" x="232" y="514" w="21" h="21" oX="2" oY="1" oW="25" oH="24" />
+  <sprite n="CV_gecko2_eyelid_02" x="228" y="537" w="21" h="20" oX="2" oY="2" oW="25" oH="24" />
+  <sprite n="CV_gecko2_head" x="81" y="604" w="60" h="69" oX="1" oY="2" oW="64" oH="76" />
+  <sprite n="CV_gecko2_legs" x="477" y="38" w="33" h="43" oX="4" oY="2" oW="40" oH="47" />
+  <sprite n="CV_gecko3_body" x="465" y="160" w="44" h="79" oX="2" oY="0" oW="48" oH="79" />
+  <sprite n="CV_gecko3_eyelid_01" x="232" y="463" w="24" h="24" oX="0" oY="0" oW="24" oH="25" />
+  <sprite n="CV_gecko3_eyelid_02" x="232" y="489" w="24" h="23" oX="0" oY="0" oW="24" oH="25" />
+  <sprite n="CV_gecko3_head" x="336" y="515" w="51" h="51" oX="3" oY="2" oW="56" oH="55" />
+  <sprite n="CV_gecko3_legs" x="477" y="0" w="34" h="36" oX="4" oY="1" oW="40" oH="40" />
+  <sprite n="CV_gecko4_body" x="105" y="369" w="41" h="55" oX="0" oY="2" oW="41" oH="60" />
+  <sprite n="CV_gecko4_eyelid_01" x="477" y="83" w="33" h="20" oX="2" oY="1" oW="36" oH="24" />
+  <sprite n="CV_gecko4_eyelid_02" x="477" y="105" w="33" h="20" oX="2" oY="1" oW="36" oH="24" />
+  <sprite n="CV_gecko4_head" x="105" y="426" w="40" h="37" oX="0" oY="3" oW="40" oH="40" />
+  <sprite n="CV_head" x="268" y="195" w="180" h="119" oX="0" oY="0" oW="120" oH="180" r="y" />
+  <sprite n="CV_L_back_foot" x="255" y="515" w="79" h="68" oX="1" oY="7" oW="81" oH="80" />
+  <sprite n="CV_L_back_lower_leg" x="450" y="241" w="62" h="60" oX="1" oY="1" oW="64" oH="64" r="y" />
+  <sprite n="CV_L_back_upper_leg" x="0" y="693" w="58" h="56" oX="2" oY="2" oW="64" oH="64" />
+  <sprite n="CV_L_front_foot" x="186" y="147" w="80" h="71" oX="0" oY="5" oW="80" oH="80" />
+  <sprite n="CV_L_front_lower_leg" x="144" y="588" w="79" h="63" oX="0" oY="1" oW="80" oH="64" />
+  <sprite n="CV_L_front_upper_leg" x="143" y="653" w="60" h="59" oX="2" oY="3" oW="64" oH="65" />
+  <sprite n="CV_lowerjaw_back" x="72" y="675" w="60" h="57" oX="2" oY="2" oW="61" oH="64" r="y" />
+  <sprite n="CV_lowerjaw_front" x="149" y="299" w="112" h="64" />
+  <sprite n="CV_pupil" x="450" y="195" w="12" h="12" />
+  <sprite n="CV_R_back_foot" x="82" y="523" w="60" h="79" oX="0" oY="2" oW="80" oH="64" r="y" />
+  <sprite n="CV_R_back_lower_leg" x="319" y="585" w="63" h="58" oX="0" oY="3" oW="64" oH="64" />
+  <sprite n="CV_R_back_upper_leg" x="0" y="549" w="79" h="70" oX="3" oY="0" oW="81" oH="80" r="y" />
+  <sprite n="CV_R_front_foot" x="0" y="369" w="103" h="76" oX="5" oY="2" oW="112" oH="79" />
+  <sprite n="CV_R_front_lower_leg" x="0" y="621" w="70" h="70" oX="0" oY="1" oW="70" oH="72" />
+  <sprite n="CV_R_front_upper_leg" x="167" y="220" w="97" h="77" oX="0" oY="0" oW="80" oH="98" r="y" />
+  <sprite n="CV_shadow" x="0" y="0" w="266" h="145" />
+  <sprite n="CV_spike_01" x="0" y="147" w="184" h="71" oX="3" oY="0" oW="80" oH="184" r="y" />
+  <sprite n="CV_spike_02" x="0" y="220" w="165" h="67" oX="10" oY="3" oW="80" oH="168" r="y" />
+  <sprite n="CV_spike_03" x="268" y="135" w="195" h="58" oX="3" oY="2" oW="64" oH="200" r="y" />
+  <sprite n="CV_spike_04" x="0" y="447" w="91" h="39" oX="0" oY="2" oW="40" oH="96" r="y" />
+  <sprite n="CV_tail" x="263" y="316" w="134" h="120" oX="54" oY="3" oW="176" oH="140" r="y" />
+  <sprite n="CV_tail_a" x="399" y="353" w="105" h="96" oX="2" oY="31" oW="176" oH="140" />
+  <sprite n="CV_tar_01" x="149" y="365" w="111" h="96" oX="0" oY="0" oW="96" oH="112" r="y" />
+  <sprite n="CV_tar_02" x="0" y="289" w="147" h="78" oX="1" oY="3" oW="80" oH="160" r="y" />
+  <sprite n="CV_topjaw_back_01" x="146" y="521" w="80" h="65" oX="0" oY="2" oW="88" oH="96" />
+  <sprite n="CV_topjaw_back_02" x="147" y="463" w="83" h="56" oX="5" oY="37" oW="88" oH="96" />
+  <sprite n="CV_topjaw_front_01" x="390" y="451" w="122" h="92" oX="3" oY="1" oW="128" oH="120" />
+  <sprite n="CV_topjaw_front_02" x="262" y="438" w="126" h="75" oX="1" oY="45" oW="128" oH="120" />
+</TextureAtlas>

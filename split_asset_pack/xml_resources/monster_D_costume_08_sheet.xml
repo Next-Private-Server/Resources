@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5b5ab3f4d096199d54591d8ef1160ad3:fdda6e4b67527e4f6c7ba1265e65d7de:6cbac50d00494b3d06218f7c99526756$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_D_costume_08_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="D_body1" x="0" y="0" w="219" h="199" pX="0.5" pY="0.8145" oX="1" oY="1" oW="220" oH="200"/>
+	<sprite n="D_hat" x="221" y="0" w="195" h="194" pX="0.22" pY="1.4545" oX="3" oY="2" oW="200" oH="200" r="y"/>
+	<sprite n="D_left_eyeback" x="154" y="468" w="50" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="D_left_eyelid1" x="221" y="337" w="50" h="62" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="D_left_eyelid2" x="273" y="337" w="50" h="62" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="D_left_eyelid3" x="275" y="401" w="50" h="62" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="D_left_eyelid4" x="325" y="337" w="50" h="62" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="D_mouth1" x="0" y="261" w="145" h="62" pX="0.5" pY="0.5" oX="1" oY="4" oW="148" oH="78"/>
+	<sprite n="D_mouth2" x="221" y="196" w="147" h="63" pX="0.5" pY="0.5" oX="1" oY="4" oW="148" oH="78"/>
+	<sprite n="D_mouth3" x="0" y="325" w="71" h="146" pX="0.5" pY="0.5" oX="2" oY="2" oW="148" oH="78" r="y"/>
+	<sprite n="D_mouth4" x="221" y="261" w="119" h="74" pX="0.5" pY="0.5" oX="13" oY="2" oW="148" oH="78"/>
+	<sprite n="D_mouth5" x="418" y="0" w="88" h="78" pX="0.5" pY="0.5" oX="25" oY="0" oW="148" oH="78"/>
+	<sprite n="D_mouth6" x="154" y="402" w="62" h="64" pX="0.5" pY="0.5" oX="36" oY="6" oW="148" oH="78"/>
+	<sprite n="D_mouth7" x="370" y="254" w="137" h="69" pX="0.5" pY="0.5" oX="5" oY="3" oW="148" oH="78"/>
+	<sprite n="D_pupil" x="418" y="229" w="16" h="16" pX="0.5" pY="0.5"/>
+	<sprite n="D_right_eyeback" x="370" y="196" w="46" h="56" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="D_right_eyelid1" x="0" y="201" w="68" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="D_right_eyelid2" x="70" y="201" w="68" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="D_right_eyelid3" x="73" y="325" w="68" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="D_right_eyelid4" x="73" y="383" w="68" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="D_shadow" x="418" y="80" w="83" h="147" pX="0.5" pY="0.5" oX="0" oY="0" oW="148" oH="84" r="y"/>
+	<sprite n="D_thumb1" x="206" y="468" w="52" h="40" pX="0.777778" pY="0.445238" oX="1" oY="2" oW="54" oH="42"/>
+	<sprite n="D_thumb2" x="218" y="402" w="55" h="62" pX="0.6644736842105263" pY="0.3532258064516129" oX="3" oY="7" oW="76" oH="62" r="y"/>
+	<sprite n="D_thumb3" x="147" y="201" w="72" h="76" pX="0.6125" pY="0.26625" oX="3" oY="4" oW="80" oH="80"/>
+	<sprite n="D_thumb4" x="73" y="441" w="79" h="64" pX="0.352941" pY="0.280488" oX="2" oY="3" oW="68" oH="82" r="y"/>
+	<sprite n="D_thumb5" x="143" y="333" w="76" h="67" pX="0.267949" pY="0.330769" oX="2" oY="8" oW="78" oH="78"/>
+	<sprite n="D_thumb6" x="147" y="279" w="70" h="52" pX="0.241892" pY="0.444643" oX="2" oY="4" oW="74" oH="56"/>
+	<sprite n="D_thumb7" x="0" y="473" w="46" h="36" pX="0.5" pY="0.5"/>
+</TextureAtlas>

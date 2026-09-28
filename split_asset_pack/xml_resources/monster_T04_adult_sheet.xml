@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:69f853d23197a8867c4768f1117fb6d2:db6ec6183e2336a61dd08f8d15b46dcb:118e241d3a2b3893d5d734073b60b4e7$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_T04_adult_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="T04_brain" x="0" y="275" w="48" h="43"/>
+	<sprite n="T04_brainattachment_1" x="311" y="221" w="38" h="26" oX="2" oY="0" oW="28" oH="39" r="y"/>
+	<sprite n="T04_brainattachment_2" x="268" y="221" w="41" h="24" oX="0" oY="0" oW="28" oH="44" r="y"/>
+	<sprite n="T04_brainattachment_3" x="489" y="184" w="23" h="45" oX="0" oY="0" oW="26" oH="46"/>
+	<sprite n="T04_brainbase" x="270" y="179" w="80" h="40" oX="1" oY="0" oW="82" oH="41"/>
+	<sprite n="T04_bubbles" x="91" y="60" w="72" h="41" oX="1" oY="0" oW="74" oH="43"/>
+	<sprite n="T04_chin" x="88" y="103" w="72" h="36" oX="1" oY="1" oW="74" oH="38"/>
+	<sprite n="T04_eyeballs" x="0" y="60" w="89" h="25" oX="11" oY="6" oW="108" oH="37"/>
+	<sprite n="T04_eyelids_1" x="271" y="117" w="98" h="29" oX="6" oY="4" oW="108" oH="37"/>
+	<sprite n="T04_eyelids_2" x="271" y="148" w="98" h="29" oX="6" oY="4" oW="108" oH="37"/>
+	<sprite n="T04_eyelids_3" x="389" y="184" w="98" h="29" oX="6" oY="4" oW="108" oH="37"/>
+	<sprite n="T04_eyelids_4" x="271" y="86" w="100" h="29" oX="6" oY="4" oW="108" oH="37"/>
+	<sprite n="T04_finger1a_left" x="491" y="102" w="21" h="32" oX="1" oY="0" oW="23" oH="33"/>
+	<sprite n="T04_finger1a_right" x="247" y="191" w="19" h="30" oX="1" oY="1" oW="20" oH="31"/>
+	<sprite n="T04_finger1b_left" x="495" y="25" w="17" h="20" oX="1" oY="1" oW="23" oH="18" r="y"/>
+	<sprite n="T04_finger1b_right" x="83" y="324" w="23" h="13" oX="1" oY="1" oW="26" oH="16"/>
+	<sprite n="T04_finger1c_left" x="396" y="215" w="16" h="10" r="y"/>
+	<sprite n="T04_finger1c_right" x="0" y="379" w="18" h="16" oX="0" oY="2" oW="16" oH="20" r="y"/>
+	<sprite n="T04_finger2a_left" x="158" y="269" w="31" h="23" oX="1" oY="2" oW="25" oH="33" r="y"/>
+	<sprite n="T04_finger2a_right" x="237" y="253" w="25" h="19" oX="2" oY="2" oW="21" oH="28" r="y"/>
+	<sprite n="T04_finger2b_left" x="371" y="161" w="16" h="22" oX="0" oY="0" oW="23" oH="16" r="y"/>
+	<sprite n="T04_finger2b_right" x="45" y="333" w="23" h="13" oX="1" oY="1" oW="26" oH="16"/>
+	<sprite n="T04_finger2c_left" x="414" y="215" w="16" h="10" r="y"/>
+	<sprite n="T04_finger2c_right" x="495" y="85" w="17" h="15" oX="1" oY="1" oW="16" oH="20" r="y"/>
+	<sprite n="T04_finger3a_left" x="50" y="307" w="31" h="24" oX="1" oY="1" oW="26" oH="33" r="y"/>
+	<sprite n="T04_finger3a_right" x="491" y="164" w="21" h="18" oX="2" oY="2" oW="21" oH="25" r="y"/>
+	<sprite n="T04_finger3b_left" x="373" y="110" w="15" h="21" oX="1" oY="1" oW="23" oH="16" r="y"/>
+	<sprite n="T04_finger3b_right" x="45" y="333" w="23" h="13" oX="2" oY="2" oW="26" oH="16"/>
+	<sprite n="T04_finger3c_left" x="432" y="215" w="16" h="10" r="y"/>
+	<sprite n="T04_finger3c_right" x="495" y="85" w="17" h="15" oX="1" oY="1" oW="16" oH="20" r="y"/>
+	<sprite n="T04_glow" x="84" y="251" w="58" h="57"/>
+	<sprite n="T04_head" x="166" y="0" w="111" h="53" oX="2" oY="2" oW="116" oH="56"/>
+	<sprite n="T04_helmet" x="166" y="55" w="103" h="100" oX="2" oY="0" oW="105" oH="102"/>
+	<sprite n="T04_highlight" x="390" y="93" w="99" h="89" oX="9" oY="0" oW="105" oH="102" r="y"/>
+	<sprite n="T04_left-wing_top" x="0" y="144" w="85" h="49" oX="2" oY="1" oW="52" oH="89" r="y"/>
+	<sprite n="T04_left_bicep" x="84" y="209" w="61" h="40" oX="2" oY="0" oW="48" oH="62" r="y"/>
+	<sprite n="T04_left_calf" x="466" y="215" w="14" h="12" oX="0" oY="0" oW="13" oH="15" r="y"/>
+	<sprite n="T04_left_foot" x="371" y="133" w="16" h="26" oX="1" oY="2" oW="18" oH="28"/>
+	<sprite n="T04_left_forearm" x="0" y="87" w="86" h="55" oX="2" oY="2" oW="57" oH="89" r="y"/>
+	<sprite n="T04_left_tenticle" x="21" y="361" w="18" h="18" oX="0" oY="2" oW="20" oH="20"/>
+	<sprite n="T04_left_thigh" x="247" y="175" w="21" h="14" oX="1" oY="1" oW="16" oH="23" r="y"/>
+	<sprite n="T04_left_wing_bottom" x="88" y="141" w="70" h="32" oX="0" oY="1" oW="71" oH="34"/>
+	<sprite n="T04_mouth1" x="144" y="288" w="12" h="31" oX="9" oY="6" oW="40" oH="23" r="y"/>
+	<sprite n="T04_mouth2" x="198" y="254" w="33" h="12" oX="5" oY="7" oW="40" oH="23"/>
+	<sprite n="T04_mouth3" x="158" y="254" w="38" h="13" oX="2" oY="6" oW="40" oH="23"/>
+	<sprite n="T04_mouth4" x="237" y="239" w="28" h="12" oX="10" oY="7" oW="40" oH="23"/>
+	<sprite n="T04_mouth5" x="83" y="310" w="30" h="12" oX="8" oY="7" oW="40" oH="23"/>
+	<sprite n="T04_mouth6" x="198" y="268" w="33" h="12" oX="5" oY="7" oW="40" oH="23"/>
+	<sprite n="T04_mouth7" x="237" y="223" w="28" h="14" oX="8" oY="6" oW="40" oH="23"/>
+	<sprite n="T04_mouth8" x="144" y="251" w="12" h="35" oX="4" oY="7" oW="40" oH="23" r="y"/>
+	<sprite n="T04_mouth9" x="267" y="247" w="40" h="10" oX="0" oY="8" oW="40" oH="23"/>
+	<sprite n="T04_mouth10" x="450" y="215" w="14" h="13" oX="20" oY="6" oW="40" oH="23" r="y"/>
+	<sprite n="T04_mouth11" x="115" y="310" w="25" h="13" oX="13" oY="6" oW="40" oH="23"/>
+	<sprite n="T04_mouth12" x="491" y="136" w="21" h="26" oX="9" oY="1" oW="40" oH="23" r="y"/>
+	<sprite n="T04_neck" x="279" y="0" w="109" h="84" oX="1" oY="2" oW="110" oH="89"/>
+	<sprite n="T04_pupil" x="237" y="208" w="8" h="11"/>
+	<sprite n="T04_right_bicep" x="352" y="215" w="42" h="24" oX="0" oY="0" oW="25" oH="43" r="y"/>
+	<sprite n="T04_right_calf" x="466" y="229" w="13" h="11" r="y"/>
+	<sprite n="T04_right_foot" x="247" y="157" w="21" h="16" oX="1" oY="0" oW="18" oH="21" r="y"/>
+	<sprite n="T04_right_forearm" x="158" y="208" w="77" h="44" oX="0" oY="0" oW="46" oH="84" r="y"/>
+	<sprite n="T04_right_tenticle" x="45" y="348" w="19" h="18" oX="0" oY="1" oW="20" oH="20" r="y"/>
+	<sprite n="T04_right_thigh" x="373" y="86" w="15" h="22" oX="0" oY="1" oW="16" oH="25"/>
+	<sprite n="T04_right_wing_bottom" x="87" y="175" w="69" h="32" oX="1" oY="0" oW="71" oH="33"/>
+	<sprite n="T04_right_wing_top" x="160" y="157" w="85" h="49" oX="0" oY="0" oW="49" oH="87" r="y"/>
+	<sprite n="T04_shadow" x="0" y="0" w="164" h="58"/>
+	<sprite n="T04_shell" x="390" y="0" w="103" h="91" oX="0" oY="0" oW="103" oH="92"/>
+	<sprite n="T04_shoulder_left" x="0" y="320" w="43" h="39" oX="1" oY="5" oW="44" oH="48"/>
+	<sprite n="T04_shoulder_right" x="50" y="275" w="32" h="30" oX="1" oY="1" oW="33" oH="34" r="y"/>
+	<sprite n="T04_stomach" x="352" y="185" w="35" h="28" oX="1" oY="0" oW="31" oH="36" r="y"/>
+	<sprite n="T04_thumbjoint_left" x="495" y="0" w="17" h="23" oX="0" oY="1" oW="18" oH="25"/>
+	<sprite n="T04_thumbjoint_right" x="495" y="47" w="17" h="19" oX="1" oY="0" oW="18" oH="20"/>
+	<sprite n="T04_thumbtip_left" x="70" y="333" w="11" h="16" oX="0" oY="2" oW="16" oH="13" r="y"/>
+	<sprite n="T04_thumbtip_right" x="495" y="68" w="17" h="15" oX="2" oY="0" oW="20" oH="18"/>
+	<sprite n="T04_torso" x="0" y="195" w="82" h="78" oX="2" oY="0" oW="84" oH="79"/>
+	<sprite n="T04_wing_insert" x="0" y="361" w="19" h="16" oX="0" oY="0" oW="20" oH="16"/>
+</TextureAtlas>

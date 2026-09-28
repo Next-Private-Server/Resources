@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:17d0993b5460bc2051878718a39cf1e1:841be8cdd51c14abf06f03ee91ff1abb:f0b168abe48f9305622837243b86c8e5$ -->
+<TextureAtlas imagePath="gfx/menu/frame_stickers_hype_prize.png" width="256" height="512" hires="false" version="1">
+	<sprite n="hype_prize_frame_decoration_01" x="0" y="332" w="50" h="49" r="y"/>
+	<sprite n="hype_prize_frame_decoration_02" x="85" y="276" w="82" h="56" r="y"/>
+	<sprite n="hype_prize_frame_decoration_03" x="0" y="0" w="108" h="58" r="y"/>
+	<sprite n="hype_prize_frame_decoration_04" x="0" y="60" w="83" h="270"/>
+	<sprite n="hype_prize_frame_decoration_05" x="110" y="0" w="98" h="274"/>
+	<sprite n="hype_prize_frame_decoration_06" x="210" y="0" w="43" h="94"/>
+</TextureAtlas>

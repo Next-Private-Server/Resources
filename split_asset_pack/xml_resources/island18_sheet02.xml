@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:577eed088ac2c9d19294d5e5b8922a77:4f98689833b9791def4e9e19583bbe2d:02bdd32406c5e0b997174fbc358c1f4e$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island18_sheet02.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="eye_glow" x="1005" y="1292" w="398" h="383" oX="1" oY="0" oW="400" oH="400"/>
+	<sprite n="eye_ring_highlight" x="808" y="529" w="600" h="537" oX="0" oY="17" oW="600" oH="570"/>
+	<sprite n="eye_shadow" x="1412" y="707" w="592" h="592" oX="1" oY="1" oW="596" oH="596"/>
+	<sprite n="eyelid_bottom" x="497" y="805" w="285" h="502" oX="22" oY="11" oW="530" oH="300" r="y"/>
+	<sprite n="eyelid_bottom_edge" x="4" y="1869" w="489" h="154" oX="8" oY="0" oW="504" oH="156"/>
+	<sprite n="eyelid_bottom_edge_highlight" x="855" y="1679" w="475" h="150" oX="16" oY="2" oW="504" oH="156"/>
+	<sprite n="eyelid_top" x="493" y="1311" w="358" h="519" oX="10" oY="10" oW="562" oH="378" r="y"/>
+	<sprite n="eyelid_top_edge" x="497" y="1834" w="504" h="179" oX="14" oY="20" oW="530" oH="200"/>
+	<sprite n="eyelid_top_edge_highlight" x="1867" y="1303" w="126" h="504" oX="14" oY="73" oW="530" oH="200" r="y"/>
+	<sprite n="island18_cheek_glow_01" x="252" y="1299" w="237" h="486" oX="6" oY="0" oW="261" oH="499"/>
+	<sprite n="island18_cheek_glow_02" x="4" y="1303" w="244" h="562" oX="8" oY="0" oW="255" oH="562"/>
+	<sprite n="island18_cloud" x="1555" y="1651" w="308" h="318" oX="35" oY="15" oW="389" oH="338" r="y"/>
+	<sprite n="island18_critter_01" x="1667" y="675" w="60" h="24" oX="1" oY="0" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_02" x="1603" y="675" w="60" h="25" oX="0" oY="0" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_03" x="1731" y="675" w="59" h="24" oX="1" oY="1" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_04" x="2008" y="893" w="21" h="60" oX="4" oY="0" oW="28" oH="60"/>
+	<sprite n="island18_critter_05" x="1921" y="675" w="60" h="22" oX="3" oY="0" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_06" x="1985" y="675" w="59" h="22" oX="3" oY="1" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_07" x="1794" y="675" w="59" h="24" oX="3" oY="1" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_08" x="1857" y="675" w="60" h="23" oX="3" oY="0" oW="28" oH="60" r="y"/>
+	<sprite n="island18_critter_09" x="2008" y="957" w="21" h="60" oX="3" oY="0" oW="28" oH="60"/>
+	<sprite n="island18_critter_10" x="2008" y="701" w="22" h="60" oX="3" oY="0" oW="28" oH="60"/>
+	<sprite n="island18_critter_11" x="2008" y="765" w="22" h="60" oX="3" oY="0" oW="28" oH="60"/>
+	<sprite n="island18_critter_12" x="2008" y="829" w="22" h="60" oX="3" oY="0" oW="28" oH="60"/>
+	<sprite n="island18_side" x="808" y="4" w="791" h="521" r="y"/>
+	<sprite n="island18_side_glow" x="259" y="805" w="230" h="144" oX="8" oY="5" oW="261" oH="164"/>
+	<sprite n="island18_side_glow_01" x="252" y="1789" w="104" h="69" oX="0" oY="0" oW="116" oH="85"/>
+	<sprite n="pupil" x="4" y="4" w="800" h="797" oX="0" oY="0" oW="800" oH="800"/>
+	<sprite n="Swirl_00" x="855" y="1390" w="97" h="97" oX="132" oY="72" oW="360" oH="240"/>
+	<sprite n="Swirl_01" x="855" y="1292" w="120" h="94" oX="0" oY="146" oW="360" oH="240"/>
+	<sprite n="Swirl_02" x="4" y="1070" w="251" h="225" oX="0" oY="15" oW="360" oH="240"/>
+	<sprite n="Swirl_03" x="1407" y="1303" w="218" h="344" oX="0" oY="20" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_04" x="786" y="1070" w="346" h="218" oX="0" oY="22" oW="360" oH="240"/>
+	<sprite n="Swirl_05" x="1334" y="1679" w="217" h="349" oX="11" oY="23" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_06" x="259" y="953" w="215" h="332" oX="28" oY="25" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_07" x="1629" y="1303" w="212" h="309" oX="51" oY="27" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_08" x="4" y="805" w="206" h="249" oX="110" oY="29" oW="360" oH="240" r="y"/>
+	<sprite n="Swirl_09" x="1412" y="529" w="187" h="174" oX="180" oY="32" oW="360" oH="240" r="y"/>
+	<sprite n="TS_island18_ear" x="1603" y="4" w="426" h="667" oX="1" oY="0" oW="428" oH="668"/>
+</TextureAtlas>

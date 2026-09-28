@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5740f1f56c33edbbce42b521e888f276:f9ed19345e281d5312d269f2b7782b35:5119a8a92632a2eb201ddd1c24c25ea8$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_VWY_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="VWY_arm_A_01" x="163" y="377" w="97" h="72" oX="1" oY="29" oW="120" oH="140"/>
+	<sprite n="VWY_arm_A_02" x="278" y="756" w="23" h="51" oX="44" oY="44" oW="120" oH="140"/>
+	<sprite n="VWY_arm_A_03" x="0" y="791" w="59" h="24" oX="44" oY="51" oW="120" oH="140" r="y"/>
+	<sprite n="VWY_arm_A_04" x="247" y="730" w="55" h="24" oX="45" oY="48" oW="120" oH="140" r="y"/>
+	<sprite n="VWY_arm_A_05" x="132" y="276" w="29" h="66" oX="42" oY="42" oW="120" oH="140"/>
+	<sprite n="VWY_arm_A_06" x="358" y="500" w="44" h="71" oX="38" oY="42" oW="120" oH="140"/>
+	<sprite n="VWY_arm_B_01" x="162" y="451" w="97" h="72" oX="1" oY="15" oW="100" oH="120"/>
+	<sprite n="VWY_arm_B_02" x="195" y="648" w="59" h="28" oX="36" oY="33" oW="100" oH="120" r="y"/>
+	<sprite n="VWY_arm_B_03" x="0" y="623" w="73" h="27" oX="36" oY="26" oW="100" oH="120" r="y"/>
+	<sprite n="VWY_arm_B_04" x="486" y="618" w="26" h="66" oX="34" oY="26" oW="100" oH="120"/>
+	<sprite n="VWY_arm_B_05" x="247" y="705" w="56" h="23" oX="37" oY="31" oW="100" oH="120" r="y"/>
+	<sprite n="VWY_arm_B_06" x="404" y="577" w="89" h="39" oX="29" oY="14" oW="100" oH="120" r="y"/>
+	<sprite n="VWY_arm_C_01" x="261" y="500" w="95" h="71" oX="0" oY="6" oW="100" oH="100"/>
+	<sprite n="VWY_arm_C_02" x="127" y="439" w="33" h="66" oX="33" oY="17" oW="100" oH="100"/>
+	<sprite n="VWY_arm_C_03" x="305" y="705" w="27" h="55" oX="34" oY="27" oW="100" oH="100"/>
+	<sprite n="VWY_arm_C_04" x="181" y="678" w="66" h="24" oX="33" oY="16" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_arm_C_05" x="0" y="598" w="74" h="23" oX="33" oY="12" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_arm_C_06" x="334" y="727" w="55" h="23" oX="38" oY="22" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_arm_C_07" x="404" y="675" w="80" h="31" oX="33" oY="9" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_cymbal_back" x="263" y="292" w="142" h="80" oX="9" oY="24" oW="222" oH="222"/>
+	<sprite n="VWY_cymbal_front" x="0" y="276" w="130" h="113" oX="5" oY="50" oW="222" oH="222"/>
+	<sprite n="VWY_ear_01" x="195" y="581" w="59" h="65" oX="48" oY="52" oW="160" oH="160"/>
+	<sprite n="VWY_ear_02" x="0" y="503" w="112" h="93" oX="34" oY="30" oW="160" oH="160" r="y"/>
+	<sprite n="VWY_ear_03" x="404" y="618" w="80" h="55" oX="52" oY="44" oW="160" oH="160" r="y"/>
+	<sprite n="VWY_ear_04" x="162" y="525" w="92" h="54" oX="52" oY="46" oW="160" oH="160" r="y"/>
+	<sprite n="VWY_ear_05" x="163" y="240" w="98" h="135" oX="31" oY="17" oW="160" oH="160"/>
+	<sprite n="VWY_ear_06" x="0" y="391" w="125" h="110" oX="24" oY="17" oW="160" oH="160" r="y"/>
+	<sprite n="VWY_eyeball_sl" x="132" y="344" w="29" h="47" oX="37" oY="28" oW="100" oH="100"/>
+	<sprite n="VWY_eyeball_sr" x="442" y="808" w="50" h="39" oX="31" oY="26" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_eyelid_sl_01" x="480" y="730" w="32" h="52" oX="35" oY="25" oW="100" oH="100"/>
+	<sprite n="VWY_eyelid_sl_02" x="75" y="638" w="32" h="52" oX="35" oY="25" oW="100" oH="100"/>
+	<sprite n="VWY_eyelid_sl_03" x="73" y="692" w="32" h="52" oX="35" oY="25" oW="100" oH="100"/>
+	<sprite n="VWY_eyelid_sl_04" x="72" y="746" w="32" h="52" oX="35" oY="25" oW="100" oH="100"/>
+	<sprite n="VWY_eyelid_sl_05" x="224" y="756" w="52" h="32" oX="35" oY="25" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_eyelid_sr_01" x="349" y="632" w="53" h="43" oX="29" oY="24" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_eyelid_sr_02" x="334" y="752" w="53" h="43" oX="29" oY="24" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_eyelid_sr_03" x="169" y="745" w="53" h="43" oX="29" oY="24" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_eyelid_sr_04" x="106" y="776" w="53" h="43" oX="29" oY="24" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_eyelid_sr_05" x="61" y="800" w="43" h="53" oX="29" oY="24" oW="100" oH="100"/>
+	<sprite n="VWY_foot_left_RARE" x="0" y="652" w="71" h="70" oX="4" oY="5" oW="80" oH="80"/>
+	<sprite n="VWY_foot_right_RARE" x="114" y="581" w="79" h="71" oX="0" oY="7" oW="80" oH="80"/>
+	<sprite n="VWY_hand_left" x="431" y="849" w="47" h="39" oX="7" oY="5" oW="56" oH="56" r="y"/>
+	<sprite n="VWY_hand_right" x="106" y="821" w="46" h="46" oX="3" oY="2" oW="56" oH="56"/>
+	<sprite n="VWY_hanging_bits" x="303" y="762" w="23" h="47" oX="50" oY="40" oW="128" oH="128"/>
+	<sprite n="VWY_head" x="266" y="0" w="228" h="158" oX="36" oY="71" oW="300" oH="300"/>
+	<sprite n="VWY_head_sl" x="405" y="460" w="98" h="115" oX="102" oY="87" oW="300" oH="300"/>
+	<sprite n="VWY_head_sr" x="263" y="374" w="140" h="124" oX="92" oY="80" oW="300" oH="300"/>
+	<sprite n="VWY_leg_left_RARE" x="334" y="677" w="66" h="48" oX="10" oY="4" oW="80" oH="60"/>
+	<sprite n="VWY_leg_right_RARE" x="181" y="704" w="64" h="39" oX="3" oY="1" oW="50" oH="70" r="y"/>
+	<sprite n="VWY_mallow_large_blue" x="417" y="160" w="95" h="97" oX="11" oY="14" oW="120" oH="120" r="y"/>
+	<sprite n="VWY_mallow_large_blue_GLOW" x="163" y="134" w="101" h="104" oX="10" oY="10" oW="120" oH="120"/>
+	<sprite n="VWY_mallow_large_green" x="417" y="259" w="95" h="94" oX="11" oY="14" oW="120" oH="120"/>
+	<sprite n="VWY_mallow_large_green_GLOW" x="407" y="355" w="104" h="103" oX="7" oY="8" oW="120" oH="120" r="y"/>
+	<sprite n="VWY_mallow_large_orange" x="256" y="639" w="76" h="64" oX="18" oY="12" oW="100" oH="100" r="y"/>
+	<sprite n="VWY_mallow_large_pink" x="266" y="160" w="149" h="130" oX="62" oY="48" oW="222" oH="222" r="y"/>
+	<sprite n="VWY_mallow_large_pink_GLOW" x="0" y="134" w="161" h="140" oX="57" oY="43" oW="222" oH="222" r="y"/>
+	<sprite n="VWY_mallow_medium_orange" x="389" y="774" w="51" h="46" oX="7" oY="4" oW="60" oH="60" r="y"/>
+	<sprite n="VWY_mallow_medium_purple" x="109" y="654" w="70" h="69" oX="7" oY="6" oW="80" oH="80" r="y"/>
+	<sprite n="VWY_mallow_medium_purple_GLOW" x="402" y="708" w="76" h="64" oX="4" oY="3" oW="80" oH="80" r="y"/>
+	<sprite n="VWY_mallow_small_blue" x="161" y="790" w="47" h="38" oX="10" oY="6" oW="60" oH="60" r="y"/>
+	<sprite n="VWY_mallow_small_green" x="0" y="724" w="70" h="65" oX="6" oY="7" oW="80" oH="80" r="y"/>
+	<sprite n="VWY_mallow_small_green_GLOW" x="114" y="507" w="46" h="72" oX="1" oY="19" oW="80" oH="80" r="y"/>
+	<sprite n="VWY_mallow_small_orange" x="127" y="393" w="34" h="44" oX="11" oY="7" oW="60" oH="60"/>
+	<sprite n="VWY_mallow_small_pink" x="349" y="573" w="53" h="57" oX="14" oY="15" oW="80" oH="80"/>
+	<sprite n="VWY_mallow_small_purple" x="0" y="817" w="53" h="40" oX="11" oY="2" oW="60" oH="60" r="y"/>
+	<sprite n="VWY_mallow_under_blue" x="107" y="725" w="60" h="49" oX="5" oY="11" oW="70" oH="70"/>
+	<sprite n="VWY_nose" x="328" y="797" w="51" h="43" oX="23" oY="32" oW="100" oH="100"/>
+	<sprite n="VWY_pupil" x="496" y="0" w="10" h="25" oX="46" oY="37" oW="100" oH="100"/>
+	<sprite n="VWY_shadow" x="0" y="0" w="264" h="132" oX="7" oY="29" oW="280" oH="180"/>
+	<sprite n="VWY_shoulder_left" x="442" y="774" w="32" h="32" oX="13" oY="12" oW="56" oH="56"/>
+	<sprite n="VWY_shoulder_right" x="381" y="822" w="48" h="40" oX="8" oY="4" oW="56" oH="56" r="y"/>
+	<sprite n="VWY_torso_RARE" x="256" y="573" w="91" h="64" oX="5" oY="18" oW="100" oH="100"/>
+	<sprite n="VWY_wrist_left" x="76" y="598" w="35" h="38" oX="6" oY="11" oW="56" oH="56" r="y"/>
+	<sprite n="VWY_wrist_right" x="486" y="686" w="25" h="42" oX="16" oY="8" oW="56" oH="56"/>
+</TextureAtlas>

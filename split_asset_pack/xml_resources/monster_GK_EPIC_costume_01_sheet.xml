@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:14945d036173c1d01462832b8a921dc6:59cf1d8fcb56435fdd9d81d7e97e16b9:520c32d2724fa42559429ede01fbd1fe$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_GK_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="GK_body_cover_EPIC" x="0" y="0" w="292" h="220" pX="0.5" pY="0.5" oX="0" oY="13" oW="300" oH="240"/>
+	<sprite n="GK_body_EPIC" x="294" y="0" w="178" h="122" pX="0.5" pY="0.5" oX="95" oY="86" oW="300" oH="240"/>
+	<sprite n="GK_gas_swirl" x="419" y="124" w="90" h="106" pX="0.5" pY="0.5" oX="8" oY="13" oW="120" oH="116" r="y"/>
+	<sprite n="GK_left_lowerleg_EPIC" x="0" y="274" w="109" h="115" pX="0.5" pY="0.5" oX="0" oY="5" oW="120" oH="120" r="y"/>
+	<sprite n="GK_left_lowerleg_EPIC_02" x="0" y="222" w="80" h="42" pX="0.416667" pY="2.18182" oX="1" oY="0" oW="84" oH="44"/>
+	<sprite n="GK_right_lowerleg_EPIC" x="0" y="391" w="98" h="109" pX="0.5" pY="0.5" oX="11" oY="5" oW="120" oH="120"/>
+	<sprite n="GK_right_lowerleg_EPIC_02" x="419" y="232" w="81" h="40" pX="0.488095" pY="2.13636" oX="1" oY="1" oW="84" oH="44"/>
+	<sprite n="GK_upperleg_EPIC" x="474" y="0" w="37" h="87" pX="0.5" pY="0.5" oX="7" oY="1" oW="52" oH="88"/>
+	<sprite n="GK_vase_EPIC" x="294" y="124" w="123" h="118" pX="0.991667" pY="1.48387" oX="1" oY="1" oW="120" oH="124" r="y"/>
+</TextureAtlas>

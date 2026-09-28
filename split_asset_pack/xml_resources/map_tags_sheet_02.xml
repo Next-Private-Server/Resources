@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3ba3deeef0fea50ccf1a3f238d5ca2d3:a490b795e631537d74146c95c6fa3c71:bb629d473d40b9636748b00388dddce9$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_tags_sheet_02.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="map_tag_island01_mirror" x="0" y="0" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island02_mirror" x="542" y="0" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island03_mirror" x="0" y="129" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island04_mirror" x="0" y="258" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island05_mirror" x="0" y="387" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island15_mirror" x="0" y="516" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island16_mirror" x="671" y="0" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island17_mirror" x="800" y="0" w="127" h="540" oX="0" oY="8" oW="562" oH="144" r="y"/>
+	<sprite n="map_tag_island18_mirror" x="0" y="645" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+	<sprite n="map_tag_island31_MIN" x="0" y="774" w="540" h="127" oX="0" oY="8" oW="562" oH="144"/>
+</TextureAtlas>

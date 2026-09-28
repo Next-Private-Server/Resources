@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:399e99802e59630663ba92f0e6d29322:21fb4bafca4f42e8527abb715cef6c85:0eeb25fa4e0db6a952c24d99fcec30af$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_JM_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="JM_1st_hand" x="459" y="153" w="48" h="60" pX="0.5" pY="0.2"/>
+	<sprite n="JM_1st_hand_01" x="465" y="0" w="46" h="60" pX="0.5" pY="0.2" oX="0" oY="0" oW="48" oH="60"/>
+	<sprite n="JM_1st_hand_02" x="459" y="153" w="48" h="60" pX="0.5" pY="0.2"/>
+	<sprite n="JM_1st_hand_03" x="458" y="215" w="48" h="56" pX="0.5" pY="0.2" oX="0" oY="0" oW="48" oH="60"/>
+	<sprite n="JM_1st_hand_04" x="458" y="273" w="48" h="55" pX="0.5" pY="0.2" oX="0" oY="0" oW="48" oH="60"/>
+	<sprite n="JM_1st_lowerarm" x="118" y="164" w="36" h="80" pX="0.5" pY="0.5"/>
+	<sprite n="JM_1st_upperarm" x="286" y="136" w="24" h="66" pX="0.5" pY="0.5" oX="2" oY="3" oW="28" oH="72"/>
+	<sprite n="JM_2nd_hand" x="459" y="153" w="48" h="60" pX="0.5" pY="0.2"/>
+	<sprite n="JM_2nd_hand_01" x="465" y="0" w="46" h="60" pX="0.5" pY="0.2" oX="0" oY="0" oW="48" oH="60"/>
+	<sprite n="JM_2nd_hand_02" x="459" y="153" w="48" h="60" pX="0.5" pY="0.2"/>
+	<sprite n="JM_2nd_hand_03" x="458" y="215" w="48" h="56" pX="0.5" pY="0.2" oX="0" oY="0" oW="48" oH="60"/>
+	<sprite n="JM_2nd_hand_04" x="458" y="273" w="48" h="55" pX="0.5" pY="0.2" oX="0" oY="0" oW="48" oH="60"/>
+	<sprite n="JM_2nd_lowerarm" x="118" y="164" w="36" h="80" pX="0.5" pY="0.5"/>
+	<sprite n="JM_2nd_upperarm" x="286" y="136" w="24" h="66" pX="0.5" pY="0.5" oX="2" oY="3" oW="28" oH="72"/>
+	<sprite n="JM_head" x="167" y="0" w="149" h="134" pX="0.205882" pY="0.631579" oX="1" oY="1" oW="136" oH="152" r="y"/>
+	<sprite n="JM_head_red" x="167" y="136" w="117" h="79" pX="0.366667" pY="1.2875" oX="1" oY="0" oW="120" oH="80"/>
+	<sprite n="JM_left_foot" x="151" y="412" w="68" h="76" pX="0.5" pY="0.5" oX="0" oY="13" oW="76" oH="92" r="y"/>
+	<sprite n="JM_left_lowerleg" x="156" y="217" w="104" h="56" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="JM_lowerbody" x="318" y="81" w="139" h="131" pX="0.5" pY="0.5" oX="0" oY="5" oW="164" oH="136"/>
+	<sprite n="JM_mouth_01" x="0" y="222" w="108" h="57" pX="0.5" pY="0.5" oX="0" oY="0" oW="112" oH="88"/>
+	<sprite n="JM_mouth_02" x="286" y="214" w="104" h="57" pX="0.5" pY="0.5" oX="1" oY="1" oW="112" oH="88"/>
+	<sprite n="JM_mouth_03" x="392" y="214" w="64" h="102" pX="0.5" pY="0.5" oX="1" oY="2" oW="112" oH="88" r="y"/>
+	<sprite n="JM_mouth_04" x="262" y="273" w="93" h="71" pX="0.5" pY="0.5" oX="3" oY="0" oW="112" oH="88"/>
+	<sprite n="JM_mouth_05" x="0" y="412" w="79" h="90" pX="0.5" pY="0.5" oX="1" oY="3" oW="112" oH="88" r="y"/>
+	<sprite n="JM_right_foot" x="81" y="412" w="68" h="78" pX="0.5" pY="0.5" oX="3" oY="10" oW="88" oH="80" r="y"/>
+	<sprite n="JM_right_lowerleg" x="156" y="217" w="104" h="56" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="JM_shadow" x="0" y="164" w="116" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="JM_smokebreath" x="357" y="318" w="92" h="92" pX="0.5" pY="0.5"/>
+	<sprite n="JM_tail_1" x="318" y="0" w="145" h="79" pX="0.5" pY="0.5" oX="5" oY="17" oW="152" oH="112"/>
+	<sprite n="JM_upperbody" x="0" y="0" w="165" h="162" pX="0.5" pY="0.5" oX="2" oY="16" oW="168" oH="180"/>
+	<sprite n="JM_upperleg" x="465" y="62" w="36" h="89" pX="0.5" pY="0.5" oX="0" oY="3" oW="40" oH="92"/>
+</TextureAtlas>

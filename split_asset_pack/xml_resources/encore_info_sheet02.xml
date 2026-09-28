@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e20452a870186a7272fbe7a462eeb9b3:1cb7ba41fc31699a3eca197ef15bc864:4198a741eef002dafdc42beb27abed2f$ -->
+<TextureAtlas imagePath="gfx/menu/encore/encore_info_sheet02.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="encore_02" x="777" y="317" w="228" h="387" r="y"/>
+	<sprite n="encore_05" x="441" y="317" w="334" h="269"/>
+	<sprite n="encore_06_door_closed" x="744" y="706" w="96" h="133" r="y"/>
+	<sprite n="encore_07_door_open" x="582" y="588" w="116" h="203" r="y"/>
+	<sprite n="encore_09" x="0" y="608" w="580" h="414" r="y"/>
+	<sprite n="encore_10" x="441" y="0" w="340" h="315" r="y"/>
+	<sprite n="encore_arrow" x="783" y="189" w="183" h="113" r="y"/>
+	<sprite n="encore_bar_01" x="976" y="0" w="42" h="268" r="y"/>
+	<sprite n="encore_bar_02" x="700" y="588" w="42" h="268" r="y"/>
+	<sprite n="encore_bar_03" x="933" y="706" w="42" h="268" r="y"/>
+	<sprite n="encore_burst" x="697" y="858" w="122" h="124" r="y"/>
+	<sprite n="encore_frame" x="0" y="0" w="439" h="606"/>
+	<sprite n="encore_glow" x="842" y="706" w="89" h="90" r="y"/>
+	<sprite n="encore_glow_ring" x="783" y="0" w="191" h="187"/>
+	<sprite n="encore_light" x="582" y="793" w="113" h="203"/>
+	<sprite n="encore_pie" x="821" y="841" w="91" h="102" oX="11" oY="4" oW="124" oH="99" r="y"/>
+</TextureAtlas>

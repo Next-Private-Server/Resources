@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:160a3867dd342f415607a8e7d648edc7:b2cd406ced1a3180f2a7407119f984ee:6f4fd64a8fddbfde8140bbe7ec1ae7ab$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/titansoul/soulink_sheet.png" width="512" height="512">
+    <sprite n="portrait_square_lock" x="244" y="308" w="100" h="100"/>
+    <sprite n="portrait_square_plus" x="257" y="410" w="100" h="100"/>
+    <sprite n="portrait_square_tinted" x="346" y="306" w="100" h="100"/>
+    <sprite n="soul_curl_C_01" x="342" y="80" w="140" h="58"/>
+    <sprite n="soul_curl_C_02" x="306" y="140" w="180" h="83"/>
+    <sprite n="soul_curl_C_03" x="294" y="225" w="97" h="79"/>
+    <sprite n="soul_curl_C_04" x="165" y="225" w="77" h="223" r="y"/>
+    <sprite n="soul_curl_C_glow" x="244" y="222" w="48" h="84" r="y"/>
+    <sprite n="soul_curl_RE_01" x="2" y="222" w="94" h="266" r="y"/>
+    <sprite n="soul_curl_RE_02" x="2" y="126" w="302" h="94"/>
+    <sprite n="soul_curl_RE_03" x="2" y="2" w="338" h="122"/>
+    <sprite n="soul_curl_RE_04" x="98" y="225" w="65" h="230" r="y"/>
+    <sprite n="soul_curl_RE_05" x="359" y="408" w="36" h="86" r="y"/>
+    <sprite n="soul_curl_RE_glow" x="342" y="2" w="144" h="76"/>
+    <sprite n="soul_dot" x="448" y="378" w="44" h="44"/>
+    <sprite n="soul_sparks_01" x="393" y="225" w="90" h="77" r="y"/>
+    <sprite n="soul_sparks_02" x="98" y="457" w="79" h="50"/>
+    <sprite n="soul_sparks_03" x="448" y="304" w="47" h="72" r="y"/>
+    <sprite n="soul_sparks_04" x="179" y="450" w="76" h="47"/>
+</TextureAtlas>

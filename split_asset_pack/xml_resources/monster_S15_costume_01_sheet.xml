@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0255cfba5d51703e6d715457207df969:8712cd45f1e07a10ff534b88d08a02ea:c653869d389eb4361f170f2c0d37ca41$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S15_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="S15_hat_front" x="174" y="268" w="149" h="179" pX="0.5" pY="0.5" oX="4" oY="11" oW="188" oH="172" r="y"/>
+	<sprite n="S15_head" x="0" y="0" w="243" h="266" pX="0.5" pY="0.5" oX="8" oY="7" oW="260" oH="280"/>
+	<sprite n="S15_left_boot_top" x="325" y="0" w="23" h="43" pX="0.5181818181818182" pY="0.3" oX="1" oY="0" oW="44" oH="24" r="y"/>
+	<sprite n="S15_left_foot" x="245" y="0" w="69" h="100" pX="0.725" pY="0.18333333333333332" oX="0" oY="2" oW="100" oH="72" r="y"/>
+	<sprite n="S15_left_lower_leg" x="316" y="89" w="31" h="89" pX="0.46111111111111114" pY="0.828125" oX="2" oY="5" oW="36" oH="96"/>
+	<sprite n="S15_left_lower_pant" x="276" y="449" w="36" h="52" pX="0.4694444444444444" pY="1.4615384615384615"/>
+	<sprite n="S15_left_upper_arm" x="352" y="0" w="143" h="44" pX="0.8555555555555556" pY="0.45909090909090905" oX="1" oY="0" oW="144" oH="44"/>
+	<sprite n="S15_left_upper_pant" x="245" y="102" w="39" h="100" pX="0.5175" pY="0.8240384615384616" oX="1" oY="2" oW="40" oH="104"/>
+	<sprite n="S15_right_boot_top" x="325" y="45" w="22" h="42" pX="0.43636363636363634" pY="0.5833333333333334" oX="0" oY="2" oW="44" oH="24" r="y"/>
+	<sprite n="S15_right_foot" x="174" y="449" w="100" h="61" pX="0.25" pY="0.29375" oX="0" oY="3" oW="100" oH="64"/>
+	<sprite n="S15_right_lower_leg" x="352" y="92" w="89" h="31" pX="0.5111111111111111" pY="0.834375" oX="2" oY="5" oW="36" oH="96" r="y"/>
+	<sprite n="S15_right_lower_pant" x="314" y="449" w="36" h="52" pX="0.5" pY="0.5"/>
+	<sprite n="S15_right_upper_arm" x="352" y="46" w="142" h="44" pX="0.14375" pY="0.4818181818181818" oX="0" oY="0" oW="144" oH="44"/>
+	<sprite n="S15_right_upper_pant" x="245" y="204" w="100" h="39" pX="0.49000000000000005" pY="0.8125" oX="0" oY="2" oW="40" oH="104" r="y"/>
+	<sprite n="S15_shirt" x="0" y="268" w="172" h="232" pX="0.47198275862068967" pY="0.30872093023255814" r="y"/>
+</TextureAtlas>

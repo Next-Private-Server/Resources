@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d1162b30648b922da1ef599b6be755e0:223f507e618ad8b4978b5025ff42a8a4:6e6d80b38647ef2827a3386e7d9d4fbb$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S04_EPIC_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="S04_antler_left" x="289" y="0" w="209" h="254" pX="0.5" pY="0.5" oX="1" oY="0" oW="256" oH="210" r="y"/>
+	<sprite n="S04_antler_right" x="289" y="256" w="205" h="266" pX="0.5" pY="0.5" oX="2" oY="1" oW="270" oH="208" r="y"/>
+	<sprite n="S04_arm_left" x="96" y="650" w="72" h="69" pX="0.5" pY="0.5" oX="0" oY="3" oW="74" oH="72"/>
+	<sprite n="S04_arm_right" x="170" y="650" w="69" h="61" pX="0.5" pY="0.5" oX="0" oY="0" oW="62" oH="70" r="y"/>
+	<sprite n="S04_BASKET" x="166" y="263" w="120" h="145" pX="-0.16666666666666666" pY="-0.08" oX="0" oY="2" oW="120" oH="150"/>
+	<sprite n="S04_body_EPIC" x="0" y="0" w="287" h="261" pX="0.5" pY="0.5" oX="12" oY="9" oW="280" oH="300" r="y"/>
+	<sprite n="S04_ear_left" x="146" y="410" w="130" h="68" pX="0.5" pY="0.5" oX="4" oY="0" oW="74" oH="130" r="y"/>
+	<sprite n="S04_ear_right" x="0" y="263" w="164" h="67" pX="0.5" pY="0.5" oX="0" oY="4" oW="70" oH="170" r="y"/>
+	<sprite n="S04_ear_tip_left" x="278" y="524" w="114" h="62" pX="0.5" pY="0.5" oX="0" oY="0" oW="114" oH="90"/>
+	<sprite n="S04_ear_tip_right" x="394" y="524" w="110" h="61" pX="0.5" pY="0.5" oX="4" oY="1" oW="122" oH="90"/>
+	<sprite n="S04_foot_left" x="0" y="332" w="145" h="76" pX="0.5" pY="0.5" oX="3" oY="0" oW="150" oH="76"/>
+	<sprite n="S04_foot_right" x="0" y="410" w="144" h="76" pX="0.5" pY="0.5" oX="6" oY="0" oW="150" oH="76"/>
+	<sprite n="S04_hand_left" x="394" y="587" w="109" h="96" pX="0.5" pY="0.5" oX="0" oY="3" oW="110" oH="100"/>
+	<sprite n="S04_hand_right" x="0" y="555" w="96" h="93" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="94"/>
+	<sprite n="S04_hip_left" x="0" y="650" w="94" h="81" pX="0.5" pY="0.5" oX="2" oY="0" oW="96" oH="84"/>
+	<sprite n="S04_hip_right" x="242" y="588" w="96" h="82" pX="0.5" pY="0.5" oX="0" oY="0" oW="96" oH="84"/>
+	<sprite n="S04_tail" x="132" y="548" w="108" h="100" pX="0.5" pY="0.5" oX="30" oY="51" oW="146" oH="160"/>
+	<sprite n="S04_toes_left" x="0" y="488" w="130" h="65" pX="0.5" pY="0.5" oX="0" oY="1" oW="130" oH="66"/>
+	<sprite n="S04_toes_right" x="146" y="480" w="130" h="66" pX="0.5" pY="0.5"/>
+</TextureAtlas>

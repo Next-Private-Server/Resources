@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5531bb69dec62737b83a9c4f3446b5d7:38f5578b2645641ec71b1a2cde7a3cbb:aef7996b7aeedd1c235a030a1fde0988$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACDEN_costume_01_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ACDEN_body_front" x="0" y="0" w="275" h="419" pX="0.5" pY="0.5" oX="0" oY="4" oW="280" oH="428"/>
+	<sprite n="ACDEN_body_hind" x="0" y="421" w="262" h="327" pX="0.5" pY="0.5" oX="9" oY="6" oW="280" oH="340"/>
+	<sprite n="ACDEN_ear_L" x="395" y="153" w="89" h="148" pX="0.5" pY="0.5" oX="3" oY="2" oW="96" oH="152"/>
+	<sprite n="ACDEN_ear_R" x="503" y="418" w="74" h="134" pX="0.5" pY="0.5" oX="3" oY="3" oW="80" oH="140"/>
+	<sprite n="ACDEN_head" x="233" y="750" w="178" h="226" pX="0.5" pY="0.5" oX="5" oY="7" oW="184" oH="240"/>
+	<sprite n="ACDEN_left_back_foot" x="395" y="0" w="119" h="151" pX="0.5" pY="0.5" oX="4" oY="0" oW="160" oH="120" r="y"/>
+	<sprite n="ACDEN_left_back_lowerleg" x="486" y="153" w="87" h="148" pX="0.5" pY="0.5" oX="7" oY="1" oW="96" oH="152"/>
+	<sprite n="ACDEN_left_back_upperleg" x="277" y="0" w="116" h="180" pX="0.5" pY="0.5" oX="2" oY="3" oW="120" oH="188"/>
+	<sprite n="ACDEN_left_front_foot" x="549" y="303" w="98" h="109" pX="0.5" pY="0.5" oX="1" oY="4" oW="112" oH="108" r="y"/>
+	<sprite n="ACDEN_left_front_lowerleg" x="413" y="942" w="170" h="81" pX="0.5" pY="0.5" oX="3" oY="5" oW="92" oH="180" r="y"/>
+	<sprite n="ACDEN_left_front_upperleg" x="413" y="745" w="130" h="195" pX="0.5" pY="0.5" oX="0" oY="1" oW="132" oH="200"/>
+	<sprite n="ACDEN_right_back_foot" x="393" y="418" w="108" h="159" pX="0.5" pY="0.5" oX="2" oY="8" oW="164" oH="120" r="y"/>
+	<sprite n="ACDEN_right_back_lowerleg" x="516" y="0" w="85" h="148" pX="0.5" pY="0.5" oX="7" oY="5" oW="96" oH="160"/>
+	<sprite n="ACDEN_right_back_upperleg" x="277" y="182" w="116" h="170" pX="0.5" pY="0.5" oX="2" oY="5" oW="120" oH="180"/>
+	<sprite n="ACDEN_right_front_foot" x="358" y="622" w="93" h="121" pX="0.5" pY="0.5" oX="3" oY="3" oW="128" oH="100" r="y"/>
+	<sprite n="ACDEN_right_front_lowerleg" x="453" y="579" w="79" h="159" pX="0.5" pY="0.5" oX="3" oY="0" oW="84" oH="160"/>
+	<sprite n="ACDEN_right_front_upperleg" x="264" y="421" w="127" h="199" pX="0.5" pY="0.5" oX="2" oY="2" oW="132" oH="208"/>
+	<sprite n="ACDEN_sash" x="0" y="750" w="231" h="243" pX="0.9661016949152542" pY="0.5564516129032258" oX="2" oY="2" oW="236" oH="248"/>
+	<sprite n="ACDEN_trunk_L0" x="579" y="414" w="74" h="109" pX="0.5" pY="0.5" oX="3" oY="1" oW="80" oH="112"/>
+	<sprite n="ACDEN_trunk_L1" x="603" y="0" w="76" h="119" pX="0.5" pY="0.5" oX="2" oY="0" oW="80" oH="120"/>
+	<sprite n="ACDEN_trunk_L2" x="277" y="354" w="99" h="64" pX="0.5" pY="0.5" oX="2" oY="0" oW="68" oH="100" r="y"/>
+	<sprite n="ACDEN_trunk_L3" x="378" y="354" w="95" h="62" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="96" r="y"/>
+	<sprite n="ACDEN_trunk_L4" x="534" y="674" w="108" h="69" pX="0.5" pY="0.5" oX="2" oY="3" oW="72" oH="112" r="y"/>
+	<sprite n="ACDEN_trunk_L5" x="534" y="554" w="87" h="118" pX="0.5" pY="0.5" oX="2" oY="2" oW="92" oH="120"/>
+	<sprite n="ACDEN_trunk_L6" x="575" y="150" w="104" h="119" pX="0.5" pY="0.5" oX="2" oY="2" oW="124" oH="108" r="y"/>
+	<sprite n="ACDEN_trunk_R0" x="649" y="271" w="70" h="109" pX="0.5" pY="0.5" oX="1" oY="1" oW="72" oH="112"/>
+	<sprite n="ACDEN_trunk_R1" x="475" y="303" w="72" h="113" pX="0.5" pY="0.5" oX="2" oY="3" oW="76" oH="120"/>
+	<sprite n="ACDEN_trunk_R2" x="545" y="745" w="61" h="92" pX="0.5" pY="0.5" oX="2" oY="0" oW="64" oH="92"/>
+	<sprite n="ACDEN_trunk_R3" x="545" y="839" w="56" h="90" pX="0.5" pY="0.5" oX="2" oY="1" oW="60" oH="92"/>
+	<sprite n="ACDEN_trunk_R4" x="655" y="382" w="72" h="105" pX="0.5" pY="0.5" oX="2" oY="2" oW="76" oH="108"/>
+	<sprite n="ACDEN_trunk_R5" x="264" y="622" w="92" h="124" pX="0.5" pY="0.5" oX="3" oY="2" oW="96" oH="128"/>
+	<sprite n="ACDEN_trunk_R6" x="623" y="525" w="103" h="108" pX="0.5" pY="0.5" oX="2" oY="1" oW="108" oH="112"/>
+</TextureAtlas>

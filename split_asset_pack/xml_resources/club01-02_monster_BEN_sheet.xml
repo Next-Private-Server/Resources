@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cb385695aeb4411a5965aa5f5b80bb14:4ef19e18d1c6e646e8fc8d03194ff203:4e5f0c90fc434aae1100e110ff0e934e$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_monster_BEN_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BEN_body" x="219" y="63" w="161" h="123" r="y"/>
+	<sprite n="BEN_eyelid_L1" x="105" y="289" w="22" h="24" oX="2" oY="1" oW="61" oH="31"/>
+	<sprite n="BEN_eyelid_L2" x="81" y="289" w="22" h="25" oX="2" oY="1" oW="61" oH="31"/>
+	<sprite n="BEN_eyelid_L3" x="81" y="316" w="22" h="25" oX="2" oY="1" oW="61" oH="31"/>
+	<sprite n="BEN_eyelid_L4" x="60" y="490" w="26" h="22" oX="2" oY="1" oW="61" oH="31" r="y"/>
+	<sprite n="BEN_eyelid_R1" x="51" y="406" w="26" h="26" oX="33" oY="4" oW="61" oH="31"/>
+	<sprite n="BEN_eyelid_R2" x="51" y="434" w="26" h="26" oX="33" oY="4" oW="61" oH="31"/>
+	<sprite n="BEN_eyelid_R3" x="60" y="462" w="26" h="26" oX="33" oY="4" oW="61" oH="31"/>
+	<sprite n="BEN_eyelid_R4" x="79" y="349" w="26" h="26" oX="33" oY="4" oW="61" oH="31"/>
+	<sprite n="BEN_eyes" x="26" y="417" w="23" h="53" r="y"/>
+	<sprite n="BEN_face_red" x="0" y="216" w="72" h="49"/>
+	<sprite n="BEN_hair_front" x="471" y="208" w="38" h="33" r="y"/>
+	<sprite n="BEN_hair_left" x="23" y="349" w="54" h="55" oX="0" oY="0" oW="55" oH="56" r="y"/>
+	<sprite n="BEN_hair_left_base" x="113" y="266" w="16" h="16" oX="22" oY="40" oW="55" oH="56"/>
+	<sprite n="BEN_hair_right" x="23" y="289" w="56" h="58" oX="0" oY="0" oW="58" oH="58" r="y"/>
+	<sprite n="BEN_hair_right_base" x="94" y="266" w="17" h="18" oX="19" oY="40" oW="58" oH="58"/>
+	<sprite n="BEN_hand" x="471" y="243" w="37" h="44"/>
+	<sprite n="BEN_head" x="379" y="208" w="90" h="74"/>
+	<sprite n="BEN_hornbell" x="382" y="69" w="130" h="137"/>
+	<sprite n="BEN_horntube" x="0" y="77" w="150" h="59" r="y"/>
+	<sprite n="BEN_left_ankle" x="312" y="188" w="65" h="70" oX="0" oY="19" oW="70" oH="84" r="y"/>
+	<sprite n="BEN_left_foot" x="74" y="216" w="70" h="48"/>
+	<sprite n="BEN_left_lowerarm" x="0" y="355" w="21" h="62" r="y"/>
+	<sprite n="BEN_left_lowerleg" x="425" y="0" w="84" h="67" oX="3" oY="0" oW="70" oH="84" r="y"/>
+	<sprite n="BEN_left_upperarm" x="0" y="267" w="61" h="20"/>
+	<sprite n="BEN_mouth_01" x="63" y="267" w="29" h="18" oX="18" oY="8" oW="68" oH="36"/>
+	<sprite n="BEN_mouth_02" x="0" y="481" w="24" h="31" oX="18" oY="6" oW="68" oH="36" r="y"/>
+	<sprite n="BEN_mouth_03" x="26" y="472" w="32" h="34" oX="17" oY="2" oW="68" oH="36"/>
+	<sprite n="BEN_mouth_04" x="149" y="201" w="67" h="34" oX="1" oY="0" oW="68" oH="36"/>
+	<sprite n="BEN_pupil" x="23" y="406" w="8" h="9"/>
+	<sprite n="BEN_right_ankle" x="152" y="77" w="65" h="71" oX="0" oY="27" oW="71" oH="92" r="y"/>
+	<sprite n="BEN_right_foot" x="149" y="150" w="67" h="49"/>
+	<sprite n="BEN_right_lowerarm" x="146" y="237" w="65" h="21"/>
+	<sprite n="BEN_right_lowerleg" x="218" y="188" w="92" h="70" oX="1" oY="0" oW="71" oH="92" r="y"/>
+	<sprite n="BEN_right_upperarm" x="0" y="289" w="21" h="64" r="y"/>
+	<sprite n="BEN_tube_behind" x="219" y="0" w="204" h="61"/>
+	<sprite n="BEN_tube_front" x="0" y="0" w="217" h="75"/>
+	<sprite n="BEN_upperleg" x="0" y="419" w="24" h="60"/>
+	<sprite n="shadow" x="0" y="138" w="147" h="76"/>
+</TextureAtlas>

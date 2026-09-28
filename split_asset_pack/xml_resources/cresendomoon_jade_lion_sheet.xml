@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:269dc016110d33053a1cddcc256a6c22:9eca26ec60670337c9fda14878b9ea46:cc4e7b5c54edc32308f92ca3504c91fb$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cresendomoon_jade_lion_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="jade_lion_base" x="3" y="3" w="697" h="376" pX="0.5" pY="0.5" oX="12" oY="21" oW="400" oH="740" r="y"/>
+    <sprite n="jade_lion_glow_eye" x="704" y="196" w="200" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="jade_lion_glow_gates" x="3" y="763" w="576" h="339" pX="0.5" pY="0.5" oX="12" oY="10" oW="600" oH="360"/>
+    <sprite n="jade_lion_glow_jade" x="3" y="383" w="697" h="376" pX="0.5" pY="0.5" oX="12" oY="21" oW="400" oH="740" r="y"/>
+    <sprite n="jade_lion_glow_orb" x="704" y="3" w="233" h="189" pX="0.5" pY="0.5" oX="23" oY="5" oW="280" oH="200"/>
+    <sprite n="jade_lion_shadow" x="704" y="300" w="196" h="385" pX="0.5" pY="0.5" oX="7" oY="2" oW="400" oH="200" r="y"/>
+    <sprite n="jade_lion_symbol_01" x="3" y="1106" w="486" h="350" pX="0.5" pY="0.5" oX="69" oY="69" oW="500" oH="600" r="y"/>
+    <sprite n="jade_lion_symbol_02" x="3" y="1460" w="465" h="366" pX="0.5" pY="0.5" oX="74" oY="46" oW="500" oH="600" r="y"/>
+    <sprite n="jade_lion_symbol_03" x="472" y="1464" w="404" h="359" pX="0.5" pY="0.5" oX="76" oY="104" oW="500" oH="600" r="y"/>
+    <sprite n="jade_lion_symbol_04" x="583" y="763" w="419" h="356" pX="0.5" pY="0.5" oX="61" oY="118" oW="500" oH="600" r="y"/>
+    <sprite n="jade_lion_symbol_05" x="493" y="1123" w="486" h="337" pX="0.5" pY="0.5" oX="61" oY="69" oW="500" oH="600" r="y"/>
+</TextureAtlas>

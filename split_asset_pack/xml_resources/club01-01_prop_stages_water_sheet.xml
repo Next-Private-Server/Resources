@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6d31fbf8d653d4678f3c0b4c506ea57e:edcb1df8f172256dd0476eb9a98d6019:7e122aec396b23e7b77d484020de7086$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_stages_water_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="fish_blue" x="31" y="1994" w="25" h="32" oX="4" oY="3" oW="41" oH="31" r="y"/>
+	<sprite n="fish_green" x="0" y="1994" w="29" h="32" oX="4" oY="4" oW="40" oH="37" r="y"/>
+	<sprite n="fish_red" x="1010" y="456" w="14" h="29" oX="2" oY="0" oW="33" oH="14" r="y"/>
+	<sprite n="fish_small" x="1000" y="530" w="18" h="11" oX="2" oY="0" oW="22" oH="12"/>
+	<sprite n="fish_yellow" x="1010" y="487" w="13" h="21" oX="2" oY="0" oW="25" oH="13" r="y"/>
+	<sprite n="glass" x="0" y="445" w="858" h="443" oX="129" oY="25" oW="1130" oH="556"/>
+	<sprite n="jellyfish_head" x="0" y="2028" w="13" h="17" r="y"/>
+	<sprite n="jellyfish_head_b" x="1000" y="510" w="19" h="18"/>
+	<sprite n="jellyfish_tail" x="938" y="437" w="22" h="69"/>
+	<sprite n="jellyfish_tail_b" x="962" y="435" w="61" h="19" r="y"/>
+	<sprite n="stage" x="0" y="890" w="529" h="1102" oX="14" oY="21" oW="1130" oH="556" r="y"/>
+	<sprite n="stage_rock" x="861" y="276" w="110" h="101" oX="10" oY="28" oW="228" oH="159" r="y"/>
+	<sprite n="stage_rock_side" x="962" y="456" w="46" h="44" oX="27" oY="55" oW="77" oH="105"/>
+	<sprite n="stage_rock_sideB" x="973" y="361" w="46" h="72" oX="4" oY="6" oW="77" oH="105"/>
+	<sprite n="stage_rockB" x="973" y="325" w="49" h="34" oX="97" oY="43" oW="228" oH="159" r="y"/>
+	<sprite n="stage_rockC" x="861" y="437" w="75" h="65" oX="83" oY="87" oW="228" oH="159"/>
+	<sprite n="stage_rockD" x="933" y="508" w="65" h="33" oX="153" oY="105" oW="228" oH="159"/>
+	<sprite n="stage_rockE" x="860" y="504" w="71" h="71" oX="113" oY="7" oW="228" oH="159"/>
+	<sprite n="stage_window" x="861" y="0" w="151" h="208" oX="9" oY="4" oW="217" oH="159" r="y"/>
+	<sprite n="star_platform" x="531" y="890" w="420" h="807" oX="153" oY="6" oW="1130" oH="556" r="y"/>
+	<sprite n="star_sand1" x="861" y="379" w="99" h="56" oX="139" oY="162" oW="1130" oH="556"/>
+	<sprite n="star_sand2" x="980" y="210" w="44" h="113" oX="289" oY="393" oW="1130" oH="556" r="y"/>
+	<sprite n="star_sand3" x="861" y="210" w="117" h="64" oX="865" oY="160" oW="1130" oH="556"/>
+	<sprite n="underwater" x="0" y="0" w="859" h="443" oX="128" oY="26" oW="1130" oH="556"/>
+</TextureAtlas>

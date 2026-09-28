@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:227c4ca2bd6b5659998b6a093a18474c:18431f4ce9e4f6491f020c6861febb77:365fee74deab357208485517dbcb9b68$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/cresendomoon_magic_envelope_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="magic_envelope_01" x="707" y="3" w="304" h="187" pX="0.5" pY="0.5" oX="6" oY="3" oW="200" oH="310" r="y"/>
+    <sprite n="magic_envelope_01_back" x="700" y="1073" w="180" h="57" pX="0.5" pY="0.5" oX="0" oY="1" oW="180" oH="60"/>
+    <sprite n="magic_envelope_02" x="707" y="194" w="291" h="111" pX="0.5" pY="0.5" oX="4" oY="4" oW="120" oH="300" r="y"/>
+    <sprite n="magic_envelope_03" x="3" y="1290" w="330" h="171" pX="0.5" pY="0.5" oX="4" oY="0" oW="180" oH="330" r="y"/>
+    <sprite n="magic_envelope_04" x="707" y="612" w="216" h="111" pX="0.5" pY="0.5" oX="4" oY="2" oW="120" oH="220" r="y"/>
+    <sprite n="magic_envelope_05" x="971" y="413" w="49" h="67" pX="0.5" pY="0.5" oX="2" oY="1" oW="70" oH="50" r="y"/>
+    <sprite n="magic_envelope_06" x="381" y="774" w="48" h="40" pX="0.5" pY="0.5" oX="1" oY="5" oW="50" oH="50"/>
+    <sprite n="magic_envelope_07" x="381" y="818" w="46" h="65" pX="0.5" pY="0.5" oX="2" oY="2" oW="50" oH="70"/>
+    <sprite n="magic_envelope_08" x="609" y="1121" w="87" h="62" pX="0.5" pY="0.5" oX="4" oY="1" oW="70" oH="90" r="y"/>
+    <sprite n="magic_envelope_09" x="964" y="1297" w="41" h="58" pX="0.5" pY="0.5" oX="4" oY="1" oW="50" oH="60"/>
+    <sprite n="magic_envelope_11" x="381" y="1015" w="42" h="39" pX="0.5" pY="0.5" oX="0" oY="4" oW="40" oH="50" r="y"/>
+    <sprite n="magic_envelope_12" x="921" y="871" w="98" h="133" pX="0.5" pY="0.5" oX="1" oY="3" oW="100" oH="140"/>
+    <sprite n="magic_envelope_BG" x="3" y="3" w="700" h="680" pX="0.5" pY="0.5"/>
+    <sprite n="magic_envelope_cloud_01" x="3" y="1118" w="344" h="168" pX="0.5" pY="0.5" oX="3" oY="6" oW="350" oH="180"/>
+    <sprite n="magic_envelope_cloud_02" x="425" y="1348" w="142" h="104" pX="0.5" pY="0.5" oX="4" oY="8" oW="150" oH="120"/>
+    <sprite n="magic_envelope_cloud_03" x="426" y="1110" w="179" h="63" pX="0.5" pY="0.5" oX="5" oY="3" oW="190" oH="70"/>
+    <sprite n="magic_envelope_cloud_04" x="620" y="992" w="80" h="38" pX="0.5" pY="0.5" oX="5" oY="6" oW="90" oH="50"/>
+    <sprite n="magic_envelope_cloud_05" x="648" y="687" w="55" h="150" pX="0.5" pY="0.5" oX="5" oY="2" oW="160" oH="60" r="y"/>
+    <sprite n="magic_envelope_cloud_06" x="707" y="309" w="260" h="213" pX="0.5" pY="0.5" oX="10" oY="3" oW="280" oH="220"/>
+    <sprite n="magic_envelope_cloud_07" x="707" y="727" w="210" h="160" pX="0.5" pY="0.5" oX="5" oY="5" oW="220" oH="170"/>
+    <sprite n="magic_envelope_cloud_08" x="431" y="871" w="189" h="95" pX="0.5" pY="0.5" oX="5" oY="2" oW="200" oH="100"/>
+    <sprite n="magic_envelope_cloud_09" x="971" y="336" w="49" h="73" pX="0.5" pY="0.5" oX="3" oY="5" oW="80" oH="60" r="y"/>
+    <sprite n="magic_envelope_dragon_head" x="673" y="1375" w="112" h="98" pX="0.5" pY="0.5" oX="4" oY="1" oW="120" oH="100"/>
+    <sprite n="magic_envelope_dragon_lower_arm" x="381" y="957" w="44" h="54" pX="0.5" pY="0.5" oX="3" oY="3" oW="60" oH="50" r="y"/>
+    <sprite n="magic_envelope_dragon_segment_01" x="620" y="1034" w="76" h="83" pX="0.5" pY="0.5" oX="2" oY="3" oW="80" oH="90"/>
+    <sprite n="magic_envelope_dragon_segment_02" x="890" y="1008" w="128" h="143" pX="0.5" pY="0.5" oX="6" oY="3" oW="140" oH="150"/>
+    <sprite n="magic_envelope_dragon_segment_03" x="337" y="1303" w="84" h="143" pX="0.5" pY="0.5" oX="3" oY="3" oW="150" oH="90" r="y"/>
+    <sprite n="magic_envelope_dragon_segment_04" x="838" y="1297" w="122" h="119" pX="0.5" pY="0.5" oX="5" oY="6" oW="130" oH="130"/>
+    <sprite n="magic_envelope_dragon_segment_05" x="931" y="601" w="88" h="65" pX="0.5" pY="0.5" oX="1" oY="2" oW="90" oH="70"/>
+    <sprite n="magic_envelope_dragon_segment_06" x="604" y="1187" w="83" h="58" pX="0.5" pY="0.5" oX="3" oY="1" oW="90" oH="60"/>
+    <sprite n="magic_envelope_dragon_segment_tail" x="971" y="484" w="48" h="113" pX="0.5" pY="0.5" oX="1" oY="3" oW="50" oH="120"/>
+    <sprite n="magic_envelope_dragon_upper_arm" x="971" y="309" w="50" h="23" pX="0.5" pY="0.5" oX="5" oY="3" oW="60" oH="30"/>
+    <sprite n="magic_envelope_flower_01" x="870" y="1155" w="146" h="138" pX="0.5" pY="0.5" oX="2" oY="6" oW="150" oH="150"/>
+    <sprite n="magic_envelope_flower_02" x="604" y="1249" w="74" h="74" pX="0.5" pY="0.5" oX="3" oY="3" oW="80" oH="80"/>
+    <sprite n="magic_envelope_glow" x="3" y="774" w="374" h="340" pX="0.5" pY="0.5" oX="3" oY="20" oW="380" oH="380"/>
+    <sprite n="magic_envelope_Koi_01_body" x="425" y="1177" w="175" h="167" pX="0.5" pY="0.5" oX="1" oY="2" oW="170" oH="180" r="y"/>
+    <sprite n="magic_envelope_Koi_01_fin" x="624" y="890" w="77" h="98" pX="0.5" pY="0.5" oX="1" oY="1" oW="80" oH="100"/>
+    <sprite n="magic_envelope_Koi_01_tail" x="429" y="970" w="187" h="136" pX="0.5" pY="0.5" oX="7" oY="6" oW="150" oH="200" r="y"/>
+    <sprite n="magic_envelope_Koi_01_whisker_01" x="890" y="891" w="27" h="113" pX="0.5" pY="0.5" oX="3" oY="1" oW="120" oH="30" r="y"/>
+    <sprite n="magic_envelope_Koi_01_whisker_02" x="648" y="841" w="54" h="45" pX="0.5" pY="0.5" oX="3" oY="2" oW="60" oH="50"/>
+    <sprite n="magic_envelope_Koi_01_wing" x="927" y="670" w="92" h="197" pX="0.5" pY="0.5" oX="1" oY="4" oW="200" oH="100" r="y"/>
+    <sprite n="magic_envelope_Koi_02_body" x="604" y="1327" w="65" h="52" pX="0.5" pY="0.5" oX="2" oY="4" oW="70" oH="60"/>
+    <sprite n="magic_envelope_Koi_02_fin" x="1002" y="194" w="18" h="44" pX="0.5" pY="0.5" oX="1" oY="5" oW="20" oH="50"/>
+    <sprite n="magic_envelope_Koi_02_tail" x="381" y="887" w="44" h="66" pX="0.5" pY="0.5" oX="3" oY="2" oW="50" oH="70"/>
+    <sprite n="magic_envelope_Koi_02_wing" x="931" y="526" w="24" h="65" pX="0.5" pY="0.5" oX="3" oY="2" oW="30" oH="70"/>
+    <sprite n="magic_envelope_Koi_03_body" x="381" y="1058" w="41" h="84" pX="0.5" pY="0.5" oX="3" oY="4" oW="90" oH="50" r="y"/>
+    <sprite n="magic_envelope_Koi_03_tail" x="337" y="1450" w="65" h="39" pX="0.5" pY="0.5" oX="5" oY="7" oW="50" oH="80" r="y"/>
+    <sprite n="magic_envelope_palace_01" x="705" y="891" w="181" h="178" pX="0.5" pY="0.5" oX="11" oY="9" oW="200" oH="200" r="y"/>
+    <sprite n="magic_envelope_palace_02" x="433" y="687" w="211" h="180" pX="0.5" pY="0.5" oX="0" oY="10" oW="220" oH="200"/>
+    <sprite n="magic_envelope_palace_03" x="789" y="1420" w="111" h="101" pX="0.5" pY="0.5" oX="9" oY="4" oW="120" oH="120" r="y"/>
+    <sprite n="magic_envelope_river_01" x="3" y="687" w="426" h="83" pX="0.5" pY="0.5"/>
+    <sprite n="magic_envelope_swril_01" x="707" y="526" w="220" h="82" pX="0.5" pY="0.5" oX="15" oY="9" oW="250" oH="100"/>
+    <sprite n="magic_envelope_swril_02" x="700" y="1134" w="166" h="120" pX="0.5" pY="0.5" oX="15" oY="7" oW="150" oH="180" r="y"/>
+    <sprite n="magic_envelope_swril_03" x="682" y="1258" w="152" h="113" pX="0.5" pY="0.5" oX="18" oY="14" oW="150" oH="180" r="y"/>
+    <sprite n="magic_envelope_swril_04" x="964" y="1359" w="40" h="64" pX="0.5" pY="0.5" oX="8" oY="5" oW="80" oH="50" r="y"/>
+    <sprite n="magic_envelope_swril_05" x="351" y="1146" w="70" h="153" pX="0.5" pY="0.5" oX="4" oY="5" oW="160" oH="80" r="y"/>
+</TextureAtlas>

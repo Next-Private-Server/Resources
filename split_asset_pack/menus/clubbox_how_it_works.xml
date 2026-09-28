@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<template type="template_how_it_works" name="HowItWorks">
+		<templateVar name="$layer" equals="FrontPopUps" />	
+		<templateVar name="$titleText" equals="CLUBBOX_MIXER_TUT_TITLE" />
+
+		<templateVar name="$leftAnimationName" equals="'xml_bin/hype_info.bin'" />
+		<templateVar name="$leftAnimation" equals="hype_info_01" />
+		<templateVar name="$leftText" equals="CLUBBOX_HOW_IT_WORKS_1" />
+
+		<templateVar name="$centerAnimationName" equals="'xml_bin/hype_info.bin'" />
+		<templateVar name="$centerAnimation" equals="hype_info_02" />
+		<templateVar name="$centerText" equals="CLUBBOX_HOW_IT_WORKS_2" />
+
+		<templateVar name="$rightAnimationName" equals="'xml_bin/hype_info.bin'" />
+		<templateVar name="$rightAnimation" equals="hype_info_03" />
+		<templateVar name="$rightText" equals="CLUBBOX_HOW_IT_WORKS_3" />
+
+		<templateVar name="$isClubbox" equals="1" />
+		<templateVar name="$showDefaultContextBarOnClose" equals="1" />
+	</template>
+
+	<event name="onPostInit" params="element">
+		if game.clubboxContext():mode() == game.ClubboxMode_MEMORY then
+			
+			local howItWorksEle = element:E("HowItWorks")
+
+			howItWorksEle:SetLeftInfo("xml_bin/rewind_info.bin", "rewind_info_01", "CLUBBOX_REWIND_HOW_IT_WORKS_1")
+			howItWorksEle:SetCenterInfo("xml_bin/rewind_info.bin", "rewind_info_02", "CLUBBOX_REWIND_HOW_IT_WORKS_2")
+			howItWorksEle:SetRightInfo("xml_bin/rewind_info.bin", "rewind_info_03", "CLUBBOX_REWIND_HOW_IT_WORKS_3")
+
+		end
+	</event>
+
+</menu>

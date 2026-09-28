@@ -1,0 +1,108 @@
+<template name="template_player_profile_fav_item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<defaultTemplateVar name="$targetLength" equals="40*game.windowScaleY()" />
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$spriteName" equals="'gfx/menu/social/Avatars/Avatar0'" />
+
+	<size w="element:templateVars().targetLength" h="element:templateVars().targetLength" />
+
+	<event name="onInit" params="element">
+		element("TargetLength"):SetFloat(element:templateVars().targetLength)
+		element:setSize(lua_sys.Vector2(element:templateVars().targetLength, element:templateVars().targetLength))
+	</event>
+
+	<spriteComponent name="Sprite">
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("$spriteName")
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+
+		<event name="refreshSize" params="component, element">			
+			component:setScale(lua_sys.Vector2(1, 1))
+
+			local scaleW = element("TargetLength"):GetFloat()/component:absW()
+			local scaleH = element("TargetLength"):GetFloat()/component:absH()			
+			local minScale = math.min(scaleW, scaleH)
+
+			component:setScale(lua_sys.Vector2(minScale, minScale))	
+		</event>
+	</spriteComponent>
+
+	<spriteSheetComponent name="SheetSprite">
+		<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("islands_button_isl01")		
+			component("sheetName"):SetString("xml_resources/island_buttons01.xml")
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>
+
+		<event name="refreshSize" params="component, element">			
+			component:setScale(lua_sys.Vector2(1, 1))
+
+			local scaleW = element("TargetLength"):GetFloat()/component:absW()
+			local scaleH = element("TargetLength"):GetFloat()/component:absH()			
+			local minScale = math.min(scaleW, scaleH)
+
+			component:setScale(lua_sys.Vector2(minScale, minScale))	
+		</event>
+	</spriteSheetComponent>
+
+	<spriteSheetComponent name="SelectedSprite">
+		<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("select_checkmark")
+			component("sheetName"):SetString("xml_resources/buttons02.xml")
+			component("size"):SetFloat(0.25*game.windowScaleY())
+			component("visible"):SetInt(0)
+			local layer = "$layer"
+			if element:HasVar("layer") then
+				layer = element("layer"):GetString()
+			end
+			component("layer"):SetString(layer)
+		</event>	
+	</spriteSheetComponent>	
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+	
+		<event name="onTouchUp" params="component, element">
+			element:parent():parent():selectItem(element("ItemId"):GetInt())
+		</event>
+	</touchComponent>
+	
+	<event name="setInvisible" params="element">
+		element:C("Sprite")("visible"):SetInt(0)
+		element:C("SelectedSprite")("visible"):SetInt(0)
+		element:C("SheetSprite")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt(0)
+	</event>
+
+	<event name="setVisible" params="element">
+		element:C("Sprite")("visible"):SetInt(0)
+		element:C("SheetSprite")("visible"):SetInt(0)
+		element:C("Touch")("enabled"):SetInt(1)
+	</event>
+	
+	<event name="deselect" params="element">
+		element:C("SelectedSprite")("visible"):SetInt(0)
+	</event>
+
+	<event name="select" params="element">
+		element:C("SelectedSprite")("visible"):SetInt(1)
+	</event>
+
+</template>

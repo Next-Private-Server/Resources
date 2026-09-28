@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<template type="template_how_it_works" name="HowItWorks">
+		<templateVar name="$layer" equals="FrontPopUps" />	
+		<templateVar name="$rightAnimationName" equals="'xml_bin/encore_info.bin'" />
+		<templateVar name="$rightAnimation" equals="encore_info_03" />
+		<templateVar name="$rightText" equals="ENCORE_HELP_STEP_3" />
+	</template>
+
+	<event name="onPostInit" params="element">
+	<![CDATA[
+		local encoreType = game.EncoreType_All
+		if (not game.isMemberOfGroup(70)) then
+			local encoreEvent = game.getCurrentEncoreEvent()
+
+			if encoreEvent == nil then
+				element:root():popPopUp()
+				return
+			end
+
+			encoreType = encoreEvent:getEncoreType()
+		end
+
+		local howItWorksEle = element:E("HowItWorks")
+
+		if (encoreType == game.EncoreType_Breeding) then
+			howItWorksEle:SetLeftInfo("xml_bin/encore_info.bin", "encore_info_01", "ENCORE_HELP_STEP_1_BREEDING")
+			howItWorksEle:SetCenterInfo("xml_bin/encore_info.bin", "encore_info_02", "ENCORE_HELP_STEP_2_BREEDING")
+
+		elseif (encoreType == game.EncoreType_Hatching) then
+			howItWorksEle:SetLeftInfo("xml_bin/encore_info.bin", "encore_info_04", "ENCORE_HELP_STEP_1_HATCHING")
+			howItWorksEle:SetCenterInfo("xml_bin/encore_info.bin", "encore_info_05", "ENCORE_HELP_STEP_2_HATCHING")
+
+		elseif (encoreType == game.EncoreType_Baking) then
+			howItWorksEle:SetLeftInfo("xml_bin/encore_info.bin", "encore_info_06", "ENCORE_HELP_STEP_1_BAKING")
+			howItWorksEle:SetCenterInfo("xml_bin/encore_info.bin", "encore_info_07", "ENCORE_HELP_STEP_2_BAKING")
+
+		elseif (encoreType == game.EncoreType_All) then
+			howItWorksEle:SetLeftInfo("xml_bin/encore_info.bin", "encore_info_08", "ENCORE_HELP_STEP_1_ALL")
+			howItWorksEle:SetCenterInfo("xml_bin/encore_info.bin", "encore_info_09", "ENCORE_HELP_STEP_2_ALL")
+
+		else
+			element:root():popPopUp()
+			return
+
+		end
+	]]>
+	</event>
+
+</menu>

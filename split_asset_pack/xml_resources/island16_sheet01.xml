@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:fd7eaa7a5f9e9ab54c46d7153fb51ab9:fb141c65d1c3a9fade7dedaaff1a6456:49f8cee2317fad5c0d987d9b92639aac$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island16_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="bottom_head" x="1555" y="1103" w="228" h="732" r="y"/>
+	<sprite n="centre_platform" x="1255" y="443" w="775" h="369"/>
+	<sprite n="ear" x="1255" y="814" w="298" h="1192" oX="5" oY="0" oW="303" oH="1192"/>
+	<sprite n="extra_lump" x="894" y="443" w="169" h="210"/>
+	<sprite n="feathers_01" x="503" y="658" w="750" h="693" r="y"/>
+	<sprite n="feathers_02" x="1785" y="1103" w="261" h="526" r="y"/>
+	<sprite n="feathers_03" x="0" y="1361" w="262" h="669" oX="0" oY="0" oW="670" oH="262" r="y"/>
+	<sprite n="feathers_04" x="503" y="368" w="389" h="288"/>
+	<sprite n="feathers_05" x="264" y="1361" w="752" h="630"/>
+	<sprite n="glow_orange" x="1555" y="814" w="290" h="287" r="y"/>
+	<sprite n="mushroom_blue" x="1156" y="510" w="65" h="56" r="y"/>
+	<sprite n="mushroom_blue_glow" x="894" y="368" w="70" h="73" r="y"/>
+	<sprite n="mushroom_red" x="303" y="1993" w="69" h="47"/>
+	<sprite n="mushroom_red_glow" x="1065" y="443" w="89" h="78"/>
+	<sprite n="mushroom_yellow" x="264" y="1993" w="37" h="54" r="y"/>
+	<sprite n="mushroom_yellow_glow" x="1156" y="443" w="73" h="65"/>
+	<sprite n="side_head" x="0" y="0" w="501" h="1359"/>
+	<sprite n="side_lumps" x="503" y="0" w="458" h="366"/>
+	<sprite n="side_platform" x="1018" y="0" w="973" h="441"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:598cec3b26dc42f5b0ed9b2be5a1aa0a:ee1eda1211fb1291f02a99aa6ad0fb9d:2209412fe27f3bfe6a471345f96accda$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island03_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island03_balloon_blue" x="1135" y="1135" w="449" h="236" oX="10" oY="5" oW="260" oH="460" r="y"/>
+	<sprite n="island03_balloon_purple" x="1586" y="1229" w="449" h="236" oX="10" oY="5" oW="260" oH="460" r="y"/>
+	<sprite n="island03_burns" x="0" y="0" w="638" h="1166"/>
+	<sprite n="island03_ear" x="1135" y="0" w="801" h="456" oX="0" oY="3" oW="456" oH="804" r="y"/>
+	<sprite n="island03_edge" x="1635" y="458" w="407" h="332" oX="3" oY="2" oW="414" oH="334"/>
+	<sprite n="island03_eyeclosed" x="0" y="1168" w="721" h="870" oX="0" oY="95" oW="870" oH="816" r="y"/>
+	<sprite n="island03_nose" x="1069" y="458" w="564" h="675" oX="3" oY="5" oW="580" oH="680"/>
+	<sprite n="island03_stumpcenter" x="640" y="0" w="427" h="970" oX="20" oY="0" oW="990" oH="460" r="y"/>
+	<sprite n="island03_stumpside" x="1135" y="1467" w="725" h="427" oX="2" oY="203" oW="728" oH="672"/>
+	<sprite n="w3_beetle_01" x="1069" y="208" w="51" h="50" oX="3" oY="0" oW="54" oH="50"/>
+	<sprite n="w3_beetle_02" x="1069" y="104" w="53" h="50" oX="1" oY="0" oW="54" oH="50"/>
+	<sprite n="w3_beetle_03" x="1069" y="156" w="52" h="50" oX="0" oY="0" oW="54" oH="50"/>
+	<sprite n="w3_beetle_04" x="1069" y="0" w="54" h="50"/>
+	<sprite n="w3_beetle_05" x="1069" y="52" w="54" h="50"/>
+	<sprite n="w3_bubble" x="1069" y="260" w="45" h="44" oX="3" oY="0" oW="48" oH="48" r="y"/>
+	<sprite n="w3_cloud" x="723" y="1146" w="410" h="900" oX="0" oY="5" oW="900" oH="420" r="y"/>
+	<sprite n="w3_floatrock_1" x="1635" y="792" w="245" h="435" oX="3" oY="0" oW="440" oH="248" r="y"/>
+	<sprite n="w3_floatrock_2" x="640" y="972" w="127" h="172" oX="2" oY="1" oW="176" oH="128" r="y"/>
+</TextureAtlas>

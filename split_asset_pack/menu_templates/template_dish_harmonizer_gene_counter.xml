@@ -1,0 +1,182 @@
+<template name="template_dish_harmonizer_gene_counter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/DishHarmonizerGeneCounter.lua" />
+
+	<defaultTemplateVar name="$layer" equals="'MidPopUps'" />
+	<defaultTemplateVar name="$sheetName" equals="'xml_resources/synth_meebs_sheet.xml'" />
+	<defaultTemplateVar name="$spriteName" equals="'gene_fairy'" />
+	<defaultTemplateVar name="$scale" equals=" game.hudScale()" />
+	<defaultTemplateVar name="$textR" equals="1" />
+	<defaultTemplateVar name="$textG" equals="1" />
+	<defaultTemplateVar name="$textB" equals="1" />
+	
+	<element name="GeneSprite">
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+	<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">		
+				component("sheetName"):SetString("$sheetName")
+				component("spriteName"):SetString(element:templateVars().spriteName)
+				component("size"):SetFloat(0.3 *element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="Animation">
+		<size dependentOnElement="GeneSprite" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("animationName"):SetString("xml_bin/sigil_effects_dish_harmonizer.bin")
+					component("animation"):SetString("sigil_burst")
+					local animationScale = 0.18
+					element:V("animationScale"):SetFloat(animationScale)
+					component:setScale(Vector2(animationScale*element:templateVars().scale,animationScale*element:templateVars().scale))
+					component("visible"):SetInt(0)
+					component("layer"):SetString(element:templateVars().layer)
+				]]>
+			</event>
+		</aeComponent>
+		<effectComponent name="Effect">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("magnification"):SetFloat(6.0 * element:templateVars().scale)
+					component("layer"):SetString(element:templateVars().layer)
+					component("effect"):SetString("particles/Structures/DishHarmonizer/FX_GeneReveal.efkefc")
+				]]>
+			</event>
+		</effectComponent>
+	</element>
+
+	<element name="Text">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="GeneSprite" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<textComponent name="Text">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.3 *element:templateVars().scale)
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("x")
+				component:setColor($textR, $textG, $textB)
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString(element:templateVars().layer)
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="InfiniteSprite">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Text" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">		
+				component("sheetName"):SetString("xml_resources/dish_harmonizer_menu_sheet.xml")
+				component("spriteName"):SetString("infinity_symbol")
+				component("size"):SetFloat(0.5 *element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+				component("visible"):SetInt(0)
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+		<element name="UpArrow">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-8*game.menuScaleX()" yOffset="0" priorityOffset="-3" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/button_small_play")
+				component("size"):SetFloat(0.5 * element:templateVars().scale)
+				component("layer"):SetString(element:templateVars().layer)
+				component("visible"):SetInt(0)
+				element.isDisabled = true
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					if( not element.isDisabled) then
+						element:C("Sprite"):setColor(1, 1, 1)
+						game.SelectedObject():modifyGeneCountCheat(element:parent().gene, 1)
+					end
+				]]>
+			</event>
+			<event name="onTouchDown" params="component, element, x, y">
+				<![CDATA[
+					if( not element.isDisabled) then
+						element:C("Sprite"):setColor(0.5, 0.5, 0.5)
+					end
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					if( not element.isDisabled) then
+						element:C("Sprite"):setColor(1, 1, 1)
+					end
+				]]>
+			</event>
+		</touchComponent>
+	</element>
+
+	<element name="DownArrow">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite"/>
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-10*game.menuScaleX()" yOffset="0" priorityOffset="-3" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/button_small_play")
+				component("size"):SetFloat(0.5 * element:templateVars().scale)
+				component("hFlip"):SetInt(1)
+				component("layer"):SetString(element:templateVars().layer)
+				component("visible"):SetInt(0)
+				element.isDisabled = true
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Bg" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					if( not element.isDisabled) then
+						element:C("Sprite"):setColor(1, 1, 1)
+						game.SelectedObject():modifyGeneCountCheat(element:parent().gene, -1)
+					end
+				]]>
+			</event>
+			<event name="onTouchDown" params="component, element, x, y">
+				<![CDATA[
+					if( not element.isDisabled) then
+						element:C("Sprite"):setColor(0.5, 0.5, 0.5)
+					end
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				<![CDATA[
+					if( not element.isDisabled) then
+						element:C("Sprite"):setColor(1, 1, 1)
+					end
+				]]>
+			</event>
+		</touchComponent>
+	</element>
+
+</template>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ab3a04bb5d3f67324f9a76c39a89a5f1:17d41685f9dbf090f2b7459add3a1311:16fbe36ad3187dd073e3958d2234bc51$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_DNR_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="body" x="0" y="0" w="205" h="135" />
+  <sprite n="bonusarm_1" x="379" y="0" w="129" h="33" r="y" />
+  <sprite n="bonusarm_2" x="476" y="35" w="36" h="29" r="y" />
+  <sprite n="bonusarm_3" x="54" y="176" w="50" h="48" oX="0" oY="0" oW="51" oH="50" r="y" />
+  <sprite n="bubble 1" x="379" y="35" w="95" h="67" oX="0" oY="0" oW="95" oH="69" />
+  <sprite n="bubble 2" x="207" y="90" w="89" h="64" />
+  <sprite n="bubble 3" x="298" y="152" w="57" h="83" r="y" />
+  <sprite n="bubble 4" x="54" y="137" w="52" h="37" />
+  <sprite n="bubble 5" x="258" y="192" w="35" h="46" />
+  <sprite n="eye 1" x="441" y="219" w="54" h="54" />
+  <sprite n="eye 2.5" x="135" y="267" w="30" h="30" />
+  <sprite n="eye 2" x="100" y="230" w="33" h="33" />
+  <sprite n="eye 3.5" x="167" y="267" w="30" h="30" />
+  <sprite n="eye 3" x="295" y="237" w="31" h="30" />
+  <sprite n="eye 4" x="207" y="156" w="49" h="42" r="y" />
+  <sprite n="eyelid 1_1" x="461" y="117" w="51" h="49" oX="2" oY="3" oW="54" oH="54" />
+  <sprite n="eyelid 1_2" x="461" y="168" w="51" h="49" oX="2" oY="3" oW="54" oH="54" />
+  <sprite n="eyelid 1_3" x="108" y="137" w="51" h="49" oX="2" oY="3" oW="54" oH="54" />
+  <sprite n="eyelid 1_4" x="0" y="137" w="52" h="49" oX="2" oY="3" oW="54" oH="54" />
+  <sprite n="eyelid 2_1" x="100" y="265" w="33" h="32" oX="0" oY="1" oW="33" oH="33" />
+  <sprite n="eyelid 2_2" x="202" y="228" w="33" h="32" oX="0" oY="1" oW="33" oH="33" />
+  <sprite n="eyelid 2_3" x="42" y="268" w="33" h="32" oX="0" oY="1" oW="33" oH="33" />
+  <sprite n="eyelid 2_4" x="0" y="282" w="33" h="32" oX="0" oY="1" oW="33" oH="33" />
+  <sprite n="eyelid 3_1" x="328" y="248" w="30" h="29" oX="1" oY="0" oW="31" oH="30" />
+  <sprite n="eyelid 3_2" x="270" y="269" w="30" h="29" oX="1" oY="0" oW="31" oH="30" />
+  <sprite n="eyelid 3_3" x="237" y="240" w="31" h="29" oX="0" oY="0" oW="31" oH="30" />
+  <sprite n="eyelid 3_4" x="202" y="262" w="31" h="29" oX="0" oY="0" oW="31" oH="30" />
+  <sprite n="eyelid 4_1" x="106" y="188" w="46" h="40" oX="2" oY="3" oW="42" oH="49" r="y" />
+  <sprite n="eyelid 4_2" x="154" y="225" w="46" h="40" oX="2" oY="3" oW="42" oH="49" r="y" />
+  <sprite n="eyelid 4_3" x="52" y="226" w="46" h="40" oX="2" oY="3" oW="42" oH="49" r="y" />
+  <sprite n="eyelid 4_4" x="161" y="176" w="41" h="47" oX="1" oY="2" oW="42" oH="49" />
+  <sprite n="glow" x="372" y="104" w="87" h="87" oX="4" oY="5" oW="97" oH="97" />
+  <sprite n="leg 1" x="204" y="200" w="49" h="26" oX="3" oY="0" oW="33" oH="49" r="y" />
+  <sprite n="leg 2" x="0" y="228" w="45" h="25" oX="4" oY="0" oW="33" oH="45" r="y" />
+  <sprite n="leg 3" x="0" y="255" w="40" h="25" oX="0" oY="0" oW="26" oH="40" r="y" />
+  <sprite n="mandible 1" x="161" y="137" w="44" h="37" oX="1" oY="1" oW="38" oH="45" r="y" />
+  <sprite n="mandible 2" x="258" y="156" w="38" h="34" oX="0" oY="4" oW="34" oH="42" r="y" />
+  <sprite n="shadow" x="207" y="0" w="170" h="88" oX="0" oY="1" oW="170" oH="90" />
+  <sprite n="tail 1" x="476" y="66" w="35" h="49" />
+  <sprite n="tail 2" x="0" y="188" w="50" h="38" r="y" />
+  <sprite n="tail 3" x="298" y="90" w="72" h="60" r="y" />
+  <sprite n="tail 4" x="357" y="193" w="82" h="53" />
+</TextureAtlas>

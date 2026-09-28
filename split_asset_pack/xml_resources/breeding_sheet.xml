@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:753082c2bac5c52217e12518e8e11364:0d8b9a4037243c56114de6a3f0411285:4c543564cd54bfe77701ab73d4c2c9f5$ -->
+<TextureAtlas imagePath="gfx/structures/structure_breeding.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="air_puff_01" x="676" y="969" w="39" h="50" oX="0" oY="32" oW="142" oH="104" r="y"/>
+	<sprite n="air_puff_02" x="924" y="653" w="77" h="55" oX="1" oY="25" oW="142" oH="104"/>
+	<sprite n="air_puff_03" x="676" y="876" w="58" h="91" oX="2" oY="23" oW="142" oH="104" r="y"/>
+	<sprite n="air_puff_04" x="896" y="586" w="102" h="65" oX="2" oY="17" oW="142" oH="104"/>
+	<sprite n="air_puff_05" x="896" y="422" w="107" h="71" oX="2" oY="13" oW="142" oH="104"/>
+	<sprite n="air_puff_06" x="896" y="344" w="116" h="76" oX="2" oY="9" oW="142" oH="104"/>
+	<sprite n="air_puff_07" x="898" y="89" w="118" h="85" oX="5" oY="6" oW="142" oH="104"/>
+	<sprite n="air_puff_08" x="898" y="0" w="123" h="87" oX="8" oY="6" oW="142" oH="104"/>
+	<sprite n="air_puff_09" x="342" y="882" w="94" h="133" oX="4" oY="2" oW="142" oH="104" r="y"/>
+	<sprite n="air_puff_10" x="240" y="882" w="100" h="139" oX="3" oY="1" oW="142" oH="104" r="y"/>
+	<sprite n="air_puff_11" x="0" y="882" w="104" h="142" r="y"/>
+	<sprite n="brace_upgraded" x="896" y="495" w="102" h="89" oX="4" oY="0" oW="110" oH="90"/>
+	<sprite n="cork" x="642" y="796" w="96" h="78"/>
+	<sprite n="fence_left_upgraded" x="676" y="608" w="196" h="186" oX="4" oY="24" oW="200" oH="210"/>
+	<sprite n="fence_right_upgraded" x="740" y="796" w="182" h="191" oX="0" oY="19" oW="200" oH="210"/>
+	<sprite n="fence_slide_upgraded" x="106" y="882" w="132" h="139" oX="0" oY="0" oW="140" oH="132" r="y"/>
+	<sprite n="glass_bowl" x="676" y="0" w="220" h="120"/>
+	<sprite n="heart" x="438" y="882" w="120" h="132"/>
+	<sprite n="heart_upgraded" x="560" y="882" w="114" h="130" oX="2" oY="0" oW="120" oH="132"/>
+	<sprite n="max_ring" x="874" y="653" w="46" h="46"/>
+	<sprite n="max_star" x="924" y="864" w="56" h="56"/>
+	<sprite n="max_star_line" x="924" y="922" w="56" h="56"/>
+	<sprite n="pink_bubble" x="874" y="701" w="36" h="36"/>
+	<sprite n="ribbon" x="676" y="122" w="218" h="484" r="y"/>
+	<sprite n="seat_upgraded" x="924" y="710" w="74" h="152" oX="4" oY="3" oW="160" oH="80" r="y"/>
+	<sprite n="structure_body" x="0" y="0" w="640" h="880"/>
+	<sprite n="x_planks" x="896" y="176" w="116" h="166" r="y"/>
+</TextureAtlas>

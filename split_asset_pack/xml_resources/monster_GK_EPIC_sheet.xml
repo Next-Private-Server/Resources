@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3d1d0b4e2531c8433ef5e59aa376c8b0:4af2050fd785feb48cd3a6540adbeaef:f5583aeaf39e5079ed8262f7f25f00da$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_GK_EPIC_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="GK_body" x="267" y="284" w="183" h="142" oX="0" oY="0" oW="144" oH="184" r="y"/>
+    <sprite n="GK_body_cover_EPIC" x="284" y="1" w="218" h="282" oX="9" oY="14" oW="300" oH="240" r="y"/>
+    <sprite n="GK_body_epic" x="1" y="1" w="282" h="224" oX="9" oY="8" oW="300" oH="240"/>
+    <sprite n="GK_body_EPIC" x="1" y="1" w="282" h="224" oX="9" oY="8" oW="300" oH="240"/>
+    <sprite n="GK_eyeball" x="415" y="449" w="28" h="28"/>
+    <sprite n="GK_gas_swirl" x="225" y="760" w="100" h="86" oX="10" oY="15" oW="120" oH="116"/>
+    <sprite n="GK_gas_swirl_02" x="415" y="487" w="95" h="92" oX="13" oY="12" oW="120" oH="116"/>
+    <sprite n="GK_hand_01" x="413" y="669" w="92" h="114" oX="1" oY="3" oW="120" oH="96" r="y"/>
+    <sprite n="GK_hand_02" x="1" y="666" w="116" h="89" oX="1" oY="3" oW="120" oH="96"/>
+    <sprite n="GK_hand_03" x="244" y="561" w="117" h="77" oX="0" oY="4" oW="120" oH="96"/>
+    <sprite n="GK_hand_04" x="118" y="688" w="112" h="64" oX="0" oY="4" oW="120" oH="96"/>
+    <sprite n="GK_hand_05" x="122" y="624" w="117" h="63" oX="1" oY="5" oW="120" oH="96"/>
+    <sprite n="GK_hand_06" x="240" y="639" w="115" h="71" oX="0" oY="5" oW="120" oH="96"/>
+    <sprite n="GK_hand_07" x="162" y="516" w="81" h="107" oX="0" oY="5" oW="120" oH="96" r="y"/>
+    <sprite n="GK_hand_08" x="118" y="753" w="106" h="86" oX="0" oY="6" oW="120" oH="96"/>
+    <sprite n="GK_helmet" x="1" y="463" w="160" h="152" r="y"/>
+    <sprite n="GK_helmet_back_EPIC" x="1" y="344" w="246" h="118" oX="83" oY="16" oW="350" oH="160"/>
+    <sprite n="GK_helmet_front_EPIC" x="1" y="226" w="265" h="117" oX="22" oY="16" oW="350" oH="160"/>
+    <sprite n="GK_left_foot" x="1" y="840" w="54" h="56" oX="0" oY="0" oW="56" oH="56" r="y"/>
+    <sprite n="GK_left_foot_EPIC" x="1" y="943" w="55" h="68" oX="7" oY="13" oW="80" oH="80" r="y"/>
+    <sprite n="GK_left_lowerleg" x="356" y="650" w="56" h="88" oX="0" oY="2" oW="56" oH="92"/>
+    <sprite n="GK_left_lowerleg_EPIC" x="412" y="784" w="92" h="101" oX="9" oY="14" oW="120" oH="120" r="y"/>
+    <sprite n="GK_left_upperarm" x="326" y="818" w="79" h="78" oX="0" oY="0" oW="80" oH="80"/>
+    <sprite n="GK_left_upperleg" x="362" y="561" w="52" h="88"/>
+    <sprite n="GK_mouth_01" x="1" y="616" w="120" h="49" oX="14" oY="23" oW="150" oH="100"/>
+    <sprite n="GK_mouth_02" x="248" y="509" w="133" h="51" oX="9" oY="23" oW="150" oH="100"/>
+    <sprite n="GK_mouth_03" x="451" y="284" w="59" h="114" oX="19" oY="22" oW="150" oH="100" r="y"/>
+    <sprite n="GK_mouth_04" x="451" y="399" w="59" h="87" oX="31" oY="19" oW="150" oH="100" r="y"/>
+    <sprite n="GK_mouth_05" x="162" y="463" w="85" h="52" oX="33" oY="21" oW="150" oH="100"/>
+    <sprite n="GK_mouth_06" x="231" y="711" w="109" h="48" oX="20" oY="24" oW="150" oH="100"/>
+    <sprite n="GK_mouthglow_01" x="267" y="246" w="11" h="29" oX="62" oY="36" oW="150" oH="100" r="y"/>
+    <sprite n="GK_mouthglow_02" x="248" y="344" w="18" h="49" oX="53" oY="32" oW="150" oH="100" r="y"/>
+    <sprite n="GK_mouthglow_03" x="382" y="509" w="22" h="40" oX="56" oY="31" oW="150" oH="100" r="y"/>
+    <sprite n="GK_mouthglow_04" x="415" y="427" w="30" h="21" oX="66" oY="29" oW="150" oH="100" r="y"/>
+    <sprite n="GK_mouthglow_05" x="267" y="226" w="15" h="19" oX="69" oY="32" oW="150" oH="100"/>
+    <sprite n="GK_right_foot" x="1" y="756" w="62" h="52" oX="0" oY="0" oW="64" oH="52"/>
+    <sprite n="GK_right_foot_EPIC" x="1" y="897" w="68" h="45" oX="6" oY="18" oW="80" oH="80"/>
+    <sprite n="GK_right_lowerleg" x="406" y="886" w="88" h="56" oX="0" oY="2" oW="56" oH="92" r="y"/>
+    <sprite n="GK_right_lowerleg_EPIC" x="415" y="580" w="95" h="88" oX="12" oY="16" oW="120" oH="120"/>
+    <sprite n="GK_right_upperarm" x="341" y="739" w="70" h="78" oX="0" oY="0" oW="72" oH="80"/>
+    <sprite n="GK_right_upperleg" x="56" y="844" w="88" h="52" r="y"/>
+    <sprite n="GK_shadow" x="248" y="427" w="166" h="81" oX="10" oY="5" oW="184" oH="92"/>
+    <sprite n="GK_upperleg_EPIC" x="70" y="756" w="44" h="87" oX="4" oY="0" oW="52" oH="88"/>
+</TextureAtlas>

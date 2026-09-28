@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:30837bdabfe48204cf8c6769cd84b409:1ee8e705204b62b5edccd5046f7e9547:c40db8bf5a9ed4870c0199cc7efde5d3$ -->
+<TextureAtlas imagePath="gfx/menu/stickers/stickers_sheet_01.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="card_burst" x="662" y="521" w="187" h="188" oX="5" oY="6" oW="200" oH="200" r="y"/>
+	<sprite n="card_dot" x="309" y="385" w="49" h="47"/>
+	<sprite n="egg_dot" x="358" y="496" w="39" h="39" oX="0" oY="0" oW="40" oH="40"/>
+	<sprite n="egg_star" x="258" y="245" w="64" h="64"/>
+	<sprite n="frame" x="372" y="248" w="380" h="246" oX="5" oY="7" oW="256" oH="392" r="y"/>
+	<sprite n="frame_back" x="372" y="0" w="383" h="246" oX="5" oY="7" oW="256" oH="392" r="y"/>
+	<sprite n="frame_common_locked" x="0" y="780" w="370" h="241" oX="10" oY="4" oW="256" oH="392" r="y"/>
+	<sprite n="frame_epic" x="0" y="394" w="256" h="384" oX="0" oY="0" oW="256" oH="392"/>
+	<sprite n="frame_epic_back" x="0" y="0" w="256" h="392"/>
+	<sprite n="frame_epic_locked" x="757" y="0" w="247" h="374" oX="5" oY="4" oW="256" oH="392"/>
+	<sprite n="glow circle" x="258" y="573" w="200" h="200"/>
+	<sprite n="glow donut" x="460" y="536" w="200" h="200"/>
+	<sprite n="glow frame bg epic" x="754" y="376" w="200" h="143" r="y"/>
+	<sprite n="glow frame bg" x="657" y="738" w="140" h="200" oX="2" oY="0" oW="143" oH="200"/>
+	<sprite n="new_sticker" x="258" y="132" w="76" h="74" r="y"/>
+	<sprite n="sprite GLOW" x="372" y="775" w="283" h="221" oX="18" oY="55" oW="256" oH="392" r="y"/>
+	<sprite n="star_01" x="258" y="454" w="47" h="47" oX="47" oY="1" oW="142" oH="50"/>
+	<sprite n="star_02" x="258" y="86" w="83" h="44" oX="29" oY="4" oW="142" oH="50"/>
+	<sprite n="star_03" x="258" y="0" w="109" h="45" oX="16" oY="2" oW="142" oH="50"/>
+	<sprite n="star_04" x="309" y="434" w="47" h="137" oX="2" oY="1" oW="142" oH="50" r="y"/>
+	<sprite n="star_05" x="258" y="311" w="49" h="141" oX="0" oY="0" oW="142" oH="50" r="y"/>
+	<sprite n="star_locked_01" x="258" y="503" w="41" h="41" oX="50" oY="3" oW="142" oH="50"/>
+	<sprite n="star_locked_02" x="258" y="208" w="74" h="35" oX="33" oY="8" oW="142" oH="50"/>
+	<sprite n="star_locked_03" x="258" y="47" w="104" h="37" oX="18" oY="4" oW="142" oH="50"/>
+	<sprite n="star_locked_04" x="399" y="496" w="131" h="38" oX="5" oY="4" oW="142" oH="50"/>
+	<sprite n="star_locked_05" x="324" y="245" w="42" h="138" oX="2" oY="1" oW="142" oH="50" r="y"/>
+</TextureAtlas>

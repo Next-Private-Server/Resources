@@ -1,0 +1,262 @@
+
+<template name="template_event_screen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/EventScreen.lua" />
+
+	<defaultTemplateVar name="$layer" equals="FrontPopUps"/>
+
+	<defaultTemplateVar name="$titleSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/seasonal_text_dipster_digs'"/>
+	<defaultTemplateVar name="$stickerSpriteSheet" equals="'xml_resources/multipack_dipster_dig_sheet.xml'"/>
+	<defaultTemplateVar name="$monsterSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/event_screen_monster'"/>
+	<defaultTemplateVar name="$mainSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/dipster_digs_event_image_01'"/>
+	<defaultTemplateVar name="$glowSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/event_screen_glow'"/>
+
+	<defaultTemplateVar name="$subtitle_refid" equals="DIPSTER_DIG_TITLE"/>
+
+	<defaultTemplateVar name="$text1_color" equals="'#b573f0'"/>
+	<defaultTemplateVar name="$text1_refid" equals="EVENT_SCREEN_DIPSTER_TOP"/>
+	<defaultTemplateVar name="$text2_refid" equals="EVENT_SCREEN_DIPSTER_BOTTOM"/>
+
+	<defaultTemplateVar name="$button_text_refid" equals="GO_NOW"/>
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.2" />
+        <templateVar name="$maxAlpha" equals="0.75" />
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$priority" equals="4" />
+	</template>
+
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="3" />
+		<ninesliceComponent name="Sprite">
+			<size w="300*game.windowScaleY()" h="200*game.windowScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5)
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("$layer")
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="TopLeft">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-6*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("left_corner")
+				component("sheetName"):SetString("$stickerSpriteSheet")
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="TopRight">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-6*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("right_corner")
+				component("sheetName"):SetString("$stickerSpriteSheet")
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="BottomRight">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="-1*game.windowScaleY()" yOffset="12*game.windowScaleY()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("lower_right_corner")
+				component("sheetName"):SetString("$stickerSpriteSheet")
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="TitleImage">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("$titleSprite")
+				component("size"):SetFloat(0.2*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="Subtitle">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="16*game.windowScaleY()" priorityOffset="-3" />
+		<textComponent name="Text">
+			<size w="160*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.2*game.windowScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$subtitle_refid")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+				component("visible"):SetInt(0)
+			</event>
+		</textComponent>
+		<spriteComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+					component("spriteName"):SetString("gfx/menu/gradient")
+					local targetW = element.Text:absW() + 32
+					local targetH = element.Text:absH() + 16
+					local scaleX = targetW / 90
+					local scaleY = targetH / 80
+					component:setScale(Vector2(scaleX, scaleY))
+					component("layer"):SetString("$layer")
+				]]>
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="Glow">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("$glowSprite")
+				component:setScale(Vector2(element:parent():E("bg"):absW()/component:absW()*1.7, element:parent():E("bg"):absH()/component:absH()*1.7))
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="Platform">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="-16*game.windowScaleY()" yOffset="-16*game.windowScaleY()" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/event_screen/base/event_platform")
+				component("size"):SetFloat(0.25*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="Monster">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Platform" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="-6*game.windowScaleY()" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("$monsterSprite")
+				component("size"):SetFloat(0.25*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="MainImage">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-6*game.windowScaleY()" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("$mainSprite")
+				component("size"):SetFloat(0.28*game.windowScaleY())
+				component("layer"):SetString("$layer")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="Description1">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="MainImage" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.windowScaleY()" priorityOffset="0" />
+		<textComponent name="Text">
+			<size w="260*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats("$text1_color"))
+				component("size"):SetFloat(0.35*game.windowScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$text1_refid")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Description2">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Description1" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.windowScaleY()" priorityOffset="0" />
+		<textComponent name="Text">
+			<size w="200*game.windowScaleY()" h="30*game.windowScaleY()"/>
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("size"):SetFloat(0.25*game.windowScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("$text2_refid")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("$layer")
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="CloseButton">
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$upSpriteName" equals="'button_bamboo_close'" />
+		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="3*game.hudScale()" yOffset="3*game.hudScale()" priorityOffset="0" />
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element:parent():onCloseButton()
+			</event>
+		</touchComponent>
+	</template>
+
+	<template type="template_nineslicebutton" name="GoButton">
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_green_gem'" />
+		<templateVar name="$spriteScale" equals="0.4*game.windowScaleY()" />
+		<templateVar name="$topHeight" equals="30.0" />
+		<templateVar name="$bottomHeight" equals="30.0" />
+		<templateVar name="$leftWidth" equals="35.0" />
+		<templateVar name="$rightWidth" equals="35.0" />
+		<templateVar name="$width" equals="140*game.windowScaleY()" />
+		<templateVar name="$height" equals="35*game.windowScaleY()" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$text" equals="element:templateVars().button_text_refid" />
+		<templateVar name="$textPadding" equals="8*game.windowScaleY()" />
+		<templateVar name="$layer" equals="element:templateVars().layer" />
+		<templateVar name="$buttonMapping" equals="game.confirmButton()" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />		
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element:parent():onContinueButton()
+			</event>
+		</touchComponent>
+	</template>
+
+</template>

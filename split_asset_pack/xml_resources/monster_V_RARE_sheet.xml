@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c40ea30fe23b29d3ed376b1a178a6c88:9f210f0b0c5150dd442bc17e600f80b1:2a55da129c999501ade2f18342b2d970$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_V_RARE_sheet.png" width="512" height="512" hires="true">
+    <sprite n="V_back_foot" x="299" y="451" w="28" h="43"/>
+    <sprite n="V_back_leg_torso" x="482" y="91" w="24" h="90"/>
+    <sprite n="V_back_lower_leg" x="195" y="247" w="27" h="108"/>
+    <sprite n="V_back_upper_leg" x="426" y="3" w="80" h="16" r="y"/>
+    <sprite n="V_bowtie" x="161" y="373" w="40" h="29"/>
+    <sprite n="V_eye_back" x="43" y="451" w="69" h="52"/>
+    <sprite n="V_eye_left" x="449" y="106" w="16" h="16"/>
+    <sprite n="V_eye_right" x="495" y="185" w="14" h="16"/>
+    <sprite n="V_head" x="323" y="3" w="73" h="99" r="y"/>
+    <sprite n="V_jacket_back" x="3" y="3" w="66" h="240"/>
+    <sprite n="V_jacket_back_coat_tails" x="73" y="3" w="114" h="158" r="y"/>
+    <sprite n="V_jacket_back_collar" x="227" y="153" w="70" h="90"/>
+    <sprite n="V_jacket_front" x="3" y="247" w="69" h="200" oX="0" oY="0" oW="69" oH="224"/>
+    <sprite n="V_jacket_front_coat_tail" x="226" y="247" w="82" h="107"/>
+    <sprite n="V_jacket_front_collar" x="482" y="23" w="25" h="64"/>
+    <sprite n="V_left_arm_nub" x="400" y="3" w="22" h="28"/>
+    <sprite n="V_left_foot" x="191" y="111" w="59" h="38" r="y"/>
+    <sprite n="V_left_lower_arm" x="344" y="106" w="78" h="31"/>
+    <sprite n="V_left_lower_leg" x="76" y="406" w="139" h="41" r="y"/>
+    <sprite n="V_left_upper_arm" x="293" y="358" w="31" h="89" r="y"/>
+    <sprite n="V_left_upper_leg" x="473" y="185" w="18" h="73"/>
+    <sprite n="V_mouth_01" x="219" y="359" w="70" h="88" oX="3" oY="6" oW="73" oH="104"/>
+    <sprite n="V_mouth_02" x="191" y="3" w="62" h="104" oX="11" oY="0" oW="73" oH="104"/>
+    <sprite n="V_mouth_03" x="328" y="343" w="72" h="87" oX="1" oY="6" oW="73" oH="104"/>
+    <sprite n="V_mouth_04" x="404" y="343" w="71" h="78" oX="0" oY="11" oW="73" oH="104"/>
+    <sprite n="V_mouth_05" x="73" y="165" w="73" h="78" oX="0" oY="9" oW="73" oH="104"/>
+    <sprite n="V_mouth_06" x="301" y="151" w="73" h="91" oX="0" oY="6" oW="73" oH="104"/>
+    <sprite n="V_mouth_flip_01" x="378" y="218" w="88" h="70" oX="0" oY="5" oW="73" oH="104" r="y"/>
+    <sprite n="V_mouth_flip_02" x="257" y="3" w="62" h="104" oX="0" oY="0" oW="73" oH="104"/>
+    <sprite n="V_mouth_flip_03" x="331" y="434" w="87" h="72" oX="0" oY="6" oW="73" oH="104" r="y"/>
+    <sprite n="V_mouth_flip_04" x="422" y="425" w="71" h="78" oX="2" oY="11" oW="73" oH="104"/>
+    <sprite n="V_mouth_flip_05" x="150" y="165" w="73" h="78" oX="0" oY="9" oW="73" oH="104"/>
+    <sprite n="V_mouth_flip_06" x="378" y="141" w="91" h="73" oX="0" oY="6" oW="73" oH="104" r="y"/>
+    <sprite n="V_pupil_01" x="205" y="373" w="10" h="12" oX="2" oY="0" oW="14" oH="12"/>
+    <sprite n="V_pupil_02" x="195" y="359" w="14" h="10" oX="0" oY="2" oW="14" oH="12"/>
+    <sprite n="V_pupil_03" x="255" y="500" w="14" h="8" oX="0" oY="3" oW="14" oH="12"/>
+    <sprite n="V_pupil_04" x="273" y="500" w="14" h="7" oX="0" oY="4" oW="14" oH="12"/>
+    <sprite n="V_right_arm_nub" x="426" y="106" w="19" h="20"/>
+    <sprite n="V_right_foot" x="3" y="451" w="36" h="55"/>
+    <sprite n="V_right_lower_arm" x="224" y="451" w="27" h="48" r="y"/>
+    <sprite n="V_right_lower_leg" x="161" y="247" w="30" h="122"/>
+    <sprite n="V_right_upper_arm" x="254" y="111" w="86" h="36"/>
+    <sprite n="V_right_upper_leg" x="470" y="262" w="16" h="77"/>
+    <sprite n="V_shadow" x="76" y="247" w="81" h="155" r="y"/>
+    <sprite n="V_spine_01" x="400" y="35" w="78" h="67"/>
+    <sprite n="V_spine_02" x="180" y="451" w="40" h="51" r="y"/>
+    <sprite n="V_spine_03" x="116" y="451" w="60" h="51" r="y"/>
+    <sprite n="V_spine_04" x="255" y="451" w="40" h="45"/>
+</TextureAtlas>

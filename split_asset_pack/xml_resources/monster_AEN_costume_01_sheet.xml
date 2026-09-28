@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:97977c7feb5068b442acc902b94c1bfb:1e8067d4b21aae589a55fccba70a178d:793b2ce868fbd49164dd8438b0026c8d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_AEN_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="AEN_adult_behind_horn.png" x="148" y="315" w="286" h="147" pX="0.5" pY="0.5" oX="1.8" oY="-16" r="y"/>
+    <sprite n="AEN_adult_bird_hat.png" x="209" y="466" w="23" h="29" pX="0.5" pY="0.5" oX="-1" oY="-7.8" r="y"/>
+    <sprite n="AEN_adult_front_horn.png" x="3" y="3" w="152" h="308" pX="0.5" pY="0.5" oX="0.2" oY="-28" oW="153" oH="308"/>
+    <sprite n="AEN_adult_glasses.png" x="148" y="466" w="57" h="30" pX="0.5" pY="0.5" oX="61" oY="61.4"/>
+    <sprite n="AEN_adult_tail.png" x="3" y="315" w="141" h="169" pX="0.5" pY="0.5" oX="-29" oY="0"/>
+</TextureAtlas>

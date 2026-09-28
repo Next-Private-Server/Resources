@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6689de3cda8249618a54f86a9024b897:a7bff2bb7ca9642a36ee966d708f6540:b0b173bd51841f6879dce6b15ff31b04$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_GK_costume_04_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="GK_body" x="0" y="0" w="142" h="182" pX="0.5" pY="0.5" oX="0" oY="0" oW="144" oH="184"/>
+	<sprite n="GK_eyeball" x="121" y="480" w="28" h="28" pX="0.5" pY="0.5"/>
+	<sprite n="GK_gas_swirl" x="0" y="366" w="115" h="120" pX="0.5" pY="0.5" oX="0" oY="0" oW="120" oH="116" r="y"/>
+	<sprite n="GK_hand_01" x="252" y="181" w="94" h="112" pX="0.5" pY="0.5" oX="0" oY="2" oW="120" oH="96" r="y"/>
+	<sprite n="GK_hand_02" x="144" y="0" w="90" h="115" pX="0.5" pY="0.5" oX="0" oY="2" oW="120" oH="96" r="y"/>
+	<sprite n="GK_hand_03" x="185" y="346" w="78" h="116" pX="0.5" pY="0.5" oX="0" oY="2" oW="120" oH="96" r="y"/>
+	<sprite n="GK_hand_04" x="367" y="0" w="66" h="110" pX="0.5" pY="0.5" oX="0" oY="3" oW="120" oH="96" r="y"/>
+	<sprite n="GK_hand_05" x="117" y="359" w="66" h="119" pX="0.5" pY="0.5" oX="0" oY="2" oW="120" oH="96" r="y"/>
+	<sprite n="GK_hand_06" x="236" y="0" w="75" h="113" pX="0.5" pY="0.5" oX="0" oY="3" oW="120" oH="96" r="y"/>
+	<sprite n="GK_hand_07" x="347" y="310" w="103" h="84" pX="0.5" pY="0.5" oX="0" oY="3" oW="120" oH="96"/>
+	<sprite n="GK_hand_08" x="348" y="216" w="104" h="92" pX="0.5" pY="0.5" oX="0" oY="3" oW="120" oH="96"/>
+	<sprite n="GK_helmet" x="94" y="184" w="156" h="160" pX="0.521739" pY="0.8125" oX="2" oY="0" oW="161" oH="160"/>
+	<sprite n="GK_left_foot" x="265" y="376" w="56" h="54" pX="0.5" pY="0.5" oX="0" oY="0" oW="56" oH="56"/>
+	<sprite n="GK_left_lowerleg" x="454" y="216" w="56" h="88" pX="0.5" pY="0.5" oX="0" oY="2" oW="56" oH="92"/>
+	<sprite n="GK_left_upperarm" x="265" y="295" w="80" h="79" pX="0.5" pY="0.5" oX="0" oY="0" oW="80" oH="80" r="y"/>
+	<sprite n="GK_left_upperleg" x="356" y="396" w="52" h="88" pX="0.5" pY="0.5"/>
+	<sprite n="GK_mouth_01" x="382" y="162" w="110" h="52" pX="0.5" pY="0.5" oX="1" oY="6" oW="112" oH="72"/>
+	<sprite n="GK_mouth_02" x="313" y="0" w="52" h="112" pX="0.5" pY="0.5" oX="0" oY="4" oW="112" oH="72" r="y"/>
+	<sprite n="GK_mouth_03" x="275" y="115" w="105" h="58" pX="0.5" pY="0.5" oX="3" oY="2" oW="112" oH="72"/>
+	<sprite n="GK_mouth_04" x="435" y="82" w="70" h="78" pX="0.5" pY="0.5" oX="15" oY="0" oW="112" oH="72" r="y"/>
+	<sprite n="GK_mouth_05" x="144" y="117" w="75" h="64" pX="0.5" pY="0.5" oX="18" oY="1" oW="112" oH="72"/>
+	<sprite n="GK_mouth_06" x="265" y="432" w="89" h="54" pX="0.5" pY="0.5" oX="12" oY="6" oW="112" oH="72"/>
+	<sprite n="GK_mouthglow_01" x="94" y="346" w="50" h="11" pX="0.5" pY="0.5" oX="9" oY="10" oW="64" oH="36"/>
+	<sprite n="GK_mouthglow_02" x="63" y="488" w="56" h="14" pX="0.5" pY="0.5" oX="3" oY="8" oW="64" oH="36"/>
+	<sprite n="GK_mouthglow_03" x="19" y="488" w="42" h="19" pX="0.5" pY="0.5" oX="11" oY="6" oW="64" oH="36"/>
+	<sprite n="GK_mouthglow_04" x="151" y="480" w="25" h="26" pX="0.5" pY="0.5" oX="19" oY="4" oW="64" oH="36" r="y"/>
+	<sprite n="GK_mouthglow_05" x="0" y="488" w="17" h="20" pX="0.5" pY="0.5" oX="24" oY="8" oW="64" oH="36" r="y"/>
+	<sprite n="GK_right_foot" x="221" y="117" w="52" h="62" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="52" r="y"/>
+	<sprite n="GK_right_lowerleg" x="454" y="306" w="56" h="88" pX="0.5" pY="0.5" oX="0" oY="2" oW="56" oH="92"/>
+	<sprite n="GK_right_upperarm" x="435" y="0" w="72" h="80" pX="0.5" pY="0.5"/>
+	<sprite n="GK_right_upperleg" x="410" y="396" w="88" h="52" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="GK_shadow" x="0" y="184" w="92" h="180" pX="0.5" pY="0.5" oX="3" oY="0" oW="184" oH="92" r="y"/>
+</TextureAtlas>

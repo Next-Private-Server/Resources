@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b66db38d35309e2148d3b7e1903b21a8:c40eb502de6405637fdd5207a010e0a0:5b7178d92b0d140a90ad1ba65bf702c1$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_crowd_cameo_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="crowd_gingerpale" x="0" y="233" w="189" h="257" oX="26" oY="24" oW="248" oH="306"/>
+	<sprite n="crowd_wizard" x="0" y="0" w="250" h="231" oX="7" oY="28" oW="248" oH="306" r="y"/>
+</TextureAtlas>

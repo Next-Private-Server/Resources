@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0e1ccc006ce292ae32e618cda4574328:cc72cc47458fc91522d8bc26ae50c43f:d3265ef773b479755a224a941df45acb$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_AB_costume_07_sheet.png" width="256" height="512" hires="true">
+    <sprite n="AB_costume_07_apron.png" x="162" y="1" w="92" h="100" oX="-9" oY="-17" oW="94" oH="100"/>
+    <sprite n="AB_costume_07_apronTop.png" x="1" y="218" w="55" h="52" oX="-3" oY="76" oW="56" oH="52"/>
+    <sprite n="AB_costume_07_body.png" x="162" y="103" w="90" h="72"/>
+    <sprite n="AB_costume_07_hatBase.png" x="133" y="177" w="83" h="79" oX="-1" oY="-39" oW="164" oH="160"/>
+    <sprite n="AB_costume_07_hatTop.png" x="1" y="1" w="159" h="153" oX="7" oY="-42" oW="164" oH="160"/>
+    <sprite n="AB_costume_07_neck.png" x="1" y="156" w="130" h="60" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:33ddda0f4830197a9ee4e29ccdae8e3c:c3d49d77f18db6b84ad2cc3db0245e80:82e86df44e63626e844c0ae1549d5c45$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_upperstage_mech_sheet.png" width="2048" height="1024" hires="true" version="1">
+	<sprite n="anime_bg_fan" x="0" y="0" w="923" h="584" oX="221" oY="114" oW="1367" oH="808">
+		<vertices>1095 243 1144 381 1144 526 1056 615 1027 669 669 698 336 666 291 575 221 525 223 382 261 270 348 193 411 182 548 115 825 114</vertices>
+		<verticesUV>874 129 923 267 923 412 835 501 806 555 448 584 115 552 70 461 0 411 2 268 40 156 127 79 190 68 327 1 604 0</verticesUV>
+		<triangles>5 13 14 12 5 7 10 11 12 9 12 7 10 12 9 7 8 9 12 13 5 5 6 7 3 4 5 3 5 14 1 2 3 0 1 3 0 3 14</triangles>
+	</sprite>
+	<sprite n="anime_bg_fan_glow1" x="927" y="401" w="247" h="95" oX="62" oY="33" oW="342" oH="202">
+		<vertices>309 125 245 128 203 97 62 121 77 67 217 33</vertices>
+		<verticesUV>1174 493 1110 496 1068 465 927 489 942 435 1082 401</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="anime_bg_fan_glow2" x="923" y="265" w="192" h="160" oX="78" oY="2" oW="342" oH="202">
+		<vertices>270 129 138 162 80 110 78 22 257 2</vertices>
+		<verticesUV>1115 392 983 425 925 373 923 285 1102 265</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="armor_flap_green_l" x="1352" y="0" w="48" h="121" oX="7" oY="19" oW="62" oH="159">
+		<vertices>55 140 7 140 7 19 55 19</vertices>
+		<verticesUV>1400 121 1352 121 1352 0 1400 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="armor_flap_green_r" x="1304" y="0" w="48" h="120" oX="4" oY="12" oW="56" oH="144">
+		<vertices>52 132 4 132 4 12 52 12</vertices>
+		<verticesUV>1352 120 1304 120 1304 0 1352 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="armor_flap_orange_l" x="42" y="0" w="43" h="115" oX="4" oY="9" oW="53" oH="136">
+		<vertices>47 20 47 124 4 114 6 38 29 9</vertices>
+		<verticesUV>85 11 85 115 42 105 44 29 67 0</verticesUV>
+		<triangles>0 1 3 1 2 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="armor_flap_orange_r" x="0" y="599" w="41" h="106" oX="7" oY="17" oW="55" oH="143">
+		<vertices>48 26 48 123 7 123 7 17</vertices>
+		<verticesUV>41 608 41 705 0 705 0 599</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="Armor_green" x="592" y="564" w="247" h="313" oX="9" oY="15" oW="274" oH="346">
+		<vertices>198 23 256 71 256 150 125 320 76 328 9 259 23 86 118 15</vertices>
+		<verticesUV>781 572 839 620 839 699 708 869 659 877 592 808 606 635 701 564</verticesUV>
+		<triangles>5 2 3 5 6 2 5 3 4 2 6 7 0 1 2 0 2 7</triangles>
+	</sprite>
+	<sprite n="Armor_green_bottom" x="0" y="877" w="145" h="139" oX="19" oY="16" oW="183" oH="164">
+		<vertices>164 17 164 134 19 155 19 26 124 55 140 16</vertices>
+		<verticesUV>145 878 145 995 0 1016 0 887 105 916 121 877</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="armor_orange" x="1400" y="0" w="216" h="218" oX="17" oY="17" oW="252" oH="248">
+		<vertices>233 78 233 213 218 213 175 102 108 155 107 235 71 217 17 129 20 23 127 17</vertices>
+		<verticesUV>1616 61 1616 196 1601 196 1558 85 1491 138 1490 218 1454 200 1400 112 1403 6 1510 0</verticesUV>
+		<triangles>7 8 9 4 7 9 4 5 6 4 6 7 3 4 9 1 2 3 0 1 3 9 0 3</triangles>
+	</sprite>
+	<sprite n="back_piston" x="175" y="728" w="420" h="266" oX="53" oY="90" oW="594" oH="374">
+		<vertices>473 131 467 199 309 355 239 356 131 267 53 231 123 158 247 144 383 90</vertices>
+		<verticesUV>595 769 589 837 431 993 361 994 253 905 175 869 245 796 369 782 505 728</verticesUV>
+		<triangles>4 6 7 1 7 8 4 5 6 3 4 7 2 3 7 1 2 7 0 1 8</triangles>
+	</sprite>
+	<sprite n="back_rim" x="0" y="579" w="605" h="321" oX="38" oY="53" oW="672" oH="433">
+		<vertices>643 81 542 145 551 199 367 260 319 237 222 274 92 374 38 361 92 263 171 182 318 108 557 53</vertices>
+		<verticesUV>605 607 504 671 513 725 329 786 281 763 184 800 54 900 0 887 54 789 133 708 280 634 519 579</verticesUV>
+		<triangles>1 10 11 9 4 5 5 8 9 8 5 6 8 6 7 9 10 4 3 4 10 1 2 3 1 3 10 0 1 11</triangles>
+	</sprite>
+	<sprite n="bg_smoke" x="898" y="0" w="280" h="265" oX="0" oY="8" oW="280" oH="280">
+		<vertices>280 107 280 175 214 273 70 267 0 204 0 127 45 15 181 8</vertices>
+		<verticesUV>1178 99 1178 167 1112 265 968 259 898 196 898 119 943 7 1079 0</verticesUV>
+		<triangles>5 6 7 3 5 7 3 4 5 1 2 3 1 3 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="lights" x="837" y="489" w="139" h="409">
+		<vertices>139 10 139 80 121 409 19 409 0 82 0 12 9 1 23 0 129 0</vertices>
+		<verticesUV>976 499 976 569 958 898 856 898 837 571 837 501 846 490 860 489 966 489</verticesUV>
+		<triangles>1 7 8 5 6 7 5 7 4 1 4 7 2 3 4 1 2 4 0 1 8</triangles>
+	</sprite>
+	<sprite n="speaker_cyan" x="1846" y="613" w="202" h="298" oX="38" oY="59" oW="280" oH="398">
+		<vertices>240 89 240 274 151 357 38 329 41 142 122 59</vertices>
+		<verticesUV>2048 643 2048 828 1959 911 1846 883 1849 696 1930 613</verticesUV>
+		<triangles>1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="speaker_cyan_core_bottom" x="1178" y="115" w="62" h="62" oX="8" oY="8" oW="78" oH="78">
+		<vertices>70 70 8 70 8 8 70 8</vertices>
+		<verticesUV>1240 177 1178 177 1178 115 1240 115</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_cyan_core_top" x="0" y="453" w="52" h="52" oX="9" oY="9" oW="70" oH="70">
+		<vertices>61 61 9 61 9 9 61 9</vertices>
+		<verticesUV>52 505 0 505 0 453 52 453</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_cyan_flap_bottom_l" x="1180" y="0" w="43" h="113" oX="5" oY="16" oW="53" oH="145">
+		<vertices>48 129 5 129 5 16 48 16</vertices>
+		<verticesUV>1223 113 1180 113 1180 0 1223 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_cyan_flap_bottom_r" x="1223" y="0" w="42" h="115" oX="4" oY="13" oW="50" oH="141">
+		<vertices>46 128 4 128 4 13 46 13</vertices>
+		<verticesUV>1265 115 1223 115 1223 0 1265 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_cyan_flap_top_l" x="40" y="705" w="28" h="69" oX="6" oY="18" oW="40" oH="105">
+		<vertices>34 87 6 87 6 18 34 18</vertices>
+		<verticesUV>68 774 40 774 40 705 68 705</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_cyan_flap_top_r" x="1794" y="193" w="29" h="70" oX="3" oY="9" oW="35" oH="88">
+		<vertices>32 79 3 79 3 9 32 9</vertices>
+		<verticesUV>1823 263 1794 263 1794 193 1823 193</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_extension" x="1983" y="871" w="65" h="147" oX="25" oY="26" oW="117" oH="205">
+		<vertices>90 173 27 173 25 44 90 26</vertices>
+		<verticesUV>2048 1018 1985 1018 1983 889 2048 871</verticesUV>
+		<triangles>0 2 3 0 1 2</triangles>
+	</sprite>
+	<sprite n="speaker_green" x="1837" y="288" w="211" h="330" oX="42" oY="44" oW="297" oH="417">
+		<vertices>253 299 157 374 44 348 42 142 144 69 253 44</vertices>
+		<verticesUV>2048 543 1952 618 1839 592 1837 386 1939 313 2048 288</verticesUV>
+		<triangles>0 4 5 3 1 2 3 4 0 3 0 1</triangles>
+	</sprite>
+	<sprite n="speaker_green_core_bottom" x="147" y="0" w="53" h="53" oX="8" oY="8" oW="69" oH="69">
+		<vertices>61 61 8 61 8 8 61 8</vertices>
+		<verticesUV>200 53 147 53 147 0 200 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_green_core_top" x="1612" y="0" w="57" h="58" oX="12" oY="11" oW="81" oH="80">
+		<vertices>69 69 12 69 12 11 69 11</vertices>
+		<verticesUV>1669 58 1612 58 1612 0 1669 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_green_flap_bottom_l" x="2020" y="566" w="28" h="69" oX="3" oY="9" oW="34" oH="87">
+		<vertices>31 78 3 78 3 9 31 9</vertices>
+		<verticesUV>2048 635 2020 635 2020 566 2048 566</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_green_flap_bottom_r" x="1151" y="0" w="29" h="70" oX="4" oY="12" oW="37" oH="94">
+		<vertices>33 82 4 82 4 12 33 12</vertices>
+		<verticesUV>1180 70 1151 70 1151 0 1180 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_green_flap_top_l" x="823" y="0" w="41" h="124" oX="2" oY="5" oW="46" oH="130">
+		<vertices>43 13 43 129 2 106 3 21 28 5</vertices>
+		<verticesUV>864 8 864 124 823 101 824 16 849 0</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="speaker_green_flap_top_r" x="0" y="705" w="40" h="109" oX="7" oY="22" oW="54" oH="153">
+		<vertices>47 131 7 131 7 22 47 22</vertices>
+		<verticesUV>40 814 0 814 0 705 40 705</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_orange" x="1616" y="0" w="207" h="231" oX="26" oY="0" oW="260" oH="256">
+		<vertices>233 56 233 167 161 231 33 217 26 111 138 0</vertices>
+		<verticesUV>1823 56 1823 167 1751 231 1623 217 1616 111 1728 0</verticesUV>
+		<triangles>1 2 4 2 3 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="speaker_orange_core" x="85" y="0" w="62" h="63" oX="8" oY="7" oW="78" oH="77">
+		<vertices>70 70 8 70 8 7 70 7</vertices>
+		<verticesUV>147 63 85 63 85 0 147 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_orange_flap_top_l" x="0" y="505" w="36" h="94" oX="5" oY="14" oW="46" oH="122">
+		<vertices>41 108 5 108 5 14 41 14</vertices>
+		<verticesUV>36 599 0 599 0 505 36 505</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_orange_flap_top_r" x="864" y="0" w="37" h="94" oX="5" oY="15" oW="47" oH="124">
+		<vertices>42 109 5 109 5 15 42 15</vertices>
+		<verticesUV>901 94 864 94 864 0 901 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_red" x="1823" y="0" w="225" h="317" oX="47" oY="45" oW="319" oH="396">
+		<vertices>272 76 268 302 155 362 47 322 49 81 181 45</vertices>
+		<verticesUV>2048 31 2044 257 1931 317 1823 277 1825 36 1957 0</verticesUV>
+		<triangles>1 4 5 3 4 1 3 1 2 0 1 5</triangles>
+	</sprite>
+	<sprite n="speaker_red_core_bottom" x="762" y="0" w="61" h="64" oX="16" oY="17" oW="93" oH="98">
+		<vertices>77 81 16 81 16 17 77 17</vertices>
+		<verticesUV>823 64 762 64 762 0 823 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_red_core_top" x="714" y="0" w="48" h="50" oX="10" oY="7" oW="68" oH="64">
+		<vertices>58 57 10 57 10 7 58 7</vertices>
+		<verticesUV>762 50 714 50 714 0 762 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_red_flap_bottom_l" x="1265" y="0" w="39" h="122" oX="5" oY="18" oW="49" oH="158">
+		<vertices>44 140 5 140 5 18 44 18</vertices>
+		<verticesUV>1304 122 1265 122 1265 0 1304 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_red_flap_bottom_r" x="0" y="5" w="42" h="149" oX="6" oY="5" oW="54" oH="164">
+		<vertices>48 47 48 154 6 141 6 5</vertices>
+		<verticesUV>42 47 42 154 0 141 0 5</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="speaker_red_flap_top_l" x="68" y="683" w="25" h="65" oX="4" oY="13" oW="33" oH="91">
+		<vertices>29 78 4 78 4 13 29 13</vertices>
+		<verticesUV>93 748 68 748 68 683 93 683</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="speaker_red_flap_top_r" x="41" y="638" w="25" h="67" oX="2" oY="9" oW="29" oH="85">
+		<vertices>27 76 2 76 2 9 27 9</vertices>
+		<verticesUV>66 705 41 705 41 638 66 638</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

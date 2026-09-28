@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ca5e5cbdb63e10b1d8c00d42d561914f:affc77d9a78cccd3892683809e546823:d699dfc921557933388b7db3b8315173$ -->
+<TextureAtlas imagePath="gfx/structures/obstacle_island32_sheet.png" width="2048" height="1024" hires="true" version="1">
+	<sprite n="obstacle_rock01_snow" x="874" y="440" w="199" h="169" oX="9" oY="21" oW="194" oH="237" r="y"/>
+	<sprite n="obstacle_rock02_snow" x="644" y="618" w="295" h="377" oX="2" oY="16" oW="300" oH="399"/>
+	<sprite n="obstacle_rock03_snow" x="455" y="0" w="417" h="616" oX="50" oY="18" oW="506" oH="640"/>
+	<sprite n="obstacle_tree01_snow" x="874" y="0" w="238" h="438" oX="3" oY="14" oW="244" oH="452"/>
+	<sprite n="obstacle_tree02_snow" x="0" y="660" w="642" h="360" oX="54" oY="14" oW="428" oH="656" r="y"/>
+	<sprite n="obstacle_tree03_snow" x="0" y="0" w="453" h="658" oX="80" oY="156" oW="564" oH="832"/>
+</TextureAtlas>

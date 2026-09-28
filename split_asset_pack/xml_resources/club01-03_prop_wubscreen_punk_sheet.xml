@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4d656b7b155005bb12003adc0fe7f1fa:df130816294cdb6567742fe248dd3eed:e854e9e2904037d7154293238572b7d4$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_wubscreen_punk_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="screen_attmoz" x="320" y="409" w="178" h="207" oX="527" oY="164" oW="931" oH="416" r="y"/>
+	<sprite n="screen_bg" x="0" y="267" w="412" h="140" oX="27" oY="32" oW="466" oH="208"/>
+	<sprite n="screen_fleechwurm" x="0" y="409" w="318" h="225" oX="391" oY="117" oW="931" oH="416"/>
+	<sprite n="screen_phangler" x="0" y="0" w="444" h="265" oX="62" oY="77" oW="931" oH="416"/>
+	<sprite n="screen_shellbeat" x="320" y="618" w="147" h="208" oX="694" oY="66" oW="931" oH="416"/>
+</TextureAtlas>

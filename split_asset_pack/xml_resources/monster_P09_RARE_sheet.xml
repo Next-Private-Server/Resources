@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:dfc28d009a26412e6c6dde3329f0df2c:59aba93c69bdf504e20b1f72e8503307:8d0c63a6f4a9c6b5cae7b136d3a3a160$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P09_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="p09_arm_lower_l" x="92" y="806" w="60" h="96" oX="16" oY="14" oW="120" oH="80" r="y" />
+  <sprite n="p09_arm_lower_r" x="0" y="898" w="81" h="126" oX="6" oY="11" oW="140" oH="100" r="y" />
+  <sprite n="p09_arm_upper_l" x="148" y="912" w="62" h="90" oX="9" oY="5" oW="80" oH="100" />
+  <sprite n="p09_arm_upper_r" x="214" y="505" w="93" h="127" oX="4" oY="8" oW="110" oH="140" />
+  <sprite n="p09_body" x="0" y="0" w="238" h="172" oX="6" oY="9" oW="250" oH="190" />
+  <sprite n="p09_body_feather_a" x="104" y="480" w="108" h="156" oX="34" oY="0" oW="240" oH="110" r="y" />
+  <sprite n="p09_body_feather_c" x="411" y="549" w="101" h="94" oX="38" oY="19" oW="170" oH="140" r="y" />
+  <sprite n="p09_brow_l" x="232" y="373" w="186" h="130" oX="0" oY="0" oW="200" oH="130" />
+  <sprite n="p09_brow_r" x="309" y="505" w="100" h="103" oX="4" oY="0" oW="104" oH="112" />
+  <sprite n="p09_eyelid_l_1" x="472" y="71" w="38" h="64" oX="11" oY="5" oW="60" oH="74" />
+  <sprite n="p09_eyelid_l_2" x="230" y="794" w="64" h="38" oX="11" oY="5" oW="60" oH="74" r="y" />
+  <sprite n="p09_eyelid_l_3" x="383" y="764" w="64" h="38" oX="11" oY="5" oW="60" oH="74" r="y" />
+  <sprite n="p09_eyelid_l_4" x="383" y="804" w="64" h="38" oX="11" oY="5" oW="60" oH="74" r="y" />
+  <sprite n="p09_eyelid_r_1" x="313" y="770" w="68" h="63" oX="3" oY="5" oW="74" oH="74" />
+  <sprite n="p09_eyelid_r_2" x="302" y="835" w="68" h="63" oX="3" oY="5" oW="74" oH="74" />
+  <sprite n="p09_eyelid_r_3" x="411" y="645" w="68" h="63" oX="3" oY="5" oW="74" oH="74" />
+  <sprite n="p09_eyelid_r_4" x="449" y="715" w="63" h="68" oX="3" oY="5" oW="74" oH="74" r="y" />
+  <sprite n="p09_feather_back_1" x="154" y="744" w="74" h="90" oX="10" oY="13" oW="110" oH="100" r="y" />
+  <sprite n="p09_feather_back_2" x="231" y="634" w="79" h="87" oX="12" oY="12" oW="100" oH="110" />
+  <sprite n="p09_feather_back_3" x="472" y="0" w="35" h="69" oX="16" oY="8" oW="100" oH="50" r="y" />
+  <sprite n="p09_hand_l" x="83" y="904" w="63" h="118" oX="5" oY="8" oW="130" oH="80" r="y" />
+  <sprite n="p09_hand_r" x="92" y="666" w="60" h="138" oX="16" oY="9" oW="160" oH="80" r="y" />
+  <sprite n="p09_head" x="0" y="174" w="131" h="258" oX="0" oY="9" oW="260" oH="140" r="y" />
+  <sprite n="p09_mouth_1" x="240" y="104" w="230" h="85" oX="10" oY="0" oW="250" oH="120" />
+  <sprite n="p09_mouth_2" x="0" y="666" w="90" h="230" oX="10" oY="1" oW="250" oH="120" r="y" />
+  <sprite n="p09_mouth_3" x="133" y="174" w="97" h="232" oX="9" oY="1" oW="250" oH="120" r="y" />
+  <sprite n="p09_mouth_6" x="240" y="0" w="230" h="102" oX="12" oY="1" oW="250" oH="120" />
+  <sprite n="p09_mouth_7" x="0" y="434" w="102" h="230" oX="12" oY="1" oW="250" oH="120" r="y" />
+  <sprite n="p09_mouth_8" x="232" y="191" w="230" h="90" oX="10" oY="1" oW="250" oH="120" />
+  <sprite n="p09_mouth_9" x="232" y="283" w="230" h="88" oX="10" oY="0" oW="250" oH="120" />
+  <sprite n="p09_mushroom_1_a" x="380" y="610" w="29" h="50" oX="15" oY="50" oW="80" oH="90" r="y" />
+  <sprite n="p09_mushroom_1_b" x="417" y="906" w="37" h="50" oX="15" oY="43" oW="80" oH="90" r="y" />
+  <sprite n="p09_mushroom_1_c" x="464" y="297" w="47" h="68" oX="6" oY="5" oW="80" oH="90" r="y" />
+  <sprite n="p09_mushroom_1_d" x="464" y="191" w="48" h="54" oX="16" oY="21" oW="80" oH="90" />
+  <sprite n="p09_mushroom_1_e" x="449" y="785" w="63" h="32" oX="7" oY="24" oW="80" oH="90" />
+  <sprite n="p09_mushroom_2_a" x="317" y="974" w="56" h="50" oX="17" oY="62" oW="90" oH="120" />
+  <sprite n="p09_mushroom_2_b" x="154" y="836" w="89" h="74" oX="0" oY="2" oW="90" oH="120" />
+  <sprite n="p09_mushroom_2_c" x="312" y="610" w="66" h="84" oX="13" oY="21" oW="90" oH="120" />
+  <sprite n="p09_mushroom_2_d" x="481" y="645" w="30" h="68" oX="11" oY="44" oW="90" oH="120" r="y" />
+  <sprite n="p09_mushroom_3_a" x="381" y="710" w="66" h="52" oX="22" oY="69" oW="110" oH="130" />
+  <sprite n="p09_mushroom_3_b" x="154" y="638" w="75" h="104" oX="3" oY="4" oW="110" oH="130" r="y" />
+  <sprite n="p09_mushroom_3_c" x="133" y="408" w="97" h="70" oX="21" oY="24" oW="110" oH="130" r="y" />
+  <sprite n="p09_mushroom_3_d" x="212" y="912" w="51" h="98" oX="6" oY="36" oW="110" oH="130" r="y" />
+  <sprite n="p09_mushroom_4_a" x="427" y="958" w="38" h="39" oX="6" oY="44" oW="50" oH="90" r="y" />
+  <sprite n="p09_mushroom_4_b" x="372" y="906" w="43" h="65" oX="4" oY="10" oW="50" oH="90" />
+  <sprite n="p09_mushroom_5_a" x="104" y="434" w="25" h="31" oX="16" oY="45" oW="50" oH="80" />
+  <sprite n="p09_mushroom_5_b" x="265" y="912" w="50" h="75" oX="0" oY="0" oW="50" oH="80" />
+  <sprite n="p09_mushroom_06" x="375" y="973" w="50" h="50" />
+  <sprite n="p09_mushroom_7_a" x="265" y="989" w="49" h="35" oX="11" oY="69" oW="80" oH="110" />
+  <sprite n="p09_mushroom_7_b" x="456" y="901" w="38" h="49" oX="11" oY="66" oW="80" oH="110" r="y" />
+  <sprite n="p09_mushroom_7_c" x="231" y="723" w="80" h="69" oX="0" oY="0" oW="80" oH="110" />
+  <sprite n="p09_mushroom_7_d" x="317" y="900" w="53" h="72" oX="10" oY="32" oW="80" oH="110" />
+  <sprite n="p09_mushroom_7_e" x="472" y="137" w="26" h="52" oX="11" oY="43" oW="80" oH="110" r="y" />
+  <sprite n="p09_mushroom_8_a" x="425" y="847" w="50" h="52" oX="16" oY="71" oW="80" oH="130" />
+  <sprite n="p09_mushroom_8_b" x="372" y="844" w="51" h="60" oX="16" oY="64" oW="80" oH="130" />
+  <sprite n="p09_mushroom_8_c" x="313" y="696" w="66" h="72" oX="6" oY="0" oW="80" oH="130" />
+  <sprite n="p09_mushroom_8_d" x="245" y="834" w="55" h="76" oX="13" oY="33" oW="80" oH="130" />
+  <sprite n="p09_mushroom_8_e" x="449" y="819" w="54" h="26" oX="13" oY="47" oW="80" oH="130" />
+  <sprite n="p09_pupil" x="464" y="247" w="48" h="48" oX="2" oY="3" oW="51" oH="52" />
+  <sprite n="p09_shadow" x="420" y="373" w="92" h="174" r="y" />
+</TextureAtlas>

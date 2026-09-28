@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<script src="scripts/UserProfile.lua" />
+
+	<event name="onPostInit" params="element">
+		element("transitionState"):SetInt(1)
+		element("transitionTime"):SetFloat(0.0)
+		lua_sys.playSoundFx("audio/sfx/menu_slide.wav")
+		element:onPostInitLua()
+	</event>
+
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+			local transitionState = element("transitionState"):GetInt()
+			if(transitionState ~= 0) then
+				local transitionTime = element("transitionTime"):GetFloat()
+
+				if(transitionState == 1) then
+					transitionTime = (transitionTime + dt*3)
+				elseif(transitionState == 2) then
+					transitionTime = (transitionTime - dt*3)
+				end
+
+				transitionTime = clamp(transitionTime, 0.0, 1.0)
+				element("transitionTime"):SetFloat(transitionTime)
+
+				element:E("Panel")("xOffset"):SetFloat((lua_sys.screenWidth() * (0.5)) + (((-0.5) * lua_sys.screenWidth()) * (1 / transitionTime)))
+				element:E("FadedBG"):C("Sprite") ("alpha"):SetFloat(transitionTime * 0.5)
+
+				if(transitionTime == 1.0) then
+					element("transitionState"):SetInt(0)
+				elseif(transitionTime == 0.0) then
+					element:root():popPopUp()
+				end
+			end
+		]]>
+	</event>
+
+	<event name="queuePop" params="element">
+		element("transitionState"):SetInt(2)
+	</event>
+
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="15" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("__BUILTIN__WHITE_TEXTURE")
+				component:setScale(Vector2(lua_sys.screenWidth()*0.25, lua_sys.screenHeight()*0.25))
+				component:setColor(0.0, 0.0, 0.0)
+				component("alpha"):SetFloat(0.0)
+				component("layer"):SetString("MidPopUps")
+				component("visible"):SetInt(1)
+			</event>
+		</spriteComponent>
+
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+
+	<element name="Panel">
+		<size dependentOnElement="element:name()" dependentOnComponent="bg" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-2 * lua_sys.screenWidth()" yOffset="-12*game.windowScaleY()" priorityOffset="13" />
+
+		<ninesliceComponent name="bg">
+			<size w="400*game.windowScaleY()" h="240*game.windowScaleY()" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+			<event name="onInit" params="component, element">
+				component("includeBorder"):SetInt(1)
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.3*game.windowScaleY())
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+
+		<template type="template_social_tab" name="Tab">
+			<templateVar name="$text" equals="PLAYER_PROFILE" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="12*game.windowScaleY()" yOffset="-6*game.windowScaleY()" priorityOffset="-1" />
+			<event name="onPostInit" params="component, element">
+				component:C("Touch")("enabled"):SetInt(0)
+				component:E("Alert"):DoStoredScript("setInvisible")
+			</event>
+		</template>
+
+		<template type="template_social_card" name="Card">
+			<templateVar name="$scale" equals="1.6*game.windowScaleY()" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="12*game.windowScaleY()" yOffset="12*game.windowScaleY()" priorityOffset="-1" />
+		</template>
+
+		<element name="Moniker">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="8*game.windowScaleY()" priorityOffset="-1" />
+			<ninesliceComponent name="Sprite">
+				<size w="130*game.windowScaleY()" h="24*game.windowScaleY()" />
+				<event name="onInit" params="component, element">
+					component("topHeight"):SetFloat(44.0)
+					component("bottomHeight"):SetFloat(44.0)
+					component("leftWidth"):SetFloat(50.0)
+					component("rightWidth"):SetFloat(50.0)
+					component("size"):SetFloat(0.18*game.windowScaleY())
+					component("includeBorder"):SetInt(1)
+					component("spriteName"):SetString("gfx/menu/scroll_frame")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</ninesliceComponent>
+			<textComponent name="Text">
+				<size w="100*game.windowScaleY()" />
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-1*game.windowScaleY()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTutorialFont())
+					component("size"):SetFloat(0.36*game.windowScaleY())
+					component("text"):SetString("Apprentice Handler")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+					component:setColor(0.0, 0.0, 0.0)
+				</event>
+			</textComponent>
+			<event name="setInvisible" params="element">
+				element:C("Text")("visible"):SetInt(0)
+				element:C("Sprite")("visible"):SetInt(0)
+			</event>
+			<event name="setVisible" params="element">
+				element:C("Text")("visible"):SetInt(1)
+				element:C("Sprite")("visible"):SetInt(1)
+			</event>
+		</element>
+
+		<element name="Favorites">
+			<size w="220*game.windowScaleY()" h="55*game.windowScaleY()"/>
+			<position relativeTo="Moniker" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+
+			<textComponent name="FavoritesLabel">
+				<size w="60*game.windowScaleY()" />
+				<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
+				<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-4*game.windowScaleY()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.3*game.windowScaleY())
+					component("text"):SetString("PROFILE_EDITOR_FAVORITES")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<element name="Monster1">
+				<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="-1" />
+
+				<spriteComponent name="Sprite">
+					<event name="onInit" params="component, element">
+						local MonsterPortraits = include("MonsterPortraits")
+						local monsterImage = MonsterPortraits:getDefaultMonsterPortrait(2)
+						component("spriteName"):SetString(monsterImage)
+						component("size"):SetFloat(0.5*game.windowScaleY())
+						component("layer"):SetString("MidPopUps")
+					</event>
+				</spriteComponent>
+			</element>
+
+			<element name="Monster2">
+				<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+				<position relativeTo="Monster1" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+
+				<spriteComponent name="Sprite">
+					<event name="onInit" params="component, element">
+						local MonsterPortraits = include("MonsterPortraits")
+						local monsterImage = MonsterPortraits:getDefaultMonsterPortrait(2)
+						component("spriteName"):SetString(monsterImage)
+						component("size"):SetFloat(0.5*game.windowScaleY())
+						component("layer"):SetString("MidPopUps")
+					</event>
+				</spriteComponent>
+			</element>
+
+			<element name="Monster3">
+				<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+				<position relativeTo="Monster2" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+
+				<spriteComponent name="Sprite">
+					<event name="onInit" params="component, element">
+						local MonsterPortraits = include("MonsterPortraits")
+						local monsterImage = MonsterPortraits:getDefaultMonsterPortrait(2)
+						component("spriteName"):SetString(monsterImage)
+						component("size"):SetFloat(0.5*game.windowScaleY())
+						component("layer"):SetString("MidPopUps")
+					</event>
+				</spriteComponent>
+			</element>
+
+			<element name="Island">
+				<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="-1" />
+
+				<spriteSheetComponent name="Sprite">
+					<event name="onInit" params="component, element">
+						component("spriteName"):SetString("islands_button_isl01")
+						component("sheetName"):SetString("xml_resources/island_buttons01.xml")
+						component("size"):SetFloat(0.25*game.windowScaleY())
+						component("layer"):SetString("MidPopUps")
+					</event>
+				</spriteSheetComponent>
+			</element>
+
+		</element>
+
+		<!-- <element name="BoMStats">
+			<size w="220*game.windowScaleY()" h="30*game.windowScaleY()"/>
+			<position relativeTo="Favorites" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+
+			<textComponent name="CommonsLabel">
+				<size w="40*game.windowScaleY()" />
+				<position relativeTo="PARENT" component="CommonsCount" vAnchor="TOP" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="2*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("text"):SetString("COMMONS_LABEL")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="CommonsCount">
+				<position relativeTo="PARENT" component="RaresCount" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="40*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("0/0")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="CommonsIcon">
+				<position relativeTo="PARENT" component="CommonsCount" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="4*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("sheetName"):SetString("xml_resources/map_icons_sheet.xml")
+					component("spriteName"):SetString("map_common_icon")
+					component("size"):SetFloat(0.3*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="RaresLabel">
+				<size w="40*game.windowScaleY()" />
+				<position relativeTo="PARENT" component="RaresCount" vAnchor="TOP" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="2*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("text"):SetString("RARES_LABEL")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="RaresCount">
+				<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="-12*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("0/0")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="RaresIcon">
+				<position relativeTo="PARENT" component="RaresCount" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="4*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("sheetName"):SetString("xml_resources/map_icons_sheet.xml")
+					component("spriteName"):SetString("map_rare_icon")
+					component("size"):SetFloat(0.3*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+
+			<textComponent name="EpicsLabel">
+				<size w="40*game.windowScaleY()" />
+				<position relativeTo="PARENT" component="EpicsCount" vAnchor="TOP" hAnchor="HCENTER" />
+				<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="2*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("text"):SetString("EPICS_LABEL")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="EpicsCount">
+				<size w="40*game.windowScaleY()" />
+				<position relativeTo="PARENT" component="RaresCount" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="40*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("0/0")
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="EpicsIcon">
+				<position relativeTo="PARENT" component="EpicsCount" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="4*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("sheetName"):SetString("xml_resources/map_icons_sheet.xml")
+					component("spriteName"):SetString("map_epic_icon")
+					component("size"):SetFloat(0.3*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+		</element> -->
+
+		<element name="PlayerStats">
+			<size w="220*game.windowScaleY()" h="75*game.windowScaleY()"/>
+			<position relativeTo="Favorites" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.windowScaleY()" priorityOffset="0" />
+
+			<spriteSheetComponent name="Stat1Icon">
+				<position relativeTo="PARENT" component="Stat1Title" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("PlayerLevel_Star")
+					component("sheetName"):SetString("xml_resources/hud03.xml")
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="Stat1Title">
+				<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="16*game.windowScaleY()" yOffset="14*game.windowScaleY()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("Level 0")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="Stat1Value">
+				<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="8*game.windowScaleY()" yOffset="14*game.windowScaleY()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_RIGHT_ALIGNED)
+					component("text"):SetString("0/0")
+					component("layer"):SetString("MidPopUps")
+
+					local palette = include("ColourPalette")
+					component:setColor(palette:getRGBFloats(palette.XP_COLOUR))
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="Stat2Icon">
+				<position relativeTo="PARENT" component="Stat2Title" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString(game.StoreContext_SPRITE_STARPOWER)
+					component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="Stat2Title">
+				<position relativeTo="PARENT" component="Stat1Title" vAnchor="BOTTOM" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("TRIBAL_STARPOWER")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="Stat2Value">
+				<position relativeTo="PARENT" component="Stat1Value" vAnchor="BOTTOM" hAnchor="RIGHT" />
+				<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_RIGHT_ALIGNED)
+					component("text"):SetString("9000")
+					component("layer"):SetString("MidPopUps")
+
+					local palette = include("ColourPalette")
+					component:setColor(palette:getRGBFloats(palette.STARPOWER_COLOUR))
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="Stat3Icon">
+				<position relativeTo="PARENT" component="Stat3Title" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("news_seasonals")
+					component("sheetName"):SetString("xml_resources/buttons02.xml")
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="Stat3Title">
+				<position relativeTo="PARENT" component="Stat2Title" vAnchor="BOTTOM" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("JOINED_LABEL")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="Stat3Value">
+				<position relativeTo="PARENT" component="Stat2Value" vAnchor="BOTTOM" hAnchor="RIGHT" />
+				<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_RIGHT_ALIGNED)
+					component("text"):SetString("9000")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="Stat4Icon">
+				<position relativeTo="PARENT" component="Stat4Title" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("button_light_torch")
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="Stat4Title">
+				<position relativeTo="PARENT" component="Stat3Title" vAnchor="BOTTOM" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("TORCHES_LIT")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="Stat4Value">
+				<position relativeTo="PARENT" component="Stat3Value" vAnchor="BOTTOM" hAnchor="RIGHT" />
+				<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_RIGHT_ALIGNED)
+					component("text"):SetString("9000")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<spriteSheetComponent name="Stat5Icon">
+				<position relativeTo="PARENT" component="Stat5Title" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("spriteName"):SetString("button_light_torch")
+					component("sheetName"):SetString("xml_resources/context_buttons.xml")
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</spriteSheetComponent>
+
+			<textComponent name="Stat5Title">
+				<position relativeTo="PARENT" component="Stat4Title" vAnchor="BOTTOM" hAnchor="LEFT" />
+				<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("TORCHES_LIT")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<textComponent name="Stat5Value">
+				<position relativeTo="PARENT" component="Stat4Value" vAnchor="BOTTOM" hAnchor="RIGHT" />
+				<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="6*game.windowScaleY()" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("autoScale"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("alignment"):SetInt(MenuTextComponent_TEXT_RIGHT_ALIGNED)
+					component("text"):SetString("9000")
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+		</element>
+
+		<element name="FriendCode">
+			<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="12*game.windowScaleY()" yOffset="-16*game.windowScaleY()" priorityOffset="-4" />
+			<textComponent name="Text">
+				<size w="160*game.windowScaleY()" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTextFont())
+					component("size"):SetFloat(0.2*game.windowScaleY())
+					component("text"):SetString(game.getLocalizedText("FRIEND_CODE_USER") .. " AAAA-AAAA-AAAA")
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+
+			<template type="template_spritesheetbutton" name="CopyIdButton">
+				<templateVar name="$layer" equals="MidPopUps" />
+				<templateVar name="$spriteScale" equals="0.14*game.windowScaleY()" />
+				<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="2*game.windowScaleY()" yOffset="1*game.windowScaleY()" priorityOffset="0" />
+				<spriteSheetComponent name="icon">
+					<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+					<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+					<event name="onInit" params="component, element">
+						component("sheetName"):SetString("xml_resources/composer_buttons01.xml")
+						component("spriteName"):Set("button_copy")
+						component("size"):SetFloat(element:C("UpSprite")("size"):GetFloat())
+						component("layer"):SetString("MidPopUps")
+					</event>
+					<event name="onTick" params="component, element, dt">
+						if(component("size"):GetFloat() ~= element:C("UpSprite")("size"):GetFloat()) then
+							component("size"):SetFloat(element:C("UpSprite")("size"):GetFloat())
+						end
+					</event>
+				</spriteSheetComponent>
+				<touchComponent name="Touch">
+					<event name="onTouchDown" params="component, element">
+						onTouchDown(component, element)
+						element:C("icon"):setColor(0.5, 0.5, 0.5)
+					</event>
+					<event name="onTouchUp" params="component, element">
+						onTouchUp(component, element)
+						element:C("icon"):setColor(1.0, 1.0, 1.0)
+						game.setClipboardText(game.playerFriendCode(), "Friend Code")
+						element:parent().Tooltip:Show()
+					</event>
+					<event name="onTouchRelease" params="component, element">
+						onTouchRelease(component, element)
+						element:C("icon"):setColor(1.0, 1.0, 1.0)
+					</event>
+				</touchComponent>
+				<event name="hide" params="element">
+					element:C("icon")("visible"):SetInt(0)
+					element:DoStoredScript("setInvisible")
+				</event>
+				<event name="show" params="element">
+					element:C("icon")("visible"):SetInt(1)
+					element:DoStoredScript("setVisible")
+				</event>
+			</template>
+
+			<template type="template_tooltip" name="Tooltip">
+				<position relativeTo="CopyIdButton" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onPostInit" params="element">
+					<![CDATA[
+						element.Sprite:setSize(lua_sys.Vector2(220*game.hudScale(), 80*game.hudScale()))
+						element.Text:GetVar("text"):SetString("FRIEND_CODE_COPIED_TO_CLIPBOARD")
+						element.onDoneShow = function() element:Hide() end
+					]]>
+				</event>
+			</template>
+
+			<event name="setInvisible" params="element">
+				element:C("Text")("visible"):SetInt(0)
+				element:E("CopyIdButton"):DoStoredScript("hide")
+			</event>
+			<event name="setVisible" params="element">
+				element:C("Text")("visible"):SetInt(1)
+				element:E("CopyIdButton"):DoStoredScript("show")
+			</event>
+		</element>
+
+		<template type="template_spritesheetbutton" name="DeleteButton">
+			<templateVar name="$upSpriteName" equals="'button_long_grey@2x'" />
+			<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />		
+			<templateVar name="$spriteScale" equals="0.35*game.windowScaleY()" />
+			<templateVar name="$layer" equals="'MidPopUps'" />
+
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="12*game.windowScaleY()" yOffset="-20*game.windowScaleY()" priorityOffset="-1" />
+
+			<textComponent name="Label">
+				<size w="50*game.windowScaleY()" h="30*game.windowScaleY()"/>
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTitleFont())
+					component("size"):SetFloat(0.25*game.windowScaleY())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+					component("text"):SetString(game.getLocalizedText("CONTEXTBAR_REMOVE_LABEL"))
+					component("textPadding"):SetInt(4*game.windowScaleY())
+					component("autoScaleFactor"):SetFloat(0.01)
+					component("autoScale"):SetInt(1)
+					component("layer"):SetString("MidPopUps")
+				</event>
+			</textComponent>
+			<touchComponent name="Touch">
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					element:parent():parent():OnDeleteButton()
+				</event>
+			</touchComponent>
+			
+			<event name="setInvisible" params="element">
+				setInvisible(element)
+				element:C("Label")("visible"):SetInt(0)
+			</event>
+			<event name="setVisible" params="element">
+				setVisible(element)
+				element:C("Label")("visible"):SetInt(1)
+			</event>
+		</template>
+
+    </element>
+
+</menu>

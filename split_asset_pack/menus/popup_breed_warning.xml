@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<script src="scripts/PopupBreedWarning.lua"/>
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.5" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$priority" equals="4" />
+	</template>
+
+	<template type="template_panel_basic" name="bg">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<!-- the panel's height is set dynamically in setup -->
+		<size w="480*game.menuScaleX()" h="340*game.menuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*game.menuScaleX()" priorityOffset="3" />
+	</template>
+
+	<element name="Notification">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="20*game.menuScaleX()" priorityOffset="-3" />
+		<textComponent name="Text">
+			<size w="420*game.menuScaleX()" h="120*game.menuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("...")
+				component("size"):SetFloat(0.35*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+				component("autoScale"):SetInt(1)
+			</event>
+			<event name="moveDown" params="component, element">
+				component("yOffset"):SetFloat(20*game.menuScaleX())
+			</event>
+		</textComponent>
+	</element>
+
+	<template type="template_nineslicebutton" name="YesButton">
+	
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_vert_square01_purple'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$text" equals="BREED" />
+		<templateVar name="$textPadding" equals="6*game.hudScale()" />
+		<templateVar name="$textYOffset" equals="0" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$topHeight" equals="20.0" />
+		<templateVar name="$bottomHeight" equals="20.0" />
+		<templateVar name="$leftWidth" equals="20.0" />
+		<templateVar name="$rightWidth" equals="20.0" />
+		<templateVar name="$width" equals="100*game.menuScaleX()" />
+		<templateVar name="$height" equals="45*game.menuScaleX()" />
+		<templateVar name="$includeBorder" equals="1" />		
+
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-480*game.menuScaleX()*0.33" yOffset="-40*game.menuScaleX()" priorityOffset="-1" />
+
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				
+				local e = element:parent()
+				e.choice = true
+				e.bg:Hide()
+				e.FadedBG:Hide()
+
+			</event>
+		</touchComponent>
+
+		<event name="onPostInit" params="element">
+			element["Text"]("size"):SetFloat(0.25*game.hudScale())
+			element["Text"]("autoScale"):SetInt(1)
+		</event>
+
+	</template>
+
+	<template type="template_nineslicebutton" name="NoButton" >
+	
+		<templateVar name="$upSpriteName" equals="'gfx/menu/button_vert_square01_green'" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
+		<templateVar name="$text" equals="RESELECT" />
+		<templateVar name="$textPadding" equals="6*game.hudScale()" />
+		<templateVar name="$textYOffset" equals="0" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$topHeight" equals="20.0" />
+		<templateVar name="$bottomHeight" equals="20.0" />
+		<templateVar name="$leftWidth" equals="20.0" />
+		<templateVar name="$rightWidth" equals="20.0" />
+		<templateVar name="$width" equals="100*game.menuScaleX()" />
+		<templateVar name="$height" equals="45*game.menuScaleX()" />
+		<templateVar name="$includeBorder" equals="1" />
+		<templateVar name="$buttonMapping" equals="game.cancelButton()" />
+
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<!-- offset by 1/3 of the width + half size of icon -->
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="480*game.menuScaleX()*0.33 + 8*game.menuScaleX()" yOffset="-40*game.menuScaleX()" priorityOffset="-2" />
+
+		<spriteSheetComponent name="icon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("guide_swap")
+				component("sheetName"):SetString("xml_resources/guides.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				
+				local e = element:parent()
+				e.bg:Hide()
+				e.FadedBG:Hide()
+
+			</event>
+		</touchComponent>
+
+		<event name="onPostInit" params="element">
+			element["Text"]("size"):SetFloat(0.25*game.hudScale())
+			element["Text"]("autoScale"):SetInt(1)
+		</event>
+
+	</template>
+
+	<element name="MonsterA">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="-32*game.menuScaleX()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("guide_spotlight")
+				component("sheetName"):SetString("xml_resources/guides.xml")
+				component("size"):SetFloat(0.45*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+
+		<element name="Anim">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<aeComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					component("animationName"):SetString("xml_bin/monster_c.bin")
+					component("animation"):SetString( "Store" )
+					component:setScale(Vector2(0.75*game.hudScale(),0.75*game.hudScale()))
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</aeComponent>
+		</element>
+
+	</element>
+
+	<element name="Plus">
+		<size w="0" h="50*game.menuScaleX()" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="-8*game.menuScaleX()" priorityOffset="-2" />
+		<spriteSheetComponent name="Sprite">			
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("guide_plus")
+				component("sheetName"):SetString("xml_resources/guides.xml")
+				component("size"):SetFloat(0.5*game.hudScale())				
+				component("layer"):SetString("FrontPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="MonsterB">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="-32*game.menuScaleX()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("guide_spotlight")
+				component("sheetName"):SetString("xml_resources/guides.xml")
+				component("size"):SetFloat(0.45*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+			]]>
+			</event>
+		</spriteSheetComponent>
+		
+		<element name="Anim">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<aeComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					component("animationName"):SetString("xml_bin/monster_c.bin")
+					component("animation"):SetString( "Store" )
+					component:setScale(Vector2(0.75*game.hudScale(),0.75*game.hudScale()))
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</aeComponent>
+		</element>
+		
+	</element>
+
+	<element name="Equals">
+		<size w="0" h="50*game.menuScaleX()" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="-8*game.menuScaleX()" priorityOffset="-2" />
+		<spriteSheetComponent name="Sprite">			
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("guide_equal")
+				component("sheetName"):SetString("xml_resources/guides.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+				component("visible"):SetInt(0)
+			]]>
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+	<element name="MonsterResult">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="-32*game.menuScaleX()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+			<![CDATA[
+				component("spriteName"):SetString("guide_spotlight")
+				component("sheetName"):SetString("xml_resources/guides.xml")
+				component("size"):SetFloat(0.45*game.hudScale())
+				component("layer"):SetString("FrontPopUps")
+				component("visible"):SetInt(0)
+			]]>
+			</event>
+		</spriteSheetComponent>
+
+		<element name="Anim">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<aeComponent name="Sprite">
+				<event name="onInit" params="component, element">
+					component("animationName"):SetString("xml_bin/monster_c.bin")
+					component("animation"):SetString( "Store" )
+					component:setScale(Vector2(0.75*game.hudScale(),0.75*game.hudScale()))
+					component("layer"):SetString("FrontPopUps")
+					component("visible"):SetInt(0)
+				</event>
+			</aeComponent>
+		</element>
+
+	</element>
+	
+	
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f96e7dc87e946a57e9e3f0ec37fd255d:d79e237e7377459d6d9a974969f2d396:5ecee8e9cf401481f7157979d32fddd5$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_AE_costume_07_sheet.png" width="256" height="512" hires="true">
+    <sprite n="AE_coat" x="3" y="3" w="152" h="149" pX="0.5" pY="0.5" r="y" oX="-6" oY="12"/>
+    <sprite n="AE_crown" x="129" y="156" w="108" h="75" pX="0.5" pY="0.5" oX="-1" oY="-28"/>
+    <sprite n="AE_left_lowersleeve" x="75" y="235" w="67" h="64" pX="0.5" pY="0.5" oX="-2.6" oY="-6.4"/>
+    <sprite n="AE_left_uppersleeve" x="159" y="80" w="84" h="72" pX="0.5" pY="0.5" r="y" oX="-4.8" oY="-6.4"/>
+    <sprite n="AE_right_lowersleeve" x="3" y="222" w="68" h="66" pX="0.5" pY="0.5" r="y" oX="-3.8" oY="-1.2"/>
+    <sprite n="AE_right_uppersleeve" x="159" y="3" w="89" h="73" pX="0.5" pY="0.5" r="y" oX="-2" oY="0"/>
+    <sprite n="AE_scarf" x="3" y="156" w="122" h="62" pX="0.5" pY="0.5" oX="0" oY="0" oW="122" oH="110"/>
+</TextureAtlas>

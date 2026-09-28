@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:591be668f8ca916fc72232fd192149e9:f5c9a311f436883c73452379cbabb8ff:584a5c5f0b9d60594a33bf71a94e2b41$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BENW_costume_01_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="BENW_fireworks.png" x="2" y="770" w="413" h="239" oX="14.2" oY="-119.4" oW="420" oH="240"/>
+    <sprite n="BENW_glow_01.png" x="2" y="349" w="129" h="108" oX="9" oY="24" oW="117" oH="153" r="y"/>
+    <sprite n="BENW_glow_02.png" x="240" y="70" w="119" h="91" oX="0" oY="16" oW="91" oH="135" r="y"/>
+    <sprite n="BENW_glow_03.png" x="2" y="152" w="201" h="95" r="y"/>
+    <sprite n="BENW_glow_04.png" x="219" y="485" w="250" h="134" oX="0" oY="5" oW="135" oH="255" r="y"/>
+    <sprite n="BENW_glow_05.png" x="205" y="166" w="163" h="95" oX="0" oY="19" oW="95" oH="182" r="y"/>
+    <sprite n="BENW_glow_06.png" x="2" y="482" w="215" h="123" oX="0" oY="13" oW="123" oH="228" r="y"/>
+    <sprite n="BENW_glow_07.png" x="199" y="263" w="122" h="104" oX="0" oY="15" oW="105" oH="137" r="y"/>
+    <sprite n="BENW_glow_08.png" x="238" y="621" w="242" h="147" oX="0" oY="13" oW="154" oH="255" r="y"/>
+    <sprite n="BENW_glow_09.png" x="133" y="369" w="113" h="111" oX="0" oY="11" oW="127" oH="122"/>
+    <sprite n="BENW_glow_10.png" x="323" y="270" w="116" h="107" oX="0" oY="6" oW="126" oH="113"/>
+    <sprite n="BENW_spike_01.png" x="119" y="66" w="119" h="84" oX="-8.6" oY="-10" oW="90" oH="120" r="y"/>
+    <sprite n="BENW_spike_02.png" x="2" y="2" w="110" h="62" oX="-9" oY="-12" oW="70" oH="110" r="y"/>
+    <sprite n="BENW_spike_03.png" x="261" y="2" w="167" h="66" oX="-4" oY="-12.2" oW="70" oH="170" r="y"/>
+    <sprite n="BENW_spike_04.png" x="248" y="379" w="230" h="104" oX="1" oY="-20" oW="110" oH="230" r="y"/>
+    <sprite n="BENW_spike_05.png" x="114" y="2" w="145" h="62" oX="-1" oY="-5.6" oW="70" oH="150" r="y"/>
+    <sprite n="BENW_spike_06.png" x="2" y="249" w="195" h="98" oX="-1" oY="-16.6" oW="100" oH="200" r="y"/>
+    <sprite n="BENW_spike_07.png" x="2" y="66" w="115" h="82" oX="0" oY="-22" oW="90" oH="120" r="y"/>
+    <sprite n="BENW_spike_08.png" x="2" y="621" w="234" h="139" oX="-1" oY="-23" oW="140" oH="240" r="y"/>
+    <sprite n="BENW_spike_09.png" x="370" y="166" w="113" h="102" oX="-0.4" oY="-13" oW="120" oH="110"/>
+    <sprite n="BENW_spike_10.png" x="361" y="70" w="114" h="94" oX="-0.8" oY="-11.4" oW="120" oH="100"/>
+</TextureAtlas>

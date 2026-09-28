@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:657ef30a6fa54f601d73358270275c36:87f705532cfc7bcd8eb37a89331ba627:80849cb94d97efa26302581a0253abf4$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_pomily_kpop_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="balloon_01" x="400" y="96" w="101" h="88" r="y"/>
+	<sprite n="balloon_02" x="400" y="372" w="89" h="86"/>
+	<sprite n="balloon_03" x="197" y="336" w="99" h="107" r="y"/>
+	<sprite n="balloon_04" x="400" y="283" w="93" h="87" r="y"/>
+	<sprite n="balloon_05" x="400" y="186" w="99" h="95" r="y"/>
+	<sprite n="balloon_06" x="322" y="96" w="76" h="83"/>
+	<sprite n="balloon_07" x="269" y="445" w="62" h="67" r="y"/>
+	<sprite n="stage" x="0" y="336" w="195" h="173" r="y"/>
+	<sprite n="stage_shadow" x="322" y="0" w="183" h="94"/>
+	<sprite n="star" x="0" y="0" w="320" h="334"/>
+	<sprite n="star_glow_01" x="197" y="445" w="70" h="67" oX="43" oY="42" oW="156" oH="150"/>
+	<sprite n="star_glow_02" x="298" y="336" w="100" h="103" oX="26" oY="23" oW="156" oH="150" r="y"/>
+</TextureAtlas>

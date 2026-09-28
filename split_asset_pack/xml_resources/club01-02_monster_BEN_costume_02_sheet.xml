@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8fc854fa023cdaad09074a9d19eae21a:34543acd0acf28c6128cdfec74f2c2cc:09cc16e5d759360a98ad8bcc4144c976$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_BEN_costume_02_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BEN_ankle_l" x="243" y="125" w="94" h="58" pX="0.366667" pY="0.74" oX="5" oY="33" oW="120" oH="100"/>
+	<sprite n="BEN_ankle_r" x="142" y="120" w="99" h="68" pX="0.416667" pY="0.57" oX="3" oY="23" oW="120" oH="100"/>
+	<sprite n="BEN_body" x="271" y="0" w="161" h="123" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BEN_hairbun_l" x="279" y="255" w="46" h="60" pX="0.438462" pY="0.863636" oX="3" oY="3" oW="65" oH="66" r="y"/>
+	<sprite n="BEN_hairbun_r" x="215" y="255" w="62" h="46" pX="0.515152" pY="0.742424" oX="2" oY="3" oW="66" oH="66"/>
+	<sprite n="BEN_hairwrap" x="0" y="0" w="269" h="118" pX="0.442373" pY="0.325397" oX="13" oY="4" oW="295" oH="126"/>
+	<sprite n="BEN_left_lowerleg" x="243" y="185" w="84" h="68" pX="0.5" pY="0.5" oX="2" oY="0" oW="70" oH="84" r="y"/>
+	<sprite n="BEN_left_upperarm" x="402" y="225" w="68" h="35" pX="0.734694" pY="0.531746" oX="14" oY="15" oW="98" oH="63"/>
+	<sprite n="BEN_legging_l" x="433" y="173" w="79" h="50" pX="0.492308" pY="0.453333" oX="28" oY="23" oW="130" oH="150"/>
+	<sprite n="BEN_legging_r" x="434" y="47" w="76" h="55" pX="0.482456" pY="0.54878" oX="16" oY="8" oW="114" oH="123"/>
+	<sprite n="BEN_right_lowerleg" x="339" y="125" w="92" h="69" pX="0.5" pY="0.5" oX="2" oY="0" oW="71" oH="92" r="y"/>
+	<sprite n="BEN_right_upperarm" x="329" y="246" w="68" h="35" pX="0.22449" pY="0.5" oX="16" oY="15" oW="98" oH="63"/>
+	<sprite n="BEN_sleeve_l" x="142" y="190" w="71" h="66" pX="0.798701" pY="0.527778" oX="3" oY="3" oW="77" oH="72"/>
+	<sprite n="BEN_sleeve_r" x="434" y="104" w="74" h="67" pX="0.174419" pY="0.5" oX="6" oY="6" oW="86" oH="79"/>
+	<sprite n="BEN_toe_l" x="434" y="0" w="77" h="45" pX="0.688889" pY="0.366667" oX="6" oY="10" oW="90" oH="60"/>
+	<sprite n="BEN_toe_r" x="329" y="196" w="71" h="48" pX="0.5" pY="0.428571" oX="4" oY="12" oW="80" oH="70"/>
+	<sprite n="BEN_wig" x="0" y="120" w="140" h="116" pX="0.48125" pY="0.954545" oX="10" oY="8" oW="160" oH="132"/>
+</TextureAtlas>

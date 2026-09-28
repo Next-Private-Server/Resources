@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e6a94cd1c780ebdbd168f8972c474625:7b0a26cd58c03e4e9684a9e235a5a7d5:d8f931c6721b6a46961faf153149660f$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/obstacle_tree_sheet_water_glubber.png" width="1024" height="1024" hires="true">
+    <sprite n="obstacle_tree01_glubber" x="2" y="658" w="162" h="361" oX="9" oY="9" oW="180" oH="380"/>
+    <sprite n="obstacle_tree02_glubber" x="566" y="2" w="419" h="547" oX="10" oY="16" oW="440" oH="580"/>
+    <sprite n="obstacle_tree03_glubber" x="2" y="2" w="562" h="654" oX="19" oY="25" oW="600" oH="704"/>
+</TextureAtlas>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/ClubboxOver.lua"/>
+	
+	<element name="FadedBG">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="4" />
+		<spriteComponent name="Sprite">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/clubbox/empty_club_background")
+				local scale = math.max((lua_sys.screenWidth() / component:absW()), (lua_sys.screenHeight() / component:absH()))
+				component:setScale(Vector2(scale, scale))
+				component("layer"):SetString("FrontPopUps")
+				component("alpha"):SetFloat(0)
+			</event>
+		</spriteComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		</touchComponent>
+	</element>
+	
+	<element name="bg">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*lua_sys.screenWidth()" yOffset="-15*game.windowScaleY()" priorityOffset="3" />
+		<ninesliceComponent name="Sprite">
+			<size w="330*game.windowScaleY()" h="255*game.windowScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.35*game.windowScaleY())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/clubbox/clubbox_textbox_9S")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+
+	<element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="165*game.windowScaleY()" h="0" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-10*game.windowScaleY()" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.35*game.windowScaleY())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/clubbox/clubbox_currency_frame_9S")
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="LeftEnd">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-6*game.windowScaleY()" yOffset="10*game.windowScaleY()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component:GetVar("spriteName"):SetString("header_left")
+				component:GetVar("sheetName"):SetString("xml_resources/clubbox_progress_menu.xml")
+				component("size"):SetFloat(0.35*game.windowScaleY())
+				component:GetVar("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="RightEnd">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="6*game.windowScaleY()" yOffset="10*game.windowScaleY()" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component:GetVar("spriteName"):SetString("header_right")
+				component:GetVar("sheetName"):SetString("xml_resources/clubbox_progress_menu.xml")
+				component("size"):SetFloat(0.35*game.windowScaleY())
+				component:GetVar("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="TitleLabel">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="8*game.windowScaleY()" priorityOffset="-1" />
+		<textComponent name="Text"  >
+			<size w="130*game.windowScaleY()" h="10*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_YELLOW))
+				component("size"):SetFloat(0.25*game.windowScaleY())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("CLUBBOX_EVENT_OVER_TITLE")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Notification">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="30*game.windowScaleY()" priorityOffset="-2" />
+		<textComponent name="Text"  >
+			<size w="280*game.windowScaleY()" h="25*game.windowScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("CLUBBOX_END_OF_NOTIFICATION_DESC")
+				component("size"):SetFloat(0.4*game.windowScaleY())
+				component("layer"):SetString("FrontPopUps")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+			</event>
+		</textComponent>
+	</element>
+	
+	<element name="Imagery">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/clubbox/clubbox_event_end")
+				component("size"):SetFloat(0.25*game.windowScaleY())
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteComponent>
+	</element>
+
+	<element name="Poster">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="25*game.windowScaleY()" yOffset="24*game.windowScaleY()" priorityOffset="-2" />
+		<spriteSheetComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+
+				component("spriteName"):SetString("poster_00")
+				component("sheetName"):SetString("xml_resources/poster_00.xml")
+				component("size"):SetFloat(0.15*game.windowScaleY())
+				
+				component("layer"):SetString("FrontPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="InfoBg">
+		<size w="120*game.windowScaleY()" h="50*game.windowScaleY()" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="24*game.windowScaleY()" priorityOffset="-2" />
+	
+		<element name="HypeBlob" >
+			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<spriteSheetComponent name="HypeIcon" >
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+
+					component("spriteName"):SetString("icon_hype")
+					component("sheetName"):SetString("xml_resources/hud03.xml")
+					component("size"):SetFloat(0.35*game.windowScaleY())
+					
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</spriteSheetComponent>
+			<textComponent name="HypeCount" >
+				<size w="90*game.windowScaleY()" h="25*game.windowScaleY()" />
+				<position relativeTo="element[&quot;HypeIcon&quot;]" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTitleFont())
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("")
+					--component("autoScale"):SetInt(1)
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</textComponent>
+		</element>
+
+		<element name="RewardBlob" >
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="LEFT" />
+			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<spriteSheetComponent name="RewardIcon" >
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+
+					component("spriteName"):SetString("icon_hype_progress")
+					component("sheetName"):SetString("xml_resources/hud03.xml")
+					component("size"):SetFloat(0.35*game.windowScaleY())
+					
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</spriteSheetComponent>
+			<textComponent name="RewardCount" >
+				<size w="90*game.windowScaleY()" h="25*game.windowScaleY()" />
+				<position relativeTo="element[&quot;RewardIcon&quot;]" vAnchor="VCENTER" hAnchor="RIGHT" />
+				<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					component("multiline"):SetInt(0)
+					component("font"):Set(game.getTitleFont())
+					component("size"):SetFloat(0.15*game.windowScaleY())
+					component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+					component("text"):SetString("")
+					--component("autoScale"):SetInt(1)
+					component("layer"):SetString("FrontPopUps")
+				</event>
+			</textComponent>
+		</element>
+	</element>
+
+	<template type="template_spritesheetbutton" name="YesButton">
+		<hudScale scale="game.hudScale()" />
+		<templateVar name="$text" equals="CLUBBOX_EVENT_OVER_BUTTON" />
+		<templateVar name="$upSpriteName" equals="'button_base_clubbox'" />
+		<templateVar name="$spriteScale" equals="0.45" />
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$buttonMapping" equals="game.confirmButton()" />
+		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<touchComponent name="Touch">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onTouchDown" params="component, element">
+				onTouchDown(component, element)
+				element["Overlay"]:setColor(0.5, 0.5, 0.5)
+			</event>
+			<event name="onTouchUp" params="component, element">
+				onTouchUp(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+				element:parent()("transitionState"):SetInt(2)
+				element:parent()("choice"):SetString("true")
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				onTouchRelease(component, element)
+				element["Overlay"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+		<spriteSheetComponent name="Overlay">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("button_yes")
+				component("sheetName"):SetString("xml_resources/context_buttons.xml")
+				component("layer"):SetString("FrontPopUps")
+				component("size"):SetFloat(0.5)
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text"  >
+			<size dependentOnElement="element:name()" dependentOnComponent="UpSprite" />
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				onInit(component, element)
+				component("font"):Set(game.getTitleFont())
+				component("size"):SetFloat(0.2*game.windowScaleY())
+			</event>
+			<event name="onPostInit" params="component, element">
+				component("yOffset"):SetInt(-5*game.windowScaleY())
+			</event>
+		</textComponent>
+		<event name="onTick" params="element, dt">
+			onTick(element, dt)
+			if(element["UpSprite"]("size"):GetFloat() ~= element["Overlay"]("size"):GetFloat()) then
+				element["Overlay"]("size"):SetFloat(element["UpSprite"]("size"):GetFloat())
+			end
+		</event>
+	</template>
+
+
+	<event name="onInit" params="element">
+		element("transitionState"):SetInt(1)
+		element("transitionTime"):SetFloat(0.0)
+		element("choice"):SetString("none")
+		lua_sys.playSoundFx("audio/sfx/menu_slide.wav")
+	</event>
+	
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+		
+			dt = math.min(dt, 0.033) -- clamp large deltas
+
+			local transitionState = element("transitionState"):GetInt()
+			
+			if(transitionState ~= 0) then
+				local transitionTime = element("transitionTime"):GetFloat()
+				
+				element:DoStoredScript("TickTransition")
+				
+				if(transitionState == 1) then
+					transitionTime = (transitionTime + dt*3)
+				elseif(transitionState == 2) then
+					transitionTime = (transitionTime - dt*3)
+				end
+				
+				transitionTime = clamp(transitionTime, 0.0, 1.0)
+				
+				element("transitionTime"):SetFloat(transitionTime)
+				
+				if(transitionTime >= 1.0) then
+					element("transitionState"):SetInt(0)
+					element("transitionTime"):SetFloat(1.0)
+					element:DoStoredScript("TickTransition")
+				elseif(transitionTime <= 0.0) then
+				
+					local textID = element["Notification"]["Text"]("text"):GetString()
+					if string.match(textID, " ") then
+						textID = ""
+					end
+					
+					if(element("choice"):GetString() == "true") then
+						element:root():popPopUp()
+						game.submitConfirmation("CLUBBOX_END", true, textID)
+					else
+						element:root():popPopUp()
+						game.submitConfirmation("CLUBBOX_END", false, textID)
+					end
+				end
+			end
+			
+
+		]]>
+	</event>
+	
+	<event name="TickTransition" params="element">
+		local transitionTime = element("transitionTime"):GetFloat()
+		element["bg"]("xOffset"):SetFloat(lua_sys.screenWidth()*(0.5) + (-0.5)*lua_sys.screenWidth()*(1/transitionTime))
+		element["FadedBG"]["Sprite"]("alpha"):SetFloat(transitionTime*1.0)
+	</event>
+	
+	<event name="queuePop" params="element">
+		element("transitionState"):SetInt(2)
+	</event>
+	
+</menu>

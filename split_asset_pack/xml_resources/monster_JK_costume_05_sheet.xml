@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a59a14bc7a2a8b0b2f78f1a77d50a545:a36f6bfacdd349fe7e5c22697d23c339:8a55a915bc004f0bb607651d603aa809$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_JK_costume_05_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="JK_acoustic" x="0" y="0" w="135" h="376" pX="0.503704" pY="0.795213">
+		<vertices>93 4 82 114 135 244 135 376 0 376 0 228 51 189 29 16 56 0 81 0</vertices>
+		<verticesUV>93 4 82 114 135 244 135 376 0 376 0 228 51 189 29 16 56 0 81 0</verticesUV>
+		<triangles>7 8 9 0 1 7 4 2 3 4 5 2 2 5 6 1 2 6 1 6 7 0 7 9</triangles>
+	</sprite>
+	<sprite n="JK_antenna" x="201" y="260" w="48" h="149" pX="0.5" pY="0.5" oX="0" oY="1" oW="48" oH="152">
+		<vertices>48 147 45 150 37 150 0 24 0 1 29 1</vertices>
+		<verticesUV>249 406 246 409 238 409 201 283 201 260 230 260</verticesUV>
+		<triangles>3 4 5 0 1 2 0 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="JK_bandana" x="375" y="184" w="137" h="89" pX="0.580292" pY="0.264045">
+		<vertices>137 17 137 89 48 89 0 41 0 0 11 0</vertices>
+		<verticesUV>512 201 512 273 423 273 375 225 375 184 386 184</verticesUV>
+		<triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="JK_front_lowerleg" x="448" y="347" w="64" h="165" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="168">
+		<vertices>64 32 64 165 0 165 0 5 39 0</vertices>
+		<verticesUV>512 379 512 512 448 512 448 352 487 347</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="JK_front_lowerleg_right" x="448" y="347" w="64" h="165" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="168">
+		<vertices>64 32 64 165 0 165 0 5 39 0</vertices>
+		<verticesUV>512 379 512 512 448 512 448 352 487 347</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="JK_glow" x="89" y="72" w="53" h="53" pX="0.589286" pY="-0.0892857" oX="1" oY="1" oW="56" oH="56">
+		<vertices>54 54 1 54 1 1 54 1</vertices>
+		<verticesUV>142 125 89 125 89 72 142 72</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="JK_hat_band" x="207" y="108" w="107" h="40" pX="0.517341" pY="1.01887" oX="33" oY="42" oW="173" oH="106">
+		<vertices>140 82 33 82 33 42 140 42</vertices>
+		<verticesUV>314 148 207 148 207 108 314 108</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="JK_hat_base" x="141" y="0" w="173" h="106" pX="0.517341" pY="1.01887">
+		<vertices>169 41 173 56 158 106 61 106 1 69 0 52 66 0 126 0</vertices>
+		<verticesUV>310 41 314 56 299 106 202 106 142 69 141 52 207 0 267 0</verticesUV>
+		<triangles>3 6 7 5 3 4 5 6 3 0 1 2 0 2 3 0 3 7</triangles>
+	</sprite>
+	<sprite n="JK_hay" x="316" y="0" w="196" h="186" pX="0.734694" pY="0.569892">
+		<vertices>196 67 196 150 141 186 105 186 9 157 0 119 0 10 80 0 163 0</vertices>
+		<verticesUV>512 67 512 150 457 186 421 186 325 157 316 119 316 10 396 0 479 0</verticesUV>
+		<triangles>0 7 8 5 6 7 5 3 4 5 7 3 2 0 1 2 3 0 0 3 7</triangles>
+	</sprite>
+	<sprite n="JK_left_gaiter" x="381" y="396" w="65" h="116" pX="0.469231" pY="0.948276">
+		<vertices>65 116 0 116 0 0 65 0</vertices>
+		<verticesUV>446 512 381 512 381 396 446 396</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="JK_left_hand_01" x="220" y="150" w="55" h="66" pX="0.5" pY="0.5" oX="0" oY="2" oW="56" oH="68">
+		<vertices>55 60 23 68 0 45 0 2 55 2</vertices>
+		<verticesUV>275 208 243 216 220 193 220 150 275 150</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="JK_left_hand_02" x="72" y="378" w="50" h="63" pX="0.5" pY="0.5" oX="0" oY="2" oW="56" oH="68">
+		<vertices>50 54 16 65 0 28 0 2 50 2</vertices>
+		<verticesUV>122 430 88 441 72 404 72 378 122 378</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="JK_left_lowerarm" x="347" y="338" w="99" h="56" pX="0.5" pY="0.5" oX="0" oY="0" oW="100" oH="56">
+		<vertices>99 55 9 56 0 36 0 16 16 0 99 0</vertices>
+		<verticesUV>446 393 356 394 347 374 347 354 363 338 446 338</verticesUV>
+		<triangles>0 4 5 2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="JK_right_gaiter" x="0" y="393" w="68" h="119" pX="0.514706" pY="0.878151">
+		<vertices>68 119 0 119 0 18 5 2 11 0 68 0</vertices>
+		<verticesUV>68 512 0 512 0 411 5 395 11 393 68 393</verticesUV>
+		<triangles>2 4 5 2 3 4 0 2 5 0 1 2</triangles>
+	</sprite>
+	<sprite n="JK_right_hand_01" x="309" y="235" w="54" h="64" pX="0.5" pY="0.5" oX="0" oY="0" oW="56" oH="64">
+		<vertices>54 64 0 64 0 0 54 0</vertices>
+		<verticesUV>363 299 309 299 309 235 363 235</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="JK_right_hand_02" x="307" y="169" w="55" h="64" pX="0.5" pY="0.5" oX="0" oY="0" oW="56" oH="64">
+		<vertices>55 32 55 64 0 64 0 10 48 0</vertices>
+		<verticesUV>362 201 362 233 307 233 307 179 355 169</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="JK_right_lowerarm" x="405" y="275" w="107" h="60" pX="0.5" pY="0.5" oX="1" oY="0" oW="108" oH="60">
+		<vertices>108 12 108 52 66 60 1 56 2 10 67 0</vertices>
+		<verticesUV>512 287 512 327 470 335 405 331 406 285 471 275</verticesUV>
+		<triangles>2 4 5 2 3 4 0 1 2 0 2 5</triangles>
+	</sprite>
+	<sprite n="JK_ropes" x="96" y="0" w="49" h="46" pX="0.479592" pY="-0.456522">
+		<vertices>49 46 0 46 0 0 49 0</vertices>
+		<verticesUV>145 46 96 46 96 0 145 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="JK_ropes_right" x="96" y="0" w="49" h="46" pX="0.479592" pY="-0.456522">
+		<vertices>49 46 0 46 0 0 49 0</vertices>
+		<verticesUV>145 46 96 46 96 0 145 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="JK_strings_01" x="234" y="162" w="113" h="350" pX="0.5" pY="0.5" oX="2" oY="35" oW="120" oH="400">
+		<vertices>70 42 75 189 115 262 115 385 5 385 2 327 31 248 50 35</vertices>
+		<verticesUV>302 169 307 316 347 389 347 512 237 512 234 454 263 375 282 162</verticesUV>
+		<triangles>2 3 5 3 4 5 2 5 6 1 2 6 1 6 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="JK_strings_02" x="119" y="162" w="113" h="350" pX="0.5" pY="0.5" oX="2" oY="35" oW="120" oH="400">
+		<vertices>70 42 75 154 115 270 115 385 5 385 2 328 36 185 50 35</vertices>
+		<verticesUV>187 169 192 281 232 397 232 512 122 512 119 455 153 312 167 162</verticesUV>
+		<triangles>2 3 5 3 4 5 6 1 2 2 5 6 1 6 7 0 1 7</triangles>
+	</sprite>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<template name="template_currency_counter_manager" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+  	<script src="scripts/CurrencyCounterManager.lua" />
+
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+
+	<size w="100*game.hudScale()" h="31*game.hudScale()" />
+
+</template>

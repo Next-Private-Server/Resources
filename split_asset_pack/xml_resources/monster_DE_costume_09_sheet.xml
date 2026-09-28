@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b2fedb693e8dca9936fdc548a8e289ca:e11cf835a2b9efad109024620707f92c:593b22af24b28e1f7cd93beaee1da4ad$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_DE_costume_09_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="DE_body03" x="0" y="0" w="240" h="235" pX="0.5" pY="0.5" oX="2" oY="1" oW="244" oH="236"/>
+	<sprite n="DE_body_FIX" x="0" y="237" w="99" h="56" pX="0.5" pY="0.5" oX="2" oY="19" oW="58" oH="118" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<template type="template_how_it_works" name="HowItWorks">
+		<templateVar name="$layer" equals="FrontPopUps" />	
+		<templateVar name="$titleText" equals="ENCORE_HELP_TITLE" />
+
+		<templateVar name="$leftAnimationName" equals="'xml_bin/sticker_info.bin'" />
+		<templateVar name="$leftAnimation" equals="sticker_info_01" />
+		<templateVar name="$leftText" equals="CARD_ALBUM_HELP_STEP_1" />
+
+		<templateVar name="$centerAnimationName" equals="'xml_bin/sticker_info.bin'" />
+		<templateVar name="$centerAnimation" equals="sticker_info_02" />
+		<templateVar name="$centerText" equals="CARD_ALBUM_HELP_STEP_2" />
+
+		<templateVar name="$rightAnimationName" equals="'xml_bin/sticker_info.bin'" />
+		<templateVar name="$rightAnimation" equals="sticker_info_03" />
+		<templateVar name="$rightText" equals="CARD_ALBUM_HELP_STEP_3" />
+	</template>
+
+</menu>

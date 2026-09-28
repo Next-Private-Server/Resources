@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0e2418389f5724f328654f77d33a5728:9acc9a8c330252b2549896ddf304848f:79b14afc7f5a2696ddacd055a48094e6$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CEN_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="CEN_adult_body_lower" x="0" y="0" w="216" h="125" pX="0.483051" pY="0.457143" oX="12" oY="0" oW="236" oH="140"/>
+	<sprite n="CEN_adult_body_lowerback" x="0" y="127" w="201" h="81" pX="0.495455" pY="0.522727" oX="8" oY="4" oW="220" oH="88"/>
+	<sprite n="CEN_adult_body_top_01" x="0" y="210" w="127" h="107" pX="0.5625" pY="0.921875" oX="2" oY="0" oW="112" oH="128" r="y"/>
+</TextureAtlas>

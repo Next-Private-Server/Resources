@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2b956f7ed25990cd48d09e9ffd4cb176:68ce4f114a92d6b45ce0ed945387a3a1:b6d7c9f23e6ec379a4f018a25820da4b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_PRM_02_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="PRM_02_body" x="0" y="0" w="197" h="154" oX="7" oY="71" oW="210" oH="230"/>
+	<sprite n="PRM_02_bottom_finger_a_01" x="0" y="776" w="77" h="75" oX="10" oY="4" oW="98" oH="84"/>
+	<sprite n="PRM_02_bottom_finger_a_02" x="0" y="594" w="98" h="61" oX="0" oY="11" oW="98" oH="84"/>
+	<sprite n="PRM_02_bottom_finger_b_01" x="288" y="693" w="79" h="73" oX="13" oY="4" oW="100" oH="88" r="y"/>
+	<sprite n="PRM_02_bottom_finger_b_02" x="104" y="540" w="91" h="60" oX="4" oY="13" oW="100" oH="88"/>
+	<sprite n="PRM_02_bottom_finger_c_01" x="185" y="680" w="81" h="74" oX="5" oY="5" oW="92" oH="84"/>
+	<sprite n="PRM_02_bottom_finger_c_02" x="196" y="616" w="92" h="62" oX="0" oY="11" oW="92" oH="84"/>
+	<sprite n="PRM_02_bottom_palm_01" x="397" y="120" w="107" h="179" oX="4" oY="4" oW="188" oH="116" r="y"/>
+	<sprite n="PRM_02_bottom_palm_02" x="197" y="291" w="179" h="86" oX="4" oY="14" oW="188" oH="116"/>
+	<sprite n="PRM_02_bottom_thumb" x="372" y="621" w="106" h="103" oX="4" oY="3" oW="114" oH="110"/>
+	<sprite n="PRM_02_eye_glow" x="327" y="515" w="46" h="46"/>
+	<sprite n="PRM_02_eyeball" x="425" y="799" w="72" h="66" oX="4" oY="7" oW="80" oH="80"/>
+	<sprite n="PRM_02_eyelid_01" x="378" y="309" w="128" h="78" oX="3" oY="3" oW="134" oH="84"/>
+	<sprite n="PRM_02_eyelid_02" x="378" y="389" w="128" h="78" oX="3" oY="3" oW="134" oH="84"/>
+	<sprite n="PRM_02_eyelid_03" x="197" y="456" w="128" h="78" oX="3" oY="3" oW="134" oH="84"/>
+	<sprite n="PRM_02_eyelid_04" x="377" y="469" w="128" h="78" oX="3" oY="3" oW="134" oH="84"/>
+	<sprite n="PRM_02_eyelid_05" x="197" y="536" w="128" h="78" oX="3" oY="3" oW="134" oH="84"/>
+	<sprite n="PRM_02_Flake_01" x="268" y="680" w="18" h="21" oX="1" oY="1" oW="20" oH="24"/>
+	<sprite n="PRM_02_Flake_02" x="497" y="549" w="15" h="13" oX="3" oY="4" oW="20" oH="24" r="y"/>
+	<sprite n="PRM_02_Flake_03" x="378" y="291" w="17" h="16" oX="1" oY="2" oW="20" oH="24" r="y"/>
+	<sprite n="PRM_02_Flake_04" x="497" y="564" w="13" h="16" oX="3" oY="4" oW="20" oH="24"/>
+	<sprite n="PRM_02_Flake_05" x="480" y="656" w="31" h="38" oX="1" oY="1" oW="34" oH="40"/>
+	<sprite n="PRM_02_head" x="199" y="0" w="196" h="183" oX="5" oY="4" oW="210" oH="230"/>
+	<sprite n="PRM_02_horns" x="397" y="60" w="108" h="58" oX="6" oY="6" oW="120" oH="70"/>
+	<sprite n="PRM_02_horns_glow" x="375" y="549" w="120" h="70"/>
+	<sprite n="PRM_02_iris" x="480" y="621" w="32" h="33" oX="7" oY="7" oW="46" oH="46" r="y"/>
+	<sprite n="PRM_02_left_lower_leg" x="0" y="853" w="74" h="63" oX="9" oY="5" oW="84" oH="88" r="y"/>
+	<sprite n="PRM_02_left_toes" x="156" y="816" w="73" h="41" oX="3" oY="4" oW="80" oH="50"/>
+	<sprite n="PRM_02_left_toes_new" x="79" y="796" w="75" h="65" oX="1" oY="10" oW="80" oH="80"/>
+	<sprite n="PRM_02_left_upper_leg" x="0" y="657" w="92" h="65" oX="5" oY="0" oW="76" oH="96" r="y"/>
+	<sprite n="PRM_02_mouth_1" x="105" y="453" w="28" h="84" oX="18" oY="20" oW="120" oH="66" r="y"/>
+	<sprite n="PRM_02_mouth_2" x="290" y="666" w="80" h="25" oX="20" oY="20" oW="120" oH="66"/>
+	<sprite n="PRM_02_mouth_3" x="341" y="379" w="35" h="80" oX="20" oY="16" oW="120" oH="66" r="y"/>
+	<sprite n="PRM_02_mouth_4" x="146" y="452" w="49" h="86" oX="17" oY="10" oW="120" oH="66" r="y"/>
+	<sprite n="PRM_02_mouth_5" x="0" y="534" w="102" h="58" oX="10" oY="4" oW="120" oH="66"/>
+	<sprite n="PRM_02_moutheee_1" x="397" y="34" w="112" h="24" oX="4" oY="16" oW="120" oH="66"/>
+	<sprite n="PRM_02_moutheee_2" x="397" y="0" w="112" h="32" oX="4" oY="14" oW="120" oH="66"/>
+	<sprite n="PRM_02_moutheee_3" x="327" y="563" w="43" h="101" oX="10" oY="10" oW="120" oH="66" r="y"/>
+	<sprite n="PRM_02_mouthooo_1" x="480" y="696" w="30" h="42" oX="49" oY="17" oW="120" oH="66"/>
+	<sprite n="PRM_02_mouthooo_2" x="327" y="461" w="48" h="52" oX="36" oY="10" oW="120" oH="66"/>
+	<sprite n="PRM_02_mouthooo_3" x="448" y="740" w="64" h="57" oX="28" oY="5" oW="120" oH="66"/>
+	<sprite n="PRM_02_mouthooo_4" x="170" y="756" w="76" h="58" oX="22" oY="4" oW="120" oH="66"/>
+	<sprite n="PRM_02_pupil" x="248" y="756" w="25" h="24" oX="11" oY="11" oW="46" oH="46"/>
+	<sprite n="PRM_02_right_lower_leg" x="275" y="768" w="73" h="61" oX="13" oY="6" oW="86" oH="90" r="y"/>
+	<sprite n="PRM_02_right_toes" x="350" y="798" w="73" h="41" oX="0" oY="1" oW="74" oH="44"/>
+	<sprite n="PRM_02_right_toes_new" x="90" y="728" w="78" h="66" oX="1" oY="12" oW="80" oH="80"/>
+	<sprite n="PRM_02_right_upper_leg" x="100" y="602" w="94" h="68" oX="4" oY="0" oW="76" oH="96" r="y"/>
+	<sprite n="PRM_02_secondary_eye" x="290" y="644" w="18" h="20" oX="7" oY="4" oW="32" oH="30"/>
+	<sprite n="PRM_02_secondary_eyelid_01" x="290" y="616" w="28" h="26" oX="3" oY="1" oW="32" oH="30" r="y"/>
+	<sprite n="PRM_02_secondary_eyelid_02" x="248" y="782" w="25" h="24" oX="4" oY="2" oW="32" oH="30"/>
+	<sprite n="PRM_02_secondary_pupil" x="497" y="582" w="11" h="11" oX="10" oY="8" oW="32" oH="30"/>
+	<sprite n="PRM_02_shadow" x="197" y="185" w="194" h="104"/>
+	<sprite n="PRM_02_shine" x="248" y="808" w="21" h="21" oX="12" oY="12" oW="46" oH="46"/>
+	<sprite n="PRM_02_spiral" x="0" y="156" w="195" h="193" oX="7" oY="5" oW="200" oH="200" r="y"/>
+	<sprite n="PRM_02_top_finger_a_01" x="61" y="918" w="65" h="70" oX="16" oY="4" oW="98" oH="78"/>
+	<sprite n="PRM_02_top_finger_a_02" x="94" y="672" w="89" h="54" oX="4" oY="12" oW="98" oH="78"/>
+	<sprite n="PRM_02_top_finger_b_01" x="0" y="918" w="59" h="72" oX="18" oY="4" oW="96" oH="80"/>
+	<sprite n="PRM_02_top_finger_b_02" x="0" y="724" w="88" h="50" oX="4" oY="15" oW="96" oH="80"/>
+	<sprite n="PRM_02_top_finger_c_01" x="369" y="726" w="77" h="70" oX="19" oY="4" oW="108" oH="86" r="y"/>
+	<sprite n="PRM_02_top_finger_c_02" x="146" y="351" w="49" h="99" oX="4" oY="18" oW="108" oH="86" r="y"/>
+	<sprite n="PRM_02_top_palm_01" x="0" y="351" w="144" h="100" oX="8" oY="5" oW="160" oH="110"/>
+	<sprite n="PRM_02_top_palm_02" x="197" y="379" w="142" h="75" oX="9" oY="17" oW="160" oH="110"/>
+	<sprite n="PRM_02_top_thumb" x="0" y="453" w="103" h="79" oX="4" oY="4" oW="112" oH="88"/>
+</TextureAtlas>

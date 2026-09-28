@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7c2789610b0b5389dd0dea168c628275:842f93633c764e3524b6f24411961f90:d318d3a122dedb0ada997657455e8878$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S02_EPIC_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="CR_beard" x="209" y="139" w="127" h="78" pX="0.5" pY="0.27906976744186046" oX="3" oY="0" oW="140" oH="86"/>
+	<sprite n="CR_body" x="0" y="0" w="207" h="221" pX="0.4855072463768116" pY="0.8031674208144797"/>
+	<sprite n="CR_ear" x="465" y="0" w="43" h="53" pX="0.839622641509434" pY="0.6395348837209303" r="y"/>
+	<sprite n="CR_ear_2" x="465" y="55" w="43" h="53" pX="0.8301886792452831" pY="0.6046511627906976" r="y"/>
+	<sprite n="CR_head_EPIC" x="124" y="397" w="127" h="112" pX="0.5" pY="0.5" oX="1" oY="37" oW="130" oH="150"/>
+	<sprite n="CR_left_antler" x="0" y="223" w="109" h="181" pX="0.8761467889908257" pY="0.8977900552486188"/>
+	<sprite n="CR_left_leg" x="253" y="376" w="73" h="85" pX="0.47058823529411764" pY="0.8424657534246576" r="y"/>
+	<sprite n="CR_left_lowerarm" x="346" y="0" w="117" h="75" pX="0.5641025641025641" pY="0.2033898305084746" oX="2" oY="0" oW="78" oH="118" r="y"/>
+	<sprite n="CR_left_upperarm" x="338" y="157" w="108" h="88" pX="0.5795454545454546" pY="0.4166666666666667" r="y"/>
+	<sprite n="CR_right_antler_EPIC" x="111" y="223" w="116" h="172" pX="0.3793103448275862" pY="0.9011627906976745"/>
+	<sprite n="CR_right_leg" x="229" y="289" w="74" h="85" pX="0.4188235294117647" pY="0.8162162162162162" r="y"/>
+	<sprite n="CR_right_lowerarm" x="229" y="219" w="107" h="68" pX="0.3684210526315789" pY="0.2" oX="3" oY="0" oW="76" oH="110" r="y"/>
+	<sprite n="CR_right_upperarm" x="346" y="77" w="111" h="78" pX="0.2564102564102564" pY="0.4099099099099099" r="y"/>
+	<sprite n="CR_SM_head" x="0" y="406" w="122" h="96" pX="0.5395833333333333" pY="1.4270491803278689" r="y"/>
+	<sprite n="CR_SM_torso" x="209" y="0" w="135" h="137" pX="0.47851851851851845" pY="0.2671532846715329"/>
+	<sprite n="walnut 1" x="459" y="110" w="30" h="28" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="walnut 2" x="459" y="140" w="30" h="28" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

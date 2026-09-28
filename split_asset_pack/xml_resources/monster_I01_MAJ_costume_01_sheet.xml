@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:76e863c796063bb0f650b1ae9e09639a:a6eb1e4fc650cc1fdba6d779f4e38632:237f09c69078b1ccb50f786d2162ea0c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_I01_MAJ_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="I01_arm_left" x="265" y="586" w="120" h="62" pX="0.5" pY="0.849206" oX="7" oY="5" oW="79" oH="126" r="y"/>
+	<sprite n="I01_arm_right" x="387" y="586" w="117" h="61" pX="0.494286" pY="0.849167" oX="5" oY="0" oW="70" oH="120" r="y"/>
+	<sprite n="I01_carapace" x="186" y="361" w="137" h="119" pX="0.625" pY="0.680556" oX="4" oY="2" oW="128" oH="144" r="y"/>
+	<sprite n="I01_hat" x="0" y="0" w="357" h="219" pX="0.467391" pY="0.941964" oX="5" oY="2" oW="368" oH="224"/>
+	<sprite n="I01_head" x="0" y="221" w="184" h="163" pX="0.502924" pY="0.697674" oX="4" oY="26" oW="171" oH="215" r="y"/>
+	<sprite n="I01_plush_lion" x="359" y="0" w="152" h="176" pX="0.548913" pY="0.9625" oX="4" oY="3" oW="184" oH="160" r="y"/>
+	<sprite n="I01_plush_tinman" x="332" y="343" w="172" h="113" pX="0.5" pY="0.961957" oX="6" oY="4" oW="128" oH="184" r="y"/>
+	<sprite n="I01_small_carapace" x="455" y="458" w="57" h="76" pX="0.5" pY="0.483871" oX="3" oY="2" oW="82" oH="62" r="y"/>
+	<sprite n="I01_straw_left" x="186" y="221" w="144" h="138" pX="0.902778" pY="0.6" oX="3" oY="9" oW="144" oH="160" r="y"/>
+	<sprite n="I01_straw_left_back" x="135" y="482" w="128" h="106" pX="1.10417" pY="-0.03125" oX="38" oY="6" oW="144" oH="160" r="y"/>
+	<sprite n="I01_straw_left_top" x="0" y="386" w="133" h="108" pX="1.10714" pY="0.3125" oX="2" oY="4" oW="112" oH="144" r="y"/>
+	<sprite n="I01_straw_right" x="359" y="178" w="145" h="163" pX="0.2375" pY="0.52381" oX="10" oY="2" oW="160" oH="168"/>
+	<sprite n="I01_straw_right_back" x="325" y="458" w="128" h="126" pX="0.175" pY="-0.119048" oX="11" oY="12" oW="160" oH="168"/>
+	<sprite n="I01_straw_right_top" x="0" y="496" w="122" h="119" pX="0.148438" pY="0.361111" oX="3" oY="14" oW="128" oH="144" r="y"/>
+</TextureAtlas>

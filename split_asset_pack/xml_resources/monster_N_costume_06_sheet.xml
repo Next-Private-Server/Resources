@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:936225f193a95a6744c795c797705d99:d31b26b39a3a5a8718eb2f125317c1b2:608df14853102f8bdd793384cf60d1a6$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_N_costume_06_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="back" x="0" y="0" w="182" h="117" pX="-0.393162" pY="0.574725" r="y"/>
+	<sprite n="belt" x="183" y="145" w="35" h="74" pX="-0.027027" pY="-0.514286" r="y"/>
+	<sprite n="hat" x="0" y="288" w="112" h="153" pX="0.370323" pY="1.53214" oX="0" oY="0" oW="155" oH="112" r="y"/>
+	<sprite n="leg_L" x="184" y="70" w="70" h="73" pX="0.520548" pY="0.871429" r="y"/>
+	<sprite n="leg_R" x="184" y="0" w="72" h="68" pX="0.520833" pY="1.01765"/>
+	<sprite n="N_glow_adj" x="114" y="288" w="99" h="94" pX="0.5" pY="0.5" oX="4" oY="0" oW="98" oH="100" r="y"/>
+	<sprite n="outfit" x="0" y="119" w="181" h="167" pX="0.532934" pY="0.49558" r="y"/>
+	<sprite n="string" x="220" y="145" w="32" h="29" pX="1.26897" pY="-0.065625" r="y"/>
+</TextureAtlas>

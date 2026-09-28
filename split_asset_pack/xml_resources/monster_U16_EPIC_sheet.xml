@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:87bafa7e9c220bb9799612a33c6afed5:ea4d32174dad62dc9e50a1b1626cee6f:ed8e4994be3b7be07b05b404045b231e$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_U16_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="beam" x="0" y="0" w="226" h="70" oX="1" oY="1" oW="72" oH="228" r="y"/>
+	<sprite n="glow_spot" x="0" y="427" w="89" h="89" oX="5" oY="5" oW="100" oH="100"/>
+	<sprite n="U16_back_lowerleg" x="76" y="609" w="62" h="46" oX="4" oY="6" oW="52" oH="76" r="y"/>
+	<sprite n="U16_back_upperleg" x="394" y="267" w="33" h="62" oX="7" oY="11" oW="48" oH="80"/>
+	<sprite n="U16_backfoot" x="357" y="644" w="60" h="40" oX="9" oY="2" oW="60" oH="68" r="y"/>
+	<sprite n="U16_big_front_hand" x="287" y="683" w="59" h="36" oX="0" oY="0" oW="60" oH="36"/>
+	<sprite n="U16_big_front_lowerleg" x="128" y="301" w="69" h="116" oX="0" oY="0" oW="70" oH="116"/>
+	<sprite n="U16_big_front_upperleg" x="308" y="393" w="82" h="40"/>
+	<sprite n="U16_body_A" x="199" y="309" w="107" h="90" oX="11" oY="10" oW="112" oH="128" r="y"/>
+	<sprite n="U16_body_B" x="431" y="0" w="80" h="114" oX="10" oY="11" oW="100" oH="136"/>
+	<sprite n="U16_glow_01" x="0" y="72" w="199" h="117" oX="22" oY="1" oW="160" oH="201" r="y"/>
+	<sprite n="U16_glow_02" x="228" y="0" w="201" h="160" r="y"/>
+	<sprite n="U16_handglow" x="63" y="657" w="56" h="56"/>
+	<sprite n="U16_head_epic" x="201" y="162" w="191" h="145" oX="1" oY="1" oW="194" oH="148"/>
+	<sprite n="U16_left_eyelid_01_epic" x="394" y="162" w="35" h="41" oX="7" oY="9" oW="49" oH="60"/>
+	<sprite n="U16_left_eyelid_02_epic" x="392" y="331" w="33" h="40" oX="8" oY="10" oW="49" oH="60"/>
+	<sprite n="U16_left_eyelid_03_epic" x="392" y="373" w="33" h="40" oX="8" oY="10" oW="49" oH="60"/>
+	<sprite n="U16_left_eyelid_04_epic" x="392" y="415" w="33" h="40" oX="8" oY="10" oW="49" oH="60"/>
+	<sprite n="U16_middle_hand" x="226" y="634" w="59" h="59" oX="0" oY="0" oW="60" oH="60"/>
+	<sprite n="U16_middle_lowerarm" x="135" y="191" w="64" h="40"/>
+	<sprite n="U16_middle_upperarm" x="392" y="457" w="30" h="60" oX="0" oY="5" oW="60" oH="40" r="y"/>
+	<sprite n="U16_mouth_01" x="80" y="569" w="75" h="38" oX="7" oY="11" oW="92" oH="60"/>
+	<sprite n="U16_mouth_02" x="392" y="565" w="28" h="77" oX="7" oY="18" oW="92" oH="60" r="y"/>
+	<sprite n="U16_mouth_03" x="178" y="541" w="76" h="27" oX="9" oY="18" oW="92" oH="60"/>
+	<sprite n="U16_pupil_epic" x="201" y="72" w="15" h="8"/>
+	<sprite n="U16_right_eyelid_01_epic" x="256" y="541" w="43" h="43" oX="8" oY="10" oW="60" oH="63"/>
+	<sprite n="U16_right_eyelid_02_epic" x="0" y="693" w="43" h="41" oX="9" oY="10" oW="60" oH="63" r="y"/>
+	<sprite n="U16_right_eyelid_03_epic" x="200" y="695" w="43" h="41" oX="9" oY="10" oW="60" oH="63" r="y"/>
+	<sprite n="U16_right_eyelid_04_epic" x="121" y="696" w="43" h="41" oX="9" oY="10" oW="60" oH="63" r="y"/>
+	<sprite n="U16_shadow" x="0" y="191" w="133" h="70" oX="8" oY="7" oW="148" oH="84"/>
+	<sprite n="U16_small_front_hand" x="392" y="519" w="30" h="44" r="y"/>
+	<sprite n="U16_small_front_lowerleg" x="226" y="586" w="66" h="46" r="y"/>
+	<sprite n="U16_small_front_upperleg" x="394" y="205" w="34" h="60"/>
+	<sprite n="U16_tail_A_epic" x="0" y="263" w="126" h="84" oX="4" oY="15" oW="130" oH="108"/>
+	<sprite n="U16_tail_B" x="431" y="116" w="79" h="117" oX="8" oY="4" oW="126" oH="88" r="y"/>
+	<sprite n="U16_tail_C" x="0" y="349" w="109" h="76" oX="4" oY="14" oW="116" oH="108"/>
+	<sprite n="U16_tail_D_epic" x="429" y="319" w="83" h="98" oX="8" oY="5" oW="108" oH="90" r="y"/>
+	<sprite n="U16_tail_E_epic" x="0" y="578" w="74" h="53" oX="4" oY="4" oW="78" oH="58"/>
+	<sprite n="U16_tail_F_epic" x="424" y="498" w="88" h="76" r="y"/>
+	<sprite n="U16_tail_glow" x="157" y="570" w="67" h="66" r="y"/>
+	<sprite n="U16_tailglow_A_epic" x="199" y="401" w="102" h="68" oX="0" oY="31" oW="130" oH="108"/>
+	<sprite n="U16_tailglow_A_epic_01" x="422" y="576" w="90" h="68" oX="0" oY="31" oW="130" oH="108"/>
+	<sprite n="U16_tailglow_A_epic_02" x="199" y="471" w="102" h="68" oX="0" oY="31" oW="130" oH="108"/>
+	<sprite n="U16_tailglow_B_epic" x="303" y="435" w="87" h="92" oX="0" oY="0" oW="126" oH="88" r="y"/>
+	<sprite n="U16_tailglow_B_epic_01" x="111" y="419" w="86" h="69" oX="0" oY="0" oW="126" oH="88" r="y"/>
+	<sprite n="U16_tailglow_B_epic_02" x="303" y="529" w="87" h="92" oX="0" oY="0" oW="126" oH="88" r="y"/>
+	<sprite n="U16_tailglow_C_epic" x="430" y="235" w="82" h="82" oX="0" oY="10" oW="116" oH="108"/>
+	<sprite n="U16_tailglow_C_epic_01" x="135" y="233" w="63" h="66" oX="0" oY="17" oW="116" oH="108"/>
+	<sprite n="U16_tailglow_C_epic_02" x="308" y="309" w="82" h="82" oX="0" oY="10" oW="116" oH="108"/>
+	<sprite n="U16_tailglow_D_epic" x="427" y="419" w="85" h="77" oX="2" oY="1" oW="108" oH="90" r="y"/>
+	<sprite n="U16_tailglow_D_epic_01" x="0" y="518" w="78" h="58" oX="10" oY="3" oW="108" oH="90" r="y"/>
+	<sprite n="U16_tailglow_D_epic_02" x="91" y="490" w="85" h="77" oX="2" oY="1" oW="108" oH="90" r="y"/>
+	<sprite n="U16_tailglow_E_epic" x="0" y="633" w="61" h="58" oX="0" oY="0" oW="78" oH="58"/>
+	<sprite n="U16_tailglow_E_epic_01" x="140" y="638" w="58" h="56" oX="0" oY="0" oW="78" oH="58" r="y"/>
+	<sprite n="U16_tailglow_E_epic_02" x="294" y="623" w="61" h="58" oX="0" oY="0" oW="78" oH="58"/>
+</TextureAtlas>

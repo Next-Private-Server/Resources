@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:beb2bdf49cf9c0ed5e9bfc450787fea7:fbf21f6eeee4f1e1ed7055142b5799e8:405d427fffba73ecf78ce558b901cd60$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ACN_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="ACN_Big_nosebell_bottom" x="155" y="168" w="42" h="91" oX="0" oY="1" oW="44" oH="92" />
+  <sprite n="ACN_Big_nosebell_top" x="0" y="168" w="92" h="160" oX="5" oY="0" oW="170" oH="92" r="y" />
+  <sprite n="ACN_body" x="0" y="0" w="110" h="166" oX="0" oY="2" oW="110" oH="168" />
+  <sprite n="ACN_eyeball" x="419" y="104" w="46" h="46" />
+  <sprite n="ACN_eyelid_01" x="67" y="487" w="44" h="16" oX="6" oY="2" oW="54" oH="52" />
+  <sprite n="ACN_eyelid_02" x="455" y="0" w="51" h="50" oX="1" oY="2" oW="54" oH="52" />
+  <sprite n="ACN_eyelid_03" x="397" y="45" w="51" h="50" oX="2" oY="2" oW="54" oH="52" />
+  <sprite n="ACN_eyelid_04" x="450" y="52" w="51" h="50" oX="2" oY="2" oW="54" oH="52" />
+  <sprite n="ACN_foot" x="397" y="0" w="56" h="43" oX="0" oY="9" oW="56" oH="52" />
+  <sprite n="ACN_hand" x="343" y="0" w="52" h="58" />
+  <sprite n="ACN_hand_small" x="369" y="97" w="48" h="38" r="y" />
+  <sprite n="ACN_head" x="0" y="330" w="86" h="155" oX="0" oY="8" oW="158" oH="94" r="y" />
+  <sprite n="ACN_head_hair_left_bot" x="112" y="111" w="64" h="55" />
+  <sprite n="ACN_head_hair_left_mid" x="112" y="0" w="61" h="109" r="y" />
+  <sprite n="ACN_head_hair_left_top" x="178" y="96" w="56" h="69" r="y" />
+  <sprite n="ACN_head_hair_right_bot" x="163" y="419" w="52" h="59" r="y" />
+  <sprite n="ACN_head_hair_right_mid" x="94" y="168" w="59" h="144" r="y" />
+  <sprite n="ACN_head_hair_right_top" x="227" y="329" w="41" h="80" r="y" />
+  <sprite n="ACN_lowerarm" x="199" y="167" w="62" h="90" r="y" />
+  <sprite n="ACN_lowerarm_small" x="0" y="487" w="43" h="22" oX="2" oY="3" oW="48" oH="28" />
+  <sprite n="ACN_lowerleg" x="236" y="91" w="54" h="71" oX="0" oY="2" oW="54" oH="76" />
+  <sprite n="ACN_neck" x="163" y="329" w="62" h="88" />
+  <sprite n="ACN_neck_left_fluff" x="292" y="91" w="75" h="61" oX="0" oY="5" oW="78" oH="66" />
+  <sprite n="ACN_neck_right_fluff" x="155" y="261" w="72" h="66" />
+  <sprite n="ACN_pupil" x="45" y="487" w="20" h="20" />
+  <sprite n="ACN_shadow" x="88" y="330" w="73" h="148" oX="2" oY="1" oW="152" oH="76" r="y" />
+  <sprite n="ACN_Small_nosebell_bottom" x="229" y="259" w="39" h="68" oX="7" oY="5" oW="50" oH="80" />
+  <sprite n="ACN_Small_nosebell_top" x="233" y="0" w="72" h="89" oX="9" oY="4" oW="104" oH="80" r="y" />
+  <sprite n="ACN_tail" x="263" y="164" w="60" h="76" r="y" />
+  <sprite n="ACN_tongue" x="113" y="480" w="53" h="26" oX="7" oY="19" oW="62" oH="57" />
+  <sprite n="ACN_upperarm" x="217" y="419" w="52" h="83" oX="5" oY="0" oW="88" oH="52" r="y" />
+  <sprite n="ACN_upperarm_small" x="307" y="0" w="34" h="59" oX="0" oY="0" oW="60" oH="34" r="y" />
+  <sprite n="ACN_upperleg" x="175" y="0" w="56" h="94" />
+</TextureAtlas>

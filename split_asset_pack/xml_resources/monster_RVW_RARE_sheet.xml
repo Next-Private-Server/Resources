@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ecb09a96afa74c3cb0bffa6470b31321:48769d318dd00a6a2c5b1fe26c1d2948:0460d6a7ca45c1744f6f95cfc6398b9b$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_RVW_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="RVW_body_RARE" x="0" y="129" w="123" h="165" oX="0" oY="26" oW="128" oH="200" />
+  <sprite n="RVW_fingerA_lower" x="285" y="448" w="56" h="44" />
+  <sprite n="RVW_fingerA_upper" x="460" y="389" w="52" h="44" />
+  <sprite n="RVW_fingerB_lower" x="408" y="399" w="48" h="55" oX="1" oY="0" oW="56" oH="48" r="y" />
+  <sprite n="RVW_fingerB_upper" x="407" y="456" w="49" h="48" oX="1" oY="2" oW="52" oH="52" />
+  <sprite n="RVW_fingerC_lower" x="414" y="337" w="44" h="60" oX="4" oY="0" oW="64" oH="44" r="y" />
+  <sprite n="RVW_fingerC_upper" x="160" y="378" w="53" h="40" oX="1" oY="0" oW="56" oH="40" />
+  <sprite n="RVW_head_RARE" x="365" y="0" w="147" h="173" oX="6" oY="4" oW="180" oH="156" r="y" />
+  <sprite n="RVW_head_tip_RARE" x="0" y="296" w="88" h="190" r="y" />
+  <sprite n="RVW_left_eye" x="460" y="331" w="52" h="56" oX="2" oY="0" oW="56" oH="56" />
+  <sprite n="RVW_left_eyelid_01" x="285" y="383" w="57" h="63" oX="10" oY="6" oW="72" oH="72" />
+  <sprite n="RVW_left_eyelid_02" x="348" y="337" w="64" h="58" oX="9" oY="5" oW="72" oH="72" r="y" />
+  <sprite n="RVW_left_eyelid_03" x="163" y="420" w="59" h="64" oX="8" oY="5" oW="72" oH="72" />
+  <sprite n="RVW_left_eyelid_04" x="224" y="419" w="59" h="64" oX="8" oY="5" oW="72" oH="72" />
+  <sprite n="RVW_left_hand" x="278" y="330" w="68" h="51" oX="4" oY="2" oW="76" oH="56" />
+  <sprite n="RVW_left_lowerarm" x="125" y="215" w="142" h="64" oX="5" oY="4" oW="152" oH="72" />
+  <sprite n="RVW_left_pupil" x="163" y="486" w="16" h="16" />
+  <sprite n="RVW_left_upperarm" x="358" y="175" w="110" h="38" oX="1" oY="3" oW="112" oH="44" />
+  <sprite n="RVW_mouth_01" x="260" y="383" w="23" h="19" oX="38" oY="45" oW="100" oH="108" r="y" />
+  <sprite n="RVW_mouth_02" x="470" y="175" w="25" h="31" oX="36" oY="40" oW="100" oH="108" />
+  <sprite n="RVW_mouth_03" x="215" y="382" w="43" h="35" oX="31" oY="33" oW="100" oH="108" r="y" />
+  <sprite n="RVW_mouth_04" x="353" y="280" w="67" h="55" oX="22" oY="21" oW="100" oH="108" r="y" />
+  <sprite n="RVW_mouth_05" x="371" y="215" w="77" h="63" oX="18" oY="16" oW="100" oH="108" r="y" />
+  <sprite n="RVW_mouth_06" x="90" y="423" w="71" h="89" oX="15" oY="10" oW="100" oH="108" />
+  <sprite n="RVW_mouth_07" x="160" y="281" w="77" h="95" oX="12" oY="7" oW="100" oH="108" />
+  <sprite n="RVW_mouth_08" x="0" y="488" w="28" h="20" oX="35" oY="47" oW="100" oH="108" />
+  <sprite n="RVW_right_eyelid_01" x="450" y="215" w="62" h="56" oX="7" oY="5" oW="68" oH="72" r="y" />
+  <sprite n="RVW_right_eyelid_02" x="450" y="273" w="62" h="56" oX="7" oY="5" oW="68" oH="72" r="y" />
+  <sprite n="RVW_right_eyelid_03" x="344" y="397" w="62" h="56" oX="7" oY="5" oW="68" oH="72" r="y" />
+  <sprite n="RVW_right_eyelid_04" x="343" y="456" w="62" h="56" oX="7" oY="5" oW="68" oH="72" r="y" />
+  <sprite n="RVW_right_hand" x="278" y="276" w="73" h="52" oX="3" oY="6" oW="80" oH="64" />
+  <sprite n="RVW_right_lowerarm" x="90" y="296" w="68" h="125" oX="3" oY="4" oW="132" oH="76" r="y" />
+  <sprite n="RVW_right_pupil" x="422" y="280" w="19" h="20" oX="2" oY="2" oW="24" oH="24" />
+  <sprite n="RVW_right_upperarm" x="239" y="281" w="37" h="99" oX="4" oY="1" oW="108" oH="40" r="y" />
+  <sprite n="RVW_shadow" x="125" y="129" w="160" h="84" oX="2" oY="2" oW="164" oH="88" />
+  <sprite n="RVW_tail_01" x="269" y="215" w="100" h="59" oX="7" oY="4" oW="112" oH="68" />
+  <sprite n="RVW_tail_02_RARE" x="287" y="129" w="69" h="84" oX="3" oY="0" oW="90" oH="70" r="y" />
+  <sprite n="RVW_tube_RARE" x="0" y="0" w="363" h="127" oX="5" oY="13" oW="370" oH="150" />
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7546431ca12a60f86dbe5c9f004a3569:bd856e61d7aa458f4f8fc80ee00c3d50:342bea2bea52a788150f850edf029638$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_buildings_drift_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="phonk_building_01" x="0" y="0" w="382" h="133" oX="7" oY="12" oW="140" oH="400" r="y"/>
+	<sprite n="phonk_building_02" x="0" y="270" w="372" h="132" oX="8" oY="13" oW="140" oH="400" r="y"/>
+	<sprite n="phonk_building_04" x="374" y="304" w="135" h="369" oX="5" oY="16" oW="140" oH="400"/>
+	<sprite n="phonk_building_led_00" x="384" y="0" w="86" h="302" oX="5" oY="9" oW="96" oH="320"/>
+	<sprite n="phonk_building_led_01" x="0" y="675" w="86" h="302" oX="5" oY="9" oW="96" oH="320"/>
+	<sprite n="phonk_building_led_02" x="88" y="675" w="86" h="302" oX="5" oY="9" oW="96" oH="320"/>
+	<sprite n="phonk_building_led_03" x="176" y="675" w="302" h="86" oX="5" oY="9" oW="96" oH="320" r="y"/>
+	<sprite n="phonk_building_led_04" x="176" y="763" w="302" h="86" oX="5" oY="9" oW="96" oH="320" r="y"/>
+	<sprite n="phonk_neon_01" x="0" y="135" w="382" h="133" oX="7" oY="12" oW="140" oH="400" r="y"/>
+	<sprite n="phonk_neon_02" x="0" y="404" w="372" h="132" oX="8" oY="13" oW="140" oH="400" r="y"/>
+	<sprite n="phonk_neon_04" x="0" y="538" w="369" h="135" oX="5" oY="16" oW="140" oH="400" r="y"/>
+</TextureAtlas>

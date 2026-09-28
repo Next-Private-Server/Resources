@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4e6d391ae11e6df974145b3848e29eba:39de03d24d787a5757d533b4e48a445c:bf78c0fb9726bbbf8c7da676abaef212$ -->
+<TextureAtlas imagePath="gfx/structures/anniversary_stele14_critter_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="critter_act_01" x="129" y="271" w="110" h="101" oX="51" oY="45" oW="200" oH="200" r="y"/>
+	<sprite n="critter_act_03" x="0" y="274" w="106" h="103" oX="53" oY="46" oW="200" oH="200"/>
+	<sprite n="critter_act_04" x="0" y="179" w="127" h="93" oX="38" oY="66" oW="200" oH="200"/>
+	<sprite n="critter_act_pomily" x="129" y="183" w="94" h="86" oX="53" oY="57" oW="200" oH="200"/>
+	<sprite n="critter_back_flipper" x="240" y="103" w="15" h="24" oX="4" oY="3" oW="25" oH="30"/>
+	<sprite n="critter_body" x="0" y="0" w="180" h="177" oX="12" oY="5" oW="200" oH="200" r="y"/>
+	<sprite n="critter_body_shine" x="182" y="40" w="67" h="61" oX="2" oY="3" oW="64" oH="72" r="y"/>
+	<sprite n="critter_left_eyelid_1" x="182" y="144" w="21" h="18" oX="0" oY="1" oW="22" oH="19"/>
+	<sprite n="critter_left_eyelid_2" x="205" y="144" w="21" h="17" oX="0" oY="2" oW="22" oH="19"/>
+	<sprite n="critter_left_eyelid_3" x="228" y="159" w="21" h="17" oX="0" oY="2" oW="22" oH="19"/>
+	<sprite n="critter_mid_eyelid_1" x="182" y="123" w="22" h="19"/>
+	<sprite n="critter_mid_eyelid_2" x="206" y="123" w="22" h="19"/>
+	<sprite n="critter_mid_eyelid_3" x="230" y="138" w="22" h="19"/>
+	<sprite n="critter_middle_flipper" x="182" y="103" w="27" h="18" oX="3" oY="1" oW="25" oH="30" r="y"/>
+	<sprite n="critter_pupil" x="230" y="123" w="8" h="13" oX="2" oY="3" oW="17" oH="13" r="y"/>
+	<sprite n="critter_right_eyelid_1" x="205" y="163" w="20" h="17" oX="1" oY="1" oW="22" oH="19"/>
+	<sprite n="critter_right_eyelid_2" x="182" y="164" w="20" h="17" oX="1" oY="1" oW="22" oH="19"/>
+	<sprite n="critter_right_eyelid_3" x="227" y="178" w="20" h="17" oX="1" oY="1" oW="22" oH="19"/>
+	<sprite n="critter_shadow" x="182" y="0" w="74" h="38"/>
+	<sprite n="critter_top_flipper" x="211" y="103" w="27" h="18" oX="3" oY="0" oW="25" oH="30" r="y"/>
+</TextureAtlas>

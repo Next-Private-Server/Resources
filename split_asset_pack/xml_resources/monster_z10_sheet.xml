@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:aa24743ecbcaa31d05c0037a50629432:2c728c3e893920458d5780056f86ca76:b53268eaeca89b706113a74855da267a$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_z10_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="z10_accordion_back" x="0" y="64" w="158" h="27" oX="2" oY="1" oW="32" oH="160" r="y"/>
+	<sprite n="z10_accordion_left_front" x="164" y="0" w="161" h="101" oX="9" oY="23" oW="120" oH="208" r="y"/>
+	<sprite n="z10_accordion_right_front" x="0" y="0" w="162" h="62" oX="29" oY="23" oW="120" oH="208" r="y"/>
+	<sprite n="z10_armjoint_01" x="286" y="300" w="129" h="74" oX="4" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_armjoint_02" x="153" y="339" w="129" h="70" oX="4" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_armjoint_03" x="284" y="376" w="129" h="66" oX="4" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_armjoint_04" x="0" y="418" w="129" h="62" oX="4" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_armjoint_05" x="150" y="411" w="129" h="58" oX="4" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_armjoint_06" x="458" y="157" w="54" h="129" oX="4" oY="26" oW="100" oH="180"/>
+	<sprite n="z10_armjoint_07" x="281" y="444" w="129" h="50" oX="4" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_body_lower" x="327" y="0" w="138" h="115" oX="2" oY="0" oW="120" oH="140" r="y"/>
+	<sprite n="z10_body_mid" x="279" y="496" w="124" h="112" oX="8" oY="1" oW="128" oH="128" r="y"/>
+	<sprite n="z10_body_top" x="405" y="515" w="107" h="102" oX="4" oY="5" oW="116" oH="112"/>
+	<sprite n="z10_eyeball_left" x="394" y="619" w="29" h="29" oX="1" oY="1" oW="32" oH="32"/>
+	<sprite n="z10_eyeball_right" x="247" y="608" w="30" h="35" oX="3" oY="2" oW="36" oH="40"/>
+	<sprite n="z10_eyelid_leftt_01" x="36" y="689" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="z10_eyelid_leftt_02" x="0" y="719" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="z10_eyelid_leftt_03" x="69" y="713" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="z10_eyelid_leftt_04" x="33" y="722" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="z10_eyelid_leftt_05" x="0" y="752" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="z10_eyelid_leftt_06" x="102" y="713" w="31" h="31" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="z10_eyelid_right_01" x="415" y="401" w="40" h="32" oX="3" oY="0" oW="36" oH="40" r="y"/>
+	<sprite n="z10_eyelid_right_02" x="415" y="435" w="40" h="32" oX="3" oY="0" oW="36" oH="40" r="y"/>
+	<sprite n="z10_eyelid_right_03" x="412" y="469" w="40" h="32" oX="3" oY="0" oW="36" oH="40" r="y"/>
+	<sprite n="z10_eyelid_right_04" x="352" y="610" w="40" h="32" oX="3" oY="0" oW="36" oH="40" r="y"/>
+	<sprite n="z10_eyelid_right_05" x="145" y="670" w="40" h="32" oX="3" oY="0" oW="36" oH="40" r="y"/>
+	<sprite n="z10_eyelid_right_06" x="187" y="670" w="40" h="32" oX="3" oY="0" oW="36" oH="40" r="y"/>
+	<sprite n="z10_face" x="0" y="576" w="115" h="70" oX="7" oY="4" oW="80" oH="120" r="y"/>
+	<sprite n="z10_finger_01_01" x="131" y="297" w="20" h="51" oX="4" oY="4" oW="60" oH="44" r="y"/>
+	<sprite n="z10_finger_01_02" x="467" y="36" w="45" h="32" oX="11" oY="5" oW="60" oH="44"/>
+	<sprite n="z10_finger_01_03" x="143" y="704" w="36" h="35" oX="20" oY="5" oW="60" oH="44" r="y"/>
+	<sprite n="z10_finger_01_04" x="0" y="689" w="34" h="28" oX="27" oY="6" oW="60" oH="44" r="y"/>
+	<sprite n="z10_finger_01_05" x="88" y="679" w="25" h="32" oX="30" oY="5" oW="60" oH="44"/>
+	<sprite n="z10_finger_02_01" x="131" y="350" w="19" h="38" oX="26" oY="5" oW="52" oH="52"/>
+	<sprite n="z10_finger_02_02" x="116" y="672" w="25" h="38" oX="20" oY="5" oW="52" oH="52"/>
+	<sprite n="z10_finger_02_03" x="181" y="704" w="35" h="33" oX="12" oY="9" oW="52" oH="52" r="y"/>
+	<sprite n="z10_finger_02_04" x="117" y="597" w="26" h="39" oX="6" oY="17" oW="52" oH="52" r="y"/>
+	<sprite n="z10_finger_02_05" x="131" y="255" w="22" h="40" oX="5" oY="26" oW="52" oH="52" r="y"/>
+	<sprite n="z10_foot" x="145" y="608" w="100" h="60" oX="1" oY="3" oW="104" oH="64"/>
+	<sprite n="z10_hair_01" x="0" y="482" w="128" h="26" oX="12" oY="0" oW="44" oH="128" r="y"/>
+	<sprite n="z10_hair_02" x="0" y="510" w="128" h="26" oX="12" oY="0" oW="44" oH="128" r="y"/>
+	<sprite n="z10_hair_03" x="149" y="471" w="128" h="32" oX="4" oY="0" oW="44" oH="128" r="y"/>
+	<sprite n="z10_hair_back" x="0" y="93" w="155" h="63" r="y"/>
+	<sprite n="z10_hair_top" x="146" y="546" w="109" h="60" oX="5" oY="0" oW="120" oH="60"/>
+	<sprite n="z10_lower_feathers" x="457" y="446" w="52" h="67" oX="4" oY="3" oW="60" oH="72"/>
+	<sprite n="z10_lower_leg" x="457" y="336" w="54" h="108" oX="5" oY="4" oW="64" oH="116"/>
+	<sprite n="z10_lower_palm" x="229" y="675" w="39" h="34" oX="3" oY="5" oW="44" oH="44"/>
+	<sprite n="z10_lupper_leg" x="0" y="538" w="116" h="36" oX="6" oY="6" oW="50" oH="128" r="y"/>
+	<sprite n="z10_mid_arm" x="294" y="103" w="31" h="111" oX="2" oY="2" oW="116" oH="36" r="y"/>
+	<sprite n="z10_mid_feathers" x="279" y="643" w="59" h="36" oX="0" oY="3" oW="60" oH="40"/>
+	<sprite n="z10_mid_forearm" x="279" y="610" w="71" h="31" oX="3" oY="3" oW="76" oH="36"/>
+	<sprite n="z10_mouth_01" x="457" y="288" w="55" h="46" oX="4" oY="2" oW="64" oH="48"/>
+	<sprite n="z10_mouth_02" x="467" y="100" w="42" h="55" oX="4" oY="3" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_03" x="417" y="343" w="38" h="56" oX="3" oY="4" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_04" x="118" y="538" w="26" h="57" oX="3" oY="4" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_05" x="131" y="191" w="23" h="62" oX="1" oY="1" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_06" x="131" y="423" w="16" h="49" oX="7" oY="6" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_07" x="130" y="492" w="14" h="28" oX="19" oY="8" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_08" x="131" y="390" w="18" h="13" oX="28" oY="7" oW="64" oH="48"/>
+	<sprite n="z10_mouth_09" x="130" y="522" w="14" h="13" oX="30" oY="6" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_10" x="131" y="405" w="17" h="16" oX="29" oY="4" oW="64" oH="48" r="y"/>
+	<sprite n="z10_mouth_11" x="467" y="70" w="44" h="28" oX="11" oY="6" oW="64" oH="48"/>
+	<sprite n="z10_pupil" x="131" y="474" w="16" h="16"/>
+	<sprite n="z10_shadow" x="157" y="103" w="135" h="62"/>
+	<sprite n="z10_shoulderjoint_01" x="327" y="117" w="129" h="97" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_shoulderjoint_02" x="0" y="158" w="129" h="94" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_shoulderjoint_03" x="157" y="167" w="129" h="90" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_shoulderjoint_04" x="0" y="254" w="129" h="86" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_shoulderjoint_05" x="288" y="216" w="129" h="82" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_shoulderjoint_06" x="155" y="259" w="129" h="78" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_shoulderjoint_07" x="0" y="342" w="129" h="74" oX="3" oY="26" oW="100" oH="180" r="y"/>
+	<sprite n="z10_thumb_01" x="247" y="645" w="30" h="28" oX="9" oY="4" oW="44" oH="44" r="y"/>
+	<sprite n="z10_thumb_02" x="131" y="158" w="24" h="31" oX="5" oY="10" oW="44" oH="44" r="y"/>
+	<sprite n="z10_thumb_03" x="117" y="638" w="26" h="32" oX="5" oY="12" oW="44" oH="44" r="y"/>
+	<sprite n="z10_thumb_04" x="88" y="648" w="26" h="29" oX="8" oY="15" oW="44" oH="44" r="y"/>
+	<sprite n="z10_top_feathers" x="0" y="648" w="86" h="39" oX="2" oY="7" oW="88" oH="52"/>
+	<sprite n="z10_upper_arm" x="419" y="216" w="36" h="125" oX="3" oY="2" oW="132" oH="40" r="y"/>
+	<sprite n="z10_upper_forearm" x="146" y="505" w="121" h="39" oX="3" oY="2" oW="128" oH="44"/>
+	<sprite n="z10_upper_palm" x="467" y="0" w="45" h="34" oX="3" oY="5" oW="52" oH="44"/>
+</TextureAtlas>

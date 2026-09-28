@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:afcad0e395f605d95362dbe5658feba1:57b42ee41834fae19512a852a36d9ad5:5964dbe1dd6444ab4c41b7173360f325$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S02_RARE_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="CR_holly" x="304" y="408" w="60" h="92" pX="0.521739" pY="0.5" r="y"/>
+	<sprite n="CR_holly_2" x="366" y="408" w="60" h="92" pX="0.521739" pY="0.5" r="y"/>
+	<sprite n="CR_left_hand" x="230" y="0" w="68" h="56" pX="0.477941" pY="0.160714"/>
+	<sprite n="CR_left_leg" x="66" y="434" w="66" h="75" pX="0.5" pY="0.848485" oX="0" oY="0" oW="76" oH="66" r="y"/>
+	<sprite n="CR_left_lowerarm" x="230" y="134" w="130" h="92" pX="0.554348" pY="0.253846" r="y"/>
+	<sprite n="CR_left_upperarm" x="428" y="402" w="74" h="85" pX="0.635135" pY="0.273256" oX="0" oY="1" oW="74" oH="86"/>
+	<sprite n="CR_right_hand" x="230" y="58" w="68" h="56" pX="0.523529" pY="0.183929"/>
+	<sprite n="CR_right_leg" x="0" y="434" w="64" h="78" pX="0.441026" pY="0.842187" r="y"/>
+	<sprite n="CR_right_lowerarm" x="362" y="134" w="135" h="89" pX="0.410112" pY="0.312593" r="y"/>
+	<sprite n="CR_right_upperarm" x="228" y="424" w="74" h="86" pX="0.160811" pY="0.293023"/>
+	<sprite n="S02_body" x="0" y="0" w="228" h="228" pX="0.47807" pY="0.802632"/>
+	<sprite n="S02_Hat" x="134" y="424" w="92" h="88" pX="0.471591" pY="1.54348" r="y"/>
+	<sprite n="S02_left_antler" x="126" y="230" w="130" h="192" pX="0.796154" pY="0.888021"/>
+	<sprite n="S02_left_antler_2" x="258" y="228" w="125" h="178" pX="0.891538" pY="0.840104" oX="5" oY="9" oW="130" oH="192"/>
+	<sprite n="S02_neck_fur" x="0" y="230" w="124" h="202" pX="0.49505" pY="1.40323" r="y"/>
+	<sprite n="S02_right_antler" x="304" y="0" w="188" h="132" pX="0.397727" pY="0.906915" r="y"/>
+	<sprite n="S02_right_antler_2" x="385" y="225" w="125" h="175" pX="0.33" pY="0.853646" oX="5" oY="9" oW="130" oH="192"/>
+</TextureAtlas>

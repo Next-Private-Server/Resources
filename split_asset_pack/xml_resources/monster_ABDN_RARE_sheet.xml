@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8abf8d48ecb5d1a8cf187384a25d7c38:20143a0205644634b4a18d709d915379:67363402e670417ffdc6cd658c600f39$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ABDN_RARE_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="ABDN_Body" x="0" y="0" w="367" h="336"/>
+	<sprite n="ABDN_Eye_spike_l" x="317" y="983" w="45" h="40" oX="2" oY="5" oW="50" oH="50"/>
+	<sprite n="ABDN_Eye_spike_l_back" x="147" y="864" w="40" h="46" oX="1" oY="5" oW="50" oH="50" r="y"/>
+	<sprite n="ABDN_Eye_spike_r" x="911" y="183" w="102" h="81" oX="9" oY="20" oW="120" oH="120"/>
+	<sprite n="ABDN_EyeB" x="975" y="331" w="49" h="58" oX="2" oY="0" oW="65" oH="50" r="y"/>
+	<sprite n="ABDN_EyelidB_01" x="975" y="266" w="48" h="63" oX="0" oY="2" oW="65" oH="50" r="y"/>
+	<sprite n="ABDN_EyelidB_02" x="69" y="964" w="63" h="50" oX="0" oY="0" oW="65" oH="50"/>
+	<sprite n="ABDN_EyelidB_03" x="864" y="654" w="63" h="50" oX="0" oY="0" oW="65" oH="50"/>
+	<sprite n="ABDN_EyelidB_04" x="929" y="654" w="63" h="50" oX="0" oY="0" oW="65" oH="50"/>
+	<sprite n="ABDN_EyelidB_05" x="735" y="926" w="63" h="50" oX="0" oY="0" oW="65" oH="50"/>
+	<sprite n="ABDN_EyelidF_01" x="943" y="847" w="77" h="78" oX="0" oY="11" oW="89" oH="89"/>
+	<sprite n="ABDN_EyelidF_02" x="943" y="927" w="77" h="78" oX="0" oY="11" oW="89" oH="89"/>
+	<sprite n="ABDN_EyelidF_03" x="944" y="471" w="77" h="78" oX="0" oY="11" oW="89" oH="89"/>
+	<sprite n="ABDN_EyelidF_04" x="944" y="551" w="77" h="78" oX="0" oY="11" oW="89" oH="89"/>
+	<sprite n="ABDN_EyelidF_05" x="655" y="926" w="78" h="77" oX="0" oY="11" oW="89" oH="89" r="y"/>
+	<sprite n="ABDN_Feather_l" x="0" y="864" w="145" h="98" oX="1" oY="2" oW="100" oH="150" r="y"/>
+	<sprite n="ABDN_Feather_r" x="877" y="0" w="140" h="156" oX="10" oY="2" oW="160" oH="160"/>
+	<sprite n="ABDN_FootB" x="778" y="654" w="84" h="72"/>
+	<sprite n="ABDN_FootF" x="922" y="399" w="98" h="70" oX="2" oY="0" oW="74" oH="98" r="y"/>
+	<sprite n="ABDN_ForeArmB" x="622" y="195" w="143" h="82" oX="2" oY="0" oW="145" oH="82"/>
+	<sprite n="ABDN_ForeArmF" x="767" y="195" w="142" h="82"/>
+	<sprite n="ABDN_HandB" x="220" y="959" w="67" h="60"/>
+	<sprite n="ABDN_HandF" x="0" y="964" w="67" h="59" oX="0" oY="1" oW="67" oH="60"/>
+	<sprite n="ABDN_Head" x="369" y="0" w="251" h="281" oX="1" oY="0" oW="282" oH="251" r="y"/>
+	<sprite n="ABDN_HornF" x="563" y="926" w="90" h="90" oX="16" oY="0" oW="106" oH="124"/>
+	<sprite n="ABDN_KneeB" x="835" y="728" w="78" h="118" oX="1" oY="0" oW="79" oH="118"/>
+	<sprite n="ABDN_KneeF" x="195" y="807" w="98" h="150" r="y"/>
+	<sprite n="ABDN_Mini_Body" x="819" y="399" w="101" h="67"/>
+	<sprite n="ABDN_Mini_Body_RARE" x="482" y="900" w="79" h="123" oX="11" oY="5" oW="150" oH="100" r="y"/>
+	<sprite n="ABDN_Mini_Eyelid_01" x="147" y="912" w="43" h="43"/>
+	<sprite n="ABDN_Mini_Eyelid_02" x="915" y="802" w="43" h="43"/>
+	<sprite n="ABDN_Mini_Eyelid_03" x="960" y="802" w="43" h="43"/>
+	<sprite n="ABDN_Mini_Eyelid_04" x="835" y="955" w="43" h="43"/>
+	<sprite n="ABDN_Mini_Head" x="195" y="601" w="124" h="204" oX="0" oY="0" oW="204" oH="125" r="y"/>
+	<sprite n="ABDN_Mini_Head_RARE" x="321" y="754" w="159" h="227" oX="13" oY="12" oW="250" oH="180" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_01" x="328" y="527" w="39" h="21" oX="5" oY="3" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_02" x="295" y="892" w="18" h="40" oX="3" oY="8" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_03" x="923" y="158" w="43" h="23" oX="1" oY="8" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_04" x="800" y="926" w="33" h="40" oX="3" oY="3" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_05" x="735" y="978" w="41" h="36" oX="2" oY="2" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_06" x="295" y="807" w="22" h="41" oX="3" oY="6" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_07" x="364" y="983" w="43" h="25" oX="3" oY="3" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_08" x="328" y="481" w="25" h="44" oX="2" oY="3" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_09" x="968" y="158" w="42" h="22" oX="3" oY="4" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_10" x="289" y="959" w="26" h="43" oX="3" oY="3" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_11" x="295" y="850" w="21" h="40" oX="3" oY="9" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_12" x="409" y="983" w="42" h="26" oX="2" oY="6" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_13" x="328" y="434" w="34" h="45" oX="1" oY="2" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_14" x="328" y="338" w="38" h="46" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_15" x="993" y="706" w="26" h="42" oX="2" oY="6" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_16" x="877" y="158" w="44" h="23" oX="1" oY="8" oW="46" oH="38"/>
+	<sprite n="ABDN_Mini_Mouth_17" x="328" y="386" w="26" h="46" oX="0" oY="6" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_Mouth_18" x="564" y="478" w="14" h="34" oX="6" oY="12" oW="46" oH="38" r="y"/>
+	<sprite n="ABDN_Mini_PawB" x="564" y="514" w="17" h="26" r="y"/>
+	<sprite n="ABDN_Mini_PawF" x="993" y="750" w="23" h="36" r="y"/>
+	<sprite n="ABDN_Mini_Pupil" x="295" y="934" w="22" h="22"/>
+	<sprite n="ABDN_Mini_ShoulderB" x="134" y="1008" w="18" h="16" r="y"/>
+	<sprite n="ABDN_Mini_ShoulderF" x="994" y="631" w="24" h="31" r="y"/>
+	<sprite n="ABDN_Mouth_01" x="328" y="553" w="253" h="199" oX="15" oY="6" oW="269" oH="227"/>
+	<sprite n="ABDN_Mouth_02" x="0" y="609" w="193" h="253" oX="15" oY="12" oW="269" oH="227" r="y"/>
+	<sprite n="ABDN_Mouth_03" x="564" y="283" w="253" h="193" oX="15" oY="12" oW="269" oH="227"/>
+	<sprite n="ABDN_Mouth_04" x="622" y="0" w="253" h="193" oX="15" oY="12" oW="269" oH="227"/>
+	<sprite n="ABDN_Mouth_05" x="583" y="478" w="193" h="251" oX="17" oY="12" oW="269" oH="227" r="y"/>
+	<sprite n="ABDN_Mouth_06" x="583" y="731" w="250" h="193" oX="19" oY="12" oW="269" oH="227"/>
+	<sprite n="ABDN_Mouth_07" x="133" y="338" w="193" h="261" oX="7" oY="12" oW="269" oH="227" r="y"/>
+	<sprite n="ABDN_Mouth_08" x="369" y="283" w="193" h="268" oX="0" oY="12" oW="269" oH="227" r="y"/>
+	<sprite n="ABDN_Nose" x="147" y="959" w="71" h="47" oX="0" oY="0" oW="72" oH="48"/>
+	<sprite n="ABDN_PupilB" x="453" y="983" w="26" h="38" r="y"/>
+	<sprite n="ABDN_PupilF" x="800" y="968" w="32" h="35" oX="1" oY="0" oW="36" oH="32" r="y"/>
+	<sprite n="ABDN_Shadow" x="0" y="338" w="131" h="269" oX="0" oY="27" oW="269" oH="184" r="y"/>
+	<sprite n="ABDN_ShoulderF" x="915" y="706" w="76" h="94" oX="1" oY="0" oW="77" oH="94"/>
+	<sprite n="ABDN_Tail" x="835" y="848" w="106" h="105" oX="4" oY="68" oW="200" oH="180" r="y"/>
+	<sprite n="ABDN_Tail_tip" x="778" y="478" w="164" h="174" oX="24" oY="10" oW="200" oH="180" r="y"/>
+	<sprite n="ABDN_ThighB" x="482" y="754" w="97" h="144" oX="7" oY="0" oW="151" oH="97" r="y"/>
+	<sprite n="ABDN_ThighF" x="819" y="279" w="154" h="118" oX="0" oY="1" oW="118" oH="155" r="y"/>
+</TextureAtlas>

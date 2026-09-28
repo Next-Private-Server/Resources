@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bdbfc9c7228c506a547f84940e6f3c81:f8943fb5da85af4967b98c6c90bf0df0:c8742e274bd5addc420d161fdbf34a86$ -->
+<TextureAtlas imagePath="gfx/menu/stickers/mystery_boxes_sheet.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="box back" x="413" y="900" w="380" h="124"/>
+	<sprite n="common box bottom" x="0" y="375" w="384" h="372" oX="21" oY="12" oW="425" oH="387"/>
+	<sprite n="common box top" x="386" y="524" w="411" h="210" oX="6" oY="2" oW="425" oH="230"/>
+	<sprite n="common shadow" x="809" y="426" w="150" h="394" oX="16" oY="6" oW="425" oH="162" r="y"/>
+	<sprite n="common sticker lower" x="0" y="981" w="88" h="38" oX="0" oY="0" oW="88" oH="45"/>
+	<sprite n="common sticker upper" x="809" y="822" w="108" h="65" oX="0" oY="6" oW="108" oH="71"/>
+	<sprite n="epic shadow" x="387" y="371" w="383" h="151" oX="21" oY="6" oW="425" oH="162"/>
+	<sprite n="epic sticker bottom" x="0" y="0" w="385" h="373" oX="20" oY="7" oW="425" oH="387"/>
+	<sprite n="epic sticker lower" x="961" y="426" w="45" h="77" oX="5" oY="0" oW="88" oH="45" r="y"/>
+	<sprite n="epic sticker top" x="0" y="749" w="411" h="230" oX="7" oY="0" oW="425" oH="230"/>
+	<sprite n="epic sticker upper" x="861" y="889" w="71" h="79" oX="14" oY="0" oW="108" oH="71" r="y"/>
+	<sprite n="rare box bottom" x="387" y="0" w="385" h="369" oX="20" oY="15" oW="425" oH="387"/>
+	<sprite n="rare box top" x="774" y="0" w="228" h="424" oX="1" oY="1" oW="425" oH="230" r="y"/>
+	<sprite n="rare shadow" x="413" y="736" w="394" h="162" oX="16" oY="0" oW="425" oH="162"/>
+	<sprite n="rare sticker lower" x="961" y="505" w="45" h="75" oX="7" oY="0" oW="88" oH="45" r="y"/>
+	<sprite n="rare sticker upper" x="795" y="900" w="64" h="104" oX="2" oY="7" oW="108" oH="71" r="y"/>
+</TextureAtlas>

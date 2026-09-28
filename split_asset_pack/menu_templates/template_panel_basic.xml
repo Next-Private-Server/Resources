@@ -1,0 +1,59 @@
+<template name="template_panel_basic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/BasicPanel.lua"/>
+	
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$transitionDuration" equals="0.66" />
+	<defaultTemplateVar name="$startX" equals="0*game.hudScale()" />
+	<defaultTemplateVar name="$startY" equals="screenHeight() * 2.0" />
+	<defaultTemplateVar name="$endX" equals="0*game.hudScale()" />
+	<defaultTemplateVar name="$endY" equals="0*game.hudScale()" />
+	<defaultTemplateVar name="$frame" equals="'gfx/menu/Black9SFrame50Sm'" />
+
+	<ninesliceComponent name="Sprite">
+		<size dependentOnElement="element:name()"/>
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+					component("topHeight"):SetFloat(49.0)
+					component("bottomHeight"):SetFloat(49.0)
+					component("leftWidth"):SetFloat(49.0)
+					component("rightWidth"):SetFloat(49.0)
+					component("size"):SetFloat(0.5*game.hudScale())
+					component("includeBorder"):SetInt(1)
+					component("spriteName"):SetString("$frame")
+					component("layer"):SetString("$layer")
+				]]>
+		</event>
+	</ninesliceComponent>
+
+	<event name="onInit" params="element">
+		<![CDATA[
+			element:initTemplate()
+		]]>
+	</event>
+
+	<event name="initTemplate" params="element">
+		<![CDATA[
+			element.duration = $transitionDuration
+			element.startX = $startX
+			element.startY = $startY
+			element.endX = $endX
+			element.endY = $endY
+			element:Init()
+		]]>
+	</event>
+
+	<event name="onDoneHide" params="element">
+		<![CDATA[
+			element:root():removePopUp(element:parent():name())
+		]]>
+	</event>
+	
+	<event name="setInvisible" params="element">
+		<![CDATA[
+			element["Sprite"]("visible"):SetInt(0)
+		]]>
+	</event>
+
+</template>

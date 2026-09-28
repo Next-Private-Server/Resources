@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:66c2ee6b8cb9d8ba6326d8d811fcdcab:4d014b62379345c552bb627ae39fd526:675d6339c1e60381e4b9ece9f08ef246$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ADN_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+  <sprite n="ADN_adult_left_upperleg" x="160" y="262" w="74" h="55" pX="0.463636" pY="0.864865" r="y" />
+  <sprite n="ADN_adult_lowerbody" x="0" y="262" w="100" h="112" pX="0.346154" pY="0.803571" oX="2" oY="0" oW="104" oH="112" />
+  <sprite n="ADN_adult_right_upperleg" x="102" y="262" w="56" h="80" pX="0.464286" pY="0.825" />
+  <sprite n="ADN_helmet_back" x="0" y="376" w="104" h="104" pX="0.653846" pY="0.807692" />
+  <sprite n="ADN_helmet_front" x="0" y="0" w="223" h="260" pX="0.623077" pY="0.675439" oX="0" oY="2" oW="260" oH="228" r="y" />
+</TextureAtlas>

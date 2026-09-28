@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7a7dcc576db3e8e0d206a40ababbf1a8:76eec37bd3e4c69f7bbfacd43f63d13d:8072346ad6654159b63101bb72ccc527$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_Z11_costume_03_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="Z11_cane_01_GLOW" x="459" y="510" w="51" h="67" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="Z11_cane_02_GLOW" x="459" y="579" w="51" h="67" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="Z11_coat" x="277" y="112" w="211" h="246" pX="0.45858" pY="0.389251" oX="0" oY="0" oW="254" oH="230" r="y"/>
+	<sprite n="Z11_collar_L" x="0" y="606" w="141" h="135" pX="1.00761" pY="0.675532" oX="13" oY="0" oW="148" oH="141" r="y"/>
+	<sprite n="Z11_collar_L_fg" x="280" y="696" w="114" h="74" pX="1.00761" pY="0.675532" oX="13" oY="0" oW="148" oH="141"/>
+	<sprite n="Z11_collar_R" x="0" y="743" w="135" h="49" pX="-1.22619" pY="0.795775" oX="0" oY="25" oW="63" oH="160" r="y"/>
+	<sprite n="Z11_goggles" x="275" y="360" w="193" h="87" pX="0.603891" pY="0.523276"/>
+	<sprite n="Z11_hair_01" x="143" y="696" w="135" h="80" pX="0.979439" pY="0.0355556" r="y"/>
+	<sprite n="Z11_hair_02" x="0" y="549" w="152" h="55" pX="0.582192" pY="0.184729" r="y"/>
+	<sprite n="Z11_hair_03" x="470" y="360" w="42" h="148" pX="0.464286" pY="0.215736"/>
+	<sprite n="Z11_hair_04" x="0" y="492" w="155" h="55" pX="0.29589" pY="0.15" r="y"/>
+	<sprite n="Z11_hat" x="272" y="449" w="185" h="176" pX="0.711382" pY="1.69658"/>
+	<sprite n="Z11_head" x="277" y="0" w="233" h="110" pX="0.593548" pY="1.82313"/>
+	<sprite n="Z11_headband" x="490" y="112" w="20" h="54" pX="1.75" pY="6.03704" r="y"/>
+	<sprite n="Z11_lowerarm_left" x="157" y="492" w="106" h="85" pX="0.119149" pY="0.49469"/>
+	<sprite n="Z11_lowerarm_right" x="413" y="648" w="85" h="106" pX="0.119858" pY="0.512389" r="y"/>
+	<sprite n="Z11_Necklace" x="272" y="627" w="139" h="67" pX="0.311351" pY="0.0561798"/>
+	<sprite n="Z11_pendant" x="396" y="756" w="60" h="58" pX="0.506494" pY="0.0125" r="y"/>
+	<sprite n="Z11_staff_01" x="0" y="424" w="270" h="66" pX="0.5" pY="0.5" oX="107" oY="4" oW="281" oH="281" r="y"/>
+	<sprite n="Z11_staff_02" x="0" y="276" w="273" h="146" pX="0.5" pY="0.5" oX="67" oY="3" oW="281" oH="281" r="y"/>
+	<sprite n="Z11_staff_03" x="0" y="0" w="275" h="274" pX="0.5" pY="0.5" oX="2" oY="2" oW="281" oH="281"/>
+	<sprite n="Z11_upperarm_left" x="154" y="579" w="116" h="57" pX="0.5" pY="0.5"/>
+	<sprite n="Z11_upperarm_right" x="143" y="638" w="116" h="56" pX="0.5" pY="0.5"/>
+</TextureAtlas>

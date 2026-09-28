@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8a350817ee9e9d771c046a9bbd2221b5:da2c76d3898e5a662d2cda6ea9e2a2ca:9e37c919f307deb48e6526011343ce0a$ -->
+<TextureAtlas imagePath="gfx/menu/currency_sheet.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="coins_01" x="723" y="820" w="172" h="201" oX="3" oY="3" oW="210" oH="177" r="y"/>
+	<sprite n="coins_02" x="0" y="782" w="184" h="229" oX="1" oY="0" oW="231" oH="184" r="y"/>
+	<sprite n="coins_03" x="0" y="428" w="232" h="160" oX="5" oY="5" oW="243" oH="166"/>
+	<sprite n="coins_04" x="0" y="590" w="230" h="190" oX="2" oY="3" oW="235" oH="198"/>
+	<sprite n="coins_05" x="0" y="218" w="233" h="208" oX="8" oY="4" oW="245" oH="221"/>
+	<sprite n="coins_06" x="767" y="0" w="239" h="195" oX="2" oY="1" oW="241" oH="198"/>
+	<sprite n="coins_07" x="565" y="393" w="193" h="214" oX="20" oY="10" oW="224" oH="228"/>
+	<sprite n="currency_arrow" x="469" y="393" w="94" h="82" oX="1" oY="0" oW="96" oH="85"/>
+	<sprite n="currency_coins" x="921" y="401" w="97" h="107" oX="1" oY="1" oW="99" oH="109"/>
+	<sprite n="currency_diamonds" x="456" y="591" w="107" h="110" oX="1" oY="1" oW="112" oH="110" r="y"/>
+	<sprite n="currency_glow" x="456" y="703" w="57" h="58" oX="10" oY="10" oW="80" oH="76" r="y"/>
+	<sprite n="currency_glow_beam" x="402" y="591" w="52" h="179" oX="2" oY="10" oW="56" oH="191"/>
+	<sprite n="currency_glow_white" x="515" y="703" w="57" h="58" oX="10" oY="10" oW="80" oH="76" r="y"/>
+	<sprite n="currency_relics" x="897" y="820" w="109" h="95" oX="0" oY="2" oW="95" oH="111" r="y"/>
+	<sprite n="currency_shards" x="921" y="510" w="97" h="104" oX="1" oY="1" oW="106" oH="99" r="y"/>
+	<sprite n="diamonds_00" x="232" y="591" w="168" h="189" oX="0" oY="1" oW="168" oH="198"/>
+	<sprite n="diamonds_01" x="574" y="609" w="191" h="136" oX="3" oY="17" oW="197" oH="164"/>
+	<sprite n="diamonds_02" x="760" y="401" w="159" h="203" oX="10" oY="3" oW="218" oH="162" r="y"/>
+	<sprite n="diamonds_03" x="372" y="782" w="191" h="224" oX="2" oY="18" oW="228" oH="217" r="y"/>
+	<sprite n="diamonds_04" x="186" y="782" w="184" h="228" oX="3" oY="3" oW="234" oH="191" r="y"/>
+	<sprite n="diamonds_05" x="511" y="201" w="236" h="190" oX="6" oY="1" oW="247" oH="193"/>
+	<sprite n="diamonds_06" x="767" y="197" w="236" h="202" oX="3" oY="11" oW="243" oH="238"/>
+	<sprite n="foodpack_01" x="565" y="763" w="156" h="215" oX="0" oY="7" oW="215" oH="164" r="y"/>
+	<sprite n="foodpack_02" x="262" y="0" w="253" h="168" oX="0" oY="5" oW="253" oH="174"/>
+	<sprite n="foodpack_03" x="262" y="170" w="247" h="191"/>
+	<sprite n="foodpack_04" x="767" y="616" w="214" h="202" oX="0" oY="0" oW="216" oH="205"/>
+	<sprite n="foodpack_05" x="235" y="363" w="232" h="226" oX="0" oY="0" oW="232" oH="227"/>
+	<sprite n="foodpack_06" x="0" y="0" w="260" h="216" oX="6" oY="0" oW="267" oH="217"/>
+	<sprite n="foodpack_07" x="517" y="0" w="248" h="199" oX="9" oY="7" oW="266" oH="214"/>
+</TextureAtlas>

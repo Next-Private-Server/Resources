@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4e35a99e286ac68c0e970c6c5645eb84:c30ccb5d7e39668fa8031292260d45e1:0267d732856884c4c45e84076b848ae8$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_onstage_speakers_drift_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="speaker_base_01" x="0" y="0" w="112" h="94" oX="0" oY="0" oW="112" oH="112"/>
+	<sprite n="speaker_base_01_glow_a" x="0" y="96" w="99" h="58" oX="7" oY="3" oW="112" oH="112"/>
+	<sprite n="speaker_base_01_glow_b" x="114" y="78" w="105" h="50" oX="4" oY="39" oW="112" oH="112"/>
+	<sprite n="speaker_base_02" x="114" y="0" w="106" h="76" oX="4" oY="36" oW="112" oH="112"/>
+	<sprite n="speaker_base_02_glow" x="0" y="156" w="47" h="97" oX="9" oY="62" oW="112" oH="112" r="y"/>
+	<sprite n="speaker_lid" x="49" y="156" w="56" h="92" oX="0" oY="1" oW="92" oH="60" r="y"/>
+	<sprite n="speaker_lid_glow" x="107" y="130" w="44" h="86" oX="2" oY="7" oW="92" oH="60" r="y"/>
+</TextureAtlas>

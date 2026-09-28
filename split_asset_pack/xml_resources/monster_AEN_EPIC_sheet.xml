@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3c365277789b24ccf53ed34028f52ae3:a914a482a65b7e8767e1320f0a7dd499:ded2944ad4bcf0c9d5e228dc55f4a0a2$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_AEN_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="AEN_adult_aries_EPIC" x="283" y="459" w="122" h="120" oX="1" oY="2" oW="124" oH="124"/>
+	<sprite n="AEN_adult_beard_EPIC" x="284" y="243" w="227" h="207" oX="2" oY="2" oW="232" oH="212"/>
+	<sprite n="AEN_adult_behind_horn_EPIC" x="0" y="0" w="285" h="107" oX="2" oY="1" oW="112" oH="288" r="y"/>
+	<sprite n="AEN_adult_bird_body_EPIC" x="80" y="717" w="48" h="44"/>
+	<sprite n="AEN_adult_bird_head_EPIC" x="448" y="778" w="56" h="44" r="y"/>
+	<sprite n="AEN_adult_bird_tail_EPIC" x="80" y="763" w="41" h="38" oX="1" oY="1" oW="40" oH="44" r="y"/>
+	<sprite n="AEN_adult_body_EPIC" x="287" y="0" w="219" h="241" oX="1" oY="0" oW="220" oH="244"/>
+	<sprite n="AEN_adult_eyelids_01" x="362" y="725" w="84" h="43"/>
+	<sprite n="AEN_adult_eyelids_02" x="362" y="770" w="84" h="43"/>
+	<sprite n="AEN_adult_eyelids_03" x="243" y="793" w="84" h="43"/>
+	<sprite n="AEN_adult_eyelids_04" x="329" y="815" w="84" h="43"/>
+	<sprite n="AEN_adult_front_horn_EPIC" x="0" y="109" w="248" h="132" r="y"/>
+	<sprite n="AEN_adult_goatee_EPIC" x="185" y="376" w="63" h="46" oX="0" oY="2" oW="48" oH="68" r="y"/>
+	<sprite n="AEN_adult_hair_back_EPIC" x="418" y="452" w="94" h="27" oX="0" oY="3" oW="28" oH="100" r="y"/>
+	<sprite n="AEN_adult_hair_EPIC" x="283" y="649" w="110" h="68" oX="2" oY="0" oW="112" oH="68"/>
+	<sprite n="AEN_adult_hair_front_EPIC" x="407" y="536" w="95" h="36" oX="0" oY="3" oW="36" oH="100" r="y"/>
+	<sprite n="AEN_adult_head" x="0" y="584" w="135" h="131" oX="0" oY="0" oW="144" oH="149" r="y"/>
+	<sprite n="AEN_adult_horn_bar_EPIC" x="0" y="376" w="183" h="76" oX="4" oY="2" oW="192" oH="80"/>
+	<sprite n="AEN_adult_horn_swirl_EPIC" x="250" y="224" w="32" h="30" oX="1" oY="0" oW="32" oH="32" r="y"/>
+	<sprite n="AEN_adult_left_back_leg_EPIC" x="157" y="616" w="111" h="52" oX="2" oY="2" oW="56" oH="116" r="y"/>
+	<sprite n="AEN_adult_left_earhand_EPIC" x="0" y="717" w="78" h="76" oX="1" oY="2" oW="80" oH="80"/>
+	<sprite n="AEN_adult_left_foot" x="276" y="719" w="84" h="72" oX="2" oY="0" oW="88" oH="72"/>
+	<sprite n="AEN_adult_left_foot_back_EPIC" x="157" y="670" w="85" h="79" oX="1" oY="2" oW="88" oH="84"/>
+	<sprite n="AEN_adult_left_ponytail_EPIC" x="283" y="581" w="117" h="66" oX="1" oY="1" oW="120" oH="68"/>
+	<sprite n="AEN_adult_leg_cover_EPIC" x="0" y="454" w="155" h="90" oX="0" oY="4" oW="92" oH="160" r="y"/>
+	<sprite n="AEN_adult_leg_EPIC" x="407" y="481" w="104" h="53" oX="1" oY="2" oW="56" oH="108" r="y"/>
+	<sprite n="AEN_adult_mouth_01" x="137" y="712" w="18" h="63" oX="0" oY="0" oW="63" oH="36" r="y"/>
+	<sprite n="AEN_adult_mouth_01_EPIC" x="157" y="539" w="21" h="61" oX="3" oY="10" oW="68" oH="48" r="y"/>
+	<sprite n="AEN_adult_mouth_02" x="261" y="670" w="13" h="52" oX="6" oY="2" oW="63" oH="36" r="y"/>
+	<sprite n="AEN_adult_mouth_02_EPIC" x="483" y="718" w="19" h="58" oX="5" oY="3" oW="68" oH="48" r="y"/>
+	<sprite n="AEN_adult_mouth_03" x="250" y="195" w="34" h="13" oX="24" oY="0" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_03_EPIC" x="138" y="546" w="16" h="46" oX="13" oY="3" oW="68" oH="48" r="y"/>
+	<sprite n="AEN_adult_mouth_04" x="250" y="210" w="34" h="12" oX="18" oY="0" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_04_EPIC" x="250" y="139" w="35" h="17" oX="15" oY="2" oW="68" oH="48"/>
+	<sprite n="AEN_adult_mouth_05" x="270" y="616" w="11" h="40" oX="12" oY="3" oW="63" oH="36" r="y"/>
+	<sprite n="AEN_adult_mouth_05_EPIC" x="495" y="654" w="15" h="40" oX="11" oY="10" oW="68" oH="48" r="y"/>
+	<sprite n="AEN_adult_mouth_06" x="250" y="158" w="35" h="15" oX="6" oY="3" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_06_EPIC" x="250" y="175" w="34" h="18" oX="9" oY="13" oW="68" oH="48"/>
+	<sprite n="AEN_adult_mouth_07" x="250" y="369" w="29" h="16" oX="10" oY="7" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_07_EPIC" x="250" y="387" w="28" h="20" oX="12" oY="16" oW="68" oH="48"/>
+	<sprite n="AEN_adult_mouth_08" x="250" y="256" w="31" h="46" oX="4" oY="4" oW="63" oH="36" r="y"/>
+	<sprite n="AEN_adult_mouth_08_EPIC" x="157" y="502" w="23" h="21" oX="17" oY="17" oW="68" oH="48" r="y"/>
+	<sprite n="AEN_adult_mouth_09" x="250" y="109" w="35" h="28" oX="18" oY="6" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_09_EPIC" x="157" y="477" w="25" h="23" oX="23" oY="16" oW="68" oH="48"/>
+	<sprite n="AEN_adult_mouth_10" x="250" y="304" w="31" h="31" oX="28" oY="2" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_10_EPIC" x="157" y="454" w="26" h="21" oX="27" oY="12" oW="68" oH="48"/>
+	<sprite n="AEN_adult_mouth_11" x="250" y="409" w="25" h="13" oX="29" oY="0" oW="63" oH="36"/>
+	<sprite n="AEN_adult_mouth_11_EPIC" x="483" y="696" w="28" h="20" oX="28" oY="6" oW="68" oH="48"/>
+	<sprite n="AEN_adult_orb" x="250" y="337" w="30" h="30" oX="1" oY="1" oW="32" oH="32"/>
+	<sprite n="AEN_adult_pupil" x="244" y="670" w="15" h="15"/>
+	<sprite n="AEN_adult_pupil_EPIC" x="157" y="525" w="22" h="12" oX="1" oY="0" oW="24" oH="12"/>
+	<sprite n="AEN_adult_right_earhand_EPIC" x="395" y="655" w="86" h="68" oX="1" oY="2" oW="88" oH="72"/>
+	<sprite n="AEN_adult_right_foot" x="157" y="751" w="84" h="70" oX="0" oY="1" oW="84" oH="72"/>
+	<sprite n="AEN_adult_right_foot_back_EPIC" x="407" y="574" w="86" h="79" oX="0" oY="2" oW="88" oH="84"/>
+	<sprite n="AEN_adult_right_ponytail_EPIC" x="415" y="824" w="82" h="52" oX="1" oY="2" oW="84" oH="56"/>
+	<sprite n="AEN_adult_shadow" x="0" y="243" w="248" h="131"/>
+	<sprite n="AEN_adult_string_01" x="504" y="536" w="5" h="116" oX="14" oY="8" oW="33" oH="132"/>
+	<sprite n="AEN_adult_string_01_EPIC" x="283" y="452" w="133" h="5" oX="17" oY="3" oW="40" oH="140" r="y"/>
+	<sprite n="AEN_adult_string_02" x="157" y="602" w="116" h="12" oX="10" oY="8" oW="33" oH="132" r="y"/>
+	<sprite n="AEN_adult_string_02_EPIC" x="0" y="567" w="136" h="15" oX="12" oY="2" oW="40" oH="140" r="y"/>
+	<sprite n="AEN_adult_string_03" x="137" y="594" w="18" h="116" oX="7" oY="8" oW="33" oH="132"/>
+	<sprite n="AEN_adult_string_03_EPIC" x="0" y="546" w="136" h="19" oX="10" oY="2" oW="40" oH="140" r="y"/>
+	<sprite n="AEN_adult_tail_EPIC" x="185" y="424" w="96" h="173" oX="2" oY="3" oW="100" oH="180"/>
+</TextureAtlas>

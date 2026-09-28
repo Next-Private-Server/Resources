@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+    <script src="scripts/BreedingV2/BreedingFeedPopup.lua"/>
+
+	<template type="template_fade" name="FadedBG">
+		<templateVar name="$transitionDuration" equals="0.5" />
+        <templateVar name="$maxAlpha" equals="0.75" />
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="12" />
+	</template>
+
+	<template type="template_panel_basic" name="Panel">
+		<templateVar name="$layer" equals="MidPopUps" />
+        <templateVar name="$frame" equals="'gfx/menu/Black9SFrame50'" />
+		<!-- the panel's height is set dynamically in setup -->
+		<size w="480*BreedingMenuScaleX()" h="340*BreedingMenuScaleX()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0*BreedingMenuScaleX()" priorityOffset="10" />
+	</template>
+
+    <!-- Food Counter -->
+    <element name="FoodCounter">
+		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
+		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="32*BreedingMenuScaleX()" yOffset="32*BreedingMenuScaleX()" priorityOffset="5" />
+		<ninesliceComponent name="BackingSprite">
+			<size w="180*BreedingMenuScaleX()" h="48*BreedingMenuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("includeBorder"):SetInt(1)
+				component("topHeight"):SetFloat(30.0)
+				component("bottomHeight"):SetFloat(30.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("size"):SetFloat(0.5*BreedingMenuScaleX())
+				component("spriteName"):SetString("gfx/menu/BlackTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="Icon">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-4*BreedingMenuScaleX()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString(game.StoreContext_SPRITE_FOOD)
+				component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
+				component("size"):SetFloat(0.75*BreedingMenuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Plus">
+			<position relativeTo="element[&quot;Icon&quot;]" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("plus")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.75*BreedingMenuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<textComponent name="Text">
+			<size w="120*BreedingMenuScaleX()" h="64*BreedingMenuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="16*BreedingMenuScaleX()" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.5*BreedingMenuScaleX())
+				component("text"):SetString("100,000,000")
+				component("autoScaleFactor"):SetFloat(0.01)
+				component("autoScale"):SetInt(1)
+				game.StoreContext_setCurrencyTypeColour(game.StoreContext_TYPE_FOOD, component)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onTouchDown" params="component, element">
+				<![CDATA[					
+					element["Plus"]:setColor(0.5, 0.5, 0.5)
+				]]>
+			</event>
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[					
+                    element["Plus"]:setColor(1.0, 1.0, 1.0)
+                    playSoundFx("audio/sfx/menu_click_small.wav")
+                    --game.logEvent("enter_iap_store", "source", "FOOD_HUD", "context", "HUD") --TODO: fix this metric
+                    game.loadStoreContext(game.StoreCategories_TYPE_CURRENCY, game.StoreContext_TYPE_FOOD)
+				]]>
+			</event>
+			<event name="onTouchRelease" params="component, element">
+				element["Plus"]:setColor(1.0, 1.0, 1.0)
+			</event>
+		</touchComponent>
+	</element>
+
+    <!-- Title -->
+
+    <element name="TitleFrame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Panel" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="8*BreedingMenuScaleX()" priorityOffset="-1" />
+		<ninesliceComponent name="Sprite">
+			<size w="260*BreedingMenuScaleX()" h="58*BreedingMenuScaleY()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(48.0)
+				component("bottomHeight"):SetFloat(48.0)
+				component("leftWidth"):SetFloat(48.0)
+				component("rightWidth"):SetFloat(48.0)
+				component("size"):SetFloat(0.5*BreedingMenuScaleX())
+				component("includeBorder"):SetInt(1)
+				component("spriteName"):SetString("gfx/menu/GreyTitleFrame")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+	</element>
+
+	<element name="TitleText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="TitleFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="160*BreedingMenuScaleX()" h="30*BreedingMenuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				--local palette = include("ColourPalette")
+				--component:setColor(palette:getRGBFloats(palette.TITLE_BLUE))
+				component("size"):SetFloat(0.5*BreedingMenuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("BREEDING_FEED_CTA")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+    <!-- Contents -->
+    <element name="DescriptionText">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Panel" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="40*BreedingMenuScaleY()" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="390*BreedingMenuScaleX()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				--local palette = include("ColourPalette")
+				--component:setColor(palette:getRGBFloats(palette.TITLE_BLUE))
+				component("size"):SetFloat(0.35*BreedingMenuScaleX())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("BREEDING_FEED_INFO")
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+    <element name="MonsterAnim">
+        <size w="140*BreedingMenuScaleX()" h="140*BreedingMenuScaleY()" />
+        <position relativeTo="Panel" vAnchor="VCENTER" hAnchor="HCENTER" />
+        <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0*BreedingMenuScaleX()" yOffset="16*BreedingMenuScaleX()" priorityOffset="-1" />
+        <aeComponent name="Sprite">
+			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
+        	<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+            <event name="onInit" params="component, element">
+                component("offsetCenter"):SetInt(1)
+                component("animationName"):SetString("xml_bin/monster_a.bin")
+                component("animation"):SetString("Store")
+                component:setScale(Vector2(1.25*BreedingMenuScaleX(), 1.25*BreedingMenuScaleY()))
+                component("layer"):SetString("MidPopUps")
+            </event>
+        </aeComponent>
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onInit" params="component, element">
+				component("singleTouch"):SetInt(1)
+			</event>
+		</touchComponent>
+    </element>
+
+    <!-- Chomp Effect -->
+    <effectComponent name="ChompEffect" inline="true" 
+        layer="MidPopUps"
+        effect="particles/FX_MonsterFeedingChomp.efkefc"
+        magnification="40">
+        <size dependentOnElement="MonsterAnim" dependentOnComponent="Sprite" />
+        <position relativeTo="MonsterAnim" vAnchor="VCENTER" hAnchor="HCENTER" />
+        <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+    </effectComponent>
+
+    <!-- Level Up Effect -->
+    <effectComponent name="LevelUpEffect" inline="true" 
+        layer="MidPopUps"
+        effect="particles/FX_MonsterLevelUp.efkefc"
+        magnification="20">
+        <size dependentOnElement="MonsterAnim" dependentOnComponent="Sprite" />
+        <position relativeTo="MonsterAnim" vAnchor="VCENTER" hAnchor="HCENTER" />
+        <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+    </effectComponent>
+
+	<!-- Happy Effect -->
+    <effectComponent name="HappyEffect" inline="true" 
+        layer="MidPopUps"
+        effect="particles/Monsters/FX_Happy.efkefc"
+        magnification="20">
+        <size dependentOnElement="MonsterAnim" dependentOnComponent="Sprite" />
+        <position relativeTo="MonsterAnim" vAnchor="VCENTER" hAnchor="HCENTER" />
+        <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+    </effectComponent>
+
+    <!-- the image re-used as a Flying Icon-->
+	 <!--
+    <spriteSheetComponent name="FoodParticle">
+        <position relativeTo="PARENT" vAnchor="TOP" hAnchor="LEFT" />
+        <orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="100" yOffset="100" priorityOffset="3" />
+        <event name="onInit" params="component, element">
+            component("spriteName"):SetString("food")
+            component("sheetName"):SetString("xml_resources/hud01.xml")
+            component("size"):SetFloat(0.5*BreedingMenuScaleX())
+            component("layer"):SetString("MidPopUps")
+        </event>
+    </spriteSheetComponent>
+	-->
+
+    <!-- XP Bar (from HUD)-->
+	<element name="XpBarBacking">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Panel" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-64*BreedingMenuScaleX()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("level_bar_empty")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.75*BreedingMenuScaleX())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+
+    <element name="XpBar">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="XpBarBacking" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="2*BreedingMenuScaleX()" yOffset="-1*BreedingMenuScaleY()" priorityOffset="-1" />
+		<spriteSheetComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("battle_bar_full")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.75*BreedingMenuScaleX())
+				component("layer"):SetString("MidPopUps")
+				component("FullMaskH"):SetInt(component("maskHeight"):GetInt())
+				component("FullMaskW"):SetInt(component("maskWidth"):GetInt())
+			</event>
+		</spriteSheetComponent>
+		
+		<textComponent name="LevelText">
+			<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("font"):Set(game.getTitleFont())
+				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("size"):SetFloat(0.5*BreedingMenuScaleX())
+				--gets set in GameContext::updatePlayerHud() via SetElementComponentVarValue
+				component("text"):SetString("Level 3")
+				local palette = include("ColourPalette")
+				component:setColor(palette:getRGBFloats(palette.TITLE_ORANGE))
+				component("autoScale"):SetInt(1)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>		
+		
+	</element>
+
+</menu>

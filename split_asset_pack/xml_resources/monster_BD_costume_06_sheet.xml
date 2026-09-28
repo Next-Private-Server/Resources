@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5d428ebfd05acf84b13c221461b9b71c:a4c9adf581ee79236ac65108498a205c:4e076e4916607d770890895da3573e44$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BD_costume_06_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="BD_target" x="0" y="0" w="204" h="171" pX="0.5" pY="0.5" oX="-2" oY="-59" oW="220" oH="200"/>
+</TextureAtlas>

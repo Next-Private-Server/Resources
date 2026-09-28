@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e43ee3249df670967952fc42eb5aa0b9:cd8b46a54b9f75440fa86bc8d162557f:5c5de79ad8835a1bb82ba8b4777cb92f$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_ENY_RARE_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="Ball_Back_Dim_RARE" x="251" y="44" w="88" h="80" oX="36" oY="17" oW="140" oH="140" r="y"/>
+	<sprite n="Ball_Back_lit" x="251" y="126" w="66" h="66"/>
+	<sprite n="Ball_Front_Dim_RARE" x="400" y="50" w="106" h="97" oX="15" oY="7" oW="140" oH="140" r="y"/>
+	<sprite n="Ball_Front_lit" x="400" y="149" w="78" h="78"/>
+	<sprite n="Body_RARE" x="79" y="0" w="84" h="180" oX="8" oY="8" oW="100" oH="200"/>
+	<sprite n="Body_RARE_SLEEP" x="165" y="0" w="84" h="170" oX="8" oY="18" oW="100" oH="200"/>
+	<sprite n="Body_RARE_SLEEP_HOOKS" x="480" y="183" w="30" h="38" oX="34" oY="19" oW="100" oH="200" r="y"/>
+	<sprite n="Eyeback" x="251" y="0" w="42" h="42"/>
+	<sprite n="Eyeball" x="480" y="223" w="30" h="30"/>
+	<sprite n="Eyelid_01" x="183" y="357" w="32" h="32"/>
+	<sprite n="Eyelid_02" x="480" y="149" w="32" h="32"/>
+	<sprite n="Eyelid_03" x="217" y="172" w="32" h="21" oX="0" oY="11" oW="32" oH="32"/>
+	<sprite n="Eyelid_04" x="93" y="373" w="32" h="15" oX="0" oY="17" oW="32" oH="32"/>
+	<sprite n="Eyelid_05" x="127" y="373" w="32" h="14" oX="0" oY="18" oW="32" oH="32"/>
+	<sprite n="Eyelid_06" x="0" y="507" w="3" h="3" oX="0" oY="0" oW="32" oH="32"/>
+	<sprite n="Eyeshine" x="47" y="505" w="6" h="6" oX="0" oY="2" oW="6" oH="8"/>
+	<sprite n="Leg_Spike_1_RARE" x="343" y="0" w="142" h="48" oX="2" oY="1" oW="150" oH="50"/>
+	<sprite n="Leg_Spike_2_RARE" x="347" y="229" w="123" h="52" oX="1" oY="6" oW="130" oH="60"/>
+	<sprite n="Leg_Spike_3_RARE" x="217" y="357" w="50" h="146" oX="4" oY="0" oW="150" oH="50" r="y"/>
+	<sprite n="Leg_Spike_4_RARE" x="0" y="392" w="45" h="113" oX="7" oY="5" oW="120" oH="50" r="y"/>
+	<sprite n="Leg_Thigh_1" x="161" y="182" w="34" h="15" oX="1" oY="0" oW="36" oH="16"/>
+	<sprite n="Leg_Thigh_2" x="295" y="20" w="40" h="18"/>
+	<sprite n="Leg_Thigh_3" x="296" y="0" w="45" h="18" oX="1" oY="0" oW="48" oH="18"/>
+	<sprite n="Leg_Thigh_4" x="79" y="182" w="38" h="17" oX="0" oY="0" oW="38" oH="18"/>
+	<sprite n="Pupil_RARE" x="197" y="172" w="18" h="24"/>
+	<sprite n="shadow" x="93" y="201" w="88" h="170" oX="0" oY="1" oW="170" oH="90" r="y"/>
+	<sprite n="Sprig1_RARE" x="183" y="199" w="111" h="156" oX="17" oY="1" oW="140" oH="160"/>
+	<sprite n="Sprig2_RARE" x="47" y="392" w="158" h="111" oX="5" oY="2" oW="120" oH="160" r="y"/>
+	<sprite n="Sprig3_RARE" x="0" y="0" w="77" h="199" oX="3" oY="1" oW="80" oH="200"/>
+	<sprite n="Sprig4_RARE" x="269" y="357" w="72" h="142" oX="6" oY="3" oW="160" oH="80" r="y"/>
+	<sprite n="Sprig5_RARE" x="296" y="194" w="49" h="138" oX="1" oY="4" oW="140" oH="60" r="y"/>
+	<sprite n="Sprig6_RARE" x="0" y="201" w="91" h="189" oX="9" oY="1" oW="100" oH="190"/>
+	<sprite n="Stalk_1" x="119" y="182" w="40" h="16" r="y"/>
+	<sprite n="Stalk_2" x="472" y="255" w="40" h="28" r="y"/>
+	<sprite n="Stalk_3" x="161" y="373" w="12" h="14"/>
+	<sprite n="Wing_1_RARE" x="319" y="126" w="79" h="65" oX="9" oY="1" oW="80" oH="80" r="y"/>
+	<sprite n="Wing_2_RARE" x="341" y="50" w="57" h="73" oX="11" oY="1" oW="80" oH="80"/>
+</TextureAtlas>

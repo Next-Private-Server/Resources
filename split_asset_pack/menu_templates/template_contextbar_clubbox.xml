@@ -1,0 +1,164 @@
+<template name="template_contextbar_buffs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<size dependentOnElement="Content" />
+		
+	<element name="Content">
+		<size w="300*game.hudScale()" h="42*game.hudScale()" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-4*game.menuScaleX()" yOffset="0" priorityOffset="-1" />		
+
+		<textComponent name="Text">
+			<size w="300 * game.hudScale()" h="32*game.hudScale()" />
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(0)
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTextFont())		
+				component("size"):SetFloat(0.4*game.hudScale())	
+				--component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("text"):SetString("CLUBBOX")
+				component("layer"):SetString("ContextBar")
+				component("boundMode"):SetInt(lua_sys.MenuTextComponent_TEXT_BOUND_TIGHT)
+			</event>	
+		</textComponent>
+
+		<element name="TimerBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="BG"/>
+			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
+			<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />			
+			
+			<ninesliceComponent name="BG">
+				<size w="80*game.hudScale()" h="19*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+
+						-- this 9s is 60x28
+						-- the size should be proportional to the height
+						-- i.e. if the size is 0.5 * hudScale then
+						-- the height should be 14 * hudScale
+
+						component("includeBorder"):SetInt(1)
+						component("topHeight"):SetFloat(13.0)
+						component("bottomHeight"):SetFloat(13.0)
+						component("leftWidth"):SetFloat(13.0)
+						component("rightWidth"):SetFloat(13.0)
+						component("size"):SetFloat(0.7*game.hudScale())
+						component("spriteName"):SetString("gfx/menu/bundle_timer_bar_9s")
+						component("layer"):SetString("ContextBar")
+					]]>
+				</event>
+			</ninesliceComponent>
+
+			<textComponent name="Text">		
+				<size w="72*game.hudScale()" h="19*game.hudScale()"/>
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("multiline"):SetInt(0)
+						component("autoScale"):SetInt(1)
+						component("font"):Set(game.getTextFont())
+						component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+						component("size"):SetFloat(0.30*game.menuScaleX())
+						component("layer"):SetString("ContextBar")
+					]]>
+				</event>
+			</textComponent>
+			
+		</element>
+
+		<element name="TicketBar">
+			<size dependentOnElement="element:name()" dependentOnComponent="BG"/>
+			<position relativeTo="TimerBar" vAnchor="VCENTER" hAnchor="LEFT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="4*game.hudScale()" yOffset="0" priorityOffset="0" />
+			
+			<ninesliceComponent name="BG">
+				<size w="38*game.hudScale()" h="19*game.hudScale()"/>	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+
+						-- this 9s is 60x28
+						-- the size should be proportional to the height
+						-- i.e. if the size is 0.5 * hudScale then
+						-- the height should be 14 * hudScale
+
+						component("includeBorder"):SetInt(1)
+						component("topHeight"):SetFloat(13.0)
+						component("bottomHeight"):SetFloat(13.0)
+						component("leftWidth"):SetFloat(13.0)
+						component("rightWidth"):SetFloat(13.0)
+						component("size"):SetFloat(0.7*game.hudScale())
+						component("spriteName"):SetString("gfx/menu/bundle_timer_bar_9s")
+						component("layer"):SetString("ContextBar")
+					]]>
+				</event>
+			</ninesliceComponent>
+
+			<spriteSheetComponent name="Icon">
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="1*game.hudScale()" yOffset="-1*game.hudScale()" priorityOffset="-1" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+					component("spriteName"):SetString("clubbox_token")
+					component("sheetName"):SetString("xml_resources/hud01.xml")
+					component("layer"):SetString("ContextBar")
+					component("size"):SetFloat(0.35*game.hudScale())
+					]]>
+				</event>
+			</spriteSheetComponent>
+			
+			<textComponent name="Text">		
+				<size dependentOnElement="element:name()" />	
+				<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+				<event name="onInit" params="component, element">
+					<![CDATA[
+						component("multiline"):SetInt(0)
+						component("autoScale"):SetInt(1)
+						component("font"):Set(game.getTextFont())
+						component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+						component("size"):SetFloat(0.15*game.menuScaleX())
+						component("layer"):SetString("ContextBar")
+
+						component("text"):SetString(game.playerClubboxTokens())
+					]]>
+				</event>
+			</textComponent>
+			
+		</element>
+
+	</element>
+
+	<event name="onTick" params="element, dt">	
+		if game.clubboxActIsAvail() then
+			local initialButtonScale = 0.24 * game.hudScale()
+			local c = element.Content.TimerBar.Text
+			c:GetVar("size"):SetFloat(initialButtonScale)
+			c:GetVar("text"):SetString(game.timeToString(game.clubboxShortestTimeAvail(), true))
+			c:GetVar("autoScale"):SetInt(1)
+		end
+	</event>
+
+	<event name="SetVisibility" params="element, v">
+		element.Content.Text("visible"):SetInt(v)
+		element.Content.TimerBar.BG("visible"):SetInt(v)
+		element.Content.TimerBar.Text("visible"):SetInt(v)
+		element.Content.TicketBar.BG("visible"):SetInt(v)
+		element.Content.TicketBar.Icon("visible"):SetInt(v)
+		element.Content.TicketBar.Text("visible"):SetInt(v)
+	</event>
+	
+	<event name="setVisible" params="element">
+		element:SetVisibility(1)
+	</event>
+	
+	<event name="setInvisible" params="element">
+		element:SetVisibility(0)
+	</event>
+	
+</template>

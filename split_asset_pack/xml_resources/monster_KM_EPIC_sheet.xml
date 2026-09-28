@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:2886427294251ef080dca77b54268e9e:a4374280a4496a6e0d979050d417e6ea:4b8456becc373a3a88dd8dca81e26db3$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_KM_EPIC_sheet.png" width="512" height="512" hires="true" version="1">
+  <sprite n="KM_body_A" x="245" y="198" w="117" h="119" oX="1" oY="0" oW="120" oH="120" />
+  <sprite n="KM_body_B_EPIC" x="245" y="347" w="106" h="102" oX="1" oY="4" oW="108" oH="108" />
+  <sprite n="KM_body_C" x="392" y="198" w="80" h="96" oX="0" oY="2" oW="80" oH="100" />
+  <sprite n="KM_cymbal_trimmed" x="254" y="85" w="142" h="72" oX="0" oY="2" oW="144" oH="76" />
+  <sprite n="KM_eyelids_01" x="375" y="158" w="99" h="39" oX="2" oY="0" oW="104" oH="40" />
+  <sprite n="KM_eyelids_02" x="473" y="198" w="39" h="99" oX="2" oY="0" oW="104" oH="40" r="y" />
+  <sprite n="KM_eyelids_03" x="421" y="295" w="39" h="99" oX="2" oY="0" oW="104" oH="40" r="y" />
+  <sprite n="KM_eyelids_04" x="461" y="298" w="39" h="99" oX="2" oY="0" oW="104" oH="40" r="y" />
+  <sprite n="KM_foot" x="438" y="0" w="72" h="119" oX="0" oY="0" oW="120" oH="72" r="y" />
+  <sprite n="KM_head_EPIC" x="0" y="174" w="167" h="181" oX="24" oY="7" oW="200" oH="200" />
+  <sprite n="KM_lower_leg_EPIC" x="0" y="439" w="148" h="44" oX="0" oY="0" oW="150" oH="44" />
+  <sprite n="KM_mouth_01" x="0" y="484" w="109" h="28" oX="1" oY="0" oW="112" oH="28" />
+  <sprite n="KM_mouth_02" x="110" y="484" w="109" h="28" oX="1" oY="0" oW="112" oH="28" />
+  <sprite n="KM_mouth_03" x="245" y="318" w="109" h="28" oX="1" oY="0" oW="112" oH="28" />
+  <sprite n="KM_mouth_04" x="363" y="198" w="28" h="109" oX="1" oY="0" oW="112" oH="28" r="y" />
+  <sprite n="KM_neck_A" x="0" y="356" w="165" h="82" oX="1" oY="1" oW="84" oH="168" r="y" />
+  <sprite n="KM_neck_A_hood_EPIC_combined" x="0" y="0" w="253" h="173" oX="2" oY="2" oW="260" oH="180" />
+  <sprite n="KM_neck_A_spikes_EPIC_LEFT" x="220" y="450" w="97" h="45" oX="0" oY="2" oW="120" oH="100" r="y" />
+  <sprite n="KM_neck_A_spikes_EPIC_RIGHT" x="318" y="450" w="86" h="45" oX="75" oY="7" oW="120" oH="100" r="y" />
+  <sprite n="KM_neck_B" x="254" y="0" w="183" h="84" oX="0" oY="0" oW="84" oH="184" r="y" />
+  <sprite n="KM_pupil" x="501" y="298" w="11" h="16" oX="5" oY="2" oW="20" oH="20" />
+  <sprite n="KM_shadow" x="168" y="174" w="76" h="155" oX="0" oY="2" oW="156" oH="80" r="y" />
+  <sprite n="KM_tail_A" x="352" y="347" w="68" h="100" oX="0" oY="1" oW="68" oH="104" />
+  <sprite n="KM_tail_B" x="166" y="399" w="69" h="26" oX="1" oY="1" oW="28" oH="72" r="y" />
+  <sprite n="KM_tail_C_EPIC" x="168" y="330" w="76" h="68" oX="2" oY="0" oW="80" oH="68" />
+  <sprite n="KM_tail_D" x="402" y="295" w="18" h="49" oX="1" oY="2" oW="20" oH="52" />
+  <sprite n="KM_tail_E_EPIC" x="461" y="398" w="48" h="55" oX="1" oY="0" oW="50" oH="56" />
+  <sprite n="KM_tongue_01" x="220" y="496" w="31" h="16" oX="0" oY="0" oW="40" oH="48" />
+  <sprite n="KM_tongue_02" x="149" y="439" w="29" h="38" oX="0" oY="0" oW="40" oH="48" r="y" />
+  <sprite n="KM_tongue_03" x="421" y="395" w="39" h="40" oX="0" oY="0" oW="40" oH="48" />
+  <sprite n="KM_tongue_04" x="438" y="120" w="46" h="37" oX="0" oY="0" oW="40" oH="48" r="y" />
+  <sprite n="KM_tongue_05" x="355" y="318" w="46" h="28" oX="0" oY="0" oW="40" oH="48" r="y" />
+  <sprite n="KM_tongue_06" x="397" y="85" w="40" h="43" oX="0" oY="0" oW="40" oH="48" />
+  <sprite n="KM_upper_leg" x="254" y="158" w="120" h="39" oX="0" oY="0" oW="120" oH="40" />
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:742d499051f21fe330349cbd4259735a:07cdac7ed2f3fbdebbb91b2627b176fc:e0a31800a081d49428dba211892d0b65$ -->
+<TextureAtlas imagePath="gfx/menu/map/map_locations_sheet_02.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="map_icon_sketch_island29" x="0" y="0" w="360" h="282" oX="0" oY="17" oW="364" oH="300"/>
+	<sprite n="map_icon_sketch_island32" x="0" y="284" w="355" h="267" oX="4" oY="20" oW="364" oH="300"/>
+</TextureAtlas>

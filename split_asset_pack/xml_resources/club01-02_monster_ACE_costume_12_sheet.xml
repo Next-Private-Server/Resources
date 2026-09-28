@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6410615a1514b4301e771f009bedb3d4:15d877a09d11277ba6100fdcfb77e89a:0803558c449ca3acf33c607e4c227c68$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_ACE_costume_12_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ACE_boot_l" x="0" y="205" w="96" h="65" pX="0.515385" pY="0.729167" r="y"/>
+	<sprite n="ACE_boot_l_body" x="0" y="205" w="96" h="65" pX="0.430769" pY="0.0854167" r="y"/>
+	<sprite n="ACE_boot_r" x="150" y="81" w="97" h="72" pX="0.5" pY="0.647059" oX="0" oY="0" oW="80" oH="102" r="y"/>
+	<sprite n="ACE_boot_r_body" x="150" y="81" w="97" h="72" pX="0.33875" pY="0.0901961" oX="0" oY="0" oW="80" oH="102" r="y"/>
+	<sprite n="ACE_boottoe_l" x="77" y="306" w="46" h="55" pX="0.421127" pY="0.637931" oX="8" oY="6" oW="71" oH="58" r="y"/>
+	<sprite n="ACE_boottoe_r" x="206" y="273" w="49" h="59" pX="0.619048" pY="0.603774" oX="2" oY="2" oW="63" oH="53" r="y"/>
+	<sprite n="ACE_left_ankle" x="98" y="244" w="33" h="60" pX="0.5" pY="0.5" oX="0" oY="63" oW="60" oH="96" r="y"/>
+	<sprite n="ACE_pom_1" x="143" y="155" w="113" h="116" pX="0.5" pY="0.5" oX="9" oY="0" oW="132" oH="114" r="y"/>
+	<sprite n="ACE_pom_l_1" x="0" y="89" w="119" h="114" pX="0.5" pY="0.5" oX="6" oY="0" oW="132" oH="114"/>
+	<sprite n="ACE_ponytail_l" x="133" y="273" w="71" h="48" pX="0.604478" pY="0.324176" oX="7" oY="10" oW="67" oH="91" r="y"/>
+	<sprite n="ACE_ponytail_left_base" x="121" y="89" w="26" h="24" pX="0.5" pY="0.5" oX="9" oY="38" oW="44" oH="64" r="y"/>
+	<sprite n="ACE_ponytail_r" x="0" y="272" w="75" h="52" pX="0.477778" pY="0.339506" oX="27" oY="3" oW="90" oH="81" r="y"/>
+	<sprite n="ACE_ponytail_right _base" x="121" y="115" w="25" h="29" pX="0.5" pY="0.5" oX="0" oY="27" oW="72" oH="52" r="y"/>
+	<sprite n="ACE_right_ankle" x="98" y="205" w="42" h="37" pX="0.5" pY="0.5" oX="24" oY="59" oW="66" oH="96"/>
+	<sprite n="ACE_skirt" x="0" y="0" w="148" h="87" pX="0.49435" pY="0.114679" oX="15" oY="11" oW="177" oH="109"/>
+	<sprite n="ACE_top" x="150" y="0" w="105" h="79" pX="0.483871" pY="0.793478" oX="10" oY="8" oW="124" oH="92"/>
+	<sprite n="ACE_top_back" x="121" y="146" w="20" h="13" pX="2.25" pY="4.75" oX="3" oY="0" oW="20" oH="20" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4b8790bd16d07d4a51adf47b733267ff:64931f3b793e0a7d0cdd2adc614f6f1c:f9f97638e7cd4862d87d1913bd5c27e4$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_GKLM_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="GKLM_base_cube_01" x="400" y="210" w="112" h="107" oX="6" oY="3" oW="120" oH="120" r="y"/>
+	<sprite n="GKLM_base_cube_02" x="401" y="0" w="110" h="103" oX="8" oY="6" oW="120" oH="120" r="y"/>
+	<sprite n="GKLM_base_cube_03" x="225" y="319" w="89" h="103" oX="15" oY="8" oW="120" oH="120"/>
+	<sprite n="GKLM_base_cube_04" x="316" y="319" w="89" h="103" oX="16" oY="8" oW="120" oH="120"/>
+	<sprite n="GKLM_base_cube_05" x="401" y="105" w="110" h="103" oX="9" oY="6" oW="120" oH="120" r="y"/>
+	<sprite n="GKLM_eye_01" x="112" y="185" w="18" h="41" oX="0" oY="7" oW="18" oH="48"/>
+	<sprite n="GKLM_eye_02" x="175" y="290" w="38" h="18" oX="0" oY="10" oW="18" oH="48" r="y"/>
+	<sprite n="GKLM_eye_03" x="165" y="426" w="18" h="34" oX="0" oY="13" oW="18" oH="48"/>
+	<sprite n="GKLM_eye_04" x="112" y="228" w="18" h="30" oX="0" oY="16" oW="18" oH="48"/>
+	<sprite n="GKLM_eye_05" x="135" y="290" w="18" h="26" oX="0" oY="19" oW="18" oH="48"/>
+	<sprite n="GKLM_eye_06" x="155" y="290" w="18" h="22" oX="0" oY="22" oW="18" oH="48"/>
+	<sprite n="GKLM_eye_07" x="215" y="290" w="18" h="18" oX="0" oY="25" oW="18" oH="48"/>
+	<sprite n="GKLM_eye_08" x="231" y="260" w="14" h="17" oX="1" oY="28" oW="18" oH="48" r="y"/>
+	<sprite n="GKLM_head" x="0" y="0" w="230" h="183" oX="5" oY="8" oW="240" oH="200"/>
+	<sprite n="GKLM_lowerbody_A" x="135" y="185" w="94" h="103" oX="8" oY="5" oW="120" oH="104" r="y"/>
+	<sprite n="GKLM_lowerbody_B" x="165" y="319" w="58" h="105" oX="3" oY="3" oW="64" oH="112"/>
+	<sprite n="GKLM_shadow" x="232" y="166" w="166" h="92" oX="17" oY="4" oW="200" oH="100"/>
+	<sprite n="GKLM_shoulder_left" x="84" y="319" w="79" h="142" oX="2" oY="5" oW="84" oH="152"/>
+	<sprite n="GKLM_shoulder_left_overlay" x="56" y="185" w="54" h="68" oX="27" oY="15" oW="84" oH="152"/>
+	<sprite n="GKLM_shoulder_right" x="0" y="319" w="82" h="142" oX="0" oY="5" oW="84" oH="152"/>
+	<sprite n="GKLM_shoulder_right_overlay" x="0" y="185" w="54" h="69" oX="3" oY="14" oW="84" oH="152"/>
+	<sprite n="GKLM_small_cube_01" x="223" y="426" w="52" h="54" oX="4" oY="3" oW="60" oH="60"/>
+	<sprite n="GKLM_small_cube_02" x="167" y="462" w="54" h="50" oX="5" oY="2" oW="60" oH="60" r="y"/>
+	<sprite n="GKLM_small_cube_03" x="247" y="260" w="43" h="50" oX="8" oY="5" oW="60" oH="60"/>
+	<sprite n="GKLM_small_cube_04" x="114" y="463" w="51" h="43" oX="8" oY="5" oW="60" oH="60" r="y"/>
+	<sprite n="GKLM_small_cube_05" x="0" y="463" w="53" h="49" oX="5" oY="3" oW="60" oH="60" r="y"/>
+	<sprite n="GKLM_synth_crystal_01" x="0" y="260" w="43" h="57" oX="2" oY="1" oW="48" oH="60"/>
+	<sprite n="GKLM_synth_crystal_02" x="45" y="260" w="43" h="57" oX="2" oY="1" oW="48" oH="60"/>
+	<sprite n="GKLM_synth_crystal_03" x="55" y="463" w="57" h="43" oX="2" oY="1" oW="48" oH="60" r="y"/>
+	<sprite n="GKLM_synth_crystal_04" x="90" y="260" w="43" h="57" oX="2" oY="1" oW="48" oH="60"/>
+	<sprite n="GKLM_torso" x="232" y="0" w="167" h="164" oX="8" oY="6" oW="180" oH="180" r="y"/>
+</TextureAtlas>

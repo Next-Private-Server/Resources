@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d6d5ebff06aff37607ad57e0540b0486:f1fc2771b2a030a8f6a0774fea582e2e:a12ef506f08598c71a711f593477d8c3$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/island02_specific_deco.png" width="512" height="512" hires="true">
+    <sprite n="deco_fence_W2_01" x="364" y="2" w="138" h="169" oX="16" oY="14" oW="200" oH="160" r="y"/>
+    <sprite n="deco_grnd_W2_01" x="2" y="2" w="179" h="95" oX="9" oY="2" oW="200" oH="100"/>
+    <sprite n="deco_grnd_W2_02" x="2" y="336" w="93" h="161" oX="9" oY="5" oW="200" oH="100" r="y"/>
+    <sprite n="deco_grnd_W2_03" x="200" y="99" w="148" h="97" oX="28" oY="1" oW="200" oH="100"/>
+    <sprite n="deco_grnd_W2_04" x="100" y="173" w="98" h="148" oX="25" oY="1" oW="200" oH="100" r="y"/>
+    <sprite n="deco_grnd_W2_05" x="183" y="2" w="179" h="95" oX="9" oY="2" oW="200" oH="100"/>
+    <sprite n="deco_grnd_W2_06" x="2" y="173" w="96" h="161" oX="20" oY="1" oW="200" oH="100" r="y"/>
+    <sprite n="deco_grnd_W2_07" x="2" y="99" w="155" h="60" oX="21" oY="17" oW="200" oH="100"/>
+    <sprite n="deco_grnd_W2_08" x="97" y="336" w="82" h="160" oX="20" oY="6" oW="200" oH="100" r="y"/>    
+</TextureAtlas>

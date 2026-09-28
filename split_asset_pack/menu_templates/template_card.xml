@@ -1,0 +1,57 @@
+<template name="template_card" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<script src="scripts/Card.lua"/>
+
+	<defaultTemplateVar name="$targetLength" equals="40*game.windowScaleY()" />
+	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$spriteName" equals="'gfx/menu/cards/card_01'" />
+	
+	<aeComponent name="Sprite">
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			<![CDATA[
+				component("animation"):SetString("shown_01")
+				component("animationName"):SetString("xml_bin/sticker_reveals.bin")
+				component("layer"):SetString(element:templateVars().layer)
+			]]>
+		</event>
+	</aeComponent>
+
+	<textComponent name="Text">		
+		<position relativeTo="SCREEN" vAnchor="TOP" hAnchor="LEFT" />
+		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			component("multiline"):SetInt(0)
+			component("font"):Set(game.getTitleFont())			
+			component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			--component("text"):SetString("999")
+			component("layer"):SetString(element:templateVars().layer)
+			component("boundMode"):SetInt(lua_sys.MenuTextComponent_TEXT_BOUND_TIGHT)
+		</event>
+	</textComponent>
+	
+	<spriteSheetComponent name="SelectedSprite">
+		<position relativeTo="element" vAnchor="BOTTOM" hAnchor="RIGHT" />
+		<orientation vAnchor="BOTTOM" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("select_checkmark")
+			component("sheetName"):SetString("xml_resources/buttons02.xml")
+			component("size"):SetFloat(0.25*game.windowScaleY())
+			component("visible"):SetInt(0)
+			component("layer"):SetString(element:templateVars().layer)
+		</event>	
+	</spriteSheetComponent>	
+
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</touchComponent>
+
+	<effectComponent name="FX">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="1" />
+	</effectComponent>
+	
+</template>

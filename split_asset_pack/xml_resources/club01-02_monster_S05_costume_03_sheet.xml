@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c8c43b1903a51ace20915b5ffab3eb93:82da80eb5434f1c8acc3b061c74e36e1:a82086172abb82f11a6cc541cadfe371$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-02_monster_S05_costume_03_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="S05_coat" x="146" y="0" w="103" h="121" pX="0.487603" pY="0.509709" r="y"/>
+	<sprite n="S05_left_ankle" x="103" y="114" w="41" h="59" pX="0.35" pY="0.818182" oX="1" oY="46" oW="60" oH="88" r="y"/>
+	<sprite n="S05_left_slipper" x="103" y="175" w="39" h="48" pX="0.459184" pY="0.551282" oX="0" oY="0" oW="49" oH="39" r="y"/>
+	<sprite n="S05_left_slipper_bottom" x="209" y="302" w="28" h="56" pX="0.283333" pY="0.321429" oX="2" oY="0" oW="60" oH="28" r="y"/>
+	<sprite n="S05_neckless" x="146" y="123" w="88" h="77" pX="0.477273" pY="0.1375" oX="0" oY="3" oW="88" oH="80"/>
+	<sprite n="S05_right_ankle" x="144" y="202" w="67" h="52" pX="0.441176" pY="0.840909" oX="1" oY="36" oW="68" oH="88"/>
+	<sprite n="S05_right_slipper" x="88" y="225" w="53" h="35" pX="0.474576" pY="0.542857" oX="3" oY="0" oW="59" oH="35"/>
+	<sprite n="S05_right_slipper_bottom" x="213" y="202" w="34" h="64" pX="0.34375" pY="0.5" oX="0" oY="1" oW="64" oH="36" r="y"/>
+	<sprite n="S05_shades" x="0" y="200" w="86" h="50" pX="0.5" pY="1.05932" oX="1" oY="5" oW="88" oH="59"/>
+	<sprite n="S05_waist" x="0" y="0" w="144" h="112" pX="0.486111" pY="0.317857"/>
+	<sprite n="X_head" x="0" y="114" w="101" h="84" pX="0.452381" pY="0.846154" oX="0" oY="3" oW="84" oH="104" r="y"/>
+	<sprite n="X_pony" x="143" y="256" w="64" h="61" pX="0.326389" pY="0.440789" oX="6" oY="1" oW="72" oH="76"/>
+	<sprite n="X_ponytail_base" x="209" y="268" w="33" h="32" pX="0.166667" pY="0.552632" oX="0" oY="26" oW="72" oH="76" r="y"/>
+</TextureAtlas>

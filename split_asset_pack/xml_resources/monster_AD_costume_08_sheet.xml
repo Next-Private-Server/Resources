@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:312004feda3c211e9ef95a507f08276f:5cc258f2302b5c30ace3ec3b7b674f8b:a616b6035eafa0e4ae2150c756a0ef3e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AD_costume_08_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="AD_body" x="0" y="288" w="150" h="116" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_a" x="414" y="234" w="98" h="70" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_aflat" x="290" y="307" w="40" h="52" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AD_keyboard_b" x="406" y="431" w="106" h="64" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_bflat" x="290" y="361" w="36" h="60" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AD_keyboard_c1" x="116" y="467" w="108" h="54" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_c2" x="0" y="519" w="108" h="54" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_d" x="110" y="523" w="106" h="64" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_dflat" x="218" y="525" w="68" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_e" x="0" y="575" w="98" h="70" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_eflat" x="226" y="488" w="60" h="35" pX="0.5" pY="0.5" oX="0" oY="0" oW="60" oH="36"/>
+	<sprite n="AD_keyboard_f" x="424" y="160" w="78" h="72" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_g" x="334" y="214" w="78" h="72" pX="0.5" pY="0.5"/>
+	<sprite n="AD_keyboard_gflat" x="380" y="563" w="48" h="44" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_eyeback" x="348" y="556" w="30" h="30" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_eyelid_1" x="430" y="563" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_eyelid_2" x="466" y="571" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_eyelid_3" x="430" y="599" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_eyelid_4" x="466" y="607" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_head" x="180" y="214" w="152" h="91" pX="0.717105" pY="0.695652" oX="0" oY="0" oW="152" oH="92"/>
+	<sprite n="AD_left_neck_1" x="152" y="361" w="136" h="51" pX="0.5" pY="0.5" oX="0" oY="0" oW="64" oH="136" r="y"/>
+	<sprite n="AD_left_neck_2" x="127" y="414" w="125" h="51" pX="0.5" pY="0.5" oX="0" oY="11" oW="64" oH="136" r="y"/>
+	<sprite n="AD_left_neck_3" x="0" y="460" w="114" h="57" pX="0.5" pY="0.5" oX="0" oY="22" oW="64" oH="136" r="y"/>
+	<sprite n="AD_left_neck_4" x="408" y="369" w="102" h="60" pX="0.5" pY="0.5" oX="0" oY="34" oW="64" oH="136" r="y"/>
+	<sprite n="AD_left_neck_5" x="288" y="490" w="92" h="64" pX="0.5" pY="0.5" oX="0" oY="44" oW="64" oH="136" r="y"/>
+	<sprite n="AD_left_neckruff" x="288" y="556" w="58" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="AD_left_wing" x="254" y="414" w="34" h="72" pX="0.5" pY="0.5"/>
+	<sprite n="AD_poolbase" x="0" y="0" w="422" h="212" pX="0.5" pY="0.5"/>
+	<sprite n="AD_pupil" x="152" y="288" w="16" h="16" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_eyeback" x="348" y="588" w="30" h="30" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_eyelid_1" x="380" y="609" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_eyelid_2" x="416" y="635" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_eyelid_3" x="452" y="643" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_eyelid_4" x="278" y="614" w="34" h="34" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_head" x="0" y="214" w="178" h="72" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_neck_1" x="152" y="307" w="136" h="52" pX="0.5" pY="0.5" oX="12" oY="0" oW="64" oH="136" r="y"/>
+	<sprite n="AD_right_neck_2" x="0" y="406" w="125" h="52" pX="0.5" pY="0.5" oX="12" oY="11" oW="64" oH="136" r="y"/>
+	<sprite n="AD_right_neck_3" x="290" y="430" w="114" h="58" pX="0.5" pY="0.5" oX="6" oY="22" oW="64" oH="136" r="y"/>
+	<sprite n="AD_right_neck_4" x="408" y="306" w="102" h="61" pX="0.5" pY="0.5" oX="3" oY="34" oW="64" oH="136" r="y"/>
+	<sprite n="AD_right_neck_5" x="382" y="497" w="92" h="64" pX="0.5" pY="0.5" oX="0" oY="44" oW="64" oH="136" r="y"/>
+	<sprite n="AD_right_neckruff" x="218" y="561" w="58" h="56" pX="0.5" pY="0.5"/>
+	<sprite n="AD_right_wing" x="476" y="497" w="34" h="72" pX="0.5" pY="0.5"/>
+	<sprite n="AD_ripple" x="424" y="0" w="80" h="158" pX="0.5" pY="0.5" oX="0" oY="0" oW="160" oH="80" r="y"/>
+	<sprite n="AD_tail" x="334" y="288" w="72" h="140" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

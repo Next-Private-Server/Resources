@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<template type="template_how_it_works" name="HowItWorks">
+		<templateVar name="$layer" equals="FrontPopUps" />
+		<templateVar name="$titleText" equals="HOW_IT_WORKS_TITLE" />
+	</template>
+
+	<event name="onPostInit" params="element">
+
+		local minigameContext = game.minigameContext()
+		if minigameContext then
+
+			local howItWorksEle = element:E("HowItWorks")
+
+			if minigameContext:minigameId() == game.MinigameId_DIPSTER_DIG then
+				howItWorksEle:SetLeftInfo("xml_bin/mini_game_dip_info.bin", "mini_game_dip_info_01", "DIPSTER_DIG_HOW_IT_WORKS_1")
+				howItWorksEle:SetCenterInfo("xml_bin/mini_game_dip_info.bin", "mini_game_dip_info_02", "DIPSTER_DIG_HOW_IT_WORKS_2")
+				howItWorksEle:SetRightInfo("xml_bin/mini_game_dip_info.bin", "mini_game_dip_info_03", "DIPSTER_DIG_HOW_IT_WORKS_3")
+
+			else
+				print("minigame_how_it_works: UNSUPPORTED MINIGAME", minigameContext:minigameId())
+
+			end
+
+		end
+
+	</event>
+
+</menu>

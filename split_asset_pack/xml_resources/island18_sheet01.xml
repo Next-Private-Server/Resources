@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:577eed088ac2c9d19294d5e5b8922a77:4f98689833b9791def4e9e19583bbe2d:02bdd32406c5e0b997174fbc358c1f4e$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island18_sheet01.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="eye_ring" x="4" y="4" w="1033" h="815"/>
+	<sprite n="island18_aurora" x="1592" y="1100" w="123" h="515" oX="8" oY="68" oW="140" oH="601"/>
+	<sprite n="island18_aurora_sparkle" x="1620" y="672" w="244" h="232" oX="41" oY="43" oW="308" oH="308"/>
+	<sprite n="island18_centre" x="1000" y="1100" w="588" h="365"/>
+	<sprite n="island18_centre_glow" x="433" y="1493" w="291" h="498" oX="7" oY="0" oW="505" oH="319" r="y"/>
+	<sprite n="island18_cheek" x="1041" y="4" w="575" h="1092"/>
+	<sprite n="island18_dark_glow" x="4" y="1690" w="371" h="262" oX="0" oY="6" oW="264" oH="381" r="y"/>
+	<sprite n="island18_ear" x="4" y="823" w="425" h="863"/>
+	<sprite n="island18_eye_glow" x="756" y="1421" w="215" h="539" oX="16" oY="24" oW="584" oH="241" r="y"/>
+	<sprite n="island18_firefly" x="101" y="1956" w="74" h="74"/>
+	<sprite n="island18_firefly_glow" x="1620" y="908" w="187" h="181" oX="2" oY="8" oW="192" oH="192"/>
+	<sprite n="island18_light_glow" x="1620" y="4" w="246" h="358" oX="1" oY="7" oW="264" oH="381"/>
+	<sprite n="island18_node_01" x="1719" y="1093" w="205" h="273"/>
+	<sprite n="island18_node_02" x="1719" y="1370" w="223" h="216"/>
+	<sprite n="island18_node_03" x="1724" y="1848" w="269" h="143" r="y"/>
+	<sprite n="island18_node_04" x="1351" y="1829" w="89" h="161"/>
+	<sprite n="island18_node_05" x="1870" y="4" w="92" h="203"/>
+	<sprite n="island18_nose" x="433" y="823" w="319" h="666"/>
+	<sprite n="island18_nose_glow" x="756" y="823" w="240" h="594" oX="9" oY="26" oW="267" oH="649"/>
+	<sprite n="island18_side_glow" x="1843" y="366" w="144" h="230" oX="8" oY="5" oW="261" oH="164" r="y"/>
+	<sprite n="island18_side_platform" x="975" y="1469" w="465" h="356" oX="1" oY="0" oW="473" oH="366"/>
+	<sprite n="island18_tall_nodes" x="1444" y="1619" w="445" h="225" oX="0" oY="0" oW="226" oH="445" r="y"/>
+	<sprite n="TS_node_28" x="4" y="1956" w="93" h="62" oX="2" oY="2" oW="64" oH="96" r="y"/>
+	<sprite n="TS_node_lrg_01" x="975" y="1829" w="372" h="151" oX="6" oY="2" oW="163" oH="376" r="y"/>
+	<sprite n="TS_node_lrg_02" x="1620" y="366" w="219" h="302" oX="12" oY="3" oW="240" oH="308"/>
+	<sprite n="TS_node_lrg_04" x="1444" y="1848" w="276" h="144" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5dc110aac6234c3b12066abfba3df90e:d935f0cbb4c6b9f35c9dcfa4d4b63047:1eb80b54abc4f45ee7ec935f4b48db0b$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BNW_costume_04_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="BNW_body" x="245" y="181" w="79" h="175" pX="0.44936708860759494" pY="0.7828571428571428"/>
+	<sprite n="BNW_bow" x="329" y="85" w="39" h="67" pX="0.5547945205479452" pY="0.524390243902439" oX="3" oY="1" oW="73" oH="41" r="y"/>
+	<sprite n="BNW_collar" x="0" y="85" w="69" h="87" pX="0.5" pY="1.0113636363636365" oX="2" oY="0" oW="73" oH="88"/>
+	<sprite n="BNW_dress_back_01" x="86" y="297" w="150" h="59" pX="0.4567901234567901" pY="0.6311475409836066" oX="2" oY="0" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_02" x="87" y="172" w="156" h="57" pX="0.4567901234567901" pY="0.6311475409836066" oX="0" oY="2" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_03" x="326" y="292" w="162" h="54" pX="0.4567901234567901" pY="0.6311475409836066" oX="0" oY="7" oW="162" oH="61"/>
+	<sprite n="BNW_dress_back_04" x="86" y="358" w="53" h="152" pX="0.4567901234567901" pY="0.6311475409836066" oX="3" oY="0" oW="162" oH="61" r="y"/>
+	<sprite n="BNW_dress_back_05" x="141" y="358" w="45" h="152" pX="0.4567901234567901" pY="0.6311475409836066" oX="3" oY="0" oW="162" oH="61" r="y"/>
+	<sprite n="BNW_dress_front_01" x="71" y="85" w="173" h="85" pX="0.510752688172043" pY="0.5" oX="5" oY="3" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_02" x="188" y="0" w="180" h="83" pX="0.510752688172043" pY="0.5" oX="2" oY="9" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_03" x="0" y="0" w="186" h="83" pX="0.510752688172043" pY="0.5" oX="0" oY="11" oW="186" oH="94"/>
+	<sprite n="BNW_dress_front_04" x="0" y="208" w="84" h="178" pX="0.510752688172043" pY="0.5" oX="3" oY="1" oW="186" oH="94" r="y"/>
+	<sprite n="BNW_dress_front_05" x="326" y="212" w="176" h="78" pX="0.510752688172043" pY="0.5" oX="4" oY="0" oW="186" oH="94"/>
+	<sprite n="BNW_finger" x="492" y="0" w="17" h="24" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BNW_foot_left" x="0" y="388" w="64" h="46" pX="0.4891304347826087" pY="0.9609375" r="y"/>
+	<sprite n="BNW_foot_right" x="0" y="436" w="46" h="64" pX="0.4891304347826087" pY="0.953125"/>
+	<sprite n="BNW_hair" x="370" y="0" w="120" h="82" pX="0.4090909090909091" pY="0.45454545454545453" oX="6" oY="3" oW="132" oH="88"/>
+	<sprite n="BNW_hat" x="370" y="84" w="107" h="89" pX="0.375" pY="0.8392857142857143" oX="4" oY="2" oW="96" oH="112" r="y"/>
+	<sprite n="BNW_lowerarm_left" x="86" y="231" w="54" h="64" pX="0.9140625" pY="0.48214285714285715" oX="0" oY="1" oW="64" oH="56" r="y"/>
+	<sprite n="BNW_lowerarm_right" x="188" y="231" w="55" h="64" pX="0.1015625" pY="0.46071428571428574" oX="0" oY="0" oW="64" oH="56" r="y"/>
+	<sprite n="BNW_lowerleg_left" x="246" y="85" w="81" h="46" pX="0.4434782608695652" pY="0.054320987654320994" r="y"/>
+	<sprite n="BNW_lowerleg_right" x="246" y="133" w="81" h="46" pX="0.45" pY="0.05185185185185186" r="y"/>
+	<sprite n="BNW_mouth_underarm" x="479" y="84" w="32" h="59" pX="0.4126984126984127" pY="0.5512820512820513" oX="2" oY="2" oW="63" oH="39" r="y"/>
+	<sprite n="BNW_thumb" x="63" y="175" w="22" h="23" pX="0.18181818181818182" pY="0.21739130434782608"/>
+	<sprite n="BNW_upperarm_left" x="329" y="154" w="22" h="56" pX="0.875" pY="0.3227272727272727" r="y"/>
+	<sprite n="BNW_upperarm_right" x="142" y="231" w="22" h="56" pX="0.09642857142857143" pY="0.36363636363636365" r="y"/>
+	<sprite n="BNW_upperleg_left" x="479" y="145" w="23" h="61" pX="0.45217391304347826" pY="0.8754098360655738"/>
+	<sprite n="BNW_upperleg_right" x="0" y="175" w="61" h="23" pX="0.45652173913043476" pY="0.8934426229508197" r="y"/>
+</TextureAtlas>

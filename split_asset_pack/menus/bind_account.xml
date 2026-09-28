@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+
+	<event name="onInit" params="element">
+		element("exitToEmail"):SetInt(0)
+		element("exitToApple"):SetInt(0)
+		element("exitToAmazon"):SetInt(0)
+		element("exitToGoogle"):SetInt(0)
+	</event>
+	
+	<event name="onPostInit" params="element">
+		element("transitionTime"):SetFloat(0.0)
+		element("transitionState"):SetInt(1)
+	</event>
+	
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+			
+			local transitionState = element("transitionState"):GetInt()
+			
+			if(transitionState ~= 0) then
+				local transitionTime = element("transitionTime"):GetFloat()
+				
+				element:DoStoredScript("TickTransition")
+				
+				if(transitionState == 1) then
+					transitionTime = (transitionTime + dt*3)
+				elseif(transitionState == 2) then
+					transitionTime = (transitionTime - dt*3)
+				end
+				
+				transitionTime = clamp(transitionTime, 0.0, 1.0)
+				element("transitionTime"):SetFloat(transitionTime)
+				
+				if(transitionTime >= 1.0) then
+					element("transitionState"):SetInt(0)
+					element("transitionTime"):SetFloat(1.0)
+					element:DoStoredScript("TickTransition")
+				elseif(transitionTime <= 0.0) then
+				
+					element:root():popPopUp()
+					
+					if(element("exitToEmail"):GetInt() == 1) then
+						manager:setContext("BIND_EMAIL")
+					elseif(element("exitToApple"):GetInt() == 1) then
+						manager:setContext("BIND_APPLE")
+					elseif(element("exitToAmazon"):GetInt() == 1) then
+						manager:setContext("BIND_AMAZON")
+					elseif(element("exitToGoogle"):GetInt() == 1) then
+						manager:setContext("BIND_GOOGLE")
+					end
+
+				end
+			end
+
+		]]>
+	</event>
+	
+	<event name="TickTransition" params="element">
+		local transitionTime = element("transitionTime"):GetFloat()
+		local frame = element:GetElement("Frame")
+		frame("xOffset"):SetFloat(lua_sys.screenWidth()*(0.5) + (-0.5)*lua_sys.screenWidth()*(1/transitionTime))
+		element["Fade"]["Sprite"]("alpha"):SetFloat(transitionTime*0.5)
+		game.setClipping("Clipping", (frame:absX() + 10)*lua_sys.deviceScaleX(), (frame:absY() + 50*game.hudScale())*lua_sys.deviceScaleY(), (frame:absW() - 20)*lua_sys.deviceScaleX(), (frame:absH() - 50*game.hudScale() - 10)*lua_sys.deviceScaleY())
+	</event>
+	
+	<event name="queuePop" params="element">
+		element("transitionState"):SetInt(2)
+	</event>
+	
+	<template type="template_fade" name="Fade">
+		<templateVar name="$layer" equals="MidPopUps" />
+		<templateVar name="$priority" equals="7" />
+		<templateVar name="$r" equals="0.03" />
+		<templateVar name="$g" equals="0.11" />
+		<templateVar name="$b" equals="0.10" />
+	</template>
+	
+	<element name="Frame">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-lua_sys.screenWidth()" yOffset="0" priorityOffset="6" />
+		<ninesliceComponent name="Sprite">
+			<size w="340*game.hudScale()" h="245*game.hudScale()" />
+			<event name="onInit" params="component, element">
+				component("topHeight"):SetFloat(50.0)
+				component("bottomHeight"):SetFloat(50.0)
+				component("leftWidth"):SetFloat(50.0)
+				component("rightWidth"):SetFloat(50.0)
+				component("includeBorder"):SetInt(1)
+				component("size"):SetFloat(0.5)
+				component("spriteName"):SetString("gfx/menu/Black9SFrame50")
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</ninesliceComponent>
+		<spriteSheetComponent name="Flourish1">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="7" yOffset="7" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_swirl_01")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+		<spriteSheetComponent name="Flourish2">
+			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
+			<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="7" yOffset="10" priorityOffset="-2" />
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("menu_swirl_02")
+				component("sheetName"):SetString("xml_resources/hud01.xml")
+				component("size"):SetFloat(0.5*game.hudScale())
+				component("rotation"):SetFloat(-0.5*math.pi)
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteSheetComponent>
+	</element>
+	
+	<element name="Logo">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="Frame" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-25*game.hudScale()" priorityOffset="-1" />
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				component("spriteName"):SetString("gfx/menu/msm_logo")
+				component("size"):SetFloat(0.3*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</spriteComponent>
+	</element>
+
+	
+	<element name="Description">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Logo" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.hudScale()" priorityOffset="-2" />
+		<textComponent name="Text">
+			<size w="300*game.hudScale()"  h="100*game.hudScale()"/>
+			<position relativeTo="element" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">			
+				component("autoScale"):SetInt(1)
+				component("font"):Set(game.getTextFont())
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				if game.canBind() then
+					component("text"):SetString("BIND_DESCRIPTION")
+				else
+					component("text"):SetString("ALL_TYPES_BOUND_DESCRIPTION")
+				end
+				component("size"):SetFloat(0.3*game.hudScale())
+				component("layer"):SetString("MidPopUps")
+			</event>
+		</textComponent>
+	</element>
+
+	<element name="Buttons">
+		<position relativeTo="Frame" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="50*game.hudScale()" priorityOffset="-1" />
+
+		<template type="template_login_button" name="AppleButton">
+			<templateVar name="$spritePath" equals="'apple/appleid_button_'" />
+			<position relativeTo="element:parent()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<touchComponent name="Touch">
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					if element.isBound then
+						game.displayNotification("ACCOUNT_ALREADY_BOUND_TO_TYPE")
+					else
+						element:parent():parent()("exitToApple"):SetInt(1)
+						element:parent():parent()("exitToEmail"):SetInt(0)
+						element:parent():parent()("exitToGoogle"):SetInt(0)
+						element:parent():parent()("exitToAmazon"):SetInt(0)
+						element:parent():parent():DoStoredScript("queuePop")
+					end
+				</event>
+			</touchComponent>
+			<event name="onPostInit" params="element">
+				if ( game.canBindToLoginType(game.UserData_TYPE_APPLE) == false or not game.appleIdAvailable() ) then
+					element:DoStoredScript("setInvisible")
+				end
+				if game.isBoundToLoginType(game.UserData_TYPE_APPLE) then
+					element:DoStoredScript("showIsBound")
+				end
+			</event>
+		</template>
+
+		<template type="template_login_button" name="GoogleButton">
+			<templateVar name="$spritePath" equals="'google/google_button_'" />
+			<position relativeTo="element:parent()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<touchComponent name="Touch">
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					if element.isBound then
+						game.displayNotification("ACCOUNT_ALREADY_BOUND_TO_TYPE")
+					else
+						element:parent():parent()("exitToGoogle"):SetInt(1)
+						element:parent():parent()("exitToAmazon"):SetInt(0)
+						element:parent():parent()("exitToApple"):SetInt(0)
+						element:parent():parent()("exitToEmail"):SetInt(0)
+						element:parent():parent():DoStoredScript("queuePop")
+					end
+				</event>
+			</touchComponent>
+			<event name="onPostInit" params="element">
+				if game.canBindToLoginType(game.UserData_TYPE_GOOGLE) == false or not game.googleSignInAvailable() then
+					element:DoStoredScript("setInvisible")
+				end
+				if game.isBoundToLoginType(game.UserData_TYPE_GOOGLE) then
+					element:DoStoredScript("showIsBound")
+				end
+			</event>
+		</template>
+
+		<template type="template_login_button" name="AmazonButton">
+			<templateVar name="$spritePath" equals="'amazon/amazon_button_'" />
+			<position relativeTo="element:parent()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<touchComponent name="Touch">
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					if element.isBound then
+						game.displayNotification("ACCOUNT_ALREADY_BOUND_TO_TYPE")
+					else
+						element:parent():parent()("exitToAmazon"):SetInt(1)
+						element:parent():parent()("exitToGoogle"):SetInt(0)
+						element:parent():parent()("exitToApple"):SetInt(0)
+						element:parent():parent()("exitToEmail"):SetInt(0)
+						element:parent():parent():DoStoredScript("queuePop")
+					end
+				</event>
+			</touchComponent>
+			<event name="onPostInit" params="element">
+				if game.canBindToLoginType(game.UserData_TYPE_AMAZON) == false or not game.loginWithAmazonAvailable() then
+					element:DoStoredScript("setInvisible")
+				end
+				if game.isBoundToLoginType(game.UserData_TYPE_AMAZON) then
+					element:DoStoredScript("showIsBound")
+				end
+			</event>
+		</template>
+
+		<template type="template_login_button" name="EmailButton">
+			<templateVar name="$spritePath" equals="'email/email_button_'" />
+			<position relativeTo="element:parent()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<touchComponent name="Touch">
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					if element.isBound then
+						game.displayNotification("ACCOUNT_ALREADY_BOUND_TO_TYPE")
+					else
+						element:parent():parent()("exitToEmail"):SetInt(1)
+						element:parent():parent()("exitToApple"):SetInt(0)
+						element:parent():parent()("exitToGoogle"):SetInt(0)
+						element:parent():parent()("exitToAmazon"):SetInt(0)
+						element:parent():parent():DoStoredScript("queuePop")
+					end
+				</event>
+			</touchComponent>
+			<event name="onPostInit" params="element">
+				if game.canBindToLoginType(game.UserData_TYPE_EMAIL) == false then
+					element:DoStoredScript("setInvisible")
+				end
+				if game.isBoundToLoginType(game.UserData_TYPE_EMAIL) then
+					element:DoStoredScript("showIsBound")
+				end
+			</event>
+		</template>
+
+		<template type="template_login_button" name="GameCenterButton">
+			<templateVar name="$spritePath" equals="'gamecenter/gamecenter_button_'" />
+			<position relativeTo="element:parent()" vAnchor="TOP" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<touchComponent name="Touch">
+				<event name="onTouchUp" params="component, element">
+					onTouchUp(component, element)
+					game.displayNotification("ACCOUNT_ALREADY_BOUND_TO_TYPE")
+				</event>
+			</touchComponent>
+			<event name="onPostInit" params="element">
+				if game.isBoundToLoginType(game.UserData_TYPE_GAME_CENTER) then
+					element:DoStoredScript("showIsBound")
+				else
+					element:DoStoredScript("setInvisible")
+				end
+			</event>
+		</template>
+
+
+	</element>
+
+	<!-- Dummy node that runs after all the onPostInits of the Buttons hierarchy -->
+	<element name="ButtonLayoutHelper">
+		<event name="onPostInit" params="element">
+			<![CDATA[ 
+				element:Refresh()
+			]]>
+		</event>
+		<event name="Refresh" params="element">
+			<![CDATA[ 
+				local MenuHelpers = include("MenuHelpers")
+				local spacer = MenuHelpers.CreateSpacer(0, 4*game.hudScale())
+				local numItems = 0
+
+				local items = {}
+				local function insertIfVisible(item)
+					if item.isVisible then
+
+						if numItems > 0 then
+							table.insert(items, spacer)	
+						end
+
+						table.insert(items, item)
+						numItems = numItems + 1
+					end
+				end
+
+				insertIfVisible(element:parent().Buttons.AppleButton)
+				insertIfVisible(element:parent().Buttons.AmazonButton)
+				insertIfVisible(element:parent().Buttons.GoogleButton)
+				insertIfVisible(element:parent().Buttons.EmailButton)
+				insertIfVisible(element:parent().Buttons.GameCenterButton)
+
+
+				MenuHelpers.CenterVertically(items)
+			]]>
+		</event>
+	</element>
+
+</menu>

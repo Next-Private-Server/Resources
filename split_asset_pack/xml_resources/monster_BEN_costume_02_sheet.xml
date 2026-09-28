@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:bbf7f97bff224ab71db7d5340cc05383:fd84380f2db76ecbac6e39b802b029d7:88a74317a013f8ecef2217b294e3a45e$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BEN_costume_02_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BEN_body" x="0" y="0" w="161" h="123" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="BEN_hairbun_l" x="190" y="351" w="60" h="46" pX="0.45384615384615384" pY="0.9696969696969697" oX="3" oY="3" oW="65" oH="66"/>
+	<sprite n="BEN_hairbun_r" x="193" y="262" w="62" h="46" pX="0.5" pY="0.9545454545454546" oX="2" oY="3" oW="66" oH="66"/>
+	<sprite n="BEN_hairwrap" x="0" y="243" w="118" h="269" pX="0.44372881355932203" pY="0.3357142857142857" oX="13" oY="4" oW="295" oH="126" r="y"/>
+	<sprite n="BEN_left_upperarm" x="120" y="330" w="68" h="35" pX="0.734694" pY="0.547619" oX="14" oY="15" oW="98" oH="63"/>
+	<sprite n="BEN_legging_l" x="163" y="0" w="92" h="91" pX="0.39090909090909093" pY="0.6834862385321101" oX="9" oY="9" oW="110" oH="109"/>
+	<sprite n="BEN_legging_r" x="142" y="162" w="107" h="98" pX="0.42105263157894735" pY="0.6178861788617886" oX="8" oY="8" oW="114" oH="123" r="y"/>
+	<sprite n="BEN_right_upperarm" x="120" y="367" w="68" h="35" pX="0.214286" pY="0.5" oX="16" oY="15" oW="98" oH="63"/>
+	<sprite n="BEN_sleeve_l" x="120" y="262" w="71" h="66" pX="0.8376623376623377" pY="0.5138888888888888" oX="3" oY="3" oW="77" oH="72"/>
+	<sprite n="BEN_sleeve_r" x="163" y="93" w="74" h="67" pX="0.1744186046511628" pY="0.5632911392405063" oX="6" oY="6" oW="86" oH="79"/>
+	<sprite n="BEN_toe_l" x="190" y="399" w="60" h="39" pX="0.8888888888888888" pY="0.18888888888888888" oX="6" oY="3" oW="72" oH="45"/>
+	<sprite n="BEN_toe_r" x="193" y="310" w="62" h="39" pX="0.6351351351351351" pY="0.15853658536585366" oX="5" oY="1" oW="74" oH="41"/>
+	<sprite n="BEN_wig" x="0" y="125" w="140" h="116" pX="0.48125" pY="0.9545454545454546" oX="10" oY="8" oW="160" oH="132"/>
+</TextureAtlas>

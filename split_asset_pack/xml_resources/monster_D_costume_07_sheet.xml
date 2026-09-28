@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:eb27325d47630cb045a3a2107b1f8677:81dead15fa7127c7e8ddd78d77f8643e:8ea128fd201bd92573bc7bd2ffdf5167$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_D_costume_07_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="D_body1" x="0" y="0" w="334" h="302" pX="0.3625" pY="0.8666666666666667" oX="9" oY="13" oW="320" oH="360" r="y" />
+  <sprite n="D_body2" x="0" y="304" w="334" h="302" pX="0.3625" pY="0.8666666666666667" oX="9" oY="13" oW="320" oH="360" r="y" />
+  <sprite n="D_body3" x="0" y="608" w="302" h="334" pX="0.3625" pY="0.8666666666666667" oX="9" oY="13" oW="320" oH="360" />
+  <sprite n="D_snowback" x="336" y="0" w="139" h="190" pX="0.455" pY="1.1285714285714286" oX="5" oY="0" oW="200" oH="140" r="y" />
+  <sprite n="D_thumb2" x="408" y="302" w="56" h="46" pX="0.5" pY="0.5" />
+  <sprite n="D_thumb3" x="336" y="250" w="70" h="64" pX="0.5" pY="0.5" r="y" />
+  <sprite n="D_thumb4" x="336" y="192" w="74" h="56" pX="0.5" pY="0.5" r="y" />
+  <sprite n="D_thumb5" x="412" y="192" w="72" h="60" pX="0.5" pY="0.5" />
+  <sprite n="D_thumb6" x="408" y="254" w="60" h="46" pX="0.5" pY="0.5" />
+  <sprite n="D_thumb7" x="470" y="254" w="36" h="46" pX="0.5" pY="0.5" r="y" />
+</TextureAtlas>

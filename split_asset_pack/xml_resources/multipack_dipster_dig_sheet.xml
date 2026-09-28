@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:06e5778dc568f48d371bd46c1475c12c:bd76103e6e23867639a66ff6d19fb267:f67d6dfe966f72680e8426bf41569f94$ -->
+<TextureAtlas imagePath="gfx/menu/event_screen/stickers/multipack_dipster_dig_sheet.png" width="512" height="512" hires="false" version="1">
+	<sprite n="left_corner" x="0" y="0" w="285" h="143" oX="21" oY="17" oW="355" oH="249"/>
+	<sprite n="lower_right_corner" x="0" y="271" w="108" h="153" oX="143" oY="129" oW="296" oH="438" r="y"/>
+	<sprite n="right_corner" x="287" y="0" w="159" h="269" oX="62" oY="17" oW="355" oH="249" r="y"/>
+</TextureAtlas>

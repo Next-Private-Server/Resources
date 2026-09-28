@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8e751452722bdd7205cb575e43e3b0de:33942549dd28f243cbedf09d0c2319e8:3d5eafc0266c1958abdc4a57163f8365$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CDE_costume_07_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="C_body" x="0" y="0" w="201" h="271" pX="0.5931372549019608" pY="0.7316176470588235" oX="1" oY="0" oW="204" oH="272"/>
+	<sprite n="C_foot_left" x="0" y="273" w="81" h="142" pX="0.4295774647887324" pY="0.5975609756097561" oX="0" oY="0" oW="142" oH="82" r="y"/>
+	<sprite n="C_foot_right" x="83" y="273" w="81" h="142" pX="0.4295774647887324" pY="0.5975609756097561" oX="0" oY="0" oW="142" oH="82" r="y"/>
+	<sprite n="C_shadow" x="166" y="273" w="58" h="140" pX="0.5" pY="0.5" oX="0" oY="0" oW="140" oH="66" r="y"/>
+	<sprite n="C_shoulder_left" x="109" y="417" w="98" h="95" pX="0.77" pY="0.57" oX="2" oY="1" oW="100" oH="100" r="y"/>
+	<sprite n="C_shoulder_right" x="0" y="417" w="107" h="95" pX="0.35" pY="0.5833333333333334" oX="2" oY="0" oW="100" oH="108" r="y"/>
+</TextureAtlas>

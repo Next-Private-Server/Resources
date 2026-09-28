@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:661a3a94218148018dd4b2f337a2a4c3:acfc880afa49021ef7015b7604012f50:cea05bc1aa5726d0909e130d673d20dd$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACE_EPIC_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="ACE_body" x="0" y="150" w="158" h="127" pX="0.53125" pY="0.65" oX="0" oY="1" oW="128" oH="160" r="y"/>
+	<sprite n="ACE_hat_back" x="0" y="0" w="177" h="148" pX="0.342105" pY="1.24444" oX="2" oY="1" oW="152" oH="180" r="y"/>
+	<sprite n="ACE_hat_front" x="179" y="0" w="71" h="26" pX="0.388889" pY="2.60714" oX="0" oY="1" oW="72" oH="28"/>
+	<sprite n="ACE_right_lowerleg" x="160" y="150" w="84" h="100" pX="0.416667" pY="0.9"/>
+</TextureAtlas>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6296b93895a9992b10da6a9c6ce00509:eb4c6f3376586f2d3455f38037e8a1d4:aa17184422a5a73c34293af3a5c5e0f5$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-03_prop_lowerstage_mech_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="handshadow_l" x="237" y="563" w="103" h="116" r="y"/>
+	<sprite n="handshadow_r" x="852" y="388" w="140" h="93" oX="0" oY="2" oW="144" oH="95"/>
+	<sprite n="lefthand_cover_l" x="703" y="0" w="302" h="277" oX="24" oY="26" oW="340" oH="318"/>
+	<sprite n="lefthand_energy" x="122" y="336" w="110" h="129" oX="43" oY="49" oW="205" oH="201" r="y"/>
+	<sprite n="lefthand_glow" x="616" y="441" w="80" h="90" oX="8" oY="7" oW="106" oH="95" r="y"/>
+	<sprite n="lefthand_middle_a" x="702" y="279" w="148" h="122" oX="9" oY="10" oW="165" oH="141"/>
+	<sprite n="lefthand_middle_b" x="0" y="686" w="116" h="133" oX="12" oY="10" oW="157" oH="136" r="y"/>
+	<sprite n="lefthand_middle_c" x="699" y="403" w="139" h="124" oX="13" oY="14" oW="150" oH="167" r="y"/>
+	<sprite n="lefthand_Palm_l" x="360" y="219" w="254" h="242" r="y"/>
+	<sprite n="lefthand_pinky_a" x="202" y="938" w="114" h="86" oX="10" oY="10" oW="105" oH="124" r="y"/>
+	<sprite n="lefthand_pinky_b" x="577" y="533" w="98" h="94" oX="11" oY="11" oW="116" oH="120" r="y"/>
+	<sprite n="lefthand_pinky_c" x="0" y="463" w="105" h="67" oX="0" oY="0" oW="108" oH="67"/>
+	<sprite n="lefthand_pointer_a" x="840" y="483" w="139" h="107" oX="12" oY="9" oW="163" oH="125"/>
+	<sprite n="lefthand_pointer_b" x="202" y="814" w="115" h="122" oX="12" oY="12" oW="146" oH="139" r="y"/>
+	<sprite n="lefthand_pointer_c" x="96" y="821" w="104" h="127" oX="11" oY="13" oW="126" oH="153"/>
+	<sprite n="lefthand_ring_a" x="234" y="349" w="123" h="105" oX="8" oY="10" oW="124" oH="143" r="y"/>
+	<sprite n="lefthand_ring_b" x="0" y="349" w="120" h="112" oX="11" oY="12" oW="134" oH="144" r="y"/>
+	<sprite n="lefthand_ring_c" x="0" y="821" w="94" h="129" oX="16" oY="12" oW="161" oH="118" r="y"/>
+	<sprite n="lefthand_thumb_a" x="102" y="533" w="133" h="90" oX="17" oY="11" oW="167" oH="112"/>
+	<sprite n="lefthand_thumb_b" x="219" y="686" w="98" h="122" oX="13" oY="16" oW="124" oH="154"/>
+	<sprite n="righthand_cover_r" x="360" y="0" w="341" h="217" oX="14" oY="22" oW="369" oH="248"/>
+	<sprite n="righthand_energy" x="698" y="529" w="135" h="95" oX="37" oY="49" oW="208" oH="189"/>
+	<sprite n="righthand_glow" x="0" y="626" w="105" h="53" oX="11" oY="6" oW="126" oH="72"/>
+	<sprite n="righthand_middle_a" x="852" y="279" w="142" h="107" oX="11" oY="8" oW="164" oH="123"/>
+	<sprite n="righthand_middle_b" x="237" y="456" w="118" h="105" oX="9" oY="10" oW="123" oH="138" r="y"/>
+	<sprite n="righthand_middle_c" x="616" y="219" w="84" h="130" oX="8" oY="14" oW="100" oH="158"/>
+	<sprite n="righthand_palm_r" x="0" y="0" w="358" h="236" oX="14" oY="9" oW="386" oH="254"/>
+	<sprite n="righthand_pinky_a" x="469" y="463" w="106" h="103" oX="4" oY="5" oW="113" oH="112"/>
+	<sprite n="righthand_pinky_b" x="122" y="238" w="113" h="96" oX="10" oY="9" oW="133" oH="114"/>
+	<sprite n="righthand_pinky_c" x="616" y="351" w="81" h="88" oX="10" oY="9" oW="108" oH="99" r="y"/>
+	<sprite n="righthand_pointer_a" x="237" y="238" w="121" h="109" oX="10" oY="11" oW="129" oH="143" r="y"/>
+	<sprite n="righthand_pointer_b" x="118" y="686" w="99" h="126" oX="7" oY="10" oW="113" oH="146"/>
+	<sprite n="righthand_pointer_c" x="835" y="592" w="135" h="92" oX="7" oY="10" oW="106" oH="155" r="y"/>
+	<sprite n="righthand_ring_a" x="357" y="463" w="110" h="110" oX="12" oY="12" oW="134" oH="122"/>
+	<sprite n="righthand_ring_b" x="0" y="238" w="99" h="108" oX="6" oY="5" oW="120" oH="109" r="y"/>
+	<sprite n="righthand_ring_c" x="0" y="533" w="100" h="91" oX="9" oY="8" oW="118" oH="107"/>
+</TextureAtlas>

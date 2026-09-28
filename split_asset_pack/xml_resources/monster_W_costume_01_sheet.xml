@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:43f7180a5442a1477ba3bd04d945581a:826939568f2fb4359a3b7723ab32db30:a98fe1500d4de164ecba4173d3257178$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_W_costume_01_sheet.png" width="476" height="401" hires="true">
+    <sprite n="W_coat.png" x="221" y="2" w="220" h="144" oX="148.6" oY="45.2" oW="146" oH="220" r="y"/>
+    <sprite n="W_dress.png" x="2" y="2" w="217" h="305"/>
+    <sprite n="W_feathers.png" x="379" y="300" w="95" h="99" oX="173.6" oY="-62.8" oW="100" oH="100" r="y"/>
+    <sprite n="W_fur.png" x="138" y="309" w="96" h="80" oX="18.5" oY="13.9" oW="100" oH="80"/>
+    <sprite n="W_hair_back.png" x="339" y="286" w="38" h="59" oX="91.026" oY="30.04" oW="40" oH="60"/>
+    <sprite n="W_hair_front.png" x="2" y="309" w="134" h="89" oX="-16.6" oY="1.58" oW="90" oH="140" r="y"/>
+    <sprite n="W_hat.png" x="221" y="148" w="160" h="136" oX="3.84" oY="-75.68" oW="140" oH="160" r="y"/>
+    <sprite n="W_hat_right.png" x="236" y="286" w="101" h="103" oX="10" oY="10" oW="123" oH="121" r="y"/>
+    <sprite n="W_head.png" x="383" y="148" w="84" h="83" r="y"/>
+    <sprite n="W_shirt.png" x="383" y="233" w="77" h="65" oX="95.8" oY="-6.4" oW="80" oH="66"/>
+</TextureAtlas>

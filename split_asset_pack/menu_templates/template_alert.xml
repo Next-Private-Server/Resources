@@ -1,0 +1,29 @@
+<template name="template_alert" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+
+	<!-- a pulsing alert that can be used for notifications -->
+
+	<script src="scripts/template_alert.lua" />
+
+	<defaultTemplateVar name="$layer" equals="MidPopUps"/> 
+
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<spriteSheetComponent name="Sprite">
+		<event name="onInit" params="component, element">
+			component("spriteName"):SetString("goal_exclaim")
+			component("sheetName"):SetString("xml_resources/hud01.xml")
+			component("size"):SetFloat(0.6*game.hudScale())
+			component("layer"):SetString(element:templateVars().layer)
+			component("visible"):SetInt(0) -- start off by default
+		</event>
+	</spriteSheetComponent>
+
+	<event name="setVisible" params="element">
+		element.Sprite("visible"):SetInt(1)
+	</event>
+
+	<event name="setInvisible" params="element">
+		element.Sprite("visible"):SetInt(0)
+	</event>
+
+</template>

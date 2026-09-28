@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:08857d0a7472da12de505acc4370dd9c:06327811a5165dfc8fcfb72544ed478b:93d9a10c32a1950efb7cd2ada8e2863e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_VWY_costume_01_sheet.png" width="512" height="512" hires="true">
+    <sprite n="VWY_arm_A_01" x="368" y="296" w="54" h="38" pX="0.5" pY="0.5" oX="38" oY="43" oW="120" oH="140" r="y"/>
+    <sprite n="VWY_arm_A_02" x="187" y="436" w="25" h="51" pX="0.5" pY="0.5" oX="44" oY="44" oW="120" oH="140"/>
+    <sprite n="VWY_arm_A_03" x="446" y="2" w="56" h="24" pX="0.5" pY="0.5" oX="45" oY="52" oW="120" oH="140" r="y"/>
+    <sprite n="VWY_arm_A_04" x="160" y="436" w="25" h="52" pX="0.5" pY="0.5" oX="45" oY="50" oW="120" oH="140"/>
+    <sprite n="VWY_arm_A_05" x="442" y="173" w="65" h="29" pX="0.5" pY="0.5" oX="42" oY="43" oW="120" oH="140" r="y"/>
+    <sprite n="VWY_arm_A_06" x="441" y="204" w="69" h="38" pX="0.5" pY="0.5" oX="39" oY="42" oW="120" oH="140" r="y"/>
+    <sprite n="VWY_arm_B_01" x="368" y="259" w="55" h="35" pX="0.5" pY="0.5" oX="29" oY="33" oW="100" oH="120" r="y"/>
+    <sprite n="VWY_arm_B_02" x="2" y="446" w="28" h="54" pX="0.5" pY="0.5" oX="36" oY="36" oW="100" oH="120"/>
+    <sprite n="VWY_arm_B_03" x="368" y="202" w="71" h="26" pX="0.5" pY="0.5" oX="37" oY="26" oW="100" oH="120" r="y"/>
+    <sprite n="VWY_arm_B_04" x="368" y="230" w="65" h="27" pX="0.5" pY="0.5" oX="33" oY="27" oW="100" oH="120" r="y"/>
+    <sprite n="VWY_arm_B_05" x="88" y="436" w="27" h="53" pX="0.5" pY="0.5" oX="34" oY="35" oW="100" oH="120"/>
+    <sprite n="VWY_arm_B_06" x="2" y="354" w="41" h="90" pX="0.5" pY="0.5" oX="28" oY="14" oW="100" oH="120"/>
+    <sprite n="VWY_arm_C_01" x="117" y="436" w="41" h="52" pX="0.5" pY="0.5" oX="31" oY="25" oW="100" oH="100"/>
+    <sprite n="VWY_arm_C_02" x="442" y="139" w="66" h="32" pX="0.5" pY="0.5" oX="34" oY="17" oW="100" oH="100" r="y"/>
+    <sprite n="VWY_arm_C_03" x="32" y="446" w="27" h="54" pX="0.5" pY="0.5" oX="34" oY="27" oW="100" oH="100"/>
+    <sprite n="VWY_arm_C_04" x="435" y="244" w="65" h="25" pX="0.5" pY="0.5" oX="33" oY="17" oW="100" oH="100" r="y"/>
+    <sprite n="VWY_arm_C_05" x="368" y="91" w="73" h="24" pX="0.5" pY="0.5" oX="32" oY="13" oW="100" oH="100" r="y"/>
+    <sprite n="VWY_arm_C_06" x="61" y="444" w="25" h="54" pX="0.5" pY="0.5" oX="37" oY="22" oW="100" oH="100"/>
+    <sprite n="VWY_arm_C_07" x="162" y="354" w="32" h="80" pX="0.5" pY="0.5" oX="30" oY="9" oW="100" oH="100"/>
+    <sprite n="VWY_box_back" x="273" y="91" w="93" h="242" pX="0.5" pY="0.5" oX="40" oY="99" oW="340" oH="140" r="y"/>
+    <sprite n="VWY_box_front" x="2" y="2" w="269" h="105" pX="0.5" pY="0.5" oX="39" oY="121" oW="340" oH="140"/>
+    <sprite n="VWY_firecrackers_01" x="425" y="271" w="83" h="81" pX="0.5" pY="0.5" oX="7.88" oY="37.3" oW="100" oH="100"/>
+    <sprite n="VWY_firecrackers_02" x="446" y="28" w="55" h="72" pX="0.5" pY="0.5" oX="88.5" oY="135" oW="60" oH="80"/>
+    <sprite n="VWY_firecrackers_03" x="45" y="354" w="36" h="88" pX="0.5" pY="0.5" oX="65" oY="120" oW="50" oH="100"/>
+    <sprite n="VWY_firecrackers_04" x="83" y="354" w="77" h="80" pX="0.5" pY="0.5" oX="232.5" oY="137" oW="100" oH="100"/>
+    <sprite n="VWY_firecrackers_04_thread" x="443" y="102" w="67" h="35" pX="0.5" pY="0.5" oX="228.5" oY="128" oW="100" oH="100"/>
+    <sprite n="VWY_firecrackers_05" x="368" y="117" w="72" h="83" pX="0.5" pY="0.5" oX="90" oY="185" oW="90" oH="80" r="y"/>
+    <sprite n="VWY_glasses" x="273" y="2" w="171" h="87" pX="0.5" pY="0.5" oX="59.5" oY="115.2" oW="180" oH="100"/>
+</TextureAtlas>

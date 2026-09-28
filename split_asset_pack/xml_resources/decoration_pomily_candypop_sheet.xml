@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:027021f5fb519cf4311c04237f35ecba:ad994872b783247ea50af056125430ea:3b4c93e36d639b008759ef785cb5b62b$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_pomily_candypop_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="candy_01" x="372" y="454" w="63" h="53"/>
+	<sprite n="candy_02" x="461" y="180" w="48" h="50"/>
+	<sprite n="candy_03" x="302" y="453" w="68" h="51"/>
+	<sprite n="candy_04" x="156" y="459" w="56" h="51"/>
+	<sprite n="candy_05" x="290" y="281" w="56" h="69"/>
+	<sprite n="candy_06" x="290" y="210" w="57" h="69" r="y"/>
+	<sprite n="candy_07" x="437" y="454" w="60" h="46" r="y"/>
+	<sprite n="candy_08" x="95" y="459" w="59" h="50"/>
+	<sprite n="candy_09" x="312" y="379" w="76" h="72" r="y"/>
+	<sprite n="candy_10" x="390" y="379" w="70" h="73"/>
+	<sprite n="candy_11" x="244" y="357" w="66" h="82"/>
+	<sprite n="gumdrop" x="312" y="352" w="25" h="24" r="y"/>
+	<sprite n="gummi_hoola" x="185" y="210" w="103" h="145"/>
+	<sprite n="gummi_hoola_glow" x="458" y="102" w="46" h="76"/>
+	<sprite n="gummi_pompom" x="355" y="0" w="101" h="191"/>
+	<sprite n="gummi_pompom_glow" x="458" y="0" w="50" h="100"/>
+	<sprite n="gummi_rooba" x="0" y="306" w="108" h="129"/>
+	<sprite n="gummi_rooba_glow" x="244" y="441" w="56" h="68"/>
+	<sprite n="gummi_sooza" x="355" y="193" w="104" h="184"/>
+	<sprite n="gummi_sooza_glow" x="0" y="437" w="93" h="52" r="y"/>
+	<sprite n="gummi_tootoo" x="110" y="357" w="132" h="100" r="y"/>
+	<sprite n="gummi_tootoo_glow" x="110" y="306" w="64" h="46" r="y"/>
+	<sprite n="stage" x="0" y="0" w="353" h="208"/>
+	<sprite n="stage_glow" x="214" y="459" w="19" h="19"/>
+	<sprite n="stage_shadow" x="0" y="210" w="183" h="94"/>
+</TextureAtlas>

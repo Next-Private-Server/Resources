@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:954fc731b4d1ec0ae2b369c779457d8c:8c14840220a440fd4fc41a1af0f22b35:a8947beac69bee061b0f521f69bfc79d$ -->
+<TextureAtlas imagePath="gfx/hud02.png" width="512" height="1024" hires="false" version="1">
+	<sprite n="gene_abyss" x="82" y="81" w="76" h="76" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_air" x="399" y="232" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_anniversary" x="238" y="234" w="76" h="75" oX="2" oY="1" oW="80" oH="81"/>
+	<sprite n="gene_arbour" x="156" y="235" w="76" h="75" oX="2" oY="1" oW="80" oH="81"/>
+	<sprite n="gene_asterisk" x="246" y="0" w="78" h="76" oX="2" oY="1" oW="80" oH="81"/>
+	<sprite n="gene_backtoschool" x="406" y="0" w="78" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_bone" x="0" y="82" w="76" h="76" oX="2" oY="1" oW="80" oH="81"/>
+	<sprite n="gene_celestial" x="246" y="78" w="77" h="76" oX="1" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_cold" x="78" y="237" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_control" x="78" y="545" w="75" h="74" oX="3" oY="3" oW="80" oH="81" r="y"/>
+	<sprite n="gene_creation" x="0" y="238" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_crystal" x="316" y="234" w="76" h="75" oX="2" oY="2" oW="81" oH="80"/>
+	<sprite n="gene_day_of_the_dead" x="0" y="546" w="75" h="74" oX="3" oY="2" oW="80" oH="81" r="y"/>
+	<sprite n="gene_dipster" x="394" y="309" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_dream" x="406" y="77" w="78" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_earth" x="234" y="311" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_easter" x="156" y="312" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_ecto_plasma" x="404" y="154" w="76" h="76" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_electricity" x="164" y="0" w="80" h="78" oX="0" oY="1" oW="80" oH="81"/>
+	<sprite n="gene_explore" x="164" y="80" w="77" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_fairy" x="78" y="314" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_fire" x="0" y="315" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_fireworks" x="326" y="0" w="78" h="76" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_halloween" x="312" y="311" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_hoax" x="311" y="542" w="75" h="73" oX="4" oY="3" oW="80" oH="81" r="y"/>
+	<sprite n="gene_legendary" x="325" y="78" w="77" h="76" oX="1" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_light" x="390" y="386" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_mech" x="234" y="388" w="76" h="75" oX="2" oY="2" oW="81" oH="80"/>
+	<sprite n="gene_mythical" x="156" y="389" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_newyears" x="156" y="543" w="75" h="74" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_plant" x="78" y="391" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_primordial" x="82" y="0" w="80" h="79" oX="1" oY="0" oW="80" oH="81" r="y"/>
+	<sprite n="gene_primordial_air" x="243" y="156" w="76" h="76" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_primordial_cold" x="160" y="157" w="76" h="76" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_primordial_earth" x="78" y="159" w="76" h="76" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_primordial_plant" x="0" y="160" w="76" h="76" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_primordial_water" x="321" y="156" w="76" h="76" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_psychic" x="0" y="392" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_ruin" x="234" y="542" w="75" h="75" oX="3" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_shadow" x="312" y="388" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_stpatrick" x="390" y="463" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_summer" x="234" y="465" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_thanksgiving" x="156" y="466" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_titansoul" x="0" y="0" w="80" h="80" oX="0" oY="0" oW="80" oH="81"/>
+	<sprite n="gene_toxic" x="78" y="468" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_valentines" x="0" y="469" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_water" x="312" y="465" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+	<sprite n="gene_xmas" x="390" y="540" w="76" h="75" oX="2" oY="2" oW="80" oH="81"/>
+</TextureAtlas>

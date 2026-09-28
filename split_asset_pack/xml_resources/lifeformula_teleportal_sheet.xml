@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:36d068fb6d91d4d71a9370ab046f5190:1668a36e466f19d3415c6f37b174d3c4:9a2a723867c15b4d46de3f996cc4d3cb$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/structures/lifeformula_teleportal_sheet.png" width="512" height="1024" hires="true">
+    <sprite n="Floor Symbol" x="366" y="3" w="109" h="348" oX="6" oY="6" oW="360" oH="120" r="y"/>
+    <sprite n="Ring_01" x="3" y="3" w="359" h="181" oX="19" oY="19" oW="200" oH="400" r="y"/>
+    <sprite n="Ring_02" x="3" y="551" w="177" h="355" oX="23" oY="21" oW="200" oH="400"/>
+    <sprite n="Ring_03" x="3" y="188" w="359" h="177" oX="23" oY="16" oW="200" oH="400" r="y"/>
+    <sprite n="Ring_04" x="3" y="369" w="356" h="178" oX="22" oY="19" oW="200" oH="400" r="y"/>
+    <sprite n="Spark" x="366" y="355" w="35" h="35" oX="2" oY="2" oW="40" oH="40"/>
+    <sprite n="Warp" x="184" y="551" w="307" h="296" oX="6" oY="1" oW="308" oH="308" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6cb46bd9f7627ca6a749448164ea8d2a:f903bb210aaa1d57636477212fae0a13:e47e108ee8a5a8250923e567c852fc5e$ -->
+<TextureAtlas imagePath="gfx/menu/buffs_sheet.png" width="1024" height="1024" hires="false" version="1">
+	<sprite n="buff_baking_supercharge" x="210" y="0" w="218" h="220" oX="24" oY="23" oW="260" oH="260"/>
+	<sprite n="buff_bakingreduc" x="0" y="0" w="208" h="223" oX="24" oY="23" oW="260" oH="260"/>
+	<sprite n="buff_breedincr" x="205" y="669" w="201" h="211" oX="21" oY="43" oW="260" oH="260" r="y"/>
+	<sprite n="buff_breeding_supercharge" x="0" y="225" w="217" h="221" oX="21" oY="26" oW="260" oH="260" r="y"/>
+	<sprite n="buff_breedreduc" x="0" y="669" w="203" h="211" oX="21" oY="43" oW="260" oH="260" r="y"/>
+	<sprite n="buff_costumeincr" x="219" y="222" w="196" h="217" oX="36" oY="27" oW="260" oH="260"/>
+	<sprite n="buff_currencyincr" x="430" y="0" w="201" h="202" oX="34" oY="43" oW="260" oH="260" r="y"/>
+	<sprite n="buff_incubation_supercharge" x="0" y="448" w="218" h="219" oX="24" oY="24" oW="260" oH="260"/>
+	<sprite n="buff_incubreduc" x="220" y="441" w="207" h="208" oX="25" oY="39" oW="260" oH="260" r="y"/>
+	<sprite n="buff_seasonincr" x="408" y="651" w="198" h="202" oX="30" oY="46" oW="260" oH="260" r="y"/>
+	<sprite n="buff_skinincr" x="417" y="222" w="182" h="207" oX="50" oY="37" oW="260" oH="260"/>
+	<sprite n="buff_welcomeback" x="429" y="431" w="188" h="194" oX="44" oY="50" oW="260" oH="260"/>
+</TextureAtlas>

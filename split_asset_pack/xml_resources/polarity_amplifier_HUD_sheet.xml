@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:ed294bb13615c022ab65fc2905c6617e:514982fa39c24732cbdb658b07e9e3ab:7354c38950b624f14184abde73ad1b46$ -->
+<TextureAtlas imagePath="gfx/menu/polarity_amplifier_HUD_sheet.png" width="256" height="512" hires="false" version="1">
+	<sprite n="polamp_light_full" x="0" y="394" w="91" h="91"/>
+	<sprite n="polamp_light_meter" x="93" y="394" w="51" h="50" oX="20" oY="20" oW="91" oH="91"/>
+	<sprite n="polamp_vine" x="0" y="0" w="217" h="392" oX="11" oY="0" oW="228" oH="396"/>
+</TextureAtlas>

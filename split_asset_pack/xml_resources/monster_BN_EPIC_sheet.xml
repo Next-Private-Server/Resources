@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4ea16a19e21d69c5d88873c103c94ee6:dad09e886f4da81a73acd276febec841:c7df870317bbfa8a75d2e3c0f73f513a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_BN_EPIC_sheet.png" width="783" height="783" hires="true">
+    <sprite n="BN_Bandaged_eye.png" x="538" y="653" w="51" h="48"/>
+    <sprite n="BN_body.png" x="1" y="1" w="180" h="138"/>
+    <sprite n="BN_cactus_01.png" x="146" y="160" w="116" h="96" r="y"/>
+    <sprite n="BN_cactus_02.png" x="374" y="166" w="65" h="90"/>
+    <sprite n="BN_cactus_03.png" x="133" y="630" w="52" h="74"/>
+    <sprite n="BN_eyelid_01.png" x="539" y="378" w="105" h="50" oX="2" oY="0" oW="110" oH="50"/>
+    <sprite n="BN_eyelid_02.png" x="650" y="345" w="105" h="50" oX="2" oY="0" oW="110" oH="50"/>
+    <sprite n="BN_eyelid_03.png" x="646" y="397" w="105" h="50" oX="2" oY="0" oW="110" oH="50"/>
+    <sprite n="BN_eyelid_04.png" x="244" y="434" w="105" h="50" oX="2" oY="0" oW="110" oH="50"/>
+    <sprite n="BN_Head_Epic.png" x="1" y="141" w="143" h="117"/>
+    <sprite n="BN_left_foot.png" x="657" y="87" w="102" h="98"/>
+    <sprite n="BN_left_foot_Epic.png" x="351" y="434" w="93" h="61" oX="2" oY="24" oW="102" oH="98"/>
+    <sprite n="BN_left_hand.png" x="542" y="166" w="106" h="104"/>
+    <sprite n="BN_left_hand_Epic.png" x="137" y="260" w="104" h="106" r="y"/>
+    <sprite n="BN_left_lowerarm.png" x="1" y="620" w="130" h="84"/>
+    <sprite n="BN_left_lowerarm_Epic.png" x="339" y="1" w="130" h="84"/>
+    <sprite n="BN_left_lowerleg.png" x="187" y="625" w="62" h="80"/>
+    <sprite n="BN_left_lowerleg_Epic - Copy.png" x="312" y="526" w="68" h="86" oX="0" oY="2" oW="68" oH="88"/>
+    <sprite n="BN_left_lowerleg_Epic.png" x="453" y="497" w="68" h="86" oX="0" oY="2" oW="68" oH="88"/>
+    <sprite n="BN_left_lowerleg_Epic_overlay.png" x="137" y="368" w="105" h="68" oX="0" oY="2" oW="68" oH="107" r="y"/>
+    <sprite n="BN_left_upperarm.png" x="1" y="260" w="134" h="88"/>
+    <sprite n="BN_left_upperarm_Epic.png" x="1" y="350" w="134" h="88"/>
+    <sprite n="BN_left_upperleg.png" x="380" y="643" w="84" h="62" r="y"/>
+    <sprite n="BN_left_upperleg_Epic.png" x="382" y="497" w="69" h="86"/>
+    <sprite n="BN_long_plant_1.png" x="543" y="703" w="39" h="66" r="y"/>
+    <sprite n="BN_long_plant_2.png" x="313" y="614" w="65" h="92"/>
+    <sprite n="BN_long_plant_3.png" x="133" y="530" w="40" h="98"/>
+    <sprite n="BN_long_plant_4.png" x="633" y="449" w="98" h="46" r="y"/>
+    <sprite n="BN_long_plant_5.png" x="675" y="579" w="63" h="41" r="y"/>
+    <sprite n="BN_long_plant_6.png" x="593" y="497" w="87" h="65" r="y"/>
+    <sprite n="BN_mouth_01.png" x="761" y="73" w="18" h="67" oX="6" oY="12" oW="80" oH="58" r="y"/>
+    <sprite n="BN_mouth_02.png" x="757" y="273" w="22" h="67" oX="7" oY="5" oW="80" oH="58" r="y"/>
+    <sprite n="BN_mouth_03.png" x="563" y="585" w="27" h="66" oX="7" oY="7" oW="80" oH="58" r="y"/>
+    <sprite n="BN_mouth_04.png" x="661" y="622" w="64" h="32" oX="8" oY="8" oW="80" oH="58"/>
+    <sprite n="BN_mouth_05.png" x="237" y="486" w="79" h="38" oX="1" oY="6" oW="80" oH="58"/>
+    <sprite n="BN_mouth_06.png" x="727" y="624" w="55" h="33" oX="13" oY="8" oW="80" oH="58"/>
+    <sprite n="BN_mouth_07.png" x="584" y="739" w="59" h="43" oX="11" oY="5" oW="80" oH="58"/>
+    <sprite n="BN_mouth_08.png" x="727" y="1" w="55" h="70" oX="8" oY="2" oW="80" oH="58" r="y"/>
+    <sprite n="BN_mouth_09.png" x="733" y="449" w="49" h="51" oX="16" oY="3" oW="80" oH="58" r="y"/>
+    <sprite n="BN_mouth_10.png" x="707" y="703" w="42" h="35" oX="23" oY="6" oW="80" oH="58" r="y"/>
+    <sprite n="BN_mouth_11.png" x="761" y="142" w="21" h="26" oX="28" oY="8" oW="80" oH="58" r="y"/>
+    <sprite n="BN_Pedal_1.png" x="645" y="739" w="54" h="43" r="y"/>
+    <sprite n="BN_Pedal_2.png" x="271" y="705" w="35" h="77" r="y"/>
+    <sprite n="BN_Pedal_3.png" x="592" y="601" w="67" h="56" r="y"/>
+    <sprite n="BN_Pedal_4.png" x="466" y="649" w="70" h="56" r="y"/>
+    <sprite n="BN_Pedal_5.png" x="593" y="564" w="80" h="35"/>
+    <sprite n="BN_Pedal_6.png" x="138" y="707" w="50" h="75"/>
+    <sprite n="BN_Pedal_7.png" x="308" y="708" w="81" h="71" r="y"/>
+    <sprite n="BN_Pedal_8.png" x="382" y="585" w="93" h="56"/>
+    <sprite n="BN_Pedal_9.png" x="187" y="438" w="48" h="90"/>
+    <sprite n="BN_Pedal_10.png" x="251" y="614" w="60" h="89" r="y"/>
+    <sprite n="BN_Pedal_11.png" x="351" y="352" w="83" h="80" r="y"/>
+    <sprite n="BN_Pedal_12.png" x="650" y="273" w="105" h="70" r="y"/>
+    <sprite n="BN_Pedal_13.png" x="307" y="87" w="116" h="77"/>
+    <sprite n="BN_Pedal_14.png" x="264" y="166" w="108" h="90" r="y"/>
+    <sprite n="BN_Pedal_15.png" x="441" y="162" w="99" h="101"/>
+    <sprite n="BN_Pedal_16.png" x="425" y="87" w="116" h="73"/>
+    <sprite n="BN_Pedal_17.png" x="650" y="187" w="110" h="84" r="y"/>
+    <sprite n="BN_plant_01.png" x="190" y="707" w="79" h="73" r="y"/>
+    <sprite n="BN_Plant_02.png" x="740" y="575" w="42" h="47" r="y"/>
+    <sprite n="BN_plant_03.png" x="75" y="706" w="61" h="75" r="y"/>
+    <sprite n="BN_plant_04.png" x="701" y="740" w="36" h="34"/>
+    <sprite n="BN_Plant_05.png" x="351" y="258" w="85" h="92"/>
+    <sprite n="BN_Plant_06.png" x="1" y="706" w="72" h="76" r="y"/>
+    <sprite n="BN_Plant_07.png" x="707" y="659" w="45" h="42"/>
+    <sprite n="BN_pupil.png" x="762" y="170" w="20" h="20"/>
+    <sprite n="BN_Pupil_Epic.png" x="146" y="141" w="14" h="15"/>
+    <sprite n="BN_right_foot.png" x="438" y="265" w="102" h="98"/>
+    <sprite n="BN_right_foot_Epic.png" x="175" y="530" w="61" h="93" oX="7" oY="24" oW="102" oH="98" r="y"/>
+    <sprite n="BN_right_hand.png" x="243" y="258" w="106" h="104"/>
+    <sprite n="BN_right_hand_Epic.png" x="542" y="272" w="106" h="104"/>
+    <sprite n="BN_right_lowerarm.png" x="600" y="1" w="125" h="84" oX="5" oY="0" oW="130" oH="84"/>
+    <sprite n="BN_right_lowerarm_Epic.png" x="471" y="1" w="127" h="84" oX="3" oY="0" oW="130" oH="84"/>
+    <sprite n="BN_right_lowerleg.png" x="391" y="707" w="80" h="62" r="y"/>
+    <sprite n="BN_Right_lowerleg_Epic.png" x="523" y="497" w="68" h="86" oX="0" oY="2" oW="68" oH="88"/>
+    <sprite n="BN_Right_lowerleg_Epic_overlay.png" x="244" y="364" w="105" h="68" oX="0" oY="2" oW="68" oH="107" r="y"/>
+    <sprite n="BN_right_upperarm.png" x="1" y="530" w="130" h="88" oX="4" oY="0" oW="134" oH="88"/>
+    <sprite n="BN_right_upperarm_Epic.png" x="1" y="440" w="132" h="88" oX="2" oY="0" oW="134" oH="88"/>
+    <sprite n="BN_right_upperleg.png" x="477" y="585" w="84" h="62" r="y"/>
+    <sprite n="BN_Right_upperleg_Epic.png" x="382" y="497" w="69" h="86"/>
+    <sprite n="BN_shadow.png" x="183" y="1" w="154" h="78"/>
+    <sprite n="BN_shldr_plant_1.png" x="473" y="707" w="68" h="63"/>
+    <sprite n="BN_shldr_Plant_2.png" x="183" y="81" w="122" h="77" r="y"/>
+    <sprite n="BN_Shldr_Plant_3.png" x="436" y="365" w="101" h="59" r="y"/>
+    <sprite n="BN_shldr_plant_4.png" x="543" y="87" w="112" h="77" r="y"/>
+    <sprite n="BN_shldr_plant_5.png" x="446" y="426" w="89" h="69" r="y"/>
+    <sprite n="BN_shldr_plant_6.png" x="537" y="430" w="94" h="65"/>
+    <sprite n="BN_Waist_Tentacles_01.png" x="682" y="497" w="48" h="80"/>
+    <sprite n="BN_Waist_Tentacles_02.png" x="732" y="502" w="48" h="71"/>
+    <sprite n="BN_waist_tentacles_03.png" x="591" y="659" w="78" h="38" r="y"/>
+    <sprite n="BN_waist_tentacles_03.psd" x="591" y="699" w="78" h="38" r="y"/>
+    <sprite n="BN_Waist_Tentacles_04.png" x="135" y="440" w="50" h="88"/>
+    <sprite n="BN_Waist_tentacles_05.png" x="671" y="656" w="34" h="80"/>
+    <sprite n="BN_Waist_Tentacles_06.png" x="238" y="526" w="72" h="86"/>
+</TextureAtlas>

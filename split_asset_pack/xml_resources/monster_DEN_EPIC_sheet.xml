@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:44207c66c1646508c5cdfa1e45a77476:d5aceae23b1e81d6b242e54ca0d8b73d:cdc3a55f1d46dfdb3213eb2de02e9e95$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/monsters/monster_DEN_EPIC_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="DEN_adult_body" x="4" y="440" w="394" h="280" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="DEN_adult_body_EPIC" x="4" y="4" w="500" h="432" pX="0.5" pY="0.5" oX="0" oY="4" oW="500" oH="440"/>
+    <sprite n="DEN_adult_eyeback_EPIC" x="502" y="759" w="128" h="121" pX="0.5" pY="0.5" oX="3" oY="0" oW="128" oH="128" r="y"/>
+    <sprite n="DEN_adult_eyeball_left" x="764" y="902" w="75" h="75" pX="0.5" pY="0.5" oX="2" oY="2" oW="80" oH="80"/>
+    <sprite n="DEN_adult_eyeball_right" x="856" y="639" w="86" h="85" pX="0.5" pY="0.5" oX="2" oY="2" oW="90" oH="90"/>
+    <sprite n="DEN_adult_eyelid1" x="490" y="954" w="92" h="89" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="98" r="y"/>
+    <sprite n="DEN_adult_eyelid2" x="137" y="882" w="95" h="89" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="98" r="y"/>
+    <sprite n="DEN_adult_eyelid3" x="236" y="956" w="91" h="89" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="98" r="y"/>
+    <sprite n="DEN_adult_eyelid4" x="137" y="975" w="91" h="89" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="98" r="y"/>
+    <sprite n="DEN_adult_eyelid5" x="4" y="1008" w="91" h="89" pX="0.5" pY="0.5" oX="1" oY="1" oW="92" oH="98" r="y"/>
+    <sprite n="DEN_adult_hair" x="230" y="1112" w="62" h="59" pX="0.5" pY="0.5" oX="0" oY="0" oW="61" oH="62" r="y"/>
+    <sprite n="DEN_adult_hair_bangs_EPIC" x="508" y="240" w="435" h="275" pX="0.5" pY="0.5" oX="0" oY="2" oW="440" oH="280"/>
+    <sprite n="DEN_adult_hair_EPIC" x="508" y="4" w="482" h="232" pX="0.5" pY="0.5" oX="9" oY="4" oW="500" oH="240"/>
+    <sprite n="DEN_adult_hair_left_eyelid1" x="403" y="1043" w="64" h="59" pX="0.5" pY="0.5" oX="18" oY="21" oW="100" oH="100"/>
+    <sprite n="DEN_adult_hair_left_eyelid2" x="232" y="1049" w="64" h="59" pX="0.5" pY="0.5" oX="18" oY="21" oW="100" oH="100"/>
+    <sprite n="DEN_adult_hair_left_eyelid3" x="300" y="1104" w="64" h="59" pX="0.5" pY="0.5" oX="18" oY="21" oW="100" oH="100"/>
+    <sprite n="DEN_adult_hair_left_eyelid4" x="99" y="1068" w="64" h="59" pX="0.5" pY="0.5" oX="18" oY="21" oW="100" oH="100"/>
+    <sprite n="DEN_adult_hair_left_eyelid5" x="167" y="1068" w="59" h="64" pX="0.5" pY="0.5" oX="18" oY="21" oW="100" oH="100" r="y"/>
+    <sprite n="DEN_adult_hair_right_eyelid1" x="947" y="240" w="71" h="77" pX="0.5" pY="0.5" oX="12" oY="15" oW="100" oH="100" r="y"/>
+    <sprite n="DEN_adult_hair_right_eyelid2" x="947" y="321" w="71" h="77" pX="0.5" pY="0.5" oX="12" oY="15" oW="100" oH="100" r="y"/>
+    <sprite n="DEN_adult_hair_right_eyelid3" x="947" y="402" w="71" h="77" pX="0.5" pY="0.5" oX="12" oY="15" oW="100" oH="100" r="y"/>
+    <sprite n="DEN_adult_hair_right_eyelid4" x="947" y="483" w="71" h="77" pX="0.5" pY="0.5" oX="12" oY="15" oW="100" oH="100" r="y"/>
+    <sprite n="DEN_adult_hair_right_eyelid5" x="947" y="564" w="71" h="77" pX="0.5" pY="0.5" oX="12" oY="15" oW="100" oH="100" r="y"/>
+    <sprite n="DEN_adult_hair_top_EPIC" x="856" y="728" w="160" h="192" pX="0.5" pY="0.5" oX="0" oY="4" oW="160" oH="200"/>
+    <sprite n="DEN_adult_left_foot" x="634" y="759" w="126" h="81" pX="0.5" pY="0.5"/>
+    <sprite n="DEN_adult_left_foot_bottom" x="634" y="844" w="126" h="80" pX="0.5" pY="0.5" oX="0" oY="0" oW="126" oH="81"/>
+    <sprite n="DEN_adult_left_foot_bottom_EPIC" x="243" y="724" w="142" h="96" pX="0.5" pY="0.5" oX="11" oY="10" oW="160" oH="110"/>
+    <sprite n="DEN_adult_left_foot_EPIC" x="402" y="440" w="101" h="150" pX="0.5" pY="0.5" oX="5" oY="5" oW="160" oH="110" r="y"/>
+    <sprite n="DEN_adult_left_lowerleg" x="586" y="954" w="34" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="DEN_adult_moustache" x="4" y="724" w="235" h="154" pX="0.5" pY="0.5"/>
+    <sprite n="DEN_adult_moustache_EPIC" x="507" y="519" w="345" h="236" pX="0.5" pY="0.5" oX="2" oY="2" oW="350" oH="240"/>
+    <sprite n="DEN_adult_mouth01" x="402" y="594" w="99" h="50" pX="0.5" pY="0.5" oX="8" oY="10" oW="120" oH="100"/>
+    <sprite n="DEN_adult_mouth02" x="378" y="858" w="115" h="56" pX="0.5" pY="0.5" oX="2" oY="8" oW="120" oH="100"/>
+    <sprite n="DEN_adult_mouth03" x="625" y="928" w="103" h="67" pX="0.5" pY="0.5" oX="7" oY="10" oW="120" oH="100"/>
+    <sprite n="DEN_adult_mouth04" x="402" y="648" w="97" h="78" pX="0.5" pY="0.5" oX="12" oY="10" oW="120" oH="100"/>
+    <sprite n="DEN_adult_mouth05" x="764" y="759" w="83" h="81" pX="0.5" pY="0.5" oX="16" oY="11" oW="120" oH="100"/>
+    <sprite n="DEN_adult_mouth06" x="331" y="1043" w="68" h="57" pX="0.5" pY="0.5" oX="29" oY="12" oW="120" oH="100" r="y"/>
+    <sprite n="DEN_adult_mouth07" x="331" y="956" w="42" h="49" pX="0.5" pY="0.5" oX="34" oY="19" oW="120" oH="100"/>
+    <sprite n="DEN_adult_mouth08" x="764" y="844" w="81" h="54" pX="0.5" pY="0.5" oX="16" oY="16" oW="120" oH="100"/>
+    <sprite n="DEN_adult_pupil" x="4" y="1101" w="45" h="45" pX="0.5" pY="0.5"/>
+    <sprite n="DEN_adult_right_ear" x="856" y="519" w="87" h="116" pX="0.5" pY="0.5" oX="2" oY="1" oW="120" oH="90" r="y"/>
+    <sprite n="DEN_adult_right_foot" x="389" y="730" w="109" h="124" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="DEN_adult_right_foot_bottom" x="378" y="918" w="108" h="121" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="109" r="y"/>
+    <sprite n="DEN_adult_right_foot_bottom_EPIC" x="243" y="824" w="131" h="128" pX="0.5" pY="0.5" oX="5" oY="5" oW="140" oH="140"/>
+    <sprite n="DEN_adult_right_foot_EPIC" x="4" y="882" w="129" h="122" pX="0.5" pY="0.5" oX="5" oY="0" oW="140" oH="130"/>
+    <sprite n="DEN_adult_right_lowerleg" x="946" y="683" w="66" h="36" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="DEN_adult_shadow" x="497" y="884" w="124" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="DEN_adult_upperleg" x="946" y="645" w="71" h="34" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

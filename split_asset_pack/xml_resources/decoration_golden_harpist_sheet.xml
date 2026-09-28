@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d1ee92759b1eb296a78753b584f39756:b52dc7cfb4688ba0c432383958b81fa2:effa5ce3f5e83b18728de6eb5c391dab$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_golden_harpist_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="golden_harpist" x="0" y="0" w="474" h="696"/>
+</TextureAtlas>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:773806f88c77d034c54f6b550bcd6366:f884f12c3326a812b00560b769011c68:8e6806629cb9987697f09f25a3c37378$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_X18_sheet.png" width="1024" height="2048" hires="true">
+    <sprite n="X18_antenna_01" x="876" y="1258" w="142" h="71" oX="2" oY="4" oW="75" oH="150" r="y"/>
+    <sprite n="X18_antenna_02" x="80" y="1840" w="56" h="54" oX="2" oY="3" oW="60" oH="60"/>
+    <sprite n="X18_antenna_03" x="533" y="1178" w="51" h="69" oX="0" oY="4" oW="70" oH="60" r="y"/>
+    <sprite n="X18_base_flowerclosed" x="335" y="699" w="250" h="239" oX="11" oY="13" oW="272" oH="264"/>
+    <sprite n="X18_base_floweropen" x="595" y="3" w="403" h="568" oX="0" oY="0" oW="568" oH="420" r="y"/>
+    <sprite n="X18_base_stem_1" x="335" y="460" w="253" h="235" oX="223" oY="334" oW="720" oH="600"/>
+    <sprite n="X18_base_stem_2" x="3" y="3" w="588" h="453" oX="66" oY="31" oW="720" oH="600"/>
+    <sprite n="X18_ear_left_01" x="74" y="1788" w="50" h="45" oX="1" oY="2" oW="48" oH="54" r="y"/>
+    <sprite n="X18_eye_pupil" x="311" y="1840" w="29" h="34" oX="4" oY="2" oW="42" oH="33" r="y"/>
+    <sprite n="X18_eyeballs" x="356" y="1899" w="62" h="121" oX="11" oY="5" oW="144" oH="72" r="y"/>
+    <sprite n="X18_eyelid_right_01" x="140" y="1840" w="53" h="53" oX="2" oY="2" oW="57" oH="57"/>
+    <sprite n="X18_eyelid_right_02" x="197" y="1840" w="53" h="53" oX="2" oY="2" oW="57" oH="57"/>
+    <sprite n="X18_eyelid_right_03" x="208" y="1783" w="53" h="53" oX="2" oY="2" oW="57" oH="57"/>
+    <sprite n="X18_eyelid_right_04" x="254" y="1840" w="53" h="53" oX="2" oY="2" oW="57" oH="57"/>
+    <sprite n="X18_fin_right_01" x="908" y="1069" w="109" h="117" oX="3" oY="4" oW="123" oH="117" r="y"/>
+    <sprite n="X18_fin_right_02" x="478" y="1568" w="102" h="162" oX="6" oY="4" oW="174" oH="111" r="y"/>
+    <sprite n="X18_finger_00" x="216" y="1899" w="41" h="127" oX="3" oY="32" oW="135" oH="120" r="y"/>
+    <sprite n="X18_finger_01" x="993" y="1769" w="27" h="126" oX="4" oY="46" oW="135" oH="120" r="y"/>
+    <sprite n="X18_finger_02" x="722" y="1649" w="37" h="123" oX="7" oY="47" oW="135" oH="120" r="y"/>
+    <sprite n="X18_finger_03" x="265" y="1783" w="116" h="50" oX="14" oY="47" oW="135" oH="120"/>
+    <sprite n="X18_finger_04" x="908" y="1190" w="108" h="61" oX="22" oY="48" oW="135" oH="120"/>
+    <sprite n="X18_finger_05" x="922" y="845" w="96" h="69" oX="34" oY="48" oW="135" oH="120"/>
+    <sprite n="X18_flame_01" x="203" y="1564" w="92" h="131" oX="15" oY="10" oW="120" oH="160"/>
+    <sprite n="X18_flame_02" x="922" y="575" w="99" h="131" oX="12" oY="7" oW="120" oH="160"/>
+    <sprite n="X18_flame_03" x="483" y="1428" w="101" h="136" oX="12" oY="1" oW="120" oH="160"/>
+    <sprite n="X18_flame_04" x="764" y="1577" w="92" h="128" oX="17" oY="8" oW="120" oH="160"/>
+    <sprite n="X18_flame_05" x="261" y="1899" w="91" h="124" oX="17" oY="13" oW="120" oH="160"/>
+    <sprite n="X18_flame_06" x="205" y="1336" w="94" h="126" oX="15" oY="11" oW="120" oH="160"/>
+    <sprite n="X18_flame_07" x="922" y="710" w="97" h="131" oX="14" oY="7" oW="120" oH="160"/>
+    <sprite n="X18_flame_08" x="876" y="1537" w="137" h="91" oX="17" oY="2" oW="120" oH="160" r="y"/>
+    <sprite n="X18_flame_09" x="128" y="1899" w="84" h="128" oX="20" oY="11" oW="120" oH="160"/>
+    <sprite n="X18_flame_10" x="763" y="1709" w="92" h="127" oX="15" oY="12" oW="120" oH="160"/>
+    <sprite n="X18_fxray" x="303" y="1178" w="226" h="70" oX="0" oY="1" oW="72" oH="228" r="y"/>
+    <sprite n="X18_glow" x="299" y="1604" w="162" h="126" oX="2" oY="0" oW="166" oH="126"/>
+    <sprite n="X18_glow_01" x="303" y="1349" w="176" h="176" oX="12" oY="12" oW="200" oH="200"/>
+    <sprite n="X18_glow_02" x="3" y="1119" w="296" h="213" oX="2" oY="3" oW="300" oH="220"/>
+    <sprite n="X18_glow_sparkle" x="331" y="942" w="244" h="232" oX="41" oY="43" oW="308" oH="308"/>
+    <sprite n="X18_head" x="859" y="1769" w="130" h="121" oX="6" oY="10" oW="135" oH="150" r="y"/>
+    <sprite n="X18_horn_lowleft" x="3" y="1788" w="67" h="45" oX="0" oY="2" oW="45" oH="72" r="y"/>
+    <sprite n="X18_horn_midleft" x="128" y="1788" w="76" h="43" oX="1" oY="1" oW="45" oH="78" r="y"/>
+    <sprite n="X18_horn_topleft" x="483" y="1349" w="38" h="75" oX="0" oY="0" oW="39" oH="75"/>
+    <sprite n="X18_lowerarm_01" x="301" y="1529" w="173" h="71" oX="4" oY="2" oW="180" oH="75"/>
+    <sprite n="X18_lowerarm_02" x="533" y="1251" w="50" h="173" oX="4" oY="10" oW="180" oH="75" r="y"/>
+    <sprite n="X18_lowerarm_03" x="588" y="1563" w="172" h="38" oX="5" oY="15" oW="180" oH="75"/>
+    <sprite n="X18_lowerarm_04" x="588" y="1512" w="172" h="47" oX="5" oY="12" oW="180" oH="75"/>
+    <sprite n="X18_lowerarm_05" x="3" y="1631" w="173" h="69" oX="5" oY="4" oW="180" oH="75"/>
+    <sprite n="X18_lowerleg_back_left" x="584" y="1656" w="134" h="40" oX="2" oY="3" oW="45" oH="141" r="y"/>
+    <sprite n="X18_lowerleg_back_right" x="584" y="1700" w="132" h="55" oX="0" oY="0" oW="57" oH="135" r="y"/>
+    <sprite n="X18_lowerleg_front_left" x="584" y="1605" w="134" h="47" oX="4" oY="6" oW="57" oH="147" r="y"/>
+    <sprite n="X18_lowerleg_front_right" x="860" y="1697" w="151" h="68" oX="0" oY="4" oW="69" oH="159" r="y"/>
+    <sprite n="X18_neck_01" x="180" y="1699" w="114" h="80" oX="9" oY="3" oW="99" oH="120" r="y"/>
+    <sprite n="X18_shadow" x="3" y="1704" w="162" h="80" oX="3" oY="2" oW="168" oH="84"/>
+    <sprite n="X18_shockwave_01" x="392" y="1734" w="81" h="81" oX="210" oY="210" oW="500" oH="500"/>
+    <sprite n="X18_shockwave_02" x="203" y="1466" w="94" h="94" oX="203" oY="203" oW="500" oH="500"/>
+    <sprite n="X18_shockwave_03" x="3" y="1431" w="196" h="196" oX="152" oY="152" oW="500" oH="500"/>
+    <sprite n="X18_shockwave_04" x="588" y="1224" w="284" h="284" oX="108" oY="108" oW="500" oH="500"/>
+    <sprite n="X18_shockwave_05" x="589" y="905" w="315" h="315" oX="93" oY="93" oW="500" oH="500"/>
+    <sprite n="X18_shockwave_06" x="3" y="791" w="324" h="324" oX="88" oY="88" oW="500" oH="500"/>
+    <sprite n="X18_shockwave_07" x="3" y="460" w="328" h="327" oX="87" oY="86" oW="500" oH="500" r="y"/>
+    <sprite n="X18_shockwave_08" x="592" y="575" w="326" h="326" oX="88" oY="88" oW="500" oH="500"/>
+    <sprite n="X18_tail_01" x="3" y="1899" w="121" h="128" oX="3" oY="2" oW="135" oH="126" r="y"/>
+    <sprite n="X18_tail_02" x="908" y="975" w="110" h="90" oX="3" oY="5" oW="99" oH="120" r="y"/>
+    <sprite n="X18_tail_03" x="3" y="1840" w="73" h="54" oX="3" oY="4" oW="60" oH="81" r="y"/>
+    <sprite n="X18_tail_04" x="303" y="1119" w="22" h="32" oX="4" oY="2" oW="30" oH="36"/>
+    <sprite n="X18_tail_05" x="377" y="1840" w="27" h="30" oX="3" oY="3" oW="33" oH="36"/>
+    <sprite n="X18_tail_06" x="339" y="1734" w="49" h="37" oX="2" oY="2" oW="54" oH="42"/>
+    <sprite n="X18_toes_back_left" x="876" y="1224" w="28" h="30" oX="5" oY="6" oW="40" oH="40" r="y"/>
+    <sprite n="X18_toes_back_right" x="344" y="1840" w="29" h="31" oX="4" oY="5" oW="40" oH="40" r="y"/>
+    <sprite n="X18_toes_front_left" x="298" y="1734" w="37" h="40" oX="1" oY="0" oW="40" oH="40"/>
+    <sprite n="X18_toes_front_right" x="722" y="1605" w="38" h="40" oX="0" oY="1" oW="40" oH="40" r="y"/>
+    <sprite n="X18_torso_01" x="876" y="1333" w="137" h="200" oX="3" oY="5" oW="144" oH="210"/>
+    <sprite n="X18_upperarm_full" x="860" y="1632" w="153" h="61" oX="8" oY="10" oW="170" oH="80"/>
+    <sprite n="X18_upperleg_back_left" x="764" y="1512" w="108" h="61" oX="2" oY="6" oW="66" oH="120" r="y"/>
+    <sprite n="X18_upperleg_back_right" x="908" y="918" w="112" h="53" oX="4" oY="4" oW="60" oH="120" r="y"/>
+    <sprite n="X18_upperleg_front_left" x="3" y="1336" w="198" h="91" oX="3" oY="4" oW="96" oH="204" r="y"/>
+    <sprite n="X18_upperleg_front_right" x="303" y="1252" w="215" h="93" oX="3" oY="5" oW="99" oH="225" r="y"/>
+</TextureAtlas>

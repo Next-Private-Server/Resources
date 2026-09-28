@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0116fb21c44a56843b82a80cf6b43410:7649f183c415b613abd16d356369261b:c87650d21fa8b592206c704e7c1df754$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_GL_costume_04_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="GL_left_lowerarm" x="171" y="0" w="83" h="140" pX="0.5" pY="0.5" oX="0" oY="0" oW="84" oH="144"/>
+	<sprite n="GL_left_upperarm" x="142" y="192" w="99" h="49" pX="0.5" pY="0.5" oX="0" oY="4" oW="52" oH="108" r="y"/>
+	<sprite n="GL_lowerbody" x="0" y="0" w="169" h="138" pX="0.5" pY="0.5" oX="2" oY="1" oW="144" oH="172" r="y"/>
+	<sprite n="GL_right_ear" x="0" y="354" w="58" h="58" pX="0.5" pY="0.5" oX="2" oY="4" oW="60" oH="64"/>
+	<sprite n="GL_right_lowerarm" x="0" y="277" w="139" h="75" pX="0.5" pY="0.5" oX="1" oY="1" oW="76" oH="140" r="y"/>
+	<sprite n="GL_right_upperarm" x="142" y="142" w="101" h="48" pX="0.5" pY="0.5" oX="2" oY="0" oW="52" oH="104" r="y"/>
+	<sprite n="GL_upperbody" x="0" y="140" w="140" h="135" pX="0.5" pY="0.5" oX="4" oY="0" oW="140" oH="140" r="y"/>
+	<sprite n="GL_wig" x="142" y="243" w="89" h="121" pX="0.5" pY="0.5" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:76c7867afb542d64c11549f1f02133bb:4dacdfd23f90457a6d5dce85355ce932:40a8e7bf716234ee169a12b4202449e7$ -->
+<TextureAtlas imagePath="gfx/structures/attunement_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="attunement_window" x="354" y="313" w="239" h="455" oX="1" oY="1" oW="240" oH="460">
+		<vertices>178 18 205 112 235 377 240 448 194 439 126 456 77 405 21 179 1 88 31 18 102 1</vertices>
+		<verticesUV>531 330 558 424 588 689 593 760 547 751 479 768 430 717 374 491 354 400 384 330 455 313</verticesUV>
+		<triangles>8 9 10 1 8 10 6 4 5 2 4 6 2 3 4 2 6 7 1 2 7 1 7 8 0 1 10</triangles>
+	</sprite>
+	<sprite n="atunement_backfoot" x="0" y="924" w="137" h="97" oX="0" oY="2" oW="140" oH="100">
+		<vertices>129 9 137 36 57 93 9 99 0 34 66 2</vertices>
+		<verticesUV>129 931 137 958 57 1015 9 1021 0 956 66 924</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="atunement_backfootb" x="214" y="400" w="68" h="48" oX="7" oY="8" oW="140" oH="100">
+		<vertices>39 56 7 42 75 8</vertices>
+		<verticesUV>246 448 214 434 282 400</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="atunement_base" x="0" y="0" w="426" h="783" oX="7" oY="13" oW="440" oH="800">
+		<vertices>214 16 324 71 338 235 376 559 433 727 413 766 319 796 228 782 162 739 64 718 27 549 104 491 7 139 58 53 130 13 261 601 301 654 359 639 362 578 310 537 119 129 114 239 177 468 291 479 292 366 264 172 218 100</vertices>
+		<verticesUV>207 3 317 58 331 222 369 546 426 714 406 753 312 783 221 769 155 726 57 705 20 536 97 478 0 126 51 40 123 0 254 588 294 641 352 626 355 565 303 524 112 116 107 226 170 455 284 466 285 353 257 159 211 87</verticesUV>
+		<triangles>20 13 14 15 10 11 15 8 9 8 15 16 8 16 7 11 22 15 17 4 5 19 3 18 3 24 2 17 3 4 17 18 3 16 17 5 16 5 6 7 16 6 2 24 25 14 0 26 26 0 1 25 26 1 2 25 1 23 3 19 23 24 3 23 19 15 22 23 15 15 9 10 21 22 11 21 11 12 20 21 12 20 12 13 14 26 20</triangles>
+	</sprite>
+	<sprite n="atunement_baseb" x="193" y="180" w="189" h="640" oX="29" oY="16" oW="440" oH="800">
+		<vertices>85 621 71 656 29 594 218 67 171 67 171 16 218 16</vertices>
+		<verticesUV>249 785 235 820 193 758 382 231 335 231 335 180 382 180</verticesUV>
+		<triangles>0 1 2 4 5 6 3 4 6</triangles>
+	</sprite>
+	<sprite n="atunement_bubble" x="0" y="858" w="59" h="58" oX="0" oY="1" oW="60" oH="60">
+		<vertices>51 3 59 14 55 52 29 59 11 53 0 32 11 1</vertices>
+		<verticesUV>51 860 59 871 55 909 29 916 11 910 0 889 11 858</verticesUV>
+		<triangles>3 4 5 1 3 5 1 2 3 0 1 5 0 5 6</triangles>
+	</sprite>
+	<sprite n="atunement_bubbler" x="0" y="342" w="57" h="138" oX="0" oY="1" oW="60" oH="140">
+		<vertices>57 139 16 139 0 84 19 1 57 1</vertices>
+		<verticesUV>57 480 16 480 0 425 19 342 57 342</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="atunement_cell" x="338" y="233" w="14" h="16">
+		<vertices>14 16 0 16 0 0 14 0</vertices>
+		<verticesUV>352 249 338 249 338 233 352 233</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_centerpiece" x="900" y="157" w="83" h="81" oX="3" oY="2" oW="90" oH="90">
+		<vertices>86 41 73 83 18 82 3 31 25 9 59 2</vertices>
+		<verticesUV>983 196 970 238 915 237 900 186 922 164 956 157</verticesUV>
+		<triangles>2 0 1 2 3 4 2 4 0 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_centerpieceb" x="885" y="463" w="83" h="81" oX="3" oY="2" oW="90" oH="90">
+		<vertices>86 41 73 83 18 82 3 31 25 9 59 2</vertices>
+		<verticesUV>968 502 955 544 900 543 885 492 907 470 941 463</verticesUV>
+		<triangles>2 0 1 2 3 4 2 4 0 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_ear_left_a" x="840" y="670" w="97" h="121" oX="1" oY="4" oW="100" oH="130">
+		<vertices>98 60 55 125 1 125 1 63 40 4 98 4</vertices>
+		<verticesUV>937 726 894 791 840 791 840 729 879 670 937 670</verticesUV>
+		<triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_ear_left_ab" x="326" y="98" w="35" h="39" oX="61" oY="20" oW="100" oH="130">
+		<vertices>96 59 61 59 61 20 96 20</vertices>
+		<verticesUV>361 137 326 137 326 98 361 98</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_ear_left_b" x="334" y="139" w="40" h="39" oX="5" oY="5" oW="50" oH="50">
+		<vertices>45 44 5 44 5 5 45 5</vertices>
+		<verticesUV>374 178 334 178 334 139 374 139</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_ear_nub_01" x="270" y="567" w="80" h="58" oX="0" oY="0" oW="80" oH="60">
+		<vertices>72 21 80 53 75 58 15 58 0 21 11 1 44 0</vertices>
+		<verticesUV>342 588 350 620 345 625 285 625 270 588 281 568 314 567</verticesUV>
+		<triangles>4 5 6 3 4 6 0 2 3 0 1 2 0 3 6</triangles>
+	</sprite>
+	<sprite n="atunement_ear_nub_01b" x="343" y="773" w="29" h="37" oX="0" oY="4" oW="80" oH="60">
+		<vertices>29 13 29 41 8 41 0 21 9 4</vertices>
+		<verticesUV>372 782 372 810 351 810 343 790 352 773</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="atunement_ear_right_a" x="131" y="860" w="162" h="118" oX="2" oY="0" oW="170" oH="120">
+		<vertices>164 56 164 110 122 118 17 91 2 64 10 6 92 0</vertices>
+		<verticesUV>293 916 293 970 251 978 146 951 131 924 139 866 221 860</verticesUV>
+		<triangles>4 5 6 3 4 6 2 3 6 0 1 2 0 2 6</triangles>
+	</sprite>
+	<sprite n="atunement_ear_right_ab" x="432" y="264" w="59" h="42" oX="32" oY="33" oW="170" oH="120">
+		<vertices>91 75 32 75 32 33 91 33</vertices>
+		<verticesUV>491 306 432 306 432 264 491 264</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_ear_right_b" x="620" y="415" w="77" h="48" oX="1" oY="1" oW="80" oH="50">
+		<vertices>68 3 78 28 70 49 8 49 1 29 10 1</vertices>
+		<verticesUV>687 417 697 442 689 463 627 463 620 443 629 415</verticesUV>
+		<triangles>3 0 2 3 4 0 0 1 2 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_foot_front_01" x="318" y="878" w="107" h="110" oX="0" oY="0" oW="110" oH="110">
+		<vertices>107 110 3 110 0 44 42 7 78 0 107 0</vertices>
+		<verticesUV>425 988 321 988 318 922 360 885 396 878 425 878</verticesUV>
+		<triangles>0 4 5 0 3 4 2 0 1 2 3 0</triangles>
+	</sprite>
+	<sprite n="atunement_foot_front_01b" x="0" y="0" w="37" h="43" oX="23" oY="22" oW="110" oH="110">
+		<vertices>60 65 23 65 23 22 60 22</vertices>
+		<verticesUV>37 43 0 43 0 0 37 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_foot_front_02" x="733" y="833" w="105" h="75" oX="2" oY="2" oW="110" oH="80">
+		<vertices>107 77 2 77 2 2 107 2</vertices>
+		<verticesUV>838 908 733 908 733 833 838 833</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_foot_front_02b" x="244" y="0" w="47" h="42" oX="56" oY="0" oW="110" oH="80">
+		<vertices>103 42 56 7 103 0</vertices>
+		<verticesUV>291 42 244 7 291 0</verticesUV>
+		<triangles>0 1 2</triangles>
+	</sprite>
+	<sprite n="atunement_foot_side" x="803" y="410" w="83" h="69" oX="2" oY="1" oW="90" oH="70">
+		<vertices>85 9 85 41 27 70 8 61 2 43 22 7 74 1</vertices>
+		<verticesUV>886 418 886 450 828 479 809 470 803 452 823 416 875 410</verticesUV>
+		<triangles>1 5 6 4 2 3 4 5 2 1 2 5 0 1 6</triangles>
+	</sprite>
+	<sprite n="atunement_glass_01" x="141" y="273" w="134" h="155" oX="0" oY="2" oW="140" oH="160">
+		<vertices>134 29 134 129 79 157 20 134 0 71 15 25 64 2</vertices>
+		<verticesUV>275 300 275 400 220 428 161 405 141 342 156 296 205 273</verticesUV>
+		<triangles>4 5 6 1 2 4 2 3 4 0 1 4 0 4 6</triangles>
+	</sprite>
+	<sprite n="atunement_glass_02" x="504" y="930" w="73" h="78" oX="5" oY="1" oW="80" oH="80">
+		<vertices>56 2 78 32 65 76 24 79 7 51 5 1</vertices>
+		<verticesUV>555 931 577 961 564 1005 523 1008 506 980 504 930</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_hole_01" x="844" y="79" w="163" h="71" oX="4" oY="8" oW="170" oH="80">
+		<vertices>143 11 167 53 131 70 91 79 31 70 4 43 35 8</vertices>
+		<verticesUV>983 82 1007 124 971 141 931 150 871 141 844 114 875 79</verticesUV>
+		<triangles>4 5 6 3 4 6 0 2 3 0 1 2 0 3 6</triangles>
+	</sprite>
+	<sprite n="atunement_hole_02" x="847" y="489" w="35" h="37" oX="0" oY="1" oW="37" oH="38">
+		<vertices>35 35 18 38 1 32 0 3 10 1 35 1</vertices>
+		<verticesUV>882 523 865 526 848 520 847 491 857 489 882 489</verticesUV>
+		<triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+	</sprite>
+	<sprite n="atunement_internal" x="114" y="117" w="132" h="154" oX="3" oY="5" oW="140" oH="160">
+		<vertices>135 65 135 139 78 159 4 127 3 6 107 5</vertices>
+		<verticesUV>246 177 246 251 189 271 115 239 114 118 218 117</verticesUV>
+		<triangles>0 4 5 0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="atunement_monster_01" x="771" y="98" w="136" h="132" oX="38" oY="14" oW="180" oH="180">
+		<vertices>174 92 120 146 39 140 38 51 84 14</vertices>
+		<verticesUV>907 176 853 230 772 224 771 135 817 98</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="atunement_monster_02" x="245" y="785" w="121" h="141" oX="25" oY="27" oW="180" oH="180">
+		<vertices>104 28 146 70 146 119 84 168 25 96 60 27</vertices>
+		<verticesUV>324 786 366 828 366 877 304 926 245 854 280 785</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_monster_03" x="377" y="730" w="116" h="145" oX="30" oY="10" oW="180" oH="180">
+		<vertices>146 64 146 140 50 155 30 65 85 10</vertices>
+		<verticesUV>493 784 493 860 397 875 377 785 432 730</verticesUV>
+		<triangles>2 0 1 2 3 0 0 3 4</triangles>
+	</sprite>
+	<sprite n="atunement_monster_04" x="753" y="499" w="125" h="137" oX="31" oY="19" oW="180" oH="180">
+		<vertices>156 75 129 156 66 139 31 93 52 42 100 19</vertices>
+		<verticesUV>878 555 851 636 788 619 753 573 774 522 822 499</verticesUV>
+		<triangles>0 4 5 2 3 4 0 1 2 0 2 4</triangles>
+	</sprite>
+	<sprite n="atunement_monster_05" x="733" y="718" w="105" h="113" oX="38" oY="33" oW="180" oH="180">
+		<vertices>143 146 38 146 38 33 143 33</vertices>
+		<verticesUV>838 831 733 831 733 718 838 718</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_monster_06" x="853" y="546" w="124" h="125" oX="23" oY="30" oW="180" oH="180">
+		<vertices>147 110 118 155 23 123 54 31 137 30</vertices>
+		<verticesUV>977 626 948 671 853 639 884 547 967 546</verticesUV>
+		<triangles>0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="atunement_shadow_01" x="687" y="231" w="314" h="111" oX="17" oY="3" oW="350" oH="120">
+		<vertices>210 5 326 27 331 55 273 89 158 114 17 23 80 3</vertices>
+		<verticesUV>880 233 996 255 1001 283 943 317 828 342 687 251 750 231</verticesUV>
+		<triangles>4 5 6 0 3 4 3 0 1 3 1 2 0 4 6</triangles>
+	</sprite>
+	<sprite n="atunement_shadow_02" x="606" y="0" w="347" h="108" oX="0" oY="10" oW="350" oH="120">
+		<vertices>347 26 347 64 161 118 1 54 0 11 76 15 188 31 231 10</vertices>
+		<verticesUV>953 16 953 54 767 108 607 44 606 1 682 5 794 21 837 0</verticesUV>
+		<triangles>2 5 6 3 4 5 2 3 5 2 6 7 1 2 7 0 1 7</triangles>
+	</sprite>
+	<sprite n="atunement_side" x="591" y="528" w="174" h="187" oX="5" oY="6" oW="180" oH="200">
+		<vertices>179 193 6 191 5 12 160 6</vertices>
+		<verticesUV>765 715 592 713 591 534 746 528</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="atunement_tail" x="375" y="0" w="394" h="275" oX="1" oY="2" oW="400" oH="280">
+		<vertices>395 147 395 213 298 257 154 277 21 229 1 135 19 24 156 2</vertices>
+		<verticesUV>769 145 769 211 672 255 528 275 395 227 375 133 393 22 530 0</verticesUV>
+		<triangles>5 6 7 3 5 7 3 4 5 2 3 7 0 1 2 0 2 7</triangles>
+	</sprite>
+	<sprite n="atunement_tail_glare" x="551" y="260" w="370" h="266" oX="6" oY="11" oW="400" oH="280">
+		<vertices>172 24 303 122 376 142 376 161 291 156 206 182 225 210 162 217 169 184 71 115 73 217 121 243 196 250 292 234 330 209 375 214 191 277 45 238 8 148 6 61 108 11</vertices>
+		<verticesUV>717 273 848 371 921 391 921 410 836 405 751 431 770 459 707 466 714 433 616 364 618 466 666 492 741 499 837 483 875 458 920 463 736 526 590 487 553 397 551 310 653 260</verticesUV>
+		<triangles>9 19 20 13 14 15 13 15 16 12 13 16 11 12 16 11 16 17 10 11 17 10 17 18 9 10 18 9 18 19 0 8 9 5 6 7 5 7 8 0 5 8 1 4 5 1 2 3 1 3 4 0 1 5 0 9 20</triangles>
+	</sprite>
+	<sprite n="atunement_tier2_glass_01" x="591" y="716" w="140" h="154" oX="0" oY="0" oW="140" oH="160">
+		<vertices>140 1 140 133 78 154 14 142 0 70 14 0</vertices>
+		<verticesUV>731 717 731 849 669 870 605 858 591 786 605 716</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_tier2_glass_02" x="939" y="674" w="77" h="80" oX="0" oY="0" oW="80" oH="80">
+		<vertices>71 21 77 48 62 80 0 80 0 0 50 0</vertices>
+		<verticesUV>1010 695 1016 722 1001 754 939 754 939 674 989 674</verticesUV>
+		<triangles>3 4 5 1 2 3 0 1 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_01" x="759" y="622" w="90" h="92" oX="5" oY="7" oW="100" oH="100">
+		<vertices>95 36 79 88 35 99 5 12 37 7</vertices>
+		<verticesUV>849 651 833 703 789 714 759 627 791 622</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_02" x="806" y="910" w="75" h="88" oX="10" oY="12" oW="100" oH="100">
+		<vertices>85 24 85 88 53 100 41 97 10 35 17 12</vertices>
+		<verticesUV>881 922 881 986 849 998 837 995 806 933 813 910</verticesUV>
+		<triangles>1 2 3 0 1 3 0 3 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_03" x="296" y="0" w="95" h="79" oX="2" oY="19" oW="100" oH="100">
+		<vertices>97 38 67 98 37 98 2 30 17 21 78 19</vertices>
+		<verticesUV>391 19 361 79 331 79 296 11 311 2 372 0</verticesUV>
+		<triangles>2 4 5 2 3 4 1 2 5 0 1 5</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_04" x="654" y="852" w="77" h="96" oX="9" oY="3" oW="100" oH="100">
+		<vertices>78 93 64 99 9 66 9 32 86 3</vertices>
+		<verticesUV>723 942 709 948 654 915 654 881 731 852</verticesUV>
+		<triangles>0 3 4 2 3 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_05" x="495" y="757" w="89" h="86" oX="8" oY="6" oW="100" oH="100">
+		<vertices>97 10 81 92 18 91 8 51 51 6</vertices>
+		<verticesUV>584 761 568 843 505 842 495 802 538 757</verticesUV>
+		<triangles>1 3 4 1 2 3 0 1 4</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_06" x="427" y="865" w="75" h="97" oX="13" oY="2" oW="100" oH="100">
+		<vertices>80 29 88 77 66 99 15 78 13 13 62 2</vertices>
+		<verticesUV>494 892 502 940 480 962 429 941 427 876 476 865</verticesUV>
+		<triangles>0 4 5 1 2 3 0 1 3 0 3 4</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_07" x="840" y="793" w="81" h="93" oX="18" oY="1" oW="100" oH="100">
+		<vertices>66 7 99 74 20 94 18 5 53 1</vertices>
+		<verticesUV>888 799 921 866 842 886 840 797 875 793</verticesUV>
+		<triangles>0 3 4 0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="atunement_turbine_08" x="340" y="233" w="89" h="97" oX="8" oY="0" oW="100" oH="100">
+		<vertices>97 52 79 83 32 97 8 46 29 6 45 0</vertices>
+		<verticesUV>429 285 411 316 364 330 340 279 361 239 377 233</verticesUV>
+		<triangles>3 4 5 0 1 3 1 2 3 0 3 5</triangles>
+	</sprite>
+	<sprite n="glow" x="722" y="910" w="82" h="82" oX="1" oY="3" oW="88" oH="88">
+		<vertices>83 10 83 78 40 85 16 78 1 46 12 14 39 3</vertices>
+		<verticesUV>804 917 804 985 761 992 737 985 722 953 733 921 760 910</verticesUV>
+		<triangles>4 5 6 2 4 6 2 3 4 0 1 2 0 2 6</triangles>
+	</sprite>
+	<sprite n="glow_blue" x="493" y="845" w="87" h="84" oX="0" oY="2" oW="88" oH="88">
+		<vertices>80 11 87 55 63 86 15 84 0 38 14 17 36 2</vertices>
+		<verticesUV>573 854 580 898 556 929 508 927 493 881 507 860 529 845</verticesUV>
+		<triangles>1 2 5 4 5 2 4 2 3 1 5 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="glow_yellow" x="894" y="763" w="84" h="83" oX="0" oY="3" oW="88" oH="88">
+		<vertices>84 20 84 69 53 86 17 80 0 41 18 8 53 3</vertices>
+		<verticesUV>978 780 978 829 947 846 911 840 894 801 912 768 947 763</verticesUV>
+		<triangles>4 5 6 2 4 6 2 3 4 1 2 6 0 1 6</triangles>
+	</sprite>
+	<sprite n="star" x="0" y="722" w="200" h="200">
+		<vertices>161 69 200 71 200 129 136 142 129 200 73 200 58 135 0 129 0 82 82 0 124 0</vertices>
+		<verticesUV>161 791 200 793 200 851 136 864 129 922 73 922 58 857 0 851 0 804 82 722 124 722</verticesUV>
+		<triangles>0 9 10 6 8 9 6 7 8 5 3 4 5 6 3 0 3 6 0 1 2 0 2 3 0 6 9</triangles>
+	</sprite>
+</TextureAtlas>

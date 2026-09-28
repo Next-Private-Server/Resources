@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:291bf39c200b2140faeb7d7490e782b4:91b1f1d94be4af1b2eb4369c23a5f729:89c78eb3283457f010f64dd59bd26218$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_BN_costume_02_sheet.png" width="256" height="512" hires="true">
+    <sprite n="monster_BN_glasses.png" x="2" y="2" w="161" h="79" oX="-7.212987012987" oY="3.9212454212454" oW="180" oH="90"/>
+    <sprite n="monster_BN_sandalLeft.png" x="118" y="138" w="114" h="109" oX="-1.4884" oY="-1.0048" oW="110" oH="114" r="y"/>
+    <sprite n="monster_BN_sandalRight.png" x="2" y="83" w="114" h="110" oX="-4.4883720930232" oY="-1.0048" oW="110" oH="114" r="y"/>
+    <sprite n="monster_BN_strapLeft.png" x="2" y="263" w="85" h="49" oX="20.5116" oY="23.9952" oW="110" oH="114"/>
+    <sprite n="monster_BN_strapRight.png" x="2" y="314" w="85" h="49" oX="-2.4883720930232" oY="23.9952" oW="110" oH="114"/>
+    <sprite n="monster_BN_upperlegLeft.png" x="165" y="2" w="86" h="66" oX="-1.3059379310344" oY="-1.75920000000001" oW="66" oH="90" r="y"/>
+    <sprite n="monster_BN_upperlegRight.png" x="165" y="70" w="86" h="66" oX="0.236600000000003" oY="-0.897199999999998" oW="66" oH="90" r="y"/>
+    <sprite n="monster_BN_wwLeft.png" x="2" y="195" w="93" h="66" oX="4.73480000000001" oY="-6.182995951417" oW="70" oH="100" r="y"/>
+    <sprite n="monster_BN_wwRight.png" x="97" y="249" w="93" h="66" oX="62.6882770461896" oY="-5.183" oW="70" oH="100" r="y"/>
+</TextureAtlas>

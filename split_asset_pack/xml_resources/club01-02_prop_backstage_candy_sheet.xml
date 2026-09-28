@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:82c7a87bad6b7c64f30497fd0872b620:ebfc8b76df2f79f59b3952a7f1459375:7fe5a6fc43377ae7d72eb60fb2a9cdf1$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-02_prop_backstage_candy_sheet.png" width="512" height="256" hires="true" version="1">
+	<sprite n="bg_cottoncandy" x="0" y="0" w="183" h="210" oX="21" oY="1" oW="221" oH="225">
+		<vertices>204 171 144 211 76 211 22 157 21 85 81 1 183 1</vertices>
+		<verticesUV>183 170 123 210 55 210 1 156 0 84 60 0 162 0</verticesUV>
+		<triangles>0 5 6 0 4 5 3 4 1 3 1 2 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_cone" x="472" y="0" w="38" h="71" oX="1" oY="2" oW="40" oH="75">
+		<vertices>39 3 39 72 18 73 1 2</vertices>
+		<verticesUV>510 1 510 70 489 71 472 0</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_icing" x="51" y="212" w="54" h="44" oX="2" oY="4" oW="60" oH="50">
+		<vertices>56 34 27 48 12 40 2 25 6 9 56 4</vertices>
+		<verticesUV>105 242 76 256 61 248 51 233 55 217 105 212</verticesUV>
+		<triangles>0 4 5 2 3 4 2 4 0 2 0 1</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_sparkle_glow" x="283" y="0" w="93" h="107" oX="5" oY="1" oW="111" oH="113">
+		<vertices>98 7 98 104 32 108 5 42 46 1</vertices>
+		<verticesUV>376 6 376 103 310 107 283 41 324 0</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_sprinkle_glow_blue" x="107" y="212" w="35" h="36" oX="25" oY="32" oW="86" oH="100">
+		<vertices>60 68 25 68 25 32 60 32</vertices>
+		<verticesUV>142 248 107 248 107 212 142 212</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_sprinkle_glow_pink" x="460" y="147" w="35" h="36" oX="25" oY="32" oW="86" oH="100">
+		<vertices>60 68 25 68 25 32 60 32</vertices>
+		<verticesUV>495 183 460 183 460 147 495 147</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_star1" x="232" y="74" w="77" h="99" oX="18" oY="18" oW="110" oH="130">
+		<vertices>95 55 64 117 18 68 58 18</vertices>
+		<verticesUV>309 111 278 173 232 124 272 74</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_star2" x="180" y="105" w="76" h="76" oX="24" oY="30" oW="110" oH="130">
+		<vertices>100 83 38 106 24 50 58 30</vertices>
+		<verticesUV>256 158 194 181 180 125 214 105</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_star3" x="288" y="109" w="78" h="86" oX="24" oY="23" oW="110" oH="130">
+		<vertices>102 47 60 109 24 72 56 23</vertices>
+		<verticesUV>366 133 324 195 288 158 320 109</verticesUV>
+		<triangles>0 1 2 0 2 3</triangles>
+	</sprite>
+	<sprite n="bg_cottoncandy_star_glow" x="460" y="95" w="42" h="50" oX="1" oY="0" oW="43" oH="50">
+		<vertices>43 50 15 50 1 28 4 0 43 0</vertices>
+		<verticesUV>502 145 474 145 460 123 463 95 502 95</verticesUV>
+		<triangles>2 3 4 0 2 4 0 1 2</triangles>
+	</sprite>
+	<sprite n="bg_gumdrop_blue" x="0" y="193" w="49" h="55" oX="5" oY="1" oW="60" oH="60">
+		<vertices>54 15 54 45 33 56 5 50 6 20 23 1</vertices>
+		<verticesUV>49 207 49 237 28 248 0 242 1 212 18 193</verticesUV>
+		<triangles>0 1 2 2 3 4 0 2 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="bg_gumdrop_green" x="172" y="0" w="114" h="111" oX="0" oY="7" oW="120" oH="120">
+		<vertices>114 62 64 118 0 69 59 7</vertices>
+		<verticesUV>286 55 236 111 172 62 231 0</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_gumdrop_orange" x="378" y="95" w="67" h="74" oX="22" oY="23" oW="120" oH="120">
+		<vertices>89 97 22 97 22 23 89 23</vertices>
+		<verticesUV>445 169 378 169 378 95 445 95</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_gumdrop_red" x="288" y="198" w="53" h="58" oX="1" oY="1" oW="60" oH="60">
+		<vertices>54 3 54 56 17 59 1 35 15 6 25 1</vertices>
+		<verticesUV>341 200 341 253 304 256 288 232 302 203 312 198</verticesUV>
+		<triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+	</sprite>
+	<sprite n="bg_gumdrop_yellow" x="343" y="171" w="70" h="68" oX="29" oY="26" oW="120" oH="120">
+		<vertices>99 94 29 94 29 26 99 26</vertices>
+		<verticesUV>413 239 343 239 343 171 413 171</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_lollipop" x="378" y="0" w="95" h="93" oX="0" oY="1" oW="100" oH="100">
+		<vertices>95 17 95 94 13 94 0 17 49 1</vertices>
+		<verticesUV>473 16 473 93 391 93 378 16 427 0</verticesUV>
+		<triangles>2 3 4 1 2 4 0 1 4</triangles>
+	</sprite>
+	<sprite n="bg_lollipop_stick" x="447" y="95" w="11" h="96" oX="14" oY="14" oW="35" oH="120">
+		<vertices>25 110 14 110 14 14 25 14</vertices>
+		<verticesUV>458 191 447 191 447 95 458 95</verticesUV>
+		<triangles>1 2 3 0 1 3</triangles>
+	</sprite>
+	<sprite n="bg_lollipop_stick_icing" x="225" y="161" w="45" h="38" oX="2" oY="2" oW="48" oH="40">
+		<vertices>47 10 41 35 21 40 4 26 2 15 31 2 40 2</vertices>
+		<verticesUV>270 169 264 194 244 199 227 185 225 174 254 161 263 161</verticesUV>
+		<triangles>0 1 5 3 4 5 2 3 5 1 2 5 0 5 6</triangles>
+	</sprite>
+</TextureAtlas>

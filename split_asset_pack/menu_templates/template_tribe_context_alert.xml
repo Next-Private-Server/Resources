@@ -1,0 +1,40 @@
+<template name="template_tribe_context_alert" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+	
+	<template type="template_indicator" name="Indicator">
+	<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-22*game.hudScale()" yOffset="3*game.hudScale()" priorityOffset="-1" />
+	</template>
+	
+	<event name="onInit" params="element">
+		local showTribalAlert = (game.numIslands() > 1 or game.playerLevel() >= 10) and (game.newTribalInviteNotice() or game.newTribalRequestNotice())
+		local showColdIslandAlert = game.playerLevel() >= 6 and not game.isIslandOwned(2) and game.playerCanAffordIsland(2)
+
+		--print("Show Tribal Alert?", showTribalAlert)
+		--print("Show Cold Island Alert?", showColdIslandAlert)
+
+		if( showTribalAlert or showColdIslandAlert) then
+			element["Indicator"]:Show()
+		else
+			element["Indicator"]:Hide()
+		end
+	</event>
+	
+	<event name="SetVisible" params="element">
+		element["Indicator"]:Show()
+	</event>
+	
+	<event name="SetInvisible" params="element">
+		element["Indicator"]:Hide()
+	</event>
+	
+	<event name="SetEnabled" params="element">
+		element["Indicator"]:SetEnabled()
+	</event>
+	
+	<event name="SetDisabled" params="element">
+		element["Indicator"]:SetDisabled()
+	</event>
+	
+</template>

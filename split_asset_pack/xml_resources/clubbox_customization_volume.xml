@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cd2f00dcd39f36ab031193cb13e0b8ee:da96de471f96020a688de97721bee401:46ff6c9784fd60cbe3435ee4b81bcec8$ -->
+<TextureAtlas imagePath="gfx/clubbox/clubbox_customization_volume.png" width="256" height="512" hires="false" version="1">
+	<sprite n="button_arrow" x="70" y="94" w="59" h="67" oX="2" oY="0" oW="64" oH="68"/>
+	<sprite n="button_costume" x="70" y="163" w="59" h="61" oX="2" oY="3" oW="64" oH="68"/>
+	<sprite n="button_empty" x="0" y="0" w="92" h="92"/>
+	<sprite n="button_no_monster" x="94" y="0" w="92" h="92"/>
+	<sprite n="costume_edit_icon" x="131" y="94" w="35" h="35"/>
+	<sprite n="volume_slider_lower" x="188" y="0" w="68" h="195"/>
+	<sprite n="volume_slider_none" x="0" y="94" w="68" h="195"/>
+	<sprite n="volume_slider_upper" x="0" y="291" w="60" h="188" oX="4" oY="4" oW="68" oH="195"/>
+</TextureAtlas>

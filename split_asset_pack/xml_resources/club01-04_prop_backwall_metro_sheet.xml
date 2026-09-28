@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:14d3b563c5d085c90d40bfcb0df0c5c0:7b7b4129cc74799c0f9e570e018663ca:c6526290005ac0277198876e502983c8$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-04_prop_backwall_metro_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="baseboard" x="0" y="0" w="936" h="230" oX="0" oY="10" oW="936" oH="240"/>
+	<sprite n="baseboard_glow" x="938" y="0" w="80" h="80"/>
+	<sprite n="Drapery_1" x="938" y="82" w="70" h="200"/>
+	<sprite n="Drapery_1_glow" x="491" y="496" w="70" h="200"/>
+	<sprite n="Drapery_2" x="444" y="284" w="68" h="210"/>
+	<sprite n="Drapery_2_glow" x="441" y="743" w="68" h="210"/>
+	<sprite n="Drapery_3" x="370" y="748" w="69" h="215"/>
+	<sprite n="Drapery_3_glow" x="420" y="526" w="69" h="215"/>
+	<sprite n="Drapery_4" x="272" y="798" w="96" h="220"/>
+	<sprite n="Drapery_4_glow" x="322" y="526" w="96" h="220"/>
+	<sprite n="Drapery_5" x="192" y="556" w="128" h="240"/>
+	<sprite n="Drapery_5_glow" x="314" y="284" w="128" h="240"/>
+	<sprite n="Drapery_6" x="0" y="904" w="270" h="120" r="y"/>
+	<sprite n="Drapery_6_glow" x="192" y="284" w="120" h="270"/>
+	<sprite n="Drapery_7" x="0" y="284" w="190" h="324"/>
+	<sprite n="Drapery_7_glow" x="0" y="610" w="190" h="292" oX="0" oY="32" oW="190" oH="324"/>
+</TextureAtlas>

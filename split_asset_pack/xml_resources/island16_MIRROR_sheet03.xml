@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4e28298e00f16b6812307164b0565da5:8f500018b3b822407b7515372c0737ef:0c2d8d7e87d94647755aec7c21673e4b$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island16_MIRROR_sheet03.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="ear_back" x="3" y="865" w="128" h="786" oX="167" oY="208" oW="303" oH="1192"/>
+	<sprite n="ear_M_base_back" x="135" y="865" w="185" h="784" oX="26" oY="213" oW="315" oH="1196"/>
+	<sprite n="eye_glow" x="3" y="1655" w="369" h="382" oX="23" oY="22" oW="406" oH="410"/>
+	<sprite n="eye_glow_M" x="376" y="1654" w="368" h="382" oX="19" oY="22" oW="406" oH="410"/>
+	<sprite n="eye_ring_highlight" x="324" y="865" w="362" h="591" oX="9" oY="16" oW="600" oH="400" r="y"/>
+	<sprite n="eye_ring_highlight_M" x="1550" y="1617" w="447" h="367" oX="78" oY="16" oW="600" oH="400"/>
+	<sprite n="eye_shadow" x="1118" y="865" w="326" h="464" oX="64" oY="124" oW="596" oH="596" r="y"/>
+	<sprite n="eye_shadow_M" x="1608" y="865" w="326" h="464" oX="63" oY="124" oW="596" oH="596" r="y"/>
+	<sprite n="eyelid_blue_solid_M" x="690" y="865" w="210" h="467" oX="3" oY="0" oW="470" oH="210" r="y"/>
+	<sprite n="eyelid_bottom" x="889" y="1631" w="206" h="410" oX="7" oY="1" oW="430" oH="210" r="y"/>
+	<sprite n="eyelid_bottom_edge" x="1448" y="805" w="156" h="408" oX="12" oY="0" oW="430" oH="156" r="y"/>
+	<sprite n="eyelid_bottom_edge_highlight" x="748" y="1638" w="137" h="407" oX="11" oY="3" oW="430" oH="140" r="y"/>
+	<sprite n="eyelid_bottom_edge_highlight_M" x="1259" y="1625" w="133" h="379" oX="32" oY="5" oW="430" oH="140" r="y"/>
+	<sprite n="eyelid_bottom_edge_M" x="1099" y="1625" w="156" h="397" oX="18" oY="0" oW="430" oH="156" r="y"/>
+	<sprite n="eyelid_bottom_M" x="1611" y="651" w="427" h="210" oX="0" oY="0" oW="430" oH="210"/>
+	<sprite n="eyelid_top" x="1026" y="1336" w="417" h="285" oX="5" oY="3" oW="430" oH="290"/>
+	<sprite n="eyelid_top_edge" x="324" y="1460" w="417" h="190" oX="7" oY="4" oW="430" oH="200"/>
+	<sprite n="eyelid_top_edge_highlight" x="1611" y="499" w="429" h="148" oX="0" oY="0" oW="430" oH="150"/>
+	<sprite n="eyelid_top_edge_highlight_M" x="1396" y="1625" w="150" h="369" oX="33" oY="0" oW="430" oH="150" r="y"/>
+	<sprite n="eyelid_top_edge_M" x="1611" y="295" w="430" h="200"/>
+	<sprite n="eyelid_top_M" x="1611" y="3" w="430" h="288" oX="0" oY="2" oW="430" oH="290"/>
+	<sprite n="eyelid_yellow_solid" x="904" y="865" w="210" h="467" oX="1" oY="0" oW="470" oH="210" r="y"/>
+	<sprite n="glow_sparkle" x="1447" y="1333" w="240" h="280" oX="18" oY="14" oW="308" oH="308"/>
+	<sprite n="megacritter_body_A" x="580" y="805" w="21" h="21" oX="6" oY="8" oW="32" oH="32"/>
+	<sprite n="megacritter_body_B" x="555" y="805" w="21" h="23" oX="4" oY="8" oW="32" oH="32" r="y"/>
+	<sprite n="megacritter_body_C" x="555" y="832" w="21" h="23" oX="4" oY="8" oW="32" oH="32" r="y"/>
+	<sprite n="megacritter_body_D" x="487" y="843" w="22" h="18" oX="5" oY="11" oW="32" oH="32"/>
+	<sprite n="megacritter_head_01" x="297" y="805" w="62" h="36" oX="28" oY="16" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_02" x="227" y="805" w="66" h="36" oX="27" oY="12" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_03" x="487" y="805" w="64" h="34" oX="28" oY="14" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_04" x="155" y="805" w="68" h="36" oX="28" oY="10" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_05" x="81" y="805" w="70" h="36" oX="28" oY="8" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_06" x="3" y="805" w="74" h="36" oX="27" oY="4" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_07" x="424" y="805" w="59" h="35" oX="28" oY="19" oW="92" oH="92" r="y"/>
+	<sprite n="megacritter_head_08" x="363" y="805" w="57" h="36" oX="28" oY="21" oW="92" oH="92" r="y"/>
+	<sprite n="pupil" x="3" y="3" w="800" h="798" oX="0" oY="1" oW="800" oH="800"/>
+	<sprite n="pupil_M" x="807" y="3" w="800" h="798" oX="0" oY="1" oW="800" oH="800"/>
+	<sprite n="shroom_burst_01" x="1938" y="1099" w="95" h="67" oX="49" oY="92" oW="200" oH="200"/>
+	<sprite n="shroom_burst_02" x="1938" y="965" w="95" h="130" oX="29" oY="72" oW="200" oH="200" r="y"/>
+	<sprite n="shroom_burst_03" x="870" y="1336" w="152" h="106" oX="23" oY="59" oW="200" oH="200"/>
+	<sprite n="shroom_burst_04" x="855" y="1455" w="108" h="172" oX="9" oY="53" oW="200" oH="200" r="y"/>
+	<sprite n="shroom_burst_05" x="745" y="1455" w="106" h="179" oX="2" oY="49" oW="200" oH="200" r="y"/>
+	<sprite n="shroom_burst_06" x="690" y="1336" w="176" h="115" oX="7" oY="42" oW="200" oH="200"/>
+	<sprite n="steamcloud" x="1691" y="1333" w="218" h="226" oX="4" oY="0" oW="226" oH="226"/>
+	<sprite n="vine_glow" x="1938" y="865" w="96" h="96" oX="2" oY="2" oW="100" oH="100"/>
+</TextureAtlas>

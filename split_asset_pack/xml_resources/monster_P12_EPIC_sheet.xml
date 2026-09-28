@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:4db8f0e861499ad2866dc7a12eb0ab77:56e2d7c845ac3e9fc725e0052af89ecc:861cedc1c3ba29f5ade472697326b2e1$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_P12_EPIC_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="p12_AntennaL" x="0" y="685" w="151" h="81" r="y" />
+  <sprite n="p12_AntennaR" x="475" y="95" w="31" h="145" />
+  <sprite n="p12_Body" x="283" y="456" w="216" h="254" oX="26" oY="34" oW="290" oH="260" r="y" />
+  <sprite n="p12_Butt_Lower_Back" x="0" y="240" w="281" h="234" oX="4" oY="3" oW="290" oH="240" />
+  <sprite n="p12_Butt_Lower_epic" x="0" y="0" w="295" h="238" oX="0" oY="1" oW="295" oH="240" />
+  <sprite n="p12_Butt_Upper" x="297" y="134" w="166" h="280" oX="0" oY="1" oW="280" oH="240" r="y" />
+  <sprite n="p12_Charm_Clover" x="422" y="835" w="66" h="59" oX="1" oY="2" oW="70" oH="70" />
+  <sprite n="p12_Charm_Diamond" x="422" y="773" w="66" h="60" oX="3" oY="6" oW="70" oH="70" />
+  <sprite n="p12_Charm_Heart" x="0" y="896" w="59" h="59" oX="6" oY="3" oW="70" oH="70" />
+  <sprite n="p12_Charm_Moon" x="153" y="762" w="62" h="56" oX="7" oY="2" oW="70" oH="70" r="y" />
+  <sprite n="p12_EyeL_1" x="465" y="406" w="41" h="48" oX="22" oY="1" oW="70" oH="44" r="y" />
+  <sprite n="p12_EyeL_2" x="233" y="476" w="48" h="41" oX="22" oY="1" oW="70" oH="44" />
+  <sprite n="p12_EyeL_3" x="233" y="519" w="48" h="41" oX="22" oY="1" oW="70" oH="44" />
+  <sprite n="p12_EyeL_4" x="233" y="562" w="48" h="41" oX="22" oY="1" oW="70" oH="44" />
+  <sprite n="p12_EyeR_1" x="465" y="242" w="45" h="39" oX="0" oY="0" oW="60" oH="40" />
+  <sprite n="p12_EyeR_2" x="465" y="283" w="45" h="39" oX="0" oY="0" oW="60" oH="40" />
+  <sprite n="p12_EyeR_3" x="465" y="324" w="45" h="39" oX="0" oY="0" oW="60" oH="40" />
+  <sprite n="p12_EyeR_4" x="465" y="365" w="45" h="39" oX="0" oY="0" oW="60" oH="40" />
+  <sprite n="p12_Head" x="282" y="712" w="138" h="123" oX="6" oY="1" oW="150" oH="140" />
+  <sprite n="p12_Lip" x="422" y="712" w="67" h="59" oX="0" oY="1" oW="70" oH="60" />
+  <sprite n="p12_Mouth_1" x="256" y="759" w="20" h="73" oX="10" oY="2" oW="40" oH="90" />
+  <sprite n="p12_Mouth_2" x="258" y="683" w="22" h="74" oX="11" oY="2" oW="40" oH="90" />
+  <sprite n="p12_Mouth_3" x="233" y="605" w="23" h="77" oX="10" oY="1" oW="40" oH="90" />
+  <sprite n="p12_Mouth_4" x="233" y="684" w="21" h="76" oX="10" oY="2" oW="40" oH="90" />
+  <sprite n="p12_Mouth_5" x="378" y="416" w="78" h="23" oX="7" oY="0" oW="40" oH="90" r="y" />
+  <sprite n="p12_Mouth_6" x="258" y="605" w="23" h="76" oX="7" oY="1" oW="40" oH="90" />
+  <sprite n="p12_Pupil" x="491" y="712" w="16" h="16" />
+  <sprite n="p12_shadow" x="0" y="476" w="231" h="121" />
+  <sprite n="p12_Wing_1" x="163" y="599" w="68" h="161" oX="21" oY="9" oW="134" oH="180" />
+  <sprite n="p12_Wing_1b" x="297" y="73" w="176" h="59" oX="4" oY="0" oW="71" oH="176" r="y" />
+  <sprite n="p12_Wing_1c" x="283" y="416" w="93" h="28" oX="3" oY="0" oW="35" oH="93" r="y" />
+  <sprite n="p12_Wing_2" x="0" y="599" w="161" h="84" oX="15" oY="8" oW="134" oH="180" r="y" />
+  <sprite n="p12_Wing_2b" x="297" y="0" w="176" h="71" r="y" />
+  <sprite n="p12_Wing_2c" x="475" y="0" w="35" h="93" />
+</TextureAtlas>

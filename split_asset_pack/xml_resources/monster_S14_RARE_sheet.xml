@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:de5c169e2578f73f57873191c0283277:d2a8e0d28bb993b1cc6b852e07353f71:2f2f0ee2421958c9d1331155e0d57fa8$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_S14_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="S14_backbow_back" x="315" y="580" w="61" h="29" oX="2" oY="2" oW="32" oH="64" r="y"/>
+	<sprite n="S14_backbow_front" x="316" y="385" w="76" h="68" oX="2" oY="2" oW="72" oH="80" r="y"/>
+	<sprite n="S14_backbow_middle" x="472" y="553" w="28" h="18" oX="1" oY="0" oW="20" oH="28" r="y"/>
+	<sprite n="S14_backbow_ribbons" x="110" y="452" w="40" h="64" oX="2" oY="0" oW="44" oH="64"/>
+	<sprite n="S14_base" x="157" y="108" w="134" h="93" oX="5" oY="6" oW="144" oH="104"/>
+	<sprite n="S14_body" x="154" y="290" w="127" h="100" oX="2" oY="6" oW="104" oH="140" r="y"/>
+	<sprite n="S14_book_01" x="0" y="168" w="130" h="86" oX="22" oY="5" oW="160" oH="96"/>
+	<sprite n="S14_book_01_mouthbg" x="402" y="315" w="48" h="79" oX="24" oY="36" oW="160" oH="96" r="y"/>
+	<sprite n="S14_book_01_tongue" x="279" y="441" w="35" h="29" oX="8" oY="54" oW="160" oH="96" r="y"/>
+	<sprite n="S14_book_02" x="320" y="185" w="132" h="84" oX="6" oY="6" oW="144" oH="96"/>
+	<sprite n="S14_book_03" x="157" y="203" w="129" h="85" oX="8" oY="6" oW="144" oH="96"/>
+	<sprite n="S14_book_04" x="0" y="432" w="108" h="94" oX="4" oY="5" oW="116" oH="104"/>
+	<sprite n="S14_book_05" x="322" y="73" w="136" h="110" oX="4" oY="7" oW="144" oH="124"/>
+	<sprite n="S14_book_06" x="164" y="0" w="156" h="106" oX="6" oY="5" oW="168" oH="116"/>
+	<sprite n="S14_book_shadow" x="0" y="0" w="162" h="84" oX="5" oY="4" oW="172" oH="92"/>
+	<sprite n="S14_bottom" x="322" y="0" w="154" h="71" oX="3" oY="5" oW="76" oH="164" r="y"/>
+	<sprite n="S14_bottom_left_hand_01" x="150" y="540" w="66" h="41" oX="26" oY="5" oW="72" oH="76" r="y"/>
+	<sprite n="S14_bottom_left_hand_02" x="315" y="535" w="62" h="43" oX="23" oY="8" oW="72" oH="76" r="y"/>
+	<sprite n="S14_bottom_left_hand_03" x="452" y="330" w="56" h="39" oX="5" oY="31" oW="72" oH="76"/>
+	<sprite n="S14_bottom_left_hand_04" x="394" y="396" w="55" h="37" oX="5" oY="35" oW="72" oH="76"/>
+	<sprite n="S14_bottom_left_lowerarm" x="288" y="250" w="29" h="79" oX="3" oY="6" oW="88" oH="40" r="y"/>
+	<sprite n="S14_bottom_left_upperarm" x="293" y="108" w="25" h="70" oX="5" oY="5" oW="80" oH="44" r="y"/>
+	<sprite n="S14_bottom_left_upperarm_RARE" x="152" y="454" w="71" h="37" oX="5" oY="4" oW="80" oH="44"/>
+	<sprite n="S14_bottom_right_hand_01" x="150" y="583" w="66" h="41" oX="26" oY="5" oW="72" oH="76" r="y"/>
+	<sprite n="S14_bottom_right_hand_02" x="270" y="543" w="43" h="62" oX="23" oY="8" oW="72" oH="76"/>
+	<sprite n="S14_bottom_right_hand_03" x="452" y="371" w="56" h="39" oX="5" oY="31" oW="72" oH="76"/>
+	<sprite n="S14_bottom_right_hand_04" x="394" y="435" w="55" h="37" oX="5" oY="35" oW="72" oH="76"/>
+	<sprite n="S14_bottom_right_lowerarm" x="381" y="507" w="63" h="28" oX="4" oY="4" oW="72" oH="36"/>
+	<sprite n="S14_bottom_right_upperarm" x="454" y="230" w="58" h="23" oX="5" oY="14" oW="68" oH="44"/>
+	<sprite n="S14_eye" x="125" y="434" w="10" h="12" oX="4" oY="5" oW="20" oH="20" r="y"/>
+	<sprite n="S14_eyelids_1" x="478" y="43" w="31" h="53" oX="5" oY="6" oW="64" oH="44" r="y"/>
+	<sprite n="S14_eyelids_1_RARE" x="230" y="392" w="47" h="64" oX="0" oY="4" oW="64" oH="56" r="y"/>
+	<sprite n="S14_eyelids_2" x="283" y="331" w="31" h="53" oX="5" oY="6" oW="64" oH="44" r="y"/>
+	<sprite n="S14_eyelids_2_RARE" x="225" y="458" w="47" h="64" oX="0" oY="4" oW="64" oH="56" r="y"/>
+	<sprite n="S14_eyelids_3" x="283" y="386" w="31" h="53" oX="5" oY="6" oW="64" oH="44" r="y"/>
+	<sprite n="S14_eyelids_3_RARE" x="221" y="524" w="47" h="64" oX="0" oY="4" oW="64" oH="56" r="y"/>
+	<sprite n="S14_eyelids_4" x="392" y="474" w="53" h="31" oX="5" oY="6" oW="64" oH="44"/>
+	<sprite n="S14_eyelids_4_RARE" x="315" y="486" w="64" h="47" oX="0" oY="4" oW="64" oH="56"/>
+	<sprite n="S14_head" x="319" y="271" w="81" h="70" oX="5" oY="4" oW="76" oH="92" r="y"/>
+	<sprite n="S14_mouth_01" x="131" y="304" w="20" h="31" oX="1" oY="3" oW="32" oH="28" r="y"/>
+	<sprite n="S14_mouth_02" x="442" y="553" w="28" h="19" oX="1" oY="4" oW="32" oH="28"/>
+	<sprite n="S14_mouth_03" x="472" y="573" w="20" h="17" oX="2" oY="6" oW="32" oH="28"/>
+	<sprite n="S14_mouth_04" x="460" y="73" w="16" h="15" oX="2" oY="9" oW="32" oH="28" r="y"/>
+	<sprite n="S14_mouth_05" x="460" y="90" w="16" h="11" oX="7" oY="5" oW="32" oH="28" r="y"/>
+	<sprite n="S14_mouth_06" x="110" y="432" w="13" h="18" oX="6" oY="5" oW="32" oH="28"/>
+	<sprite n="S14_mouth_07" x="132" y="238" w="22" h="15" oX="5" oY="4" oW="32" oH="28" r="y"/>
+	<sprite n="S14_mouth_08" x="126" y="337" w="25" h="17" oX="4" oY="2" oW="32" oH="28" r="y"/>
+	<sprite n="S14_neck" x="0" y="86" w="155" h="80" oX="0" oY="5" oW="88" oH="184" r="y"/>
+	<sprite n="S14_page_01" x="126" y="356" w="24" h="76" oX="12" oY="31" oW="92" oH="60" r="y"/>
+	<sprite n="S14_page_02" x="152" y="392" w="76" h="29" oX="12" oY="27" oW="92" oH="60"/>
+	<sprite n="S14_page_03" x="316" y="343" w="78" h="40" oX="9" oY="16" oW="92" oH="60"/>
+	<sprite n="S14_page_04" x="478" y="0" w="32" h="41" oX="14" oY="11" oW="92" oH="60"/>
+	<sprite n="S14_page_05" x="132" y="255" w="20" h="47" oX="4" oY="5" oW="92" oH="60"/>
+	<sprite n="S14_ponytail_01" x="218" y="590" w="46" h="44" oX="7" oY="10" oW="64" oH="64"/>
+	<sprite n="S14_ponytail_01_RARE" x="451" y="412" w="61" h="68" oX="5" oY="13" oW="72" oH="88"/>
+	<sprite n="S14_ponytail_02" x="460" y="182" w="50" h="46" oX="7" oY="7" oW="64" oH="64" r="y"/>
+	<sprite n="S14_ponytail_02_RARE" x="447" y="482" w="64" h="69" oX="2" oY="15" oW="72" oH="88"/>
+	<sprite n="S14_ponytail_03" x="402" y="271" w="50" h="42" oX="7" oY="12" oW="64" oH="64"/>
+	<sprite n="S14_ponytail_03_RARE" x="460" y="103" w="50" h="77" oX="20" oY="4" oW="72" oH="88"/>
+	<sprite n="S14_ponytail_04" x="266" y="607" w="46" h="44" oX="7" oY="10" oW="64" oH="64"/>
+	<sprite n="S14_ponytail_04_RARE" x="454" y="255" w="56" h="73" oX="10" oY="8" oW="72" oH="88"/>
+	<sprite n="S14_right_hand_book" x="0" y="324" w="124" h="106" oX="3" oY="8" oW="112" oH="140" r="y"/>
+	<sprite n="shadow" x="0" y="256" w="129" h="66" oX="5" oY="5" oW="140" oH="76"/>
+	<sprite n="top_left_hand_01" x="110" y="518" w="38" h="66" oX="5" oY="15" oW="80" oH="64" r="y"/>
+	<sprite n="top_left_hand_02" x="379" y="537" w="61" h="42" oX="5" oY="17" oW="80" oH="64"/>
+	<sprite n="top_left_hand_03" x="152" y="493" w="67" h="45" oX="8" oY="5" oW="80" oH="64"/>
+	<sprite n="top_left_lowerarm" x="316" y="455" w="74" h="29" oX="5" oY="3" oW="84" oH="36"/>
+	<sprite n="top_left_upperarm" x="293" y="180" w="25" h="68" oX="5" oY="3" oW="80" oH="32" r="y"/>
+	<sprite n="top_left_upperarm_RARE" x="274" y="472" w="39" h="69" oX="5" oY="5" oW="80" oH="48" r="y"/>
+	<sprite n="top_right_lowerarm" x="152" y="423" w="74" h="29" oX="5" oY="5" oW="84" oH="40"/>
+	<sprite n="top_right_upperarm" x="132" y="168" w="23" h="68" oX="4" oY="6" oW="76" oH="36" r="y"/>
+</TextureAtlas>

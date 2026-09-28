@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c94c348b9fec41bc061ab9cebc0c610e:b163e0f42a7e94fb457bf424701c429e:39bb39cb490dfae431e65463faa94a28$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_GJ_costume_06_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="GJ_hair_A1" x="232" y="0" w="134" h="191" pX="0.189394" pY="0.135" oX="1" oY="1" oW="136" oH="200"/>
+	<sprite n="GJ_hair_A2" x="0" y="251" w="133" h="191" pX="0.189394" pY="0.135" oX="1" oY="1" oW="136" oH="200"/>
+	<sprite n="GJ_hair_A3" x="99" y="0" w="131" h="198" pX="0.189394" pY="0.135" oX="1" oY="1" oW="136" oH="200"/>
+	<sprite n="GJ_hair_B" x="287" y="365" w="78" h="130" pX="0.75" pY="0.0955882" oX="0" oY="3" oW="84" oH="136"/>
+	<sprite n="GJ_hair_C" x="367" y="351" w="72" h="116" pX="0.605263" pY="0.219697" oX="0" oY="0" oW="76" oH="132"/>
+	<sprite n="GJ_hair_C1" x="135" y="200" w="70" h="171" pX="0.583333" pY="0.134146" oX="0" oY="0" oW="72" oH="172"/>
+	<sprite n="GJ_hair_C2" x="0" y="444" w="166" h="67" pX="0.583333" pY="0.134146" oX="3" oY="0" oW="72" oH="172" r="y"/>
+	<sprite n="GJ_hair_C3" x="207" y="200" w="67" h="171" pX="0.583333" pY="0.134146" oX="4" oY="0" oW="72" oH="172"/>
+	<sprite n="GJ_hair_C4" x="276" y="193" w="69" h="170" pX="0.583333" pY="0.134146" oX="0" oY="0" oW="72" oH="172"/>
+	<sprite n="GJ_hair_E1" x="168" y="373" w="117" h="139" pX="0.846774" pY="0.701389" oX="5" oY="2" oW="124" oH="144"/>
+	<sprite n="GJ_hair_E2" x="347" y="232" w="142" h="117" pX="0.846774" pY="0.701389" oX="5" oY="1" oW="124" oH="144" r="y"/>
+	<sprite n="GJ_hair_E3" x="368" y="118" w="144" h="112" pX="0.846774" pY="0.701389" oX="10" oY="0" oW="124" oH="144" r="y"/>
+	<sprite n="GJ_hair_E4" x="368" y="0" w="144" h="116" pX="0.846774" pY="0.701389" oX="5" oY="0" oW="124" oH="144" r="y"/>
+	<sprite n="GJ_hair_G" x="0" y="0" w="97" h="249" pX="0.326531" pY="0.118474" oX="0" oY="0" oW="98" oH="249"/>
+</TextureAtlas>

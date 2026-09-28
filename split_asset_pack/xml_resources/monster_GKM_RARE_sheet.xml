@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:77d90ba38be26f8e21d06f6f294623da:78a629e3f0fd36bb16f40e6679717973:8a98848be9c18387ab9b3c94e03e49cf$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_GKM_RARE_sheet.png" width="1024" height="1024" hires="true" version="1">
+  <sprite n="GKM_back" x="0" y="0" w="162" h="305" oX="11" oY="9" oW="184" oH="322" />
+  <sprite n="GKM_eye_rare" x="800" y="183" w="70" h="70" />
+  <sprite n="GKM_eye_reflection" x="87" y="863" w="26" h="30" />
+  <sprite n="GKM_eyelid_01" x="695" y="605" w="58" h="58" />
+  <sprite n="GKM_eyelid_02" x="755" y="602" w="58" h="58" />
+  <sprite n="GKM_eyelid_03" x="748" y="0" w="58" h="58" />
+  <sprite n="GKM_eyelid_04" x="748" y="60" w="58" h="58" />
+  <sprite n="GKM_eyelid_05" x="966" y="294" w="58" h="58" />
+  <sprite n="GKM_eyelid_06" x="966" y="354" w="58" h="58" />
+  <sprite n="GKM_eyelid_07" x="925" y="414" w="58" h="58" />
+  <sprite n="GKM_h1p1_01" x="811" y="404" w="112" h="69" oX="1" oY="1" oW="72" oH="240" r="y" />
+  <sprite n="GKM_h1p1_02" x="699" y="484" w="69" h="116" oX="1" oY="1" oW="72" oH="240" />
+  <sprite n="GKM_h1p1_03" x="296" y="0" w="69" h="234" oX="1" oY="1" oW="72" oH="240" />
+  <sprite n="GKM_h1p1_04" x="177" y="306" w="69" h="238" oX="1" oY="1" oW="72" oH="240" />
+  <sprite n="GKM_h1p1_05" x="746" y="665" w="69" h="116" oX="1" oY="123" oW="72" oH="240" />
+  <sprite n="GKM_h1p1_06" x="851" y="475" w="69" h="112" oX="1" oY="127" oW="72" oH="240" />
+  <sprite n="GKM_h1p2_01" x="631" y="890" w="59" h="119" oX="1" oY="0" oW="62" oH="246" />
+  <sprite n="GKM_h1p2_02" x="0" y="901" w="59" h="123" oX="1" oY="0" oW="62" oH="246" />
+  <sprite n="GKM_h1p2_03" x="235" y="0" w="59" h="241" oX="1" oY="0" oW="62" oH="246" />
+  <sprite n="GKM_h1p2_04" x="185" y="613" w="59" h="245" oX="1" oY="0" oW="62" oH="246" />
+  <sprite n="GKM_h1p2_05" x="61" y="901" w="59" h="123" oX="1" oY="122" oW="62" oH="246" />
+  <sprite n="GKM_h1p2_06" x="567" y="485" w="59" h="119" oX="1" oY="126" oW="62" oH="246" />
+  <sprite n="GKM_h2p1_01" x="808" y="67" w="69" h="114" oX="1" oY="1" oW="72" oH="244" />
+  <sprite n="GKM_h2p1_02" x="628" y="485" w="69" h="118" oX="1" oY="1" oW="72" oH="244" />
+  <sprite n="GKM_h2p1_03" x="248" y="305" w="69" h="238" oX="1" oY="1" oW="72" oH="244" />
+  <sprite n="GKM_h2p1_04" x="164" y="0" w="69" h="242" oX="1" oY="1" oW="72" oH="244" />
+  <sprite n="GKM_h2p1_05" x="646" y="286" w="69" h="118" oX="1" oY="125" oW="72" oH="244" />
+  <sprite n="GKM_h2p1_06" x="879" y="81" w="114" h="69" oX="1" oY="129" oW="72" oH="244" r="y" />
+  <sprite n="GKM_h2p2_01" x="636" y="81" w="79" h="110" oX="0" oY="1" oW="80" oH="228" />
+  <sprite n="GKM_h2p2_02" x="770" y="484" w="79" h="114" oX="0" oY="1" oW="80" oH="228" />
+  <sprite n="GKM_h2p2_03" x="390" y="304" w="79" h="222" oX="0" oY="1" oW="80" oH="228" />
+  <sprite n="GKM_h2p2_04" x="246" y="613" w="79" h="226" oX="0" oY="1" oW="80" oH="228" />
+  <sprite n="GKM_h2p2_05" x="879" y="0" w="114" h="79" oX="0" oY="113" oW="80" oH="228" r="y" />
+  <sprite n="GKM_h2p2_06" x="636" y="0" w="110" h="79" oX="0" oY="117" oW="80" oH="228" r="y" />
+  <sprite n="GKM_h3p1_01" x="879" y="152" w="114" h="69" oX="1" oY="0" oW="72" oH="228" r="y" />
+  <sprite n="GKM_h3p1_02" x="604" y="668" w="69" h="118" oX="1" oY="0" oW="72" oH="228" />
+  <sprite n="GKM_h3p1_03" x="327" y="613" w="69" h="223" oX="1" oY="0" oW="72" oH="228" />
+  <sprite n="GKM_h3p1_04" x="319" y="304" w="69" h="227" oX="1" oY="0" oW="72" oH="228" />
+  <sprite n="GKM_h3p1_05" x="675" y="665" w="69" h="118" oX="1" oY="109" oW="72" oH="228" />
+  <sprite n="GKM_h3p1_06" x="879" y="223" w="114" h="69" oX="1" oY="113" oW="72" oH="228" r="y" />
+  <sprite n="GKM_h3p2_01" x="800" y="294" w="81" h="108" oX="1" oY="1" oW="84" oH="228" />
+  <sprite n="GKM_h3p2_02" x="717" y="120" w="81" h="112" oX="1" oY="1" oW="84" oH="228" />
+  <sprite n="GKM_h3p2_03" x="398" y="611" w="81" h="222" oX="1" oY="1" oW="84" oH="228" />
+  <sprite n="GKM_h3p2_04" x="367" y="0" w="81" h="226" oX="1" oY="1" oW="84" oH="228" />
+  <sprite n="GKM_h3p2_05" x="717" y="234" w="81" h="112" oX="1" oY="115" oW="84" oH="228" />
+  <sprite n="GKM_h3p2_06" x="883" y="294" w="81" h="108" oX="1" oY="119" oW="84" oH="228" />
+  <sprite n="GKM_hand1_01" x="375" y="838" w="68" h="50" oX="53" oY="68" oW="112" oH="144" r="y" />
+  <sprite n="GKM_hand1_02" x="630" y="437" w="63" h="46" oX="39" oY="64" oW="112" oH="144" r="y" />
+  <sprite n="GKM_hand1_03" x="318" y="841" w="55" h="47" oX="26" oY="58" oW="112" oH="144" />
+  <sprite n="GKM_hand1_04" x="562" y="437" w="66" h="46" oX="17" oY="44" oW="112" oH="144" />
+  <sprite n="GKM_hand1_05" x="302" y="236" w="59" h="66" oX="21" oY="22" oW="112" oH="144" r="y" />
+  <sprite n="GKM_hand1_06" x="631" y="605" w="62" h="58" oX="31" oY="13" oW="112" oH="144" r="y" />
+  <sprite n="GKM_hand2_01" x="237" y="243" w="63" h="60" oX="14" oY="65" oW="96" oH="136" />
+  <sprite n="GKM_hand2_02" x="94" y="555" w="59" h="57" oX="16" oY="61" oW="96" oH="136" />
+  <sprite n="GKM_hand2_03" x="445" y="835" w="58" h="53" oX="17" oY="56" oW="96" oH="136" />
+  <sprite n="GKM_hand2_04" x="567" y="606" w="62" h="60" oX="20" oY="39" oW="96" oH="136" r="y" />
+  <sprite n="GKM_hand2_05" x="155" y="555" w="78" h="56" oX="13" oY="20" oW="96" oH="136" r="y" />
+  <sprite n="GKM_hand2_06" x="618" y="194" w="52" h="90" oX="9" oY="9" oW="96" oH="136" />
+  <sprite n="GKM_hand3_01" x="424" y="228" w="55" h="72" oX="38" oY="64" oW="102" oH="146" />
+  <sprite n="GKM_hand3_02" x="815" y="600" w="62" h="63" oX="29" oY="61" oW="102" oH="146" r="y" />
+  <sprite n="GKM_hand3_03" x="246" y="841" w="70" h="47" oX="18" oY="58" oW="102" oH="146" />
+  <sprite n="GKM_hand3_04" x="363" y="236" w="59" h="66" oX="12" oY="27" oW="102" oH="146" r="y" />
+  <sprite n="GKM_hand3_05" x="811" y="0" w="65" h="65" oX="15" oY="17" oW="102" oH="146" />
+  <sprite n="GKM_hand3_06" x="164" y="244" w="71" h="60" oX="21" oY="9" oW="102" oH="146" r="y" />
+  <sprite n="GKM_head_rare" x="450" y="0" w="184" h="192" r="y" />
+  <sprite n="GKM_lb2feather1_rare" x="304" y="890" w="175" h="133" r="y" />
+  <sprite n="GKM_lb2feather2_rare" x="481" y="890" w="148" h="122" r="y" />
+  <sprite n="GKM_lb2feather3" x="357" y="533" w="122" h="76" oX="0" oY="10" oW="76" oH="140" r="y" />
+  <sprite n="GKM_lbwing1" x="0" y="614" w="85" h="285" oX="0" oY="5" oW="88" oH="302" />
+  <sprite n="GKM_ltwing1" x="481" y="194" w="62" h="91" oX="0" oY="6" oW="62" oH="104" />
+  <sprite n="GKM_ltwing2" x="505" y="819" w="148" h="69" oX="1" oY="4" oW="72" oH="184" r="y" />
+  <sprite n="GKM_ltwing3" x="481" y="489" w="84" h="177" oX="0" oY="0" oW="86" oH="196" />
+  <sprite n="GKM_neck_feathers" x="655" y="788" w="110" h="84" />
+  <sprite n="GKM_pupil" x="115" y="863" w="27" h="27" oX="9" oY="9" oW="44" oH="46" />
+  <sprite n="GKM_rb2bodycover" x="87" y="614" w="96" h="247" />
+  <sprite n="GKM_rb2bodycover_L" x="94" y="307" w="81" h="246" oX="13" oY="0" oW="94" oH="250" />
+  <sprite n="GKM_rb2feather1_rare" x="122" y="892" w="180" h="129" r="y" />
+  <sprite n="GKM_rb2feather2" x="481" y="668" w="121" h="149" oX="10" oY="0" oW="142" oH="150" />
+  <sprite n="GKM_rb2feather3" x="695" y="406" w="114" h="76" oX="0" oY="0" oW="82" oH="114" r="y" />
+  <sprite n="GKM_rbwing1" x="0" y="307" w="92" h="305" oX="0" oY="3" oW="92" oH="318" />
+  <sprite n="GKM_rtwing1" x="545" y="194" w="71" h="90" oX="1" oY="8" oW="72" oH="106" />
+  <sprite n="GKM_rtwing2" x="562" y="286" w="82" h="149" oX="5" oY="27" oW="92" oH="192" />
+  <sprite n="GKM_rtwing3" x="471" y="302" w="89" h="185" oX="17" oY="3" oW="108" oH="218" />
+  <sprite n="GKM_shadow" x="235" y="546" w="120" h="65" oX="8" oY="8" oW="136" oH="82" />
+</TextureAtlas>

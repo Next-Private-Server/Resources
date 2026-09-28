@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cdad32df4c6ebe83da25ea69bf888079:9bd46dd8d4842233c7d422f7feb02d40:e305c16f6913affef891379bed2f68e1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_R_costume_02_sheet.png" width="512" height="1024" hires="true" version="1">
+  <sprite n="bow" x="119" y="457" w="75" h="88" pX="0.977273" pY="0.973684" oX="0" oY="0" oW="88" oH="76" r="y" />
+  <sprite n="dress 2" x="0" y="231" w="119" h="76" pX="0.507813" pY="0.675" oX="4" oY="4" oW="128" oH="80" />
+  <sprite n="gummymouth" x="471" y="0" w="38" h="45" pX="0.333333" pY="0.5" r="y" />
+  <sprite n="hair back left" x="207" y="0" w="130" h="34" pX="2.33333" pY="0.840909" oX="2" oY="1" oW="36" oH="132" r="y" />
+  <sprite n="hair back right" x="339" y="0" w="130" h="23" pX="-1.25" pY="0.833333" oX="0" oY="0" oW="24" oH="132" r="y" />
+  <sprite n="hair front" x="339" y="25" w="125" h="116" pX="0.507874" pY="1.04622" oX="1" oY="1" oW="127" oH="119" />
+  <sprite n="lower arm" x="466" y="122" w="33" h="55" pX="0.5" pY="0.5" oX="0" oY="1" oW="56" oH="36" r="y" />
+  <sprite n="lower body" x="323" y="531" w="101" h="98" pX="0.5" pY="0.5" oX="0" oY="7" oW="98" oH="108" r="y" />
+  <sprite n="mouth 1" x="207" y="36" w="121" h="54" pX="0.5" pY="0.5" oX="9" oY="30" oW="140" oH="120" />
+  <sprite n="mouth 2" x="453" y="179" w="58" h="120" pX="0.5" pY="0.5" oX="10" oY="30" oW="140" oH="120" r="y" />
+  <sprite n="mouth 3" x="0" y="97" w="120" h="65" pX="0.5" pY="0.5" oX="10" oY="29" oW="140" oH="120" />
+  <sprite n="mouth 4" x="0" y="309" w="119" h="74" pX="0.5" pY="0.5" oX="11" oY="24" oW="140" oH="120" />
+  <sprite n="mouth 5" x="122" y="97" w="82" h="118" pX="0.5" pY="0.5" oX="12" oY="20" oW="140" oH="120" r="y" />
+  <sprite n="mouth 6" x="205" y="450" w="116" h="92" pX="0.5" pY="0.5" oX="14" oY="15" oW="140" oH="120" />
+  <sprite n="mouth 7" x="0" y="385" w="117" h="101" pX="0.5" pY="0.5" oX="13" oY="10" oW="140" oH="120" />
+  <sprite n="mouth outline 1" x="207" y="92" w="121" h="54" pX="0.5" pY="0.5" oX="9" oY="30" oW="140" oH="120" />
+  <sprite n="mouth outline 2" x="328" y="199" w="120" h="58" pX="0.5" pY="0.5" oX="10" oY="30" oW="140" oH="120" />
+  <sprite n="mouth outline 3" x="206" y="148" w="120" h="64" pX="0.5" pY="0.5" oX="10" oY="29" oW="140" oH="120" />
+  <sprite n="mouth outline 4" x="206" y="274" w="119" h="72" pX="0.5" pY="0.5" oX="11" oY="25" oW="140" oH="120" />
+  <sprite n="mouth outline 5" x="122" y="217" w="82" h="118" pX="0.5" pY="0.5" oX="12" oY="20" oW="140" oH="120" r="y" />
+  <sprite n="mouth outline 6" x="324" y="438" w="117" h="91" pX="0.5" pY="0.5" oX="13" oY="15" oW="140" oH="120" />
+  <sprite n="mouth outline 7" x="205" y="348" w="117" h="100" pX="0.5" pY="0.5" oX="13" oY="10" oW="140" oH="120" />
+  <sprite n="mouth2 1" x="330" y="143" w="121" h="54" pX="0.5" pY="0.5" oX="9" oY="30" oW="140" oH="120" />
+  <sprite n="mouth2 2" x="206" y="214" w="120" h="58" pX="0.5" pY="0.5" oX="10" oY="30" oW="140" oH="120" />
+  <sprite n="mouth2 3" x="0" y="164" w="120" h="65" pX="0.5" pY="0.5" oX="10" oY="29" oW="140" oH="120" />
+  <sprite n="mouth2 4" x="328" y="259" w="119" h="74" pX="0.5" pY="0.5" oX="11" oY="24" oW="140" oH="120" />
+  <sprite n="mouth2 5" x="121" y="337" w="82" h="118" pX="0.5" pY="0.5" oX="12" oY="20" oW="140" oH="120" r="y" />
+  <sprite n="mouth2 6" x="0" y="488" w="116" h="92" pX="0.5" pY="0.5" oX="14" oY="15" oW="140" oH="120" />
+  <sprite n="mouth2 7" x="327" y="335" w="117" h="101" pX="0.5" pY="0.5" oX="13" oY="10" oW="140" oH="120" />
+  <sprite n="upper arm" x="466" y="47" w="33" h="73" pX="0.5" pY="0.5" r="y" />
+  <sprite n="upper body" x="0" y="0" w="205" h="95" pX="0.5" pY="0.5" oX="12" oY="0" oW="110" oH="205" r="y" />
+</TextureAtlas>

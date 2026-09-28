@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c960f1f7c379e17ac0bcf0672bf936fc:849c0ca6313d54666093dc97efc7a502:70f2284b6a8af60e0083f25d177d740c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_NV_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="NV_arm_cover" x="136" y="461" w="80" h="29" pX="0.5" pY="0.5357142857142857" oX="1" oY="2" oW="32" oH="84" r="y"/>
+	<sprite n="NV_body" x="0" y="164" w="163" h="153" pX="0.5" pY="0.7261904761904762" oX="1" oY="2" oW="156" oH="168" r="y"/>
+	<sprite n="NV_drum" x="136" y="319" w="120" h="140" pX="0.5725806451612904" pY="0.4722222222222222" oX="2" oY="2" oW="124" oH="144"/>
+	<sprite n="NV_head" x="0" y="0" w="231" h="162" pX="0.7754237288135594" pY="0.8170731707317073" oX="2" oY="1" oW="236" oH="164"/>
+	<sprite n="NV_left_shoulder" x="165" y="164" w="82" h="79" pX="1.130952380952381" pY="1.5125" oX="1" oY="0" oW="84" oH="80"/>
+	<sprite n="NV_neck" x="0" y="319" w="134" h="184" pX="0.5428571428571428" pY="1.3882978723404256" oX="3" oY="2" oW="140" oH="188"/>
+	<sprite n="NV_right_shoulder" x="165" y="245" w="81" h="61" pX="-0.39285714285714285" pY="1.96875" oX="1" oY="1" oW="84" oH="64"/>
+</TextureAtlas>

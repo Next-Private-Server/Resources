@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e63a060ad25c9f63384cab397dbbbb30:0f7848661bebf0581799ea13f9bfec43:50c1e4a10aa7272d298c6eae2fc5835d$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_CY_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="big_ears_left" x="157" y="156" w="163" h="71" pX="0.6887323943661972" pY="0.8232142857142858" oX="0" oY="5" oW="71" oH="168" r="y"/>
+	<sprite n="big_ears_right" x="322" y="156" w="144" h="67" pX="0.3898550724637681" pY="0.8889655172413794" oX="0" oY="1" oW="69" oH="145" r="y"/>
+	<sprite n="big_head" x="179" y="371" w="143" h="139" pX="0.5" pY="0.5" oX="1" oY="1" oW="142" oH="146" r="y"/>
+	<sprite n="big_L_lowerarm" x="486" y="0" w="24" h="50" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="big_L_upperarm" x="466" y="225" w="34" h="76" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="big_L_upperleg" x="420" y="225" w="44" h="86" pX="0.5" pY="0.5"/>
+	<sprite n="big_R_lowerarm" x="490" y="411" w="22" h="46" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="big_R_upperarm" x="0" y="474" w="79" h="35" pX="0.5" pY="0.5" oX="1" oY="0" oW="82" oH="36"/>
+	<sprite n="big_R_upperleg" x="420" y="313" w="86" h="44" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="big_tail" x="110" y="414" w="61" h="86" pX="1.5627906976744186" pY="0.3180327868852459" r="y"/>
+	<sprite n="big_upperbody" x="0" y="0" w="155" h="260" pX="0.5" pY="0.5" oX="3" oY="4" oW="158" oH="264"/>
+	<sprite n="collar" x="344" y="225" w="74" h="154" pX="0.49683544303797467" pY="1.9532467532467532" oX="1" oY="3" oW="158" oH="77" r="y"/>
+	<sprite n="little_armfeather_1" x="420" y="359" w="40" h="12" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="little_armfeather_2" x="448" y="132" w="50" h="16" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="little_armfeather_3" x="486" y="52" w="16" h="48" pX="0.5" pY="0.5"/>
+	<sprite n="little_armfeather_4" x="500" y="102" w="12" h="42" pX="0.5" pY="0.5"/>
+	<sprite n="little_armfeather_5" x="81" y="474" w="12" h="36" pX="0.5" pY="0.5"/>
+	<sprite n="little_armfeather_6" x="95" y="474" w="12" h="36" pX="0.5" pY="0.5"/>
+	<sprite n="little_body" x="0" y="262" w="177" h="150" pX="0.5" pY="0.5" oX="1" oY="1" oW="152" oH="180" r="y"/>
+	<sprite n="little_hair" x="157" y="0" w="167" h="154" pX="0.5586826347305389" pY="1.3181818181818181"/>
+	<sprite n="little_head" x="326" y="0" w="158" h="130" pX="0.5" pY="0.5" oX="1" oY="2" oW="132" oH="160" r="y"/>
+	<sprite n="little_L_foot" x="468" y="359" w="34" h="50" pX="0.5" pY="0.5"/>
+	<sprite n="little_L_lowerarm" x="326" y="132" w="66" h="18" pX="0.5" pY="0.5"/>
+	<sprite n="little_L_lowerleg" x="468" y="150" w="34" h="68" pX="0.5" pY="0.5" oX="0" oY="0" oW="34" oH="70"/>
+	<sprite n="little_L_upperarm" x="428" y="435" w="60" h="36" pX="0.5" pY="0.5"/>
+	<sprite n="little_L_upperleg" x="324" y="381" w="102" h="66" pX="0.5" pY="0.5" oX="10" oY="2" oW="112" oH="70"/>
+	<sprite n="little_R_lowerarm" x="394" y="132" w="52" h="20" pX="0.5" pY="0.5"/>
+	<sprite n="little_R_upperarm" x="428" y="373" w="38" h="60" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="little_tail" x="0" y="414" w="108" h="58" pX="1.3559633027522937" pY="0.353125" oX="1" oY="0" oW="109" oH="64"/>
+	<sprite n="pelvis" x="179" y="229" w="163" h="140" pX="0.5" pY="0.5" oX="1" oY="0" oW="164" oH="140"/>
+</TextureAtlas>

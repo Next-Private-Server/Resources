@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1b3500b46d6ca490d3000b0d8e145a29:da2d4fa4e52052ce2c41830f11412c65:6a17711ef6af5c71e0bca3c1d4b17fb7$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CENY_RARE_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="base" x="243" y="628" w="216" h="117" oX="0" oY="1" oW="216" oH="118"/>
+	<sprite n="body 1" x="0" y="133" w="316" h="226" oX="5" oY="20" oW="280" oH="336" r="y"/>
+	<sprite n="body 2" x="0" y="0" w="336" h="131" oX="79" oY="0" oW="280" oH="336" r="y"/>
+	<sprite n="body 3" x="260" y="410" w="242" h="216" oX="39" oY="93" oW="280" oH="336" r="y"/>
+	<sprite n="body 4" x="0" y="526" w="241" h="196" oX="20" oY="138" oW="280" oH="336"/>
+	<sprite n="body 5" x="338" y="90" w="163" h="279" oX="1" oY="171" oW="280" oH="336" r="y"/>
+	<sprite n="body 6" x="0" y="361" w="258" h="163" oX="10" oY="172" oW="280" oH="336"/>
+	<sprite n="hair" x="0" y="724" w="156" h="117" oX="7" oY="5" oW="210" oH="170"/>
+	<sprite n="hair_LEFT" x="190" y="842" w="95" h="96" oX="12" oY="68" oW="210" oH="170" r="y"/>
+	<sprite n="hair_RIGHT" x="48" y="843" w="104" h="132" oX="97" oY="25" oW="210" oH="170"/>
+	<sprite n="horn_back" x="154" y="843" w="34" h="97" oX="8" oY="2" oW="50" oH="100"/>
+	<sprite n="horn_back_TIP" x="291" y="774" w="47" h="58" oX="2" oY="8" oW="50" oH="70"/>
+	<sprite n="horn_front" x="248" y="940" w="40" h="78" oX="20" oY="2" oW="80" oH="80"/>
+	<sprite n="horn_front_RIGHT" x="461" y="734" w="50" h="38" oX="22" oY="24" oW="80" oH="80" r="y"/>
+	<sprite n="horn_front_TIP" x="176" y="942" w="70" h="78" oX="6" oY="0" oW="80" oH="80"/>
+	<sprite n="horn_front_TIP_RIGHT" x="290" y="924" w="70" h="74" oX="4" oY="0" oW="80" oH="80" r="y"/>
+	<sprite n="horn_side" x="382" y="371" w="113" h="34" oX="9" oY="4" oW="50" oH="120" r="y"/>
+	<sprite n="horn_side_TIP" x="242" y="774" w="47" h="61" oX="2" oY="5" oW="50" oH="70"/>
+	<sprite n="L eyeball" x="340" y="747" w="46" h="42" r="y"/>
+	<sprite n="L eyelid 1" x="460" y="774" w="46" h="42" r="y"/>
+	<sprite n="L eyelid 2" x="388" y="796" w="46" h="42" r="y"/>
+	<sprite n="L eyelid 3" x="436" y="818" w="46" h="42" r="y"/>
+	<sprite n="L eyelid 4" x="388" y="840" w="46" h="42" r="y"/>
+	<sprite n="L eyelid 5" x="436" y="862" w="46" h="42" r="y"/>
+	<sprite n="mouth 1" x="388" y="747" w="70" h="47" oX="20" oY="29" oW="104" oH="88"/>
+	<sprite n="mouth 2" x="260" y="361" w="76" h="47" oX="15" oY="27" oW="104" oH="88"/>
+	<sprite n="mouth 3" x="88" y="977" w="86" h="47" oX="10" oY="26" oW="104" oH="88"/>
+	<sprite n="mouth 4" x="461" y="628" w="51" h="104" oX="0" oY="21" oW="104" oH="88" r="y"/>
+	<sprite n="mouth 5" x="317" y="834" w="69" h="72" oX="19" oY="13" oW="104" oH="88"/>
+	<sprite n="mouth 6" x="158" y="724" w="82" h="88" oX="14" oY="0" oW="104" oH="88"/>
+	<sprite n="pupil" x="318" y="133" w="16" h="16"/>
+	<sprite n="R eyeball" x="338" y="371" w="42" h="37" oX="0" oY="0" oW="38" oH="42" r="y"/>
+	<sprite n="R eyelid 1" x="0" y="985" w="42" h="38" r="y"/>
+	<sprite n="R eyelid 2" x="44" y="985" w="42" h="38" r="y"/>
+	<sprite n="R eyelid 3" x="340" y="791" w="42" h="38" r="y"/>
+	<sprite n="R eyelid 4" x="388" y="884" w="42" h="38" r="y"/>
+	<sprite n="R eyelid 5" x="432" y="906" w="42" h="38" r="y"/>
+	<sprite n="ropes" x="287" y="837" w="28" h="85" oX="6" oY="8" oW="100" oH="40" r="y"/>
+	<sprite n="ropes_longer" x="0" y="843" w="46" h="140" oX="0" oY="4" oW="140" oH="50" r="y"/>
+	<sprite n="shadow" x="338" y="0" w="170" h="88" oX="0" oY="1" oW="170" oH="90"/>
+	<sprite n="tassle" x="158" y="814" w="76" h="26" oX="2" oY="0" oW="30" oH="80" r="y"/>
+</TextureAtlas>

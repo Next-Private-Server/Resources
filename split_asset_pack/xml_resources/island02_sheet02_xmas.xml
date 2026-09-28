@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5211a3aeb725884b66862f295586d686:9978009d062171598db8829775449cdf:49fe3101bf7c67b8ec0f8245cf075725$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island02_sheet02_xmas.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="eye_glow" x="900" y="0" w="820" h="812" r="y"/>
+	<sprite n="eye_ring" x="0" y="0" w="898" h="730" oX="3" oY="35" oW="928" oH="816"/>
+	<sprite n="eye_ring_highlight" x="802" y="814" w="564" h="598" oX="1" oY="3" oW="600" oH="570" r="y"/>
+	<sprite n="eye_shadow" x="992" y="1414" w="592" h="592" oX="1" oY="1" oW="596" oH="596"/>
+	<sprite n="eyelid_bottom" x="1722" y="574" w="210" h="530" r="y"/>
+	<sprite n="eyelid_bottom_edge" x="154" y="1531" w="156" h="504" r="y"/>
+	<sprite n="eyelid_bottom_edge_highlight" x="312" y="1531" w="137" h="502" oX="0" oY="0" oW="502" oH="138" r="y"/>
+	<sprite n="eyelid_glow_solid" x="1722" y="0" w="244" h="572" oX="1" oY="1" oW="576" oH="248" r="y"/>
+	<sprite n="eyelid_top" x="451" y="1531" w="539" h="378" oX="0" oY="0" oW="562" oH="378"/>
+	<sprite n="eyelid_top_edge" x="1368" y="814" w="199" h="521" oX="9" oY="0" oW="530" oH="200" r="y"/>
+	<sprite n="eyelid_top_edge_highlight" x="0" y="1531" w="152" h="516" r="y"/>
+	<sprite n="pupil" x="0" y="732" w="800" h="797" oX="0" oY="0" oW="800" oH="800"/>
+</TextureAtlas>

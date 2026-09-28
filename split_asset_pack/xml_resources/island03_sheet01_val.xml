@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5bca6ca939fc7056e3910452bcf342c8:758aa0f8421f6cf7e1113fa4ad5e40e0:358e36354b36d003c23015e14f584bd2$ -->
+<TextureAtlas imagePath="gfx/island_overlay/island03_sheet01_val.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="island03_back_roses" x="657" y="923" w="545" h="326" oX="1" oY="5" oW="548" oH="360"/>
+	<sprite n="island03_balloon_blue" x="456" y="1798" w="454" h="228" oX="18" oY="6" oW="260" oH="460" r="y"/>
+	<sprite n="island03_balloon_purple" x="0" y="1798" w="454" h="230" oX="17" oY="6" oW="260" oH="460" r="y"/>
+	<sprite n="island03_burns" x="0" y="0" w="655" h="1262" oX="2" oY="1" oW="660" oH="1264"/>
+	<sprite n="island03_ear" x="0" y="1264" w="895" h="532" oX="0" oY="1" oW="540" oH="896" r="y"/>
+	<sprite n="island03_edge" x="1465" y="677" w="407" h="471" oX="6" oY="3" oW="420" oH="476"/>
+	<sprite n="island03_goggle" x="657" y="0" w="806" h="921" oX="2" oY="10" oW="924" oH="816" r="y"/>
+	<sprite n="island03_nose" x="1465" y="0" w="559" h="675" oX="5" oY="5" oW="580" oH="680"/>
+	<sprite n="island03_nose_deco" x="1642" y="1624" w="337" h="231" oX="3" oY="2" oW="344" oH="236"/>
+	<sprite n="island03_stumpcenter" x="897" y="1251" w="1007" h="371"/>
+	<sprite n="island03_stumpside" x="912" y="1624" w="728" h="398" oX="0" oY="234" oW="728" oH="672"/>
+</TextureAtlas>

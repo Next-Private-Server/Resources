@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:46e713fb117adc4c333632548aeae6b4:2251fd15b5c7f3d825857e64d7e7d0f2:60e7ed2f40bce790cd4283e7e07b4c38$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BCE_costume_05_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BCE_body_A" x="0" y="411" w="107" h="86" pX="0.5" pY="0.5" oX="0" oY="17" oW="86" oH="124" r="y"/>
+	<sprite n="BCE_gong" x="118" y="270" w="128" h="87" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="130" r="y"/>
+	<sprite n="BCE_left_upperarm" x="177" y="122" w="26" h="112" pX="0.5" pY="0.5"/>
+	<sprite n="BCE_penguin_body" x="0" y="0" w="175" h="268" pX="0.44799999999999995" pY="0.3707142857142857" oX="12" oY="3" oW="200" oH="280"/>
+	<sprite n="BCE_penguin_feet" x="109" y="411" w="103" h="80" pX="0.5" pY="0.3707142857142857" oX="19" oY="200" oW="200" oH="280"/>
+	<sprite n="BCE_penguin_head" x="0" y="270" w="116" h="139" pX="0.56875" pY="0.73" oX="9" oY="22" oW="160" oH="160" r="y"/>
+	<sprite n="BCE_snow" x="177" y="0" w="66" h="120" pX="0.5" pY="0.4484848484848485" r="y"/>
+</TextureAtlas>

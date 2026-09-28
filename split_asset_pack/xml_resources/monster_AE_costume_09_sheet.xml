@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:18dd5ac84f9fcb2079f33490b479db00:7d53651fc07948b1721f36aae0ea70d9:38be2721da7dcd92d6cf06b7353fd488$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AE_costume_09_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="AE_body" x="0" y="0" w="126" h="158" pX="0.5" pY="0.5"/>
+	<sprite n="AE_hat" x="0" y="160" w="144" h="87" pX="0.381944" pY="1.29545" oX="0" oY="1" oW="144" oH="88"/>
+	<sprite n="AE_scarf" x="128" y="0" w="126" h="140" pX="0.492366" pY="0.265957" oX="1" oY="0" oW="131" oH="141"/>
+</TextureAtlas>

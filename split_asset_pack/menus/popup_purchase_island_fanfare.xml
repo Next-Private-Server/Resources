@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/IslandPurchaseFanfare.lua" />
+	
+	<template type="template_bg_hole" name="Hole">
+		<templateVar name="$layer" equals="PopUps" />
+	</template>
+
+	<element name="TouchBlocker">
+		<size w="screenWidth()" h="screenHeight()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="2" />
+		<touchComponent name="Touch">
+			<size dependentOnElement="element:name()" />
+			<event name="onInit" params="component, element">
+				component("singleTouch"):SetInt(1)
+			</event>
+		</touchComponent>
+	</element>
+
+	<!-- stylized name of island (not localized) -->
+	<element name="Title">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="20" />
+		
+		<!--
+		<textComponent name="Text">
+			<size w="lua_sys.screenWidth()" h="128*game.hudScale()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("autoScale"):SetInt(1)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("textPadding"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("text"):SetString("")				
+				component("size"):SetFloat(1.5*game.hudScale())				
+				component("layer"):SetString("Tutorial")
+			</event>
+		</textComponent>
+		-->
+
+		<spriteComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+				--component("spriteName"):SetString("gfx/menu/intro_title_island2")
+				component:setScale(Vector2(0.5 * game.menuScaleY(), 0.5 * game.menuScaleY()))
+				--component:setColor(0.0, 0.0, 0.0)
+				--component("alpha"):SetFloat(0.5)
+				component("layer"):SetString("Tutorial")
+				]]>
+			  </event>
+		</spriteComponent>
+
+	</element>
+
+	<!-- localized name of island (if not EN) -->
+	<element name="WelcomeSign">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Title" vAnchor="TOP" hAnchor="HCENTER" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="4*game.menuScaleY()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="210*game.menuScaleY()" h="128*game.menuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("autoScale"):SetInt(1)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("textPadding"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("text"):SetString("LOADING_WELCOME")				
+				component("size"):SetFloat(0.25*game.menuScaleY())				
+				component("layer"):SetString("Tutorial")
+				--component("rotation"):SetFloat(-15.0*math.pi/180.0)
+			</event>
+		</textComponent>
+	</element>
+
+	<!-- localized name of island (if not EN) -->
+	<element name="Subtitle">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="Title" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.menuScaleY()" priorityOffset="-1" />
+		<textComponent name="Text">
+			<size w="210*game.menuScaleY()" h="128*game.menuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("autoScale"):SetInt(1)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("textPadding"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("text"):SetString("(L'ILLE DES PLANTES)")				
+				component("size"):SetFloat(0.25*game.menuScaleY())				
+				component("layer"):SetString("Tutorial")
+			</event>
+		</textComponent>
+	</element>
+
+
+	<element name="ContinueLabel">
+		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-40*game.menuScaleY()" priorityOffset="20" />
+		<textComponent name="Text">
+			<size w="210*game.menuScaleY()" h="128*game.menuScaleY()" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+			<event name="onInit" params="component, element">
+				component("multiline"):SetInt(1)
+				component("autoScale"):SetInt(1)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("textPadding"):SetInt(0)
+				component("font"):Set(game.getTextFont())
+				component("text"):SetString("TAP_TO_CONTINUE")				
+				component("size"):SetFloat(0.25*game.menuScaleY())				
+				component("layer"):SetString("Tutorial")
+			</event>
+		</textComponent>
+	</element>
+
+	<!-- fullscreen intro animation -->
+	<element name="Animation">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="20" />
+		<aeComponent name="Sprite">
+			<event name="onInit" params="component, element">
+				<![CDATA[
+					component("offsetCenter"):SetInt(1)
+					component("layer"):SetString("Tutorial")
+					component:setScale(Vector2(0.5*game.hudScale(),0.5*game.hudScale()))	
+					component("animationName"):SetString("xml_bin/island_intro.bin")
+					component("animation"):SetString("island_intro")
+					--we just want it to hold on the first frame until we are done loading
+					component:Stop()
+				]]>
+			</event>
+		</aeComponent>
+	</element>
+
+
+	<element name="Motes">
+		<size w="lua_sys.screenWidth()" h="lua_sys.screenHeight()"/>
+		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="20" />
+
+		<particleComponent name="Particles">
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+			<event name="onPostInit" params="component, element">
+				<![CDATA[
+					component("layer"):SetString("FrontPopUps")
+					component("spawnWidth"):SetFloat(element:absW())
+					component("spawnHeight"):SetFloat(element:absH())
+					--component("psi"):SetString("particles/particle_snow.psi")
+					--component("image"):SetString("gfx/particles/particle_snowflake")
+					local scale = 4.0
+					component:setScale(Vector2(scale, scale))
+					component("prewarm"):SetFloat(5.0)
+				]]>
+			</event>
+		</particleComponent>
+	</element>
+
+	<template type="template_spritesheetbutton" name="SkipButton">
+		<templateVar name="$layer" equals="Tutorial" />
+		<templateVar name="$spriteScale" equals="0.4*game.hudScale()" />
+		<templateVar name="$text" equals="skip" />
+		<position relativeTo="SCREEN" vAnchor="BOTTOM" hAnchor="LEFT" />
+		<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="16" yOffset="16" priorityOffset="1" />
+			
+		<touchComponent name="Touch">
+			<event name="onTouchUp" params="component, element">
+				<![CDATA[
+					onTouchUp(component, element)
+					element:parent():Skip()
+				]]>
+			</event>
+		</touchComponent>
+
+		<event name="onPostInit" params="element">
+			<![CDATA[
+				if game.isDebugBuild() or game.isQABuild() then
+					element:setVisible()
+				else 
+					element:setInvisible()
+				end
+			]]>
+		</event>
+
+	</template>
+
+</menu>

@@ -1,0 +1,342 @@
+<template name="template_spritesheetbutton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	
+	<defaultTemplateVar name="$sheetName" equals="'xml_resources/context_buttons.xml'" />
+	<defaultTemplateVar name="$upSpriteName" equals="'button_base_grey'" />
+	<defaultTemplateVar name="$downSpriteName" equals="''" />
+	<defaultTemplateVar name="$spriteHFlip" equals="0" />
+	<defaultTemplateVar name="$spriteVFlip" equals="0" />
+	<defaultTemplateVar name="$spriteScale" equals="1.0" />
+	<defaultTemplateVar name="$textXOffset" equals="0" />
+	<defaultTemplateVar name="$textYOffset" equals="0" />
+	<defaultTemplateVar name="$text" equals="" />
+	<defaultTemplateVar name="$sfx" equals="[[audio/sfx/menu_click.wav]]" />
+	<defaultTemplateVar name="$layer" equals="HUD" />
+	<defaultTemplateVar name="$font" equals="'game.getTextFont()'" />
+	<defaultTemplateVar name="$textPadding" equals="0.0" />
+	<defaultTemplateVar name="$multiLine" equals="0" />
+	<defaultTemplateVar name="$autoScaleFactor" equals="0.05" />
+	<defaultTemplateVar name="$buttonMapping" equals="0" />
+	<defaultTemplateVar name="$buttonMappingAlt" equals="0" />
+	<defaultTemplateVar name="$lockEnabled" equals="0" />
+	<defaultTemplateVar name="$alpha" equals="1.0" />
+	<defaultTemplateVar name="$textTintR" equals="1.0" />
+	<defaultTemplateVar name="$textTintG" equals="1.0" />
+	<defaultTemplateVar name="$textTintB" equals="1.0" />
+	
+	<size dependentOnElement="element:name()" dependentOnComponent="BoundsSprite" />
+	
+	<spriteSheetComponent name="BoundsSprite">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			local tvars = element:templateVars()
+			component("hFlip"):SetInt(tvars.spriteHFlip)
+			component("vFlip"):SetInt(tvars.spriteVFlip)
+			component("spriteName"):Set(tvars.upSpriteName)
+			component("sheetName"):Set(tvars.sheetName)
+			component("size"):SetFloat(tvars.spriteScale)
+			component("layer"):SetString(tvars.layer)
+			component("alpha"):SetFloat(tvars.alpha)
+			component("visible"):SetInt(0)
+		</event>
+	</spriteSheetComponent>
+	
+	<!-- UpSprite: Sprite displayed when the user has not pressed the button. -->
+	<spriteSheetComponent name="UpSprite">
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+		<event name="onInit" params="component, element">
+			local tvars = element:templateVars()
+			component("hFlip"):SetInt(tvars.spriteHFlip)
+			component("vFlip"):SetInt(tvars.spriteVFlip)
+			component("spriteName"):Set(tvars.upSpriteName)
+			component("sheetName"):Set(tvars.sheetName)
+			component("size"):SetFloat(tvars.spriteScale)
+			component("layer"):SetString(tvars.layer)
+			component("alpha"):SetFloat(tvars.alpha)
+		</event> 
+	</spriteSheetComponent>
+	
+	<!-- DownSprite: Sprite displayed when a mouse-down/touch-down event has been registered on the button. -->
+	<spriteSheetComponent name="DownSprite">
+		<event name="onInit" params="component, element">
+			local tvars = element:templateVars()
+			component("hFlip"):SetInt(tvars.spriteHFlip)
+			component("vFlip"):SetInt(tvars.spriteVFlip)
+			component("spriteName"):Set(tvars.downSpriteName)
+			component("sheetName"):Set(tvars.sheetName)
+			component("size"):SetFloat(tvars.spriteScale)
+			component("visible"):SetInt(0)
+			component("layer"):SetString(tvars.layer)
+			component("alpha"):SetFloat(tvars.alpha)
+		</event>
+	</spriteSheetComponent>
+	
+	<!-- Text: Text to be displayed within the button. -->
+	<textComponent name="Text">
+		<size dependentOnElement="element:name()" dependentOnComponent="BoundsSprite" />
+		<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
+		<event name="onInit" params="component, element">
+			local tvars = element:templateVars()
+			component:GetVar("multiline"):SetInt(tvars.multiLine)
+			component:GetVar("textPadding"):SetInt(tvars.textPadding)
+			component:GetVar("font"):Set($font)
+			component:GetVar("size"):SetFloat(tvars.spriteScale)
+			component:GetVar("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+			component:GetVar("text"):SetString(tvars.text)
+			component:GetVar("xOffset"):SetInt(tvars.textXOffset)
+			component:GetVar("yOffset"):SetInt(tvars.textYOffset)
+			component:GetVar("autoScaleFactor"):SetFloat(tvars.autoScaleFactor)
+			component:GetVar("autoScale"):SetInt(1)
+			component:GetVar("layer"):SetString(tvars.layer)
+			component:GetVar("alpha"):SetFloat(tvars.alpha)
+			component:setColor(tvars.textTintR, tvars.textTintG, tvars.textTintB)
+		</event>
+	</textComponent>
+	
+	<touchComponent name="Touch">	
+		<size dependentOnElement="element:name()" dependentOnComponent="BoundsSprite" />
+		<event name="onInit" params="component, element">
+			component("singleTouch"):SetInt(1)
+		</event>
+		<event name="onTouchDown" params="component, element">
+			local tvars = element:templateVars()
+			if tvars.downSpriteName ~= "''" then
+				element["UpSprite"]("visible"):SetInt(0)
+				element["DownSprite"]("visible"):SetInt(1)
+			else
+				element["UpSprite"]:setColor(0.5, 0.5, 0.5)
+			end
+			element["Text"]:setColor(tvars.textTintR/2, tvars.textTintG/2, tvars.textTintB/2)
+			
+			element("ButtonState"):SetInt(game.BUTTON_PRESSED)
+			element("TickTimer"):SetFloat(0.0)
+		</event>
+		<event name="onTouchUp" params="component, element">
+			local tvars = element:templateVars()
+			if tvars.downSpriteName ~= "''" then
+				element["UpSprite"]("visible"):SetInt(1)
+				element["DownSprite"]("visible"):SetInt(0)
+			else
+				element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+			end
+			element["Text"]:setColor(tvars.textTintR, tvars.textTintG, tvars.textTintB)
+			
+			if("$sfx" ~= "") then
+				lua_sys.playSoundFx("$sfx")
+			end
+			element("ButtonState"):SetInt(game.BUTTON_RELEASED)
+			element("TickTimer"):SetFloat(0.0)
+			
+			if tvars.lockEnabled == 1 then
+				element("isCurrentlyLocked"):SetInt(1)
+				element("prevTouchState"):SetInt(1)
+				component("enabled"):SetInt(0)
+			end
+		</event>
+		<event name="onTouchRelease" params="component, element">
+			local tvars = element:templateVars()
+			if tvars.downSpriteName ~= "''" then
+				element["UpSprite"]("visible"):SetInt(1)
+				element["DownSprite"]("visible"):SetInt(0)
+			else
+				element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+			end
+			element["Text"]:setColor(tvars.textTintR, tvars.textTintG, tvars.textTintB)
+			
+			element("ButtonState"):SetInt(game.BUTTON_RELEASED)
+			element("TickTimer"):SetFloat(0.0)
+		</event>
+	</touchComponent>
+	
+	<event name="onInit" params="element">
+
+		local tvars = element:templateVars()
+
+		-- might have already been set in setVisible or setInvisible
+		if element.isVisible == nil then 
+			element.isVisible = true
+		end
+		
+		element:setPositionBroadcast(true)
+		element("locked"):SetInt(0) -- Used so I can disable after a touch
+		
+		if tonumber(tvars.buttonMapping) ~= 0 or tonumber(tvars.buttonMappingAlt) ~= 0 then
+			element("buttonDown"):SetInt(0)
+			element:SetupGenericListener(game.engineReceiver(), "sys::msg::MsgKeyDown", "gotMsgKeyDown")
+			element:SetupGenericListener(game.engineReceiver(), "sys::msg::MsgKeyUp", "gotMsgKeyUp")
+		end
+		
+		element("ButtonState"):SetInt(game.BUTTON_IDLE)
+		element("TickTimer"):SetFloat(0.0)
+		element("isCurrentlyLocked"):SetInt(0)
+		element("alpha"):SetFloat(tvars.alpha)
+
+		element("prevTouchState"):SetInt(0)
+
+		element.spriteScale = tvars.spriteScale
+	</event>
+	
+	<event name="onTick" params="element, dt">
+		<![CDATA[
+			local tvars = element:templateVars()
+			local buttonState = element("ButtonState"):GetInt()
+			local isLocked = element("isCurrentlyLocked"):GetInt()
+			
+			if(buttonState ~= game.BUTTON_IDLE or isLocked == 1) then
+				local buttonSize = element.spriteScale
+				local newTime = element("TickTimer"):GetFloat() + dt
+				element("TickTimer"):SetFloat(newTime)
+				
+				if(buttonState == game.BUTTON_PRESSED) then
+					local size = lua_sys.smooth(buttonSize, buttonSize - 0.03, newTime*15)
+					element["UpSprite"]("size"):SetFloat(size)
+					
+					if(size == buttonSize - 0.03) then
+						element("ButtonState"):SetInt(game.BUTTON_IDLE)
+					end
+				elseif(buttonState == game.BUTTON_RELEASED) then
+					if(newTime < 0.1) then
+						local size = lua_sys.smooth(buttonSize - 0.03, buttonSize + 0.05, newTime*20)
+						element["UpSprite"]("size"):SetFloat(size)
+						
+					elseif(newTime < 0.3) then
+						local size = lua_sys.smooth(buttonSize + 0.05, buttonSize, (newTime-0.1)*20)
+						element["UpSprite"]("size"):SetFloat(size)
+						
+						if(size == buttonSize) then
+							element("ButtonState"):SetInt(game.BUTTON_IDLE)
+						end
+					else
+						element["UpSprite"]("size"):SetFloat(buttonSize)
+						element("ButtonState"):SetInt(game.BUTTON_IDLE)
+					end
+				end
+			end
+
+			if tonumber(tvars.buttonMapping) ~= 0 or tonumber(tvars.buttonMappingAlt) ~= 0 then
+				if(not element["Touch"]:onTop() and element("buttonDown"):GetInt() ~= 0) then
+					element("buttonDown"):SetInt(0)
+					element["Touch"]:DoStoredScript("onTouchRelease")
+				end
+			end
+			
+			if(isLocked == 1 and element("TickTimer"):GetFloat() > 1) then
+				element("isCurrentlyLocked"):SetInt(0)
+				-- Uses real state so that if menu is closed during lock, the button does not become clickable. prevTouchState always set on touchUp
+				-- kinda hacky since prevTouchState is only unset on disable and setInvis, so can be bypassed if files don't call the stored scripts.
+				element["Touch"]("enabled"):SetInt(element("prevTouchState"):GetInt())
+			end
+		]]>
+	</event>
+	
+	<function name="setVisible" params="element">
+		element.isVisible = true
+		element["UpSprite"]("visible"):SetInt(1)
+		element["Text"]("visible"):SetInt(1)
+
+		-- If someone made this invisible then we can't force it to be touchable
+		if element["UpSprite"]("alpha"):GetFloat() == 0 then
+			element["Touch"]("enabled"):SetInt(0)
+			element("prevTouchState"):SetInt(0)
+		else
+			element["Touch"]("enabled"):SetInt(1)
+			element("prevTouchState"):SetInt(1);
+		end
+
+		-- Force update the text because it wont respect the padding otherwise
+		element["Text"]:V("text"):SetString('')
+		element["Text"]:onInit(element)
+		-- unfortunately this adds a hard-to find "gotcha" that breaks anyone who ever sets any text property changes in a postInit
+		-- (i.e. onInit is not expected to be called!)
+	</function>
+	
+	<function name="setInvisible" params="element">
+		element.isVisible = false
+		element["UpSprite"]("visible"):SetInt(0)
+		element["DownSprite"]("visible"):SetInt(0)
+		element["Text"]("visible"):SetInt(0)
+		element["Touch"]("enabled"):SetInt(0)
+		element("prevTouchState"):SetInt(0);
+	</function>
+	
+	<function name="enable" params="element">
+		local tvars = element:templateVars()
+		if tvars.downSpriteName ~= "''" then
+			if(element.isVisible) then
+				element["UpSprite"]("visible"):SetInt(1)
+				element["DownSprite"]("visible"):SetInt(0)
+			end
+		else
+			element["UpSprite"]:setColor(1.0, 1.0, 1.0)
+		end
+		element["Text"]:setColor(tvars.textTintR, tvars.textTintG, tvars.textTintB)
+
+		-- If someone made this invisible then we can't force it to be touchable
+		if element["UpSprite"]("alpha"):GetFloat() == 0 then
+			element["Touch"]("enabled"):SetInt(0)
+			element("prevTouchState"):SetInt(0);
+		else
+			element["Touch"]("enabled"):SetInt(1)
+			element("prevTouchState"):SetInt(1);
+		end
+	</function>
+	
+	<function name="disable" params="element">
+		local tvars = element:templateVars()
+		if tvars.downSpriteName ~= "''" then
+			if(element.isVisible) then
+				element["UpSprite"]("visible"):SetInt(0)
+				element["DownSprite"]("visible"):SetInt(1)
+			end
+		else
+			element["UpSprite"]:setColor(0.5, 0.5, 0.5)
+		end
+		element["Text"]:setColor(tvars.textTintR/2, tvars.textTintG/2, tvars.textTintB/2)
+		element["Touch"]("enabled"):SetInt(0)
+		element("prevTouchState"):SetInt(0);
+	</function>
+	
+	<function name="updateComponents" params="element">
+		local alpha = element("alpha"):GetFloat()
+		element["UpSprite"]("alpha"):SetFloat(alpha)
+		element["DownSprite"]("alpha"):SetFloat(alpha)
+		element["Text"]("alpha"):SetFloat(alpha)
+	</function>
+	
+	<event name="gotMsgKeyDown" params="element, msg">
+		if msg.key.val == 0 then
+			return
+		end
+		local tvars = element:templateVars()
+		if (tonumber(tvars.buttonMapping) == msg.key.val or tonumber(tvars.buttonMappingAlt) == msg.key.val) and element["Touch"]("enabled"):GetInt() ~= 0 and element("buttonDown"):GetInt() == 0 then
+			if(element["Touch"]:onTop()) then
+				element("buttonDown"):SetInt(msg.key.val)
+				element["Touch"]:DoStoredScript("onTouchDown")
+			end
+		end
+	</event>
+	
+	<event name="gotMsgKeyUp" params="element, msg">
+		if msg.key.val == 0 then
+			return
+		end
+		local tvars = element:templateVars()
+		if (tonumber(tvars.buttonMapping) == msg.key.val or tonumber(tvars.buttonMappingAlt) == msg.key.val) and element["Touch"]("enabled"):GetInt() ~= 0 and element("buttonDown"):GetInt() == msg.key.val then
+			if(element["Touch"]:onTop()) then
+				element("buttonDown"):SetInt(0)
+				element["Touch"]:DoStoredScript("onTouchUp")
+			end
+		end
+	</event>
+
+	<event name="SetClipRect" params="element, x, y, w, h">		
+		element["BoundsSprite"]:setClipRect(x, y, w, h)
+		element["UpSprite"]:setClipRect(x, y, w, h)
+		element["DownSprite"]:setClipRect(x, y, w, h)
+		element["Text"]:setClipRect(x, y, w, h)
+		element["Touch"]:setClipRect(x, y, w, h)
+	</event>
+	
+</template>

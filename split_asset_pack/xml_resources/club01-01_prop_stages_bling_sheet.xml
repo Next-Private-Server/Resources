@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:17430f612fbf9af73ccbd7d31b8f15c4:c1210bfff8c5a067fd99c4abc70a811b:8cbade29002a240dbdd808e6220b2af3$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-01_prop_stages_bling_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="lstage" x="0" y="0" w="950" h="528" oX="0" oY="12" oW="950" oH="550"/>
+	<sprite n="lstage_floor_chain_glow" x="724" y="1257" w="260" h="259" oX="9" oY="0" oW="268" oH="268" r="y"/>
+	<sprite n="lstage_floor_gold_glow_01" x="952" y="457" w="35" h="237" r="y"/>
+	<sprite n="lstage_floor_gold_glow_02" x="891" y="696" w="114" h="91" r="y"/>
+	<sprite n="lstage_floor_gold_glow_03" x="952" y="95" w="64" h="179" r="y"/>
+	<sprite n="lstage_floor_teal_glow_01" x="989" y="457" w="35" h="237" r="y"/>
+	<sprite n="lstage_floor_teal_glow_02" x="775" y="742" w="114" h="91" r="y"/>
+	<sprite n="lstage_floor_teal_glow_03" x="952" y="276" w="64" h="179" r="y"/>
+	<sprite n="lstage_glowA" x="0" y="712" w="471" h="180" oX="6" oY="0" oW="480" oH="180"/>
+	<sprite n="lstage_glowB" x="0" y="530" w="478" h="180" oX="2" oY="0" oW="480" oH="180"/>
+	<sprite n="star_holo_glow_bottom" x="775" y="910" w="76" h="74" oX="1" oY="14" oW="75" oH="105" r="y"/>
+	<sprite n="star_holo_glow_mid" x="952" y="0" w="71" h="93" oX="4" oY="3" oW="100" oH="75" r="y"/>
+	<sprite n="star_holo_glow_top" x="775" y="835" w="81" h="73" oX="2" oY="3" oW="75" oH="85" r="y"/>
+	<sprite n="tpain_holo_01" x="473" y="742" w="300" h="296"/>
+	<sprite n="tpain_holo_02" x="441" y="1040" w="281" h="266" oX="27" oY="15" oW="300" oH="296" r="y"/>
+	<sprite n="tpain_holo_03" x="0" y="894" w="296" h="270" oX="28" oY="0" oW="300" oH="296" r="y"/>
+	<sprite n="upperstage_platform_1" x="853" y="955" w="150" h="300" oX="0" oY="2" oW="300" oH="160" r="y"/>
+	<sprite n="upperstage_platform_2" x="0" y="1166" w="251" h="175" oX="17" oY="15" oW="270" oH="200"/>
+	<sprite n="upperstage_platform_3" x="298" y="894" w="141" h="210" oX="21" oY="27" oW="248" oH="200" r="y"/>
+	<sprite n="ustage" x="480" y="530" w="409" h="210" oX="3" oY="5" oW="415" oH="220"/>
+	<sprite n="ustage_glow" x="891" y="789" w="109" h="164" oX="22" oY="0" oW="208" oH="110" r="y"/>
+</TextureAtlas>

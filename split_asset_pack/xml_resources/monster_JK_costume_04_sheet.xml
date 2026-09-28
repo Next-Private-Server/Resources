@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7af53af1970f542ba3e35acbb38a2978:0d8d6bb0697d048768ff1fffe0eb92a3:b335f6d5f41eda5b60908713fb39b2e1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="gfx/costumes/monster_JK_costume_04_sheet.png" width="256" height="512" hires="true">
+    <sprite n="JK_bee_bauble.png" x="195" y="131" w="47" h="47" pX="0.5" pY="0.5" oX="-16" oY="-10.2"/>
+    <sprite n="JK_body.png" x="3" y="3" w="188" h="172" pX="0.5" pY="0.5" oX="0" oY="0"/>
+    <sprite n="JK_left_backleg.png" x="140" y="294" w="103" h="84" pX="0.5" pY="0.5" oX="-6" oY="13.6" oW="84" oH="113" r="y"/>
+    <sprite n="JK_left_frontleg.png" x="3" y="179" w="135" h="80" pX="0.5" pY="0.5" oX="-8" oY="11.2" oW="80" oH="138" r="y"/>
+    <sprite n="JK_left_lowerarm_sleeve.png" x="75" y="382" w="65" h="91" pX="0.5" pY="0.5" oX="6" oY="-5" oW="100" oH="65" r="y"/>
+    <sprite n="JK_left_wing.png" x="195" y="52" w="51" h="75" pX="0.5" pY="0.5" oX="8.2" oY="-38.8"/>
+    <sprite n="JK_right_backleg.png" x="3" y="382" w="68" h="101" pX="0.5" pY="0.5" oX="-2" oY="21" oW="72" oH="107"/>
+    <sprite n="JK_right_frontleg.png" x="3" y="263" w="133" h="75" pX="0.5" pY="0.5" oX="-6" oY="12.2" oW="80" oH="138" r="y"/>
+    <sprite n="JK_right_lowerarm.png" x="142" y="230" w="104" h="60" pX="0.5" pY="0.5" oX="2" oY="0" oW="108" oH="60"/>
+    <sprite n="JK_right_wing.png" x="195" y="3" w="54" h="45" pX="0.5" pY="0.5" oX="118.8" oY="-33.2" r="y"/>
+    <sprite n="JK_small_lowerleg.png" x="142" y="182" w="111" h="44" pX="0.5" pY="0.5" oX="0" oY="0" oW="44" oH="112" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0748ca3df5c7e7f2337a9d3b7408fdbb:46238a3b834922f169d943af262ffd7a:7d0a3f70d2f582147f9be993fc7d3ee7$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_P11_RARE_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="P_CHEST" x="331" y="372" w="126" h="233" pX="0.570833" pY="0.628571" oX="2" oY="7" oW="240" oH="140" r="y"/>
+	<sprite n="P_CHEST_light_NOTINT" x="360" y="0" w="128" h="265" pX="0.57" pY="0.271429" oX="16" oY="2" oW="300" oH="140" r="y"/>
+	<sprite n="P_dress" x="331" y="267" w="165" h="103" pX="0.49" pY="0.291667" oX="13" oY="17" oW="200" oH="120"/>
+	<sprite n="P_goggle_LEFT" x="119" y="374" w="115" h="84" pX="0.455556" pY="0.546154" oX="2" oY="8" oW="90" oH="130" r="y"/>
+	<sprite n="P_goggle_RIGHT" x="119" y="374" w="115" h="84" pX="-0.76" pY="0.492308" oX="6" oY="8" oW="100" oH="130" r="y"/>
+	<sprite n="P_head_RARE" x="0" y="123" w="329" h="249" pX="0.5" pY="0.5" oX="3" oY="19" oW="280" oH="360" r="y"/>
+	<sprite n="P_head_RARE_light_NOTINT" x="0" y="0" w="358" h="121" pX="0.543902" pY="1.92353" oX="31" oY="46" oW="410" oH="170"/>
+	<sprite n="P_head_slots_RARE" x="458" y="662" w="54" h="64" pX="0.5" pY="0.5" oX="8" oY="12" oW="80" oH="100"/>
+	<sprite n="P_left_arm_02" x="190" y="647" w="68" h="32" pX="0.5" pY="0.5" oX="0" oY="9" oW="68" oH="48"/>
+	<sprite n="P_left_arm_03" x="82" y="479" w="35" h="66" pX="0.5" pY="0.5" oX="0" oY="7" oW="68" oH="48" r="y"/>
+	<sprite n="P_left_arm_04" x="119" y="693" w="66" h="37" pX="0.5" pY="0.5" oX="0" oY="5" oW="68" oH="48"/>
+	<sprite n="P_left_arm_05" x="187" y="717" w="65" h="34" pX="0.5" pY="0.5" oX="0" oY="7" oW="68" oH="48"/>
+	<sprite n="P_left_arm_06" x="259" y="709" w="65" h="36" pX="0.5" pY="0.5" oX="0" oY="5" oW="68" oH="48"/>
+	<sprite n="P_left_back_foot" x="0" y="544" w="77" h="63" pX="0.5" pY="0.5" oX="1" oY="4" oW="84" oH="72"/>
+	<sprite n="P_left_back_foot_box" x="331" y="123" w="25" h="32" pX="0.5" pY="0.5" oX="16" oY="3" oW="84" oH="72" r="y"/>
+	<sprite n="P_left_back_foot_box_light" x="490" y="0" w="18" h="15" pX="0.5" pY="0.5" oX="24" oY="4" oW="84" oH="72"/>
+	<sprite n="P_left_back_leg_01" x="401" y="725" w="54" h="38" pX="0.5" pY="0.5" oX="8" oY="3" oW="68" oH="48"/>
+	<sprite n="P_left_back_leg_02" x="79" y="547" w="38" h="55" pX="0.5" pY="0.5" oX="7" oY="3" oW="68" oH="48" r="y"/>
+	<sprite n="P_left_back_leg_03" x="401" y="607" w="56" h="37" pX="0.5" pY="0.5" oX="6" oY="4" oW="68" oH="48"/>
+	<sprite n="P_left_back_leg_04" x="459" y="498" w="52" h="38" pX="0.5" pY="0.5" oX="10" oY="3" oW="68" oH="48"/>
+	<sprite n="P_left_back_leg_05" x="459" y="577" w="51" h="42" pX="0.5" pY="0.5" oX="11" oY="1" oW="68" oH="48"/>
+	<sprite n="P_left_back_toe" x="119" y="630" w="69" h="61" pX="0.5" pY="0.5" oX="3" oY="3" oW="76" oH="68"/>
+	<sprite n="P_left_front_foot" x="236" y="374" w="85" h="69" pX="0.5" pY="0.5" oX="0" oY="3" oW="92" oH="76"/>
+	<sprite n="P_left_front_foot_box" x="273" y="581" w="56" h="45" pX="0.5" pY="0.5" oX="12" oY="2" oW="92" oH="76"/>
+	<sprite n="P_left_front_foot_box_light" x="331" y="157" w="25" h="32" pX="0.5" pY="0.5" oX="26" oY="7" oW="92" oH="76" r="y"/>
+	<sprite n="P_left_front_leg_01" x="459" y="372" w="53" h="40" pX="0.5" pY="0.5" oX="9" oY="3" oW="68" oH="48"/>
+	<sprite n="P_left_front_leg_02" x="254" y="747" w="54" h="37" pX="0.5" pY="0.5" oX="8" oY="4" oW="68" oH="48"/>
+	<sprite n="P_left_front_leg_03" x="401" y="686" w="55" h="37" pX="0.5" pY="0.5" oX="7" oY="4" oW="68" oH="48"/>
+	<sprite n="P_left_front_leg_04" x="459" y="414" w="53" h="38" pX="0.5" pY="0.5" oX="9" oY="3" oW="68" oH="48"/>
+	<sprite n="P_left_front_leg_05" x="76" y="661" w="41" h="58" pX="0.5" pY="0.5" oX="4" oY="1" oW="68" oH="48" r="y"/>
+	<sprite n="P_left_front_toe_RARE" x="228" y="516" w="80" h="63" pX="0.5" pY="0.5" oX="0" oY="1" oW="80" oH="64"/>
+	<sprite n="P_left_hand_RARE" x="119" y="460" w="107" h="103" pX="0.5" pY="0.5" oX="35" oY="49" oW="180" oH="180" r="y"/>
+	<sprite n="P_left_hand_RARE_light_NOTINT" x="0" y="374" w="117" h="103" pX="0.5" pY="0.5" oX="31" oY="44" oW="180" oH="180" r="y"/>
+	<sprite n="P_left_speaker - Copy" x="331" y="607" w="68" h="58" pX="0.5" pY="0.5" oX="3" oY="4" oW="64" oH="76" r="y"/>
+	<sprite n="P_right_arm_02" x="260" y="675" w="68" h="32" pX="0.5" pY="0.5" oX="0" oY="9" oW="68" oH="48"/>
+	<sprite n="P_right_arm_03" x="190" y="681" w="67" h="34" pX="0.5" pY="0.5" oX="1" oY="7" oW="68" oH="48"/>
+	<sprite n="P_right_arm_04" x="0" y="740" w="66" h="36" pX="0.5" pY="0.5" oX="2" oY="6" oW="68" oH="48"/>
+	<sprite n="P_right_arm_05" x="0" y="778" w="65" h="37" pX="0.5" pY="0.5" oX="3" oY="5" oW="68" oH="48"/>
+	<sprite n="P_right_arm_06" x="115" y="732" w="64" h="36" pX="0.5" pY="0.5" oX="4" oY="5" oW="68" oH="48"/>
+	<sprite n="P_right_back_foot" x="119" y="565" w="77" h="63" pX="0.5" pY="0.5" oX="3" oY="4" oW="84" oH="72"/>
+	<sprite n="P_right_back_foot_box" x="331" y="191" w="25" h="32" pX="0.5" pY="0.5" oX="36" oY="3" oW="84" oH="72" r="y"/>
+	<sprite n="P_right_back_foot_box_light" x="490" y="17" w="18" h="15" pX="0.5" pY="0.5" oX="42" oY="4" oW="84" oH="72"/>
+	<sprite n="P_right_back_leg_01" x="79" y="604" w="38" h="55" pX="0.5" pY="0.5" oX="7" oY="4" oW="68" oH="48" r="y"/>
+	<sprite n="P_right_back_leg_02" x="401" y="646" w="55" h="38" pX="0.5" pY="0.5" oX="7" oY="4" oW="68" oH="48"/>
+	<sprite n="P_right_back_leg_03" x="181" y="753" w="54" h="37" pX="0.5" pY="0.5" oX="8" oY="5" oW="68" oH="48"/>
+	<sprite n="P_right_back_leg_04" x="459" y="538" w="52" h="37" pX="0.5" pY="0.5" oX="10" oY="4" oW="68" oH="48"/>
+	<sprite n="P_right_back_leg_05" x="459" y="454" w="52" h="42" pX="0.5" pY="0.5" oX="10" oY="1" oW="68" oH="48"/>
+	<sprite n="P_right_back_toe" x="0" y="677" w="69" h="61" pX="0.5" pY="0.5" oX="3" oY="3" oW="76" oH="68"/>
+	<sprite n="P_right_front_foot" x="236" y="445" w="85" h="69" pX="0.5" pY="0.5" oX="7" oY="3" oW="92" oH="76"/>
+	<sprite n="P_right_front_foot_box" x="273" y="628" w="56" h="45" pX="0.5" pY="0.5" oX="24" oY="2" oW="92" oH="76"/>
+	<sprite n="P_right_front_foot_box_light" x="331" y="225" w="25" h="32" pX="0.5" pY="0.5" oX="34" oY="7" oW="92" oH="76" r="y"/>
+	<sprite n="P_right_front_leg_01" x="457" y="728" w="54" h="38" pX="0.5" pY="0.5" oX="8" oY="3" oW="68" oH="48"/>
+	<sprite n="P_right_front_leg_02" x="115" y="770" w="54" h="36" pX="0.5" pY="0.5" oX="8" oY="5" oW="68" oH="48"/>
+	<sprite n="P_right_front_leg_03" x="326" y="727" w="54" h="38" pX="0.5" pY="0.5" oX="8" oY="4" oW="68" oH="48"/>
+	<sprite n="P_right_front_leg_04" x="459" y="621" w="50" h="39" pX="0.5" pY="0.5" oX="12" oY="3" oW="68" oH="48"/>
+	<sprite n="P_right_front_leg_05" x="71" y="721" w="42" h="58" pX="0.5" pY="0.5" oX="4" oY="1" oW="68" oH="48" r="y"/>
+	<sprite n="P_right_front_toe_RARE" x="0" y="479" w="80" h="63" pX="0.5" pY="0.5" oX="0" oY="1" oW="80" oH="64"/>
+	<sprite n="P_right_hand_RARE" x="119" y="460" w="107" h="103" pX="0.5" pY="0.5" oX="35" oY="49" oW="180" oH="180" r="y"/>
+	<sprite n="P_right_hand_RARE_light_NOTINT" x="0" y="374" w="117" h="103" pX="0.5" pY="0.5" oX="31" oY="44" oW="180" oH="180" r="y"/>
+	<sprite n="P_right_speaker" x="331" y="667" w="68" h="58" pX="0.5" pY="0.5" oX="3" oY="4" oW="64" oH="76" r="y"/>
+	<sprite n="P_wrist_left" x="0" y="609" w="74" h="66" pX="0.5" pY="0.5" oX="7" oY="8" oW="90" oH="80"/>
+	<sprite n="P_wrist_right" x="198" y="581" w="73" h="64" pX="0.5" pY="0.5" oX="8" oY="8" oW="90" oH="80"/>
+</TextureAtlas>

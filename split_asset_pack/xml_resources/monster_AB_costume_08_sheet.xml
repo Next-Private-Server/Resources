@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:dd30c78abf2d1f6ad9f0237e19e35a50:6a77d02ec39b2022004fb09424d0300f:adb993b73402443dde3beb1141fa54d1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_AB_costume_08_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="AB_body" x="146" y="0" w="90" h="72" pX="0.5" pY="0.5"/>
+	<sprite n="AB_head" x="115" y="197" w="64" h="50" pX="0.5" pY="0.5"/>
+	<sprite n="AB_head_puff" x="0" y="135" w="113" h="121" pX="0.5" pY="0.5" oX="10" oY="5" oW="154" oH="136" r="y"/>
+	<sprite n="AB_left_leg" x="181" y="197" w="66" h="26" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AB_neck" x="115" y="135" w="130" h="60" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AB_right_leg" x="146" y="74" w="76" h="28" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="AB_tail_puff" x="0" y="0" w="144" h="133" pX="0.5" pY="0.5" oX="0" oY="3" oW="144" oH="136"/>
+</TextureAtlas>

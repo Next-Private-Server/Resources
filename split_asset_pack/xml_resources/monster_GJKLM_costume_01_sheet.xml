@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a70653164eeed90559de545b41dd7c65:8e9e98b9aab8d7e996f2833f7e3fafae:4938da83be0a3d00b4edd0af6ae06a4c$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_GJKLM_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="GJKLM_bicep_bottom" x="291" y="570" w="194" h="41" pX="0.8833333333333333" pY="0.5" oX="30" oY="21" oW="240" oH="80"/>
+	<sprite n="GJKLM_bicep_top" x="287" y="613" w="193" h="41" pX="0.8833333333333333" pY="0.5" oX="30" oY="19" oW="240" oH="80"/>
+	<sprite n="GJKLM_body_stalk" x="0" y="277" w="323" h="201" pX="0.49583333333333335" pY="0.8472222222222222" oX="17" oY="25" oW="240" oH="360" r="y"/>
+	<sprite n="GJKLM_forearm" x="293" y="512" w="217" h="56" pX="0.8541666666666666" pY="0.4875" oX="9" oY="11" oW="240" oH="80"/>
+	<sprite n="GJKLM_helmet_1" x="0" y="0" w="394" h="275" pX="0.45" pY="0.6857142857142857" oX="11" oY="12" oW="300" oH="420" r="y"/>
+	<sprite n="GJKLM_helmet_1B" x="396" y="92" w="86" h="201" pX="0.45" pY="0.6857142857142857" oX="41" oY="291" oW="300" oH="420" r="y"/>
+	<sprite n="GJKLM_helmet_2L" x="232" y="685" w="229" h="227" pX="0.6125" pY="0.6208333333333333" oX="8" oY="7" oW="240" oH="240"/>
+	<sprite n="GJKLM_helmet_2R" x="0" y="480" w="230" h="227" pX="0.4041666666666667" pY="0.5875" oX="8" oY="7" oW="240" oH="240"/>
+	<sprite n="GJKLM_screen_1A" x="463" y="707" w="46" h="50" pX="0.5" pY="0.5" oX="49" oY="50" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_1B" x="232" y="583" w="53" h="51" pX="0.5" pY="0.5" oX="47" oY="50" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_2A" x="463" y="759" w="41" h="52" pX="0.5" pY="0.5" oX="49" oY="48" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_2B" x="232" y="636" w="53" h="47" pX="0.5" pY="0.5" oX="47" oY="47" oW="148" oH="148" r="y"/>
+	<sprite n="GJKLM_screen_3A" x="325" y="447" w="59" h="59" pX="0.5" pY="0.5" oX="35" oY="51" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_3B" x="325" y="387" w="60" h="58" pX="0.5" pY="0.5" oX="39" oY="50" oW="148" oH="148" r="y"/>
+	<sprite n="GJKLM_screen_4A" x="463" y="656" w="49" h="49" pX="0.5" pY="0.5" oX="47" oY="49" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_4B" x="232" y="531" w="57" h="50" pX="0.5" pY="0.5" oX="43" oY="49" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_5A" x="232" y="480" w="59" h="49" pX="0.5" pY="0.5" oX="50" oY="49" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_5B" x="325" y="335" w="63" h="50" pX="0.5" pY="0.5" oX="46" oY="49" oW="148" oH="148"/>
+	<sprite n="GJKLM_screen_glow" x="390" y="369" w="119" h="141" pX="0.5" pY="0.5" oX="4" oY="14" oW="148" oH="148" r="y"/>
+	<sprite n="GJKLM_screen_OL" x="325" y="277" w="69" h="56" pX="0.5" pY="0.5" oX="40" oY="44" oW="148" oH="148"/>
+	<sprite n="GJKLM_tentacles_upper_1" x="396" y="0" w="95" h="90" pX="0.6666666666666666" pY="0.52" oX="18" oY="4" oW="120" oH="100"/>
+	<sprite n="GJKLM_tentacles_upper_2" x="396" y="295" w="85" h="72" pX="0.6666666666666666" pY="0.52" oX="21" oY="12" oW="120" oH="100"/>
+</TextureAtlas>

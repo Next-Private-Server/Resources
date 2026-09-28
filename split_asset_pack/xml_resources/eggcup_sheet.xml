@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:166cef1bd89c538121fbb52047b7ced0:7db321438dfe13ee8d4c691b828928fd:ff10ace95f48ecfbf217ca20bad47032$ -->
+<TextureAtlas imagePath="gfx/structures/eggcup_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="bowl_glow" x="150" y="193" w="106" h="75" oX="9" oY="0" oW="125" oH="75"/>
+	<sprite n="bowl_spark_01" x="201" y="133" w="30" h="58" oX="35" oY="21" oW="100" oH="100"/>
+	<sprite n="bowl_spark_02" x="201" y="56" w="52" h="75" oX="24" oY="13" oW="100" oH="100"/>
+	<sprite n="bowl_spark_03" x="0" y="234" w="88" h="66" oX="17" oY="6" oW="100" oH="100" r="y"/>
+	<sprite n="bowl_spark_04" x="201" y="0" w="54" h="54" oX="23" oY="23" oW="100" oH="100"/>
+	<sprite n="bowl_spark_05" x="90" y="270" w="79" h="79" oX="11" oY="11" oW="100" oH="100"/>
+	<sprite n="eggcup" x="0" y="0" w="199" h="154" oX="3" oY="0" oW="160" oH="200" r="y"/>
+	<sprite n="shadow" x="0" y="156" w="148" h="76"/>
+</TextureAtlas>

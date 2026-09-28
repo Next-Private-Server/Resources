@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9c9bc1b73f23c5f33e026d5a8deabcf6:80b5bb0bd08d3f94b9256255e79dcb17:349ef8ea43f0d091e8064085c3718fdd$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_BEN_costume_01_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="BEN_glasses" x="200" y="149" w="40" h="84" pX="0.47619" pY="0.425" r="y"/>
+	<sprite n="BEN_hair_front" x="200" y="235" w="35" h="57" pX="0.815789" pY="0.637931" oX="1" oY="1" oW="38" oH="58"/>
+	<sprite n="BEN_hair_left" x="0" y="287" w="106" h="104" pX="0.673077" pY="0.851852" oX="0" oY="1" oW="104" oH="108" r="y"/>
+	<sprite n="BEN_hair_right" x="0" y="183" w="122" h="102" pX="0.432692" pY="0.903226" oX="1" oY="1" oW="104" oH="124" r="y"/>
+	<sprite n="BEN_hornbell" x="0" y="0" w="198" h="181" pX="0.515" pY="0.60929" oX="1" oY="1" oW="200" oH="183"/>
+	<sprite n="BEN_left_foot" x="200" y="75" w="50" h="72" pX="0.72973" pY="0.269231" oX="1" oY="1" oW="74" oH="52" r="y"/>
+	<sprite n="BEN_left_lowerleg" x="0" y="393" w="79" h="88" pX="0.375" pY="0.829545" oX="0" oY="0" oW="80" oH="88"/>
+	<sprite n="BEN_right_foot" x="200" y="0" w="51" h="73" pX="0.5" pY="0.5" oX="0" oY="0" oW="74" oH="52" r="y"/>
+	<sprite n="BEN_right_lowerleg" x="124" y="183" w="74" h="97" pX="0.397436" pY="0.8" oX="2" oY="3" oW="78" oH="100"/>
+	<sprite n="BEN_upperleg" x="124" y="282" w="62" h="26" pX="0.5" pY="0.5" oX="1" oY="1" oW="28" oH="64" r="y"/>
+</TextureAtlas>
