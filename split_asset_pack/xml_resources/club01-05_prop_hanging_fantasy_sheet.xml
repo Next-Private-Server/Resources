@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:730ee8efdb0ffb5ad2522ef38aed5f96:edca0319fbceeeebfb4742aafd493131:cf182a97a425cd99254d0e9217c06030$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_hanging_fantasy_sheet.png" width="128" height="512" hires="true" version="1">
+	<sprite n="prop_cauldron_back" x="24" y="0" w="85" h="185" r="y"/>
+	<sprite n="prop_cauldron_chain" x="0" y="0" w="12" h="323" r="y"/>
+	<sprite n="prop_cauldron_chain_glow" x="14" y="0" w="8" h="321" oX="2" oY="4" oW="323" oH="12" r="y"/>
+	<sprite n="prop_cauldron_front" x="0" y="325" w="107" h="185" r="y"/>
+	<sprite n="prop_cauldron_glow" x="24" y="187" w="67" h="109"/>
+</TextureAtlas>

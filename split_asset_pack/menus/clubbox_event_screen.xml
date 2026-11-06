@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<template type="template_event_screen" name="EventScreen">
+		<templateVar name="$layer" equals="FrontPopUps" />
+
+		<templateVar name="$titleSprite" equals="'gfx/menu/event_screen/clubbox/seasonal_text_clubbox'"/>
+		<templateVar name="$stickerSpriteSheet" equals="'xml_resources/multipack_clubbox_sheet.xml'"/>
+		<templateVar name="$monsterSprite" equals="'gfx/menu/event_screen/clubbox/event_screen_monster'"/>
+		<templateVar name="$mainSprite" equals="'gfx/menu/event_screen/clubbox/clubbox_event_image_01'"/>
+		<templateVar name="$glowSprite" equals="'gfx/menu/event_screen/clubbox/event_screen_glow'"/>
+
+		<templateVar name="$subtitle_refid" equals="CLUBBOX_INFO_TITLE"/>
+
+		<templateVar name="$text1_color" equals="'#60F3FF'"/>
+		<templateVar name="$text1_refid" equals="EVENT_SCREEN_CLUBBOX_TOP"/>
+		<templateVar name="$text2_refid" equals="EVENT_SCREEN_CLUBBOX_BOTTOM"/>
+				
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<event name="onInit" params="component, element">
+		<![CDATA[
+		
+			local eventScreen = component:E("EventScreen")
+
+			eventScreen.bg.TopLeft("xOffset"):SetFloat(-10*game.windowScaleY())
+			eventScreen.bg.TopLeft("yOffset"):SetFloat(15*game.windowScaleY())
+
+			eventScreen.bg.TopRight("xOffset"):SetFloat(-10*game.windowScaleY())
+			eventScreen.bg.TopRight("yOffset"):SetFloat(15*game.windowScaleY())
+
+			eventScreen.bg.BottomRight("xOffset"):SetFloat(-44*game.windowScaleY())
+			eventScreen.bg.BottomRight("yOffset"):SetFloat(-7*game.windowScaleY())
+
+			eventScreen.onContinue = function(e)
+				if game.existingClubboxAct() == 0 or game.inAdminViewMode() then
+					if game.getPopUp() ~= "clubbox_act_select" then
+						game.pushPopUp("clubbox_act_select")
+					end
+				else
+					game.goToClubbox(0,0)
+				end	
+			end
+		]]>
+	</event>
+</menu>

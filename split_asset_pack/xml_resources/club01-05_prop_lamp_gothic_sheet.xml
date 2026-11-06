@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6a16553420b414d54bf1efde5582f140:dd71d94df5304c6574d59b7836e4f2e0:4aabb9a406f5b4e832a7e516e3ab8fc3$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_lamp_gothic_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="edge_glow" x="253" y="465" w="224" h="207" oX="0" oY="240" oW="207" oH="605" r="y"/>
+	<sprite n="glow" x="422" y="674" w="80" h="80"/>
+	<sprite n="lamp_bottom_bg" x="214" y="674" w="206" h="97" oX="0" oY="228" oW="207" oH="605"/>
+	<sprite n="lamp_bottom_fg" x="0" y="0" w="350" h="205" oX="0" oY="255" oW="207" oH="605" r="y"/>
+	<sprite n="lamp_grate_bg" x="0" y="623" w="212" h="199" oX="3" oY="213" oW="207" oH="605" r="y"/>
+	<sprite n="lamp_grate_fg" x="352" y="0" w="148" h="206" oX="28" oY="266" oW="207" oH="605"/>
+	<sprite n="lamp_top_fg" x="0" y="207" w="324" h="206" oX="0" oY="0" oW="207" oH="605" r="y"/>
+	<sprite n="shadow" x="326" y="208" w="138" h="255" oX="12" oY="11" oW="280" oH="160" r="y"/>
+	<sprite n="top_glow" x="0" y="415" w="251" h="206" oX="0" oY="73" oW="207" oH="605" r="y"/>
+</TextureAtlas>

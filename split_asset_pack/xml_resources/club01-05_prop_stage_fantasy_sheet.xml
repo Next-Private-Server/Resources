@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b19e8092bbd156795870cf79725a1986:8875f819fdcb385c4c13e4d8a9cb87de:2c80806a267f9b9df7858fd617e0c314$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_stage_fantasy_sheet.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="prop_stage" x="0" y="0" w="2043" h="1102" oX="0" oY="37" oW="2043" oH="1139"/>
+	<sprite n="prop_stage_back" x="0" y="1104" w="457" h="843" r="y"/>
+	<sprite n="prop_stage_glow" x="459" y="1104" w="457" h="843" r="y"/>
+	<sprite n="prop_stage_glow_OL" x="918" y="1104" w="193" h="411" oX="48" oY="41" oW="511" oH="285" r="y"/>
+	<sprite n="prop_stage_ol" x="918" y="1517" w="139" h="246" oX="951" oY="893" oW="2043" oH="1139"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:cf1f9414f70bb34095f2edc614f4c84a:aec1a68694a12b0c71fd6553da7c3001:7fd26da73e332d11f9a39bce7d76e528$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_backwall_gothic_sheet.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="backwall_bg" x="0" y="0" w="1395" h="776" oX="486" oY="0" oW="1881" oH="852"/>
+	<sprite n="backwall_fg_a" x="680" y="778" w="693" h="852" oX="0" oY="0" oW="1881" oH="852"/>
+	<sprite n="bg_statue" x="1397" y="102" w="291" h="219" r="y"/>
+	<sprite n="candle_holder" x="1397" y="323" w="191" h="134" r="y"/>
+	<sprite n="pillar_lighting" x="1397" y="0" w="412" h="100" r="y"/>
+	<sprite n="side_curtain" x="0" y="778" w="678" h="882" oX="0" oY="0" oW="723" oH="882"/>
+	<sprite n="side_curtain_glow" x="1756" y="113" w="249" h="242" r="y"/>
+	<sprite n="window_glass" x="1690" y="102" w="64" h="175"/>
+	<sprite n="window_glow" x="1811" y="0" w="226" h="111" r="y"/>
+</TextureAtlas>

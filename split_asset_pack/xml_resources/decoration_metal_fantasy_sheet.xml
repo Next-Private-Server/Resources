@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c09c08ad0c36450de753953339e1ff5b:f2e7eb754839eeee3b7abfc2fb2df081:dd0c99e145e7e66f3acbcb1901e38045$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_metal_fantasy_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="arm1_hand1" x="480" y="149" w="30" h="41" oX="1" oY="3" oW="31" oH="44"/>
+	<sprite n="arm1_hand2" x="272" y="482" w="43" h="23" oX="0" oY="0" oW="31" oH="44" r="y"/>
+	<sprite n="arm3_hand1" x="480" y="109" w="31" h="38" oX="0" oY="1" oW="31" oH="39"/>
+	<sprite n="arm3_hand2" x="378" y="352" w="23" h="38" oX="0" oY="1" oW="31" oH="39"/>
+	<sprite n="arm_01" x="407" y="268" w="69" h="21" r="y"/>
+	<sprite n="arm_02" x="422" y="291" w="47" h="54" r="y"/>
+	<sprite n="arm_03" x="313" y="399" w="21" h="74"/>
+	<sprite n="arm_04" x="279" y="358" w="52" h="39" r="y"/>
+	<sprite n="arm_05" x="169" y="373" w="67" h="24" r="y"/>
+	<sprite n="arm_5_hand_1" x="480" y="236" w="29" h="39" oX="4" oY="0" oW="33" oH="39"/>
+	<sprite n="arm_5_hand_2" x="238" y="373" w="39" h="24" oX="0" oY="0" oW="33" oH="39" r="y"/>
+	<sprite n="bubble_01" x="407" y="389" w="15" h="10" oX="14" oY="14" oW="42" oH="32"/>
+	<sprite n="bubble_02" x="407" y="389" w="15" h="10" oX="14" oY="14" oW="42" oH="32"/>
+	<sprite n="bubble_03" x="364" y="268" w="13" h="19" oX="12" oY="12" oW="42" oH="32" r="y"/>
+	<sprite n="bubble_04" x="253" y="490" w="17" h="22" oX="10" oY="9" oW="42" oH="32" r="y"/>
+	<sprite n="bubble_05" x="227" y="490" w="24" h="22" oX="9" oY="3" oW="42" oH="32"/>
+	<sprite n="bubble_06" x="333" y="353" w="21" h="40" oX="1" oY="6" oW="42" oH="32" r="y"/>
+	<sprite n="bubble_07" x="356" y="353" w="20" h="39" oX="1" oY="9" oW="42" oH="32" r="y"/>
+	<sprite n="kinght_body" x="0" y="268" w="107" h="238"/>
+	<sprite n="kinght_hair" x="169" y="277" w="89" h="94"/>
+	<sprite n="kinght_head" x="336" y="395" w="69" h="73"/>
+	<sprite n="kinght_head_glow" x="364" y="291" w="56" h="59" r="y"/>
+	<sprite n="kinght_shadow" x="109" y="277" w="58" h="123" r="y"/>
+	<sprite n="knight_lowerarm_back" x="317" y="475" w="39" h="37" r="y"/>
+	<sprite n="knight_lowerarm_front" x="227" y="399" w="37" h="89" r="y"/>
+	<sprite n="knight_upperarm_back" x="428" y="347" w="62" h="52" r="y"/>
+	<sprite n="knight_upperarm_front" x="260" y="277" w="57" h="79"/>
+	<sprite n="prop_center_stream" x="480" y="0" w="32" h="41"/>
+	<sprite n="stage" x="0" y="0" w="478" h="266"/>
+	<sprite n="stage_glow" x="109" y="402" w="51" h="109" r="y"/>
+	<sprite n="stage_rocks_left" x="480" y="192" w="29" h="42" r="y"/>
+	<sprite n="stage_rocks_right" x="403" y="352" w="23" h="35" r="y"/>
+	<sprite n="sword_01" x="162" y="402" w="63" h="102"/>
+	<sprite n="sword_02" x="319" y="277" w="43" h="74"/>
+	<sprite n="sword_03" x="266" y="399" w="45" h="81"/>
+	<sprite n="water__flow_01" x="379" y="268" w="12" h="15" r="y"/>
+	<sprite n="water__flow_02" x="393" y="268" w="12" h="15" r="y"/>
+	<sprite n="water__flow_03" x="478" y="277" w="15" h="12"/>
+	<sprite n="water__flow_04" x="495" y="277" w="15" h="12"/>
+	<sprite n="water__flow_05" x="260" y="358" w="10" h="13" oX="1" oY="0" oW="15" oH="12" r="y"/>
+	<sprite n="water__flow_06" x="492" y="291" w="15" h="9" oX="0" oY="1" oW="15" oH="12"/>
+	<sprite n="water_ripple" x="480" y="43" w="31" h="64" r="y"/>
+</TextureAtlas>

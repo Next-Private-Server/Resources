@@ -43,7 +43,7 @@
 	<template type="template_currency_counter_manager" name="CurrencyCountersTop">
 		<templateVar name="$layer" equals="HUD" />
 		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="RIGHT" />
-		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="4" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="18" />
 		<event name="onInit" params="element">
 			<![CDATA[
 				onInit(element)

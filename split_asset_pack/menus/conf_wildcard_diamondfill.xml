@@ -193,10 +193,10 @@
 	
 	<element name="UseWildcardText">
 		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
-		<position relativeTo="Notification" vAnchor="BOTTOM" hAnchor="LEFT" />
-		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="40*game.hudScale()" priorityOffset="0" />
+		<position relativeTo="WildcardSwitch" vAnchor="VCENTER" hAnchor="LEFT" />
+		<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="8*game.menuScaleX()" yOffset="-4*game.menuScaleX()" priorityOffset="0" />
 		<textComponent name="Text">
-			<size w="230*game.menuScaleX()" h="120*game.menuScaleX()" />
+			<size w="210*game.menuScaleX()" h="120*game.menuScaleX()" />
 			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
 			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 			<event name="onInit" params="component, element">

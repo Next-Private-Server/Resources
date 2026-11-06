@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
 <!-- $TexturePacker:SmartUpdate:e25dafa6d293cf9478cc448430807b7a:599f2fe766bd6ddbe3a042c53e6ca403:b08f9d3d426b41a31501f54916551ccb$ -->
-<TextureAtlas imagePath="gfx/clubbox/props/club01_critter_sheet.png" width="512" height="512" hires="true" version="1">
+<TextureAtlas imagePath="gfx/clubbox/venues/club01_critter_sheet.png" width="512" height="512" hires="true" version="1">
 	<sprite n="critter_back_flipper" x="369" y="176" w="30" h="47" oX="9" oY="6" oW="50" oH="60">
 		<vertices>39 53 9 53 9 6 39 6</vertices>
 		<verticesUV>399 223 369 223 369 176 399 176</verticesUV>

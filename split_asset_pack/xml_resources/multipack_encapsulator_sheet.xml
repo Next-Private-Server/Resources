@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c050d251719f1001cc93ca698fd00a19:8d2c16079d806ab35e42f1a41fb10792:16f52863dcd99fc61a980b55e7c32050$ -->
+<TextureAtlas imagePath="gfx/menu/multipack/multipack_encapsulator_sheet.png" width="512" height="512" hires="false" version="1">
+	<sprite n="left_corner" x="0" y="269" w="226" h="230" oX="3" oY="0" oW="355" oH="249" r="y"/>
+	<sprite n="lower_right_corner" x="407" y="0" w="67" h="267" oX="141" oY="37" oW="296" oH="438"/>
+	<sprite n="middle" x="0" y="0" w="405" h="108" oX="6" oY="2" oW="412" oH="146"/>
+</TextureAtlas>

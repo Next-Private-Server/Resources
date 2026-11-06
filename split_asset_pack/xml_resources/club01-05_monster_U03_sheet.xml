@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:87a6d989a4a6c2ab9e69b8353c4254bf:42ee524ddee963eedb07ac67cf28114e:7666ff2b50c00b9b219bc490dad5565b$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_monster_U03_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="U03_body" x="246" y="189" w="177" h="87" oX="4" oY="10" oW="192" oH="108"/>
+	<sprite n="U03_eyelights" x="353" y="518" w="58" h="42" oX="11" oY="11" oW="80" oH="64"/>
+	<sprite n="U03_feather_big_1" x="0" y="373" w="142" h="42" oX="7" oY="8" oW="160" oH="56"/>
+	<sprite n="U03_feather_big_2" x="0" y="320" w="156" h="51" oX="6" oY="9" oW="172" oH="68"/>
+	<sprite n="U03_feather_big_3" x="239" y="419" w="127" h="40" oX="10" oY="8" oW="148" oH="56"/>
+	<sprite n="U03_feathers_1" x="159" y="280" w="84" h="80" oX="12" oY="13" oW="108" oH="104"/>
+	<sprite n="U03_feathers_2" x="419" y="391" w="86" h="105" oX="9" oY="11" oW="124" oH="108" r="y"/>
+	<sprite n="U03_feathers_3" x="413" y="544" w="42" h="110" oX="11" oY="11" oW="132" oH="64" r="y"/>
+	<sprite n="U03_foot" x="246" y="278" w="166" h="41" oX="7" oY="10" oW="56" oH="188" r="y"/>
+	<sprite n="U03_hand" x="0" y="280" w="157" h="38" oX="12" oY="11" oW="60" oH="180" r="y"/>
+	<sprite n="U03_head" x="158" y="362" w="79" h="130" oX="10" oY="13" oW="100" oH="156"/>
+	<sprite n="U03_key_glow" x="353" y="482" w="64" h="34" oX="9" oY="11" oW="84" oH="56"/>
+	<sprite n="U03_keypad" x="0" y="0" w="438" h="187" oX="0" oY="8" oW="448" oH="204"/>
+	<sprite n="U03_lowerarm" x="0" y="417" w="139" h="36" oX="8" oY="7" oW="52" oH="156" r="y"/>
+	<sprite n="U03_lowerleg" x="457" y="588" w="37" h="112" oX="12" oY="10" oW="60" oH="132"/>
+	<sprite n="U03_pipe_a" x="0" y="189" w="244" h="89" oX="9" oY="10" oW="108" oH="264" r="y"/>
+	<sprite n="U03_pipe_b" x="425" y="217" w="87" h="172" oX="10" oY="10" oW="108" oH="192"/>
+	<sprite n="U03_pipe_bump" x="457" y="544" w="42" h="42" oX="11" oY="11" oW="64" oH="64"/>
+	<sprite n="U03_pipe_c" x="245" y="321" w="149" h="54" oX="10" oY="11" oW="76" oH="172" r="y"/>
+	<sprite n="U03_pipe_d" x="370" y="377" w="47" h="103" oX="10" oY="10" oW="68" oH="124"/>
+	<sprite n="U03_pipe_e" x="440" y="0" w="69" h="215" oX="11" oY="10" oW="92" oH="236"/>
+	<sprite n="U03_pipe_f" x="419" y="498" w="63" h="44" oX="10" oY="10" oW="64" oH="84" r="y"/>
+	<sprite n="U03_shadow" x="239" y="461" w="112" h="59" oX="8" oY="8" oW="128" oH="76"/>
+	<sprite n="U03_upperarm" x="0" y="455" w="135" h="54" oX="5" oY="5" oW="68" oH="148" r="y"/>
+	<sprite n="U03_upperleg" x="239" y="377" w="129" h="40" oX="10" oY="10" oW="60" oH="148" r="y"/>
+</TextureAtlas>

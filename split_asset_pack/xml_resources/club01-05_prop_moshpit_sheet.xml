@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:07608de2b8eef0c43e23523f998dd6e4:85322b87b96682e61dd3733f5a7086f0:ad7805ffc05117c2f4eefe216f6998c2$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_moshpit_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="in_crowd/moshpit_incrowd_01" x="203" y="874" w="189" h="152" oX="99" oY="116" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_02" x="1" y="762" w="198" h="117" oX="117" oY="116" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_03" x="1" y="1" w="290" h="149" oX="101" oY="43" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_04" x="849" y="189" w="165" h="177" oX="92" oY="112" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_05" x="789" y="370" w="227" h="138" oX="99" oY="88" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_06" x="396" y="989" w="180" h="132" oX="109" oY="131" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_07" x="1" y="154" w="261" h="243" oX="54" oY="61" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_08" x="1" y="666" w="210" h="92" oX="128" oY="99" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_10" x="215" y="747" w="199" h="123" oX="117" oY="112" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_11" x="266" y="397" w="246" h="159" oX="113" oY="61" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_12" x="850" y="1" w="166" h="184" oX="93" oY="133" oW="350" oH="350"/>
+	<sprite n="in_crowd/moshpit_incrowd_13" x="658" y="769" w="196" h="131" oX="108" oY="116" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_14" x="1" y="547" w="225" h="115" oX="126" oY="81" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_16" x="516" y="534" w="215" h="184" oX="90" oY="100" oW="350" oH="350" r="y"/>
+	<sprite n="in_crowd/moshpit_incrowd_17" x="585" y="1" w="261" h="151" oX="105" oY="66" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_01" x="1" y="883" w="188" h="152" oX="99" oY="117" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_02" x="448" y="722" w="206" h="128" oX="105" oY="107" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_03" x="295" y="1" w="286" h="167" oX="75" oY="47" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_04" x="858" y="769" w="165" h="177" oX="92" oY="112" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_05" x="529" y="311" w="256" h="142" oX="95" oY="58" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_06" x="193" y="1030" w="180" h="131" oX="109" oY="132" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_07" x="266" y="172" w="259" h="221" oX="79" oY="62" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_08" x="516" y="457" w="225" h="73" oX="139" oY="84" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_10" x="735" y="642" w="209" h="123" oX="117" oY="111" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_11" x="1" y="401" w="237" h="142" oX="129" oY="70" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_12" x="618" y="904" w="183" h="140" oX="119" oY="134" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_13" x="418" y="854" w="196" h="131" oX="108" oY="116" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_14" x="745" y="512" w="222" h="126" oX="118" oY="82" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_16" x="230" y="560" w="214" h="183" oX="90" oY="101" oW="350" oH="350" r="y"/>
+	<sprite n="on_camera/moshpit_on_camera_17" x="585" y="156" w="260" h="151" oX="106" oY="67" oW="350" oH="350" r="y"/>
+</TextureAtlas>

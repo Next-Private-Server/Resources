@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e4dd87cfe146d212149568f9b25e04c6:1ed04f0a42af39703453d28925e6a69f:ae0f3bbb192a02232f62fc8a06b644c1$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_ACDE_costume_07_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ACDE_belt" x="0" y="950" w="206" h="68" pX="0.5" pY="-0.0882353" oX="1" oY="0" oW="208" oH="68"/>
+	<sprite n="ACDE_body" x="0" y="106" w="358" h="208" pX="0.5" pY="0.708333" oX="0" oY="0" oW="208" oH="360" r="y"/>
+	<sprite n="ACDE_guitarbody" x="0" y="356" w="200" h="592" pX="0.48" pY="0.701014"/>
+	<sprite n="ACDE_left_foot" x="371" y="0" w="136" h="131" pX="0.294118" pY="0.159091" oX="0" oY="1" oW="136" oH="132"/>
+	<sprite n="ACDE_left_hand_1" x="208" y="942" w="93" h="82" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_hand_2" x="303" y="937" w="91" h="87" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_hand_3" x="367" y="839" w="80" h="83" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_hand_4" x="208" y="668" w="97" h="78" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_hand_5" x="290" y="843" w="75" h="92" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_leg" x="311" y="650" w="178" h="91" pX="0.5" pY="0.5" oX="0" oY="0" oW="92" oH="178" r="y"/>
+	<sprite n="ACDE_left_lowerarm" x="208" y="316" w="133" h="168" pX="0.452381" pY="0.223684" oX="0" oY="0" oW="168" oH="152" r="y"/>
+	<sprite n="ACDE_left_shoulder" x="245" y="748" w="55" h="93" pX="2.19643" pY="1.71875" oX="0" oY="0" oW="56" oH="96"/>
+	<sprite n="ACDE_left_upperarm" x="208" y="486" w="117" h="101" pX="1.00735" pY="0.216981" oX="0" oY="4" oW="136" oH="106"/>
+	<sprite n="ACDE_right_foot" x="343" y="356" w="161" h="111" pX="0.22561" pY="0.160714" oX="2" oY="1" oW="164" oH="112"/>
+	<sprite n="ACDE_right_hand_1" x="208" y="589" w="101" h="77" pX="0.5" pY="0.5" oX="0" oY="12" oW="102" oH="90"/>
+	<sprite n="ACDE_right_hand_2" x="202" y="846" w="86" h="94" pX="0.5" pY="0.5" oX="7" oY="3" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_hand_3" x="302" y="748" w="84" h="89" pX="0.5" pY="0.5" oX="17" oY="0" oW="102" oH="90"/>
+	<sprite n="ACDE_right_leg" x="360" y="266" w="134" h="88" pX="0.545455" pY="0.823529" oX="0" oY="1" oW="88" oH="136" r="y"/>
+	<sprite n="ACDE_right_lowerarm" x="343" y="469" w="128" h="179" pX="0.53125" pY="0.194444" oX="0" oY="0" oW="128" oH="180"/>
+	<sprite n="ACDE_right_shoulder" x="202" y="748" w="41" h="96" pX="-0.892857" pY="1.72917" oX="8" oY="0" oW="56" oH="96"/>
+	<sprite n="ACDE_right_upperarm" x="360" y="133" w="145" h="131" pX="0.164179" pY="0.205479" oX="1" oY="0" oW="134" oH="146" r="y"/>
+	<sprite n="ACDE_strings_1" x="0" y="73" w="369" h="31" pX="0.5" pY="0.5" oX="3" oY="56" oW="38" oH="426" r="y"/>
+	<sprite n="ACDE_strings_2" x="0" y="39" w="369" h="32" pX="0.5" pY="0.5" oX="2" oY="56" oW="38" oH="426" r="y"/>
+	<sprite n="ACDE_strings_3" x="0" y="0" w="369" h="37" pX="0.5" pY="0.5" oX="0" oY="56" oW="38" oH="426" r="y"/>
+</TextureAtlas>

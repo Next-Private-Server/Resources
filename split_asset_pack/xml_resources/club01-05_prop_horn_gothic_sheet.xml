@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:955a55776f8b4bba589546a73297f1dc:474468174e205c757b335d2afcfa70c4:a9ed0d65b4fdf066f137f2b427981633$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_horn_gothic_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="horn_bg" x="0" y="560" w="149" h="216" oX="0" oY="10" oW="216" oH="161" r="y"/>
+	<sprite n="horn_bg_glow" x="782" y="397" w="216" h="161"/>
+	<sprite n="horn_chain" x="489" y="262" w="328" h="18" r="y"/>
+	<sprite n="horn_fg" x="0" y="0" w="487" h="473" oX="0" oY="0" oW="487" oH="476"/>
+	<sprite n="horn_fg_glow" x="489" y="282" w="291" h="256"/>
+	<sprite n="horn_fg_side_glow" x="489" y="0" w="434" h="260" oX="0" oY="0" oW="487" oH="476" r="y"/>
+	<sprite n="horn_tounge" x="925" y="200" w="95" h="195" oX="11" oY="0" oW="206" oH="96" r="y"/>
+	<sprite n="horn_tounge_glow" x="925" y="0" w="96" h="198" oX="8" oY="0" oW="206" oH="96" r="y"/>
+</TextureAtlas>

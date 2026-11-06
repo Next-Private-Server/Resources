@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5c56b79af100fcc543870845d9e01c3c:3a4fd30454a02754be2fd0bd603e9885:9d63a8968252b37478f87fcebb964177$ -->
+<TextureAtlas imagePath="gfx/menu/multipack/multipack_spooktacle_sheet.png" width="512" height="512" hires="false" version="1">
+	<sprite n="left_corner" x="0" y="0" w="322" h="221" oX="23" oY="15" oW="355" oH="249"/>
+	<sprite n="lower_right_corner" x="0" y="223" w="177" h="289" oX="48" oY="82" oW="296" oH="438"/>
+	<sprite n="right_corner" x="179" y="223" w="214" h="286" oX="44" oY="31" oW="355" oH="249" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:b4636c00d24a3dbfb75569e7f89cea55:8e0586b742c72bd017ccc4abcbdd1b7f:36e6082d35a12fb01876648f68047a10$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_U01_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="U01_arm" x="0" y="494" w="118" h="41" pX="0.5" pY="0.5" oX="10" oY="31" oW="140" oH="84"/>
+	<sprite n="U01_drum_large" x="298" y="152" w="182" h="134" pX="0.5" pY="0.5" oX="10" oY="0" oW="156" oH="184" r="y"/>
+	<sprite n="U01_drum_large_lid" x="151" y="488" w="119" h="82" pX="0.5" pY="0.5" oX="18" oY="0" oW="156" oH="184"/>
+	<sprite n="U01_drum_med" x="286" y="433" w="146" h="102" pX="0.5" pY="0.5" oX="25" oY="4" oW="152" oH="156" r="y"/>
+	<sprite n="U01_drum_med_2" x="0" y="284" w="155" h="117" pX="0.5" pY="0.5" oX="18" oY="1" oW="152" oH="156" r="y"/>
+	<sprite n="U01_drum_med_top" x="238" y="584" w="101" h="90" pX="0.5" pY="0.5" oX="31" oY="4" oW="152" oH="156" r="y"/>
+	<sprite n="U01_drum_med_top_2" x="431" y="589" w="79" h="111" pX="0.5" pY="0.5" oX="21" oY="1" oW="152" oH="156" r="y"/>
+	<sprite n="U01_drum_snare" x="296" y="288" w="152" h="143" pX="0.5" pY="0.5" oX="5" oY="12" oW="160" oH="164" r="y"/>
+	<sprite n="U01_drum_snare_top" x="450" y="288" w="62" h="120" pX="0.5" pY="0.5" oX="20" oY="12" oW="160" oH="164" r="y"/>
+	<sprite n="U01_featherbody_a" x="434" y="496" w="78" h="91" pX="0.529703" pY="0.5" oX="0" oY="8" oW="101" oH="92" r="y"/>
+	<sprite n="U01_featherbody_b" x="157" y="401" w="127" h="85" pX="0.5" pY="0.5" oX="2" oY="8" oW="132" oH="96"/>
+	<sprite n="U01_featherbody_c" x="94" y="666" w="86" h="82" pX="0.613636" pY="0.477273" oX="1" oY="3" oW="88" oH="88"/>
+	<sprite n="U01_featherbody_d" x="0" y="403" w="149" h="89" pX="0.5" pY="0.5" oX="0" oY="6" oW="152" oH="100"/>
+	<sprite n="U01_featherbody_e" x="0" y="537" w="117" h="92" pX="0.520833" pY="0.4" oX="0" oY="3" oW="96" oH="120" r="y"/>
+	<sprite n="U01_featherbody_e_right" x="0" y="631" w="92" h="65" pX="0.520833" pY="0.4" oX="0" oY="3" oW="96" oH="120"/>
+	<sprite n="U01_featherbody_f" x="157" y="284" w="137" h="115" pX="0.5" pY="0.362903" oX="2" oY="5" oW="144" oH="124"/>
+	<sprite n="U01_featherbody_feet" x="298" y="0" w="214" h="112" pX="0.490741" pY="0.540323" oX="1" oY="0" oW="216" oH="124"/>
+	<sprite n="U01_hair_l" x="341" y="584" w="47" h="99" pX="2.02083" pY="0.32" oX="0" oY="0" oW="48" oH="100"/>
+	<sprite n="U01_hair_r" x="119" y="617" w="99" h="47" pX="-1" pY="0.31" oX="0" oY="0" oW="48" oH="100" r="y"/>
+	<sprite n="U01_hand_01" x="272" y="537" w="117" h="45" pX="0.5" pY="0.5" oX="8" oY="27" oW="168" oH="84"/>
+	<sprite n="U01_hand_02" x="450" y="410" w="54" h="84" pX="0.5" pY="0.5" oX="32" oY="18" oW="168" oH="84" r="y"/>
+	<sprite n="U01_hand_03" x="391" y="537" w="38" h="74" pX="0.5" pY="0.5" oX="64" oY="10" oW="168" oH="84"/>
+	<sprite n="U01_hand_04" x="182" y="666" w="54" h="84" pX="0.5" pY="0.5" oX="50" oY="18" oW="168" oH="84" r="y"/>
+	<sprite n="U01_hand_05" x="119" y="572" w="117" h="43" pX="0.5" pY="0.5" oX="41" oY="29" oW="168" oH="84"/>
+	<sprite n="U01_hat" x="0" y="0" w="296" h="166" pX="0.5" pY="1.17614" oX="0" oY="5" oW="300" oH="176"/>
+	<sprite n="U01_head" x="0" y="168" w="291" h="114" pX="0.5" pY="0.715517" oX="0" oY="1" oW="292" oH="116"/>
+	<sprite n="U01_moustache" x="298" y="114" w="184" h="36" pX="0.5" pY="0.833333"/>
+</TextureAtlas>

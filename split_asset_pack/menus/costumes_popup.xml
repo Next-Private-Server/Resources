@@ -86,23 +86,22 @@
 	</element>
 
 	<element name="MonsterAvatar">
+		<size w="90*game.menuScaleY()" h="90*game.menuScaleY()" />
 		<position relativeTo="Bg" vAnchor="VCENTER" hAnchor="LEFT" />
-		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="96*game.menuScaleX()" yOffset="32*game.menuScaleY()" priorityOffset="-2" />
+		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="48*game.menuScaleX()" yOffset="-20*game.menuScaleX()" priorityOffset="-2" />
 		<aeComponent name="Anim">
+			<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 			<event name="onInit" params="component, element">
 				<![CDATA[
-
 					local selectedMonsterId = include("CostumesPopupUI").GetSelectedMonsterId()
 					local animationFile = "xml_bin/"..game.getMonsterAnimationFile(selectedMonsterId)
 					component("animationName"):SetString(animationFile)
 					component("animation"):SetString("Idle")
-
-					local baseHeight = 650.0
-					local factor = baseHeight / component:absH()
-					local baseScale = 0.34*game.menuScaleX()
-					component:setScale(Vector2(factor*baseScale, factor*baseScale))
 					component("layer"):SetString("PopUps")
 
+					local MonsterProperties = include("MonsterProperties")
+					MonsterProperties.scaleIdle(game.selectedMonster():monsterTypeId(), component, element:absW(), element:absH()) 
 				]]>
 			</event>
 		</aeComponent>

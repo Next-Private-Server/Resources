@@ -7,61 +7,6 @@
 		<templateVar name="$priority" equals="4" />
 	</template>
 
-	<element name="DiamondCounter">
-		<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
-		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
-		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="-1*lua_sys.screenWidth()" yOffset="10*game.hudScale()" priorityOffset="3" />
-
-		<ninesliceComponent name="BackingSprite">
-			<size w="130*game.hudScale()" h="32*game.hudScale()" />
-			<event name="onInit" params="component, element">
-				<![CDATA[
-					component("includeBorder"):SetInt(1)
-					component("topHeight"):SetFloat(30.0)
-					component("bottomHeight"):SetFloat(30.0)
-					component("leftWidth"):SetFloat(50.0)
-					component("rightWidth"):SetFloat(50.0)
-					component("size"):SetFloat(0.35*game.hudScale())
-					component("spriteName"):SetString("gfx/menu/BlackTitleFrame")
-					component("layer"):SetString("FrontPopUps")
-				]]>
-			</event>
-		</ninesliceComponent>
-
-		<spriteSheetComponent name="Icon">
-			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="LEFT" />
-			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-4*game.hudScale()" yOffset="0" priorityOffset="-1" />
-			<event name="onInit" params="component, element">
-				<![CDATA[
-					component("spriteName"):SetString(game.StoreContext_SPRITE_DIAMOND)
-					component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
-					component("size"):SetFloat(0.5*game.hudScale())
-					component("layer"):SetString("FrontPopUps")
-				]]>
-			</event>
-		</spriteSheetComponent>
-
-		<textComponent name="Text">
-			<size w="65*game.hudScale()" h="100" />
-			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
-			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="10*game.hudScale()" yOffset="0" priorityOffset="-1" />
-			<event name="onInit" params="component, element">
-				<![CDATA[
-					component("multiline"):SetInt(0)
-					component("font"):Set(game.getTextFont())
-					component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
-					component("size"):SetFloat(0.35*game.hudScale())
-					component("text"):SetString(game.commaizeNumber(game.playerDiamonds()))
-					component("autoScaleFactor"):SetFloat(0.01)
-					component("autoScale"):SetInt(1)
-					game.StoreContext_setCurrencyTypeColour(game.CurrencyType_Diamonds, component)
-					component("layer"):SetString("FrontPopUps")
-				]]>
-			</event>
-		</textComponent>
-
-	</element>
-	
 	<element name="bg">
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
@@ -187,7 +132,6 @@
 				component("font"):Set(game.getTextFont())
 				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
 				--component("text"):SetString("00:00:00")
-				component:setColor(0.31, 0.94, 0.26)
 				component("size"):SetFloat(0.23*game.hudScale())
 				component("layer"):SetString("FrontPopUps")
 			</event>

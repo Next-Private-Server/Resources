@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:91adf0ea7815af484c562ac16e99fdad:8de452f78576d5c0c7eabc5f3a14ef47:ed4f75492888192ea740fd9b50ebdcda$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_torch_gothic_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="pyro_torch_long" x="0" y="0" w="149" h="371"/>
+	<sprite n="pyro_torch_long_glow" x="0" y="373" w="149" h="111" oX="0" oY="0" oW="149" oH="371"/>
+</TextureAtlas>

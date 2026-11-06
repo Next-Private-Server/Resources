@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:53626708f43838b1ec2cac77fa8bc18b:6fc8aae280fb3afa8eeecdddbd98d72b:f5f49e998686558139a269c408d550ea$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-05_monster_ACDE_costume_07_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="ACDE_belt" x="412" y="0" w="68" h="206" pX="0.5" pY="-0.08823529411764706" oX="1" oY="0" oW="208" oH="68" r="y"/>
+	<sprite n="ACDE_body" x="202" y="0" w="208" h="358" pX="0.5" pY="0.708333" oX="0" oY="0" oW="208" oH="360"/>
+	<sprite n="ACDE_guitarbody" x="0" y="0" w="200" h="592" pX="0.48" pY="0.701014"/>
+	<sprite n="ACDE_left_foot" x="332" y="495" w="89" h="77" pX="0.30303" pY="0.15873" oX="8" oY="0" oW="132" oH="126"/>
+	<sprite n="ACDE_left_hand_1" x="329" y="651" w="82" h="93" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_hand_2" x="425" y="338" w="87" h="91" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_hand_3" x="342" y="825" w="83" h="80" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98"/>
+	<sprite n="ACDE_left_hand_4" x="241" y="747" w="97" h="78" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_hand_5" x="328" y="574" w="92" h="75" pX="0.5" pY="0.5" oX="1" oY="0" oW="90" oH="98" r="y"/>
+	<sprite n="ACDE_left_leg" x="332" y="360" w="91" h="133" pX="0.25" pY="0.0786517" oX="0" oY="0" oW="92" oH="178"/>
+	<sprite n="ACDE_left_leg_foot" x="412" y="208" w="91" h="128" pX="0.5" pY="0.61236" oX="0" oY="0" oW="92" oH="178"/>
+	<sprite n="ACDE_left_leg_lower" x="241" y="541" w="85" h="108" pX="0.51087" pY="0.617978" oX="0" oY="70" oW="92" oH="178"/>
+	<sprite n="ACDE_left_leg_lower_foot" x="241" y="541" w="85" h="108" pX="0.369565" pY="0.853933" oX="0" oY="70" oW="92" oH="178"/>
+	<sprite n="ACDE_left_lowerarm" x="106" y="594" w="133" h="168" pX="0.452381" pY="0.223684" oX="0" oY="0" oW="168" oH="152" r="y"/>
+	<sprite n="ACDE_left_shoulder" x="0" y="965" w="93" h="55" pX="2.19643" pY="1.71875" oX="0" oY="0" oW="56" oH="96" r="y"/>
+	<sprite n="ACDE_left_toe_1" x="300" y="906" w="40" h="85" pX="0.575" pY="0.204545" oX="0" oY="1" oW="40" oH="88"/>
+	<sprite n="ACDE_left_toe_2" x="413" y="651" w="54" h="87" pX="0.285714" pY="0.170455" oX="0" oY="0" oW="56" oH="88"/>
+	<sprite n="ACDE_left_toe_3" x="435" y="745" w="73" h="66" pX="0.223684" pY="0.235294" oX="1" oY="1" oW="76" oH="68"/>
+	<sprite n="ACDE_left_upperarm" x="106" y="911" w="117" h="101" pX="1.00735" pY="0.216981" oX="0" oY="4" oW="136" oH="106"/>
+	<sprite n="ACDE_right_foot" x="225" y="911" w="73" h="103" pX="0.243243" pY="0.182692" oX="1" oY="1" oW="148" oH="104" r="y"/>
+	<sprite n="ACDE_right_hand_1" x="239" y="827" w="101" h="77" pX="0.5" pY="0.5" oX="0" oY="12" oW="102" oH="90"/>
+	<sprite n="ACDE_right_hand_2" x="241" y="651" w="86" h="94" pX="0.5" pY="0.5" oX="7" oY="3" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_hand_3" x="423" y="521" w="89" h="84" pX="0.5" pY="0.5" oX="17" oY="0" oW="102" oH="90" r="y"/>
+	<sprite n="ACDE_right_leg" x="425" y="431" w="87" h="88" pX="0.352273" pY="0.176471" oX="0" oY="1" oW="88" oH="136" r="y"/>
+	<sprite n="ACDE_right_leg_foot" x="425" y="431" w="87" h="88" pX="0.556818" pY="0.588235" oX="0" oY="1" oW="88" oH="136" r="y"/>
+	<sprite n="ACDE_right_leg_lower" x="340" y="746" w="93" h="77" pX="0.55814" pY="0.573529" oX="9" oY="42" oW="86" oH="136" r="y"/>
+	<sprite n="ACDE_right_leg_lower_foot" x="340" y="746" w="93" h="77" pX="0.55814" pY="0.823529" oX="9" oY="42" oW="86" oH="136" r="y"/>
+	<sprite n="ACDE_right_lowerarm" x="202" y="360" w="128" h="179" pX="0.53125" pY="0.194444" oX="0" oY="0" oW="128" oH="180"/>
+	<sprite n="ACDE_right_shoulder" x="469" y="647" w="41" h="96" pX="-0.892857" pY="1.72917" oX="8" oY="0" oW="56" oH="96"/>
+	<sprite n="ACDE_right_toe_1" x="342" y="907" w="75" h="68" pX="0.197368" pY="0.220588" oX="0" oY="0" oW="76" oH="68"/>
+	<sprite n="ACDE_right_toe_2" x="427" y="825" w="54" h="94" pX="0.166667" pY="0.303571" oX="1" oY="0" oW="96" oH="56" r="y"/>
+	<sprite n="ACDE_right_toe_3" x="422" y="607" w="90" h="38" pX="0.184783" pY="0.4" oX="1" oY="1" oW="92" oH="40"/>
+	<sprite n="ACDE_right_upperarm" x="106" y="764" w="131" h="145" pX="0.164179" pY="0.205479" oX="1" oY="0" oW="134" oH="146"/>
+	<sprite n="ACDE_strings_1" x="73" y="594" w="31" h="369" pX="0.5" pY="0.5" oX="3" oY="56" oW="38" oH="426"/>
+	<sprite n="ACDE_strings_2" x="39" y="594" w="32" h="369" pX="0.5" pY="0.5" oX="2" oY="56" oW="38" oH="426"/>
+	<sprite n="ACDE_strings_3" x="0" y="594" w="37" h="369" pX="0.5" pY="0.5" oX="0" oY="56" oW="38" oH="426"/>
+</TextureAtlas>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:10eb9a5226090ef205b8e1826e23f5df:0ce9df9a875998b38af79e03a4db56c4:16dbbbb3b5bfcbed410bfc54f8204454$ -->
+<TextureAtlas imagePath="gfx/clubbox/costumes/club01-05_monster_VOC_06_costume_01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="VOC_06_anklefur_l" x="98" y="562" w="55" h="67" pX="0.5" pY="0.5" oX="12" oY="6" oW="88" oH="68" r="y"/>
+	<sprite n="VOC_06_anklefur_r" x="98" y="489" w="55" h="71" pX="0.5" pY="0.5" oX="9" oY="7" oW="89" oH="74" r="y"/>
+	<sprite n="VOC_06_chest" x="283" y="453" w="136" h="93" pX="0.5" pY="0.5" oX="5" oY="13" oW="153" oH="120"/>
+	<sprite n="VOC_06_chest_gem" x="460" y="291" w="52" h="47" pX="0.846154" pY="1.08333" oX="0" oY="1" oW="52" oH="48"/>
+	<sprite n="VOC_06_feet_l" x="155" y="517" w="76" h="65" pX="0.5" pY="0.5" oX="13" oY="8" oW="101" oH="81"/>
+	<sprite n="VOC_06_feet_r" x="437" y="451" w="72" h="67" pX="0.5" pY="0.5" oX="12" oY="7" oW="97" oH="81"/>
+	<sprite n="VOC_06_hair" x="302" y="0" w="201" h="177" pX="0.5" pY="0.5" oX="7" oY="10" oW="193" oH="221" r="y"/>
+	<sprite n="VOC_06_hair_back" x="421" y="520" w="78" h="48" pX="1.75" pY="-0.2125" oX="1" oY="0" oW="52" oH="80" r="y"/>
+	<sprite n="VOC_06_head" x="170" y="324" w="111" h="142" pX="0.5" pY="0.5" oX="16" oY="13" oW="143" oH="167"/>
+	<sprite n="VOC_06_lowerarm_l" x="0" y="305" w="168" h="91" pX="0.5" pY="0.5" oX="4" oY="17" oW="99" oH="202" r="y"/>
+	<sprite n="VOC_06_lowerarm_r" x="290" y="291" w="168" h="91" pX="0.5" pY="0.5" oX="4" oY="17" oW="99" oH="202" r="y"/>
+	<sprite n="VOC_06_lowerbody" x="302" y="179" w="180" h="110" pX="0.5588888888888889" pY="0.6633928571428571" oX="0" oY="0" oW="180" oH="112"/>
+	<sprite n="VOC_06_lowerleg_l" x="172" y="226" w="120" h="47" pX="0.5" pY="0.5" oX="10" oY="14" oW="68" oH="146" r="y"/>
+	<sprite n="VOC_06_lowerleg_r" x="172" y="275" w="116" h="47" pX="0.5" pY="0.5" oX="14" oY="14" oW="74" oH="151" r="y"/>
+	<sprite n="VOC_06_midleg_l" x="0" y="489" w="96" h="35" pX="0.5" pY="0.5" oX="8" oY="11" oW="114" oH="56"/>
+	<sprite n="VOC_06_midleg_r" x="0" y="526" w="96" h="35" pX="0.5" pY="0.5" oX="16" oY="13" oW="128" oH="60"/>
+	<sprite n="VOC_06_upperarm_l" x="161" y="468" w="108" h="47" pX="0.833333" pY="0.588235" oX="11" oY="18" oW="132" oH="68"/>
+	<sprite n="VOC_06_upperarm_r" x="460" y="340" w="51" h="109" pX="0.143939" pY="0.573529" oX="12" oY="14" oW="132" oH="68" r="y"/>
+	<sprite n="VOC_06_upperleg_l" x="0" y="398" w="159" h="89" pX="0.5" pY="0.5" oX="3" oY="12" oW="97" oH="184" r="y"/>
+	<sprite n="VOC_06_upperleg_r" x="0" y="226" w="170" h="77" pX="0.5" pY="0.5" oX="11" oY="18" oW="103" oH="207" r="y"/>
+	<sprite n="VOC_06_wing_01" x="0" y="0" w="300" h="224" pX="0.03125" pY="0.913333" r="y"/>
+	<sprite n="VOC_06_wing_02" x="283" y="384" w="152" h="67" pX="0.233831" pY="0.319328" oX="38" oY="26" oW="201" oH="119"/>
+</TextureAtlas>

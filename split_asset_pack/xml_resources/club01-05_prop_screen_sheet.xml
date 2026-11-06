@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c161d78ac1289b2fd936ac8ef5602692:fe3772290ea552e99e7d376859129248:ddeeed22d13f3e60334fcafcd9b91858$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_screen_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="background" x="0" y="1112" w="275" h="821" oX="55" oY="67" oW="931" oH="416" r="y"/>
+	<sprite n="logo" x="277" y="1112" w="370" h="261" oX="281" oY="81" oW="931" oH="416"/>
+	<sprite n="screen_glow" x="0" y="0" w="821" h="276" oX="55" oY="66" oW="931" oH="416"/>
+	<sprite n="texture01" x="0" y="278" w="821" h="276" oX="55" oY="66" oW="931" oH="416"/>
+	<sprite n="texture02" x="0" y="556" w="821" h="276" oX="55" oY="66" oW="931" oH="416"/>
+	<sprite n="texture03" x="0" y="834" w="821" h="276" oX="55" oY="66" oW="931" oH="416"/>
+	<sprite n="wubscreen_scanlines" x="823" y="0" w="196" h="57" oX="19" oY="25" oW="233" oH="104"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:70fe009f92dd1ee952cc7dcadb9d2c8c:c60418c3a5a2fd92f256585f03e9b086:b7ac7a2cb163d22ac6fe9dc0f3273eff$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_stairs_fantasy_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="arm_01" x="930" y="714" w="36" h="118" oX="0" oY="0" oW="36" oH="119"/>
+	<sprite n="arm_02" x="930" y="0" w="93" h="81"/>
+	<sprite n="arm_03" x="973" y="597" w="36" h="126" oX="0" oY="0" oW="37" oH="128"/>
+	<sprite n="arm_04" x="930" y="433" w="87" h="67" oX="0" oY="0" oW="67" oH="90" r="y"/>
+	<sprite n="arm_05" x="930" y="597" w="41" h="115"/>
+	<sprite n="arm_5_hand_1" x="930" y="547" w="66" h="48" oX="9" oY="1" oW="57" oH="67" r="y"/>
+	<sprite n="arm_5_hand_2" x="930" y="502" w="67" h="43" oX="0" oY="0" oW="57" oH="67" r="y"/>
+	<sprite n="prop_pillar" x="0" y="1478" w="169" h="543"/>
+	<sprite n="prop_stage_floor" x="801" y="834" w="220" h="642" oX="0" oY="0" oW="642" oH="235" r="y"/>
+	<sprite n="prop_stairs" x="0" y="0" w="928" h="760"/>
+	<sprite n="screen_chain" x="930" y="240" w="88" h="191" oX="22" oY="0" oW="130" oH="200"/>
+	<sprite n="stair_arch" x="171" y="1163" w="617" h="289"/>
+	<sprite n="stair_keystone" x="930" y="83" w="90" h="155" oX="0" oY="0" oW="164" oH="93" r="y"/>
+	<sprite n="stair_rail" x="0" y="762" w="799" h="399" r="y"/>
+</TextureAtlas>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:085d3cf0f9b6970dd10aa3b69b7d8e9d:6bfae9bba4f3cccd8e084d7de60c4b37:698b39ee7ab5eb7c855366079156f04b$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_smoke_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="beam" x="305" y="60" w="183" h="98" oX="92" oY="0" oW="280" oH="200" r="y"/>
+	<sprite n="bg_smoke" x="0" y="136" w="280" h="263" oX="0" oY="9" oW="280" oH="280"/>
+	<sprite n="bg_spark" x="0" y="401" w="266" h="232" oX="27" oY="8" oW="280" oH="280" r="y"/>
+	<sprite n="glow" x="0" y="862" w="80" h="80"/>
+	<sprite n="glow_green" x="0" y="944" w="80" h="80"/>
+	<sprite n="glow_soft" x="82" y="941" w="71" h="71" oX="3" oY="3" oW="76" oH="76"/>
+	<sprite n="glow_white" x="82" y="862" w="77" h="77" oX="2" oY="2" oW="80" oH="80"/>
+	<sprite n="prop_beam_soft" x="0" y="0" w="303" h="134" oX="0" oY="0" oW="308" oH="134"/>
+	<sprite n="prop_beam_streak" x="305" y="0" w="196" h="58"/>
+	<sprite n="stage_light" x="282" y="160" w="180" h="700"/>
+	<sprite n="stage_light_ground" x="464" y="160" w="26" h="49" r="y"/>
+</TextureAtlas>

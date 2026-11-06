@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:e9ebb1fecaa31f454046e7f26cec5437:68753825ebf73410ac60ff0757840dcf:acb15a05c50db04a2c06275579efe957$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_rocks_gothic_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="arm1_hand1" x="256" y="553" w="69" h="51" oX="3" oY="7" oW="54" oH="76" r="y"/>
+	<sprite n="arm1_hand2" x="257" y="512" w="72" h="39" oX="0" oY="0" oW="54" oH="76" r="y"/>
+	<sprite n="arm3_hand1" x="457" y="581" w="53" h="65" oX="0" oY="3" oW="53" oH="68"/>
+	<sprite n="arm3_hand2" x="252" y="606" w="66" h="38" oX="0" oY="2" oW="53" oH="68" r="y"/>
+	<sprite n="arm_01" x="320" y="619" w="118" h="36" oX="0" oY="0" oW="36" oH="119" r="y"/>
+	<sprite n="arm_02" x="419" y="0" w="93" h="81"/>
+	<sprite n="arm_03" x="327" y="581" w="128" h="36" oX="0" oY="0" oW="37" oH="128" r="y"/>
+	<sprite n="arm_04" x="419" y="83" w="90" h="67" r="y"/>
+	<sprite n="arm_05" x="440" y="648" w="41" h="115"/>
+	<sprite n="arm_5_hand_1" x="349" y="220" w="66" h="48" oX="9" oY="1" oW="57" oH="67" r="y"/>
+	<sprite n="arm_5_hand_2" x="349" y="175" w="67" h="43" oX="0" oY="0" oW="57" oH="67" r="y"/>
+	<sprite n="bubble_00" x="496" y="393" w="16" h="30" oX="27" oY="30" oW="84" oH="64" r="y"/>
+	<sprite n="bubble_01" x="483" y="752" w="22" h="36" oX="24" oY="26" oW="84" oH="64" r="y"/>
+	<sprite n="bubble_02" x="483" y="648" w="28" h="38" oX="23" oY="21" oW="84" oH="64" r="y"/>
+	<sprite n="bubble_03" x="300" y="657" w="40" h="31" oX="22" oY="19" oW="84" oH="64"/>
+	<sprite n="bubble_04" x="195" y="730" w="46" h="42" oX="19" oY="7" oW="84" oH="64"/>
+	<sprite n="bubble_07" x="257" y="390" w="78" h="39" oX="3" oY="14" oW="84" oH="64"/>
+	<sprite n="bubble_08" x="257" y="431" w="76" h="37" oX="3" oY="19" oW="84" oH="64"/>
+	<sprite n="glow" x="419" y="152" w="80" h="80"/>
+	<sprite n="lava__flow_01" x="483" y="234" w="24" h="30" r="y"/>
+	<sprite n="lava__flow_02" x="483" y="688" w="24" h="30" r="y"/>
+	<sprite n="lava__flow_03" x="483" y="720" w="23" h="30" oX="0" oY="0" oW="30" oH="24" r="y"/>
+	<sprite n="lava__flow_04" x="342" y="657" w="30" h="20" oX="0" oY="2" oW="30" oH="24"/>
+	<sprite n="lava__flow_05" x="211" y="530" w="43" h="62" oX="10" oY="7" oW="84" oH="64" r="y"/>
+	<sprite n="lava__flow_06" x="257" y="470" w="73" h="40" oX="4" oY="10" oW="84" oH="64"/>
+	<sprite n="lava__flow_stem_01" x="252" y="646" w="46" h="96" oX="0" oY="7" oW="46" oH="108"/>
+	<sprite n="lava__flow_stem_02" x="0" y="530" w="209" h="57" oX="19" oY="11" oW="88" oH="220" r="y"/>
+	<sprite n="lava_base_flow" x="417" y="234" w="64" h="31"/>
+	<sprite n="pillar_01" x="0" y="0" w="417" h="173" oX="20" oY="0" oW="213" oH="417" r="y"/>
+	<sprite n="pillar_01_lava" x="349" y="270" w="160" h="121" oX="33" oY="2" oW="213" oH="417"/>
+	<sprite n="pillar_02" x="0" y="175" w="347" h="213" r="y"/>
+	<sprite n="pillar_02_lava" x="337" y="393" w="157" h="186" oX="13" oY="0" oW="213" oH="347" r="y"/>
+	<sprite n="pillar_03" x="0" y="589" w="193" h="190" r="y"/>
+	<sprite n="pillar_03_lava" x="195" y="594" w="55" h="134" oX="29" oY="17" oW="190" oH="193" r="y"/>
+	<sprite n="shadow" x="0" y="390" w="255" h="138" oX="12" oY="11" oW="280" oH="160"/>
+</TextureAtlas>

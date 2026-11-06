@@ -4,6 +4,7 @@
 
 	<!-- these appear to only be used by filters, but since we changed how the currency filter works, I don't think we use these functions anymore: -->
 	<event name="hide" params="element">
+		element("isVisible"):SetInt(0)
 		element["SaleTag"]["Sprite"]("visible"):SetInt(0)
 		element["OriginalCurrencyAmount"]["Text"]("visible"):SetInt(0)
 		element["SaleCurrencyAmount"]:DoStoredScript("setInvisible")
@@ -16,6 +17,7 @@
 
 	<event name="show" params="element">
 		<![CDATA[
+		element("isVisible"):SetInt(1)
 		if(element:parent()("TimedAvailabilityOn"):GetInt() == 1 or element:parent()("IsPromoItem"):GetInt() == 1) then
 			element["OriginalCurrencyAmount"]["Text"]("visible"):SetInt(0)
 			element["SaleTag"]["Sprite"]("visible"):SetInt(1)

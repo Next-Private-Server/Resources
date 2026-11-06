@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
 <!-- $TexturePacker:SmartUpdate:72b4825faf76e521e0be41ff8510b222:cd2c846a2194e2808e3ded41445e986e:eb2e93d4b46f196d21bafb12fd372f57$ -->
-<TextureAtlas imagePath="gfx/menu/multipack_sheet.png" width="512" height="1024" hires="false" version="1">
+<TextureAtlas imagePath="gfx/menu/multipack/multipack_sheet.png" width="512" height="1024" hires="false" version="1">
 	<sprite n="banner_purple" x="0" y="775" w="307" h="52"/>
 	<sprite n="Love_sticker1" x="0" y="0" w="365" h="131" oX="2" oY="3" oW="380" oH="140"/>
 	<sprite n="Love_sticker2" x="0" y="403" w="317" h="153" oX="6" oY="14" oW="330" oH="180"/>

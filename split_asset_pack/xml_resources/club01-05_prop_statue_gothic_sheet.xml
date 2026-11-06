@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8b97736036e26afff3d78e7169208181:a99457d7e66738d9a459c6c190da104a:426ac4997e066f70a94ff41cc8a654ea$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_statue_gothic_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="shadow" x="0" y="448" w="97" h="54" oX="3" oY="3" oW="105" oH="60"/>
+	<sprite n="statue_base" x="174" y="143" w="226" h="182" oX="0" oY="0" oW="229" oH="191"/>
+	<sprite n="statue_body" x="0" y="0" w="172" h="342"/>
+	<sprite n="statue_bottomhead" x="0" y="344" w="59" h="102" r="y"/>
+	<sprite n="statue_glow" x="182" y="486" w="41" h="25"/>
+	<sprite n="statue_hammer" x="174" y="0" w="314" h="141" oX="0" oY="5" oW="158" oH="319" r="y"/>
+	<sprite n="statue_left_lower_arm" x="146" y="344" w="24" h="92" r="y"/>
+	<sprite n="statue_left_upper_arm" x="172" y="344" w="31" h="89"/>
+	<sprite n="statue_neck_2" x="490" y="0" w="16" h="42"/>
+	<sprite n="statue_neck_3" x="182" y="435" w="43" h="49" r="y"/>
+	<sprite n="statue_right_lowe_arm" x="225" y="486" w="79" h="23" oX="0" oY="18" oW="79" oH="59"/>
+	<sprite n="statue_right_upper_arm" x="99" y="443" w="81" h="54" r="y"/>
+	<sprite n="statue_tophead" x="61" y="344" w="83" h="97" r="y"/>
+</TextureAtlas>

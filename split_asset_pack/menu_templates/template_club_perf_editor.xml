@@ -8,7 +8,7 @@
 		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
 		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
 		<ninesliceComponent name="Sprite">
-			<size w="(lua_sys.screenHeight()*1.5)*0.5" h="lua_sys.screenHeight()*0.475" />
+			<size w="240*game.windowScaleY()" h="152*game.windowScaleY()" />
 			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
 			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
 			<event name="onInit" params="component, element">
@@ -29,7 +29,7 @@
 		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
 		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-17" />
 		<ninesliceComponent name="Sprite">
-			<size w="(lua_sys.screenHeight()*1.5)*0.5-8*game.windowScaleY()" h="lua_sys.screenHeight()*0.475-10*game.windowScaleY()" />
+			<size w="232*game.windowScaleY()" h="142*game.windowScaleY()" />
 			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
 			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
 			<event name="onInit" params="component, element">
@@ -51,12 +51,12 @@
 		<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 
 		<template type="template_club_perfSlider" name="Prop0">
-			<position relativeTo="Prop1" vAnchor="VCENTER" hAnchor="LEFT" />
-			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+			<position relativeTo="element:parent():parent().PerfEditorBg" vAnchor="TOP" hAnchor="LEFT" />
+			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="16*game.windowScaleY()" yOffset="8*game.windowScaleY()" priorityOffset="-1" />
 
 			<element name="OptionsIcon">
 				<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
-				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-2.5*(screenHeight()/320)" yOffset="-4*(screenHeight()/320)" priorityOffset="-1" />
+				<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-2.5*game.windowScaleY()" yOffset="-4*game.windowScaleY()" priorityOffset="-1" />
 				<spriteSheetComponent name="Sprite" >
 					<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
 					<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
@@ -64,7 +64,7 @@
 					<![CDATA[
 						component("spriteName"):SetString("costume_options_icon")
 						component("sheetName"):SetString("xml_resources/clubbox_customization_menu.xml")
-						component("size"):SetFloat(0.4*(screenHeight()/320))
+						component("size"):SetFloat(0.4*game.windowScaleY())
 						component("layer"):SetString("MidPopUps")
 					]]>
 					</event>
@@ -80,18 +80,18 @@
 		</template>
 
 		<template type="template_club_perfSlider" name="Prop1">
-			<position relativeTo="Prop2" vAnchor="VCENTER" hAnchor="LEFT" />
-			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
+			<position relativeTo="Prop0" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
 		</template>
 
 		<template type="template_club_perfSlider" name="Prop2">
-			<position relativeTo="element:parent():parent().PerfEditorBg" vAnchor="TOP" hAnchor="HCENTER" />
-			<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="4*game.windowScaleY()" yOffset="8*game.windowScaleY()" priorityOffset="-1" />
+			<position relativeTo="Prop1" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
 		</template>
 
 		<template type="template_club_perfSlider" name="Prop3">
-			<position relativeTo="element:parent():parent().PerfEditorBg" vAnchor="TOP" hAnchor="HCENTER" />
-			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="4*game.windowScaleY()" yOffset="8*game.windowScaleY()" priorityOffset="-1" />
+			<position relativeTo="Prop2" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="8*game.windowScaleY()" yOffset="0" priorityOffset="0" />
 		</template>
 
 		<template type="template_club_perfSlider" name="Prop4">

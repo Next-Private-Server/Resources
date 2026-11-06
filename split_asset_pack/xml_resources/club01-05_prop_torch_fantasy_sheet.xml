@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:04dc37e1e05456809a8a34172b92aff9:fc16452004285c35b65041cb018bfc88:5ca62f44ea5eb785d6ee348cb579d4d4$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_torch_fantasy_sheet.png" width="256" height="512" hires="true" version="1">
+	<sprite n="prop_torch" x="0" y="0" w="134" h="371" oX="7" oY="0" oW="149" oH="371"/>
+</TextureAtlas>

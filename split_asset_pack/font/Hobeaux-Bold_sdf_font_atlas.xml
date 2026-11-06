@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <Font h="5248" ascender="3328" descender="-1984" path="font/Hobeaux-Bold.otf" pixelW="0" pixelH="50" strokeSize="6" padding="4" packing="skyline">
-  <Skyline size="36">
-    <Segment x="0" y="415" />
-    <Segment x="49" y="349" />
+  <Skyline size="37">
+    <Segment x="0" y="368" />
+    <Segment x="25" y="397" />
+    <Segment x="72" y="349" />
     <Segment x="73" y="398" />
     <Segment x="116" y="401" />
     <Segment x="146" y="384" />
-    <Segment x="174" y="433" />
-    <Segment x="206" y="376" />
+    <Segment x="174" y="443" />
+    <Segment x="220" y="376" />
     <Segment x="227" y="427" />
     <Segment x="258" y="368" />
     <Segment x="268" y="398" />
@@ -16,19 +17,19 @@
     <Segment x="396" y="424" />
     <Segment x="442" y="368" />
     <Segment x="446" y="392" />
-    <Segment x="488" y="376" />
+    <Segment x="488" y="433" />
+    <Segment x="520" y="376" />
     <Segment x="523" y="376" />
     <Segment x="558" y="344" />
     <Segment x="580" y="397" />
     <Segment x="624" y="393" />
-    <Segment x="663" y="444" />
-    <Segment x="709" y="442" />
+    <Segment x="663" y="443" />
+    <Segment x="709" y="444" />
     <Segment x="755" y="344" />
     <Segment x="767" y="400" />
-    <Segment x="812" y="440" />
-    <Segment x="858" y="372" />
-    <Segment x="863" y="399" />
-    <Segment x="910" y="351" />
+    <Segment x="812" y="372" />
+    <Segment x="837" y="398" />
+    <Segment x="886" y="351" />
     <Segment x="911" y="393" />
     <Segment x="953" y="386" />
     <Segment x="1009" y="337" />
@@ -38,7 +39,7 @@
     <Segment x="1021" y="0" />
     <Segment x="1021" y="0" />
   </Skyline>
-  <Page texture="font/Hobeaux-Bold_sdf_font_atlas_tex_1.png" penX="174" penY="376">
+  <Page texture="font/Hobeaux-Bold_sdf_font_atlas_tex_1.png" penX="488" penY="376">
     <Character idx="0" oX="0" oY="0" w="52" h="57">
       <Metrics pixelW="0" pixelH="50" w="52" h="57" szLeft="-1" szW="36" szTop="40" szRows="41" advance="2240" />
     </Character>
@@ -498,10 +499,7 @@
     <Character idx="339" oX="0" oY="338" w="25" h="30">
       <Metrics pixelW="0" pixelH="50" w="25" h="30" szLeft="0" szW="9" szTop="44" szRows="14" advance="512" />
     </Character>
-    <Character idx="340" oX="812" oY="342" w="26" h="30">
-      <Metrics pixelW="0" pixelH="50" w="26" h="30" szLeft="-1" szW="10" szTop="44" szRows="14" advance="384" />
-    </Character>
-    <Character idx="341" oX="838" oY="342" w="25" h="30">
+    <Character idx="341" oX="812" oY="342" w="25" h="30">
       <Metrics pixelW="0" pixelH="50" w="25" h="30" szLeft="1" szW="9" szTop="11" szRows="14" advance="704" />
     </Character>
     <Character idx="342" oX="488" oY="344" w="35" h="32">
@@ -516,10 +514,10 @@
     <Character idx="348" oX="174" oY="349" w="53" h="27">
       <Metrics pixelW="0" pixelH="50" w="53" h="27" szLeft="0" szW="37" szTop="10" szRows="11" advance="2368" />
     </Character>
-    <Character idx="358" oX="0" oY="368" w="49" h="47">
+    <Character idx="358" oX="837" oY="351" w="49" h="47">
       <Metrics pixelW="0" pixelH="50" w="49" h="47" szLeft="0" szW="33" szTop="35" szRows="31" advance="2112" />
     </Character>
-    <Character idx="359" oX="863" oY="351" w="47" h="48">
+    <Character idx="359" oX="25" oY="349" w="47" h="48">
       <Metrics pixelW="0" pixelH="50" w="47" h="48" szLeft="0" szW="31" szTop="35" szRows="32" advance="2048" />
     </Character>
     <Character idx="363" oX="268" oY="355" w="44" h="43">
@@ -528,19 +526,19 @@
     <Character idx="387" oX="396" oY="368" w="46" h="56">
       <Metrics pixelW="0" pixelH="50" w="46" h="56" szLeft="1" szW="30" szTop="39" szRows="40" advance="2048" />
     </Character>
-    <Character idx="389" oX="812" oY="372" w="46" h="68">
+    <Character idx="389" oX="663" oY="375" w="46" h="68">
       <Metrics pixelW="0" pixelH="50" w="46" h="68" szLeft="1" szW="30" szTop="51" szRows="52" advance="2048" />
     </Character>
-    <Character idx="390" oX="663" oY="375" w="46" h="69">
+    <Character idx="390" oX="709" oY="375" w="46" h="69">
       <Metrics pixelW="0" pixelH="50" w="46" h="69" szLeft="1" szW="30" szTop="52" szRows="53" advance="2048" />
     </Character>
-    <Character idx="392" oX="709" oY="375" w="46" h="67">
+    <Character idx="392" oX="174" oY="376" w="46" h="67">
       <Metrics pixelW="0" pixelH="50" w="46" h="67" szLeft="1" szW="30" szTop="50" szRows="51" advance="2048" />
     </Character>
     <Character idx="404" oX="227" oY="368" w="31" h="59">
       <Metrics pixelW="0" pixelH="50" w="31" h="59" szLeft="1" szW="15" szTop="42" szRows="43" advance="1024" />
     </Character>
-    <Character idx="423" oX="174" oY="376" w="32" h="57">
+    <Character idx="423" oX="488" oY="376" w="32" h="57">
       <Metrics pixelW="0" pixelH="50" w="32" h="57" szLeft="1" szW="16" szTop="39" szRows="41" advance="1088" />
     </Character>
   </Page>

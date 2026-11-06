@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
-<!-- $TexturePacker:SmartUpdate:5d8414df30c8c8c61fbf2fa0071730ef:f1da97c2fe53cb4763e18e3bddd28c21:ab9a40fcbd804e2ddef1ff9c73e253b4$ -->
+<!-- $TexturePacker:SmartUpdate:7c3d2c4245ab802920a4e8e3888e3526:c5b073ddece8a1c2366fd0a6f38f24f3:ab9a40fcbd804e2ddef1ff9c73e253b4$ -->
 <TextureAtlas imagePath="gfx/menu/currency_sheet02.png" width="1024" height="1024" hires="false" version="1">
 	<sprite n="anniversary_deluxe" x="449" y="123" w="136" h="136"/>
 	<sprite n="anniversary_warmup" x="587" y="123" w="136" h="136"/>
 	<sprite n="bundle_12th_anniversary_01" x="725" y="132" w="136" h="136"/>
 	<sprite n="bundle_12th_anniversary_02" x="863" y="132" w="136" h="136"/>
 	<sprite n="bundle_bbno" x="0" y="82" w="135" h="134" oX="2" oY="1" oW="136" oH="136" r="y"/>
-	<sprite n="bundle_CG5" x="0" y="250" w="136" h="136"/>
-	<sprite n="bundle_clubbox_00" x="138" y="250" w="136" h="136"/>
-	<sprite n="bundle_clubtix_01" x="276" y="257" w="136" h="136"/>
-	<sprite n="bundle_cold_island_01" x="414" y="261" w="136" h="136"/>
-	<sprite n="bundle_eggstravaganza_01" x="552" y="261" w="136" h="136"/>
-	<sprite n="bundle_festival_of_yay_01" x="690" y="270" w="136" h="136"/>
+	<sprite n="bundle_clubbox_00" x="0" y="250" w="136" h="136"/>
+	<sprite n="bundle_clubtix_01" x="138" y="250" w="136" h="136"/>
+	<sprite n="bundle_cold_island_01" x="276" y="257" w="136" h="136"/>
+	<sprite n="bundle_eggstravaganza_01" x="414" y="261" w="136" h="136"/>
+	<sprite n="bundle_festival_of_yay_01" x="552" y="261" w="136" h="136"/>
 	<sprite n="bundle_island29_01" x="836" y="0" w="130" h="130" oX="26" oY="0" oW="180" oH="130"/>
 	<sprite n="bundle_island29_02" x="137" y="118" w="173" h="130" oX="7" oY="0" oW="180" oH="130"/>
-	<sprite n="bundle_jamboree" x="828" y="270" w="136" h="136"/>
+	<sprite n="bundle_jamboree" x="690" y="270" w="136" h="136"/>
+	<sprite n="bundle_legendary_01" x="828" y="270" w="136" h="136"/>
 	<sprite n="bundle_plant_island_01" x="0" y="388" w="136" h="136"/>
 	<sprite n="bundle_tpain" x="138" y="388" w="136" h="136"/>
 	<sprite n="bundle_voidcorn" x="276" y="395" w="136" h="136"/>

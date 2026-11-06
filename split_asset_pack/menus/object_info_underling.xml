@@ -243,6 +243,7 @@
 	</template>
 	
 	<element name="Animation">
+		<!--<size w="130*game.menuScaleX()" h="130*game.menuScaleX()" />-->
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="ImageFrame" vAnchor="VCENTER" hAnchor="HCENTER" />
 		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-3" />

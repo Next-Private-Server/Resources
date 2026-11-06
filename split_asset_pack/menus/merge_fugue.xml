@@ -246,7 +246,6 @@
 
 	<template type="template_spritesheetbutton" name="ConfirmButton">
 		<templateVar name="$upSpriteName" equals="'button_long_green@2x'" />
-		<templateVar name="$downSpriteName" equals="'button_long_grey@2x'" />
 		<templateVar name="$sheetName" equals="'xml_resources/buttons01.xml'" />
 		<templateVar name="$spriteScale" equals="0.5*game.menuScaleX()" />
 		<templateVar name="$layer" equals="MidPopUps" />
@@ -272,16 +271,18 @@
 		<touchComponent name="Touch">
 			<event name="onTouchDown" params="component, element">
 				onTouchDown(component, element)
-				element["Text"]:setColor(1.0, 1.0, 1.0)
+				element["Text"]:setColor(0.5, 0.5, 0.5)
 			</event>
 			<event name="onTouchUp" params="component, element">
 				<![CDATA[
 					onTouchUp(component, element)
+					element["Text"]:setColor(1.0, 1.0, 1.0)
 					element:parent():fugueMonster()
 				]]>
 			</event>
 			<event name="onTouchRelease" params="component, element">
 				<![CDATA[
+					element["Text"]:setColor(1.0, 1.0, 1.0)
 					onTouchRelease(component, element)
 				]]>
 			</event>

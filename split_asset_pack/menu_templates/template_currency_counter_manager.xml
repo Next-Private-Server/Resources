@@ -2,6 +2,7 @@
   	<script src="scripts/CurrencyCounterManager.lua" />
 
 	<defaultTemplateVar name="$layer" equals="MidPopUps" />
+	<defaultTemplateVar name="$clubboxTheme" equals="0" />
 
 	<size w="100*game.hudScale()" h="31*game.hudScale()" />
 

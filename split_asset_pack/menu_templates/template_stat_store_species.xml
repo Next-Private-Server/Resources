@@ -35,7 +35,19 @@
 				local selectedMonster = element:parent():parent()("selectedMonster"):GetInt()
 				component("text"):SetString(game.getLocalizedText(game.monsterTypeName(selectedMonster)))
 			elseif game.storeContext() then --store context?
-				component("text"):SetString(game.getLocalizedText(store:ItemTitle(element("ItemIndex"):GetInt())))
+				local itemIdx = element("ItemIndex"):GetInt()				
+				local inventoryItemId = game.storeContext():getInventoryItemId(itemIdx)
+				if inventoryItemId > 0 then
+					local itemData = game.getItemData(inventoryItemId)
+					if itemData:getItemType() == game.ItemDataType_AUGMENTED_MONSTER then
+						local augmentedMonsterData = game.getAugmentedMonsterData(inventoryItemId)
+						local monsterData = game.getMonsterData(augmentedMonsterData:getMonsterId())
+						component("text"):SetString(LOC(monsterData:name()))
+					end
+				else
+					local monsterData = game.getMonsterData(game.storeContext():ItemId(itemIdx))
+					component("text"):SetString(LOC(monsterData:name()))
+				end
 			else
 				-- or maybe just set it before calling init?
 				local selectedMonster = 0

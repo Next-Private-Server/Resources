@@ -7,9 +7,9 @@
 		<templateVar name="$minigameId" equals="1" />
 		<templateVar name="$prize1Anim" equals="'minigame_dipdoor_astral_fa'" />
 		<templateVar name="$prize1Text" equals="DIPPY_Q25" />
-		<templateVar name="$prize2Anim" equals="'minigame_dipdoor_epic_re'" />
+		<templateVar name="$prize2Anim" equals="'minigame_dipdoor_epic_mi'" />
 		<templateVar name="$prize2Text" equals="MINIGAME_REWARD_EPIC_DIPSTERS" />
-		<templateVar name="$prize3Anim" equals="'minigame_dipdoor_rare_la'" />
+		<templateVar name="$prize3Anim" equals="'minigame_dipdoor_rare_sol'" />
 		<templateVar name="$prize3Text" equals="MINIGAME_REWARD_RARE_DIPSTERS" />
 		<position relativeTo="SAFE_AREA" vAnchor="VCENTER" hAnchor="LEFT" />
 		<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="40*game.hudScale()" yOffset="0" priorityOffset="30" />
@@ -41,7 +41,8 @@
 				element.currencyOptions[game.CurrencyType_Keys].ViewState = element.VIEW_STATE.ALERT
 
 				element.currencyOptions[game.CurrencyType_MinigameTokens].ViewState = element.VIEW_STATE.ALWAYS
-				element.currencyOptions[game.CurrencyType_MinigameTokens].FlyingIconMode = true
+				element.currencyOptions[game.CurrencyType_MinigameTokens].ListenToFlyingIconComplete = true
+				element.currencyOptions[game.CurrencyType_MinigameTokens].ListenToPlayerUpdated = false
 			]]>
 		</event>
 	</template>
@@ -55,7 +56,8 @@
 				onInit(element)
 
 				element.currencyOptions[game.CurrencyType_CardPack].ViewState = element.VIEW_STATE.ALWAYS
-				element.currencyOptions[game.CurrencyType_CardPack].FlyingIconMode = true
+				element.currencyOptions[game.CurrencyType_CardPack].ListenToFlyingIconComplete = true
+				element.currencyOptions[game.CurrencyType_CardPack].ListenToPlayerUpdated = false
 				element.currencyOptions[game.CurrencyType_CardPack].AutoHide = true
 			]]>
 		</event>

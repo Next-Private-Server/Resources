@@ -215,27 +215,35 @@
 		element:root():popPopUp()
 
 		local reward = game.getSpinWheelRewardType()
-		local hudIconDest = ""
-		local hudElementDest = ""
+		local lootType = game.LootType_Unknown
+		
+		local lootType = game.LootType_Unknown
+		local icon = ""
 		
 		if(reward == "diamonds") then
-			hudIconDest = "diamond"
-			hudElementDest = "DiamondCounter"
+			icon = "diamond"
+			lootType = game.LootType_Diamonds
 		elseif(reward == "food") then
-			hudIconDest = "food"
-			hudElementDest = "FoodCounter"
+			icon = "food"
+			lootType = game.LootType_Food
 		elseif(reward == "coins") then
-			hudIconDest = "coin"
-			hudElementDest = "CoinCounter"
+			icon = "coin"
+			lootType = game.LootType_Coins
 		elseif(reward == "keys") then
-			hudIconDest = "keys"
-			hudElementDest = "KeyCounter"
+			icon = "keys"
+			lootType = game.LootType_Keys
+		elseif(reward == "relics") then
+			icon = "relic"
+			lootType = game.LootType_Relics
+		elseif reward == "clubbox_tokens" then
+			icon = "clubbox_token"
+			lootType = game.LootType_ClubboxTokens
 		end
 
-		if(hudIconDest ~= "" and hudElementDest ~= "") then
-			game.showFlyingIconFromSpinWheel(hudIconDest, hudElementDest, "Icon", "FrontPopUps")
-		end		
-		
+		if(lootType ~= game.LootType_Unknown) then
+			game.showFlyingIconFromSpinWheel(lootType, icon, "FrontPopUps")
+		end
+
 		game.collectWinnings("S")
 		
 		manager:setButtonEnabled("btn_play_again", true)

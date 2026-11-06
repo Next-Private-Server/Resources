@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7af7903c716c57b289cef2aae6dc0d89:bc5b0bb4528267e3e0eac43e7fe95734:bf05782732cb87c207fc0324650e3727$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_rocks_fantasy_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="arm_01" x="659" y="269" w="118" h="36" oX="0" oY="0" oW="36" oH="119" r="y"/>
+	<sprite n="arm_02" x="576" y="201" w="81" h="93" r="y"/>
+	<sprite n="arm_03" x="382" y="956" w="126" h="36" oX="0" oY="0" oW="37" oH="128" r="y"/>
+	<sprite n="arm_04" x="668" y="0" w="67" h="87" oX="0" oY="0" oW="67" oH="90"/>
+	<sprite n="arm_05" x="447" y="734" w="115" h="41" r="y"/>
+	<sprite n="arm_5_hand_1" x="310" y="734" w="66" h="48" oX="9" oY="1" oW="57" oH="67" r="y"/>
+	<sprite n="arm_5_hand_2" x="378" y="734" w="67" h="43" oX="0" oY="0" oW="57" oH="67" r="y"/>
+	<sprite n="prop_ground_moss" x="219" y="0" w="137" h="314" r="y"/>
+	<sprite n="prop_rock_a" x="0" y="0" w="217" h="461"/>
+	<sprite n="prop_rock_a_glow" x="476" y="309" w="271" h="132" oX="0" oY="74" oW="217" oH="461" r="y"/>
+	<sprite n="prop_rock_b" x="358" y="0" w="147" h="307"/>
+	<sprite n="prop_rock_b_glow" x="0" y="798" w="147" h="216" oX="0" oY="64" oW="147" oH="307"/>
+	<sprite n="prop_rock_c" x="290" y="798" w="90" h="194"/>
+	<sprite n="prop_rock_c_glow" x="382" y="779" w="90" h="175" oX="0" oY="12" oW="90" oH="194"/>
+	<sprite n="prop_rock_d" x="474" y="777" w="90" h="171"/>
+	<sprite n="prop_rock_d_glow" x="920" y="0" w="96" h="90" oX="0" oY="0" oW="90" oH="171" r="y"/>
+	<sprite n="prop_rock_e" x="920" y="92" w="93" h="107"/>
+	<sprite n="prop_rock_e_glow" x="510" y="950" w="80" h="74" oX="19" oY="27" oW="93" oH="107" r="y"/>
+	<sprite n="prop_rock_f" x="0" y="463" w="308" h="333" r="y"/>
+	<sprite n="prop_rock_f_glow" x="310" y="456" w="188" h="276" oX="25" oY="106" oW="333" oH="308" r="y"/>
+	<sprite n="prop_rock_g" x="149" y="798" w="139" h="208"/>
+	<sprite n="prop_rock_g_glow" x="659" y="149" w="86" h="118" oX="0" oY="9" oW="139" oH="208" r="y"/>
+	<sprite n="prop_rock_h" x="749" y="0" w="169" h="148" r="y"/>
+	<sprite n="prop_rock_h_glow" x="780" y="150" w="129" h="124" oX="16" oY="34" oW="148" oH="169" r="y"/>
+	<sprite n="prop_rock_h_OL" x="507" y="0" w="159" h="147" oX="1" oY="10" oW="148" oH="169" r="y"/>
+	<sprite n="prop_rock_stream" x="507" y="150" w="67" h="150"/>
+	<sprite n="shadow" x="219" y="316" w="255" h="138" oX="12" oY="11" oW="280" oH="160"/>
+	<sprite n="water__flow_01" x="290" y="994" w="24" h="30" r="y"/>
+	<sprite n="water__flow_02" x="316" y="994" w="24" h="30" r="y"/>
+	<sprite n="water__flow_03" x="342" y="994" w="23" h="30" oX="0" oY="0" oW="30" oH="24" r="y"/>
+	<sprite n="water__flow_04" x="367" y="994" w="20" h="30" oX="0" oY="2" oW="30" oH="24" r="y"/>
+	<sprite n="water_ripple" x="747" y="201" w="31" h="64" r="y"/>
+</TextureAtlas>

@@ -39,7 +39,7 @@
 				end
 			end
 
-			element["Value"]["Text"]("text"):SetString(PrettyNumber(rate))
+			element["Value"]["Text"]("text"):SetString(PrettyNumber(rate + 0.001)) --Add 0.001 to break Bankers Rounding
 
 			if(stupid == 0) then
 				element["Value"]["Text"]("visible"):SetInt(0)
@@ -82,8 +82,14 @@
 						end
 					end
 
-					component("text"):SetString(PrettyNumber(rate))
-					
+					local text = PrettyNumber(rate + 0.001) --Add 0.001 to break Bankers Rounding
+					--if monster is happy make this green using tags
+					if game.selectedMonster() and game.monsterHappiness(game.selectedMonsterId()) > 0 then
+						text = "<c=".. require("ColourPalette").MODIFIER_APPLIED_COLOUR .. ">" .. text .. "</c>"
+					end
+
+					component("text"):SetString(text) 
+
 					component("layer"):SetString(game.selectedMonster() and "PopUps" or "FrontPopUps")
 					component("autoScaleFactor"):SetFloat(0.01)
 					component("autoScale"):SetInt(1)

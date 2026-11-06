@@ -86,6 +86,7 @@
 
 		<template type="template_bom_info_item" name="CollectedCommons">
 			<templateVar name="$spriteName" equals="'map_common_icon'" />
+			<templateVar name="$tooltipText" equals="'COMMONS_LABEL'" />
 			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
 			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 		</template>
@@ -95,6 +96,7 @@
 			<templateVar name="$textR" equals="0.529"></templateVar>
 			<templateVar name="$textG" equals="0.890"></templateVar>
 			<templateVar name="$textB" equals="0.757"></templateVar>
+			<templateVar name="$tooltipText" equals="'RARES_LABEL'" />
 			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
 			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 		</template>
@@ -104,6 +106,7 @@
 			<templateVar name="$textR" equals="0.984"></templateVar>
 			<templateVar name="$textG" equals="0.780"></templateVar>
 			<templateVar name="$textB" equals="0.373"></templateVar>
+			<templateVar name="$tooltipText" equals="'EPICS_LABEL'" />
 			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
 			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 		</template>
@@ -113,12 +116,14 @@
 			<templateVar name="$textR" equals="0.859"></templateVar>
 			<templateVar name="$textG" equals="0.529"></templateVar>
 			<templateVar name="$textB" equals="0.490"></templateVar>
+			<templateVar name="$tooltipText" equals="'SEASONALS_LABEL'" />
 			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
 			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 		</template>
 
 		<template type="template_bom_info_item" name="CollectedCostumes">
 			<templateVar name="$spriteName" equals="'map_costume_icon'" />
+			<templateVar name="$tooltipText" equals="'COSTUMES_TITLE'" />
 			<position relativeTo="PARENT" vAnchor="TOP" hAnchor="HCENTER" />
 			<orientation vAnchor="TOP" hAnchor="LEFT" xOffset="0" yOffset="0" priorityOffset="0" />
 		</template>	

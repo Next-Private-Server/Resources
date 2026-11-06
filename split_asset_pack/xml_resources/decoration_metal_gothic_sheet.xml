@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:51ced09af09155011ac640b83923550d:8b4bae313a2a61bcb60538ee13606593:15a768c3ec440750332b5758908e304a$ -->
+<TextureAtlas imagePath="gfx/structures/decoration_metal_gothic_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="candles_middle_stage" x="361" y="496" w="146" h="291" oX="2" oY="2" oW="294" oH="189" r="y"/>
+	<sprite n="middle_candle_01" x="0" y="887" w="42" h="96" oX="1" oY="2" oW="97" oH="44" r="y"/>
+	<sprite n="middle_candle_02" x="46" y="789" w="44" h="95" oX="2" oY="0" oW="97" oH="44" r="y"/>
+	<sprite n="middle_candle_03" x="0" y="789" w="44" h="96" oX="0" oY="0" oW="97" oH="44" r="y"/>
+	<sprite n="middle_stage" x="0" y="201" w="294" h="189"/>
+	<sprite n="middle_stage_glow" x="0" y="392" w="294" h="157" oX="0" oY="32" oW="294" oH="189"/>
+	<sprite n="outer_stage" x="0" y="0" w="376" h="199"/>
+	<sprite n="outer_stage_glow" x="44" y="887" w="52" h="95" r="y"/>
+	<sprite n="side_candle_01" x="296" y="356" w="63" h="94"/>
+	<sprite n="side_candle_02" x="296" y="543" w="62" h="94" oX="0" oY="0" oW="63" oH="94"/>
+	<sprite n="side_candle_03" x="296" y="452" w="63" h="89" oX="0" oY="5" oW="63" oH="94"/>
+	<sprite n="statue_body" x="378" y="0" w="129" h="257"/>
+	<sprite n="statue_bottomhead" x="296" y="201" w="77" h="44"/>
+	<sprite n="statue_glow" x="480" y="312" w="25" h="41" r="y"/>
+	<sprite n="statue_hammer" x="371" y="259" w="107" h="235" oX="0" oY="4" oW="119" oH="239"/>
+	<sprite n="statue_left_lower_arm" x="296" y="311" w="69" h="18"/>
+	<sprite n="statue_left_upper_arm" x="296" y="331" w="67" h="23" r="y"/>
+	<sprite n="statue_neck_2" x="480" y="298" w="32" h="12" r="y"/>
+	<sprite n="statue_neck_3" x="480" y="259" w="32" h="37" r="y"/>
+	<sprite n="statue_right_lowe_arm" x="480" y="355" w="17" h="59" oX="0" oY="13" oW="59" oH="44" r="y"/>
+	<sprite n="statue_right_upper_arm" x="92" y="789" w="41" h="61"/>
+	<sprite n="statue_tophead" x="296" y="247" w="73" h="62"/>
+</TextureAtlas>

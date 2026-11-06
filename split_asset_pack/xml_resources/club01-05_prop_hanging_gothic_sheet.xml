@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:84b2874422b639a7adbdc3f21e5f119a:51d8b1af0532da92afeb6e36c42651aa:fbce065fee1bdf9a4b8650f20f292c42$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_hanging_gothic_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="candleflame_01" x="0" y="0" w="32" h="11" r="y"/>
+	<sprite n="chain" x="34" y="0" w="293" h="17" r="y"/>
+	<sprite n="chandelier_bg" x="0" y="228" w="301" h="135" oX="4" oY="10" oW="308" oH="207"/>
+	<sprite n="chandelier_bg_glow" x="0" y="92" w="304" h="134" oX="4" oY="10" oW="308" oH="207"/>
+	<sprite n="chandelier_candle" x="329" y="0" w="150" h="249" oX="27" oY="0" oW="308" oH="207" r="y"/>
+	<sprite n="chandelier_fg" x="0" y="365" w="308" h="141" oX="0" oY="66" oW="308" oH="207"/>
+	<sprite n="chandelier_fg_glow" x="0" y="19" w="297" h="71" oX="6" oY="81" oW="308" oH="207"/>
+</TextureAtlas>

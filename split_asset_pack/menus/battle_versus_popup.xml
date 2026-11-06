@@ -1,4 +1,6 @@
 <menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	<script src="scripts/BattleVersusPopupUI.lua"/>
+	
 	<element name="Frame">
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="SCREEN" vAnchor="VCENTER" hAnchor="HCENTER" />
@@ -607,59 +609,10 @@
 		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="11" />
 	</template>
 	
-
 	<template type="template_battle_attempts" name="Attempts">
 		<templateVar name="$TopLabel" equals="0"/>
 		<position relativeTo="Frame" vAnchor="BOTTOM" hAnchor="HCENTER" />
 		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="8*game.hudScale()" priorityOffset="-8" />
 	</template>
-
-	<event name="onInit" params="element">
-		<![CDATA[
-			include("BattleVersusPopupUI").onInit(element)
-		]]>
-	</event>
-
-	<event name="onPostInit" params="element">
-		<![CDATA[
-			include("BattleVersusPopupUI").onPostInit(element)
-		]]>
-	</event>
-
-	<event name="onTick" params="element, dt">
-		<![CDATA[
-			include("BattleVersusPopupUI").onTick(element, dt)
-		]]>
-	</event>
-
-	<event name="queuePop" params="element">
-		<![CDATA[
-			include("BattleVersusPopupUI").queuePop(element)
-		]]>
-	</event>
-
-	<event name="showSeasonInfo" params="element">
-		<![CDATA[
-			include("BattleVersusPopupUI").showSeasonInfo(element)
-		]]>
-	</event>
-
-	<event name="hideSeasonInfo" params="element">
-		<![CDATA[
-				include("BattleVersusPopupUI").hideSeasonInfo(element)
-		]]>
-	</event>
-
-	<event name="showChampionInfo" params="element">
-		<![CDATA[
-			include("BattleVersusPopupUI").showChampionInfo(element)
-		]]>
-	</event>
-
-	<event name="hideChampionInfo" params="element">
-		<![CDATA[
-			include("BattleVersusPopupUI").hideChampionInfo(element)
-		]]>
-	</event>
 
 </menu>

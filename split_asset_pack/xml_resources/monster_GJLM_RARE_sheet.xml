@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:3be42d1d80d28b55d8d026074d645126:59e0562da1229530c391eb327a7ee546:296c104d7f333ddc9e00f715a77ba9a5$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_GJLM_RARE_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="GJLM_claw_01" x="501" y="966" w="39" h="58" oX="3" oY="0" oW="64" oH="40" r="y"/>
+	<sprite n="GJLM_claw_02" x="494" y="615" w="59" h="42" oX="4" oY="3" oW="64" oH="48"/>
+	<sprite n="GJLM_claw_03" x="539" y="487" w="32" h="62" oX="0" oY="2" oW="32" oH="64"/>
+	<sprite n="GJLM_claw_04" x="492" y="438" w="53" h="47" oX="0" oY="1" oW="47" oH="56" r="y"/>
+	<sprite n="GJLM_eye_01" x="64" y="720" w="30" h="31" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="GJLM_eye_02" x="96" y="720" w="30" h="31" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="GJLM_eye_03" x="128" y="720" w="30" h="31" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="GJLM_eye_04" x="160" y="720" w="30" h="31" oX="1" oY="1" oW="32" oH="32" r="y"/>
+	<sprite n="GJLM_fin_left1" x="587" y="825" w="46" h="65" oX="3" oY="3" oW="52" oH="72"/>
+	<sprite n="GJLM_fin_left1_glow" x="494" y="487" w="43" h="62" oX="5" oY="5" oW="52" oH="72"/>
+	<sprite n="GJLM_fin_left2" x="626" y="958" w="40" h="63" oX="7" oY="5" oW="76" oH="48" r="y"/>
+	<sprite n="GJLM_fin_left2_glow" x="494" y="551" w="39" h="62" oX="7" oY="5" oW="76" oH="48" r="y"/>
+	<sprite n="GJLM_fin_left3" x="419" y="646" w="61" h="19" oX="6" oY="5" oW="72" oH="32"/>
+	<sprite n="GJLM_fin_left3_glow" x="144" y="967" w="17" h="57" oX="7" oY="6" oW="72" oH="32" r="y"/>
+	<sprite n="GJLM_fin_left4" x="281" y="366" w="50" h="28" oX="6" oY="4" oW="60" oH="36"/>
+	<sprite n="GJLM_fin_left4_glow" x="367" y="338" w="45" h="25" oX="9" oY="6" oW="60" oH="36"/>
+	<sprite n="GJLM_fin_right1" x="605" y="892" w="36" h="64" oX="5" oY="0" oW="52" oH="64"/>
+	<sprite n="GJLM_fin_right1_glow" x="547" y="438" w="59" h="32" oX="8" oY="0" oW="52" oH="64" r="y"/>
+	<sprite n="GJLM_fin_right2" x="541" y="825" w="44" h="71" oX="1" oY="0" oW="76" oH="44" r="y"/>
+	<sprite n="GJLM_fin_right2_glow" x="535" y="551" w="38" h="62" oX="10" oY="0" oW="76" oH="44" r="y"/>
+	<sprite n="GJLM_foot_01" x="521" y="909" w="82" h="54" oX="1" oY="2" oW="84" oH="72"/>
+	<sprite n="GJLM_foot_02" x="330" y="915" w="72" h="49" oX="6" oY="9" oW="84" oH="72"/>
+	<sprite n="GJLM_foot_03" x="192" y="677" w="52" h="74" oX="5" oY="12" oW="84" oH="72" r="y"/>
+	<sprite n="GJLM_foot_04" x="455" y="909" w="64" h="55" oX="10" oY="12" oW="84" oH="72"/>
+	<sprite n="GJLM_halolight" x="64" y="510" w="112" h="208" oX="0" oY="16" oW="208" oH="128" r="y"/>
+	<sprite n="GJLM_headlight" x="404" y="915" w="49" h="49" oX="1" oY="1" oW="52" oH="52"/>
+	<sprite n="GJLM_horn" x="196" y="753" w="82" h="164" r="y"/>
+	<sprite n="GJLM_horn_glow" x="295" y="506" w="64" h="159" oX="0" oY="0" oW="164" oH="82" r="y"/>
+	<sprite n="GJLM_left_back_lowerleg" x="261" y="506" w="32" h="162" oX="0" oY="14" oW="36" oH="184"/>
+	<sprite n="GJLM_left_back_upperleg" x="333" y="366" w="23" h="137" oX="6" oY="11" oW="32" oH="148"/>
+	<sprite n="GJLM_left_front_lowerleg" x="0" y="753" w="40" h="219" oX="0" oY="2" oW="40" oH="224"/>
+	<sprite n="GJLM_left_front_upperleg" x="233" y="506" w="26" h="169" oX="0" oY="5" oW="28" oH="180"/>
+	<sprite n="GJLM_lightcone" x="154" y="202" w="125" h="192" oX="6" oY="2" oW="200" oH="140" r="y"/>
+	<sprite n="GJLM_lowerarm" x="414" y="338" w="76" h="152" oX="3" oY="5" oW="80" oH="160"/>
+	<sprite n="GJLM_mouth_01" x="361" y="502" w="56" h="156" oX="8" oY="61" oW="172" oH="196" r="y"/>
+	<sprite n="GJLM_mouth_02" x="319" y="667" w="152" h="82" oX="10" oY="53" oW="172" oH="196"/>
+	<sprite n="GJLM_mouth_03" x="420" y="751" w="119" h="156" oX="8" oY="34" oW="172" oH="196" r="y"/>
+	<sprite n="GJLM_mouth_04" x="280" y="751" w="138" h="162" oX="17" oY="17" oW="172" oH="196"/>
+	<sprite n="GJLM_mouth_05" x="154" y="396" w="165" h="108" oX="32" oY="16" oW="172" oH="196" r="y"/>
+	<sprite n="GJLM_mouth_06" x="281" y="184" w="84" h="180" oX="44" oY="7" oW="172" oH="196"/>
+	<sprite n="GJLM_mouth_07" x="355" y="966" w="144" h="58" oX="57" oY="15" oW="172" oH="196" r="y"/>
+	<sprite n="GJLM_mouth_08" x="492" y="338" w="86" h="98" oX="37" oY="47" oW="172" oH="196" r="y"/>
+	<sprite n="GJLM_mouth_09" x="196" y="919" w="132" h="46" oX="20" oY="57" oW="172" oH="196"/>
+	<sprite n="GJLM_mouth_10" x="0" y="974" w="142" h="50" oX="15" oY="57" oW="172" oH="196"/>
+	<sprite n="GJLM_right_back_lowerleg" x="163" y="967" w="190" h="56" oX="4" oY="8" oW="64" oH="208" r="y"/>
+	<sprite n="GJLM_right_back_upperleg" x="419" y="492" w="44" h="152" oX="1" oY="6" oW="48" oH="168"/>
+	<sprite n="GJLM_right_foot_01" x="542" y="965" w="82" h="59" oX="1" oY="0" oW="84" oH="72"/>
+	<sprite n="GJLM_right_foot_02" x="541" y="746" w="63" h="77" oX="6" oY="0" oW="84" oH="72" r="y"/>
+	<sprite n="GJLM_right_foot_03" x="473" y="667" w="67" h="77" oX="6" oY="0" oW="84" oH="72" r="y"/>
+	<sprite n="GJLM_right_foot_04" x="246" y="677" w="71" h="72" oX="8" oY="0" oW="84" oH="72" r="y"/>
+	<sprite n="GJLM_right_front_lowerleg" x="0" y="510" w="62" h="241" oX="1" oY="3" oW="64" oH="248"/>
+	<sprite n="GJLM_right_front_upperleg" x="178" y="506" w="53" h="169" oX="4" oY="4" oW="64" oH="176"/>
+	<sprite n="GJLM_shadow_eye" x="258" y="184" w="14" h="14" oX="1" oY="1" oW="16" oH="16"/>
+	<sprite n="GJLM_shadowbase_01" x="367" y="184" w="152" h="152" oX="124" oY="124" oW="400" oH="400"/>
+	<sprite n="GJLM_shadowbase_02" x="258" y="0" w="152" h="182" oX="124" oY="94" oW="400" oH="400"/>
+	<sprite n="GJLM_shadowbase_03" x="42" y="753" w="152" h="212" oX="124" oY="64" oW="400" oH="400"/>
+	<sprite n="GJLM_shadowbase_04" x="0" y="266" w="152" h="242" oX="124" oY="34" oW="400" oH="400"/>
+	<sprite n="GJLM_shadowbase_05" x="0" y="0" w="152" h="264" oX="124" oY="12" oW="400" oH="400"/>
+	<sprite n="GJLM_torso" x="154" y="0" w="102" h="200" oX="0" oY="5" oW="200" oH="113" r="y"/>
+	<sprite n="GJLM_torso_glow" x="358" y="366" w="47" h="134" oX="34" oY="5" oW="208" oH="96" r="y"/>
+	<sprite n="GJLM_upperarm" x="465" y="492" w="27" h="151" oX="3" oY="3" oW="32" oH="156"/>
+</TextureAtlas>

@@ -41,9 +41,9 @@
 	<element name="bg">
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
-		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*lua_sys.screenWidth()" yOffset="-475*game.menuScaleX()*0.045" priorityOffset="6" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-1*lua_sys.screenWidth()" yOffset="-21*game.menuScaleX()" priorityOffset="6" />
 		<ninesliceComponent name="Sprite">
-			<size w="475*game.menuScaleX()" h="475*game.menuScaleX()*0.57" />
+			<size w="475*game.menuScaleX()" h="270*game.menuScaleX()" />
 			<event name="onInit" params="component, element">
 				component("topHeight"):SetFloat(50.0)
 				component("bottomHeight"):SetFloat(50.0)
@@ -155,11 +155,11 @@
 	<element name="FadeSprite">
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="BlackCover" vAnchor="BOTTOM" hAnchor="HCENTER" />
-		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-2" priorityOffset="0" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.menuScaleX()" priorityOffset="0" />
 		<spriteComponent name="Sprite">
 			<event name="onInit" params="component, element">
 				component("spriteName"):SetString("gfx/fade_sprite")
-				component:setScale(Vector2(27.0*game.menuScaleX(), 0.5*game.menuScaleY()))
+				component:setScale(Vector2(27.0*game.menuScaleX(), 0.5*game.menuScaleX()))
 				component("layer"):SetString("Clipping")
 			</event>
 		</spriteComponent>
@@ -167,11 +167,11 @@
 	<element name="BotFadeSprite">
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
-		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="9*game.menuScaleY()" priorityOffset="-5" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="0" yOffset="9*game.menuScaleX()" priorityOffset="-5" />
 		<spriteComponent name="Sprite">
 			<event name="onInit" params="component, element">
 				component("spriteName"):SetString("gfx/fade_sprite")
-				component:setScale(Vector2(27.0*game.menuScaleX(), 0.5*game.menuScaleY()))
+				component:setScale(Vector2(27.0*game.menuScaleX(), 0.5*game.menuScaleX()))
 				component("vFlip"):SetInt(1)
 				component("layer"):SetString("Clipping")
 			</event>
@@ -211,7 +211,7 @@
 			<event name="onInit" params="component, element">
 				component("spriteName"):SetString("scroll_bar_01")
 				component("sheetName"):SetString("xml_resources/buttons01.xml")
-				component("size"):SetFloat(0.5*game.menuScaleY())
+				component("size"):SetFloat(0.5*game.menuScaleX())
 				component("layer"):SetString("ContextBar")
 			</event>
 		</spriteSheetComponent>
@@ -220,7 +220,7 @@
 	<element name="ScrollMarker">
 		<size dependentOnElement="element:name()" dependentOnComponent="Marker" />
 		<position relativeTo="ScrollBar" vAnchor="TOP" hAnchor="HCENTER" />
-		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="5*game.menuScaleY()" priorityOffset="-1" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="5*game.menuScaleX()" priorityOffset="-1" />
 		<spriteSheetComponent name="Marker">
 		</spriteSheetComponent>
 		<touchComponent name="Touch">

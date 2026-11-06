@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d1fcaff6cec41a2d6f312fb20de1fd35:1a7ae9c2e36815c6affa433e45516d40:db701c41c6089aff034740f416e5e755$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_statue_fantasy_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="prop_ground_moss" x="0" y="355" w="314" h="137"/>
+	<sprite n="prop_statue_body" x="0" y="0" w="159" h="353"/>
+	<sprite n="prop_statue_body_OL" x="294" y="202" w="125" h="133" oX="14" oY="7" oW="159" oH="353"/>
+	<sprite n="prop_statue_feather" x="161" y="202" w="131" h="138"/>
+	<sprite n="prop_statue_head" x="316" y="337" w="102" h="108"/>
+	<sprite n="prop_statue_head_glow" x="421" y="319" w="88" h="84"/>
+	<sprite n="prop_statue_lowerarm_back" x="452" y="135" w="57" h="55" r="y"/>
+	<sprite n="prop_statue_lowerarm_front" x="452" y="0" w="55" h="133" r="y"/>
+	<sprite n="prop_statue_stand" x="161" y="0" w="219" h="200" r="y"/>
+	<sprite n="prop_statue_sword" x="382" y="0" w="68" h="198"/>
+	<sprite n="prop_statue_upperarm_back" x="420" y="405" w="91" h="77" r="y"/>
+	<sprite n="prop_statue_upperarm_front" x="421" y="200" w="84" h="117"/>
+	<sprite n="shadow" x="316" y="447" w="97" h="54" oX="3" oY="3" oW="105" oH="60"/>
+</TextureAtlas>

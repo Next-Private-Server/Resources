@@ -12,7 +12,7 @@
 		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
 		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="lua_sys.screenHeight() * 2.0" priorityOffset="21" />
 		<ninesliceComponent name="Sprite">
-			<size w="340*game.windowScaleX()" h="250*game.windowScaleY()" />
+			<size w="340*game.windowScaleX()" h="230*game.windowScaleY()" />
 			<event name="onInit" params="component, element">
 				component("topHeight"):SetFloat(50.0)
 				component("bottomHeight"):SetFloat(50.0)
@@ -218,9 +218,8 @@
 	</element>
 
 	<template type="template_spritesheetbutton" name="Attune">
-		<hudScale scale="game.hudScale()" />
 		<templateVar name="$text" equals="CONTEXTBAR_ATTUNE_LABEL" />
-		<templateVar name="$spriteScale" equals="0.5" />
+		<templateVar name="$spriteScale" equals="0.5*game.hudScale()" />
 		<templateVar name="$layer" equals="MidFrontPopUps" />
 		<position relativeTo="bg" vAnchor="BOTTOM" hAnchor="HCENTER" />
 		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-1" />
@@ -232,10 +231,10 @@
 		</event>
 		<textComponent name="Text">
 			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="HCENTER" />
-			<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="0" />
+			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" />
 			<event name="onInit" params="component, element">
 				onInit(component, element)
-				component("size"):SetFloat(0.25)
+				component("size"):SetFloat(0.25*game.hudScale())
 			</event>
 		</textComponent>
 		<touchComponent name="Touch">

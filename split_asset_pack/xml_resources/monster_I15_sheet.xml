@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:f53c0abc7fd7e23834a7b381eefebac1:5c5767d44f8d33546e0d85b39be4df99:627c4b97b506a67a8edf37ee7d62d716$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_I15_sheet.png" width="2048" height="2048" hires="true" version="1">
+  <sprite n="critter_bottom_01" x="1255" y="1552" w="145" h="109" oX="13" oY="14" oW="179" oH="135" />
+  <sprite n="critter_bottom_02" x="1549" y="1233" w="110" h="145" oX="13" oY="14" oW="179" oH="135" r="y" />
+  <sprite n="critter_bottom_03" x="1549" y="1088" w="113" h="145" oX="13" oY="12" oW="179" oH="135" r="y" />
+  <sprite n="critter_bottom_04" x="1926" y="1120" w="111" h="144" oX="13" oY="14" oW="179" oH="135" r="y" />
+  <sprite n="critter_bottom_05" x="1549" y="1378" w="110" h="145" oX="13" oY="14" oW="179" oH="135" r="y" />
+  <sprite n="critter_bottom_06" x="1545" y="1523" w="109" h="145" oX="13" oY="14" oW="179" oH="135" r="y" />
+  <sprite n="critter_bottom_07" x="1403" y="1322" w="146" h="109" oX="13" oY="14" oW="179" oH="135" />
+  <sprite n="critter_bottom_08" x="1400" y="1561" w="145" h="109" oX="13" oY="14" oW="179" oH="135" />
+  <sprite n="critter_eyes_01" x="510" y="1401" w="61" h="49" />
+  <sprite n="critter_eyes_02" x="469" y="1401" w="41" h="51" r="y" />
+  <sprite n="critter_eyes_03" x="1288" y="972" w="197" h="118" />
+  <sprite n="critter_head" x="1059" y="808" w="146" h="150" />
+  <sprite n="critter_mid" x="1953" y="797" w="74" h="156" r="y" />
+  <sprite n="critter_top_01" x="1256" y="0" w="108" h="354" oX="18" oY="60" oW="145" oH="437" />
+  <sprite n="critter_top_02" x="927" y="0" w="110" h="356" oX="17" oY="58" oW="145" oH="437" />
+  <sprite n="critter_top_03" x="814" y="0" w="113" h="356" oX="15" oY="58" oW="145" oH="437" />
+  <sprite n="critter_top_04" x="1147" y="0" w="109" h="354" oX="17" oY="60" oW="145" oH="437" />
+  <sprite n="critter_top_05" x="1180" y="453" w="108" h="354" oX="16" oY="60" oW="145" oH="437" />
+  <sprite n="critter_top_06" x="956" y="453" w="113" h="355" oX="13" oY="59" oW="145" oH="437" />
+  <sprite n="critter_top_07" x="1069" y="453" w="111" h="354" oX="14" oY="60" oW="145" oH="437" />
+  <sprite n="critter_top_08" x="1037" y="0" w="110" h="354" oX="17" oY="60" oW="145" oH="437" />
+  <sprite n="I15_beard" x="1408" y="628" w="240" h="166" />
+  <sprite n="I15_bottom" x="1526" y="794" w="192" h="172" />
+  <sprite n="I15_cape_01" x="367" y="960" w="102" h="492" />
+  <sprite n="I15_cape_02" x="839" y="1398" w="154" h="434" />
+  <sprite n="I15_cape_03" x="993" y="1398" w="123" h="432" />
+  <sprite n="I15_cape_04" x="703" y="0" w="111" h="367" />
+  <sprite n="I15_cape_05" x="1116" y="1398" w="139" h="404" />
+  <sprite n="I15_chain_diamond" x="1173" y="1329" w="74" h="69" />
+  <sprite n="I15_chain_heart_back" x="1648" y="633" w="83" h="159" oX="42" oY="3" oW="209" oH="134" r="y" />
+  <sprite n="I15_chain_heart_front" x="1668" y="1029" w="197" h="70" oX="6" oY="61" oW="209" oH="134" />
+  <sprite n="I15_chain_ring" x="431" y="903" w="42" h="55" r="y" />
+  <sprite n="I15_chest_MIN" x="0" y="1834" w="282" h="213" />
+  <sprite n="I15_ear_l_01" x="1400" y="1431" w="145" h="130" />
+  <sprite n="I15_ear_l_02" x="1940" y="953" w="100" h="167" />
+  <sprite n="I15_ear_MIN" x="526" y="1832" w="146" h="208" />
+  <sprite n="I15_ear_r_01" x="1288" y="452" w="122" h="149" />
+  <sprite n="I15_ear_r_02" x="1100" y="1830" w="166" h="197" />
+  <sprite n="I15_ear_r_03" x="1288" y="783" w="119" h="189" />
+  <sprite n="I15_elbow_MIN" x="373" y="903" w="58" h="57" r="y" />
+  <sprite n="I15_eyelid_01" x="789" y="1445" w="38" h="38" />
+  <sprite n="I15_eyelid_02" x="789" y="1483" w="38" h="38" />
+  <sprite n="I15_eyelid_03" x="789" y="1521" w="38" h="38" />
+  <sprite n="I15_eyelid_04" x="789" y="1559" w="38" h="38" />
+  <sprite n="I15_foot_l" x="1153" y="354" w="115" h="99" r="y" />
+  <sprite n="I15_foot_r" x="1173" y="958" w="115" h="133" />
+  <sprite n="I15_foot_r_MIN" x="1007" y="356" w="146" h="97" />
+  <sprite n="I15_frill" x="1718" y="865" w="222" h="164" />
+  <sprite n="I15_frill_02" x="1731" y="695" w="222" h="170" />
+  <sprite n="I15_glow" x="922" y="1832" w="178" h="199" r="y" />
+  <sprite n="I15_guitar_neck" x="703" y="367" w="304" h="86" r="y" />
+  <sprite n="I15_guitarframe" x="373" y="0" w="330" h="455" />
+  <sprite n="I15_Hand_01" x="1662" y="1099" w="163" h="137" oX="40" oY="22" oW="209" oH="203" r="y" />
+  <sprite n="I15_Hand_02" x="1659" y="1236" w="158" h="152" oX="19" oY="33" oW="209" oH="203" />
+  <sprite n="I15_Hand_03" x="1255" y="1394" w="145" h="158" oX="19" oY="45" oW="209" oH="203" r="y" />
+  <sprite n="I15_Hand_04" x="1878" y="1421" w="157" h="156" oX="21" oY="33" oW="209" oH="203" r="y" />
+  <sprite n="I15_Hand_05" x="1886" y="1264" w="158" h="157" oX="19" oY="33" oW="209" oH="203" />
+  <sprite n="I15_Hand_06" x="1659" y="1236" w="158" h="152" oX="19" oY="33" oW="209" oH="203" />
+  <sprite n="I15_Hand_07" x="1654" y="1540" w="157" h="123" oX="20" oY="55" oW="209" oH="203" />
+  <sprite n="I15_Hand_08" x="1659" y="1388" w="158" h="152" oX="19" oY="33" oW="209" oH="203" />
+  <sprite n="I15_head" x="1317" y="1090" w="232" h="232" />
+  <sprite n="I15_head_MIN" x="1410" y="342" w="267" h="286" oX="0" oY="11" oW="295" oH="278" r="y" />
+  <sprite n="I15_headback_MIN" x="672" y="1832" w="250" h="206" oX="45" oY="0" oW="295" oH="278" />
+  <sprite n="I15_leg_l" x="1953" y="727" w="84" h="70" oX="3" oY="0" oW="73" oH="84" r="y" />
+  <sprite n="I15_leg_r" x="1205" y="807" w="76" h="90" oX="1" oY="0" oW="78" oH="90" />
+  <sprite n="I15_lowerarm_l" x="1407" y="794" w="61" h="177" r="y" />
+  <sprite n="I15_lowerarm_l_MIN" x="282" y="1834" w="58" h="211" r="y" />
+  <sprite n="I15_lowerarm_r" x="696" y="1449" w="93" h="379" r="y" />
+  <sprite n="I15_lowerarm_r_MIN" x="1255" y="1661" w="143" h="139" />
+  <sprite n="I15_lowerleg_r" x="1247" y="1329" w="156" h="65" r="y" />
+  <sprite n="I15_mask_MAJ" x="1268" y="354" w="142" h="98" r="y" />
+  <sprite n="I15_mask_MIN" x="1957" y="633" w="84" h="94" r="y" />
+  <sprite n="I15_midarm_l" x="956" y="808" w="64" h="86" r="y" />
+  <sprite n="I15_midarm_l_MIN" x="736" y="1401" w="103" h="44" />
+  <sprite n="I15_midarm_r" x="572" y="903" w="161" h="38" />
+  <sprite n="I15_MIN_eyelid_01" x="1865" y="1029" w="61" h="124" r="y" />
+  <sprite n="I15_MIN_eyelid_02" x="1825" y="1153" w="61" h="124" r="y" />
+  <sprite n="I15_MIN_eyelid_03" x="1817" y="1277" w="61" h="124" r="y" />
+  <sprite n="I15_MIN_eyelid_04" x="1817" y="1401" w="61" h="124" r="y" />
+  <sprite n="I15_mouth_glow" x="340" y="1834" w="186" h="208" r="y" />
+  <sprite n="I15_mustache" x="1817" y="1525" w="60" h="142" r="y" />
+  <sprite n="I15_pupil" x="789" y="1625" w="24" h="23" />
+  <sprite n="I15_pupil_MIN" x="817" y="1597" w="22" h="27" r="y" />
+  <sprite n="I15_scepter" x="0" y="0" w="373" h="960" />
+  <sprite n="I15_scepter_edge" x="0" y="960" w="367" h="874" oX="1" oY="86" oW="373" oH="960" />
+  <sprite n="I15_scythe" x="1173" y="1091" w="144" h="238" r="y" />
+  <sprite n="I15_shadow" x="373" y="455" w="231" h="448" r="y" />
+  <sprite n="I15_spring" x="1485" y="971" w="183" h="117" r="y" />
+  <sprite n="I15_string_01_MIN" x="604" y="455" w="352" h="440" oX="11" oY="14" oW="374" oH="468" />
+  <sprite n="I15_string_02_MIN" x="821" y="958" w="352" h="440" oX="11" oY="14" oW="374" oH="468" />
+  <sprite n="I15_string_03_MIN" x="469" y="958" w="352" h="443" oX="11" oY="12" oW="374" oH="468" />
+  <sprite n="I15_string_GLOW_MIN" x="367" y="1452" w="329" h="380" oX="19" oY="41" oW="374" oH="468" />
+  <sprite n="I15_strings_01" x="1681" y="317" w="340" h="316" oX="31" oY="19" oW="379" oH="373" r="y" />
+  <sprite n="I15_strings_02" x="1364" y="0" w="317" h="342" oX="30" oY="19" oW="379" oH="373" />
+  <sprite n="I15_strings_03" x="1681" y="0" w="340" h="317" oX="30" oY="19" oW="379" oH="373" r="y" />
+  <sprite n="I15_toe_01_l" x="543" y="903" w="29" h="39" r="y" />
+  <sprite n="I15_toe_01_r" x="473" y="903" w="35" h="43" />
+  <sprite n="I15_toe_02_l" x="789" y="1597" w="28" h="28" />
+  <sprite n="I15_toe_02_r" x="571" y="1401" w="19" h="49" />
+  <sprite n="I15_toe_03_r" x="508" y="903" w="35" h="41" />
+  <sprite n="I15_toe_04_r" x="699" y="1401" w="37" h="48" r="y" />
+  <sprite n="I15_upperarm_l" x="733" y="895" w="326" h="63" />
+  <sprite n="I15_upperarm_l_MIN" x="590" y="1401" w="109" h="48" />
+  <sprite n="I15_upperarm_r" x="1468" y="794" w="58" h="177" r="y" />
+  <sprite n="I15_upperarm_r_MIN" x="1288" y="601" w="120" h="182" r="y" />
+  <sprite n="I15_upperleg_r" x="1731" y="633" w="226" h="62" />
+</TextureAtlas>

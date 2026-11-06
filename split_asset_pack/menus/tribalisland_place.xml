@@ -116,7 +116,11 @@
 					local totalHeight = element("NumEntries"):GetInt() * (first:absH() + 14)
 					
 					if(totalHeight &gt; element:absH()) then
-						component:setScrollSize(totalHeight - element:absH())
+						local contentSize = totalHeight - element:absH()
+						component:setScrollSize(contentSize)
+
+						--Default 3 entries per tick is a bit much for breeding, make it closer to 1
+						component("mouseScrollSpeed"):SetFloat(((((first:absH() + 14 * 2) / 12) / contentSize) * 100))
 					else
 						component:setScrollSize(0)
 					end

@@ -29,7 +29,7 @@
 		</event>
 		<event name="onTouchDown" params="component, element">
 			<![CDATA[
-			if (not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1) then
+			if (not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1 and not game.clubboxContext():hasQueuedFanfarePopups()) then
 				element:setColorPercent(0.5)
 				element.buttonState = game.BUTTON_PRESSED
 				element.tickTimer = 0.0
@@ -38,7 +38,7 @@
 		</event>
 		<event name="onTouchUp" params="component, element">
 			<![CDATA[
-			if (element.touchCooldown == 0 and not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1) then
+			if (element.touchCooldown == 0 and not game.disableClubboxHypeBarHud() and game.popUpLevel() <= 1 and not game.clubboxContext():hasQueuedFanfarePopups()) then
 			
 				playSoundFx("audio/sfx/menu_click_small.wav")	
 				game.pushPopUp("clubbox_progress")

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:5dc8a26e1252a707137e034908a8f98f:af5450f8b2e2a5a9d57231fc81d7e3f1:b36fb4acc08bb83abd269df06ba135e0$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_S12_costume_01_sheet.png" width="512" height="512" hires="true" version="1">
+	<sprite n="S12_golem_chest_bg" x="0" y="168" w="171" h="126" pX="0.5" pY="0.5" oX="80" oY="78" oW="380" oH="280"/>
+	<sprite n="S12_golem_chest_left_fg" x="0" y="0" w="135" h="166" pX="0.5" pY="0.5" oX="96" oY="61" oW="380" oH="280"/>
+	<sprite n="S12_golem_chest_right_fg" x="137" y="0" w="160" h="132" pX="0.5" pY="0.5" oX="164" oY="59" oW="380" oH="280" r="y"/>
+	<sprite n="S12_golem_head" x="315" y="275" w="98" h="116" pX="0.5" pY="0.5" oX="52" oY="24" oW="200" oH="200"/>
+	<sprite n="S12_golem_left foot_bg" x="108" y="398" w="51" h="93" pX="0.5" pY="0.5" oX="55" oY="16" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_left foot_fg" x="315" y="393" w="116" h="97" pX="0.5" pY="0.5" oX="53" oY="39" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_left_knee" x="433" y="384" w="55" h="56" pX="0.5" pY="0.5" oX="23" oY="21" oW="100" oH="100"/>
+	<sprite n="S12_golem_right knee" x="433" y="442" w="56" h="49" pX="0.5" pY="0.5" oX="25" oY="25" oW="100" oH="100" r="y"/>
+	<sprite n="S12_golem_right leg_bg" x="454" y="0" w="51" h="91" pX="0.5" pY="0.5" oX="56" oY="15" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_right leg_fg" x="0" y="296" w="106" h="118" pX="0.5" pY="0.5" oX="52" oY="37" oW="200" oH="200"/>
+	<sprite n="S12_golem_shoulder left_bg" x="0" y="416" w="83" h="75" pX="0.5" pY="0.5" oX="45" oY="89" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_shoulder left_fg" x="300" y="93" w="127" h="110" pX="0.5" pY="0.5" oX="44" oY="32" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_shoulder right_bg" x="108" y="296" w="62" h="100" pX="0.5" pY="0.5" oX="47" oY="40" oW="200" oH="200"/>
+	<sprite n="S12_golem_shoulder right_fg" x="161" y="405" w="112" h="82" pX="0.5" pY="0.5" oX="72" oY="47" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_sword_bottom" x="173" y="281" w="140" h="122" pX="-0.234375" pY="-0.243056" oX="4" oY="4" oW="128" oH="144" r="y"/>
+	<sprite n="S12_golem_sword_top" x="173" y="134" w="125" h="145" pX="1.14394" pY="1.21053" oX="2" oY="1" oW="132" oH="152"/>
+	<sprite n="S12_golem_trunks_bg" x="300" y="205" w="128" h="68" pX="0.5" pY="0.5" oX="33" oY="19" oW="200" oH="160"/>
+	<sprite n="S12_golem_trunks_fg" x="299" y="0" w="153" h="91" pX="0.5" pY="0.5" oX="21" oY="46" oW="200" oH="160"/>
+	<sprite n="S12_golem_wrist left" x="415" y="275" w="96" h="107" pX="0.5" pY="0.5" oX="10" oY="11" oW="120" oH="120"/>
+	<sprite n="S12_golem_wrist right_bg" x="430" y="203" w="81" h="68" pX="0.5" pY="0.5" oX="58" oY="45" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_wrist right_fg" x="429" y="93" w="83" h="108" pX="0.5" pY="0.5" oX="65" oY="45" oW="200" oH="200"/>
+</TextureAtlas>

@@ -89,30 +89,30 @@
 		</event>
 		<event name="onTouchDown" params="component, element">
 			<![CDATA[
-			if (not game.tutorialActive() and game.popUpLevel() <= 1) then
-				element:setColorPercent(0.5)
-				element.buttonState = game.BUTTON_PRESSED
-				element.tickTimer = 0
-			end
+				if (not game.tutorialActive() and game.popUpLevel() <= 1 and manager:isIdle() and element.RewardBar.reachedMax == 0) then
+					element.tickTimer = 0
+					element.buttonState = game.BUTTON_PRESSED
+					element:setColorPercent(0.5)
+				end
 			]]>
 		</event>
 		<event name="onTouchUp" params="component, element">
 			<![CDATA[
-			if (not game.tutorialActive() and game.popUpLevel() <= 1) then
-				playSoundFx("audio/sfx/menu_click_small.wav")
-				game.pushPopUp("popup_encore_info")
+				if (not game.tutorialActive() and game.popUpLevel() <= 1 and manager:isIdle() and element.RewardBar.reachedMax == 0) then
+					playSoundFx("audio/sfx/menu_click_small.wav")
+					game.pushPopUp("popup_encore_info")
+					element.tickTimer = 0
+				end
 
-				element:setColorPercent(1)
 				element.buttonState = game.BUTTON_RELEASED
-				element.tickTimer = 0
-			end
+				element:setColorPercent(1)
 			]]>
 		</event>
 		<event name="onTouchRelease" params="component, element">
 			<![CDATA[
-				element:setColorPercent(1)
-				element.buttonState = game.BUTTON_RELEASED
 				element.tickTimer = 0
+				element.buttonState = game.BUTTON_RELEASED
+				element:setColorPercent(1)
 			]]>
 		</event>
 	</touchComponent>

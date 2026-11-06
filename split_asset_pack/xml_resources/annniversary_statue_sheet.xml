@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:9305f1b3d22707d6aa743187eac80170:08afa898440924e5a51102f5462aa7af:c7dd3955317a495fe77605bd29e4b8b7$ -->
+<TextureAtlas imagePath="gfx/structures/annniversary_statue_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="annniversary_statue_1x2" x="425" y="2" w="550" h="319" oX="7" oY="4" oW="328" oH="560" r="y"/>
+	<sprite n="annniversary_statue_1x3" x="2" y="2" w="419" h="643" oX="14" oY="4" oW="448" oH="648"/>
+	<sprite n="annniversary_statue_2x2" x="2" y="649" w="613" h="365" oX="1" oY="6" oW="368" oH="624" r="y"/>
+</TextureAtlas>

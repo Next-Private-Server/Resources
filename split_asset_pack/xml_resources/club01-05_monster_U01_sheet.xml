@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d59fa1fc4bd2b0ddbcd2571858c94e4b:84fd53c0fff0574f11e154b18b5ef7dd:e72df0d0326882f9c0cb8648f3e8e9bc$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_monster_U01_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="U01_arm" x="0" y="459" w="118" h="41" oX="10" oY="31" oW="140" oH="84"/>
+	<sprite n="U01_cymbal_bottom" x="208" y="470" w="115" h="63" oX="8" oY="10" oW="132" oH="84"/>
+	<sprite n="U01_cymbal_stand" x="232" y="105" w="166" h="25" oX="9" oY="10" oW="44" oH="188" r="y"/>
+	<sprite n="U01_cymbal_top" x="398" y="494" w="113" h="58" oX="9" oY="11" oW="132" oH="80"/>
+	<sprite n="U01_drum_large" x="231" y="132" w="136" h="132" oX="11" oY="39" oW="156" oH="184" r="y"/>
+	<sprite n="U01_drum_large_lid" x="227" y="350" w="125" h="73" oX="14" oY="9" oW="156" oH="184"/>
+	<sprite n="U01_drum_large_lid_logo" x="408" y="0" w="102" h="52" oX="24" oY="10" oW="156" oH="184"/>
+	<sprite n="U01_drum_med" x="401" y="321" w="106" h="115" oX="18" oY="38" oW="152" oH="156" r="y"/>
+	<sprite n="U01_drum_med_top" x="0" y="386" w="120" h="71" oX="15" oY="10" oW="152" oH="156"/>
+	<sprite n="U01_drum_med_top_logo" x="408" y="87" w="98" h="49" oX="28" oY="12" oW="152" oH="156"/>
+	<sprite n="U01_drum_snare" x="407" y="138" w="105" h="129" oX="12" oY="48" oW="160" oH="164" r="y"/>
+	<sprite n="U01_drum_snare_top" x="149" y="130" w="80" h="136" oX="12" oY="11" oW="160" oH="164" r="y"/>
+	<sprite n="U01_drum_snare_top_logo" x="401" y="269" w="109" h="50" oX="27" oY="12" oW="160" oH="164"/>
+	<sprite n="U01_eyelid_01" x="359" y="284" w="40" h="40" oX="12" oY="12" oW="64" oH="64"/>
+	<sprite n="U01_eyelid_02" x="359" y="326" w="40" h="40" oX="12" oY="12" oW="64" oH="64"/>
+	<sprite n="U01_eyelid_03" x="268" y="535" w="40" h="40" oX="12" oY="12" oW="64" oH="64"/>
+	<sprite n="U01_eyelid_04" x="310" y="566" w="40" h="40" oX="12" oY="12" oW="64" oH="64"/>
+	<sprite n="U01_featherbody_a" x="325" y="486" w="71" h="78" oX="14" oY="9" oW="96" oH="92"/>
+	<sprite n="U01_featherbody_b" x="0" y="502" w="116" h="83" oX="7" oY="8" oW="132" oH="96"/>
+	<sprite n="U01_featherbody_c" x="398" y="554" w="80" h="68" oX="7" oY="11" oW="84" oH="100" r="y"/>
+	<sprite n="U01_featherbody_d" x="0" y="232" w="138" h="86" oX="7" oY="7" oW="152" oH="100"/>
+	<sprite n="U01_featherbody_e" x="122" y="422" w="84" h="80" oX="6" oY="6" oW="92" oH="96" r="y"/>
+	<sprite n="U01_featherbody_f" x="231" y="266" w="126" h="82" oX="9" oY="8" oW="144" oH="96"/>
+	<sprite n="U01_featherbody_feet" x="232" y="0" w="174" h="103" oX="10" oY="5" oW="196" oH="112"/>
+	<sprite n="U01_hand_01" x="354" y="368" w="45" h="116" oX="9" oY="27" oW="168" oH="84" r="y"/>
+	<sprite n="U01_hand_02" x="401" y="438" w="84" h="54" oX="32" oY="18" oW="168" oH="84"/>
+	<sprite n="U01_hand_03" x="204" y="535" w="62" h="38" oX="64" oY="10" oW="168" oH="84" r="y"/>
+	<sprite n="U01_hand_04" x="118" y="504" w="84" h="54" oX="50" oY="18" oW="168" oH="84"/>
+	<sprite n="U01_hand_05" x="225" y="425" w="116" h="43" oX="41" oY="29" oW="168" oH="84"/>
+	<sprite n="U01_head" x="0" y="0" w="230" h="128" oX="10" oY="12" oW="252" oH="152"/>
+	<sprite n="U01_headfeathers" x="126" y="357" w="90" h="63" oX="48" oY="11" oW="192" oH="92"/>
+	<sprite n="U01_headfeathers_left" x="369" y="237" w="30" h="45" oX="12" oY="36" oW="192" oH="92"/>
+	<sprite n="U01_headfeathers_right" x="369" y="132" w="36" h="40" oX="140" oY="40" oW="192" oH="92" r="y"/>
+	<sprite n="U01_mouth_1" x="0" y="202" w="146" h="28" oX="10" oY="12" oW="172" oH="48"/>
+	<sprite n="U01_mouth_2" x="0" y="130" w="147" h="32" oX="9" oY="12" oW="172" oH="48"/>
+	<sprite n="U01_mouth_3" x="0" y="164" w="146" h="36" oX="10" oY="12" oW="172" oH="48"/>
+	<sprite n="U01_pupil" x="208" y="422" w="15" h="15" oX="10" oY="10" oW="36" oH="36"/>
+	<sprite n="U01_shadow" x="0" y="320" w="124" h="64" oX="10" oY="9" oW="144" oH="84"/>
+	<sprite n="U01_toe_a" x="408" y="54" w="100" h="31" oX="12" oY="10" oW="148" oH="52"/>
+	<sprite n="U01_toe_b" x="140" y="268" w="85" h="44" oX="12" oY="10" oW="128" oH="64"/>
+	<sprite n="U01_toe_c" x="118" y="560" w="58" h="56" oX="9" oY="16" oW="84" oH="84"/>
+	<sprite n="U01_toe_d" x="369" y="174" w="33" h="61" oX="9" oY="19" oW="52" oH="92"/>
+	<sprite n="U01_toe_e" x="140" y="314" w="85" h="41" oX="10" oY="9" oW="124" oH="60"/>
+</TextureAtlas>

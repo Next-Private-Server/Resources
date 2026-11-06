@@ -6,6 +6,9 @@
 
 	<defaultTemplateVar name="$titleSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/seasonal_text_dipster_digs'"/>
 	<defaultTemplateVar name="$stickerSpriteSheet" equals="'xml_resources/multipack_dipster_dig_sheet.xml'"/>
+	<defaultTemplateVar name="$topLeftStickerSpriteName" equals="'left_corner'"/>
+	<defaultTemplateVar name="$lowRightStickerSpriteName" equals="'lower_right_corner'"/>
+	<defaultTemplateVar name="$topRightStickerSpriteName" equals="'right_corner'"/>
 	<defaultTemplateVar name="$monsterSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/event_screen_monster'"/>
 	<defaultTemplateVar name="$mainSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/dipster_digs_event_image_01'"/>
 	<defaultTemplateVar name="$glowSprite" equals="'gfx/menu/event_screen/minigame_dipster_digs/event_screen_glow'"/>
@@ -46,9 +49,9 @@
 		</ninesliceComponent>
 		<spriteSheetComponent name="TopLeft">
 			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="LEFT" />
-			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-6*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+			<orientation vAnchor="VCENTER" hAnchor="LEFT" xOffset="-6*game.windowScaleY()" yOffset="0" priorityOffset="-2" />
 			<event name="onInit" params="component, element">
-				component("spriteName"):SetString("left_corner")
+				component("spriteName"):SetString("$topLeftStickerSpriteName")
 				component("sheetName"):SetString("$stickerSpriteSheet")
 				component("size"):SetFloat(0.3*game.windowScaleY())
 				component("layer"):SetString("$layer")
@@ -56,9 +59,9 @@
 		</spriteSheetComponent>
 		<spriteSheetComponent name="TopRight">
 			<position relativeTo="element:name()" vAnchor="TOP" hAnchor="RIGHT" />
-			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-6*game.windowScaleY()" yOffset="0" priorityOffset="-1" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="-6*game.windowScaleY()" yOffset="0" priorityOffset="-2" />
 			<event name="onInit" params="component, element">
-				component("spriteName"):SetString("right_corner")
+				component("spriteName"):SetString("$topRightStickerSpriteName")
 				component("sheetName"):SetString("$stickerSpriteSheet")
 				component("size"):SetFloat(0.3*game.windowScaleY())
 				component("layer"):SetString("$layer")
@@ -66,9 +69,9 @@
 		</spriteSheetComponent>
 		<spriteSheetComponent name="BottomRight">
 			<position relativeTo="element:name()" vAnchor="BOTTOM" hAnchor="RIGHT" />
-			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="-1*game.windowScaleY()" yOffset="12*game.windowScaleY()" priorityOffset="-1" />
+			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="-1*game.windowScaleY()" yOffset="12*game.windowScaleY()" priorityOffset="-2" />
 			<event name="onInit" params="component, element">
-				component("spriteName"):SetString("lower_right_corner")
+				component("spriteName"):SetString("$lowRightStickerSpriteName")
 				component("sheetName"):SetString("$stickerSpriteSheet")
 				component("size"):SetFloat(0.3*game.windowScaleY())
 				component("layer"):SetString("$layer")
@@ -79,7 +82,7 @@
 	<element name="TitleImage">
 		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
 		<position relativeTo="bg" vAnchor="TOP" hAnchor="HCENTER" />
-		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-2" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="-3" />
 		<spriteComponent name="Sprite">
 			<event name="onInit" params="component, element">
 				component("spriteName"):SetString("$titleSprite")
@@ -180,7 +183,7 @@
 	<element name="Description1">
 		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
 		<position relativeTo="MainImage" vAnchor="BOTTOM" hAnchor="HCENTER" />
-		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.windowScaleY()" priorityOffset="0" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="-2*game.windowScaleY()" priorityOffset="-1" />
 		<textComponent name="Text">
 			<size w="260*game.windowScaleY()" />
 			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
@@ -202,7 +205,7 @@
 	<element name="Description2">
 		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
 		<position relativeTo="Description1" vAnchor="BOTTOM" hAnchor="HCENTER" />
-		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.windowScaleY()" priorityOffset="0" />
+		<orientation vAnchor="TOP" hAnchor="HCENTER" xOffset="0" yOffset="4*game.windowScaleY()" priorityOffset="-1" />
 		<textComponent name="Text">
 			<size w="200*game.windowScaleY()" h="30*game.windowScaleY()"/>
 			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />

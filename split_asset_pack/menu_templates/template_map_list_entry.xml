@@ -71,7 +71,7 @@
 	-->
 
 	<element name="IslandName">
-		<size dependentOnElement="element:name()" dependentOnComponent="Text"/>
+		<size w="240*game.mapScale()" h="26*game.mapScale()"/>
 		<position relativeTo="PARENT" vAnchor="TOP" hAnchor="RIGHT" />
 		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="81*game.mapScale()" yOffset="12*game.mapScale()" priorityOffset="-1" />
 		<textComponent name="Text">
@@ -79,7 +79,7 @@
 			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
 			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
 			<event name="onInit" params="component, element">
-				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_HCENTER_ALIGNED)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_RIGHT_ALIGNED)
 				component("autoScale"):SetInt(1)
 				component("multiline"):SetInt(0)
 				component("font"):Set(game.getTextFont())
@@ -209,15 +209,16 @@
 	</element>	
 	
 	<element name="MonstersCollected">
-		<size dependentOnElement="element:name()" dependentOnComponent="Text"/>
+		<size w="240*game.mapScale()" h="18*game.mapScale()"/>
 		<position relativeTo="IslandName" vAnchor="BOTTOM" hAnchor="RIGHT" />
 		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="0" />
 		<textComponent name="Text">
-			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
-			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="-12*game.mapScale()" yOffset="0" priorityOffset="0" />
+			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="RIGHT" />
+			<orientation vAnchor="VCENTER" hAnchor="RIGHT" xOffset="12*game.mapScale()" yOffset="0" priorityOffset="0" />
 			<event name="onInit" params="component, element">
-				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_LEFT_ALIGNED)
+				component("alignment"):SetInt(lua_sys.MenuTextComponent_TEXT_RIGHT_ALIGNED)
 				component("autoScale"):SetInt(0)
+				component("multiline"):SetInt(0)
 				component("font"):Set(game.getTextFont())
 				component("text"):SetString("???/???")
 				component("size"):SetFloat(0.35*game.mapScale())

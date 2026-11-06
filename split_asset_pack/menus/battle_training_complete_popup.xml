@@ -136,6 +136,7 @@
 				element:parent()["ContinueLabel"]["Text"]:setColor(1.0, 1.0, 1.0)
 				print("Closing Training Popup")
 				element:parent():DoStoredScript("hide")
+				component("enabled"):SetInt(0)
 				]]>
 			</event>
 			<event name="onTouchRelease" params="component, element">

@@ -1,4 +1,5 @@
 <template name="template_battle_attempts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../menus/menu.xsd">
+	<script src="scripts/BattleAttemptsUI.lua"/>
 
 	<defaultTemplateVar name="$TopLabel" equals="1" />
 
@@ -74,44 +75,5 @@
 			]]>
 		</event>
 	</textComponent>
-
-
-	<event name="onInit" params="element">
-		<![CDATA[
-			include("BattleAttemptsUI").onInit(element)
-		]]>
-	</event>
-
-	<event name="onPostInit" params="element">
-		<![CDATA[
-			include("BattleAttemptsUI").onPostInit(element)
-		]]>
-	</event>
-
-	<event name="gotMsgBattleAttemptsRefreshed" params="element, msg">
-		<![CDATA[
-			include("BattleAttemptsUI").gotMsgBattleAttemptsRefreshed(element, msg)
-		]]>
-	</event>
-
-	<event name="onTick" params="element, dt">
-		<![CDATA[
-			include("BattleAttemptsUI").onTick(element, dt)
-		]]>
-	</event>
-
-	<event name="populate" params="element">
-		<![CDATA[
-			include("BattleAttemptsUI").populate(element)
-		]]>
-	</event>
-
-	<event name="refreshUI" params="element">
-		<![CDATA[
-			include("BattleAttemptsUI").refreshUI(element)
-		]]>
-	</event>
-
-
 
 </template>

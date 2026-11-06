@@ -9,6 +9,7 @@
 	<defaultTemplateVar name="$textR" equals="1" />
 	<defaultTemplateVar name="$textG" equals="1" />
 	<defaultTemplateVar name="$textB" equals="1" />
+	<defaultTemplateVar name="$tooltipText" equals="'COMMONS_LABEL'" />
 	
 	<textComponent name="Text">
 		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="RIGHT" />
@@ -36,6 +37,44 @@
 			component("layer"):SetString("$layer")
 		</event>
 	</spriteSheetComponent>
+	
+	<touchComponent name="Touch">
+		<size dependentOnElement="element:name()" dependentOnComponent="Sprite" />
+		<event name="onTouchDown" params="component, element">
+		<![CDATA[
+			if not element.tooltip then
+				element.tooltip = menu:addTemplateElement("template_tooltip", "tooltip_" .. element:name(), element)
+				element.tooltip:relativeTo(element)
+				element.tooltip:setOrientation(lua_sys.MenuOrientation(0, 0, -1, lua_sys.HCENTER, lua_sys.BOTTOM))
+				element.tooltip:setRelativeObjectAnchors(lua_sys.HCENTER, lua_sys.TOP)
+				element.tooltip:init()
+				element.tooltip:setPositionBroadcast(true) -- the required magic?
+				element.tooltip.Text:GetVar("text"):SetString(element:templateVars().tooltipText) -- use variable version as we set it in BookOfMonsters.lua
+				element.tooltip.Sprite:setSize(lua_sys.Vector2(element.tooltip.Text:absW() + 8 * $scale * game.menuScaleX(), element.tooltip.Text:absH() + 8 * $scale * game.menuScaleX()))
+
+				element.tooltip.onDoneHide = function()
+					element:RemoveElement(element.tooltip)
+					element.tooltip = nil
+				end
+				element.tooltip:Show()
+			end
+		]]>
+		</event>
+		<event name="onTouchUp" params="component, element">
+		<![CDATA[
+			if element.tooltip then
+				element.tooltip:Hide()
+			end
+		]]>
+		</event>
+		<event name="onTouchRelease" params="component, element">
+		<![CDATA[
+			if element.tooltip then
+				element.tooltip:Hide()
+			end
+		]]>
+		</event>
+	</touchComponent>
 
 	<event name="onPostInit" params="element">
 		element.isVisible = true
@@ -52,6 +91,7 @@
 		element.isVisible = true
 		element["Text"]("visible"):SetInt(1)
 		element["Sprite"]("visible"):SetInt(1)
+		element["Touch"]("enabled"):SetInt(1)
 		element:Refresh()
 	</event>
 
@@ -59,6 +99,7 @@
 		element.isVisible = false
 		element["Text"]("visible"):SetInt(0)
 		element["Sprite"]("visible"):SetInt(0)
+		element["Touch"]("enabled"):SetInt(0)
 	</event>
 
 	<event name="updateComponents" params="element">

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:c22de0ee9915147bc5114947035208a9:8ddf9f401d29a684b0eb5ea7a317d6cc:af55afdc29aa4b25614ca67252491915$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_center_stage_fantasy_sheet.png" width="1024" height="1024" hires="true" version="1">
+	<sprite n="prop_center_stage" x="0" y="0" w="827" h="541"/>
+	<sprite n="prop_center_stage_back" x="0" y="543" w="202" h="433" r="y"/>
+	<sprite n="prop_center_stage_glow" x="829" y="0" w="101" h="217" r="y"/>
+	<sprite n="prop_center_stage_water" x="204" y="543" w="689" h="247" oX="77" oY="121" oW="827" oH="541"/>
+	<sprite n="prop_center_stream" x="932" y="0" w="82" h="64" r="y"/>
+	<sprite n="water__flow_01" x="66" y="978" w="24" h="30" r="y"/>
+	<sprite n="water__flow_02" x="92" y="978" w="24" h="30" r="y"/>
+	<sprite n="water__flow_03" x="118" y="978" w="23" h="30" oX="0" oY="0" oW="30" oH="24" r="y"/>
+	<sprite n="water__flow_04" x="143" y="978" w="20" h="30" oX="0" oY="2" oW="30" oH="24" r="y"/>
+	<sprite n="water_ripple" x="0" y="978" w="64" h="31"/>
+</TextureAtlas>

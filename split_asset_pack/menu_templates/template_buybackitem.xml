@@ -93,25 +93,31 @@
 				if store:buybackIsActiveBoxMonster() or store:buybackIsEvolvedMonster() then
 					
 					if game.isWubboxType(monsterId) then
-						scale = 0.2*game.menuScaleX()
-					elseif game.isUnderlingIsland() then
-						scale = 0.6*game.menuScaleX()
-					end
-
-					local animUtil = game.AnimUtil(component)
-					local hasActivateAnim = animUtil:hasAnimation("Activate")
-
-					component("animation"):SetString("Store")
-
-					-- Wublins and Celestials have activate animations - if the monster has an activate and hasn't evolved from anything, use it's activate
-					if hasActivateAnim and monsterData:evolvedFrom() == 0 then											
-						
-						scale = 0.4*game.menuScaleX()
-						component("animation"):SetString("Activate")				
+						scale = 0.25*game.menuScaleX()
+						component("animation"):SetString("Activate")
 						component("pingpong"):SetInt(1)
-						element:setOrientationPosition(lua_sys.Vector2(0, 48*game.menuScaleX()))					
+						element:setOrientationPosition(lua_sys.Vector2(-2*game.menuScaleX(), 65*game.menuScaleX()))	
 
-					end
+					else
+						if game.isUnderlingIsland() then
+							scale = 0.6*game.menuScaleX()
+						end
+
+						local animUtil = game.AnimUtil(component)
+						local hasActivateAnim = animUtil:hasAnimation("Activate")
+
+						component("animation"):SetString("Store")
+
+						-- Wublins and Celestials have activate animations - if the monster has an activate and hasn't evolved from anything, use it's activate
+						if hasActivateAnim and monsterData:evolvedFrom() == 0 then
+							scale = 0.4*game.menuScaleX()
+							component("animation"):SetString("Activate")
+							component("pingpong"):SetInt(1)
+							element:setOrientationPosition(lua_sys.Vector2(0, 48*game.menuScaleX()))					
+
+						end
+
+					end				
 					
 				else					
 					component("animation"):SetString(animName)				
@@ -119,7 +125,7 @@
 				
 				local equippedCostume = store:buybackEquippedCostume()
 				game.applyCostumeToAnimComponent(component, equippedCostume)
-
+					
 				component:setScale(lua_sys.Vector2(scale,scale))
 				component("layer"):SetString("HUD")
 			</event>

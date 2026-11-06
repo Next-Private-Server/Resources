@@ -5,12 +5,12 @@
 
 	<spriteSheetComponent name="Sprite">
 		<event name="onInit" params="component, element">
-      <![CDATA[
-			  component("spriteName"):SetString("market_frame")
-			  component("sheetName"):SetString("xml_resources/store_elements.xml")
-			  component("layer"):SetString("HUD")
-			  component("size"):SetFloat(0.5*game.menuScaleX())
-      ]]>
+		<![CDATA[
+			--component("spriteName"):SetString("market_frame")
+			--component("sheetName"):SetString("xml_resources/store_elements.xml")
+			component("layer"):SetString("HUD")
+			component("size"):SetFloat(0.5*game.menuScaleX())
+		]]>
 		</event>
 	</spriteSheetComponent>
 
@@ -150,7 +150,7 @@
 	<textComponent name="maxAmount">
 		<size w="150*game.hudScale()" />
 		<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="RIGHT" />
-		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="-40*game.menuScaleX()" yOffset="10*game.menuScaleY()" priorityOffset="-2" />
+		<orientation vAnchor="BOTTOM" hAnchor="HCENTER" xOffset="-35*game.menuScaleX()" yOffset="23*game.menuScaleY()" priorityOffset="-2" />
 	</textComponent>
 
 	<textComponent name="monsterCount">

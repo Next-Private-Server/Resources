@@ -201,7 +201,7 @@
 					likeEntry.Touch.onTouchDown = function() end
 					likeEntry.Touch.onTouchUp = function() end
 					likeEntry.Touch.onTouchDragged = function() end
-					likeEntry.Touch.onTouchReleased = function() end
+					likeEntry.Touch.onTouchRelease = function() end
 
 					--likeEntry:enableDebug(0,1,0,1)
 					--likeEntry.Sprite:enableDebug(0,1,1,1)
@@ -423,7 +423,7 @@
 				"template_stat_species", 
 				"template_stat_class",
 				"template_stat_beds", 
-				"template_stat_underlingrate", 
+				"template_stat_paironormal_minor_currency_rate",
 				"template_stat_sellprice" 
 			}
 						

@@ -94,7 +94,7 @@
 	<template type="template_currency_counter_manager" name="CurrencyCountersTop">
 		<templateVar name="$layer" equals="HUD" />
 		<position relativeTo="SAFE_AREA" vAnchor="TOP" hAnchor="RIGHT" />
-		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="4" />
+		<orientation vAnchor="TOP" hAnchor="RIGHT" xOffset="0" yOffset="0" priorityOffset="18" />
 		<event name="onInit" params="element">
 			<![CDATA[
 				onInit(element)
@@ -280,7 +280,6 @@
 					element:parent()["StoreItems"]("scrollSize"):SetFloat(0)
 					element:parent():DoStoredScript("hideScrollBar")
 				end
-				element:parent()["FreeCurrency"]:DoStoredScript("diamond")
 			</event>
 			<event name="onTouchRelease" params="component, element">
 				onTouchRelease(component, element)
@@ -541,16 +540,10 @@
 				component("sheetName"):SetString("xml_resources/store_buttons01.xml")
 				component("size"):SetFloat(0.25*game.menuScaleX())
 				component("layer"):SetString("HUD")
-				if(store:getQueuedFilter() == game.StoreContext_TYPE_DIAMOND) then
-					element:DoStoredScript("select")
-				end
 			</event>
 		</spriteSheetComponent>
 		<event name="onPostInit" params="element">
 			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
-		</event>
-		<event name="select" params="element">
-			element:parent()["FreeCurrency"]:DoStoredScript("diamond")
 		</event>
 		<event name="deselect" params="element">
 			local upSprite = element["UpSprite"]
@@ -597,16 +590,10 @@
 				component("sheetName"):SetString("xml_resources/store_buttons01.xml")
 				component("size"):SetFloat(0.25*game.menuScaleX())
 				component("layer"):SetString("HUD")
-				if(store:getQueuedFilter() == game.StoreContext_TYPE_COINS) then
-					element:DoStoredScript("select")
-				end
 			</event>
 		</spriteSheetComponent>
 		<event name="onPostInit" params="element">
 			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
-		</event>
-		<event name="select" params="element">
-			element:parent()["FreeCurrency"]:DoStoredScript("coins")
 		</event>
 		<event name="deselect" params="element">
 			local upSprite = element["UpSprite"]
@@ -654,16 +641,10 @@
 				component("sheetName"):SetString("xml_resources/store_buttons01.xml")
 				component("size"):SetFloat(0.25*game.menuScaleX())
 				component("layer"):SetString("HUD")
-				if(store:getQueuedFilter() == game.StoreContext_TYPE_FOOD) then
-					element:DoStoredScript("select")
-				end
 			</event>
 		</spriteSheetComponent>
 		<event name="onPostInit" params="element">
 			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
-		</event>
-		<event name="select" params="element">
-			element:parent()["FreeCurrency"]:DoStoredScript("food")
 		</event>
 		<event name="deselect" params="element">
 			local upSprite = element["UpSprite"]
@@ -711,16 +692,10 @@
 				component("sheetName"):SetString("xml_resources/hud03.xml")
 				component("size"):SetFloat(0.4*game.menuScaleX())
 				component("layer"):SetString("HUD")
-				if store:getQueuedFilter() == game.StoreContext_TYPE_MINIGAME_TOKENS then
-					element:DoStoredScript("select")
-				end
 			</event>
 		</spriteSheetComponent>
 		<event name="onPostInit" params="element">
 			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
-		</event>
-		<event name="select" params="element">
-			element:parent()["FreeCurrency"]:DoStoredScript("diamond")
 		</event>
 		<event name="deselect" params="element">
 			local upSprite = element["UpSprite"]
@@ -767,16 +742,10 @@
 				component("sheetName"):SetString(game.StoreContext_CURRENCY_SPRITESHEET)
 				component("size"):SetFloat(0.4*game.menuScaleX())
 				component("layer"):SetString("HUD")
-				if(store:getQueuedFilter() == game.StoreContext_TYPE_KEYS) then
-					element:DoStoredScript("select")
-				end
 			</event>
 		</spriteSheetComponent>
 		<event name="onPostInit" params="element">
 			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
-		</event>
-		<event name="select" params="element">
-			element:parent()["FreeCurrency"]:DoStoredScript("diamond")
 		</event>
 		<event name="deselect" params="element">
 			local upSprite = element["UpSprite"]
@@ -823,16 +792,10 @@
 				component("sheetName"):SetString("xml_resources/store_buttons01.xml")
 				component("size"):SetFloat(0.3*game.menuScaleX())
 				component("layer"):SetString("HUD")
-				if(store:getQueuedFilter() == game.StoreContext_TYPE_CURRENCY_EXCHANGE) then
-					element:DoStoredScript("select")
-				end
 			</event>
 		</spriteSheetComponent>
 		<event name="onPostInit" params="element">
 			element.scaleRatio = element["Overlay"]("size"):GetFloat() / element["UpSprite"]("size"):GetFloat()
-		</event>
-		<event name="select" params="element">
-			element:parent()["FreeCurrency"]:DoStoredScript("diamond")
 		</event>
 		<event name="deselect" params="element">
 			local upSprite = element["UpSprite"]
@@ -1021,181 +984,23 @@
 			<position relativeTo="PARENT" vAnchor="BOTTOM" hAnchor="LEFT" />
 			<orientation vAnchor="BOTTOM" hAnchor="LEFT" xOffset="0" yOffset="10" priorityOffset="0" />
 			<event name="onInit" params="component, element">
-				component("animationName"):SetString("xml_bin/free_button_anim.bin")
-				component("animation"):SetString("free_diamonds")
-				component:setScale(Vector2(0.5*game.hudScale(),0.5*game.hudScale()))
-				component("layer"):SetString("FrontPopUps")
-			</event>
-			<event name="onPostInit" params="component, element">
-				--Kalon was a special child
-				if(component("visible"):GetInt()==1) then
-					component("animationName"):SetString("xml_bin/free_button_anim.bin")
-					component("animation"):SetString("free_diamonds")
-					component:calculatePosition()
-				end
-			</event>
-			<event name="coins" params="component, element">
-				if(component("visible"):GetInt()==1 and component("animation"):GetString() ~= "free_coins") then
-					component("animationName"):SetString("xml_bin/free_button_anim.bin")
-					component("animation"):SetString("free_coins")
-					component:calculatePosition()
-				end
-			</event>
-			<event name="food" params="component, element">
-				if(component("visible"):GetInt()==1 and component("animation"):GetString() ~= "free_food") then
-					component("animationName"):SetString("xml_bin/free_button_anim.bin")
-					component("animation"):SetString("free_food")
-					component:calculatePosition()
-				end
-			</event>
-			<event name="diamond" params="component, element">
-				if(component("visible"):GetInt()==1 and component("animation"):GetString() ~= "free_diamonds") then
-					component("animationName"):SetString("xml_bin/free_button_anim.bin")
-					component("animation"):SetString("free_diamonds")
-					component:calculatePosition()
-				end
+				component("visible"):SetInt(0)
 			</event>
 		</aeComponent>
-		<textComponent name="Text">
-			<size w="80*game.hudScale()" h="30*game.hudScale()" />
-			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
-			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="2" priorityOffset="-1" />
-			<event name="onInit" params="component, element">
-				component("multiline"):SetInt(0)
-				component("font"):Set(game.getTextFont())
-				component("size"):SetFloat(0.4*game.hudScale())
-				component("alignment"):SetInt(MenuTextComponent_TEXT_HCENTER_ALIGNED)
-				component("text"):SetString("OFFERWALL_TEXT")
-				component("autoScale"):SetInt(1)
-				component("layer"):SetString("FrontPopUps")
-			</event>
-		</textComponent>
-		<touchComponent name="Touch">
-			<size w="130*game.menuScaleX()" h="40*game.menuScaleY()" />
-			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
-			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
-			<event name="onTouchDown" params="component, element">
-				element["Frame"]:setColor(0.5, 0.5, 0.5)
-				element["Text"]:setColor(0.5, 0.5, 0.5)
-			</event>
-			<event name="onTouchRelease" params="component, element">
-				element["Frame"]:setColor(1.0, 1.0, 1.0)
-				element["Text"]:setColor(1.0, 1.0, 1.0)
-			</event>
-			<event name="onTouchUp" params="component, element">
-				element["Frame"]:setColor(1.0, 1.0, 1.0)
-				element["Text"]:setColor(1.0, 1.0, 1.0)
-				game.checkGamePermission("OFFERS", "popup_permission_offers")
-			</event>
-		</touchComponent>
-		<event name="onInit" params="element">
-			element("currencyCheck"):SetString("diamonds")
-			element("placement"):SetString("offerwall_diamonds")
-			element:SetupGenericListener(game.engineReceiver(), "game::msg::MsgPermission", "gotMsgPermission")
-		</event>
 		<event name="checkVisible" params="element">
-			if(element["Frame"]("visible"):GetInt() == 0) then
-			
-				if not (game.hideTapjoyRewards() or game.playerLevel() &lt; 4)
-					and game.checkPlacementAvailable(element("placement"):GetString()) == true then
-					
-					element["Frame"]("visible"):SetInt(1)
-					element["Text"]("visible"):SetInt(1)
-					element["Touch"]("enabled"):SetInt(1)
-					
-					element:DoStoredScript("saleTagCheck")
-				end
-			end
+			element:DoStoredScript("setInvisible")
 		</event>
 		<event name="setInvisible" params="element">
 			element["Frame"]("visible"):SetInt(0)
-			element["Text"]("visible"):SetInt(0)
-			element["Touch"]("enabled"):SetInt(0)
-			--make sure to set sale tag invis too:
-			element:DoStoredScript("saleTagCheck")
-		</event>
-		<event name="onPostInit" params="element">
-			if(game.hideTapjoyRewards() or game.playerLevel() &lt; 4) then
-				element:DoStoredScript("setInvisible")
-			end
-
-			if(game.checkPlacementAvailable(element("placement"):GetString()) == false) then
-				element:DoStoredScript("setInvisible")
-			end
 		</event>
 		<event name="coins" params="element">
-			element["Frame"]:DoStoredScript("coins")
-			element("currencyCheck"):SetString("coins")
-			element("placement"):SetString("offerwall_coins")
-			element:DoStoredScript("saleTagCheck")
+			element:DoStoredScript("setInvisible")
 		</event>
 		<event name="food" params="element">
-			element["Frame"]:DoStoredScript("food")
-			element("currencyCheck"):SetString("food")
-			element("placement"):SetString("offerwall_food")
-			element:DoStoredScript("saleTagCheck")
+			element:DoStoredScript("setInvisible")
 		</event>
 		<event name="diamond" params="element">
-			element["Frame"]:DoStoredScript("diamond")
-			element("currencyCheck"):SetString("diamonds")
-			element("placement"):SetString("offerwall_diamonds")
-			element:DoStoredScript("saleTagCheck")
+			element:DoStoredScript("setInvisible")
 		</event>
-		<event name="gotMsgPermission" params="element, msg">
-			<![CDATA[
-				if msg.name == "OFFERS" and msg.allowed then
-					game.showPlacement(element("placement"):GetString(),false,true)
-				end
-			]]>
-		</event>
-		<event name="saleTagCheck" params="element">
-			<![CDATA[
-				if((element["Frame"]("visible"):GetInt() == 1) and game.showTapjoySaleTag(element("currencyCheck"):GetString())) then
-					element:parent()["FreeCurrencySale"]["Tag"]("visible"):SetInt(1)
-					element:parent()["FreeCurrencySale"]["Text"]("visible"):SetInt(1)
-					element:parent()["FreeCurrencySale"]["Text"]("text"):SetString(game.getLocalizedText(game.saleTagText(element("currencyCheck"):GetString())))
-				else
-					element:parent()["FreeCurrencySale"]["Tag"]("visible"):SetInt(0)
-					element:parent()["FreeCurrencySale"]["Text"]("visible"):SetInt(0)
-				end
-			]]>
-		</event>
-	</element>
-
-	<element name="FreeCurrencySale">
-		<size dependentOnElement="element:name()" dependentOnComponent="Text" />
-		<position relativeTo="FreeCurrency" vAnchor="TOP" hAnchor="HCENTER" />
-		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="10*game.hudScale()" priorityOffset="-7" />
-		<textComponent name="Text">
-			<size w="40*game.menuScaleX()" />
-			<event name="onInit" params="component, element">
-				component("autoScaleFactor"):SetFloat(0.01)
-				component("autoScale"):SetInt(1)
-				component("multiline"):SetInt(0)
-				component("font"):Set(game.getTitleFont())
-				component("size"):SetFloat(0.2*game.menuScaleX())
-				component("alignment"):SetInt(MenuTextComponent_TEXT_LEFT_ALIGNED)
-				component("text"):SetString(game.getLocalizedText("SALE_LABEL"))
-				component("layer"):SetString("FrontPopUps")
-				component("visible"):SetInt(0)
-			</event>
-			<event name="onPostInit" params="component, element">
-				element:parent()["FreeCurrency"]:DoStoredScript("saleTagCheck")
-			</event>
-		</textComponent>
-
-		<spriteSheetComponent name="Tag">
-			<position relativeTo="element:name()" vAnchor="VCENTER" hAnchor="HCENTER" />
-			<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0.5*game.hudScale()" priorityOffset="1" />
-			<event name="onInit" params="component, element">
-				component("spriteName"):SetString("sale_tag_updated_taller")
-				component("sheetName"):SetString("xml_resources/store_buttons01.xml")
-				component("layer"):SetString("FrontPopUps")
-				component("size"):SetFloat(0.22*game.menuScaleX())
-				component("visible"):SetInt(0)
-			</event>
-		</spriteSheetComponent>
-
-	</element>
-	
+	</element>	
 </menu>

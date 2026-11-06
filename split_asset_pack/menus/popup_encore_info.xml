@@ -43,11 +43,7 @@
 
 	<event name="onPostInit" params="element">
 	<![CDATA[
-		if game.getContextBar() then
-			-- hide it
-			element.lastContext = game.getContextBar():getContext()
-			game.getContextBar():setContext("BLANK")
-		end
+		game.hideContextBar()
 
 		local encoreType = game.EncoreType_All
 		if (not game.isMemberOfGroup(70)) then
@@ -378,9 +374,7 @@
 	<![CDATA[
 		element:root():popPopUp()
 
-		if game.getContextBar() and element.lastContext then
-			game.getContextBar():setContext(element.lastContext)
-		end
+		game.showContextBar()
 	]]>
 	</event>
 

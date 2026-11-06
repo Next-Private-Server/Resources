@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+	
+	<template type="template_event_screen" name="EventScreen">
+		<templateVar name="$layer" equals="FrontPopUps" />
+
+		<templateVar name="$titleSprite" equals="'gfx/menu/map/seasonal/seasonal_text_ann_month'"/>
+		<templateVar name="$stickerSpriteSheet" equals="'xml_resources/multipack_anniversary_month_sheet.xml'"/>
+		<templateVar name="$topLeftStickerSpriteName" equals="'left_03'"/>
+		<templateVar name="$topRightStickerSpriteName" equals="'right_02'"/>
+		<templateVar name="$monsterSprite" equals="'gfx/menu/event_screen/anniversary/event_screen_monster'"/>
+		<templateVar name="$mainSprite" equals="'gfx/menu/event_screen/anniversary/anniversary_event_image_01'"/>
+		<templateVar name="$glowSprite" equals="'gfx/menu/event_screen/anniversary/event_screen_glow'"/>
+
+		<templateVar name="$subtitle_refid" equals="EVENT_SCREEN_ANNIVERSARY_TITLE"/>
+
+		<templateVar name="$text1_color" equals="'#0B9BE4'"/>
+		<templateVar name="$text1_refid" equals="EVENT_SCREEN_ANNIVERSARY_TOP"/>
+		<templateVar name="$text2_refid" equals="EVENT_SCREEN_ANNIVERSARY_BOTTOM"/>
+				
+		<position relativeTo="PARENT" vAnchor="VCENTER" hAnchor="HCENTER" />
+		<orientation vAnchor="VCENTER" hAnchor="HCENTER" xOffset="0" yOffset="0" priorityOffset="0" />
+	</template>
+
+	<event name="onPostInit" params="component, element">
+		<![CDATA[
+			local eventScreen = component:E("EventScreen")
+
+			eventScreen.bg.TopLeft("xOffset"):SetFloat(-4*game.windowScaleY())
+			eventScreen.bg.TopLeft("yOffset"):SetFloat(6*game.windowScaleY())
+			eventScreen.bg.TopRight("yOffset"):SetFloat(-2*game.windowScaleY())
+			eventScreen.TitleImage.Sprite("size"):SetFloat(0.45*game.windowScaleY())
+
+			eventScreen.onContinue = function(e)
+			end
+
+			eventScreen.onClose = function(e)
+			end
+		]]>
+	</event>
+</menu>

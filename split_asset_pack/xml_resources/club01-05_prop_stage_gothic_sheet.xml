@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:63c799ca1dece4b39cfa7c398f4d48df:e23699bea9ed511bad5d356c6b0c36d8:e418c0b5c1a74e3f6cb31542e4eafc53$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_stage_gothic_sheet.png" width="2048" height="2048" hires="true" version="1">
+	<sprite n="candles_02_flame1" x="1957" y="796" w="82" h="81" oX="10" oY="18" oW="97" oH="112" r="y"/>
+	<sprite n="candles_02_flame2" x="1871" y="796" w="84" h="81" oX="9" oY="16" oW="97" oH="112" r="y"/>
+	<sprite n="candles_02_flame3" x="1871" y="879" w="81" h="80" oX="10" oY="20" oW="97" oH="112"/>
+	<sprite n="candles_04_flame1" x="1871" y="627" w="114" h="82" oX="9" oY="14" oW="97" oH="137" r="y"/>
+	<sprite n="candles_04_flame2" x="1871" y="544" w="116" h="81" oX="9" oY="12" oW="97" oH="137" r="y"/>
+	<sprite n="candles_04_flame3" x="1871" y="711" w="110" h="83" oX="8" oY="18" oW="97" oH="137" r="y"/>
+	<sprite n="candles_05_flame1" x="2000" y="421" w="44" h="89" oX="7" oY="6" oW="106" oH="64" r="y"/>
+	<sprite n="candles_05_flame2" x="2000" y="330" w="46" h="89" oX="7" oY="4" oW="106" oH="64" r="y"/>
+	<sprite n="candles_05_flame3" x="2000" y="512" w="41" h="89" oX="7" oY="8" oW="106" oH="64" r="y"/>
+	<sprite n="gothic_stage" x="0" y="0" w="1869" h="1019" oX="1" oY="7" oW="1870" oH="1046"/>
+	<sprite n="gothic_stage_base" x="648" y="1788" w="820" h="229" oX="57" oY="219" oW="935" oH="523"/>
+	<sprite n="gothic_stage_front_glow" x="453" y="1383" w="893" h="403" oX="0" oY="113" oW="909" oH="518"/>
+	<sprite n="gothic_stage_front_grate" x="0" y="1021" w="451" h="897" r="y"/>
+	<sprite n="gothic_stage_grate" x="453" y="1021" w="1548" h="360"/>
+	<sprite n="pyro_pillar_base" x="1989" y="603" w="53" h="72" oX="14" oY="123" oW="99" oH="176" r="y"/>
+	<sprite n="pyro_pillar_center" x="1871" y="217" w="141" h="111" oX="2" oY="7" oW="116" oH="176" r="y"/>
+	<sprite n="pyro_pillar_top" x="1871" y="0" w="148" h="99" oX="0" oY="0" oW="99" oH="176" r="y"/>
+	<sprite n="stage_candles_01" x="1871" y="101" w="144" h="114"/>
+	<sprite n="stage_candles_02" x="1348" y="1383" w="194" h="223"/>
+	<sprite n="stage_candles_04" x="453" y="1788" w="193" h="249" oX="0" oY="23" oW="193" oH="272"/>
+	<sprite n="stage_candles_05" x="1871" y="330" w="127" h="212" r="y"/>
+</TextureAtlas>

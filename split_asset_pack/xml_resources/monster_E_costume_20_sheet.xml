@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7c130e922e60ae588f81bd2c638eb9bb:86bc38cd5b1c750dcbb48f930f1514d7:1fb9d0049bba17c2147ee05faf9f1622$ -->
+<TextureAtlas imagePath="gfx/costumes/monster_E_costume_20_sheet.png" width="256" height="256" hires="true" version="1">
+	<sprite n="E_body" x="0" y="0" w="114" h="230" pX="0.5" pY="0.5"/>
+	<sprite n="E_leftupperarm" x="116" y="56" w="100" h="42" pX="0.5" pY="0.5" r="y"/>
+	<sprite n="E_rightupperarm" x="116" y="0" w="125" h="54" pX="0.5166666666666667" pY="0.2375" oX="2" oY="5" oW="60" oH="160" r="y"/>
+</TextureAtlas>

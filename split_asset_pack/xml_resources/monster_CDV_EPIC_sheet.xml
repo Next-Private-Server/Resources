@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:6e1d76ea2a26cb684f1cac3e41618cb5:c15163cf056dec8efbf15eee93518078:c675a086cc79060f59351d7786710b9e$ -->
+<TextureAtlas imagePath="gfx/monsters/monster_CDV_EPIC_sheet.png" width="1024" height="512" hires="true" version="1">
+  <sprite n="CDV_eyelids_01" x="114" y="452" w="76" h="48">
+    <vertices>76 48 0 48 0 0 76 0</vertices>
+    <verticesUV>190 500 114 500 114 452 190 452</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_eyelids_02" x="192" y="427" w="76" h="48">
+    <vertices>76 48 0 48 0 0 76 0</vertices>
+    <verticesUV>268 475 192 475 192 427 268 427</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_eyelids_03" x="271" y="441" w="76" h="48">
+    <vertices>76 48 0 48 0 0 76 0</vertices>
+    <verticesUV>347 489 271 489 271 441 347 441</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_eyelids_04" x="349" y="462" w="76" h="48">
+    <vertices>76 48 0 48 0 0 76 0</vertices>
+    <verticesUV>425 510 349 510 349 462 425 462</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_fingers" x="0" y="211" w="31" h="39" oX="5" oY="5" oW="41" oH="49">
+    <vertices>36 44 5 44 5 5 36 5</vertices>
+    <verticesUV>31 250 0 250 0 211 31 211</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_01" x="270" y="314" w="60" h="124" oX="22" oY="0" oW="82" oH="126">
+    <vertices>82 25 49 124 22 119 22 48 57 0 82 0</vertices>
+    <verticesUV>330 339 297 438 270 433 270 362 305 314 330 314</verticesUV>
+    <triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_02" x="676" y="356" w="76" h="124" oX="6" oY="0" oW="82" oH="126">
+    <vertices>82 38 44 124 6 61 69 0 82 0</vertices>
+    <verticesUV>752 394 714 480 676 417 739 356 752 356</verticesUV>
+    <triangles>0 3 4 2 0 1 2 3 0</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_03" x="508" y="269" w="72" h="119" oX="10" oY="0" oW="82" oH="126">
+    <vertices>82 1 82 20 46 119 16 106 10 56 75 0</vertices>
+    <verticesUV>580 270 580 289 544 388 514 375 508 325 573 269</verticesUV>
+    <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_04" x="237" y="249" w="77" h="126" oX="5" oY="0" oW="82" oH="126">
+    <vertices>82 25 28 126 5 87 16 52 74 0 82 0</vertices>
+    <verticesUV>314 274 260 375 237 336 248 301 306 249 314 249</verticesUV>
+    <triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_05" x="441" y="261" w="82" h="112" oX="0" oY="0" oW="82" oH="126">
+    <vertices>82 27 42 112 12 112 0 89 5 63 74 0 82 0</vertices>
+    <verticesUV>523 288 483 373 453 373 441 350 446 324 515 261 523 261</verticesUV>
+    <triangles>0 5 6 0 4 5 3 4 1 3 1 2 0 1 4</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_06" x="391" y="243" w="81" h="113" oX="1" oY="0" oW="82" oH="126">
+    <vertices>82 24 44 100 9 113 1 91 17 56 73 0 82 0</vertices>
+    <verticesUV>472 267 434 343 399 356 391 334 407 299 463 243 472 243</verticesUV>
+    <triangles>0 5 6 4 0 1 3 1 2 3 4 1 4 5 0</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_07" x="685" y="260" w="81" h="123" oX="1" oY="0" oW="82" oH="126">
+    <vertices>82 33 23 123 1 107 9 59 73 0 82 0</vertices>
+    <verticesUV>766 293 707 383 685 367 693 319 757 260 766 260</verticesUV>
+    <triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_08" x="356" y="220" w="74" h="125" oX="8" oY="0" oW="82" oH="126">
+    <vertices>82 36 36 113 9 125 8 55 72 0 82 0</vertices>
+    <verticesUV>430 256 384 333 357 345 356 275 420 220 430 220</verticesUV>
+    <triangles>0 4 5 0 3 4 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_09" x="308" y="185" w="76" h="126" oX="6" oY="0" oW="82" oH="126">
+    <vertices>82 17 39 121 22 126 6 125 29 23 78 0 82 0</vertices>
+    <verticesUV>384 202 341 306 324 311 308 310 331 208 380 185 384 185</verticesUV>
+    <triangles>0 5 6 4 0 1 3 1 2 3 4 1 4 5 0</triangles>
+  </sprite>
+  <sprite n="CDV_left_hair_10" x="897" y="331" w="64" h="126" oX="18" oY="0" oW="82" oH="126">
+    <vertices>82 75 40 125 36 126 32 126 18 47 67 0 82 0</vertices>
+    <verticesUV>961 406 919 456 915 457 911 457 897 378 946 331 961 331</verticesUV>
+    <triangles>0 5 6 0 4 5 3 4 1 3 1 2 0 1 4</triangles>
+  </sprite>
+  <sprite n="CDV_left_hand" x="797" y="152" w="39" h="21" oX="16" oY="1" oW="55" oH="22">
+    <vertices>55 22 16 22 16 1 55 1</vertices>
+    <verticesUV>836 173 797 173 797 152 836 152</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_lower_arm" x="926" y="0" w="97" h="24">
+    <vertices>97 24 0 24 0 0 97 0</vertices>
+    <verticesUV>1023 24 926 24 926 0 1023 0</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_left_lower_finger" x="151" y="420" w="39" h="28" oX="0" oY="0" oW="42" oH="29">
+    <vertices>39 27 7 28 0 14 0 0 20 0</vertices>
+    <verticesUV>190 447 158 448 151 434 151 420 171 420</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="CDV_left_upper_finger" x="576" y="308" w="18" h="43">
+    <vertices>18 40 15 43 0 43 0 0 18 0</vertices>
+    <verticesUV>594 348 591 351 576 351 576 308 594 308</verticesUV>
+    <triangles>0 3 4 2 3 0 2 0 1</triangles>
+  </sprite>
+  <sprite n="CDV_mouth_01" x="29" y="101" w="23" h="8">
+    <vertices>23 8 0 8 0 0 23 0</vertices>
+    <verticesUV>52 109 29 109 29 101 52 101</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_mouth_02" x="567" y="456" w="20" h="6" oX="1" oY="2" oW="23" oH="8">
+    <vertices>21 8 1 8 1 2 21 2</vertices>
+    <verticesUV>587 462 567 462 567 456 587 456</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_mouth_03" x="797" y="175" w="10" h="6" oX="7" oY="2" oW="23" oH="8">
+    <vertices>17 8 7 8 7 2 17 2</vertices>
+    <verticesUV>807 181 797 181 797 175 807 175</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_pupil_EPIC" x="332" y="327" w="21" h="20">
+    <vertices>21 20 0 20 0 0 21 0</vertices>
+    <verticesUV>353 347 332 347 332 327 353 327</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_right_hand" x="35" y="469" w="37" h="39">
+    <vertices>37 39 0 39 0 0 37 0</vertices>
+    <verticesUV>72 508 35 508 35 469 72 469</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_right_lower_arm" x="0" y="111" w="78" h="26">
+    <vertices>78 26 0 26 0 0 78 0</vertices>
+    <verticesUV>78 137 0 137 0 111 78 111</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_right_lower_finger" x="398" y="72" w="25" h="41">
+    <vertices>25 41 0 41 0 0 25 0</vertices>
+    <verticesUV>423 113 398 113 398 72 423 72</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_right_upper_finger" x="446" y="0" w="13" h="42">
+    <vertices>13 42 0 42 0 0 13 0</vertices>
+    <verticesUV>459 42 446 42 446 0 459 0</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_skeleton_EPIC" x="0" y="0" w="396" h="209">
+    <vertices>396 103 396 170 295 205 232 171 154 209 0 209 0 163 93 135 188 24 354 0 359 0</vertices>
+    <verticesUV>396 103 396 170 295 205 232 171 154 209 0 209 0 163 93 135 188 24 354 0 359 0</verticesUV>
+    <triangles>2 0 1 3 8 9 5 6 7 7 3 4 4 5 7 7 8 3 3 0 2 3 9 0 0 9 10</triangles>
+  </sprite>
+  <sprite n="CDV_skull_EPIC" x="797" y="0" w="207" h="150">
+    <vertices>207 58 207 129 81 150 0 150 0 0 63 0</vertices>
+    <verticesUV>1004 58 1004 129 878 150 797 150 797 0 860 0</verticesUV>
+    <triangles>3 4 5 2 3 5 0 1 2 0 2 5</triangles>
+  </sprite>
+  <sprite n="CDV_sleeves_l_EPIC" x="784" y="236" w="163" h="80" oX="0" oY="0" oW="165" oH="80">
+    <vertices>163 48 110 77 16 80 0 69 18 0 156 0</vertices>
+    <verticesUV>947 284 894 313 800 316 784 305 802 236 940 236</verticesUV>
+    <triangles>1 4 5 2 3 4 1 2 4 0 1 5</triangles>
+  </sprite>
+  <sprite n="CDV_sleeves_r_EPIC" x="752" y="315" w="143" h="97" oX="0" oY="1" oW="144" oH="100">
+    <vertices>143 98 24 96 0 36 0 7 143 1</vertices>
+    <verticesUV>895 412 776 410 752 350 752 321 895 315</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="CDV_spine_01_EPIC" x="323" y="349" w="59" h="107">
+    <vertices>59 107 43 107 36 106 0 37 0 19 19 0 59 0</vertices>
+    <verticesUV>382 456 366 456 359 455 323 386 323 368 342 349 382 349</verticesUV>
+    <triangles>3 5 6 3 4 5 0 3 6 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_spine_02_EPIC" x="969" y="154" w="46" h="117">
+    <vertices>46 117 28 117 0 89 0 0 46 0</vertices>
+    <verticesUV>1015 271 997 271 969 243 969 154 1015 154</verticesUV>
+    <triangles>2 3 4 0 2 4 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_spine_03_EPIC" x="384" y="359" w="41" h="101">
+    <vertices>41 101 0 101 0 0 41 0</vertices>
+    <verticesUV>425 460 384 460 384 359 425 359</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_spine_04_EPIC" x="427" y="375" w="45" h="88">
+    <vertices>45 88 0 88 0 0 45 0</vertices>
+    <verticesUV>472 463 427 463 427 375 472 375</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_spine_05_EPIC" x="474" y="383" w="53" h="74">
+    <vertices>53 28 19 74 0 74 0 23 19 2 27 0 53 0</vertices>
+    <verticesUV>527 411 493 457 474 457 474 406 493 385 501 383 527 383</verticesUV>
+    <triangles>0 5 6 4 0 3 4 5 0 1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_spine_06_EPIC" x="909" y="444" w="52" h="65">
+    <vertices>52 65 0 65 0 28 25 3 31 0 52 0</vertices>
+    <verticesUV>961 509 909 509 909 472 934 447 940 444 961 444</verticesUV>
+    <triangles>3 4 5 0 3 5 0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_tail_01" x="114" y="262" w="131" h="105" oX="31" oY="26" oW="195" oH="134">
+    <vertices>162 64 134 107 31 131 53 56 143 26</vertices>
+    <verticesUV>245 300 217 343 114 367 136 292 226 262</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="CDV_tail_02" x="526" y="156" w="137" h="122" oX="40" oY="4" oW="195" oH="134">
+    <vertices>177 92 40 126 50 79 133 4</vertices>
+    <verticesUV>663 244 526 278 536 231 619 156</verticesUV>
+    <triangles>0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_tail_03" x="127" y="174" w="150" h="111" oX="30" oY="14" oW="195" oH="134">
+    <vertices>180 86 30 125 66 51 135 14</vertices>
+    <verticesUV>277 246 127 285 163 211 232 174</verticesUV>
+    <triangles>0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_tail_04" x="0" y="0" w="139" h="108" oX="48" oY="12" oW="195" oH="134">
+    <vertices>187 55 48 120 65 35 106 12</vertices>
+    <verticesUV>139 43 0 108 17 23 58 0</verticesUV>
+    <triangles>0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_tail_05" x="0" y="300" w="116" h="122" oX="46" oY="4" oW="195" oH="134">
+    <vertices>162 56 46 126 71 12 130 4</vertices>
+    <verticesUV>116 352 0 422 25 308 84 300</verticesUV>
+    <triangles>0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_tail_06" x="1" y="383" w="145" h="91" oX="32" oY="6" oW="195" oH="134">
+    <vertices>120 8 177 65 32 97 51 43 100 6</vertices>
+    <verticesUV>89 385 146 442 1 474 20 420 69 383</verticesUV>
+    <triangles>0 1 3 1 2 3 0 3 4</triangles>
+  </sprite>
+  <sprite n="CDV_tail_07" x="781" y="415" w="119" h="70" oX="34" oY="28" oW="195" oH="134">
+    <vertices>153 98 34 98 34 28 153 28</vertices>
+    <verticesUV>900 485 781 485 781 415 900 415</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="CDV_tail_08" x="118" y="339" w="138" h="85" oX="23" oY="20" oW="195" oH="134">
+    <vertices>161 58 130 105 23 92 59 47 141 20</vertices>
+    <verticesUV>256 377 225 424 118 411 154 366 236 339</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="CDV_tail_09" x="16" y="210" w="144" h="94" oX="33" oY="20" oW="195" oH="134">
+    <vertices>134 105 33 114 56 46 177 20</vertices>
+    <verticesUV>117 295 16 304 39 236 160 210</verticesUV>
+    <triangles>0 2 3 0 1 2</triangles>
+  </sprite>
+  <sprite n="CDV_upper_body_EPIC" x="395" y="0" w="180" h="252">
+    <vertices>178 57 154 139 180 165 180 189 117 252 98 252 14 206 0 186 0 178 89 0 178 0</vertices>
+    <verticesUV>573 57 549 139 575 165 575 189 512 252 493 252 409 206 395 186 395 178 484 0 573 0</verticesUV>
+    <triangles>0 9 10 1 9 0 6 7 8 6 8 1 6 1 5 1 2 3 1 3 4 5 1 4 1 8 9</triangles>
+  </sprite>
+  <sprite n="cloth_strip_01_EPIC" x="797" y="141" w="170" h="93">
+    <vertices>170 93 0 93 0 48 148 0 170 0</vertices>
+    <verticesUV>967 234 797 234 797 189 945 141 967 141</verticesUV>
+    <triangles>0 3 4 2 0 1 2 3 0</triangles>
+  </sprite>
+  <sprite n="cloth_strip_02_EPIC" x="669" y="123" w="126" h="147">
+    <vertices>20 147 17 147 17 145 20 145 126 131 49 139 0 90 0 83 58 77 109 0 126 0</vertices>
+    <verticesUV>689 270 686 270 686 268 689 268 795 254 718 262 669 213 669 206 727 200 778 123 795 123</verticesUV>
+    <triangles>1 2 3 0 1 3 8 9 10 6 7 8 5 6 8 4 8 10 4 5 8</triangles>
+  </sprite>
+  <sprite n="cloth_strip_03_EPIC" x="963" y="377" w="60" h="127">
+    <vertices>60 127 0 127 0 0 60 0</vertices>
+    <verticesUV>1023 504 963 504 963 377 1023 377</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="cloth_strip_04_EPIC" x="945" y="236" w="69" h="139">
+    <vertices>69 63 69 139 29 139 0 19 0 0 15 0</vertices>
+    <verticesUV>1014 299 1014 375 974 375 945 255 945 236 960 236</verticesUV>
+    <triangles>3 4 5 0 1 2 0 2 3 0 3 5</triangles>
+  </sprite>
+  <sprite n="cloth_strip_05_EPIC" x="600" y="337" w="73" h="102">
+    <vertices>73 102 58 102 0 15 0 0 73 0</vertices>
+    <verticesUV>673 439 658 439 600 352 600 337 673 337</verticesUV>
+    <triangles>2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="hair_front_EPIC" x="550" y="363" w="74" h="100" oX="52" oY="0" oW="126" oH="107">
+    <vertices>126 29 126 100 75 83 52 15 61 0</vertices>
+    <verticesUV>624 392 624 463 573 446 550 378 559 363</verticesUV>
+    <triangles>0 2 3 0 1 2 0 3 4</triangles>
+  </sprite>
+  <sprite n="head_EPIC" x="575" y="0" w="220" h="173">
+    <vertices>220 108 129 173 102 173 33 149 0 75 0 44 35 2 72 0 220 0</vertices>
+    <verticesUV>795 108 704 173 677 173 608 149 575 75 575 44 610 2 647 0 795 0</verticesUV>
+    <triangles>0 7 8 3 7 2 5 7 4 4 7 3 5 6 7 1 2 7 0 1 7</triangles>
+  </sprite>
+  <sprite n="pigtail_l_01_EPIC" x="626" y="441" w="58" h="60">
+    <vertices>58 60 0 60 0 0 58 0</vertices>
+    <verticesUV>684 501 626 501 626 441 684 441</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="pigtail_l_02_EPIC" x="54" y="70" w="54" h="39">
+    <vertices>54 39 0 39 0 23 29 2 33 0 54 0</vertices>
+    <verticesUV>108 109 54 109 54 93 83 72 87 70 108 70</verticesUV>
+    <triangles>0 4 5 0 3 4 2 0 1 2 3 0</triangles>
+  </sprite>
+  <sprite n="pigtail_l_03_EPIC" x="583" y="249" w="101" h="86">
+    <vertices>101 86 41 86 0 45 0 23 69 0 101 0</vertices>
+    <verticesUV>684 335 624 335 583 294 583 272 652 249 684 249</verticesUV>
+    <triangles>0 4 5 2 3 4 1 2 4 0 1 4</triangles>
+  </sprite>
+  <sprite n="pigtail_r_01_EPIC" x="744" y="418" w="35" h="57">
+    <vertices>35 57 0 57 0 0 35 0</vertices>
+    <verticesUV>779 475 744 475 744 418 779 418</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="pigtail_r_02_EPIC" x="74" y="460" w="38" h="39">
+    <vertices>38 39 0 39 0 0 38 0</vertices>
+    <verticesUV>112 499 74 499 74 460 112 460</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="pigtail_r_03_EPIC" x="387" y="0" w="57" h="70">
+    <vertices>57 70 0 70 0 0 57 0</vertices>
+    <verticesUV>444 70 387 70 387 0 444 0</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="spike_01_EPIC" x="567" y="464" w="51" h="44">
+    <vertices>51 44 0 44 0 0 51 0</vertices>
+    <verticesUV>618 508 567 508 567 464 618 464</verticesUV>
+    <triangles>1 2 3 0 1 3</triangles>
+  </sprite>
+  <sprite n="spike_02_EPIC" x="427" y="465" w="63" h="47">
+    <vertices>63 46 50 47 0 47 0 0 63 0</vertices>
+    <verticesUV>490 511 477 512 427 512 427 465 490 465</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+  <sprite n="spike_03_EPIC" x="514" y="432" w="51" h="62">
+    <vertices>51 62 4 62 0 60 0 0 51 0</vertices>
+    <verticesUV>565 494 518 494 514 492 514 432 565 432</verticesUV>
+    <triangles>1 3 4 1 2 3 0 1 4</triangles>
+  </sprite>
+</TextureAtlas>

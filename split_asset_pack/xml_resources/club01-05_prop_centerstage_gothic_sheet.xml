@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a8e413dc16ca09c9282806d83fc2fe03:6ed5235b717bde2a6f3764ac26a2ec6b:a2622a6cd635915f8477120192399c03$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_centerstage_gothic_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="candles_03_flame1" x="980" y="353" w="41" h="66" oX="7" oY="12" oW="51" oH="104"/>
+	<sprite n="candles_03_flame2" x="980" y="421" w="41" h="64" oX="6" oY="14" oW="51" oH="104"/>
+	<sprite n="candles_03_flame3" x="980" y="187" w="42" h="70" oX="6" oY="9" oW="51" oH="104"/>
+	<sprite n="candles_06_flame1" x="0" y="1049" w="148" h="116" oX="6" oY="0" oW="158" oH="120"/>
+	<sprite n="candles_06_flame2" x="150" y="1060" w="147" h="113" oX="6" oY="3" oW="158" oH="120"/>
+	<sprite n="candles_06_flame3" x="426" y="956" w="148" h="116" oX="5" oY="0" oW="158" oH="120"/>
+	<sprite n="candles_07_flame1" x="980" y="259" w="41" h="92" oX="8" oY="7" oW="107" oH="54" r="y"/>
+	<sprite n="candles_07_flame2" x="980" y="94" w="42" h="91" oX="9" oY="5" oW="107" oH="54" r="y"/>
+	<sprite n="candles_07_flame3" x="980" y="0" w="44" h="92" oX="7" oY="4" oW="107" oH="54" r="y"/>
+	<sprite n="center_stage" x="0" y="0" w="718" h="444" oX="0" oY="8" oW="718" oH="452"/>
+	<sprite n="center_stage_glow" x="956" y="487" w="53" h="106" r="y"/>
+	<sprite n="center_stage_grate" x="0" y="621" w="660" h="333" oX="28" oY="15" oW="718" oH="452"/>
+	<sprite n="center_stage_OL" x="0" y="446" w="713" h="173" oX="3" oY="219" oW="718" oH="452"/>
+	<sprite n="center_stage_outer_glow" x="956" y="595" w="45" h="86" oX="9" oY="3" oW="106" oH="53" r="y"/>
+	<sprite n="elevated_center" x="662" y="804" w="312" h="484" r="y"/>
+	<sprite n="elevated_center_glow" x="720" y="0" w="258" h="484" oX="0" oY="54" oW="484" oH="312" r="y"/>
+	<sprite n="stage_candles_03" x="216" y="956" w="208" h="102" r="y"/>
+	<sprite n="stage_candles_06" x="715" y="486" w="239" h="316" r="y"/>
+	<sprite n="stage_candles_07" x="0" y="956" w="214" h="91" oX="0" oY="16" oW="214" oH="107"/>
+</TextureAtlas>

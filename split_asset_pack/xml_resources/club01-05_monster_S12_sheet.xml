@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:67d34f5b4f100f3de5f99d965034454a:4ad609350681a903aa60271cd2a39af4:503bd9edfd7233b8915e0df68723bb0c$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_monster_S12_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="S12_chest_hand" x="128" y="732" w="50" h="49" oX="5" oY="5" oW="60" oH="60"/>
+	<sprite n="S12_chest_lower_arm" x="82" y="664" w="20" h="55" oX="10" oY="2" oW="40" oH="60"/>
+	<sprite n="S12_chest_upperarm" x="128" y="712" w="51" h="18" oX="11" oY="4" oW="40" oH="60" r="y"/>
+	<sprite n="S12_golem_chest_bg" x="257" y="0" w="169" h="129" oX="82" oY="78" oW="380" oH="280"/>
+	<sprite n="S12_golem_chest_left_fg" x="257" y="131" w="161" h="135" oX="96" oY="66" oW="380" oH="280" r="y"/>
+	<sprite n="S12_golem_chest_right_fg" x="0" y="140" w="158" h="115" oX="181" oY="56" oW="380" oH="280" r="y"/>
+	<sprite n="S12_golem_head" x="160" y="291" w="94" h="96" oX="53" oY="44" oW="200" oH="200"/>
+	<sprite n="S12_golem_jaw_01" x="380" y="341" w="30" h="74" oX="53" oY="51" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_jaw_02" x="337" y="618" w="71" h="43" oX="57" oY="41" oW="200" oH="200"/>
+	<sprite n="S12_golem_jaw_03" x="331" y="663" w="73" h="42" oX="53" oY="38" oW="200" oH="200"/>
+	<sprite n="S12_golem_jaw_bg_01" x="107" y="567" w="26" h="74" oX="53" oY="45" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_jaw_bg_02" x="125" y="315" w="32" h="68" oX="58" oY="41" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_jaw_bg_03" x="339" y="548" w="69" h="44" oX="56" oY="32" oW="200" oH="200"/>
+	<sprite n="S12_golem_left foot_bg" x="135" y="571" w="87" h="51" oX="58" oY="16" oW="200" oH="200"/>
+	<sprite n="S12_golem_left foot_fg" x="257" y="268" w="121" h="96" oX="52" oY="40" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_left_hand_01" x="142" y="492" w="105" h="77" oX="51" oY="27" oW="180" oH="180" r="y"/>
+	<sprite n="S12_golem_left_hand_02" x="0" y="427" w="112" h="71" oX="51" oY="26" oW="180" oH="180" r="y"/>
+	<sprite n="S12_golem_left_hand_03" x="254" y="448" w="112" h="78" oX="47" oY="25" oW="180" oH="180" r="y"/>
+	<sprite n="S12_golem_left_hand_04" x="0" y="500" w="105" h="74" oX="53" oY="27" oW="180" oH="180" r="y"/>
+	<sprite n="S12_golem_left_knee" x="0" y="686" w="61" h="50" oX="25" oY="21" oW="100" oH="100" r="y"/>
+	<sprite n="S12_golem_right knee" x="0" y="738" w="61" h="50" oX="24" oY="21" oW="100" oH="100" r="y"/>
+	<sprite n="S12_golem_right leg_bg" x="249" y="602" w="86" h="47" oX="59" oY="20" oW="200" oH="200"/>
+	<sprite n="S12_golem_right leg_fg" x="160" y="140" w="95" h="121" oX="53" oY="40" oW="200" oH="200"/>
+	<sprite n="S12_golem_right_hand_01" x="428" y="0" w="82" h="92" oX="54" oY="25" oW="180" oH="180"/>
+	<sprite n="S12_golem_right_hand_02" x="249" y="528" w="88" h="72" oX="58" oY="26" oW="180" oH="180" r="y"/>
+	<sprite n="S12_golem_right_hand_03" x="428" y="94" w="82" h="89" oX="47" oY="24" oW="180" oH="180"/>
+	<sprite n="S12_golem_right_hand_04" x="410" y="578" w="87" h="86" oX="50" oY="27" oW="180" oH="180"/>
+	<sprite n="S12_golem_right_hand_METAL" x="411" y="468" w="88" h="86" oX="47" oY="24" oW="180" oH="180"/>
+	<sprite n="S12_golem_shoulder left_bg" x="248" y="651" w="81" h="73" oX="47" oY="89" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_shoulder left_fg" x="0" y="257" w="123" h="102" oX="52" oY="31" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_shoulder right_bg" x="0" y="576" w="103" h="61" oX="48" oY="37" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_shoulder right_fg" x="256" y="366" w="112" h="80" oX="73" oY="47" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_trunks_bg" x="0" y="361" w="120" h="64" oX="38" oY="23" oW="200" oH="160"/>
+	<sprite n="S12_golem_trunks_fg" x="420" y="263" w="90" h="135" oX="33" oY="43" oW="200" oH="160" r="y"/>
+	<sprite n="S12_golem_wrist left" x="156" y="389" w="96" h="101" oX="11" oY="9" oW="120" oH="120"/>
+	<sprite n="S12_golem_wrist right_bg" x="132" y="647" w="80" h="63" oX="58" oY="46" oW="200" oH="200" r="y"/>
+	<sprite n="S12_golem_wrist right_fg" x="420" y="185" w="91" h="76" oX="67" oY="64" oW="200" oH="200" r="y"/>
+	<sprite n="S12_head_hand" x="224" y="571" w="23" h="47" oX="8" oY="6" oW="40" oH="60"/>
+	<sprite n="S12_head_hand_index_01" x="125" y="277" w="33" h="17" oX="11" oY="13" oW="40" oH="60" r="y"/>
+	<sprite n="S12_head_hand_index_02" x="122" y="385" w="32" h="20" oX="10" oY="13" oW="40" oH="60" r="y"/>
+	<sprite n="S12_head_hand_lowerarm" x="412" y="421" w="96" h="21" oX="10" oY="12" oW="40" oH="120" r="y"/>
+	<sprite n="S12_head_hand_midF_01" x="125" y="257" w="33" h="18" oX="11" oY="13" oW="40" oH="60" r="y"/>
+	<sprite n="S12_head_hand_midF_02" x="125" y="296" w="33" h="17" oX="12" oY="13" oW="40" oH="60" r="y"/>
+	<sprite n="S12_head_hand_pinky" x="181" y="712" w="18" h="44" oX="11" oY="9" oW="40" oH="60"/>
+	<sprite n="S12_head_hand_thumb" x="104" y="696" w="22" h="47" oX="9" oY="6" oW="40" oH="60"/>
+	<sprite n="S12_head_hand_upperarm" x="339" y="594" w="66" h="22" oX="9" oY="7" oW="40" oH="80" r="y"/>
+	<sprite n="S12_jaw_hand" x="105" y="643" w="25" h="51" oX="4" oY="7" oW="60" oH="40" r="y"/>
+	<sprite n="S12_jaw_hand_finger_01" x="380" y="324" w="36" h="15" oX="11" oY="12" oW="40" oH="60" r="y"/>
+	<sprite n="S12_jaw_hand_finger_02" x="380" y="306" w="37" h="16" oX="11" oY="11" oW="40" oH="60" r="y"/>
+	<sprite n="S12_jaw_hand_finger_03" x="63" y="686" w="16" h="41" oX="12" oY="8" oW="40" oH="60"/>
+	<sprite n="S12_jaw_hand_lowerarm" x="81" y="721" w="18" h="54" oX="11" oY="3" oW="40" oH="60"/>
+	<sprite n="S12_jaw_hand_upperarm" x="370" y="417" w="40" h="20" oX="10" oY="10" oW="40" oH="60" r="y"/>
+	<sprite n="S12_left_leg" x="160" y="263" w="95" h="26" oX="7" oY="12" oW="40" oH="120" r="y"/>
+	<sprite n="S12_left_leg_hand" x="368" y="502" w="41" h="44" oX="9" oY="8" oW="60" oH="60"/>
+	<sprite n="S12_left_lowerarm_01" x="411" y="444" w="101" h="22" oX="8" oY="9" oW="40" oH="120" r="y"/>
+	<sprite n="S12_left_lowerarm_02" x="412" y="400" w="100" h="19" oX="10" oY="10" oW="40" oH="120" r="y"/>
+	<sprite n="S12_left_shoulder_hand" x="406" y="666" w="49" h="46" oX="25" oY="26" oW="100" oH="100"/>
+	<sprite n="S12_left_upperarm_01" x="214" y="686" w="24" h="72" oX="7" oY="23" oW="40" oH="120"/>
+	<sprite n="S12_left_upperarm_02" x="0" y="664" w="80" h="20" oX="10" oY="19" oW="40" oH="120" r="y"/>
+	<sprite n="S12_right_leg" x="0" y="639" w="103" h="23" oX="8" oY="8" oW="40" oH="120" r="y"/>
+	<sprite n="S12_right_lowearm_01" x="114" y="477" w="26" h="88" oX="6" oY="6" oW="40" oH="100"/>
+	<sprite n="S12_right_lowearm_02" x="410" y="556" w="88" h="20" oX="10" oY="6" oW="40" oH="100" r="y"/>
+	<sprite n="S12_right_shoulder_hand" x="370" y="439" w="39" h="61" oX="10" oY="9" oW="60" oH="80"/>
+	<sprite n="S12_right_upperarm_01" x="224" y="620" w="22" h="64" oX="9" oY="19" oW="40" oH="100"/>
+	<sprite n="S12_right_upperarm_02" x="135" y="624" w="81" h="21" oX="9" oY="10" oW="40" oH="100" r="y"/>
+	<sprite n="S12_shadow" x="0" y="0" w="255" h="138" oX="12" oY="11" oW="280" oH="160"/>
+	<sprite n="S12_torso_hand" x="380" y="268" w="38" h="36" oX="11" oY="12" oW="60" oH="60"/>
+	<sprite n="S12_torso_lowerarm" x="101" y="745" w="18" h="42" oX="11" oY="9" oW="40" oH="60"/>
+	<sprite n="S12_torso_upperarm" x="122" y="407" w="30" h="68" oX="5" oY="6" oW="40" oH="80"/>
+</TextureAtlas>

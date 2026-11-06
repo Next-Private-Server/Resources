@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:1c2269cf70202fb866a251259ca95d4f:ba8eead3aef0064b68499c205460840a:1b946fd7293192c0b55f3528c0e39270$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_lamp_fantasy_sheet.png" width="512" height="1024" hires="true" version="1">
+	<sprite n="prop_lamp_back" x="338" y="257" w="121" h="194"/>
+	<sprite n="prop_lamp_base" x="0" y="0" w="336" h="292" r="y"/>
+	<sprite n="prop_lamp_mid" x="289" y="655" w="214" h="266"/>
+	<sprite n="prop_lamp_mid_glow" x="316" y="453" w="97" h="200" oX="14" oY="137" oW="214" oH="266" r="y"/>
+	<sprite n="prop_lamp_top" x="0" y="294" w="314" h="241" r="y"/>
+	<sprite n="prop_lamp_top_glow" x="0" y="537" w="287" h="241" oX="0" oY="27" oW="241" oH="314" r="y"/>
+	<sprite n="shadow" x="338" y="0" w="138" h="255" oX="12" oY="11" oW="280" oH="160" r="y"/>
+</TextureAtlas>

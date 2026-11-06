@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:42c70111892924cd5ae02e4cd7cf5b17:ca0a763885c4f1705c6567075eca226c:26bd96b0be5f7fb525af4dc14bfbdf08$ -->
+<TextureAtlas imagePath="gfx/structures/anim_axolotl_king.png" width="512" height="512" hires="true" version="1">
+	<sprite n="arm_over" x="181" y="412" w="108" h="66" oX="1" oY="1" oW="68" oH="110" r="y"/>
+	<sprite n="arm_staff" x="391" y="442" w="59" h="56" oX="1" oY="1" oW="58" oH="62" r="y"/>
+	<sprite n="foot_left" x="407" y="228" w="72" h="71" oX="6" oY="10" oW="90" oH="90" r="y"/>
+	<sprite n="foot_right" x="406" y="300" w="71" h="67" oX="12" oY="13" oW="90" oH="90"/>
+	<sprite n="hand_and_staff" x="1" y="412" w="179" h="77" oX="14" oY="15" oW="100" oH="210" r="y"/>
+	<sprite n="head" x="308" y="140" w="98" h="152" oX="1" oY="1" oW="154" oH="100" r="y"/>
+	<sprite n="heart" x="456" y="1" w="55" h="51" oX="41" oY="34" oW="128" oH="128"/>
+	<sprite n="heart_back_veins" x="407" y="140" w="49" h="87" oX="22" oY="34" oW="128" oH="128" r="y"/>
+	<sprite n="heart_skin_layer" x="308" y="293" w="97" h="112" oX="7" oY="7" oW="128" oH="128" r="y"/>
+	<sprite n="heart_top_veins" x="451" y="442" w="37" h="37" oX="31" oY="30" oW="128" oH="128"/>
+	<sprite n="heart_top_veins2" x="290" y="442" w="43" h="36" oX="65" oY="34" oW="128" oH="128"/>
+	<sprite n="heart_top_veins3" x="1" y="490" w="27" h="18" oX="53" oY="59" oW="128" oH="128" r="y"/>
+	<sprite n="horn_01" x="406" y="368" w="80" h="40" oX="11" oY="6" oW="60" oH="90" r="y"/>
+	<sprite n="horn_02" x="456" y="53" w="44" h="86" oX="6" oY="17" oW="60" oH="110"/>
+	<sprite n="horn_03" x="334" y="442" w="56" h="32" oX="5" oY="6" oW="40" oH="70" r="y"/>
+	<sprite n="horn_04" x="308" y="406" w="84" h="35" oX="8" oY="10" oW="50" oH="100" r="y"/>
+	<sprite n="horn_05" x="478" y="309" w="28" h="34" oX="7" oY="4" oW="40" oH="40"/>
+	<sprite n="lids01" x="480" y="228" w="31" h="80" oX="10" oY="10" oW="100" oH="50" r="y"/>
+	<sprite n="lids02" x="181" y="479" w="81" h="32" oX="10" oY="9" oW="100" oH="50"/>
+	<sprite n="lids03" x="263" y="479" w="81" h="32" oX="10" oY="9" oW="100" oH="50"/>
+	<sprite n="lids04" x="393" y="409" w="81" h="32" oX="10" oY="9" oW="100" oH="50"/>
+	<sprite n="monster" x="308" y="1" w="147" h="138" oX="77" oY="169" oW="320" oH="420"/>
+	<sprite n="pupils" x="457" y="140" w="38" h="87" oX="6" oY="7" oW="100" oH="50" r="y"/>
+	<sprite n="throne" x="1" y="1" w="306" h="410" oX="4" oY="10" oW="320" oH="420"/>
+</TextureAtlas>

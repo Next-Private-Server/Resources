@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:d75b5d1285061a9b3c949adea1738395:a85a9dbfcaf0d195f8838b4efa804bac:2e2e339245260517a34ef726bc57155e$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_backwall_fantasy_sheet.png" width="2048" height="1024" hires="true" version="1">
+	<sprite n="prop_backwall" x="0" y="0" w="1875" h="798">
+		<vertices>1875 505 1370 527 982 596 651 705 573 748 451 798 440 798 175 680 136 678 56 756 0 784 0 0 1875 0</vertices>
+		<verticesUV>1875 505 1370 527 982 596 651 705 573 748 451 798 440 798 175 680 136 678 56 756 0 784 0 0 1875 0</verticesUV>
+		<triangles>8 9 10 8 10 11 2 11 12 7 8 11 7 11 3 4 5 6 4 6 7 7 3 4 2 3 11 1 2 12 0 1 12</triangles>
+	</sprite>
+	<sprite n="star1" x="213" y="746" w="195" h="215" oX="41" oY="31" oW="267" oH="255">
+		<vertices>175 44 236 117 166 216 41 246 49 114 102 31</vertices>
+		<verticesUV>347 759 408 832 338 931 213 961 221 829 274 746</verticesUV>
+		<triangles>0 1 2 2 3 4 0 2 4 0 4 5</triangles>
+	</sprite>
+	<sprite n="star2" x="0" y="735" w="220" h="228" oX="8" oY="3" oW="235" oH="235">
+		<vertices>228 72 219 216 55 231 9 158 8 84 68 23 146 3</vertices>
+		<verticesUV>220 804 211 948 47 963 1 890 0 816 60 755 138 735</verticesUV>
+		<triangles>2 0 1 3 4 5 2 3 0 3 5 0 0 5 6</triangles>
+	</sprite>
+	<sprite n="swirl" x="878" y="574" w="247" h="271" oX="9" oY="2" oW="274" oH="282">
+		<vertices>256 71 155 251 103 259 109 205 41 273 21 269 9 202 114 26 256 2</vertices>
+		<verticesUV>1125 643 1024 823 972 831 978 777 910 845 890 841 878 774 983 598 1125 574</verticesUV>
+		<triangles>0 7 8 6 4 5 6 3 4 6 7 3 0 3 7 1 2 3 0 1 3</triangles>
+	</sprite>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:866640d1ce62fa0b01c3116206fafae5:a2f0eee2183de11dd5d7506cafa07e8d:7e07d8418c2606f49871804e2c1a70a3$ -->
+<TextureAtlas imagePath="gfx/menu/market/door_locks01.png" width="512" height="256" hires="true" version="1">
+	<sprite n="dip_door_lock_1_RARE" x="0" y="0" w="40" h="248" oX="1" oY="12" oW="250" oH="60" r="y"/>
+	<sprite n="dip_door_lock_2_RARE" x="42" y="0" w="40" h="246" oX="2" oY="12" oW="250" oH="60" r="y"/>
+	<sprite n="dip_door_lock_3_RARE" x="84" y="0" w="40" h="246" oX="2" oY="10" oW="250" oH="60" r="y"/>
+	<sprite n="dip_door_lock_EPIC" x="126" y="0" w="272" h="85" oX="4" oY="2" oW="280" oH="90"/>
+</TextureAtlas>

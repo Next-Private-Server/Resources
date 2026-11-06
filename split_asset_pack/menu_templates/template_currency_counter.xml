@@ -2,8 +2,11 @@
   	<script src="scripts/CurrencyCounter.lua" />
 
 	<defaultTemplateVar name="$currencyType" equals="game.CurrencyType_Diamonds" />	
-	<defaultTemplateVar name="$flyingIconMode" equals="0" />
+	<defaultTemplateVar name="$listenPlayerUpdated" equals="0" />
+	<defaultTemplateVar name="$listenToPlayerUpdated" equals="1" />
+	<defaultTemplateVar name="$listenToFlyingIconComplete" equals="0" />
 	<defaultTemplateVar name="$autoHide" equals="0" />
+	<defaultTemplateVar name="$clubboxTheme" equals="0" />
 	<defaultTemplateVar name="$layer" equals="MidPopUps" />
 
 	<size dependentOnElement="element:name()" dependentOnComponent="BackingSprite" />
@@ -11,14 +14,22 @@
 	<ninesliceComponent name="BackingSprite">
 		<size w="100*game.hudScale()" h="31*game.hudScale()" />
 		<event name="onInit" params="component, element">
+			<![CDATA[
 			component("includeBorder"):SetInt(1)
 			component("topHeight"):SetFloat(30.0)
 			component("bottomHeight"):SetFloat(30.0)
 			component("leftWidth"):SetFloat(50.0)
 			component("rightWidth"):SetFloat(50.0)
 			component("size"):SetFloat(0.25*game.hudScale())
-			component("spriteName"):SetString("gfx/menu/BlackTitleFrame")
+
+			if tonumber(element:templateVars().clubboxTheme) == 1 then
+				component("spriteName"):SetString("gfx/clubbox/clubbox_currency_frame_9S")
+			else
+				component("spriteName"):SetString("gfx/menu/BlackTitleFrame")
+			end
+
 			component("layer"):SetString("$layer")
+			]]>
 		</event>
 	</ninesliceComponent>
 

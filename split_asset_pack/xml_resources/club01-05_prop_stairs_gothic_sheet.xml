@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:7571956fc6c1cdf358793f8addcf766a:fc9f3a3c87cf65366872f595275cff5d:332f11458c3103a736e9255d1a2636d1$ -->
+<TextureAtlas imagePath="gfx/clubbox/props/club01-05_prop_stairs_gothic_sheet.png" width="1024" height="2048" hires="true" version="1">
+	<sprite n="candle_flames1" x="815" y="0" w="145" h="198" oX="9" oY="1" oW="157" oH="202"/>
+	<sprite n="candle_flames2" x="714" y="754" w="145" h="195" oX="8" oY="4" oW="157" oH="202"/>
+	<sprite n="candle_flames3" x="815" y="200" w="197" h="146" oX="9" oY="2" oW="157" oH="202" r="y"/>
+	<sprite n="candle_light" x="500" y="406" w="388" h="346"/>
+	<sprite n="candleflame_01" x="958" y="1981" w="11" h="32"/>
+	<sprite n="candleflame_02" x="958" y="2015" w="30" h="11" oX="0" oY="2" oW="11" oH="32" r="y"/>
+	<sprite n="floating_candle_01" x="962" y="100" w="29" h="95" oX="0" oY="1" oW="37" oH="98"/>
+	<sprite n="floating_candle_02" x="962" y="0" w="31" h="98" oX="6" oY="0" oW="37" oH="98"/>
+	<sprite n="floating_candle_03" x="529" y="1160" w="89" h="26" oX="6" oY="4" oW="37" oH="98" r="y"/>
+	<sprite n="lightbeam" x="500" y="754" w="182" h="92" r="y"/>
+	<sprite n="middle_curtain" x="336" y="0" w="162" h="930" r="y"/>
+	<sprite n="middle_curtain_glow" x="529" y="1090" w="183" h="68"/>
+	<sprite n="pillar_bg" x="556" y="848" w="83" h="157" r="y"/>
+	<sprite n="pillar_fg" x="801" y="1615" w="157" h="364"/>
+	<sprite n="pillar_glow" x="714" y="951" w="107" h="107"/>
+	<sprite n="pillar_ledge_glow" x="801" y="1981" w="155" h="60" oX="2" oY="2" oW="160" oH="65"/>
+	<sprite n="pillar_top" x="336" y="932" w="218" h="156" r="y"/>
+	<sprite n="screen_chain" x="336" y="1090" w="191" h="88" oX="22" oY="0" oW="130" oH="200" r="y"/>
+	<sprite n="stair_edge_candles" x="500" y="0" w="313" h="404"/>
+	<sprite n="stair_ground" x="0" y="0" w="334" h="1188" r="y"/>
+	<sprite n="stair_rail" x="0" y="1615" w="799" h="399" r="y"/>
+	<sprite n="stairs" x="0" y="1190" w="882" h="423" r="y"/>
+</TextureAtlas>

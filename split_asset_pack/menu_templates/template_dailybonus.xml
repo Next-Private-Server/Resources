@@ -37,8 +37,8 @@
 
 				element["CoinCluster"]("xOffset"):SetInt(0.0106*lua_sys.screenWidth())
 				element["CoinCluster"]("yOffset"):SetInt(-3200/lua_sys.screenHeight())
-				element("hudIconDest"):SetString("coin")
-				element("hudElementDest"):SetString("CoinCounter")
+				element("flyingIconIcon"):SetString("coin")
+				element("lootType"):SetInt(game.LootType_Coins)
 
 			elseif(element("currencyType"):GetString() == "food") then
 				element["DiamondCluster"]["Diamond1"]["Sprite"]("visible"):SetInt(0)
@@ -50,8 +50,8 @@
 
 				element["FoodCluster"]("xOffset"):SetInt(0.0106*lua_sys.screenWidth())
 				element["FoodCluster"]("yOffset"):SetInt(-3200/lua_sys.screenHeight())
-				element("hudIconDest"):SetString("food")
-				element("hudElementDest"):SetString("FoodCounter")
+				element("flyingIconIcon"):SetString("food")
+				element("lootType"):SetInt(game.LootType_Food)
 				
 			elseif(element("currencyType"):GetString() == "diamonds") then
 			
@@ -60,8 +60,8 @@
 				element["KeyCluster"]["Keys"]["Sprite"]("visible"):SetInt(0)
 				element["FoodCluster"]["Food"]["Sprite"]("visible"):SetInt(0)
 
-				element("hudIconDest"):SetString("diamond")
-				element("hudElementDest"):SetString("DiamondCounter")
+				element("flyingIconIcon"):SetString("diamond")
+				element("lootType"):SetInt(game.LootType_Diamonds)
 
 				if(element("currencyAmount"):GetInt() == 1) then
 					element["DiamondCluster"]("xOffset"):SetInt(0)
@@ -85,8 +85,9 @@
 				element["KeyCluster"]["Keys"]["Sprite"]("visible"):SetInt(0)
 
 				element["RelicCluster"]["Relics"]["Sprite"]("visible"):SetInt(1)
-				element("hudIconDest"):SetString("relic")
-				element("hudElementDest"):SetString("RelicCounter")
+				element("flyingIconIcon"):SetString("relic")
+				element("lootType"):SetInt(game.LootType_Relics)
+
 			elseif(element("currencyType"):GetString() == "keys") then
 				element["DiamondCluster"]["Diamond1"]["Sprite"]("visible"):SetInt(0)
 				element["DiamondCluster"]["Diamond2"]["Sprite"]("visible"):SetInt(0)
@@ -96,8 +97,9 @@
 				element["RelicCluster"]["Relics"]["Sprite"]("visible"):SetInt(0)
 				
 				element["KeyCluster"]["Keys"]["Sprite"]("visible"):SetInt(1)
-				element("hudIconDest"):SetString("keys")
-				element("hudElementDest"):SetString("KeyCounter")
+				element("flyingIconIcon"):SetString("keys")
+				element("lootType"):SetInt(game.LootType_Keys)
+
 			else
 				element["DiamondCluster"]["Diamond1"]["Sprite"]("visible"):SetInt(0)
 				element["DiamondCluster"]["Diamond2"]["Sprite"]("visible"):SetInt(0)
@@ -109,8 +111,8 @@
 
 				element["QuantityText"]["Text"]("visible"):SetInt(0)
 				
-				element("hudIconDest"):SetString("coin")
-				element("hudElementDest"):SetString("CoinCounter")
+				element("flyingIconIcon"):SetString("coin")
+				element("lootType"):SetInt(game.LootType_Coins)
 
 			end
 			
